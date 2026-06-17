@@ -29,21 +29,29 @@ distance from your live location. Read this fully before touching anything.
 - **To change app code, categories (`ne`), or Worlds (`Xr`):** edit
   `src/app.template.html` → `npm run build` → commit the template + `index.html`.
 - `npm run build` **refuses to write `index.html`** (writes nothing) if: spots.json is
-  invalid JSON, any entry is missing a required key, any `id` is duplicated, or any
-  entry's `c` is not a category slug **defined in the template's `ne`** (parsed from
+  invalid JSON, any entry is missing a required key, any `id` is duplicated, any
+  entry's `c` is not a category slug **defined in the template's `ne`**, or any
+  entry's `city` is not a slug **defined in the template's `Ci`** (both parsed from
   the template, not hand-typed). It warns if the entry count differs from 739, then
   re-runs the CLAUDE.md checks below on the generated HTML and fails loudly on any miss.
 - `acorn` is the only dependency (devDependency). `node_modules/` is gitignored; run
   `npm install` once in a fresh checkout.
 
 ## Data model (violating this crashes the app)
-- Entries live in an array `Z = [{id, n, a, pc, lat, lng, c, s, q, w}, ...]`
+- Entries live in an array `Z = [{id, n, a, pc, lat, lng, c, s, q, w, city}, ...]`
   - `n` = name, `a` = area, `pc` = postcode, `c` = category slug, `s` = short hook,
-    `q` = Google query, `w` = writeup.
+    `q` = Google query, `w` = writeup, `city` = city slug.
 - `c` **MUST** be one of exactly **44 valid category slugs**. The code reads
   `ne[entry.c]` **unguarded**, so any unknown slug = **instant white-screen**.
+- `city` **MUST** be a slug defined in the **`Ci` cities registry** (currently just
+  `london`). `build.js` rejects unknown city slugs. All 739 spots are `london` today.
 - Categories are defined in `ne = {slug:{l, e, t}, ...}` (44 slugs;
   l=label, e=emoji, t=tint colour).
+- Cities are defined in `Ci = [{id, name, label, e, lat, lng, bbox, blurb}, ...]`
+  (inline in the template). Adding a city = append a `Ci` entry + spots tagged with
+  its `city` slug. A "Cities" overview tab (map + cards) summarises spots/visited per
+  city; most London-specific bits (default location, geocode bbox, zones, title) are
+  still hardcoded and de-hardcode incrementally as more cities are added.
 - Themed collections ("Worlds") live in
   `Xr = [{id, name, cats, e, blurb, match: e=>…, osm, tag}, ...]` (45 entries).
   The `match` predicate defines membership.

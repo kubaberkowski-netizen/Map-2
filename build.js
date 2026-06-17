@@ -26,7 +26,7 @@ const TEMPLATE = path.join(ROOT, "src", "app.template.html");
 const SPOTS = path.join(ROOT, "data", "spots.json");
 const OUTPUT = path.join(ROOT, "index.html");
 const PLACEHOLDER = "[]/*__FLANEUR_SPOTS__*/";
-const REQUIRED = ["id", "n", "a", "pc", "lat", "lng", "c", "s", "q", "w"];
+const REQUIRED = ["id", "n", "a", "pc", "lat", "lng", "c", "s", "q", "w", "city"];
 const BASELINE = { entries: 739, worlds: 45, categories: 44 };
 
 function die(msg) {
@@ -72,6 +72,41 @@ if (!validSlugs || validSlugs.size === 0) die("could not parse `ne` category slu
 if (validSlugs.size !== BASELINE.categories)
   console.warn(`⚠ template defines ${validSlugs.size} category slugs (baseline ${BASELINE.categories})`);
 
+// --- derive valid city slugs by PARSING the template's `Ci` registry ---------
+function parseCiSlugs(src) {
+  const ast = acorn.parse(src, { ecmaVersion: "latest" });
+  let slugs = null;
+  (function walk(n) {
+    if (!n || typeof n.type !== "string" || slugs) return;
+    if (
+      n.type === "VariableDeclarator" &&
+      n.id && n.id.name === "Ci" &&
+      n.init && n.init.type === "ArrayExpression"
+    ) {
+      slugs = new Set(
+        n.init.elements
+          .filter((el) => el && el.type === "ObjectExpression")
+          .map((el) => {
+            const idp = el.properties.find(
+              (p) => p.type === "Property" && (p.key.name === "id" || p.key.value === "id")
+            );
+            return idp && idp.value && idp.value.value;
+          })
+          .filter(Boolean)
+      );
+      return;
+    }
+    for (const k in n) {
+      const v = n[k];
+      if (Array.isArray(v)) v.forEach((c) => c && typeof c.type === "string" && walk(c));
+      else if (v && typeof v.type === "string") walk(v);
+    }
+  })(ast);
+  return slugs;
+}
+const validCities = parseCiSlugs(scriptBody);
+if (!validCities || validCities.size === 0) die("could not parse `Ci` city registry from template");
+
 // --- read + validate spots.json ----------------------------------------------
 let spots;
 try {
@@ -92,6 +127,9 @@ spots.forEach((e, i) => {
   if (!validSlugs.has(e.c))
     die(`entry ${JSON.stringify(e.id)} has unknown category slug ${JSON.stringify(e.c)} ` +
         `(reads ne[c] unguarded → white-screen). Valid: ${[...validSlugs].join(", ")}`);
+  if (!validCities.has(e.city))
+    die(`entry ${JSON.stringify(e.id)} has unknown city ${JSON.stringify(e.city)} ` +
+        `(not in the Ci registry). Valid: ${[...validCities].join(", ")}`);
 });
 if (spots.length !== BASELINE.entries)
   console.warn(`⚠ entry count is ${spots.length} (baseline ${BASELINE.entries}) — confirm this is intended`);
