@@ -50,8 +50,16 @@ distance from your live location. Read this fully before touching anything.
 - Cities are defined in `Ci = [{id, name, label, e, lat, lng, bbox, blurb}, ...]`
   (inline in the template). Adding a city = append a `Ci` entry + spots tagged with
   its `city` slug. A "Cities" overview tab (map + cards) summarises spots/visited per
-  city; most London-specific bits (default location, geocode bbox, zones, title) are
-  still hardcoded and de-hardcode incrementally as more cities are added.
+  city; picking one sets `cityId` and recentres the reference location on it.
+- **Discovery is filtered by `cityId`** via `Zc = useMemo(Z.filter(z=>z.city===cityId))`.
+  The browse list, walk candidates, radar, map markers, Worlds counts and add-stop
+  search all read `Zc` (spread pools `[...Zc,...J]`, `[...Zc.filter(Me.match)…]`).
+  **`Z` stays global** for id lookups (`Z.find`), achievement/postcode/name indexes,
+  the OSM dedup set, profile visited counts, and the module-level World-layer setup
+  (which runs outside the component, so `Zc` is out of scope there). With only London,
+  `Zc` === all 739 spots, so the app is unchanged until a 2nd city is added.
+- Still London-hardcoded (de-hardcode incrementally): the "too far" 60 km check,
+  geocode `viewbox` + `", London"` suffix, zone presets (`Wu`), and the title.
 - Themed collections ("Worlds") live in
   `Xr = [{id, name, cats, e, blurb, match: e=>…, osm, tag}, ...]` (45 entries).
   The `match` predicate defines membership.
