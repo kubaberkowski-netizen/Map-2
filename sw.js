@@ -48,8 +48,8 @@ self.addEventListener("fetch", (e) => {
     }));
     return;
   }
-  // Leaflet from cdnjs (versioned/immutable): cache-first
-  if (url.hostname === "cdnjs.cloudflare.com") {
+  // Leaflet from unpkg (versioned/immutable): cache-first
+  if (url.hostname === "unpkg.com") {
     e.respondWith(caches.open(SHELL).then(async (c) => {
       const hit = await c.match(req);
       if (hit) return hit;
