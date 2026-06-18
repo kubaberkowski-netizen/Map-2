@@ -60,8 +60,12 @@ distance from your live location. Read this fully before touching anything.
   (which runs outside the component, so `Zc` is out of scope there). `cityId` defaults
   to `london`; the "Cities" tab switches it. The filter is live now that there are
   multiple cities.
-- Still London-hardcoded (de-hardcode incrementally): the "too far" 60 km check,
-  geocode `viewbox` + `", London"` suffix, zone presets (`Wu`), and the title.
+- The app is **city-driven** via `cyo = useMemo(Ci.find(z=>z.id===cityId)||Ci[0])`:
+  the LIVE button detects the nearest city by bbox/centre (snapping to the nearest
+  if you're >60 km from all of them), the geocoder uses `cyo.bbox` + `cyo.name`, the
+  zone chips use `cyo.zones` (London falls back to the inline `Wu` list), and the tab
+  title + share + OSM-toggle copy use `cyo.label`. The static `<title>`/manifest still
+  read "Jakub's London" (default boot) — `document.title` is updated at runtime.
 - Themed collections ("Worlds") live in
   `Xr = [{id, name, cats, e, blurb, match: e=>…, osm, tag}, ...]` (45 entries).
   The `match` predicate defines membership.
