@@ -1,6 +1,6 @@
 /* Flâneur service worker — offline app shell + tile/asset caching */
-const SHELL = "flaneur-shell-v1";
-const TILES = "flaneur-tiles-v1";
+const SHELL = "flaneur-shell-v2";
+const TILES = "flaneur-tiles-v2";
 const TILE_MAX = 350;
 
 self.addEventListener("install", (e) => {
@@ -37,7 +37,7 @@ self.addEventListener("fetch", (e) => {
     return;
   }
   // map tiles: stale-while-revalidate, capped
-  if (/(^|\.)tile\.openstreetmap\.org$/.test(url.hostname) || /basemaps\.cartocdn\.com$/.test(url.hostname)) {
+  if (/(^|\.)tile\.openstreetmap\.org$/.test(url.hostname) || /basemaps\.cartocdn\.com$/.test(url.hostname) || (url.hostname === "api.maptiler.com" && /^\/maps\//.test(url.pathname))) {
     e.respondWith(caches.open(TILES).then(async (c) => {
       const hit = await c.match(req);
       const net = fetch(req).then((res) => {
