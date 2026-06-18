@@ -17,7 +17,7 @@ distance from your live location. Read this fully before touching anything.
   clean JSON without touching minified code). The boot sequence is **unchanged and
   fully synchronous** — the app does NOT fetch JSON at runtime; the catalogue is
   inlined at build time.
-  - `data/spots.json` — the **778 spots** as pretty JSON. **Source of truth for `Z`.**
+  - `data/spots.json` — the **788 spots** as pretty JSON. **Source of truth for `Z`.**
   - `src/app.template.html` — the full app with the inline `Z=[…]` array literal
     replaced by the placeholder `[]/*__FLANEUR_SPOTS__*/`. **Everything else
     (`ne`, `Xr`, all app code) is byte-for-byte the deployed bundle.**
@@ -37,7 +37,7 @@ distance from your live location. Read this fully before touching anything.
   invalid JSON, any entry is missing a required key, any `id` is duplicated, any
   entry's `c` is not a category slug **defined in the template's `ne`**, or any
   entry's `city` is not a slug **defined in the template's `Ci`** (both parsed from
-  the template, not hand-typed). It warns if the entry count differs from the baseline (778), then
+  the template, not hand-typed). It warns if the entry count differs from the baseline (788), then
   re-runs the CLAUDE.md checks below on the generated HTML and fails loudly on any miss.
 - `acorn` is the only dependency (devDependency). `node_modules/` is gitignored; run
   `npm install` once in a fresh checkout.
@@ -49,8 +49,9 @@ distance from your live location. Read this fully before touching anything.
 - `c` **MUST** be one of exactly **44 valid category slugs**. The code reads
   `ne[entry.c]` **unguarded**, so any unknown slug = **instant white-screen**.
 - `city` **MUST** be a slug defined in the **`Ci` cities registry**. `build.js`
-  rejects unknown city slugs. There are **5 cities** today —
-  `london` (741), `manchester` (13), `liverpool` (10), `glasgow` (10), `bristol` (4).
+  rejects unknown city slugs. There are **6 cities** today —
+  `london` (741), `manchester` (13), `liverpool` (10), `glasgow` (10), `bristol` (4),
+  `paris` (10).
 - Categories are defined in `ne = {slug:{l, e, t}, ...}` (44 slugs;
   l=label, e=emoji, t=tint colour).
 - Cities are defined in `Ci = [{id, name, label, e, lat, lng, bbox, blurb}, ...]`
@@ -90,7 +91,7 @@ distance from your live location. Read this fully before touching anything.
 ## Validation recipe — run before EVERY commit, no exceptions
 1. Extract the inline `<script>` body to a temp `.js` and run `node --check` on it.
 2. Confirm counts via grep on the HTML:
-   - **entries** — `id:"…",n:"` → should be **778**
+   - **entries** — `id:"…",n:"` → should be **788**
      `grep -oE 'id:"[^"]*",n:"' index.html | wc -l`
    - **Worlds** — `match:\s*e\s*=>` → should be **45** (do NOT count `osm:`)
      `grep -oE 'match:[[:space:]]*e[[:space:]]*=>' index.html | wc -l`
