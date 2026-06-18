@@ -67,8 +67,11 @@ distance from your live location. Read this fully before touching anything.
   title + share + OSM-toggle copy use `cyo.label`. The static `<title>`/manifest still
   read "Jakub's London" (default boot) — `document.title` is updated at runtime.
 - Themed collections ("Worlds") live in
-  `Xr = [{id, name, cats, e, blurb, match: e=>…, osm, tag}, ...]` (45 entries).
-  The `match` predicate defines membership.
+  `Xr = [{id, name, cats, e, blurb, match: e=>…, osm, tag, ids?}, ...]` (45 entries).
+  Membership is `wmem(World, spot)` = `World.match(spot) || World.ids?.includes(spot.id)`,
+  so an optional `ids:[…]` curated list force-includes specific spots irrespective
+  of category. All discovery/count call sites go through `wmem` — never `.match`
+  directly.
 
 ## The "never touch writeups" rule
 - The single-author writeups (the `w` fields) are the **entire point of the product** —
