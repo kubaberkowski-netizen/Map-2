@@ -73,6 +73,11 @@ function facts(spot, t) {
     const ins = String(t.inscription).replace(/\s+/g, " ").trim();
     if (ins.length >= 4 && ins.length <= 120) out.push(`Inscribed: “${ins}”.`);
   }
+  // locational fallback: the street it stands on (added last, low priority)
+  if (t["addr:street"] && !out.length) {
+    const st = String(t["addr:street"]).replace(/\s+/g, " ").trim();
+    if (st.length >= 3 && st.length <= 40 && !/[0-9]{3,}/.test(st)) out.push(`On ${st}.`);
+  }
   return out.slice(0, 3); // at most three appended facts
 }
 
