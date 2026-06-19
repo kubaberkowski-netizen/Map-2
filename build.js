@@ -214,22 +214,43 @@ if (empties.length) {
   console.warn(`⚠ ${empties.length}/${spots.length} spots have an empty writeup (${breakdown})`);
 }
 
+// --- optional opening-hours sidecar (data/hours.json) ------------------------
+// Researched OSM opening_hours, kept OUT of spots.json (see data/hours-research.md).
+// Merged here by id as an extra `oh` field on each spot literal; spots without a
+// match simply have no `oh`. The field is additive — it never changes the
+// id:"…",n:" entry-count signature the recipe below checks.
+const HOURS = path.join(ROOT, "data", "hours.json");
+let hoursById = {};
+if (fs.existsSync(HOURS)) {
+  let hj;
+  try {
+    hj = JSON.parse(fs.readFileSync(HOURS, "utf8"));
+  } catch (e) {
+    die("data/hours.json is not valid JSON — " + e.message);
+  }
+  hoursById = (hj && hj.hours) || {};
+  // a stray hours entry for a non-existent spot is a sign the sidecar drifted
+  for (const id of Object.keys(hoursById))
+    if (!seen.has(id)) console.warn(`⚠ data/hours.json has hours for unknown spot id ${JSON.stringify(id)}`);
+}
+
 // --- serialise back to the ORIGINAL compact JS object-literal style ----------
 // (unquoted keys in the original field order; string values via JSON.stringify;
 //  numbers raw) so the deployed file matches the minified bundle's shape and the
 //  CLAUDE.md `id:"…",n:"` count check keeps working.
 const num = (v) => (typeof v === "number" ? String(v) : JSON.stringify(v));
+let withHours = 0;
 const literal =
   "[" +
   spots
-    .map(
-      (e) =>
-        "{" +
-        REQUIRED.map((k) =>
-          k === "lat" || k === "lng" ? `${k}:${num(e[k])}` : `${k}:${JSON.stringify(e[k])}`
-        ).join(",") +
-        "}"
-    )
+    .map((e) => {
+      const base = REQUIRED.map((k) =>
+        k === "lat" || k === "lng" ? `${k}:${num(e[k])}` : `${k}:${JSON.stringify(e[k])}`
+      ).join(",");
+      const oh = hoursById[e.id] && hoursById[e.id].h;
+      if (oh) withHours++;
+      return "{" + base + (oh ? `,oh:${JSON.stringify(oh)}` : "") + "}";
+    })
     .join(",") +
   "]";
 
@@ -284,5 +305,6 @@ const counts = check(output);
 fs.writeFileSync(OUTPUT, output);
 console.log(
   `✓ wrote ${path.relative(ROOT, OUTPUT)} — ` +
-    `${spots.length} spots / ${counts.worlds} Worlds / ${counts.categories} categories, node --check OK`
+    `${spots.length} spots / ${counts.worlds} Worlds / ${counts.categories} categories, ` +
+    `${withHours} with opening hours, node --check OK`
 );
