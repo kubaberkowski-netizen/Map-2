@@ -12,7 +12,20 @@ distance from your live location. Read this fully before touching anything.
   shell + stale-while-revalidate tile cache + cache-first Leaflet). It is **static —
   not processed by `build.js`** — and is registered by a tiny `<script>` near the end
   of the template. Edit it directly; bump its cache-name constants when its logic
-  changes so clients pick it up.
+  changes so clients pick it up. The navigate handler distinguishes the **app shell**
+  (`/` or `/index.html`, which uses the SPA fallback and is cached as `./index.html`)
+  from **other same-origin pages** (e.g. `privacy.html`, cached under their own URL) —
+  so a static page can't poison the app-shell cache or render the app instead of itself.
+- **`privacy.html`** is a standalone static page at the repo root (its own inline CSS +
+  CSP, no scripts, no external assets). It is **not processed by `build.js`** and is
+  precached by the service worker. Linked from the app's footer ("Privacy"). Fill its
+  two placeholders (`[EFFECTIVE DATE]`, `[YOUR EMAIL]`) before publishing, and revise it
+  if accounts / payments / ads / analytics are ever added.
+- The footer also exposes optional **"Suggest a place"** and **"Support Flâneur"** links,
+  rendered **only when** the `FORM_URL` / `DONATE_URL` constants (inline in the template,
+  next to `MTKEY`/`GAKEY`) are set to a real URL — empty by default, so no broken links
+  ship. (Note: a tip/donation link inside an iOS wrapper can fall foul of App Store IAP
+  rules — confirm framing before an App Store build.)
 - There is now a **source + build split** (added so the catalogue is editable as
   clean JSON without touching minified code). The boot sequence is **unchanged and
   fully synchronous** — the app does NOT fetch JSON at runtime; the catalogue is
