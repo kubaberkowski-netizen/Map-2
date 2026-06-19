@@ -35,10 +35,14 @@ distance from your live location. Read this fully before touching anything.
   `src/app.template.html` → `npm run build` → commit the template + `index.html`.
 - `npm run build` **refuses to write `index.html`** (writes nothing) if: spots.json is
   invalid JSON, any entry is missing a required key, any `id` is duplicated, any
-  entry's `c` is not a category slug **defined in the template's `ne`**, or any
+  entry's `c` is not a category slug **defined in the template's `ne`**, any
   entry's `city` is not a slug **defined in the template's `Ci`** (both parsed from
-  the template, not hand-typed). It warns if the entry count differs from the baseline (787), then
-  re-runs the CLAUDE.md checks below on the generated HTML and fails loudly on any miss.
+  the template, not hand-typed), any coordinate is non-finite/zero, or any coordinate
+  lands **outside its city's `Ci` bbox** (±0.1° margin — catches wrong-city / sign-flip /
+  transposed-digit typos). It **warns** (non-fatal) if the entry count differs from the
+  baseline (787), if two spots share a name within a city (likely duplicate spots), or
+  if any writeups are empty (with a per-city count). It then re-runs the CLAUDE.md checks
+  below on the generated HTML and fails loudly on any miss.
 - `acorn` is the only dependency (devDependency). `node_modules/` is gitignored; run
   `npm install` once in a fresh checkout.
 

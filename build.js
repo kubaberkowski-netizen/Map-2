@@ -107,6 +107,53 @@ function parseCiSlugs(src) {
 const validCities = parseCiSlugs(scriptBody);
 if (!validCities || validCities.size === 0) die("could not parse `Ci` city registry from template");
 
+// --- derive each city's bbox [minLng,minLat,maxLng,maxLat] from `Ci` ----------
+// (used to catch coordinate typos — a spot whose lat/lng lands far outside its
+//  own city is almost certainly mistyped, and would mis-place it + break the
+//  nearest-city detection that keys off these bboxes.)
+function parseCiBboxes(src) {
+  const ast = acorn.parse(src, { ecmaVersion: "latest" });
+  const numOf = (node) => {
+    if (!node) return null;
+    if (node.type === "Literal" && typeof node.value === "number") return node.value;
+    if (node.type === "UnaryExpression" && node.operator === "-") {
+      const v = numOf(node.argument);
+      return v == null ? null : -v;
+    }
+    return null;
+  };
+  const out = new Map();
+  (function walk(n) {
+    if (!n || typeof n.type !== "string") return;
+    if (
+      n.type === "VariableDeclarator" && n.id && n.id.name === "Ci" &&
+      n.init && n.init.type === "ArrayExpression"
+    ) {
+      for (const el of n.init.elements) {
+        if (!el || el.type !== "ObjectExpression") continue;
+        const get = (name) =>
+          el.properties.find((p) => p.type === "Property" && (p.key.name === name || p.key.value === name));
+        const idp = get("id"), bbp = get("bbox");
+        if (idp && idp.value && bbp && bbp.value && bbp.value.type === "ArrayExpression") {
+          const bb = bbp.value.elements.map(numOf);
+          if (bb.length === 4 && bb.every((x) => x != null)) out.set(idp.value.value, bb);
+        }
+      }
+      return;
+    }
+    for (const k in n) {
+      const v = n[k];
+      if (Array.isArray(v)) v.forEach((c) => c && typeof c.type === "string" && walk(c));
+      else if (v && typeof v.type === "string") walk(v);
+    }
+  })(ast);
+  return out;
+}
+const cityBboxes = parseCiBboxes(scriptBody);
+// gross-typo guard only: a generous margin (~11 km) tolerates legitimate
+// metro-edge spots while still catching wrong-city / sign-flip / transposed coords.
+const BBOX_MARGIN = 0.1;
+
 // --- read + validate spots.json ----------------------------------------------
 let spots;
 try {
@@ -130,9 +177,42 @@ spots.forEach((e, i) => {
   if (!validCities.has(e.city))
     die(`entry ${JSON.stringify(e.id)} has unknown city ${JSON.stringify(e.city)} ` +
         `(not in the Ci registry). Valid: ${[...validCities].join(", ")}`);
+  if (!Number.isFinite(e.lat) || !Number.isFinite(e.lng) || e.lat === 0 || e.lng === 0)
+    die(`entry ${JSON.stringify(e.id)} has a non-finite or zero coordinate (lat ${JSON.stringify(e.lat)}, lng ${JSON.stringify(e.lng)})`);
+  const bb = cityBboxes.get(e.city);
+  if (bb && !(
+    e.lng >= bb[0] - BBOX_MARGIN && e.lng <= bb[2] + BBOX_MARGIN &&
+    e.lat >= bb[1] - BBOX_MARGIN && e.lat <= bb[3] + BBOX_MARGIN
+  ))
+    die(`entry ${JSON.stringify(e.id)} coord (lat ${e.lat}, lng ${e.lng}) is outside its city ` +
+        `"${e.city}" bbox [${bb.join(",")}] (±${BBOX_MARGIN}°) — almost certainly a coordinate typo`);
 });
 if (spots.length !== BASELINE.entries)
   console.warn(`⚠ entry count is ${spots.length} (baseline ${BASELINE.entries}) — confirm this is intended`);
+
+// --- non-fatal data-quality audit (warn, never block) ------------------------
+// duplicate names within the same city (likely the same place entered twice)
+const byName = new Map();
+spots.forEach((e) => {
+  const key = e.city + "|" + String(e.n).toLowerCase().trim();
+  if (!byName.has(key)) byName.set(key, []);
+  byName.get(key).push(e.id);
+});
+const dupNames = [...byName.entries()].filter(([, ids]) => ids.length > 1);
+if (dupNames.length) {
+  console.warn(`⚠ ${dupNames.length} duplicate name(s) within a city (possible duplicate spots):`);
+  for (const [key, ids] of dupNames)
+    console.warn(`    ${key.split("|")[1]} [${key.split("|")[0]}] → ${ids.join(", ")}`);
+}
+
+// empty writeups — the writeup is the product; surface how many are unwritten
+const empties = spots.filter((e) => !String(e.w).trim());
+if (empties.length) {
+  const byCity = {};
+  for (const e of empties) byCity[e.city] = (byCity[e.city] || 0) + 1;
+  const breakdown = Object.entries(byCity).map(([c, n]) => `${c} ${n}`).join(", ");
+  console.warn(`⚠ ${empties.length}/${spots.length} spots have an empty writeup (${breakdown})`);
+}
 
 // --- serialise back to the ORIGINAL compact JS object-literal style ----------
 // (unquoted keys in the original field order; string values via JSON.stringify;
