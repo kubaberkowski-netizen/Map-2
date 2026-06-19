@@ -44,11 +44,29 @@ const denom = (d) => cap(String(d).replace(/_/g, " "));
 // returns extra factual sentences (array) grounded in the tags
 function facts(spot, t) {
   const out = [];
+  // OSM free-text description (richest) — guard length, sentence-case, one sentence
+  if (t.description && spot.c !== "faith") {
+    let d = String(t.description).replace(/\s+/g, " ").trim();
+    const nonLatin = /[Ͱ-ϿЀ-ӿ　-鿿가-힯]/.test(d); // Greek/Cyrillic/CJK
+    if (d.length >= 12 && d.length <= 200 && !/^https?:/i.test(d) && !nonLatin) {
+      d = d.split(/(?<=[.!?])\s+/)[0];
+      out.push(/[.!?]$/.test(d) ? cap(d) : cap(d) + ".");
+    }
+  }
   const yr = yearOf(t.start_date || t.year_of_construction || t.opening_date || t["building:start_date"] || "");
-  if (yr) out.push(yr.startsWith("the") ? `Dates from ${yr}.` : `Dates from ${yr}.`);
+  if (yr) out.push(`Dates from ${yr}.`);
   if (t.architect) out.push(`Designed by ${tidyName(t.architect)}.`);
   if (t.artist_name && /streetart|history/.test(spot.c)) out.push(`Work by ${tidyName(t.artist_name)}.`);
+  if ((t["building:architecture"] || t.architecture) && /history|medieval|faith|museum/.test(spot.c))
+    out.push(`Built in the ${denom(t["building:architecture"] || t.architecture)} style.`);
+  if (t.material && /streetart|history/.test(spot.c)) out.push(`Made of ${String(t.material).replace(/_/g, " ").toLowerCase()}.`);
   if (t.denomination && spot.c === "faith") out.push(`${denom(t.denomination)} denomination.`);
+  if (t.cuisine && /pub|caff|coffee|food|bakery|wine/.test(spot.c))
+    out.push(`Serves ${denom(t.cuisine).toLowerCase().replace(/;/g, ", ")}.`);
+  if (t.ele && spot.c === "view" && /^\d{2,4}(\.\d+)?$/.test(String(t.ele)))
+    out.push(`About ${Math.round(+t.ele)} m above sea level.`);
+  if (t.capacity && spot.c === "stadium" && /^\d{3,6}$/.test(String(t.capacity)))
+    out.push(`Capacity ${(+t.capacity).toLocaleString("en-GB")}.`);
   const listed = t.listed_status || (t.heritage ? "heritage" : null);
   if (listed) out.push(listed === "heritage" ? "A heritage-listed structure." : `${cap(listed)} listed.`);
   if (t.inscription) {
@@ -62,7 +80,7 @@ const spots = JSON.parse(fs.readFileSync(SPOTS, "utf8"));
 const enriched = fs.existsSync(MANIFEST) ? new Set(JSON.parse(fs.readFileSync(MANIFEST, "utf8"))) : new Set();
 let done = 0; const samples = [];
 for (const s of spots) {
-  if (ORIG.has(s.id) || WIKI.has(s.id)) continue;
+  if (ORIG.has(s.id) || WIKI.has(s.id) || enriched.has(s.id)) continue;
   if (onlyCity && s.city !== onlyCity) continue;
   const t = tags.get(s.city + "|" + norm(s.n));
   if (!t) continue;
