@@ -97,7 +97,7 @@ fully before touching anything.
   title + share + OSM-toggle copy use `cyo.label`. The static `<title>`/manifest now
   read "Flâneur — London" (default boot) — `document.title` is updated at runtime per city.
 - Themed collections ("Worlds") live in
-  `Xr = [{id, name, cats, e, blurb, match: e=>…, osm, tag, ids?}, ...]` (45 entries).
+  `Xr = [{id, name, cats, e, blurb, match: e=>…, osm, tag, ids?}, ...]` (81 entries).
   Membership is `wmem(World, spot)` = `World.match(spot) || World.ids?.includes(spot.id)`,
   so an optional `ids:[…]` curated list force-includes specific spots irrespective
   of category. All discovery/count call sites go through `wmem` — never `.match`
@@ -115,7 +115,7 @@ fully before touching anything.
   overwrite them); the machine stubs are fair game to enrich/replace when asked. If you
   add a feature that distinguishes the two, prefer a quality flag over guessing from
   length. See `ROADMAP.md` for the strategy discussion.
-- `ne` (44 categories) and `Xr` (45 Worlds, which contain live `match: e=>…`
+- `ne` (44 categories) and `Xr` (81 Worlds, which contain live `match: e=>…`
   functions and are **not serialisable**) **stay inline in `src/app.template.html`** —
   only `Z` was extracted to JSON.
 
@@ -124,7 +124,7 @@ fully before touching anything.
 2. Confirm counts via grep on the HTML:
    - **entries** — `id:"…",n:"` → should be **15,314** (keep in sync with `build.js`'s `BASELINE`)
      `grep -oE 'id:"[^"]*",n:"' index.html | wc -l`
-   - **Worlds** — `match:\s*e\s*=>` → should be **45** (do NOT count `osm:`)
+   - **Worlds** — `match:\s*e\s*=>` → should be **81** (do NOT count `osm:`)
      `grep -oE 'match:[[:space:]]*e[[:space:]]*=>' index.html | wc -l`
    - **categories** — `(\w+):\{l:"` inside the `ne={…}` block → should be **44**
      `grep -oE '[A-Za-z0-9_]+:\{l:"' index.html | wc -l`

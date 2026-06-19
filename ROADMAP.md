@@ -186,9 +186,11 @@ removes the catastrophic-data-loss risk now.
   needing GPS to be physically there (useful for trip planning before you fly).
 - **Generalise zones** beyond the ~5 hand-tuned cities (derive neighbourhood chips from
   spot clustering or a per-city `zones` data pass).
-- **Per-city Worlds**: at least 2–3 themed collections per major city so the Worlds tab
-  isn't London-only. Many existing matchers (Coffee Crawl, Brutalist, Markets, Cemeteries)
-  are city-agnostic and just need the membership scoped per city.
+- **Per-city Worlds** — _partially shipped_: 36 themed collections (3 each) added for
+  12 major cities (Tokyo, NYC, Paris, Berlin, Chicago, LA, SF, Dublin, Barcelona, Rome,
+  Amsterdam, Sydney), each with a city-guarded `match` and a completion achievement; the
+  Worlds tab now filters by the active city and shows an empty-state elsewhere. _Remaining:
+  extend to the other ~58 cities, and add bespoke (non-category) Worlds for character._
 
 ### Phase 3 — Trip & multi-day planning — **M**
 The walk builder is strong for a single outing. The global catalogue invites a level up:
