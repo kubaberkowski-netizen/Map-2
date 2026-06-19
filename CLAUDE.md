@@ -93,8 +93,8 @@ fully before touching anything.
   the LIVE button detects the nearest city by bbox/centre (snapping to the nearest
   if you're >60 km from all of them), the geocoder uses `cyo.bbox` + `cyo.name`, the
   zone chips use `cyo.zones` (only `london` falls back to the inline `Wu` list; other cities without `zones` render no zone chips, not London’s), and the tab
-  title + share + OSM-toggle copy use `cyo.label`. The static `<title>`/manifest still
-  read "Jakub's London" (default boot) — `document.title` is updated at runtime.
+  title + share + OSM-toggle copy use `cyo.label`. The static `<title>`/manifest now
+  read "Flâneur — London" (default boot) — `document.title` is updated at runtime per city.
 - Themed collections ("Worlds") live in
   `Xr = [{id, name, cats, e, blurb, match: e=>…, osm, tag, ids?}, ...]` (45 entries).
   Membership is `wmem(World, spot)` = `World.match(spot) || World.ids?.includes(spot.id)`,

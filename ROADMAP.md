@@ -167,7 +167,7 @@ Everything else is wasted if the catalogue reads like a POI dump. Pick a lane:
 - **(b) Author-in-the-loop enrichment.** Keep the auto-facts as a _draft_ layer the owner
   rewrites into voice, city by city, with a simple "needs voice" queue in `tools/`. _(L,
   ongoing)_
-- **(c) Visibly separate the two voices** in the UI — "Jakub's note" vs. "Reference
+- **(c) Visibly separate the two voices** in the UI — "Author's note" vs. "Reference
   (Wikipedia/OSM)" — so the machine text never masquerades as the author's. _(S)_
 
 Recommendation: do **(c) immediately** (cheap, honest, protects the brand) and **(a)** to
