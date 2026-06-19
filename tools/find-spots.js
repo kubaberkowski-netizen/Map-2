@@ -61,7 +61,9 @@ function toRow(hit, model, takenIds) {
   const cityId = M.cityForPoint(hit.lat, hit.lng, model);
   if (!cityId) return null; // outside every city — drop
   const city = model.cityById.get(cityId);
-  const cat = guessCategory(hit.tags, model.categories);
+  // honour a category already chosen by claudeExtract; else guess from OSM tags
+  const cat =
+    hit.c && model.categories.has(hit.c) ? hit.c : guessCategory(hit.tags, model.categories);
   const id = M.uniqueId(M.slugify(hit.n), takenIds);
   const needs = [];
   if (!cat) needs.push("c");
@@ -94,17 +96,30 @@ async function gather(args, model) {
     if (!args.sub || !args.query) throw new Error(`--source ${args.source} needs --sub and --query`);
     const fn = args.source === "reddit" ? S.reddit : S.pullpush;
     const posts = await fn(args.sub, args.query, { limit: args.limit, size: args.limit });
-    // Text-only. Without claudeExtract() wired up we cannot reliably pull a
-    // place name + coords, so we hand these back as leads for review, not rows.
+
+    // With ANTHROPIC_API_KEY set, turn the text into structured candidates that
+    // flow through the normal geocode → validate → dedupe pipeline.
+    if (process.env.ANTHROPIC_API_KEY) {
+      if (!city) throw new Error(`--source ${args.source} with extraction needs a valid --city`);
+      console.error(`  ${posts.length} ${args.source} post(s) → extracting places with Claude…`);
+      const hits = await S.claudeExtract(posts, {
+        cityName: city.name,
+        categories: [...model.categories],
+      });
+      console.error(`  extracted ${hits.length} candidate place(s) (no coords yet — geocoding next)`);
+      return hits;
+    }
+
+    // No key: hand back text leads for manual review (can't get coords from prose).
     console.error(
       `\n  ${posts.length} ${args.source} post(s) gathered. These are TEXT LEADS — ` +
-        `no coordinates.\n  Wire up sources.claudeExtract() to turn them into rows, ` +
-        `or skim them yourself:\n`
+        `no coordinates.\n  Set ANTHROPIC_API_KEY (+ \`npm install @anthropic-ai/sdk\`) to ` +
+        `turn them into rows automatically, or skim them yourself:\n`
     );
     posts.slice(0, args.limit).forEach((p) =>
       console.error(`  • [${p._meta.score ?? "?"}] ${p._meta.title}\n    ${p._meta.url}`)
     );
-    return []; // no rows emitted from raw text in the zero-key pipeline
+    return [];
   }
 
   // keyed sources — will throw with setup instructions

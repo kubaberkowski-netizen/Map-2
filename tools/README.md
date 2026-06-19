@@ -40,7 +40,7 @@ otherwise it's `""` with `_meta.needs:["c"]` for you to pick from the 44 slugs.
 | file | what it is |
 |---|---|
 | `model.js` | The data model, parsed **live** from `src/app.template.html` (category slugs + city bboxes) and `data/spots.json`. Validation + dedupe + city-assignment live here. Never hand-types slugs. |
-| `sources.js` | Fetch adapters. **Ready (no key):** `overpass`, `wikidata`, `reddit`, `pullpush`, `geocode`. **Stubs (need a key):** `tiktok`, `firecrawl`, `apify`, `googlePlaces`, `claudeExtract`. |
+| `sources.js` | Fetch adapters. **Ready (no key):** `overpass`, `wikidata`, `reddit`, `pullpush`, `geocode`. **Ready (needs `ANTHROPIC_API_KEY` + SDK):** `claudeExtract`. **Stubs (need a key):** `tiktok`, `firecrawl`, `apify`, `googlePlaces`. |
 | `category-map.js` | Best-effort OSM-tag → category-slug guesser. Returns `null` rather than guess wrong. |
 | `find-spots.js` | The CLI that wires it all together. |
 | `candidates/` | Generated output (git-ignored). One JSON file per city. |
@@ -54,8 +54,10 @@ otherwise it's `""` with `_meta.needs:["c"]` for you to pick from the 44 slugs.
 node tools/find-spots.js --city london   --source overpass --limit 150
 node tools/find-spots.js --city paris    --source wikidata
 
-# Reddit text leads (need claudeExtract wired up to become rows — see below).
-# Until then they print as a skim-list of links.
+# Reddit/Pullpush: become rows automatically when ANTHROPIC_API_KEY is set
+# (Claude extracts named places from the text). Without the key → skim-list of links.
+npm install @anthropic-ai/sdk      # one-time; intentionally NOT a project dependency
+export ANTHROPIC_API_KEY=sk-ant-...
 node tools/find-spots.js --city london  --source reddit   --sub london  --query "hidden OR underrated OR secret"
 node tools/find-spots.js --city glasgow --source pullpush --sub glasgow --query "weird OR oddity OR forgotten"
 
@@ -72,16 +74,32 @@ node tools/find-spots.js --emit london          # → stdout, schema-clean, _met
 
 ---
 
-## Wiring up the keyed sources
+## The Claude extraction step (implemented)
 
-The stubs throw with setup instructions. Each is a small addition to
+`claudeExtract` is **already wired up** — it's what turns Reddit/Pullpush/TikTok
+*text* into structured candidate rows. It uses the official `@anthropic-ai/sdk`,
+lazy-required so the rest of the pipeline stays dependency-free (CLAUDE.md keeps
+`acorn` as the only project dependency):
+
+```bash
+npm install @anthropic-ai/sdk          # install only if you use this step
+export ANTHROPIC_API_KEY=sk-ant-...
+# optional: export FLANEUR_EXTRACT_MODEL=claude-sonnet-4-6   # default is claude-opus-4-8
+```
+
+How it stays safe:
+- The structured-output **schema has no `w` field**, so the model *cannot* draft
+  a writeup — every `w` is still yours to write.
+- `c` is constrained to the **live 44-slug enum**, so it can only emit a real
+  category (no white-screen risk, nothing to hand-fix).
+- It returns `{n, a, c, s, confidence, reason, source_url}`; rows still pass
+  through geocode → bbox-validate → dedupe before landing in `candidates/`.
+
+## Wiring up the remaining keyed sources
+
+These are still stubs that throw setup instructions. Each is a small addition to
 `sources.js`:
 
-- **`claudeExtract`** — the most valuable. Turns messy Reddit/TikTok text into
-  `{n, a, c, s, city, confidence}`. Set `ANTHROPIC_API_KEY`, call the Messages
-  API (`claude-opus-4-8` or `claude-sonnet-4-6`) with a JSON-schema tool.
-  **Crucially: never let it produce `w`.** Once wired, the `reddit`/`pullpush`
-  branches can emit real rows instead of skim-lists.
 - **`firecrawl`** — listicles → clean markdown/JSON. `FIRECRAWL_API_KEY`,
   `POST https://api.firecrawl.dev/v1/scrape`.
 - **`apify`** — marketplace actors (TikTok, Instagram, Google Maps).
@@ -102,6 +120,7 @@ settings (this sandbox blocks them by default):
 - `query.wikidata.org` (Wikidata SPARQL)
 - `nominatim.openstreetmap.org` (geocoding — **max 1 req/sec**, already throttled)
 - `www.reddit.com`, `api.pullpush.io` (Reddit)
+- `api.anthropic.com` (only if you use the `claudeExtract` step)
 
 ## Be a good citizen / ToS
 

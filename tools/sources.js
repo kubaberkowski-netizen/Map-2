@@ -178,13 +178,143 @@ const apify = notWired("apify", "Set APIFY_TOKEN and run-sync-get-dataset-items 
 // Google Places: the gold standard for canonical name + postcode + coords.
 // Set GOOGLE_PLACES_KEY, call Places API (New) :searchText / :details.
 const googlePlaces = notWired("googlePlaces", "Set GOOGLE_PLACES_KEY and call Places API (New) searchText/details.");
-// Claude extraction: turn messy Reddit/TikTok text into structured candidates.
-// Set ANTHROPIC_API_KEY, call the Messages API with a tool/JSON schema matching
-// {n,a,c,s,city,confidence}. CRUCIAL: never have it write `w` — leave it "".
-const claudeExtract = notWired(
-  "claudeExtract",
-  "Set ANTHROPIC_API_KEY, call the Messages API (model claude-opus-4-8 / claude-sonnet-4-6) with a JSON-schema tool returning {n,a,c,s,city,confidence}. NEVER generate `w`."
-);
+// --- Claude extraction (IMPLEMENTED) -----------------------------------------
+// Turns the messy text leads from reddit()/pullpush()/tiktok() into structured
+// candidate places. Uses the official Anthropic SDK (lazy-required so the rest
+// of the pipeline stays dependency-free — install only if you use this):
+//
+//     npm install @anthropic-ai/sdk
+//     export ANTHROPIC_API_KEY=sk-ant-...
+//
+// The output schema has NO `w` field, so the model literally cannot draft a
+// writeup — `c` is constrained to the live category enum, so it can only emit a
+// real slug. The owner still writes every `w` and assigns nothing here.
+const EXTRACT_MODEL = process.env.FLANEUR_EXTRACT_MODEL || "claude-opus-4-8";
+
+function chunk(arr, n) {
+  const out = [];
+  for (let i = 0; i < arr.length; i += n) out.push(arr.slice(i, i + n));
+  return out;
+}
+
+/**
+ * @param {Array<{text:string,_meta:object}>} posts  text leads from reddit/pullpush/tiktok
+ * @param {{cityName:string, categories:string[], batchSize?:number}} opts
+ * @returns {Promise<Array>}  hits: {n, a, c, s, _meta:{source,url,confidence,reason,via}}
+ */
+async function claudeExtract(posts, { cityName, categories, batchSize = 12 } = {}) {
+  if (!process.env.ANTHROPIC_API_KEY)
+    throw new Error("claudeExtract() needs ANTHROPIC_API_KEY in the environment.");
+  if (!cityName || !Array.isArray(categories) || !categories.length)
+    throw new Error("claudeExtract() needs { cityName, categories } from the model.");
+
+  let Anthropic;
+  try {
+    Anthropic = require("@anthropic-ai/sdk");
+  } catch {
+    throw new Error(
+      "claudeExtract() needs the Anthropic SDK. Install it (it is intentionally not a " +
+        "project dependency):\n    npm install @anthropic-ai/sdk"
+    );
+  }
+  const client = new Anthropic(); // reads ANTHROPIC_API_KEY from env
+
+  // Structured-outputs schema. No `w`. `c` constrained to the live slug set.
+  const schema = {
+    type: "object",
+    additionalProperties: false,
+    properties: {
+      spots: {
+        type: "array",
+        items: {
+          type: "object",
+          additionalProperties: false,
+          properties: {
+            n: { type: "string", description: "Proper name of the place" },
+            a: { type: "string", description: "Neighbourhood / area within the city" },
+            c: { type: "string", enum: categories, description: "Best-fit category slug" },
+            s: { type: "string", description: "A short, factual hook (max ~8 words). NOT a writeup." },
+            confidence: { type: "number", description: "0..1 — how sure this is a real, themed place" },
+            reason: { type: "string", description: "One line: why it fits an offbeat/storied catalogue" },
+            source_url: { type: "string", description: "URL of the post this place came from" },
+          },
+          required: ["n", "a", "c", "s", "confidence", "reason", "source_url"],
+        },
+      },
+    },
+    required: ["spots"],
+  };
+
+  const system =
+    `You extract candidate places for a curated catalogue of offbeat, storied, ` +
+    `or characterful spots in ${cityName}. From the supplied social posts, pull only ` +
+    `real, specific, visitable places physically in ${cityName} (a named museum, pub, ` +
+    `cafe, building, monument, alley, shop, viewpoint, etc.). Skip events, generic ` +
+    `advice, whole neighbourhoods, chains, and anything outside ${cityName}. ` +
+    `Pick the single best-fitting category slug for each. Write `+"`s`"+` as a terse ` +
+    `factual hook, never prose. You are NOT writing descriptions — a human writes those.`;
+
+  const out = [];
+  for (const batch of chunk(posts, batchSize)) {
+    const corpus = batch
+      .map((p, i) => `### POST ${i + 1} — SOURCE: ${p._meta?.url || "unknown"}\n${p.text}`)
+      .join("\n\n");
+
+    let resp;
+    try {
+      resp = await client.messages.create({
+        model: EXTRACT_MODEL,
+        max_tokens: 16000,
+        thinking: { type: "adaptive" },
+        output_config: { format: { type: "json_schema", schema } },
+        system,
+        messages: [
+          {
+            role: "user",
+            content:
+              `Extract themed candidate places from these posts. Copy the matching ` +
+              `SOURCE url into each spot's source_url.\n\n${corpus}`,
+          },
+        ],
+      });
+    } catch (e) {
+      console.error(`  ⚠ claudeExtract batch failed (${e.message}) — skipping ${batch.length} post(s)`);
+      continue;
+    }
+
+    if (resp.stop_reason === "refusal") {
+      console.error("  ⚠ claudeExtract: a batch was declined by the model — skipping it");
+      continue;
+    }
+
+    const textBlock = (resp.content || []).find((b) => b.type === "text");
+    let parsed;
+    try {
+      parsed = JSON.parse(textBlock?.text || "{}");
+    } catch {
+      console.error("  ⚠ claudeExtract: could not parse model output for a batch — skipping");
+      continue;
+    }
+
+    for (const sp of parsed.spots || []) {
+      if (!sp.n || !categories.includes(sp.c)) continue;
+      out.push({
+        n: sp.n,
+        a: sp.a || "",
+        c: sp.c,
+        s: sp.s || "",
+        _meta: {
+          source: (batch[0]._meta?.source || "reddit") + "+claude",
+          url: sp.source_url || batch[0]._meta?.url || "",
+          confidence: typeof sp.confidence === "number" ? sp.confidence : null,
+          reason: sp.reason || "",
+          via: EXTRACT_MODEL,
+        },
+      });
+    }
+  }
+  return out;
+}
 
 module.exports = {
   overpass, wikidata, reddit, pullpush, geocode,
