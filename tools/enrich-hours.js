@@ -16,7 +16,7 @@
  *         "h":     "Tu-Su 10:00-18:00",   // raw OSM opening_hours value
  *         "osm":   "node/123456789",      // the element it came from
  *         "name":  "Sir John Soane's Museum",
- *         "match": "name",                // how we matched: name | contains | token | near
+ *         "match": "name",                // how we matched: name | contains | token
  *         "dist":  6                       // metres from the spot's coords
  *       }, ...
  *     }
@@ -68,9 +68,10 @@ const DRY = has("--dry");
 const FORCE = has("--force");
 const LIMIT = parseInt(val("--limit", "0"), 10) || 0;
 const CITY = val("--city", "london");
-// Wide net is SAFE because we only accept a hit with a real name match at range;
-// the unnamed "near" fallback stays tight (≤12 m). A spot's recorded point can
-// sit 100-200 m from the building centroid OSM tags the hours on.
+// Wide net is SAFE because we only accept a hit with a real NAME match at range
+// (see classify): a spot's recorded point can sit 100-200 m from the building
+// centroid OSM tags the hours on, but a same-named element that far away is still
+// almost certainly the same place.
 const RADIUS = parseInt(val("--radius", "200"), 10);
 const CATS = (val("--cats", "") || "")
   .split(",").map((s) => s.trim()).filter(Boolean);
@@ -119,9 +120,10 @@ function classify(spot, el) {
     if (j >= 0.6) return { match: "token", score: j };
     if (j >= 0.34 && el._dist <= 40) return { match: "token", score: j };
   }
-  // no name signal: only trust an essentially-coincident hit (guards against the
-  // wide radius grabbing an unrelated neighbour — e.g. a Sainsbury's near a museum)
-  if (el._dist <= 12) return { match: "near", score: 0.2 };
+  // A REAL name signal is required. We deliberately do NOT fall back to "nearest
+  // element with hours": within the 200 m net that reliably grabs an unrelated
+  // neighbour (a Sainsbury's by the museum, an Apple Store by the café), which
+  // is worse than leaving the spot blank. Recall traded for precision on purpose.
   return null;
 }
 
