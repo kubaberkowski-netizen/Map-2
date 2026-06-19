@@ -50,22 +50,49 @@ const fetchJSON = async (url, opts) => JSON.parse(await fetchText(url, opts));
 
 // --- OpenStreetMap / Overpass ------------------------------------------------
 // bbox is the Ci form [minLng,minLat,maxLng,maxLat]; Overpass wants S,W,N,E.
-async function overpass(bbox, { limit = 200 } = {}) {
+async function overpass(bbox, { limit = 200, broad = false } = {}) {
   const [w, s, e, n] = bbox;
-  const sel = [
+  const base = [
     'node["historic"]', 'way["historic"]',
     'node["tourism"~"museum|artwork|viewpoint|gallery"]', 'way["tourism"~"museum|gallery"]',
     'node["amenity"~"place_of_worship|archive|cinema"]',
     'node["building"~"folly|almshouse"]', 'way["building"~"folly|almshouse"]',
     'node["memorial"]', 'node["historic"="blue_plaque"]',
-  ].map((q) => `${q}(${s},${w},${n},${e});`).join("");
+  ];
+  // broadened pass: on-theme categories the base query never looks for
+  // (pubs, bookshops, record shops, bakeries, lidos, parks/green, markets, canals…)
+  const broadSel = [
+    'node["amenity"="pub"]', 'way["amenity"="pub"]',
+    'node["shop"~"books|bookshop"]',
+    'node["shop"="music"]',
+    'node["shop"="bakery"]', 'node["craft"="bakery"]',
+    'node["leisure"="swimming_pool"]', 'way["leisure"="swimming_pool"]',
+    'way["leisure"~"park|garden|nature_reserve"]',
+    'node["amenity"="marketplace"]', 'way["amenity"="marketplace"]',
+    'way["waterway"="canal"]',
+    'node["man_made"="lighthouse"]',
+  ];
+  const sel = (broad ? broadSel : base).map((q) => `${q}(${s},${w},${n},${e});`).join("");
   const ql = `[out:json][timeout:60];(${sel});out center ${limit};`;
-  const data = await fetchJSON("https://overpass-api.de/api/interpreter", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: "data=" + encodeURIComponent(ql),
-    minMs: 2000,
-  });
+  // try the main endpoint then mirrors (overpass-api.de overloads often → 503)
+  const endpoints = [
+    "https://overpass-api.de/api/interpreter",
+    "https://overpass.kumi.systems/api/interpreter",
+    "https://overpass.openstreetmap.fr/api/interpreter",
+  ];
+  let data, lastErr;
+  for (const url of endpoints) {
+    try {
+      data = await fetchJSON(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: "data=" + encodeURIComponent(ql),
+        minMs: 2000,
+      });
+      break;
+    } catch (e) { lastErr = e; }
+  }
+  if (!data) throw lastErr;
   return (data.elements || [])
     .map((el) => {
       const lat = el.lat ?? el.center?.lat, lng = el.lon ?? el.center?.lon;

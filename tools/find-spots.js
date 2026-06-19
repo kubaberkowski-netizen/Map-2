@@ -89,7 +89,7 @@ async function gather(args, model) {
   if (!city && !["reddit", "pullpush"].includes(args.source))
     throw new Error(`unknown --city "${args.city}". Known: ${model.cities.map((c) => c.id).join(", ")}`);
 
-  if (args.source === "overpass") return S.overpass(city.bbox, { limit: args.limit });
+  if (args.source === "overpass") return S.overpass(city.bbox, { limit: args.limit, broad: !!args.broad });
   if (args.source === "wikidata") return S.wikidata(city.bbox, { limit: args.limit });
 
   if (args.source === "reddit" || args.source === "pullpush") {
