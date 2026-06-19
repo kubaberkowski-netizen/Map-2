@@ -1,0 +1,3223 @@
+[
+ {
+  "id": "strandcinema",
+  "n": "Strand Cinema",
+  "a": "",
+  "pc": "",
+  "lat": 54.60063,
+  "lng": -5.87974,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Strand Cinema Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/73100860",
+   "raw": {
+    "addr:city": "Belfast",
+    "addr:housenumber": "152-154",
+    "addr:postcode": "BT4 1NY",
+    "addr:street": "Holywood Road",
+    "amenity": "cinema",
+    "name": "Strand Cinema",
+    "url": "http://www.strandbelfast.net/",
+    "wikidata": "Q38783673",
+    "wikipedia": "en:Strand Cinema"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cineworld",
+  "n": "Cineworld",
+  "a": "",
+  "pc": "",
+  "lat": 54.60404,
+  "lng": -5.91669,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cineworld Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/88729954",
+   "raw": {
+    "addr:city": "Belfast",
+    "addr:housenumber": "2",
+    "addr:postcode": "BT3 9QQ",
+    "addr:street": "Sydenham Road",
+    "amenity": "cinema",
+    "brand": "Cineworld",
+    "brand:wikidata": "Q5120901",
+    "cinema:3D": "yes",
+    "cinema:IMAX": "yes",
+    "name": "Cineworld",
+    "screen": "13"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "moviehouse",
+  "n": "Movie House",
+  "a": "",
+  "pc": "",
+  "lat": 54.60853,
+  "lng": -5.92686,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Movie House Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/194651012",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Movie House",
+    "url": "http://www.moviehouse.co.uk/listings.asp?loc=yorkgate"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "queensfilmtheatre",
+  "n": "Queens Film Theatre",
+  "a": "",
+  "pc": "",
+  "lat": 54.58548,
+  "lng": -5.93395,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Queens Film Theatre Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/288616560",
+   "raw": {
+    "addr:city": "Belfast",
+    "addr:housenumber": "20",
+    "addr:postcode": "BT7 1PA",
+    "addr:street": "University Square",
+    "amenity": "cinema",
+    "name": "Queens Film Theatre",
+    "name:zh": "女王剧院",
+    "url": "http://www.queensfilmtheatre.com/",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "prehistoricstones",
+  "n": "Prehistoric stones",
+  "a": "",
+  "pc": "",
+  "lat": 54.5402,
+  "lng": -5.94986,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Prehistoric stones Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/288790478",
+   "raw": {
+    "archaeological_site": "megalith",
+    "historic": "archaeological_site",
+    "megalith_type": "dolmen",
+    "name": "Prehistoric stones",
+    "tourism": "attraction"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blackmanstatuehenrycooke",
+  "n": "Black Man Statue (Henry Cooke)",
+  "a": "",
+  "pc": "",
+  "lat": 54.59711,
+  "lng": -5.9348,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Black Man Statue (Henry Cooke) Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/497400411",
+   "raw": {
+    "artwork_type": "sculpture",
+    "historic": "monument",
+    "name": "Black Man Statue (Henry Cooke)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "joanmountmethodistchurch",
+  "n": "Joanmount Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 54.62583,
+  "lng": -5.96374,
+  "c": "faith",
+  "s": "church",
+  "q": "Joanmount Methodist Church Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/865172514",
+   "raw": {
+    "addr:city": "Belfast",
+    "addr:street": "Wallsey Park",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "methodist",
+    "name": "Joanmount Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ballysillanpresbyterianc",
+  "n": "Ballysillan Presbyterian Church",
+  "a": "",
+  "pc": "",
+  "lat": 54.62088,
+  "lng": -5.97512,
+  "c": "faith",
+  "s": "church",
+  "q": "Ballysillan Presbyterian Church Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/865286296",
+   "raw": {
+    "addr:city": "Belfast",
+    "addr:street": "Crumlin Road",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "presbyterian",
+    "name": "Ballysillan Presbyterian Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "holycrosschurch",
+  "n": "Holy Cross Church",
+  "a": "",
+  "pc": "",
+  "lat": 54.6127,
+  "lng": -5.96219,
+  "c": "faith",
+  "s": "church",
+  "q": "Holy Cross Church Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/865405231",
+   "raw": {
+    "addr:city": "Belfast",
+    "addr:street": "Crumlin Road",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "roman_catholic",
+    "name": "Holy Cross Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ingratefulmemoryofthemen",
+  "n": "In grateful memory of the men of Holywood and District",
+  "a": "",
+  "pc": "",
+  "lat": 54.64145,
+  "lng": -5.83793,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "In grateful memory of the men of Holywood and District Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/956631580",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "obelisk",
+    "name": "In grateful memory of the men of Holywood and District"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "firstholywoodpesbyterian",
+  "n": "First Holywood Pesbyterian Church",
+  "a": "",
+  "pc": "",
+  "lat": 54.64278,
+  "lng": -5.83015,
+  "c": "faith",
+  "s": "church",
+  "q": "First Holywood Pesbyterian Church Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1198843088",
+   "raw": {
+    "addr:city": "Holywood",
+    "addr:street": "Bangor Road",
+    "amenity": "place_of_worship",
+    "denomination": "presbyterian",
+    "name": "First Holywood Pesbyterian Church",
+    "religion": "christian",
+    "website": "https://www.firstholywood.co.uk/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thebigfish",
+  "n": "The Big Fish",
+  "a": "",
+  "pc": "",
+  "lat": 54.60146,
+  "lng": -5.92167,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "The Big Fish Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1239570504",
+   "raw": {
+    "alt_name": "The Salmon of Knowledge",
+    "artist_name": "John Kindness",
+    "artwork_type": "sculpture",
+    "length": "10",
+    "name": "The Big Fish",
+    "start_date": "1999",
+    "tourism": "artwork",
+    "wikidata": "Q4091869"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "holyrosaryrcchurchprivat",
+  "n": "Holy Rosary RC Church (Private Chapel)",
+  "a": "",
+  "pc": "",
+  "lat": 54.57183,
+  "lng": -5.91497,
+  "c": "faith",
+  "s": "church",
+  "q": "Holy Rosary RC Church (Private Chapel) Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1444982700",
+   "raw": {
+    "access": "private",
+    "amenity": "place_of_worship",
+    "building": "chapel",
+    "denomination": "roman_catholic",
+    "name": "Holy Rosary RC Church (Private Chapel)",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lordkelvinsstatue",
+  "n": "Lord Kelvin's Statue",
+  "a": "",
+  "pc": "",
+  "lat": 54.58311,
+  "lng": -5.93615,
+  "c": "history",
+  "s": "commemorative statue",
+  "q": "Lord Kelvin's Statue Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1446969862",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Lord Kelvin's Statue",
+    "note": "By sculptor Albert Bruce-Joy, 1913",
+    "subject:wikidata": "Q122701",
+    "tourism": "attraction",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thanksgivingstatue",
+  "n": "Thanksgiving Statue",
+  "a": "",
+  "pc": "",
+  "lat": 54.59949,
+  "lng": -5.92138,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Thanksgiving Statue Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1451049811",
+   "raw": {
+    "alt_name": "Beacon of Hope",
+    "artist_name": "Andy Scott",
+    "artwork_type": "sculpture",
+    "height": "19.5",
+    "loc_name": "Nuala with the Hula",
+    "loc_name_1": "Belle on the Ball",
+    "loc_name_2": "Thing with the Ring",
+    "material": "steel",
+    "name": "Thanksgiving Statue",
+    "start_date": "2007",
+    "tourism": "artwork",
+    "wikidata": "Q4876007",
+    "wikipedia": "en:Beacon of Hope (sculpture)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "castlereaghwarmemorial",
+  "n": "Castlereagh War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 54.57616,
+  "lng": -5.89397,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Castlereagh War Memorial Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1733355542",
+   "raw": {
+    "historic": "memorial",
+    "name": "Castlereagh War Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mcartsfort",
+  "n": "McArt's Fort",
+  "a": "",
+  "pc": "",
+  "lat": 54.64703,
+  "lng": -5.94812,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "McArt's Fort Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2129310009",
+   "raw": {
+    "archaeological_site": "fortification",
+    "fortification_type": "promontory_fort",
+    "historic": "archaeological_site",
+    "name": "McArt's Fort",
+    "tourism": "attraction"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "w5",
+  "n": "W5",
+  "a": "",
+  "pc": "",
+  "lat": 54.60465,
+  "lng": -5.91501,
+  "c": "museum",
+  "s": "museum",
+  "q": "W5 Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2214182263",
+   "raw": {
+    "addr:housename": "Odyssey",
+    "addr:postcode": "BT3 9QQ",
+    "addr:street": "Queen's Quay",
+    "check_date": "2025-08-03",
+    "fee": "yes",
+    "name": "W5",
+    "operator": "Muesums NI",
+    "operator:type": "government",
+    "tourism": "museum",
+    "website": "https://w5online.co.uk/",
+    "wikidata": "Q115533768"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "titanicyardmen401",
+  "n": "Titanic Yardmen 401",
+  "a": "",
+  "pc": "",
+  "lat": 54.59973,
+  "lng": -5.90439,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Titanic Yardmen 401 Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2264364942",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Titanic Yardmen 401",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bearpit",
+  "n": "Bear Pit",
+  "a": "",
+  "pc": "",
+  "lat": 54.62684,
+  "lng": -5.83244,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Bear Pit Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2278161906",
+   "raw": {
+    "historic": "archaeological_site",
+    "name": "Bear Pit"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kit",
+  "n": "Kit",
+  "a": "",
+  "pc": "",
+  "lat": 54.60488,
+  "lng": -5.91261,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Kit Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2305078573",
+   "raw": {
+    "artist_name": "Tony Stallard",
+    "artwork_type": "sculpture",
+    "name": "Kit",
+    "start_date": "2009",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dividers",
+  "n": "Dividers",
+  "a": "",
+  "pc": "",
+  "lat": 54.60597,
+  "lng": -5.92003,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Dividers Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2306475046",
+   "raw": {
+    "artist_name": "Vivien Burnside",
+    "artwork_type": "sculpture",
+    "name": "Dividers",
+    "start_date": "2002",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "unmaskedfiguresculpture",
+  "n": "Unmasked Figure Sculpture",
+  "a": "",
+  "pc": "",
+  "lat": 54.60484,
+  "lng": -5.85391,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Unmasked Figure Sculpture Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2358474433",
+   "raw": {
+    "artwork_type": "sculpture",
+    "description": "Totem pole",
+    "name": "Unmasked Figure Sculpture",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "victorianwell",
+  "n": "Victorian Well",
+  "a": "",
+  "pc": "",
+  "lat": 54.67509,
+  "lng": -5.92378,
+  "c": "history",
+  "s": "old well",
+  "q": "Victorian Well Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3472772813",
+   "raw": {
+    "historic": "archaeological_site",
+    "name": "Victorian Well"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thesearcher",
+  "n": "The Searcher",
+  "a": "",
+  "pc": "",
+  "lat": 54.59793,
+  "lng": -5.88876,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "The Searcher Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3474961192",
+   "raw": {
+    "artist_name": "Ross Wilson",
+    "artwork_type": "statue",
+    "name": "The Searcher",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "paddymccann",
+  "n": "Paddy McCann",
+  "a": "",
+  "pc": "",
+  "lat": 54.60222,
+  "lng": -5.92554,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Paddy McCann Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3661495478",
+   "raw": {
+    "artist_name": "Paddy McCann",
+    "artwork_type": "sculpture",
+    "material": "metal",
+    "name": "Paddy McCann",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "clonardmartyrsmemorial",
+  "n": "Clonard Martyrs Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 54.60121,
+  "lng": -5.95769,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Clonard Martyrs Memorial Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3666544094",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Clonard Martyrs Memorial"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mcgurksbarbombingtombsto",
+  "n": "McGurk's Bar bombing tombstone and commemorative plaque",
+  "a": "",
+  "pc": "",
+  "lat": 54.60741,
+  "lng": -5.93048,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "McGurk's Bar bombing tombstone and commemorative plaque Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3875999683",
+   "raw": {
+    "historic": "memorial",
+    "name": "McGurk's Bar bombing tombstone and commemorative plaque",
+    "subject:wikidata": "Q6801530",
+    "subject:wikipedia": "en:McGurk's Bar bombing",
+    "website": "https://mcgurksbar.com/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sirottojaffe",
+  "n": "Sir Otto Jaffe",
+  "a": "",
+  "pc": "",
+  "lat": 54.59579,
+  "lng": -5.9301,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Sir Otto Jaffe Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3930433933",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Sir Otto Jaffe",
+    "openplaques:id": "12808",
+    "operator": "Ulster History Circle",
+    "source": "survey",
+    "subject:wikidata": "Q7109658"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thomasrussell",
+  "n": "Thomas Russell",
+  "a": "",
+  "pc": "",
+  "lat": 54.59735,
+  "lng": -5.93168,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Thomas Russell Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3930506810",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Thomas Russell",
+    "openplaques:id": "7202",
+    "operator": "Ulster History Circle",
+    "source": "survey",
+    "subject:wikidata": "Q7793689"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "drjamesmcdonnell",
+  "n": "Dr James McDonnell",
+  "a": "",
+  "pc": "",
+  "lat": 54.59818,
+  "lng": -5.93039,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Dr James McDonnell Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3930563659",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Dr James McDonnell",
+    "openplaques:id": "40905",
+    "operator": "Ulster History Circle",
+    "source": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "drwilliamdrennan",
+  "n": "Dr William Drennan",
+  "a": "",
+  "pc": "",
+  "lat": 54.60027,
+  "lng": -5.92973,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Dr William Drennan Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3930690124",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Dr William Drennan",
+    "openplaques:id": "7040",
+    "operator": "Ulster History Circle",
+    "source": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "andrewnicholl",
+  "n": "Andrew Nicholl",
+  "a": "",
+  "pc": "",
+  "lat": 54.60013,
+  "lng": -5.92547,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Andrew Nicholl Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3931020283",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Andrew Nicholl",
+    "openplaques:id": "7174",
+    "operator": "Ulster History Circle",
+    "source": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "viscountbryce",
+  "n": "Viscount Bryce",
+  "a": "",
+  "pc": "",
+  "lat": 54.59723,
+  "lng": -5.92759,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Viscount Bryce Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3932410836",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Viscount Bryce",
+    "openplaques:id": "40908",
+    "operator": "Ulster History Circle",
+    "source": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lordcraigavonstomb",
+  "n": "Lord Craigavon's Tomb",
+  "a": "",
+  "pc": "",
+  "lat": 54.60453,
+  "lng": -5.83044,
+  "c": "death",
+  "s": "historic tomb",
+  "q": "Lord Craigavon's Tomb Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3955140976",
+   "raw": {
+    "historic": "memorial",
+    "name": "Lord Craigavon's Tomb"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "theflyingangel",
+  "n": "The Flying Angel",
+  "a": "",
+  "pc": "",
+  "lat": 54.60832,
+  "lng": -5.91932,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "The Flying Angel Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3958423791",
+   "raw": {
+    "alt_name": "The Mission to Seafarers",
+    "artist_name": "Maurice Harron",
+    "artwork_type": "sculpture",
+    "material": "bronze;stainless steel",
+    "name": "The Flying Angel",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blinks",
+  "n": "Blinks",
+  "a": "",
+  "pc": "",
+  "lat": 54.61432,
+  "lng": -5.8988,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Blinks Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3958423792",
+   "raw": {
+    "artist_name": "Facilitated by visual artist Peter Nelson and designed and constructed by former shipyard welders.",
+    "artwork_type": "sculpture",
+    "name": "Blinks",
+    "tourism": "artwork",
+    "year": "2005"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "theseahorse",
+  "n": "The Seahorse",
+  "a": "",
+  "pc": "",
+  "lat": 54.62973,
+  "lng": -5.90415,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "The Seahorse Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3959656023",
+   "raw": {
+    "artist_name": "Ralf Sander",
+    "artwork_type": "sculpture",
+    "name": "The Seahorse",
+    "source": "https://www.belfast-harbour.co.uk/corporate/public-art/",
+    "tourism": "artwork",
+    "year": "2009"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wwimemorial",
+  "n": "WWI Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 54.58455,
+  "lng": -5.93585,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "WWI Memorial Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4012515021",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "WWI Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "warmemorial",
+  "n": "War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 54.67477,
+  "lng": -5.89469,
+  "c": "history",
+  "s": "war memorial",
+  "q": "War Memorial Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4016662886",
+   "raw": {
+    "historic": "memorial",
+    "material": "granite",
+    "memorial": "war_memorial",
+    "name": "War Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "reconciliationsculpture",
+  "n": "Reconciliation Sculpture",
+  "a": "",
+  "pc": "",
+  "lat": 54.60322,
+  "lng": -5.83573,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Reconciliation Sculpture Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4030184369",
+   "raw": {
+    "artist_name": "Josefina de Vasconcellos",
+    "artwork_type": "sculpture",
+    "name": "Reconciliation Sculpture",
+    "start_date": "2000",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thesommememorial",
+  "n": "The Somme Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 54.60294,
+  "lng": -5.83762,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "The Somme Memorial Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4030184371",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "The Somme Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "peopleschurchnewtownabbe",
+  "n": "People's Church Newtownabbey",
+  "a": "",
+  "pc": "",
+  "lat": 54.67805,
+  "lng": -5.9998,
+  "c": "faith",
+  "s": "church",
+  "q": "People's Church Newtownabbey Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4077376152",
+   "raw": {
+    "addr:street": "Mallusk Road",
+    "amenity": "place_of_worship",
+    "name": "People's Church Newtownabbey",
+    "religion": "christian",
+    "toilets": "yes",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "shankillbombmemorial",
+  "n": "Shankill Bomb Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 54.60409,
+  "lng": -5.95193,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Shankill Bomb Memorial Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4631998522",
+   "raw": {
+    "historic": "memorial",
+    "name": "Shankill Bomb Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamconorscorner",
+  "n": "William Conor's Corner",
+  "a": "",
+  "pc": "",
+  "lat": 54.60378,
+  "lng": -5.94732,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "William Conor's Corner Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4631998523",
+   "raw": {
+    "artwork_type": "sculpture",
+    "material": "bronze",
+    "name": "William Conor's Corner",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "queenvictoria",
+  "n": "Queen Victoria",
+  "a": "",
+  "pc": "",
+  "lat": 54.60597,
+  "lng": -5.95832,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Queen Victoria Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4631998524",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Queen Victoria",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "newlifecitychurch",
+  "n": "New Life City Church",
+  "a": "",
+  "pc": "",
+  "lat": 54.60097,
+  "lng": -5.94775,
+  "c": "faith",
+  "s": "church",
+  "q": "New Life City Church Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4632135604",
+   "raw": {
+    "addr:city": "Belfast",
+    "addr:housenumber": "143",
+    "addr:postcode": "BT13 2JF",
+    "addr:street": "Northumberland Street",
+    "amenity": "place_of_worship",
+    "denomination": "elim_pentecostal",
+    "name": "New Life City Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "leapoffaith",
+  "n": "Leap of Faith",
+  "a": "",
+  "pc": "",
+  "lat": 54.55949,
+  "lng": -6.02398,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Leap of Faith Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4687786919",
+   "raw": {
+    "artist_name": "Gordon Muir",
+    "artwork_type": "sculpture",
+    "name": "Leap of Faith",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "belfastcastle",
+  "n": "Belfast Castle",
+  "a": "",
+  "pc": "",
+  "lat": 54.64278,
+  "lng": -5.94227,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Belfast Castle Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4943156021",
+   "raw": {
+    "name": "Belfast Castle",
+    "name:en": "Belfast Castle",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "themayfly",
+  "n": "The Mayfly",
+  "a": "",
+  "pc": "",
+  "lat": 54.67364,
+  "lng": -5.95803,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "The Mayfly Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5273514812",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "The Mayfly",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "antrimcoastsculpture",
+  "n": "Antrim Coast Sculpture",
+  "a": "",
+  "pc": "",
+  "lat": 54.67904,
+  "lng": -5.88724,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Antrim Coast Sculpture Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5735303542",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Antrim Coast Sculpture",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cakeandeatit",
+  "n": "Cake and Eat it",
+  "a": "",
+  "pc": "",
+  "lat": 54.54663,
+  "lng": -5.952,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Cake and Eat it Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5765736434",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Cake and Eat it",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thegreatlight",
+  "n": "The Great Light",
+  "a": "",
+  "pc": "",
+  "lat": 54.61249,
+  "lng": -5.90625,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "The Great Light Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5800626138",
+   "raw": {
+    "addr:city": "Belfast",
+    "addr:postcode": "BT3 9DT",
+    "artwork_type": "sculpture",
+    "fee": "no",
+    "name": "The Great Light",
+    "opening_hours": "24/7",
+    "tourism": "artwork",
+    "website": "https://www.greatlighttq.org/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jameslarkin",
+  "n": "James Larkin",
+  "a": "",
+  "pc": "",
+  "lat": 54.602,
+  "lng": -5.92815,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "James Larkin Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5996359861",
+   "raw": {
+    "addr:city": "Belfast",
+    "addr:street": "Donegall Street Place",
+    "artist_name": "Anto Brennan (2006)",
+    "artwork_type": "sculpture",
+    "name": "James Larkin",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mole",
+  "n": "Mole",
+  "a": "",
+  "pc": "",
+  "lat": 54.54825,
+  "lng": -5.9495,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Mole Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/6033825499",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Mole",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "king",
+  "n": "King",
+  "a": "",
+  "pc": "",
+  "lat": 54.54767,
+  "lng": -5.95718,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "King Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/6033825502",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "King",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rintymonaghan",
+  "n": "Rinty Monaghan",
+  "a": "",
+  "pc": "",
+  "lat": 54.60348,
+  "lng": -5.92969,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Rinty Monaghan Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/6069211723",
+   "raw": {
+    "artist_name": "Alan Beattie Herriot",
+    "artwork_type": "sculpture",
+    "name": "Rinty Monaghan",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "marypetersstatue",
+  "n": "Mary Peters Statue",
+  "a": "",
+  "pc": "",
+  "lat": 54.54897,
+  "lng": -5.96881,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Mary Peters Statue Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/6303180358",
+   "raw": {
+    "artist_name": "John Sherlock",
+    "artwork_type": "statue",
+    "name": "Mary Peters Statue",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "omniplex",
+  "n": "Omniplex",
+  "a": "",
+  "pc": "",
+  "lat": 54.58121,
+  "lng": -5.97873,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Omniplex Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/6322947382",
+   "raw": {
+    "addr:city": "Belfast",
+    "amenity": "cinema",
+    "cinema:3D": "yes",
+    "email": "kennedycentre@omniplex.ie",
+    "name": "Omniplex",
+    "operator": "Omniplex Cinema Group",
+    "phone": "+44 28 40310113",
+    "screen": "8",
+    "website": "https://www.omniplex.ie/cinemas/cinema/belfast-kennedy-centre",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "catholicchaplaincyqueens",
+  "n": "Catholic Chaplaincy, Queen's University Belfast",
+  "a": "",
+  "pc": "",
+  "lat": 54.58452,
+  "lng": -5.93961,
+  "c": "faith",
+  "s": "church",
+  "q": "Catholic Chaplaincy, Queen's University Belfast Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/6328777194",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-02-13",
+    "denomination": "roman_catholic",
+    "fixme": "Is this an actual church?",
+    "name": "Catholic Chaplaincy, Queen's University Belfast",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "terencerobinson",
+  "n": "Terence Robinson",
+  "a": "",
+  "pc": "",
+  "lat": 54.5289,
+  "lng": -6.02511,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Terence Robinson Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/6559915266",
+   "raw": {
+    "artist_name": "Darren Sutton",
+    "artwork_type": "statue",
+    "name": "Terence Robinson",
+    "source": "https://www.lisburntoday.co.uk/news/people/terence-robinson-honoured-with-statue-1-8944146",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sculpture",
+  "n": "sculpture",
+  "a": "",
+  "pc": "",
+  "lat": 54.59905,
+  "lng": -5.83833,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "sculpture Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/6622457485",
+   "raw": {
+    "name": "sculpture",
+    "name:fr": "sculpture tronc d’arbre",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jaffememorialfountain",
+  "n": "Jaffe Memorial Fountain",
+  "a": "",
+  "pc": "",
+  "lat": 54.59848,
+  "lng": -5.92422,
+  "c": "history",
+  "s": "memorial fountain",
+  "q": "Jaffe Memorial Fountain Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/6726556666",
+   "raw": {
+    "historic": "monument",
+    "name": "Jaffe Memorial Fountain"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "internationalwallmural",
+  "n": "International Wall - Mural",
+  "a": "",
+  "pc": "",
+  "lat": 54.59978,
+  "lng": -5.94586,
+  "c": "streetart",
+  "s": "mural",
+  "q": "International Wall - Mural Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/6745947386",
+   "raw": {
+    "artwork_type": "mural",
+    "name": "International Wall - Mural",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "whiteabbeyroundabout",
+  "n": "Whiteabbey roundabout",
+  "a": "",
+  "pc": "",
+  "lat": 54.67043,
+  "lng": -5.90104,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Whiteabbey roundabout Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/6759199525",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Whiteabbey roundabout",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "maypole",
+  "n": "Maypole",
+  "a": "",
+  "pc": "",
+  "lat": 54.64195,
+  "lng": -5.83442,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Maypole Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/6868103576",
+   "raw": {
+    "addr:city": "Holywood",
+    "historic": "monument",
+    "name": "Maypole"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hungerstrikersmural",
+  "n": "Hunger Strikers mural",
+  "a": "",
+  "pc": "",
+  "lat": 54.5894,
+  "lng": -5.9695,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Hunger Strikers mural Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/7004217321",
+   "raw": {
+    "artwork_type": "mural",
+    "name": "Hunger Strikers mural",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "holywoodmotte",
+  "n": "Holywood Motte",
+  "a": "",
+  "pc": "",
+  "lat": 54.64144,
+  "lng": -5.83077,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Holywood Motte Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/8483209669",
+   "raw": {
+    "archaeological_site": "fortification",
+    "fortification_type": "motte",
+    "historic": "archaeological_site",
+    "name": "Holywood Motte"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "originsculpture",
+  "n": "Origin Sculpture",
+  "a": "",
+  "pc": "",
+  "lat": 54.63524,
+  "lng": -5.96697,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Origin Sculpture Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/8603471869",
+   "raw": {
+    "artwork_type": "sculpture",
+    "material": "metal",
+    "name": "Origin Sculpture",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dundrodcircuit",
+  "n": "Dundrod Circuit",
+  "a": "",
+  "pc": "",
+  "lat": 54.5808,
+  "lng": -6.08472,
+  "c": "oddity",
+  "s": "motorcycle street circuit in Northern Ireland",
+  "q": "Dundrod Circuit Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q173698",
+   "raw": "Motorcycle street circuit in Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "milltown",
+  "n": "Milltown",
+  "a": "",
+  "pc": "",
+  "lat": 54.5422,
+  "lng": -6.04167,
+  "c": "oddity",
+  "s": "village in County Antrim, Northern Ireland, UK",
+  "q": "Milltown Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2197311",
+   "raw": "village in County Antrim, Northern Ireland, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tullynacross",
+  "n": "Tullynacross",
+  "a": "",
+  "pc": "",
+  "lat": 54.5221,
+  "lng": -6.01395,
+  "c": "oddity",
+  "s": "village in County Down, Northern Ireland, UK",
+  "q": "Tullynacross Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2223093",
+   "raw": "village in County Down, Northern Ireland, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hqnorthernireland",
+  "n": "HQ Northern Ireland",
+  "a": "",
+  "pc": "",
+  "lat": 54.52417,
+  "lng": -6.05167,
+  "c": "oddity",
+  "s": "defunct formation responsible for the British Army in and ar",
+  "q": "HQ Northern Ireland Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3412312",
+   "raw": "defunct formation responsible for the British Army in and around Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hildenrailwaystation",
+  "n": "Hilden railway station",
+  "a": "",
+  "pc": "",
+  "lat": 54.52278,
+  "lng": -6.02944,
+  "c": "oddity",
+  "s": "railway station in County Antrim, Northern Ireland, UK",
+  "q": "Hilden railway station Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3969788",
+   "raw": "railway station in County Antrim, Northern Ireland, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lambegrailwaystation",
+  "n": "Lambeg railway station",
+  "a": "",
+  "pc": "",
+  "lat": 54.52955,
+  "lng": -6.02968,
+  "c": "oddity",
+  "s": "railway station in County Antrim, Northern Ireland, UK",
+  "q": "Lambeg railway station Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3969911",
+   "raw": "railway station in County Antrim, Northern Ireland, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aghalislone",
+  "n": "Aghalislone",
+  "a": "",
+  "pc": "",
+  "lat": 54.5371,
+  "lng": -6.07105,
+  "c": "oddity",
+  "s": "human settlement in Northern Ireland",
+  "q": "Aghalislone Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4692369",
+   "raw": "human settlement in Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aghnahough",
+  "n": "Aghnahough",
+  "a": "",
+  "pc": "",
+  "lat": 54.53404,
+  "lng": -6.088,
+  "c": "oddity",
+  "s": "human settlement in Northern Ireland",
+  "q": "Aghnahough Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4692442",
+   "raw": "human settlement in Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aquinasdiocesangrammarsc",
+  "n": "Aquinas Diocesan Grammar School",
+  "a": "",
+  "pc": "",
+  "lat": 54.5773,
+  "lng": -6.08796,
+  "c": "oddity",
+  "s": "grammar school in Belfast, Northern Ireland",
+  "q": "Aquinas Diocesan Grammar School Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4782990",
+   "raw": "grammar school in Belfast, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ballycollin",
+  "n": "Ballycollin",
+  "a": "",
+  "pc": "",
+  "lat": 54.57104,
+  "lng": -6.05172,
+  "c": "oddity",
+  "s": "human settlement in Northern Ireland",
+  "q": "Ballycollin Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4852049",
+   "raw": "human settlement in Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "duncansdam",
+  "n": "Duncan's Dam",
+  "a": "",
+  "pc": "",
+  "lat": 54.5306,
+  "lng": -6.06394,
+  "c": "oddity",
+  "s": "dam in the United Kingdom",
+  "q": "Duncan's Dam Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5314215",
+   "raw": "dam in the United Kingdom",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lambegnorth",
+  "n": "Lambeg North",
+  "a": "",
+  "pc": "",
+  "lat": 54.53124,
+  "lng": -6.0246,
+  "c": "oddity",
+  "s": "northern Ireland",
+  "q": "Lambeg North Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6481188",
+   "raw": "Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lisburnandcastlereagh",
+  "n": "Lisburn and Castlereagh",
+  "a": "",
+  "pc": "",
+  "lat": 54.523,
+  "lng": -5.973,
+  "c": "oddity",
+  "s": "one of the 11 local government districts of Northern Ireland",
+  "q": "Lisburn and Castlereagh Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6558667",
+   "raw": "one of the 11 local government districts of Northern Ireland established 2015",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stpatricksgaa",
+  "n": "St Patrick's GAA",
+  "a": "",
+  "pc": "",
+  "lat": 54.5281,
+  "lng": -6.04943,
+  "c": "oddity",
+  "s": "gaelic sports club in County Down, Northern Ireland",
+  "q": "St Patrick's GAA Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7595076",
+   "raw": "gaelic sports club in County Down, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thiepvalbarracksbombing",
+  "n": "Thiepval barracks bombing",
+  "a": "",
+  "pc": "",
+  "lat": 54.5253,
+  "lng": -6.04804,
+  "c": "oddity",
+  "s": "1996 IRA attack in Lisburn, Northern Ireland",
+  "q": "Thiepval barracks bombing Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7784019",
+   "raw": "1996 IRA attack in Lisburn, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "whitemountain",
+  "n": "White Mountain",
+  "a": "",
+  "pc": "",
+  "lat": 54.54701,
+  "lng": -6.09305,
+  "c": "oddity",
+  "s": "northern Irish Townland",
+  "q": "White Mountain Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7995069",
+   "raw": "Northern Irish Townland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wolfendentomblambegparis",
+  "n": "Wolfenden Tomb, Lambeg Parish Churchyard",
+  "a": "",
+  "pc": "",
+  "lat": 54.5322,
+  "lng": -6.01695,
+  "c": "death",
+  "s": "mausoleum in Lisburn, County Antrim, Northern Ireland",
+  "q": "Wolfenden Tomb, Lambeg Parish Churchyard Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17778931",
+   "raw": "mausoleum in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "christchurchofireland",
+  "n": "Christ Church of Ireland",
+  "a": "",
+  "pc": "",
+  "lat": 54.5426,
+  "lng": -6.03206,
+  "c": "faith",
+  "s": "church building in Lisburn, County Antrim, Northern Ireland",
+  "q": "Christ Church of Ireland Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17778945",
+   "raw": "church building in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ballyskeaghbridge",
+  "n": "Ballyskeagh Bridge",
+  "a": "",
+  "pc": "",
+  "lat": 54.5342,
+  "lng": -6.01053,
+  "c": "oddity",
+  "s": "bridge in Lisburn, County Antrim, Northern Ireland",
+  "q": "Ballyskeagh Bridge Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17860398",
+   "raw": "bridge in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wolfendensbridge",
+  "n": "Wolfenden's Bridge",
+  "a": "",
+  "pc": "",
+  "lat": 54.5334,
+  "lng": -6.01736,
+  "c": "oddity",
+  "s": "bridge in Lisburn, County Antrim, Northern Ireland",
+  "q": "Wolfenden's Bridge Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17860399",
+   "raw": "bridge in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "derriaghy",
+  "n": "Derriaghy",
+  "a": "",
+  "pc": "",
+  "lat": 54.54073,
+  "lng": -6.03358,
+  "c": "oddity",
+  "s": "townland in Antrim, Northern Ireland",
+  "q": "Derriaghy Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q20712743",
+   "raw": "townland in Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "budore",
+  "n": "Budore",
+  "a": "",
+  "pc": "",
+  "lat": 54.61077,
+  "lng": -6.08005,
+  "c": "oddity",
+  "s": "townland in Antrim, Northern Ireland",
+  "q": "Budore Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q104354331",
+   "raw": "townland in Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ballymacwardupper",
+  "n": "Ballymacward Upper",
+  "a": "",
+  "pc": "",
+  "lat": 54.58689,
+  "lng": -6.08822,
+  "c": "oddity",
+  "s": "townland in Antrim, Northern Ireland",
+  "q": "Ballymacward Upper Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q104358506",
+   "raw": "townland in Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mullaghglass",
+  "n": "Mullaghglass",
+  "a": "",
+  "pc": "",
+  "lat": 54.55902,
+  "lng": -6.07353,
+  "c": "oddity",
+  "s": "townland in Antrim, Northern Ireland",
+  "q": "Mullaghglass Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q104359062",
+   "raw": "townland in Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "slievenacloy",
+  "n": "Slievenacloy",
+  "a": "",
+  "pc": "",
+  "lat": 54.57661,
+  "lng": -6.07914,
+  "c": "oddity",
+  "s": "townland in Antrim, Northern Ireland",
+  "q": "Slievenacloy Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q104359107",
+   "raw": "townland in Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tornagrough",
+  "n": "Tornagrough",
+  "a": "",
+  "pc": "",
+  "lat": 54.59562,
+  "lng": -6.05948,
+  "c": "oddity",
+  "s": "townland in Antrim, Northern Ireland",
+  "q": "Tornagrough Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q104360352",
+   "raw": "townland in Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "slievenagravery",
+  "n": "Slievenagravery",
+  "a": "",
+  "pc": "",
+  "lat": 54.58404,
+  "lng": -6.05532,
+  "c": "oddity",
+  "s": "townland in Antrim, Northern Ireland",
+  "q": "Slievenagravery Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q104360369",
+   "raw": "townland in Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "magheralave",
+  "n": "Magheralave",
+  "a": "",
+  "pc": "",
+  "lat": 54.53109,
+  "lng": -6.04703,
+  "c": "oddity",
+  "s": "townland in Antrim, Northern Ireland",
+  "q": "Magheralave Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q104360697",
+   "raw": "townland in Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lagmore",
+  "n": "Lagmore",
+  "a": "",
+  "pc": "",
+  "lat": 54.55384,
+  "lng": -6.04529,
+  "c": "oddity",
+  "s": "townland in Antrim, Northern Ireland",
+  "q": "Lagmore Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q104360856",
+   "raw": "townland in Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tornaroy",
+  "n": "Tornaroy",
+  "a": "",
+  "pc": "",
+  "lat": 54.59482,
+  "lng": -6.04672,
+  "c": "oddity",
+  "s": "townland in Antrim, Northern Ireland",
+  "q": "Tornaroy Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q104361216",
+   "raw": "townland in Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lambegsouth",
+  "n": "Lambeg South",
+  "a": "",
+  "pc": "",
+  "lat": 54.52062,
+  "lng": -6.02917,
+  "c": "oddity",
+  "s": "townland in Antrim, Northern Ireland",
+  "q": "Lambeg South Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q104361653",
+   "raw": "townland in Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "harmonyhillprimaryschool",
+  "n": "Harmony Hill Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 54.52415,
+  "lng": -6.03441,
+  "c": "oddity",
+  "s": "uK primary school in Lisburn, County Antrim, Northern Irelan",
+  "q": "Harmony Hill Primary School Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q105417126",
+   "raw": "UK primary school in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "laurelhillcommunitycolle",
+  "n": "Laurelhill Community College",
+  "a": "",
+  "pc": "",
+  "lat": 54.52,
+  "lng": -6.06629,
+  "c": "oddity",
+  "s": "uK secondary school in Lisburn, County Antrim, Northern Irel",
+  "q": "Laurelhill Community College Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q105417131",
+   "raw": "UK secondary school in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pondparkprimaryschool",
+  "n": "Pond Park Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 54.52546,
+  "lng": -6.06745,
+  "c": "green",
+  "s": "uK primary school in Lisburn, County Antrim, Northern Irelan",
+  "q": "Pond Park Primary School Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q105417138",
+   "raw": "UK primary school in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pondparknurseryschool",
+  "n": "Pond Park Nursery School",
+  "a": "",
+  "pc": "",
+  "lat": 54.52554,
+  "lng": -6.06538,
+  "c": "green",
+  "s": "uK nursery school in Lisburn, County Antrim, Northern Irelan",
+  "q": "Pond Park Nursery School Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q105417137",
+   "raw": "UK nursery school in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "clogher",
+  "n": "Clogher",
+  "a": "",
+  "pc": "",
+  "lat": 54.5232,
+  "lng": -6.06579,
+  "c": "oddity",
+  "s": "townland in Derryaghy, Antrim, Northern Ireland",
+  "q": "Clogher Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126598804",
+   "raw": "townland in Derryaghy, Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chromehill",
+  "n": "Chrome Hill",
+  "a": "",
+  "pc": "",
+  "lat": 54.5341,
+  "lng": -6.01547,
+  "c": "oddity",
+  "s": "house in Lisburn, County Antrim, Northern Ireland",
+  "q": "Chrome Hill Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126698223",
+   "raw": "house in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hildenmill",
+  "n": "Hilden Mill",
+  "a": "",
+  "pc": "",
+  "lat": 54.5203,
+  "lng": -6.0224,
+  "c": "oddity",
+  "s": "mill building in Lisburn, County Antrim, Northern Ireland",
+  "q": "Hilden Mill Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126699357",
+   "raw": "mill building in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "76hildenview",
+  "n": "76 Hilden View",
+  "a": "",
+  "pc": "",
+  "lat": 54.5231,
+  "lng": -6.01608,
+  "c": "oddity",
+  "s": "school building in Lisburn, County Antrim, Northern Ireland",
+  "q": "76 Hilden View Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126699941",
+   "raw": "school building in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "29churchhill",
+  "n": "29 Church Hill",
+  "a": "",
+  "pc": "",
+  "lat": 54.5318,
+  "lng": -6.01954,
+  "c": "faith",
+  "s": "house in Lisburn, County Antrim, Northern Ireland",
+  "q": "29 Church Hill Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126699955",
+   "raw": "house in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hildenprimaryschool",
+  "n": "Hilden Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 54.5214,
+  "lng": -6.0234,
+  "c": "oddity",
+  "s": "school building in Lisburn, County Antrim, Northern Ireland",
+  "q": "Hilden Primary School Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126699958",
+   "raw": "school building in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hildenhouse",
+  "n": "Hilden House",
+  "a": "",
+  "pc": "",
+  "lat": 54.52,
+  "lng": -6.02607,
+  "c": "oddity",
+  "s": "house in Lisburn, County Antrim, Northern Ireland",
+  "q": "Hilden House Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126699956",
+   "raw": "house in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "22pondparkroad",
+  "n": "22 Pond Park Road",
+  "a": "",
+  "pc": "",
+  "lat": 54.5237,
+  "lng": -6.06103,
+  "c": "green",
+  "s": "house in Lisburn, County Antrim, Northern Ireland",
+  "q": "22 Pond Park Road Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126700605",
+   "raw": "house in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "railwaybridgelambegroadl",
+  "n": "Railway Bridge, Lambeg Road, Lambeg",
+  "a": "",
+  "pc": "",
+  "lat": 54.5276,
+  "lng": -6.03024,
+  "c": "oddity",
+  "s": "bridge in Lisburn, County Antrim, Northern Ireland",
+  "q": "Railway Bridge, Lambeg Road, Lambeg Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126700609",
+   "raw": "bridge in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "4glenmoreterrace",
+  "n": "4 Glenmore Terrace",
+  "a": "",
+  "pc": "",
+  "lat": 54.5209,
+  "lng": -6.02716,
+  "c": "oddity",
+  "s": "house in Lisburn, County Antrim, Northern Ireland",
+  "q": "4 Glenmore Terrace Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126700614",
+   "raw": "house in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "willowtreecottage",
+  "n": "Willowtree Cottage",
+  "a": "",
+  "pc": "",
+  "lat": 54.5372,
+  "lng": -6.0174,
+  "c": "oddity",
+  "s": "gatehouse in Dunmurry, County Antrim, Northern Ireland",
+  "q": "Willowtree Cottage Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126700617",
+   "raw": "gatehouse in Dunmurry, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "summerhouse",
+  "n": "Summer House",
+  "a": "",
+  "pc": "",
+  "lat": 54.52,
+  "lng": -6.04765,
+  "c": "green",
+  "s": "garden feature in Lisburn, County Antrim, Northern Ireland",
+  "q": "Summer House Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126705072",
+   "raw": "garden feature in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "glenmorehouse",
+  "n": "Glenmore House",
+  "a": "",
+  "pc": "",
+  "lat": 54.5278,
+  "lng": -6.02748,
+  "c": "oddity",
+  "s": "house in Lisburn, County Antrim, Northern Ireland",
+  "q": "Glenmore House Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126705103",
+   "raw": "house in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stpatricksrcchurchoffbar",
+  "n": "St Patrick's RC Church, (off) Barnfield Road, Lagmore",
+  "a": "",
+  "pc": "",
+  "lat": 54.5483,
+  "lng": -6.04567,
+  "c": "faith",
+  "s": "church building in Lisburn, County Antrim, Northern Ireland",
+  "q": "St Patrick's RC Church, (off) Barnfield Road, Lagmore Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126705111",
+   "raw": "church building in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fairacre",
+  "n": "Fair Acre",
+  "a": "",
+  "pc": "",
+  "lat": 54.5497,
+  "lng": -6.04516,
+  "c": "oddity",
+  "s": "house in Lisburn, County Antrim, Northern Ireland",
+  "q": "Fair Acre Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126711247",
+   "raw": "house in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bensonsroad",
+  "n": "Benson's Road",
+  "a": "",
+  "pc": "",
+  "lat": 54.5372,
+  "lng": -6.09978,
+  "c": "oddity",
+  "s": "building in Tullyrusk, County Antrim, Northern Ireland",
+  "q": "Benson's Road Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126712963",
+   "raw": "building in Tullyrusk, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "beanstownmissionhall",
+  "n": "Beanstown Mission Hall",
+  "a": "",
+  "pc": "",
+  "lat": 54.5335,
+  "lng": -6.07313,
+  "c": "oddity",
+  "s": "function hall in Lisburn, County Antrim, Northern Ireland",
+  "q": "Beanstown Mission Hall Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126712964",
+   "raw": "function hall in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "23islandkellypark",
+  "n": "23 Island Kelly Park",
+  "a": "",
+  "pc": "",
+  "lat": 54.5278,
+  "lng": -6.07634,
+  "c": "green",
+  "s": "house in Lisburn, County Antrim, Northern Ireland",
+  "q": "23 Island Kelly Park Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126712965",
+   "raw": "house in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "115pondparkroad",
+  "n": "115 Pond Park Road",
+  "a": "",
+  "pc": "",
+  "lat": 54.5368,
+  "lng": -6.07381,
+  "c": "green",
+  "s": "house in Lisburn, County Antrim, Northern Ireland",
+  "q": "115 Pond Park Road Belfast",
+  "w": "",
+  "city": "belfast",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126712995",
+   "raw": "house in Lisburn, County Antrim, Northern Ireland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

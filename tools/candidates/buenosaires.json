@@ -1,0 +1,4263 @@
+[
+ {
+  "id": "museoevitainstitutonacio",
+  "n": "Museo Evita - Instituto Nacional Eva Perón De Investigaciones Históricas",
+  "a": "",
+  "pc": "",
+  "lat": -34.58075,
+  "lng": -58.41474,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Evita - Instituto Nacional Eva Perón De Investigaciones Históricas Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/247463216",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "2988",
+    "addr:postcode": "C1425FAB",
+    "addr:street": "Lafinur",
+    "addr:suburb": "Palermo",
+    "building": "yes",
+    "fee": "yes",
+    "name": "Museo Evita - Instituto Nacional Eva Perón De Investigaciones Históricas",
+    "opening_hours": "Tu-Su 11:00-19:00",
+    "phone": "+54 11 4807 0306",
+    "tourism": "museum",
+    "website": "https://museoevita.org/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museonacionalferroviario",
+  "n": "Museo Nacional Ferroviario",
+  "a": "",
+  "pc": "",
+  "lat": -34.58982,
+  "lng": -58.37876,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Nacional Ferroviario Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/247464344",
+   "raw": {
+    "addr:housenumber": "405",
+    "addr:postcode": "C1104AJN",
+    "addr:street": "Avenida Del Libertador",
+    "description": "Material vinculado con el sistema ferroviario nacional: vehículos, telefonía, faroles, uniformes, mobiliario, maquetas, etc. Correspondientes a la segunda mitad del siglo XIX al siglo XX.",
+    "email": "museoferroviario@adifse.com.ar",
+    "museum": "railway",
+    "museum_type": "national",
+    "name": "Museo Nacional Ferroviario",
+    "name:en": "Railway Museum",
+    "official_name": "Museo Nacional Ferroviario “Raúl Scalabrini Ortiz”",
+    "opening_hours": "Mo-Fr 10:00-18:00",
+    "operator": "DNM",
+    "phone": "+54 11 4318 3343",
+    "start_date": "1969",
+    "tourism": "museum",
+    "website": "https://www.argentina.gob.ar/museoferroviario",
+    "wikidata": "Q17623075",
+    "wikimedia_commons": "File:Museo Nacional Ferroviario Raúl Scalabrini Ortiz (11).JPG"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cruzdecristoielu",
+  "n": "Cruz de Cristo (IELU)",
+  "a": "",
+  "pc": "",
+  "lat": -34.56619,
+  "lng": -58.45577,
+  "c": "faith",
+  "s": "church",
+  "q": "Cruz de Cristo (IELU) Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/277499200",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "1767",
+    "addr:postcode": "1426",
+    "addr:street": "Amenábar",
+    "addr:suburb": "Belgrano",
+    "amenity": "place_of_worship",
+    "denomination": "lutheran",
+    "name": "Cruz de Cristo (IELU)",
+    "network": "IELU",
+    "network:wikidata": "Q10534247",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "elredentorielu",
+  "n": "El Redentor (IELU)",
+  "a": "",
+  "pc": "",
+  "lat": -34.59957,
+  "lng": -58.49636,
+  "c": "faith",
+  "s": "church",
+  "q": "El Redentor (IELU) Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/277499713",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "3182",
+    "addr:postcode": "1417",
+    "addr:street": "Simbrón",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "lutheran",
+    "landuse": "recreation_ground",
+    "name": "El Redentor (IELU)",
+    "network": "IELU",
+    "network:wikidata": "Q10534247",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesiacentroierp",
+  "n": "Iglesia Centro (IERP)",
+  "a": "",
+  "pc": "",
+  "lat": -34.60632,
+  "lng": -58.37802,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia Centro (IERP) Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/301125912",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "162",
+    "addr:street": "Esmeralda",
+    "amenity": "place_of_worship",
+    "denomination": "lutheran",
+    "name": "Iglesia Centro (IERP)",
+    "name:de": "Stadtkirche (IERP)",
+    "network": "IERP",
+    "religion": "christian",
+    "wikidata": "Q130533515"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiabelgranoierp",
+  "n": "Parroquia Belgrano (IERP)",
+  "a": "",
+  "pc": "",
+  "lat": -34.56637,
+  "lng": -58.45937,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia Belgrano (IERP) Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/301125917",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "evangelical",
+    "name": "Parroquia Belgrano (IERP)",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesiaevangelicametodis",
+  "n": "Iglesia Evangélica Metodista de Almagro",
+  "a": "",
+  "pc": "",
+  "lat": -34.61239,
+  "lng": -58.42285,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia Evangélica Metodista de Almagro Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/301125918",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "4050",
+    "addr:postcode": "C1205AAN",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "place_of_worship",
+    "check_date": "2024-03-09",
+    "denomination": "methodist",
+    "name": "Iglesia Evangélica Metodista de Almagro",
+    "religion": "christian",
+    "website": "https://www.almagroconjesus.org/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "emanuel",
+  "n": "Emanuel",
+  "a": "",
+  "pc": "",
+  "lat": -34.6075,
+  "lng": -58.47644,
+  "c": "faith",
+  "s": "church",
+  "q": "Emanuel Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/301125920",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "2044/48",
+    "addr:street": "Juan Agustín García",
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Emanuel",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "congregacionliniers",
+  "n": "Congregación Liniers",
+  "a": "",
+  "pc": "",
+  "lat": -34.64271,
+  "lng": -58.51483,
+  "c": "faith",
+  "s": "church",
+  "q": "Congregación Liniers Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/301129568",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "258",
+    "addr:street": "Pieres",
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Congregación Liniers",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiaesperanza",
+  "n": "Parroquia Esperanza",
+  "a": "",
+  "pc": "",
+  "lat": -34.60362,
+  "lng": -58.3771,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia Esperanza Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/301129570",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "718",
+    "addr:street": "Avenida Corrientes",
+    "alt_name": "Primera Iglesia Metodista Argentina",
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Parroquia Esperanza",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "terceraiglesia",
+  "n": "Tercera Iglesia",
+  "a": "",
+  "pc": "",
+  "lat": -34.6273,
+  "lng": -58.38851,
+  "c": "faith",
+  "s": "church",
+  "q": "Tercera Iglesia Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/301129571",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "1626",
+    "addr:street": "Avenida Juan de Garay",
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Tercera Iglesia",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanpabloiela",
+  "n": "San Pablo (IELA)",
+  "a": "",
+  "pc": "",
+  "lat": -34.57136,
+  "lng": -58.46968,
+  "c": "faith",
+  "s": "church",
+  "q": "San Pablo (IELA) Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/301347827",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "lutheran",
+    "name": "San Pablo (IELA)",
+    "network": "IELA",
+    "network:wikidata": "Q25426441",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santaelena",
+  "n": "Santa Elena",
+  "a": "",
+  "pc": "",
+  "lat": -34.57774,
+  "lng": -58.41192,
+  "c": "faith",
+  "s": "church",
+  "q": "Santa Elena Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/347413006",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Santa Elena",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanmartindetours",
+  "n": "San Martín de Tours",
+  "a": "",
+  "pc": "",
+  "lat": -34.57829,
+  "lng": -58.40402,
+  "c": "faith",
+  "s": "church",
+  "q": "San Martín de Tours Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/347413296",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "2949",
+    "addr:postcode": "1425",
+    "addr:street": "San Martín de Tours",
+    "addr:suburb": "Palermo",
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "San Martín de Tours",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "temployeshurun",
+  "n": "Templo Yeshurun",
+  "a": "",
+  "pc": "",
+  "lat": -34.57781,
+  "lng": -58.41432,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Templo Yeshurun Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/347414011",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Templo Yeshurun",
+    "religion": "jewish"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiacarpinterodenaz",
+  "n": "Parroquia Carpintero de Nazareth",
+  "a": "",
+  "pc": "",
+  "lat": -34.63592,
+  "lng": -58.39778,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia Carpintero de Nazareth Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/437564741",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "2516",
+    "addr:street": "Avenida Caseros",
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Parroquia Carpintero de Nazareth",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiasagradaeucarist",
+  "n": "Parroquia Sagrada Eucaristía",
+  "a": "",
+  "pc": "",
+  "lat": -34.58063,
+  "lng": -58.423,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia Sagrada Eucaristía Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/454385797",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-05-18",
+    "denomination": "catholic",
+    "name": "Parroquia Sagrada Eucaristía",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sangregorioiluminador",
+  "n": "San Gregorio Iluminador",
+  "a": "",
+  "pc": "",
+  "lat": -34.59188,
+  "lng": -58.43065,
+  "c": "faith",
+  "s": "church",
+  "q": "San Gregorio Iluminador Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/454506453",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-05-18",
+    "denomination": "armenian_apostolic",
+    "name": "San Gregorio Iluminador",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanfranciscojavier",
+  "n": "San Francisco Javier",
+  "a": "",
+  "pc": "",
+  "lat": -34.58712,
+  "lng": -58.42724,
+  "c": "faith",
+  "s": "church",
+  "q": "San Francisco Javier Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/455754665",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "San Francisco Javier",
+    "religion": "christian",
+    "wikidata": "Q48781514",
+    "wikipedia": "es:Parroquia de San Francisco Javier (Buenos Aires)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "basilicasantuariodesanta",
+  "n": "Basílica Santuario de Santa Rosa de Lima",
+  "a": "",
+  "pc": "",
+  "lat": -34.6144,
+  "lng": -58.39774,
+  "c": "faith",
+  "s": "church",
+  "q": "Basílica Santuario de Santa Rosa de Lima Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/479166792",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Basílica Santuario de Santa Rosa de Lima",
+    "religion": "christian",
+    "wikidata": "Q8243750",
+    "wikimedia_commons": "Category:Basílica Santa Rosa de Lima"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "templodelosmilagros",
+  "n": "Templo de los Milagros",
+  "a": "",
+  "pc": "",
+  "lat": -34.61503,
+  "lng": -58.40914,
+  "c": "faith",
+  "s": "church",
+  "q": "Templo de los Milagros Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/479167595",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "pentecostal",
+    "name": "Templo de los Milagros",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nuestrasenoradelujan",
+  "n": "Nuestra Señora de Luján",
+  "a": "",
+  "pc": "",
+  "lat": -34.63569,
+  "lng": -58.39913,
+  "c": "faith",
+  "s": "church",
+  "q": "Nuestra Señora de Luján Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/479737371",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "2181",
+    "addr:street": "Avenida Jujuy",
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Nuestra Señora de Luján",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinelorca",
+  "n": "Cine Lorca",
+  "a": "",
+  "pc": "",
+  "lat": -34.60415,
+  "lng": -58.38699,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cine Lorca Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/479738123",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "1428",
+    "addr:street": "Avenida Corrientes",
+    "amenity": "cinema",
+    "name": "Cine Lorca",
+    "phone": "+54 11 4371 5017",
+    "wikidata": "Q5769496",
+    "wikipedia": "es:Cine Lorca"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoguardacostas",
+  "n": "Monumento Guardacostas",
+  "a": "",
+  "pc": "",
+  "lat": -34.61142,
+  "lng": -58.35898,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento Guardacostas Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/479750717",
+   "raw": {
+    "historic": "monument",
+    "name": "Monumento Guardacostas",
+    "wikidata": "Q111697422"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaloscaidosenmal",
+  "n": "Monumento a los Caídos en Malvinas",
+  "a": "",
+  "pc": "",
+  "lat": -34.59393,
+  "lng": -58.37515,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento a los Caídos en Malvinas Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/667537028",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "memorial:conflict": "Guerra de Malvinas",
+    "name": "Monumento a los Caídos en Malvinas",
+    "ref": "Memorial Malvinas",
+    "tourism": "attraction",
+    "wikidata": "Q1946552",
+    "wikimedia_commons": "Category:Monumento a los caídos en Malvinas (Buenos Aires)",
+    "wikipedia": "es:Monumento a los caídos en Malvinas"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoalgeneralsanmar",
+  "n": "Monumento al General San Martín",
+  "a": "",
+  "pc": "",
+  "lat": -34.59498,
+  "lng": -58.3771,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento al General San Martín Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/667772497",
+   "raw": {
+    "historic": "monument",
+    "name": "Monumento al General San Martín",
+    "statue": "equestrian",
+    "wikidata": "Q6023222",
+    "wikimedia_commons": "Category:Equestrian statue of José de San Martín (Buenos Aires)",
+    "wikipedia": "es:Monumento al General San Martín y a los Ejércitos de la Independencia"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hoytsabasto",
+  "n": "Hoyts Abasto",
+  "a": "",
+  "pc": "",
+  "lat": -34.60256,
+  "lng": -58.41057,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Hoyts Abasto Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/680013623",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "amenity": "cinema",
+    "cinema:3D": "yes",
+    "level": "3",
+    "name": "Hoyts Abasto",
+    "operator": "Hoyts",
+    "wheelchair": "limited",
+    "wikidata": "Q38263813"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sinagogadelacongregacion",
+  "n": "Sinagoga de la Congregación Israelita (CIRA)",
+  "a": "",
+  "pc": "",
+  "lat": -34.59959,
+  "lng": -58.38389,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Sinagoga de la Congregación Israelita (CIRA) Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/682383598",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "769",
+    "addr:street": "Libertad",
+    "alt_name": "Templo Libertad (Sinagoga)",
+    "amenity": "place_of_worship",
+    "name": "Sinagoga de la Congregación Israelita (CIRA)",
+    "name:pl": "Synagoga Templo Libertad w Buenos Aires",
+    "operator": "Congregación Israelita de la República Argentina (CIRA)",
+    "phone": "+54 11 4123-0830",
+    "religion": "jewish",
+    "website": "http://www.templolibertad.org.ar/",
+    "wikidata": "Q1268260",
+    "wikimedia_commons": "Category:Templo Libertad, Buenos Aires",
+    "wikipedia": "es:Sinagoga de la Congregación Israelita Argentina"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "matias",
+  "n": "Matias",
+  "a": "",
+  "pc": "",
+  "lat": -34.61419,
+  "lng": -58.37064,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Matias Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/695827825",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:postcode": "C1042AAB",
+    "addr:street": "Balcarce",
+    "artwork_type": "statue",
+    "name": "Matias",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museodeartehispanoameric",
+  "n": "Museo de Arte Hispanoamericano",
+  "a": "",
+  "pc": "",
+  "lat": -34.5908,
+  "lng": -58.38012,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo de Arte Hispanoamericano Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/724265243",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "1422",
+    "addr:postcode": "C1011ACF",
+    "addr:street": "Suipacha",
+    "building": "yes",
+    "description": "Platería, imaginería, pintura y mobiliario hispanoamericano de los siglos XVI al XIX. Numismática de los siglos XVI al XX. Indumentaria civil y religiosa de los siglos XVIII y XIX.",
+    "fee": "yes",
+    "museum": "art",
+    "museum_type": "national",
+    "name": "Museo de Arte Hispanoamericano",
+    "official_name": "Museo de Arte Hispanoamericano Isaac Fernandez Blanco",
+    "opening_hours": "Tu-Fr 10:00-19:00, Sa-Su 11:00-19:00; PH 11:00-19:00",
+    "operator": "DGPMYCH, GCBA",
+    "operator:type": "public",
+    "phone": "+54 11 4327-0228",
+    "start_date": "1925",
+    "tourism": "museum",
+    "website": "https://www.buenosaires.gob.ar/museofernandezblanco",
+    "wikidata": "Q1954289",
+    "wikimedia_commons": "File:Palacio Noel (fachada).JPG",
+    "wikipedia": "es:Museo de Arte Hispanoamericano Isaac Fernández Blanco"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museodeartepopularjosehe",
+  "n": "Museo de Arte Popular José Hernández",
+  "a": "",
+  "pc": "",
+  "lat": -34.57971,
+  "lng": -58.40499,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo de Arte Popular José Hernández Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/724269086",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "2373",
+    "addr:postcode": "1425AAJ",
+    "addr:street": "Avenida Del Libertador",
+    "addr:suburb": "Palermo",
+    "building": "yes",
+    "description": "Platería rioplatense de los siglos XVIII al XX: cabezadas, aperos, cuchillos, estribos, rastras, mates, etc. Artesanías regionales: imaginería, alfarería, tejidos, instrumentos musicales, máscaras, armas y pinturas. Reconstrucción de una antigua pulpería",
+    "email": "infomap@buenosaires.gob.ar",
+    "fee": "yes",
+    "museum": "art",
+    "museum_type": "departamental",
+    "name": "Museo de Arte Popular José Hernández",
+    "opening_hours": "Th-Fr 13:00-19:00, Sa-Su 10:00-20 :00",
+    "operator": "DGPMYCH, GCBA",
+    "operator:type": "public",
+    "phone": "+54 11 4803-2484",
+    "start_date": "1952",
+    "tourism": "museum",
+    "website": "https://www.buenosaires.gob.ar/museos/museo-de-arte-popular-jose-hernandez",
+    "wikidata": "Q21573456",
+    "wikimedia_commons": "File:MAPJH01.JPG",
+    "wikipedia": "es:Museo de Arte Popular José Hernández"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museohistoriconacionalde",
+  "n": "Museo Histórico Nacional del Cabildo y de la Revolución de Mayo",
+  "a": "",
+  "pc": "",
+  "lat": -34.60877,
+  "lng": -58.37388,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Histórico Nacional del Cabildo y de la Revolución de Mayo Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/767690911",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "65",
+    "addr:postcode": "C1066AAA",
+    "addr:street": "Bolívar",
+    "building": "yes",
+    "description": "Sus colecciones estan distribuídas en las salas: capitular, de mayo, invasiones inglesas, hall central, sala Hardoy, galería de los virreyes y calabozo.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Cabildo_de_bs_as.jpg",
+    "museum": "history",
+    "museum_type": "national",
+    "name": "Museo Histórico Nacional del Cabildo y de la Revolución de Mayo",
+    "name:ru": "Ратуша Буэнос-Айреса",
+    "name:uk": "Ратуша Буенос-Айреса",
+    "operator": "DNPyM",
+    "phone": "+54 11 4342-6729",
+    "start_date": "1943",
+    "tourism": "museum",
+    "website": "https://cabildonacional.cultura.gob.ar/",
+    "wikidata": "Q1024829",
+    "wikimedia_commons": "File:Cabildo de bs as.jpg",
+    "wikipedia": "es:Cabildo de Buenos Aires"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesiaortodoxarusadelaa",
+  "n": "Iglesia Ortodoxa Rusa de la Anunciación",
+  "a": "",
+  "pc": "",
+  "lat": -34.59148,
+  "lng": -58.41474,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia Ortodoxa Rusa de la Anunciación Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/872742168",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "1741",
+    "addr:street": "Bulnes",
+    "addr:suburb": "Palermo",
+    "amenity": "place_of_worship",
+    "denomination": "russian_orthodox",
+    "name": "Iglesia Ortodoxa Rusa de la Anunciación",
+    "name:ru": "Благовещенский кафедральный собор Русской Православной Церкви",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "complejotitamerello",
+  "n": "Complejo Tita Merello",
+  "a": "",
+  "pc": "",
+  "lat": -34.60312,
+  "lng": -58.3796,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Complejo Tita Merello Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/915725319",
+   "raw": {
+    "addr:housenumber": "442",
+    "addr:street": "Suipacha",
+    "amenity": "cinema",
+    "name": "Complejo Tita Merello",
+    "wikidata": "Q5779932",
+    "wikipedia": "es:Complejo Tita Merello"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santuariojesusmisericord",
+  "n": "Santuario Jesús Misericordioso",
+  "a": "",
+  "pc": "",
+  "lat": -34.56904,
+  "lng": -58.48255,
+  "c": "faith",
+  "s": "church",
+  "q": "Santuario Jesús Misericordioso Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1009517906",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Santuario Jesús Misericordioso",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiacristorey",
+  "n": "parroquia Cristo Rey",
+  "a": "",
+  "pc": "",
+  "lat": -34.57596,
+  "lng": -58.50259,
+  "c": "faith",
+  "s": "church",
+  "q": "parroquia Cristo Rey Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1021404268",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "5551",
+    "addr:street": "Zamudio",
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "parroquia Cristo Rey",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiainmaculadaconce",
+  "n": "Parroquia Inmaculada Concepción",
+  "a": "",
+  "pc": "",
+  "lat": -34.59401,
+  "lng": -58.50966,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia Inmaculada Concepción Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1021404289",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Parroquia Inmaculada Concepción",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentodefranciaalaarg",
+  "n": "Monumento de Francia a la Argentina",
+  "a": "",
+  "pc": "",
+  "lat": -34.58497,
+  "lng": -58.39347,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento de Francia a la Argentina Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1104100673",
+   "raw": {
+    "historic": "monument",
+    "name": "Monumento de Francia a la Argentina",
+    "wikidata": "Q111694971"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "espacioincaakm0gaumont",
+  "n": "Espacio INCAA KM 0 - Gaumont",
+  "a": "",
+  "pc": "",
+  "lat": -34.60889,
+  "lng": -58.38963,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Espacio INCAA KM 0 - Gaumont Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1118036691",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "1635",
+    "addr:postcode": "1033",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "cinema",
+    "description": "El Espacio INCAA Km. 0 es el primer Espacio INCAA adonde se pueden ver películas argentinas y latinoamericanas. Cuenta con 3 salas y casi 1200 butacas.",
+    "email": "espacioincaa@incaa.gov.ar",
+    "name": "Espacio INCAA KM 0 - Gaumont",
+    "phone": "+54 11 4381-0003",
+    "website": "https://www.facebook.com/EspacioIncaa",
+    "wikidata": "Q5769486",
+    "wikimedia_commons": "Category:Cine Gaumont",
+    "wikipedia": "es:Cine Gaumont"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesianordica",
+  "n": "Iglesia Nórdica",
+  "a": "",
+  "pc": "",
+  "lat": -34.62432,
+  "lng": -58.36642,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia Nórdica Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1123575836",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "lutheran",
+    "name": "Iglesia Nórdica",
+    "old_name": "Iglesia Sueca",
+    "religion": "christian",
+    "website": "http://www.iglesiasueca.com.ar/",
+    "wikidata": "Q5909087",
+    "wikimedia_commons": "Category:Iglesia Nórdica de Buenos Aires"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoalescape",
+  "n": "Monumento al Escape",
+  "a": "",
+  "pc": "",
+  "lat": -34.54238,
+  "lng": -58.43711,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Monumento al Escape Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1125852285",
+   "raw": {
+    "artist_name": "Dennis Oppenheim",
+    "artwork_type": "installation",
+    "name": "Monumento al Escape",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museodelholocausto",
+  "n": "Museo del Holocausto",
+  "a": "",
+  "pc": "",
+  "lat": -34.59804,
+  "lng": -58.38955,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo del Holocausto Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1144740023",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "919",
+    "addr:postcode": "C1019ABS",
+    "addr:street": "Montevideo",
+    "email": "informaciones@fmh.org.ar",
+    "museum": "history",
+    "name": "Museo del Holocausto",
+    "operator:type": "private",
+    "phone": "+54 11 4811-3588",
+    "tourism": "museum",
+    "website": "https://www.museodelholocausto.org.ar/",
+    "wikidata": "Q6034447",
+    "wikimedia_commons": "File:Museo del Holocausto, Buenos Aires.jpg",
+    "wikipedia": "es:Museo del Holocausto (Buenos Aires)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiasanjuanelprecur",
+  "n": "Parroquia San Juan el precursor",
+  "a": "",
+  "pc": "",
+  "lat": -34.56427,
+  "lng": -58.50269,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia San Juan el precursor Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1231734540",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Parroquia San Juan el precursor",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santaana",
+  "n": "Santa Ana",
+  "a": "",
+  "pc": "",
+  "lat": -34.60102,
+  "lng": -58.49489,
+  "c": "faith",
+  "s": "church",
+  "q": "Santa Ana Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1231804491",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "3167",
+    "addr:postcode": "1417",
+    "addr:street": "Pedro Lozano",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "catholic",
+    "name": "Santa Ana",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoabartolomemitre",
+  "n": "Monumento a Bartolomé Mitre",
+  "a": "",
+  "pc": "",
+  "lat": -34.58431,
+  "lng": -58.39621,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento a Bartolomé Mitre Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1295503796",
+   "raw": {
+    "historic": "monument",
+    "material": "bronze",
+    "monument": "statue",
+    "name": "Monumento a Bartolomé Mitre",
+    "statue": "equestrian",
+    "subject:wikidata": "Q314362",
+    "wikidata": "Q6022966",
+    "wikimedia_commons": "Category:Equestrian statue of Bartolomé Mitre (Buenos Aires)",
+    "wikipedia": "es:Monumento a Bartolomé Mitre"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museoroca",
+  "n": "Museo Roca",
+  "a": "",
+  "pc": "",
+  "lat": -34.58766,
+  "lng": -58.39553,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Roca Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1295503813",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "2220",
+    "addr:postcode": "C1128ACJ",
+    "addr:street": "Vicente López",
+    "building": "yes",
+    "contact:phone": "+54 11 4803-2798",
+    "contact:website": "https://museoroca.cultura.gob.ar/",
+    "description": "Documentos y objetos referidos a la vida y obra del General Julio A. Roca y a la generación del 80, y especialmente al período de la conquista del desierto. Iconografía, oplotecología, medallística. Biblioteca",
+    "fee": "no",
+    "museum": "history",
+    "museum_type": "national",
+    "name": "Museo Roca",
+    "official_name": "Museo Roca - Instituto de Investigaciones Históricas",
+    "operator": "Dirección Nacional de Museos",
+    "phone": "+54 11 4803-2798",
+    "start_date": "1962",
+    "tourism": "museum",
+    "wikidata": "Q53845031",
+    "wikimedia_commons": "Category:Museo Roca"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoapedrodemendoza",
+  "n": "Monumento a Pedro de Mendoza",
+  "a": "",
+  "pc": "",
+  "lat": -34.62571,
+  "lng": -58.37058,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Monumento a Pedro de Mendoza Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1376764723",
+   "raw": {
+    "access": "yes",
+    "artist_name": "Juan Carlos Oliva Navarro",
+    "historic": "memorial",
+    "name": "Monumento a Pedro de Mendoza",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoalacordialidada",
+  "n": "Monumento a la Cordialidad Argentino-Uruguaya",
+  "a": "",
+  "pc": "",
+  "lat": -34.62799,
+  "lng": -58.36964,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento a la Cordialidad Argentino-Uruguaya Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1376764741",
+   "raw": {
+    "historic": "monument",
+    "name": "Monumento a la Cordialidad Argentino-Uruguaya",
+    "wikidata": "Q5850616",
+    "wikipedia": "es:Monumento a la cordialidad argentino - uruguaya"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesiachungang",
+  "n": "Iglesia Chung-Ang",
+  "a": "",
+  "pc": "",
+  "lat": -34.63785,
+  "lng": -58.43856,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia Chung-Ang Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1402319990",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "presbyterian",
+    "name": "Iglesia Chung-Ang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lacomarca",
+  "n": "la Comarca",
+  "a": "",
+  "pc": "",
+  "lat": -34.6385,
+  "lng": -58.45836,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "la Comarca Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1402331206",
+   "raw": {
+    "historic": "monument",
+    "name": "la Comarca"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santarosadelima",
+  "n": "Santa Rosa de Lima",
+  "a": "",
+  "pc": "",
+  "lat": -34.69179,
+  "lng": -58.52727,
+  "c": "faith",
+  "s": "church",
+  "q": "Santa Rosa de Lima Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1409082586",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Santa Rosa de Lima",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaelcidcampeador",
+  "n": "Monumento a El Cid Campeador",
+  "a": "",
+  "pc": "",
+  "lat": -34.60758,
+  "lng": -58.44573,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Monumento a El Cid Campeador Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1436009978",
+   "raw": {
+    "artist:wikidata": "Q445026",
+    "artist_name": "Anna Hyatt Huntington",
+    "artwork_type": "statue",
+    "description:en": "Dedicated to Rodrigo Díaz de Vivar",
+    "description:es": "Dedicado a Rodrigo Díaz de Vivar",
+    "height": "12",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "statue",
+    "min_height": "9",
+    "name": "Monumento a El Cid Campeador",
+    "start_date": "1935",
+    "statue": "equestrian",
+    "subject:wikidata": "Q43958",
+    "tourism": "artwork",
+    "wikidata": "Q8346117",
+    "wikimedia_commons": "Category:El Cid by Anna Hyatt Huntington in Buenos Aires",
+    "wikipedia": "es:Cid Campeador (Buenos Aires)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "julioargentinoroca",
+  "n": "Julio Argentino Roca",
+  "a": "",
+  "pc": "",
+  "lat": -34.61033,
+  "lng": -58.37487,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Julio Argentino Roca Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1485388532",
+   "raw": {
+    "artist_name": "José Luis Zorrilla de San Martín",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Julio Argentino Roca",
+    "start_date": "1941",
+    "statue": "equestrian",
+    "wikidata": "Q28517905",
+    "wikimedia_commons": "Category:Equestrian statue of Julio Argentino Roca (Buenos Aires)",
+    "wikipedia": "es:Monumento a Julio Argentino Roca (Buenos Aires)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "juanbautistadelasalle",
+  "n": "Juan Bautista de la Salle",
+  "a": "",
+  "pc": "",
+  "lat": -34.59843,
+  "lng": -58.39181,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Juan Bautista de la Salle Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1490042312",
+   "raw": {
+    "historic": "memorial",
+    "name": "Juan Bautista de la Salle"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "corneliosaavedra",
+  "n": "Cornelio Saavedra",
+  "a": "",
+  "pc": "",
+  "lat": -34.59974,
+  "lng": -58.39266,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Cornelio Saavedra Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1490044720",
+   "raw": {
+    "historic": "memorial",
+    "name": "Cornelio Saavedra",
+    "source": "Reconocimiento terrestre por Kaart 2016",
+    "subject:wikidata": "Q2361877"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rodriguezpena",
+  "n": "Rodriguez Peña",
+  "a": "",
+  "pc": "",
+  "lat": -34.59735,
+  "lng": -58.39298,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Rodriguez Peña Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1490044743",
+   "raw": {
+    "historic": "memorial",
+    "name": "Rodriguez Peña"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentocantoaltrabajo",
+  "n": "Monumento Canto al Trabajo",
+  "a": "",
+  "pc": "",
+  "lat": -34.61777,
+  "lng": -58.36911,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Monumento Canto al Trabajo Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1493476686",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Monumento Canto al Trabajo",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santuarioschoenstatt",
+  "n": "Santuario Schoenstatt",
+  "a": "",
+  "pc": "",
+  "lat": -34.59651,
+  "lng": -58.3949,
+  "c": "faith",
+  "s": "church",
+  "q": "Santuario Schoenstatt Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1506517993",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Santuario Schoenstatt",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoasimonbolivar",
+  "n": "Monumento a Simón Bolívar",
+  "a": "",
+  "pc": "",
+  "lat": -34.61772,
+  "lng": -58.43278,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento a Simón Bolívar Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1554903991",
+   "raw": {
+    "artist_name": "José Fioravanti",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Monumento a Simón Bolívar",
+    "start_date": "1942"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "congregacionlaboca",
+  "n": "Congregación La Boca",
+  "a": "",
+  "pc": "",
+  "lat": -34.63782,
+  "lng": -58.36219,
+  "c": "faith",
+  "s": "church",
+  "q": "Congregación La Boca Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1583423185",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "661/75",
+    "addr:street": "Olavarría",
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Congregación La Boca",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "franklindelanoroosevelt",
+  "n": "Franklin Delano Roosevelt",
+  "a": "",
+  "pc": "",
+  "lat": -34.57566,
+  "lng": -58.41905,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Franklin Delano Roosevelt Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1610589818",
+   "raw": {
+    "artist_name": "José Fioravanti",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Franklin Delano Roosevelt",
+    "start_date": "1958",
+    "wikidata": "Q8007",
+    "wikipedia": "es:Franklin D. Roosevelt"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "juanmanuelderosas",
+  "n": "Juan Manuel de Rosas",
+  "a": "",
+  "pc": "",
+  "lat": -34.57531,
+  "lng": -58.41632,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Juan Manuel de Rosas Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1610589831",
+   "raw": {
+    "artist_name": "Ricardo Dalla Lasta",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Juan Manuel de Rosas",
+    "start_date": "1999",
+    "subject:wikidata": "Q5951113",
+    "subject:wikipedia": "es:Juan Manuel Ortiz de Rosas",
+    "wikimedia_commons": "Category:Juan Manuel Ortiz de Rosas"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentojosegervasioart",
+  "n": "Monumento José Gervasio Artigas",
+  "a": "",
+  "pc": "",
+  "lat": -34.58196,
+  "lng": -58.39758,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Monumento José Gervasio Artigas Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1610630454",
+   "raw": {
+    "artist_name": "José Luis Zorrilla",
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "memorial": "yes",
+    "name": "Monumento José Gervasio Artigas",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "inmaculadavirgendefatima",
+  "n": "Inmaculada Virgen de Fatima",
+  "a": "",
+  "pc": "",
+  "lat": -34.61592,
+  "lng": -58.53013,
+  "c": "faith",
+  "s": "church",
+  "q": "Inmaculada Virgen de Fatima Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1629205273",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Inmaculada Virgen de Fatima",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesiavisiondefuturo",
+  "n": "Iglesia Visión de Futuro",
+  "a": "",
+  "pc": "",
+  "lat": -34.62317,
+  "lng": -58.41606,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia Visión de Futuro Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1643918848",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "880",
+    "addr:postcode": "C1218AAR",
+    "addr:street": "Avenida Boedo",
+    "address": "Avenida Boedo 878, Boedo, Buenos Aires",
+    "amenity": "place_of_worship",
+    "name": "Iglesia Visión de Futuro",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "capillanuestrasenoradelu",
+  "n": "Capilla Nuestra Señora de Luján",
+  "a": "",
+  "pc": "",
+  "lat": -34.55578,
+  "lng": -58.41537,
+  "c": "faith",
+  "s": "church",
+  "q": "Capilla Nuestra Señora de Luján Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1677923048",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "fixme": "Revisar si es Virgen de Luján o Loreto",
+    "name": "Capilla Nuestra Señora de Luján",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museocasadericardorojas",
+  "n": "Museo Casa de Ricardo Rojas",
+  "a": "",
+  "pc": "",
+  "lat": -34.59395,
+  "lng": -58.40626,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Casa de Ricardo Rojas Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1856412658",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "2837",
+    "addr:postcode": "C1425BMG",
+    "addr:street": "Charcas",
+    "check_date": "2023-10-16",
+    "description": "Obras de arte, objetos históricos y de arqueología, etnografía y folklore, vinculados a Ricardo Rojas y a su época.",
+    "email": "casadericardorojas@hotmail.com",
+    "fee": "no",
+    "museum": "history",
+    "museum_type": "national",
+    "name": "Museo Casa de Ricardo Rojas",
+    "opening_hours": "Th-Sa 11:00-19:0",
+    "operator": "DNPyM",
+    "phone": "+54 11 4824-4039",
+    "start_date": "1962",
+    "tourism": "museum",
+    "website": "https://museorojas.cultura.gob.ar/",
+    "wikidata": "Q21114973",
+    "wikimedia_commons": "File:ID_288_Casa_de_Ricardo_Rojas_0717.jpg",
+    "wikipedia": "es:Casa de Ricardo Rojas"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesiacatolicaarmenia",
+  "n": "Iglesia Católica Armenia",
+  "a": "",
+  "pc": "",
+  "lat": -34.58964,
+  "lng": -58.41488,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia Católica Armenia Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1856414646",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-05-18",
+    "denomination": "catholic",
+    "name": "Iglesia Católica Armenia",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mariaevaduartedeperon",
+  "n": "María Eva Duarte de Perón",
+  "a": "",
+  "pc": "",
+  "lat": -34.58835,
+  "lng": -58.39369,
+  "c": "death",
+  "s": "historic tomb",
+  "q": "María Eva Duarte de Perón Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1942595570",
+   "raw": {
+    "historic": "tomb",
+    "name": "María Eva Duarte de Perón",
+    "wikidata": "Q40933",
+    "wikipedia": "es:Eva Perón"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museodelapasionboquense",
+  "n": "Museo de la Pasión Boquense",
+  "a": "",
+  "pc": "",
+  "lat": -34.63646,
+  "lng": -58.36449,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo de la Pasión Boquense Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1943300045",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "805",
+    "addr:postcode": "C1161AAQ",
+    "addr:street": "Brandsen",
+    "description": "La historia del Club Atlético Boca Juniors se expresa en este museo, junto con la historia del fútbol en el país, la identidad del barrio de La Boca y la cultura popular de los argentinos.",
+    "name": "Museo de la Pasión Boquense",
+    "opening_hours": "Mo-Su 10:00-18:00",
+    "operator": "Club Atlético Boca Juniors",
+    "operator:type": "private",
+    "phone": "+54 11 4362-1100",
+    "tourism": "museum",
+    "website": "https://museoboquense.com/",
+    "wikidata": "Q6034278",
+    "wikipedia": "es:Museo de la Pasión Boquense"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "elpensador",
+  "n": "El Pensador",
+  "a": "",
+  "pc": "",
+  "lat": -34.60952,
+  "lng": -58.38837,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "El Pensador Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1957798546",
+   "raw": {
+    "artist_name": "Auguste Rodin",
+    "artwork_type": "statue",
+    "name": "El Pensador",
+    "name:en": "The Thinker",
+    "start_date": "1907",
+    "subject:wikidata": "Q18003128",
+    "subject:wikipedia": "es:El pensador",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mausoleodelgeneralsanmar",
+  "n": "Mausoleo del General San Martín",
+  "a": "",
+  "pc": "",
+  "lat": -34.60758,
+  "lng": -58.37303,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Mausoleo del General San Martín Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1978877347",
+   "raw": {
+    "historic": "memorial",
+    "name": "Mausoleo del General San Martín"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanpedroapostol",
+  "n": "San Pedro Apostol",
+  "a": "",
+  "pc": "",
+  "lat": -34.61955,
+  "lng": -58.50917,
+  "c": "faith",
+  "s": "church",
+  "q": "San Pedro Apostol Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1985978473",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "San Pedro Apostol",
+    "religion": "christian",
+    "service_times": "Mo-Su 10:15-20:30",
+    "start_date": "1928"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesiaevangelicasanpabl",
+  "n": "Iglesia Evangélica San Pablo",
+  "a": "",
+  "pc": "",
+  "lat": -34.58172,
+  "lng": -58.42594,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia Evangélica San Pablo Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1989798097",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "4670",
+    "addr:street": "Charcas",
+    "addr:suburb": "Palermo",
+    "amenity": "place_of_worship",
+    "denomination": "evangelical",
+    "name": "Iglesia Evangélica San Pablo",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santuariodeladifuntacorr",
+  "n": "Santuario de la Difunta Correa",
+  "a": "",
+  "pc": "",
+  "lat": -34.59062,
+  "lng": -58.44903,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Santuario de la Difunta Correa Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1989816552",
+   "raw": {
+    "historic": "wayside_shrine",
+    "name": "Santuario de la Difunta Correa",
+    "religion": "popular"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jesucristoeselsenorcentr",
+  "n": "Jesucristo es el Señor - Centro de Ayuda Espiritual",
+  "a": "",
+  "pc": "",
+  "lat": -34.57932,
+  "lng": -58.42372,
+  "c": "faith",
+  "s": "church",
+  "q": "Jesucristo es el Señor - Centro de Ayuda Espiritual Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1989827440",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:street": "Avenida Santa Fe",
+    "addr:suburb": "Palermo",
+    "amenity": "place_of_worship",
+    "denomination": "pentecostal",
+    "name": "Jesucristo es el Señor - Centro de Ayuda Espiritual",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "comunidadisraelitasefara",
+  "n": "Comunidad Israelita Sefaradí de Bs As",
+  "a": "",
+  "pc": "",
+  "lat": -34.59768,
+  "lng": -58.44336,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Comunidad Israelita Sefaradí de Bs As Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1989837277",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "870",
+    "addr:street": "Camargo",
+    "amenity": "place_of_worship",
+    "check_date": "2024-02-17",
+    "name": "Comunidad Israelita Sefaradí de Bs As",
+    "religion": "jewish"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiasanluisgonzaga",
+  "n": "Parroquia san Luís Gonzaga",
+  "a": "",
+  "pc": "",
+  "lat": -34.61138,
+  "lng": -58.50378,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia san Luís Gonzaga Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1997722323",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Parroquia san Luís Gonzaga",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "belgranomultiplexsalas45",
+  "n": "Belgrano Multiplex - Salas 4, 5 y 6",
+  "a": "",
+  "pc": "",
+  "lat": -34.56028,
+  "lng": -58.45687,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Belgrano Multiplex - Salas 4, 5 y 6 Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2052117948",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "2238",
+    "addr:postcode": "C1428",
+    "addr:street": "Vuelta de Obligado",
+    "amenity": "cinema",
+    "name": "Belgrano Multiplex - Salas 4, 5 y 6",
+    "phone:AR": "0810-888-2463",
+    "screen": "3",
+    "website": "http://www.cinesmultiplex.com.ar"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "casabalear",
+  "n": "Casa Balear",
+  "a": "",
+  "pc": "",
+  "lat": -34.62346,
+  "lng": -58.41794,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Casa Balear Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2059117876",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Casa Balear"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bustodelgeneralmanuelbel",
+  "n": "Busto del General Manuel Belgrano",
+  "a": "",
+  "pc": "",
+  "lat": -34.55963,
+  "lng": -58.45025,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Busto del General Manuel Belgrano Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2117785945",
+   "raw": {
+    "artist_name": "Luis Furitana",
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Busto del General Manuel Belgrano",
+    "start_date": "1889",
+    "subject:wikidata": "Q315507"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "virgendelujan",
+  "n": "Virgen de Luján",
+  "a": "",
+  "pc": "",
+  "lat": -34.59589,
+  "lng": -58.47092,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Virgen de Luján Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2149993965",
+   "raw": {
+    "denomination": "catholic",
+    "historic": "wayside_shrine",
+    "name": "Virgen de Luján",
+    "religion": "christian",
+    "support": "pedestal"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "argentinaysuizaunidassob",
+  "n": "Argentina y Suiza, unidas sobre el mundo",
+  "a": "",
+  "pc": "",
+  "lat": -34.56379,
+  "lng": -58.41825,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Argentina y Suiza, unidas sobre el mundo Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2153021805",
+   "raw": {
+    "artist_name": "Paul Amlehn",
+    "historic": "memorial",
+    "name": "Argentina y Suiza, unidas sobre el mundo",
+    "start_date": "1914",
+    "tourism": "artwork",
+    "url": "http://patrimonio.com.ar/sheet/argentina-y-suiza-unidas-sobre-el-mundo/18",
+    "website": "http://latiendadecuriosidades.blogspot.com.ar/2011/12/en-la-onu-codo-codo.html"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "neptunoanciano",
+  "n": "Neptuno anciano",
+  "a": "",
+  "pc": "",
+  "lat": -34.5665,
+  "lng": -58.4189,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Neptuno anciano Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2153024401",
+   "raw": {
+    "artist_name": "Fundición Du Val D’Osne",
+    "artwork_subject": "Neptuno anciano dentro de una valva marina",
+    "artwork_type": "statue",
+    "material": "iron",
+    "name": "Neptuno anciano",
+    "start_date": "1870",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentodelosespanoles",
+  "n": "Monumento de los Españoles",
+  "a": "",
+  "pc": "",
+  "lat": -34.57497,
+  "lng": -58.41506,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento de los Españoles Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2153043367",
+   "raw": {
+    "historic": "monument",
+    "name": "Monumento de los Españoles",
+    "official_name": "Monumento a La Carta Magna y las Cuatro Regiones Argentinas",
+    "start_date": "1927/03/13",
+    "wikidata": "Q6023283",
+    "wikimedia_commons": "Category:Magna Carta Memorial and The four regions of Argentina",
+    "wikipedia": "es:Monumento de los españoles"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "giuseppegaribaldi",
+  "n": "Giuseppe Garibaldi",
+  "a": "",
+  "pc": "",
+  "lat": -34.58133,
+  "lng": -58.42096,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Giuseppe Garibaldi Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2153061630",
+   "raw": {
+    "artist:wikidata": "Q3734386",
+    "artist_name": "Eugenio Maccagnani",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Giuseppe Garibaldi",
+    "start_date": "1904",
+    "statue": "equestrian",
+    "subject:wikidata": "Q539",
+    "wikidata": "Q2437806",
+    "wikimedia_commons": "Category:Monument to Giuseppe Garibaldi (Buenos Aires)",
+    "wikipedia": "es:Monumento a Giuseppe Garibaldi"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "izandolabandera",
+  "n": "Izando la Bandera",
+  "a": "",
+  "pc": "",
+  "lat": -34.63749,
+  "lng": -58.37417,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Izando la Bandera Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2153091444",
+   "raw": {
+    "artist_name": "Juan Carlos Vergottini",
+    "artwork_type": "statue",
+    "description": "Conjunto artístico actualmente retirado (¿En restauración?)",
+    "flag:type": "national",
+    "historic": "monument",
+    "man_made": "flagpole",
+    "name": "Izando la Bandera",
+    "tourism": "artwork",
+    "website": "http://plazas.faggella.com.ar/pzacolombia.htm"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "isidorocanones",
+  "n": "Isidoro Cañones",
+  "a": "",
+  "pc": "",
+  "lat": -34.61588,
+  "lng": -58.37061,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Isidoro Cañones Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2175639000",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "699",
+    "addr:postcode": "C1042AAB",
+    "addr:street": "Balcarce",
+    "artwork_type": "sculpture",
+    "name": "Isidoro Cañones",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museodelapsicologiaexper",
+  "n": "Museo de la Psicología Experimental en Argentina 'Dr. Horacio G. Piñero'",
+  "a": "",
+  "pc": "",
+  "lat": -34.61973,
+  "lng": -58.40873,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo de la Psicología Experimental en Argentina 'Dr. Horacio G. Piñero' Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2205018784",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "3071",
+    "addr:postcode": "C1225AAM",
+    "addr:street": "Avenida Independencia",
+    "description": "Alberga gran parte del instrumental científico del Laboratorio de Psicología Experimental que fundó Horacio Piñero en 1901, en la Facultad de Filosofía y Letras de la Universidad de Buenos Aires.",
+    "email": "museopsi@psi.uba.ar",
+    "level": "3",
+    "museum": "science",
+    "museum_type": "institutional",
+    "name": "Museo de la Psicología Experimental en Argentina 'Dr. Horacio G. Piñero'",
+    "phone": "+54 11 4957-4348",
+    "start_date": "1997",
+    "tourism": "museum",
+    "wikidata": "Q65390096"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiasantaelisa",
+  "n": "Parroquia Santa Elisa",
+  "a": "",
+  "pc": "",
+  "lat": -34.63397,
+  "lng": -58.38234,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia Santa Elisa Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2217349442",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "2290",
+    "addr:street": "Salta",
+    "amenity": "place_of_worship",
+    "name": "Parroquia Santa Elisa",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alasvictimasdelcruceroge",
+  "n": "A las víctimas del crucero General Belgrano",
+  "a": "",
+  "pc": "",
+  "lat": -34.60532,
+  "lng": -58.43338,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "A las víctimas del crucero General Belgrano Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2264949118",
+   "raw": {
+    "historic": "memorial",
+    "name": "A las víctimas del crucero General Belgrano"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoamanuelmaximili",
+  "n": "Monumento a Manuel Maximiliano Alberti",
+  "a": "",
+  "pc": "",
+  "lat": -34.55492,
+  "lng": -58.45764,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Monumento a Manuel Maximiliano Alberti Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2288713205",
+   "raw": {
+    "artist_name": "Lucio Correa Morales",
+    "artwork_type": "statue",
+    "barrier": "fence",
+    "memorial": "person",
+    "name": "Monumento a Manuel Maximiliano Alberti",
+    "start_date": "1910",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiajesusdelabuenae",
+  "n": "Parroquia Jesús de la Buena Esperanza",
+  "a": "",
+  "pc": "",
+  "lat": -34.58669,
+  "lng": -58.51086,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia Jesús de la Buena Esperanza Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2330166518",
+   "raw": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "catholic",
+    "name": "Parroquia Jesús de la Buena Esperanza",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesiasancayetanodebelg",
+  "n": "Iglesia San Cayetano de Belgrano",
+  "a": "",
+  "pc": "",
+  "lat": -34.56747,
+  "lng": -58.4574,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia San Cayetano de Belgrano Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2342301765",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2026-01-21",
+    "denomination": "catholic",
+    "name": "Iglesia San Cayetano de Belgrano",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nuestrasenoradelbuencons",
+  "n": "Nuestra Señora del Buen Consejo",
+  "a": "",
+  "pc": "",
+  "lat": -34.63368,
+  "lng": -58.49294,
+  "c": "faith",
+  "s": "church",
+  "q": "Nuestra Señora del Buen Consejo Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2352878497",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "Parroquia",
+    "name": "Nuestra Señora del Buen Consejo",
+    "religion": "christian",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesiasanbernardoabad",
+  "n": "Iglesia San Bernardo Abad",
+  "a": "",
+  "pc": "",
+  "lat": -34.60027,
+  "lng": -58.44522,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia San Bernardo Abad Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2394017752",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Iglesia San Bernardo Abad",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiapurisimocorazon",
+  "n": "Parroquia Purísimo Corazón de María",
+  "a": "",
+  "pc": "",
+  "lat": -34.58109,
+  "lng": -58.5059,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia Purísimo Corazón de María Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2396815390",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Parroquia Purísimo Corazón de María",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiadesanferminysan",
+  "n": "Parroquia de San Fermín y San Expedito",
+  "a": "",
+  "pc": "",
+  "lat": -34.58628,
+  "lng": -58.46675,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia de San Fermín y San Expedito Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2397984566",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "466",
+    "addr:street": "Estomba",
+    "amenity": "place_of_worship",
+    "name": "Parroquia de San Fermín y San Expedito",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "showcasecinemas",
+  "n": "Showcase Cinemas",
+  "a": "",
+  "pc": "",
+  "lat": -34.55352,
+  "lng": -58.45325,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Showcase Cinemas Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2405697296",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:housenumber": "1655",
+    "addr:street": "Monroe",
+    "amenity": "cinema",
+    "brand": "Showcase Cinemas",
+    "brand:wikidata": "Q7503170",
+    "brand:wikipedia": "en:Showcase Cinemas",
+    "name": "Showcase Cinemas",
+    "phone": "+54 11 4780-3334",
+    "short_name": "Showcase",
+    "website": "http://www.todoshowcase.com/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquianuestrasenorade",
+  "n": "Parroquia Nuestra Señora de las Mercedes",
+  "a": "",
+  "pc": "",
+  "lat": -34.55676,
+  "lng": -58.44573,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia Nuestra Señora de las Mercedes Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2480793028",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "1371",
+    "addr:street": "Echeverría",
+    "addr:suburb": "Belgrano",
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Parroquia Nuestra Señora de las Mercedes",
+    "phone": "+54 11 4784-8011",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sinheng",
+  "n": "Sin Heng",
+  "a": "",
+  "pc": "",
+  "lat": -34.55692,
+  "lng": -58.45038,
+  "c": "faith",
+  "s": "church",
+  "q": "Sin Heng Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2480793030",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "1660",
+    "addr:street": "Mendoza",
+    "addr:suburb": "Belgrano",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "presbyterian",
+    "name": "Sin Heng",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "miradorgaleriaguemes",
+  "n": "Mirador Galería Güemes",
+  "a": "",
+  "pc": "",
+  "lat": -34.60639,
+  "lng": -58.3748,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Mirador Galería Güemes Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2481986716",
+   "raw": {
+    "name": "Mirador Galería Güemes",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesiapatrociniodesanjo",
+  "n": "Iglesia Patrocinio de San José",
+  "a": "",
+  "pc": "",
+  "lat": -34.59639,
+  "lng": -58.39624,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia Patrocinio de San José Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2484543331",
+   "raw": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "catholic",
+    "name": "Iglesia Patrocinio de San José",
+    "religion": "christian",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "capillasagradafamiliaden",
+  "n": "Capilla sagrada familia de Nazareth",
+  "a": "",
+  "pc": "",
+  "lat": -34.57275,
+  "lng": -58.45233,
+  "c": "faith",
+  "s": "church",
+  "q": "Capilla sagrada familia de Nazareth Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2578961176",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Capilla sagrada familia de Nazareth",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "carlosgardel",
+  "n": "Carlos Gardel",
+  "a": "",
+  "pc": "",
+  "lat": -34.59085,
+  "lng": -58.45487,
+  "c": "death",
+  "s": "historic tomb",
+  "q": "Carlos Gardel Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2619558669",
+   "raw": {
+    "historic": "tomb",
+    "name": "Carlos Gardel"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "losdelfinesdellago",
+  "n": "Los Delfines del Lago",
+  "a": "",
+  "pc": "",
+  "lat": -34.67513,
+  "lng": -58.45135,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Los Delfines del Lago Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2630908798",
+   "raw": {
+    "historic": "memorial",
+    "name": "Los Delfines del Lago"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesiaadventistadebarra",
+  "n": "Iglesia Adventista de Barracas",
+  "a": "",
+  "pc": "",
+  "lat": -34.6501,
+  "lng": -58.37796,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia Adventista de Barracas Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2641186299",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housename": "San Antonio",
+    "addr:housenumber": "681",
+    "addr:street": "San Antonio",
+    "amenity": "place_of_worship",
+    "denomination": "seventh_day_adventist",
+    "name": "Iglesia Adventista de Barracas",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesiaadventistadeflori",
+  "n": "Iglesia Adventista de Florida",
+  "a": "",
+  "pc": "",
+  "lat": -34.534,
+  "lng": -58.50594,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia Adventista de Florida Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2644362543",
+   "raw": {
+    "addr:city": "Florida Oeste",
+    "addr:housenumber": "1546",
+    "addr:postcode": "1602",
+    "addr:street": "Estanislao del Campo",
+    "amenity": "place_of_worship",
+    "denomination": "seventh_day_adventist",
+    "name": "Iglesia Adventista de Florida",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesialuteriana",
+  "n": "Iglesia Luteriana",
+  "a": "",
+  "pc": "",
+  "lat": -34.53479,
+  "lng": -58.50859,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia Luteriana Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2644366032",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Iglesia Luteriana",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "comunidaddorjadash",
+  "n": "Comunidad Dor Jadash",
+  "a": "",
+  "pc": "",
+  "lat": -34.60096,
+  "lng": -58.44328,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Comunidad Dor Jadash Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2679848378",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "649",
+    "addr:street": "Murillo",
+    "amenity": "place_of_worship",
+    "name": "Comunidad Dor Jadash",
+    "religion": "jewish"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museoargentinodeltitere",
+  "n": "Museo Argentino del Títere",
+  "a": "",
+  "pc": "",
+  "lat": -34.61864,
+  "lng": -58.3774,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Argentino del Títere Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2720147742",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "905",
+    "addr:postcode": "C1070AAS",
+    "addr:street": "Piedras",
+    "description": "La colección cuenta con más de 500 títeres de distintas partes del mundo:Europa, Asia, América. Los más antiguos datan del siglo XIX. Se destaca una colección de figuras de Sombre de Turquía. El museo cuenta con una sala para 40 espectadores.",
+    "museum": "science",
+    "name": "Museo Argentino del Títere",
+    "opening_hours": "We-Su 15:00-18:00",
+    "operator": "1987",
+    "operator:type": "private",
+    "phone": "+54 11 4307-6917",
+    "tourism": "museum",
+    "website": "https://museodeltiterebsas.wixsite.com/museoargdeltitere",
+    "wikidata": "Q16609671",
+    "wikimedia_commons": "File:Museo Argentino del Titere fachada.JPG",
+    "wikipedia": "es:Museo Argentino del Títere"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "centrosrisathyasaibaba",
+  "n": "Centro Sri Sathya Sai Baba",
+  "a": "",
+  "pc": "",
+  "lat": -34.6198,
+  "lng": -58.37834,
+  "c": "faith",
+  "s": "temple",
+  "q": "Centro Sri Sathya Sai Baba Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2730273742",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "878",
+    "addr:street": "Carlos Calvo",
+    "amenity": "place_of_worship",
+    "name": "Centro Sri Sathya Sai Baba",
+    "religion": "hindu",
+    "wikidata": "Q483931",
+    "wikipedia": "es:Sathya Sai Baba"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museodelaemigraciongalle",
+  "n": "Museo de la Emigración Gallega en la Argentina",
+  "a": "",
+  "pc": "",
+  "lat": -34.61917,
+  "lng": -58.37589,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo de la Emigración Gallega en la Argentina Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2734408325",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "955",
+    "addr:postcode": "C1069AAS",
+    "addr:street": "Chacabuco",
+    "description": "El museo tiene como misión proteger, conservar y difundir el patrimonio y las costumbres de la colectividad Gallega que arribó a la Argentina durante los siglos XIX y XX. Objetos y documentos vinculados a la emigración, al exilio y a la República Español",
+    "email": "mega-museo@speedy.com.ar",
+    "museum": "history",
+    "name": "Museo de la Emigración Gallega en la Argentina",
+    "opening_hours": "Mo, We 15:00-20:00; Sa 17:00-20:00",
+    "operator:type": "private",
+    "phone": "+54 11 4362-5963",
+    "start_date": "2007",
+    "tourism": "museum",
+    "website": "http://www.fsgallegas.org.ar/museo_intro/",
+    "wikidata": "Q65391617"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesia",
+  "n": "Iglesia",
+  "a": "",
+  "pc": "",
+  "lat": -34.62367,
+  "lng": -58.43005,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2744146114",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-05-01",
+    "name": "Iglesia",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "elquijote",
+  "n": "El Quijote",
+  "a": "",
+  "pc": "",
+  "lat": -34.60946,
+  "lng": -58.38176,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "El Quijote Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2831272224",
+   "raw": {
+    "artist_name": "Aurelio Teno",
+    "artwork_type": "statue",
+    "name": "El Quijote",
+    "start_date": "1980",
+    "subject:wikidata": "Q944201",
+    "subject:wikipedia": "es:Don Quijote (personaje)",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monolitocantoabuenosaire",
+  "n": "Monolito Canto a Buenos Aires",
+  "a": "",
+  "pc": "",
+  "lat": -34.56177,
+  "lng": -58.45575,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monolito Canto a Buenos Aires Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2839825829",
+   "raw": {
+    "description:en": "Homage to Manuel \"Manucho\" Mujica Lainez",
+    "description:es": "Homenaje a Manuel \"Manucho\" Mujica Láinez",
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Monolito Canto a Buenos Aires"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentopadrecarlosmugi",
+  "n": "Monumento Padre Carlos Mugica",
+  "a": "",
+  "pc": "",
+  "lat": -34.59257,
+  "lng": -58.38234,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento Padre Carlos Mugica Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2853424950",
+   "raw": {
+    "denomination": "catholic",
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Monumento Padre Carlos Mugica",
+    "religion": "christian",
+    "source": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "atlaslavalle",
+  "n": "Atlas Lavalle",
+  "a": "",
+  "pc": "",
+  "lat": -34.60205,
+  "lng": -58.37627,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Atlas Lavalle Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2876235001",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Atlas Lavalle",
+    "wikidata": "Q38263061"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "antiguasededelcongresona",
+  "n": "Antigua Sede del Congreso Nacional",
+  "a": "",
+  "pc": "",
+  "lat": -34.60916,
+  "lng": -58.37115,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Antigua Sede del Congreso Nacional Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2892504247",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "139",
+    "addr:street": "Balcarce",
+    "architect": "Jonás Larguía",
+    "building": "yes",
+    "heritage": "2",
+    "historic": "yes",
+    "name": "Antigua Sede del Congreso Nacional",
+    "tourism": "attraction",
+    "wikidata": "Q16488551",
+    "wikimedia_commons": "Category:Antiguo Congreso Nacional, Buenos Aires",
+    "wikipedia": "es:Antiguo Congreso Nacional (Argentina)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesiaevangelicareforma",
+  "n": "Iglesia Evangélica Reformada de Buenos Aires",
+  "a": "",
+  "pc": "",
+  "lat": -34.56273,
+  "lng": -58.46239,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia Evangélica Reformada de Buenos Aires Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2928700603",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "evangelical",
+    "name": "Iglesia Evangélica Reformada de Buenos Aires",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nuestrasenoradelasvictor",
+  "n": "Nuestra Señora de Las Victorias",
+  "a": "",
+  "pc": "",
+  "lat": -34.59828,
+  "lng": -58.3843,
+  "c": "faith",
+  "s": "church",
+  "q": "Nuestra Señora de Las Victorias Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2948320040",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Nuestra Señora de Las Victorias",
+    "religion": "christian",
+    "source": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemadevoto",
+  "n": "Cinema Devoto",
+  "a": "",
+  "pc": "",
+  "lat": -34.61169,
+  "lng": -58.51712,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinema Devoto Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2948532848",
+   "raw": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "3365",
+    "addr:postcode": "1122",
+    "addr:street": "Quevedo",
+    "amenity": "cinema",
+    "name": "Cinema Devoto",
+    "phone": "+54 11 4019-6060",
+    "website": "https://cinemadevoto.com.ar/",
+    "wikidata": "Q38263770"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "versalles",
+  "n": "Versalles",
+  "a": "",
+  "pc": "",
+  "lat": -34.62833,
+  "lng": -58.52361,
+  "c": "oddity",
+  "s": "neighborhood of Buenos Aires",
+  "q": "Versalles Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q655117",
+   "raw": "neighborhood of Buenos Aires",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "joseamalfitanistadium",
+  "n": "José Amalfitani Stadium",
+  "a": "",
+  "pc": "",
+  "lat": -34.63538,
+  "lng": -58.52071,
+  "c": "oddity",
+  "s": "football stadium in Buenos Aires, Argentina",
+  "q": "José Amalfitani Stadium Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1196603",
+   "raw": "football stadium in Buenos Aires, Argentina",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ciudadela",
+  "n": "Ciudadela",
+  "a": "",
+  "pc": "",
+  "lat": -34.63333,
+  "lng": -58.53333,
+  "c": "oddity",
+  "s": "city in the province of Buenos Aires in Argentina",
+  "q": "Ciudadela Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1328458",
+   "raw": "city in the province of Buenos Aires in Argentina",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanjusto",
+  "n": "San Justo",
+  "a": "",
+  "pc": "",
+  "lat": -34.68333,
+  "lng": -58.55,
+  "c": "oddity",
+  "s": "city in Buenos Aires province, Argentina",
+  "q": "San Justo Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2466841",
+   "raw": "city in Buenos Aires province, Argentina",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lomasdelmirador",
+  "n": "Lomas del Mirador",
+  "a": "",
+  "pc": "",
+  "lat": -34.66667,
+  "lng": -58.52972,
+  "c": "oddity",
+  "s": "city in Buenos Aires Province, Argentina",
+  "q": "Lomas del Mirador Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2530296",
+   "raw": "city in Buenos Aires Province, Argentina",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "1989attackonlatabladabar",
+  "n": "1989 attack on La Tablada barracks",
+  "a": "",
+  "pc": "",
+  "lat": -34.69861,
+  "lng": -58.53639,
+  "c": "oddity",
+  "s": "guerrilla attack on the Argentine Army",
+  "q": "1989 attack on La Tablada barracks Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3826133",
+   "raw": "guerrilla attack on the Argentine Army",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tabladatrainstation",
+  "n": "Tablada train station",
+  "a": "",
+  "pc": "",
+  "lat": -34.6931,
+  "lng": -58.5281,
+  "c": "oddity",
+  "s": "train station in Argentina",
+  "q": "Tablada train station Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5694928",
+   "raw": "train station in Argentina",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ciudadelatrainstation",
+  "n": "Ciudadela train station",
+  "a": "",
+  "pc": "",
+  "lat": -34.6399,
+  "lng": -58.5411,
+  "c": "oddity",
+  "s": "train station in Argentina",
+  "q": "Ciudadela train station Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5841612",
+   "raw": "train station in Argentina",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "latablada",
+  "n": "La Tablada",
+  "a": "",
+  "pc": "",
+  "lat": -34.68333,
+  "lng": -58.53333,
+  "c": "oddity",
+  "s": "city in Buenos Aires Province, Argentina",
+  "q": "La Tablada Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6465359",
+   "raw": "city in Buenos Aires Province, Argentina",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "linierstrainstation",
+  "n": "Liniers train station",
+  "a": "",
+  "pc": "",
+  "lat": -34.6388,
+  "lng": -58.5256,
+  "c": "oddity",
+  "s": "train station in Argentina",
+  "q": "Liniers train station Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6554165",
+   "raw": "train station in Argentina",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museohistoricodelejercit",
+  "n": "Museo Histórico del Ejército Argentino",
+  "a": "",
+  "pc": "",
+  "lat": -34.63092,
+  "lng": -58.54328,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Museo Histórico del Ejército Argentino Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16609784",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "latabladacemetery",
+  "n": "La Tablada Cemetery",
+  "a": "",
+  "pc": "",
+  "lat": -34.68972,
+  "lng": -58.525,
+  "c": "death",
+  "s": "jewish cemetery in Argentina",
+  "q": "La Tablada Cemetery Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q20983570",
+   "raw": "Jewish cemetery in Argentina",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanctuaryofsaintcajetan",
+  "n": "Sanctuary of Saint Cajetan",
+  "a": "",
+  "pc": "",
+  "lat": -34.6379,
+  "lng": -58.5281,
+  "c": "faith",
+  "s": "church in Buenos Aires, Argentina",
+  "q": "Sanctuary of Saint Cajetan Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q56208139",
+   "raw": "church in Buenos Aires, Argentina",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecajosehernandez",
+  "n": "Biblioteca José Hernández",
+  "a": "",
+  "pc": "",
+  "lat": -34.64629,
+  "lng": -58.52085,
+  "c": "oddity",
+  "s": "public library in Buenos Aires",
+  "q": "Biblioteca José Hernández Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q58404606",
+   "raw": "public library in Buenos Aires",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "asociacioncircuitocultur",
+  "n": "Asociación Circuito Cultural y Fomento Belisario Roldán de Versailles",
+  "a": "",
+  "pc": "",
+  "lat": -34.63141,
+  "lng": -58.52505,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Asociación Circuito Cultural y Fomento Belisario Roldán de Versailles Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q64338404",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecapopularamigosd",
+  "n": "Biblioteca Popular Amigos de La Tablada",
+  "a": "",
+  "pc": "",
+  "lat": -34.68785,
+  "lng": -58.52273,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Biblioteca Popular Amigos de La Tablada Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q64338672",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecapopularvillasa",
+  "n": "Biblioteca Popular Villa Sahores",
+  "a": "",
+  "pc": "",
+  "lat": -34.68408,
+  "lng": -58.54582,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Biblioteca Popular Villa Sahores Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q64339148",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "historicalmuseumofthearg2",
+  "n": "Historical Museum of the Argentine Army",
+  "a": "",
+  "pc": "",
+  "lat": -34.62275,
+  "lng": -58.54448,
+  "c": "museum",
+  "s": "museum",
+  "q": "Historical Museum of the Argentine Army Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q65553283",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecadelmuseohistor",
+  "n": "Biblioteca del Museo Histórico del Ejercito Argentino",
+  "a": "",
+  "pc": "",
+  "lat": -34.63144,
+  "lng": -58.54505,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Biblioteca del Museo Histórico del Ejercito Argentino Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q83873094",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "plazoletajoseeusebioague",
+  "n": "Plazoleta José Eusebio Agüero",
+  "a": "",
+  "pc": "",
+  "lat": -34.62859,
+  "lng": -58.52177,
+  "c": "oddity",
+  "s": "small square in Buenos Aires",
+  "q": "Plazoleta José Eusebio Agüero Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111591215",
+   "raw": "small square in Buenos Aires",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "plazoletaromulozabala",
+  "n": "Plazoleta Rómulo Zabala",
+  "a": "",
+  "pc": "",
+  "lat": -34.65716,
+  "lng": -58.52052,
+  "c": "oddity",
+  "s": "small square in Buenos Aires",
+  "q": "Plazoleta Rómulo Zabala Buenos Aires",
+  "w": "",
+  "city": "buenosaires",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111591253",
+   "raw": "small square in Buenos Aires",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

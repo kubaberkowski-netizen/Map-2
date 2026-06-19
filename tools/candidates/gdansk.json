@@ -1,0 +1,4059 @@
+[
+ {
+  "id": "pachoek",
+  "n": "Pachołek",
+  "a": "",
+  "pc": "",
+  "lat": 54.41167,
+  "lng": 18.55077,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Pachołek Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304519543",
+   "raw": {
+    "access": "yes",
+    "fee": "no",
+    "height": "15 m",
+    "man_made": "tower",
+    "material": "steel",
+    "name": "Pachołek",
+    "step_count": "90",
+    "tourism": "viewpoint",
+    "tower:construction": "lattice",
+    "tower:function": "view",
+    "tower:material": "steel",
+    "tower:type": "observation",
+    "viewpoint": "yes",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikbksbronisawakomoro",
+  "n": "Pomnik bł. ks. Bronisława Komorowskiego",
+  "a": "",
+  "pc": "",
+  "lat": 54.38343,
+  "lng": 18.61518,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik bł. ks. Bronisława Komorowskiego Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/457051667",
+   "raw": {
+    "artist_name": "Jan Waldemar Kolasiński",
+    "historic": "memorial",
+    "inscription": "BŁOGOSŁAWIONY KSIĄDZ BRONISŁAW KOMOROWSKI 1889-1940",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Pomnik bł. ks. Bronisława Komorowskiego",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "2000",
+    "subject:wikidata": "Q481432",
+    "subject:wikipedia": "pl:Bronisław Komorowski (ksiądz)",
+    "website": "https://gzdiz.gda.pl/mapa/pomnik-bl-ks-bronislawa-komorowskiego,o,23"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikobroncowwybrzeza",
+  "n": "Pomnik Obrońców Wybrzeża",
+  "a": "",
+  "pc": "",
+  "lat": 54.4067,
+  "lng": 18.66697,
+  "c": "history",
+  "s": "monument",
+  "q": "Pomnik Obrońców Wybrzeża Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/463564935",
+   "raw": {
+    "artist_name": "Adam Haupt;Franciszek Duszeńko;Henryk Kitowski",
+    "colour": "grey",
+    "description": "Granitowy, 25-metrowy obelisk w kształcie wyszczerbionego bagnetu na szczycie kopca.",
+    "height": "25",
+    "historic": "monument",
+    "lit": "yes",
+    "material": "granite",
+    "name": "Pomnik Obrońców Wybrzeża",
+    "name:en": "Monument at Westerplatte",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "1966-10-09",
+    "tourism": "attraction",
+    "url": "https://gaps.gda.pl/obiekt/pomnik-obroncow-wybrzeza/",
+    "wheelchair": "no",
+    "wikidata": "Q825098",
+    "wikimedia_commons": "Category:Westerplatte_Monument",
+    "wikipedia": "pl:Pomnik Obrońców Wybrzeża"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tymcozapolskoscgdanska",
+  "n": "Tym co za polskość Gdańska",
+  "a": "",
+  "pc": "",
+  "lat": 54.35355,
+  "lng": 18.65677,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Tym co za polskość Gdańska Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/481443497",
+   "raw": {
+    "artist_name": "W. Pietroń;W. Samp",
+    "height": "7",
+    "historic": "memorial",
+    "inscription": "A jeśli komu droga otwarta do nieba – Tym, co służą ojczyźnie.",
+    "material": "granite",
+    "memorial": "memorial",
+    "name": "Tym co za polskość Gdańska",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "1969",
+    "website": "https://gzdiz.gda.pl/mapa/pomnik-tym-co-za-polskosc-gdanska,o,10",
+    "wheelchair": "yes",
+    "wikidata": "Q11823488",
+    "wikipedia": "pl:Pomnik Tym co za polskość Gdańska"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikobroncowpocztypols",
+  "n": "Pomnik Obrońców Poczty Polskiej",
+  "a": "",
+  "pc": "",
+  "lat": 54.35556,
+  "lng": 18.65724,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Obrońców Poczty Polskiej Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/504674963",
+   "raw": {
+    "artist_name": "Wincenty Kućma;Krystyna Hajdo-Kućma",
+    "height": "9",
+    "historic": "memorial",
+    "material": "steel",
+    "memorial": "war_memorial",
+    "name": "Pomnik Obrońców Poczty Polskiej",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "1979-09-01",
+    "wheelchair": "yes",
+    "wikidata": "Q11823367",
+    "wikipedia": "pl:Pomnik Obrońców Poczty Polskiej w Gdańsku"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aweczkagunteragrassaiosk",
+  "n": "Ławeczka Güntera Grassa i Oskara Matzeratha",
+  "a": "",
+  "pc": "",
+  "lat": 54.38459,
+  "lng": 18.60981,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ławeczka Güntera Grassa i Oskara Matzeratha Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/737622860",
+   "raw": {
+    "amenity": "bench",
+    "artist_name": "Sławoj Ostrowski",
+    "backrest": "yes",
+    "historic": "memorial",
+    "material": "steel",
+    "memorial": "bench",
+    "name": "Ławeczka Güntera Grassa i Oskara Matzeratha",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "2002",
+    "website": "https://gzdiz.gda.pl/mapa/pomnik-z-oskarkiem,o,60"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "muzeumarcheologiczne",
+  "n": "Muzeum Archeologiczne",
+  "a": "",
+  "pc": "",
+  "lat": 54.35483,
+  "lng": 18.65969,
+  "c": "museum",
+  "s": "museum",
+  "q": "Muzeum Archeologiczne Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/747156949",
+   "raw": {
+    "addr:city": "Gdańsk",
+    "addr:housenumber": "8",
+    "addr:street": "Rycerska",
+    "name": "Muzeum Archeologiczne",
+    "tourism": "museum",
+    "wikidata": "Q11786904",
+    "wikipedia": "pl:Muzeum Archeologiczne w Gdańsku"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikjanaheweliusza",
+  "n": "Pomnik Jana Heweliusza",
+  "a": "",
+  "pc": "",
+  "lat": 54.35411,
+  "lng": 18.64882,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Jana Heweliusza Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/842857701",
+   "raw": {
+    "artist_name": "Jan Szczypka",
+    "height": "3.1",
+    "historic": "memorial",
+    "inscription": "JAN HEWELIUSZ, WYBITNY NAUKOWIEC, TWÓRCA ATLASU NIEBA, ODKRYWCA WIELU KOMET I GWIAZDOZBIORÓW, GENIALNY KONSTRUKTOR I WYNALAZCA, ZNANY GDAŃSKI BROWARNIK",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Pomnik Jana Heweliusza",
+    "name:be": "Ян Гевелій",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "panoramax": "3e1eb302-57f9-4dfd-9a8f-56678dc7ff30",
+    "start_date": "2006",
+    "wikidata": "Q11823230",
+    "wikipedia": "pl:Pomniki Jana Heweliusza w Gdańsku"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "janiiisobieski",
+  "n": "Jan III Sobieski",
+  "a": "",
+  "pc": "",
+  "lat": 54.35209,
+  "lng": 18.64848,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Jan III Sobieski Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1156131914",
+   "raw": {
+    "description": "ufundowany przez miasto Lwów i tam odsłonięty w 1898 roku",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Jan III Sobieski",
+    "name:be": "Ян ІІІ Сабескі",
+    "start_date": "1965",
+    "subject:wikidata": "Q53454",
+    "wikidata": "Q11823548",
+    "wikipedia": "pl:Pomnik króla Jana III Sobieskiego w Gdańsku"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "westerplatte",
+  "n": "Westerplatte",
+  "a": "",
+  "pc": "",
+  "lat": 54.40634,
+  "lng": 18.67702,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Westerplatte Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1340071411",
+   "raw": {
+    "historic": "battlefield",
+    "name": "Westerplatte",
+    "place": "quarter",
+    "wikidata": "Q517081"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikzonierzyrosyjskich",
+  "n": "Pomnik Żołnierzy Rosyjskich",
+  "a": "",
+  "pc": "",
+  "lat": 54.35751,
+  "lng": 18.63818,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Żołnierzy Rosyjskich Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1364859562",
+   "raw": {
+    "historic": "memorial",
+    "man_made": "obelisk",
+    "name": "Pomnik Żołnierzy Rosyjskich"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fragmentymuruberlinskieg",
+  "n": "Fragmenty muru berlińskiego",
+  "a": "",
+  "pc": "",
+  "lat": 54.35802,
+  "lng": 18.64709,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Fragmenty muru berlińskiego Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1389055508",
+   "raw": {
+    "historic": "memorial",
+    "material": "concrete",
+    "memorial": "yes",
+    "name": "Fragmenty muru berlińskiego"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikpamieciofiarekster",
+  "n": "Pomnik Pamięci Ofiar Eksterminacji Ludności Polskiej na Wołyniu",
+  "a": "",
+  "pc": "",
+  "lat": 54.35414,
+  "lng": 18.65351,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Pamięci Ofiar Eksterminacji Ludności Polskiej na Wołyniu Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1391144399",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "memorial",
+    "name": "Pomnik Pamięci Ofiar Eksterminacji Ludności Polskiej na Wołyniu",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "2003-07-11",
+    "website": "https://gzdiz.gda.pl/mapa/pomnik-pamieci-ofiar-eksterminacji-ludnosci-polskiej-na-wolyniu,o,51"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wychowaninatraugutta",
+  "n": "Wychowani na Traugutta",
+  "a": "",
+  "pc": "",
+  "lat": 54.36843,
+  "lng": 18.62598,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Wychowani na Traugutta Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1459564474",
+   "raw": {
+    "artwork_type": "graffiti",
+    "check_date": "2024-03-26",
+    "name": "Wychowani na Traugutta",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikposwieconyharcerko",
+  "n": "Pomnik poświęcony harcerkom i harcerzom Wolnego Miasta Gdańska pomordowanym w czasie II Wojny Światowej",
+  "a": "",
+  "pc": "",
+  "lat": 54.35133,
+  "lng": 18.64552,
+  "c": "history",
+  "s": "historic ruins",
+  "q": "Pomnik poświęcony harcerkom i harcerzom Wolnego Miasta Gdańska pomordowanym w czasie II Wojny Światowej Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1523267698",
+   "raw": {
+    "artist_name": "Marcin Plichta",
+    "historic": "memorial",
+    "inscription": "W HOŁDZIE HARCERKOM I HARCERZOM POMORDOWANYM W CZASIE II WOJNY ŚWIATOWEJ, TYM KTÓRZY WSKRZESZALI Z RUIN NASZ GDAŃSK. INSTRUKTOROM, WYCHOWAWCOM POKOLEŃ MŁODZIEŻY HARCERSKIEJ, KTÓRZY ODESZLI NA WIECZNĄ WARTĘ. CZUWAJ! MIASTO GDAŃSK 2003",
+    "material": "granite",
+    "memorial": "war_memorial",
+    "name": "Pomnik poświęcony harcerkom i harcerzom Wolnego Miasta Gdańska pomordowanym w czasie II Wojny Światowej",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "2004-04-07"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikswietopekawielkieg",
+  "n": "Pomnik Świętopełka Wielkiego",
+  "a": "",
+  "pc": "",
+  "lat": 54.35176,
+  "lng": 18.65328,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Świętopełka Wielkiego Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1560933022",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Pomnik Świętopełka Wielkiego",
+    "start_date": "2010",
+    "wheelchair": "yes",
+    "wikidata": "Q16590027",
+    "wikipedia": "pl:Pomnik Świętopełka Wielkiego w Gdańsku"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "obroncypoczty",
+  "n": "Obrońcy Poczty",
+  "a": "",
+  "pc": "",
+  "lat": 54.35513,
+  "lng": 18.65526,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Obrońcy Poczty Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1561053259",
+   "raw": {
+    "artwork_type": "graffiti",
+    "name": "Obrońcy Poczty",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kamiennesercegdanska",
+  "n": "Kamienne serce Gdańska",
+  "a": "",
+  "pc": "",
+  "lat": 54.35034,
+  "lng": 18.65418,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Kamienne serce Gdańska Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1570145814",
+   "raw": {
+    "artwork_type": "stone_carving",
+    "name": "Kamienne serce Gdańska",
+    "start_date": "2018-09-15",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "muzeumnarodowewgdanskuoz",
+  "n": "Muzeum Narodowe w Gdańsku o/Zielona Brama",
+  "a": "",
+  "pc": "",
+  "lat": 54.34787,
+  "lng": 18.65572,
+  "c": "museum",
+  "s": "museum",
+  "q": "Muzeum Narodowe w Gdańsku o/Zielona Brama Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1777255594",
+   "raw": {
+    "addr:city": "Gdańsk",
+    "addr:country": "PL",
+    "addr:housename": "Zielona Brama",
+    "addr:housenumber": "24",
+    "addr:postcode": "80-828",
+    "addr:street": "Długi Targ",
+    "alt_name": "Muzeum Narodowe w Gdańsku - Oddział Zielona Brama",
+    "fee": "no",
+    "name": "Muzeum Narodowe w Gdańsku o/Zielona Brama",
+    "name:be": "Нацыянальны музей у Гданьску",
+    "tourism": "museum",
+    "wikidata": "Q1968661",
+    "wikipedia": "pl:Muzeum Narodowe w Gdańsku"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wzgorzenastepcytronu",
+  "n": "Wzgórze Następcy Tronu",
+  "a": "",
+  "pc": "",
+  "lat": 54.37314,
+  "lng": 18.6076,
+  "c": "view",
+  "s": "hilltop viewpoint",
+  "q": "Wzgórze Następcy Tronu Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1782561083",
+   "raw": {
+    "alt_name": "Wzgórze Kronprinza",
+    "name": "Wzgórze Następcy Tronu",
+    "natural": "peak",
+    "old_name:de": "Kronprinzenhöhe",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikofiartyfusu194546",
+  "n": "Pomnik Ofiar Tyfusu 1945 - 46",
+  "a": "",
+  "pc": "",
+  "lat": 54.35341,
+  "lng": 18.63513,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Ofiar Tyfusu 1945 - 46 Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1792856394",
+   "raw": {
+    "historic": "memorial",
+    "name": "Pomnik Ofiar Tyfusu 1945 - 46"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "krzysztofcelestynmrongow",
+  "n": "Krzysztof Celestyn Mrongowiusz",
+  "a": "",
+  "pc": "",
+  "lat": 54.3967,
+  "lng": 18.574,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Krzysztof Celestyn Mrongowiusz Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1846143702",
+   "raw": {
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Krzysztof Celestyn Mrongowiusz",
+    "subject:wikidata": "Q16589952",
+    "subject:wikipedia": "pl:Pomnik Mrongowiusza",
+    "wikimedia_commons": "File:Pomnik_Mrongowiusza_w_Gdańsku.JPG"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikgenstanisawamaczka",
+  "n": "Pomnik gen. Stanisława Maczka",
+  "a": "",
+  "pc": "",
+  "lat": 54.38682,
+  "lng": 18.58321,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik gen. Stanisława Maczka Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2192129183",
+   "raw": {
+    "artist_name": "Eugeniusz Nester",
+    "direction": "SW",
+    "height": "3.05",
+    "historic": "memorial",
+    "inscription": "DLA UPAMIĘTNIENIA DOWÓDCY I DYWIZJI PANCERNEJ/GEN. BRONI STANISŁAWA MACZKA 31 03 1891/1112 1994/BOHATERA PÓL BITEWNYCH DRUGIEJ WOJNY ŚWIATOWEJ DŁUGOLETNIEGO BOJOWNIKA SPRAWY POLSKIEJ TRZYKROTNEGO KAWALERA VIRTUTI MILITARI",
+    "material": "stone",
+    "memorial": "stone",
+    "name": "Pomnik gen. Stanisława Maczka",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "2014-08-08",
+    "subject:wikidata": "Q512764",
+    "website": "https://gzdiz.gda.pl/mapa/pomnik-generala-stanislawa-maczka,o,63"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "szanieczachodni",
+  "n": "Szaniec Zachodni",
+  "a": "",
+  "pc": "",
+  "lat": 54.39659,
+  "lng": 18.67586,
+  "c": "medieval",
+  "s": "medieval site",
+  "q": "Szaniec Zachodni Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2228754067",
+   "raw": {
+    "access": "yes",
+    "addr:city": "Gdańsk",
+    "addr:housenumber": "10",
+    "addr:postcode": "80-555",
+    "addr:street": "Starowiślna",
+    "description": "W 1627 roku na miejscu rozebranej Karczmy Zachodniej w Nowym Porcie, Rada Miasta Gdańska postanowiła wybudować Szaniec Zachodni. W 1639 roku szaniec zaopatrzono w dwa półbastiony. Umocnienie to stanowiło integralną część i zarazem przyczółek leżącej po dr",
+    "historic": "fort",
+    "name": "Szaniec Zachodni",
+    "source:addr": "Urząd Miasta Gdańsk",
+    "start_date": "1627"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikbitwypodoliwa",
+  "n": "Pomnik Bitwy pod Oliwą",
+  "a": "",
+  "pc": "",
+  "lat": 54.41302,
+  "lng": 18.55063,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Bitwy pod Oliwą Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2296236222",
+   "raw": {
+    "height": "3.7",
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "obelisk",
+    "name": "Pomnik Bitwy pod Oliwą",
+    "start_date": "1975-07-22",
+    "website": "https://gzdiz.gda.pl/mapa/pomnik-bitwy-pod-oliwa,o,12"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikswietopekaii",
+  "n": "Pomnik Świętopełka II",
+  "a": "",
+  "pc": "",
+  "lat": 54.40989,
+  "lng": 18.56073,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Świętopełka II Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2362951125",
+   "raw": {
+    "artist:wikidata": "Q54944075",
+    "artist:wikipedia": "pl:Alfons Łosowski",
+    "artist_name": "Alfons Łosowski",
+    "historic": "memorial",
+    "inscription": "Świętopełk II\nksiążę\npomorski\n1195 — 1266",
+    "material": "granite",
+    "memorial": "bust",
+    "name": "Pomnik Świętopełka II",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "1967",
+    "subject:wikidata": "Q696750",
+    "subject:wikipedia": "pl:Świętopełk II Wielki",
+    "wikimedia_commons": "File:Monument of Świętopełek II at Adam Mickiewicz Park in Oliwa.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stefanmichalak",
+  "n": "Stefan Michalak",
+  "a": "",
+  "pc": "",
+  "lat": 54.36619,
+  "lng": 18.62702,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Stefan Michalak Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2402209775",
+   "raw": {
+    "artist_name": "Czesław Gajda",
+    "artwork_type": "bust",
+    "inscription": "Dr med. Stefan Michalak (1909-1947). Organizator, pierwszy dyrektor szpitala, współtwórca Akademii Medycznej w Gdańsku. (...) Zginął w falach Bałtyku, ratując tonących kolegów.",
+    "material": "granite",
+    "memorial": "bust",
+    "name": "Stefan Michalak",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "2001-10-08",
+    "subject:wikidata": "Q26769390",
+    "subject:wikipedia": "pl:Stefan Michalak",
+    "tourism": "artwork",
+    "website": "https://gzdiz.gda.pl/mapa/pomnik-dr-stefana-michalaka,o,109"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikmarszakajozefapisu",
+  "n": "Pomnik Marszałka Józefa Piłsudskiego",
+  "a": "",
+  "pc": "",
+  "lat": 54.3864,
+  "lng": 18.5914,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Marszałka Józefa Piłsudskiego Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2419911423",
+   "raw": {
+    "artist_name": "Tomasz Radziewicz",
+    "height": "5.1",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Pomnik Marszałka Józefa Piłsudskiego",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "2006-11-11",
+    "subject:wikidata": "Q885",
+    "website": "https://gzdiz.gda.pl/mapa/pomnik-marszalka-jozefa-pilsudskiego,o,39"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikjankikupay",
+  "n": "Pomnik Janki Kupały",
+  "a": "",
+  "pc": "",
+  "lat": 54.41547,
+  "lng": 18.57657,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Janki Kupały Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2428041434",
+   "raw": {
+    "direction": "085",
+    "historic": "memorial",
+    "inscription": "JANKA KUPAŁA (JAN ŁUCEWICZ) 1882-1942 WIESZCZ BIAŁORUSKI … śnią mi się sny o Białorusi",
+    "material": "stone",
+    "memorial": "stone",
+    "name": "Pomnik Janki Kupały",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "2003-06-23",
+    "subject:wikidata": "Q377",
+    "subject:wikipedia": "pl:Janka Kupała",
+    "website": "https://gzdiz.gda.pl/mapa/pomnik-janki-kupaly,o,68"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "obroncomwybrzeza1939",
+  "n": "Obrońcom Wybrzeża 1939",
+  "a": "",
+  "pc": "",
+  "lat": 54.35026,
+  "lng": 18.64846,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Obrońcom Wybrzeża 1939 Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2614623951",
+   "raw": {
+    "artist_name": "Jan Sienkowski",
+    "height": "1.5",
+    "historic": "memorial",
+    "inscription": "Obrońcom Wybrzeża 1939",
+    "material": "stone",
+    "memorial": "war_memorial",
+    "name": "Obrońcom Wybrzeża 1939",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "1957-09-01",
+    "website": "https://gzdiz.gda.pl/mapa/pomnik-obroncom-wybrzeza-1939,o,106"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikdanielagralatha",
+  "n": "Pomnik Daniela Gralatha",
+  "a": "",
+  "pc": "",
+  "lat": 54.36796,
+  "lng": 18.6309,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Daniela Gralatha Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2616221012",
+   "raw": {
+    "height": "3.5",
+    "historic": "memorial",
+    "inscription": "TWÓRCY TEJ ALEI BURMISTRZOWI DANIELOWI GRALATHOWI UR. 30 MAJA 1708 R., ZM. 23 LIPCA 1767 R. Z OKAZJI 150-LECIA ZAŁOŻONEGO PRZEZ NIEGO TOWARZYSTWA PRZYRODNICZEGO UFUNDOWAŁO MIASTO GDAŃSK 1893 2003.",
+    "material": "stone",
+    "memorial": "stone",
+    "name": "Pomnik Daniela Gralatha",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "1893",
+    "website": "https://gzdiz.gda.pl/mapa/pomnik-daniela-gralatha,o,64"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "historycznabramanr2stocz",
+  "n": "Historyczna brama nr 2 Stoczni Gdańskiej",
+  "a": "",
+  "pc": "",
+  "lat": 54.36059,
+  "lng": 18.64983,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Historyczna brama nr 2 Stoczni Gdańskiej Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2618788522",
+   "raw": {
+    "access": "no",
+    "barrier": "gate",
+    "heritage": "2",
+    "heritage:operator": "nid",
+    "historic": "memorial",
+    "material": "steel",
+    "memorial": "memorial",
+    "name": "Historyczna brama nr 2 Stoczni Gdańskiej",
+    "name:ko": "그단스크 조선소 역사적 2번문",
+    "nid:inscription_date": "1999-12-06",
+    "nid:website": "https://zabytek.pl/pl/obiekty/zabytek?inspire_id=PL.1.9.ZIPOZ.NID_N_22_BL.17846&rejestr=rejestr-zabytkow",
+    "ref:inspire": "PL.1.9.ZIPOZ.NID_N_22_BL.17846",
+    "tourism": "attraction",
+    "wikidata": "Q24946311",
+    "wikimedia_commons": "Category:Historic gate of Gdańsk Shipyard",
+    "wikipedia": "pl:Brama nr 2 Stoczni Gdańskiej"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "swjananepomucena",
+  "n": "św. Jana Nepomucena",
+  "a": "",
+  "pc": "",
+  "lat": 54.41039,
+  "lng": 18.56755,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "św. Jana Nepomucena Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2622657267",
+   "raw": {
+    "denomination": "roman_catholic",
+    "historic": "wayside_shrine",
+    "name": "św. Jana Nepomucena",
+    "religion": "christian"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikczogistow",
+  "n": "Pomnik Czołgistów",
+  "a": "",
+  "pc": "",
+  "lat": 54.3667,
+  "lng": 18.63462,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Czołgistów Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2670589064",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "POMNIK CZOŁG T.34 1 BRYGADY PANCERNEJ IM. BOHATERÓW WESTERPLATTE KTÓRY W MARCU 1945 R. WALCZYŁ O POWRÓT GDAŃSKA DO MACIERZY",
+    "man_made": "military_tank",
+    "material": "steel",
+    "memorial": "war_memorial",
+    "name": "Pomnik Czołgistów",
+    "note": "Pomnik jest oryginalnym czołgiem z czasów II wojny światowej, upamiętniającym czołgistów biorących udział w walkach wyzwoleńczych Gdańska.",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "1946",
+    "website": "https://gzdiz.gda.pl/mapa/pomnik-czolg-pomnik-czolgistow,o,14",
+    "wikidata": "Q11692313",
+    "wikipedia": "pl:Czołg w al. Zwycięstwa w Gdańsku"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "21xtak",
+  "n": "21xTak",
+  "a": "",
+  "pc": "",
+  "lat": 54.36211,
+  "lng": 18.64499,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "21xTak Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2670589145",
+   "raw": {
+    "artwork_type": "graffiti",
+    "name": "21xTak",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "koloniaartystow",
+  "n": "Kolonia Artystów",
+  "a": "",
+  "pc": "",
+  "lat": 54.37695,
+  "lng": 18.61186,
+  "c": "caff",
+  "s": "local curiosity",
+  "q": "Kolonia Artystów Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2672974427",
+   "raw": {
+    "addr:city": "Gdańsk",
+    "addr:housenumber": "51",
+    "addr:postcode": "80-241",
+    "addr:street": "Aleja Grunwaldzka",
+    "amenity": "cafe",
+    "check_date": "2026-03-16",
+    "name": "Kolonia Artystów",
+    "name:en": "Colony of Artists",
+    "operator": "Fundacja Kolonia Artystów",
+    "tourism": "gallery",
+    "website": "http://www.kolonia-artystow.pl/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikofiarpozaruwhaliwi",
+  "n": "Pomnik Ofiar Pożaru w Hali Widowiskowej Stoczni Gdańskiej",
+  "a": "",
+  "pc": "",
+  "lat": 54.36586,
+  "lng": 18.64122,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Ofiar Pożaru w Hali Widowiskowej Stoczni Gdańskiej Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2679305155",
+   "raw": {
+    "description": "Resztki bramy, pamięci osób które zginęły podczas koncertu GoldenLife w 1994",
+    "direction": "SW",
+    "historic": "memorial",
+    "inscription": "Życie choć piękne tak kruche jest...",
+    "memorial": "memorial",
+    "name": "Pomnik Ofiar Pożaru w Hali Widowiskowej Stoczni Gdańskiej",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "1996-11-22",
+    "website": "https://gzdiz.gda.pl/mapa/pomnik-ofiar-pozaru-w-hali-widowiskowej-stoczni-gdanskiej,o,55",
+    "wikidata": "Q11826452",
+    "wikipedia": "pl:Pożar w hali Stoczni Gdańskiej"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "goraujescisko",
+  "n": "Góra Ujeścisko",
+  "a": "",
+  "pc": "",
+  "lat": 54.32852,
+  "lng": 18.60383,
+  "c": "view",
+  "s": "hilltop viewpoint",
+  "q": "Góra Ujeścisko Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2771862996",
+   "raw": {
+    "ele": "83.4",
+    "name": "Góra Ujeścisko",
+    "natural": "peak",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zaodzejachtuposwist",
+  "n": "Załodze jachtu Poświst",
+  "a": "",
+  "pc": "",
+  "lat": 54.39512,
+  "lng": 18.68075,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Załodze jachtu Poświst Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2782241643",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "stele",
+    "name": "Załodze jachtu Poświst"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "v",
+  "n": "V",
+  "a": "",
+  "pc": "",
+  "lat": 54.38849,
+  "lng": 18.55101,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "V Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2784116502",
+   "raw": {
+    "historic": "wayside_cross",
+    "name": "V"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "heweliusz",
+  "n": "Heweliusz",
+  "a": "",
+  "pc": "",
+  "lat": 54.4081,
+  "lng": 18.58382,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Heweliusz Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2787019325",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Heweliusz"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ii",
+  "n": "II",
+  "a": "",
+  "pc": "",
+  "lat": 54.38714,
+  "lng": 18.55571,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "II Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2789173122",
+   "raw": {
+    "historic": "wayside_cross",
+    "name": "II"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "whodziezamordowanymstocz",
+  "n": "W hołdzie zamordowanym stoczniowcom. 1972",
+  "a": "",
+  "pc": "",
+  "lat": 54.38713,
+  "lng": 18.56324,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "W hołdzie zamordowanym stoczniowcom. 1972 Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2789173135",
+   "raw": {
+    "historic": "wayside_cross",
+    "name": "W hołdzie zamordowanym stoczniowcom. 1972"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pamieciofiarobozustuttho",
+  "n": "Pamięci ofiar obozu Stutthof Przeróbka",
+  "a": "",
+  "pc": "",
+  "lat": 54.35689,
+  "lng": 18.67975,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pamięci ofiar obozu Stutthof Przeróbka Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2817336509",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "W HOŁDZIE POLEGŁYM ZA WOLNOŚC, TU NA PRZERÓBCE W LATACH 1941-45 ZNAJDOWAŁA SIĘ FILIA OBOZU KONCENTRACYJNEGO STUTTHOF ORAZ OBÓZ JEŃCÓW WOJENNYCH KOALICJI ANTY HITLEROWSKIEJ. W WYNIKU CIĘŻKIEJ I WYNISZCZAJACEJ PRACY ORAZ NIELUDZKIEGO TRAKTOWANIA ZGINĘŁO ...",
+    "material": "stone",
+    "memorial": "war_memorial",
+    "name": "Pamięci ofiar obozu Stutthof Przeróbka",
+    "start_date": "1978-09",
+    "website": "https://gzdiz.gda.pl/mapa/pomnik-w-holdzie-poleglym-za-wolnosc,o,36"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "louisdeplelo",
+  "n": "Louis de Plélo",
+  "a": "",
+  "pc": "",
+  "lat": 54.39327,
+  "lng": 18.67811,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Louis de Plélo Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2884238052",
+   "raw": {
+    "historic": "memorial",
+    "name": "Louis de Plélo"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "figurambzielnej",
+  "n": "Figura MB Zielnej",
+  "a": "",
+  "pc": "",
+  "lat": 54.34083,
+  "lng": 18.56054,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Figura MB Zielnej Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2908738781",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Figura MB Zielnej",
+    "statue": "virgin",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oliwskieaki",
+  "n": "Oliwskie Łąki",
+  "a": "",
+  "pc": "",
+  "lat": 54.39749,
+  "lng": 18.65701,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Oliwskie Łąki Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2911351594",
+   "raw": {
+    "historic": "yes",
+    "name": "Oliwskie Łąki",
+    "place": "locality",
+    "wikidata": "Q11798077",
+    "wikipedia": "pl:Oliwskie Łąki"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ofiaromgolgotywschodusyb",
+  "n": "Ofiarom Golgoty wschodu - Sybiracy",
+  "a": "",
+  "pc": "",
+  "lat": 54.34045,
+  "lng": 18.59338,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ofiarom Golgoty wschodu - Sybiracy Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2924996650",
+   "raw": {
+    "historic": "memorial",
+    "name": "Ofiarom Golgoty wschodu - Sybiracy"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "centrumedukacjiarcheolog",
+  "n": "Centrum Edukacji Archeologicznej \"Błękitny Baranek\"",
+  "a": "",
+  "pc": "",
+  "lat": 54.34482,
+  "lng": 18.65516,
+  "c": "museum",
+  "s": "museum",
+  "q": "Centrum Edukacji Archeologicznej \"Błękitny Baranek\" Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2942684633",
+   "raw": {
+    "museum": "archaeological",
+    "name": "Centrum Edukacji Archeologicznej \"Błękitny Baranek\"",
+    "name:de": "Archäologisches Bildungszentrum „Blaues Lamm“",
+    "name:en": "Archaeological Education Center \"Blue Lamb\"",
+    "name:pl": "Centrum Edukacji Archeologicznej \"Błękitny Baranek\"",
+    "operator": "Muzeum Archeologiczne w Gdańsku",
+    "operator:type": "public",
+    "ownership": "provincial",
+    "phone": "+48 58 320 31 88",
+    "tourism": "museum",
+    "website": "https://www.blekitnylew.pl/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "whodziebohaterom",
+  "n": "W Hołdzie Bohaterom",
+  "a": "",
+  "pc": "",
+  "lat": 54.39758,
+  "lng": 18.60563,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "W Hołdzie Bohaterom Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2958303744",
+   "raw": {
+    "artist_name": "Józef Fukś",
+    "historic": "memorial",
+    "inscription": "W TYM MIEJSCU ODNALEZIONO W DNIU 28 10 1991 R. SZCZĄTKI 38 OBROŃCÓW POCZTY POLSKIEJ W GDAŃSKU, KTÓRZY ZOSTALI ROZSTRZELANI PRZEZ HITLEROWCÓW W DNIU 5 10 1939 R",
+    "material": "stone",
+    "memorial": "war_memorial",
+    "name": "W Hołdzie Bohaterom",
+    "operator": "Gdański Zarząd Dróg i Zieleni;Poczta Polska Gdańsk",
+    "start_date": "1992-08-29",
+    "website": "https://gzdiz.gda.pl/mapa/pomnik-w-holdzie-bohaterom,o,26",
+    "wheelchair": "limited"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bogumiaianastazywikaczar",
+  "n": "Bogumiła i Anastazy Wika-Czarnowscy",
+  "a": "",
+  "pc": "",
+  "lat": 54.38168,
+  "lng": 18.61257,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Bogumiła i Anastazy Wika-Czarnowscy Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2968675099",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Bogumiła i Anastazy Wika-Czarnowscy",
+    "start_date": "2023-03-22"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ratuszgownegomiasta",
+  "n": "Ratusz Głównego Miasta",
+  "a": "",
+  "pc": "",
+  "lat": 54.34879,
+  "lng": 18.65266,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Ratusz Głównego Miasta Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2983787901",
+   "raw": {
+    "name": "Ratusz Głównego Miasta",
+    "name:es": "Ayuntamiento de la ciudad principal",
+    "name:ja": "市庁舎グダンスク歴史博物館",
+    "tourism": "viewpoint",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zimowypunktwidokowy",
+  "n": "Zimowy punkt widokowy",
+  "a": "",
+  "pc": "",
+  "lat": 54.39928,
+  "lng": 18.55429,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Zimowy punkt widokowy Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3105950502",
+   "raw": {
+    "name": "Zimowy punkt widokowy",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pamiecibyegocmentarzaewa",
+  "n": "Pamięci byłego cmentarza ewangelickiego na Stogach",
+  "a": "",
+  "pc": "",
+  "lat": 54.36404,
+  "lng": 18.7165,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pamięci byłego cmentarza ewangelickiego na Stogach Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3122975191",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Teren byłego cmentarza ewangelickiego p.w. Chrystusa Króla na Stogach czynnego w latach ok. 1880-1946",
+    "material": "granite",
+    "memorial": "stele",
+    "name": "Pamięci byłego cmentarza ewangelickiego na Stogach",
+    "start_date": "2009"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "staraodowniadzikow",
+  "n": "Stara odłownia dzików",
+  "a": "",
+  "pc": "",
+  "lat": 54.38161,
+  "lng": 18.55734,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Stara odłownia dzików Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3136452158",
+   "raw": {
+    "historic": "ruins",
+    "name": "Stara odłownia dzików"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "arcoffreedom",
+  "n": "Arc of Freedom",
+  "a": "",
+  "pc": "",
+  "lat": 54.41296,
+  "lng": 18.60323,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Arc of Freedom Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3161022256",
+   "raw": {
+    "artist_name": "Javier Noe Alvarez Godoy",
+    "artwork_type": "sculpture",
+    "colour": "white",
+    "description": "Biała rzeźba o kształcie półkolistym, luźno nawiązująca do łuków triumfalnych, z dodatkowym elementem w kształcie rynny przebiegającym pod łukiem.",
+    "name": "Arc of Freedom",
+    "name:pl": "Łuk Wolności",
+    "operator": "Fundacja Wspólnota Gdańska",
+    "start_date": "2011-06-04",
+    "tourism": "artwork",
+    "url": "https://gaps.gda.pl/obiekt/arc-of-freedom/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "youcanttakemeimfree",
+  "n": "You Can’t Take Me I’m Free",
+  "a": "",
+  "pc": "",
+  "lat": 54.4147,
+  "lng": 18.60767,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "You Can’t Take Me I’m Free Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3161022258",
+   "raw": {
+    "artist_name": "Majid Haghighi",
+    "artwork_type": "installation",
+    "colour": "blue;purple;green;yellow;orange;pink",
+    "description": "Tęczowa piramida z powykrzywianych, metalowych krzeseł i chmur.",
+    "material": "metal",
+    "name": "You Can’t Take Me I’m Free",
+    "operator": "Fundacja Wspólnota Gdańska",
+    "start_date": "2013-07-06",
+    "tourism": "artwork",
+    "url": "https://gaps.gda.pl/obiekt/you-cant-take-me-im-free/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "matce",
+  "n": "Matce",
+  "a": "",
+  "pc": "",
+  "lat": 54.41379,
+  "lng": 18.55912,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Matce Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3161500825",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Matce",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikbksmarianagoreckie",
+  "n": "Pomnik bł. ks. Mariana Góreckiego",
+  "a": "",
+  "pc": "",
+  "lat": 54.39883,
+  "lng": 18.66895,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik bł. ks. Mariana Góreckiego Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3213349360",
+   "raw": {
+    "artist_name": "Wawrzyniec Samp",
+    "colour": "brown;red",
+    "description": "Brązowa figura księdza w szatach liturgicznych, stojąca na postumencie z rudego granitu.",
+    "direction": "nnw",
+    "height": "3.24",
+    "historic": "memorial",
+    "inscription": "Bł. Marian Górecki kapłan męczennik 1903–1940",
+    "material": "bronze;granite",
+    "memorial": "statue",
+    "name": "Pomnik bł. ks. Mariana Góreckiego",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "2002-02-23",
+    "subject": "Marian Górecki",
+    "url": "https://gaps.gda.pl/obiekt/pomnik-bl-ks-mariana-goreckiego/",
+    "website": "https://gzdiz.gda.pl/mapa/pomnik-bl-ks-mariana-goreckiego,o,25"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "popiersiejanapawaii",
+  "n": "Popiersie Jana Pawła II",
+  "a": "",
+  "pc": "",
+  "lat": 54.40167,
+  "lng": 18.6717,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Popiersie Jana Pawła II Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3213350261",
+   "raw": {
+    "description": "Metalowe popiersie papieża na granitowym postumencie z motywem paliusza.",
+    "historic": "memorial",
+    "inscription": "Jan Paweł II",
+    "material": "metal;granite",
+    "memorial": "bust",
+    "name": "Popiersie Jana Pawła II",
+    "operator": "Parafia rzymskokatolicka pw. św. Jadwigi Śląskiej",
+    "subject": "Jan Paweł II",
+    "subject:wikidata": "Q989",
+    "url": "https://gaps.gda.pl/obiekt/1369-2/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ksjangustkowicz",
+  "n": "Ks. Jan Gustkowicz",
+  "a": "",
+  "pc": "",
+  "lat": 54.40081,
+  "lng": 18.66426,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Ks. Jan Gustkowicz Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3213380663",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Ks. Jan Gustkowicz"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tablicajanakanapariusza",
+  "n": "Tablica Jana Kanapariusza",
+  "a": "",
+  "pc": "",
+  "lat": 54.40964,
+  "lng": 18.55847,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Tablica Jana Kanapariusza Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3222365470",
+   "raw": {
+    "artist_name": "Ewa Koprowska",
+    "historic": "memorial",
+    "inscription": "Jan Kanapariusz żywociopisarz św. Wojciecha jako pierwszy w historii wymienił nazwę miasta Gdańska: gyddanyzc (999r.)",
+    "material": "bronze",
+    "memorial": "plaque",
+    "name": "Tablica Jana Kanapariusza",
+    "source": "http://www.encyklopediagdanska.pl/index.php?title=IOANNES_CANAPARIUS",
+    "start_date": "2009-12-23",
+    "website": "https://gzdiz.gda.pl/mapa/tablica-jana-kanapariusza,o,78"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kapliczkanajswietszegose",
+  "n": "Kapliczka Najświętszego Serca Pana Jezusa",
+  "a": "",
+  "pc": "",
+  "lat": 54.41639,
+  "lng": 18.55891,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Kapliczka Najświętszego Serca Pana Jezusa Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3222417702",
+   "raw": {
+    "building": "wayside_shrine",
+    "denomination": "roman_catholic",
+    "historic": "wayside_shrine",
+    "name": "Kapliczka Najświętszego Serca Pana Jezusa",
+    "religion": "christian",
+    "start_date": "1898-06-11"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kapliczkamaryjna",
+  "n": "Kapliczka maryjna",
+  "a": "",
+  "pc": "",
+  "lat": 54.41749,
+  "lng": 18.55593,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Kapliczka maryjna Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3222436401",
+   "raw": {
+    "denomination": "roman_catholic",
+    "historic": "wayside_shrine",
+    "name": "Kapliczka maryjna",
+    "religion": "christian"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikjanapawaiiironalda",
+  "n": "Pomnik Jana Pawła II i Ronalda Reagana",
+  "a": "",
+  "pc": "",
+  "lat": 54.41668,
+  "lng": 18.60453,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Jana Pawła II i Ronalda Reagana Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3278943960",
+   "raw": {
+    "artist_name": "Stanisław Milewski;Bogusław Szycik",
+    "colour": "brown",
+    "description": "Brązowe posągi Jana Pawła II i Ronalda Reagana idących razem, wzorowane na zdjęciu z 1987 r.",
+    "height": "2.2",
+    "historic": "memorial",
+    "inscription": "Wdzięczni za niepodległość Polacy",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Pomnik Jana Pawła II i Ronalda Reagana",
+    "operator": "Gdański Zarząd Dróg i Zieleni",
+    "start_date": "2012-07-14",
+    "subject": "Jan Paweł II;Ronald Reagan",
+    "subject:wikidata": "Q989",
+    "url": "https://gaps.gda.pl/obiekt/pomnik-jana-pawla-ii-i-ronalda-reagana/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nabrzezetadeuszaziokowsk",
+  "n": "Nabrzeże Tadeusza Ziółkowskiego",
+  "a": "",
+  "pc": "",
+  "lat": 54.40729,
+  "lng": 18.66107,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Nabrzeże Tadeusza Ziółkowskiego Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3440600411",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "Nabrzeże Tadeusza Ziółkowskiego"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gdanszczanierocznik2013",
+  "n": "Gdańszczanie Rocznik 2013",
+  "a": "",
+  "pc": "",
+  "lat": 54.40962,
+  "lng": 18.55388,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Gdańszczanie Rocznik 2013 Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3489305349",
+   "raw": {
+    "historic": "stone",
+    "inscription": "W 2013 roku w Gdańsku urodziło się 4494 dzieci. Najpopularniejsze imiona to Julia i Jakub",
+    "name": "Gdańszczanie Rocznik 2013"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "krzyzjasienski",
+  "n": "Krzyż Jasieński",
+  "a": "",
+  "pc": "",
+  "lat": 54.34202,
+  "lng": 18.55219,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Krzyż Jasieński Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3716001896",
+   "raw": {
+    "denomination": "roman_catholic",
+    "direction": "20",
+    "historic": "wayside_cross",
+    "material": "steel",
+    "name": "Krzyż Jasieński",
+    "religion": "christian",
+    "start_date": "2002"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dworkrzyzowniki",
+  "n": "Dwór Krzyżowniki",
+  "a": "",
+  "pc": "",
+  "lat": 54.34651,
+  "lng": 18.59871,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Dwór Krzyżowniki Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3716172964",
+   "raw": {
+    "historic": "building",
+    "name": "Dwór Krzyżowniki",
+    "tourism": "attraction"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "grobwojdakowskich",
+  "n": "Grób Wojdakowskich",
+  "a": "",
+  "pc": "",
+  "lat": 54.37438,
+  "lng": 18.58034,
+  "c": "death",
+  "s": "historic tomb",
+  "q": "Grób Wojdakowskich Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3732311125",
+   "raw": {
+    "addr:street": "Srebrniki",
+    "cemetery": "grave",
+    "denomination": "roman_catholic",
+    "historic": "tomb",
+    "name": "Grób Wojdakowskich",
+    "religion": "christian",
+    "sector:name": "VII/POL I",
+    "sector:place": "26",
+    "sector:row": "3"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kaplicacmentarna",
+  "n": "Kaplica cmentarna",
+  "a": "",
+  "pc": "",
+  "lat": 54.37554,
+  "lng": 18.57946,
+  "c": "faith",
+  "s": "church",
+  "q": "Kaplica cmentarna Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3732311325",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "Kaplica cmentarna",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomniktatararp",
+  "n": "Pomnik Tatara RP",
+  "a": "",
+  "pc": "",
+  "lat": 54.32226,
+  "lng": 18.62705,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Tatara RP Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3740576617",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Z buńczukiem za Polskę",
+    "memorial": "statue",
+    "name": "Pomnik Tatara RP",
+    "start_date": "2010"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikdanutysiedzikownyi",
+  "n": "Pomnik Danuty Siedzikówny \"Inki\"",
+  "a": "",
+  "pc": "",
+  "lat": 54.32345,
+  "lng": 18.63217,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Pomnik Danuty Siedzikówny \"Inki\" Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3752783744",
+   "raw": {
+    "artist_name": "Andrzej Renes",
+    "artwork_type": "sculpture",
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Pomnik Danuty Siedzikówny \"Inki\"",
+    "subject:wikidata": "Q45379",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tramwajkonstal105na",
+  "n": "Tramwaj Konstal 105Na",
+  "a": "",
+  "pc": "",
+  "lat": 54.34037,
+  "lng": 18.65712,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Tramwaj Konstal 105Na Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3753423761",
+   "raw": {
+    "description": "Nr taborowy 1241",
+    "historic": "locomotive",
+    "name": "Tramwaj Konstal 105Na",
+    "tourism": "attraction"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rozpakowanie",
+  "n": "Rozpakowanie",
+  "a": "",
+  "pc": "",
+  "lat": 54.41264,
+  "lng": 18.60605,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Rozpakowanie Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4349868814",
+   "raw": {
+    "artist_name": "Jan Tutaj",
+    "artwork_subject": "abstract",
+    "artwork_type": "installation",
+    "colour": "brown",
+    "description": "Wielkowymiarowa instalacja ze stali pokrytej rdzą. Ma formę sześcianu o częściowo rozwartych na boki ścianach, posadowionego pod kątem. Całość przywołuje na myśl otwierany pakunek.",
+    "height": "3",
+    "length": "10",
+    "material": "steel",
+    "name": "Rozpakowanie",
+    "operator": "Fundacja Wspólnota Gdańska",
+    "start_date": "2013",
+    "tourism": "artwork",
+    "url": "https://gaps.gda.pl/obiekt/rozpakowanie/",
+    "width": "8"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tajnejawne",
+  "n": "Tajne/Jawne",
+  "a": "",
+  "pc": "",
+  "lat": 54.41544,
+  "lng": 18.60153,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Tajne/Jawne Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4349868815",
+   "raw": {
+    "artist_name": "Wojciech Gołębiowski;Jerzy Lipczyński",
+    "artwork_type": "sculpture",
+    "colour": "brown",
+    "description": "Jasnobrązowa rzeźba ze stali w formie przeskalowanej pieczęci urzędowej na poduszce z tuszem.",
+    "height": "2.7",
+    "inscription": "Taj i Jaw;Nie",
+    "length": "4",
+    "material": "steel",
+    "name": "Tajne/Jawne",
+    "operator": "Fundacja Wspólnota Gdańska",
+    "start_date": "2013-07-06",
+    "tourism": "artwork",
+    "url": "https://gaps.gda.pl/obiekt/tajne-jawne/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pracowniazegarowwiezowyc",
+  "n": "Pracownia Zegarów Wieżowych",
+  "a": "",
+  "pc": "",
+  "lat": 54.35395,
+  "lng": 18.65093,
+  "c": "museum",
+  "s": "museum",
+  "q": "Pracownia Zegarów Wieżowych Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4373274800",
+   "raw": {
+    "description": "Oddział czynny sezonowo",
+    "fee": "yes",
+    "name": "Pracownia Zegarów Wieżowych",
+    "official_name": "Muzeum Nauki Gdańskiej Pracownia Zegarów Wieżowych",
+    "old_name": "Muzeum Zegarów Wieżowych",
+    "opening_hours": "Mo-Su 11:00-19:00",
+    "operator": "Muzeum Historyczne Miasta Gdańska",
+    "start_date": "1996",
+    "tourism": "museum",
+    "website": "http://www.mhmg.pl/oddzial/3/muzeum-nauki-gdanskiej",
+    "wheelchair": "no",
+    "wikidata": "Q11787268",
+    "wikipedia": "pl:Muzeum Zegarów Wieżowych"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nigdywiecejwojny",
+  "n": "NIGDY WIĘCEJ WOJNY",
+  "a": "",
+  "pc": "",
+  "lat": 54.4062,
+  "lng": 18.66904,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "NIGDY WIĘCEJ WOJNY Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4374385452",
+   "raw": {
+    "historic": "memorial",
+    "material": "metal",
+    "memorial": "war_memorial",
+    "name": "NIGDY WIĘCEJ WOJNY",
+    "start_date": "1966"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "swwodzimierzwielki",
+  "n": "Św. Włodzimierz Wielki",
+  "a": "",
+  "pc": "",
+  "lat": 54.35688,
+  "lng": 18.64997,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Św. Włodzimierz Wielki Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4391463311",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Św. Włodzimierz Wielki",
+    "name:uk": "Св. Володимир Великий",
+    "start_date": "2015-05-23"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hevelianum",
+  "n": "Hevelianum",
+  "a": "",
+  "pc": "",
+  "lat": 54.35641,
+  "lng": 18.63885,
+  "c": "museum",
+  "s": "museum",
+  "q": "Hevelianum Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4394419589",
+   "raw": {
+    "alt_name": "Centrum Hevelianum",
+    "contact:phone": "+48 58 7423352",
+    "contact:website": "http://www.hevelianum.pl",
+    "fee": "yes",
+    "name": "Hevelianum",
+    "name:pl": "Hevelianum",
+    "old_name": "Centrum Hewelianum",
+    "opening_hours": "Tu-Fr 08:00-16:00; Sa-Su 10:00-18:00",
+    "tourism": "museum",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kamiennasluza",
+  "n": "Kamienna Śluza",
+  "a": "",
+  "pc": "",
+  "lat": 54.33898,
+  "lng": 18.65196,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Kamienna Śluza Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4447984026",
+   "raw": {
+    "flood_date": "1829-04-11",
+    "flood_mark": "yes",
+    "historic": "memorial",
+    "inscription": "Wasserstand den 11 April 1829",
+    "location": "on the wall",
+    "memorial:type": "flood_mark",
+    "name": "Kamienna Śluza",
+    "name:pl": "Kamienna Śluza",
+    "source": "http://www.trojmiasto.pl/wiadomosci/Wielka-powodz-z-1829-roku-w-Gdansku-n103675.html#",
+    "tourism": "attraction"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinema1",
+  "n": "Cinema1",
+  "a": "",
+  "pc": "",
+  "lat": 54.35179,
+  "lng": 18.59418,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinema1 Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4450623606",
+   "raw": {
+    "amenity": "cinema",
+    "level": "1",
+    "name": "Cinema1",
+    "screen": "6",
+    "website": "https://cinemaone.pl/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bramaswietojanska",
+  "n": "Brama Swietojanska",
+  "a": "",
+  "pc": "",
+  "lat": 54.35146,
+  "lng": 18.65782,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Brama Swietojanska Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4452074350",
+   "raw": {
+    "flood_date": "1829-04-11",
+    "flood_mark": "yes",
+    "historic": "memorial",
+    "location": "on the wall",
+    "memorial:type": "flood_mark",
+    "name": "Brama Swietojanska",
+    "name:be": "Брама Светаянска",
+    "name:en": "Brama Swietojanska",
+    "source": "http://www.wielkawoda.umk.pl/index.html",
+    "source_ref": "http://www.wielkawoda.umk.pl/czym_sa_znaki/prezentacja.pdf",
+    "tourism": "attraction"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "helios",
+  "n": "Helios",
+  "a": "",
+  "pc": "",
+  "lat": 54.38281,
+  "lng": 18.60565,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Helios Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4463516814",
+   "raw": {
+    "amenity": "cinema",
+    "brand": "Helios",
+    "brand:wikidata": "Q5705879",
+    "contact:website": "http://www.helios.pl/",
+    "level": "1",
+    "name": "Helios",
+    "opening_hours": "Mo-Su 10:00-22:30",
+    "source": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "byycmentarzkatolickiwema",
+  "n": "Były Cmentarz Katolicki w Emaus i Ewangelicki Cmentarz Zbawiciela",
+  "a": "",
+  "pc": "",
+  "lat": 54.34945,
+  "lng": 18.61048,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Były Cmentarz Katolicki w Emaus i Ewangelicki Cmentarz Zbawiciela Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4797831932",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Teren byłego cmentarza katolickego w Emaus oraz ewangelickiego cmentarza Zbawiciela po 1920 roku czynny w latach ok.1781-1956",
+    "material": "granite",
+    "memorial": "stele",
+    "name": "Były Cmentarz Katolicki w Emaus i Ewangelicki Cmentarz Zbawiciela",
+    "start_date": "2008"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikjanapawaii",
+  "n": "Pomnik Jana Pawła II",
+  "a": "",
+  "pc": "",
+  "lat": 54.40052,
+  "lng": 18.60885,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Jana Pawła II Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4904367565",
+   "raw": {
+    "artist_name": "Mariusz Kulpa",
+    "description": "Monumentalna rzeźba z fińskiego granitu przedstawiająca Jana Pawła II, upamiętniająca mszę z 1987 roku.",
+    "direction": "NW",
+    "height": "4.8",
+    "historic": "memorial",
+    "material": "granite",
+    "memorial": "statue",
+    "name": "Pomnik Jana Pawła II",
+    "operator": "Parafia pw. Opatrzności Bożej",
+    "start_date": "1999-06-04",
+    "subject": "Jan Paweł II",
+    "subject:wikidata": "Q989",
+    "url": "https://gaps.gda.pl/obiekt/pomnik-jana-pawla-ii/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "widokiiinadkaczymdokiem",
+  "n": "Widok III. Nad Kaczym Dołkiem",
+  "a": "",
+  "pc": "",
+  "lat": 54.37222,
+  "lng": 18.60333,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Widok III. Nad Kaczym Dołkiem Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4920942756",
+   "raw": {
+    "description": "Punkt widokowy z cyklu „Spojrzenie na Gdańsk”",
+    "name": "Widok III. Nad Kaczym Dołkiem",
+    "ref": "Widok III",
+    "tourism": "viewpoint",
+    "website": "https://gzz.gda.pl/mapa?widoki"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "masztzorpbolko",
+  "n": "Maszt z ORP \"Bolko\"",
+  "a": "",
+  "pc": "",
+  "lat": 54.35098,
+  "lng": 18.65954,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Maszt z ORP \"Bolko\" Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4924997988",
+   "raw": {
+    "historic": "technical_monument",
+    "man_made": "machine",
+    "name": "Maszt z ORP \"Bolko\"",
+    "opening_hours": "24/7",
+    "tourism": "attraction",
+    "wheelchair": "yes",
+    "wikimedia_commons": "File:Gdańsk Bolko mast.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kaplicaprzyszpitalna",
+  "n": "Kaplica przyszpitalna",
+  "a": "",
+  "pc": "",
+  "lat": 54.36517,
+  "lng": 18.62057,
+  "c": "faith",
+  "s": "church",
+  "q": "Kaplica przyszpitalna Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4943715264",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "Kaplica przyszpitalna",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "widokiipodlesnapolana",
+  "n": "Widok II. Podleśna Polana",
+  "a": "",
+  "pc": "",
+  "lat": 54.37272,
+  "lng": 18.58894,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Widok II. Podleśna Polana Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4958492958",
+   "raw": {
+    "description": "Punkt widokowy z cyklu „Spojrzenie na Gdańsk”",
+    "name": "Widok II. Podleśna Polana",
+    "ref": "Widok II",
+    "tourism": "viewpoint",
+    "website": "https://gzz.gda.pl/mapa?widoki"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zderzenie",
+  "n": "Zderzenie",
+  "a": "",
+  "pc": "",
+  "lat": 54.35483,
+  "lng": 18.6641,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Zderzenie Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4960386945",
+   "raw": {
+    "artist_name": "Damian Kucaba",
+    "artwork_type": "sculpture",
+    "name": "Zderzenie",
+    "tourism": "artwork",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "widokivwroniagorka",
+  "n": "Widok IV. Wronia Górka",
+  "a": "",
+  "pc": "",
+  "lat": 54.36182,
+  "lng": 18.63217,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Widok IV. Wronia Górka Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4961525341",
+   "raw": {
+    "description": "Punkt widokowy z cyklu „Spojrzenie na Gdańsk”",
+    "name": "Widok IV. Wronia Górka",
+    "ref": "Widok IV",
+    "tourism": "viewpoint",
+    "website": "https://gzz.gda.pl/mapa?widoki"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "widokvspodslimaka",
+  "n": "Widok V. Spod Ślimaka",
+  "a": "",
+  "pc": "",
+  "lat": 54.36935,
+  "lng": 18.60392,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Widok V. Spod Ślimaka Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4961525342",
+   "raw": {
+    "alt_name": "Królewskie Wzgórze",
+    "description": "Punkt widokowy z cyklu „Spojrzenie na Gdańsk”",
+    "name": "Widok V. Spod Ślimaka",
+    "ref": "Widok V",
+    "tourism": "viewpoint",
+    "website": "https://gzz.gda.pl/mapa?widoki"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "widokidwori",
+  "n": "Widok I. Dwór I",
+  "a": "",
+  "pc": "",
+  "lat": 54.40414,
+  "lng": 18.55699,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Widok I. Dwór I Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4961525343",
+   "raw": {
+    "description": "Punkt widokowy z cyklu „Spojrzenie na Gdańsk”",
+    "name": "Widok I. Dwór I",
+    "ref": "Widok I",
+    "start_date": "2016-10-14",
+    "tourism": "viewpoint",
+    "website": "https://gzz.gda.pl/mapa?widoki",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tablicaupamietniajacazli",
+  "n": "Tablica upamiętniająca zlikwidowany Cmentarz Ewangelicki",
+  "a": "",
+  "pc": "",
+  "lat": 54.32197,
+  "lng": 18.63314,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Tablica upamiętniająca zlikwidowany Cmentarz Ewangelicki Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5048354423",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Teren byłego cmentarza ewangelickiego p.w. Św. Jerzego na Oruni czynnego w latach ok. 1550-1956",
+    "material": "granite",
+    "memorial": "stele",
+    "name": "Tablica upamiętniająca zlikwidowany Cmentarz Ewangelicki",
+    "start_date": "2009",
+    "wikidata": "Q8511948",
+    "wikipedia": "pl:Cmentarz na Oruni"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "piwnicaromanska",
+  "n": "Piwnica Romańska",
+  "a": "",
+  "pc": "",
+  "lat": 54.35249,
+  "lng": 18.65176,
+  "c": "museum",
+  "s": "museum",
+  "q": "Piwnica Romańska Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5127090489",
+   "raw": {
+    "addr:city": "Gdańsk",
+    "addr:housenumber": "1",
+    "addr:street": "Plac Dominikański",
+    "fee": "yes",
+    "level": "-1",
+    "museum": "archaeological",
+    "name": "Piwnica Romańska",
+    "name:de": "Romanischer Keller",
+    "name:en": "The Romanesque Cellar",
+    "name:pl": "Piwnica Romańska",
+    "operator": "Muzeum Archeologiczne w Gdańsku",
+    "operator:type": "public",
+    "ownership": "provincial",
+    "tourism": "museum",
+    "website": "https://archeologia.pl/oddzialy/piwnica-romanska",
+    "wikidata": "Q9305195",
+    "wikipedia": "pl:Refektarz klasztoru dominikanów w Gdańsku"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kinomuzeum",
+  "n": "Kino \"Muzeum\"",
+  "a": "",
+  "pc": "",
+  "lat": 54.35631,
+  "lng": 18.66047,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Kino \"Muzeum\" Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5316106794",
+   "raw": {
+    "amenity": "cinema",
+    "check_date": "2025-07-19",
+    "level": "-3",
+    "name": "Kino \"Muzeum\"",
+    "operator": "Muzeum II Wojny Światowej"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "flora",
+  "n": "Flora",
+  "a": "",
+  "pc": "",
+  "lat": 54.32238,
+  "lng": 18.62484,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Flora Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5316240843",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Flora",
+    "start_date": "2017",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dkfugmioscblondynki",
+  "n": "DKF UG Miłość Blondynki",
+  "a": "",
+  "pc": "",
+  "lat": 54.39748,
+  "lng": 18.57201,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "DKF UG Miłość Blondynki Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5530418796",
+   "raw": {
+    "addr:city": "Gdańsk",
+    "addr:housenumber": "55",
+    "addr:postcode": "80-308",
+    "addr:street": "Wita Stwosza",
+    "amenity": "cinema",
+    "brand": "Akademickie Centrum Kultury \"Alternator\"",
+    "contact:facebook": "https://www.facebook.com/dkfmiloscblondynki",
+    "description": "Dyskusyjny Klub Filmowy Uniwersytetu Gdańskiego MIŁOŚĆ BLONDYNKI",
+    "email": "dkf@ug.edu.pl",
+    "level": "0",
+    "name": "DKF UG Miłość Blondynki",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "payment:contactless": "yes",
+    "start_date": "1994",
+    "website": "https://ack.ug.edu.pl/strefa-filmu/dkf/",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikzonierzywykletych",
+  "n": "Pomnik Żołnierzy Wyklętych",
+  "a": "",
+  "pc": "",
+  "lat": 54.35981,
+  "lng": 18.64145,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Żołnierzy Wyklętych Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5607958882",
+   "raw": {
+    "artist_name": "Maciej Świeszewski",
+    "historic": "memorial",
+    "inscription": "Pamięci tych, którzy w latach 1944-1963 kontynuowali walkę o niepodległą Polskę w formacjach podziemia antykomunistycznego (...) Przyszłym pokoleniom, aby pamiętały że \"walka o wolność, gdy się raz zaczyna, z ojca krwią spada dziedzictwem na syna\"",
+    "memorial": "stone",
+    "name": "Pomnik Żołnierzy Wyklętych",
+    "start_date": "2018-08-04",
+    "subject:wikidata": "Q1320177"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "adammickiewicz",
+  "n": "Adam Mickiewicz",
+  "a": "",
+  "pc": "",
+  "lat": 54.34661,
+  "lng": 18.60824,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Adam Mickiewicz Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5619760077",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Adam Mickiewicz",
+    "start_date": "2015"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parknazboczu",
+  "n": "Park Na Zboczu",
+  "a": "",
+  "pc": "",
+  "lat": 54.34605,
+  "lng": 18.60595,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Park Na Zboczu Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5619760086",
+   "raw": {
+    "direction": "90-270",
+    "name": "Park Na Zboczu",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lewhewelion",
+  "n": "Lew Hewelion",
+  "a": "",
+  "pc": "",
+  "lat": 54.38952,
+  "lng": 18.64241,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Lew Hewelion Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5628763497",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Lew Hewelion",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "widokxnatalia",
+  "n": "Widok X. \"Natalia\"",
+  "a": "",
+  "pc": "",
+  "lat": 54.34739,
+  "lng": 18.63375,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Widok X. \"Natalia\" Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5641722940",
+   "raw": {
+    "alt_name": "Luneta Cafarellego",
+    "description": "Punkt widokowy z cyklu „Spojrzenie na Gdańsk”",
+    "direction": "N",
+    "name": "Widok X. \"Natalia\"",
+    "ref": "Widok X",
+    "start_date": "2018-09-15",
+    "tourism": "viewpoint",
+    "website": "https://gzz.gda.pl/mapa?widoki"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lwidwor",
+  "n": "Lwi Dwór",
+  "a": "",
+  "pc": "",
+  "lat": 54.30457,
+  "lng": 18.63076,
+  "c": "oddity",
+  "s": "house in Poland",
+  "q": "Lwi Dwór Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1169510",
+   "raw": "house in Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "danzigmatzkauconcentrati",
+  "n": "Danzig-Matzkau concentration camp",
+  "a": "",
+  "pc": "",
+  "lat": 54.3,
+  "lng": 18.6,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Danzig-Matzkau concentration camp Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2352954",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gdansklipcerailwaystatio",
+  "n": "Gdańsk Lipce railway station",
+  "a": "",
+  "pc": "",
+  "lat": 54.30167,
+  "lng": 18.63556,
+  "c": "oddity",
+  "s": "railway station in Gdańsk, Poland",
+  "q": "Gdańsk Lipce railway station Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2533354",
+   "raw": "railway station in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kowale",
+  "n": "Kowale",
+  "a": "",
+  "pc": "",
+  "lat": 54.30944,
+  "lng": 18.56167,
+  "c": "oddity",
+  "s": "village in powiat gdański, Pomeranian Voivodeship, Poland",
+  "q": "Kowale Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6434930",
+   "raw": "village in powiat gdański, Pomeranian Voivodeship, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pieckimigowo",
+  "n": "Piecki-Migowo",
+  "a": "",
+  "pc": "",
+  "lat": 54.3577,
+  "lng": 18.5801,
+  "c": "oddity",
+  "s": "city district of Gdańsk, Poland",
+  "q": "Piecki-Migowo Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7191438",
+   "raw": "city district of Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rebowo",
+  "n": "Rębowo",
+  "a": "",
+  "pc": "",
+  "lat": 54.3248,
+  "lng": 18.5501,
+  "c": "oddity",
+  "s": "settlement in Gdańsk, Poland",
+  "q": "Rębowo Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q9325905",
+   "raw": "settlement in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "szadoki",
+  "n": "Szadółki",
+  "a": "",
+  "pc": "",
+  "lat": 54.3281,
+  "lng": 18.5509,
+  "c": "oddity",
+  "s": "settlement in Gdańsk, Poland",
+  "q": "Szadółki Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q9350708",
+   "raw": "settlement in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "traktswietegowojciechast",
+  "n": "Trakt Świętego Wojciecha Street",
+  "a": "",
+  "pc": "",
+  "lat": 54.3098,
+  "lng": 18.63,
+  "c": "oddity",
+  "s": "street in Gdańsk, Poland",
+  "q": "Trakt Świętego Wojciecha Street Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q9360729",
+   "raw": "street in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ujesciskoostowice",
+  "n": "Ujeścisko-Łostowice",
+  "a": "",
+  "pc": "",
+  "lat": 54.3311,
+  "lng": 18.5847,
+  "c": "oddity",
+  "s": "city district of Gdańsk, Poland",
+  "q": "Ujeścisko-Łostowice Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q9364523",
+   "raw": "city district of Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "goscinnastreet",
+  "n": "Gościnna Street",
+  "a": "",
+  "pc": "",
+  "lat": 54.323,
+  "lng": 18.6324,
+  "c": "oddity",
+  "s": "street in Gdańsk, Poland",
+  "q": "Gościnna Street Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q9365194",
+   "raw": "street in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "swietokrzyskastreet",
+  "n": "Świętokrzyska Street",
+  "a": "",
+  "pc": "",
+  "lat": 54.3188,
+  "lng": 18.5909,
+  "c": "oddity",
+  "s": "street in Gdańsk, Poland",
+  "q": "Świętokrzyska Street Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q9366379",
+   "raw": "street in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zabornia",
+  "n": "Zabornia",
+  "a": "",
+  "pc": "",
+  "lat": 54.33944,
+  "lng": 18.57861,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Zabornia Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q9385378",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zakoniczyn",
+  "n": "Zakoniczyn",
+  "a": "",
+  "pc": "",
+  "lat": 54.31908,
+  "lng": 18.57667,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Zakoniczyn Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q9386086",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jasiengdansk",
+  "n": "Jasień (Gdańsk)",
+  "a": "",
+  "pc": "",
+  "lat": 54.3399,
+  "lng": 18.56,
+  "c": "oddity",
+  "s": "city district of Gdańsk, Poland",
+  "q": "Jasień (Gdańsk) Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q11721154",
+   "raw": "city district of Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "divinemercychurchingdans",
+  "n": "Divine Mercy church in Gdańsk",
+  "a": "",
+  "pc": "",
+  "lat": 54.35142,
+  "lng": 18.5763,
+  "c": "faith",
+  "s": "church building in Gdańsk, Poland",
+  "q": "Divine Mercy church in Gdańsk Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q11745303",
+   "raw": "church building in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mackowy",
+  "n": "Maćkowy",
+  "a": "",
+  "pc": "",
+  "lat": 54.3062,
+  "lng": 18.6198,
+  "c": "oddity",
+  "s": "settlement in Gdańsk, Poland",
+  "q": "Maćkowy Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q11772022",
+   "raw": "settlement in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "migowo",
+  "n": "Migowo",
+  "a": "",
+  "pc": "",
+  "lat": 54.3512,
+  "lng": 18.57446,
+  "c": "oddity",
+  "s": "housing estate in Gdańsk, Poland",
+  "q": "Migowo Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q11780525",
+   "raw": "housing estate in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "niegowo",
+  "n": "Niegowo",
+  "a": "",
+  "pc": "",
+  "lat": 54.30083,
+  "lng": 18.65511,
+  "c": "oddity",
+  "s": "section of Gdansk, Poland",
+  "q": "Niegowo Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q11791491",
+   "raw": "section of Gdansk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oruniapark",
+  "n": "Orunia Park",
+  "a": "",
+  "pc": "",
+  "lat": 54.3225,
+  "lng": 18.6275,
+  "c": "green",
+  "s": "park in Gdańsk, Poland",
+  "q": "Orunia Park Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q11811468",
+   "raw": "park in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gdanskjasienrailwaystati",
+  "n": "Gdańsk Jasień railway station",
+  "a": "",
+  "pc": "",
+  "lat": 54.3536,
+  "lng": 18.55,
+  "c": "oddity",
+  "s": "railway station in Gdańsk, Poland",
+  "q": "Gdańsk Jasień railway station Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16549050",
+   "raw": "railway station in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "migowskastruga",
+  "n": "Migowska Struga",
+  "a": "",
+  "pc": "",
+  "lat": 54.34997,
+  "lng": 18.56096,
+  "c": "oddity",
+  "s": "stream in Gdańsk Poland",
+  "q": "Migowska Struga Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16577164",
+   "raw": "stream in Gdańsk Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stawwrobla",
+  "n": "Staw Wróbla",
+  "a": "",
+  "pc": "",
+  "lat": 54.3518,
+  "lng": 18.5533,
+  "c": "oddity",
+  "s": "pond in Gdańsk, Poland",
+  "q": "Staw Wróbla Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16616547",
+   "raw": "pond in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stawpiekarniczy",
+  "n": "Staw Piekarniczy",
+  "a": "",
+  "pc": "",
+  "lat": 54.35261,
+  "lng": 18.58722,
+  "c": "oddity",
+  "s": "pond in Gdańsk, Poland",
+  "q": "Staw Piekarniczy Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q24942931",
+   "raw": "pond in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parkingdanskmigowo",
+  "n": "Park in Gdańsk Migowo",
+  "a": "",
+  "pc": "",
+  "lat": 54.35319,
+  "lng": 18.57456,
+  "c": "green",
+  "s": "park in Poland",
+  "q": "Park in Gdańsk Migowo Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30615417",
+   "raw": "park in Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gdanskwaterfoundation",
+  "n": "Gdansk Water Foundation",
+  "a": "",
+  "pc": "",
+  "lat": 54.30589,
+  "lng": 18.63139,
+  "c": "oddity",
+  "s": "nonprofit organization in Gdańsk, Poland",
+  "q": "Gdansk Water Foundation Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q59535619",
+   "raw": "nonprofit organization in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "potoksiedlecki",
+  "n": "Potok Siedlecki",
+  "a": "",
+  "pc": "",
+  "lat": 54.34986,
+  "lng": 18.55339,
+  "c": "oddity",
+  "s": "stream in Gdańsk, Poland",
+  "q": "Potok Siedlecki Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q63674465",
+   "raw": "stream in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "potokkozacki",
+  "n": "Potok Kozacki",
+  "a": "",
+  "pc": "",
+  "lat": 54.3212,
+  "lng": 18.56503,
+  "c": "oddity",
+  "s": "stream in Gdańsk, Poland",
+  "q": "Potok Kozacki Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q63675841",
+   "raw": "stream in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "potokszadulski",
+  "n": "Potok Szadulski",
+  "a": "",
+  "pc": "",
+  "lat": 54.32648,
+  "lng": 18.55024,
+  "c": "oddity",
+  "s": "stream in Gdańsk, Poland",
+  "q": "Potok Szadulski Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q63676193",
+   "raw": "stream in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "potokkowalski",
+  "n": "Potok Kowalski",
+  "a": "",
+  "pc": "",
+  "lat": 54.30705,
+  "lng": 18.57688,
+  "c": "oddity",
+  "s": "stream in Gdańsk, Poland",
+  "q": "Potok Kowalski Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q63676232",
+   "raw": "stream in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "potokmackowy",
+  "n": "Potok Maćkowy",
+  "a": "",
+  "pc": "",
+  "lat": 54.30542,
+  "lng": 18.59011,
+  "c": "oddity",
+  "s": "stream in Gdańsk, Poland",
+  "q": "Potok Maćkowy Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q63679569",
+   "raw": "stream in Gdańsk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mamasandpapashostel",
+  "n": "Mamas & Papas Hostel",
+  "a": "",
+  "pc": "",
+  "lat": 54.31985,
+  "lng": 18.62914,
+  "c": "oddity",
+  "s": "hostel in Gdansk",
+  "q": "Mamas & Papas Hostel Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111117945",
+   "raw": "hostel in Gdansk",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hotelzatoka",
+  "n": "Hotel Zatoka",
+  "a": "",
+  "pc": "",
+  "lat": 54.32135,
+  "lng": 18.63134,
+  "c": "oddity",
+  "s": "hotel in Gdansk, Poland",
+  "q": "Hotel Zatoka Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111859116",
+   "raw": "hotel in Gdansk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hotelczterybrzozygdanskk",
+  "n": "Hotel Cztery Brzozy Gdańsk Kowale",
+  "a": "",
+  "pc": "",
+  "lat": 54.30904,
+  "lng": 18.55992,
+  "c": "oddity",
+  "s": "hotel in Kowale, Poland",
+  "q": "Hotel Cztery Brzozy Gdańsk Kowale Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q112001137",
+   "raw": "hotel in Kowale, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "volter",
+  "n": "Volter",
+  "a": "",
+  "pc": "",
+  "lat": 54.33885,
+  "lng": 18.56174,
+  "c": "oddity",
+  "s": "hotel in Gdansk, Poland",
+  "q": "Volter Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q112001170",
+   "raw": "hotel in Gdansk, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "staraoruniareservoir",
+  "n": "Stara Orunia Reservoir",
+  "a": "",
+  "pc": "",
+  "lat": 54.31914,
+  "lng": 18.62432,
+  "c": "oddity",
+  "s": "historic drinking water reservoir in Gdansk, presently a tou",
+  "q": "Stara Orunia Reservoir Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q113509356",
+   "raw": "historic drinking water reservoir in Gdansk, presently a tourist attraction",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zakoniczynmanor",
+  "n": "Zakoniczyn manor",
+  "a": "",
+  "pc": "",
+  "lat": 54.32318,
+  "lng": 18.57925,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Zakoniczyn manor Gdansk",
+  "w": "",
+  "city": "gdansk",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q115547222",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

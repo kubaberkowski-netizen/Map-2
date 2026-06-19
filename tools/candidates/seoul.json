@@ -1,0 +1,5647 @@
+[
+ {
+  "id": "spot",
+  "n": "삼막사",
+  "a": "",
+  "pc": "",
+  "lat": 37.43457,
+  "lng": 126.93617,
+  "c": "faith",
+  "s": "temple",
+  "q": "삼막사 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/353186902",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "삼막사",
+    "name:en": "Sammak Temple",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot2",
+  "n": "관음사",
+  "a": "",
+  "pc": "",
+  "lat": 37.5643,
+  "lng": 126.90996,
+  "c": "faith",
+  "s": "temple",
+  "q": "관음사 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368631348",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "관음사",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot3",
+  "n": "국립서울과학관",
+  "a": "",
+  "pc": "",
+  "lat": 37.58246,
+  "lng": 126.99694,
+  "c": "museum",
+  "s": "museum",
+  "q": "국립서울과학관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368632876",
+   "raw": {
+    "name": "국립서울과학관",
+    "name:en": "National Children's Science Center",
+    "name:ja": "国立ソウル科学館",
+    "name:ko": "국립서울과학관",
+    "name:ko-Latn": "Gungnipseoulgwahakgwan",
+    "tourism": "museum",
+    "wikidata": "Q10855565"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot4",
+  "n": "잠실자동차극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.51732,
+  "lng": 127.0689,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "잠실자동차극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368633825",
+   "raw": {
+    "amenity": "cinema",
+    "drive_in": "yes",
+    "name": "잠실자동차극장",
+    "name:en": "Jamsil Drive-in Theater",
+    "name:ja": "蚕室ドライブインシアター",
+    "name:ko": "잠실자동차극장",
+    "name:ko-Latn": "Jamsil Jadongcha Geukjang",
+    "screen": "2",
+    "website": "http://jamsilmovie.com/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cgv",
+  "n": "CGV 목동",
+  "a": "",
+  "pc": "",
+  "lat": 37.52666,
+  "lng": 126.87487,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "CGV 목동 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368633864",
+   "raw": {
+    "amenity": "cinema",
+    "brand": "씨제이 씨지브이)㈜",
+    "brand:en": "CGV Cinema",
+    "brand:ko": "씨제이 씨지브이)㈜",
+    "brand:kr": "씨제이 씨지브이)㈜",
+    "brand:wikidata": "Q5012261",
+    "name": "CGV 목동",
+    "name:en": "CGV Mokdong",
+    "name:ko": "CGV 목동",
+    "name:ko-Latn": "CGV Mokdong",
+    "name:kr": "씨제이 씨지브이)㈜"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cgv2",
+  "n": "CGV",
+  "a": "",
+  "pc": "",
+  "lat": 37.50115,
+  "lng": 126.88266,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "CGV Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368633872",
+   "raw": {
+    "amenity": "cinema",
+    "branch": "구로",
+    "brand": "씨제이 씨지브이)㈜",
+    "brand:en": "CGV Cinema",
+    "brand:ko": "씨제이 씨지브이)㈜",
+    "brand:wikidata": "Q5012261",
+    "name": "CGV",
+    "name:en": "CGV Guro",
+    "name:ja": "CGV 九老",
+    "name:ko": "CGV 구로"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot5",
+  "n": "롯데시네마극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.53278,
+  "lng": 126.95964,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "롯데시네마극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368633890",
+   "raw": {
+    "amenity": "cinema",
+    "level": "4",
+    "name": "롯데시네마극장",
+    "name:en": "Lotte Cinema",
+    "name:ja": "ロッテシネマ",
+    "name:ko": "랜드시네마극장",
+    "name:ko-Latn": "Raendeusinemageukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot6",
+  "n": "메가박스 상암",
+  "a": "",
+  "pc": "",
+  "lat": 37.56907,
+  "lng": 126.8982,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "메가박스 상암 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368633912",
+   "raw": {
+    "addr:city": "서울특별시",
+    "addr:district": "마포구",
+    "addr:housenumber": "240",
+    "addr:postcode": "03932",
+    "addr:street": "월드컵로",
+    "addr:subdistrict": "성산동",
+    "addr:unit": "월드컵주경기장 1층",
+    "amenity": "cinema",
+    "branch": "상암",
+    "name": "메가박스 상암",
+    "name:en": "MEGABOX Sangam",
+    "name:ja": "メガボックス 上岩",
+    "name:ko": "메가박스 상암",
+    "name:ko-Latn": "megabox Sangam"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot7",
+  "n": "상봉시네마",
+  "a": "",
+  "pc": "",
+  "lat": 37.59683,
+  "lng": 127.08899,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "상봉시네마 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368634119",
+   "raw": {
+    "amenity": "cinema",
+    "name": "상봉시네마",
+    "name:en": "Sangbong Cinema",
+    "name:ja": "上鳳シネマ",
+    "name:ko": "상봉시네마",
+    "name:ko-Latn": "Sangbongsinema"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot8",
+  "n": "메가박스",
+  "a": "",
+  "pc": "",
+  "lat": 37.4997,
+  "lng": 127.03474,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "메가박스 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368634331",
+   "raw": {
+    "amenity": "cinema",
+    "name": "메가박스",
+    "name:en": "Megabox",
+    "name:ja": "メガボックス",
+    "name:ko": "메가박스",
+    "name:ko-Latn": "Megabakseu"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot9",
+  "n": "시네마로",
+  "a": "",
+  "pc": "",
+  "lat": 37.56385,
+  "lng": 126.99159,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "시네마로 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368634360",
+   "raw": {
+    "amenity": "cinema",
+    "name": "시네마로",
+    "name:en": "Cinema Ro",
+    "name:ko": "시네마로",
+    "name:ko-Latn": "Sinemaro"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot10",
+  "n": "메가박스 센트럴",
+  "a": "",
+  "pc": "",
+  "lat": 37.50446,
+  "lng": 127.0041,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "메가박스 센트럴 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368634400",
+   "raw": {
+    "amenity": "cinema",
+    "name": "메가박스 센트럴",
+    "name:en": "Megabox Central",
+    "name:ja": "メガボックス セントラル",
+    "name:ko": "메가박스 센트럴",
+    "name:ko-Latn": "Ssineoseu Senteureol"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot11",
+  "n": "세종극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.43168,
+  "lng": 127.12951,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "세종극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368634476",
+   "raw": {
+    "amenity": "cinema",
+    "name": "세종극장",
+    "name:en": "Sejong Cinema",
+    "name:ja": "世宗劇場",
+    "name:ko": "세종극장",
+    "name:ko-Latn": "Sejonggeukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot12",
+  "n": "태양극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.48022,
+  "lng": 126.89126,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "태양극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368634630",
+   "raw": {
+    "amenity": "cinema",
+    "name": "태양극장",
+    "name:en": "Taeyang Cinema",
+    "name:ko": "태양극장",
+    "name:ko-Latn": "Taeyanggeukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot13",
+  "n": "꿈나무극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.54959,
+  "lng": 127.08231,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "꿈나무극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368634741",
+   "raw": {
+    "amenity": "cinema",
+    "name": "꿈나무극장",
+    "name:en": "Ggumnamu Cinema",
+    "name:ja": "夢の木劇場",
+    "name:ko": "꿈나무극장",
+    "name:ko-Latn": "Ggumnamugeukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot14",
+  "n": "일미일극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.51405,
+  "lng": 126.94509,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "일미일극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368634755",
+   "raw": {
+    "amenity": "cinema",
+    "name": "일미일극장",
+    "name:en": "Ilmiil Cinema",
+    "name:ko": "일미일극장",
+    "name:ko-Latn": "Ilmiilgeukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot15",
+  "n": "계산예술극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.53155,
+  "lng": 127.12888,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "계산예술극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368634808",
+   "raw": {
+    "amenity": "cinema",
+    "name": "계산예술극장",
+    "name:en": "Gyesan Art Cinema",
+    "name:ko": "계산예술극장",
+    "name:ko-Latn": "Gyesanyesulgeukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot16",
+  "n": "실버영화관",
+  "a": "",
+  "pc": "",
+  "lat": 37.57258,
+  "lng": 126.98774,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "실버영화관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368634836",
+   "raw": {
+    "amenity": "cinema",
+    "name": "실버영화관",
+    "name:en": "Silver Cinema",
+    "name:ko": "실버영화관",
+    "website": "http://bravosilver.org/",
+    "wikidata": "Q37437709"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot17",
+  "n": "롯데시네마 서울대입구",
+  "a": "",
+  "pc": "",
+  "lat": 37.48097,
+  "lng": 126.95211,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "롯데시네마 서울대입구 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368634883",
+   "raw": {
+    "amenity": "cinema",
+    "check_date": "2024-11-04",
+    "name": "롯데시네마 서울대입구",
+    "name:en": "Lotte Cinema Seoul Nat'l Univ.",
+    "name:ja": "ロッテシネマ ソウルデイック",
+    "name:ko": "롯데시네마 서울대입구",
+    "name:zh": "乐天影城 首尔大学",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dvd",
+  "n": "청DVD영화관",
+  "a": "",
+  "pc": "",
+  "lat": 37.58118,
+  "lng": 127.04608,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "청DVD영화관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635086",
+   "raw": {
+    "addr:city": "서울특별시",
+    "addr:district": "동대문구",
+    "addr:housenumber": "211-1",
+    "addr:postcode": "02490",
+    "addr:street": "왕산로",
+    "addr:subdistrict": "청량리동",
+    "amenity": "cinema",
+    "name": "청DVD영화관",
+    "name:en": "Cheong DVD Cinema",
+    "name:ko": "청DVD영화관",
+    "name:ko-Latn": "Cheong DVD Yeonghwagwan"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot18",
+  "n": "도봉소극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.67338,
+  "lng": 127.04374,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "도봉소극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635096",
+   "raw": {
+    "amenity": "cinema",
+    "name": "도봉소극장",
+    "name:en": "Dobongso Cinema",
+    "name:ko": "도봉소극장",
+    "name:ko-Latn": "Dobongsogeukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot19",
+  "n": "오픈시네마",
+  "a": "",
+  "pc": "",
+  "lat": 37.56047,
+  "lng": 126.97739,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "오픈시네마 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635110",
+   "raw": {
+    "amenity": "cinema",
+    "name": "오픈시네마",
+    "name:en": "Open Cinema",
+    "name:ja": "オープンシネマ",
+    "name:ko": "오픈시네마",
+    "name:ko-Latn": "Opeunsinema"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cgv3",
+  "n": "CGV 하계",
+  "a": "",
+  "pc": "",
+  "lat": 37.63884,
+  "lng": 127.06465,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "CGV 하계 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635119",
+   "raw": {
+    "amenity": "cinema",
+    "name": "CGV 하계",
+    "name:en": "CGV Haggye",
+    "name:ja": "CGV 下渓",
+    "name:ko": "CGV 하계"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot20",
+  "n": "메가박스 이수점",
+  "a": "",
+  "pc": "",
+  "lat": 37.48468,
+  "lng": 126.98168,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "메가박스 이수점 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635130",
+   "raw": {
+    "addr:city": "서울특별시",
+    "addr:district": "동작구",
+    "addr:housenumber": "89",
+    "addr:postcode": "07013",
+    "addr:street": "동작대로",
+    "addr:subdistrict": "사당동",
+    "amenity": "cinema",
+    "level": "7",
+    "name": "메가박스 이수점",
+    "name:en": "MEGABOX Isu",
+    "name:ja": "メガボックス 梨水店",
+    "name:ko": "메가박스 이수점",
+    "name:ko-Latn": "Megabox isujeom"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot21",
+  "n": "메가박스 씨티극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.50036,
+  "lng": 127.02692,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "메가박스 씨티극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635189",
+   "raw": {
+    "amenity": "cinema",
+    "name": "메가박스 씨티극장",
+    "name:en": "City Cinema",
+    "name:ko": "메가박스 씨티극장",
+    "name:ko-Latn": "Ssitigeukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot22",
+  "n": "암사어린이극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.56346,
+  "lng": 127.13331,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "암사어린이극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635201",
+   "raw": {
+    "amenity": "cinema",
+    "name": "암사어린이극장",
+    "name:en": "Amsa Children Cinema",
+    "name:ja": "岩寺こども劇場",
+    "name:ko": "암사어린이극장",
+    "name:ko-Latn": "Amsaeorinigeukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot23",
+  "n": "게릴라극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.58743,
+  "lng": 127.00035,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "게릴라극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635256",
+   "raw": {
+    "amenity": "cinema",
+    "name": "게릴라극장",
+    "name:en": "Gerilla Cinema",
+    "name:ja": "ゲリラ劇場",
+    "name:ko": "게릴라극장",
+    "name:ko-Latn": "Gerillageukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot24",
+  "n": "열린극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.58365,
+  "lng": 127.00031,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "열린극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635276",
+   "raw": {
+    "addr:city": "서울특별시",
+    "addr:district": "종로구",
+    "addr:housenumber": "258-12",
+    "addr:postcode": "03077",
+    "addr:street": "창경궁로",
+    "addr:subdistrict": "명륜2가",
+    "amenity": "cinema",
+    "name": "열린극장",
+    "name:en": "Yeollin Cinema",
+    "name:ko": "열린극장",
+    "name:ko-Latn": "Yeollingeukjang",
+    "phone": "+82 02-743-6474"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot25",
+  "n": "문화극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.53638,
+  "lng": 126.97694,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "문화극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635314",
+   "raw": {
+    "amenity": "cinema",
+    "name": "문화극장",
+    "name:en": "Cultural Theatre",
+    "name:ja": "文化劇場",
+    "name:ko": "문화극장",
+    "name:ko-Latn": "Munhwageukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot26",
+  "n": "라트어린이극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.48423,
+  "lng": 127.04227,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "라트어린이극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635339",
+   "raw": {
+    "amenity": "cinema",
+    "name": "라트어린이극장",
+    "name:en": "Rateu Children Cinema",
+    "name:ko": "라트어린이극장",
+    "name:ko-Latn": "Rateueorinigeukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot27",
+  "n": "북촌창우극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.57889,
+  "lng": 126.98888,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "북촌창우극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635346",
+   "raw": {
+    "addr:city": "서울특별시",
+    "addr:district": "종로구",
+    "addr:housenumber": "29-6",
+    "addr:postcode": "03058",
+    "addr:street": "창덕궁길",
+    "addr:subdistrict": "원서동",
+    "amenity": "cinema",
+    "name": "북촌창우극장",
+    "name:en": "Bukchonchangu Cinema",
+    "name:ko": "북촌창우극장",
+    "name:ko-Latn": "Bukchonchangugeukjang",
+    "phone": "+82 2 747 3809",
+    "website": "https://bcchangwoo.modoo.at/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot28",
+  "n": "발렌타인극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.58942,
+  "lng": 126.99818,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "발렌타인극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635350",
+   "raw": {
+    "amenity": "cinema",
+    "name": "발렌타인극장",
+    "name:en": "Vallentine Cinema",
+    "name:ja": "バレンタイン劇場",
+    "name:ko": "발렌타인극장",
+    "name:ko-Latn": "Ballentaingeukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot29",
+  "n": "극단실험극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.58859,
+  "lng": 126.99907,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "극단실험극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635355",
+   "raw": {
+    "amenity": "cinema",
+    "name": "극단실험극장",
+    "name:en": "Geukdansilheom Cinema",
+    "name:ja": "劇団実験劇場",
+    "name:ko": "극단실험극장",
+    "name:ko-Latn": "Geukdansilheomgeukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot30",
+  "n": "우석레퍼토리극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.58436,
+  "lng": 126.99721,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "우석레퍼토리극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635365",
+   "raw": {
+    "amenity": "cinema",
+    "name": "우석레퍼토리극장",
+    "name:en": "Useongnepeotori Cinema",
+    "name:ko": "우석레퍼토리극장",
+    "name:ko-Latn": "Useongnepeotorigeukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot31",
+  "n": "청운예술극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.57652,
+  "lng": 127.00254,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "청운예술극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635408",
+   "raw": {
+    "amenity": "cinema",
+    "name": "청운예술극장",
+    "name:en": "Chungun Art Theater",
+    "name:ko": "청운예술극장",
+    "phone": "+82 02-764-7606",
+    "website": "https://cwat.modoo.at/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot32",
+  "n": "청춘극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.53881,
+  "lng": 127.12693,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "청춘극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635427",
+   "raw": {
+    "amenity": "cinema",
+    "name": "청춘극장",
+    "name:en": "Cheongchun Cinema",
+    "name:ja": "青春劇場",
+    "name:ko": "청춘극장",
+    "name:ko-Latn": "Cheongchungeukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot34",
+  "n": "소나무극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.46214,
+  "lng": 126.88135,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "소나무극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635482",
+   "raw": {
+    "amenity": "cinema",
+    "name": "소나무극장",
+    "name:en": "Sonamu Cinema",
+    "name:ko": "소나무극장"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot36",
+  "n": "극단현대극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.58668,
+  "lng": 127.00179,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "극단현대극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635509",
+   "raw": {
+    "amenity": "cinema",
+    "name": "극단현대극장",
+    "name:en": "Geukdanhyeondae Cinema",
+    "name:ja": "劇団現代劇場",
+    "name:ko": "극단현대극장",
+    "name:ko-Latn": "Geukdanhyeondaegeukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot37",
+  "n": "청계극장",
+  "a": "",
+  "pc": "",
+  "lat": 37.57022,
+  "lng": 127.01164,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "청계극장 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635567",
+   "raw": {
+    "amenity": "cinema",
+    "name": "청계극장",
+    "name:en": "Cheonggye Cinema",
+    "name:ko": "청계극장",
+    "name:ko-Latn": "Cheonggyegeukjang"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot38",
+  "n": "풋볼 팬타지움",
+  "a": "",
+  "pc": "",
+  "lat": 37.5685,
+  "lng": 126.89634,
+  "c": "museum",
+  "s": "museum",
+  "q": "풋볼 팬타지움 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635618",
+   "raw": {
+    "alt_name:ko": "2002월드컵기념관",
+    "contact:instagram": "thekfa_faentasium",
+    "name": "풋볼 팬타지움",
+    "name:en": "FOOTBALL faentasium",
+    "name:ja": "フットボールファンタジウム",
+    "name:ko": "풋볼 팬타지움",
+    "opening_hours": "Tu-Su 10:00-18:00",
+    "tourism": "museum",
+    "website": "https://www.faentasium.com/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot39",
+  "n": "세종대왕기념관",
+  "a": "",
+  "pc": "",
+  "lat": 37.59006,
+  "lng": 127.04326,
+  "c": "museum",
+  "s": "museum",
+  "q": "세종대왕기념관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635689",
+   "raw": {
+    "historic": "monument",
+    "name": "세종대왕기념관",
+    "name:en": "Sejongdaewang Memorial Hall",
+    "name:ja": "世宗大王記念館",
+    "name:ko": "세종대왕기념관",
+    "name:ko-Latn": "Sejongdaewangginyeomgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot40",
+  "n": "안중근의사기념관",
+  "a": "",
+  "pc": "",
+  "lat": 37.55347,
+  "lng": 126.9804,
+  "c": "museum",
+  "s": "museum",
+  "q": "안중근의사기념관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635808",
+   "raw": {
+    "historic": "monument",
+    "name": "안중근의사기념관",
+    "name:en": "Patriot An Junggeun Memorial Hall",
+    "name:ja": "安重根義士記念館",
+    "name:ko": "안중근의사기념관",
+    "name:ko-Latn": "Anjunggeunuisaginyeomgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot41",
+  "n": "도산 안창호 기념관",
+  "a": "",
+  "pc": "",
+  "lat": 37.52392,
+  "lng": 127.03553,
+  "c": "museum",
+  "s": "museum",
+  "q": "도산 안창호 기념관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635852",
+   "raw": {
+    "historic": "monument",
+    "name": "도산 안창호 기념관",
+    "name:en": "Dosan Anchangho Memorial Hall",
+    "name:ko": "도산 안창호 기념관",
+    "name:ko-Latn": "Dosan Anchangho Ginyeomgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot42",
+  "n": "현암기념관",
+  "a": "",
+  "pc": "",
+  "lat": 37.56375,
+  "lng": 126.97486,
+  "c": "museum",
+  "s": "museum",
+  "q": "현암기념관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635872",
+   "raw": {
+    "historic": "monument",
+    "name": "현암기념관",
+    "name:en": "Hyeonam Memorial Hall",
+    "name:ko": "현암기념관",
+    "name:ko-Latn": "Hyeonamginyeomgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "100",
+  "n": "한국교회100주년기념관",
+  "a": "",
+  "pc": "",
+  "lat": 37.5744,
+  "lng": 127.00039,
+  "c": "museum",
+  "s": "museum",
+  "q": "한국교회100주년기념관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368635876",
+   "raw": {
+    "historic": "monument",
+    "name": "한국교회100주년기념관",
+    "name:en": "Korea Church 100 Junyeon Memorial Hall",
+    "name:ja": "韓国教会100周年記念館",
+    "name:ko": "한국교회100주년기념관",
+    "name:ko-Latn": "Hangukgyohoe baekJunyeonginyeomgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot43",
+  "n": "사비나 미술관",
+  "a": "",
+  "pc": "",
+  "lat": 37.57656,
+  "lng": 126.98459,
+  "c": "museum",
+  "s": "museum",
+  "q": "사비나 미술관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368725477",
+   "raw": {
+    "addr:city": "서울특별시",
+    "addr:district": "종로구",
+    "addr:housenumber": "49-4",
+    "addr:postcode": "03060",
+    "addr:street": "율곡로",
+    "addr:subdistrict": "안국동",
+    "amenity": "arts_centre",
+    "name": "사비나 미술관",
+    "name:en": "Savina Museum of Contemporary Art",
+    "name:ja": "サビナ美術館",
+    "name:ko-Latn": "Sabina Misulgwan",
+    "phone": "+82 02-736-4371",
+    "tourism": "museum",
+    "website": "http://www.savinamuseum.com/",
+    "wikidata": "Q7428260"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot44",
+  "n": "백악미술관",
+  "a": "",
+  "pc": "",
+  "lat": 37.57359,
+  "lng": 126.98404,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "백악미술관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368725602",
+   "raw": {
+    "addr:city": "서울특별시",
+    "addr:district": "종로구",
+    "addr:housenumber": "16",
+    "addr:postcode": "03145",
+    "addr:street": "인사동9길",
+    "addr:subdistrict": "관훈동",
+    "name": "백악미술관",
+    "name:en": "Baekak Art Museum",
+    "name:ko": "백악미술관",
+    "name:ko-Latn": "Baekangmisulgwan",
+    "phone": "+82 02-734-4205",
+    "tourism": "gallery",
+    "website": "www.baegak.co.kr",
+    "wheelchair": "limited"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot45",
+  "n": "아르코미술관",
+  "a": "",
+  "pc": "",
+  "lat": 37.58038,
+  "lng": 127.00325,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "아르코미술관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368726120",
+   "raw": {
+    "addr:city": "서울특별시",
+    "addr:district": "종로구",
+    "addr:housenumber": "3",
+    "addr:postcode": "03087",
+    "addr:street": "동숭길",
+    "addr:subdistrict": "동숭동",
+    "name": "아르코미술관",
+    "name:en": "Areuko Art Museum",
+    "name:ja": "アルコ美術館",
+    "name:ko": "아르코미술관",
+    "name:ko-Latn": "Areukomisulgwan",
+    "phone": "+82 02-760-4850",
+    "tourism": "gallery",
+    "website": "www.arkoartcenter.or.kr"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot47",
+  "n": "옹기민속박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.65454,
+  "lng": 127.01464,
+  "c": "museum",
+  "s": "museum",
+  "q": "옹기민속박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368733875",
+   "raw": {
+    "name": "옹기민속박물관",
+    "name:en": "Onggi Folk Museum",
+    "name:ja": "オンギ民俗博物館",
+    "name:ko": "옹기민속박물관",
+    "name:ko-Latn": "Onggiminsokbangmulgwan",
+    "tourism": "museum",
+    "wikidata": "Q7093835"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot48",
+  "n": "가회민화박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.58155,
+  "lng": 126.98524,
+  "c": "museum",
+  "s": "museum",
+  "q": "가회민화박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368733960",
+   "raw": {
+    "addr:city": "서울특별시",
+    "addr:district": "종로구",
+    "addr:housenumber": "52",
+    "addr:postcode": "03056",
+    "addr:street": "북촌로",
+    "addr:subdistrict": "가회동",
+    "name": "가회민화박물관",
+    "name:en": "Gahoe Museum",
+    "name:ja": "嘉会博物館",
+    "name:ko": "가회민화박물관",
+    "phone": "+82 2-741-0466",
+    "tourism": "museum",
+    "website": "https://www.gahoemuseum.org/new",
+    "wheelchair": "yes",
+    "wikidata": "Q5516945",
+    "wikipedia": "ko:가회민화박물관"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot49",
+  "n": "만천곤충박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.51911,
+  "lng": 126.90139,
+  "c": "museum",
+  "s": "museum",
+  "q": "만천곤충박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734122",
+   "raw": {
+    "name": "만천곤충박물관",
+    "name:en": "Mancheongonchung Museum",
+    "name:ja": "満天昆虫博物館",
+    "name:ko": "만천곤충박물관",
+    "name:ko-Latn": "Mancheongonchungbangmulgwan",
+    "tourism": "museum",
+    "website": "http://www.dryinsect.co.kr/m/index.html"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "presseum",
+  "n": "신문박물관 PRESSEUM",
+  "a": "",
+  "pc": "",
+  "lat": 37.56978,
+  "lng": 126.97761,
+  "c": "museum",
+  "s": "museum",
+  "q": "신문박물관 PRESSEUM Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734210",
+   "raw": {
+    "fee": "yes",
+    "name": "신문박물관 PRESSEUM",
+    "name:en": "PRESSEUM (Newspaper Museum)",
+    "name:ja": "新聞博物館",
+    "name:ko": "신문박물관",
+    "name:ko-Latn": "Sinmunbangmulgwan",
+    "name:zh": "报纸博物馆",
+    "opening_hours": "Mo-Fr 11:00-18:30; Sa,Su 00:00-18:30",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot50",
+  "n": "초전섬유 퀼트박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.55814,
+  "lng": 126.98416,
+  "c": "museum",
+  "s": "museum",
+  "q": "초전섬유 퀼트박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734273",
+   "raw": {
+    "name": "초전섬유 퀼트박물관",
+    "name:en": "Chojun textile quilt Museum",
+    "name:ja": "草田繊維･キルト博物館",
+    "name:ko": "초전섬유 퀼트박물관",
+    "name:ko-Latn": "Chojeonseomyu Kwilteubangmulgwan",
+    "tourism": "museum",
+    "website": "http://www.jculture.co.kr/museum/index1.htm",
+    "wikidata": "Q5104180"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot51",
+  "n": "평강성서유물박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.49212,
+  "lng": 126.84495,
+  "c": "museum",
+  "s": "museum",
+  "q": "평강성서유물박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734296",
+   "raw": {
+    "addr:city": "서울특별시",
+    "addr:country": "KR",
+    "addr:district": "구로구",
+    "addr:subdistrict": "오류동",
+    "name": "평강성서유물박물관",
+    "name:en": "The Abraham Park Kenneth Vine Collection",
+    "name:ja": "平康聖書遺物博物館",
+    "name:ko": "평강성서유물박물관",
+    "name:ko-Latn": "Pyeonggangseongseoyumulbangmulgwan",
+    "tourism": "museum",
+    "wikidata": "Q7712137"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot52",
+  "n": "육군박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.62284,
+  "lng": 127.10055,
+  "c": "museum",
+  "s": "museum",
+  "q": "육군박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734304",
+   "raw": {
+    "name": "육군박물관",
+    "name:en": "Yukgun Museum",
+    "name:ja": "陸軍博物館",
+    "name:ko": "육군박물관",
+    "name:ko-Latn": "Yukgunbangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot53",
+  "n": "생명과학체험박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.52392,
+  "lng": 126.87187,
+  "c": "museum",
+  "s": "museum",
+  "q": "생명과학체험박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734389",
+   "raw": {
+    "name": "생명과학체험박물관",
+    "name:en": "Saengmyeonggwahakcheheom Museum",
+    "name:ja": "生命科学体験博物館",
+    "name:ko": "생명과학체험박물관",
+    "name:ko-Latn": "Saengmyeonggwahakcheheombangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot54",
+  "n": "고려대학교박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.58926,
+  "lng": 127.03468,
+  "c": "museum",
+  "s": "museum",
+  "q": "고려대학교박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734553",
+   "raw": {
+    "name": "고려대학교박물관",
+    "name:en": "Korea University Museum",
+    "name:ja": "高麗大学校博物館",
+    "name:ko": "고려대학교박물관",
+    "name:ko-Latn": "Goryeodaehakgyobangmulgwan",
+    "tourism": "museum",
+    "wikidata": "Q6431745"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot55",
+  "n": "전기박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.48566,
+  "lng": 127.02795,
+  "c": "museum",
+  "s": "museum",
+  "q": "전기박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734562",
+   "raw": {
+    "name": "전기박물관",
+    "name:en": "Electricity Museum",
+    "name:ja": "電気博物館",
+    "name:ko": "전기박물관",
+    "name:ko-Latn": "Jeongibangmulgwan",
+    "tourism": "museum",
+    "website": "https://home.kepco.co.kr/kepco/PR/B/A/PRBAPP001/PRBAPP00101.do"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot56",
+  "n": "충현박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.43369,
+  "lng": 126.87842,
+  "c": "museum",
+  "s": "museum",
+  "q": "충현박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734611",
+   "raw": {
+    "addr:city": "광명시",
+    "addr:housenumber": "5-6",
+    "addr:province": "경기도",
+    "addr:street": "오리로347번길",
+    "name": "충현박물관",
+    "name:en": "Chunghyeon Museum",
+    "tourism": "museum",
+    "wikidata": "Q5116372"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot57",
+  "n": "울트라건축박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.56371,
+  "lng": 126.96453,
+  "c": "museum",
+  "s": "museum",
+  "q": "울트라건축박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734651",
+   "raw": {
+    "name": "울트라건축박물관",
+    "name:en": "Ulteurageonchuk Museum",
+    "name:ko": "울트라건축박물관",
+    "name:ko-Latn": "Ulteurageonchukbangmulgwan",
+    "name:zh": "超建筑博物馆",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot58",
+  "n": "약령시 한의약박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.5778,
+  "lng": 127.03759,
+  "c": "museum",
+  "s": "museum",
+  "q": "약령시 한의약박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734653",
+   "raw": {
+    "name": "약령시 한의약박물관",
+    "name:en": "Yangnyeongsi Hanuiyak Museum",
+    "name:ko": "약령시 한의약박물관",
+    "name:ko-Latn": "Yangnyeongsi Hanuiyakbangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot59",
+  "n": "이화여자대학교 자연사박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.5606,
+  "lng": 126.94824,
+  "c": "museum",
+  "s": "museum",
+  "q": "이화여자대학교 자연사박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734664",
+   "raw": {
+    "name": "이화여자대학교 자연사박물관",
+    "name:en": "EWha Womans University Museum",
+    "name:ja": "梨花女子大学自然史博物館",
+    "name:ko": "이화여자대학교 자연사박물관",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot60",
+  "n": "코리아나 화장박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.52404,
+  "lng": 127.03283,
+  "c": "museum",
+  "s": "museum",
+  "q": "코리아나 화장박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734686",
+   "raw": {
+    "name": "코리아나 화장박물관",
+    "name:en": "Koreana Hwajang Museum",
+    "name:ja": "コリアナ化粧博物館",
+    "name:ko": "코리아나 화장박물관",
+    "name:ko-Latn": "Koriana Hwajangbangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot61",
+  "n": "국민대학교박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.61278,
+  "lng": 126.99401,
+  "c": "museum",
+  "s": "museum",
+  "q": "국민대학교박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734730",
+   "raw": {
+    "name": "국민대학교박물관",
+    "name:en": "Kookmin University Museum",
+    "name:ja": "国民大学校博物館",
+    "name:ko": "국민대학교박물관",
+    "name:ko-Latn": "Gungmindaehakgyobangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot63",
+  "n": "숭실대학교 한국기독교박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.4956,
+  "lng": 126.95696,
+  "c": "museum",
+  "s": "museum",
+  "q": "숭실대학교 한국기독교박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734773",
+   "raw": {
+    "addr:city": "서울특별시",
+    "addr:country": "KR",
+    "addr:district": "동작구",
+    "addr:subdistrict": "상도동",
+    "name": "숭실대학교 한국기독교박물관",
+    "name:en": "Sungsil University Korea Gidokgyo Museum",
+    "name:ja": "崇実大学 韓国キリスト教博物館",
+    "name:ko": "숭실대학교 한국기독교박물관",
+    "name:ko-Latn": "Sungsildaehakgyo Hangukgidokgyobangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot64",
+  "n": "해양박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.52836,
+  "lng": 127.13503,
+  "c": "museum",
+  "s": "museum",
+  "q": "해양박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734845",
+   "raw": {
+    "name": "해양박물관",
+    "name:en": "Haeyang Museum",
+    "name:ko": "해양박물관",
+    "name:ko-Latn": "Haeyangbangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot65",
+  "n": "홍익대학교박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.55091,
+  "lng": 126.92601,
+  "c": "museum",
+  "s": "museum",
+  "q": "홍익대학교박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734933",
+   "raw": {
+    "name": "홍익대학교박물관",
+    "name:en": "Hongik University Museum",
+    "name:ja": "弘益大学校博物館",
+    "name:ko": "홍익대학교박물관",
+    "name:ko-Latn": "Hongikdaehakgyobangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot66",
+  "n": "세종대학교박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.55142,
+  "lng": 127.07531,
+  "c": "museum",
+  "s": "museum",
+  "q": "세종대학교박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734940",
+   "raw": {
+    "name": "세종대학교박물관",
+    "name:en": "Sejong University Museum",
+    "name:ja": "世宗大学校博物館",
+    "name:ko": "세종대학교박물관",
+    "name:ko-Latn": "Sejongdaehakgyobangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot67",
+  "n": "성신여자대학교 박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.59167,
+  "lng": 127.02129,
+  "c": "museum",
+  "s": "museum",
+  "q": "성신여자대학교 박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368734946",
+   "raw": {
+    "name": "성신여자대학교 박물관",
+    "name:en": "Seongsin Womans University Museum",
+    "name:ja": "誠信女子大学校 博物館",
+    "name:ko": "성신여자대학교 박물관",
+    "name:ko-Latn": "Seongsinyeojadaehakgyo Bangmulgwan",
+    "name:zh": "誠信女子大學博物館",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot68",
+  "n": "덕성여자대학교 박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.65099,
+  "lng": 127.01684,
+  "c": "museum",
+  "s": "museum",
+  "q": "덕성여자대학교 박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735018",
+   "raw": {
+    "name": "덕성여자대학교 박물관",
+    "name:en": "Deokseong Womans University Museum",
+    "name:ko": "덕성여자대학교 박물관",
+    "name:ko-Latn": "Deokseongyeojadaehakgyo Bangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot69",
+  "n": "경희대학교 중앙박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.59667,
+  "lng": 127.05315,
+  "c": "museum",
+  "s": "museum",
+  "q": "경희대학교 중앙박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735098",
+   "raw": {
+    "check_date": "2026-05-22",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "경희대학교 중앙박물관",
+    "name:en": "Kyung Hee University Central Museum",
+    "name:ja": "慶熙大学校 中央博物館",
+    "name:ko": "경희대학교 중앙박물관",
+    "name:ko-Latn": "Gyeonghuidaehakgyojungangbangmulgwan",
+    "operator:type": "university",
+    "tourism": "museum",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot70",
+  "n": "관세박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.51849,
+  "lng": 127.03457,
+  "c": "museum",
+  "s": "museum",
+  "q": "관세박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735153",
+   "raw": {
+    "name": "관세박물관",
+    "name:en": "Gwanse Museum",
+    "name:ko": "관세박물관",
+    "name:ko-Latn": "Gwansebangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot71",
+  "n": "화정박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.60471,
+  "lng": 126.96609,
+  "c": "museum",
+  "s": "museum",
+  "q": "화정박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735170",
+   "raw": {
+    "name": "화정박물관",
+    "name:en": "Hwajeong Museum",
+    "name:ko": "화정박물관",
+    "name:ko-Latn": "Hwajeongbangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot74",
+  "n": "민폐류박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.49728,
+  "lng": 127.04336,
+  "c": "museum",
+  "s": "museum",
+  "q": "민폐류박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735237",
+   "raw": {
+    "name": "민폐류박물관",
+    "name:en": "Minpyeryu Museum",
+    "name:ko": "민폐류박물관",
+    "name:ko-Latn": "Minpyeryubangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot75",
+  "n": "한의약박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.57611,
+  "lng": 127.03395,
+  "c": "museum",
+  "s": "museum",
+  "q": "한의약박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735248",
+   "raw": {
+    "name": "한의약박물관",
+    "name:en": "Hanuiyak Museum",
+    "name:ja": "韓医薬博物館",
+    "name:ko": "한의약박물관",
+    "name:ko-Latn": "Hanuiyakbangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot76",
+  "n": "한국자수박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.51542,
+  "lng": 127.03322,
+  "c": "museum",
+  "s": "museum",
+  "q": "한국자수박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735437",
+   "raw": {
+    "name": "한국자수박물관",
+    "name:en": "The Museum of Korean Embroidery",
+    "name:ja": "韓国刺繍博物館",
+    "name:ko": "한국자수박물관",
+    "name:ko-Latn": "Hangukjasubangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot78",
+  "n": "셀라뮤즈자기박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.60679,
+  "lng": 126.96329,
+  "c": "museum",
+  "s": "museum",
+  "q": "셀라뮤즈자기박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735654",
+   "raw": {
+    "name": "셀라뮤즈자기박물관",
+    "name:en": "Sellamyujeujagi Museum",
+    "name:ko": "셀라뮤즈자기박물관",
+    "name:ko-Latn": "Sellamyujeujagibangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot79",
+  "n": "경기여고내경운박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.48716,
+  "lng": 127.06542,
+  "c": "museum",
+  "s": "museum",
+  "q": "경기여고내경운박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735706",
+   "raw": {
+    "name": "경기여고내경운박물관",
+    "name:en": "Gyeonggiyeogonaegyeongun Museum",
+    "name:ko": "경기여고내경운박물관",
+    "name:ko-Latn": "Gyeonggiyeogonaegyeongunbangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot80",
+  "n": "자연생태박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.50483,
+  "lng": 126.81655,
+  "c": "museum",
+  "s": "museum",
+  "q": "자연생태박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735811",
+   "raw": {
+    "name": "자연생태박물관",
+    "name:en": "Nature Ecological Museum",
+    "name:ja": "自然生態博物館",
+    "name:ko": "자연생태박물관",
+    "name:ko-Latn": "Jayeonsaengtaebangmulgwan",
+    "name:zh": "自然生态博物馆",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot81",
+  "n": "떡 박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.57491,
+  "lng": 126.99058,
+  "c": "museum",
+  "s": "museum",
+  "q": "떡 박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735822",
+   "raw": {
+    "name": "떡 박물관",
+    "name:en": "Ddeok Museum",
+    "name:ja": "餅博物館",
+    "name:ko": "떡 박물관",
+    "name:ko-Latn": "Ddeok Bangmulgwan",
+    "name:zh": "年糕博物馆",
+    "tourism": "museum",
+    "wikidata": "Q625749"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot82",
+  "n": "짚풀생활사박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.58493,
+  "lng": 126.99962,
+  "c": "museum",
+  "s": "museum",
+  "q": "짚풀생활사박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735857",
+   "raw": {
+    "name": "짚풀생활사박물관",
+    "name:en": "Jippulsaenghwalsa Museum",
+    "name:ko": "짚풀생활사박물관",
+    "name:ko-Latn": "Jippulsaenghwalsabangmulgwan",
+    "tourism": "museum",
+    "wikidata": "Q6940908"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot83",
+  "n": "삼성출판박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.6087,
+  "lng": 126.95707,
+  "c": "museum",
+  "s": "museum",
+  "q": "삼성출판박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735868",
+   "raw": {
+    "name": "삼성출판박물관",
+    "name:en": "Samseong Museum of Publishing",
+    "name:ja": "三省出版博物館",
+    "name:ko": "삼성출판박물관",
+    "name:ko-Latn": "Samseongchulpanbangmulgwan",
+    "tourism": "museum",
+    "wikidata": "Q7410331"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot84",
+  "n": "박을복자수박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.65369,
+  "lng": 127.00856,
+  "c": "museum",
+  "s": "museum",
+  "q": "박을복자수박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735908",
+   "raw": {
+    "addr:city": "서울특별시",
+    "addr:country": "KR",
+    "addr:district": "강북구",
+    "addr:subdistrict": "우이동",
+    "name": "박을복자수박물관",
+    "name:en": "Bakeulbokjasu Museum",
+    "name:ko": "박을복자수박물관",
+    "name:ko-Latn": "Bakeulbokjasubangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "1002",
+  "n": "이화여자대학교 100주년기념박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.56035,
+  "lng": 126.94485,
+  "c": "museum",
+  "s": "museum",
+  "q": "이화여자대학교 100주년기념박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735921",
+   "raw": {
+    "name": "이화여자대학교 100주년기념박물관",
+    "name:en": "Ewha Womans University Museum",
+    "name:ja": "梨花女子大学校 100周年記念博物館",
+    "name:ko": "이화여자대학교 100주년기념박물관",
+    "name:ko-Latn": "ewhayeojadaehakgyo Bangmulgwan",
+    "name:zh": "梨花女子大学100周年纪念博物馆",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot85",
+  "n": "한국분재박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.46673,
+  "lng": 127.02076,
+  "c": "museum",
+  "s": "museum",
+  "q": "한국분재박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735943",
+   "raw": {
+    "name": "한국분재박물관",
+    "name:en": "Korea Bunjae Museum",
+    "name:ko": "한국분재박물관",
+    "name:ko-Latn": "Hangukbunjaebangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot86",
+  "n": "소품박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.50152,
+  "lng": 127.05851,
+  "c": "museum",
+  "s": "museum",
+  "q": "소품박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735947",
+   "raw": {
+    "name": "소품박물관",
+    "name:en": "Sopum Museum",
+    "name:ko": "소품박물관",
+    "name:ko-Latn": "Sopumbangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot87",
+  "n": "작은박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.55409,
+  "lng": 126.92573,
+  "c": "museum",
+  "s": "museum",
+  "q": "작은박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368735959",
+   "raw": {
+    "name": "작은박물관",
+    "name:en": "Little Museum",
+    "name:ko": "작은박물관",
+    "name:ko-Latn": "Jakeunbangmulgwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot88",
+  "n": "석가사",
+  "a": "",
+  "pc": "",
+  "lat": 37.57717,
+  "lng": 126.93361,
+  "c": "faith",
+  "s": "temple",
+  "q": "석가사 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368860524",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "석가사",
+    "name:en": "Seokgasa",
+    "name:ko": "석가사",
+    "name:ko-Latn": "Seokgasa",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot89",
+  "n": "혜원정사",
+  "a": "",
+  "pc": "",
+  "lat": 37.57775,
+  "lng": 126.88598,
+  "c": "faith",
+  "s": "temple",
+  "q": "혜원정사 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368860526",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "혜원정사",
+    "name:en": "Hyewonjeongsa",
+    "name:ko": "혜원정사",
+    "name:ko-Latn": "Hyewonjeongsa",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot90",
+  "n": "청봉사",
+  "a": "",
+  "pc": "",
+  "lat": 37.60496,
+  "lng": 126.94994,
+  "c": "faith",
+  "s": "temple",
+  "q": "청봉사 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368860533",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "청봉사",
+    "name:en": "Cheongbongsa",
+    "name:ko": "청봉사",
+    "name:ko-Latn": "Cheongbongsa",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot92",
+  "n": "연화정사",
+  "a": "",
+  "pc": "",
+  "lat": 37.6144,
+  "lng": 126.9793,
+  "c": "faith",
+  "s": "temple",
+  "q": "연화정사 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368860540",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "연화정사",
+    "name:en": "Yeonhwajeongsa",
+    "name:ko": "연화정사",
+    "name:ko-Latn": "Yeonhwajeongsa",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot93",
+  "n": "천보사",
+  "a": "",
+  "pc": "",
+  "lat": 37.65654,
+  "lng": 127.0958,
+  "c": "faith",
+  "s": "temple",
+  "q": "천보사 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368860755",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "천보사",
+    "name:en": "Cheonbosa",
+    "name:ko": "천보사",
+    "name:ko-Latn": "Cheonbosa",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot94",
+  "n": "광명사",
+  "a": "",
+  "pc": "",
+  "lat": 37.65246,
+  "lng": 127.14994,
+  "c": "faith",
+  "s": "temple",
+  "q": "광명사 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368860781",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "광명사",
+    "name:en": "Gwangmyeongsa",
+    "name:ko": "광명사",
+    "name:ko-Latn": "Gwangmyeongsa",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot95",
+  "n": "사찰해암사",
+  "a": "",
+  "pc": "",
+  "lat": 37.48278,
+  "lng": 126.85687,
+  "c": "faith",
+  "s": "temple",
+  "q": "사찰해암사 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368860806",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "사찰해암사",
+    "name:en": "Sachalhaeamsa",
+    "name:ko": "사찰해암사",
+    "name:ko-Latn": "Sachalhaeamsa",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot96",
+  "n": "공덕사",
+  "a": "",
+  "pc": "",
+  "lat": 37.60429,
+  "lng": 127.11935,
+  "c": "faith",
+  "s": "temple",
+  "q": "공덕사 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368860813",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "공덕사",
+    "name:en": "Gongdeoksa",
+    "name:ko": "공덕사",
+    "name:ko-Latn": "Gongdeoksa",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot97",
+  "n": "늘가까운절비룡사",
+  "a": "",
+  "pc": "",
+  "lat": 37.44782,
+  "lng": 126.81728,
+  "c": "faith",
+  "s": "temple",
+  "q": "늘가까운절비룡사 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368860837",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "늘가까운절비룡사",
+    "name:en": "Neulgaggaunjeolbiryongsa",
+    "name:ko": "늘가까운절비룡사",
+    "name:ko-Latn": "Neulgaggaunjeolbiryongsa",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot98",
+  "n": "길동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.54486,
+  "lng": 127.14848,
+  "c": "faith",
+  "s": "church",
+  "q": "길동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864480",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "길동성당",
+    "name:en": "Gildong Catholic Church",
+    "name:ko": "길동성당",
+    "name:ko-Latn": "Gildongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot99",
+  "n": "중계동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.64113,
+  "lng": 127.06001,
+  "c": "faith",
+  "s": "church",
+  "q": "중계동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864482",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "중계동성당",
+    "name:en": "Junggyedong Catholic Church",
+    "name:ko": "중계동성당",
+    "name:ko-Latn": "Junggyebondongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot100",
+  "n": "신도림동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.50696,
+  "lng": 126.88295,
+  "c": "faith",
+  "s": "church",
+  "q": "신도림동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864483",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "신도림동성당",
+    "name:en": "Sindorimdong Catholic Church",
+    "name:ko": "신도림동성당",
+    "name:ko-Latn": "Sindorimdongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot101",
+  "n": "천주교장안동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.57501,
+  "lng": 127.06931,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교장안동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864485",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "천주교장안동성당",
+    "name:en": "Jangandong Catholic Church",
+    "name:ko": "천주교장안동성당",
+    "name:ko-Latn": "Cheonjugyojangandongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot102",
+  "n": "서원동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.47846,
+  "lng": 126.93326,
+  "c": "faith",
+  "s": "church",
+  "q": "서원동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864489",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "서원동성당",
+    "name:en": "Seowon-dong Catholic Church",
+    "name:ko": "서원동성당",
+    "name:ko-Latn": "Seowondongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot103",
+  "n": "천주교양천성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.5156,
+  "lng": 126.86165,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교양천성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864494",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "천주교양천성당",
+    "name:en": "Yangcheon Catholic Church",
+    "name:ko": "천주교양천성당",
+    "name:ko-Latn": "Cheonjugyoyangcheonseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot104",
+  "n": "천주교상봉동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.59543,
+  "lng": 127.08791,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교상봉동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864496",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "천주교상봉동성당",
+    "name:en": "Sangbongdong Catholic Church",
+    "name:ko": "천주교상봉동성당",
+    "name:ko-Latn": "Cheonjugyosangbongdongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "1",
+  "n": "신월1동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.53544,
+  "lng": 126.83,
+  "c": "faith",
+  "s": "church",
+  "q": "신월1동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864503",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "신월1동성당",
+    "name:en": "Sinwol 1 Dong Catholic Church",
+    "name:ko": "신월1동성당",
+    "name:ko-Latn": "Sinwol 1 Dongseongdang",
+    "religion": "christian",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot105",
+  "n": "화곡본동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.53928,
+  "lng": 126.8435,
+  "c": "faith",
+  "s": "church",
+  "q": "화곡본동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864508",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "화곡본동성당",
+    "name:en": "Hwagokbondong Catholic Church",
+    "name:ko": "화곡본동성당",
+    "name:ko-Latn": "Hwagokbondongseongdang",
+    "religion": "christian",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "11",
+  "n": "봉천11동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.47248,
+  "lng": 126.96606,
+  "c": "faith",
+  "s": "church",
+  "q": "봉천11동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864509",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "봉천11동성당",
+    "name:en": "Bongcheon 11 Dong Catholic Church",
+    "name:ko": "봉천11동성당",
+    "name:ko-Latn": "Bongcheon 11 Dongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot106",
+  "n": "남대문시장성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.55934,
+  "lng": 126.97881,
+  "c": "faith",
+  "s": "church",
+  "q": "남대문시장성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864518",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "남대문시장성당",
+    "name:en": "Namdaemun Market Catholic Church",
+    "name:ja": "南大門市場聖堂",
+    "name:ko": "남대문시장성당",
+    "name:ko-Latn": "Namdaemunsijangseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot107",
+  "n": "천주교노원성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.66415,
+  "lng": 127.05371,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교노원성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864519",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "천주교노원성당",
+    "name:en": "Nowon Catholic Church",
+    "name:ko": "천주교노원성당",
+    "name:ko-Latn": "Cheonjugyonowonseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot108",
+  "n": "천주교목동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.52307,
+  "lng": 126.8696,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교목동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864522",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "천주교목동성당",
+    "name:en": "Mokdong Catholic Church",
+    "name:ko": "천주교목동성당",
+    "name:ko-Latn": "Cheonjugyomokdongseongdang",
+    "name:zh": "木洞天主教堂",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot109",
+  "n": "천주교신월동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.52268,
+  "lng": 126.83769,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교신월동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864524",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "천주교신월동성당",
+    "name:en": "Sinwoldong Catholic Church",
+    "name:ko": "천주교신월동성당",
+    "name:ko-Latn": "Cheonjugyosinwoldongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot110",
+  "n": "천주교대흥동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.54407,
+  "lng": 126.94058,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교대흥동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864525",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "천주교대흥동성당",
+    "name:en": "Daeheungdong Catholic Church",
+    "name:ko": "천주교대흥동성당",
+    "name:ko-Latn": "Cheonjugyodaeheungdongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot111",
+  "n": "천주교양재동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.48264,
+  "lng": 127.03647,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교양재동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864526",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "천주교양재동성당",
+    "name:en": "Yangjaedong Catholic Church",
+    "name:ko": "천주교양재동성당",
+    "name:ko-Latn": "Cheonjugyoyangjaedongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot112",
+  "n": "천주교답십리성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.56756,
+  "lng": 127.05635,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교답십리성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864527",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2023-12-02",
+    "name": "천주교답십리성당",
+    "name:en": "Dapsimni Catholic Church",
+    "name:ko": "천주교답십리성당",
+    "name:ko-Latn": "Cheonjugyodapsimniseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot113",
+  "n": "천주교행당동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.55557,
+  "lng": 127.0321,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교행당동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864528",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "천주교행당동성당",
+    "name:en": "Haengdangdong Catholic Church",
+    "name:ko": "천주교행당동성당",
+    "name:ko-Latn": "Cheonjugyohaengdangdongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot114",
+  "n": "천주교화양동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.54665,
+  "lng": 127.07415,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교화양동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864531",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "천주교화양동성당",
+    "name:en": "Hwayangdong Catholic Church",
+    "name:ko": "천주교화양동성당",
+    "name:ko-Latn": "Cheonjugyohwayangdongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot115",
+  "n": "천주교가양동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.56885,
+  "lng": 126.84964,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교가양동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864533",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "천주교가양동성당",
+    "name:en": "Gayangdong Catholic Church",
+    "name:ja": "天主教加陽洞聖堂",
+    "name:ko": "천주교가양동성당",
+    "name:ko-Latn": "Cheonjugyogayangdongseongdang",
+    "religion": "christian",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "2",
+  "n": "천주교논현2동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.52096,
+  "lng": 127.03828,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교논현2동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864537",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "천주교논현2동성당",
+    "name:en": "Nonhyeon 2 Dong Catholic Church",
+    "name:ko": "천주교논현2동성당",
+    "name:ko-Latn": "Cheonjugyononhyeon 2 Dongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "22",
+  "n": "천주교가락2동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.49787,
+  "lng": 127.12771,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교가락2동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864545",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "천주교가락2동성당",
+    "name:en": "Garak 2 Dong Catholic Church",
+    "name:ko": "천주교가락2동성당",
+    "name:ko-Latn": "Cheonjugyogarak 2 Dongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot116",
+  "n": "천주교서울보훈병원성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.53272,
+  "lng": 127.14493,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교서울보훈병원성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864552",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "천주교서울보훈병원성당",
+    "name:en": "Seoul Bohunbyeongwon Catholic Church",
+    "name:ko": "천주교서울보훈병원성당",
+    "name:ko-Latn": "Cheonjugyoseoulbohunbyeongwonseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot117",
+  "n": "천주교서울대교구유지재단태릉성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.62196,
+  "lng": 127.08282,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교서울대교구유지재단태릉성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864559",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "천주교서울대교구유지재단태릉성당",
+    "name:en": "Seoul Daegyoguyujijaedantaereung Catholic Church",
+    "name:ko": "천주교서울대교구유지재단태릉성당",
+    "name:ko-Latn": "Cheonjugyoseouldaegyoguyujijaedantaereungseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot118",
+  "n": "공군중앙성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.50865,
+  "lng": 126.92271,
+  "c": "faith",
+  "s": "church",
+  "q": "공군중앙성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864560",
+   "raw": {
+    "addr:city": "서울특별시",
+    "addr:district": "영등포구",
+    "addr:housenumber": "8",
+    "addr:postcode": "07359",
+    "addr:street": "여의대방로45길",
+    "addr:subdistrict": "신길동",
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "공군중앙성당",
+    "name:en": "Gonggunjungang Catholic Church",
+    "name:ko": "공군중앙성당",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot119",
+  "n": "(재단)천주교서울대교구유지재단명일동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.55605,
+  "lng": 127.14651,
+  "c": "faith",
+  "s": "church",
+  "q": "(재단)천주교서울대교구유지재단명일동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864573",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "(재단)천주교서울대교구유지재단명일동성당",
+    "name:en": "Seoul Daegyoguyujijaedanmyeongildong Catholic Church",
+    "name:ko": "(재단)천주교서울대교구유지재단명일동성당",
+    "name:ko-Latn": "( Jaedan ) Cheonjugyoseouldaegyoguyujijaedanmyeongildongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot120",
+  "n": "(재단)천주교서울대교구유지재단장한평성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.56615,
+  "lng": 127.06655,
+  "c": "faith",
+  "s": "church",
+  "q": "(재단)천주교서울대교구유지재단장한평성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864578",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "(재단)천주교서울대교구유지재단장한평성당",
+    "name:en": "Seoul Daegyoguyujijaedanjanghanpyeong Catholic Church",
+    "name:ko": "(재단)천주교서울대교구유지재단장한평성당",
+    "name:ko-Latn": "( Jaedan ) Cheonjugyoseouldaegyoguyujijaedanjanghanpyeongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot121",
+  "n": "낙성대동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.47604,
+  "lng": 126.9587,
+  "c": "faith",
+  "s": "church",
+  "q": "낙성대동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864591",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "낙성대동성당",
+    "name:en": "Nakseongdae-dong Catholic Church",
+    "name:ko": "낙성대동성당",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot122",
+  "n": "도서출판의성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.53093,
+  "lng": 126.85077,
+  "c": "faith",
+  "s": "church",
+  "q": "도서출판의성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368864598",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "도서출판의성당",
+    "name:en": "Doseochulpanui Catholic Church",
+    "name:ko": "도서출판의성당",
+    "name:ko-Latn": "Doseochulpanuiseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot123",
+  "n": "범박동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.47131,
+  "lng": 126.80962,
+  "c": "faith",
+  "s": "church",
+  "q": "범박동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368865088",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "범박동성당",
+    "name:en": "Beombakdong Catholic Church",
+    "name:ko": "범박동성당",
+    "name:ko-Latn": "Beombakdongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "23",
+  "n": "원종2동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.525,
+  "lng": 126.80221,
+  "c": "faith",
+  "s": "church",
+  "q": "원종2동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368865089",
+   "raw": {
+    "addr:city": "부천시",
+    "addr:district": "오정구",
+    "addr:floor": "3",
+    "addr:housenumber": "47",
+    "addr:province": "경기도",
+    "addr:street": "성오로124번길",
+    "addr:subdistrict": "원종동",
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "원종2동성당",
+    "name:en": "Wonjong 2 Dong Catholic Church",
+    "name:ko": "원종2동성당",
+    "name:ko-Latn": "Wonjong 2 Dongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot124",
+  "n": "천주교광명성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.47894,
+  "lng": 126.85246,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교광명성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368865111",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "천주교광명성당",
+    "name:en": "Gwangmyeong Catholic Church",
+    "name:ko": "천주교광명성당",
+    "name:ko-Latn": "Cheonjugyogwangmyeongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot125",
+  "n": "천주교철산성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.47253,
+  "lng": 126.86496,
+  "c": "faith",
+  "s": "church",
+  "q": "천주교철산성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368865118",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "천주교철산성당",
+    "name:en": "Cheolsan Catholic Church",
+    "name:ko": "천주교철산성당",
+    "name:ko-Latn": "Cheonjugyocheolsanseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot126",
+  "n": "구리성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.59665,
+  "lng": 127.1402,
+  "c": "faith",
+  "s": "church",
+  "q": "구리성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368865123",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "구리성당",
+    "name:en": "Guri Catholic Church",
+    "name:ko": "구리성당",
+    "name:ko-Latn": "Guriseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot127",
+  "n": "인창동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.6069,
+  "lng": 127.13771,
+  "c": "faith",
+  "s": "church",
+  "q": "인창동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368865128",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "인창동성당",
+    "name:en": "Inchangdong Catholic Church",
+    "name:ko": "인창동성당",
+    "name:ko-Latn": "Inchangdongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot128",
+  "n": "토평동성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.58644,
+  "lng": 127.1494,
+  "c": "faith",
+  "s": "church",
+  "q": "토평동성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368865131",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "토평동성당",
+    "name:en": "Topyeongdong Catholic Church",
+    "name:ko": "토평동성당",
+    "name:ko-Latn": "Topyeongdongseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot129",
+  "n": "서부성당",
+  "a": "",
+  "pc": "",
+  "lat": 37.51554,
+  "lng": 127.15459,
+  "c": "faith",
+  "s": "church",
+  "q": "서부성당 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368865141",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "서부성당",
+    "name:en": "Seobu Catholic Church",
+    "name:ko": "서부성당",
+    "name:ko-Latn": "Seobuseongdang",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot131",
+  "n": "서대문형무소역사관",
+  "a": "",
+  "pc": "",
+  "lat": 37.57454,
+  "lng": 126.95632,
+  "c": "museum",
+  "s": "museum",
+  "q": "서대문형무소역사관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368871454",
+   "raw": {
+    "addr:city": "서울특별시",
+    "addr:district": "서대문구",
+    "addr:housenumber": "251",
+    "addr:postcode": "03732",
+    "addr:street": "통일로",
+    "addr:subdistrict": "현저동",
+    "description:en": "Museum and former prison (1908-1897),",
+    "name": "서대문형무소역사관",
+    "name:en": "Seodaemun Prison History Hall",
+    "name:ja": "西大門刑務所歴史館",
+    "name:ko": "서대문형무소역사관",
+    "name:ko-Latn": "Seodaemunhyeongmusoyeoksagwan",
+    "opening_hours": "Tu-Su 09:00-18:00",
+    "phone": "+82 2 360 8590",
+    "tourism": "museum",
+    "website": "http://www.sscmc.or.kr/newhistory/index_culture.asp",
+    "wikidata": "Q488571",
+    "wikipedia": "en:Seodaemun Prison"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sgi",
+  "n": "한국SGI강남문화회관",
+  "a": "",
+  "pc": "",
+  "lat": 37.48368,
+  "lng": 127.04684,
+  "c": "faith",
+  "s": "temple",
+  "q": "한국SGI강남문화회관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368874334",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "한국SGI강남문화회관",
+    "name:en": "Korea SGI Gangnam Cultural Center",
+    "name:ko": "한국SGI강남문화회관",
+    "name:ko-Latn": "Hanguk SGI Gangnammunhwahoegwan",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sgi2",
+  "n": "한국SGI동서울문화회관",
+  "a": "",
+  "pc": "",
+  "lat": 37.59762,
+  "lng": 127.09511,
+  "c": "faith",
+  "s": "temple",
+  "q": "한국SGI동서울문화회관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368874398",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "한국SGI동서울문화회관",
+    "name:en": "Korea SGI Dong Seoul Cultural Center",
+    "name:ko": "한국SGI동서울문화회관",
+    "name:ko-Latn": "Hanguk SGI Dongseoulmunhwahoegwan",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot132",
+  "n": "비단금 서울전시관",
+  "a": "",
+  "pc": "",
+  "lat": 37.48781,
+  "lng": 126.91489,
+  "c": "museum",
+  "s": "museum",
+  "q": "비단금 서울전시관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368898142",
+   "raw": {
+    "name": "비단금 서울전시관",
+    "name:en": "Bidangeum Seoul Exhibition Hall",
+    "name:ko": "비단금 서울전시관",
+    "name:ko-Latn": "Bidangeum Seouljeonsigwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot133",
+  "n": "궁중유물전시관",
+  "a": "",
+  "pc": "",
+  "lat": 37.56574,
+  "lng": 126.97515,
+  "c": "museum",
+  "s": "museum",
+  "q": "궁중유물전시관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368898176",
+   "raw": {
+    "fee": "yes",
+    "fixme": "what is this and where is it?",
+    "name": "궁중유물전시관",
+    "name:ja": "宮中遺物展示館",
+    "name:ko": "궁중유물전시관",
+    "name:ko-Latn": "Gungjungyumuljeonsigwan",
+    "tourism": "museum",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot134",
+  "n": "암사동선사유적박물관",
+  "a": "",
+  "pc": "",
+  "lat": 37.56166,
+  "lng": 127.13118,
+  "c": "museum",
+  "s": "museum",
+  "q": "암사동선사유적박물관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368898195",
+   "raw": {
+    "addr:city": "서울특별시",
+    "addr:district": "강동구",
+    "addr:housenumber": "875",
+    "addr:postcode": "05239",
+    "addr:street": "올림픽로",
+    "addr:subdistrict": "암사동",
+    "name": "암사동선사유적박물관",
+    "name:en": "Amsa-dong Prehistoric Settlement Site Museum",
+    "name:ja": "岩寺洞先史遺跡博物館",
+    "name:ko": "암사동선사유적박물관",
+    "opening_hours": "Tu-Su 09:30-18:00",
+    "tourism": "museum",
+    "website": "sunsa.gangdong.go.kr"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot135",
+  "n": "하늘정원조경전시관",
+  "a": "",
+  "pc": "",
+  "lat": 37.45918,
+  "lng": 127.07889,
+  "c": "museum",
+  "s": "museum",
+  "q": "하늘정원조경전시관 Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368898208",
+   "raw": {
+    "name": "하늘정원조경전시관",
+    "name:en": "Haneuljeongwonjogyeong Exhibition Hall",
+    "name:ko": "하늘정원조경전시관",
+    "name:ko-Latn": "Haneuljeongwonjogyeongjeonsigwan",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "onsustation",
+  "n": "Onsu Station",
+  "a": "",
+  "pc": "",
+  "lat": 37.49203,
+  "lng": 126.82304,
+  "c": "oddity",
+  "s": "train station in South Korea",
+  "q": "Onsu Station Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q69040",
+   "raw": "train station in South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kkachiulstation",
+  "n": "Kkachiul Station",
+  "a": "",
+  "pc": "",
+  "lat": 37.50624,
+  "lng": 126.81095,
+  "c": "oddity",
+  "s": "metro station in Bucheon-si, Gyeonggi-do, South Korea",
+  "q": "Kkachiul Station Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q69046",
+   "raw": "metro station in Bucheon-si, Gyeonggi-do, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "seoksustation",
+  "n": "Seoksu Station",
+  "a": "",
+  "pc": "",
+  "lat": 37.43444,
+  "lng": 126.9025,
+  "c": "oddity",
+  "s": "train station in Anyang, Gyeonggi-do, South Korea",
+  "q": "Seoksu Station Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q137181",
+   "raw": "train station in Anyang, Gyeonggi-do, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sungkonghoeuniversity",
+  "n": "Sungkonghoe University",
+  "a": "",
+  "pc": "",
+  "lat": 37.48744,
+  "lng": 126.82575,
+  "c": "oddity",
+  "s": "private Anglican university in Seoul, South Korea",
+  "q": "Sungkonghoe University Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q482716",
+   "raw": "private Anglican university in Seoul, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "yeokgokstation",
+  "n": "Yeokgok Station",
+  "a": "",
+  "pc": "",
+  "lat": 37.48512,
+  "lng": 126.81159,
+  "c": "oddity",
+  "s": "train station in South Korea",
+  "q": "Yeokgok Station Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q490341",
+   "raw": "train station in South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gwanaksan",
+  "n": "Gwanaksan",
+  "a": "",
+  "pc": "",
+  "lat": 37.44556,
+  "lng": 126.96361,
+  "c": "oddity",
+  "s": "mountain in Seoul, Gyeonggi-do, South Korea",
+  "q": "Gwanaksan Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q626275",
+   "raw": "mountain in Seoul, Gyeonggi-do, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sugungdong",
+  "n": "Sugung-dong",
+  "a": "",
+  "pc": "",
+  "lat": 37.49567,
+  "lng": 126.82528,
+  "c": "oddity",
+  "s": "neighborhood in Guro-gu, Seoul, South Korea",
+  "q": "Sugung-dong Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2647727",
+   "raw": "neighborhood in Guro-gu, Seoul, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chunghyeonmuseum",
+  "n": "Chunghyeon Museum",
+  "a": "",
+  "pc": "",
+  "lat": 37.4333,
+  "lng": 126.878,
+  "c": "museum",
+  "s": "museum in Gyeonggi-do, South Korea",
+  "q": "Chunghyeon Museum Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5116372",
+   "raw": "museum in Gyeonggi-do, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "samseongsangyeonggiseoul",
+  "n": "Samseongsan (Gyeonggi/Seoul)",
+  "a": "",
+  "pc": "",
+  "lat": 37.43167,
+  "lng": 126.93028,
+  "c": "oddity",
+  "s": "mountain in South Korea",
+  "q": "Samseongsan (Gyeonggi/Seoul) Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7410336",
+   "raw": "mountain in South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sejongsciencehighschool",
+  "n": "Sejong Science High School",
+  "a": "",
+  "pc": "",
+  "lat": 37.4964,
+  "lng": 126.827,
+  "c": "oddity",
+  "s": "high school in Guro District, Seoul, South Korea",
+  "q": "Sejong Science High School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7447102",
+   "raw": "high school in Guro District, Seoul, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "westseoullakepark",
+  "n": "West Seoul Lake Park",
+  "a": "",
+  "pc": "",
+  "lat": 37.5276,
+  "lng": 126.8297,
+  "c": "green",
+  "s": "park in Seoul, South Korea",
+  "q": "West Seoul Lake Park Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7986464",
+   "raw": "park in Seoul, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "yuhanuniversity",
+  "n": "Yuhan University",
+  "a": "",
+  "pc": "",
+  "lat": 37.48681,
+  "lng": 126.82189,
+  "c": "oddity",
+  "s": "university in Bucheon, South Korea",
+  "q": "Yuhan University Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8060443",
+   "raw": "University in Bucheon, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bucheonojeongpolicestati",
+  "n": "Bucheon Ojeong Police Station",
+  "a": "",
+  "pc": "",
+  "lat": 37.51465,
+  "lng": 126.80043,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Bucheon Ojeong Police Station Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q11456958",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gwangmyeongmanagementacc",
+  "n": "Gwangmyeong Management Accounts High School",
+  "a": "",
+  "pc": "",
+  "lat": 37.438,
+  "lng": 126.88257,
+  "c": "oddity",
+  "s": "high school in Gwangmyeong City, Gyeonggi Province, South Ko",
+  "q": "Gwangmyeong Management Accounts High School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12585002",
+   "raw": "high school in Gwangmyeong City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "goeandong",
+  "n": "Goean-dong",
+  "a": "",
+  "pc": "",
+  "lat": 37.47607,
+  "lng": 126.80558,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Goean-dong Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12585236",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "beombakdong",
+  "n": "Beombak-dong",
+  "a": "",
+  "pc": "",
+  "lat": 37.46384,
+  "lng": 126.81449,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Beombak-dong Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12598002",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bumbakhighschool",
+  "n": "Bumbak High School",
+  "a": "",
+  "pc": "",
+  "lat": 37.46775,
+  "lng": 126.81174,
+  "c": "oddity",
+  "s": "high school in Bucheon City, Gyeonggi Province, South Korea",
+  "q": "Bumbak High School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12598001",
+   "raw": "high school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "byeonginstombandshrine",
+  "n": "Byeong-in’s tomb and shrine",
+  "a": "",
+  "pc": "",
+  "lat": 37.52944,
+  "lng": 126.82556,
+  "c": "death",
+  "s": "korean cultural heritage item",
+  "q": "Byeong-in’s tomb and shrine Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12598210",
+   "raw": "Korean cultural heritage item",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bucheonbuanelementarysch",
+  "n": "Bucheon Bu-an Elementary School",
+  "a": "",
+  "pc": "",
+  "lat": 37.48005,
+  "lng": 126.81215,
+  "c": "oddity",
+  "s": "elementary school in Bucheon City, Gyeonggi Province, South ",
+  "q": "Bucheon Bu-an Elementary School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12598994",
+   "raw": "elementary school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "seoseoullifesciencehighs",
+  "n": "Seo Seoul Life Science High School",
+  "a": "",
+  "pc": "",
+  "lat": 37.50374,
+  "lng": 126.8282,
+  "c": "oddity",
+  "s": "high school in Guro District, Seoul, South Korea",
+  "q": "Seo Seoul Life Science High School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12600991",
+   "raw": "high school in Guro District, Seoul, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pureunarboretum",
+  "n": "Pureun Arboretum",
+  "a": "",
+  "pc": "",
+  "lat": 37.48409,
+  "lng": 126.82542,
+  "c": "green",
+  "s": "park in Guro District, South Korea",
+  "q": "Pureun Arboretum Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12601393",
+   "raw": "park in Guro District, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sosahighschool",
+  "n": "Sosa High School",
+  "a": "",
+  "pc": "",
+  "lat": 37.46548,
+  "lng": 126.80004,
+  "c": "oddity",
+  "s": "high school in Bucheon City, Gyeonggi Province, South Korea",
+  "q": "Sosa High School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12602498",
+   "raw": "high school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sosamiddleschool",
+  "n": "Sosa Middle School",
+  "a": "",
+  "pc": "",
+  "lat": 37.46993,
+  "lng": 126.80218,
+  "c": "oddity",
+  "s": "middle school in Bucheon City, Gyeonggi Province, South Kore",
+  "q": "Sosa Middle School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12602501",
+   "raw": "middle school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "yerimdesignhighschool",
+  "n": "Yerim Design High School",
+  "a": "",
+  "pc": "",
+  "lat": 37.50002,
+  "lng": 126.82742,
+  "c": "oddity",
+  "s": "private school in South Korea",
+  "q": "Yerim Design High School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12607608",
+   "raw": "private school in South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wonjonghighschool",
+  "n": "Wonjong High School",
+  "a": "",
+  "pc": "",
+  "lat": 37.52794,
+  "lng": 126.80053,
+  "c": "oddity",
+  "s": "high school in Bucheon City, Gyeonggi Province, South Korea",
+  "q": "Wonjong High School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12609348",
+   "raw": "high school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "yuhantechnicalhighschool",
+  "n": "Yuhan Technical High School",
+  "a": "",
+  "pc": "",
+  "lat": 37.48791,
+  "lng": 126.82337,
+  "c": "oddity",
+  "s": "high school in Guro District, Seoul, South Korea",
+  "q": "Yuhan Technical High School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12610081",
+   "raw": "high school in Guro District, Seoul, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eunhaenghighschool",
+  "n": "Eunhaeng High School",
+  "a": "",
+  "pc": "",
+  "lat": 37.44308,
+  "lng": 126.8033,
+  "c": "oddity",
+  "s": "high school in Siheung City, Gyeonggi Province, South Korea",
+  "q": "Eunhaeng High School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12610618",
+   "raw": "high school in Siheung City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "seoulhoamsanseongfortres",
+  "n": "Seoul Hoamsanseong Fortress",
+  "a": "",
+  "pc": "",
+  "lat": 37.44639,
+  "lng": 126.91444,
+  "c": "history",
+  "s": "fortress/castle in Korea",
+  "q": "Seoul Hoamsanseong Fortress Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12625259",
+   "raw": "fortress/castle in Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bucheonilsinmiddleschool",
+  "n": "Bucheon Ilsin Middle School",
+  "a": "",
+  "pc": "",
+  "lat": 37.4733,
+  "lng": 126.8061,
+  "c": "oddity",
+  "s": "middle school in Bucheon City, Gyeonggi Province, South Kore",
+  "q": "Bucheon Ilsin Middle School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16079641",
+   "raw": "middle school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zionhighschool",
+  "n": "Zion High School",
+  "a": "",
+  "pc": "",
+  "lat": 37.47133,
+  "lng": 126.80542,
+  "c": "oddity",
+  "s": "high school in Bucheon City, Gyeonggi Province, South Korea",
+  "q": "Zion High School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16079792",
+   "raw": "high school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "yeokgokhighschool",
+  "n": "Yeokgok High School",
+  "a": "",
+  "pc": "",
+  "lat": 37.49219,
+  "lng": 126.80949,
+  "c": "oddity",
+  "s": "high school in Bucheon City, Gyeonggi Province, South Korea",
+  "q": "Yeokgok High School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16079813",
+   "raw": "high school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chunghyunhighschool",
+  "n": "Chunghyun High School",
+  "a": "",
+  "pc": "",
+  "lat": 37.43273,
+  "lng": 126.88464,
+  "c": "oddity",
+  "s": "high school in Gwangmyeong City, Gyeonggi Province, South Ko",
+  "q": "Chunghyun High School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16079836",
+   "raw": "high school in Gwangmyeong City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "koreaculinaryartsscience",
+  "n": "Korea Culinary Arts Science High School",
+  "a": "",
+  "pc": "",
+  "lat": 37.4588,
+  "lng": 126.83303,
+  "c": "oddity",
+  "s": "high school in Siheung City, Gyeonggi Province, South Korea",
+  "q": "Korea Culinary Arts Science High School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16079842",
+   "raw": "high school in Siheung City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sammaksasamcheungseoktap",
+  "n": "Sammaksa Samcheungseoktap",
+  "a": "",
+  "pc": "",
+  "lat": 37.43444,
+  "lng": 126.93583,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Sammaksa Samcheungseoktap Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16093438",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "schoolofperformingartsse",
+  "n": "School of Performing Arts Seoul",
+  "a": "",
+  "pc": "",
+  "lat": 37.50014,
+  "lng": 126.83208,
+  "c": "oddity",
+  "s": "high school in Guro District, Seoul, South Korea",
+  "q": "School of Performing Arts Seoul Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16095636",
+   "raw": "high school in Guro District, Seoul, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "seoulsineunelementarysch",
+  "n": "Seoul Sineun Elementary School",
+  "a": "",
+  "pc": "",
+  "lat": 37.51405,
+  "lng": 126.83201,
+  "c": "oddity",
+  "s": "elementary school in Yangcheon District, Seoul, South Korea",
+  "q": "Seoul Sineun Elementary School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16095794",
+   "raw": "elementary school in Yangcheon District, Seoul, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "seoulojungelementaryscho",
+  "n": "Seoul Ojung Elementary School",
+  "a": "",
+  "pc": "",
+  "lat": 37.48974,
+  "lng": 126.82405,
+  "c": "oddity",
+  "s": "elementary school in Guro District, Seoul, South Korea",
+  "q": "Seoul Ojung Elementary School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16095832",
+   "raw": "elementary school in Guro District, Seoul, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "youkgokelementaryschool",
+  "n": "Youkgok Elementary School",
+  "a": "",
+  "pc": "",
+  "lat": 37.49073,
+  "lng": 126.80776,
+  "c": "oddity",
+  "s": "elementary school in Bucheon City, Gyeonggi Province, South ",
+  "q": "Youkgok Elementary School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16096078",
+   "raw": "elementary school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gwarimdong",
+  "n": "Gwarim-dong",
+  "a": "",
+  "pc": "",
+  "lat": 37.43009,
+  "lng": 126.83311,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Gwarim-dong Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16159755",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "seonggokdong",
+  "n": "Seonggok-dong",
+  "a": "",
+  "pc": "",
+  "lat": 37.51092,
+  "lng": 126.80738,
+  "c": "oddity",
+  "s": "ojeong-gu region dong",
+  "q": "Seonggok-dong Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16173379",
+   "raw": "Ojeong-gu region dong",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "seoulonsuelementaryschoo",
+  "n": "Seoul Onsu Elementary School",
+  "a": "",
+  "pc": "",
+  "lat": 37.49423,
+  "lng": 126.82377,
+  "c": "oddity",
+  "s": "elementary school in Guro District, Seoul, South Korea",
+  "q": "Seoul Onsu Elementary School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16920048",
+   "raw": "elementary school in Guro District, Seoul, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "yangcheonmiddleschool",
+  "n": "Yangcheon Middle School",
+  "a": "",
+  "pc": "",
+  "lat": 37.51971,
+  "lng": 126.83098,
+  "c": "oddity",
+  "s": "middle school in Yangcheon District, Seoul, South Korea",
+  "q": "Yangcheon Middle School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17564624",
+   "raw": "middle school in Yangcheon District, Seoul, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bucheonyangjielementarys",
+  "n": "Bucheon Yangji Elementary School",
+  "a": "",
+  "pc": "",
+  "lat": 37.48068,
+  "lng": 126.81581,
+  "c": "oddity",
+  "s": "elementary school in Bucheon City, Gyeonggi Province, South ",
+  "q": "Bucheon Yangji Elementary School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17716507",
+   "raw": "elementary school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bucheondonggirlsmiddlesc",
+  "n": "Bucheon Dong Girls' Middle School",
+  "a": "",
+  "pc": "",
+  "lat": 37.48124,
+  "lng": 126.80935,
+  "c": "oddity",
+  "s": "middle school in Bucheon City, Gyeonggi Province, South Kore",
+  "q": "Bucheon Dong Girls' Middle School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17988116",
+   "raw": "middle school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "yokgokmiddleschool",
+  "n": "Yokgok Middle School",
+  "a": "",
+  "pc": "",
+  "lat": 37.49127,
+  "lng": 126.81053,
+  "c": "oddity",
+  "s": "middle school in Bucheon City, Gyeonggi Province, South Kore",
+  "q": "Yokgok Middle School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17990162",
+   "raw": "middle school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chunghyunmiddleschool",
+  "n": "Chunghyun Middle School",
+  "a": "",
+  "pc": "",
+  "lat": 37.43006,
+  "lng": 126.88181,
+  "c": "oddity",
+  "s": "middle school in Gwangmyeong City, Gyeonggi Province, South ",
+  "q": "Chunghyun Middle School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17991413",
+   "raw": "middle school in Gwangmyeong City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eungyemiddleschool",
+  "n": "Eungye Middle School",
+  "a": "",
+  "pc": "",
+  "lat": 37.4472,
+  "lng": 126.8005,
+  "c": "oddity",
+  "s": "middle school in Siheung City, Gyeonggi Province, South Kore",
+  "q": "Eungye Middle School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18013644",
+   "raw": "middle school in Siheung City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bumbakelementaryschool",
+  "n": "Bumbak Elementary School",
+  "a": "",
+  "pc": "",
+  "lat": 37.4704,
+  "lng": 126.81071,
+  "c": "oddity",
+  "s": "elementary school in Bucheon City, Gyeonggi Province, South ",
+  "q": "Bumbak Elementary School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18605160",
+   "raw": "elementary school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "seoulshinwonelementarysc",
+  "n": "Seoul Shinwon Elementary School",
+  "a": "",
+  "pc": "",
+  "lat": 37.5295,
+  "lng": 126.82985,
+  "c": "oddity",
+  "s": "elementary school in Yangcheon District, Seoul, South Korea",
+  "q": "Seoul Shinwon Elementary School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18605332",
+   "raw": "elementary school in Yangcheon District, Seoul, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bucheondongelementarysch",
+  "n": "Bucheon Dong Elementary School",
+  "a": "",
+  "pc": "",
+  "lat": 37.48791,
+  "lng": 126.80426,
+  "c": "oddity",
+  "s": "elementary school in Bucheon City, Gyeonggi Province, South ",
+  "q": "Bucheon Dong Elementary School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18648257",
+   "raw": "elementary school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "seoulgumsanelementarysch",
+  "n": "Seoul gumsan elementaryschool",
+  "a": "",
+  "pc": "",
+  "lat": 37.44127,
+  "lng": 126.90579,
+  "c": "oddity",
+  "s": "elementary school in Geumcheon District, Seoul, South Korea",
+  "q": "Seoul gumsan elementaryschool Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18684445",
+   "raw": "elementary school in Geumcheon District, Seoul, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "onsinelementaryschool",
+  "n": "Onsin Elementary School",
+  "a": "",
+  "pc": "",
+  "lat": 37.44258,
+  "lng": 126.84627,
+  "c": "oddity",
+  "s": "elementary school in Gwangmyeong City, Gyeonggi Province, So",
+  "q": "Onsin Elementary School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18684848",
+   "raw": "elementary school in Gwangmyeong City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chunghyeonelementaryscho",
+  "n": "Chunghyeon Elementary School",
+  "a": "",
+  "pc": "",
+  "lat": 37.43299,
+  "lng": 126.8863,
+  "c": "oddity",
+  "s": "elementary school in Gwangmyeong City, Gyeonggi Province, So",
+  "q": "Chunghyeon Elementary School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18685248",
+   "raw": "elementary school in Gwangmyeong City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kachiulelementaryschool",
+  "n": "Kachiul Elementary School",
+  "a": "",
+  "pc": "",
+  "lat": 37.51393,
+  "lng": 126.81397,
+  "c": "oddity",
+  "s": "elementary school in Bucheon City, Gyeonggi Province, South ",
+  "q": "Kachiul Elementary School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19349290",
+   "raw": "elementary school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gogangelementaryschool",
+  "n": "Gogang Elementary School",
+  "a": "",
+  "pc": "",
+  "lat": 37.52704,
+  "lng": 126.81969,
+  "c": "oddity",
+  "s": "elementary school in Bucheon City, Gyeonggi Province, South ",
+  "q": "Gogang Elementary School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19794520",
+   "raw": "elementary school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "goriwoolelementaryschool",
+  "n": "Goriwool Elementary School",
+  "a": "",
+  "pc": "",
+  "lat": 37.52725,
+  "lng": 126.82715,
+  "c": "oddity",
+  "s": "elementary school in Bucheon City, Gyeonggi Province, South ",
+  "q": "Goriwool Elementary School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19794524",
+   "raw": "elementary school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wonjongelementaryschool",
+  "n": "Wonjong Elementary School",
+  "a": "",
+  "pc": "",
+  "lat": 37.51822,
+  "lng": 126.80645,
+  "c": "oddity",
+  "s": "elementary school in Bucheon City, Gyeonggi Province, South ",
+  "q": "Wonjong Elementary School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19940670",
+   "raw": "elementary school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "changyoungelementaryscho",
+  "n": "Chang-young Elementary School",
+  "a": "",
+  "pc": "",
+  "lat": 37.47491,
+  "lng": 126.80501,
+  "c": "oddity",
+  "s": "elementary school in Bucheon City, Gyeonggi Province, South ",
+  "q": "Chang-young Elementary School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19941222",
+   "raw": "elementary school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "siheungeunhaengelementar",
+  "n": "Siheung Eunhaeng Elementary School",
+  "a": "",
+  "pc": "",
+  "lat": 37.44236,
+  "lng": 126.80086,
+  "c": "oddity",
+  "s": "elementary school in Siheung City, Gyeonggi Province, South ",
+  "q": "Siheung Eunhaeng Elementary School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21059016",
+   "raw": "elementary school in Siheung City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "seoulmetropolitanseonamh",
+  "n": "Seoul Metropolitan Seonam Hospital",
+  "a": "",
+  "pc": "",
+  "lat": 37.512,
+  "lng": 126.83261,
+  "c": "oddity",
+  "s": "hospital",
+  "q": "Seoul Metropolitan Seonam Hospital Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q22974117",
+   "raw": "hospital",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sinwolinterchange",
+  "n": "Sinwol Interchange",
+  "a": "",
+  "pc": "",
+  "lat": 37.52554,
+  "lng": 126.83489,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Sinwol Interchange Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q22974303",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "okgilmiddleschool",
+  "n": "Okgil Middle School",
+  "a": "",
+  "pc": "",
+  "lat": 37.46363,
+  "lng": 126.82684,
+  "c": "oddity",
+  "s": "middle school in Bucheon City, Gyeonggi Province, South Kore",
+  "q": "Okgil Middle School Seoul",
+  "w": "",
+  "city": "seoul",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q22974550",
+   "raw": "middle school in Bucheon City, Gyeonggi Province, South Korea",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

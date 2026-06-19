@@ -1,0 +1,3249 @@
+[
+ {
+  "id": "spot",
+  "n": "Галерија Музеја града Београда",
+  "a": "",
+  "pc": "",
+  "lat": 44.81856,
+  "lng": 20.45697,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Галерија Музеја града Београда Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/456340047",
+   "raw": {
+    "addr:housenumber": "2",
+    "addr:street": "Вука Караџића",
+    "int_name": "Galerija Muzeja grada Beograda",
+    "name": "Галерија Музеја града Београда",
+    "name:en": "The Belgrade City Museum Gallery",
+    "name:sr": "Галерија Музеја града Београда",
+    "name:sr-Latn": "Galerija Muzeja grada Beograda",
+    "ref:RS:kucni_broj": "3209960",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rodacineplex",
+  "n": "Roda Cineplex",
+  "a": "",
+  "pc": "",
+  "lat": 44.78359,
+  "lng": 20.41747,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Roda Cineplex Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/462109327",
+   "raw": {
+    "addr:housenumber": "5",
+    "addr:street": "Тургењева",
+    "amenity": "cinema",
+    "name": "Roda Cineplex",
+    "name:sr": "Шумадија",
+    "name:sr-Latn": "Šumadija"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "2",
+  "n": "Погинулим ратницима 2. светског рата са Чукарице",
+  "a": "",
+  "pc": "",
+  "lat": 44.78013,
+  "lng": 20.41704,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Погинулим ратницима 2. светског рата са Чукарице Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/467000123",
+   "raw": {
+    "historic": "memorial",
+    "int_name": "Poginulim ratnicima 2. svetskog rata sa Cukarice",
+    "memorial": "statue",
+    "name": "Погинулим ратницима 2. светског рата са Чукарице",
+    "name:sr": "Погинулим ратницима 2. светског рата са Чукарице",
+    "name:sr-Latn": "Poginulim ratnicima 2. svetskog rata sa Čukarice",
+    "wikidata": "Q85999304",
+    "wikipedia": "sr:Споменик палим борцима Чукарице"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot3",
+  "n": "Визиторски центар – комплекс Сахат и Барокне капије",
+  "a": "",
+  "pc": "",
+  "lat": 44.8231,
+  "lng": 20.45061,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Визиторски центар – комплекс Сахат и Барокне капије Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/486285899",
+   "raw": {
+    "fee": "no",
+    "int_name": "Vizitorski centar – kompleks Sahat i Barokne kapije",
+    "layer": "-1",
+    "name": "Визиторски центар – комплекс Сахат и Барокне капије",
+    "name:en": "Visitor Centre – Sahat and Baroque Gate Complex",
+    "name:sr": "Визиторски центар – комплекс Сахат и Барокне капије",
+    "name:sr-Latn": "Vizitorski centar – kompleks Sahat i Barokne kapije",
+    "opening_hours": "Mo-Su 11:00-19:00,10:00-17:00",
+    "tourism": "museum;viewpoint"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot4",
+  "n": "Споменик Доситеју Обрадовићу",
+  "a": "",
+  "pc": "",
+  "lat": 44.81915,
+  "lng": 20.45841,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик Доситеју Обрадовићу Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/488599221",
+   "raw": {
+    "heritage": "2",
+    "heritage:operator": "rzzsk",
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/wHPc98kX4Koy9MPb7",
+    "inscription": "Доситеју Обрадовићу захвални српски народ",
+    "int_name": "Spomenik Dositeju Obradovicu",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Споменик Доситеју Обрадовићу",
+    "name:en": "Monument to Dositej Obradović",
+    "name:sr": "Споменик Доситеју Обрадовићу",
+    "name:sr-Latn": "Spomenik Dositeju Obradoviću",
+    "ref:RS:nkd": "SK93",
+    "start_date": "1930",
+    "wikidata": "Q16088099",
+    "wikimedia_commons": "Category:Monument to Dositej Obradović in Belgrade",
+    "wikipedia": "sr:Споменик Доситеју Обрадовићу"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot5",
+  "n": "Споменик Риги од Фере",
+  "a": "",
+  "pc": "",
+  "lat": 44.82237,
+  "lng": 20.45541,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик Риги од Фере Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/488623974",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/VG5Cq7obXXdYda7a9",
+    "int_name": "Spomenik Rigi od Fere",
+    "memorial": "statue",
+    "name": "Споменик Риги од Фере",
+    "name:en": "Monument to Rigas Feraios",
+    "name:sr": "Споменик Риги од Фере",
+    "name:sr-Latn": "Spomenik Rigi od Fere",
+    "wikidata": "Q97330134",
+    "wikipedia": "sr:Споменик Риги од Фере у Београду"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot8",
+  "n": "Камени град",
+  "a": "",
+  "pc": "",
+  "lat": 44.78833,
+  "lng": 20.41663,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Камени град Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/502877907",
+   "raw": {
+    "artist_name": "Ратко Вулановић",
+    "artist_name:sr-Latn": "Rasko Vulanović",
+    "artwork_type": "stone",
+    "colour": "gray",
+    "int_name": "Kameni grad",
+    "material": "granite",
+    "name": "Камени град",
+    "name:en": "Stone Town",
+    "name:sr": "Камени град",
+    "name:sr-Latn": "Kameni grad",
+    "start_date": "1992",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot9",
+  "n": "Ликовна галерија Културног центра Београда",
+  "a": "",
+  "pc": "",
+  "lat": 44.81539,
+  "lng": 20.45978,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Ликовна галерија Културног центра Београда Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/503224340",
+   "raw": {
+    "check_date": "2025-07-17",
+    "int_name": "Likovna galerija Kulturnog centra Beograda",
+    "name": "Ликовна галерија Културног центра Београда",
+    "name:en": "Cultural Centre of Belgrade Fine Arts Gallery",
+    "name:sr": "Ликовна галерија Културног центра Београда",
+    "name:sr-Latn": "Likovna galerija Kulturnog centra Beograda",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot10",
+  "n": "Римски бунар",
+  "a": "",
+  "pc": "",
+  "lat": 44.82308,
+  "lng": 20.44818,
+  "c": "museum",
+  "s": "museum",
+  "q": "Римски бунар Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/503878193",
+   "raw": {
+    "check_date": "2026-01-20",
+    "depth": "51 m",
+    "fee": "yes",
+    "image": "https://photos.app.goo.gl/jnkJfr25XsyWWLxQ7",
+    "int_name": "Rimski bunar",
+    "name": "Римски бунар",
+    "name:de": "Römischer Brunnen",
+    "name:en": "Roman Well",
+    "name:ru": "Римский колодец",
+    "name:sr": "Римски бунар",
+    "name:sr-Latn": "Rimski bunar",
+    "opening_hours": "Tu-Su 10:00-17:00",
+    "tourism": "museum",
+    "wikidata": "Q53843246",
+    "wikipedia": "sr:Римски бунар на Калемегдану"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot12",
+  "n": "Споменик Николи Пашићу",
+  "a": "",
+  "pc": "",
+  "lat": 44.8127,
+  "lng": 20.46291,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик Николи Пашићу Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/506116755",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/r81MTg6LKoo66kSz8",
+    "int_name": "Spomenik Nikoli Pasicu",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Споменик Николи Пашићу",
+    "name:en": "Monument to Nikola Pašić",
+    "name:sr": "Споменик Николи Пашићу",
+    "name:sr-Latn": "Spomenik Nikoli Pašiću",
+    "wikidata": "Q85999230",
+    "wikipedia": "sr:Споменик Николи Пашићу у Београду"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot13",
+  "n": "Биста Франше д'Епереа",
+  "a": "",
+  "pc": "",
+  "lat": 44.7931,
+  "lng": 20.46579,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Биста Франше д'Епереа Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/506440123",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/4cDQj4BUZbQp4PQSA",
+    "int_name": "Bista Franse d'Eperea",
+    "memorial": "bust",
+    "name": "Биста Франше д'Епереа",
+    "name:en": "Monument to Franchet d'Espèrey",
+    "name:sr": "Биста Франше д'Епереа",
+    "name:sr-Latn": "Bista Franše d'Eperea"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot14",
+  "n": "Уметничка галерија Стара капетанија",
+  "a": "",
+  "pc": "",
+  "lat": 44.84665,
+  "lng": 20.41491,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Уметничка галерија Стара капетанија Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/552999734",
+   "raw": {
+    "addr:housenumber": "8",
+    "addr:street": "Кеј ослобођења",
+    "contact:facebook": "https://www.facebook.com/umetnickagalerija.starakapetanija/",
+    "int_name": "Umetnicka galerija Stara kapetanija",
+    "name": "Уметничка галерија Стара капетанија",
+    "name:sr": "Уметничка галерија Стара капетанија",
+    "name:sr-Latn": "Umetnička galerija Stara kapetanija",
+    "opening_hours": "Mo off; Tu-Fr 11:00-13:00,16:00-19:00; Sa-Su 11:00-14:00",
+    "phone": "+381 11 2612023",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot15",
+  "n": "Споменик деспоту Стефану Лазаревићу",
+  "a": "",
+  "pc": "",
+  "lat": 44.82427,
+  "lng": 20.45088,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик деспоту Стефану Лазаревићу Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/597109102",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/gmk92iwfWtWJa96r6",
+    "int_name": "Spomenik despotu Stefanu Lazarevicu",
+    "memorial": "statue",
+    "name": "Споменик деспоту Стефану Лазаревићу",
+    "name:de": "Stefan Lazarević",
+    "name:en": "Monument to Despot Stefan Lazarević",
+    "name:pl": "Stefan IV Lazarević",
+    "name:ru": "Памятник Стефану Лазаревичу",
+    "name:sr": "Споменик деспоту Стефану Лазаревићу",
+    "name:sr-Latn": "Spomenik despotu Stefanu Lazareviću",
+    "wikidata": "Q83699536",
+    "wikimedia_commons": "Category:Monument to Despot Stefan Lazarević (Kalemegdan)",
+    "wikipedia": "sr:Споменик деспоту Стефану Лазаревићу (Београдска тврђава)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "1915",
+  "n": "Споменик браниоцима Београда из 1915.",
+  "a": "",
+  "pc": "",
+  "lat": 44.8294,
+  "lng": 20.44969,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик браниоцима Београда из 1915. Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/625676513",
+   "raw": {
+    "historic": "memorial",
+    "int_name": "Spomenik braniocima Beograda iz 1915.",
+    "memorial": "war_memorial",
+    "name": "Споменик браниоцима Београда из 1915.",
+    "name:sr": "Споменик браниоцима Београда из 1915.",
+    "name:sr-Latn": "Spomenik braniocima Beograda iz 1915.",
+    "wikidata": "Q97201417",
+    "wikipedia": "sr:Споменик браниоцима Београда 1915."
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot16",
+  "n": "Остаци замка деспота Стефана Лазаревића",
+  "a": "",
+  "pc": "",
+  "lat": 44.82403,
+  "lng": 20.44897,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Остаци замка деспота Стефана Лазаревића Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/625723393",
+   "raw": {
+    "historic": "archaeological_site",
+    "historic:civilization": "medieval",
+    "int_name": "Ostaci zamka despota Stefana Lazarevica",
+    "name": "Остаци замка деспота Стефана Лазаревића",
+    "name:en": "Remains of Despot Stefan Lazarevic's Castle",
+    "name:sr": "Остаци замка деспота Стефана Лазаревића",
+    "name:sr-Latn": "Ostaci zamka despota Stefana Lazarevića",
+    "wikidata": "Q126519889",
+    "wikipedia": "sr:Остаци замка деспота Стефана Лазаревића"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot18",
+  "n": "Споменик Васи Чарапићу",
+  "a": "",
+  "pc": "",
+  "lat": 44.81688,
+  "lng": 20.46157,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик Васи Чарапићу Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/635725490",
+   "raw": {
+    "heritage": "2",
+    "heritage:RS:inscription_date": "2019-03-06",
+    "heritage:RS:jurisdiction": "Завод за заштиту споменика културе града Београда",
+    "heritage:RS:name": "Споменик Васи Чарапићу у Београду",
+    "heritage:website": "https://nasledje.gov.rs/index.cfm/spomenici/pregled_spomenika?spomenik_id=108464",
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/eKcXuKDVEXdqxdpJA",
+    "int_name": "Spomenik Vasi Carapicu",
+    "memorial": "statue",
+    "name": "Споменик Васи Чарапићу",
+    "name:en": "Monument to Vasa Čarapić",
+    "name:hr": "Spomenik Vasi Čarapiću",
+    "name:sr": "Споменик Васи Чарапићу",
+    "name:sr-Latn": "Spomenik Vasi Čarapiću",
+    "protect_class": "22",
+    "ref:RS:nkd": "SK2213",
+    "wikidata": "Q85999177",
+    "wikipedia": "sr:Споменик Васи Чарапићу у Београду"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot19",
+  "n": "Споменик Ћирилу и Методију",
+  "a": "",
+  "pc": "",
+  "lat": 44.80435,
+  "lng": 20.47929,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик Ћирилу и Методију Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/702297259",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/FtQznYBmK7Vvs48J9",
+    "int_name": "Spomenik Cirilu i Metodiju",
+    "memorial": "statue",
+    "name": "Споменик Ћирилу и Методију",
+    "name:ru": "Памятник Кириллу и Мефодию",
+    "name:sr": "Споменик Ћирилу и Методију",
+    "name:sr-Latn": "Spomenik Ćirilu i Metodiju",
+    "wikidata": "Q84764638",
+    "wikipedia": "sr:Споменик Ћирилу и Методију у Београду"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot21",
+  "n": "Биста Јована Скерлића",
+  "a": "",
+  "pc": "",
+  "lat": 44.82104,
+  "lng": 20.45194,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Биста Јована Скерлића Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/849700972",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/7diguMEbK69KHsLG6",
+    "int_name": "Bista Jovana Skerlica",
+    "memorial": "bust",
+    "name": "Биста Јована Скерлића",
+    "name:en": "Bust of Jovan Skerlić",
+    "name:sr": "Биста Јована Скерлића",
+    "name:sr-Latn": "Bista Jovana Skerlića",
+    "wikidata": "Q97201272",
+    "wikipedia": "sr:Спомен-биста Јовану Скерлићу у Београду"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tuckwoodcineplex",
+  "n": "Tuckwood Cineplex",
+  "a": "",
+  "pc": "",
+  "lat": 44.80963,
+  "lng": 20.46528,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Tuckwood Cineplex Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/928292093",
+   "raw": {
+    "addr:housenumber": "7",
+    "addr:street": "Кнеза Милоша",
+    "amenity": "cinema",
+    "check_date": "2025-08-06",
+    "level": "0",
+    "name": "Tuckwood Cineplex",
+    "opening_hours": "Mo-Fr 15:00-22:00; Sa,Su 12:00-22:00",
+    "payment:cash": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "website": "https://www.tuck.rs/",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot24",
+  "n": "Биоскоп Рода",
+  "a": "",
+  "pc": "",
+  "lat": 44.77394,
+  "lng": 20.41472,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Биоскоп Рода Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/997064127",
+   "raw": {
+    "amenity": "cinema",
+    "int_name": "Bioskop Roda",
+    "name": "Биоскоп Рода",
+    "name:en": "Roda Cinema",
+    "name:sr": "Биоскоп Рода",
+    "name:sr-Latn": "Bioskop Roda"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot26",
+  "n": "Споменик Николи Тесли",
+  "a": "",
+  "pc": "",
+  "lat": 44.80532,
+  "lng": 20.47633,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик Николи Тесли Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1111686165",
+   "raw": {
+    "artist:wikidata": "Q1280270",
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/9oFzGiexNifxcP459",
+    "int_name": "Spomenik Nikoli Tesli",
+    "memorial": "statue",
+    "name": "Споменик Николи Тесли",
+    "name:en": "Nikola Tesla Monument",
+    "name:ru": "Памятник Николе Тесле",
+    "name:sr": "Споменик Николи Тесли",
+    "name:sr-Latn": "Spomenik Nikoli Tesli",
+    "subject:wikidata": "Q9036",
+    "wikidata": "Q85999235",
+    "wikipedia": "sr:Споменик Николи Тесли (Електротехнички факултет у Београду)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot27",
+  "n": "Споменик Десанки Максимовић",
+  "a": "",
+  "pc": "",
+  "lat": 44.80924,
+  "lng": 20.46949,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик Десанки Максимовић Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1283134404",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/QwEH94V5RptP5RJ89",
+    "int_name": "Spomenik Desanki Maksimovic",
+    "memorial": "statue",
+    "name": "Споменик Десанки Максимовић",
+    "name:sr": "Споменик Десанки Максимовић",
+    "name:sr-Latn": "Spomenik Desanki Maksimović",
+    "wikipedia": "sr:Споменик Десанки Максимовић у Ташмајданском парку"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot29",
+  "n": "Споменик маршалу Титу",
+  "a": "",
+  "pc": "",
+  "lat": 44.78692,
+  "lng": 20.45213,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик маршалу Титу Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1599230207",
+   "raw": {
+    "artist:wikidata": "Q594440",
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/5oBK4rz6eBhb4dkU7",
+    "int_name": "Spomenik marsalu Titu",
+    "memorial": "statue",
+    "name": "Споменик маршалу Титу",
+    "name:en": "Monument to Marshall Tito",
+    "name:sr": "Споменик маршалу Титу",
+    "name:sr-Latn": "Spomenik maršalu Titu",
+    "name:zh": "铁托墓",
+    "subject:wikidata": "Q9161"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot30",
+  "n": "Биста Ивана Горана Ковачића",
+  "a": "",
+  "pc": "",
+  "lat": 44.81944,
+  "lng": 20.45147,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Биста Ивана Горана Ковачића Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1602664020",
+   "raw": {
+    "ele": "154.4",
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/DVXyzoB8oJjV8p8CA",
+    "int_name": "Bista Ivana Gorana Kovacica",
+    "memorial": "bust",
+    "name": "Биста Ивана Горана Ковачића",
+    "name:en": "Ivan Goran Kovačić Bust",
+    "name:sr": "Биста Ивана Горана Ковачића",
+    "name:sr-Latn": "Bista Ivana Gorana Kovačića",
+    "subject:wikidata": "Q835790",
+    "subject:wikipedia": "sr:Иван_Горан_Ковачић"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot31",
+  "n": "Биста Милана Ракића",
+  "a": "",
+  "pc": "",
+  "lat": 44.81988,
+  "lng": 20.45317,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Биста Милана Ракића Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1627892557",
+   "raw": {
+    "alt_name": "Споменик Милану Ракићу",
+    "alt_name:en": "Monument to Milan Rakic",
+    "alt_name:sr": "Споменик Милану Ракићу",
+    "alt_name:sr-Latn": "Spomenik Milanu Rakiću",
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/Zq7E2t2H6Z5tyjrv5",
+    "inscription": "Милан Ракић",
+    "int_name": "Bista Milana Rakica",
+    "material": "bronze",
+    "memorial": "bust",
+    "name": "Биста Милана Ракића",
+    "name:en": "Bust of Milan Rakić",
+    "name:sr": "Биста Милана Ракића",
+    "name:sr-Latn": "Bista Milana Rakića",
+    "wikidata": "Q90010341",
+    "wikimedia_commons": "Category:Memorial bust to Milan Rakić (Belgrade)",
+    "wikipedia": "sr:Спомен-биста Милану Ракићу у Београду"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot32",
+  "n": "Оџак Бајлонијеве пиваре",
+  "a": "",
+  "pc": "",
+  "lat": 44.81806,
+  "lng": 20.46529,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Оџак Бајлонијеве пиваре Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1629272028",
+   "raw": {
+    "historic": "yes",
+    "int_name": "Odzak Bajlonijeve pivare",
+    "man_made": "chimney",
+    "material": "brick",
+    "name": "Оџак Бајлонијеве пиваре",
+    "name:en": "Bajloni's Brewery Chimney",
+    "name:sr": "Оџак Бајлонијеве пиваре",
+    "name:sr-Latn": "Odžak Bajlonijeve pivare"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot33",
+  "n": "Спомен-плоча храбром возачу",
+  "a": "",
+  "pc": "",
+  "lat": 44.81697,
+  "lng": 20.46604,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Спомен-плоча храбром возачу Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1629297054",
+   "raw": {
+    "historic": "memorial",
+    "int_name": "Spomen-ploca hrabrom vozacu",
+    "memorial": "plaque",
+    "name": "Спомен-плоча храбром возачу",
+    "name:en": "Brave Driver Memorial Plaque",
+    "name:sr": "Спомен-плоча храбром возачу",
+    "name:sr-Latn": "Spomen-ploča hrabrom vozaču",
+    "wikidata": "Q12759435",
+    "wikipedia": "sr:Спомен-плоча возачу камиона у Београду"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot35",
+  "n": "Чукур чесма",
+  "a": "",
+  "pc": "",
+  "lat": 44.81927,
+  "lng": 20.46236,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Чукур чесма Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1635872618",
+   "raw": {
+    "historic": "memorial",
+    "int_name": "Cukur cesma",
+    "memorial": "statue",
+    "name": "Чукур чесма",
+    "name:en": "Cukur Fountain",
+    "name:sr": "Чукур чесма",
+    "name:sr-Latn": "Čukur česma",
+    "name:tr": "Çukur Çeşme",
+    "ref:RS:nkd": "SK42",
+    "wikidata": "Q2412558",
+    "wikimedia_commons": "Category:Čukur česma",
+    "wikipedia": "sr:Чукур-чесма"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot36",
+  "n": "Споменик жртвама логора Сајмиште",
+  "a": "",
+  "pc": "",
+  "lat": 44.81254,
+  "lng": 20.44562,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик жртвама логора Сајмиште Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1782413891",
+   "raw": {
+    "historic": "memorial",
+    "int_name": "Spomenik zrtvama logora Sajmiste",
+    "memorial": "war_memorial",
+    "name": "Споменик жртвама логора Сајмиште",
+    "name:en": "Monument to the victims of Sajmiste concentration camp",
+    "name:sr": "Споменик жртвама логора Сајмиште",
+    "name:sr-Latn": "Spomenik žrtvama logora Sajmište",
+    "ref:RS:nkd": "SK783",
+    "wikidata": "Q110045518",
+    "wikimedia_commons": "Category:Sajmište concentration camp",
+    "wikipedia": "sr:Споменик Старо Сајмиште"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "194145",
+  "n": "Споменик палим борцима у народној револуцији 1941/45",
+  "a": "",
+  "pc": "",
+  "lat": 44.8407,
+  "lng": 20.41363,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик палим борцима у народној револуцији 1941/45 Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1782423802",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/8HHvpovxRAgnmhfC7",
+    "int_name": "Spomenik palim borcima u narodnoj revoluciji 1941/45",
+    "memorial": "war_memorial",
+    "name": "Споменик палим борцима у народној револуцији 1941/45",
+    "name:en": "Monument to fallen fighters of the national revolution 1941-1945",
+    "name:sr": "Споменик палим борцима у народној револуцији 1941/45",
+    "name:sr-Latn": "Spomenik palim borcima u narodnoj revoluciji 1941/45",
+    "wikidata": "Q110045507",
+    "wikipedia": "sr:Споменик палим у народној револуцији 1941—1945."
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot37",
+  "n": "Вечна ватра",
+  "a": "",
+  "pc": "",
+  "lat": 44.82033,
+  "lng": 20.43554,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Вечна ватра Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1782425108",
+   "raw": {
+    "geonames:id": "12122864",
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/JRf3Sbtrx8mnAZxq6",
+    "int_name": "Vecna vatra",
+    "man_made": "obelisk",
+    "memorial": "obelisk",
+    "name": "Вечна ватра",
+    "name:en": "Eternal Flame (Monument to the victims of 1999 NATO bombing)",
+    "name:sr": "Вечна ватра",
+    "name:sr-Latn": "Večna vatra",
+    "wikidata": "Q15217011",
+    "wikimedia_commons": "Category:Eternal flame (Belgrade)",
+    "wikipedia": "sr:Споменик Вечна ватра"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot38",
+  "n": "Спомен-обележје почетка изградње Новог Београда",
+  "a": "",
+  "pc": "",
+  "lat": 44.81892,
+  "lng": 20.43868,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Спомен-обележје почетка изградње Новог Београда Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1782425249",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/KZ8dDZmoofhLnk1z6",
+    "int_name": "Spomen-obelezje pocetka izgradnje Novog Beograda",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Спомен-обележје почетка изградње Новог Београда",
+    "name:sr": "Спомен-обележје почетка изградње Новог Београда",
+    "name:sr-Latn": "Spomen obeležje početka izgradnje Novog Beograda",
+    "wikimedia_commons": "File:Spomen obelezje pocetka gradnje N Beograda.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "22",
+  "n": "Две главе 2",
+  "a": "",
+  "pc": "",
+  "lat": 44.80619,
+  "lng": 20.44221,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Две главе 2 Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1782425961",
+   "raw": {
+    "artwork_type": "sculpture",
+    "int_name": "Dve glave 2",
+    "name": "Две главе 2",
+    "name:sr": "Две главе 2",
+    "name:sr-Latn": "Dve glave 2",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot40",
+  "n": "Спомен-плоча жртвама логора Сајмиште",
+  "a": "",
+  "pc": "",
+  "lat": 44.81347,
+  "lng": 20.44269,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Спомен-плоча жртвама логора Сајмиште Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1782440160",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/1k9M1TvjDrkixBGb6",
+    "int_name": "Spomen-ploca zrtvama logora Sajmiste",
+    "memorial": "war_memorial",
+    "name": "Спомен-плоча жртвама логора Сајмиште",
+    "name:sr": "Спомен-плоча жртвама логора Сајмиште",
+    "name:sr-Latn": "Spomen-ploča žrtvama logora Sajmište"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot42",
+  "n": "Биста Јосифа Маринковића",
+  "a": "",
+  "pc": "",
+  "lat": 44.80503,
+  "lng": 20.46366,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Биста Јосифа Маринковића Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1782501760",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/dEsgcq8jcjdXiSt69",
+    "int_name": "Bista Josifa Marinkovica",
+    "memorial": "bust",
+    "name": "Биста Јосифа Маринковића",
+    "name:en": "Bust of Josif Marinković",
+    "name:sr": "Биста Јосифа Маринковића",
+    "name:sr-Latn": "Bista Josifa Marinkovića"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "1961",
+  "n": "Обелиск подигнут у спомен прве конференције Покрета несврстаних земаља 1961. у Београду",
+  "a": "",
+  "pc": "",
+  "lat": 44.81543,
+  "lng": 20.45183,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Обелиск подигнут у спомен прве конференције Покрета несврстаних земаља 1961. у Београду Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1782503081",
+   "raw": {
+    "height": "27",
+    "historic": "monument",
+    "image": "https://photos.app.goo.gl/sxoPKsVD6TdZ1t92A",
+    "int_name": "Obelisk podignut u spomen prve konferencije Pokreta nesvrstanih zemalja 1961. u Beogradu",
+    "man_made": "obelisk",
+    "name": "Обелиск подигнут у спомен прве конференције Покрета несврстаних земаља 1961. у Београду",
+    "name:en": "Obelisk raised on occasion of the first conference of the non-aligned countries in September 1961",
+    "name:sr": "Обелиск подигнут у спомен прве конференције Покрета несврстаних земаља 1961. у Београду",
+    "name:sr-Latn": "Obelisk podignut u spomen prve konferencije Pokreta nesvrstanih zemalja 1961. u Beogradu",
+    "obelisk:height": "27",
+    "obelisk:size": "monumental",
+    "start_date": "1961-09",
+    "wikidata": "Q85997326",
+    "wikimedia_commons": "Category:Obelisk of the Non-Aligned Countries",
+    "wikipedia": "sr:Обелиск несврстаних земаља код Бранковог моста"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ii2",
+  "n": "Просторна форма II",
+  "a": "",
+  "pc": "",
+  "lat": 44.78901,
+  "lng": 20.4096,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Просторна форма II Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1800191916",
+   "raw": {
+    "artist_name": "Славко Живановић",
+    "artist_name:sr-Latn": "Slavko Živanović",
+    "artwork_type": "sculpture",
+    "colour": "white",
+    "int_name": "Prostorna forma II",
+    "material": "marble",
+    "name": "Просторна форма II",
+    "name:en": "Spatial Form II",
+    "name:sr": "Просторна форма II",
+    "name:sr-Latn": "Prostorna forma II",
+    "start_date": "1992",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot46",
+  "n": "Споменик Карађорђу",
+  "a": "",
+  "pc": "",
+  "lat": 44.79836,
+  "lng": 20.46651,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик Карађорђу Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1801457232",
+   "raw": {
+    "heritage": "2",
+    "heritage:RS:inscription_date": "2019-03-29",
+    "heritage:RS:jurisdiction": "Завод за заштиту споменика културе града Београда",
+    "heritage:RS:name": "Споменик Карађорђу у Београду",
+    "heritage:website": "https://nasledje.gov.rs/index.cfm/spomenici/pregled_spomenika?spomenik_id=102611",
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/6Q6TemUhMc3HPHAj9",
+    "int_name": "Spomenik Karadjordju",
+    "memorial": "statue",
+    "name": "Споменик Карађорђу",
+    "name:sr": "Споменик Карађорђу",
+    "name:sr-Latn": "Spomenik Karađorđu",
+    "protect_class": "22",
+    "ref:RS:nkd": "SK2215",
+    "wikidata": "Q85773617",
+    "wikimedia_commons": "Category:Monument to Karađorđe and Church of Saint Sava",
+    "wikipedia": "sr:Споменик Карађорђу у Београду"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot47",
+  "n": "Споменик Интернационалним бригадама",
+  "a": "",
+  "pc": "",
+  "lat": 44.79546,
+  "lng": 20.4665,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик Интернационалним бригадама Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1801457255",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Spomenik_Internacionalnim_brigadama_Beograd.jpg",
+    "image:0": "https://photos.app.goo.gl/gvUK1eLWfSAs3nR27",
+    "int_name": "Spomenik Internacionalnim brigadama",
+    "memorial": "war_memorial",
+    "name": "Споменик Интернационалним бригадама",
+    "name:hr": "Spomenik Međunarodnim brigadama",
+    "name:sr": "Споменик Интернационалним бригадама",
+    "name:sr-Latn": "Spomenik Internacionalnim brigadama",
+    "subject:wikidata": "Q2987146",
+    "wikidata": "Q89999441",
+    "wikimedia_commons": "Category:Monument to international brigades formed in Spain",
+    "wikipedia": "sr:Споменик Интернационалним бригадама"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot48",
+  "n": "Споменик трећепозивцима",
+  "a": "",
+  "pc": "",
+  "lat": 44.79665,
+  "lng": 20.46584,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик трећепозивцима Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1801459431",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/7dcCJEwoLuP49gu7A",
+    "int_name": "Spomenik trecepozivcima",
+    "memorial": "statue",
+    "name": "Споменик трећепозивцима",
+    "name:sr": "Споменик трећепозивцима",
+    "name:sr-Latn": "Spomenik trećepozivcima",
+    "wikidata": "Q89985872",
+    "wikimedia_commons": "Category:Spomenik Trećepozivcima u Beogradu",
+    "wikipedia": "sr:Споменик трећепозивцима у Београду"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot49",
+  "n": "Пливач",
+  "a": "",
+  "pc": "",
+  "lat": 44.78786,
+  "lng": 20.4019,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Пливач Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1815082704",
+   "raw": {
+    "artist_name": "Радојчић Славољуб",
+    "artist_name:sr-Latn": "Radojčić Slavoljub",
+    "artwork_type": "sculpture",
+    "colour": "white",
+    "int_name": "Plivac",
+    "material": "marble",
+    "name": "Пливач",
+    "name:en": "Swimmer",
+    "name:sr": "Пливач",
+    "name:sr-Latn": "Plivač",
+    "start_date": "1992",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot50",
+  "n": "Крст са Мале пијаце",
+  "a": "",
+  "pc": "",
+  "lat": 44.81116,
+  "lng": 20.45228,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Крст са Мале пијаце Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1830297169",
+   "raw": {
+    "historic": "wayside_cross",
+    "image": "https://photos.app.goo.gl/HYp3cixxMEXMvw5z6",
+    "int_name": "Krst sa Male pijace",
+    "name": "Крст са Мале пијаце",
+    "name:en": "Cross from Mala pijaca",
+    "name:sr": "Крст са Мале пијаце",
+    "name:sr-Latn": "Krst sa Male pijace",
+    "start_date": "1862",
+    "wikidata": "Q3003353",
+    "wikimedia_commons": "Category:Krst sa Male pijace",
+    "wikipedia": "sr:Крст са Малог пијаца"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot51",
+  "n": "Биста војводе Живојина Мишића",
+  "a": "",
+  "pc": "",
+  "lat": 44.79633,
+  "lng": 20.44086,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Биста војводе Живојина Мишића Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1906485378",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Биста војводе Живојина Мишића",
+    "name:en": "Bista vojvode Živojina Mišića",
+    "name:sr": "Биста војводе Живојина Мишића",
+    "name:sr-Latn": "Bista vojvode Živojina Mišića"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "994084",
+  "n": "99.4-084",
+  "a": "",
+  "pc": "",
+  "lat": 44.80585,
+  "lng": 20.45789,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "99.4-084 Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1970813731",
+   "raw": {
+    "description": "Schwarzkopff 6316/1917",
+    "gauge": "600",
+    "historic": "locomotive",
+    "image": "https://photos.app.goo.gl/aMeG1MdQhzE7KNmh9",
+    "locomotive:type": "steam",
+    "name": "99.4-084",
+    "tourism": "attraction",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot53",
+  "n": "Менора у пламену",
+  "a": "",
+  "pc": "",
+  "lat": 44.83045,
+  "lng": 20.45741,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Менора у пламену Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1973783610",
+   "raw": {
+    "artist:wikidata": "Q11128965",
+    "artist_name": "Нандор Глид",
+    "historic": "memorial",
+    "int_name": "Menora u plamenu",
+    "memorial": "war_memorial",
+    "name": "Менора у пламену",
+    "name:en": "Menorah in Flames",
+    "name:sr": "Менора у пламену",
+    "name:sr-Latn": "Menora u plamenu",
+    "wikidata": "Q110045946",
+    "wikipedia": "sr:Споменик „Менора у пламену”"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot54",
+  "n": "Спомен-чесма Јасмини Јовановић",
+  "a": "",
+  "pc": "",
+  "lat": 44.7994,
+  "lng": 20.45129,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Спомен-чесма Јасмини Јовановић Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2129794564",
+   "raw": {
+    "historic": "memorial",
+    "int_name": "Spomen-cesma Jasmini Jovanovic",
+    "memorial": "plaque",
+    "name": "Спомен-чесма Јасмини Јовановић",
+    "name:sr": "Спомен-чесма Јасмини Јовановић",
+    "name:sr-Latn": "Spomen-česma Jasmini Jovanović",
+    "wikidata": "Q98138072",
+    "wikipedia": "sr:Спомен-чесма Јасмини Јовановић"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot55",
+  "n": "Партизан на вечној стражи",
+  "a": "",
+  "pc": "",
+  "lat": 44.81043,
+  "lng": 20.48537,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Партизан на вечној стражи Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2318856805",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/CeKwQwbHcMmFVDQS6",
+    "int_name": "Partizan na vecnoj strazi",
+    "memorial": "statue",
+    "name": "Партизан на вечној стражи",
+    "name:sr": "Партизан на вечној стражи",
+    "name:sr-Latn": "Partizan na večnoj straži"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot56",
+  "n": "Споменик црвеноармејцу",
+  "a": "",
+  "pc": "",
+  "lat": 44.81173,
+  "lng": 20.48426,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик црвеноармејцу Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2318857094",
+   "raw": {
+    "historic": "memorial",
+    "int_name": "Spomenik crvenoarmejcu",
+    "memorial": "statue",
+    "name": "Споменик црвеноармејцу",
+    "name:en": "Monument to the Red Army",
+    "name:ru": "Памятник красноармейцу",
+    "name:sr": "Споменик црвеноармејцу",
+    "name:sr-Latn": "Spomenik crvenoarmejcu",
+    "wikidata": "Q110045511",
+    "wikipedia": "sr:Споменик црвеноармејцу у Београду"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot58",
+  "n": "Споменик обалским радницима палим у НОБ-у",
+  "a": "",
+  "pc": "",
+  "lat": 44.81807,
+  "lng": 20.4491,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик обалским радницима палим у НОБ-у Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2319208115",
+   "raw": {
+    "historic": "memorial",
+    "int_name": "Spomenik obalskim radnicima palim u NOB-u",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Споменик обалским радницима палим у НОБ-у",
+    "name:sr": "Споменик обалским радницима палим у НОБ-у",
+    "name:sr-Latn": "Spomenik obalskim radnicima palim u NOB-u",
+    "start_date": "1952",
+    "wikidata": "Q85999307",
+    "wikipedia": "sr:Споменик палим обалским радницима"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot59",
+  "n": "Иванова чесма",
+  "a": "",
+  "pc": "",
+  "lat": 44.77115,
+  "lng": 20.42755,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Иванова чесма Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2449409948",
+   "raw": {
+    "disused:amenity": "drinking_water",
+    "historic": "memorial",
+    "int_name": "Ivanova cesma",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Иванова чесма",
+    "name:sr": "Иванова чесма",
+    "name:sr-Latn": "Ivanova česma"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot60",
+  "n": "Споменик српским јунацима из Првог светског рата",
+  "a": "",
+  "pc": "",
+  "lat": 44.776,
+  "lng": 20.42473,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик српским јунацима из Првог светског рата Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2449414061",
+   "raw": {
+    "historic": "memorial",
+    "int_name": "Spomenik srpskim junacima iz Prvog svetskog rata",
+    "memorial": "war_memorial",
+    "name": "Споменик српским јунацима из Првог светског рата",
+    "name:en": "Monument to Serbian WWI Heroes",
+    "name:sr": "Споменик српским јунацима из Првог светског рата",
+    "name:sr-Latn": "Spomenik srpskim junacima iz Prvog svetskog rata"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot61",
+  "n": "Галерија Стара Србија",
+  "a": "",
+  "pc": "",
+  "lat": 44.79418,
+  "lng": 20.47802,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Галерија Стара Србија Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2843850580",
+   "raw": {
+    "int_name": "Galerija Stara Srbija",
+    "name": "Галерија Стара Србија",
+    "name:sr": "Галерија Стара Србија",
+    "name:sr-Latn": "Galerija Stara Srbija",
+    "tourism": "gallery",
+    "website": "https://starizanatisrbije.rs/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot62",
+  "n": "Биста војводе Радомира Путника",
+  "a": "",
+  "pc": "",
+  "lat": 44.79512,
+  "lng": 20.4489,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Биста војводе Радомира Путника Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2904599152",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Биста војводе Радомира Путника",
+    "name:en": "Bista vojvode Radomira Putnika",
+    "name:sr": "Биста војводе Радомира Путника",
+    "name:sr-Latn": "Bista vojvode Radomira Putnika",
+    "wikidata": "Q97330125",
+    "wikipedia": "sr:Спомен-биста војводи Радомиру Путнику у Београду"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot65",
+  "n": "Јајинци",
+  "a": "",
+  "pc": "",
+  "lat": 44.73117,
+  "lng": 20.48892,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Јајинци Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2968699434",
+   "raw": {
+    "artist:wikidata": "Q12749943",
+    "historic": "monument",
+    "int_name": "Jajinci",
+    "name": "Јајинци"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot66",
+  "n": "Биста Ђуре Ђаковића",
+  "a": "",
+  "pc": "",
+  "lat": 44.8205,
+  "lng": 20.46735,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Биста Ђуре Ђаковића Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3075776977",
+   "raw": {
+    "historic": "memorial",
+    "int_name": "Bista Djure Djakovica",
+    "memorial": "bust",
+    "name": "Биста Ђуре Ђаковића",
+    "name:sr": "Биста Ђуре Ђаковића",
+    "name:sr-Latn": "Bista Đure Đakovića"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot67",
+  "n": "Биста Димитрија Давидовића",
+  "a": "",
+  "pc": "",
+  "lat": 44.84381,
+  "lng": 20.41679,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Биста Димитрија Давидовића Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3365486280",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/yaxNaBqPVbCUDpkZ9",
+    "int_name": "Bista Dimitrija Davidovica",
+    "memorial": "bust",
+    "name": "Биста Димитрија Давидовића",
+    "name:en": "Bust of Dimitrije Davidović",
+    "name:sr": "Биста Димитрија Давидовића",
+    "name:sr-Latn": "Bista Dimitrija Davidovića",
+    "wikidata": "Q110045508",
+    "wikipedia": "sr:Спомен-биста Димитрију Давидовићу у Београду"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot68",
+  "n": "Споменик Хејдару Алијеву",
+  "a": "",
+  "pc": "",
+  "lat": 44.80849,
+  "lng": 20.47172,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик Хејдару Алијеву Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3723968536",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/xnabeS8a6q2zegTg7",
+    "int_name": "Spomenik Hejdaru Alijevu",
+    "memorial": "statue",
+    "name": "Споменик Хејдару Алијеву",
+    "name:az": "Heydər Əliyev abidəsi",
+    "name:en": "Monument to Heydar Aliyev",
+    "name:ru": "Памятник Гейдару Алиеву",
+    "name:sr": "Споменик Хејдару Алијеву",
+    "name:sr-Latn": "Spomenik Hejdaru Alijevu",
+    "subject:wikidata": "Q157451",
+    "subject:wikipedia": "sr:Хејдар Алијев",
+    "wikidata": "Q97203146",
+    "wikipedia": "sr:Споменик Хејдару Алијеву у Београду"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot70",
+  "n": "Заветни крст",
+  "a": "",
+  "pc": "",
+  "lat": 44.84517,
+  "lng": 20.41306,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Заветни крст Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3820794851",
+   "raw": {
+    "historic": "wayside_cross",
+    "int_name": "Zavetni krst",
+    "name": "Заветни крст",
+    "name:sr": "Заветни крст",
+    "name:sr-Latn": "Zavetni krst",
+    "wikidata": "Q89791096",
+    "wikimedia_commons": "Category:Zavetni krst u Zemunu",
+    "wikipedia": "sr:Заветни крст у Земуну"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "19901999",
+  "n": "Споменик палим борцима у ратовима од 1990. до 1999.",
+  "a": "",
+  "pc": "",
+  "lat": 44.84339,
+  "lng": 20.41362,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик палим борцима у ратовима од 1990. до 1999. Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3842638917",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/Spomenik_palim_borcima_u_ratovima_od_1990_-_1999._godine.jpg",
+    "int_name": "Spomenik palim borcima u ratovima od 1990. do 1999.",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Споменик палим борцима у ратовима од 1990. до 1999.",
+    "name:sr": "Споменик палим борцима у ратовима од 1990. до 1999.",
+    "name:sr-Latn": "Spomenik palim borcima u ratovima od 1990. do 1999.",
+    "wikidata": "Q86195398",
+    "wikipedia": "sr:Споменик палим борцима у ратовима 1990—1999. у Земуну"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot71",
+  "n": "Бисте Душана и Небојше Јерковића",
+  "a": "",
+  "pc": "",
+  "lat": 44.76952,
+  "lng": 20.49041,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Бисте Душана и Небојше Јерковића Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3943315664",
+   "raw": {
+    "historic": "memorial",
+    "int_name": "Biste Dusana i Nebojse Jerkovica",
+    "memorial": "bust",
+    "name": "Бисте Душана и Небојше Јерковића",
+    "name:sr": "Бисте Душана и Небојше Јерковића",
+    "name:sr-Latn": "Biste Dušana i Nebojše Jerkovića"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot72",
+  "n": "Александрова чесма",
+  "a": "",
+  "pc": "",
+  "lat": 44.76834,
+  "lng": 20.43852,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Александрова чесма Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3951706288",
+   "raw": {
+    "disused:amenity": "drinking_water",
+    "historic": "memorial",
+    "int_name": "Aleksandrova cesma",
+    "memorial": "sculpture",
+    "name": "Александрова чесма",
+    "name:sr": "Александрова чесма",
+    "name:sr-Latn": "Aleksandrova česma"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot73",
+  "n": "Споменик палим борцима за ослобођење Кошутњака и Раковице",
+  "a": "",
+  "pc": "",
+  "lat": 44.75631,
+  "lng": 20.45012,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Споменик палим борцима за ослобођење Кошутњака и Раковице Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3953887189",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/U7yx6kQqatagb1oy9",
+    "int_name": "Spomenik palim borcima za oslobodjenje Kosutnjaka i Rakovice",
+    "memorial": "war_memorial",
+    "name": "Споменик палим борцима за ослобођење Кошутњака и Раковице",
+    "name:sr": "Споменик палим борцима за ослобођење Кошутњака и Раковице",
+    "name:sr-Latn": "Spomenik palim borcima za oslobođenje Košutnjaka i Rakovice"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot74",
+  "n": "Ћошак Салвадора Далија",
+  "a": "",
+  "pc": "",
+  "lat": 44.81993,
+  "lng": 20.45947,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Ћошак Салвадора Далија Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3960413934",
+   "raw": {
+    "historic": "memorial",
+    "int_name": "Cosak Salvadora Dalija",
+    "memorial": "plaque",
+    "name": "Ћошак Салвадора Далија",
+    "name:en": "Salvador Dali's Corner",
+    "name:sr": "Ћошак Салвадора Далија",
+    "name:sr-Latn": "Ćošak Salvadora Dalija",
+    "tourism": "attraction"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot76",
+  "n": "Музеј Паје Јовановића",
+  "a": "",
+  "pc": "",
+  "lat": 44.80749,
+  "lng": 20.46432,
+  "c": "museum",
+  "s": "museum",
+  "q": "Музеј Паје Јовановића Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3964539357",
+   "raw": {
+    "addr:housenumber": "21",
+    "addr:street": "Краља Милана",
+    "check_date": "2025-05-28",
+    "name": "Музеј Паје Јовановића",
+    "name:en": "Muzej Paje Jovanovića",
+    "name:sr": "Музеј Паје Јовановића",
+    "name:sr-Latn": "Muzej Paje Jovanovića",
+    "tourism": "museum",
+    "wikidata": "Q60748718",
+    "wikipedia": "sr:Музеј Паје Јовановића"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot78",
+  "n": "Топовске шупе",
+  "a": "",
+  "pc": "",
+  "lat": 44.78791,
+  "lng": 20.46862,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Топовске шупе Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4064348022",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "„На овом месту од августа до децембра 1941. налазио се нацистички концентрациони логор за Јевреје и Роме из Београда и Баната. Сви су проглашени за таоце и дневно по неколико стотина је одвођено на стрељање.”",
+    "int_name": "Topovske supe",
+    "memorial": "plaque",
+    "name": "Топовске шупе",
+    "name:sr": "Топовске шупе",
+    "name:sr-Latn": "Topovske šupe"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chinatown",
+  "n": "Chinatown",
+  "a": "",
+  "pc": "",
+  "lat": 44.80276,
+  "lng": 20.39311,
+  "c": "oddity",
+  "s": "neighborhood in Belgrade, Serbia",
+  "q": "Chinatown Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2238435",
+   "raw": "neighborhood in Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "adaciganlija",
+  "n": "Ada Ciganlija",
+  "a": "",
+  "pc": "",
+  "lat": 44.78333,
+  "lng": 20.4,
+  "c": "oddity",
+  "s": "peninsula in Serbia",
+  "q": "Ada Ciganlija Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2321302",
+   "raw": "peninsula in Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofstbasilofostrogb",
+  "n": "Church of St. Basil of Ostrog, Belgrade",
+  "a": "",
+  "pc": "",
+  "lat": 44.82028,
+  "lng": 20.38806,
+  "c": "faith",
+  "s": "in Bežanijska Kosa neighbourhood of New Belgrade, Serbia",
+  "q": "Church of St. Basil of Ostrog, Belgrade Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2497798",
+   "raw": "in Bežanijska Kosa neighbourhood of New Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zeleznikhall",
+  "n": "Železnik Hall",
+  "a": "",
+  "pc": "",
+  "lat": 44.73131,
+  "lng": 20.37667,
+  "c": "oddity",
+  "s": "sporting venue in Serbia",
+  "q": "Železnik Hall Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2602989",
+   "raw": "sporting venue in Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bezanija",
+  "n": "Bežanija",
+  "a": "",
+  "pc": "",
+  "lat": 44.80621,
+  "lng": 20.37211,
+  "c": "oddity",
+  "s": "urban neighborhood of Belgrade, the capital of Serbia",
+  "q": "Bežanija Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2742417",
+   "raw": "urban neighborhood of Belgrade, the capital of Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "drivanribar",
+  "n": "Dr Ivan Ribar",
+  "a": "",
+  "pc": "",
+  "lat": 44.80056,
+  "lng": 20.36722,
+  "c": "oddity",
+  "s": "urban neighbourhood in New Belgrade, Belgrade, Serbia",
+  "q": "Dr Ivan Ribar Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2745440",
+   "raw": "urban neighbourhood in New Belgrade, Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ledine",
+  "n": "Ledine",
+  "a": "",
+  "pc": "",
+  "lat": 44.80335,
+  "lng": 20.35337,
+  "c": "oddity",
+  "s": "urban neighbourhood in New Belgrade, Belgrade, Serbia",
+  "q": "Ledine Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2750028",
+   "raw": "urban neighbourhood in New Belgrade, Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "adameica",
+  "n": "Ada Međica",
+  "a": "",
+  "pc": "",
+  "lat": 44.78333,
+  "lng": 20.38333,
+  "c": "oddity",
+  "s": "island in Serbia",
+  "q": "Ada Međica Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2823875",
+   "raw": "island in Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "airportcitybelgrade",
+  "n": "Airport City Belgrade",
+  "a": "",
+  "pc": "",
+  "lat": 44.81194,
+  "lng": 20.39778,
+  "c": "green",
+  "s": "business park in Novi Beograd, Serbia",
+  "q": "Airport City Belgrade Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2828742",
+   "raw": "Business park in Novi Beograd, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bezanijskakosa",
+  "n": "Bežanijska kosa",
+  "a": "",
+  "pc": "",
+  "lat": 44.8164,
+  "lng": 20.3781,
+  "c": "oddity",
+  "s": "belgrade settlement",
+  "q": "Bežanijska kosa Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2900607",
+   "raw": "Belgrade settlement",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "block44",
+  "n": "Block 44",
+  "a": "",
+  "pc": "",
+  "lat": 44.80326,
+  "lng": 20.38309,
+  "c": "oddity",
+  "s": "urban neighborhood in Belgrade's municipality of Novi Beogra",
+  "q": "Block 44 Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2906883",
+   "raw": "urban neighborhood in Belgrade's municipality of Novi Beograd.",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blok61",
+  "n": "Blok 61",
+  "a": "",
+  "pc": "",
+  "lat": 44.80339,
+  "lng": 20.3699,
+  "c": "oddity",
+  "s": "neighborhood in Belgrade, Serbia",
+  "q": "Blok 61 Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2906880",
+   "raw": "neighborhood in Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "block45",
+  "n": "Block 45",
+  "a": "",
+  "pc": "",
+  "lat": 44.79671,
+  "lng": 20.37831,
+  "c": "oddity",
+  "s": "neighbourhood",
+  "q": "Block 45 Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2906884",
+   "raw": "neighbourhood",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blokovi",
+  "n": "Blokovi",
+  "a": "",
+  "pc": "",
+  "lat": 44.8,
+  "lng": 20.38333,
+  "c": "oddity",
+  "s": "urban neighbourhood in New Belgrade, Belgrade, Serbia",
+  "q": "Blokovi Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2906894",
+   "raw": "urban neighbourhood in New Belgrade, Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "drivanaribara",
+  "n": "Dr Ivana Ribara",
+  "a": "",
+  "pc": "",
+  "lat": 44.7986,
+  "lng": 20.3706,
+  "c": "oddity",
+  "s": "street in New Belgrade City Municipality, Belgrade, Serbia",
+  "q": "Dr Ivana Ribara Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3038443",
+   "raw": "street in New Belgrade City Municipality, Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gandijeva",
+  "n": "Gandijeva",
+  "a": "",
+  "pc": "",
+  "lat": 44.80737,
+  "lng": 20.38505,
+  "c": "oddity",
+  "s": "street in Novi Beograd City Municipality, Belgrade, Serbia",
+  "q": "Gandijeva Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3095094",
+   "raw": "street in Novi Beograd City Municipality, Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tosinbunarrailwaystation",
+  "n": "Tošin Bunar railway station",
+  "a": "",
+  "pc": "",
+  "lat": 44.8178,
+  "lng": 20.3944,
+  "c": "oddity",
+  "s": "railway station in Belgrade, Serbia",
+  "q": "Tošin Bunar railway station Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3097901",
+   "raw": "railway station in Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "yurigagarinstreetbelgrad",
+  "n": "Yuri Gagarin Street, Belgrade",
+  "a": "",
+  "pc": "",
+  "lat": 44.801,
+  "lng": 20.3723,
+  "c": "oddity",
+  "s": "street in Belgrade, Serbia",
+  "q": "Yuri Gagarin Street, Belgrade Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3190198",
+   "raw": "street in Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "makis",
+  "n": "Makiš",
+  "a": "",
+  "pc": "",
+  "lat": 44.75771,
+  "lng": 20.36688,
+  "c": "oddity",
+  "s": "urban neighbourhood in Čukarica, Belgrade, Serbia",
+  "q": "Makiš Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3280859",
+   "raw": "urban neighbourhood in Čukarica, Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "newbezanijacemetery",
+  "n": "New Bežanija Cemetery",
+  "a": "",
+  "pc": "",
+  "lat": 44.8163,
+  "lng": 20.3667,
+  "c": "death",
+  "s": "historic cemetery",
+  "q": "New Bežanija Cemetery Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3345499",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rupcine",
+  "n": "Rupčine",
+  "a": "",
+  "pc": "",
+  "lat": 44.74298,
+  "lng": 20.3965,
+  "c": "oddity",
+  "s": "place in Serbia",
+  "q": "Rupčine Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3453326",
+   "raw": "place in Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "starobezanijskogroblje",
+  "n": "Staro Bežanijsko groblje",
+  "a": "",
+  "pc": "",
+  "lat": 44.8105,
+  "lng": 20.3721,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Staro Bežanijsko groblje Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3497192",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "studentskigrad",
+  "n": "Studentski Grad",
+  "a": "",
+  "pc": "",
+  "lat": 44.82473,
+  "lng": 20.39965,
+  "c": "oddity",
+  "s": "urban neighbourhood in New Belgrade, Belgrade, Serbia",
+  "q": "Studentski Grad Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3500924",
+   "raw": "urban neighbourhood in New Belgrade, Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vojvoanskastreet",
+  "n": "Vojvođanska Street",
+  "a": "",
+  "pc": "",
+  "lat": 44.80701,
+  "lng": 20.37408,
+  "c": "oddity",
+  "s": "street in Belgrade, Serbia",
+  "q": "Vojvođanska Street Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3562554",
+   "raw": "street in Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stadionfkbezanija",
+  "n": "Stadion FK Bežanija",
+  "a": "",
+  "pc": "",
+  "lat": 44.80814,
+  "lng": 20.37389,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Stadion FK Bežanija Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7596301",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vizurasportscenter",
+  "n": "Vizura Sports Center",
+  "a": "",
+  "pc": "",
+  "lat": 44.81996,
+  "lng": 20.39492,
+  "c": "oddity",
+  "s": "basketball hall in Belgrade",
+  "q": "Vizura Sports Center Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7938032",
+   "raw": "basketball hall in Belgrade",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zeleznikstadium",
+  "n": "Železnik Stadium",
+  "a": "",
+  "pc": "",
+  "lat": 44.7308,
+  "lng": 20.3884,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Železnik Stadium Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8083629",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ljubinkebobicstreet",
+  "n": "Ljubinke Bobić Street",
+  "a": "",
+  "pc": "",
+  "lat": 44.8145,
+  "lng": 20.37507,
+  "c": "oddity",
+  "s": "street in Belgrade, Serbia",
+  "q": "Ljubinke Bobić Street Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q11217989",
+   "raw": "street in Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "savskikej",
+  "n": "Savski kej",
+  "a": "",
+  "pc": "",
+  "lat": 44.7954,
+  "lng": 20.39096,
+  "c": "oddity",
+  "s": "quay along Sava river in Belgrade, Serbia",
+  "q": "Savski kej Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12746888",
+   "raw": "quay along Sava river in Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blok64",
+  "n": "Blok 64",
+  "a": "",
+  "pc": "",
+  "lat": 44.80737,
+  "lng": 20.38708,
+  "c": "oddity",
+  "s": "neighborhood in Belgrade, Serbia",
+  "q": "Blok 64 Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12749046",
+   "raw": "neighborhood in Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "savskolake",
+  "n": "Savsko Lake",
+  "a": "",
+  "pc": "",
+  "lat": 44.7839,
+  "lng": 20.3901,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Savsko Lake Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12758519",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "orastanojevica",
+  "n": "Đorđa Stanojevića",
+  "a": "",
+  "pc": "",
+  "lat": 44.81053,
+  "lng": 20.39867,
+  "c": "oddity",
+  "s": "street in New Belgrade City Municipality, Belgrade",
+  "q": "Đorđa Stanojevića Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12760348",
+   "raw": "street in New Belgrade City Municipality, Belgrade",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dusanavukasovica",
+  "n": "Dušana Vukasovića",
+  "a": "",
+  "pc": "",
+  "lat": 44.80283,
+  "lng": 20.37393,
+  "c": "oddity",
+  "s": "street in New Belgrade, Belgrade",
+  "q": "Dušana Vukasovića Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12760349",
+   "raw": "street in New Belgrade, Belgrade",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "instituteofmentalhealth",
+  "n": "Institute of Mental Health",
+  "a": "",
+  "pc": "",
+  "lat": 44.74333,
+  "lng": 20.4,
+  "c": "oddity",
+  "s": "hospital in Belgrade, Serbia",
+  "q": "Institute of Mental Health Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q14333577",
+   "raw": "hospital in Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "archiveofserbia",
+  "n": "Archive of Serbia",
+  "a": "",
+  "pc": "",
+  "lat": 44.73,
+  "lng": 20.3716,
+  "c": "oddity",
+  "s": "national archive of Serbia",
+  "q": "Archive of Serbia Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q15091408",
+   "raw": "national archive of Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blok62",
+  "n": "Blok 62",
+  "a": "",
+  "pc": "",
+  "lat": 44.80474,
+  "lng": 20.37638,
+  "c": "oddity",
+  "s": "neighborhood in Belgrade, Serbia",
+  "q": "Blok 62 Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16083580",
+   "raw": "neighborhood in Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blok63",
+  "n": "Blok 63",
+  "a": "",
+  "pc": "",
+  "lat": 44.80658,
+  "lng": 20.38193,
+  "c": "oddity",
+  "s": "neighborhood in Belgrade, Serbia",
+  "q": "Blok 63 Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16083611",
+   "raw": "neighborhood in Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museumofnaiveandmarginal",
+  "n": "Museum of naive and marginal art in Jagodina",
+  "a": "",
+  "pc": "",
+  "lat": 44.80213,
+  "lng": 20.35641,
+  "c": "museum",
+  "s": "museum in Serbia",
+  "q": "Museum of naive and marginal art in Jagodina Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16087826",
+   "raw": "museum in Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bezanijskiblokovi",
+  "n": "Bežanijski blokovi",
+  "a": "",
+  "pc": "",
+  "lat": 44.80456,
+  "lng": 20.38317,
+  "c": "oddity",
+  "s": "neighborhood in Belgrade, Serbia",
+  "q": "Bežanijski blokovi Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q31183661",
+   "raw": "neighborhood in Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rujevica",
+  "n": "Rujevica",
+  "a": "",
+  "pc": "",
+  "lat": 44.78306,
+  "lng": 20.35,
+  "c": "oddity",
+  "s": "mountain in Serbia",
+  "q": "Rujevica Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q31493513",
+   "raw": "mountain in Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "belgrademarshallingyard",
+  "n": "Belgrade marshalling yard",
+  "a": "",
+  "pc": "",
+  "lat": 44.74083,
+  "lng": 20.37278,
+  "c": "oddity",
+  "s": "railway marshalling yard in Belgrade, Serbia",
+  "q": "Belgrade marshalling yard Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q38250773",
+   "raw": "railway marshalling yard in Belgrade, Serbia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "elementaryschooljovanste",
+  "n": "Elementary School \"Jovan Sterija Popović\" New Belgrade",
+  "a": "",
+  "pc": "",
+  "lat": 44.80783,
+  "lng": 20.37724,
+  "c": "oddity",
+  "s": "one of the elementary schools located in New Belgrade",
+  "q": "Elementary School \"Jovan Sterija Popović\" New Belgrade Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q61358547",
+   "raw": "one of the elementary schools located in New Belgrade",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "primaryschool20octoberne",
+  "n": "Primary School \"20. October\" New Belgrade",
+  "a": "",
+  "pc": "",
+  "lat": 44.80005,
+  "lng": 20.39584,
+  "c": "oddity",
+  "s": "elementary school in Belgrade",
+  "q": "Primary School \"20. October\" New Belgrade Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q61359571",
+   "raw": "elementary school in Belgrade",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "elementaryschooldraganlu",
+  "n": "Elementary School \"Dragan Lukic\" New Belgrade",
+  "a": "",
+  "pc": "",
+  "lat": 44.81434,
+  "lng": 20.37007,
+  "c": "oddity",
+  "s": "elementary school in Belgrade",
+  "q": "Elementary School \"Dragan Lukic\" New Belgrade Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85997209",
+   "raw": "elementary school in Belgrade",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "memorialcemeteryatbezani",
+  "n": "Memorial Cemetery at Bežanijska kosa",
+  "a": "",
+  "pc": "",
+  "lat": 44.81166,
+  "lng": 20.37076,
+  "c": "death",
+  "s": "historic cemetery",
+  "q": "Memorial Cemetery at Bežanijska kosa Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85999099",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "elementaryschoolsavasuma",
+  "n": "Elementary school \"Sava Šumanović\"",
+  "a": "",
+  "pc": "",
+  "lat": 44.84552,
+  "lng": 20.3527,
+  "c": "oddity",
+  "s": "elementary school",
+  "q": "Elementary school \"Sava Šumanović\" Belgrade",
+  "w": "",
+  "city": "belgrade",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q89039774",
+   "raw": "Elementary school",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

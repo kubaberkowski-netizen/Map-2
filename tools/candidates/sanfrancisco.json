@@ -1,0 +1,5169 @@
+[
+ {
+  "id": "operaplazacinema",
+  "n": "Opera Plaza Cinema",
+  "a": "",
+  "pc": "",
+  "lat": 37.78138,
+  "lng": -122.42156,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Opera Plaza Cinema San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/140982581",
+   "raw": {
+    "addr:city": "San Francisco",
+    "addr:housenumber": "601",
+    "addr:postcode": "94102",
+    "addr:state": "CA",
+    "addr:street": "Van Ness Avenue",
+    "amenity": "cinema",
+    "brand": "Landmark Theatres",
+    "brand:short": "Landmark",
+    "brand:wikidata": "Q6484805",
+    "ele": "27",
+    "gnis:feature_id": "1655480",
+    "name": "Opera Plaza Cinema",
+    "operator:wikidata": "Q6484805",
+    "phone": "+1 415 771 0183",
+    "screen": "4",
+    "short_name": "Landmark",
+    "website": "https://www.landmarktheatres.com/san-francisco/opera-plaza-cinema",
+    "wikidata": "Q44634616"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fortwinfieldscott",
+  "n": "Fort Winfield Scott",
+  "a": "",
+  "pc": "",
+  "lat": 37.80164,
+  "lng": -122.47461,
+  "c": "medieval",
+  "s": "fortification",
+  "q": "Fort Winfield Scott San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/140982962",
+   "raw": {
+    "ele": "71",
+    "gnis:feature_id": "1658567",
+    "historic": "fort",
+    "name": "Fort Winfield Scott",
+    "wikidata": "Q122566778"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "phillipburton",
+  "n": "Phillip Burton",
+  "a": "",
+  "pc": "",
+  "lat": 37.80511,
+  "lng": -122.42956,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Phillip Burton San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/258660872",
+   "raw": {
+    "artwork_type": "sculpture",
+    "historic": "monument",
+    "material": "metal",
+    "name": "Phillip Burton",
+    "subject:wikipedia": "en:Phillip Burton",
+    "tourism": "artwork",
+    "wikimedia_commons": "Category:Phillip Burton Statue, Fort Mason"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "worldwariimemorial",
+  "n": "World War II Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 37.79861,
+  "lng": -122.47796,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "World War II Memorial San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/281555367",
+   "raw": {
+    "historic": "monument",
+    "name": "World War II Memorial",
+    "wikidata": "Q7984818",
+    "wikimedia_commons": "Category:West Coast Memorial to the Missing of World War II",
+    "wikipedia": "en:West Coast Memorial to the Missing of World War II"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williemccoveystatue",
+  "n": "Willie McCovey Statue",
+  "a": "",
+  "pc": "",
+  "lat": 37.77656,
+  "lng": -122.38845,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Willie McCovey Statue San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/302034119",
+   "raw": {
+    "artwork_type": "statue",
+    "material": "metal",
+    "name": "Willie McCovey Statue",
+    "subject:wikidata": "Q3569094",
+    "tourism": "artwork",
+    "wikidata": "Q97178957"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "holocaustmemorial",
+  "n": "Holocaust Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 37.78564,
+  "lng": -122.49998,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Holocaust Memorial San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/302481872",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Holocaust Memorial",
+    "start_date": "1984-11-07",
+    "wikidata": "Q5883934",
+    "wikipedia": "en:Holocaust Memorial at California Palace of the Legion of Honor"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "amcloewsmetreon16",
+  "n": "AMC Loews Metreon 16",
+  "a": "",
+  "pc": "",
+  "lat": 37.78446,
+  "lng": -122.40371,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "AMC Loews Metreon 16 San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/302742486",
+   "raw": {
+    "addr:city": "San Francisco",
+    "addr:floor": "2",
+    "addr:housenumber": "135",
+    "addr:postcode": "94103",
+    "addr:state": "CA",
+    "addr:street": "4th Street",
+    "addr:unit": "3000",
+    "air_conditioning": "yes",
+    "amenity": "cinema",
+    "brand": "AMC",
+    "brand:wikidata": "Q294721",
+    "check_date": "2026-03-21",
+    "cinema:IMAX": "yes",
+    "designation": "AMC Metreon 16",
+    "level": "1",
+    "name": "AMC Loews Metreon 16",
+    "note": "Occupies (entire) third floor of building",
+    "screen": "16",
+    "source": "Survey",
+    "website": "https://www.amctheatres.com/movie-theatres/san-francisco/amc-metreon-16",
+    "wheelchair": "yes",
+    "wikidata": "Q44633506"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "californiasocietyofpione",
+  "n": "California Society of Pioneers Museum and Library",
+  "a": "",
+  "pc": "",
+  "lat": 37.8,
+  "lng": -122.45962,
+  "c": "museum",
+  "s": "museum",
+  "q": "California Society of Pioneers Museum and Library San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/317081601",
+   "raw": {
+    "addr:city": "San Francisco",
+    "addr:housenumber": "101",
+    "addr:postcode": "94129",
+    "addr:state": "CA",
+    "addr:street": "Montgomery Street",
+    "addr:unit": "150",
+    "name": "California Society of Pioneers Museum and Library",
+    "tourism": "museum",
+    "website": "https://www.californiapioneers.org/",
+    "wheelchair": "no",
+    "wikidata": "Q7552409"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "inspirationpoint",
+  "n": "Inspiration Point",
+  "a": "",
+  "pc": "",
+  "lat": 37.79222,
+  "lng": -122.45826,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Inspiration Point San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/332786657",
+   "raw": {
+    "created_by": "Potlatch 0.10f",
+    "name": "Inspiration Point",
+    "tourism": "viewpoint",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanfranciscobahaicenter",
+  "n": "San Francisco Baha'i Center",
+  "a": "",
+  "pc": "",
+  "lat": 37.77044,
+  "lng": -122.42263,
+  "c": "faith",
+  "s": "place of worship",
+  "q": "San Francisco Baha'i Center San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803209",
+   "raw": {
+    "addr:city": "San Francisco",
+    "addr:housenumber": "170",
+    "addr:postcode": "94103",
+    "addr:street": "Valencia Street",
+    "amenity": "place_of_worship",
+    "gnis:feature_id": "1655327",
+    "name": "San Francisco Baha'i Center",
+    "phone": "+1-415-431-9990",
+    "religion": "bahai",
+    "website": "https://www.sfbahai.org/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "brahmakumarismeditationc",
+  "n": "Brahma Kumaris Meditation Center",
+  "a": "",
+  "pc": "",
+  "lat": 37.77472,
+  "lng": -122.44147,
+  "c": "faith",
+  "s": "temple",
+  "q": "Brahma Kumaris Meditation Center San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803214",
+   "raw": {
+    "addr:city": "San Francisco",
+    "addr:housenumber": "401",
+    "addr:postcode": "94117",
+    "addr:street": "Baker Street",
+    "amenity": "place_of_worship",
+    "check_date": "2025-12-02",
+    "email": "sfoffice@us.brahmakumaris.org",
+    "gnis:feature_id": "1655334",
+    "name": "Brahma Kumaris Meditation Center",
+    "phone": "+1-415-563-4459",
+    "religion": "hindu",
+    "website": "https://bksanfrancisco.org"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "californiavolunteersmemo",
+  "n": "California Volunteers Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 37.76887,
+  "lng": -122.42681,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "California Volunteers Memorial San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803219",
+   "raw": {
+    "ele": "34",
+    "gnis:feature_id": "1655339",
+    "historic": "monument",
+    "name": "California Volunteers Memorial",
+    "wikidata": "Q21593039"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chapelofgrace",
+  "n": "Chapel of Grace",
+  "a": "",
+  "pc": "",
+  "lat": 37.79164,
+  "lng": -122.41394,
+  "c": "faith",
+  "s": "church",
+  "q": "Chapel of Grace San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803230",
+   "raw": {
+    "amenity": "place_of_worship",
+    "ele": "94",
+    "gnis:feature_id": "1655348",
+    "name": "Chapel of Grace",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofthenewjerusalem",
+  "n": "Church of the New Jerusalem",
+  "a": "",
+  "pc": "",
+  "lat": 37.79021,
+  "lng": -122.44636,
+  "c": "faith",
+  "s": "church",
+  "q": "Church of the New Jerusalem San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803237",
+   "raw": {
+    "amenity": "place_of_worship",
+    "ele": "98",
+    "gnis:feature_id": "1655355",
+    "name": "Church of the New Jerusalem",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "firstunitarianuniversali",
+  "n": "First Unitarian Universalist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.78521,
+  "lng": -122.4233,
+  "c": "faith",
+  "s": "place of worship",
+  "q": "First Unitarian Universalist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803269",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2026-02-17",
+    "ele": "57",
+    "email": "info@uusf.org",
+    "gnis:feature_id": "1655383",
+    "name": "First Unitarian Universalist Church",
+    "phone": "+1-415-776-4580",
+    "religion": "unitarian_universalist",
+    "service_times": "Sunday at 11 AM",
+    "verified": "06/22/2009",
+    "website": "https://www.uusf.org/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "georgesterlingmemorial",
+  "n": "George Sterling Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 37.80175,
+  "lng": -122.42108,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "George Sterling Memorial San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803277",
+   "raw": {
+    "ele": "91",
+    "historic": "memorial",
+    "name": "George Sterling Memorial",
+    "toilets:wheelchair": "no",
+    "wheelchair": "yes",
+    "wikidata": "Q49493469",
+    "wikipedia": "ceb:George Sterling Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lottasfountain",
+  "n": "Lotta's Fountain",
+  "a": "",
+  "pc": "",
+  "lat": 37.78794,
+  "lng": -122.4033,
+  "c": "history",
+  "s": "memorial fountain",
+  "q": "Lotta's Fountain San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803316",
+   "raw": {
+    "alt_name": "Lotta Crabtree Fountain",
+    "amenity": "fountain",
+    "ele": "13",
+    "gnis:feature_id": "1655439",
+    "historic": "yes",
+    "name": "Lotta's Fountain",
+    "ref:nrhp": "75000475",
+    "ref:sfdl": "73",
+    "start_date": "1875",
+    "wikidata": "Q12061379",
+    "wikipedia": "en:Lotta's Fountain"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mechanicsmonument",
+  "n": "Mechanics Monument",
+  "a": "",
+  "pc": "",
+  "lat": 37.79128,
+  "lng": -122.39921,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Mechanics Monument San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803325",
+   "raw": {
+    "artist_name": "Douglas Tilden",
+    "ele": "5",
+    "gnis:feature_id": "1655450",
+    "historic": "monument",
+    "monument": "statue",
+    "name": "Mechanics Monument",
+    "note": "Sculptor Douglas Tilden, erected in 1901",
+    "start_date": "1901",
+    "wikidata": "Q17021242"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "morningstarchurch",
+  "n": "Morning Star Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.78798,
+  "lng": -122.42719,
+  "c": "faith",
+  "s": "church",
+  "q": "Morning Star Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803337",
+   "raw": {
+    "amenity": "place_of_worship",
+    "ele": "70",
+    "gnis:feature_id": "1655462",
+    "name": "Morning Star Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oldholyvirginrussianorth",
+  "n": "Old Holy Virgin Russian Orthodox Cathedral",
+  "a": "",
+  "pc": "",
+  "lat": 37.778,
+  "lng": -122.43094,
+  "c": "faith",
+  "s": "cathedral",
+  "q": "Old Holy Virgin Russian Orthodox Cathedral San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803353",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "orthodox",
+    "ele": "69",
+    "gnis:feature_id": "1655477",
+    "name": "Old Holy Virgin Russian Orthodox Cathedral",
+    "phone": "+1-415-346-4952",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "apostolicfaithchurch",
+  "n": "Apostolic Faith Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.78772,
+  "lng": -122.42137,
+  "c": "faith",
+  "s": "church",
+  "q": "Apostolic Faith Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803374",
+   "raw": {
+    "amenity": "place_of_worship",
+    "ele": "50",
+    "gnis:feature_id": "1655509",
+    "name": "Apostolic Faith Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bethelafricanmethodistep",
+  "n": "Bethel African Methodist Episcopal Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.77982,
+  "lng": -122.42673,
+  "c": "faith",
+  "s": "church",
+  "q": "Bethel African Methodist Episcopal Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803375",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "ele": "29",
+    "gnis:feature_id": "1655510",
+    "name": "Bethel African Methodist Episcopal Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintaidansepiscopalchur",
+  "n": "Saint Aidans Episcopal Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.74604,
+  "lng": -122.43803,
+  "c": "faith",
+  "s": "church",
+  "q": "Saint Aidans Episcopal Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803384",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "episcopal",
+    "ele": "152",
+    "gnis:feature_id": "1655514",
+    "name": "Saint Aidans Episcopal Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "templocalvario",
+  "n": "Templo Calvario",
+  "a": "",
+  "pc": "",
+  "lat": 37.7734,
+  "lng": -122.41487,
+  "c": "faith",
+  "s": "church",
+  "q": "Templo Calvario San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803467",
+   "raw": {
+    "amenity": "place_of_worship",
+    "ele": "11",
+    "gnis:feature_id": "1655564",
+    "name": "Templo Calvario",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "trinityepiscopalchurch",
+  "n": "Trinity Episcopal Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.78826,
+  "lng": -122.42469,
+  "c": "faith",
+  "s": "church",
+  "q": "Trinity Episcopal Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803472",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "episcopal",
+    "ele": "70",
+    "gnis:feature_id": "1655570",
+    "name": "Trinity Episcopal Church",
+    "religion": "christian",
+    "service_times": "Su 09:00, 11:00"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "usssanfranciscomemorial",
+  "n": "USS San Francisco Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 37.78282,
+  "lng": -122.51146,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "USS San Francisco Memorial San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803480",
+   "raw": {
+    "architect": "Henry V. Chescoe; George M. Cantrell",
+    "ele": "59",
+    "gnis:feature_id": "1655576",
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "USS San Francisco Memorial",
+    "start_date": "1950-11-12",
+    "wikidata": "Q49573654"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamtaylormethodistch",
+  "n": "William Taylor Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.78102,
+  "lng": -122.41413,
+  "c": "faith",
+  "s": "church",
+  "q": "William Taylor Methodist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803485",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "ele": "16",
+    "gnis:feature_id": "1655583",
+    "name": "William Taylor Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alamosquarehistoricdistr",
+  "n": "Alamo Square Historic District",
+  "a": "",
+  "pc": "",
+  "lat": 37.77715,
+  "lng": -122.43497,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Alamo Square Historic District San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803503",
+   "raw": {
+    "ele": "61",
+    "gnis:feature_id": "1655592",
+    "heritage": "8",
+    "historic": "district",
+    "name": "Alamo Square Historic District",
+    "tourism": "attraction",
+    "wikidata": "Q49472048"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "allhallowsromancatholicc",
+  "n": "All Hallows Roman Catholic Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.73351,
+  "lng": -122.38893,
+  "c": "faith",
+  "s": "church",
+  "q": "All Hallows Roman Catholic Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803505",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "ele": "32",
+    "gnis:feature_id": "1655593",
+    "name": "All Hallows Roman Catholic Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "assyrianchurchoftheeast",
+  "n": "Assyrian Church of the East",
+  "a": "",
+  "pc": "",
+  "lat": 37.75651,
+  "lng": -122.50523,
+  "c": "faith",
+  "s": "church",
+  "q": "Assyrian Church of the East San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803515",
+   "raw": {
+    "amenity": "place_of_worship",
+    "ele": "15",
+    "gnis:feature_id": "1655599",
+    "name": "Assyrian Church of the East",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chineseunitedmethodistch",
+  "n": "Chinese United Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.79506,
+  "lng": -122.40826,
+  "c": "faith",
+  "s": "church",
+  "q": "Chinese United Methodist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803569",
+   "raw": {
+    "addr:city": "San Francisco",
+    "addr:housenumber": "1009",
+    "addr:street": "Stockton Street",
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "ele": "32",
+    "gnis:feature_id": "1655624",
+    "name": "Chinese United Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "christunitedpresbyterian",
+  "n": "Christ United Presbyterian Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.78687,
+  "lng": -122.42858,
+  "c": "faith",
+  "s": "church",
+  "q": "Christ United Presbyterian Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803572",
+   "raw": {
+    "addr:city": "San Francisco",
+    "addr:housenumber": "1700",
+    "addr:postcode": "94115",
+    "addr:state": "CA",
+    "addr:street": "Sutter Street",
+    "amenity": "place_of_worship",
+    "contact:facebook": "https://facebook.com/poplarheights",
+    "denomination": "presbyterian",
+    "ele": "56",
+    "email": "office@cupc.org",
+    "gnis:feature_id": "1655625",
+    "name": "Christ United Presbyterian Church",
+    "name:ja": "キリスト合同長老教会",
+    "phone": "+1-415-567-3988",
+    "religion": "christian",
+    "service_times": "Su 10:00",
+    "website": "https://cupc.org/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "episcopalchurchoftheinca",
+  "n": "Episcopal Church of the Incarnation",
+  "a": "",
+  "pc": "",
+  "lat": 37.75465,
+  "lng": -122.48692,
+  "c": "faith",
+  "s": "church",
+  "q": "Episcopal Church of the Incarnation San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803583",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2026-01-03",
+    "denomination": "episcopal",
+    "ele": "92",
+    "gnis:feature_id": "1655632",
+    "name": "Episcopal Church of the Incarnation",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "goodshepherdlutheranchur",
+  "n": "Good Shepherd Lutheran Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.75743,
+  "lng": -122.48608,
+  "c": "faith",
+  "s": "church",
+  "q": "Good Shepherd Lutheran Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803614",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "lutheran",
+    "ele": "81",
+    "gnis:feature_id": "1655648",
+    "name": "Good Shepherd Lutheran Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jacksonsquarehistoricdis",
+  "n": "Jackson Square Historic District",
+  "a": "",
+  "pc": "",
+  "lat": 37.79687,
+  "lng": -122.40303,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Jackson Square Historic District San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803650",
+   "raw": {
+    "ele": "7",
+    "gnis:feature_id": "1655668",
+    "historic": "district",
+    "name": "Jackson Square Historic District",
+    "wikidata": "Q49506269"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "redemptionchurch",
+  "n": "Redemption Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.77781,
+  "lng": -122.43936,
+  "c": "faith",
+  "s": "church",
+  "q": "Redemption Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803651",
+   "raw": {
+    "addr:housenumber": "1660",
+    "addr:street": "McAllister Street",
+    "amenity": "place_of_worship",
+    "check_date": "2026-03-11",
+    "ele": "67",
+    "gnis:feature_id": "1655669",
+    "name": "Redemption Church",
+    "old_name": "Jerusalem Church of God in Christ",
+    "religion": "christian",
+    "service_times": "Su 09:00, 11:00",
+    "website": "https://redemptionsf.com"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lutheranchurchoftheholyc",
+  "n": "Lutheran Church of the Holy Chapel",
+  "a": "",
+  "pc": "",
+  "lat": 37.79271,
+  "lng": -122.42247,
+  "c": "faith",
+  "s": "church",
+  "q": "Lutheran Church of the Holy Chapel San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803685",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "lutheran",
+    "ele": "59",
+    "gnis:feature_id": "1655687",
+    "name": "Lutheran Church of the Holy Chapel",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "newstrangershomebaptistc",
+  "n": "New Strangers Home Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.7766,
+  "lng": -122.44108,
+  "c": "faith",
+  "s": "church",
+  "q": "New Strangers Home Baptist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803734",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "ele": "68",
+    "gnis:feature_id": "1655713",
+    "name": "New Strangers Home Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "northeastwaterfronthisto",
+  "n": "Northeast Waterfront Historic District",
+  "a": "",
+  "pc": "",
+  "lat": 37.80021,
+  "lng": -122.40108,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Northeast Waterfront Historic District San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803741",
+   "raw": {
+    "ele": "6",
+    "gnis:feature_id": "1655716",
+    "heritage": "6",
+    "historic": "district",
+    "name": "Northeast Waterfront Historic District",
+    "name:zh": "东北海岸历史街区"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oldfirstpresbyterianchur",
+  "n": "Old First Presbyterian Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.7912,
+  "lng": -122.42215,
+  "c": "faith",
+  "s": "church",
+  "q": "Old First Presbyterian Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803750",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "presbyterian",
+    "ele": "57",
+    "gnis:feature_id": "1655720",
+    "name": "Old First Presbyterian Church",
+    "religion": "christian",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pentecostaltemplechurcho",
+  "n": "Pentecostal Temple Church of God in Christ",
+  "a": "",
+  "pc": "",
+  "lat": 37.77701,
+  "lng": -122.44356,
+  "c": "faith",
+  "s": "church",
+  "q": "Pentecostal Temple Church of God in Christ San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803754",
+   "raw": {
+    "addr:housenumber": "1915;1919",
+    "addr:street": "McAllister Street",
+    "amenity": "place_of_worship",
+    "check_date": "2025-08-19",
+    "denomination": "pentecostal",
+    "ele": "72",
+    "gnis:feature_id": "1655722",
+    "level": "0",
+    "name": "Pentecostal Temple Church of God in Christ",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lutheranchurchofoursavio",
+  "n": "Lutheran Church of Our Savior",
+  "a": "",
+  "pc": "",
+  "lat": 37.71938,
+  "lng": -122.47192,
+  "c": "faith",
+  "s": "church",
+  "q": "Lutheran Church of Our Savior San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803774",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "lutheran",
+    "ele": "69",
+    "gnis:feature_id": "1655788",
+    "name": "Lutheran Church of Our Savior",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "norwegianseamanschurch",
+  "n": "Norwegian Seamans Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.80354,
+  "lng": -122.41969,
+  "c": "faith",
+  "s": "church",
+  "q": "Norwegian Seamans Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358803777",
+   "raw": {
+    "amenity": "place_of_worship",
+    "ele": "59",
+    "gnis:feature_id": "1655789",
+    "name": "Norwegian Seamans Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fulllifechristiancenter",
+  "n": "Full Life Christian Center",
+  "a": "",
+  "pc": "",
+  "lat": 37.7756,
+  "lng": -122.49684,
+  "c": "faith",
+  "s": "church",
+  "q": "Full Life Christian Center San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804496",
+   "raw": {
+    "addr:housenumber": "3535",
+    "addr:postcode": "94121",
+    "addr:street": "Balboa Street",
+    "amenity": "place_of_worship",
+    "ele": "56",
+    "gnis:feature_id": "1656784",
+    "name": "Full Life Christian Center",
+    "name:zh": "豐盛生命教會",
+    "old_name": "Assemblies of God Chinese Christian Center",
+    "religion": "christian",
+    "service_times": "Su 10:30-12:00"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "buddhasuniversalchurch",
+  "n": "Buddha's Universal Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.7954,
+  "lng": -122.40528,
+  "c": "faith",
+  "s": "temple",
+  "q": "Buddha's Universal Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804501",
+   "raw": {
+    "amenity": "place_of_worship",
+    "contact:facebook": "BuddhasUniversalChurch",
+    "contact:instagram": "BuddhasUniversalChurch",
+    "contact:twitter": "BUC_SF",
+    "ele": "13",
+    "email": "buddhasuniversalchurch@gmail.com",
+    "fax": "+1 415 4213325",
+    "gnis:feature_id": "1656786",
+    "name": "Buddha's Universal Church",
+    "phone": "+1 415 9826116;+1 415 9826117;+1 415 9826118",
+    "religion": "buddhist",
+    "website": "https://www.bucsf.com/",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chisinbuddhistandtaoista",
+  "n": "Chi Sin Buddhist and Taoist Association",
+  "a": "",
+  "pc": "",
+  "lat": 37.79442,
+  "lng": -122.4098,
+  "c": "faith",
+  "s": "temple",
+  "q": "Chi Sin Buddhist and Taoist Association San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804507",
+   "raw": {
+    "amenity": "place_of_worship",
+    "ele": "55",
+    "gnis:feature_id": "1656787",
+    "name": "Chi Sin Buddhist and Taoist Association",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chinesecommunitychurch",
+  "n": "Chinese Community Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.7941,
+  "lng": -122.42053,
+  "c": "faith",
+  "s": "church",
+  "q": "Chinese Community Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804510",
+   "raw": {
+    "amenity": "place_of_worship",
+    "ele": "60",
+    "gnis:feature_id": "1656788",
+    "name": "Chinese Community Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofchristgoldengate",
+  "n": "Church of Christ Golden Gate",
+  "a": "",
+  "pc": "",
+  "lat": 37.77504,
+  "lng": -122.46623,
+  "c": "faith",
+  "s": "church",
+  "q": "Church of Christ Golden Gate San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804539",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2026-04-05",
+    "ele": "72",
+    "gnis:feature_id": "1656792",
+    "name": "Church of Christ Golden Gate",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thechurchofjesuschristof",
+  "n": "The Church of Jesus Christ of Latter-day Saints",
+  "a": "",
+  "pc": "",
+  "lat": 37.75743,
+  "lng": -122.48053,
+  "c": "faith",
+  "s": "church",
+  "q": "The Church of Jesus Christ of Latter-day Saints San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804544",
+   "raw": {
+    "addr:housenumber": "1601",
+    "addr:street": "22nd Avenue",
+    "amenity": "place_of_worship",
+    "check_date": "2026-04-15",
+    "denomination": "mormon",
+    "ele": "84",
+    "gnis:feature_id": "1656793",
+    "level": "0",
+    "name": "The Church of Jesus Christ of Latter-day Saints",
+    "religion": "christian",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "communityassemblyofgodch",
+  "n": "Community Assembly of God Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.7227,
+  "lng": -122.44414,
+  "c": "faith",
+  "s": "church",
+  "q": "Community Assembly of God Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804549",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "assemblies_of_god",
+    "ele": "60",
+    "gnis:feature_id": "1656794",
+    "name": "Community Assembly of God Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanfranciscochinesebapti",
+  "n": "San Francisco Chinese Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.75333,
+  "lng": -122.49276,
+  "c": "faith",
+  "s": "church",
+  "q": "San Francisco Chinese Baptist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804567",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-06-25",
+    "denomination": "baptist",
+    "ele": "64",
+    "gnis:feature_id": "1656796",
+    "name": "San Francisco Chinese Baptist Church",
+    "religion": "christian",
+    "website": "https://www.sfcbc.org/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "firstunitedpresbyterianc",
+  "n": "First United Presbyterian Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.73428,
+  "lng": -122.49191,
+  "c": "faith",
+  "s": "church",
+  "q": "First United Presbyterian Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804587",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "presbyterian",
+    "ele": "37",
+    "gnis:feature_id": "1656803",
+    "name": "First United Presbyterian Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "graceunitedmethodistchur",
+  "n": "Grace United Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.74243,
+  "lng": -122.49372,
+  "c": "faith",
+  "s": "church",
+  "q": "Grace United Methodist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804595",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "ele": "44",
+    "gnis:feature_id": "1656805",
+    "name": "Grace United Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "greaterjerusalembaptistc",
+  "n": "Greater Jerusalem Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.77604,
+  "lng": -122.42914,
+  "c": "faith",
+  "s": "church",
+  "q": "Greater Jerusalem Baptist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804599",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "ele": "39",
+    "gnis:feature_id": "1656806",
+    "name": "Greater Jerusalem Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "inglesidepresbyterianchu",
+  "n": "Ingleside Presbyterian Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.72354,
+  "lng": -122.45692,
+  "c": "faith",
+  "s": "church",
+  "q": "Ingleside Presbyterian Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804608",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "presbyterian",
+    "ele": "85",
+    "gnis:feature_id": "1656809",
+    "name": "Ingleside Presbyterian Church",
+    "religion": "christian",
+    "wikidata": "Q65040691"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lakesidepresbyterianchur",
+  "n": "Lakeside Presbyterian Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.73075,
+  "lng": -122.47543,
+  "c": "faith",
+  "s": "church",
+  "q": "Lakeside Presbyterian Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804626",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "presbyterian",
+    "ele": "63",
+    "gnis:feature_id": "1656814",
+    "name": "Lakeside Presbyterian Church",
+    "phone": "+1 415 564 8833",
+    "religion": "christian",
+    "service_times": "Su 10:00",
+    "website": "www.lakesidesf.org"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mountvernonmissionarybap",
+  "n": "Mount Vernon Missionary Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.79104,
+  "lng": -122.4433,
+  "c": "faith",
+  "s": "church",
+  "q": "Mount Vernon Missionary Baptist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804637",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "ele": "86",
+    "gnis:feature_id": "1656818",
+    "name": "Mount Vernon Missionary Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "neighborhoodbaptistchurc",
+  "n": "Neighborhood Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.77654,
+  "lng": -122.42656,
+  "c": "faith",
+  "s": "church",
+  "q": "Neighborhood Baptist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804640",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "ele": "25",
+    "gnis:feature_id": "1656819",
+    "name": "Neighborhood Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parkpresidiobiblechurch",
+  "n": "Park Presidio Bible Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.77533,
+  "lng": -122.468,
+  "c": "faith",
+  "s": "church",
+  "q": "Park Presidio Bible Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804646",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2026-02-21",
+    "ele": "72",
+    "gnis:feature_id": "1656821",
+    "name": "Park Presidio Bible Church",
+    "religion": "christian",
+    "website": "https://nationtakers.com/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintandrewmissionarybap",
+  "n": "Saint Andrew Missionary Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.78365,
+  "lng": -122.44402,
+  "c": "faith",
+  "s": "church",
+  "q": "Saint Andrew Missionary Baptist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804698",
+   "raw": {
+    "addr:housenumber": "2565",
+    "addr:street": "Post Street",
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "ele": "76",
+    "gnis:feature_id": "1656840",
+    "name": "Saint Andrew Missionary Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintemydiusromancatholi",
+  "n": "Saint Emydius Roman Catholic Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.72326,
+  "lng": -122.46192,
+  "c": "faith",
+  "s": "church",
+  "q": "Saint Emydius Roman Catholic Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804766",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "ele": "80",
+    "gnis:feature_id": "1656854",
+    "name": "Saint Emydius Roman Catholic Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintpaulspresbyterianch",
+  "n": "Saint Paul's Presbyterian Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.76076,
+  "lng": -122.50303,
+  "c": "faith",
+  "s": "church",
+  "q": "Saint Paul's Presbyterian Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804772",
+   "raw": {
+    "addr:city": "San Francisco",
+    "addr:housenumber": "1399",
+    "addr:postcode": "94122",
+    "addr:state": "CA",
+    "addr:street": "43rd Avenue",
+    "amenity": "place_of_worship",
+    "denomination": "presbyterian",
+    "ele": "25",
+    "gnis:feature_id": "1656856",
+    "name": "Saint Paul's Presbyterian Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintstephenbaptistchurc",
+  "n": "Saint Stephen Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.75799,
+  "lng": -122.38941,
+  "c": "faith",
+  "s": "church",
+  "q": "Saint Stephen Baptist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804822",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "ele": "11",
+    "gnis:feature_id": "1656873",
+    "name": "Saint Stephen Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sunsetbaptistchurch",
+  "n": "Sunset Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.75354,
+  "lng": -122.49608,
+  "c": "faith",
+  "s": "church",
+  "q": "Sunset Baptist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804909",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "ele": "48",
+    "gnis:feature_id": "1656904",
+    "name": "Sunset Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sunsetbranchlutheranchur",
+  "n": "Sunset Branch Lutheran Church of the Holy Spirit",
+  "a": "",
+  "pc": "",
+  "lat": 37.75386,
+  "lng": -122.4897,
+  "c": "faith",
+  "s": "church",
+  "q": "Sunset Branch Lutheran Church of the Holy Spirit San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804916",
+   "raw": {
+    "addr:housenumber": "2400",
+    "addr:street": "Noriega Street",
+    "amenity": "place_of_worship",
+    "check_date": "2025-06-23",
+    "denomination": "lutheran",
+    "ele": "13",
+    "gnis:feature_id": "1656906",
+    "level": "0",
+    "name": "Sunset Branch Lutheran Church of the Holy Spirit",
+    "religion": "christian",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sunsetchinesebaptistchur",
+  "n": "Sunset Chinese Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.75701,
+  "lng": -122.50198,
+  "c": "faith",
+  "s": "church",
+  "q": "Sunset Chinese Baptist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804918",
+   "raw": {
+    "addr:housenumber": "3638",
+    "addr:street": "Lawton Street",
+    "amenity": "place_of_worship",
+    "check_date": "2024-01-11",
+    "denomination": "baptist",
+    "ele": "29",
+    "gnis:feature_id": "1656907",
+    "name": "Sunset Chinese Baptist Church",
+    "name:zh": "溢樂華人浸信會",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "truesunshineepiscopalchu",
+  "n": "True Sunshine Episcopal Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.79672,
+  "lng": -122.4116,
+  "c": "faith",
+  "s": "church",
+  "q": "True Sunshine Episcopal Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804944",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "episcopal",
+    "gnis:feature_id": "1656917",
+    "name": "True Sunshine Episcopal Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zionlutheranchurch",
+  "n": "Zion Lutheran Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.77913,
+  "lng": -122.4676,
+  "c": "faith",
+  "s": "church",
+  "q": "Zion Lutheran Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358804982",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2026-03-02",
+    "denomination": "lutheran",
+    "ele": "59",
+    "gnis:feature_id": "1656934",
+    "name": "Zion Lutheran Church",
+    "religion": "christian",
+    "service_times": "Su 10:00"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofthevisitacion",
+  "n": "Church of the Visitacion",
+  "a": "",
+  "pc": "",
+  "lat": 37.7095,
+  "lng": -122.4085,
+  "c": "faith",
+  "s": "church",
+  "q": "Church of the Visitacion San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805043",
+   "raw": {
+    "amenity": "place_of_worship",
+    "ele": "8",
+    "gnis:feature_id": "1657031",
+    "name": "Church of the Visitacion",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cumberlandpresbyterianch",
+  "n": "Cumberland Presbyterian Chinese Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.79557,
+  "lng": -122.40948,
+  "c": "faith",
+  "s": "church",
+  "q": "Cumberland Presbyterian Chinese Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805049",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "presbyterian",
+    "ele": "39",
+    "gnis:feature_id": "1657033",
+    "name": "Cumberland Presbyterian Chinese Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "daihonzannichirenji",
+  "n": "Daihonzan Nichiren-Ji",
+  "a": "",
+  "pc": "",
+  "lat": 37.7886,
+  "lng": -122.42915,
+  "c": "faith",
+  "s": "temple",
+  "q": "Daihonzan Nichiren-Ji San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805051",
+   "raw": {
+    "amenity": "place_of_worship",
+    "ele": "69",
+    "gnis:feature_id": "1657034",
+    "name": "Daihonzan Nichiren-Ji",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "firstchinesesouthernbapt",
+  "n": "First Chinese Southern Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.79264,
+  "lng": -122.4179,
+  "c": "faith",
+  "s": "church",
+  "q": "First Chinese Southern Baptist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805057",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "ele": "83",
+    "gnis:feature_id": "1657036",
+    "name": "First Chinese Southern Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "firstfriendshipinstituti",
+  "n": "First Friendship Institutional Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.77386,
+  "lng": -122.43276,
+  "c": "faith",
+  "s": "church",
+  "q": "First Friendship Institutional Baptist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805065",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "ele": "68",
+    "gnis:feature_id": "1657038",
+    "name": "First Friendship Institutional Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fortmasonchapel",
+  "n": "Fort Mason Chapel",
+  "a": "",
+  "pc": "",
+  "lat": 37.80585,
+  "lng": -122.42745,
+  "c": "faith",
+  "s": "church",
+  "q": "Fort Mason Chapel San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805067",
+   "raw": {
+    "amenity": "place_of_worship",
+    "ele": "31",
+    "name": "Fort Mason Chapel",
+    "religion": "christian",
+    "wikidata": "Q125194405"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fullgospelassemblychurch",
+  "n": "Full Gospel Assembly Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.76299,
+  "lng": -122.41997,
+  "c": "faith",
+  "s": "church",
+  "q": "Full Gospel Assembly Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805071",
+   "raw": {
+    "amenity": "place_of_worship",
+    "ele": "11",
+    "gnis:feature_id": "1657040",
+    "name": "Full Gospel Assembly Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "holyofholinessmissionary",
+  "n": "Holy of Holiness Missionary Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.77437,
+  "lng": -122.43775,
+  "c": "faith",
+  "s": "church",
+  "q": "Holy of Holiness Missionary Baptist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805081",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "ele": "59",
+    "gnis:feature_id": "1657043",
+    "name": "Holy of Holiness Missionary Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kagyudrodenkunchab",
+  "n": "Kagyu Droden Kunchab",
+  "a": "",
+  "pc": "",
+  "lat": 37.77276,
+  "lng": -122.44902,
+  "c": "faith",
+  "s": "temple",
+  "q": "Kagyu Droden Kunchab San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805091",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-12-11",
+    "ele": "74",
+    "gnis:feature_id": "1657046",
+    "level": "1",
+    "name": "Kagyu Droden Kunchab",
+    "religion": "buddhist",
+    "website": "https://www.kdk.org",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lighthousefullgospelchur",
+  "n": "Lighthouse Full Gospel Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.76454,
+  "lng": -122.42553,
+  "c": "faith",
+  "s": "church",
+  "q": "Lighthouse Full Gospel Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805101",
+   "raw": {
+    "amenity": "place_of_worship",
+    "ele": "21",
+    "gnis:feature_id": "1657049",
+    "name": "Lighthouse Full Gospel Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "paradisemonasteryofsanfr",
+  "n": "Paradise Monastery of San Francisco",
+  "a": "",
+  "pc": "",
+  "lat": 37.77353,
+  "lng": -122.4683,
+  "c": "faith",
+  "s": "temple",
+  "q": "Paradise Monastery of San Francisco San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805109",
+   "raw": {
+    "amenity": "place_of_worship",
+    "ele": "73",
+    "gnis:feature_id": "1657052",
+    "name": "Paradise Monastery of San Francisco",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintbrendancatholicchur",
+  "n": "Saint Brendan Catholic Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.74323,
+  "lng": -122.45668,
+  "c": "faith",
+  "s": "church",
+  "q": "Saint Brendan Catholic Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805134",
+   "raw": {
+    "addr:city": "San Francisco",
+    "addr:postcode": "94127",
+    "addr:state": "CA",
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "diocese": "San Francisco",
+    "ele": "179",
+    "gnis:feature_id": "1657060",
+    "name": "Saint Brendan Catholic Church",
+    "phone": "+1 415-681-4225",
+    "religion": "christian",
+    "website": "https://www.stbrendanparish.org/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintjohntheevangelistro",
+  "n": "Saint John the Evangelist Roman Catholic Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.73416,
+  "lng": -122.42723,
+  "c": "faith",
+  "s": "church",
+  "q": "Saint John the Evangelist Roman Catholic Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805149",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "ele": "55",
+    "gnis:feature_id": "1657065",
+    "name": "Saint John the Evangelist Roman Catholic Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintteresacatholicchurc",
+  "n": "Saint Teresa Catholic Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.76148,
+  "lng": -122.39716,
+  "c": "faith",
+  "s": "church",
+  "q": "Saint Teresa Catholic Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805179",
+   "raw": {
+    "addr:city": "San Francisco",
+    "addr:housenumber": "390",
+    "addr:postcode": "94107",
+    "addr:state": "CA",
+    "addr:street": "Missouri Street",
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "diocese": "San Francisco",
+    "ele": "44",
+    "gnis:feature_id": "1657074",
+    "name": "Saint Teresa Catholic Church",
+    "phone": "+1 415-285-5272",
+    "religion": "christian",
+    "website": "https://www.stteresasf.org/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wongtaisintemple",
+  "n": "Wong Tai Sin Temple",
+  "a": "",
+  "pc": "",
+  "lat": 37.77752,
+  "lng": -122.46389,
+  "c": "faith",
+  "s": "temple",
+  "q": "Wong Tai Sin Temple San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805211",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-06-28",
+    "ele": "61",
+    "gnis:feature_id": "1657084",
+    "name": "Wong Tai Sin Temple",
+    "name:zh": "黃太仙廟",
+    "opening_hours": "10:00-16:30",
+    "phone": "+1 415 750 9051",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "broadstreetbaptistchurch",
+  "n": "Broad Street Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.71384,
+  "lng": -122.46159,
+  "c": "faith",
+  "s": "church",
+  "q": "Broad Street Baptist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805223",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "ele": "94",
+    "gnis:feature_id": "1657090",
+    "name": "Broad Street Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cosmopolitanbaptistchurc",
+  "n": "Cosmopolitan Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.71382,
+  "lng": -122.45886,
+  "c": "faith",
+  "s": "church",
+  "q": "Cosmopolitan Baptist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805240",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "ele": "98",
+    "gnis:feature_id": "1657097",
+    "name": "Cosmopolitan Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "flowerhillbaptistchurch",
+  "n": "Flower Hill Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.73687,
+  "lng": -122.39858,
+  "c": "faith",
+  "s": "church",
+  "q": "Flower Hill Baptist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805257",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "ele": "26",
+    "gnis:feature_id": "1657107",
+    "name": "Flower Hill Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "greaternewlightbaptistch",
+  "n": "Greater New Light Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.72799,
+  "lng": -122.3808,
+  "c": "faith",
+  "s": "church",
+  "q": "Greater New Light Baptist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805272",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "ele": "6",
+    "gnis:feature_id": "1657113",
+    "name": "Greater New Light Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bushstreetcottagerowhist",
+  "n": "Bush Street-Cottage Row Historic District",
+  "a": "",
+  "pc": "",
+  "lat": 37.78702,
+  "lng": -122.43255,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Bush Street-Cottage Row Historic District San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805379",
+   "raw": {
+    "ele": "49",
+    "gnis:feature_id": "1657176",
+    "historic": "district",
+    "name": "Bush Street-Cottage Row Historic District",
+    "wikidata": "Q49476327"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "libertystreethistoricdis",
+  "n": "Liberty Street Historic District",
+  "a": "",
+  "pc": "",
+  "lat": 37.75743,
+  "lng": -122.4233,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Liberty Street Historic District San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805389",
+   "raw": {
+    "ele": "30",
+    "gnis:feature_id": "1657185",
+    "heritage": "2",
+    "heritage:operator": "nrhp",
+    "historic": "district",
+    "name": "Liberty Street Historic District"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "russianhillmacondraylane",
+  "n": "Russian Hill-Macondray Lane Historic District",
+  "a": "",
+  "pc": "",
+  "lat": 37.7991,
+  "lng": -122.41497,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Russian Hill-Macondray Lane Historic District San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805395",
+   "raw": {
+    "ele": "80",
+    "gnis:feature_id": "1657192",
+    "heritage": "2",
+    "heritage:operator": "nrhp",
+    "historic": "district",
+    "name": "Russian Hill-Macondray Lane Historic District",
+    "wikidata": "Q7382061"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "russianhillparisblockarc",
+  "n": "Russian Hill-Paris Block Architectural District",
+  "a": "",
+  "pc": "",
+  "lat": 37.79854,
+  "lng": -122.41636,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Russian Hill-Paris Block Architectural District San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805397",
+   "raw": {
+    "ele": "88",
+    "gnis:feature_id": "1657193",
+    "heritage": "2",
+    "heritage:operator": "nrhp",
+    "historic": "district",
+    "name": "Russian Hill-Paris Block Architectural District"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "russianhillvallejostreet",
+  "n": "Russian Hill-Vallejo Street Crest Historic District",
+  "a": "",
+  "pc": "",
+  "lat": 37.79769,
+  "lng": -122.41491,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Russian Hill-Vallejo Street Crest Historic District San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805401",
+   "raw": {
+    "ele": "97",
+    "gnis:feature_id": "1657194",
+    "historic": "district",
+    "name": "Russian Hill-Vallejo Street Crest Historic District",
+    "wikidata": "Q49555033"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "genevaavenueunitedmethod",
+  "n": "Geneva Avenue United Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.71382,
+  "lng": -122.43497,
+  "c": "faith",
+  "s": "church",
+  "q": "Geneva Avenue United Methodist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805515",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "ele": "73",
+    "gnis:feature_id": "1657286",
+    "name": "Geneva Avenue United Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "glidememorialunitedmetho",
+  "n": "Glide Memorial United Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.78523,
+  "lng": -122.41147,
+  "c": "faith",
+  "s": "church",
+  "q": "Glide Memorial United Methodist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358805518",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "ele": "21",
+    "gnis:feature_id": "1657287",
+    "name": "Glide Memorial United Methodist Church",
+    "religion": "christian",
+    "verified": "06/21/2009",
+    "wikidata": "Q5569568"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "goldengatepresbyterianch",
+  "n": "Golden Gate Presbyterian Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.70451,
+  "lng": -122.45796,
+  "c": "faith",
+  "s": "church",
+  "q": "Golden Gate Presbyterian Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358830564",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "presbyterian",
+    "ele": "127",
+    "gnis:feature_id": "1785805",
+    "name": "Golden Gate Presbyterian Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintluketemplechristian",
+  "n": "Saint Luke Temple Christian Methodist Episcopal Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.70493,
+  "lng": -122.45553,
+  "c": "faith",
+  "s": "church",
+  "q": "Saint Luke Temple Christian Methodist Episcopal Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358830592",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "ele": "125",
+    "gnis:feature_id": "1785831",
+    "name": "Saint Luke Temple Christian Methodist Episcopal Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vistagrandeavenuechristi",
+  "n": "Vista Grande Avenue Christian Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.70299,
+  "lng": -122.46442,
+  "c": "faith",
+  "s": "church",
+  "q": "Vista Grande Avenue Christian Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358830612",
+   "raw": {
+    "amenity": "place_of_worship",
+    "ele": "103",
+    "gnis:feature_id": "1785842",
+    "name": "Vista Grande Avenue Christian Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hawkhill",
+  "n": "Hawk Hill",
+  "a": "",
+  "pc": "",
+  "lat": 37.82855,
+  "lng": -122.49877,
+  "c": "view",
+  "s": "hilltop viewpoint",
+  "q": "Hawk Hill San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358833288",
+   "raw": {
+    "ele": "281",
+    "gnis:feature_id": "1809026",
+    "name": "Hawk Hill",
+    "natural": "peak",
+    "tourism": "viewpoint",
+    "wikidata": "Q5684825"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hunterspoint",
+  "n": "Hunters Point",
+  "a": "",
+  "pc": "",
+  "lat": 37.72646,
+  "lng": -122.36564,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Hunters Point San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/361143248",
+   "raw": {
+    "ele": "03",
+    "gnis:feature_id": "225974",
+    "historic": "maritime",
+    "name": "Hunters Point",
+    "natural": "cape"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "batterychester",
+  "n": "Battery Chester",
+  "a": "",
+  "pc": "",
+  "lat": 37.78288,
+  "lng": -122.50886,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Battery Chester San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/364760948",
+   "raw": {
+    "created_by": "Potlatch 0.10f",
+    "historic": "ruins",
+    "name": "Battery Chester"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "batterylivingstonb",
+  "n": "Battery Livingston B",
+  "a": "",
+  "pc": "",
+  "lat": 37.78287,
+  "lng": -122.50162,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Battery Livingston B San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/364760988",
+   "raw": {
+    "created_by": "Potlatch 0.10f",
+    "historic": "ruins",
+    "name": "Battery Livingston B"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nikemissilesitesf88",
+  "n": "Nike Missile Site SF-88",
+  "a": "",
+  "pc": "",
+  "lat": 37.82711,
+  "lng": -122.52745,
+  "c": "museum",
+  "s": "museum",
+  "q": "Nike Missile Site SF-88 San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/364856957",
+   "raw": {
+    "name": "Nike Missile Site SF-88",
+    "note": "Preserved Nike missile site",
+    "tourism": "museum",
+    "website": "https://www.nps.gov/goga/nike-missile-site.htm",
+    "wikidata": "Q7389918"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "batteryconstruction129",
+  "n": "Battery Construction 129",
+  "a": "",
+  "pc": "",
+  "lat": 37.8269,
+  "lng": -122.50002,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Battery Construction 129 San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/364860922",
+   "raw": {
+    "historic": "ruins",
+    "name": "Battery Construction 129"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museemecanique",
+  "n": "Musée Mécanique",
+  "a": "",
+  "pc": "",
+  "lat": 37.80925,
+  "lng": -122.41579,
+  "c": "museum",
+  "s": "museum",
+  "q": "Musée Mécanique San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368166365",
+   "raw": {
+    "addr:city": "San Francisco",
+    "addr:country": "US",
+    "addr:housenumber": "Pier 45",
+    "addr:postcode": "94133",
+    "addr:state": "CA",
+    "addr:street": "Fishermans Wharf",
+    "addr:unit": "Shed A",
+    "atm": "yes",
+    "contact:facebook": "museemecaniquesf",
+    "contact:yelp": "https://www.yelp.com/biz/mus%C3%A9e-m%C3%A9canique-san-francisco-4",
+    "fee": "no",
+    "internet_access": "no",
+    "leisure": "amusement_arcade",
+    "name": "Musée Mécanique",
+    "name:en": "Musée Mécanique",
+    "name:fr": "Musée Mécanique",
+    "opening_hours": "Mo-Su,PH 10:00-20:00",
+    "phone": "+1 415 346 2000",
+    "tourism": "museum",
+    "website": "https://museemecanique.com/",
+    "wheelchair": "yes",
+    "wikidata": "Q3329291",
+    "wikimedia_commons": "Category:Musée Mécanique",
+    "wikipedia": "en:Musée Mécanique"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "truhlsenmarmormuseumofth",
+  "n": "Truhlsen-Marmor Museum of the Eye",
+  "a": "",
+  "pc": "",
+  "lat": 37.8066,
+  "lng": -122.42025,
+  "c": "museum",
+  "s": "museum",
+  "q": "Truhlsen-Marmor Museum of the Eye San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368173972",
+   "raw": {
+    "addr:housenumber": "645",
+    "addr:state": "CA",
+    "addr:street": "Beach Street",
+    "alt_name": "Museum of the Eye",
+    "check_date": "2023-12-16",
+    "ele": "9",
+    "fee": "no",
+    "gnis:feature_id": "1657293",
+    "name": "Truhlsen-Marmor Museum of the Eye",
+    "opening_hours": "We-Su 11:00-16:30",
+    "source": "USGS Geonames",
+    "tourism": "museum",
+    "website": "https://www.aao.org/museum-of-the-eye",
+    "wikidata": "Q125195286"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museumofrussianculture",
+  "n": "Museum of Russian Culture",
+  "a": "",
+  "pc": "",
+  "lat": 37.78521,
+  "lng": -122.44136,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museum of Russian Culture San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368173975",
+   "raw": {
+    "addr:city": "San Francisco",
+    "addr:housenumber": "2450",
+    "addr:postcode": "94115",
+    "addr:state": "CA",
+    "addr:street": "Sutter Street",
+    "ele": "46",
+    "fee": "no",
+    "gnis:feature_id": "1657294",
+    "museum": "history",
+    "name": "Museum of Russian Culture",
+    "opening_hours": "We/Sa 12:00-17:00",
+    "source": "USGS Geonames",
+    "tourism": "museum",
+    "website": "http://www.mrcsf.org/home/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanfranciscohistoricalso",
+  "n": "San Francisco Historical Society Museum",
+  "a": "",
+  "pc": "",
+  "lat": 37.79427,
+  "lng": -122.40361,
+  "c": "museum",
+  "s": "museum",
+  "q": "San Francisco Historical Society Museum San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368173977",
+   "raw": {
+    "addr:city": "San Francisco",
+    "addr:housenumber": "608",
+    "addr:postcode": "94111",
+    "addr:state": "CA",
+    "addr:street": "Commercial Street",
+    "ele": "7",
+    "gnis:feature_id": "1657296",
+    "name": "San Francisco Historical Society Museum",
+    "opening_hours": "Tu-Sa 10:00-16:00",
+    "phone": "+1-415-537-1105",
+    "source": "USGS Geonames",
+    "tourism": "museum",
+    "website": "https://www.sfhistory.org"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "landsendpoint",
+  "n": "Lands End Point",
+  "a": "",
+  "pc": "",
+  "lat": 37.78773,
+  "lng": -122.50566,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Lands End Point San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/379784480",
+   "raw": {
+    "name": "Lands End Point",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "admissiondaymonument",
+  "n": "Admission Day Monument",
+  "a": "",
+  "pc": "",
+  "lat": 37.78909,
+  "lng": -122.40184,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Admission Day Monument San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/386573810",
+   "raw": {
+    "alt_name": "Native Sons Monument;Phelan Fountain",
+    "artist_name": "Douglas Tilden",
+    "historic": "monument",
+    "level": "0",
+    "monument": "statue",
+    "name": "Admission Day Monument",
+    "note": "Commemorates California's admission into the union; Sculptor Douglas Tilden; unveiled 1897",
+    "start_date": "1897",
+    "wikidata": "Q16001844"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanfranciscorailwaymuseu",
+  "n": "San Francisco Railway Museum",
+  "a": "",
+  "pc": "",
+  "lat": 37.7938,
+  "lng": -122.39367,
+  "c": "museum",
+  "s": "museum",
+  "q": "San Francisco Railway Museum San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/386591692",
+   "raw": {
+    "addr:housenumber": "77",
+    "addr:postcode": "94105",
+    "addr:street": "Steuart Street",
+    "check_date": "2024-06-22",
+    "contact:instagram": "sfmsr",
+    "fee": "no",
+    "name": "San Francisco Railway Museum",
+    "opening_hours": "Tu-Sa 12:00-17:00",
+    "phone": "+1-415-974-1948",
+    "tourism": "museum",
+    "website": "https://www.streetcar.org/museum/",
+    "wheelchair": "yes",
+    "wikidata": "Q7414098"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tikibob",
+  "n": "Tiki Bob",
+  "a": "",
+  "pc": "",
+  "lat": 37.7878,
+  "lng": -122.41156,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Tiki Bob San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/410805203",
+   "raw": {
+    "historic": "yes",
+    "man_made": "column",
+    "name": "Tiki Bob",
+    "source": "https://www.sfgate.com/local/article/tiki-bob-mysterious-monument-san-francisco-20232186.php"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pointbonitaviewpoint",
+  "n": "Point Bonita Viewpoint",
+  "a": "",
+  "pc": "",
+  "lat": 37.82847,
+  "lng": -122.5256,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Point Bonita Viewpoint San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/411043411",
+   "raw": {
+    "direction": "260",
+    "name": "Point Bonita Viewpoint",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "birdislandoverlook",
+  "n": "Bird Island Overlook",
+  "a": "",
+  "pc": "",
+  "lat": 37.82303,
+  "lng": -122.53351,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Bird Island Overlook San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/411043422",
+   "raw": {
+    "name": "Bird Island Overlook",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "simonbolivar",
+  "n": "Simon Bolivar",
+  "a": "",
+  "pc": "",
+  "lat": 37.77982,
+  "lng": -122.41499,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Simon Bolivar San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/411095145",
+   "raw": {
+    "artist_name": "Adamo Tadolini",
+    "artwork_type": "statue",
+    "material": "bronze",
+    "name": "Simon Bolivar",
+    "statue": "equestrian",
+    "subject:wikidata": "Q8605",
+    "subject:wikipedia": "en:Simón Bolívar",
+    "tourism": "artwork",
+    "wikidata": "Q15717078"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "firefightersmemorial",
+  "n": "Fire Fighter's Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 37.80084,
+  "lng": -122.41068,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Fire Fighter's Memorial San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/411276940",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "To commemorate the volunteer fire department of San Francisco 1849-1866 Erected 1933 by bequest of Lillie Hitchcock Coit",
+    "name": "Fire Fighter's Memorial",
+    "start_date": "1933",
+    "wikimedia_commons": "Category:Volunteer Firemen Memorial by Haig Patigian"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "californiahistoricalsoci",
+  "n": "California Historical Society Museum & Bookstore",
+  "a": "",
+  "pc": "",
+  "lat": 37.78687,
+  "lng": -122.40152,
+  "c": "museum",
+  "s": "museum",
+  "q": "California Historical Society Museum & Bookstore San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/415567011",
+   "raw": {
+    "addr:city": "San Francisco",
+    "addr:housenumber": "678",
+    "addr:street": "Mission Street",
+    "name": "California Historical Society Museum & Bookstore",
+    "source": "survey",
+    "tourism": "museum",
+    "website": "https://californiahistoricalsociety.org/",
+    "wikidata": "Q14053"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "maybaumgallery",
+  "n": "Maybaum Gallery",
+  "a": "",
+  "pc": "",
+  "lat": 37.78648,
+  "lng": -122.4062,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Maybaum Gallery San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/416343746",
+   "raw": {
+    "addr:housenumber": "48",
+    "addr:street": "Stockton Street",
+    "check_date": "2026-02-05",
+    "name": "Maybaum Gallery",
+    "note": "This is a \"pop-up\" for the gallery at 49 Geary",
+    "opening_hours": "Tu-Sa 11:00-17:00",
+    "tourism": "gallery",
+    "website": "https://www.maybaumgallery.com/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fishermensandseamensmemo",
+  "n": "Fishermen's and Seamen's Memorial Chapel",
+  "a": "",
+  "pc": "",
+  "lat": 37.80905,
+  "lng": -122.41734,
+  "c": "faith",
+  "s": "church",
+  "q": "Fishermen's and Seamen's Memorial Chapel San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/417273229",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Fishermen's and Seamen's Memorial Chapel",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanfranciscoseascoutbase",
+  "n": "San Francisco Sea Scout Base",
+  "a": "",
+  "pc": "",
+  "lat": 37.80747,
+  "lng": -122.42618,
+  "c": "museum",
+  "s": "museum",
+  "q": "San Francisco Sea Scout Base San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/417275631",
+   "raw": {
+    "landuse": "recreation_ground",
+    "name": "San Francisco Sea Scout Base",
+    "tourism": "museum",
+    "website": "https://sites.google.com/view/sf-seascouts/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "amcdineinkabuki8",
+  "n": "AMC Dine-In Kabuki 8",
+  "a": "",
+  "pc": "",
+  "lat": 37.7851,
+  "lng": -122.43259,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "AMC Dine-In Kabuki 8 San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/420514871",
+   "raw": {
+    "addr:city": "San Francisco",
+    "addr:housenumber": "1881",
+    "addr:postcode": "94115",
+    "addr:street": "Post Street",
+    "amenity": "cinema",
+    "brand": "AMC",
+    "brand:wikidata": "Q294721",
+    "name": "AMC Dine-In Kabuki 8",
+    "phone": "+1-415-346-3243",
+    "website": "https://www.amctheatres.com/movie-theatres/san-francisco/amc-kabuki-8",
+    "wheelchair": "yes",
+    "wikidata": "Q7639174",
+    "wikipedia": "en:AMC Kabuki 8"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thefirehouseatfortmason",
+  "n": "The Firehouse at Fort Mason",
+  "a": "",
+  "pc": "",
+  "lat": 37.80772,
+  "lng": -122.42954,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "The Firehouse at Fort Mason San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/477129760",
+   "raw": {
+    "historic": "fire_station",
+    "name": "The Firehouse at Fort Mason"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "woodencarving",
+  "n": "Wooden Carving",
+  "a": "",
+  "pc": "",
+  "lat": 37.75974,
+  "lng": -122.45657,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Wooden Carving San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/525164215",
+   "raw": {
+    "name": "Wooden Carving",
+    "name:en": "Wooden Carving",
+    "tourism": "artwork",
+    "wheelchair": "no"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "waveorgan",
+  "n": "Wave Organ",
+  "a": "",
+  "pc": "",
+  "lat": 37.80849,
+  "lng": -122.44021,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Wave Organ San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/590952130",
+   "raw": {
+    "artist:wikidata": "Q108905040",
+    "artist_name": "Peter Richards",
+    "artwork_type": "sculpture",
+    "material": "concrete;plastic",
+    "name": "Wave Organ",
+    "start_date": "1986",
+    "tourism": "artwork",
+    "wheelchair": "no",
+    "wikidata": "Q7975291",
+    "wikimedia_commons": "Category:San Francisco Wave Organ",
+    "wikipedia": "en:Wave Organ"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "christmastreepoint",
+  "n": "Christmas Tree Point",
+  "a": "",
+  "pc": "",
+  "lat": 37.75493,
+  "lng": -122.44664,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Christmas Tree Point San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/599157316",
+   "raw": {
+    "name": "Christmas Tree Point",
+    "name:zh": "推荐双峰山观景点",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "templeunitedmethodistchu",
+  "n": "Temple United Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 37.71765,
+  "lng": -122.47197,
+  "c": "faith",
+  "s": "church",
+  "q": "Temple United Methodist Church San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/610748101",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Temple United Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "1906sanfranciscoearthqua",
+  "n": "1906 San Francisco earthquake",
+  "a": "",
+  "pc": "",
+  "lat": 37.75,
+  "lng": -122.55,
+  "c": "oddity",
+  "s": "major earthquake that struck San Francisco and the coast of ",
+  "q": "1906 San Francisco earthquake San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q211386",
+   "raw": "major earthquake that struck San Francisco and the coast of Northern California",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cowpalace",
+  "n": "Cow Palace",
+  "a": "",
+  "pc": "",
+  "lat": 37.70667,
+  "lng": -122.41861,
+  "c": "history",
+  "s": "indoor arena located in Daly City, California, USA",
+  "q": "Cow Palace San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q604015",
+   "raw": "indoor arena located in Daly City, California, USA",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanfranciscostateunivers",
+  "n": "San Francisco State University",
+  "a": "",
+  "pc": "",
+  "lat": 37.72361,
+  "lng": -122.47972,
+  "c": "oddity",
+  "s": "university in San Francisco, California, United States",
+  "q": "San Francisco State University San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1256981",
+   "raw": "university in San Francisco, California, United States",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "olympicclub",
+  "n": "Olympic Club",
+  "a": "",
+  "pc": "",
+  "lat": 37.709,
+  "lng": -122.495,
+  "c": "oddity",
+  "s": "athletic club and golf club in San Francisco",
+  "q": "Olympic Club San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2416259",
+   "raw": "athletic club and golf club in San Francisco",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fortfunston",
+  "n": "Fort Funston",
+  "a": "",
+  "pc": "",
+  "lat": 37.715,
+  "lng": -122.502,
+  "c": "oddity",
+  "s": "former harbor defense installation in San Francisco",
+  "q": "Fort Funston San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3077870",
+   "raw": "former harbor defense installation in San Francisco",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tpchardingpark",
+  "n": "TPC Harding Park",
+  "a": "",
+  "pc": "",
+  "lat": 37.724,
+  "lng": -122.493,
+  "c": "green",
+  "s": "municipal golf course in San Francisco, California, United S",
+  "q": "TPC Harding Park San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3512308",
+   "raw": "municipal golf course in San Francisco, California, United States",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "broadandorizabaorizabaan",
+  "n": "Broad and Orizaba / Orizaba and Broad stations",
+  "a": "",
+  "pc": "",
+  "lat": 37.71332,
+  "lng": -122.46258,
+  "c": "oddity",
+  "s": "light rail stop in San Francisco, California, US",
+  "q": "Broad and Orizaba / Orizaba and Broad stations San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4971990",
+   "raw": "Light rail stop in San Francisco, California, US",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "broadandcapitolstation",
+  "n": "Broad and Capitol station",
+  "a": "",
+  "pc": "",
+  "lat": 37.7132,
+  "lng": -122.459,
+  "c": "oddity",
+  "s": "light rail stop in San Francisco, California, US",
+  "q": "Broad and Capitol station San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4971988",
+   "raw": "light rail stop in San Francisco, California, US",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "broadandplymouthstation",
+  "n": "Broad and Plymouth station",
+  "a": "",
+  "pc": "",
+  "lat": 37.7132,
+  "lng": -122.456,
+  "c": "oddity",
+  "s": "light rail stop in San Francisco, California, US",
+  "q": "Broad and Plymouth station San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4971992",
+   "raw": "Light rail stop in San Francisco, California, US",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "broderickterryduel",
+  "n": "Broderick–Terry duel",
+  "a": "",
+  "pc": "",
+  "lat": 37.7082,
+  "lng": -122.484,
+  "c": "oddity",
+  "s": "september 13, 1859 duel in California",
+  "q": "Broderick–Terry duel San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4972967",
+   "raw": "September 13, 1859 duel in California",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cayugapark",
+  "n": "Cayuga Park",
+  "a": "",
+  "pc": "",
+  "lat": 37.7139,
+  "lng": -122.45,
+  "c": "green",
+  "s": "neighborhood park in San Francisco, California",
+  "q": "Cayuga Park San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5055479",
+   "raw": "neighborhood park in San Francisco, California",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "congregationbethisraelju",
+  "n": "Congregation Beth Israel Judea",
+  "a": "",
+  "pc": "",
+  "lat": 37.7137,
+  "lng": -122.475,
+  "c": "faith",
+  "s": "synagogue in San Francisco",
+  "q": "Congregation Beth Israel Judea San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5160605",
+   "raw": "synagogue in San Francisco",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "crockeramazon",
+  "n": "Crocker-Amazon",
+  "a": "",
+  "pc": "",
+  "lat": 37.71282,
+  "lng": -122.43945,
+  "c": "oddity",
+  "s": "neighborhood in San Francisco",
+  "q": "Crocker-Amazon San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5187311",
+   "raw": "neighborhood in San Francisco",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dalycitystation",
+  "n": "Daly City station",
+  "a": "",
+  "pc": "",
+  "lat": 37.70622,
+  "lng": -122.46893,
+  "c": "oddity",
+  "s": "bART station in Daly City, California, US",
+  "q": "Daly City station San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5211782",
+   "raw": "BART station in Daly City, California, US",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "krouzianzekarianvasboura",
+  "n": "Krouzian-Zekarian-Vasbouragan Armenian School",
+  "a": "",
+  "pc": "",
+  "lat": 37.7139,
+  "lng": -122.478,
+  "c": "oddity",
+  "s": "school in San Francisco, California",
+  "q": "Krouzian-Zekarian-Vasbouragan Armenian School San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6439111",
+   "raw": "school in San Francisco, California",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lakemerced",
+  "n": "Lake Merced",
+  "a": "",
+  "pc": "",
+  "lat": 37.7208,
+  "lng": -122.4958,
+  "c": "oddity",
+  "s": "lake in California, United States",
+  "q": "Lake Merced San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6476880",
+   "raw": "lake in California, United States",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lowellhighschool",
+  "n": "Lowell High School",
+  "a": "",
+  "pc": "",
+  "lat": 37.73083,
+  "lng": -122.48361,
+  "c": "oddity",
+  "s": "high school in San Francisco, California",
+  "q": "Lowell High School San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6693219",
+   "raw": "high school in San Francisco, California",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oceanview",
+  "n": "Ocean View",
+  "a": "",
+  "pc": "",
+  "lat": 37.7144,
+  "lng": -122.4567,
+  "c": "oddity",
+  "s": "neighborhood in San Francisco",
+  "q": "Ocean View San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7076102",
+   "raw": "neighborhood in San Francisco",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oceansidewaterpollutionc",
+  "n": "Oceanside Water Pollution Control Plant",
+  "a": "",
+  "pc": "",
+  "lat": 37.7276,
+  "lng": -122.505,
+  "c": "oddity",
+  "s": "san Francisco",
+  "q": "Oceanside Water Pollution Control Plant San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7076251",
+   "raw": "San Francisco",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "outermission",
+  "n": "Outer Mission",
+  "a": "",
+  "pc": "",
+  "lat": 37.71109,
+  "lng": -122.45104,
+  "c": "oddity",
+  "s": "human settlement in California, United States of America",
+  "q": "Outer Mission San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7111991",
+   "raw": "human settlement in California, United States of America",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parkmerced",
+  "n": "Parkmerced",
+  "a": "",
+  "pc": "",
+  "lat": 37.71833,
+  "lng": -122.48056,
+  "c": "oddity",
+  "s": "human settlement in California, United States of America",
+  "q": "Parkmerced San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7138610",
+   "raw": "human settlement in California, United States of America",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ranchocanadadeguadalupel",
+  "n": "Rancho Cañada de Guadalupe la Visitación y Rodeo Viejo",
+  "a": "",
+  "pc": "",
+  "lat": 37.7,
+  "lng": -122.44,
+  "c": "oddity",
+  "s": "mexican land grant in California",
+  "q": "Rancho Cañada de Guadalupe la Visitación y Rodeo Viejo San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7290880",
+   "raw": "Mexican land grant in California",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rancholagunadelamerced",
+  "n": "Rancho Laguna de la Merced",
+  "a": "",
+  "pc": "",
+  "lat": 37.72,
+  "lng": -122.49,
+  "c": "oddity",
+  "s": "mexican land grant in California",
+  "q": "Rancho Laguna de la Merced San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7291044",
+   "raw": "Mexican land grant in California",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "randolphandbrightstation",
+  "n": "Randolph and Bright station",
+  "a": "",
+  "pc": "",
+  "lat": 37.7143,
+  "lng": -122.464,
+  "c": "oddity",
+  "s": "light rail stop in San Francisco, California, US",
+  "q": "Randolph and Bright station San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7291895",
+   "raw": "light rail stop in San Francisco, California, US",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "randolphand19thavenuesta",
+  "n": "Randolph and 19th Avenue station",
+  "a": "",
+  "pc": "",
+  "lat": 37.7142,
+  "lng": -122.47,
+  "c": "oddity",
+  "s": "light rail stop in San Francisco, California, US",
+  "q": "Randolph and 19th Avenue station San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7291892",
+   "raw": "light rail stop in San Francisco, California, US",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "randolphandarchstation",
+  "n": "Randolph and Arch station",
+  "a": "",
+  "pc": "",
+  "lat": 37.7143,
+  "lng": -122.467,
+  "c": "oddity",
+  "s": "light rail stop in San Francisco, California, US",
+  "q": "Randolph and Arch station San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7291893",
+   "raw": "light rail stop in San Francisco, California, US",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanfranciscobayareatelev",
+  "n": "San Francisco Bay Area Television Archive",
+  "a": "",
+  "pc": "",
+  "lat": 37.7213,
+  "lng": -122.4783,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "San Francisco Bay Area Television Archive San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7413930",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanfranciscostateunivers2",
+  "n": "San Francisco State University station",
+  "a": "",
+  "pc": "",
+  "lat": 37.72167,
+  "lng": -122.47514,
+  "c": "oddity",
+  "s": "light rail station in San Francisco, California, United Stat",
+  "q": "San Francisco State University station San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7414114",
+   "raw": "light rail station in San Francisco, California, United States",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "searsrock",
+  "n": "Sears Rock",
+  "a": "",
+  "pc": "",
+  "lat": 37.82861,
+  "lng": -122.54917,
+  "c": "oddity",
+  "s": "subsurface rock off the shore of California",
+  "q": "Sears Rock San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7441792",
+   "raw": "Subsurface rock off the shore of California",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stonestowngalleriastatio",
+  "n": "Stonestown Galleria station",
+  "a": "",
+  "pc": "",
+  "lat": 37.72722,
+  "lng": -122.47472,
+  "c": "oddity",
+  "s": "tram stop in San Francisco, California, United States",
+  "q": "Stonestown Galleria station San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7619334",
+   "raw": "tram stop in San Francisco, California, United States",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "visitacionvalley",
+  "n": "Visitacion Valley",
+  "a": "",
+  "pc": "",
+  "lat": 37.71257,
+  "lng": -122.40745,
+  "c": "oddity",
+  "s": "human settlement in California, United States of America",
+  "q": "Visitacion Valley San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7936299",
+   "raw": "human settlement in California, United States of America",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "coxstadium",
+  "n": "Cox Stadium",
+  "a": "",
+  "pc": "",
+  "lat": 37.72465,
+  "lng": -122.47831,
+  "c": "oddity",
+  "s": "stadium in San Francisco, Californaia",
+  "q": "Cox Stadium San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q14681789",
+   "raw": "stadium in San Francisco, Californaia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanjoseandfarallonesstat",
+  "n": "San Jose and Farallones station",
+  "a": "",
+  "pc": "",
+  "lat": 37.71412,
+  "lng": -122.45216,
+  "c": "oddity",
+  "s": "light rail stop in San Francisco, California, US",
+  "q": "San Jose and Farallones station San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q15274833",
+   "raw": "light rail stop in San Francisco, California, US",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "readglobal",
+  "n": "READ Global",
+  "a": "",
+  "pc": "",
+  "lat": 37.72152,
+  "lng": -122.47973,
+  "c": "oddity",
+  "s": "nonprofit organization in San Francisco, United States",
+  "q": "READ Global San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17086739",
+   "raw": "nonprofit organization in San Francisco, United States",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanfranciscogolfclub",
+  "n": "San Francisco Golf Club",
+  "a": "",
+  "pc": "",
+  "lat": 37.712,
+  "lng": -122.477,
+  "c": "oddity",
+  "s": "athletic and social club in San Francisco, California",
+  "q": "San Francisco Golf Club San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19881568",
+   "raw": "athletic and social club in San Francisco, California",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "superfestinternationaldi",
+  "n": "Superfest International Disability Film Festival",
+  "a": "",
+  "pc": "",
+  "lat": 37.7223,
+  "lng": -122.48122,
+  "c": "oddity",
+  "s": "film festival",
+  "q": "Superfest International Disability Film Festival San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q29639303",
+   "raw": "film festival",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "delmartheater",
+  "n": "Del Mar Theater",
+  "a": "",
+  "pc": "",
+  "lat": 37.7093,
+  "lng": -122.45119,
+  "c": "cinema",
+  "s": "former movie theater in San Francisco, California, United St",
+  "q": "Del Mar Theater San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q44633906",
+   "raw": "former movie theater in San Francisco, California, United States",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "missiondrivein",
+  "n": "Mission Drive-In",
+  "a": "",
+  "pc": "",
+  "lat": 37.71272,
+  "lng": -122.44521,
+  "c": "cinema",
+  "s": "former drive-in movie theater in San Francisco, California, ",
+  "q": "Mission Drive-In San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q44634407",
+   "raw": "former drive-in movie theater in San Francisco, California, United States",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "geneva4drivein",
+  "n": "Geneva 4 Drive-In",
+  "a": "",
+  "pc": "",
+  "lat": 37.70731,
+  "lng": -122.42422,
+  "c": "cinema",
+  "s": "former drive-in movie theater in Daly City, California, Unit",
+  "q": "Geneva 4 Drive-In San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q44836577",
+   "raw": "former drive-in movie theater in Daly City, California, United States",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "century20dalycity",
+  "n": "Century 20 Daly City",
+  "a": "",
+  "pc": "",
+  "lat": 37.70191,
+  "lng": -122.47054,
+  "c": "cinema",
+  "s": "movie theater in Daly City, California, United States",
+  "q": "Century 20 Daly City San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q44862843",
+   "raw": "movie theater in Daly City, California, United States",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dalycitytheatre",
+  "n": "Daly City Theatre",
+  "a": "",
+  "pc": "",
+  "lat": 37.7068,
+  "lng": -122.45975,
+  "c": "cinema",
+  "s": "former movie theater in Daly City, California, United States",
+  "q": "Daly City Theatre San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q44862875",
+   "raw": "former movie theater in Daly City, California, United States",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "grandviewtheatre",
+  "n": "Grand View Theatre",
+  "a": "",
+  "pc": "",
+  "lat": 37.70541,
+  "lng": -122.4622,
+  "c": "cinema",
+  "s": "former movie theater in Daly City, California, United States",
+  "q": "Grand View Theatre San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q44862895",
+   "raw": "former movie theater in Daly City, California, United States",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "phillipburtonmemorialbea",
+  "n": "Phillip Burton Memorial Beach",
+  "a": "",
+  "pc": "",
+  "lat": 37.70694,
+  "lng": -122.5025,
+  "c": "history",
+  "s": "beach in San Mateo County, California, United States",
+  "q": "Phillip Burton Memorial Beach San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q49322516",
+   "raw": "beach in San Mateo County, California, United States",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bayshoreheightspark",
+  "n": "Bayshore Heights Park",
+  "a": "",
+  "pc": "",
+  "lat": 37.70222,
+  "lng": -122.41944,
+  "c": "green",
+  "s": "park in San Mateo County, California, United States of Ameri",
+  "q": "Bayshore Heights Park San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q49473914",
+   "raw": "park in San Mateo County, California, United States of America",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chalmersplayground",
+  "n": "Chalmers Playground",
+  "a": "",
+  "pc": "",
+  "lat": 37.70972,
+  "lng": -122.44639,
+  "c": "green",
+  "s": "park in San Francisco County, California, United States of A",
+  "q": "Chalmers Playground San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q49477667",
+   "raw": "park in San Francisco County, California, United States of America",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "edgewoodpark",
+  "n": "Edgewood Park",
+  "a": "",
+  "pc": "",
+  "lat": 37.7,
+  "lng": -122.45389,
+  "c": "green",
+  "s": "park in San Mateo County, California, United States of Ameri",
+  "q": "Edgewood Park San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q49485767",
+   "raw": "park in San Mateo County, California, United States of America",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fhalestephensonfield",
+  "n": "F Hale Stephenson Field",
+  "a": "",
+  "pc": "",
+  "lat": 37.72417,
+  "lng": -122.47611,
+  "c": "green",
+  "s": "park in San Francisco County, California, United States of A",
+  "q": "F Hale Stephenson Field San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q49487862",
+   "raw": "park in San Francisco County, California, United States of America",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "frankfortpark",
+  "n": "Frankfort Park",
+  "a": "",
+  "pc": "",
+  "lat": 37.705,
+  "lng": -122.45,
+  "c": "green",
+  "s": "park in San Mateo County, California, United States of Ameri",
+  "q": "Frankfort Park San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q49491369",
+   "raw": "park in San Mateo County, California, United States of America",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hardingpark",
+  "n": "Harding Park",
+  "a": "",
+  "pc": "",
+  "lat": 37.72222,
+  "lng": -122.4925,
+  "c": "green",
+  "s": "park in San Francisco County, California, United States of A",
+  "q": "Harding Park San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q49497924",
+   "raw": "park in San Francisco County, California, United States of America",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "herzplayground",
+  "n": "Herz Playground",
+  "a": "",
+  "pc": "",
+  "lat": 37.71306,
+  "lng": -122.41667,
+  "c": "green",
+  "s": "park in San Francisco County, California, United States of A",
+  "q": "Herz Playground San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q49500518",
+   "raw": "park in San Francisco County, California, United States of America",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kellochvelascopark",
+  "n": "Kelloch-Velasco Park",
+  "a": "",
+  "pc": "",
+  "lat": 37.70861,
+  "lng": -122.41333,
+  "c": "green",
+  "s": "park in San Francisco County, California, United States of A",
+  "q": "Kelloch-Velasco Park San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q49509811",
+   "raw": "park in San Francisco County, California, United States of America",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lakemercedsportscenter",
+  "n": "Lake Merced Sports Center",
+  "a": "",
+  "pc": "",
+  "lat": 37.72556,
+  "lng": -122.49944,
+  "c": "green",
+  "s": "park in San Francisco County, California, United States of A",
+  "q": "Lake Merced Sports Center San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q49513440",
+   "raw": "park in San Francisco County, California, United States of America",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lincolnplayground",
+  "n": "Lincoln Playground",
+  "a": "",
+  "pc": "",
+  "lat": 37.70778,
+  "lng": -122.45194,
+  "c": "green",
+  "s": "park in San Mateo County, California, United States of Ameri",
+  "q": "Lincoln Playground San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q49517158",
+   "raw": "park in San Mateo County, California, United States of America",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "maloneyfield",
+  "n": "Maloney Field",
+  "a": "",
+  "pc": "",
+  "lat": 37.725,
+  "lng": -122.48222,
+  "c": "green",
+  "s": "park in San Francisco County, California, United States of A",
+  "q": "Maloney Field San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q49521098",
+   "raw": "park in San Francisco County, California, United States of America",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "marchbankpark",
+  "n": "Marchbank Park",
+  "a": "",
+  "pc": "",
+  "lat": 37.70111,
+  "lng": -122.46917,
+  "c": "green",
+  "s": "park in San Mateo County, California, United States of Ameri",
+  "q": "Marchbank Park San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q49521568",
+   "raw": "park in San Mateo County, California, United States of America",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "visitacionvalleyplaygrou",
+  "n": "Visitacion Valley Playground",
+  "a": "",
+  "pc": "",
+  "lat": 37.71222,
+  "lng": -122.40917,
+  "c": "green",
+  "s": "park in the United States of America",
+  "q": "Visitacion Valley Playground San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q49575707",
+   "raw": "park in the United States of America",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "westlakepark",
+  "n": "Westlake Park",
+  "a": "",
+  "pc": "",
+  "lat": 37.70417,
+  "lng": -122.48444,
+  "c": "green",
+  "s": "park in San Mateo County, California, United States",
+  "q": "Westlake Park San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q49579350",
+   "raw": "park in San Mateo County, California, United States",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "johnddalylibrary",
+  "n": "John D. Daly Library",
+  "a": "",
+  "pc": "",
+  "lat": 37.70202,
+  "lng": -122.46261,
+  "c": "oddity",
+  "s": "public library in Daly City, California, USA",
+  "q": "John D. Daly Library San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66375200",
+   "raw": "public library in Daly City, California, USA",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "policepistolrangehelipor",
+  "n": "Police Pistol Range Heliport",
+  "a": "",
+  "pc": "",
+  "lat": 37.71997,
+  "lng": -122.48525,
+  "c": "oddity",
+  "s": "heliport in San Francisco County, California, United States",
+  "q": "Police Pistol Range Heliport San Francisco",
+  "w": "",
+  "city": "sanfrancisco",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q74834019",
+   "raw": "heliport in San Francisco County, California, United States",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

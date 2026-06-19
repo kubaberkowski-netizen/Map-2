@@ -1,0 +1,4538 @@
+[
+ {
+  "id": "stanleyparkchurch",
+  "n": "Stanley Park Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.35099,
+  "lng": -0.16165,
+  "c": "faith",
+  "s": "church",
+  "q": "Stanley Park Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/10806290",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "JOSM",
+    "denomination": "evangelical",
+    "name": "Stanley Park Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dianafountain",
+  "n": "Diana Fountain",
+  "a": "",
+  "pc": "",
+  "lat": 51.40993,
+  "lng": -0.33621,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Diana Fountain London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/16960853",
+   "raw": {
+    "amenity": "fountain",
+    "artwork_type": "statue",
+    "name": "Diana Fountain",
+    "tourism": "artwork",
+    "wikidata": "Q5271155",
+    "wikipedia": "en:Diana Fountain, Bushy Park"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "royaltankregimentmemoria",
+  "n": "Royal Tank Regiment Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.50613,
+  "lng": -0.12445,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Royal Tank Regiment Memorial London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/25507018",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Royal Tank Regiment Memorial",
+    "name:hu": "Királyi harkocsizó ezred emlékműve",
+    "start_date": "2000",
+    "wikidata": "Q9323038"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thegurkhasoldier",
+  "n": "The Gurkha Soldier",
+  "a": "",
+  "pc": "",
+  "lat": 51.50509,
+  "lng": -0.125,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "The Gurkha Soldier London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/25507019",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "The Gurkha Soldier",
+    "subject:wikipedia": "en:Brigade of Gurkhas",
+    "wikidata": "Q18574747",
+    "wikipedia": "en:Gurkha Memorial, London"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "royalairforcememorial",
+  "n": "Royal Air Force Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.50399,
+  "lng": -0.12308,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Royal Air Force Memorial London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/25507033",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Royal Air Force Memorial",
+    "operator": "Royal Air Force Benevolent Fund",
+    "wikidata": "Q7373614",
+    "wikipedia": "en:Royal Air Force Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "douglashaig",
+  "n": "Douglas Haig",
+  "a": "",
+  "pc": "",
+  "lat": 51.50428,
+  "lng": -0.12624,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Douglas Haig London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/25507035",
+   "raw": {
+    "alt_name": "Douglas Haig, 1st Earl Haig",
+    "artwork_type": "statue",
+    "historic": "monument",
+    "inscription": "Field Marshal Earl Haig Commander-in-Chief of the British Armies in France 1915-1918",
+    "name": "Douglas Haig",
+    "subject:wikidata": "Q312564",
+    "subject:wikipedia": "en:Douglas Haig, 1st Earl Haig",
+    "wheelchair": "limited",
+    "wheelchair:description": "In traffic island with kerbs, view from pavement.",
+    "wikidata": "Q5325895",
+    "wikipedia": "en:Earl Haig Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bansteadunitedreformedch",
+  "n": "Banstead United Reformed Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.32473,
+  "lng": -0.19368,
+  "c": "faith",
+  "s": "church",
+  "q": "Banstead United Reformed Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/26422090",
+   "raw": {
+    "addr:city": "Banstead",
+    "addr:street": "Woodmansterne Lane",
+    "amenity": "place_of_worship",
+    "denomination": "united_reformed",
+    "fhrs:authority": "Reigate and Banstead",
+    "fhrs:id": "30908",
+    "name": "Banstead United Reformed Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "theobelisk",
+  "n": "The Obelisk",
+  "a": "",
+  "pc": "",
+  "lat": 51.39922,
+  "lng": -0.16454,
+  "c": "history",
+  "s": "monument",
+  "q": "The Obelisk London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/26545708",
+   "raw": {
+    "historic": "monument",
+    "name": "The Obelisk",
+    "source": "LB Merton website"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thegoodmixer",
+  "n": "The Good Mixer",
+  "a": "",
+  "pc": "",
+  "lat": 51.53946,
+  "lng": -0.14461,
+  "c": "pub",
+  "s": "historic pub",
+  "q": "The Good Mixer London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/26610587",
+   "raw": {
+    "addr:city": "London",
+    "addr:housenumber": "30",
+    "addr:postcode": "NW1 7HB",
+    "addr:street": "Inverness Street",
+    "amenity": "pub",
+    "check_date": "2024-04-26",
+    "fhrs:id": "1492504",
+    "historic": "monument",
+    "live_sport": "yes",
+    "name": "The Good Mixer",
+    "source:addr": "FHRS Open Data"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "odeonluxehaymarket",
+  "n": "Odeon Luxe Haymarket",
+  "a": "",
+  "pc": "",
+  "lat": 51.50957,
+  "lng": -0.13122,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Odeon Luxe Haymarket London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/26671967",
+   "raw": {
+    "addr:city": "London",
+    "addr:housenumber": "11-18",
+    "addr:postcode": "SW1Y 4DP",
+    "addr:street": "Panton Street",
+    "amenity": "cinema",
+    "brand": "Odeon",
+    "brand:wikidata": "Q6127470",
+    "brand:wikipedia": "en:Odeon Cinemas",
+    "fhrs:id": "411970",
+    "name": "Odeon Luxe Haymarket",
+    "website": "https://www.odeon.co.uk/cinemas/london-haymarket/",
+    "wikidata": "Q42030169"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wimbledonmosque",
+  "n": "Wimbledon Mosque",
+  "a": "",
+  "pc": "",
+  "lat": 51.43649,
+  "lng": -0.19725,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Wimbledon Mosque London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/26756585",
+   "raw": {
+    "addr:city": "London",
+    "addr:housenumber": "262-270",
+    "addr:postcode": "SW19 8DS",
+    "addr:street": "Durnsford Road",
+    "amenity": "place_of_worship",
+    "name": "Wimbledon Mosque",
+    "religion": "muslim",
+    "source:addr": "promotional leaflet",
+    "website": "https://wimbledonmosque.org/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stgregorys",
+  "n": "St. Gregory's",
+  "a": "",
+  "pc": "",
+  "lat": 51.444,
+  "lng": -0.19119,
+  "c": "faith",
+  "s": "church",
+  "q": "St. Gregory's London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/26769263",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "St. Gregory's",
+    "religion": "christian",
+    "source:name": "local knowledge"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "malhamchristiancentre",
+  "n": "Malham Christian Centre",
+  "a": "",
+  "pc": "",
+  "lat": 51.4429,
+  "lng": -0.04457,
+  "c": "faith",
+  "s": "church",
+  "q": "Malham Christian Centre London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/26992680",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Malham Christian Centre",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "croftonparkbaptistchurch",
+  "n": "Crofton Park Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.45493,
+  "lng": -0.03137,
+  "c": "faith",
+  "s": "church",
+  "q": "Crofton Park Baptist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/27000982",
+   "raw": {
+    "addr:city": "London",
+    "addr:postcode": "SE4 1EA",
+    "addr:street": "Huxbear Street",
+    "addr:suburb": "Crofton Park",
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "fhrs:id": "516372",
+    "name": "Crofton Park Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cabotsquarerailings",
+  "n": "Cabot Square Railings",
+  "a": "",
+  "pc": "",
+  "lat": 51.50547,
+  "lng": -0.02239,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Cabot Square Railings London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/27084532",
+   "raw": {
+    "artist_name": "James Horrobin & SOM",
+    "artwork_type": "sculpture",
+    "level": "1",
+    "level:ref": "0",
+    "name": "Cabot Square Railings",
+    "start_date": "1992",
+    "tourism": "artwork",
+    "website": "https://canarywharf.com/artwork/james-horrobin-som-cabot-square-railings/",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chaffordgorgesvisitorcen",
+  "n": "Chafford Gorges Visitor Centre",
+  "a": "",
+  "pc": "",
+  "lat": 51.49075,
+  "lng": 0.30217,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Chafford Gorges Visitor Centre London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/29018474",
+   "raw": {
+    "created_by": "JOSM",
+    "name": "Chafford Gorges Visitor Centre",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ruinedarch",
+  "n": "Ruined Arch",
+  "a": "",
+  "pc": "",
+  "lat": 51.47389,
+  "lng": -0.29297,
+  "c": "follies",
+  "s": "folly",
+  "q": "Ruined Arch London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/30442330",
+   "raw": {
+    "historic": "folly",
+    "name": "Ruined Arch",
+    "wikidata": "Q17530962"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "walterdelamare",
+  "n": "Walter de la Mare",
+  "a": "",
+  "pc": "",
+  "lat": 51.44975,
+  "lng": -0.31643,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Walter de la Mare London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/30863479",
+   "raw": {
+    "description": "Walter De La Mare lived here (poet)",
+    "historic": "memorial",
+    "inscription": "Walter de la Mare (1873–1956) Poet lived here 1940–1956",
+    "memorial": "plaque",
+    "memorial_plaque:colour": "blue",
+    "name": "Walter de la Mare"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vuepurleyway",
+  "n": "Vue Purley Way",
+  "a": "",
+  "pc": "",
+  "lat": 51.37804,
+  "lng": -0.12464,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Vue Purley Way London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/31060529",
+   "raw": {
+    "addr:city": "Croydon",
+    "addr:housenumber": "21",
+    "addr:postcode": "CR0 4YA",
+    "addr:street": "Hesterman Way",
+    "amenity": "cinema",
+    "brand": "Vue",
+    "brand:wikidata": "Q2535134",
+    "brand:wikipedia": "en:Vue Cinemas",
+    "fhrs:authority": "Croydon",
+    "fhrs:id": "10622",
+    "name": "Vue Purley Way",
+    "screen": "8",
+    "website": "https://www.myvue.com/cinema/croydon-purley-way/whats-on",
+    "wikidata": "Q41895981"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "romfordunitedreformedchu",
+  "n": "Romford United Reformed Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.57842,
+  "lng": 0.18775,
+  "c": "faith",
+  "s": "church",
+  "q": "Romford United Reformed Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/31098616",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "JOSM",
+    "name": "Romford United Reformed Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "romfordbaptistchurch",
+  "n": "Romford Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.58079,
+  "lng": 0.18589,
+  "c": "faith",
+  "s": "church",
+  "q": "Romford Baptist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/31098617",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-05-25",
+    "denomination": "baptist",
+    "name": "Romford Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bellfarmchurch",
+  "n": "Bell Farm Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.50171,
+  "lng": -0.45888,
+  "c": "faith",
+  "s": "church",
+  "q": "Bell Farm Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/31424306",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Bell Farm Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thesouthharrowbaptistchu",
+  "n": "The South Harrow Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.56395,
+  "lng": -0.35563,
+  "c": "faith",
+  "s": "church",
+  "q": "The South Harrow Baptist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/31437647",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "name": "The South Harrow Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thesassoongallery",
+  "n": "The Sassoon Gallery",
+  "a": "",
+  "pc": "",
+  "lat": 51.46975,
+  "lng": -0.07008,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "The Sassoon Gallery London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/31452361",
+   "raw": {
+    "addr:city": "London",
+    "addr:housenumber": "21",
+    "addr:postcode": "SE15 4QL",
+    "addr:street": "Blenheim Grove",
+    "description": "The Sassoon Gallery is behind Bar Story, and shows are open from 12-6pm.",
+    "name": "The Sassoon Gallery",
+    "tourism": "gallery",
+    "website": "http://www.thesassoongallery.co.uk"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stpaulscentre",
+  "n": "St Paul's Centre",
+  "a": "",
+  "pc": "",
+  "lat": 51.65311,
+  "lng": -0.08812,
+  "c": "faith",
+  "s": "church",
+  "q": "St Paul's Centre London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/33132338",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "St Paul's Centre",
+    "religion": "christian",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "standrewsunitedreformedc",
+  "n": "St Andrew's United Reformed Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.3469,
+  "lng": -0.20982,
+  "c": "faith",
+  "s": "church",
+  "q": "St Andrew's United Reformed Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/33170703",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "united_reformed",
+    "name": "St Andrew's United Reformed Church",
+    "religion": "christian",
+    "wikidata": "Q26538575"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stjohnsmarthomachurch",
+  "n": "St John's Mar Thoma Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.46656,
+  "lng": -0.38266,
+  "c": "faith",
+  "s": "church",
+  "q": "St John's Mar Thoma Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/33228429",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "JOSM",
+    "name": "St John's Mar Thoma Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wallingtonwarmemorial",
+  "n": "Wallington War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.36721,
+  "lng": -0.15409,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Wallington War Memorial London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/33869667",
+   "raw": {
+    "created_by": "JOSM",
+    "historic": "monument",
+    "name": "Wallington War Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "coaltaxpost",
+  "n": "Coal tax post",
+  "a": "",
+  "pc": "",
+  "lat": 51.66555,
+  "lng": 0.08902,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Coal tax post London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/33996174",
+   "raw": {
+    "historic": "boundary_stone",
+    "inscription": "24 & 25 VICT\nCAP 42",
+    "material": "iron",
+    "name": "Coal tax post",
+    "note": "Coal tax boundary marker 11"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "southharrowmethodistchur",
+  "n": "South Harrow Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.5611,
+  "lng": -0.37256,
+  "c": "faith",
+  "s": "church",
+  "q": "South Harrow Methodist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/36216889",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "South Harrow Methodist Church",
+    "phone": "+44 20 8423 5463",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hounslowspiritualistchur",
+  "n": "Hounslow Spiritualist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.4718,
+  "lng": -0.35027,
+  "c": "faith",
+  "s": "place of worship",
+  "q": "Hounslow Spiritualist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/36685563",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Hounslow Spiritualist Church",
+    "religion": "spiritualist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "carshaltonwarmemorial",
+  "n": "Carshalton War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.36559,
+  "lng": -0.16429,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Carshalton War Memorial London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/38901952",
+   "raw": {
+    "historic": "monument",
+    "name": "Carshalton War Memorial",
+    "wikidata": "Q26672829"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "odeonwimbledon",
+  "n": "Odeon Wimbledon",
+  "a": "",
+  "pc": "",
+  "lat": 51.41981,
+  "lng": -0.20488,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Odeon Wimbledon London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/39685823",
+   "raw": {
+    "addr:city": "London",
+    "addr:housenumber": "39",
+    "addr:postcode": "SW19 1QB",
+    "addr:street": "The Broadway",
+    "alt_name": "Odeon Wimbledon",
+    "amenity": "cinema",
+    "brand": "Odeon",
+    "brand:wikidata": "Q6127470",
+    "brand:wikipedia": "en:Odeon Cinemas",
+    "cinema:3D": "yes",
+    "cinema:IMAX": "yes",
+    "fhrs:id": "200020",
+    "name": "Odeon Wimbledon",
+    "website": "https://www.odeon.co.uk/cinemas/wimbledon/",
+    "wikidata": "Q42166436"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "haroldwoodmethodistchurc",
+  "n": "Harold Wood Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.59455,
+  "lng": 0.23207,
+  "c": "faith",
+  "s": "church",
+  "q": "Harold Wood Methodist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/45282306",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "xybot",
+    "denomination": "methodist",
+    "name": "Harold Wood Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "whittonmethodistchurch",
+  "n": "Whitton Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.44488,
+  "lng": -0.36189,
+  "c": "faith",
+  "s": "church",
+  "q": "Whitton Methodist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/50453588",
+   "raw": {
+    "addr:city": "Twickenham",
+    "addr:postcode": "TW2 6JL",
+    "addr:street": "Percy Road",
+    "amenity": "place_of_worship",
+    "check_date": "2026-06-10",
+    "fhrs:id": "557842",
+    "name": "Whitton Methodist Church",
+    "religion": "christian",
+    "source:addr": "FHRS Open Data",
+    "wikidata": "Q17053504",
+    "wikipedia": "en:Whitton Methodist Church"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williambooth",
+  "n": "William Booth",
+  "a": "",
+  "pc": "",
+  "lat": 51.52035,
+  "lng": -0.05424,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "William Booth London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/60124508",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "William Booth",
+    "type": "statue",
+    "wikidata": "Q26318262"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stmargaretscatholicchurc",
+  "n": "St. Margaret's Catholic Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.35305,
+  "lng": -0.16274,
+  "c": "faith",
+  "s": "church",
+  "q": "St. Margaret's Catholic Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/60264263",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10b",
+    "denomination": "catholic",
+    "name": "St. Margaret's Catholic Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "leonardmontefioredrinkin",
+  "n": "Leonard Montefiore Drinking Fountain",
+  "a": "",
+  "pc": "",
+  "lat": 51.51853,
+  "lng": -0.04594,
+  "c": "history",
+  "s": "memorial fountain",
+  "q": "Leonard Montefiore Drinking Fountain London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/60277007",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "drinking_fountain",
+    "name": "Leonard Montefiore Drinking Fountain",
+    "type": "fountain",
+    "wikidata": "Q26318171"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintdominicsromancathol",
+  "n": "Saint Dominics Roman Catholic Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.60418,
+  "lng": 0.20913,
+  "c": "faith",
+  "s": "church",
+  "q": "Saint Dominics Roman Catholic Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/60471895",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Saint Dominics Roman Catholic Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hestonunitedreformedchur",
+  "n": "Heston United Reformed Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.48281,
+  "lng": -0.38113,
+  "c": "faith",
+  "s": "church",
+  "q": "Heston United Reformed Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/62055863",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Heston United Reformed Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bushhillparkurc",
+  "n": "Bush Hill Park URC",
+  "a": "",
+  "pc": "",
+  "lat": 51.64487,
+  "lng": -0.06762,
+  "c": "faith",
+  "s": "church",
+  "q": "Bush Hill Park URC London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/66816178",
+   "raw": {
+    "addr:city": "Enfield",
+    "addr:housenumber": "25",
+    "addr:postcode": "EN1 1DJ",
+    "addr:street": "Main Avenue",
+    "amenity": "place_of_worship",
+    "denomination": "united_reformed",
+    "name": "Bush Hill Park URC",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stpaulsunitedreformedchu",
+  "n": "St. Paul's United Reformed Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.36038,
+  "lng": -0.08362,
+  "c": "faith",
+  "s": "church",
+  "q": "St. Paul's United Reformed Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/83736897",
+   "raw": {
+    "addr:city": "South Croydon",
+    "addr:postcode": "CR2 7HH",
+    "addr:street": "Croham Park Avenue",
+    "amenity": "place_of_worship",
+    "denomination": "united_reformed",
+    "name": "St. Paul's United Reformed Church",
+    "religion": "christian",
+    "wikidata": "Q26351537",
+    "wikimedia_commons": "File:St Paul's United Reformed Church, Croham Road, South Croydon (NHLE Code 1079326) (April 2011) (1).jpg"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mertonpriorychapterhouse",
+  "n": "Merton Priory Chapter House",
+  "a": "",
+  "pc": "",
+  "lat": 51.41409,
+  "lng": -0.18169,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Merton Priory Chapter House London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/130223836",
+   "raw": {
+    "historic": "archaeological_site",
+    "name": "Merton Priory Chapter House"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "elthamwarmemorial",
+  "n": "Eltham War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.451,
+  "lng": 0.05145,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Eltham War Memorial London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/134616931",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Eltham War Memorial",
+    "wikidata": "Q66479046"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lancasterrdunitedreforme",
+  "n": "Lancaster Rd United Reformed Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.66413,
+  "lng": -0.08221,
+  "c": "faith",
+  "s": "church",
+  "q": "Lancaster Rd United Reformed Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/150569961",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "united_reformed",
+    "name": "Lancaster Rd United Reformed Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "communityofchristchurch",
+  "n": "Community of Christ Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.66388,
+  "lng": -0.07934,
+  "c": "faith",
+  "s": "church",
+  "q": "Community of Christ Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/150569986",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "community_of_christ",
+    "name": "Community of Christ Church",
+    "religion": "christian",
+    "url": "http://www.cofchrist.org.uk/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cranfordww2memorial",
+  "n": "Cranford WW2 Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.48261,
+  "lng": -0.41021,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Cranford WW2 Memorial London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/151022197",
+   "raw": {
+    "historic": "memorial",
+    "name": "Cranford WW2 Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spekememorial",
+  "n": "Speke Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.50901,
+  "lng": -0.17917,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Speke Memorial London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/158685115",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "obelisk",
+    "name": "Speke Memorial",
+    "wikidata": "Q26511584"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ashfordwarmemorial",
+  "n": "Ashford War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.43273,
+  "lng": -0.46203,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Ashford War Memorial London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/158758386",
+   "raw": {
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "war_memorial",
+    "name": "Ashford War Memorial",
+    "wheelchair": "limited"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "brentfordfreechurch",
+  "n": "Brentford Free Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.48566,
+  "lng": -0.3072,
+  "c": "faith",
+  "s": "church",
+  "q": "Brentford Free Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/166585101",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-02-22",
+    "created_by": "JOSM",
+    "name": "Brentford Free Church",
+    "religion": "christian",
+    "wikidata": "Q26582402"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "trinityroadchapel",
+  "n": "Trinity Road Chapel",
+  "a": "",
+  "pc": "",
+  "lat": 51.44232,
+  "lng": -0.16677,
+  "c": "faith",
+  "s": "church",
+  "q": "Trinity Road Chapel London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/169130189",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-08-15",
+    "denomination": "evangelical",
+    "evangelical": "FIEC",
+    "name": "Trinity Road Chapel",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "unitedreformedchurch",
+  "n": "United Reformed Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.28016,
+  "lng": -0.36747,
+  "c": "faith",
+  "s": "church",
+  "q": "United Reformed Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/178885716",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "United Reformed Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stjohnschurch",
+  "n": "St John's Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.64809,
+  "lng": -0.17819,
+  "c": "faith",
+  "s": "church",
+  "q": "St John's Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/181817739",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "united_reformed",
+    "name": "St John's Church",
+    "religion": "christian",
+    "wikidata": "Q20876328"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hayesfreechurch",
+  "n": "Hayes Free Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.38007,
+  "lng": 0.00462,
+  "c": "faith",
+  "s": "church",
+  "q": "Hayes Free Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/183074388",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-03-15",
+    "created_by": "Potlatch 0.5d",
+    "name": "Hayes Free Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wallingtonchristiancentr",
+  "n": "Wallington Christian Centre",
+  "a": "",
+  "pc": "",
+  "lat": 51.36153,
+  "lng": -0.13081,
+  "c": "faith",
+  "s": "church",
+  "q": "Wallington Christian Centre London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/195919215",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "JOSM",
+    "name": "Wallington Christian Centre",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bandonhillmethodistchurc",
+  "n": "Bandon Hill Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.36129,
+  "lng": -0.13662,
+  "c": "faith",
+  "s": "church",
+  "q": "Bandon Hill Methodist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/196086880",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "JOSM",
+    "denomination": "methodist",
+    "name": "Bandon Hill Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gospelhall",
+  "n": "Gospel Hall",
+  "a": "",
+  "pc": "",
+  "lat": 51.361,
+  "lng": -0.14499,
+  "c": "faith",
+  "s": "church",
+  "q": "Gospel Hall London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/196112437",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "JOSM",
+    "name": "Gospel Hall",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sttheodore",
+  "n": "St Theodore",
+  "a": "",
+  "pc": "",
+  "lat": 51.41575,
+  "lng": -0.36885,
+  "c": "faith",
+  "s": "church",
+  "q": "St Theodore London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/206144886",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "St Theodore",
+    "religion": "christian",
+    "wikidata": "Q16900516",
+    "wikipedia": "en:St Theodore's Roman Catholic Church, Hampton"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hamptonbaptistchurch",
+  "n": "Hampton Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.41439,
+  "lng": -0.37139,
+  "c": "faith",
+  "s": "church",
+  "q": "Hampton Baptist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/206149236",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "name": "Hampton Baptist Church",
+    "religion": "christian",
+    "wikidata": "Q16896673",
+    "wikipedia": "en:Hampton Baptist Church"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cavalrymemorial",
+  "n": "Cavalry Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.50312,
+  "lng": -0.15591,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Cavalry Memorial London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/207639305",
+   "raw": {
+    "historic": "memorial",
+    "name": "Cavalry Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "metrocinema",
+  "n": "Metro Cinema",
+  "a": "",
+  "pc": "",
+  "lat": 51.58657,
+  "lng": -0.33246,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Metro Cinema London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/209108050",
+   "raw": {
+    "amenity": "cinema",
+    "fixme": "Assuming cinema has closed, building is currently undergoing renovation.",
+    "name": "Metro Cinema",
+    "old_wikidata": "Q42163367",
+    "payment:cash": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vuecinema",
+  "n": "Vue Cinema",
+  "a": "",
+  "pc": "",
+  "lat": 51.5815,
+  "lng": -0.33899,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Vue Cinema London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/210745603",
+   "raw": {
+    "addr:city": "Harrow",
+    "addr:country": "GB",
+    "addr:housename": "St Georges Centre",
+    "addr:housenumber": "27",
+    "addr:postcode": "HA1 1HS",
+    "addr:street": "St Anns Road",
+    "amenity": "cinema",
+    "branch": "Harrow",
+    "brand": "Vue",
+    "brand:wikidata": "Q2535134",
+    "brand:wikipedia": "en:Vue Cinemas",
+    "check_date": "2025-12-22",
+    "fhrs:id": "276902",
+    "level": "1",
+    "name": "Vue Cinema",
+    "screen": "12",
+    "source:addr": "FHRS Open Data",
+    "website": "https://www.myvue.com/cinema/harrow/whats-on",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "allsaints",
+  "n": "All Saints",
+  "a": "",
+  "pc": "",
+  "lat": 51.58622,
+  "lng": -0.29312,
+  "c": "faith",
+  "s": "church",
+  "q": "All Saints London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/211649818",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "email": "kenton@rcdow.org.uk",
+    "name": "All Saints",
+    "note": "Presbytery is at 2a Salehurst Close HA3 0UG.",
+    "phone": "+44 20 8204 3550",
+    "postal_code": "HA3 0UG",
+    "religion": "christian",
+    "service_times": "Su 08:30+,10:00+,11:30+;Sa 18:30+;Mo-Fr 09:15"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kodakchimney",
+  "n": "Kodak Chimney",
+  "a": "",
+  "pc": "",
+  "lat": 51.59451,
+  "lng": -0.34588,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Kodak Chimney London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/213639807",
+   "raw": {
+    "height": "65",
+    "historic": "yes",
+    "man_made": "chimney",
+    "name": "Kodak Chimney"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sircorbettwoodall",
+  "n": "Sir Corbett Woodall",
+  "a": "",
+  "pc": "",
+  "lat": 51.52351,
+  "lng": -0.00458,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Sir Corbett Woodall London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/221225447",
+   "raw": {
+    "artwork_type": "statue",
+    "description": "Statue of Sir Corbet Woodhall",
+    "he:inscription_date": "2008-04-09",
+    "heritage": "2",
+    "heritage:operator": "Historic England",
+    "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1392548",
+    "historic": "memorial",
+    "listed_status": "Grade II",
+    "memorial": "statue",
+    "name": "Sir Corbett Woodall",
+    "ref:GB:nhle": "1392548",
+    "subject:wikidata": "Q16059145",
+    "subject:wikipedia": "en:Corbet Woodall (gas engineer)",
+    "tourism": "artwork",
+    "type": "statue",
+    "wikidata": "Q26671765"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "trinitychurch",
+  "n": "Trinity Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.58479,
+  "lng": -0.33994,
+  "c": "faith",
+  "s": "church",
+  "q": "Trinity Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/239965407",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2026-02-07",
+    "denomination": "methodist;united_reformed",
+    "name": "Trinity Church",
+    "religion": "christian",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hanworthgospelhall",
+  "n": "Hanworth Gospel Hall",
+  "a": "",
+  "pc": "",
+  "lat": 51.43512,
+  "lng": -0.39219,
+  "c": "faith",
+  "s": "church",
+  "q": "Hanworth Gospel Hall London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/242542157",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Hanworth Gospel Hall",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "threebridges",
+  "n": "Three Bridges",
+  "a": "",
+  "pc": "",
+  "lat": 51.50438,
+  "lng": -0.35529,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Three Bridges London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/243841243",
+   "raw": {
+    "historic": "monument",
+    "name": "Three Bridges",
+    "start_date": "1859",
+    "wikidata": "Q17645322",
+    "wikipedia": "en:Three Bridges, London"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sacredheartconvent",
+  "n": "Sacred Heart Convent",
+  "a": "",
+  "pc": "",
+  "lat": 51.46322,
+  "lng": -0.00078,
+  "c": "faith",
+  "s": "church",
+  "q": "Sacred Heart Convent London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/245097342",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Sacred Heart Convent",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lewishamspiritualistchur",
+  "n": "Lewisham Spiritualist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.45908,
+  "lng": 0.00373,
+  "c": "faith",
+  "s": "place of worship",
+  "q": "Lewisham Spiritualist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/245097420",
+   "raw": {
+    "addr:city": "London",
+    "addr:housenumber": "65",
+    "addr:postcode": "SE13 5SA",
+    "addr:street": "Boone Street",
+    "addr:suburb": "Lewisham",
+    "amenity": "place_of_worship",
+    "name": "Lewisham Spiritualist Church",
+    "religion": "spiritualist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "belmontwarmemorial",
+  "n": "Belmont War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.34393,
+  "lng": -0.20231,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Belmont War Memorial London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/247921080",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "To the glory of God and in memory of the Belmont men who fell in the Great War 1914-1918 and those men and women of Belmont who gave their lives in the World War 1939-1945",
+    "memorial": "war_memorial",
+    "name": "Belmont War Memorial",
+    "source": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "isleworthwarmemorial",
+  "n": "Isleworth War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.46918,
+  "lng": -0.32854,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Isleworth War Memorial London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/248478329",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Isleworth War Memorial",
+    "wikidata": "Q26660759"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kingdomhallofjehovahswit",
+  "n": "Kingdom Hall of Jehovah's Witnesses",
+  "a": "",
+  "pc": "",
+  "lat": 51.46705,
+  "lng": -0.32811,
+  "c": "faith",
+  "s": "church",
+  "q": "Kingdom Hall of Jehovah's Witnesses London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/248478393",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "jehovahs_witness",
+    "name": "Kingdom Hall of Jehovah's Witnesses",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stavehill",
+  "n": "Stave Hill",
+  "a": "",
+  "pc": "",
+  "lat": 51.50109,
+  "lng": -0.04046,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Stave Hill London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/248617998",
+   "raw": {
+    "ele": "9",
+    "man_made": "hill",
+    "name": "Stave Hill",
+    "tourism": "viewpoint",
+    "wheelchair": "no",
+    "wikidata": "Q7604796",
+    "wikipedia": "en:Stave Hill"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hanworthmethodistchurch",
+  "n": "Hanworth Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.43914,
+  "lng": -0.37493,
+  "c": "faith",
+  "s": "church",
+  "q": "Hanworth Methodist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/248947896",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.7b",
+    "denomination": "methodist",
+    "name": "Hanworth Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "broadgatevenus",
+  "n": "Broadgate Venus",
+  "a": "",
+  "pc": "",
+  "lat": 51.51971,
+  "lng": -0.08046,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Broadgate Venus London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/249471729",
+   "raw": {
+    "name": "Broadgate Venus",
+    "tourism": "artwork",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "firstchurchofchristscien",
+  "n": "First Church of Christ, Scientist Chiswick",
+  "a": "",
+  "pc": "",
+  "lat": 51.49212,
+  "lng": -0.27156,
+  "c": "faith",
+  "s": "church",
+  "q": "First Church of Christ, Scientist Chiswick London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/249573060",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "christ_scientist",
+    "name": "First Church of Christ, Scientist Chiswick",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gunnersburybaptistchurch",
+  "n": "Gunnersbury Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.49034,
+  "lng": -0.27275,
+  "c": "faith",
+  "s": "church",
+  "q": "Gunnersbury Baptist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/249573063",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-10-24",
+    "denomination": "baptist",
+    "name": "Gunnersbury Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "harlingtonbaptistchurch",
+  "n": "Harlington Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.48692,
+  "lng": -0.43529,
+  "c": "faith",
+  "s": "church",
+  "q": "Harlington Baptist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/249855776",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-12-28",
+    "created_by": "JOSM",
+    "denomination": "baptist",
+    "name": "Harlington Baptist Church",
+    "religion": "christian",
+    "wikidata": "Q26354683"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stvincentdepaul",
+  "n": "St. Vincent de Paul",
+  "a": "",
+  "pc": "",
+  "lat": 51.47664,
+  "lng": -0.34774,
+  "c": "faith",
+  "s": "church",
+  "q": "St. Vincent de Paul London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/250746925",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "JOSM",
+    "denomination": "catholic",
+    "name": "St. Vincent de Paul",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "caterhamurc",
+  "n": "Caterham URC",
+  "a": "",
+  "pc": "",
+  "lat": 51.28041,
+  "lng": -0.07965,
+  "c": "faith",
+  "s": "church",
+  "q": "Caterham URC London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/251209612",
+   "raw": {
+    "addr:city": "Caterham",
+    "addr:postcode": "CR3 6SX",
+    "addr:street": "Harestone Hill",
+    "amenity": "place_of_worship",
+    "denomination": "united_reformed",
+    "fhrs:authority": "Tandridge",
+    "fhrs:id": "104764;104756",
+    "name": "Caterham URC",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stchristophersrcchurch",
+  "n": "St. Christopher's RC Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.3579,
+  "lng": -0.21378,
+  "c": "faith",
+  "s": "church",
+  "q": "St. Christopher's RC Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/252783742",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "St. Christopher's RC Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "merlandrisechurch",
+  "n": "Merland Rise Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.30135,
+  "lng": -0.23451,
+  "c": "faith",
+  "s": "church",
+  "q": "Merland Rise Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/253054020",
+   "raw": {
+    "addr:city": "Tadworth",
+    "addr:country": "GB",
+    "addr:postcode": "KT20 5JQ",
+    "addr:street": "Merland Rise",
+    "amenity": "place_of_worship",
+    "fhrs:authority": "Reigate and Banstead",
+    "fhrs:id": "1224044",
+    "name": "Merland Rise Church",
+    "religion": "christian",
+    "source": "survey;https://ratings.food.gov.uk/OpenDataFiles/FHRS309en-GB.xml"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sipsonchristianfellowshi",
+  "n": "Sipson Christian Fellowship",
+  "a": "",
+  "pc": "",
+  "lat": 51.48989,
+  "lng": -0.45632,
+  "c": "faith",
+  "s": "church",
+  "q": "Sipson Christian Fellowship London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/253821949",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "name": "Sipson Christian Fellowship",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fullgospelchurchalfanlan",
+  "n": "Full Gospel Church Alfan Lane",
+  "a": "",
+  "pc": "",
+  "lat": 51.41946,
+  "lng": 0.16964,
+  "c": "faith",
+  "s": "church",
+  "q": "Full Gospel Church Alfan Lane London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/254364396",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.8a",
+    "name": "Full Gospel Church Alfan Lane",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "peterpanstatue",
+  "n": "Peter Pan Statue",
+  "a": "",
+  "pc": "",
+  "lat": 51.50862,
+  "lng": -0.17592,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Peter Pan Statue London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/255467667",
+   "raw": {
+    "artist:wikidata": "Q2265709",
+    "artist_name": "George Frampton",
+    "artwork_type": "sculpture",
+    "name": "Peter Pan Statue",
+    "start_date": "1912",
+    "subject:wikidata": "Q107190",
+    "subject:wikipedia": "en:Peter Pan",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wikidata": "Q17549621",
+    "wikimedia_commons": "Category:Peter Pan statue in Kensington Gardens"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ruislipmanormethodistchu",
+  "n": "Ruislip Manor Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.56724,
+  "lng": -0.4097,
+  "c": "faith",
+  "s": "church",
+  "q": "Ruislip Manor Methodist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/256341253",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "JOSM",
+    "denomination": "methodist",
+    "name": "Ruislip Manor Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "southruislipmethodistchu",
+  "n": "South Ruislip Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.56208,
+  "lng": -0.3914,
+  "c": "faith",
+  "s": "church",
+  "q": "South Ruislip Methodist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/256342452",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.8a",
+    "denomination": "methodist",
+    "name": "South Ruislip Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lullingstoneromanvilla",
+  "n": "Lullingstone Roman Villa",
+  "a": "",
+  "pc": "",
+  "lat": 51.36402,
+  "lng": 0.19642,
+  "c": "roman",
+  "s": "Roman remains",
+  "q": "Lullingstone Roman Villa London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/256490027",
+   "raw": {
+    "addr:postcode": "DA4 0JA",
+    "addr:street": "Lullingstone Lane",
+    "archaeological_site": "roman_villa",
+    "fhrs:id": "266698",
+    "historic": "archaeological_site",
+    "historic:civilization": "ancient_roman",
+    "historic:period": "late_antiquity",
+    "name": "Lullingstone Roman Villa",
+    "ruins": "yes",
+    "source:addr": "FHRS Open Data",
+    "tourism": "attraction",
+    "website": "https://www.english-heritage.org.uk/visit/places/lullingstone-roman-villa/",
+    "wikidata": "Q1877182",
+    "wikimedia_commons": "Category:Roman villa, Lullingstone",
+    "wikipedia": "en:Lullingstone Roman Villa"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiswickseventhdayadvent",
+  "n": "Chiswick Seventh Day Adventist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.49705,
+  "lng": -0.24879,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiswick Seventh Day Adventist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/256508648",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "JOSM",
+    "denomination": "seventh_day_adventist",
+    "name": "Chiswick Seventh Day Adventist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "swanleywarmemorial",
+  "n": "Swanley War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.3976,
+  "lng": 0.17231,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Swanley War Memorial London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/256593751",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Swanley War Memorial",
+    "wheelchair": "yes",
+    "wikidata": "Q26671528"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spitfirepilotmemorial",
+  "n": "Spitfire Pilot Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.37812,
+  "lng": 0.21605,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Spitfire Pilot Memorial London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/256593821",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "In memory of Flight Lieutenant James Alfred Paterson M.B.E. of No.92 Squadron who lost his life near this spot on 27th Septe mber 1940 in Spitfire X4422 / He was 20 years old one of Churchill's \"few\" / Memorial dedicated on 27th September 2006 by [...]",
+    "inscription:url": "https://openplaques.org/plaques/60958",
+    "name": "Spitfire Pilot Memorial",
+    "openplaques:id": "60958"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "northroadbaptistchurch",
+  "n": "North Road Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.48707,
+  "lng": -0.29652,
+  "c": "faith",
+  "s": "church",
+  "q": "North Road Baptist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/256612242",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "name": "North Road Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ashfordcongregationalchu",
+  "n": "Ashford Congregational Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.43292,
+  "lng": -0.46549,
+  "c": "faith",
+  "s": "church",
+  "q": "Ashford Congregational Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/257251982",
+   "raw": {
+    "addr:city": "Ashford",
+    "addr:housename": "Ashford Congregational Church",
+    "addr:postcode": "TW15 2QA",
+    "addr:street": "Clarendon Road",
+    "amenity": "place_of_worship",
+    "denomination": "congregational",
+    "name": "Ashford Congregational Church",
+    "parking": "surface",
+    "religion": "christian",
+    "service_times": "Su 10:30",
+    "website": "https://www.aboutacc.com/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jubileechapel",
+  "n": "Jubilee Chapel",
+  "a": "",
+  "pc": "",
+  "lat": 51.48858,
+  "lng": -0.3043,
+  "c": "faith",
+  "s": "church",
+  "q": "Jubilee Chapel London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/257807915",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "JOSM",
+    "denomination": "primitive_methodist",
+    "name": "Jubilee Chapel",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "methodistchapel",
+  "n": "Methodist Chapel",
+  "a": "",
+  "pc": "",
+  "lat": 51.48719,
+  "lng": -0.30708,
+  "c": "faith",
+  "s": "church",
+  "q": "Methodist Chapel London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/257807941",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Methodist Chapel",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "georgegreysobelisk",
+  "n": "George Grey's Obelisk",
+  "a": "",
+  "pc": "",
+  "lat": 51.66653,
+  "lng": -0.14253,
+  "c": "history",
+  "s": "monument",
+  "q": "George Grey's Obelisk London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/257810726",
+   "raw": {
+    "historic": "monument",
+    "inscription": "To the memory of the birth of George Grey, Earl of Harold, son of Henry and Sophia, Duke and Duchess of Kent.",
+    "name": "George Grey's Obelisk",
+    "wikidata": "Q27085621"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "romanvilla",
+  "n": "Roman Villa",
+  "a": "",
+  "pc": "",
+  "lat": 51.71428,
+  "lng": -0.34101,
+  "c": "roman",
+  "s": "Roman remains",
+  "q": "Roman Villa London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/258316432",
+   "raw": {
+    "archaeological_site": "roman_villa",
+    "historic": "archaeological_site",
+    "historic:civilization": "ancient_roman",
+    "name": "Roman Villa"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ealingroadbaptistchurch",
+  "n": "Ealing Road Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.48889,
+  "lng": -0.30107,
+  "c": "faith",
+  "s": "church",
+  "q": "Ealing Road Baptist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/259247831",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "JOSM",
+    "denomination": "baptist",
+    "name": "Ealing Road Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "australiawarmemorial",
+  "n": "Australia War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.50206,
+  "lng": -0.15152,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Australia War Memorial London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/260279816",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "memorial:conflict": "WW1;WW2",
+    "name": "Australia War Memorial",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stockwellspiritistchurch",
+  "n": "Stockwell Spiritist Church and Healing Centre",
+  "a": "",
+  "pc": "",
+  "lat": 51.47097,
+  "lng": -0.1205,
+  "c": "faith",
+  "s": "church",
+  "q": "Stockwell Spiritist Church and Healing Centre London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/261245961",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "JOSM",
+    "name": "Stockwell Spiritist Church and Healing Centre",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "londonbuddhistcentre",
+  "n": "London Buddhist Centre",
+  "a": "",
+  "pc": "",
+  "lat": 51.52803,
+  "lng": -0.05125,
+  "c": "faith",
+  "s": "temple",
+  "q": "London Buddhist Centre London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/261269886",
+   "raw": {
+    "addr:city": "London",
+    "addr:housenumber": "51",
+    "addr:postcode": "E2 0HU",
+    "addr:street": "Roman Road",
+    "amenity": "place_of_worship",
+    "check_date": "2024-02-08",
+    "name": "London Buddhist Centre",
+    "religion": "buddhist",
+    "source": "survey on 2010-03-31 with gpx",
+    "wheelchair": "no",
+    "wikidata": "Q4266476",
+    "wikipedia": "en:London Buddhist Centre"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "suttonwarmemorial",
+  "n": "Sutton War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.36203,
+  "lng": -0.18997,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Sutton War Memorial London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/261627347",
+   "raw": {
+    "architect": "J S W Burmester",
+    "historic": "memorial",
+    "inscription": "THIS SIGN OF GREAT SACRIFICE IS RAISED IN HONOUR OF OUR HEROIC DEAD WHO GAVE THEIR LIVES FOR ENGLAND IN THE GREAT WAR/ (NAMES)/ THE PEOPLE OF SUTTON ERECTED THIS MONUMENT AND DEDICATED THE FOUR ACRES OF GROUND SURROUNDING IT TO THE USE OF THE PUBLIC FOR E",
+    "inscription:url": "https://historicengland.org.uk/listing/the-list/list-entry/1440302",
+    "memorial": "war_memorial",
+    "name": "Sutton War Memorial",
+    "start_date": "1921-06-26",
+    "wikidata": "Q27907513"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thetypemuseum",
+  "n": "The Type Museum",
+  "a": "",
+  "pc": "",
+  "lat": 51.47361,
+  "lng": -0.11558,
+  "c": "museum",
+  "s": "museum",
+  "q": "The Type Museum London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/261700004",
+   "raw": {
+    "addr:city": "London",
+    "addr:housenumber": "100",
+    "addr:postcode": "SW9 0QU",
+    "addr:street": "Hackford Road",
+    "name": "The Type Museum",
+    "tourism": "museum",
+    "website": "http://www.typearchive.org/",
+    "wikidata": "Q7860886",
+    "wikipedia": "en:Type Archive"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vue",
+  "n": "Vue",
+  "a": "",
+  "pc": "",
+  "lat": 51.43427,
+  "lng": -0.51364,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Vue London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/262072640",
+   "raw": {
+    "addr:city": "Staines-upon-Thames",
+    "addr:county": "Surrey",
+    "addr:postcode": "TW18 4BL",
+    "addr:street": "Mustard Mill Road",
+    "amenity": "cinema",
+    "brand": "Vue",
+    "brand:wikidata": "Q2535134",
+    "brand:wikipedia": "en:Vue Cinemas",
+    "fhrs:id": "277987",
+    "name": "Vue",
+    "source:addr": "FHRS Open Data"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintgabrielscatholicchu",
+  "n": "Saint Gabriel's Catholic Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.5607,
+  "lng": -0.3587,
+  "c": "faith",
+  "s": "church",
+  "q": "Saint Gabriel's Catholic Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/262556660",
+   "raw": {
+    "addr:city": "Harrow",
+    "addr:housenumber": "390b",
+    "addr:postcode": "HA2 8EX",
+    "addr:street": "Northolt Road",
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Saint Gabriel's Catholic Church",
+    "phone": "+44 20 8864 5455",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "roxethcommunitychurch",
+  "n": "Roxeth Community Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.56981,
+  "lng": -0.3594,
+  "c": "faith",
+  "s": "church",
+  "q": "Roxeth Community Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/262566131",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Roxeth Community Church",
+    "phone": "+44 20 8864 7037",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stamfordhillunitedchurch",
+  "n": "Stamford Hill United Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.57037,
+  "lng": -0.07164,
+  "c": "faith",
+  "s": "church",
+  "q": "Stamford Hill United Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/263905047",
+   "raw": {
+    "addr:city": "London",
+    "addr:housenumber": "55",
+    "addr:postcode": "N16 6HJ",
+    "addr:street": "Portland Avenue",
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "name": "Stamford Hill United Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "omniplexcinemasutton",
+  "n": "Omniplex Cinema Sutton",
+  "a": "",
+  "pc": "",
+  "lat": 51.36477,
+  "lng": -0.19531,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Omniplex Cinema Sutton London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/264759489",
+   "raw": {
+    "addr:street": "St. Nicholas Way",
+    "amenity": "cinema",
+    "name": "Omniplex Cinema Sutton",
+    "website": "https://www.omniplexcinemas.co.uk/cinema/sutton/",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "epsommethodistchurch",
+  "n": "Epsom Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.33201,
+  "lng": -0.26648,
+  "c": "faith",
+  "s": "church",
+  "q": "Epsom Methodist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/265587918",
+   "raw": {
+    "addr:city": "Epsom",
+    "addr:country": "GB",
+    "addr:postcode": "KT18 5AQ",
+    "addr:street": "Ashley Road",
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "fhrs:id": "1000117",
+    "name": "Epsom Methodist Church",
+    "religion": "christian",
+    "source:addr": "FHRS Open Data",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "polishwarmemorial",
+  "n": "Polish War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.54883,
+  "lng": -0.40028,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Polish War Memorial London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/266577545",
+   "raw": {
+    "historic": "memorial",
+    "name": "Polish War Memorial",
+    "wikidata": "Q961348",
+    "wikipedia": "en:Polish Air Force Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "crownroadbaptistchurch",
+  "n": "Crown Road Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.36683,
+  "lng": -0.1986,
+  "c": "faith",
+  "s": "church",
+  "q": "Crown Road Baptist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/266740389",
+   "raw": {
+    "addr:city": "Sutton",
+    "addr:street": "Crown Road",
+    "amenity": "place_of_worship",
+    "check_date": "2023-08-03",
+    "name": "Crown Road Baptist Church",
+    "religion": "christian",
+    "wikimedia_commons": "File:Crown Road Baptist Church, Crown Road, Sutton (July 2020) (1).jpg"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "holyfamilycatholicchurch",
+  "n": "Holy Family Catholic Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.3716,
+  "lng": -0.19613,
+  "c": "faith",
+  "s": "church",
+  "q": "Holy Family Catholic Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/266741156",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "JOSM",
+    "denomination": "catholic",
+    "name": "Holy Family Catholic Church",
+    "religion": "christian",
+    "source": "photo"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stmatthias",
+  "n": "St Matthias",
+  "a": "",
+  "pc": "",
+  "lat": 51.37549,
+  "lng": -0.23566,
+  "c": "faith",
+  "s": "church",
+  "q": "St Matthias London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/266749420",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2023-12-10",
+    "name": "St Matthias",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bromleybaptistchurch",
+  "n": "Bromley Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.40677,
+  "lng": 0.01881,
+  "c": "faith",
+  "s": "church",
+  "q": "Bromley Baptist Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/266891287",
+   "raw": {
+    "addr:city": "Bromley",
+    "addr:country": "GB",
+    "addr:postcode": "BR1 3HJ",
+    "addr:street": "Park Road",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "check_date": "2024-05-29",
+    "denomination": "baptist",
+    "fhrs:id": "949255",
+    "name": "Bromley Baptist Church",
+    "nohousenumber": "yes",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintanneswell",
+  "n": "Saint Anne's Well",
+  "a": "",
+  "pc": "",
+  "lat": 51.45544,
+  "lng": -0.48199,
+  "c": "history",
+  "s": "old well",
+  "q": "Saint Anne's Well London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/267504740",
+   "raw": {
+    "created_by": "Potlatch 0.9c",
+    "historic": "well",
+    "name": "Saint Anne's Well"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "egham",
+  "n": "Egham",
+  "a": "",
+  "pc": "",
+  "lat": 51.4289,
+  "lng": -0.5479,
+  "c": "oddity",
+  "s": "town in the borough of Runnymede in Surrey, England",
+  "q": "Egham London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q746681",
+   "raw": "town in the borough of Runnymede in Surrey, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "shahjahanmosque",
+  "n": "Shah Jahan Mosque",
+  "a": "",
+  "pc": "",
+  "lat": 51.3218,
+  "lng": -0.5475,
+  "c": "faith",
+  "s": "mosque in Woking, Surrey, England, UK",
+  "q": "Shah Jahan Mosque London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1549077",
+   "raw": "mosque in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "horsellcommon",
+  "n": "Horsell Common",
+  "a": "",
+  "pc": "",
+  "lat": 51.3358,
+  "lng": -0.54833,
+  "c": "oddity",
+  "s": "site of Special Scientific Interest in Horsell, Surrey, Engl",
+  "q": "Horsell Common London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5905821",
+   "raw": "Site of Special Scientific Interest in Horsell, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lyne",
+  "n": "Lyne",
+  "a": "",
+  "pc": "",
+  "lat": 51.3859,
+  "lng": -0.54527,
+  "c": "oddity",
+  "s": "village in the borough of Runnymede, Surrey, England",
+  "q": "Lyne London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6708786",
+   "raw": "village in the borough of Runnymede, Surrey, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mclarentechnologycentre",
+  "n": "McLaren Technology Centre",
+  "a": "",
+  "pc": "",
+  "lat": 51.34583,
+  "lng": -0.54833,
+  "c": "oddity",
+  "s": "headquarters of the McLaren Group",
+  "q": "McLaren Technology Centre London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6802081",
+   "raw": "headquarters of the McLaren Group",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "muslimburialgroundhorsel",
+  "n": "Muslim Burial Ground, Horsell Common",
+  "a": "",
+  "pc": "",
+  "lat": 51.3291,
+  "lng": -0.54203,
+  "c": "death",
+  "s": "former cemetery and current peace garden in Woking, Surrey, ",
+  "q": "Muslim Burial Ground, Horsell Common London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6942875",
+   "raw": "former cemetery and current peace garden in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oldwoking",
+  "n": "Old Woking",
+  "a": "",
+  "pc": "",
+  "lat": 51.3022,
+  "lng": -0.5382,
+  "c": "oddity",
+  "s": "village in Surrey, England, UK",
+  "q": "Old Woking London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7085435",
+   "raw": "village in Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ottershawschool",
+  "n": "Ottershaw School",
+  "a": "",
+  "pc": "",
+  "lat": 51.3571,
+  "lng": -0.5468,
+  "c": "oddity",
+  "s": "former boys school in Ottershaw",
+  "q": "Ottershaw School London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7109449",
+   "raw": "former boys school in Ottershaw",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stjohnthebaptistschoolwo",
+  "n": "St John the Baptist School, Woking",
+  "a": "",
+  "pc": "",
+  "lat": 51.3083,
+  "lng": -0.54909,
+  "c": "oddity",
+  "s": "voluntary aided comprehensive school in Woking, Surrey, Engl",
+  "q": "St John the Baptist School, Woking London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7593756",
+   "raw": "voluntary aided comprehensive school in Woking, Surrey, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wokingcollege",
+  "n": "Woking College",
+  "a": "",
+  "pc": "",
+  "lat": 51.307,
+  "lng": -0.548,
+  "c": "oddity",
+  "s": "college in Southeast England",
+  "q": "Woking College London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8029319",
+   "raw": "College in Southeast England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wokinghundred",
+  "n": "Woking Hundred",
+  "a": "",
+  "pc": "",
+  "lat": 51.27,
+  "lng": -0.55,
+  "c": "oddity",
+  "s": "historical division of Surrey, England",
+  "q": "Woking Hundred London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8029334",
+   "raw": "historical division of Surrey, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "runnymede",
+  "n": "Runnymede",
+  "a": "",
+  "pc": "",
+  "lat": 51.395,
+  "lng": -0.541,
+  "c": "oddity",
+  "s": "local government district with borough status in Surrey, Eng",
+  "q": "Runnymede London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q9324032",
+   "raw": "local government district with borough status in Surrey, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "greatfosters",
+  "n": "Great Fosters",
+  "a": "",
+  "pc": "",
+  "lat": 51.416,
+  "lng": -0.545,
+  "c": "oddity",
+  "s": "grade I listed country house in Egham, Surrey, England, UK",
+  "q": "Great Fosters London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q13529255",
+   "raw": "Grade I listed country house in Egham, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stdunstanschurchwoking",
+  "n": "St Dunstan's Church, Woking",
+  "a": "",
+  "pc": "",
+  "lat": 51.3192,
+  "lng": -0.5453,
+  "c": "faith",
+  "s": "church in Surrey, United Kingdom",
+  "q": "St Dunstan's Church, Woking London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16900444",
+   "raw": "church in Surrey, United Kingdom",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofstmary",
+  "n": "Church of St Mary",
+  "a": "",
+  "pc": "",
+  "lat": 51.2791,
+  "lng": -0.54086,
+  "c": "faith",
+  "s": "church in Send, Surrey, England, UK",
+  "q": "Church of St Mary London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17547473",
+   "raw": "church in Send, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "theoldmanorhouse",
+  "n": "The Old Manor House",
+  "a": "",
+  "pc": "",
+  "lat": 51.3022,
+  "lng": -0.54077,
+  "c": "oddity",
+  "s": "house in Woking, Surrey, England, UK",
+  "q": "The Old Manor House London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17548949",
+   "raw": "house in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hoeplace",
+  "n": "Hoe Place",
+  "a": "",
+  "pc": "",
+  "lat": 51.3081,
+  "lng": -0.53695,
+  "c": "oddity",
+  "s": "building in Woking, Surrey, England, UK",
+  "q": "Hoe Place London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17548954",
+   "raw": "building in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fishersfarmhouse",
+  "n": "Fishers Farm House",
+  "a": "",
+  "pc": "",
+  "lat": 51.2934,
+  "lng": -0.54762,
+  "c": "oddity",
+  "s": "farmhouse in Woking, Surrey, England, UK",
+  "q": "Fishers Farm House London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17548960",
+   "raw": "farmhouse in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chapeloftheformerconvent",
+  "n": "Chapel Of The Former Convent Of St Peter",
+  "a": "",
+  "pc": "",
+  "lat": 51.3202,
+  "lng": -0.53782,
+  "c": "faith",
+  "s": "chapel in Woking, Surrey, England, UK",
+  "q": "Chapel Of The Former Convent Of St Peter London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17548985",
+   "raw": "chapel in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bellbarrowanddiscbarrowo",
+  "n": "Bell barrow and disc barrow on Horsell Common",
+  "a": "",
+  "pc": "",
+  "lat": 51.3283,
+  "lng": -0.54551,
+  "c": "history",
+  "s": "disc barrow in Woking, Surrey, England, UK",
+  "q": "Bell barrow and disc barrow on Horsell Common London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17650624",
+   "raw": "disc barrow in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bellbarrowonhorsellcommo",
+  "n": "Bell barrow on Horsell Common immediately east of Monument Road",
+  "a": "",
+  "pc": "",
+  "lat": 51.328,
+  "lng": -0.54291,
+  "c": "history",
+  "s": "bell barrow in Woking, Surrey, England, UK",
+  "q": "Bell barrow on Horsell Common immediately east of Monument Road London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17650636",
+   "raw": "bell barrow in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "royaldramaticcollege",
+  "n": "Royal Dramatic College",
+  "a": "",
+  "pc": "",
+  "lat": 51.32333,
+  "lng": -0.54306,
+  "c": "oddity",
+  "s": "former retirement home for actors in England",
+  "q": "Royal Dramatic College London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18391344",
+   "raw": "former retirement home for actors in England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hoestream",
+  "n": "Hoe Stream",
+  "a": "",
+  "pc": "",
+  "lat": 51.31007,
+  "lng": -0.54498,
+  "c": "oddity",
+  "s": "watercourse in the United Kingdom",
+  "q": "Hoe Stream London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q24680040",
+   "raw": "watercourse in the United Kingdom",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "memorialstoneforsiteofro",
+  "n": "Memorial Stone For Site Of Roman Road",
+  "a": "",
+  "pc": "",
+  "lat": 51.41959,
+  "lng": -0.54365,
+  "c": "history",
+  "s": "building in Runnymede, Surrey, England, UK",
+  "q": "Memorial Stone For Site Of Roman Road London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26280059",
+   "raw": "building in Runnymede, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "roseandcrownpublichouse",
+  "n": "Rose And Crown Public House",
+  "a": "",
+  "pc": "",
+  "lat": 51.40151,
+  "lng": -0.54904,
+  "c": "oddity",
+  "s": "pub in Runnymede, Surrey, England, UK",
+  "q": "Rose And Crown Public House London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26280074",
+   "raw": "pub in Runnymede, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "orchardcottage",
+  "n": "Orchard Cottage",
+  "a": "",
+  "pc": "",
+  "lat": 51.40844,
+  "lng": -0.53714,
+  "c": "oddity",
+  "s": "cottage in Runnymede, Surrey, England, UK",
+  "q": "Orchard Cottage London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26280076",
+   "raw": "cottage in Runnymede, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "westendfarm",
+  "n": "West End Farm",
+  "a": "",
+  "pc": "",
+  "lat": 51.40955,
+  "lng": -0.53969,
+  "c": "oddity",
+  "s": "building in Runnymede, Surrey, England, UK",
+  "q": "West End Farm London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26280099",
+   "raw": "building in Runnymede, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "redlandsfarmhouse",
+  "n": "Redlands Farmhouse",
+  "a": "",
+  "pc": "",
+  "lat": 51.39564,
+  "lng": -0.54939,
+  "c": "oddity",
+  "s": "farmhouse in Runnymede, Surrey, England, UK",
+  "q": "Redlands Farmhouse London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26280320",
+   "raw": "farmhouse in Runnymede, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stlukeschurch2",
+  "n": "St Luke's Church",
+  "a": "",
+  "pc": "",
+  "lat": 51.26229,
+  "lng": -0.54963,
+  "c": "faith",
+  "s": "church in Burpham, Surrey, England, UK",
+  "q": "St Luke's Church London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26280477",
+   "raw": "church in Burpham, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "workshopatworsfoldgateso",
+  "n": "Workshop At Worsfold Gates On The Wey Navigation",
+  "a": "",
+  "pc": "",
+  "lat": 51.29125,
+  "lng": -0.54415,
+  "c": "oddity",
+  "s": "building in Send, Guildford, Surrey, England, UK",
+  "q": "Workshop At Worsfold Gates On The Wey Navigation London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26280530",
+   "raw": "building in Send, Guildford, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sendholme",
+  "n": "Sendholme",
+  "a": "",
+  "pc": "",
+  "lat": 51.28353,
+  "lng": -0.54232,
+  "c": "oddity",
+  "s": "building in Send, Guildford, Surrey, England, UK",
+  "q": "Sendholme London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26280528",
+   "raw": "building in Send, Guildford, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lynchgatetochurchofholyt",
+  "n": "Lynchgate To Church Of Holy Trinity",
+  "a": "",
+  "pc": "",
+  "lat": 51.38092,
+  "lng": -0.54235,
+  "c": "faith",
+  "s": "building in Runnymede, Surrey, England, UK",
+  "q": "Lynchgate To Church Of Holy Trinity London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26291770",
+   "raw": "building in Runnymede, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "80and82highstreet",
+  "n": "80 And 82, High Street",
+  "a": "",
+  "pc": "",
+  "lat": 51.30225,
+  "lng": -0.54622,
+  "c": "oddity",
+  "s": "building in Woking, Surrey, England, UK",
+  "q": "80 And 82, High Street London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26296746",
+   "raw": "building in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "34highstreet",
+  "n": "34, High Street",
+  "a": "",
+  "pc": "",
+  "lat": 51.3026,
+  "lng": -0.54901,
+  "c": "oddity",
+  "s": "building in Woking, Surrey, England, UK",
+  "q": "34, High Street London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26296745",
+   "raw": "building in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rosecottage",
+  "n": "Rose Cottage",
+  "a": "",
+  "pc": "",
+  "lat": 51.30217,
+  "lng": -0.54447,
+  "c": "oddity",
+  "s": "cottage in Woking, Surrey, England, UK",
+  "q": "Rose Cottage London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26296748",
+   "raw": "cottage in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "homesteadcottage",
+  "n": "Homestead Cottage",
+  "a": "",
+  "pc": "",
+  "lat": 51.42129,
+  "lng": -0.54061,
+  "c": "oddity",
+  "s": "cottage in Runnymede, Surrey, England, UK",
+  "q": "Homestead Cottage London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26485066",
+   "raw": "cottage in Runnymede, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hazlewood",
+  "n": "Hazlewood",
+  "a": "",
+  "pc": "",
+  "lat": 51.40681,
+  "lng": -0.53691,
+  "c": "oddity",
+  "s": "building in Runnymede, Surrey, England, UK",
+  "q": "Hazlewood London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26485238",
+   "raw": "building in Runnymede, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "roundhillcottage",
+  "n": "Roundhill Cottage",
+  "a": "",
+  "pc": "",
+  "lat": 51.31007,
+  "lng": -0.5392,
+  "c": "oddity",
+  "s": "cottage in Woking, Surrey, England, UK",
+  "q": "Roundhill Cottage London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26529950",
+   "raw": "cottage in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ramwickcottage",
+  "n": "Ramwick Cottage",
+  "a": "",
+  "pc": "",
+  "lat": 51.31775,
+  "lng": -0.54774,
+  "c": "oddity",
+  "s": "cottage in Woking, Surrey, England, UK",
+  "q": "Ramwick Cottage London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26529985",
+   "raw": "cottage in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "whiterosefarmhouse",
+  "n": "White Rose Farm House",
+  "a": "",
+  "pc": "",
+  "lat": 51.31114,
+  "lng": -0.54619,
+  "c": "oddity",
+  "s": "farmhouse in Woking, Surrey, England, UK",
+  "q": "White Rose Farm House London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26530146",
+   "raw": "farmhouse in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ashwood",
+  "n": "Ashwood",
+  "a": "",
+  "pc": "",
+  "lat": 51.31266,
+  "lng": -0.54914,
+  "c": "oddity",
+  "s": "listed Building in Woking, Surrey, England, UK",
+  "q": "Ashwood London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26550477",
+   "raw": "Listed Building in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofallsaints",
+  "n": "Church of All Saints",
+  "a": "",
+  "pc": "",
+  "lat": 51.33459,
+  "lng": -0.54322,
+  "c": "faith",
+  "s": "church building in Woking, Surrey, England, UK",
+  "q": "Church of All Saints London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26555046",
+   "raw": "church building in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "greenways",
+  "n": "Greenways",
+  "a": "",
+  "pc": "",
+  "lat": 51.31423,
+  "lng": -0.54579,
+  "c": "oddity",
+  "s": "building in Woking, Surrey, England, UK",
+  "q": "Greenways London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26561876",
+   "raw": "building in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lodgeofbotleyspark",
+  "n": "Lodge Of Botleys Park",
+  "a": "",
+  "pc": "",
+  "lat": 51.37513,
+  "lng": -0.53824,
+  "c": "green",
+  "s": "gatehouse in Runnymede, Surrey, England, UK",
+  "q": "Lodge Of Botleys Park London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26658368",
+   "raw": "gatehouse in Runnymede, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oldfarmhouse",
+  "n": "Old Farmhouse",
+  "a": "",
+  "pc": "",
+  "lat": 51.34779,
+  "lng": -0.54052,
+  "c": "oddity",
+  "s": "farmhouse in Runnymede, Surrey, England, UK",
+  "q": "Old Farmhouse London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26658376",
+   "raw": "farmhouse in Runnymede, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "theoldcottage46parkroad",
+  "n": "The Old Cottage, 46 Park Road",
+  "a": "",
+  "pc": "",
+  "lat": 51.31672,
+  "lng": -0.54591,
+  "c": "green",
+  "s": "cottage in Woking, Surrey, England, UK",
+  "q": "The Old Cottage, 46 Park Road London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26892022",
+   "raw": "cottage in Woking, Surrey, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thorpeinterchange",
+  "n": "Thorpe Interchange",
+  "a": "",
+  "pc": "",
+  "lat": 51.40076,
+  "lng": -0.53746,
+  "c": "oddity",
+  "s": "road junction",
+  "q": "Thorpe Interchange London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q28402836",
+   "raw": "road junction",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gaumontwoking",
+  "n": "Gaumont Woking",
+  "a": "",
+  "pc": "",
+  "lat": 51.33216,
+  "lng": -0.54653,
+  "c": "cinema",
+  "s": "former cinema in Woking, England",
+  "q": "Gaumont Woking London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q41252149",
+   "raw": "former cinema in Woking, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "whiteroselane",
+  "n": "White Rose Lane",
+  "a": "",
+  "pc": "",
+  "lat": 51.309,
+  "lng": -0.544,
+  "c": "green",
+  "s": "park",
+  "q": "White Rose Lane London",
+  "w": "",
+  "city": "london",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q60756098",
+   "raw": "park",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

@@ -1,0 +1,3905 @@
+[
+ {
+  "id": "ottovonbismarck",
+  "n": "Otto von Bismarck",
+  "a": "",
+  "pc": "",
+  "lat": 53.43919,
+  "lng": 9.90212,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Otto von Bismarck Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/26607434",
+   "raw": {
+    "historic": "memorial",
+    "name": "Otto von Bismarck"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gedenkstattekonzentratio",
+  "n": "Gedenkstätte Konzentrationslager Fuhlsbüttel",
+  "a": "",
+  "pc": "",
+  "lat": 53.62255,
+  "lng": 10.01886,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Gedenkstätte Konzentrationslager Fuhlsbüttel Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/30769870",
+   "raw": {
+    "historic": "memorial",
+    "image": "http://commons.wikimedia.org/wiki/File:KZ_Fuhlsb%C3%BCttel-T.jpg",
+    "memorial": "plaque",
+    "name": "Gedenkstätte Konzentrationslager Fuhlsbüttel",
+    "website": "https://gedenkstaetten-in-hamburg.de/gedenkstaetten/gedenkort/gedenkstaette-konzentrationslager-und-strafanstalten-fuhlsbuettel-1933-1945/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "uweseelerfu",
+  "n": "Uwe-Seeler-Fuß",
+  "a": "",
+  "pc": "",
+  "lat": 53.58817,
+  "lng": 9.90049,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Uwe-Seeler-Fuß Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/31477371",
+   "raw": {
+    "artist_name": "Brigitte Schmitges",
+    "artwork_type": "sculpture",
+    "description": "Diese Skulptur wurde 2005 - also zu Lebzeiten Uwe Seelers - aufgestellt. Es handelt sich um eine Nachbildung des rechten Fußes von Seeler im Maßstab 20:1",
+    "material": "bronze",
+    "memorial": "sportsman",
+    "name": "Uwe-Seeler-Fuß",
+    "subject:wikidata": "Q121030455",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wikidata": "Q121030455"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "abatonkino",
+  "n": "Abaton-Kino",
+  "a": "",
+  "pc": "",
+  "lat": 53.56767,
+  "lng": 9.98204,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Abaton-Kino Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/60568486",
+   "raw": {
+    "addr:city": "Hamburg",
+    "addr:housenumber": "3",
+    "addr:postcode": "20146",
+    "addr:street": "Allende-Platz",
+    "air_conditioning": "yes",
+    "amenity": "cinema",
+    "check_date": "2025-09-26",
+    "contact:facebook": "https://www.facebook.com/abatonkino/",
+    "contact:instagram": "https://www.instagram.com/abatonkino/",
+    "email": "office@abaton.de",
+    "fax": "+49 40 41320310",
+    "name": "Abaton-Kino",
+    "operator": "Felix Grassmann",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:notes": "yes",
+    "payment:visa": "yes",
+    "phone": "+49 40 41320320",
+    "ref:vatin": "DE118518319",
+    "screen": "3",
+    "toilets:wheelchair": "no",
+    "website": "https://www.abaton.de",
+    "wheelchair": "no",
+    "wikidata": "Q305682",
+    "wikipedia": "de:Abaton (Kino)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hammerbrookschleuse",
+  "n": "Hammerbrookschleuse",
+  "a": "",
+  "pc": "",
+  "lat": 53.5439,
+  "lng": 10.01099,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Hammerbrookschleuse Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/220391801",
+   "raw": {
+    "architect": "William Lindley",
+    "heritage": "yes",
+    "heritage:ref": "0600",
+    "historic": "technical_monument",
+    "image": "http://commons.wikimedia.org/wiki/File:Hammerbrooker_Schleuse.jpg",
+    "name": "Hammerbrookschleuse",
+    "year_of_construction": "1847"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hansalbersdenkmal",
+  "n": "Hans-Albers-Denkmal",
+  "a": "",
+  "pc": "",
+  "lat": 53.54866,
+  "lng": 9.96086,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Hans-Albers-Denkmal Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/244256348",
+   "raw": {
+    "description:de": "Gedenkstatue des in Hamburg geborenen Sänger und Schauspieler Hans Albers auf dem nach ihm benannten Platz",
+    "historic": "memorial",
+    "image": "http://commons.wikimedia.org/wiki/File:Hansalbersstatue.jpg",
+    "memorial": "statue",
+    "name": "Hans-Albers-Denkmal",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "friedensmahnmal",
+  "n": "Friedens-Mahnmal",
+  "a": "",
+  "pc": "",
+  "lat": 53.63128,
+  "lng": 9.91506,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Friedens-Mahnmal Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/252089197",
+   "raw": {
+    "heritage": "4",
+    "heritage:operator": "dsa",
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "war_memorial",
+    "name": "Friedens-Mahnmal",
+    "ref:dsa": "19401",
+    "start_date": "1967",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "leuchtfeuerbunthaus",
+  "n": "Leuchtfeuer Bunthaus",
+  "a": "",
+  "pc": "",
+  "lat": 53.45687,
+  "lng": 10.06908,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Leuchtfeuer Bunthaus Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/255006721",
+   "raw": {
+    "disused:man_made": "lighthouse",
+    "dsa:criteria": "Baudenkmal",
+    "end_date": "1977-03",
+    "height": "7",
+    "heritage": "4",
+    "heritage:operator": "dsa",
+    "image": "http://commons.wikimedia.org/wiki/File:Bunthäuser_Spitze_Leuchtturm.jpg",
+    "name": "Leuchtfeuer Bunthaus",
+    "ref:dsa": "28333",
+    "start_date": "1913",
+    "tourism": "viewpoint",
+    "wheelchair": "no",
+    "wikidata": "Q1759209",
+    "wikipedia": "de:Leuchtfeuer Bunthaus"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bohrkopftrude",
+  "n": "Bohrkopf T.R.U.D.E.",
+  "a": "",
+  "pc": "",
+  "lat": 53.58485,
+  "lng": 10.04434,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Bohrkopf T.R.U.D.E. Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/255580524",
+   "raw": {
+    "description": "Bohrkopf des Tunnelbohrer der vierten Elbtunnelröhre",
+    "historic": "technical_monument",
+    "image": "https://commons.wikimedia.org/wiki/File:Museum_der_Arbeit_-_Trude.jpg",
+    "long_name": "Tief Runter Unter Die Elbe",
+    "name": "Bohrkopf T.R.U.D.E.",
+    "note": "Bohrkopf in Hamburg unter dem Namen TRUDE bekannt, daher die Abkürzung als Namen gewählt",
+    "tourism": "attraction",
+    "wheelchair": "limited",
+    "wikidata": "Q1524874",
+    "wikipedia": "de:TRUDE"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ucikinoweltwandsbek",
+  "n": "UCI Kinowelt Wandsbek",
+  "a": "",
+  "pc": "",
+  "lat": 53.58828,
+  "lng": 10.0973,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "UCI Kinowelt Wandsbek Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/257143331",
+   "raw": {
+    "addr:city": "Hamburg",
+    "addr:country": "DE",
+    "addr:housenumber": "134",
+    "addr:postcode": "22047",
+    "addr:street": "Friedrich-Ebert-Damm",
+    "alt_name": "UCI - Smart City",
+    "amenity": "cinema",
+    "brand": "UCI Kinowelt",
+    "brand:short": "UCI",
+    "brand:wikidata": "Q521922",
+    "name": "UCI Kinowelt Wandsbek",
+    "opening_hours": "Mo 13:30-20:30, Tu-Sa 13:30-23:15, Su 11:00-23:15",
+    "phone": "+49 40 69442442",
+    "short_name": "UCI",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.uci-kinowelt.de/kinoprogramm/hh-wandsbek-smart-city/54",
+    "wheelchair": "yes",
+    "wikidata": "Q69811606"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "friedensstein",
+  "n": "Friedensstein",
+  "a": "",
+  "pc": "",
+  "lat": 53.55718,
+  "lng": 10.01636,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Friedensstein Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/257697845",
+   "raw": {
+    "description:hu": "Békekő",
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "Friedensstein"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dialoghaushamburg",
+  "n": "Dialoghaus Hamburg",
+  "a": "",
+  "pc": "",
+  "lat": 53.54621,
+  "lng": 10.00168,
+  "c": "museum",
+  "s": "museum",
+  "q": "Dialoghaus Hamburg Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/265761266",
+   "raw": {
+    "addr:city": "Hamburg",
+    "addr:country": "DE",
+    "addr:housenumber": "4",
+    "addr:postcode": "20457",
+    "addr:street": "Alter Wandrahm",
+    "check_date": "2023-04-04",
+    "contact:website": "http://www.dialog-im-dunkeln.de",
+    "description:hu": "Párbeszéd a sötétben",
+    "fee": "yes",
+    "name": "Dialoghaus Hamburg",
+    "opening_hours": "Tu-Th 10:00-17:00; Fr-Sa 10:00-17:45; Su, PH 11:00-17:00",
+    "phone": "+49 40 3096340",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "website": "https://dialog-in-hamburg.de",
+    "wheelchair": "yes",
+    "wikidata": "Q457196",
+    "wikipedia": "de:Dialog im Dunkeln"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zeisekinos",
+  "n": "zeise kinos",
+  "a": "",
+  "pc": "",
+  "lat": 53.55404,
+  "lng": 9.9274,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "zeise kinos Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/270082988",
+   "raw": {
+    "addr:city": "Hamburg",
+    "addr:country": "DE",
+    "addr:housenumber": "7",
+    "addr:postcode": "22765",
+    "addr:street": "Friedensallee",
+    "amenity": "cinema",
+    "check_date": "2024-07-04",
+    "check_date:opening_hours": "2024-07-04",
+    "name": "zeise kinos",
+    "opening_hours": "Mo-Fr 14:00-22:00; Sa 12:00-22:00; Su 11:00-22:00",
+    "opening_hours:signed": "no",
+    "payment:cash": "yes",
+    "payment:debit_cards": "yes",
+    "screen": "3",
+    "website": "https://www.zeise.de/",
+    "wheelchair": "no",
+    "wikidata": "Q34379197"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "menckmal",
+  "n": "Menckmal",
+  "a": "",
+  "pc": "",
+  "lat": 53.55266,
+  "lng": 9.92712,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Menckmal Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/270474094",
+   "raw": {
+    "historic": "technical_monument",
+    "image": "http://www.seilbaggerarbeiten.de/Dateien-Menckmal/M152-ottensen-5.jpg",
+    "name": "Menckmal",
+    "website": "http://www.seilbaggerarbeiten.de/menckmal.htm"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alfonsganser",
+  "n": "Alfons Ganser",
+  "a": "",
+  "pc": "",
+  "lat": 53.54113,
+  "lng": 10.04755,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Alfons Ganser Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/274098391",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "stolperstein",
+    "memorial:addr": "Großmannstraße, Hamburg",
+    "memorial:addr:city": "Hamburg",
+    "memorial:addr:postcode": "20539",
+    "memorial:addr:street": "Großmannstraße",
+    "name": "Alfons Ganser",
+    "network": "Stolpersteine Hamburg",
+    "person:date_of_birth": "1914"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "deutscheszollmuseum",
+  "n": "Deutsches Zollmuseum",
+  "a": "",
+  "pc": "",
+  "lat": 53.54594,
+  "lng": 9.99801,
+  "c": "museum",
+  "s": "museum",
+  "q": "Deutsches Zollmuseum Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/277296724",
+   "raw": {
+    "addr:city": "Hamburg",
+    "addr:country": "DE",
+    "addr:housenumber": "15-16",
+    "addr:postcode": "20457",
+    "addr:street": "Alter Wandrahm",
+    "check_date:opening_hours": "2024-03-16",
+    "email": "museum@zoll.de",
+    "fax": "+49 40 428203920",
+    "fee": "yes",
+    "name": "Deutsches Zollmuseum",
+    "name:en": "German Customs Museum",
+    "name:hu": "Német Vámmúzeum",
+    "opening_hours": "Tu-Su 10:00-17:00",
+    "operator": "Bundesministerium der Finanzen",
+    "phone": "+49 40 428203911",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "website": "https://www.museum.zoll.de/",
+    "wheelchair": "yes",
+    "wikidata": "Q1206138",
+    "wikipedia": "de:Deutsches Zollmuseum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "slomangedenkstein",
+  "n": "Sloman-Gedenkstein",
+  "a": "",
+  "pc": "",
+  "lat": 53.52751,
+  "lng": 10.01984,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Sloman-Gedenkstein Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/278462507",
+   "raw": {
+    "description": "Hamburger Unternehmer und Bankier",
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "Sloman-Gedenkstein"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "schellfischtunnelsudport",
+  "n": "Schellfischtunnel Südportal",
+  "a": "",
+  "pc": "",
+  "lat": 53.54531,
+  "lng": 9.93265,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Schellfischtunnel Südportal Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/282330108",
+   "raw": {
+    "barrier": "gate",
+    "dsa:criteria": "Ensembleteil",
+    "heritage": "4",
+    "heritage:operator": "dsa",
+    "historic": "heritage",
+    "name": "Schellfischtunnel Südportal",
+    "ref:dsa": "11753",
+    "start_date": "1874",
+    "wikidata": "Q2233069",
+    "wikimedia_commons": "File:Schellfischtunnel Südportal.JPG",
+    "wikipedia": "de:Schellfischtunnel"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bunkermuseumhamburg",
+  "n": "Bunkermuseum Hamburg",
+  "a": "",
+  "pc": "",
+  "lat": 53.55302,
+  "lng": 10.06344,
+  "c": "museum",
+  "s": "museum",
+  "q": "Bunkermuseum Hamburg Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/282661908",
+   "raw": {
+    "addr:city": "Hamburg",
+    "addr:country": "DE",
+    "addr:housenumber": "16",
+    "addr:postcode": "20537",
+    "addr:street": "Wichernsweg",
+    "building": "bunker",
+    "check_date": "2025-10-11",
+    "check_date:opening_hours": "2025-06-19",
+    "description": "1940/41 erbauter Röhrenbunker",
+    "email": "stadtteilarchiv@hh-hamm.de",
+    "entrance": "yes",
+    "fee": "yes",
+    "heritage": "4",
+    "heritage:operator": "dsa",
+    "historic": "yes",
+    "name": "Bunkermuseum Hamburg",
+    "opening_hours": "Th 10:00-12:00,15:00-18:00; PH off",
+    "phone": "+49 40 18151493",
+    "ref:dsa": "1356",
+    "tourism": "museum",
+    "website": "https://hh-hamm.de/bunkermuseum/",
+    "wheelchair": "no",
+    "wikidata": "Q76633436"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rogatekirche",
+  "n": "Rogate-Kirche",
+  "a": "",
+  "pc": "",
+  "lat": 53.62718,
+  "lng": 10.1696,
+  "c": "faith",
+  "s": "church",
+  "q": "Rogate-Kirche Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/282958121",
+   "raw": {
+    "addr:city": "Hamburg",
+    "addr:country": "DE",
+    "addr:housenumber": "5",
+    "addr:postcode": "22145",
+    "addr:street": "Wildschwanbrook",
+    "amenity": "place_of_worship",
+    "check_date": "2025-03-28",
+    "denomination": "lutheran",
+    "name": "Rogate-Kirche",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aussichtsturmzuckerstang",
+  "n": "Aussichtsturm Zuckerstangen",
+  "a": "",
+  "pc": "",
+  "lat": 53.48935,
+  "lng": 10.15845,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Aussichtsturm Zuckerstangen Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/283251137",
+   "raw": {
+    "access": "yes",
+    "artwork_type": "sculpture",
+    "fee": "no",
+    "height": "25",
+    "man_made": "tower",
+    "name": "Aussichtsturm Zuckerstangen",
+    "start_date": "2004",
+    "tourism": "viewpoint",
+    "tower:type": "observation",
+    "wheelchair": "no",
+    "wikidata": "Q126734283",
+    "wikipedia": "de:Hamburg-Neuallermöhe#Bauwerke"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blankeneserkino",
+  "n": "Blankeneser Kino",
+  "a": "",
+  "pc": "",
+  "lat": 53.55906,
+  "lng": 9.81114,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Blankeneser Kino Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/287549673",
+   "raw": {
+    "addr:city": "Hamburg",
+    "addr:country": "DE",
+    "addr:housenumber": "4",
+    "addr:postcode": "22587",
+    "addr:street": "Blankeneser Bahnhofstraße",
+    "amenity": "cinema",
+    "check_date:opening_hours": "2024-10-06",
+    "name": "Blankeneser Kino",
+    "opening_hours:signed": "no",
+    "phone": "+49 40 862421",
+    "website": "https://www.blankeneserkino.de/",
+    "wheelchair": "no",
+    "wikidata": "Q86607734"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mahnmal2weltkrieg",
+  "n": "Mahnmal 2. Weltkrieg",
+  "a": "",
+  "pc": "",
+  "lat": 53.55589,
+  "lng": 10.05742,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Mahnmal 2. Weltkrieg Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/290025026",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Mahnmal 2. Weltkrieg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "landebahneinflugschneise",
+  "n": "Landebahn Einflugschneise",
+  "a": "",
+  "pc": "",
+  "lat": 53.63976,
+  "lng": 10.00771,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Landebahn Einflugschneise Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/290070802",
+   "raw": {
+    "name": "Landebahn Einflugschneise",
+    "tourism": "viewpoint",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kzauenlagerlangenhorn",
+  "n": "KZ-Außenlager Langenhorn",
+  "a": "",
+  "pc": "",
+  "lat": 53.67216,
+  "lng": 9.99241,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "KZ-Außenlager Langenhorn Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/290140704",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Unrecht nicht vergessen 1933-1945",
+    "material": "stone",
+    "memorial": "stone",
+    "name": "KZ-Außenlager Langenhorn",
+    "wikidata": "Q1719264",
+    "wikipedia": "de:KZ-Außenlager Hamburg-Langenhorn"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gedenksaulezwangsarbeiti",
+  "n": "Gedenksäule Zwangsarbeit in den Hanseatischen Kettenwerken",
+  "a": "",
+  "pc": "",
+  "lat": 53.67706,
+  "lng": 10.00035,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Gedenksäule Zwangsarbeit in den Hanseatischen Kettenwerken Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/290140760",
+   "raw": {
+    "description": "(3 von 4) Wir erinnern an die 6.900 Frauen und Männer aus 19 Nationen, die für die \"Hanseatischen Kettenwerke\" Zwangsarbeit leisten mussten.",
+    "historic": "memorial",
+    "inscription": "(1 von 4) Niemals wieder! - Never again! - Бопьше нет! (2 von 4) 1935 - 1945 Auf diesem 4,8 Hektar großen Areal errichtete das Naziregime ab 1935 unter dem Tarnnamen \"Hanseatische Kettenwerke\" (HAK) eine Munitionsfabrik.",
+    "material": "steel",
+    "memorial": "stele",
+    "name": "Gedenksäule Zwangsarbeit in den Hanseatischen Kettenwerken",
+    "name:en": "victims of national socialism - forced labour in the \"Hanseatischen Kettenwerke\"",
+    "note": "(4 von 4) Das private Unternehmen Pötz & Sand, an das die \"Kettenwerke\" verpachtet wurden, entwickelte das Werk zu einem der drei größten Rüstungsbetriebe Hamburgs.",
+    "wheelchair": "yes",
+    "wheelchair:description": "Zugang von Westen möglich",
+    "wikidata": "Q1719264",
+    "wikipedia": "de:KZ-Außenlager Hamburg-Langenhorn"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "altonaerbalkon",
+  "n": "Altonaer Balkon",
+  "a": "",
+  "pc": "",
+  "lat": 53.54527,
+  "lng": 9.93583,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Altonaer Balkon Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/290366234",
+   "raw": {
+    "direction": "E-W",
+    "name": "Altonaer Balkon",
+    "opening_hours": "24/7",
+    "tourism": "viewpoint",
+    "wheelchair": "yes",
+    "wikidata": "Q443975",
+    "wikipedia": "de:Altonaer Balkon"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "denopferndesweltkrieges1",
+  "n": "Den Opfern des Weltkrieges 1939-1945",
+  "a": "",
+  "pc": "",
+  "lat": 53.51128,
+  "lng": 10.08165,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Den Opfern des Weltkrieges 1939-1945 Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/290815685",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "memorial:conflict": "WW2",
+    "name": "Den Opfern des Weltkrieges 1939-1945"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vogel",
+  "n": "Vogel",
+  "a": "",
+  "pc": "",
+  "lat": 53.53068,
+  "lng": 10.04462,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Vogel Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/290835907",
+   "raw": {
+    "artist_name": "Klaus Becker",
+    "artwork_type": "sculpture",
+    "material": "stone",
+    "name": "Vogel",
+    "start_date": "1982",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "adamplundertseinparadies",
+  "n": "Adam plündert sein Paradies",
+  "a": "",
+  "pc": "",
+  "lat": 53.55888,
+  "lng": 9.86224,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Adam plündert sein Paradies Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/292319615",
+   "raw": {
+    "artist_name": "Waldemar Otto",
+    "artwork_type": "statue",
+    "check_date": "2024-03-06",
+    "image": "https://commons.wikimedia.org/wiki/File:Adam_pl%C3%BCndert_sein_Paradies,_Oktober_2018.jpg",
+    "material": "bronze",
+    "name": "Adam plündert sein Paradies",
+    "start_date": "1982",
+    "tourism": "artwork",
+    "wikidata": "Q121354346",
+    "wikimedia_commons": "Category:Adam isst die Frucht (Waldemar Otto)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "derfaulenzer",
+  "n": "Der Faulenzer",
+  "a": "",
+  "pc": "",
+  "lat": 53.6509,
+  "lng": 10.1852,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Der Faulenzer Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/292574288",
+   "raw": {
+    "artist_name": "Karl Heinz Engelin",
+    "artwork_type": "sculpture",
+    "material": "bronze",
+    "name": "Der Faulenzer",
+    "start_date": "1984",
+    "tourism": "artwork",
+    "wikidata": "Q121363143"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "deichdenkmal",
+  "n": "Deichdenkmal",
+  "a": "",
+  "pc": "",
+  "lat": 53.49431,
+  "lng": 10.02138,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Deichdenkmal Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/293269348",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "Deichdenkmal"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "friedhofskapelletonndorf",
+  "n": "Friedhofskapelle Tonndorf",
+  "a": "",
+  "pc": "",
+  "lat": 53.58347,
+  "lng": 10.11335,
+  "c": "faith",
+  "s": "church",
+  "q": "Friedhofskapelle Tonndorf Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/297474316",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2026-03-12",
+    "denomination": "lutheran",
+    "name": "Friedhofskapelle Tonndorf",
+    "religion": "christian",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "moisburgerstein1750georg",
+  "n": "Moisburger Stein 1750, Georg II",
+  "a": "",
+  "pc": "",
+  "lat": 53.4421,
+  "lng": 9.86711,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Moisburger Stein 1750, Georg II Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/298680335",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "Moisburger Stein 1750, Georg II",
+    "wikidata": "Q27102119",
+    "wikimedia_commons": "File:Moisburger_Stein_Frontseite.png"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "holihamburg",
+  "n": "Holi Hamburg",
+  "a": "",
+  "pc": "",
+  "lat": 53.57713,
+  "lng": 9.97674,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Holi Hamburg Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/300548397",
+   "raw": {
+    "addr:city": "Hamburg",
+    "addr:country": "DE",
+    "addr:housenumber": "69",
+    "addr:postcode": "20144",
+    "addr:street": "Schlankreye",
+    "amenity": "cinema",
+    "check_date:opening_hours": "2023-09-06",
+    "name": "Holi Hamburg",
+    "opening_hours": "Mo-Su 14:00+",
+    "phone": "+49 40 4223040",
+    "website": "https://www.cinemaxx.de/kinoprogramm/hamburg-holi",
+    "wheelchair": "no",
+    "wikidata": "Q29015730"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spicysgewurzmuseum",
+  "n": "Spicy's Gewürzmuseum",
+  "a": "",
+  "pc": "",
+  "lat": 53.54315,
+  "lng": 9.98839,
+  "c": "museum",
+  "s": "museum",
+  "q": "Spicy's Gewürzmuseum Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/301998423",
+   "raw": {
+    "addr:city": "Hamburg",
+    "addr:country": "DE",
+    "addr:housenumber": "34",
+    "addr:postcode": "20457",
+    "addr:street": "Am Sandtorkai",
+    "check_date": "2026-03-01",
+    "description:hu": "Fűszermúzeum",
+    "fee": "yes",
+    "name": "Spicy's Gewürzmuseum",
+    "opening_hours": "Nov-Jun Tu-Su 10:00-17:00;Jul-Oct Mo-Su 10:00-17:00",
+    "phone": "+49 40 367989",
+    "toilets:wheelchair": "no",
+    "tourism": "museum",
+    "website": "https://www.spicys.de",
+    "wheelchair": "no",
+    "wheelchair:description": "Speicher nur über Treppe erreichbar. Innerhalb des Museums ist alles großzügig aufgebaut und eben, sodass das Nutzen eines Kinderwagens oder Rollstuhls kein Problem darstellt. Keine Behindertentoilette.",
+    "wikidata": "Q1521070",
+    "wikipedia": "de:Spicy’s Gewürzmuseum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sirwilliamlindley",
+  "n": "Sir William Lindley",
+  "a": "",
+  "pc": "",
+  "lat": 53.54417,
+  "lng": 9.97957,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Sir William Lindley Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/302719134",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "image": "http://commons.wikimedia.org/wiki/File:Pincerno_-_Lindley-Denkmal.jpg",
+    "memorial": "statue",
+    "memorial:birth": "1808",
+    "memorial:death": "1900",
+    "name": "Sir William Lindley",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wikipedia": "de:William Lindley#Gedenken"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wolfgangborchert",
+  "n": "Wolfgang Borchert",
+  "a": "",
+  "pc": "",
+  "lat": 53.56736,
+  "lng": 10.0163,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Wolfgang Borchert Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/303379613",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://commons.wikimedia.org/wiki/File:Wolfgang_Borchert_Alster_retouched.jpg",
+    "inscription": "Wir sind die Generation ohne Bindung und ohne Tiefe. Unsere Tiefe ist der Abgrund.; Wolfgang Borchert; 20.5.1921 - 20.11.1917",
+    "memorial": "author",
+    "name": "Wolfgang Borchert",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "archaologischesmuseumham",
+  "n": "Archäologisches Museum Hamburg",
+  "a": "",
+  "pc": "",
+  "lat": 53.45869,
+  "lng": 9.97927,
+  "c": "museum",
+  "s": "museum",
+  "q": "Archäologisches Museum Hamburg Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/308913214",
+   "raw": {
+    "addr:city": "Hamburg",
+    "addr:housenumber": "5",
+    "addr:postcode": "21073",
+    "addr:street": "Harburger Rathausplatz",
+    "check_date:opening_hours": "2026-03-27",
+    "description": "permanent exhibition",
+    "fee": "yes",
+    "name": "Archäologisches Museum Hamburg",
+    "old_name": "Helms-Museum",
+    "opening_hours": "Tu-Su 10:00-17:00",
+    "tourism": "museum",
+    "website": "https://amh.de/",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "landebahn",
+  "n": "Landebahn",
+  "a": "",
+  "pc": "",
+  "lat": 53.61825,
+  "lng": 9.95946,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Landebahn Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/311352864",
+   "raw": {
+    "name": "Landebahn",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "elbekino",
+  "n": "Elbe Kino",
+  "a": "",
+  "pc": "",
+  "lat": 53.57283,
+  "lng": 9.85088,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Elbe Kino Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/315077757",
+   "raw": {
+    "addr:city": "Hamburg",
+    "addr:housenumber": "198",
+    "addr:postcode": "22549",
+    "addr:street": "Osdorfer Landstraße",
+    "amenity": "cinema",
+    "check_date": "2026-05-30",
+    "name": "Elbe Kino",
+    "opening_hours": "Mo-Fr 17:00-21:00; Sa,Su 15:00-21:00",
+    "phone": "+49 40 8004445",
+    "toilets:wheelchair": "no",
+    "website": "https://www.elbe-kino.de/",
+    "wheelchair": "yes",
+    "wikidata": "Q86593557"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ehrenmalderradiologie",
+  "n": "Ehrenmal der Radiologie",
+  "a": "",
+  "pc": "",
+  "lat": 53.55908,
+  "lng": 10.01979,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ehrenmal der Radiologie Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/331755707",
+   "raw": {
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Ehrenmal der Radiologie",
+    "name:en": "Monument to the X-ray and Radium Martyrs of All Nations",
+    "wikidata": "Q1300206",
+    "wikipedia": "de:Ehrenmal der Radiologie"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "adolphmannheimer",
+  "n": "Adolph Mannheimer",
+  "a": "",
+  "pc": "",
+  "lat": 53.5587,
+  "lng": 10.01282,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Adolph Mannheimer Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/341788109",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Hier wohnte Adolph Mannheimer JG. 1878 deportiert 1941 Minsk ???",
+    "memorial": "stolperstein",
+    "memorial:addr": "Lange Reihe 93, Hamburg",
+    "name": "Adolph Mannheimer",
+    "network": "Stolpersteine Hamburg",
+    "wikimedia_commons": "File:HH Stolperstein Mannheimer.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "maxwolfsohn",
+  "n": "Max Wolfsohn",
+  "a": "",
+  "pc": "",
+  "lat": 53.55683,
+  "lng": 10.01046,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Max Wolfsohn Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/341788113",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Hier wohnte Max Wolfsohn Jg. 1872 deportiert 1942 Theresienstadt 1942 Treblinka ermordet",
+    "memorial": "stolperstein",
+    "memorial:addr": "Lange Reihe 39, Hamburg",
+    "memorial:addr:city": "Hamburg",
+    "memorial:addr:housenumber": "39",
+    "memorial:addr:postcode": "20099",
+    "memorial:addr:street": "Lange Reihe",
+    "memorial:addr:suburb": "St. Georg",
+    "name": "Max Wolfsohn",
+    "network": "Stolpersteine Hamburg",
+    "website": "https://www.stolpersteine-hamburg.de/index.php?MAIN_ID=7&BIO_ID=1976",
+    "wikimedia_commons": "File:Max_Wolfsohn_and_Margarethe_Wolfsohn_geb._Cohn.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "schillerdenkmal",
+  "n": "Schillerdenkmal",
+  "a": "",
+  "pc": "",
+  "lat": 53.55919,
+  "lng": 9.9903,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Schillerdenkmal Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/347279859",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Schillerdenkmal",
+    "start_date": "1866",
+    "wheelchair": "yes",
+    "wikidata": "Q18710607",
+    "wikimedia_commons": "File:Schiller-Denkmal.jpg",
+    "wikipedia": "de:Schillerdenkmal (Hamburg)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "johannapinkusgebtreitel",
+  "n": "Johanna Pinkus geb. Treitel",
+  "a": "",
+  "pc": "",
+  "lat": 53.55974,
+  "lng": 10.01407,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Johanna Pinkus geb. Treitel Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/348024182",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Hier wohnte Johanna Pinkus geb. Treitel Jg. 1887 deportiert Minsk ???",
+    "memorial": "stolperstein",
+    "memorial:addr": "Lange Reihe 111, Hamburg",
+    "name": "Johanna Pinkus geb. Treitel",
+    "network": "Stolpersteine Hamburg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gedenktafelbunkerruine",
+  "n": "Gedenktafel Bunkerruine",
+  "a": "",
+  "pc": "",
+  "lat": 53.54058,
+  "lng": 9.85379,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Gedenktafel Bunkerruine Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/355921056",
+   "raw": {
+    "direction": "190",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Gedenktafel Bunkerruine"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gedenkstatteauenlagerkzn",
+  "n": "Gedenkstätte Außenlager KZ-Neuengamme",
+  "a": "",
+  "pc": "",
+  "lat": 53.53604,
+  "lng": 9.85778,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Gedenkstätte Außenlager KZ-Neuengamme Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/355922455",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "victims_of_national_socialism",
+    "name": "Gedenkstätte Außenlager KZ-Neuengamme"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "paulrothstein",
+  "n": "Paul-Roth-Stein",
+  "a": "",
+  "pc": "",
+  "lat": 53.42382,
+  "lng": 9.87204,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Paul-Roth-Stein Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/360814644",
+   "raw": {
+    "amenity": "bench",
+    "backrest": "no",
+    "ele": "131",
+    "historic": "memorial",
+    "material": "stone;wood",
+    "memorial": "stele",
+    "name": "Paul-Roth-Stein",
+    "seats": "5"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "christusgemeindebarmbekn",
+  "n": "Christus Gemeinde Barmbek Nord",
+  "a": "",
+  "pc": "",
+  "lat": 53.58928,
+  "lng": 10.04497,
+  "c": "faith",
+  "s": "church",
+  "q": "Christus Gemeinde Barmbek Nord Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/361655043",
+   "raw": {
+    "addr:city": "Hamburg",
+    "addr:country": "DE",
+    "addr:housenumber": "113",
+    "addr:postcode": "22305",
+    "addr:street": "Fuhlsbüttler Straße",
+    "amenity": "place_of_worship",
+    "denomination": "pentecostal",
+    "name": "Christus Gemeinde Barmbek Nord",
+    "religion": "christian",
+    "service_times": "Su 11:00",
+    "website": "https://www.cgbn.de/",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "beethovenstein",
+  "n": "Beethovenstein",
+  "a": "",
+  "pc": "",
+  "lat": 53.44654,
+  "lng": 9.97401,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Beethovenstein Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/366125776",
+   "raw": {
+    "name": "Beethovenstein",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gottholdephraimlessing",
+  "n": "Gotthold Ephraim Lessing",
+  "a": "",
+  "pc": "",
+  "lat": 53.55515,
+  "lng": 9.98849,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Gotthold Ephraim Lessing Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/367567836",
+   "raw": {
+    "architect": "Schaper, Friedrich",
+    "dsa:criteria": "Ensembleteil",
+    "heritage": "4",
+    "heritage:operator": "dsa",
+    "historic": "memorial",
+    "image": "http://commons.wikimedia.org/wiki/File:Lessing-Denkmal_Hamburg-3.jpg",
+    "memorial": "statue",
+    "name": "Gotthold Ephraim Lessing",
+    "ref:dsa": "12666",
+    "start_date": "1881",
+    "subject:wikidata": "Q34628",
+    "wheelchair": "limited",
+    "wikidata": "Q16832835",
+    "wikipedia": "de:Lessing-Denkmal (Hamburg)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ehrenmal",
+  "n": "Ehrenmal",
+  "a": "",
+  "pc": "",
+  "lat": 53.56472,
+  "lng": 10.1673,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ehrenmal Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/369586746",
+   "raw": {
+    "historic": "memorial",
+    "name": "Ehrenmal"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "heinrichheinedenkmal",
+  "n": "Heinrich-Heine-Denkmal",
+  "a": "",
+  "pc": "",
+  "lat": 53.55046,
+  "lng": 9.99365,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Heinrich-Heine-Denkmal Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/370519718",
+   "raw": {
+    "artist:wikidata": "Q2056193",
+    "artist_name": "Waldemar Otto",
+    "historic": "memorial",
+    "image": "https://commons.wikimedia.org/wiki/File:Hhheine.jpg",
+    "memorial": "statue",
+    "name": "Heinrich-Heine-Denkmal",
+    "start_date": "1982",
+    "subject:wikidata": "Q44403",
+    "wheelchair": "yes",
+    "wikidata": "Q96375132",
+    "wikipedia": "de:Rathausmarkt (Hamburg)#Heinrich-Heine-Denkmal"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alabamakino",
+  "n": "Alabama Kino",
+  "a": "",
+  "pc": "",
+  "lat": 53.58322,
+  "lng": 10.02068,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Alabama Kino Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/371668925",
+   "raw": {
+    "addr:city": "Hamburg",
+    "addr:country": "DE",
+    "addr:housenumber": "20",
+    "addr:postcode": "22303",
+    "addr:street": "Jarrestraße",
+    "amenity": "cinema",
+    "contact:phone": "+49 40 28803070",
+    "contact:website": "http://www.alabama-kino.de",
+    "name": "Alabama Kino",
+    "toilets:wheelchair": "no",
+    "wheelchair": "yes",
+    "wikidata": "Q34378630"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "heinrichtraun",
+  "n": "Heinrich Traun",
+  "a": "",
+  "pc": "",
+  "lat": 53.63383,
+  "lng": 10.03295,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Heinrich Traun Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/371734812",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "politician",
+    "name": "Heinrich Traun",
+    "wikidata": "Q125860450"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "unserenhelden19141819394",
+  "n": "Unseren Helden 1914/18 1939/45",
+  "a": "",
+  "pc": "",
+  "lat": 53.638,
+  "lng": 10.03569,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Unseren Helden 1914/18 1939/45 Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/371822962",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "Unseren Helden 1914/18 1939/45"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "auferstehungskirche",
+  "n": "Auferstehungskirche",
+  "a": "",
+  "pc": "",
+  "lat": 53.59238,
+  "lng": 9.8701,
+  "c": "faith",
+  "s": "church",
+  "q": "Auferstehungskirche Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/384482272",
+   "raw": {
+    "addr:city": "Hamburg",
+    "addr:country": "DE",
+    "addr:housenumber": "1",
+    "addr:postcode": "22549",
+    "addr:street": "Flurstraße",
+    "amenity": "place_of_worship",
+    "denomination": "lutheran",
+    "name": "Auferstehungskirche",
+    "network": "Nordelbien",
+    "phone": "+49 40 8314004",
+    "religion": "christian",
+    "website": "http://www.auferstehung-hh.de",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lowe",
+  "n": "Löwe",
+  "a": "",
+  "pc": "",
+  "lat": 53.56873,
+  "lng": 9.98888,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Löwe Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/413549541",
+   "raw": {
+    "artist_name": "Johann Michael Bossard",
+    "artwork_type": "sculpture",
+    "material": "sandstone",
+    "name": "Löwe",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kreuzkirche",
+  "n": "Kreuzkirche",
+  "a": "",
+  "pc": "",
+  "lat": 53.46182,
+  "lng": 9.80007,
+  "c": "faith",
+  "s": "church",
+  "q": "Kreuzkirche Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/431933313",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Kreuzkirche",
+    "note": "freikirchlich?",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dietrichbonhoefferdenkma",
+  "n": "Dietrich-Bonhoeffer-Denkmal",
+  "a": "",
+  "pc": "",
+  "lat": 53.55047,
+  "lng": 9.99713,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Dietrich-Bonhoeffer-Denkmal Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/442443878",
+   "raw": {
+    "artist_name": "Fritz Fleer",
+    "historic": "memorial",
+    "image": "https://photos.app.goo.gl/x5qvpMQqT8qgTTuh6",
+    "memorial": "statue",
+    "name": "Dietrich-Bonhoeffer-Denkmal",
+    "subject:wikidata": "Q76326",
+    "subject:wikipedia": "de:Dietrich Bonhoeffer",
+    "wikidata": "Q94960832",
+    "wikimedia_commons": "File:Dietrich Bonhoeffer, Skulptur an der Hauptkirche Sankt Petri (Hamburg).JPG",
+    "wikipedia": "de:Hauptkirche Sankt Petri (Hamburg)#Bonhoeffer-Denkmal"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "regimentskriegerdenkmal1",
+  "n": "Regiments-Kriegerdenkmal 1870/71 des Infanterie-Regiments",
+  "a": "",
+  "pc": "",
+  "lat": 53.56488,
+  "lng": 9.999,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Regiments-Kriegerdenkmal 1870/71 des Infanterie-Regiments Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/453442831",
+   "raw": {
+    "description": "Kriegerskulptur auf mehreckigem Sockel in einem ummauerten offenen Kreis. Auf dem Sockel rundum Tafeln mit Inschrift und den Namen der Gefallenen, dazwischen eingemeisselt Namen und Daten der Schlachten, an denen das Regiment teilnahm.",
+    "historic": "memorial",
+    "inscription": "[Tafel vorne:]\n[Hamburger Stadtwappen]\nDen tapferen Soehnen, die dankbare Vaterstadt",
+    "material": "stone",
+    "memorial": "statue",
+    "memorial:conflict": "Franco-Prussian_War",
+    "name": "Regiments-Kriegerdenkmal 1870/71 des Infanterie-Regiments",
+    "start_date": "1926",
+    "wheelchair": "yes",
+    "wikidata": "Q26836620",
+    "wikimedia_commons": "Category:Kriegerdenkmal_1870/71_(Hamburg-Rotherbaum)",
+    "wikipedia": "de:Kriegerdenkmal 1870/71 (Hamburg-Rotherbaum)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ehembahnhofelektrischekl",
+  "n": "Ehem. Bahnhof Elektrische Kleinbahn Alt-Rahlstedt–Volksdorf–Wohldorf",
+  "a": "",
+  "pc": "",
+  "lat": 53.61946,
+  "lng": 10.13063,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ehem. Bahnhof Elektrische Kleinbahn Alt-Rahlstedt–Volksdorf–Wohldorf Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/454330643",
+   "raw": {
+    "historic": "ruins",
+    "name": "Ehem. Bahnhof Elektrische Kleinbahn Alt-Rahlstedt–Volksdorf–Wohldorf",
+    "wikidata": "Q1326447",
+    "wikipedia": "de:Elektrische Kleinbahn Alt-Rahlstedt–Volksdorf–Wohldorf"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kzsasel",
+  "n": "KZ Sasel",
+  "a": "",
+  "pc": "",
+  "lat": 53.66472,
+  "lng": 10.10436,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "KZ Sasel Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/465261904",
+   "raw": {
+    "description": "Behauener Naturstein mit einer abgeflachten Seite und o.g. Text in Dt. Sprache, sowie einer stilisierten menschlichen Figur, welche die Hände über dem Kopf hält.",
+    "historic": "memorial",
+    "image": "https://commons.wikimedia.org/wiki/Category:Gedenkst%C3%A4tte_KZ-Au%C3%9Fenlager_Hamburg-Sasel?uselang=de#/media/File:Gedenkst%C3%A4tte_KZ-Au%C3%9Fenlager_Sasel_(Hamburg-Sasel).1.ajb.jpg",
+    "inscription": "Die Würde des Menschen ist unantastbar KZ Sassel Aug. 1944 - Mai 1945 Außenkommando des KZ Neuengamme Schüler aus Sassel 1982",
+    "memorial": "stone",
+    "name": "KZ Sasel",
+    "start_date": "1982",
+    "website": "https://gedenkstaetten-in-hamburg.de/gedenkstaetten/zeige/gedenkstein-am-ehemaligen-kz-aussenlager-sasel",
+    "wikidata": "Q21705949",
+    "wikipedia": "de:KZ-Außenlager Hamburg-Sasel"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "walddorferstein",
+  "n": "Walddörfer-Stein",
+  "a": "",
+  "pc": "",
+  "lat": 53.67335,
+  "lng": 10.12154,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Walddörfer-Stein Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/486625734",
+   "raw": {
+    "artwork_type": "stone",
+    "name": "Walddörfer-Stein",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "volkerschlachtdenkmal",
+  "n": "Völkerschlachtdenkmal",
+  "a": "",
+  "pc": "",
+  "lat": 53.67082,
+  "lng": 10.1236,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Völkerschlachtdenkmal Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/496239148",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "Völkerschlachtdenkmal"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "schleswigholsteingedenks",
+  "n": "Schleswig-Holstein-Gedenkstein",
+  "a": "",
+  "pc": "",
+  "lat": 53.67155,
+  "lng": 10.12523,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Schleswig-Holstein-Gedenkstein Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/528983266",
+   "raw": {
+    "description": "Gedenkstein 50 Jahre Schleswig-Holsteinische Erhebung - 24.03.1898 - Inschrift UP EWIG UNGEDEELT",
+    "historic": "memorial",
+    "inscription": "UP EWIG UNGEDEELT 24.3.1898",
+    "memorial": "stone",
+    "name": "Schleswig-Holstein-Gedenkstein"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "airbusaussichtswallnetor",
+  "n": "Airbus Aussichtswall Neßtor",
+  "a": "",
+  "pc": "",
+  "lat": 53.53081,
+  "lng": 9.83061,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Airbus Aussichtswall Neßtor Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/529855250",
+   "raw": {
+    "name": "Airbus Aussichtswall Neßtor",
+    "name:de": "Luftbus-Besucherhügel",
+    "name:en": "Airbus plane spotting hill",
+    "toilets:wheelchair": "no",
+    "tourism": "viewpoint",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "magazinfilmkunsttheater",
+  "n": "Magazin Filmkunsttheater",
+  "a": "",
+  "pc": "",
+  "lat": 53.59973,
+  "lng": 10.00402,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Magazin Filmkunsttheater Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/530267755",
+   "raw": {
+    "addr:city": "Hamburg",
+    "addr:housenumber": "8a",
+    "addr:postcode": "22299",
+    "addr:street": "Fiefstücken",
+    "amenity": "cinema",
+    "check_date": "2025-02-10",
+    "name": "Magazin Filmkunsttheater",
+    "website": "https://www.magazinfilmkunst.de/",
+    "wheelchair": "limited",
+    "wikidata": "Q1454081"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "savoyfilmtheater",
+  "n": "Savoy Filmtheater",
+  "a": "",
+  "pc": "",
+  "lat": 53.55412,
+  "lng": 10.01419,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Savoy Filmtheater Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/536391111",
+   "raw": {
+    "addr:city": "Hamburg",
+    "addr:country": "DE",
+    "addr:housenumber": "54",
+    "addr:postcode": "20099",
+    "addr:street": "Steindamm",
+    "air_conditioning": "yes",
+    "amenity": "cinema",
+    "cinema:3D": "yes",
+    "cinema:IMAX": "yes",
+    "contact:facebook": "savoykino.hamburg",
+    "contact:instagram": "savoyfilmtheater",
+    "description": "Haus öffnet 30 Min. vor der ersten Vorstellung. Ticketkasse schließt 30 Min. nach Beginn der letzten Vorstellung.",
+    "email": "info@savoy-filmtheater.de",
+    "internet_access": "wlan",
+    "name": "Savoy Filmtheater",
+    "opening_hours": "Mo-Su 14:00-22:00",
+    "payment:cash": "yes",
+    "payment:contactless": "yes",
+    "payment:girocard": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+49 40 284093628",
+    "screen": "1",
+    "toilets:wheelchair": "yes",
+    "website": "https://savoy.premiumkino.de",
+    "wheelchair": "yes",
+    "wikidata": "Q34379111",
+    "wikipedia": "de:Savoy Filmtheater"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "leopoldhuttner",
+  "n": "Leopold Hüttner",
+  "a": "",
+  "pc": "",
+  "lat": 53.56013,
+  "lng": 10.02045,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Leopold Hüttner Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/536391312",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Hier wohnte Leopold Hüttner JG. 1880 deportiert 1941 Lodz ermordet 12.5.1943",
+    "memorial": "stolperstein",
+    "memorial:addr": "Sechslingspforte, Hamburg",
+    "memorial:note": "rechts von der Zufahrt zum Parkplatz Alsterschwimmhalle",
+    "name": "Leopold Hüttner",
+    "network": "Stolpersteine Hamburg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "elseclarastoppelmangebgo",
+  "n": "Else Clara Stoppelman geb. Goldschmidt",
+  "a": "",
+  "pc": "",
+  "lat": 53.53497,
+  "lng": 10.04318,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Else Clara Stoppelman geb. Goldschmidt Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/536841416",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Geboren 1910",
+    "memorial": "stolperstein",
+    "memorial:addr": "Marckmannstraße 88a, Hamburg",
+    "memorial:addr:city": "Hamburg",
+    "memorial:addr:postcode": "20539",
+    "memorial:addr:street": "Marckmannstraße",
+    "name": "Else Clara Stoppelman geb. Goldschmidt",
+    "network": "Stolpersteine Hamburg",
+    "wikidata": "Q55201190"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "antjehinrichs",
+  "n": "Antje Hinrichs",
+  "a": "",
+  "pc": "",
+  "lat": 53.53468,
+  "lng": 10.04571,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Antje Hinrichs Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/536841439",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "stolperstein",
+    "memorial:addr": "Marckmannstraße 135, Hamburg",
+    "memorial:addr:city": "Hamburg",
+    "memorial:addr:postcode": "20539",
+    "memorial:addr:street": "Marckmannstraße",
+    "memorial:note": "Heute Nr. 129",
+    "name": "Antje Hinrichs",
+    "network": "Stolpersteine Hamburg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "glusingen",
+  "n": "Glüsingen",
+  "a": "",
+  "pc": "",
+  "lat": 53.4099,
+  "lng": 10.0178,
+  "c": "oddity",
+  "s": "human settlement in Germany",
+  "q": "Glüsingen Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q204756",
+   "raw": "human settlement in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zollenspieker",
+  "n": "Zollenspieker",
+  "a": "",
+  "pc": "",
+  "lat": 53.4019,
+  "lng": 10.1969,
+  "c": "oddity",
+  "s": "nature reserve in Hamburg, Germany",
+  "q": "Zollenspieker Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q218603",
+   "raw": "nature reserve in Hamburg, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "horsten",
+  "n": "Hörsten",
+  "a": "",
+  "pc": "",
+  "lat": 53.4128,
+  "lng": 10.0592,
+  "c": "oddity",
+  "s": "human settlement in Germany",
+  "q": "Hörsten Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q601674",
+   "raw": "human settlement in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "archaologischerwanderpfa",
+  "n": "Archäologischer Wanderpfad in der Fischbeker Heide",
+  "a": "",
+  "pc": "",
+  "lat": 53.44035,
+  "lng": 9.85145,
+  "c": "museum",
+  "s": "open-air museum",
+  "q": "Archäologischer Wanderpfad in der Fischbeker Heide Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q636803",
+   "raw": "open-air museum",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "beckedorf",
+  "n": "Beckedorf",
+  "a": "",
+  "pc": "",
+  "lat": 53.41667,
+  "lng": 9.96667,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Beckedorf Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q813669",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "maschenmarshallingyard",
+  "n": "Maschen Marshalling Yard",
+  "a": "",
+  "pc": "",
+  "lat": 53.4047,
+  "lng": 10.0564,
+  "c": "oddity",
+  "s": "railway station in Maschen, Germany",
+  "q": "Maschen Marshalling Yard Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q870016",
+   "raw": "railway station in Maschen, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fleestedt",
+  "n": "Fleestedt",
+  "a": "",
+  "pc": "",
+  "lat": 53.4094,
+  "lng": 9.99306,
+  "c": "oddity",
+  "s": "human settlement in Germany",
+  "q": "Fleestedt Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q876967",
+   "raw": "human settlement in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hasselbrack",
+  "n": "Hasselbrack",
+  "a": "",
+  "pc": "",
+  "lat": 53.43025,
+  "lng": 9.86383,
+  "c": "oddity",
+  "s": "mountain",
+  "q": "Hasselbrack Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q877482",
+   "raw": "mountain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "buchenwalderimrosengarte",
+  "n": "Buchenwälder im Rosengarten",
+  "a": "",
+  "pc": "",
+  "lat": 53.4097,
+  "lng": 9.85139,
+  "c": "oddity",
+  "s": "nature reserve in Lower Saxony, Germany",
+  "q": "Buchenwälder im Rosengarten Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q998351",
+   "raw": "nature reserve in Lower Saxony, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "karlstein",
+  "n": "Karlstein",
+  "a": "",
+  "pc": "",
+  "lat": 53.4076,
+  "lng": 9.82662,
+  "c": "oddity",
+  "s": "glacial erratic in Schwiederstorf, Germany",
+  "q": "Karlstein Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1335676",
+   "raw": "glacial erratic in Schwiederstorf, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "emmelndorf",
+  "n": "Emmelndorf",
+  "a": "",
+  "pc": "",
+  "lat": 53.4,
+  "lng": 9.98333,
+  "c": "oddity",
+  "s": "human settlement in Germany",
+  "q": "Emmelndorf Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1338544",
+   "raw": "human settlement in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fischbekerheide",
+  "n": "Fischbeker Heide",
+  "a": "",
+  "pc": "",
+  "lat": 53.45,
+  "lng": 9.85,
+  "c": "oddity",
+  "s": "nature reserve in Hamburg, Germany",
+  "q": "Fischbeker Heide Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1419835",
+   "raw": "nature reserve in Hamburg, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stseverini",
+  "n": "St. Severini",
+  "a": "",
+  "pc": "",
+  "lat": 53.41856,
+  "lng": 10.19844,
+  "c": "faith",
+  "s": "church",
+  "q": "St. Severini Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1569262",
+   "raw": "church",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "heidschnuckenweg",
+  "n": "Heidschnuckenweg",
+  "a": "",
+  "pc": "",
+  "lat": 53.4748,
+  "lng": 9.8193,
+  "c": "oddity",
+  "s": "long-distance trail in Lower Saxony, Germany",
+  "q": "Heidschnuckenweg Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1594442",
+   "raw": "long-distance trail in Lower Saxony, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "metzendorf",
+  "n": "Metzendorf",
+  "a": "",
+  "pc": "",
+  "lat": 53.4042,
+  "lng": 9.95389,
+  "c": "oddity",
+  "s": "human settlement in Germany",
+  "q": "Metzendorf Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1926032",
+   "raw": "human settlement in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "moorgurtel",
+  "n": "Moorgürtel",
+  "a": "",
+  "pc": "",
+  "lat": 53.485,
+  "lng": 9.84,
+  "c": "oddity",
+  "s": "nature reserve in Hamburg, Germany",
+  "q": "Moorgürtel Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1971175",
+   "raw": "nature reserve in Hamburg, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "metzendorfwoxdorfheadbur",
+  "n": "Metzendorf-Woxdorf head burial",
+  "a": "",
+  "pc": "",
+  "lat": 53.4087,
+  "lng": 9.95867,
+  "c": "oddity",
+  "s": "stone age burial of a human skull from Lower-Saxony, Germany",
+  "q": "Metzendorf-Woxdorf head burial Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2258188",
+   "raw": "stone age burial of a human skull from Lower-Saxony, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "seevekanal",
+  "n": "Seevekanal",
+  "a": "",
+  "pc": "",
+  "lat": 53.40872,
+  "lng": 10.04383,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Seevekanal Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2265712",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fischbekglidingsite",
+  "n": "Fischbek gliding site",
+  "a": "",
+  "pc": "",
+  "lat": 53.45633,
+  "lng": 9.82967,
+  "c": "oddity",
+  "s": "glieder airfield in Germany",
+  "q": "Fischbek gliding site Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2265947",
+   "raw": "glieder airfield in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oflagxd",
+  "n": "Oflag X-D",
+  "a": "",
+  "pc": "",
+  "lat": 53.4835,
+  "lng": 9.8405,
+  "c": "oddity",
+  "s": "pOW camp for officers in Germany",
+  "q": "Oflag X-D Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3349757",
+   "raw": "POW camp for officers in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hamburgneugrabenstation",
+  "n": "Hamburg-Neugraben station",
+  "a": "",
+  "pc": "",
+  "lat": 53.47389,
+  "lng": 9.85139,
+  "c": "oddity",
+  "s": "railway station in Neugraben-Fischbek, Germany",
+  "q": "Hamburg-Neugraben station Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5644281",
+   "raw": "railway station in Neugraben-Fischbek, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "totensen",
+  "n": "Tötensen",
+  "a": "",
+  "pc": "",
+  "lat": 53.4,
+  "lng": 9.93333,
+  "c": "oddity",
+  "s": "village in Germany",
+  "q": "Tötensen Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7862359",
+   "raw": "village in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "daerstorf",
+  "n": "Daerstorf",
+  "a": "",
+  "pc": "",
+  "lat": 53.43833,
+  "lng": 9.80556,
+  "c": "oddity",
+  "s": "village in the municipality Neu Wulmstorf",
+  "q": "Daerstorf Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q15055757",
+   "raw": "village in the municipality Neu Wulmstorf",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rosengartenkiekebergstuv",
+  "n": "Rosengarten - Kiekeberg - Stuvenwald",
+  "a": "",
+  "pc": "",
+  "lat": 53.40778,
+  "lng": 9.835,
+  "c": "oddity",
+  "s": "protected landscape in Lower Saxony, Germany",
+  "q": "Rosengarten - Kiekeberg - Stuvenwald Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q15118132",
+   "raw": "protected landscape in Lower Saxony, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wulmstorf",
+  "n": "Wulmstorf",
+  "a": "",
+  "pc": "",
+  "lat": 53.44306,
+  "lng": 9.80556,
+  "c": "oddity",
+  "s": "village in the municipality Neu Wulmstorf",
+  "q": "Wulmstorf Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q15135427",
+   "raw": "village in the municipality Neu Wulmstorf",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dolmenelstorf",
+  "n": "Dolmen Elstorf",
+  "a": "",
+  "pc": "",
+  "lat": 53.42135,
+  "lng": 9.82663,
+  "c": "history",
+  "s": "prehistoric standing stone",
+  "q": "Dolmen Elstorf Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q15812979",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dolmendaerstorf",
+  "n": "Dolmen Daerstorf",
+  "a": "",
+  "pc": "",
+  "lat": 53.42395,
+  "lng": 9.83216,
+  "c": "history",
+  "s": "prehistoric standing stone",
+  "q": "Dolmen Daerstorf Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q15812977",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hittfeldrailwaystation",
+  "n": "Hittfeld railway station",
+  "a": "",
+  "pc": "",
+  "lat": 53.4036,
+  "lng": 9.97446,
+  "c": "oddity",
+  "s": "railway station in Seevetal, Germany",
+  "q": "Hittfeld railway station Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16062095",
+   "raw": "railway station in Seevetal, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rottigerkaserne",
+  "n": "Röttiger-Kaserne",
+  "a": "",
+  "pc": "",
+  "lat": 53.46575,
+  "lng": 9.81342,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Röttiger-Kaserne Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18915132",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hulsenberg",
+  "n": "Hülsenberg",
+  "a": "",
+  "pc": "",
+  "lat": 53.40844,
+  "lng": 9.87011,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Hülsenberg Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19285933",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fischbek",
+  "n": "Fischbek",
+  "a": "",
+  "pc": "",
+  "lat": 53.4713,
+  "lng": 9.83052,
+  "c": "oddity",
+  "s": "village in Germany",
+  "q": "Fischbek Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q20615586",
+   "raw": "village in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "westerhof",
+  "n": "Westerhof",
+  "a": "",
+  "pc": "",
+  "lat": 53.40209,
+  "lng": 9.91317,
+  "c": "oddity",
+  "s": "village in Germany",
+  "q": "Westerhof Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21074510",
+   "raw": "village in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "woxdorf",
+  "n": "Woxdorf",
+  "a": "",
+  "pc": "",
+  "lat": 53.41045,
+  "lng": 9.95922,
+  "c": "oddity",
+  "s": "village in Germany",
+  "q": "Woxdorf Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21074508",
+   "raw": "village in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "maschenstation",
+  "n": "Maschen station",
+  "a": "",
+  "pc": "",
+  "lat": 53.40354,
+  "lng": 10.06596,
+  "c": "oddity",
+  "s": "railway station in Seevetal, Germany",
+  "q": "Maschen station Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21514332",
+   "raw": "railway station in Seevetal, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "glusingerlohe",
+  "n": "Glüsingerlohe",
+  "a": "",
+  "pc": "",
+  "lat": 53.40326,
+  "lng": 10.00989,
+  "c": "oddity",
+  "s": "village in Germany",
+  "q": "Glüsingerlohe Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21868421",
+   "raw": "village in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fleestedterlohe",
+  "n": "Fleestedter Lohe",
+  "a": "",
+  "pc": "",
+  "lat": 53.40431,
+  "lng": 9.99926,
+  "c": "oddity",
+  "s": "village in Germany",
+  "q": "Fleestedter Lohe Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21868562",
+   "raw": "village in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fischbekneugraben",
+  "n": "Fischbek, Neugraben",
+  "a": "",
+  "pc": "",
+  "lat": 53.46614,
+  "lng": 9.85939,
+  "c": "oddity",
+  "s": "protected landscape area in Hamburg, Germany",
+  "q": "Fischbek, Neugraben Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q24026497",
+   "raw": "protected landscape area in Hamburg, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "scheideholz",
+  "n": "Scheideholz",
+  "a": "",
+  "pc": "",
+  "lat": 53.46975,
+  "lng": 9.84824,
+  "c": "oddity",
+  "s": "village in Germany",
+  "q": "Scheideholz Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q24197480",
+   "raw": "village in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "meckelfeldmill",
+  "n": "Meckelfeld mill",
+  "a": "",
+  "pc": "",
+  "lat": 53.41667,
+  "lng": 10.03333,
+  "c": "oddity",
+  "s": "watermill in Lower Saxony",
+  "q": "Meckelfeld mill Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q25622030",
+   "raw": "watermill in Lower Saxony",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "neuwulmstorf",
+  "n": "Neu Wulmstorf",
+  "a": "",
+  "pc": "",
+  "lat": 53.46667,
+  "lng": 9.8,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Neu Wulmstorf Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q25622055",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "michaeliskircheneugraben",
+  "n": "Michaeliskirche Neugraben",
+  "a": "",
+  "pc": "",
+  "lat": 53.47173,
+  "lng": 9.85597,
+  "c": "faith",
+  "s": "church building in Neugraben-Fischbek, Germany",
+  "q": "Michaeliskirche Neugraben Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26690193",
+   "raw": "church building in Neugraben-Fischbek, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sieverserstein",
+  "n": "Sieverser Stein",
+  "a": "",
+  "pc": "",
+  "lat": 53.4047,
+  "lng": 9.86392,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Sieverser Stein Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q27102845",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hitzenberg",
+  "n": "Hitzen-Berg",
+  "a": "",
+  "pc": "",
+  "lat": 53.41667,
+  "lng": 10.01667,
+  "c": "oddity",
+  "s": "hill in Germany",
+  "q": "Hitzen-Berg Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30728309",
+   "raw": "hill in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "grunerborn",
+  "n": "Grüner Born",
+  "a": "",
+  "pc": "",
+  "lat": 53.4,
+  "lng": 9.85,
+  "c": "oddity",
+  "s": "spring in Lower Saxony, Germany",
+  "q": "Grüner Born Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q35458966",
+   "raw": "spring in Lower Saxony, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stolpersteindedicatedtog",
+  "n": "Stolperstein dedicated to Georg Schmidt",
+  "a": "",
+  "pc": "",
+  "lat": 53.46312,
+  "lng": 9.86394,
+  "c": "oddity",
+  "s": "stolperstein in Hamburg, Germany",
+  "q": "Stolperstein dedicated to Georg Schmidt Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q54007574",
+   "raw": "Stolperstein in Hamburg, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stolpersteindedicatedtoh",
+  "n": "Stolperstein dedicated to Heinrich Klafack",
+  "a": "",
+  "pc": "",
+  "lat": 53.46142,
+  "lng": 9.86437,
+  "c": "oddity",
+  "s": "stolperstein in Hamburg, Germany",
+  "q": "Stolperstein dedicated to Heinrich Klafack Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q54007594",
+   "raw": "Stolperstein in Hamburg, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "buchenwalderinrosengarte",
+  "n": "Buchenwälder in Rosengarten",
+  "a": "",
+  "pc": "",
+  "lat": 53.40923,
+  "lng": 9.84869,
+  "c": "oddity",
+  "s": "protected area in the European Union defined by the habitats",
+  "q": "Buchenwälder in Rosengarten Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q60685743",
+   "raw": "protected area in the European Union defined by the habitats directive in Niedersachsen, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hopen",
+  "n": "Höpen",
+  "a": "",
+  "pc": "",
+  "lat": 53.4159,
+  "lng": 10.0037,
+  "c": "oddity",
+  "s": "protected landscape in Lower Saxony, Germany",
+  "q": "Höpen Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q61992103",
+   "raw": "protected landscape in Lower Saxony, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "furstendenkmallangenrehm",
+  "n": "Fürstendenkmal Langenrehm",
+  "a": "",
+  "pc": "",
+  "lat": 53.40204,
+  "lng": 9.86365,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Fürstendenkmal Langenrehm Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q93131328",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "schulezollenspieker",
+  "n": "Schule Zollenspieker",
+  "a": "",
+  "pc": "",
+  "lat": 53.401,
+  "lng": 10.1851,
+  "c": "oddity",
+  "s": "primary school in Hamburg, Germany",
+  "q": "Schule Zollenspieker Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q93221607",
+   "raw": "primary school in Hamburg, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "schulekirchenheerweg",
+  "n": "Schule Kirchenheerweg",
+  "a": "",
+  "pc": "",
+  "lat": 53.41178,
+  "lng": 10.19238,
+  "c": "oddity",
+  "s": "school campus in Hamburg, Germany",
+  "q": "Schule Kirchenheerweg Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q106634425",
+   "raw": "school campus in Hamburg, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cuxhavenerstrae566",
+  "n": "Cuxhavener Straße 566",
+  "a": "",
+  "pc": "",
+  "lat": 53.46812,
+  "lng": 9.80993,
+  "c": "oddity",
+  "s": "building in Hamburg.Fischbek, former Bundeswehr depot",
+  "q": "Cuxhavener Straße 566 Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q108303627",
+   "raw": "building in Hamburg.Fischbek, former Bundeswehr depot",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "corneliuskirchehamburg",
+  "n": "Cornelius-Kirche, Hamburg",
+  "a": "",
+  "pc": "",
+  "lat": 53.47348,
+  "lng": 9.8284,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Cornelius-Kirche, Hamburg Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q108566766",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "freiluftschuleneugraben",
+  "n": "Freiluftschule Neugraben",
+  "a": "",
+  "pc": "",
+  "lat": 53.45269,
+  "lng": 9.84781,
+  "c": "oddity",
+  "s": "open air school in Hamburg",
+  "q": "Freiluftschule Neugraben Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q108900690",
+   "raw": "Open air school in Hamburg",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "schuleamjohannisland",
+  "n": "Schule Am Johannisland",
+  "a": "",
+  "pc": "",
+  "lat": 53.47591,
+  "lng": 9.85441,
+  "c": "oddity",
+  "s": "primary school in Hamburg, Germany",
+  "q": "Schule Am Johannisland Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q108900941",
+   "raw": "primary school in Hamburg, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "schuleohrnsweg",
+  "n": "Schule Ohrnsweg",
+  "a": "",
+  "pc": "",
+  "lat": 53.47111,
+  "lng": 9.81679,
+  "c": "oddity",
+  "s": "primary school in Hamburg, Germany",
+  "q": "Schule Ohrnsweg Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q108900958",
+   "raw": "primary school in Hamburg, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "schuleschnuckendrift",
+  "n": "Schule Schnuckendrift",
+  "a": "",
+  "pc": "",
+  "lat": 53.46687,
+  "lng": 9.8388,
+  "c": "oddity",
+  "s": "primary school in Hamburg, Germany",
+  "q": "Schule Schnuckendrift Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q108901865",
+   "raw": "primary school in Hamburg, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "schuleheidrand",
+  "n": "Schule Heidrand",
+  "a": "",
+  "pc": "",
+  "lat": 53.46558,
+  "lng": 9.86173,
+  "c": "oddity",
+  "s": "school campus in Hamburg, Germany",
+  "q": "Schule Heidrand Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q108921122",
+   "raw": "school campus in Hamburg, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "schulefischbekermoor",
+  "n": "Schule Fischbeker Moor",
+  "a": "",
+  "pc": "",
+  "lat": 53.47397,
+  "lng": 9.83728,
+  "c": "oddity",
+  "s": "school campus in Hamburg, Germany",
+  "q": "Schule Fischbeker Moor Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q108922262",
+   "raw": "school campus in Hamburg, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "katholischeschuleneugrab",
+  "n": "Katholische Schule Neugraben",
+  "a": "",
+  "pc": "",
+  "lat": 53.47192,
+  "lng": 9.84546,
+  "c": "oddity",
+  "s": "catholic school in Hamburg",
+  "q": "Katholische Schule Neugraben Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q108923150",
+   "raw": "Catholic school in Hamburg",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jugendzentrumvierlanden",
+  "n": "Jugendzentrum Vierlanden",
+  "a": "",
+  "pc": "",
+  "lat": 53.41135,
+  "lng": 10.1537,
+  "c": "oddity",
+  "s": "youth centre in a former school building Hamburg",
+  "q": "Jugendzentrum Vierlanden Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q109687028",
+   "raw": "Youth centre in a former school building Hamburg",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stolpersteindedicatedtow",
+  "n": "Stolperstein dedicated to Wilhelm Rimkus",
+  "a": "",
+  "pc": "",
+  "lat": 53.46746,
+  "lng": 9.84384,
+  "c": "oddity",
+  "s": "stolperstein in Hamburg, Germany",
+  "q": "Stolperstein dedicated to Wilhelm Rimkus Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q110301624",
+   "raw": "Stolperstein in Hamburg, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "auszeitgarnihotelhamburg",
+  "n": "Auszeit Garni Hotel Hamburg",
+  "a": "",
+  "pc": "",
+  "lat": 53.47103,
+  "lng": 9.85044,
+  "c": "oddity",
+  "s": "hotel in Hamburg, Germany",
+  "q": "Auszeit Garni Hotel Hamburg Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111390203",
+   "raw": "hotel in Hamburg, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cuxhavenerstrae400",
+  "n": "Cuxhavener Straße 400",
+  "a": "",
+  "pc": "",
+  "lat": 53.47281,
+  "lng": 9.84301,
+  "c": "oddity",
+  "s": "building in Hamburg, Germany, former school building",
+  "q": "Cuxhavener Straße 400 Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q113494406",
+   "raw": "building in Hamburg, Germany, former school building",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kriegerdenkmalhorsten",
+  "n": "Kriegerdenkmal Hörsten",
+  "a": "",
+  "pc": "",
+  "lat": 53.41116,
+  "lng": 10.0628,
+  "c": "history",
+  "s": "war memorial in Hörsten, Germany",
+  "q": "Kriegerdenkmal Hörsten Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q114037633",
+   "raw": "war memorial in Hörsten, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dreisturmvogel",
+  "n": "Drei Sturmvögel",
+  "a": "",
+  "pc": "",
+  "lat": 53.47284,
+  "lng": 9.81901,
+  "c": "oddity",
+  "s": "bronze sculpture by Otto Peters in Hamburg",
+  "q": "Drei Sturmvögel Hamburg",
+  "w": "",
+  "city": "hamburg",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q121338847",
+   "raw": "Bronze sculpture by Otto Peters in Hamburg",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

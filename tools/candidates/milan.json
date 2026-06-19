@@ -1,0 +1,3545 @@
+[
+ {
+  "id": "josephtehillot",
+  "n": "Joseph Tehillot",
+  "a": "",
+  "pc": "",
+  "lat": 45.4636,
+  "lng": 9.15027,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Joseph Tehillot Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/21226564",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Joseph Tehillot",
+    "religion": "jewish"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemaducale",
+  "n": "Cinema Ducale",
+  "a": "",
+  "pc": "",
+  "lat": 45.4524,
+  "lng": 9.15463,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinema Ducale Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/29978509",
+   "raw": {
+    "addr:street": "Piazza Napoli",
+    "amenity": "cinema",
+    "name": "Cinema Ducale",
+    "phone": "+39 02 47719279",
+    "screen": "4",
+    "website": "http://cinenauta.it/ducale/",
+    "wheelchair": "yes",
+    "wikidata": "Q107289743"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "noam",
+  "n": "Noam",
+  "a": "",
+  "pc": "",
+  "lat": 45.45939,
+  "lng": 9.13358,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Noam Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/249599280",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-09-11",
+    "created_by": "JOSM",
+    "name": "Noam",
+    "religion": "jewish"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ucicinemasbicocca",
+  "n": "Uci Cinemas Bicocca",
+  "a": "",
+  "pc": "",
+  "lat": 45.52194,
+  "lng": 9.21614,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Uci Cinemas Bicocca Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/250051812",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:housenumber": "336",
+    "addr:postcode": "20126",
+    "addr:street": "Viale Sarca",
+    "amenity": "cinema",
+    "brand": "UCI",
+    "brand:wikidata": "Q521922",
+    "name": "Uci Cinemas Bicocca",
+    "phone:it": "+39 892960",
+    "screen": "18",
+    "website": "https://www.ucicinemas.it/cinema/lombardia/milano/uci-cinemas-bicocca-milano/",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bethshlomo",
+  "n": "Beth Shlomo",
+  "a": "",
+  "pc": "",
+  "lat": 45.45045,
+  "lng": 9.20446,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Beth Shlomo Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/251291614",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:country": "IT",
+    "addr:housenumber": "8",
+    "addr:postcode": "20135",
+    "addr:street": "Corso Lodi",
+    "amenity": "place_of_worship",
+    "denomination": "ashkenazi",
+    "email": "info@bethshlomo.it",
+    "fixme": "posizione",
+    "name": "Beth Shlomo",
+    "religion": "jewish",
+    "website": "https://www.bethshlomo.it/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thespacecinemaodeon",
+  "n": "The Space Cinema Odeon",
+  "a": "",
+  "pc": "",
+  "lat": 45.46512,
+  "lng": 9.19237,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "The Space Cinema Odeon Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/251293086",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:country": "IT",
+    "addr:housenumber": "8",
+    "addr:postcode": "20121",
+    "addr:street": "Via Santa Radegonda",
+    "amenity": "cinema",
+    "brand": "The Space Cinema",
+    "brand:wikidata": "Q3989406",
+    "brand:wikipedia": "it:The Space Cinema",
+    "description": "Dal 1° agosto 2023 il cinema sarà chiuso definitivamente. https://milano.repubblica.it/cronaca/2023/05/30/news/chiude_cinema_odeon_space_milano-402523254/",
+    "name": "The Space Cinema Odeon",
+    "operator": "The Space Cinema",
+    "screen": "10",
+    "website": "https://www.thespacecinema.it/al-cinema/milano-odeon",
+    "wheelchair": "yes",
+    "wikidata": "Q107362321",
+    "wikimedia_commons": "Category:Odeon (Milan)",
+    "wikipedia": "it:Odeon (Milano)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesacristianaavventist",
+  "n": "Chiesa Cristiana Avventista del Settimo Giorno",
+  "a": "",
+  "pc": "",
+  "lat": 45.47514,
+  "lng": 9.18934,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa Cristiana Avventista del Settimo Giorno Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/252641374",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:housenumber": "2",
+    "addr:postcode": "20121",
+    "addr:street": "Piazza Carlo Mirabello",
+    "amenity": "place_of_worship",
+    "denomination": "seventh_day_adventist",
+    "name": "Chiesa Cristiana Avventista del Settimo Giorno",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesasanbenedetto",
+  "n": "Chiesa San Benedetto",
+  "a": "",
+  "pc": "",
+  "lat": 45.45855,
+  "lng": 9.14478,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa San Benedetto Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/257680726",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "Chiesa San Benedetto",
+    "religion": "christian",
+    "website": "https://parrocchia.donorionemilano.it/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesadisantamariadeglia",
+  "n": "Chiesa di Santa Maria degli Angeli e San Francesco",
+  "a": "",
+  "pc": "",
+  "lat": 45.46711,
+  "lng": 9.14074,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa di Santa Maria degli Angeli e San Francesco Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/259592085",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:housenumber": "1",
+    "addr:postcode": "20146",
+    "addr:street": "Piazzale Diego Velasquez",
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Chiesa di Santa Maria degli Angeli e San Francesco",
+    "phone": "+39 02 48 777 31",
+    "religion": "christian",
+    "service_times": "Mo-Fr 07:30, 08:30, 18:30, Sa 07:30, 08:30, 18:00, Su 07:30, 09:30, 11:00, 12:15, 17:00, 18:30, 21:00"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "betel",
+  "n": "Betel",
+  "a": "",
+  "pc": "",
+  "lat": 45.439,
+  "lng": 9.15576,
+  "c": "faith",
+  "s": "church",
+  "q": "Betel Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/266325956",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "evangelical",
+    "name": "Betel",
+    "religion": "christian",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gloria",
+  "n": "Gloria",
+  "a": "",
+  "pc": "",
+  "lat": 45.46655,
+  "lng": 9.16186,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Gloria Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/268616396",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:housenumber": "18",
+    "addr:postcode": "20145",
+    "addr:street": "Corso Vercelli",
+    "amenity": "cinema",
+    "name": "Gloria",
+    "phone": "+39 02 48008908",
+    "website": "https://www.notoriouscinemas.it/gloria/index.php",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "orfeomultisala",
+  "n": "Orfeo Multisala",
+  "a": "",
+  "pc": "",
+  "lat": 45.45694,
+  "lng": 9.16953,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Orfeo Multisala Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/268616425",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:country": "IT",
+    "addr:housenumber": "50",
+    "addr:postcode": "20144",
+    "addr:street": "Viale Coni Zugna",
+    "amenity": "cinema",
+    "email": "info@orfeomultisala.com",
+    "name": "Orfeo Multisala",
+    "phone": "+390289403039",
+    "screen": "3",
+    "website": "https://www.orfeomultisala.com/",
+    "wheelchair": "limited",
+    "wikidata": "Q37158536"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ghepellingcentrostudisul",
+  "n": "Ghe Pel Ling - Centro Studi sul Buddismo tibetano",
+  "a": "",
+  "pc": "",
+  "lat": 45.51782,
+  "lng": 9.22771,
+  "c": "faith",
+  "s": "temple",
+  "q": "Ghe Pel Ling - Centro Studi sul Buddismo tibetano Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/280511217",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Ghe Pel Ling - Centro Studi sul Buddismo tibetano",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ultimacena",
+  "n": "Ultima Cena",
+  "a": "",
+  "pc": "",
+  "lat": 45.46647,
+  "lng": 9.17087,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Ultima Cena Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304775593",
+   "raw": {
+    "alt_name": "Cenacolo Vinciano",
+    "artist_name": "Leonardo da Vinci",
+    "artwork_type": "painting",
+    "name": "Ultima Cena",
+    "name:de": "Das letzte Abendmahl",
+    "name:en": "The Last Supper",
+    "name:es": "La Ultima Cena",
+    "name:it": "Ultima Cena",
+    "name:ru": "Тайная вечеря",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wheelchair:description:de": "Karten sollten im Internet vorbestellt werden",
+    "wikidata": "Q128910",
+    "wikimedia_commons": "File:Última Cena - Da Vinci 5.jpg",
+    "wikipedia": "it:Ultima Cena (Leonardo)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesaevangelicametodist",
+  "n": "Chiesa Evangelica Metodista",
+  "a": "",
+  "pc": "",
+  "lat": 45.48894,
+  "lng": 9.18817,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa Evangelica Metodista Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/308832288",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:housenumber": "28",
+    "addr:postcode": "20159",
+    "addr:street": "Via Luigi Porro Lambertenghi",
+    "amenity": "place_of_worship",
+    "check_date": "2024-04-14",
+    "denomination": "methodist",
+    "name": "Chiesa Evangelica Metodista",
+    "religion": "christian",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiusadileonardo",
+  "n": "Chiusa di Leonardo",
+  "a": "",
+  "pc": "",
+  "lat": 45.38081,
+  "lng": 9.14292,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Chiusa di Leonardo Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/320634331",
+   "raw": {
+    "historic": "yes",
+    "name": "Chiusa di Leonardo",
+    "seamark:type": "gate",
+    "waterway": "lock_gate"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "auditoriumdonbosco",
+  "n": "Auditorium Don Bosco",
+  "a": "",
+  "pc": "",
+  "lat": 45.48823,
+  "lng": 9.19982,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Auditorium Don Bosco Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358878181",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:housenumber": "48",
+    "addr:postcode": "20124",
+    "addr:street": "Via Melchiorre Gioia",
+    "amenity": "cinema",
+    "name": "Auditorium Don Bosco"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "arcobalenofilmcenter",
+  "n": "Arcobaleno Film Center",
+  "a": "",
+  "pc": "",
+  "lat": 45.47708,
+  "lng": 9.20567,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Arcobaleno Film Center Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/442138046",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:housenumber": "11",
+    "addr:postcode": "20124",
+    "addr:street": "Viale Tunisia",
+    "amenity": "cinema",
+    "name": "Arcobaleno Film Center",
+    "phone": "+39 02 2940 6054",
+    "screen": "3",
+    "website": "http://cinenauta.it/arcobaleno/",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ariostospaziocinema",
+  "n": "Ariosto Spaziocinema",
+  "a": "",
+  "pc": "",
+  "lat": 45.46906,
+  "lng": 9.16602,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Ariosto Spaziocinema Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/442586656",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:country": "IT",
+    "addr:housenumber": "16",
+    "addr:postcode": "20145",
+    "addr:street": "Via Lodovico Ariosto",
+    "amenity": "cinema",
+    "name": "Ariosto Spaziocinema",
+    "phone": "+39 02 87085730",
+    "screen": "1"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemacentrale",
+  "n": "Cinema Centrale",
+  "a": "",
+  "pc": "",
+  "lat": 45.46216,
+  "lng": 9.18577,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinema Centrale Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/442587403",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:housenumber": "30;32",
+    "addr:postcode": "20123",
+    "addr:street": "Via Torino",
+    "amenity": "cinema",
+    "contact:email": "mail@multisalacentrale.it",
+    "contact:facebook": "https://www.facebook.com/cinemacentralemilano",
+    "contact:instagram": "cinemacentralemilano",
+    "contact:phone": "+3902874826",
+    "contact:website": "https://www.multisalacentrale.it/",
+    "name": "Cinema Centrale",
+    "screen": "2",
+    "start_date": "1907",
+    "toilets": "yes",
+    "wikidata": "Q37158362"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "colosseo",
+  "n": "Colosseo",
+  "a": "",
+  "pc": "",
+  "lat": 45.46164,
+  "lng": 9.20794,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Colosseo Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/442587550",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:housenumber": "84",
+    "addr:postcode": "20135",
+    "addr:street": "Viale Monte Nero",
+    "amenity": "cinema",
+    "name": "Colosseo",
+    "phone": "+39 02 59901361",
+    "screen": "6"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eliseo",
+  "n": "Eliseo",
+  "a": "",
+  "pc": "",
+  "lat": 45.46083,
+  "lng": 9.18263,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Eliseo Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/442588357",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:housenumber": "64",
+    "addr:postcode": "20121",
+    "addr:street": "Via Torino",
+    "amenity": "cinema",
+    "name": "Eliseo",
+    "phone": "+39 02 72008219",
+    "screen": "5",
+    "website": "https://www.ilregnodelcinema.com/eliseo/infocinema.php",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santambrogio",
+  "n": "Sant'Ambrogio",
+  "a": "",
+  "pc": "",
+  "lat": 45.49946,
+  "lng": 9.29323,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Sant'Ambrogio Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/493674602",
+   "raw": {
+    "historic": "monument",
+    "name": "Sant'Ambrogio"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemateatrosangiuseppe",
+  "n": "Cinema Teatro San Giuseppe",
+  "a": "",
+  "pc": "",
+  "lat": 45.53764,
+  "lng": 9.18835,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinema Teatro San Giuseppe Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/577786811",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Cinema Teatro San Giuseppe"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "medusamultisala",
+  "n": "Medusa multisala",
+  "a": "",
+  "pc": "",
+  "lat": 45.3893,
+  "lng": 9.17781,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Medusa multisala Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/590353684",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Medusa multisala"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoagiuseppemissor",
+  "n": "Monumento a Giuseppe Missori",
+  "a": "",
+  "pc": "",
+  "lat": 45.46107,
+  "lng": 9.1881,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento a Giuseppe Missori Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/611066173",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Monumento a Giuseppe Missori",
+    "statue": "equestrian",
+    "subject": "Giuseppe Missori",
+    "subject:wikidata": "Q3108100",
+    "wikidata": "Q21141701",
+    "wikimedia_commons": "Category:Monument to Giuseppe Missori (Milan)",
+    "wikipedia": "it:Monumento a Giuseppe Missori"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoanapoleoneiii",
+  "n": "Monumento a Napoleone III",
+  "a": "",
+  "pc": "",
+  "lat": 45.47454,
+  "lng": 9.17602,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Monumento a Napoleone III Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/613579665",
+   "raw": {
+    "artwork_type": "sculpture",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Monumento a Napoleone III",
+    "tourism": "artwork",
+    "wikidata": "Q25409823",
+    "wikimedia_commons": "Category:Monument to Napoleon III of France (Milan)",
+    "wikipedia": "it:Monumento a Napoleone III"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ucicinemascertosa",
+  "n": "UCI Cinemas Certosa",
+  "a": "",
+  "pc": "",
+  "lat": 45.50964,
+  "lng": 9.12815,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "UCI Cinemas Certosa Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/714322674",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:housenumber": "3",
+    "addr:postcode": "20157",
+    "addr:street": "Via Giovanni Gentile",
+    "amenity": "cinema",
+    "name": "UCI Cinemas Certosa",
+    "phone:it": "+39 892960",
+    "screen": "8",
+    "website": "https://www.ucicinemas.it/cinema/lombardia/milano/uci-cinemas-certosa-milano/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bettalmud",
+  "n": "Bet Talmud",
+  "a": "",
+  "pc": "",
+  "lat": 45.45593,
+  "lng": 9.14089,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Bet Talmud Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/729314069",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "ashkenazi_orthodox",
+    "name": "Bet Talmud",
+    "religion": "jewish"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cineteatrosplendor",
+  "n": "Cineteatro Splendor",
+  "a": "",
+  "pc": "",
+  "lat": 45.54214,
+  "lng": 9.1135,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cineteatro Splendor Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/912755868",
+   "raw": {
+    "addr:city": "Bollate",
+    "addr:housenumber": "5",
+    "addr:postcode": "20021",
+    "addr:street": "Piazza San Martino",
+    "amenity": "cinema",
+    "cinema:3D": "no",
+    "name": "Cineteatro Splendor",
+    "note": "Codice fiscale:0130270216;Numero punto vendita:CL000001",
+    "operator": "Parrocchia San Martino",
+    "phone": "+39023502379",
+    "screen": "1",
+    "toilets": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bethalevi",
+  "n": "Bet haLevi",
+  "a": "",
+  "pc": "",
+  "lat": 45.457,
+  "lng": 9.14451,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Bet haLevi Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1006057363",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "sephardi",
+    "name": "Bet haLevi",
+    "religion": "jewish"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pinacotecadibrera",
+  "n": "Pinacoteca di Brera",
+  "a": "",
+  "pc": "",
+  "lat": 45.47224,
+  "lng": 9.18841,
+  "c": "museum",
+  "s": "museum",
+  "q": "Pinacoteca di Brera Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1029667846",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:housenumber": "28",
+    "addr:postcode": "20121",
+    "addr:street": "Via Brera",
+    "email": "pin-br@beniculturali.it",
+    "fee": "yes",
+    "museum": "art",
+    "name": "Pinacoteca di Brera",
+    "name:de": "Pinakothek von Brera",
+    "name:es": "Pinacoteca de Brera",
+    "name:fr": "Pinacothèque de Brera",
+    "name:it": "Pinacoteca di Brera",
+    "name:lt": "Breros pinakoteka",
+    "name:pl": "Pinakoteka Brera",
+    "name:ru": "Пинакотека Брера",
+    "name:uk": "Брера",
+    "opening_hours": "Tu-Su 09:30-18:30; Mo, Jan 1, May 1, Dec 25 off",
+    "phone": "+39 02 722631",
+    "tourism": "museum",
+    "website": "https://pinacotecabrera.org/",
+    "wikidata": "Q150066",
+    "wikipedia": "it:Pinacoteca di Brera"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "moscheaalrahman",
+  "n": "Moschea al-Rahmàn",
+  "a": "",
+  "pc": "",
+  "lat": 45.4905,
+  "lng": 9.26098,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Moschea al-Rahmàn Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1097849757",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "sunni",
+    "name": "Moschea al-Rahmàn",
+    "religion": "muslim",
+    "wikidata": "Q3866050",
+    "wikimedia_commons": "Category:Mosque of Segrate",
+    "wikipedia": "it:Moschea di Segrate"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaeugeniovillore",
+  "n": "Monumento a Eugenio Villoresi",
+  "a": "",
+  "pc": "",
+  "lat": 45.47783,
+  "lng": 9.22602,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Monumento a Eugenio Villoresi Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1149228728",
+   "raw": {
+    "artist_name": "Luigi Panzeri",
+    "artwork_type": "statue",
+    "material": "bronze",
+    "name": "Monumento a Eugenio Villoresi",
+    "source": "Mapillary",
+    "subject:wikidata": "Q130342671",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ossariopiccolimartiridig",
+  "n": "Ossario Piccoli Martiri di Gorla",
+  "a": "",
+  "pc": "",
+  "lat": 45.50443,
+  "lng": 9.22416,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ossario Piccoli Martiri di Gorla Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1154668808",
+   "raw": {
+    "artist_name": "Remo Brioschi",
+    "historic": "memorial",
+    "inscription": "Ecco la Guerra",
+    "memorial": "war_memorial",
+    "name": "Ossario Piccoli Martiri di Gorla",
+    "start_date": "1947",
+    "wikidata": "Q66366434",
+    "wikipedia": "it:Monumento ai Piccoli Martiri di Gorla"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museodelnovecento",
+  "n": "Museo del Novecento",
+  "a": "",
+  "pc": "",
+  "lat": 45.46339,
+  "lng": 9.19023,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo del Novecento Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1223091032",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:country": "IT",
+    "addr:housenumber": "1",
+    "addr:postcode": "20122",
+    "addr:street": "Via Guglielmo Marconi",
+    "alt_name": "Museo del 900",
+    "email": "c.museo900@comune.milano.it",
+    "fee": "yes",
+    "museum": "art",
+    "name": "Museo del Novecento",
+    "name:it": "Museo del Novecento",
+    "name:zh": "1900年代美術館",
+    "opening_hours": "Tu-We,Fr-Su 09:30-19:30; Th 09:30-22:30; Mo off",
+    "operator": "Comune di Milano",
+    "operator:type": "public",
+    "phone": "+390288444061",
+    "tourism": "museum",
+    "website": "https://www.museodelnovecento.org/it/",
+    "wheelchair": "yes",
+    "wikidata": "Q261233",
+    "wikipedia": "it:Museo del Novecento"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "statuadileonardodavinci",
+  "n": "Statua di Leonardo da Vinci",
+  "a": "",
+  "pc": "",
+  "lat": 45.46697,
+  "lng": 9.19001,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Statua di Leonardo da Vinci Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1277284761",
+   "raw": {
+    "artist_name": "Pietro Magni",
+    "historic": "monument",
+    "memorial": "statue",
+    "name": "Statua di Leonardo da Vinci",
+    "name:it": "Statua di Leonardo da Vinci",
+    "name:ru": "Памятник Леонардо да Винчи",
+    "name:zh": "达芬奇纪念碑",
+    "note": "it_IT:modificato il campo \"Data d'inizio\", per la statua \"Leonardo da Vinci\" a Milano, MI, IT, da 1872 a 1858, analizzando ed accogliendo sin da subito la prima parte della logica del campo \"Date when feature opened or\" in corcondanza con l'URL wikipedia",
+    "start_date": "1858",
+    "subject": "Leonardo da Vinci",
+    "subject:wikidata": "Q762",
+    "subject:wikipedia": "it:Leonardo da Vinci",
+    "wikidata": "Q54834138",
+    "wikimedia_commons": "Category:Monument to Leonardo da Vinci (Milan)",
+    "wikipedia": "it:Monumento a Leonardo da Vinci"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "carlocattaneo",
+  "n": "Carlo Cattaneo",
+  "a": "",
+  "pc": "",
+  "lat": 45.46577,
+  "lng": 9.18842,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Carlo Cattaneo Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1295261412",
+   "raw": {
+    "description": "Materiali: granito rosa di Baveno e calcare grigio, mentre la statua sovrastante è in bronzo.",
+    "historic": "memorial",
+    "material": "granite",
+    "memorial": "statue",
+    "name": "Carlo Cattaneo",
+    "tower:material": "bronze",
+    "wikidata": "Q69545741",
+    "wikimedia_commons": "Category:Monument to Carlo Cattaneo (Milan)",
+    "wikipedia": "it:Monumento a Carlo Cattaneo"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "agofiloenodo",
+  "n": "Ago, filo e nodo",
+  "a": "",
+  "pc": "",
+  "lat": 45.46809,
+  "lng": 9.17713,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Ago, filo e nodo Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1364451073",
+   "raw": {
+    "artist_name": "Claes Oldenburg, Coosje van Bruggen",
+    "artwork_type": "sculpture",
+    "name": "Ago, filo e nodo",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wikidata": "Q3606678",
+    "wikimedia_commons": "Category:Needle, Thread and Knot",
+    "wikipedia": "it:Ago, filo e nodo"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "boscodeifaggivittime8ott",
+  "n": "Bosco dei Faggi - Vittime 8 ottobre 2001",
+  "a": "",
+  "pc": "",
+  "lat": 45.46356,
+  "lng": 9.26077,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Bosco dei Faggi - Vittime 8 ottobre 2001 Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1486480889",
+   "raw": {
+    "historic": "monument",
+    "name": "Bosco dei Faggi - Vittime 8 ottobre 2001"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "notoriuscinemas",
+  "n": "Notorius Cinemas",
+  "a": "",
+  "pc": "",
+  "lat": 45.52879,
+  "lng": 9.21745,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Notorius Cinemas Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1505376846",
+   "raw": {
+    "addr:city": "Sesto San Giovanni",
+    "addr:housenumber": "10",
+    "addr:postcode": "20099",
+    "addr:street": "Via Milanese",
+    "air_conditioning": "yes",
+    "amenity": "cinema",
+    "branch": "Sesto San Giovanni",
+    "brand": "Notorius Cinemas",
+    "check_date": "2023-09-21",
+    "cinema:IMAX": "yes",
+    "contact:email": "info@notoriouscinemas.it",
+    "contact:phone": "+39 02 36728421",
+    "contact:website": "https://www.notoriouscinemas.it/sestosangiovanni/index.php",
+    "level": "2",
+    "name": "Notorius Cinemas",
+    "screen": "10",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museodelgiocattoloedelba",
+  "n": "Museo del Giocattolo e del Bambino",
+  "a": "",
+  "pc": "",
+  "lat": 45.54653,
+  "lng": 9.17241,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo del Giocattolo e del Bambino Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1558406762",
+   "raw": {
+    "addr:city": "Cormano",
+    "addr:country": "IT",
+    "addr:housenumber": "3",
+    "addr:postcode": "20032",
+    "addr:street": "Via Gianni Rodari",
+    "email": "museodelgiocattolo@tin.it",
+    "name": "Museo del Giocattolo e del Bambino",
+    "opening_hours": "Sa-Su, PH 14:30-18:00; Mo-Fr \"su prenotazione\"",
+    "phone": "+39 340 1509192",
+    "tourism": "museum",
+    "website": "https://www.museodelgiocattolo.it/mi/home_mi.html",
+    "wikidata": "Q69556137"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesacristianaevangelic",
+  "n": "Chiesa Cristiana Evangelica Cinese a Milano",
+  "a": "",
+  "pc": "",
+  "lat": 45.50245,
+  "lng": 9.20871,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa Cristiana Evangelica Cinese a Milano Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1568523650",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:housenumber": "2a",
+    "addr:postcode": "20125",
+    "addr:street": "Via Antonio Fortunato Stella",
+    "amenity": "place_of_worship",
+    "denomination": "chinese_evangelical",
+    "email": "milanchiesa@gmail.com",
+    "name": "Chiesa Cristiana Evangelica Cinese a Milano",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sireneidivillalitta",
+  "n": "Sirenei di Villa Litta",
+  "a": "",
+  "pc": "",
+  "lat": 45.5234,
+  "lng": 9.16639,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Sirenei di Villa Litta Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1639394926",
+   "raw": {
+    "comment": "sculture in sitle egizio utilizzate per adornare l'ingresso al parco della Villa Litta",
+    "historic": "ruins",
+    "name": "Sirenei di Villa Litta"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stele",
+  "n": "Stele",
+  "a": "",
+  "pc": "",
+  "lat": 45.53097,
+  "lng": 9.21068,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Stele Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1673351474",
+   "raw": {
+    "historic": "monument",
+    "name": "Stele",
+    "start_date": "1998",
+    "wikidata": "Q16579830",
+    "wikipedia": "it:Monumento al Deportato"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cavalloimpennato",
+  "n": "Cavallo impennato",
+  "a": "",
+  "pc": "",
+  "lat": 45.4713,
+  "lng": 9.18754,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Cavallo impennato Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1726657133",
+   "raw": {
+    "artist_name": "Aligi Sassu",
+    "artwork_type": "statue",
+    "date": "1960",
+    "name": "Cavallo impennato",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sandropertini",
+  "n": "Sandro Pertini",
+  "a": "",
+  "pc": "",
+  "lat": 45.41688,
+  "lng": 9.07174,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Sandro Pertini Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1739701976",
+   "raw": {
+    "historic": "monument",
+    "name": "Sandro Pertini"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "obeliscodisanglicerio",
+  "n": "Obelisco di san Glicerio",
+  "a": "",
+  "pc": "",
+  "lat": 45.47104,
+  "lng": 9.19977,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Obelisco di san Glicerio Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1779784909",
+   "raw": {
+    "historic": "memorial",
+    "name": "Obelisco di san Glicerio",
+    "start_date": "1607",
+    "wikimedia_commons": "File:3396 - Milano - Obelisco di san Glicerio (1607) - Foto Giovanni Dall'orto 23-6-2007.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoadagostinoberta",
+  "n": "Monumento ad Agostino Bertani",
+  "a": "",
+  "pc": "",
+  "lat": 45.47058,
+  "lng": 9.21066,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento ad Agostino Bertani Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1780606098",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Monumento ad Agostino Bertani"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ernestoteodoromoneta",
+  "n": "Ernesto Teodoro Moneta",
+  "a": "",
+  "pc": "",
+  "lat": 45.47364,
+  "lng": 9.19807,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Ernesto Teodoro Moneta Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1836685256",
+   "raw": {
+    "artwork_type": "sculpture",
+    "description": "Busto di Ernesto Teodoro Moneta",
+    "name": "Ernesto Teodoro Moneta",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museomanginibonomi",
+  "n": "Museo Mangini Bonomi",
+  "a": "",
+  "pc": "",
+  "lat": 45.46346,
+  "lng": 9.18517,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Mangini Bonomi Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1836751671",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:country": "IT",
+    "addr:housenumber": "20",
+    "addr:postcode": "20123",
+    "addr:street": "Via dell'Ambrosiana",
+    "contact:fax": "+39 02 86451493",
+    "contact:instagram": "https://www.instagram.com/museomanginibonomi",
+    "email": "info@museomanginibonomi.it",
+    "facebook": "https://www.facebook.com/www.museomanginibonomi.it/",
+    "name": "Museo Mangini Bonomi",
+    "opening_hours": "Mo,Th 15:00-19:00; We 15:00-17:00; PH off",
+    "operator": "Fondazione Emilio Carlo Mangini",
+    "operator:type": "private",
+    "phone": "+39 02 86451455",
+    "tourism": "museum",
+    "website": "https://www.museomanginibonomi.it/",
+    "wikidata": "Q55376499"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "discogrande",
+  "n": "Disco Grande",
+  "a": "",
+  "pc": "",
+  "lat": 45.46701,
+  "lng": 9.19313,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Disco Grande Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1847421745",
+   "raw": {
+    "artist_name": "Arnaldo Pomodoro",
+    "artwork_type": "sculpture",
+    "name": "Disco Grande",
+    "tourism": "artwork",
+    "wikidata": "Q56604941",
+    "wikimedia_commons": "Category:Arnaldo Pomodoro - Grande disco (Milano, Piazza Meda)",
+    "wikipedia": "it:Disco Grande"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoacavour",
+  "n": "Monumento a Cavour",
+  "a": "",
+  "pc": "",
+  "lat": 45.47299,
+  "lng": 9.19589,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Monumento a Cavour Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1855655673",
+   "raw": {
+    "artwork_type": "sculpture",
+    "historic": "memorial",
+    "name": "Monumento a Cavour",
+    "wikidata": "Q89124035",
+    "wikimedia_commons": "Category:Monument to Cavour (Milan)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoagiuseppesirtor",
+  "n": "Monumento a Giuseppe Sirtori",
+  "a": "",
+  "pc": "",
+  "lat": 45.47384,
+  "lng": 9.20056,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Monumento a Giuseppe Sirtori Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1855655696",
+   "raw": {
+    "artist_name": "Enrico Butti",
+    "artwork_subject": "Giuseppe Sirtori",
+    "artwork_type": "sculpture",
+    "inscription": "Al generale Giuseppe Sirtori",
+    "material": "bronze",
+    "name": "Monumento a Giuseppe Sirtori",
+    "tourism": "artwork",
+    "wikidata": "Q44783429",
+    "wikimedia_commons": "Category:Monument to Giuseppe Sirtori (Milan)",
+    "wikipedia": "it:Monumento a Giuseppe Sirtori"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoalucianomanara",
+  "n": "Monumento a Luciano Manara",
+  "a": "",
+  "pc": "",
+  "lat": 45.47471,
+  "lng": 9.20263,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Monumento a Luciano Manara Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1855655715",
+   "raw": {
+    "artist_name": "Francesco Barzaghi",
+    "artwork_subject": "Luciano Manara",
+    "artwork_type": "sculpture",
+    "inscription": "A Luciano Manara",
+    "material": "bronze",
+    "name": "Monumento a Luciano Manara",
+    "start_date": "1904-06-30",
+    "tourism": "artwork",
+    "wikidata": "Q32110076",
+    "wikimedia_commons": "Category:Monument to Luciano Manara (Milan)",
+    "wikipedia": "it:Monumento a Luciano Manara"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "colonnadiportaorientale",
+  "n": "Colonna di Porta Orientale",
+  "a": "",
+  "pc": "",
+  "lat": 45.46686,
+  "lng": 9.19796,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Colonna di Porta Orientale Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1855797219",
+   "raw": {
+    "artwork_type": "column",
+    "fixme": "check name",
+    "historic": "monument",
+    "name": "Colonna di Porta Orientale",
+    "wikidata": "Q46374484",
+    "wikimedia_commons": "Category:Colonna del Leone (Milan)",
+    "wikipedia": "it:Colonna del Leone"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "f84fthunderstreak",
+  "n": "F-84 F Thunderstreak",
+  "a": "",
+  "pc": "",
+  "lat": 45.46129,
+  "lng": 9.17161,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "F-84 F Thunderstreak Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1892441468",
+   "raw": {
+    "aircraft:type": "military",
+    "historic": "aircraft",
+    "manufacturer": "Republic Aviation",
+    "model:wikidata": "Q2101666",
+    "model:wikimedia_commons": "Category:Republic F-84F Thunderstreak",
+    "model:wikipedia": "it:Republic F-84F Thunderstreak",
+    "name": "F-84 F Thunderstreak",
+    "tourism": "attraction"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museodiocesanodimilano",
+  "n": "Museo Diocesano di Milano",
+  "a": "",
+  "pc": "",
+  "lat": 45.45467,
+  "lng": 9.18103,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Diocesano di Milano Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1898336420",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:country": "IT",
+    "addr:housenumber": "3",
+    "addr:postcode": "20123",
+    "addr:street": "Piazza Sant'Eustorgio",
+    "fee": "yes",
+    "name": "Museo Diocesano di Milano",
+    "name:de": "Diözesanmuseum von Mailand",
+    "name:es": "Museo Diocesano de Milán",
+    "name:fr": "Musée diocésain de Milan",
+    "opening_hours": "Tu-Su 10:00-18:00; Mo, Jan 01,May 01,Dec 25,26 off",
+    "phone": "+390289420019",
+    "tourism": "museum",
+    "website": "https://chiostrisanteustorgio.it/",
+    "wikidata": "Q1846306",
+    "wikimedia_commons": "Category:Museo diocesano (Milan)",
+    "wikipedia": "it:Museo diocesano (Milano)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaglialpini",
+  "n": "Monumento agli Alpini",
+  "a": "",
+  "pc": "",
+  "lat": 45.53502,
+  "lng": 9.1886,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento agli Alpini Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1957063612",
+   "raw": {
+    "historic": "memorial",
+    "name": "Monumento agli Alpini"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "arenaumanitaria",
+  "n": "Arena Umanitaria",
+  "a": "",
+  "pc": "",
+  "lat": 45.45943,
+  "lng": 9.20103,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Arena Umanitaria Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1977225057",
+   "raw": {
+    "amenity": "cinema",
+    "description": "Cinema estivo",
+    "name": "Arena Umanitaria"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinetecamilanomeet",
+  "n": "Cineteca Milano Meet",
+  "a": "",
+  "pc": "",
+  "lat": 45.47537,
+  "lng": 9.20397,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cineteca Milano Meet Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1977225059",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:country": "IT",
+    "addr:housenumber": "2",
+    "addr:postcode": "20124",
+    "addr:street": "Viale Vittorio Veneto",
+    "amenity": "cinema",
+    "name": "Cineteca Milano Meet",
+    "phone": "+39 02 49532190",
+    "website": "https://www.cinetecamilano.it/location/milano-meet",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aicadutiditutteleguerre",
+  "n": "Ai Caduti di Tutte le Guerre",
+  "a": "",
+  "pc": "",
+  "lat": 45.53375,
+  "lng": 9.23261,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ai Caduti di Tutte le Guerre Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1990220639",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Da questo monumento che ai suoi caduti immortali Sesto S. Giovanni consacrò o Madre Italia grida la tua vittoria al sole di tutti i secoli",
+    "memorial": "obelisk",
+    "name": "Ai Caduti di Tutte le Guerre",
+    "note:it": "iscrizione sul lato NO, nomi dei caduti sugli altri tre"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "costantinoimperatore",
+  "n": "Costantino Imperatore",
+  "a": "",
+  "pc": "",
+  "lat": 45.45821,
+  "lng": 9.18142,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Costantino Imperatore Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2061403096",
+   "raw": {
+    "artwork_type": "sculpture",
+    "historic": "monument",
+    "name": "Costantino Imperatore",
+    "tourism": "artwork",
+    "wikidata": "Q3695532",
+    "wikimedia_commons": "Category:Monument to Constantinus I Magnus (Milan)",
+    "wikipedia": "it:Monumento a Costantino Imperatore"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "crocettadisancalimero",
+  "n": "Crocetta di san Calimero",
+  "a": "",
+  "pc": "",
+  "lat": 45.45608,
+  "lng": 9.19563,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Crocetta di san Calimero Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2061403097",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "monument",
+    "name": "Crocetta di san Calimero",
+    "tourism": "artwork",
+    "wikidata": "Q107453835",
+    "wikimedia_commons": "Category:Crocetta di San Calimero (Milan)",
+    "wikipedia": "it:Monumento a San Calimero"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fontanadisanfrancesco",
+  "n": "Fontana di San Francesco",
+  "a": "",
+  "pc": "",
+  "lat": 45.47617,
+  "lng": 9.192,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Fontana di San Francesco Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2061403098",
+   "raw": {
+    "amenity": "fountain",
+    "artist_name": "Giannino Castiglioni",
+    "historic": "monument",
+    "name": "Fontana di San Francesco",
+    "tourism": "artwork",
+    "wikidata": "Q55752855",
+    "wikimedia_commons": "Category:Saint Francis Fountain (Milan)",
+    "wikipedia": "it:Fontana di San Francesco"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaibersaglieri2",
+  "n": "Monumento ai Bersaglieri",
+  "a": "",
+  "pc": "",
+  "lat": 45.46329,
+  "lng": 9.19573,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Monumento ai Bersaglieri Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2061403099",
+   "raw": {
+    "artwork_type": "stone",
+    "historic": "monument",
+    "name": "Monumento ai Bersaglieri",
+    "tourism": "artwork",
+    "wikidata": "Q117075526",
+    "wikipedia": "it:Monumento ai Bersaglieri"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoagiuseppedezza",
+  "n": "Monumento a Giuseppe Dezza",
+  "a": "",
+  "pc": "",
+  "lat": 45.47246,
+  "lng": 9.20086,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Monumento a Giuseppe Dezza Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2061403107",
+   "raw": {
+    "artist_name": "Enrico Cassi",
+    "artwork_type": "sculpture",
+    "historic": "monument",
+    "name": "Monumento a Giuseppe Dezza",
+    "tourism": "artwork",
+    "wikidata": "Q54308498",
+    "wikimedia_commons": "Category:Monument to Giuseppe Dezza (Milan)",
+    "wikipedia": "it:Monumento a Giuseppe Dezza"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "madonnadelgiubileo",
+  "n": "Madonna del Giubileo",
+  "a": "",
+  "pc": "",
+  "lat": 45.44686,
+  "lng": 9.09002,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Madonna del Giubileo Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2118450371",
+   "raw": {
+    "historic": "wayside_shrine",
+    "name": "Madonna del Giubileo"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "colonnadisantelena",
+  "n": "Colonna di Sant'Elena",
+  "a": "",
+  "pc": "",
+  "lat": 45.45729,
+  "lng": 9.18763,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Colonna di Sant'Elena Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2131565388",
+   "raw": {
+    "historic": "monument",
+    "material": "marble",
+    "memorial": "obelisk",
+    "name": "Colonna di Sant'Elena",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "serpentinodellavalmalenc",
+  "n": "Serpentino della Valmalenco",
+  "a": "",
+  "pc": "",
+  "lat": 45.48767,
+  "lng": 9.19554,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Serpentino della Valmalenco Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2154522473",
+   "raw": {
+    "name": "Serpentino della Valmalenco",
+    "natural": "stone",
+    "source": "survey",
+    "tourism": "artwork",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "statuadidonpogliani",
+  "n": "Statua di Don Pogliani",
+  "a": "",
+  "pc": "",
+  "lat": 45.44935,
+  "lng": 9.09253,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Statua di Don Pogliani Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2177308937",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Statua di Don Pogliani",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "milanoarteexpo",
+  "n": "Milano Arte Expo",
+  "a": "",
+  "pc": "",
+  "lat": 45.48651,
+  "lng": 9.22551,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Milano Arte Expo Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2345530689",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:country": "IT",
+    "addr:housenumber": "24",
+    "addr:street": "Via Niccolò Jommelli",
+    "description": "Arte Mostre Teatro Danza Eventi",
+    "name": "Milano Arte Expo",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "palazzomorandocostumemod",
+  "n": "Palazzo Morando - Costume Moda Immagine",
+  "a": "",
+  "pc": "",
+  "lat": 45.46859,
+  "lng": 9.19626,
+  "c": "museum",
+  "s": "museum",
+  "q": "Palazzo Morando - Costume Moda Immagine Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2391622707",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:housenumber": "6",
+    "addr:postcode": "20121",
+    "addr:street": "Via Sant'Andrea",
+    "museum": "history",
+    "name": "Palazzo Morando - Costume Moda Immagine",
+    "opening_hours": "Tu-Su 10:00-17:30; Mo off",
+    "operator": "Comune di Milano",
+    "operator:type": "government",
+    "phone": "+39 02 88465735",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "website": "http://www.costumemodaimmagine.mi.it/",
+    "wheelchair": "yes",
+    "wikidata": "Q20008384",
+    "wikimedia_commons": "Category:Palazzo Morando (Milan)",
+    "wikipedia": "it:Palazzo Morando"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museopoldipezzoli",
+  "n": "Museo Poldi Pezzoli",
+  "a": "",
+  "pc": "",
+  "lat": 45.46847,
+  "lng": 9.19178,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Poldi Pezzoli Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2400614071",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:country": "IT",
+    "addr:housenumber": "12",
+    "addr:postcode": "20121",
+    "addr:street": "Via Alessandro Manzoni",
+    "contact:facebook": "https://www.facebook.com/PoldiPezzoli/",
+    "contact:instagram": "https://www.instagram.com/poldipezzoli",
+    "contact:tripadvisor": "https://www.tripadvisor.com/g187849-d194344",
+    "contact:twitter": "https://www.twitter.com/poldipezzoli",
+    "email": "biglietteria@museopoldipezzoli.it",
+    "fee": "yes",
+    "museum": "art",
+    "name": "Museo Poldi Pezzoli",
+    "name:it": "Museo Poldi Pezzoli",
+    "name:ru": "Музей Польди-Пеццоли",
+    "opening_hours": "We-Mo 10:00-18:00; Tu, easter, Jan 01, Apr 25, May 01, Aug 15, Nov 01, Dec 25 off",
+    "operator": "Fondazione Artistica Poldi Pezzoli",
+    "operator:type": "private_non_profit",
+    "phone": "+39 02 794889",
+    "ref:vatin": "IT04265690158",
+    "tourism": "museum",
+    "website": "https://www.museopoldipezzoli.it/",
+    "wikidata": "Q1190657",
+    "wikipedia": "it:Museo Poldi Pezzoli"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lapideadenricograndi",
+  "n": "lapide ad Enrico Grandi",
+  "a": "",
+  "pc": "",
+  "lat": 45.44272,
+  "lng": 9.14472,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "lapide ad Enrico Grandi Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2403562681",
+   "raw": {
+    "comment:it": "Il testo inizia con \"Qui dimorò Grandi Enrico\"",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "lapide ad Enrico Grandi"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoallevittimedelb",
+  "n": "Monumento alle vittime del bombardamento aereo",
+  "a": "",
+  "pc": "",
+  "lat": 45.452,
+  "lng": 9.20824,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento alle vittime del bombardamento aereo Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2409197196",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Monumento alle vittime del bombardamento aereo",
+    "wikidata": "Q32117749",
+    "wikimedia_commons": "Category:Monument via Tiraboschi, Milan",
+    "wikipedia": "it:Monumento ai Caduti di Porta Romana"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "teatroromano",
+  "n": "Teatro Romano",
+  "a": "",
+  "pc": "",
+  "lat": 45.46532,
+  "lng": 9.18284,
+  "c": "roman",
+  "s": "Roman remains",
+  "q": "Teatro Romano Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2409671784",
+   "raw": {
+    "archaeological_site": "theatre",
+    "historic": "archaeological_site",
+    "historic:civilization": "ancient_roman",
+    "historic:period": "principate",
+    "level": "-1",
+    "name": "Teatro Romano",
+    "tourism": "attraction",
+    "wikidata": "Q3982368",
+    "wikimedia_commons": "Category:Ancient Roman theatre (Milan)",
+    "wikipedia": "it:Teatro romano di Milano"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanbenedettomenni",
+  "n": "San Benedetto Menni",
+  "a": "",
+  "pc": "",
+  "lat": 45.49247,
+  "lng": 9.18883,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "San Benedetto Menni Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2419130562",
+   "raw": {
+    "comment:it": "targa che inzia con le seguenti parole: \"Qui sorgeva la casa in cui nacque l'11 marzo 1831 San Benedetto Menni\"",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "San Benedetto Menni",
+    "openplaques:id": "65115",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinetecamilanoarlecchino",
+  "n": "Cineteca Milano Arlecchino",
+  "a": "",
+  "pc": "",
+  "lat": 45.46639,
+  "lng": 9.19534,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cineteca Milano Arlecchino Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2420779234",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Cineteca Milano Arlecchino",
+    "website": "https://www.cinetecamilano.it/",
+    "wikidata": "Q37158297"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chimera",
+  "n": "Chimera",
+  "a": "",
+  "pc": "",
+  "lat": 45.50557,
+  "lng": 9.16616,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Chimera Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2440074163",
+   "raw": {
+    "name": "Chimera",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoagiovannibattis",
+  "n": "Monumento a Giovanni Battista Piatti",
+  "a": "",
+  "pc": "",
+  "lat": 45.47819,
+  "lng": 9.18478,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Monumento a Giovanni Battista Piatti Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2459462114",
+   "raw": {
+    "artwork_type": "sculpture",
+    "description:it": "Statua rappresentante G. B. Piatti. Una scritta ricorda che propose la realizzazione del traforo del Cenisio",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Monumento a Giovanni Battista Piatti",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wikidata": "Q45103736",
+    "wikimedia_commons": "Category:Monument to Giovanni Battista Piatti",
+    "wikipedia": "it:Monumento a Giovanni Battista Piatti"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ilgrandegrido",
+  "n": "Il Grande Grido",
+  "a": "",
+  "pc": "",
+  "lat": 45.48505,
+  "lng": 9.20254,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Il Grande Grido Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2465543542",
+   "raw": {
+    "artist_name": "Marino Marini",
+    "artwork_type": "sculpture",
+    "historic": "memorial",
+    "inscription": "Ai Caduti della Polizia di Stato",
+    "memorial": "sculpture",
+    "name": "Il Grande Grido",
+    "start_date": "1962",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "muralesdiblu",
+  "n": "murales di blu",
+  "a": "",
+  "pc": "",
+  "lat": 45.44588,
+  "lng": 9.17722,
+  "c": "streetart",
+  "s": "mural",
+  "q": "murales di blu Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2472497825",
+   "raw": {
+    "artwork_type": "mural",
+    "name": "murales di blu",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaicadutidelliso",
+  "n": "Monumento ai caduti dell'Isola",
+  "a": "",
+  "pc": "",
+  "lat": 45.49015,
+  "lng": 9.18911,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Monumento ai caduti dell'Isola Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2488658558",
+   "raw": {
+    "artist_name": "Carlo Ramous",
+    "artwork_type": "sculpture",
+    "historic": "memorial",
+    "inscription": "Ai patrioti del vecchio quartiere dell'Isola caduti nella lotta di liberazione contro il fascismo 1943-1945",
+    "memorial": "sculpture",
+    "name": "Monumento ai caduti dell'Isola",
+    "tourism": "artwork",
+    "war_memorial": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gestoperlaliberta",
+  "n": "Gesto per la Libertà",
+  "a": "",
+  "pc": "",
+  "lat": 45.46749,
+  "lng": 9.16638,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Gesto per la Libertà Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2506016531",
+   "raw": {
+    "artist_name": "Carlo Ramous",
+    "artwork_type": "sculpture",
+    "material": "metal",
+    "name": "Gesto per la Libertà",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoafrancescobarac",
+  "n": "Monumento a Francesco Baracca",
+  "a": "",
+  "pc": "",
+  "lat": 45.46651,
+  "lng": 9.16543,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Monumento a Francesco Baracca Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2518949185",
+   "raw": {
+    "artist_name": "Silvio Monfrini",
+    "artwork_type": "statue",
+    "material": "bronze",
+    "name": "Monumento a Francesco Baracca",
+    "tourism": "artwork",
+    "wikidata": "Q63611757",
+    "wikimedia_commons": "Category:Monument to Francesco Baracca (Milan)",
+    "wikipedia": "it:Monumento a Francesco Baracca"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museointerattivodelcinem",
+  "n": "Museo Interattivo del Cinema",
+  "a": "",
+  "pc": "",
+  "lat": 45.51357,
+  "lng": 9.20402,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Interattivo del Cinema Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2521648565",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:country": "IT",
+    "addr:housenumber": "121",
+    "addr:postcode": "20126",
+    "addr:street": "Viale Fulvio Testi",
+    "air_conditioning": "yes",
+    "email": "mic@cinetecamilano.it",
+    "fee": "yes",
+    "kids_area": "no",
+    "museum": "art",
+    "museum_type": "municipal",
+    "name": "Museo Interattivo del Cinema",
+    "opening_hours": "Fr-Su 15:00-20:30; Tu-Th 15:00-19:00; Mo off; PH off",
+    "operator": "Fondazione Cineteca Italiana",
+    "operator:type": "private",
+    "phone": "+39 02 8724 2114",
+    "toilets": "yes",
+    "toilets:access": "customers",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "website": "https://www.cinetecamilano.it/attivita/visita-il-mic",
+    "wheelchair": "yes",
+    "wikidata": "Q55376600"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museoegizio",
+  "n": "Museo Egizio",
+  "a": "",
+  "pc": "",
+  "lat": 45.47108,
+  "lng": 9.17943,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Egizio Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2529645009",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:postcode": "20121",
+    "addr:street": "Piazza Castello",
+    "fee": "yes",
+    "level": "-1",
+    "name": "Museo Egizio",
+    "name:en": "Egyptian Museum",
+    "name:it": "Museo Egizio",
+    "note": "Chiuso fino al 3 Ottobre 2022",
+    "opening_hours": "Tu-Su 09:30-17:30",
+    "phone": "+39 02 88463700",
+    "tourism": "museum",
+    "website": "https://museoegizio.milanocastello.it/",
+    "wikidata": "Q3868354",
+    "wikipedia": "it:Museo egizio (Milano)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "casamuseoboschidistefano",
+  "n": "Casa-museo Boschi Di Stefano",
+  "a": "",
+  "pc": "",
+  "lat": 45.47903,
+  "lng": 9.21175,
+  "c": "museum",
+  "s": "museum",
+  "q": "Casa-museo Boschi Di Stefano Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2531211706",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:housenumber": "15",
+    "addr:postcode": "20129",
+    "addr:street": "Via Giorgio Jan",
+    "alt_name": "Casa museo Boschi Di Stefano",
+    "email": "info@fondazioneboschidistefano.com",
+    "museum": "art",
+    "name": "Casa-museo Boschi Di Stefano",
+    "opening_hours": "Tu-Su 10:00-17:30; Mo off; Jan 1 off; May 1 off; Dec 25 off",
+    "phone": "+39 02 88463736",
+    "tourism": "museum",
+    "website": "https://www.fondazioneboschidistefano.it/",
+    "wikidata": "Q3661033",
+    "wikimedia_commons": "Category:Casa Museo Boschi Di Stefano (Milan)",
+    "wikipedia": "it:Casa-museo Boschi Di Stefano"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "civicaraccoltadellestamp",
+  "n": "Civica raccolta delle stampe Achille Bertarelli",
+  "a": "",
+  "pc": "",
+  "lat": 45.46953,
+  "lng": 9.17986,
+  "c": "museum",
+  "s": "museum",
+  "q": "Civica raccolta delle stampe Achille Bertarelli Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2531219644",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:country": "IT",
+    "addr:postcode": "20121",
+    "addr:street": "Piazza Castello",
+    "fee": "yes",
+    "museum_type": "municipal",
+    "name": "Civica raccolta delle stampe Achille Bertarelli",
+    "phone": "+39 02 88463837",
+    "source": "http://www.bertarelli.org/ita/ComeRaggiungerci.asp",
+    "tourism": "museum",
+    "website": "http://www.bertarelli.org/ita/index.html",
+    "wikidata": "Q3678764",
+    "wikimedia_commons": "Category:Civica raccolta delle stampe Achille Bertarelli (Milan)",
+    "wikipedia": "it:Civica raccolta delle stampe Achille Bertarelli"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "memorialedellashoah",
+  "n": "Memoriale della Shoah",
+  "a": "",
+  "pc": "",
+  "lat": 45.48822,
+  "lng": 9.2082,
+  "c": "museum",
+  "s": "museum",
+  "q": "Memoriale della Shoah Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2531342458",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:housenumber": "1",
+    "addr:postcode": "20125",
+    "addr:street": "Piazza Edmond Jacob Safra",
+    "email": "prenotazioni@memorialeshoah.it",
+    "fee": "yes",
+    "museum": "history",
+    "name": "Memoriale della Shoah",
+    "name:en": "Milan Holocaust Memorial Foundation",
+    "opening_hours": "Mo-Su 10:00-16:00; Fr off; Fr[-1] 10:00-18:00",
+    "operator": "Fondazione Memoriale della Shoah di Milano ONLUS",
+    "operator:type": "private_non_profit",
+    "phone": "+39 02 2820975",
+    "tourism": "museum",
+    "website": "https://www.memorialeshoah.it",
+    "wikidata": "Q3854475",
+    "wikimedia_commons": "Category:Memoriale della Shoah",
+    "wikipedia": "it:Memoriale della Shoah"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museobagattivalsecchi",
+  "n": "Museo Bagatti Valsecchi",
+  "a": "",
+  "pc": "",
+  "lat": 45.46948,
+  "lng": 9.19498,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Bagatti Valsecchi Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2531365878",
+   "raw": {
+    "addr:city": "Milano",
+    "addr:country": "IT",
+    "addr:housenumber": "5",
+    "addr:postcode": "20121",
+    "addr:street": "Via Gesù",
+    "air_conditioning": "yes",
+    "contact:facebook": "https://www.facebook.com/museo.bagatti.valsecchi/",
+    "contact:instagram": "https://www.instagram.com/museobagattivalsecchi/",
+    "contact:tripadvisor": "https://www.tripadvisor.com/194343",
+    "contact:twitter": "https://twitter.com/MuseoBaVa",
+    "contact:youtube": "https://www.youtube.com/channel/UCVEjhqkKpuNgpitvsnP5Akw",
+    "email": "info@museobagattivalsecchi.org",
+    "fee": "yes",
+    "museum": "history",
+    "name": "Museo Bagatti Valsecchi",
+    "name:en": "Bagatti Valsecchi Museum",
+    "name:fr": "Musée Bagatti Valsecchi",
+    "name:hu": "Palazzo Bagatti Valsecchi",
+    "name:it": "Museo Bagatti Valsecchi",
+    "name:ru": "Музей Багатти-Вальсекки",
+    "opening_hours": "Th-Fr 13:00-17:45; Sa-Su 10:00-17:45; We 13:00-20:00",
+    "operator": "Fondazione Bagatti Valsecchi",
+    "operator:type": "private",
+    "phone": "+39 02 76006132",
+    "short_name": "BAVA",
+    "tourism": "museum",
+    "website": "https://museobagattivalsecchi.org/",
+    "website:booking": "https://fareharbor.com/embeds/book/museobagattivalsecchi/?full-items=yes&flow=317910&u=e25a0032-de63-4196-ac85-7d715d345e96&from-ssl=yes",
+    "wheelchair": "no",
+    "wikidata": "Q838986",
+    "wikimedia_commons": "Category:Museo Bagatti Valsecchi (Milan)",
+    "wikipedia": "it:Museo Bagatti Valsecchi"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoadandreaverga",
+  "n": "Monumento ad Andrea Verga",
+  "a": "",
+  "pc": "",
+  "lat": 45.45966,
+  "lng": 9.19299,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Monumento ad Andrea Verga Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2542055076",
+   "raw": {
+    "artist_name": "Giulio Branca",
+    "artwork_type": "statue",
+    "description": "Ritratto a mezzobusto.",
+    "inscription": "Andrea Verga Senatore del Regno, anatomo, psichiatra, poeta, direttore dell'Ospedale Maggiore di Milano dal 1852 al 1865. Nato a Treviglio 1811 morto a Milano 1895",
+    "material": "marble",
+    "name": "Monumento ad Andrea Verga",
+    "tourism": "artwork",
+    "wikidata": "Q126003846"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mereubu",
+  "n": "Mere Ubu",
+  "a": "",
+  "pc": "",
+  "lat": 45.47012,
+  "lng": 9.19799,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Mere Ubu Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2562152343",
+   "raw": {
+    "artist_name": "Joan Mirò",
+    "artwork_type": "sculpture",
+    "material": "bronze",
+    "name": "Mere Ubu",
+    "nat_name": "Madre Ubu",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoagiuseppegariba",
+  "n": "monumento a Giuseppe Garibaldi",
+  "a": "",
+  "pc": "",
+  "lat": 45.46823,
+  "lng": 9.18226,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "monumento a Giuseppe Garibaldi Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2579907205",
+   "raw": {
+    "artist_name": "Ettore Ximenes",
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "monumento a Giuseppe Garibaldi",
+    "statue": "equestrian",
+    "subject:wikidata": "Q539",
+    "tourism": "artwork",
+    "wikidata": "Q21141699"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "barate",
+  "n": "Barate",
+  "a": "",
+  "pc": "",
+  "lat": 45.3847,
+  "lng": 9.04085,
+  "c": "oddity",
+  "s": "human settlement and former parish in Gaggiano, Metropolitan",
+  "q": "Barate Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3634522",
+   "raw": "human settlement and former parish in Gaggiano, Metropolitan City of Milan, Lombardy, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bonirola",
+  "n": "Bonirola",
+  "a": "",
+  "pc": "",
+  "lat": 45.41083,
+  "lng": 9.05528,
+  "c": "oddity",
+  "s": "human settlement and former municipality in Gaggiano, Metrop",
+  "q": "Bonirola Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3642163",
+   "raw": "human settlement and former municipality in Gaggiano, Metropolitan City of Milan, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "buccinascocastello",
+  "n": "Buccinasco Castello",
+  "a": "",
+  "pc": "",
+  "lat": 45.4068,
+  "lng": 9.10818,
+  "c": "oddity",
+  "s": "settlement in the Italian municipality of Buccinasco",
+  "q": "Buccinasco Castello Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3646254",
+   "raw": "settlement in the Italian municipality of Buccinasco",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gudogambaredo",
+  "n": "Gudo Gambaredo",
+  "a": "",
+  "pc": "",
+  "lat": 45.38772,
+  "lng": 9.11204,
+  "c": "oddity",
+  "s": "human settlement and former municipality in Buccinasco, Metr",
+  "q": "Gudo Gambaredo Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3778488",
+   "raw": "human settlement and former municipality in Buccinasco, Metropolitan City of Milan, Lombardy, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rovido",
+  "n": "Rovido",
+  "a": "",
+  "pc": "",
+  "lat": 45.41472,
+  "lng": 9.09972,
+  "c": "oddity",
+  "s": "neighborhood and former municipality in Buccinasco, Italy",
+  "q": "Rovido Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3941956",
+   "raw": "neighborhood and former municipality in Buccinasco, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cesanobosconerailwayhalt",
+  "n": "Cesano Boscone railway halt",
+  "a": "",
+  "pc": "",
+  "lat": 45.43028,
+  "lng": 9.09139,
+  "c": "oddity",
+  "s": "railway halt in Italy",
+  "q": "Cesano Boscone railway halt Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3969384",
+   "raw": "railway halt in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "trezzanosulnavigliorailw",
+  "n": "Trezzano sul Naviglio railway halt",
+  "a": "",
+  "pc": "",
+  "lat": 45.4204,
+  "lng": 9.06705,
+  "c": "oddity",
+  "s": "railway halt in Italy",
+  "q": "Trezzano sul Naviglio railway halt Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3971194",
+   "raw": "railway halt in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanpietrocusico",
+  "n": "San Pietro Cusico",
+  "a": "",
+  "pc": "",
+  "lat": 45.3808,
+  "lng": 9.09583,
+  "c": "oddity",
+  "s": "settlement and parish in the Italian municipality of Zibido ",
+  "q": "San Pietro Cusico Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17652107",
+   "raw": "settlement and parish in the Italian municipality of Zibido San Giacomo",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "carcana",
+  "n": "Carcana",
+  "a": "",
+  "pc": "",
+  "lat": 45.38033,
+  "lng": 9.1032,
+  "c": "oddity",
+  "s": "human settlement in Italy",
+  "q": "Carcana Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18491146",
+   "raw": "human settlement in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gabirano",
+  "n": "Gabirano",
+  "a": "",
+  "pc": "",
+  "lat": 45.40092,
+  "lng": 9.08747,
+  "c": "oddity",
+  "s": "human settlement in Italy",
+  "q": "Gabirano Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18491508",
+   "raw": "human settlement in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanfrancesco",
+  "n": "San Francesco",
+  "a": "",
+  "pc": "",
+  "lat": 45.39419,
+  "lng": 9.08378,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "San Francesco Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18491718",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "assago",
+  "n": "Assago",
+  "a": "",
+  "pc": "",
+  "lat": 45.40887,
+  "lng": 9.12565,
+  "c": "oddity",
+  "s": "chief town of the homonym municipality",
+  "q": "Assago Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30022400",
+   "raw": "chief town of the homonym municipality",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "trezzanosulnaviglio",
+  "n": "Trezzano sul Naviglio",
+  "a": "",
+  "pc": "",
+  "lat": 45.42212,
+  "lng": 9.06342,
+  "c": "oddity",
+  "s": "chief town of the homonym municipality",
+  "q": "Trezzano sul Naviglio Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30031317",
+   "raw": "chief town of the homonym municipality",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parlux",
+  "n": "Parlux",
+  "a": "",
+  "pc": "",
+  "lat": 45.42852,
+  "lng": 9.07164,
+  "c": "oddity",
+  "s": "italian manufacturer of hair dryers and other related hair c",
+  "q": "Parlux Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q47771438",
+   "raw": "Italian manufacturer of hair dryers and other related hair care electrical appliances",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "assagoovestrestarea",
+  "n": "Assago ovest rest area",
+  "a": "",
+  "pc": "",
+  "lat": 45.40076,
+  "lng": 9.12173,
+  "c": "oddity",
+  "s": "rest area in Italy",
+  "q": "Assago ovest rest area Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q57021139",
+   "raw": "rest area in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintpeterandpaulchurch",
+  "n": "Saint Peter and Paul Church",
+  "a": "",
+  "pc": "",
+  "lat": 45.38052,
+  "lng": 9.09943,
+  "c": "faith",
+  "s": "parish church in San Pietro Cusico, settlement in the Italia",
+  "q": "Saint Peter and Paul Church Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q64141154",
+   "raw": "Parish church in San Pietro Cusico, settlement in the Italian municipality of Zivido San Giacomo",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintambrosechurch",
+  "n": "Saint Ambrose Church",
+  "a": "",
+  "pc": "",
+  "lat": 45.41852,
+  "lng": 9.06866,
+  "c": "faith",
+  "s": "parish church in the Italian municipality of Trezzano sul Na",
+  "q": "Saint Ambrose Church Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q77337539",
+   "raw": "Parish church in the Italian municipality of Trezzano sul Naviglio",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "newcemeteryoftrezzanosul",
+  "n": "new cemetery of Trezzano sul Naviglio",
+  "a": "",
+  "pc": "",
+  "lat": 45.4246,
+  "lng": 9.0443,
+  "c": "death",
+  "s": "cemetery in the Italian municipality of Trezzano sul Navigli",
+  "q": "new cemetery of Trezzano sul Naviglio Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q89124822",
+   "raw": "cemetery in the Italian municipality of Trezzano sul Naviglio, in the metropolitan city of Milan",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cemeteryofbuccinasco",
+  "n": "cemetery of Buccinasco",
+  "a": "",
+  "pc": "",
+  "lat": 45.4115,
+  "lng": 9.1086,
+  "c": "death",
+  "s": "cemetery in the Italian municipality of Buccinasco, in the m",
+  "q": "cemetery of Buccinasco Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q89125155",
+   "raw": "cemetery in the Italian municipality of Buccinasco, in the metropolitan city of Milan",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanlorenzochurch",
+  "n": "San Lorenzo Church",
+  "a": "",
+  "pc": "",
+  "lat": 45.42425,
+  "lng": 9.06326,
+  "c": "faith",
+  "s": "church in Trezzano sul Naviglio, Italy",
+  "q": "San Lorenzo Church Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q102093797",
+   "raw": "church in Trezzano sul Naviglio, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cascinaguardiadisotto",
+  "n": "Cascina Guardia di Sotto",
+  "a": "",
+  "pc": "",
+  "lat": 45.4256,
+  "lng": 9.08957,
+  "c": "oddity",
+  "s": "cascina in Corsico, Italy",
+  "q": "Cascina Guardia di Sotto Milan",
+  "w": "",
+  "city": "milan",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q107362116",
+   "raw": "cascina in Corsico, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

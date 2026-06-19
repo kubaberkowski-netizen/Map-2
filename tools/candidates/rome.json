@@ -1,0 +1,4084 @@
+[
+ {
+  "id": "cineclubalphaville",
+  "n": "Cineclub Alphaville",
+  "a": "",
+  "pc": "",
+  "lat": 41.89119,
+  "lng": 12.53208,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cineclub Alphaville Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/248663946",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Cineclub Alphaville"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nuovosacher",
+  "n": "Nuovo Sacher",
+  "a": "",
+  "pc": "",
+  "lat": 41.88422,
+  "lng": 12.47267,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Nuovo Sacher Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/248674890",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:postcode": "00153",
+    "addr:street": "Via Girolamo Induno",
+    "amenity": "cinema",
+    "name": "Nuovo Sacher",
+    "wikidata": "Q2972777",
+    "wikimedia_commons": "Category:Cinema Nuovo Sacher (Rome)",
+    "wikipedia": "it:Cinema Nuovo Sacher"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "reale",
+  "n": "Reale",
+  "a": "",
+  "pc": "",
+  "lat": 41.88932,
+  "lng": 12.47438,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Reale Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/248676601",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:country": "IT",
+    "addr:housenumber": "3",
+    "addr:street": "Piazza Sidney Sonnino",
+    "amenity": "cinema",
+    "check_date": "2024-12-22",
+    "name": "Reale",
+    "phone": "+39 06 5810234"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eurcine",
+  "n": "EUR Cine",
+  "a": "",
+  "pc": "",
+  "lat": 41.83388,
+  "lng": 12.46847,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "EUR Cine Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/250884088",
+   "raw": {
+    "addr:housenumber": "32",
+    "addr:postcode": "00144",
+    "addr:street": "Via Liszt",
+    "amenity": "cinema",
+    "name": "EUR Cine"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "quattrofontane",
+  "n": "Quattro Fontane",
+  "a": "",
+  "pc": "",
+  "lat": 41.90136,
+  "lng": 12.49203,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Quattro Fontane Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/250889369",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:country": "IT",
+    "addr:housenumber": "23",
+    "addr:postcode": "00184",
+    "addr:street": "Via delle Quattro Fontane",
+    "alt_name": "4 Fontane",
+    "amenity": "cinema",
+    "check_date": "2025-06-07",
+    "contact:facebook": "share/12HrrrU39a4",
+    "contact:instagram": "circuito_cinema",
+    "email": "customercare@circuitocinema.com",
+    "name": "Quattro Fontane",
+    "phone": "+3906 8880 1283",
+    "website": "https://www.circuitocinema.com/cinema/quattro-fontane",
+    "wheelchair": "yes",
+    "wikidata": "Q36673428"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "greenwich",
+  "n": "Greenwich",
+  "a": "",
+  "pc": "",
+  "lat": 41.87886,
+  "lng": 12.47411,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Greenwich Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/251888861",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:housenumber": "59",
+    "addr:postcode": "00153",
+    "addr:street": "Via Giovanni Battista Bodoni",
+    "amenity": "cinema",
+    "contact:email": "multisalagreenwich@gmail.com",
+    "contact:facebook": "https://www.facebook.com/greenwichmultisala/",
+    "contact:phone": "+39 06 5745825",
+    "contact:website": "https://www.multisalagreenwichroma.com/",
+    "name": "Greenwich",
+    "operator": "Greenwich Srl",
+    "ref:vatin": "IT04131581003",
+    "screen": "3"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "portamagica",
+  "n": "Porta Magica",
+  "a": "",
+  "pc": "",
+  "lat": 41.8955,
+  "lng": 12.50374,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Porta Magica Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/256753107",
+   "raw": {
+    "alt_name": "Porta Alchemica",
+    "historic": "ruins",
+    "name": "Porta Magica",
+    "start_date": "1680",
+    "wikidata": "Q3304975",
+    "wikimedia_commons": "Category:Porta Magica (Rome)",
+    "wikipedia": "it:Porta Alchemica"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "farnese",
+  "n": "Farnese",
+  "a": "",
+  "pc": "",
+  "lat": 41.89524,
+  "lng": 12.47265,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Farnese Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/257352141",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Farnese",
+    "wheelchair": "limited",
+    "wikidata": "Q37000354"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "catacombedipriscilla",
+  "n": "Catacombe di Priscilla",
+  "a": "",
+  "pc": "",
+  "lat": 41.92973,
+  "lng": 12.50877,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Catacombe di Priscilla Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/259064789",
+   "raw": {
+    "addr:housenumber": "430",
+    "addr:street": "Via Salaria",
+    "archaeological_site": "catacombs",
+    "historic": "archaeological_site",
+    "name": "Catacombe di Priscilla",
+    "name:en": "Catacomb of Priscilla",
+    "name:fr": "Catacombe de Priscille",
+    "name:uk": "Катакомби Прісцилли",
+    "religion": "christian",
+    "tourism": "attraction",
+    "website": "https://www.catacombepriscilla.com/",
+    "wikidata": "Q2462868",
+    "wikipedia": "en:Catacomb of Priscilla"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "catacombedisantagnese",
+  "n": "Catacombe di Sant'Agnese",
+  "a": "",
+  "pc": "",
+  "lat": 41.92277,
+  "lng": 12.51876,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Catacombe di Sant'Agnese Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/259555733",
+   "raw": {
+    "description": "Catacombs",
+    "historic": "archaeological_site",
+    "name": "Catacombe di Sant'Agnese",
+    "name:fr": "Catacombes de Sainte Agnès",
+    "wikidata": "Q3663182",
+    "wikimedia_commons": "Category:Catacombs of Saint Agnes",
+    "wikipedia": "it:Catacomba di Sant'Agnese"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ninfeodiegeria",
+  "n": "Ninfeo di Egeria",
+  "a": "",
+  "pc": "",
+  "lat": 41.85916,
+  "lng": 12.52426,
+  "c": "roman",
+  "s": "Roman remains",
+  "q": "Ninfeo di Egeria Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/259671299",
+   "raw": {
+    "historic": "archaeological_site",
+    "historic:civilization": "ancient_roman",
+    "name": "Ninfeo di Egeria",
+    "tourism": "attraction",
+    "wheelchair": "limited",
+    "wikidata": "Q21208527",
+    "wikimedia_commons": "Category:Nympheum of Egeria",
+    "wikipedia": "it:Ninfeo di Egeria"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "madison",
+  "n": "Madison",
+  "a": "",
+  "pc": "",
+  "lat": 41.85341,
+  "lng": 12.4793,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Madison Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/260540041",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:country": "IT",
+    "addr:housenumber": "121",
+    "addr:postcode": "00145",
+    "addr:street": "Via Gabriello Chiabrera",
+    "amenity": "cinema",
+    "cinema:3D": "yes",
+    "name": "Madison",
+    "phone": "+39 06 5417926",
+    "url": "http://www.mymovies.it/cinema/roma/4916/",
+    "website": "https://www.cinemamadison.it/",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "obeliscomatteiano",
+  "n": "Obelisco Matteiano",
+  "a": "",
+  "pc": "",
+  "lat": 41.88339,
+  "lng": 12.49534,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Obelisco Matteiano Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/260770350",
+   "raw": {
+    "alt_name": "Obelisco di Ramsete",
+    "description": "Urna cineraria di Augusto",
+    "height": "12.23",
+    "historic": "monument",
+    "historic:civilization": "ancient_egyptian",
+    "landmark": "yes",
+    "man_made": "obelisk",
+    "name": "Obelisco Matteiano",
+    "obelisk:size": "monumental",
+    "wikidata": "Q3348564",
+    "wikimedia_commons": "Category:Matteiano obelisk",
+    "wikipedia": "it:Obelisco di Villa Celimontana"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "madonnacongesubambino",
+  "n": "Madonna con Gesù bambino",
+  "a": "",
+  "pc": "",
+  "lat": 41.9011,
+  "lng": 12.47945,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Madonna con Gesù bambino Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/261856136",
+   "raw": {
+    "denomination": "catholic",
+    "historic": "wayside_shrine",
+    "image": "https://photos.app.goo.gl/3h3VXKZa4QZAZntL7",
+    "name": "Madonna con Gesù bambino",
+    "religion": "christian"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "multisalaatlantic",
+  "n": "Multisala Atlantic",
+  "a": "",
+  "pc": "",
+  "lat": 41.86078,
+  "lng": 12.55561,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Multisala Atlantic Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/266493853",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:housenumber": "745",
+    "addr:postcode": "00174",
+    "addr:street": "Via Tuscolana",
+    "amenity": "cinema",
+    "email": "atlantic@ferrerocinemas.com",
+    "name": "Multisala Atlantic",
+    "phone": "+39 06 76 10 65",
+    "website": "https://www.ferrerocinemas.it/index.php?id_menu=37",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "filmstudio",
+  "n": "Filmstudio",
+  "a": "",
+  "pc": "",
+  "lat": 41.89646,
+  "lng": 12.46413,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Filmstudio Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/267112900",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Filmstudio"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "royal",
+  "n": "Royal",
+  "a": "",
+  "pc": "",
+  "lat": 41.88982,
+  "lng": 12.50675,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Royal Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/276555836",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:housenumber": "175",
+    "addr:street": "Via Emanuele Filiberto",
+    "amenity": "cinema",
+    "name": "Royal",
+    "website": "https://www.ferrerocinemas.it/royal/index.php"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santamariaintrivio",
+  "n": "Santa Maria in Trivio",
+  "a": "",
+  "pc": "",
+  "lat": 41.9012,
+  "lng": 12.48275,
+  "c": "faith",
+  "s": "church",
+  "q": "Santa Maria in Trivio Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/279379894",
+   "raw": {
+    "amenity": "place_of_worship",
+    "contact:website": "https://sangaspare.it/le-nostre-comunita/roma-chiesa-rettoria-santa-maria-in-trivio/",
+    "denomination": "roman_catholic",
+    "name": "Santa Maria in Trivio",
+    "religion": "christian",
+    "wikidata": "Q1423813",
+    "wikimedia_commons": "Category:Santa Maria in Trivio (Rome)",
+    "wikipedia": "en:Santa Maria in Trivio"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pontificiocollegiospagno",
+  "n": "Pontificio Collegio Spagnolo",
+  "a": "",
+  "pc": "",
+  "lat": 41.89438,
+  "lng": 12.42835,
+  "c": "faith",
+  "s": "church",
+  "q": "Pontificio Collegio Spagnolo Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/280990403",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "Pontificio Collegio Spagnolo",
+    "name:es": "Pontificio Colegio Español",
+    "religion": "christian",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "savoycityplex",
+  "n": "Savoy Cityplex",
+  "a": "",
+  "pc": "",
+  "lat": 41.91131,
+  "lng": 12.49959,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Savoy Cityplex Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/301336161",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:country": "IT",
+    "addr:housenumber": "25",
+    "addr:postcode": "00198",
+    "addr:street": "Via Bergamo",
+    "amenity": "cinema",
+    "cinema:3D": "yes",
+    "name": "Savoy Cityplex",
+    "operator": "Mycityplex",
+    "screen": "4",
+    "toilets": "yes",
+    "website": "https://www.mycityplex.it/savoy/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "statuaparlantedipasquino",
+  "n": "Statua \"parlante\" di Pasquino",
+  "a": "",
+  "pc": "",
+  "lat": 41.89772,
+  "lng": 12.47231,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Statua \"parlante\" di Pasquino Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/301361919",
+   "raw": {
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "statue",
+    "name": "Statua \"parlante\" di Pasquino",
+    "name:ru": "Статуя Пасквино",
+    "name:uk": "Пасквіль",
+    "wikidata": "Q958448",
+    "wikimedia_commons": "Category:Pasquino",
+    "wikipedia": "it:Pasquino"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "arcodipaolov",
+  "n": "Arco di Paolo V",
+  "a": "",
+  "pc": "",
+  "lat": 41.88898,
+  "lng": 12.45312,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Arco di Paolo V Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/307878083",
+   "raw": {
+    "access": "yes",
+    "barrier": "entrance",
+    "historic": "monument",
+    "name": "Arco di Paolo V"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemaadriano",
+  "n": "Cinema Adriano",
+  "a": "",
+  "pc": "",
+  "lat": 41.90602,
+  "lng": 12.4697,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinema Adriano Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/309569303",
+   "raw": {
+    "addr:housenumber": "22",
+    "addr:postcode": "00193",
+    "addr:street": "Piazza Cavour",
+    "amenity": "cinema",
+    "contact:facebook": "100079556004022",
+    "contact:instagram": "ferrero_cinemas",
+    "email": "info@ferrerocinemas.com",
+    "name": "Cinema Adriano",
+    "note": "now multiplex cinema, ex-theatre",
+    "phone": "+3906367671",
+    "website": "http://www.ferrerocinemas.it/adriano/index.php#inside",
+    "wikidata": "Q3981895",
+    "wikimedia_commons": "Category:Teatro Adriano",
+    "wikipedia": "en:Teatro Adriano"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mose",
+  "n": "Mosè",
+  "a": "",
+  "pc": "",
+  "lat": 41.89388,
+  "lng": 12.4934,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Mosè Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/356935276",
+   "raw": {
+    "artist_name": "Michelangelo Buonarroti",
+    "artwork_type": "statue",
+    "end_date": "1515",
+    "height": "2.4",
+    "material": "stone",
+    "name": "Mosè",
+    "name:en": "Moses (Michelangelo)",
+    "name:es": "Moisés de Miguel Ángel",
+    "name:fr": "Moïse (Michel-Ange)",
+    "name:hu": "Mózes",
+    "name:ru": "Статуя Моисея (Микеланджело)",
+    "start_date": "1513",
+    "tourism": "artwork",
+    "wikidata": "Q1989744",
+    "wikimedia_commons": "Category:Michelangelo's Moses",
+    "wikipedia": "it:Mosè (Michelangelo)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "forumromanumview",
+  "n": "Forum Romanum view",
+  "a": "",
+  "pc": "",
+  "lat": 41.89246,
+  "lng": 12.48364,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Forum Romanum view Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/364860899",
+   "raw": {
+    "name": "Forum Romanum view",
+    "name:ru": "Вид на Римский Форум",
+    "tourism": "viewpoint",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "portalatina",
+  "n": "Porta Latina",
+  "a": "",
+  "pc": "",
+  "lat": 41.87652,
+  "lng": 12.50249,
+  "c": "medieval",
+  "s": "medieval site",
+  "q": "Porta Latina Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/365322259",
+   "raw": {
+    "access": "yes",
+    "bus": "no",
+    "hgv": "no",
+    "historic": "city_gate",
+    "horse": "yes",
+    "maxwidth": "2.5",
+    "name": "Porta Latina",
+    "wikidata": "Q1720229",
+    "wikimedia_commons": "File:Porta Latina, Parco Egerio, Roma, Italia Sep 01, 2020 01-08-26 PM.jpeg",
+    "wikipedia": "en:Porta Latina"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "villaromanaviapollenza",
+  "n": "Villa Romana - Via Pollenza",
+  "a": "",
+  "pc": "",
+  "lat": 41.94654,
+  "lng": 12.57743,
+  "c": "roman",
+  "s": "Roman remains",
+  "q": "Villa Romana - Via Pollenza Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/379773457",
+   "raw": {
+    "archaeological_site": "roman_villa",
+    "historic": "archaeological_site",
+    "name": "Villa Romana - Via Pollenza",
+    "wikidata": "Q65166563"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "villaecisternadellevigna",
+  "n": "Villa e Cisterna delle Vignacce",
+  "a": "",
+  "pc": "",
+  "lat": 41.85428,
+  "lng": 12.55522,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Villa e Cisterna delle Vignacce Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/385021151",
+   "raw": {
+    "historic": "ruins",
+    "historic:civilization": "ancient_roman",
+    "name": "Villa e Cisterna delle Vignacce",
+    "note": "roman ruins, details unknown to me"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "belvedereromoloeremo",
+  "n": "Belvedere Romolo E Remo",
+  "a": "",
+  "pc": "",
+  "lat": 41.8857,
+  "lng": 12.48496,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Belvedere Romolo E Remo Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/393180368",
+   "raw": {
+    "direction": "45",
+    "name": "Belvedere Romolo E Remo",
+    "name:fr": "Belvédère Romulus et Rémus",
+    "name:it": "Belvedere Romolo E Remo",
+    "tourism": "viewpoint",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museodellastronomiaeplan",
+  "n": "Museo dell'Astronomia e Planetario",
+  "a": "",
+  "pc": "",
+  "lat": 41.83091,
+  "lng": 12.47748,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo dell'Astronomia e Planetario Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/401949921",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:housenumber": "10",
+    "addr:postcode": "00144",
+    "addr:street": "Piazza Giovanni Agnelli",
+    "changing_table": "no",
+    "contact:facebook": "https://www.facebook.com/planetarioroma",
+    "email": "info@planetarioroma.it",
+    "fee": "yes",
+    "fee:icom_member": "no",
+    "museum": "science",
+    "museum_type": "municipal",
+    "name": "Museo dell'Astronomia e Planetario",
+    "opening_hours": "Tu-Fr \"Ore 9:30 e 11:15: Attività per le scuole. Ore 16, 17 e 18\"; Sa-Su \"Ore 10, 11, 12, 16, 17, 18\"; Mo off; May 1, Dec 25, Jan 1 off",
+    "operator": "Roma Capitale",
+    "operator:type": "public",
+    "source": "http://www.planetarioroma.it/sites/default/files/f_file/CS%20Planetario.pdf",
+    "start_date": "2022-04-22",
+    "toilets": "yes",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "website": "https://www.planetarioroma.it/",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "portametronia",
+  "n": "Porta Metronia",
+  "a": "",
+  "pc": "",
+  "lat": 41.88232,
+  "lng": 12.49864,
+  "c": "medieval",
+  "s": "medieval site",
+  "q": "Porta Metronia Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/410779713",
+   "raw": {
+    "access": "yes",
+    "barrier": "entrance",
+    "historic": "city_gate",
+    "name": "Porta Metronia",
+    "name:ru": "Порта Метронио",
+    "wikidata": "Q1964646",
+    "wikipedia": "en:Porta Metronia"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "doria",
+  "n": "Doria",
+  "a": "",
+  "pc": "",
+  "lat": 41.90953,
+  "lng": 12.45057,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Doria Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/422034617",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Doria"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "villadimassenzio",
+  "n": "Villa di Massenzio",
+  "a": "",
+  "pc": "",
+  "lat": 41.8537,
+  "lng": 12.51894,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Villa di Massenzio Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/442111257",
+   "raw": {
+    "addr:housenumber": "153",
+    "addr:street": "Via Appia Antica",
+    "historic": "ruins",
+    "name": "Villa di Massenzio",
+    "opening_hours": "Tu-Su 10:00-16:00; Dec 24,31 10:00-14:00; Mo off; Jan 01 off; May 01 off; Dec 25 off",
+    "website": "https://www.museiincomuneroma.it/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesadisancleto",
+  "n": "Chiesa di San Cleto",
+  "a": "",
+  "pc": "",
+  "lat": 41.94663,
+  "lng": 12.57118,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa di San Cleto Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/449252276",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:country": "IT",
+    "addr:housenumber": "55",
+    "addr:postcode": "00156",
+    "addr:street": "Via Bernardino Bernardini",
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "email": "SanCleto@VicariatusUrbis.org",
+    "fax": "+39 06 4110744",
+    "name": "Chiesa di San Cleto",
+    "phone": "+39 06 4103103",
+    "religion": "christian",
+    "website": "https://www.vicariatusurbis.org/Ente.asp?ID=180",
+    "wikidata": "Q3669791",
+    "wikipedia": "it:Chiesa di San Cleto"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "catacombedisansebastiano",
+  "n": "Catacombe di San Sebastiano",
+  "a": "",
+  "pc": "",
+  "lat": 41.85593,
+  "lng": 12.5158,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Catacombe di San Sebastiano Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/452570567",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:housenumber": "136",
+    "addr:street": "Via Appia Antica",
+    "contact:email": "info@catacombe.org",
+    "contact:facebook": "adCatacumbas",
+    "contact:phone": "+39067850350",
+    "contact:website": "https://www.catacombe.org/",
+    "historic": "catacomb",
+    "name": "Catacombe di San Sebastiano",
+    "name:es": "Catacumbas de San Sebastián",
+    "name:fr": "Catacombes de Saint-Sébastien",
+    "name:ru": "Катакомбы Сан-Себастьяно",
+    "opening_hours": "9:30-17:30",
+    "outdoor_seating": "no",
+    "religion": "christian",
+    "tourism": "attraction",
+    "wheelchair": "no",
+    "wikidata": "Q546419",
+    "wikimedia_commons": "Category:Catacombe di San Sebastiano",
+    "wikipedia": "en:Catacombs of San Sebastiano"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "boccadellaverita",
+  "n": "Bocca della Verità",
+  "a": "",
+  "pc": "",
+  "lat": 41.88826,
+  "lng": 12.48154,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Bocca della Verità Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/497186177",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Bocca della Verità",
+    "name:cs": "Ústa pravdy",
+    "name:de": "Mund der Wahrheit",
+    "name:en": "The Mouth of Truth",
+    "name:es": "Boca de la verdad",
+    "name:eu": "Egiaren ahoa",
+    "name:fr": "Bouche de la Vérité",
+    "name:hu": "Az igazság szája",
+    "name:it": "Bocca della Verità",
+    "name:ja": "真実の口",
+    "name:ko": "진실의입",
+    "name:pl": "Usta Prawdy",
+    "name:ru": "Уста истины",
+    "name:uk": "Вуста Правди",
+    "name:zh": "真理之口",
+    "opening_hours": "Apr 15-Sep 15 Mo-Su 09:30-17:50; Sep 16-Apr 14 09:30-16:50",
+    "tourism": "artwork",
+    "website": "https://www.romasegreta.it/ripa/piazza-della-bocca-della-verita.html",
+    "wheelchair": "limited",
+    "wikidata": "Q729490",
+    "wikimedia_commons": "Category:Bocca della Verità",
+    "wikipedia": "it:Bocca della Verità"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wunderkammern",
+  "n": "Wunderkammern",
+  "a": "",
+  "pc": "",
+  "lat": 41.87733,
+  "lng": 12.54063,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Wunderkammern Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/564286703",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:country": "IT",
+    "addr:housenumber": "124",
+    "addr:postcode": "00176",
+    "addr:street": "Via Gabrio Serbelloni",
+    "name": "Wunderkammern",
+    "toilets:wheelchair": "no",
+    "tourism": "gallery",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "arcodivianola",
+  "n": "Arco di Via Nola",
+  "a": "",
+  "pc": "",
+  "lat": 41.88754,
+  "lng": 12.51455,
+  "c": "medieval",
+  "s": "medieval site",
+  "q": "Arco di Via Nola Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/566506497",
+   "raw": {
+    "access": "yes",
+    "barrier": "entrance",
+    "historic": "city_gate",
+    "name": "Arco di Via Nola"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "arcosuportasanlorenzo",
+  "n": "Arco su Porta San Lorenzo",
+  "a": "",
+  "pc": "",
+  "lat": 41.89724,
+  "lng": 12.51048,
+  "c": "medieval",
+  "s": "medieval site",
+  "q": "Arco su Porta San Lorenzo Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/566650171",
+   "raw": {
+    "access": "yes",
+    "barrier": "entrance",
+    "historic": "city_gate",
+    "name": "Arco su Porta San Lorenzo"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museostoricodeibersaglie",
+  "n": "Museo Storico dei Bersaglieri",
+  "a": "",
+  "pc": "",
+  "lat": 41.90927,
+  "lng": 12.50108,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Storico dei Bersaglieri Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/602095458",
+   "raw": {
+    "fee": "no",
+    "museum": "history",
+    "name": "Museo Storico dei Bersaglieri",
+    "source": "Bing, Local knowledge",
+    "tourism": "museum",
+    "wikidata": "Q603939",
+    "wikimedia_commons": "Category:Museo Storico dei Bersaglieri",
+    "wikipedia": "it:Museo storico dei bersaglieri"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "galaxy",
+  "n": "Galaxy",
+  "a": "",
+  "pc": "",
+  "lat": 41.92144,
+  "lng": 12.41663,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Galaxy Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/610928412",
+   "raw": {
+    "amenity": "cinema",
+    "closed": "yes",
+    "name": "Galaxy",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "andromeda",
+  "n": "Andromeda",
+  "a": "",
+  "pc": "",
+  "lat": 41.91301,
+  "lng": 12.41808,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Andromeda Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/610928685",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Andromeda",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "giuliocesare",
+  "n": "Giulio Cesare",
+  "a": "",
+  "pc": "",
+  "lat": 41.90873,
+  "lng": 12.45609,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Giulio Cesare Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/612601679",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Giulio Cesare"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "balconatadelpincio",
+  "n": "Balconata del Pincio",
+  "a": "",
+  "pc": "",
+  "lat": 41.91109,
+  "lng": 12.47793,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Balconata del Pincio Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/649529694",
+   "raw": {
+    "name": "Balconata del Pincio",
+    "name:es": "Mirador del Pincio",
+    "name:fr": "Belvédère du Pincio",
+    "tourism": "viewpoint",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "giardinodegliaranci",
+  "n": "Giardino degli Aranci",
+  "a": "",
+  "pc": "",
+  "lat": 41.88543,
+  "lng": 12.47991,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Giardino degli Aranci Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/653947448",
+   "raw": {
+    "name": "Giardino degli Aranci",
+    "name:ru": "Апельсиновый сад",
+    "tourism": "viewpoint",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "galleriaspada",
+  "n": "Galleria Spada",
+  "a": "",
+  "pc": "",
+  "lat": 41.89389,
+  "lng": 12.4722,
+  "c": "museum",
+  "s": "museum",
+  "q": "Galleria Spada Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/656532697",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:housenumber": "13",
+    "addr:postcode": "00186",
+    "addr:street": "Piazza Capo di Ferro",
+    "email": "palazzospada@gebart.it",
+    "fee": "yes",
+    "fee:icom_member": "no",
+    "name": "Galleria Spada",
+    "name:ko": "스파다 궁",
+    "name:ru": "Галерея Спада",
+    "opening_hours": "We-Mo 08:30-19:30; Tu off; May 1 off; Dec 25 off",
+    "phone": "+39 06 683 2409",
+    "tourism": "museum",
+    "website": "https://galleriaspada.beniculturali.it/index.php?it/1/home",
+    "wikidata": "Q3757699",
+    "wikimedia_commons": "Category:Galleria Spada (Rome)",
+    "wikipedia": "it:Galleria Spada"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesacentraledeicappell",
+  "n": "Chiesa Centrale dei Cappellani dell’ospedale San Camillo",
+  "a": "",
+  "pc": "",
+  "lat": 41.86781,
+  "lng": 12.4584,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa Centrale dei Cappellani dell’ospedale San Camillo Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/675650081",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Chiesa Centrale dei Cappellani dell’ospedale San Camillo",
+    "religion": "christian",
+    "service_times": "Su 07:30; Mo-Sa 07:15"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museonazionaleromano",
+  "n": "Museo Nazionale Romano",
+  "a": "",
+  "pc": "",
+  "lat": 41.9012,
+  "lng": 12.47284,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Nazionale Romano Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/677476578",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:housenumber": "46",
+    "addr:postcode": "00186",
+    "addr:street": "Piazza di Sant'Apollinare",
+    "fee": "yes",
+    "fee:icom_member": "no",
+    "name": "Museo Nazionale Romano",
+    "name:hu": "Nemzeti Római Kori Múzeum",
+    "name:uk": "Палаццо Альтемпс",
+    "name:zh": "罗马国家博物馆阿尔滕普斯宫",
+    "opening_hours": "Tu-Su 09:00-19:45",
+    "operator": "Soprintendenza Speciale per i Beni Archeologici di Roma",
+    "phone": "+39 06 39967700",
+    "tourism": "museum",
+    "website": "https://www.museonazionaleromano.beniculturali.it",
+    "wheelchair": "yes",
+    "wikidata": "Q1816007",
+    "wikimedia_commons": "Category:Palazzo Altemps (Rome)",
+    "wikipedia": "it:Museo nazionale romano di palazzo Altemps"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaterenziomamian",
+  "n": "Monumento a Terenzio Mamiani della Rovere",
+  "a": "",
+  "pc": "",
+  "lat": 41.8998,
+  "lng": 12.46575,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Monumento a Terenzio Mamiani della Rovere Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/685957631",
+   "raw": {
+    "artist_name": "Mauro Benini",
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Monumento a Terenzio Mamiani della Rovere",
+    "start_date": "1892",
+    "subject:wikidata": "Q1045355",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "palazzodoriapamphilj",
+  "n": "Palazzo Doria Pamphilj",
+  "a": "",
+  "pc": "",
+  "lat": 41.89782,
+  "lng": 12.48156,
+  "c": "museum",
+  "s": "museum",
+  "q": "Palazzo Doria Pamphilj Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/706793341",
+   "raw": {
+    "addr:housenumber": "305",
+    "addr:street": "Via del Corso",
+    "description": "Private collection and home with Caravaggio, Velasquez, Tiziano, Raffaello, Lippi, and others Available also for private visits and functions",
+    "fee": "yes",
+    "name": "Palazzo Doria Pamphilj",
+    "name:zh": "多利亚潘菲利美术馆",
+    "opening_hours": "Mo-Th 09:00-19:00; Fr-Su 10:00-20:00",
+    "phone": "+39 06 6797323",
+    "tourism": "museum",
+    "website": "https://www.dopart.it/",
+    "wheelchair": "limited",
+    "wikidata": "Q1203458",
+    "wikimedia_commons": "Category:Galleria Doria Pamphilj (Rome)",
+    "wikipedia": "it:Galleria Doria Pamphilj"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "harrysbar",
+  "n": "Harry's Bar",
+  "a": "",
+  "pc": "",
+  "lat": 41.90908,
+  "lng": 12.48832,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Harry's Bar Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/766869078",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:housenumber": "150",
+    "addr:postcode": "00187",
+    "addr:street": "Via Vittorio Veneto",
+    "amenity": "bar",
+    "check_date": "2025-06-07",
+    "email": "info@harrysbar.it",
+    "historic": "monument",
+    "name": "Harry's Bar",
+    "phone": "+39 06 484643",
+    "website": "https://www.harrysbar.it/",
+    "wikidata": "Q5666672",
+    "wikimedia_commons": "Category:Harry's Bar (Rome)",
+    "wikipedia": "en:Harry's Bar (Rome)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesacristianoevangelic",
+  "n": "Chiesa Cristiano Evangelica",
+  "a": "",
+  "pc": "",
+  "lat": 41.85958,
+  "lng": 12.57244,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa Cristiano Evangelica Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/888509033",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:country": "IT",
+    "addr:housenumber": "53",
+    "addr:street": "Via Giuseppe Chiovenda",
+    "amenity": "place_of_worship",
+    "denomination": "evangelical",
+    "name": "Chiesa Cristiano Evangelica",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinecitta",
+  "n": "Cinecittà",
+  "a": "",
+  "pc": "",
+  "lat": 41.84953,
+  "lng": 12.57447,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinecittà Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/899270724",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:country": "IT",
+    "addr:street": "Via Tuscolana",
+    "amenity": "cinema",
+    "name": "Cinecittà"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinestarcassia",
+  "n": "Cinestar Cassia",
+  "a": "",
+  "pc": "",
+  "lat": 41.96562,
+  "lng": 12.4444,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinestar Cassia Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/916498660",
+   "raw": {
+    "addr:housenumber": "20",
+    "addr:street": "Via Vibo Mariano",
+    "amenity": "cinema",
+    "name": "Cinestar Cassia"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "terrazzadelgianicolo",
+  "n": "Terrazza del Gianicolo",
+  "a": "",
+  "pc": "",
+  "lat": 41.89148,
+  "lng": 12.46139,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Terrazza del Gianicolo Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1001130475",
+   "raw": {
+    "name": "Terrazza del Gianicolo",
+    "name:ko": "자니콜로 언덕",
+    "tourism": "viewpoint",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fiamma",
+  "n": "Fiamma",
+  "a": "",
+  "pc": "",
+  "lat": 41.9054,
+  "lng": 12.49264,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Fiamma Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1118787065",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:country": "IT",
+    "addr:housenumber": "47",
+    "addr:postcode": "00187",
+    "addr:street": "Via Leonida Bissolati",
+    "amenity": "cinema",
+    "check_date": "2025-06-07",
+    "name": "Fiamma",
+    "wheelchair": "yes",
+    "wikidata": "Q37000377"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eden",
+  "n": "Eden",
+  "a": "",
+  "pc": "",
+  "lat": 41.90862,
+  "lng": 12.46882,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Eden Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1160046238",
+   "raw": {
+    "addr:housenumber": "74",
+    "addr:street": "Piazza Cola di Rienzo",
+    "amenity": "cinema",
+    "check_date": "2025-11-29",
+    "name": "Eden",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fontanellapercani",
+  "n": "Fontanella per cani",
+  "a": "",
+  "pc": "",
+  "lat": 41.90097,
+  "lng": 12.46927,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Fontanella per cani Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1168549494",
+   "raw": {
+    "amenity": "drinking_water",
+    "construction_date": "1579",
+    "historic": "fountain",
+    "inscription:it": "Come nel Campo Marzio un lupo, più mansueto di un agnelo, distribuisce Acqua Vergine, così in questo luogo più mite di un capretto getta dalla bocca l'onda trasparente cui presiede una Madonna",
+    "name": "Fontanella per cani",
+    "name:de": "Trinkbrunnen für Hunde",
+    "name:en": "Dogs' fountain",
+    "name:es": "Fontanela para Perros",
+    "wikidata": "Q76953668"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "madonnaaddolorata",
+  "n": "Madonna Addolorata",
+  "a": "",
+  "pc": "",
+  "lat": 41.89569,
+  "lng": 12.47892,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Madonna Addolorata Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1170556146",
+   "raw": {
+    "historic": "wayside_shrine",
+    "name": "Madonna Addolorata",
+    "religion": "christian"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santamariadelrosario",
+  "n": "Santa Maria del Rosario",
+  "a": "",
+  "pc": "",
+  "lat": 41.92087,
+  "lng": 12.44744,
+  "c": "faith",
+  "s": "church",
+  "q": "Santa Maria del Rosario Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1195428023",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Santa Maria del Rosario",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thespacecinemamodernorom",
+  "n": "The Space Cinema - Moderno Roma",
+  "a": "",
+  "pc": "",
+  "lat": 41.902,
+  "lng": 12.49642,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "The Space Cinema - Moderno Roma Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1222037500",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:country": "IT",
+    "addr:housenumber": "45",
+    "addr:postcode": "00185",
+    "addr:street": "Piazza della Repubblica",
+    "amenity": "cinema",
+    "brand": "The Space Cinema",
+    "brand:wikidata": "Q3989406",
+    "brand:wikipedia": "it:The Space Cinema",
+    "contact:facebook": "share/1BNsgnSgvX",
+    "contact:instagram": "thespacecinema",
+    "contact:twitter": "TheSpaceCinema",
+    "email": "servizioclienti@thespacecinema.it",
+    "name": "The Space Cinema - Moderno Roma",
+    "website": "https://www.thespacecinema.it/al-cinema/roma-moderno",
+    "wikidata": "Q37000649"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cavallomorente",
+  "n": "Cavallo morente",
+  "a": "",
+  "pc": "",
+  "lat": 41.91757,
+  "lng": 12.46651,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Cavallo morente Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1243874355",
+   "raw": {
+    "alt_name": "Cavallo della Rai",
+    "artist:wikidata": "Q2528299",
+    "artist:wikipedia": "it:Francesco Messina",
+    "artist_name": "Francesco Messina",
+    "artwork_type": "sculpture",
+    "height": "5",
+    "material": "bronze",
+    "name": "Cavallo morente",
+    "start_date": "1964",
+    "tourism": "artwork",
+    "website": "https://www.raicultura.it/arte/articoli/2019/05/Storia-e-restauro-del-cavallo-Rai-b8e9f6df-3721-48bb-9bc9-84adf6bb5252.html"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "madonnadellapieta",
+  "n": "Madonna Della Pietà",
+  "a": "",
+  "pc": "",
+  "lat": 41.8966,
+  "lng": 12.48129,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Madonna Della Pietà Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1253221573",
+   "raw": {
+    "historic": "wayside_shrine",
+    "name": "Madonna Della Pietà",
+    "religion": "christian"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nuovoolimpia",
+  "n": "Nuovo Olimpia",
+  "a": "",
+  "pc": "",
+  "lat": 41.90287,
+  "lng": 12.47897,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Nuovo Olimpia Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1257246656",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Nuovo Olimpia",
+    "wikidata": "Q37000496"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "puntopanoramicodivialede",
+  "n": "Punto panoramico di viale della Galea",
+  "a": "",
+  "pc": "",
+  "lat": 41.90634,
+  "lng": 12.45539,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Punto panoramico di viale della Galea Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1272283718",
+   "raw": {
+    "name": "Punto panoramico di viale della Galea",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanpietro",
+  "n": "San Pietro",
+  "a": "",
+  "pc": "",
+  "lat": 41.90351,
+  "lng": 12.45207,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "San Pietro Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1274807963",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "San Pietro",
+    "name:cs": "Svatý Petr",
+    "name:de": "Sankt Petrus",
+    "name:en": "Saint Peter",
+    "name:es": "San Pedro",
+    "name:fr": "Saint Pierre",
+    "name:grc": "Ἅγιος Πέτρος",
+    "name:hu": "Szent Péter",
+    "name:it": "San Pietro",
+    "name:la": "Sancti Petri",
+    "name:nl": "Sint Pieter",
+    "name:ru": "Апостол Пётр",
+    "name:zh": "聖彼得大教堂",
+    "subject:wikidata": "Q33923",
+    "wheelchair": "limited"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "campanadelgiubileo2000",
+  "n": "Campana del Giubileo 2000",
+  "a": "",
+  "pc": "",
+  "lat": 41.90119,
+  "lng": 12.44884,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Campana del Giubileo 2000 Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1274830455",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Campana del Giubileo 2000",
+    "name:cs": "Jubilejní zvon 2000",
+    "name:en": "Jubilee 2000 Bell",
+    "name:es": "Campana del Jubileo 2000",
+    "name:it": "Campana del Giubileo 2000",
+    "name:la": "Campana Lubilaei MM",
+    "wheelchair": "limited"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "angeloconlaspugna",
+  "n": "Angelo con la spugna",
+  "a": "",
+  "pc": "",
+  "lat": 41.90246,
+  "lng": 12.46636,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Angelo con la spugna Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1286811116",
+   "raw": {
+    "artist:wikidata": "Q2688505",
+    "artist_name": "Antonio Giorgetti",
+    "artwork_type": "statue",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Angel_Ponte_Sant_Angelo_sponge.jpg",
+    "inscription": "Potaverunt me aceto.",
+    "name": "Angelo con la spugna",
+    "name:de": "Engel mit dem Essigschwamm",
+    "name:en": "Angel with the Sponge",
+    "subject:wikidata": "Q3092274",
+    "tourism": "artwork",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoasimonbolivar",
+  "n": "Monumento a Simon Bolivar",
+  "a": "",
+  "pc": "",
+  "lat": 41.93338,
+  "lng": 12.53424,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Monumento a Simon Bolivar Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1286920242",
+   "raw": {
+    "artwork_type": "sculpture",
+    "historic": "monument",
+    "name": "Monumento a Simon Bolivar",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museopietrocanonica",
+  "n": "Museo Pietro Canonica",
+  "a": "",
+  "pc": "",
+  "lat": 41.91512,
+  "lng": 12.48624,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Pietro Canonica Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1303845491",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:housenumber": "2",
+    "addr:postcode": "00197",
+    "addr:street": "Viale Pietro Canonica",
+    "email": "info@museocanonica.it",
+    "fee": "no",
+    "fee:icom_member": "no",
+    "name": "Museo Pietro Canonica",
+    "opening_hours": "Oct-May: Tu-Su 10:00-16:00; Dec 24,31 10:00-14:00; Jun-Sep: Tu-Su 13:00-19:00; Jan 01,May 01,Dec 25 off",
+    "phone": "+39 06 0608",
+    "source": "Wikipedia",
+    "tourism": "museum",
+    "website": "https://www.museocanonica.it/",
+    "wikidata": "Q3867582",
+    "wikimedia_commons": "Category:Museo Pietro Canonica (Rome)",
+    "wikipedia": "it:Museo Canonica"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "terrazzavialedelbelveder",
+  "n": "Terrazza Viale del Belvedere",
+  "a": "",
+  "pc": "",
+  "lat": 41.90957,
+  "lng": 12.48006,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Terrazza Viale del Belvedere Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1305038875",
+   "raw": {
+    "name": "Terrazza Viale del Belvedere",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanpaolo",
+  "n": "San Paolo",
+  "a": "",
+  "pc": "",
+  "lat": 41.90255,
+  "lng": 12.45575,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "San Paolo Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1327232072",
+   "raw": {
+    "direction": "90",
+    "height": "10",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "San Paolo",
+    "name:de": "Heiliger Paulus",
+    "name:en": "Saint Paul",
+    "name:es": "San Pablo",
+    "name:hu": "Szent Pál",
+    "name:it": "San Paolo",
+    "name:la": "Sanctus Paulus",
+    "name:nl": "Sint Pieter",
+    "name:ru": "Святой Павел",
+    "subject:wikidata": "Q9200"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sangiuseppe",
+  "n": "San Giuseppe",
+  "a": "",
+  "pc": "",
+  "lat": 41.91208,
+  "lng": 12.45467,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "San Giuseppe Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1334058151",
+   "raw": {
+    "historic": "wayside_shrine",
+    "name": "San Giuseppe",
+    "religion": "christian"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "azzurroscipioni",
+  "n": "Azzurro Scipioni",
+  "a": "",
+  "pc": "",
+  "lat": 41.90849,
+  "lng": 12.45824,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Azzurro Scipioni Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1334091777",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:country": "IT",
+    "addr:housenumber": "82",
+    "addr:postcode": "00192",
+    "addr:street": "Via degli Scipioni",
+    "amenity": "cinema",
+    "name": "Azzurro Scipioni",
+    "phone": "+39 06 39737161",
+    "website": "https://www.azzurroscipioni.com/",
+    "wikidata": "Q37000279"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "obeliscodellaminerva",
+  "n": "Obelisco della Minerva",
+  "a": "",
+  "pc": "",
+  "lat": 41.89797,
+  "lng": 12.47756,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Obelisco della Minerva Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1340656195",
+   "raw": {
+    "alt_name": "Pulcin della Minerva",
+    "artwork_type": "sculpture",
+    "historic": "monument",
+    "historic:civilization": "ancient_egyptian",
+    "historic:era": "Psamtik_II",
+    "historic:period": "late_period",
+    "man_made": "obelisk",
+    "name": "Obelisco della Minerva",
+    "name:en": "Elephant and Obelisk",
+    "name:it": "Obelisco della Minerva",
+    "obelisk:height": "5.47",
+    "obelisk:material": "red_granite",
+    "obelisk:size": "monumental",
+    "wikidata": "Q826635",
+    "wikimedia_commons": "Category:Pulcino della Minerva",
+    "wikipedia": "it:Obelisco della Minerva"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "castore",
+  "n": "Castore",
+  "a": "",
+  "pc": "",
+  "lat": 41.89355,
+  "lng": 12.4826,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Castore Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1379490416",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Castore",
+    "name:fr": "Castor",
+    "name:hu": "Castor",
+    "outdoor_seating": "no",
+    "subject:wikidata": "Q11294144",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:Campidoglio,_Roma_-_Dioscuri_(dx)_fronte.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "altaredicittatrieste",
+  "n": "Altare di città Trieste",
+  "a": "",
+  "pc": "",
+  "lat": 41.89448,
+  "lng": 12.48347,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Altare di città Trieste Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1387899502",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Vittoriano_altare_Trieste_P1000742.jpg",
+    "inscription": "TRIESTE",
+    "memorial": "sculpture",
+    "name": "Altare di città Trieste",
+    "name:de": "Altar der Stadt Triest",
+    "subject:wikidata": "Q546"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vergineimmacolatamariama",
+  "n": "Vergine Immacolata Maria Madre del Divino Amore",
+  "a": "",
+  "pc": "",
+  "lat": 41.91434,
+  "lng": 12.41479,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Vergine Immacolata Maria Madre del Divino Amore Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1387908416",
+   "raw": {
+    "historic": "wayside_shrine",
+    "name": "Vergine Immacolata Maria Madre del Divino Amore",
+    "religion": "christian"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "assaltoallolimpo",
+  "n": "Assalto all'Olimpo",
+  "a": "",
+  "pc": "",
+  "lat": 41.91623,
+  "lng": 12.45567,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Assalto all'Olimpo Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1393859333",
+   "raw": {
+    "artist_name": "Bruno Liberatore",
+    "artwork_type": "sculpture",
+    "name": "Assalto all'Olimpo",
+    "tourism": "artwork",
+    "website": "http://www.brunoliberatore.com/opere/altreopere/opere_it.html"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "statuaparlanteabateluigi",
+  "n": "\"Statua parlante\" Abate Luigi",
+  "a": "",
+  "pc": "",
+  "lat": 41.89597,
+  "lng": 12.47463,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "\"Statua parlante\" Abate Luigi Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1396574132",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "\"Statua parlante\" Abate Luigi",
+    "tourism": "artwork",
+    "wikidata": "Q3603141",
+    "wikimedia_commons": "Category:Abate Luigi (Rome)",
+    "wikipedia": "it:Abate Luigi",
+    "wikipedia:en": "Abate_Luigi"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "avemaria",
+  "n": "Ave Maria",
+  "a": "",
+  "pc": "",
+  "lat": 41.89687,
+  "lng": 12.45243,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ave Maria Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1405099351",
+   "raw": {
+    "historic": "wayside_shrine",
+    "name": "Ave Maria",
+    "religion": "christian"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ufficioscavivaticano",
+  "n": "Ufficio scavi vaticano",
+  "a": "",
+  "pc": "",
+  "lat": 41.90168,
+  "lng": 12.45401,
+  "c": "roman",
+  "s": "Roman remains",
+  "q": "Ufficio scavi vaticano Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1416733018",
+   "raw": {
+    "access": "yes",
+    "addr:city": "Città del Vaticano",
+    "archaeological_site": "tomb",
+    "email": "scavi@fsp.va",
+    "historic": "archaeological_site",
+    "historic:civilization": "roman",
+    "name": "Ufficio scavi vaticano",
+    "name:ar": "مكتب الفاتيكان للحفريات",
+    "name:de": "Vatikanisches Ausgrabungsbüro",
+    "name:en": "Vatican Excavation Office",
+    "name:es": "Oficina de Excavación del Vaticano",
+    "name:fr": "Bureau des Fouilles",
+    "name:it": "Ufficio scavi vaticano",
+    "name:ru": "Ватиканские раскопки",
+    "phone": "+39 06 69885318",
+    "website": "https://www.scavi.va/content/scavi/it.html"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "goal",
+  "n": "Goal",
+  "a": "",
+  "pc": "",
+  "lat": 41.92997,
+  "lng": 12.46972,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Goal Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1421246925",
+   "raw": {
+    "artist_name": "Mario Ceroli",
+    "artwork_type": "sculpture",
+    "name": "Goal",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "generaljoseartigas",
+  "n": "General José Artigas",
+  "a": "",
+  "pc": "",
+  "lat": 41.91377,
+  "lng": 12.4813,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "General José Artigas Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1424138506",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "General José Artigas",
+    "subject:wikidata": "Q252847",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "victorhugo",
+  "n": "Victor Hugo",
+  "a": "",
+  "pc": "",
+  "lat": 41.91313,
+  "lng": 12.48283,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Victor Hugo Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1424152376",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Victor_Hugo_Statue.jpg",
+    "memorial": "statue",
+    "name": "Victor Hugo",
+    "subject:wikidata": "Q535",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "portadisantanna",
+  "n": "Porta di Sant'Anna",
+  "a": "",
+  "pc": "",
+  "lat": 41.90397,
+  "lng": 12.45757,
+  "c": "medieval",
+  "s": "medieval site",
+  "q": "Porta di Sant'Anna Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1435574747",
+   "raw": {
+    "access": "permit",
+    "barrier": "gate",
+    "historic": "city_gate",
+    "material": "metal",
+    "name": "Porta di Sant'Anna",
+    "name:de": "St.-Anna-Tor",
+    "name:en": "Saint Anna Gate",
+    "name:fr": "Porte Sainte-Anne",
+    "name:it": "Porta di Sant'Anna",
+    "source": "survey",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "galleriaborghese",
+  "n": "Galleria Borghese",
+  "a": "",
+  "pc": "",
+  "lat": 41.91411,
+  "lng": 12.49211,
+  "c": "museum",
+  "s": "museum",
+  "q": "Galleria Borghese Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1440405490",
+   "raw": {
+    "addr:city": "Roma",
+    "addr:housenumber": "5",
+    "addr:postcode": "00197",
+    "addr:street": "Piazzale Scipione Borghese",
+    "fee": "yes",
+    "fee:icom_member": "no",
+    "name": "Galleria Borghese",
+    "name:el": "Βίλλα Μποργκέζε",
+    "name:fr": "Galerie Borghèse",
+    "name:it": "Galleria Borghese",
+    "name:ja": "ボルゲーゼ美術館",
+    "name:ru": "Галерея Боргезе",
+    "name:zh": "波格赛美术馆",
+    "opening_hours": "Tu-Su 09:00-19:00",
+    "phone": "+39 06 8555952",
+    "toilets:wheelchair": "no",
+    "tourism": "museum",
+    "website": "https://galleriaborghese.beniculturali.it/",
+    "wheelchair": "limited",
+    "wikidata": "Q841506",
+    "wikimedia_commons": "Category:Galleria Borghese",
+    "wikipedia": "it:Galleria Borghese"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "piedimarmo",
+  "n": "Piè di marmo",
+  "a": "",
+  "pc": "",
+  "lat": 41.89761,
+  "lng": 12.47938,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Piè di marmo Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1441098724",
+   "raw": {
+    "artwork_type": "sculpture",
+    "material": "marble",
+    "name": "Piè di marmo",
+    "name:hu": "Márványláb",
+    "name:ru": "Мраморная нога",
+    "tourism": "artwork",
+    "wikidata": "Q123021477"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rostraaddiviiulii",
+  "n": "Rostra ad Divi Iulii",
+  "a": "",
+  "pc": "",
+  "lat": 41.89219,
+  "lng": 12.48576,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Rostra ad Divi Iulii Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1447566608",
+   "raw": {
+    "historic": "temple",
+    "historic:civilization": "ancient_roman",
+    "name": "Rostra ad Divi Iulii",
+    "ruins": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "torrionediviaprenestina",
+  "n": "Torrione di Via Prenestina",
+  "a": "",
+  "pc": "",
+  "lat": 41.89207,
+  "lng": 12.52971,
+  "c": "roman",
+  "s": "Roman remains",
+  "q": "Torrione di Via Prenestina Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1453469565",
+   "raw": {
+    "historic": "archaeological_site",
+    "historic:civilization": "ancient_roman",
+    "name": "Torrione di Via Prenestina",
+    "wikidata": "Q3995776",
+    "wikimedia_commons": "Category:Torrione prenestino (Rome)",
+    "wikipedia": "it:Torrione prenestino"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "worldfoodprogramme",
+  "n": "World Food Programme",
+  "a": "",
+  "pc": "",
+  "lat": 41.82168,
+  "lng": 12.40773,
+  "c": "oddity",
+  "s": "united Nations branch related to food-assistance",
+  "q": "World Food Programme Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q204344",
+   "raw": "United Nations branch related to food-assistance",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "corviale",
+  "n": "Corviale",
+  "a": "",
+  "pc": "",
+  "lat": 41.85056,
+  "lng": 12.41167,
+  "c": "oddity",
+  "s": "residential skyscraper in Rome, Italy",
+  "q": "Corviale Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q678110",
+   "raw": "residential skyscraper in Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "viaostiensis",
+  "n": "Via Ostiensis",
+  "a": "",
+  "pc": "",
+  "lat": 41.81434,
+  "lng": 12.41071,
+  "c": "oddity",
+  "s": "roman road from Rome to Ostia Italy",
+  "q": "Via Ostiensis Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1232418",
+   "raw": "Roman road from Rome to Ostia Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "magliana",
+  "n": "Magliana",
+  "a": "",
+  "pc": "",
+  "lat": 41.8225,
+  "lng": 12.40331,
+  "c": "oddity",
+  "s": "urban zone of Rome, Italy",
+  "q": "Magliana Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1833911",
+   "raw": "urban zone of Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santamariadelmontecarmel",
+  "n": "Santa Maria del Monte Carmelo a Mostacciano",
+  "a": "",
+  "pc": "",
+  "lat": 41.80901,
+  "lng": 12.44453,
+  "c": "faith",
+  "s": "roman Catholic titular church in Rome",
+  "q": "Santa Maria del Monte Carmelo a Mostacciano Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2892961",
+   "raw": "Roman Catholic titular church in Rome",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lapisana",
+  "n": "La Pisana",
+  "a": "",
+  "pc": "",
+  "lat": 41.8732,
+  "lng": 12.4036,
+  "c": "oddity",
+  "s": "44th zone of Rome, Italy",
+  "q": "La Pisana Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3211654",
+   "raw": "44th zone of Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "maglianavecchia",
+  "n": "Magliana Vecchia",
+  "a": "",
+  "pc": "",
+  "lat": 41.8389,
+  "lng": 12.3975,
+  "c": "oddity",
+  "s": "40th zone of Rome, Italy",
+  "q": "Magliana Vecchia Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3277019",
+   "raw": "40th zone of Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pontegaleria",
+  "n": "Ponte Galeria",
+  "a": "",
+  "pc": "",
+  "lat": 41.81667,
+  "lng": 12.35,
+  "c": "oddity",
+  "s": "41st zone of Rome, Italy",
+  "q": "Ponte Galeria Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3397703",
+   "raw": "41st zone of Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "portuense",
+  "n": "Portuense",
+  "a": "",
+  "pc": "",
+  "lat": 41.8379,
+  "lng": 12.4312,
+  "c": "oddity",
+  "s": "7th suburb of Rome, Italy",
+  "q": "Portuense Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3399555",
+   "raw": "7th suburb of Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tordivalle",
+  "n": "Tor di Valle",
+  "a": "",
+  "pc": "",
+  "lat": 41.8215,
+  "lng": 12.4278,
+  "c": "oddity",
+  "s": "39th zone of Rome, Italy",
+  "q": "Tor di Valle Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3532195",
+   "raw": "39th zone of Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "torrino",
+  "n": "Torrino",
+  "a": "",
+  "pc": "",
+  "lat": 41.81483,
+  "lng": 12.44459,
+  "c": "oddity",
+  "s": "27th zone of Rome, Italy",
+  "q": "Torrino Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3532498",
+   "raw": "27th zone of Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "castellodellamagliana",
+  "n": "castello della Magliana",
+  "a": "",
+  "pc": "",
+  "lat": 41.82755,
+  "lng": 12.41729,
+  "c": "oddity",
+  "s": "building in Rome, Italy",
+  "q": "castello della Magliana Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3662436",
+   "raw": "building in Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "catacombsofgenerosa",
+  "n": "Catacombs of Generosa",
+  "a": "",
+  "pc": "",
+  "lat": 41.83612,
+  "lng": 12.43282,
+  "c": "oddity",
+  "s": "catacomb in Rome, Italy",
+  "q": "Catacombs of Generosa Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3663195",
+   "raw": "catacomb in Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanbruno",
+  "n": "San Bruno",
+  "a": "",
+  "pc": "",
+  "lat": 41.86983,
+  "lng": 12.40938,
+  "c": "faith",
+  "s": "church in Rome",
+  "q": "San Bruno Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3669721",
+   "raw": "church in Rome",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santamariamaterecclesiae",
+  "n": "Santa Maria Mater Ecclesiae (Rome)",
+  "a": "",
+  "pc": "",
+  "lat": 41.80803,
+  "lng": 12.43083,
+  "c": "faith",
+  "s": "church building in Rome, Italy",
+  "q": "Santa Maria Mater Ecclesiae (Rome) Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3673488",
+   "raw": "church building in Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santamariadelrosariodipo",
+  "n": "Santa Maria del Rosario di Pompei alla Magliana",
+  "a": "",
+  "pc": "",
+  "lat": 41.83465,
+  "lng": 12.43056,
+  "c": "faith",
+  "s": "church building in Rome, Italy",
+  "q": "Santa Maria del Rosario di Pompei alla Magliana Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3673771",
+   "raw": "church building in Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "euroma2",
+  "n": "Euroma 2",
+  "a": "",
+  "pc": "",
+  "lat": 41.81695,
+  "lng": 12.45952,
+  "c": "oddity",
+  "s": "commercial center in Rome",
+  "q": "Euroma 2 Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3734780",
+   "raw": "commercial center in Rome",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tordivalleracecourse",
+  "n": "Tor di Valle Racecourse",
+  "a": "",
+  "pc": "",
+  "lat": 41.8241,
+  "lng": 12.4322,
+  "c": "oddity",
+  "s": "building in Rome",
+  "q": "Tor di Valle Racecourse Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3801694",
+   "raw": "building in Rome",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "muratella",
+  "n": "Muratella",
+  "a": "",
+  "pc": "",
+  "lat": 41.82311,
+  "lng": 12.40938,
+  "c": "oddity",
+  "s": "human settlement in Italy",
+  "q": "Muratella Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3867363",
+   "raw": "human settlement in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museofrancescano",
+  "n": "Museo francescano",
+  "a": "",
+  "pc": "",
+  "lat": 41.85828,
+  "lng": 12.37696,
+  "c": "museum",
+  "s": "museum in Italy",
+  "q": "Museo francescano Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3868378",
+   "raw": "museum in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "laurentinoacquaacetosana",
+  "n": "Laurentino-Acqua Acetosa Nature Reserve",
+  "a": "",
+  "pc": "",
+  "lat": 41.80567,
+  "lng": 12.47793,
+  "c": "oddity",
+  "s": "protected area in Italy (EUAP1047)",
+  "q": "Laurentino-Acqua Acetosa Nature Reserve Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3936473",
+   "raw": "protected area in Italy (EUAP1047)",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "riservanaturaledellatenu",
+  "n": "Riserva naturale della Tenuta dei Massimi",
+  "a": "",
+  "pc": "",
+  "lat": 41.8468,
+  "lng": 12.4001,
+  "c": "oddity",
+  "s": "protected area in Italy (EUAP1049)",
+  "q": "Riserva naturale della Tenuta dei Massimi Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3936770",
+   "raw": "protected area in Italy (EUAP1049)",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "muratellarailwaystation",
+  "n": "Muratella railway station",
+  "a": "",
+  "pc": "",
+  "lat": 41.8248,
+  "lng": 12.4087,
+  "c": "oddity",
+  "s": "italian train station",
+  "q": "Muratella railway station Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3970248",
+   "raw": "Italian train station",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tordivalletrainstation",
+  "n": "Tor di Valle train station",
+  "a": "",
+  "pc": "",
+  "lat": 41.81952,
+  "lng": 12.4369,
+  "c": "oddity",
+  "s": "italian railway station",
+  "q": "Tor di Valle train station Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3971132",
+   "raw": "Italian railway station",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "torreeuroparco",
+  "n": "Torre Europarco",
+  "a": "",
+  "pc": "",
+  "lat": 41.8172,
+  "lng": 12.4561,
+  "c": "oddity",
+  "s": "building in Rome, Italy",
+  "q": "Torre Europarco Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3995181",
+   "raw": "building in Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "torreeurosky",
+  "n": "Torre Eurosky",
+  "a": "",
+  "pc": "",
+  "lat": 41.8196,
+  "lng": 12.4576,
+  "c": "oddity",
+  "s": "building in Rome, Italy",
+  "q": "Torre Eurosky Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3995184",
+   "raw": "building in Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vialaurentina",
+  "n": "Via Laurentina",
+  "a": "",
+  "pc": "",
+  "lat": 41.80218,
+  "lng": 12.47767,
+  "c": "oddity",
+  "s": "street in Rome, Italy",
+  "q": "Via Laurentina Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4010652",
+   "raw": "street in Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "asromastadium",
+  "n": "AS Roma Stadium",
+  "a": "",
+  "pc": "",
+  "lat": 41.82872,
+  "lng": 12.42547,
+  "c": "oddity",
+  "s": "proposed association football stadium in Rome, Italy",
+  "q": "AS Roma Stadium Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7596266",
+   "raw": "proposed association football stadium in Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "casalettimattei",
+  "n": "Casaletti Mattei",
+  "a": "",
+  "pc": "",
+  "lat": 41.84275,
+  "lng": 12.38824,
+  "c": "oddity",
+  "s": "human settlement in Italy",
+  "q": "Casaletti Mattei Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18454458",
+   "raw": "human settlement in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "centrointernazionaledina",
+  "n": "Centro Internazionale di Nazareth",
+  "a": "",
+  "pc": "",
+  "lat": 41.83817,
+  "lng": 12.38253,
+  "c": "oddity",
+  "s": "human settlement in Italy",
+  "q": "Centro Internazionale di Nazareth Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18454493",
+   "raw": "human settlement in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiavichetta",
+  "n": "Chiavichetta",
+  "a": "",
+  "pc": "",
+  "lat": 41.81905,
+  "lng": 12.36217,
+  "c": "oddity",
+  "s": "human settlement in Italy",
+  "q": "Chiavichetta Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18454503",
+   "raw": "human settlement in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lamassiminacasallumbroso",
+  "n": "La Massimina-Casal Lumbroso",
+  "a": "",
+  "pc": "",
+  "lat": 41.87332,
+  "lng": 12.35694,
+  "c": "oddity",
+  "s": "human settlement in Italy",
+  "q": "La Massimina-Casal Lumbroso Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18454695",
+   "raw": "human settlement in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanlorenzodabrindisi",
+  "n": "San Lorenzo da Brindisi",
+  "a": "",
+  "pc": "",
+  "lat": 41.86231,
+  "lng": 12.38057,
+  "c": "oddity",
+  "s": "human settlement in Italy",
+  "q": "San Lorenzo da Brindisi Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18455248",
+   "raw": "human settlement in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pontedimezzocammino",
+  "n": "Ponte di Mezzocammino",
+  "a": "",
+  "pc": "",
+  "lat": 41.80813,
+  "lng": 12.41829,
+  "c": "oddity",
+  "s": "bridge in Rome, Italy",
+  "q": "Ponte di Mezzocammino Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18785546",
+   "raw": "bridge in Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alleanzacontroilcancro",
+  "n": "Alleanza Contro il Cancro",
+  "a": "",
+  "pc": "",
+  "lat": 41.8204,
+  "lng": 12.45897,
+  "c": "oddity",
+  "s": "nonprofit organization in Rome, Italy",
+  "q": "Alleanza Contro il Cancro Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30254897",
+   "raw": "nonprofit organization in Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "agenziaregionaleparchi",
+  "n": "Agenzia Regionale Parchi",
+  "a": "",
+  "pc": "",
+  "lat": 41.86884,
+  "lng": 12.37644,
+  "c": "oddity",
+  "s": "archive organization in Rome, Italy",
+  "q": "Agenzia Regionale Parchi Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30270874",
+   "raw": "archive organization in Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "istitutifisioterapiciosp",
+  "n": "Istituti Fisioterapici Ospitalieri",
+  "a": "",
+  "pc": "",
+  "lat": 41.8036,
+  "lng": 12.45131,
+  "c": "oddity",
+  "s": "healthcare organization in Rome, Italy",
+  "q": "Istituti Fisioterapici Ospitalieri Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30281366",
+   "raw": "healthcare organization in Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sangallicanohospital",
+  "n": "San Gallicano Hospital",
+  "a": "",
+  "pc": "",
+  "lat": 41.80056,
+  "lng": 12.44746,
+  "c": "oddity",
+  "s": "healthcare organization in Rome, Italy",
+  "q": "San Gallicano Hospital Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30282136",
+   "raw": "healthcare organization in Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "quartiereincisdecima",
+  "n": "Quartiere INCIS Decima",
+  "a": "",
+  "pc": "",
+  "lat": 41.81942,
+  "lng": 12.44149,
+  "c": "oddity",
+  "s": "housing estate in Rome",
+  "q": "Quartiere INCIS Decima Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q38297993",
+   "raw": "housing estate in Rome",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanpaolodellacroceacorvi",
+  "n": "San Paolo della Croce a Corviale",
+  "a": "",
+  "pc": "",
+  "lat": 41.85361,
+  "lng": 12.41444,
+  "c": "faith",
+  "s": "church in Rome",
+  "q": "San Paolo della Croce a Corviale Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q42435651",
+   "raw": "church in Rome",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "novecentoobelisk",
+  "n": "Novecento obelisk",
+  "a": "",
+  "pc": "",
+  "lat": 41.82293,
+  "lng": 12.46532,
+  "c": "history",
+  "s": "sculpture by Arnaldo Pomodoro in Rome",
+  "q": "Novecento obelisk Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q52348931",
+   "raw": "sculpture by Arnaldo Pomodoro in Rome",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "giorgioperlasca",
+  "n": "Giorgio Perlasca",
+  "a": "",
+  "pc": "",
+  "lat": 41.8416,
+  "lng": 12.4426,
+  "c": "oddity",
+  "s": "primary school in Rome, Rome, Lazio, Italy",
+  "q": "Giorgio Perlasca Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q52783625",
+   "raw": "primary school in Rome, Rome, Lazio, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sangiovannibattistadelas",
+  "n": "San Giovanni Battista de La Salle al Torrino",
+  "a": "",
+  "pc": "",
+  "lat": 41.8121,
+  "lng": 12.44682,
+  "c": "oddity",
+  "s": "building in Rome, Italy",
+  "q": "San Giovanni Battista de La Salle al Torrino Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q54861476",
+   "raw": "building in Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "franciscanmuseumofthecap",
+  "n": "Franciscan Museum of the Capuchin Historical Institute",
+  "a": "",
+  "pc": "",
+  "lat": 41.85446,
+  "lng": 12.37741,
+  "c": "museum",
+  "s": "museum in Italy",
+  "q": "Franciscan Museum of the Capuchin Historical Institute Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q55360168",
+   "raw": "museum in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ansadeltevereviaduct",
+  "n": "Ansa del Tevere viaduct",
+  "a": "",
+  "pc": "",
+  "lat": 41.83338,
+  "lng": 12.42383,
+  "c": "oddity",
+  "s": "highway viaduct in Italy",
+  "q": "Ansa del Tevere viaduct Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q56101974",
+   "raw": "highway viaduct in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monasteryofthedormitiono",
+  "n": "Monastery of the Dormition of Mary (Rome)",
+  "a": "",
+  "pc": "",
+  "lat": 41.87348,
+  "lng": 12.41154,
+  "c": "faith",
+  "s": "place of worship",
+  "q": "Monastery of the Dormition of Mary (Rome) Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q63980830",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fountain",
+  "n": "Fountain",
+  "a": "",
+  "pc": "",
+  "lat": 41.83707,
+  "lng": 12.42565,
+  "c": "history",
+  "s": "memorial fountain",
+  "q": "Fountain Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q76945780",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "maglianabusdepot",
+  "n": "Magliana bus depot",
+  "a": "",
+  "pc": "",
+  "lat": 41.83458,
+  "lng": 12.40876,
+  "c": "oddity",
+  "s": "aTAC bus depot in Rome",
+  "q": "Magliana bus depot Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97842016",
+   "raw": "ATAC bus depot in Rome",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eurpiezometricwatertower",
+  "n": "EUR piezometric water tower",
+  "a": "",
+  "pc": "",
+  "lat": 41.82449,
+  "lng": 12.46292,
+  "c": "history",
+  "s": "restaurant",
+  "q": "EUR piezometric water tower Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q102385082",
+   "raw": "restaurant",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "camposportivomauriziomel",
+  "n": "Campo Sportivo Maurizio Melli",
+  "a": "",
+  "pc": "",
+  "lat": 41.81514,
+  "lng": 12.43781,
+  "c": "oddity",
+  "s": "football pitch in Rome, Italy",
+  "q": "Campo Sportivo Maurizio Melli Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q106033870",
+   "raw": "Football pitch in Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alltimerelaisandsporthot",
+  "n": "All Time Relais & Sport Hotel",
+  "a": "",
+  "pc": "",
+  "lat": 41.80831,
+  "lng": 12.44744,
+  "c": "oddity",
+  "s": "hotel in Rome, Italy",
+  "q": "All Time Relais & Sport Hotel Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111412468",
+   "raw": "hotel in Rome, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecadellistitutost",
+  "n": "Biblioteca dell'Istituto storico dei cappuccini",
+  "a": "",
+  "pc": "",
+  "lat": 41.86572,
+  "lng": 12.37381,
+  "c": "oddity",
+  "s": "conservation library in Italy",
+  "q": "Biblioteca dell'Istituto storico dei cappuccini Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q113092943",
+   "raw": "conservation library in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecadellistitutoin",
+  "n": "Biblioteca dell'Istituto internazione per lo studio dei problemi della gioventu' contemporanea",
+  "a": "",
+  "pc": "",
+  "lat": 41.8449,
+  "lng": 12.35741,
+  "c": "oddity",
+  "s": "special library in Italy",
+  "q": "Biblioteca dell'Istituto internazione per lo studio dei problemi della gioventu' contemporanea Rome",
+  "w": "",
+  "city": "rome",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q113319718",
+   "raw": "special library in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

@@ -1,0 +1,3363 @@
+[
+ {
+  "id": "homemdamacaeseubicho",
+  "n": "Homem da Maça e seu Bicho",
+  "a": "",
+  "pc": "",
+  "lat": 41.21961,
+  "lng": -8.66189,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Homem da Maça e seu Bicho Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/280445945",
+   "raw": {
+    "alt_name": "São Brás da Maça;Estátua do Homem da Maça;Estátua de São Brás da Maça",
+    "artwork_type": "sculpture",
+    "historic": "icon",
+    "monument": "yes",
+    "name": "Homem da Maça e seu Bicho",
+    "tourism": "artwork",
+    "website": "http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=4957",
+    "wikidata": "Q107353704"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pontedeguifoes",
+  "n": "Ponte de Guifões",
+  "a": "",
+  "pc": "",
+  "lat": 41.20072,
+  "lng": -8.67995,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ponte de Guifões Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/280451837",
+   "raw": {
+    "historic": "ruins",
+    "historic:civilization": "modern",
+    "name": "Ponte de Guifões"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "locomotiva248",
+  "n": "Locomotiva 248",
+  "a": "",
+  "pc": "",
+  "lat": 41.17149,
+  "lng": -8.57323,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Locomotiva 248 Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1390707631",
+   "raw": {
+    "access": "no",
+    "description": "Carruagem a vapor",
+    "historic": "locomotive",
+    "locomotive:type": "steam",
+    "name": "Locomotiva 248",
+    "wikimedia_commons": "File:CP 248 in Contumil.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "assembleiadedeusmissaopo",
+  "n": "Assembleia de Deus Missão portugal",
+  "a": "",
+  "pc": "",
+  "lat": 41.11651,
+  "lng": -8.60613,
+  "c": "faith",
+  "s": "church",
+  "q": "Assembleia de Deus Missão portugal Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1487235335",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Assembleia de Deus Missão portugal",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mormons",
+  "n": "Mórmons",
+  "a": "",
+  "pc": "",
+  "lat": 41.12185,
+  "lng": -8.60342,
+  "c": "faith",
+  "s": "church",
+  "q": "Mórmons Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1487261831",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Mórmons",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bahai",
+  "n": "Baha'i",
+  "a": "",
+  "pc": "",
+  "lat": 41.11618,
+  "lng": -8.60979,
+  "c": "faith",
+  "s": "place of worship",
+  "q": "Baha'i Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1487711082",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Baha'i",
+    "religion": "abraâmica"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "almeidagarrett",
+  "n": "Almeida Garrett",
+  "a": "",
+  "pc": "",
+  "lat": 41.14966,
+  "lng": -8.61075,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Almeida Garrett Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1528602579",
+   "raw": {
+    "addr:city": "Porto",
+    "addr:country": "PT",
+    "addr:street": "Praça General Humberto Delgado",
+    "architect": "Carlos Ramos",
+    "artist_name": "Salvador Barata Feyo",
+    "heritage": "yes",
+    "heritage:operator": "pc",
+    "heritage:website:sipa": "http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=27819",
+    "historic": "memorial",
+    "inscription": "A Garrett, 1799-1854",
+    "material": "bronze;granite",
+    "memorial": "statue",
+    "name": "Almeida Garrett",
+    "ownership": "public",
+    "protection_title": "Incluído em ZEP",
+    "ref:cmp:map": "87",
+    "ref:cmp:mip": "1",
+    "ref:ipa": "27819",
+    "source": "local knowledge",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1954-10-11",
+    "wikidata": "Q2649664",
+    "wikimedia_commons": "Category:Monumento a Almeida Garrett (Porto)",
+    "wikipedia": "pt:Monumento Almeida Garrett"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "faroldesaomigueloanjo",
+  "n": "Farol de São Miguel-o-Anjo",
+  "a": "",
+  "pc": "",
+  "lat": 41.14708,
+  "lng": -8.66677,
+  "c": "maritime",
+  "s": "lighthouse",
+  "q": "Farol de São Miguel-o-Anjo Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1548185686",
+   "raw": {
+    "description": "Oldest lighthouse in Portugal.",
+    "ele": "7",
+    "heritage": "2",
+    "heritage:operator": "pc",
+    "heritage:ref": "IIP",
+    "historic": "yes",
+    "man_made": "lighthouse",
+    "name": "Farol de São Miguel-o-Anjo",
+    "protection_title": "Imóvel de Interesse Público",
+    "ref:cmp": "F29",
+    "ref:cmp:new": "IP1018",
+    "wikidata": "Q10280175",
+    "wikimedia_commons": "Category:São Miguel-O-Anjo Lighthouse",
+    "wikipedia": "en:Lighthouse of São Miguel-o-Anjo"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "casamuseumartaortigaosam",
+  "n": "Casa-Museu Marta Ortigão Sampaio",
+  "a": "",
+  "pc": "",
+  "lat": 41.15943,
+  "lng": -8.62551,
+  "c": "museum",
+  "s": "museum",
+  "q": "Casa-Museu Marta Ortigão Sampaio Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1652873556",
+   "raw": {
+    "addr:city": "Porto",
+    "addr:housenumber": "291",
+    "addr:postcode": "4050-428",
+    "addr:street": "Rua de Nossa Senhora de Fátima",
+    "alt_name": "Casa Marta Ortigão Sampaio",
+    "fee": "no",
+    "name": "Casa-Museu Marta Ortigão Sampaio",
+    "opening_hours": "Tu-Su 10:00-17:30; PH off",
+    "phone": "+351 226 066 568",
+    "source": "Câmara Municipal do Porto",
+    "tourism": "museum",
+    "website": "https://museudoporto.pt/estacao/casa-marta-ortigao-sampaio/",
+    "wikidata": "Q9698020",
+    "wikipedia": "pt:Casa-Museu Marta Ortigão Sampaio"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "miradourodolargodeaviz",
+  "n": "Miradouro do Largo de Aviz",
+  "a": "",
+  "pc": "",
+  "lat": 41.13831,
+  "lng": -8.60866,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Miradouro do Largo de Aviz Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1670330650",
+   "raw": {
+    "alt_name": "Miradouro da Serra do Pilar",
+    "name": "Miradouro do Largo de Aviz",
+    "noexit": "yes",
+    "opening_hours": "24/7",
+    "tourism": "viewpoint",
+    "wheelchair": "yes",
+    "wikimedia_commons": "Category:Miradouro do Largo de Aviz"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tragedianomar",
+  "n": "Tragédia no Mar",
+  "a": "",
+  "pc": "",
+  "lat": 41.17972,
+  "lng": -8.69398,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Tragédia no Mar Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1744193550",
+   "raw": {
+    "artist_name": "José João Brito",
+    "artwork_type": "sculpture",
+    "name": "Tragédia no Mar",
+    "start_date": "2005",
+    "tourism": "artwork",
+    "wikidata": "Q57076546",
+    "wikimedia_commons": "Category:Tragédia no Mar (sculpture)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "miradourodaescarpa",
+  "n": "Miradouro da Escarpa",
+  "a": "",
+  "pc": "",
+  "lat": 41.13973,
+  "lng": -8.60215,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Miradouro da Escarpa Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1804497644",
+   "raw": {
+    "name": "Miradouro da Escarpa",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaosmortosdagran",
+  "n": "Monumento aos Mortos da Grande Guerra",
+  "a": "",
+  "pc": "",
+  "lat": 41.14867,
+  "lng": -8.61588,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento aos Mortos da Grande Guerra Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2086436553",
+   "raw": {
+    "addr:street": "Praça de Carlos Alberto",
+    "alt_name": "Monumento aos Combatentes da Grande Guerra no Porto;Aos Mortos da Grande Guerra",
+    "architect": "Manuel Marques (1890-1956)",
+    "artist_name": "Henrique Moreira (1890-1979)újo Moreira",
+    "heritage:website:sipa": "http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=28281",
+    "historic": "memorial",
+    "material": "bronze;stone",
+    "memorial": "statue",
+    "name": "Monumento aos Mortos da Grande Guerra",
+    "official_name": "Monumento aos Mortos da Grande Guerra",
+    "ownership": "public",
+    "protection_title": "Sem proteção legal",
+    "ref:cmp:map": "121",
+    "ref:cmp:mip": "50",
+    "ref:ipa": "28281",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1928-04-09",
+    "wheelchair": "yes",
+    "wikidata": "Q54475040",
+    "wikimedia_commons": "Category:Monumento aos Mortos da Grande Guerra (Porto)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "domantonioferreiragomes",
+  "n": "Dom António Ferreira Gomes",
+  "a": "",
+  "pc": "",
+  "lat": 41.14577,
+  "lng": -8.61526,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Dom António Ferreira Gomes Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2086444764",
+   "raw": {
+    "addr:street": "Praça de Lisboa",
+    "artist_name": "Arlindo Rocha",
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "statue",
+    "name": "Dom António Ferreira Gomes",
+    "name:es": "Don Antonio Ferreira Gomes estatua",
+    "official_name": "D. António Ferreira Gomes",
+    "ownership": "public",
+    "ref:cmp:map": "119",
+    "ref:cmp:mip": "18",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1991-04-13",
+    "wheelchair": "yes",
+    "wikimedia_commons": "Category:Statue of Antonio Ferreira Gomes (Porto)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oscorceis",
+  "n": "Os Corcéis",
+  "a": "",
+  "pc": "",
+  "lat": 41.14787,
+  "lng": -8.60919,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Os Corcéis Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2204099961",
+   "raw": {
+    "addr:street": "Praça de Dom João I",
+    "artist_name": "João Fragoso",
+    "artwork_type": "statue",
+    "material": "bronze;granite",
+    "name": "Os Corcéis",
+    "ownership": "public",
+    "ref:cmp:map": "74",
+    "ref:cmp:mip": "13",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1957-06-21",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:Porto - Vue 26.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oardina",
+  "n": "O Ardina",
+  "a": "",
+  "pc": "",
+  "lat": 41.14616,
+  "lng": -8.61106,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "O Ardina Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2204100031",
+   "raw": {
+    "addr:street": "Praça da Liberdade",
+    "artist_name": "Manuel Dias",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "O Ardina",
+    "official_name": "O Ardina",
+    "ownership": "public",
+    "ref:cmp:map": "88",
+    "ref:cmp:mip": "5",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1991-06-02",
+    "subject:wikidata": "Q187031",
+    "subject:wikipedia": "pt:Ardina",
+    "wheelchair": "yes",
+    "wikimedia_commons": "Category:O Ardina (statue)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "memoriadapontedasbarcasl",
+  "n": "Memória da Ponte das Barcas (Lado do Porto)",
+  "a": "",
+  "pc": "",
+  "lat": 41.14056,
+  "lng": -8.61095,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Memória da Ponte das Barcas (Lado do Porto) Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2204255042",
+   "raw": {
+    "artist_name": "Eduardo Souto de Moura (1952- )",
+    "artwork_type": "installation",
+    "historic": "memorial",
+    "material": "steel",
+    "material:de": "weathering_steel",
+    "name": "Memória da Ponte das Barcas (Lado do Porto)",
+    "ref:cmp:map": "102",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "2009-03-29",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:Sé-Ponte de Dom Luís.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "arnaldogama",
+  "n": "Arnaldo Gama",
+  "a": "",
+  "pc": "",
+  "lat": 41.14294,
+  "lng": -8.60843,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Arnaldo Gama Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2204255083",
+   "raw": {
+    "addr:street": "Jardim Arnaldo Gama",
+    "artist_name": "Rogério Mendes de Azevedo",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Arnaldo Gama",
+    "ownership": "public",
+    "ref:cmp:map": "75",
+    "ref:cmp:mip": "8",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1969",
+    "wheelchair": "yes",
+    "wikimedia_commons": "Category:Estátua de Arnaldo Gama"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "memoriadapontedasbarcasl2",
+  "n": "Memória da Ponte das Barcas (Lado de Gaia)",
+  "a": "",
+  "pc": "",
+  "lat": 41.13877,
+  "lng": -8.61031,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Memória da Ponte das Barcas (Lado de Gaia) Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2204255094",
+   "raw": {
+    "artwork_type": "installation",
+    "historic": "memorial",
+    "material": "weathering_steel",
+    "name": "Memória da Ponte das Barcas (Lado de Gaia)",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:20200131 PortoDouro 3921 (49650600188).jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pelourinhodoporto",
+  "n": "Pelourinho do Porto",
+  "a": "",
+  "pc": "",
+  "lat": 41.14254,
+  "lng": -8.61195,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Pelourinho do Porto Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2205076681",
+   "raw": {
+    "alt_name": "Pelourinho da Sé",
+    "artwork_type": "sculpture",
+    "disused": "yes",
+    "heritage": "2",
+    "heritage:operator": "pc",
+    "heritage:ref": "IIP",
+    "heritage:since": "1933-10-11",
+    "heritage:website:sipa": "http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=5552",
+    "historic": "pillory",
+    "name": "Pelourinho do Porto",
+    "protection_title": "Imóvel de Interesse Público",
+    "ref:cmp": "S1",
+    "ref:cmp:new": "183",
+    "ref:ipa": "5552",
+    "start_date": "1945",
+    "tourism": "artwork",
+    "wikidata": "Q37255712",
+    "wikimedia_commons": "Category:Pelourinho do Porto"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nichodosenhordaboafortun",
+  "n": "Nicho do Senhor da Boa Fortuna",
+  "a": "",
+  "pc": "",
+  "lat": 41.141,
+  "lng": -8.61227,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Nicho do Senhor da Boa Fortuna Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2206294651",
+   "raw": {
+    "alt_name": "Senhor da Boa Fortuna",
+    "denomination": "roman_catholic",
+    "heritage": "yes",
+    "heritage:operator": "pc",
+    "heritage:website:sipa": "http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=20005",
+    "historic": "wayside_shrine",
+    "inscription": "Senhor da Boa Fortuna",
+    "name": "Nicho do Senhor da Boa Fortuna",
+    "protection_title": "Incluído em Sítio Classificado",
+    "ref:ipa": "20005",
+    "religion": "christian",
+    "support": "wall",
+    "wikidata": "Q54475118",
+    "wikimedia_commons": "Category:Nicho do Senhor da Boa Fortuna"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "brasaodoscunhapimenteis",
+  "n": "Brasão dos Cunha Pimentéis",
+  "a": "",
+  "pc": "",
+  "lat": 41.14334,
+  "lng": -8.61459,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Brasão dos Cunha Pimentéis Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2206637613",
+   "raw": {
+    "artwork_type": "coat_of_arms",
+    "historic": "stone",
+    "name": "Brasão dos Cunha Pimentéis",
+    "outdoor": "yes",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dompedrov",
+  "n": "Dom Pedro V",
+  "a": "",
+  "pc": "",
+  "lat": 41.14503,
+  "lng": -8.60693,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Dom Pedro V Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2208908769",
+   "raw": {
+    "addr:street": "Praça da Batalha",
+    "alt_name": "Estátua de Dom Pedro V",
+    "artist_name": "José Joaquim Teixeira Lopes",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Dom Pedro V",
+    "ownership": "public",
+    "ref:cmp:map": "69",
+    "ref:cmp:mip": "21",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1866-02-03",
+    "wheelchair": "yes",
+    "wikidata": "Q103982787",
+    "wikimedia_commons": "Category:Estátua de D. Pedro V na Praça da Batalha"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oratoriodenossasenhorada",
+  "n": "Oratório de Nossa Senhora da Silva",
+  "a": "",
+  "pc": "",
+  "lat": 41.1454,
+  "lng": -8.61326,
+  "c": "faith",
+  "s": "church",
+  "q": "Oratório de Nossa Senhora da Silva Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2210643419",
+   "raw": {
+    "alt_name": "Capela Nossa Senhora da Silva",
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "heritage:operator": "pc",
+    "heritage:website:sipa": "http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=5498",
+    "name": "Oratório de Nossa Senhora da Silva",
+    "protection_title": "Incluído em Zona Especial de Proteção",
+    "ref:ipa": "5498",
+    "religion": "christian",
+    "wikidata": "Q116696225",
+    "wikimedia_commons": "Category:Oratório de Nossa Senhora da Silva"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "amoresdecamilo",
+  "n": "Amores de Camilo",
+  "a": "",
+  "pc": "",
+  "lat": 41.14479,
+  "lng": -8.61667,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Amores de Camilo Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2213447720",
+   "raw": {
+    "alt_name": "Amor de Perdição",
+    "artist_name": "Francisco Simões",
+    "artwork_subject": "figurative",
+    "artwork_type": "statue",
+    "image": "https://commons.wikimedia.org/wiki/File:Amor_de_Perdi%C3%A7%C3%A3o_de_Camilo_Castelo_Branco,_Francisco_Sim%C3%B5es,_2012.JPG",
+    "material": "bronze",
+    "name": "Amores de Camilo",
+    "ref:cmp:map": "127",
+    "ref:cmp:mip": "s/n",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "2012-12-16",
+    "tourism": "artwork",
+    "wikidata": "Q65227127",
+    "wikimedia_commons": "Category:Amores de Camilo (statue)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "meninosaabundancia",
+  "n": "Meninos - \"A abundância\"",
+  "a": "",
+  "pc": "",
+  "lat": 41.14762,
+  "lng": -8.61116,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Meninos - \"A abundância\" Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2245786966",
+   "raw": {
+    "addr:street": "Avenida dos Aliados",
+    "alt_name": "A Abundância;Os Meninos;Conjunto constituído pela Avenida dos Aliados Praça da Liberdade e Praça do General Humberto Delgado",
+    "architect": "Manuel Marques (1894-1956)",
+    "artist_name": "Henrique Moreira",
+    "artwork_type": "statue",
+    "description": "Estátua em bronze dourado com três meninos a segurar uma taça a transbordar com fruta e flores que representa a abundância, por cima de um pedestral e base em pedra",
+    "heritage": "2",
+    "heritage:operator": "pc",
+    "heritage:website:sipa": "http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=27821",
+    "material": "bronze;marble;granite",
+    "name": "Meninos - \"A abundância\"",
+    "official_name": "Meninos - \"A abundância\"",
+    "ownership": "public",
+    "protection_title": "Abrangido em conjunto protegido",
+    "ref:cmp:map": "95",
+    "ref:cmp:mip": "49",
+    "ref:ipa": "27821",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1931",
+    "tourism": "artwork",
+    "wikidata": "Q54481514",
+    "wikimedia_commons": "Category:Escultura \"Os Meninos\" (Avenida dos Aliados)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "afonsodebraganca",
+  "n": "Afonso de Bragança",
+  "a": "",
+  "pc": "",
+  "lat": 41.14735,
+  "lng": -8.61258,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Afonso de Bragança Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2246033644",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Afonso de Bragança"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "trezearirunsdosoutros",
+  "n": "Treze a Rir Uns dos Outros",
+  "a": "",
+  "pc": "",
+  "lat": 41.14595,
+  "lng": -8.61737,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Treze a Rir Uns dos Outros Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2247078305",
+   "raw": {
+    "addr:place": "Alameda dos Plátanos (Cordoaria)",
+    "addr:street": "Jardim João Chagas",
+    "artist_name": "Juan Muñoz",
+    "artwork_type": "statue",
+    "name": "Treze a Rir Uns dos Outros",
+    "ownership": "public",
+    "ref:cmp:map": "129",
+    "ref:cmp:mip": "114B",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "2001",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:Cordoaria.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "miradourodopasseiodasvir",
+  "n": "Miradouro do Passeio das Virtudes",
+  "a": "",
+  "pc": "",
+  "lat": 41.14448,
+  "lng": -8.61861,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Miradouro do Passeio das Virtudes Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2255178454",
+   "raw": {
+    "name": "Miradouro do Passeio das Virtudes",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bandeirinhadasaude",
+  "n": "Bandeirinha da Saúde",
+  "a": "",
+  "pc": "",
+  "lat": 41.14436,
+  "lng": -8.62199,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Bandeirinha da Saúde Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2258282583",
+   "raw": {
+    "alt_name": "Bandeirinha;Marco da Bandeirinha;Padrão da Bandeirinha;Bandeira da Saúde no Monte de Monchique;Bandeira da Saúde;Pirâmide da Bandeirinha;Bandeirinha da Saúde",
+    "architect": "Mestre Bastião Fernandes",
+    "description": "Suporte de bandeira que servia no passado para orientação de barcos na entrada no porto; esta marca servia de limite para os barcos que subiam o Douro que tinham de ter uma inspeção sanitária antes de prosseguirem ou atracarem",
+    "heritage": "yes",
+    "heritage:operator": "cmp",
+    "heritage:website:sipa": "http://www.monumentos.gov.pt/Site/APP_PagesUser/SIPA.aspx?id=6481",
+    "historic": "memorial",
+    "memorial": "obelisk",
+    "name": "Bandeirinha da Saúde",
+    "protection_title": "Imóvel de Valor Arquitetónico",
+    "ref:cmp": "Mi91",
+    "ref:cmp:new": "55",
+    "ref:ipa": "6481",
+    "start_date": "1597-1633",
+    "wikidata": "Q54566011",
+    "wikimedia_commons": "Category:Marco da Bandeirinha"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aternurameninoabracandoa",
+  "n": "A Ternura - Menino abraçando a gazela",
+  "a": "",
+  "pc": "",
+  "lat": 41.14572,
+  "lng": -8.60291,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "A Ternura - Menino abraçando a gazela Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2307188336",
+   "raw": {
+    "addr:street": "Jardim de Marques de Oliveira",
+    "alt_name": "Menino abraçando gazela",
+    "artist_name": "Henrique Moreira",
+    "artwork_type": "statue",
+    "description": "menino e gazela",
+    "material": "bronze",
+    "name": "A Ternura - Menino abraçando a gazela",
+    "note": "titulo de acordo com Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "ownership": "public",
+    "ref:cmp:map": "56",
+    "ref:cmp:mip": "53",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wikimedia_commons": "File:Porto (27217099742).jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "miradourodamuralhafernan",
+  "n": "Miradouro da Muralha Fernandina",
+  "a": "",
+  "pc": "",
+  "lat": 41.14123,
+  "lng": -8.60968,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Miradouro da Muralha Fernandina Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2319986838",
+   "raw": {
+    "access": "private",
+    "alt_name": "Miradouro da Muralha de Dom Fernando",
+    "name": "Miradouro da Muralha Fernandina",
+    "note": "closed (last check in September, 2023)",
+    "opening_hours": "off",
+    "tourism": "viewpoint",
+    "wikimedia_commons": "Category:Miradouro das Muralhas Fernandinas do Porto"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "miradouroponteluizi",
+  "n": "Miradouro Ponte Luiz I",
+  "a": "",
+  "pc": "",
+  "lat": 41.13965,
+  "lng": -8.60934,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Miradouro Ponte Luiz I Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2319986841",
+   "raw": {
+    "name": "Miradouro Ponte Luiz I",
+    "name:de": "Ponte Luiz I",
+    "name:en": "Ponte Luiz I",
+    "name:ru": "Вид с Моста Луиша I",
+    "name:zh": "路易世橋",
+    "tourism": "viewpoint",
+    "wheelchair": "yes",
+    "wikimedia_commons": "Category:Views from Luiz I bridge"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemapassosmanuel",
+  "n": "Cinema Passos Manuel",
+  "a": "",
+  "pc": "",
+  "lat": 41.1469,
+  "lng": -8.60569,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinema Passos Manuel Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2323324024",
+   "raw": {
+    "addr:city": "Porto",
+    "addr:country": "PT",
+    "addr:housenumber": "137",
+    "addr:postcode": "4000-385",
+    "addr:street": "Rua de Passos Manuel",
+    "alt_name": "Cine-Estúdio Passos Manuel",
+    "amenity": "cinema",
+    "contact:email": "info@passosmanuel.net",
+    "contact:phone": "+351 222 058 351;+351 222 034 121",
+    "contact:website": "https://www.passosmanuel.net/",
+    "name": "Cinema Passos Manuel",
+    "start_date": "1971",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pontedasandresas",
+  "n": "Ponte das Andresas",
+  "a": "",
+  "pc": "",
+  "lat": 41.16551,
+  "lng": -8.64504,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ponte das Andresas Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2349409306",
+   "raw": {
+    "historic": "monument",
+    "inscription": "Prémio Internacional de Arquitetura - Global Future Design Awards - 2020",
+    "name": "Ponte das Andresas"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "guilhermegomesfernandes",
+  "n": "Guilherme Gomes Fernandes",
+  "a": "",
+  "pc": "",
+  "lat": 41.14778,
+  "lng": -8.6147,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Guilherme Gomes Fernandes Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2379162836",
+   "raw": {
+    "addr:street": "Praça de Guilherme Gomes Fernandes",
+    "artist_name": "Bento Cândido da Silva",
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Guilherme Gomes Fernandes",
+    "ownership": "public",
+    "ref:cmp:map": "116",
+    "ref:cmp:mip": "32",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1915-05-01",
+    "wikimedia_commons": "File:Guilherme Gomes Fernandes Bento Cândido Silva 01.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "juliodinis",
+  "n": "Júlio Dinis",
+  "a": "",
+  "pc": "",
+  "lat": 41.14706,
+  "lng": -8.61761,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Júlio Dinis Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2382400781",
+   "raw": {
+    "addr:street": "Largo do Professor Abel Salazar",
+    "artist_name": "João da Silva",
+    "historic": "memorial",
+    "image": "https://commons.wikimedia.org/wiki/File:Estatua_Julio_Dinis_(Porto).JPG",
+    "memorial": "statue",
+    "name": "Júlio Dinis",
+    "ownership": "public",
+    "ref:cmp:map": "130",
+    "ref:cmp:mip": "42",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1926-12-01",
+    "wikimedia_commons": "Category:Busto a Júlio Dinis, Porto"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "abelsalazar",
+  "n": "Abel Salazar",
+  "a": "",
+  "pc": "",
+  "lat": 41.14817,
+  "lng": -8.61828,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Abel Salazar Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2413956297",
+   "raw": {
+    "artist_name": "Hélder Carvalho (1954- );Vasco Morais Soares (1940- )",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Abel Salazar",
+    "ref:cmp:map": "135",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "wikimedia_commons": "Category:Estátua de Abel Salazar"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "palaciodabolsa",
+  "n": "Palácio da Bolsa",
+  "a": "",
+  "pc": "",
+  "lat": 41.14141,
+  "lng": -8.61573,
+  "c": "museum",
+  "s": "museum",
+  "q": "Palácio da Bolsa Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2478836067",
+   "raw": {
+    "addr:postcode": "4050-253",
+    "addr:street": "Rua de Ferreira Borges",
+    "charge": "10 EUR",
+    "charge:conditional": "6.5 EUR @ (student,senior)",
+    "check_date": "2026-02-05",
+    "contact:email": "correio@cciporto.pt",
+    "contact:fax": "+351 223 399090",
+    "contact:phone": "+351 223 399000",
+    "contact:website": "http://www.palaciodabolsa.com",
+    "fee": "yes",
+    "fee:conditional": "no @ age < 12",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Palacio_da_Bolsa%2C_Porto.jpg",
+    "name": "Palácio da Bolsa",
+    "name:de": "Palácio da Bolsa - Bolsapalast",
+    "name:ko": "볼사 궁전",
+    "name:tr": "MÜZE",
+    "name:zh": "證券交易所宮",
+    "opening_hours": "Nov-Mar: Mo-Su 09:00-12:30,14:00-17:30; Apr-Oct: Mo-Su 09:00-18:30; Dec 25 off; Jan 1 off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "tourism": "museum",
+    "wheelchair": "yes",
+    "wikidata": "Q1371109",
+    "wikimedia_commons": "Category:Palácio da Bolsa no Porto",
+    "wikipedia": "pt:Palácio da Bolsa"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "duquedewellington",
+  "n": "Duque de Wellington",
+  "a": "",
+  "pc": "",
+  "lat": 41.14758,
+  "lng": -8.62041,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Duque de Wellington Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2489816202",
+   "raw": {
+    "artist_name": "David Noris",
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Duque de Wellington",
+    "ref:cmp:map": "142",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "wikimedia_commons": "File:Arthur Wellesley, Duke of Wellington - Porto, Portugal - DSC00735.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "asquatroestacoesinverno",
+  "n": "As Quatro Estações - Inverno",
+  "a": "",
+  "pc": "",
+  "lat": 41.14776,
+  "lng": -8.62537,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "As Quatro Estações - Inverno Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2516713423",
+   "raw": {
+    "addr:place": "Jardins do Palácio de Cristal",
+    "addr:street": "Rua de Dom Manuel II",
+    "artist_name": "Mathurin Moreau (atribuição)",
+    "artwork_type": "statue",
+    "material": "cast_iron",
+    "name": "As Quatro Estações - Inverno",
+    "official_name": "As Quatro Estações - Inverno",
+    "ownership": "private",
+    "ref:cmp:map": "157",
+    "ref:cmp:mip": "149",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1865-09-11",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:Escultura feminina simbolizando o Inverno (46176471772).jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "theeagleofthecastle",
+  "n": "The Eagle of the Castle",
+  "a": "",
+  "pc": "",
+  "lat": 41.1476,
+  "lng": -8.62708,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "The Eagle of the Castle Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2517577217",
+   "raw": {
+    "addr:place": "Jardins do Palácio de Cristal",
+    "addr:street": "Rua de Dom Manuel II",
+    "artist_name": "Minoro Niizuma",
+    "artwork_type": "sculpture",
+    "material": "marble",
+    "name": "The Eagle of the Castle",
+    "official_name": "The Eagle of the Castle",
+    "ownership": "private",
+    "ref:cmp:map": "164",
+    "ref:cmp:mip": "56",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1985",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:Porto (Portugal) (22453005571).jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ternura",
+  "n": "Ternura",
+  "a": "",
+  "pc": "",
+  "lat": 41.14636,
+  "lng": -8.6258,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Ternura Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2517863422",
+   "raw": {
+    "addr:place": "Jardins do Palácio de Cristal",
+    "addr:street": "Rua de Dom Manuel II",
+    "artist_name": "Sousa Caldas",
+    "artwork_type": "statue",
+    "name": "Ternura",
+    "ownership": "private",
+    "ref:cmp:map": "159",
+    "ref:cmp:mip": "77",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1965",
+    "tourism": "artwork",
+    "wikimedia_commons": "Category:A Ternura (sculpture)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tomasgonzaga",
+  "n": "Tomás Gonzaga",
+  "a": "",
+  "pc": "",
+  "lat": 41.14335,
+  "lng": -8.62086,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Tomás Gonzaga Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2597978895",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Tomás Gonzaga",
+    "plaque": "here_was_born"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rosaliadecastro",
+  "n": "Rosalía de Castro",
+  "a": "",
+  "pc": "",
+  "lat": 41.1523,
+  "lng": -8.62666,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Rosalía de Castro Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2684618282",
+   "raw": {
+    "addr:street": "Praça da Galiza",
+    "alt_name": "Rosália de Castro",
+    "artist_name": "Barata Feyo",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Rosalía de Castro",
+    "ownership": "public",
+    "ref:cmp:map": "171",
+    "ref:cmp:mip": "71",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1954-09-03",
+    "subject:wikimedia_commons": "File:1_Barata_Feyo_Monumento_Rosalia_de_Castro_IMG_9454.jpg",
+    "wikidata": "Q119613985",
+    "wikimedia_commons": "Category:Monument to Rosalía de Castro (Porto)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ruinasdatorremiradourodo",
+  "n": "Ruínas da Torre / Miradouro do Fojo",
+  "a": "",
+  "pc": "",
+  "lat": 41.12233,
+  "lng": -8.63563,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ruínas da Torre / Miradouro do Fojo Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2701162910",
+   "raw": {
+    "historic": "ruins",
+    "inscription": "É um antigo torreão de aparência medieval que pode ter sido construído como atalaia de vigilância, com comunicação visual com o Castelo de Gaia. No século 18 foi integrado na Quinta do Fojo.",
+    "name": "Ruínas da Torre / Miradouro do Fojo"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "miradourodegramido",
+  "n": "Miradouro de Gramido",
+  "a": "",
+  "pc": "",
+  "lat": 41.13352,
+  "lng": -8.56996,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Miradouro de Gramido Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2702399261",
+   "raw": {
+    "name": "Miradouro de Gramido",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saofranciscoassis",
+  "n": "São Francisco Assis",
+  "a": "",
+  "pc": "",
+  "lat": 41.15247,
+  "lng": -8.61729,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "São Francisco Assis Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2884967815",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "São Francisco Assis",
+    "short_name": "S. Francisco Assis"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rauldoria",
+  "n": "Raul Dória",
+  "a": "",
+  "pc": "",
+  "lat": 41.15305,
+  "lng": -8.60816,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Raul Dória Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2912188494",
+   "raw": {
+    "addr:street": "Largo do Doutor Tito Fontes",
+    "artist_name": "Ada da Cunha",
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Raul Dória",
+    "ownership": "public",
+    "ref:cmp:mip": "69",
+    "start_date": "1972-09-15"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "maturidade",
+  "n": "Maturidade",
+  "a": "",
+  "pc": "",
+  "lat": 41.15288,
+  "lng": -8.60583,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Maturidade Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2940935077",
+   "raw": {
+    "addr:street": "Rua de Sá da Bandeira",
+    "artist_name": "Charters de Almeida",
+    "artwork_type": "sculpture",
+    "name": "Maturidade",
+    "ownership": "public",
+    "ref:cmp:map": "63",
+    "ref:cmp:mip": "52",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1965",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "comendadorcarlosferreira",
+  "n": "Comendador Carlos Ferreira da Silva",
+  "a": "",
+  "pc": "",
+  "lat": 41.21353,
+  "lng": -8.60062,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Comendador Carlos Ferreira da Silva Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3016459810",
+   "raw": {
+    "historic": "memorial",
+    "name": "Comendador Carlos Ferreira da Silva",
+    "source": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "republica",
+  "n": "República",
+  "a": "",
+  "pc": "",
+  "lat": 41.15488,
+  "lng": -8.61263,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "República Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3117699451",
+   "raw": {
+    "artist_name": "Bruno Marques",
+    "artwork_type": "statue",
+    "description": "Estátua evocativa da República - A mulher de bronze, com três metros de altura, parece caminhar, decidida, na direção do quartel, levando numa mão um ramo de oliveira (símbolo da paz) e na outra a esfera armilar. Na cabeça tem um barrete frísio.",
+    "image": "https://commons.wikimedia.org/wiki/File:Monumento_%C3%A0_Rep%C3%BAblica_-_Porto_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_(53574733088).jpg",
+    "inscription": "República Portuguesa (1910-2020)",
+    "material": "bronze",
+    "name": "República",
+    "ref:cmp:map": "106",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "tourism": "artwork",
+    "wikimedia_commons": "Category:Monumento à República"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museufutebolclubedoporto",
+  "n": "Museu Futebol Clube do Porto",
+  "a": "",
+  "pc": "",
+  "lat": 41.1611,
+  "lng": -8.58235,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museu Futebol Clube do Porto Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3145554676",
+   "raw": {
+    "addr:city": "Porto",
+    "addr:housename": "Estádio do Dragão",
+    "addr:postcode": "4350-415",
+    "addr:street": "Via Futebol Clube do Porto",
+    "charge": "17.00 EUR",
+    "email": "museu@fcporto.pt",
+    "fee": "yes",
+    "int_name": "FC Porto Museum",
+    "museum": "sports",
+    "name": "Museu Futebol Clube do Porto",
+    "name:de": "FC Porto Museum",
+    "name:en": "FC Porto Museum",
+    "name:ko": "FC 포르투 박물관",
+    "name:ru": "Музей футбольного клуба Порту",
+    "note": "was 'highway:VCI Porto' ?!",
+    "old_name": "Museu FC Porto by BMG",
+    "opening_hours": "Mo 14:30-19:00; Tu-Su 10:00-19:00",
+    "phone": "+351 225 570 418",
+    "source": "http://www.fcporto.pt/pt/clube/museu-fc-porto/Pages/museu-fc-porto.aspx",
+    "tourism": "museum",
+    "website": "https://www.fcporto.pt/pt/museu",
+    "wikidata": "Q15411526",
+    "wikimedia_commons": "Category:F.C. Porto Museum",
+    "wikipedia": "pt:Museu do FC Porto by BMG"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fozdodouro",
+  "n": "Foz do Douro",
+  "a": "",
+  "pc": "",
+  "lat": 41.13488,
+  "lng": -8.67032,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Foz do Douro Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3175837340",
+   "raw": {
+    "name": "Foz do Douro",
+    "tourism": "viewpoint",
+    "website": "https://www.google.pt/maps/@41.1349327,-8.6699044,3a,75y,356.24h,85.01t/data=!3m4!1e1!3m2!1suurvw1YyWuaZ5U7XW5Q0bg!2e0?hl=pt-PT",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "casamuseuengenheiroanton",
+  "n": "Casa-Museu Engenheiro António de Almeida",
+  "a": "",
+  "pc": "",
+  "lat": 41.16189,
+  "lng": -8.64028,
+  "c": "museum",
+  "s": "museum",
+  "q": "Casa-Museu Engenheiro António de Almeida Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3396197687",
+   "raw": {
+    "addr:city": "Porto",
+    "addr:housenumber": "325",
+    "addr:street": "Rua do Tenente Valadim",
+    "fee": "no",
+    "name": "Casa-Museu Engenheiro António de Almeida",
+    "operator": "Fundação Engenheiro António de Almeida",
+    "tourism": "museum",
+    "website": "https://www.feaa.pt/Inicio.aspx"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "halfrabbit",
+  "n": "Half rabbit",
+  "a": "",
+  "pc": "",
+  "lat": 41.13689,
+  "lng": -8.61504,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Half rabbit Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3438259614",
+   "raw": {
+    "artist:website": "http://www.bordaloii.com/",
+    "artist:wikidata": "Q31283131",
+    "artist:wikipedia": "pt:Artur Bordalo",
+    "artist_name": "Bordalo II",
+    "artwork_type": "sculpture",
+    "name": "Half rabbit",
+    "outdoor": "yes",
+    "tourism": "artwork",
+    "visibility": "street"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "henrydunant",
+  "n": "Henry Dunant",
+  "a": "",
+  "pc": "",
+  "lat": 41.15594,
+  "lng": -8.62103,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Henry Dunant Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3837190924",
+   "raw": {
+    "addr:street": "Largo do Priorado",
+    "alt_name": "Busto de Henry Dunant",
+    "artist_name": "Francisco Xavier Costa",
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Henry Dunant",
+    "ownership": "public",
+    "ref:cmp:map": "143",
+    "ref:cmp:mip": "36",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1978",
+    "subject:wikipedia": "pt:Henri Dunant",
+    "wikimedia_commons": "File:Henry Dunant - Porto.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "anjomensageiro",
+  "n": "Anjo Mensageiro",
+  "a": "",
+  "pc": "",
+  "lat": 41.1467,
+  "lng": -8.65776,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Anjo Mensageiro Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3838232413",
+   "raw": {
+    "addr:street": "Rua das Sobreiras",
+    "alt_name": "Mensageiro;O Anjo",
+    "artist:wikidata": "Q9009257",
+    "artist:wikipedia": "pt:Irene Vilar",
+    "artist_name": "Irene Vilar",
+    "artwork_type": "statue",
+    "name": "Anjo Mensageiro",
+    "ownership": "public",
+    "ref:cmp:map": "201",
+    "ref:cmp:mip": "110",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "2001-12-01",
+    "tourism": "artwork",
+    "wikimedia_commons": "Category:Estátua do Anjo Mensageiro ou Anjo Gabriel"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pelourinhodematosinhos",
+  "n": "Pelourinho de Matosinhos",
+  "a": "",
+  "pc": "",
+  "lat": 41.18655,
+  "lng": -8.68908,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pelourinho de Matosinhos Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3995964187",
+   "raw": {
+    "disused": "yes",
+    "historic": "pillory",
+    "name": "Pelourinho de Matosinhos",
+    "start_date": "C17",
+    "tourism": "attraction",
+    "wikidata": "Q136377941"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pelourinhodevilanovadega",
+  "n": "Pelourinho de Vila Nova de Gaia",
+  "a": "",
+  "pc": "",
+  "lat": 41.13747,
+  "lng": -8.61982,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pelourinho de Vila Nova de Gaia Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3995965081",
+   "raw": {
+    "disused": "yes",
+    "historic": "pillory",
+    "name": "Pelourinho de Vila Nova de Gaia",
+    "start_date": "C20",
+    "tourism": "attraction",
+    "wikidata": "Q96906100",
+    "wikimedia_commons": "Category:Pelourinho de Vila Nova de Gaia"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "machadojoalheiro",
+  "n": "Machado Joalheiro",
+  "a": "",
+  "pc": "",
+  "lat": 41.14608,
+  "lng": -8.60788,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Machado Joalheiro Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4025656791",
+   "raw": {
+    "addr:city": "Porto",
+    "addr:housenumber": "200",
+    "addr:street": "Rua 31 de Janeiro",
+    "historic": "yes",
+    "name": "Machado Joalheiro",
+    "old_name": "Ourivesaria Cunha",
+    "shop": "jewelry",
+    "tourism": "attraction"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museudeartecontemporanea",
+  "n": "Museu de Arte Contemporânea de Serralves",
+  "a": "",
+  "pc": "",
+  "lat": 41.15913,
+  "lng": -8.65941,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museu de Arte Contemporânea de Serralves Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4228667597",
+   "raw": {
+    "addr:housenumber": "1052",
+    "addr:street": "Rua de Serralves",
+    "alt_name": "Museu de Serralves",
+    "contact:website": "https://www.serralves.pt/institucional-serralves/visitar-o-museu/",
+    "fee": "yes",
+    "level": "0",
+    "name": "Museu de Arte Contemporânea de Serralves",
+    "name:en": "Serralves Museum",
+    "name:pt": "Museu de Arte Contemporânea de Serralves",
+    "opening_hours": "Mo-Fr 10:00-18:00; Sa,Su,PH 10:00-19:00; Apr-Sep: Mo-Fr 10:00-19:00; Apr-Sep: Sa,Su,PH 10:00-20:00",
+    "tourism": "museum",
+    "wheelchair": "yes",
+    "wikidata": "Q1954380",
+    "wikimedia_commons": "Category:Museu de Arte Contemporânea de Serralves",
+    "wikipedia": "pt:Museu de Arte Contemporânea de Serralves"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ricardocampuscaricaturas",
+  "n": "Ricardo Campus - Caricaturas",
+  "a": "",
+  "pc": "",
+  "lat": 41.15434,
+  "lng": -8.59128,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Ricardo Campus - Caricaturas Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4323005198",
+   "raw": {
+    "name": "Ricardo Campus - Caricaturas",
+    "shop": "art",
+    "tourism": "gallery",
+    "website": "http://www.ricardocampus.com/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "miradourodesantacatarina",
+  "n": "Miradouro de Santa Catarina",
+  "a": "",
+  "pc": "",
+  "lat": 41.1495,
+  "lng": -8.6516,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Miradouro de Santa Catarina Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4346835519",
+   "raw": {
+    "name": "Miradouro de Santa Catarina",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "salaodoreinodastestemunh",
+  "n": "Salão do Reino das Testemunhas de Jeová",
+  "a": "",
+  "pc": "",
+  "lat": 41.16373,
+  "lng": -8.56673,
+  "c": "faith",
+  "s": "church",
+  "q": "Salão do Reino das Testemunhas de Jeová Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4395076911",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "jehovahs_witness",
+    "name": "Salão do Reino das Testemunhas de Jeová",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cruzeirodesantana",
+  "n": "Cruzeiro de Santana",
+  "a": "",
+  "pc": "",
+  "lat": 41.21204,
+  "lng": -8.61333,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Cruzeiro de Santana Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4437572802",
+   "raw": {
+    "historic": "memorial",
+    "name": "Cruzeiro de Santana",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentocomemorativodoc",
+  "n": "Monumento Comemorativo do Centenário do Nascimento de Raul Brandão",
+  "a": "",
+  "pc": "",
+  "lat": 41.14775,
+  "lng": -8.67201,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Monumento Comemorativo do Centenário do Nascimento de Raul Brandão Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4439973395",
+   "raw": {
+    "addr:street": "Avenida de Dom Carlos I",
+    "alt_name": "Homenagem a Raul Brandão",
+    "architect": "Rogério de Azevedo (1898-1983)",
+    "artist_name": "Henrique Moreira (1890-1979)",
+    "artwork_type": "sculpture",
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Monumento Comemorativo do Centenário do Nascimento de Raul Brandão",
+    "ownership": "public",
+    "ref:cmp:map": "211",
+    "ref:cmp:mip": "67",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1967-03-12",
+    "tourism": "artwork",
+    "wikimedia_commons": "Category:Monumento a Raul Brandão"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ramalhoortigao2",
+  "n": "Ramalho Ortigão",
+  "a": "",
+  "pc": "",
+  "lat": 41.15125,
+  "lng": -8.67779,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Ramalho Ortigão Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4442513875",
+   "raw": {
+    "artwork_type": "relief",
+    "historic": "memorial",
+    "material": "metal",
+    "memorial": "plaque",
+    "name": "Ramalho Ortigão",
+    "ref:cmp:mip": "s/n",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:Ramalho Ortigão (1).jpg"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "semtitulo",
+  "n": "Sem título",
+  "a": "",
+  "pc": "",
+  "lat": 41.15293,
+  "lng": -8.59702,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Sem título Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4452315972",
+   "raw": {
+    "addr:place": "Jardim Paulo Vallada",
+    "artist_name": "Zulmiro de Carvalho",
+    "artwork_type": "sculpture",
+    "material": "granite",
+    "name": "Sem título",
+    "ownership": "public",
+    "ref:cmp:map": "22",
+    "ref:cmp:mip": "86",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1985",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:Jardim Paulo Vallada 1.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museudopapelmoeda",
+  "n": "Museu do Papel Moeda",
+  "a": "",
+  "pc": "",
+  "lat": 41.1645,
+  "lng": -8.67351,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museu do Papel Moeda Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4458159321",
+   "raw": {
+    "addr:city": "Porto",
+    "addr:housenumber": "4245",
+    "addr:postcode": "4100-140",
+    "addr:street": "Avenida da Boavista",
+    "fee": "yes",
+    "name": "Museu do Papel Moeda",
+    "phone": "+351 226 101 189",
+    "tourism": "museum",
+    "website": "https://www.facm.pt/facm/facm/pt/index",
+    "wheelchair": "yes",
+    "wikidata": "Q114421818",
+    "wikimedia_commons": "Category:Museu do Papel Moeda"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pantera",
+  "n": "Pantera",
+  "a": "",
+  "pc": "",
+  "lat": 41.16281,
+  "lng": -8.64318,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Pantera Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4463821659",
+   "raw": {
+    "artist_name": "José Rodrigues",
+    "artwork_type": "sculpture",
+    "material": "bronze",
+    "name": "Pantera",
+    "ref:cmp:map": "187",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "tourism": "artwork",
+    "wheelchair": "limited",
+    "wikimedia_commons": "File:Hear me roar (5589617990).jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "afonsocosta",
+  "n": "Afonso Costa",
+  "a": "",
+  "pc": "",
+  "lat": 41.14904,
+  "lng": -8.59885,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Afonso Costa Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4464111380",
+   "raw": {
+    "addr:street": "Campo de Vinte e Quatro de Agosto",
+    "alt_name": "Estátua de Afonso Costa",
+    "artist_name": "Laureano Ribatua (Laureano Eduardo Pinto Guedes)",
+    "historic": "memorial",
+    "image": "https://commons.wikimedia.org/wiki/File:Est%C3%A1tua_de_Afonso_Costa_(2).jpg",
+    "material": "metal",
+    "memorial": "statue",
+    "name": "Afonso Costa",
+    "ownership": "public",
+    "ref:cmp:map": "21",
+    "ref:cmp:mip": "4",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1988-10-05",
+    "wikimedia_commons": "Category:Statue of Afonso Costa"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaoempresario",
+  "n": "Monumento ao Empresário",
+  "a": "",
+  "pc": "",
+  "lat": 41.15593,
+  "lng": -8.58517,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Monumento ao Empresário Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4467927891",
+   "raw": {
+    "access": "yes",
+    "addr:street": "Avenida da Boavista",
+    "amenity": "fountain",
+    "artist_name": "José Rodrigues",
+    "artwork_type": "sculpture",
+    "description": "Da autoria do artista José Rodrigues, o Monumento ao Empresário estava implantado, desde 1992, na zona da Boavista. Com 10 e 18 metros de altura e uma esfera revestida a granito, com 3,5 metros de diâmetro.",
+    "fountain": "decorative",
+    "historic": "monument",
+    "memorial": "sculpture",
+    "name": "Monumento ao Empresário",
+    "ownership": "public",
+    "ref:cmp:map": "198",
+    "ref:cmp:mip": "24",
+    "source:url": "https://cms.porto.pt/documents/Mapa_de_Arte_Publica_Porto_Rotas.pdf",
+    "start_date": "1992-10-31",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:Monumento_ao_Empresario.jpg",
+    "year_of_construction": "1992"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vilanovadegaia",
+  "n": "Vila Nova de Gaia",
+  "a": "",
+  "pc": "",
+  "lat": 41.13333,
+  "lng": -8.61667,
+  "c": "oddity",
+  "s": "municipality in Portugal",
+  "q": "Vila Nova de Gaia Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q191135",
+   "raw": "municipality in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vilanovadegaiatrainstati",
+  "n": "Vila Nova de Gaia train station",
+  "a": "",
+  "pc": "",
+  "lat": 41.1299,
+  "lng": -8.62036,
+  "c": "oddity",
+  "s": "railway station in Portugal",
+  "q": "Vila Nova de Gaia train station Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q643642",
+   "raw": "railway station in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "caisdegaia",
+  "n": "Cais de Gaia",
+  "a": "",
+  "pc": "",
+  "lat": 41.13762,
+  "lng": -8.61725,
+  "c": "oddity",
+  "s": "human settlement in Portugal",
+  "q": "Cais de Gaia Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1025982",
+   "raw": "human settlement in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "madalena",
+  "n": "Madalena",
+  "a": "",
+  "pc": "",
+  "lat": 41.10633,
+  "lng": -8.64295,
+  "c": "oddity",
+  "s": "civil parish in Vila Nova de Gaia",
+  "q": "Madalena Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1883167",
+   "raw": "civil parish in Vila Nova de Gaia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "freguesiademafamude",
+  "n": "Freguesia de Mafamude",
+  "a": "",
+  "pc": "",
+  "lat": 41.11521,
+  "lng": -8.6036,
+  "c": "oddity",
+  "s": "civil parish in Portugal",
+  "q": "Freguesia de Mafamude Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1883686",
+   "raw": "civil parish in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "freguesiadesantamarinha",
+  "n": "Freguesia de Santa Marinha",
+  "a": "",
+  "pc": "",
+  "lat": 41.13048,
+  "lng": -8.61749,
+  "c": "oddity",
+  "s": "former civil parish in Vila Nova de Gaia, Portugal",
+  "q": "Freguesia de Santa Marinha Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1905452",
+   "raw": "former civil parish in Vila Nova de Gaia, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "freguesiadevilardoparais",
+  "n": "Freguesia de Vilar do Paraíso",
+  "a": "",
+  "pc": "",
+  "lat": 41.10778,
+  "lng": -8.61972,
+  "c": "oddity",
+  "s": "civil parish in Portugal",
+  "q": "Freguesia de Vilar do Paraíso Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1962829",
+   "raw": "civil parish in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "canidelo",
+  "n": "Canidelo",
+  "a": "",
+  "pc": "",
+  "lat": 41.13528,
+  "lng": -8.65111,
+  "c": "oddity",
+  "s": "civil parish in Vila Nova de Gaia",
+  "q": "Canidelo Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2259985",
+   "raw": "civil parish in Vila Nova de Gaia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rtp2",
+  "n": "RTP2",
+  "a": "",
+  "pc": "",
+  "lat": 41.11221,
+  "lng": -8.59839,
+  "c": "oddity",
+  "s": "second television channel of Rádio e Televisão de Portugal, ",
+  "q": "RTP2 Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2481730",
+   "raw": "second television channel of Rádio e Televisão de Portugal, public broadcasting corporation",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "coimbroeshalt",
+  "n": "Coimbrões Halt",
+  "a": "",
+  "pc": "",
+  "lat": 41.1242,
+  "lng": -8.63389,
+  "c": "oddity",
+  "s": "railway halt in Portugal",
+  "q": "Coimbrões Halt Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2919834",
+   "raw": "railway halt in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gaiashopping",
+  "n": "GaiaShopping",
+  "a": "",
+  "pc": "",
+  "lat": 41.11839,
+  "lng": -8.62049,
+  "c": "oddity",
+  "s": "shopping center in Vila Nova de Gaia, Portugal",
+  "q": "GaiaShopping Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3094356",
+   "raw": "shopping center in Vila Nova de Gaia, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "generaltorrestrainstatio",
+  "n": "General Torres train station",
+  "a": "",
+  "pc": "",
+  "lat": 41.1331,
+  "lng": -8.60917,
+  "c": "oddity",
+  "s": "railway station in Vila Nova de Gaia, Portugal",
+  "q": "General Torres train station Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5576787",
+   "raw": "railway station in Vila Nova de Gaia, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "madalenahalt",
+  "n": "Madalena Halt",
+  "a": "",
+  "pc": "",
+  "lat": 41.1114,
+  "lng": -8.6375,
+  "c": "oddity",
+  "s": "railway halt in Portugal",
+  "q": "Madalena Halt Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8202390",
+   "raw": "railway halt in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "casamuseuteixeiralopes",
+  "n": "Casa-Museu Teixeira Lopes",
+  "a": "",
+  "pc": "",
+  "lat": 41.12837,
+  "lng": -8.6114,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Casa-Museu Teixeira Lopes Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q9698022",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "casaejardinsdafamiliabar",
+  "n": "Casa e jardins da família Barbot",
+  "a": "",
+  "pc": "",
+  "lat": 41.13315,
+  "lng": -8.60755,
+  "c": "oddity",
+  "s": "building in Vila Nova de Gaia, Porto District, Portugal",
+  "q": "Casa e jardins da família Barbot Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q9698045",
+   "raw": "building in Vila Nova de Gaia, Porto District, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "djoaoiimetrostation",
+  "n": "D. João II metro station",
+  "a": "",
+  "pc": "",
+  "lat": 41.11963,
+  "lng": -8.60621,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "D. João II metro station Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10275683",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santoovidiometrostation",
+  "n": "Santo Ovídio metro station",
+  "a": "",
+  "pc": "",
+  "lat": 41.11552,
+  "lng": -8.60661,
+  "c": "oddity",
+  "s": "light rail station on the Porto Metro in Porto, Portugal",
+  "q": "Santo Ovídio metro station Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10276303",
+   "raw": "light rail station on the Porto Metro in Porto, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "1947wreckage",
+  "n": "1947 wreckage",
+  "a": "",
+  "pc": "",
+  "lat": 41.10814,
+  "lng": -8.69668,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "1947 wreckage Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10335801",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "uticuniaodetransportador",
+  "n": "UTIC - União de Transportadores para Importação e Comércio Lda.",
+  "a": "",
+  "pc": "",
+  "lat": 41.10744,
+  "lng": -8.60393,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "UTIC - União de Transportadores para Importação e Comércio Lda. Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10388124",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "antigoconventodecorpusch",
+  "n": "Antigo Convento de Corpus Christi",
+  "a": "",
+  "pc": "",
+  "lat": 41.13642,
+  "lng": -8.61781,
+  "c": "oddity",
+  "s": "building in Vila Nova de Gaia, Porto District, Portugal",
+  "q": "Antigo Convento de Corpus Christi Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17117445",
+   "raw": "building in Vila Nova de Gaia, Porto District, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mafamudeevilardoparaiso",
+  "n": "Mafamude e Vilar do Paraíso",
+  "a": "",
+  "pc": "",
+  "lat": 41.11,
+  "lng": -8.61,
+  "c": "oddity",
+  "s": "former civil parish in Vila Nova de Gaia",
+  "q": "Mafamude e Vilar do Paraíso Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18351460",
+   "raw": "former civil parish in Vila Nova de Gaia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "unidadelocaldesaudedegai",
+  "n": "Unidade Local de Saúde de Gaia e Espinho",
+  "a": "",
+  "pc": "",
+  "lat": 41.10491,
+  "lng": -8.59181,
+  "c": "oddity",
+  "s": "sNS unit that provides primary, hospital and continuous care",
+  "q": "Unidade Local de Saúde de Gaia e Espinho Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30281678",
+   "raw": "SNS unit that provides primary, hospital and continuous care in the cities of Gaia and Espinho, in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vilardeandorinho",
+  "n": "Vilar de Andorinho",
+  "a": "",
+  "pc": "",
+  "lat": 41.1075,
+  "lng": -8.59639,
+  "c": "oddity",
+  "s": "human settlement in Portugal",
+  "q": "Vilar de Andorinho Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q33511867",
+   "raw": "human settlement in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vilardoparaiso",
+  "n": "Vilar do Paraíso",
+  "a": "",
+  "pc": "",
+  "lat": 41.11007,
+  "lng": -8.61901,
+  "c": "oddity",
+  "s": "human settlement in Portugal",
+  "q": "Vilar do Paraíso Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q33511875",
+   "raw": "human settlement in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "manuelleaometrostation",
+  "n": "Manuel Leão metro station",
+  "a": "",
+  "pc": "",
+  "lat": 41.11065,
+  "lng": -8.60003,
+  "c": "oddity",
+  "s": "metro station in the Porto Metro",
+  "q": "Manuel Leão metro station Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q56346149",
+   "raw": "Metro station in the Porto Metro",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "complexodafabricadeceram",
+  "n": "Complexo da Fábrica de Cerâmica e de Fundição das Devesas",
+  "a": "",
+  "pc": "",
+  "lat": 41.12821,
+  "lng": -8.61689,
+  "c": "history",
+  "s": "cultural heritage monument in Vila Nova de Gaia, Portugal",
+  "q": "Complexo da Fábrica de Cerâmica e de Fundição das Devesas Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66814847",
+   "raw": "cultural heritage monument in Vila Nova de Gaia, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pacodocampobeloincluindo",
+  "n": "Paço do Campo Belo, incluindo a capela e todo o seu conjunto circundante, nomeadamente os jardins",
+  "a": "",
+  "pc": "",
+  "lat": 41.1371,
+  "lng": -8.62263,
+  "c": "history",
+  "s": "cultural heritage monument in Vila Nova de Gaia, Portugal",
+  "q": "Paço do Campo Belo, incluindo a capela e todo o seu conjunto circundante, nomeadamente os jardins Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66814844",
+   "raw": "cultural heritage monument in Vila Nova de Gaia, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "casadofojo",
+  "n": "Casa do Fojo",
+  "a": "",
+  "pc": "",
+  "lat": 41.117,
+  "lng": -8.64512,
+  "c": "history",
+  "s": "cultural heritage monument in Vila Nova de Gaia, Portugal",
+  "q": "Casa do Fojo Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66814845",
+   "raw": "cultural heritage monument in Vila Nova de Gaia, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "escolaprimariadocedro",
+  "n": "Escola Primária do Cedro",
+  "a": "",
+  "pc": "",
+  "lat": 41.13596,
+  "lng": -8.633,
+  "c": "history",
+  "s": "cultural heritage monument in Vila Nova de Gaia, Portugal",
+  "q": "Escola Primária do Cedro Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66814849",
+   "raw": "cultural heritage monument in Vila Nova de Gaia, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ramospintowinecellars",
+  "n": "Ramos Pinto wine cellars",
+  "a": "",
+  "pc": "",
+  "lat": 41.13699,
+  "lng": -8.6155,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Ramos Pinto wine cellars Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q76947459",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "antigopostofiscaldelavad",
+  "n": "Antigo Posto Fiscal de Lavadores",
+  "a": "",
+  "pc": "",
+  "lat": 41.1366,
+  "lng": -8.6688,
+  "c": "oddity",
+  "s": "building in Portugal",
+  "q": "Antigo Posto Fiscal de Lavadores Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q96572430",
+   "raw": "building in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cttdevilanovadegaia",
+  "n": "CTT de Vila Nova de Gaia",
+  "a": "",
+  "pc": "",
+  "lat": 41.12593,
+  "lng": -8.61672,
+  "c": "oddity",
+  "s": "building in Portugal",
+  "q": "CTT de Vila Nova de Gaia Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q96639898",
+   "raw": "building in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "escolaindustrialecomerci",
+  "n": "Escola Industrial e Comercial de Vila Nova de Gaia",
+  "a": "",
+  "pc": "",
+  "lat": 41.1222,
+  "lng": -8.61328,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Escola Industrial e Comercial de Vila Nova de Gaia Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98310000",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "casasnogavetodaruaconsel",
+  "n": "Casas no Gaveto da Rua Conselheiro Veloso da Cruz e Rua de Almeida Costa",
+  "a": "",
+  "pc": "",
+  "lat": 41.1294,
+  "lng": -8.61603,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Casas no Gaveto da Rua Conselheiro Veloso da Cruz e Rua de Almeida Costa Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q105376758",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "quintaecasadosmaravedis",
+  "n": "Quinta e Casa dos Maravedis",
+  "a": "",
+  "pc": "",
+  "lat": 41.12499,
+  "lng": -8.61413,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Quinta e Casa dos Maravedis Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q108278801",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "holidayinnportogaia",
+  "n": "Holiday Inn Porto Gaia",
+  "a": "",
+  "pc": "",
+  "lat": 41.12386,
+  "lng": -8.61464,
+  "c": "oddity",
+  "s": "hotel in Mafamude, Portugal",
+  "q": "Holiday Inn Porto Gaia Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111408639",
+   "raw": "hotel in Mafamude, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hotelblacktulipportogaia",
+  "n": "Hotel Black Tulip - Porto Gaia",
+  "a": "",
+  "pc": "",
+  "lat": 41.12075,
+  "lng": -8.60646,
+  "c": "oddity",
+  "s": "hotel in Mafamude, Portugal",
+  "q": "Hotel Black Tulip - Porto Gaia Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111871006",
+   "raw": "hotel in Mafamude, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parkhotelportogaia",
+  "n": "Park Hotel Porto Gaia",
+  "a": "",
+  "pc": "",
+  "lat": 41.12656,
+  "lng": -8.63514,
+  "c": "green",
+  "s": "hotel in Vila Nova de Gaia, Portugal",
+  "q": "Park Hotel Porto Gaia Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111871007",
+   "raw": "hotel in Vila Nova de Gaia, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "goldentulipportogaiahote",
+  "n": "Golden Tulip Porto Gaia Hotel & Spa",
+  "a": "",
+  "pc": "",
+  "lat": 41.13084,
+  "lng": -8.66805,
+  "c": "oddity",
+  "s": "hotel in Vila Nova de Gaia, Portugal",
+  "q": "Golden Tulip Porto Gaia Hotel & Spa Porto",
+  "w": "",
+  "city": "porto",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111871009",
+   "raw": "hotel in Vila Nova de Gaia, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

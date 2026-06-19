@@ -1,0 +1,4030 @@
+[
+ {
+  "id": "mk2palaciodehielo",
+  "n": "mk2 Palacio de Hielo",
+  "a": "",
+  "pc": "",
+  "lat": 40.46314,
+  "lng": -3.6361,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "mk2 Palacio de Hielo Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/25931627",
+   "raw": {
+    "amenity": "cinema",
+    "name": "mk2 Palacio de Hielo"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "selfiewallfiction",
+  "n": "SelfieWallFiction",
+  "a": "",
+  "pc": "",
+  "lat": 40.43654,
+  "lng": -3.70672,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "SelfieWallFiction Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/26242740",
+   "raw": {
+    "barrier": "gate",
+    "name": "SelfieWallFiction",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "multicineslavaguada",
+  "n": "Multicines La Vaguada",
+  "a": "",
+  "pc": "",
+  "lat": 40.47984,
+  "lng": -3.70744,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Multicines La Vaguada Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/26261493",
+   "raw": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "36",
+    "addr:postcode": "28029",
+    "addr:street": "Avenida de Monforte de Lemos",
+    "addr:unit": "Planta 2 Local 21-22",
+    "amenity": "cinema",
+    "level": "2",
+    "name": "Multicines La Vaguada"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquianuestrasenorade",
+  "n": "Parroquia Nuestra Señora de Luján",
+  "a": "",
+  "pc": "",
+  "lat": 40.47606,
+  "lng": -3.71277,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia Nuestra Señora de Luján Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/26261496",
+   "raw": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "49",
+    "addr:postcode": "28029",
+    "addr:street": "Calle de Ponferrada",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "contact:email": "lujan@archimadrid.es",
+    "denomination": "roman_catholic",
+    "email": "pdelujan@telefonica.net",
+    "name": "Parroquia Nuestra Señora de Luján",
+    "phone": "+34 91 386 04 78",
+    "religion": "christian",
+    "source:addr": "Ayuntamiento de Madrid",
+    "source:date:addr": "2013-05-01",
+    "source:date:email": "2013-05-01",
+    "source:date:phone": "2013-05-01",
+    "source:date:url": "2013-05-01",
+    "source:email": "Ayuntamiento de Madrid",
+    "source:phone": "Ayuntamiento de Madrid",
+    "source:url": "Ayuntamiento de Madrid",
+    "url": "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6e40ef4d7f71c010VgnVCM1000000b205a0aRCRD"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "filmotecanacional",
+  "n": "Filmoteca Nacional",
+  "a": "",
+  "pc": "",
+  "lat": 40.41221,
+  "lng": -3.70211,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Filmoteca Nacional Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/26340398",
+   "raw": {
+    "amenity": "cinema",
+    "check_date": "2025-02-13",
+    "created_by": "JOSM",
+    "name": "Filmoteca Nacional",
+    "name:etymology:wikidata": "Q5449162",
+    "name:pl": "Filmoteka Narodowa",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoajosecalvosotel",
+  "n": "Monumento a José Calvo Sotelo",
+  "a": "",
+  "pc": "",
+  "lat": 40.46519,
+  "lng": -3.68942,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento a José Calvo Sotelo Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/56179859",
+   "raw": {
+    "historic": "monument",
+    "name": "Monumento a José Calvo Sotelo"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanfranciscojavier",
+  "n": "San Francisco Javier",
+  "a": "",
+  "pc": "",
+  "lat": 40.47087,
+  "lng": -3.69125,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "San Francisco Javier Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/141678312",
+   "raw": {
+    "artist_name": "Pablo Serrano",
+    "artwork_type": "sculpture",
+    "name": "San Francisco Javier",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "homenajealasvictimasespa",
+  "n": "Homenaje a las víctimas españolas que murieron en el campo de concentración nazi de Mauthausen-Gusen",
+  "a": "",
+  "pc": "",
+  "lat": 40.4501,
+  "lng": -3.72643,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Homenaje a las víctimas españolas que murieron en el campo de concentración nazi de Mauthausen-Gusen Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/153061345",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Homenaje a las víctimas españolas que murieron en el campo de concentración nazi de Mauthausen-Gusen",
+    "wheelchair": "limited"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museocasadelamoneda",
+  "n": "Museo Casa de la Moneda",
+  "a": "",
+  "pc": "",
+  "lat": 40.4226,
+  "lng": -3.66915,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Casa de la Moneda Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/158849464",
+   "raw": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "36",
+    "addr:postcode": "28009",
+    "addr:street": "Calle del Doctor Esquerdo",
+    "addr:suburb": "Goya",
+    "description": "El Museo Casa de la Moneda alberga colecciones numismáticas y de artes gráficas: importantes dibujos, estampas, loterías, sellos. Posiblemente sea la mayor exposición numismática del mundo, cubriendo la historia de la moneda desde el siglo VII a. C.",
+    "email": "museo@fnmt.es",
+    "fax": "+34 915 66 68 09",
+    "name": "Museo Casa de la Moneda",
+    "opening_hours": "Tu-Fr 10:00-17:30; Sa-Su 10:00-14:00; PH 10:00-14:00; Jan 01,06,Mar 19,Dec 24,25,31 off",
+    "source": "Ayuntamiento de Madrid",
+    "tourism": "museum",
+    "url": "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=12f8ef4d7f71c010VgnVCM1000000b205a0aRCRD",
+    "website": "https://www.museocasadelamoneda.es",
+    "wheelchair": "yes",
+    "wikidata": "Q39072661",
+    "wikimedia_commons": "Category:Museo Casa de la Moneda",
+    "wikipedia": "es:Museo Casa de la Moneda"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaclaudiomoyano",
+  "n": "Monumento a Claudio Moyano",
+  "a": "",
+  "pc": "",
+  "lat": 40.40932,
+  "lng": -3.69151,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Monumento a Claudio Moyano Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/167301842",
+   "raw": {
+    "artist_name": "Agustín Querol",
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Monumento a Claudio Moyano",
+    "name:es": "Monumento a Claudio Moyano",
+    "name:ru": "Памятник Клаудио Мояно",
+    "start_date": "1899",
+    "tourism": "artwork",
+    "wikidata": "Q52301686",
+    "wikimedia_commons": "Category:Monument to Claudio Moyano",
+    "wikipedia": "es:Monumento a Claudio Moyano (Madrid)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cineestudio",
+  "n": "Cine Estudio",
+  "a": "",
+  "pc": "",
+  "lat": 40.41805,
+  "lng": -3.69627,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cine Estudio Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/167302955",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Cine Estudio"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinecapitol",
+  "n": "Cine Capitol",
+  "a": "",
+  "pc": "",
+  "lat": 40.42051,
+  "lng": -3.70668,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cine Capitol Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/184049531",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Cine Capitol",
+    "source": "knowledge",
+    "wheelchair": "yes",
+    "wikidata": "Q5769473",
+    "wikimedia_commons": "Category:Cine Capitol, Madrid",
+    "wikipedia": "es:Cine Capitol"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "capilladesanezequielmore",
+  "n": "Capilla de San Ezequiel Moreno",
+  "a": "",
+  "pc": "",
+  "lat": 40.44504,
+  "lng": -3.61755,
+  "c": "faith",
+  "s": "church",
+  "q": "Capilla de San Ezequiel Moreno Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/211230234",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "JOSM",
+    "name": "Capilla de San Ezequiel Moreno",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museoarqueologiconaciona",
+  "n": "Museo Arqueológico Nacional",
+  "a": "",
+  "pc": "",
+  "lat": 40.42343,
+  "lng": -3.68889,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Arqueológico Nacional Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/255288522",
+   "raw": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "13",
+    "addr:postcode": "28001",
+    "addr:street": "Calle de Serrano",
+    "addr:suburb": "Recoletos",
+    "air_conditioning": "yes",
+    "check_date": "2025-02-26",
+    "description": "Fundado en 1867, el MAN se inauguró en 1895 en su actual sede, en el Palacio de Biblioteca y Museos, edificio proyectado por Francisco Jareño y terminado por Antonio Ruiz de Salces. Visitas para grupos previa concertación de cita.",
+    "email": "sugerencias@man.es",
+    "fax": "+34 914326840",
+    "fee": "no",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "internet_access:ssid": "MAN-Publico",
+    "museum": "archaeological",
+    "name": "Museo Arqueológico Nacional",
+    "name:de": "Archäologisches Nationalmuseum",
+    "name:en": "National Archaeological Museum of Spain",
+    "name:es": "Museo Arqueológico Nacional",
+    "name:fr": "Musée archéologique national",
+    "name:pl": "Narodowe Muzeum Archeologiczne",
+    "name:zh": "国立考古博物馆",
+    "name:zh-Hant": "國立考古博物館",
+    "opening_hours": "Mo off; Tu-Sa 09:30-20:00; Su 09:30-15:00; PH 09:30-15:00; Jan 01,06,May 01,Dec 24,25,31 off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+34 915 77 79 12",
+    "source": "Ayuntamiento de Madrid",
+    "toilets": "yes",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "url": "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8fd8ef4d7f71c010VgnVCM1000000b205a0aRCRD",
+    "website": "http://man.mcu.es/",
+    "wheelchair": "yes",
+    "wikidata": "Q1352282",
+    "wikimedia_commons": "Category:Museo Arqueológico Nacional de España",
+    "wikipedia": "es:Museo Arqueológico Nacional (España)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nuestrasenoradevalverde",
+  "n": "Nuestra Señora de Valverde",
+  "a": "",
+  "pc": "",
+  "lat": 40.51558,
+  "lng": -3.68556,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Nuestra Señora de Valverde Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/282708254",
+   "raw": {
+    "historic": "monument",
+    "name": "Nuestra Señora de Valverde"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoalaconstitucion",
+  "n": "Monumento a la Constitución",
+  "a": "",
+  "pc": "",
+  "lat": 40.44094,
+  "lng": -3.69083,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Monumento a la Constitución Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/300752139",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Monumento a la Constitución",
+    "name:es": "Monumento a la Constitución",
+    "name:ru": "Памятник Конституции",
+    "tourism": "artwork",
+    "wikipedia": "es:Monumento a la Constitución de 1978 de Madrid"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinesamanoteras",
+  "n": "Cinesa Manoteras",
+  "a": "",
+  "pc": "",
+  "lat": 40.48603,
+  "lng": -3.66564,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinesa Manoteras Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/303820901",
+   "raw": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "40",
+    "addr:postcode": "28050",
+    "addr:street": "Avenida de Manoteras",
+    "amenity": "cinema",
+    "brand": "Cinesa",
+    "brand:wikidata": "Q20732115",
+    "name": "Cinesa Manoteras",
+    "website": "https://www.cinesa.es/Cines/Manoteras/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquianuestrasenorade2",
+  "n": "Parroquia Nuestra Señora del Carmen",
+  "a": "",
+  "pc": "",
+  "lat": 40.44596,
+  "lng": -3.80277,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia Nuestra Señora del Carmen Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/309437046",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10f",
+    "denomination": "catholic",
+    "name": "Parroquia Nuestra Señora del Carmen",
+    "religion": "christian",
+    "wikidata": "Q48815797"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sextaesclusadelrealcanal",
+  "n": "Sexta Esclusa del Real Canal de Manzanares",
+  "a": "",
+  "pc": "",
+  "lat": 40.33241,
+  "lng": -3.65001,
+  "c": "canals",
+  "s": "canal",
+  "q": "Sexta Esclusa del Real Canal de Manzanares Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/311307553",
+   "raw": {
+    "historic": "monument",
+    "name": "Sexta Esclusa del Real Canal de Manzanares"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "septimaesclusadelrealcan",
+  "n": "Séptima Esclusa del Real Canal de Manzanares",
+  "a": "",
+  "pc": "",
+  "lat": 40.32774,
+  "lng": -3.64104,
+  "c": "canals",
+  "s": "canal",
+  "q": "Séptima Esclusa del Real Canal de Manzanares Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/311307556",
+   "raw": {
+    "historic": "monument",
+    "name": "Séptima Esclusa del Real Canal de Manzanares"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cuartaesclusadelrealcana",
+  "n": "Cuarta Esclusa del Real Canal de Manzanares",
+  "a": "",
+  "pc": "",
+  "lat": 40.35208,
+  "lng": -3.6723,
+  "c": "canals",
+  "s": "canal",
+  "q": "Cuarta Esclusa del Real Canal de Manzanares Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/311307641",
+   "raw": {
+    "historic": "monument",
+    "name": "Cuarta Esclusa del Real Canal de Manzanares"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "laatalaya",
+  "n": "La Atalaya",
+  "a": "",
+  "pc": "",
+  "lat": 40.37768,
+  "lng": -3.68658,
+  "c": "view",
+  "s": "hilltop viewpoint",
+  "q": "La Atalaya Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/316810700",
+   "raw": {
+    "ele": "587",
+    "name": "La Atalaya",
+    "natural": "peak",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "miradordetiernogalvan",
+  "n": "Mirador de Tierno Galván",
+  "a": "",
+  "pc": "",
+  "lat": 40.39493,
+  "lng": -3.68616,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Mirador de Tierno Galván Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/317381105",
+   "raw": {
+    "name": "Mirador de Tierno Galván",
+    "name:ru": "Парк имени Энрике Тьерно Гальвана",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museodelferrocarrildemad",
+  "n": "Museo del Ferrocarril de Madrid",
+  "a": "",
+  "pc": "",
+  "lat": 40.39932,
+  "lng": -3.69215,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo del Ferrocarril de Madrid Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/317911511",
+   "raw": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "61",
+    "addr:postcode": "28045",
+    "addr:street": "Paseo de las Delicias",
+    "addr:suburb": "Delicias",
+    "check_date": "2025-12-27",
+    "description": "Edificio de caracter monumental. Construido como cabecera de la línea Madrid-Extremadura-Portugal en el año 1880 por E. Cachelievre. Expone un parque ferroviario y cuenta con salas de Tracción, de Modelismo Ferroviario, de Infraestructura y de Relojes.",
+    "email": "museodelicias@ffe.es",
+    "fee": "yes",
+    "museum": "railway",
+    "name": "Museo del Ferrocarril de Madrid",
+    "name:it": "Museo ferroviario di Madrid",
+    "name:ru": "Музей железной дороги Мадрида",
+    "opening_hours": "Oct 01-May 31: Mo-Th 09:30-15:00; Oct 01-May 31: PH,Fr,Sa,Su 09:30-18:00; Jun 01-Sep 30: Tu-Su 10:00-15:00; Aug 16-31,Jan 01,06,May 01,Dec 25 off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "source:addr": "Ayuntamiento de Madrid",
+    "source:description": "Ayuntamiento de Madrid",
+    "source:email": "Ayuntamiento de Madrid",
+    "source:opening_hours": "Ayuntamiento de Madrid",
+    "source:wheelchair": "Ayuntamiento de Madrid",
+    "tourism": "museum",
+    "url": "http://www.museodelferrocarril.org",
+    "wheelchair": "yes",
+    "wikidata": "Q6034436",
+    "wikimedia_commons": "Category:Museo del Ferrocarril (Madrid)",
+    "wikipedia": "es:Museo del Ferrocarril de Madrid"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chimeneadelantiguogasome",
+  "n": "Chimenea del antiguo Gasómetro",
+  "a": "",
+  "pc": "",
+  "lat": 40.40539,
+  "lng": -3.70926,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Chimenea del antiguo Gasómetro Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/319484429",
+   "raw": {
+    "historic": "yes",
+    "man_made": "chimney",
+    "name": "Chimenea del antiguo Gasómetro"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "miradoresteparqueenrique",
+  "n": "Mirador Este Parque Enrique Tierno Galván",
+  "a": "",
+  "pc": "",
+  "lat": 40.38859,
+  "lng": -3.68287,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Mirador Este Parque Enrique Tierno Galván Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/324814372",
+   "raw": {
+    "name": "Mirador Este Parque Enrique Tierno Galván",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaloscaidospores",
+  "n": "Monumento a los Caídos por España",
+  "a": "",
+  "pc": "",
+  "lat": 40.41639,
+  "lng": -3.69288,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento a los Caídos por España Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/325076341",
+   "raw": {
+    "historic": "monument",
+    "loc_name": "La llama eterna",
+    "man_made": "obelisk",
+    "name": "Monumento a los Caídos por España",
+    "old_name": "Monumento a los Héroes del Dos de Mayo",
+    "wikidata": "Q3034186",
+    "wikimedia_commons": "Category:Monumento a los Caídos por España, Madrid",
+    "wikipedia": "es:Monumento a los Caídos por España"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alosheroesdel2demayo1808",
+  "n": "A los héroes del 2 de mayo 1808",
+  "a": "",
+  "pc": "",
+  "lat": 40.41865,
+  "lng": -3.71329,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "A los héroes del 2 de mayo 1808 Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/343664154",
+   "raw": {
+    "description:es": "A los héroes populares que el 2 de mayo de 1808 iniciaron en este mismo lugar la protesta y sacrificio contra las tropas extranjeras. El círculo de bellas artes 1908. Repuesta por el ayuntamiento de Madrid 1947",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "A los héroes del 2 de mayo 1808"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ermitadenuestrasenoradeb",
+  "n": "Ermita de Nuestra Señora de Butarque",
+  "a": "",
+  "pc": "",
+  "lat": 40.34276,
+  "lng": -3.76248,
+  "c": "faith",
+  "s": "church",
+  "q": "Ermita de Nuestra Señora de Butarque Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/387455986",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Ermita de Nuestra Señora de Butarque",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dedos",
+  "n": "Dedos",
+  "a": "",
+  "pc": "",
+  "lat": 40.46163,
+  "lng": -3.60846,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Dedos Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/485099151",
+   "raw": {
+    "artist_name": "Mario Irrazábal",
+    "artwork_type": "sculpture",
+    "material": "stone",
+    "name": "Dedos",
+    "start_date": "1994",
+    "tourism": "artwork",
+    "website": "https://patrimonioypaisaje.madrid.es/portales/monumenta/es/Monumentos-y-Edificios-Historicos/Monumentos-urbanos/Dedos/?vgnextfmt=default&vgnextoid=8938091d1b9c4510091d1b9c45102e085a0aRCRD&vgnextchannel=8fac3cb702aa4510VgnVCM1000008a4a900aRCRD",
+    "wikidata": "Q110746628"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "estatuadelamariblanca",
+  "n": "Estatua de la Mariblanca",
+  "a": "",
+  "pc": "",
+  "lat": 40.41686,
+  "lng": -3.70456,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Estatua de la Mariblanca Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/574663652",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Estatua de la Mariblanca",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wheelchair:description": "Pedestrian area with some cobbles.",
+    "wikidata": "Q5848893",
+    "wikimedia_commons": "Category:Mariblanca, Madrid",
+    "wikipedia": "es:Estatua y fuentes de la Mariblanca"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "restosdelmurodeberlin",
+  "n": "Restos del Muro de Berlín",
+  "a": "",
+  "pc": "",
+  "lat": 40.45119,
+  "lng": -3.67513,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Restos del Muro de Berlín Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/574683308",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "EN MEMORIA DEL DERRIBO DEL MURO DE BERLIN PARTE DE EL QUEDA AQUI MADRID 9 DE NOVIEMBRE DE 1990",
+    "material": "concrete",
+    "memorial": "war_memorial",
+    "name": "Restos del Muro de Berlín",
+    "wikidata": "Q56550011",
+    "wikimedia_commons": "Category:Berlin Wall segments in Madrid"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoenhonoralosabog",
+  "n": "Monumento en honor a los abogados de Atocha",
+  "a": "",
+  "pc": "",
+  "lat": 40.4124,
+  "lng": -3.69933,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento en honor a los abogados de Atocha Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/614121472",
+   "raw": {
+    "addr:city": "Madrid",
+    "description": "Homenaje a los cinco abogados laboralistas asesinados en Atocha en 1977",
+    "description:es": "Homenaje a los cinco abogados laboralistas asesinados en Atocha en 1977",
+    "historic": "memorial",
+    "memorial": "statue",
+    "memorial:addr": "Calle de Atocha 52, 28012, Madrid, ES",
+    "name": "Monumento en honor a los abogados de Atocha",
+    "source": "wikipedia;PNOA",
+    "start_date": "2003-06-10",
+    "wheelchair": "yes",
+    "wheelchair:description": "Close to steps into Metro.",
+    "wikidata": "Q886485",
+    "wikimedia_commons": "File:HomenajeMatanzaAtocha.jpg",
+    "wikipedia": "es:Matanza de Atocha de 1977"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinesprincesa",
+  "n": "Cines Princesa",
+  "a": "",
+  "pc": "",
+  "lat": 40.42498,
+  "lng": -3.71293,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cines Princesa Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/622204565",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Cines Princesa",
+    "survey:date": "2025-09-21",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "donquijoteysanchopanza",
+  "n": "Don Quijote y Sancho Panza",
+  "a": "",
+  "pc": "",
+  "lat": 40.42312,
+  "lng": -3.71272,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Don Quijote y Sancho Panza Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/622204610",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Don Quijote y Sancho Panza",
+    "name:en": "Don Quixote and Sancho Panza",
+    "name:ko": "스페인 광장",
+    "tourism": "artwork",
+    "wikimedia_commons": "Category:Statues of Don Quixote and Sancho Panza (Monument to Miguel de Cervantes, Madrid)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "capilladelavemaria",
+  "n": "Capilla del Ave María",
+  "a": "",
+  "pc": "",
+  "lat": 40.41387,
+  "lng": -3.70383,
+  "c": "faith",
+  "s": "church",
+  "q": "Capilla del Ave María Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/622204627",
+   "raw": {
+    "addr:street": "Calle del Doctor Cortezo",
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "Capilla del Ave María",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lordbadenpowell",
+  "n": "Lord Baden Powell",
+  "a": "",
+  "pc": "",
+  "lat": 40.40864,
+  "lng": -3.76059,
+  "c": "history",
+  "s": "old well",
+  "q": "Lord Baden Powell Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/623071196",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Lord Baden Powell",
+    "subject:wikidata": "Q12665",
+    "subject:wikipedia": "es:Robert Baden-Powell",
+    "url": "http://www.monumentamadrid.es/AM_Monumentos5/AM_Monumentos5_WEB/pdf/pdfP/mon1/8544.pdf"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cineszocomajadahonda",
+  "n": "Cines Zoco Majadahonda",
+  "a": "",
+  "pc": "",
+  "lat": 40.46655,
+  "lng": -3.86636,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cines Zoco Majadahonda Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/726656550",
+   "raw": {
+    "amenity": "cinema",
+    "check_date:opening_hours": "2025-10-09",
+    "name": "Cines Zoco Majadahonda",
+    "opening_hours": "Mo-Th 15:30-21:00; Fr,Sa 15:30-23:00; Su 15:30-21:00",
+    "toilets:wheelchair": "no",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "memorialgeneralibanezdei",
+  "n": "Memorial General Ibáñez de Ibero",
+  "a": "",
+  "pc": "",
+  "lat": 40.44462,
+  "lng": -3.71023,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Memorial General Ibáñez de Ibero Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/737215760",
+   "raw": {
+    "historic": "memorial",
+    "name": "Memorial General Ibáñez de Ibero"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "puertahuertadelasalud",
+  "n": "puerta huerta de la salud",
+  "a": "",
+  "pc": "",
+  "lat": 40.47495,
+  "lng": -3.64502,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "puerta huerta de la salud Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/747752114",
+   "raw": {
+    "historic": "monument",
+    "name": "puerta huerta de la salud"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesiaevangelicabautist",
+  "n": "Iglesia evangélica Bautista",
+  "a": "",
+  "pc": "",
+  "lat": 40.40363,
+  "lng": -3.69091,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia evangélica Bautista Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/831245155",
+   "raw": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "18",
+    "addr:postcode": "28045",
+    "addr:street": "Calle del General Lacy",
+    "alt_name": "Iglesia Bautista General Lacy",
+    "amenity": "place_of_worship",
+    "check_date": "2024-09-18",
+    "denomination": "baptist",
+    "name": "Iglesia evangélica Bautista",
+    "religion": "christian",
+    "source:addr": "Ayuntamiento de Madrid",
+    "source:alt_name": "Ayuntamiento de Madrid",
+    "source:date:addr": "2013-05-01",
+    "source:date:alt_name": "2013-05-01",
+    "source:date:url": "2013-05-01",
+    "source:url": "Ayuntamiento de Madrid",
+    "url": "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ede51e79ee71c010VgnVCM1000000b205a0aRCRD"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "franciscodequevedoyville",
+  "n": "Francisco de Quevedo y Villegas",
+  "a": "",
+  "pc": "",
+  "lat": 40.43363,
+  "lng": -3.70425,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Francisco de Quevedo y Villegas Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/902327030",
+   "raw": {
+    "historic": "monument",
+    "name": "Francisco de Quevedo y Villegas",
+    "wikidata": "Q97386411",
+    "wikimedia_commons": "Category:Monument to Francisco de Quevedo, Madrid",
+    "wikipedia": "es:Monumento a Quevedo (Madrid)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "estatuadefedericogarcial",
+  "n": "Estatua de Federico García Lorca",
+  "a": "",
+  "pc": "",
+  "lat": 40.41474,
+  "lng": -3.7005,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Estatua de Federico García Lorca Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/910345795",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "lgbtq": "primary",
+    "memorial": "statue",
+    "name": "Estatua de Federico García Lorca",
+    "name:es": "Estatua de Federico García Lorca",
+    "name:ru": "Статуя Федерико Гарсиа Лорка",
+    "tourism": "artwork",
+    "wikidata": "Q24276060",
+    "wikimedia_commons": "Category:Monument to Federico García Lorca, Madrid",
+    "wikipedia": "es:Monumento a Federico García Lorca (Madrid)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "emiliapardobazan",
+  "n": "Emilia Pardo Bazán",
+  "a": "",
+  "pc": "",
+  "lat": 40.42631,
+  "lng": -3.71283,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Emilia Pardo Bazán Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/913080863",
+   "raw": {
+    "addr:city": "Madrid",
+    "addr:postcode": "28015",
+    "artist_name": "Rafael Vela del Castillo",
+    "artwork_type": "statue",
+    "name": "Emilia Pardo Bazán",
+    "start_date": "1926",
+    "tourism": "artwork",
+    "wikidata": "Q52191982",
+    "wikimedia_commons": "Category:Statue of Emilia Pardo Bazán, Madrid",
+    "wikipedia": "es:Monumento a Emilia Pardo Bazán (Madrid)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoajosedesanmarti",
+  "n": "Monumento a José de San Martín",
+  "a": "",
+  "pc": "",
+  "lat": 40.43673,
+  "lng": -3.72283,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento a José de San Martín Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/926172331",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "ESPAÑA Y LA ARGENTINA / AL GENERAL / JOSÉ DE SAN MARTÍN / EL PRESIDENTE / DE LA NACIÓN ARGENTINA / DOCTOR ARTURO FRONDIZI / COLOCÓ EL 9 DE JULIO / LA PIEDRA FUNDACIONAL / DE ESTE MONUMENTO / ERIGIDO POR EL / AYUNTAMIENTO DE MADRID / E INAUGURADO ...",
+    "material": "metal",
+    "memorial": "statue",
+    "name": "Monumento a José de San Martín",
+    "start_date": "1960",
+    "website": "https://patrimonioypaisaje.madrid.es/sites/v/index.jsp?vgnextoid=a018091d1b9c4510091d1b9c45102e085a0aRCRD&vgnextchannel=8fac3cb702aa4510VgnVCM1000008a4a900aRCRD",
+    "wikipedia": "es:José de San Martín"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "maestroalonso",
+  "n": "Maestro Alonso",
+  "a": "",
+  "pc": "",
+  "lat": 40.41766,
+  "lng": -3.70001,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Maestro Alonso Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/926177474",
+   "raw": {
+    "artwork_type": "bust",
+    "name": "Maestro Alonso",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:Madrid - Madrid al Maestro Alonso.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoagoya",
+  "n": "Monumento a Goya",
+  "a": "",
+  "pc": "",
+  "lat": 40.42485,
+  "lng": -3.6753,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento a Goya Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/926197364",
+   "raw": {
+    "historic": "monument",
+    "name": "Monumento a Goya"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoalarra",
+  "n": "Monumento a Larra",
+  "a": "",
+  "pc": "",
+  "lat": 40.41583,
+  "lng": -3.7132,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Monumento a Larra Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/927878104",
+   "raw": {
+    "artist_name": "Jesús Perdigón",
+    "artwork_type": "bust",
+    "name": "Monumento a Larra",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "estatuaajacintoruiztenie",
+  "n": "Estatua a Jacinto Ruiz Teniente de Infantería",
+  "a": "",
+  "pc": "",
+  "lat": 40.42037,
+  "lng": -3.69583,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Estatua a Jacinto Ruiz Teniente de Infantería Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/929294348",
+   "raw": {
+    "addr:city": "Madrid",
+    "artist:wikidata": "Q2402329",
+    "artist_name": "Mariano Benlliure",
+    "artwork_type": "statue",
+    "memorial": "statue",
+    "name": "Estatua a Jacinto Ruiz Teniente de Infantería",
+    "tourism": "artwork",
+    "wikidata": "Q18574899",
+    "wikimedia_commons": "Category:Monument to Jacinto Ruiz y Mendoza, Madrid",
+    "wikipedia": "es:Estatua de Jacinto Ruiz"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoalmaestro",
+  "n": "Monumento al Maestro",
+  "a": "",
+  "pc": "",
+  "lat": 40.43251,
+  "lng": -3.72743,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento al Maestro Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/930662440",
+   "raw": {
+    "artist_name": "Víctor de los Ríos Campos",
+    "historic": "memorial",
+    "inscription": "AL / MAESTRO",
+    "material": "stone",
+    "memorial": "statue",
+    "name": "Monumento al Maestro",
+    "start_date": "1965",
+    "website": "https://patrimonioypaisaje.madrid.es/sites/v/index.jsp?vgnextoid=8a28091d1b9c4510091d1b9c45102e085a0aRCRD&vgnextchannel=8fac3cb702aa4510VgnVCM1000008a4a900aRCRD"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bunkerguerracivil",
+  "n": "Bunker Guerra Civil",
+  "a": "",
+  "pc": "",
+  "lat": 40.43499,
+  "lng": -3.72832,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Bunker Guerra Civil Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/931556364",
+   "raw": {
+    "bunker_type": "gun_emplacement",
+    "historic": "yes",
+    "location": "overground",
+    "military": "bunker",
+    "name": "Bunker Guerra Civil",
+    "ruins": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaltenientegener",
+  "n": "Monumento al Teniente General Manuel Cassola",
+  "a": "",
+  "pc": "",
+  "lat": 40.43457,
+  "lng": -3.72124,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento al Teniente General Manuel Cassola Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/931556366",
+   "raw": {
+    "artist_name": "Mariano Benlliure",
+    "historic": "memorial",
+    "inscription": "Al Teniente General don Manuel Cassola, 1892; El ejército debe estar organizado de suerte/ que nada tenga que temer de la justicia/ ni que esperar del favor",
+    "material": "metal",
+    "memorial": "statue",
+    "name": "Monumento al Teniente General Manuel Cassola",
+    "start_date": "1892",
+    "website": "https://patrimonioypaisaje.madrid.es/sites/v/index.jsp?vgnextoid=6a28091d1b9c4510091d1b9c45102e085a0aRCRD&vgnextchannel=8fac3cb702aa4510VgnVCM1000008a4a900aRCRD",
+    "wikipedia": "es:Manuel Cassola"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "andenceroestaciondechamb",
+  "n": "Andén Cero - Estación de Chamberí",
+  "a": "",
+  "pc": "",
+  "lat": 40.43226,
+  "lng": -3.69773,
+  "c": "museum",
+  "s": "museum",
+  "q": "Andén Cero - Estación de Chamberí Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/936505939",
+   "raw": {
+    "addr:city": "Madrid",
+    "addr:street": "Plaza de Chamberí",
+    "alt_name": "Estación Fantasma",
+    "email": "info@museosmetromadrid.es",
+    "fee": "no",
+    "name": "Andén Cero - Estación de Chamberí",
+    "opening_hours": "Fr 16:00-20:00; Sa 10:00-14:00,16:00-20:00; Su 10:00-14:00",
+    "phone": "+34644169531",
+    "toilets:wheelchair": "no",
+    "tourism": "museum",
+    "website": "https://museosmetromadrid.es",
+    "wheelchair": "limited",
+    "wheelchair:description": "Lift from street to (upper) level with constricted toilet, & video with Spanish subtitles. Stair lift for lightweight wheelchair, down to platform from upper level. Nearest Metro with lift: Iglesia."
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "homenajealossaineterosma",
+  "n": "Homenaje a los Saineteros Madrileños",
+  "a": "",
+  "pc": "",
+  "lat": 40.43076,
+  "lng": -3.69953,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Homenaje a los Saineteros Madrileños Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/936505963",
+   "raw": {
+    "historic": "monument",
+    "name": "Homenaje a los Saineteros Madrileños"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoalpintoreduardo",
+  "n": "Monumento al pintor Eduardo Rosales",
+  "a": "",
+  "pc": "",
+  "lat": 40.42901,
+  "lng": -3.72214,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Monumento al pintor Eduardo Rosales Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/937649665",
+   "raw": {
+    "artist_name": "Mateo Inurria",
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "inscription": "EDUARDO ROSALES;El Círculo / de Bellas Artes / año de 1922",
+    "material": "stone",
+    "memorial": "statue",
+    "name": "Monumento al pintor Eduardo Rosales",
+    "start_date": "1922",
+    "tourism": "artwork",
+    "website": "https://patrimonioypaisaje.madrid.es/sites/v/index.jsp?vgnextoid=6018091d1b9c4510091d1b9c45102e085a0aRCRD&vgnextchannel=8fac3cb702aa4510VgnVCM1000008a4a900aRCRD",
+    "wikidata": "Q10332145",
+    "wikimedia_commons": "Category:Monument to Eduardo Rosales, Madrid",
+    "wikipedia": "es:Monumento a Eduardo Rosales"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaldoctorfederic",
+  "n": "Monumento al Doctor Federico Rubio y Galí",
+  "a": "",
+  "pc": "",
+  "lat": 40.43566,
+  "lng": -3.72437,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento al Doctor Federico Rubio y Galí Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/937649672",
+   "raw": {
+    "artist_name": "Miguel Blay y Fábregas",
+    "historic": "memorial",
+    "inscription": "Federico Rubio 1827-1902",
+    "material": "stone",
+    "memorial": "statue",
+    "name": "Monumento al Doctor Federico Rubio y Galí",
+    "start_date": "1906",
+    "website": "https://patrimonioypaisaje.madrid.es/sites/v/index.jsp?vgnextoid=ca28091d1b9c4510091d1b9c45102e085a0aRCRD&vgnextchannel=8fac3cb702aa4510VgnVCM1000008a4a900aRCRD",
+    "wikipedia": "es:Federico Rubio y Galí"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoajoseignacioriv",
+  "n": "Monumento a José Ignacio Rivero",
+  "a": "",
+  "pc": "",
+  "lat": 40.43491,
+  "lng": -3.72539,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento a José Ignacio Rivero Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/937649674",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "1895–1944 / José I. Rivero / director del “diario de la marina” / decano de la prensa de cuba / “el periodismo es en lo externo una progresión / y en lo interno un sacerdocio”",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Monumento a José Ignacio Rivero",
+    "start_date": "1954",
+    "website": "https://patrimonioypaisaje.madrid.es/sites/v/index.jsp?vgnextoid=8db8091d1b9c4510091d1b9c45102e085a0aRCRD&vgnextchannel=8fac3cb702aa4510VgnVCM1000008a4a900aRCRD"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoalainfantaisabe",
+  "n": "Monumento a la Infanta Isabel",
+  "a": "",
+  "pc": "",
+  "lat": 40.42672,
+  "lng": -3.72003,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento a la Infanta Isabel Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/937691824",
+   "raw": {
+    "artist_name": "Gerardo Zaragoza; Javier García-Lomas",
+    "historic": "memorial",
+    "inscription": "1851 / A SU ALTEZA REAL / LA INFANTA ISABEL / 1931",
+    "material": "stone",
+    "memorial": "statue",
+    "name": "Monumento a la Infanta Isabel",
+    "name:ru": "Памятник Инфанта Изабель",
+    "start_date": "1955",
+    "website": "https://patrimonioypaisaje.madrid.es/sites/v/index.jsp?vgnextoid=879cc4c573df9610VgnVCM1000001d4a900aRCRD&vgnextchannel=72be673c8d2e9610VgnVCM1000001d4a900aRCRD",
+    "wikidata": "Q50257369",
+    "wikimedia_commons": "Category:Monumento a la infanta Isabel de Borbón, Madrid",
+    "wikipedia": "es:Isabel de Borbón y Borbón"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alpatriciojuanpabloduart",
+  "n": "Al patricio Juan Pablo Duarte y Díez",
+  "a": "",
+  "pc": "",
+  "lat": 40.43034,
+  "lng": -3.72465,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Al patricio Juan Pablo Duarte y Díez Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/939199660",
+   "raw": {
+    "artist_name": "Félix Tejada",
+    "historic": "memorial",
+    "inscription": "AL PATRICIO / JUAN PABLO / DUARTE Y DÍEZ / FUNDADOR DE LA REPÚBLICA DOMINICANA / (1813-1876) / SECRETARÍA DE ESTADO DE CULTURA / Y / EMBAJADA / DE LA REPÚBLICA DOMINICANA / MADRID / 17 DE MARZO DE 2006",
+    "material": "metal",
+    "memorial": "bust",
+    "name": "Al patricio Juan Pablo Duarte y Díez",
+    "start_date": "2006",
+    "website": "https://patrimonioypaisaje.madrid.es/sites/v/index.jsp?vgnextoid=4a18091d1b9c4510091d1b9c45102e085a0aRCRD&vgnextchannel=8fac3cb702aa4510VgnVCM1000008a4a900aRCRD",
+    "wikipedia": "es:Juan Pablo Duarte"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaconcepcionaren",
+  "n": "Monumento a Concepción Arenal",
+  "a": "",
+  "pc": "",
+  "lat": 40.43287,
+  "lng": -3.72519,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento a Concepción Arenal Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/939958038",
+   "raw": {
+    "artist_name": "José Mª de Palma Burgos",
+    "historic": "memorial",
+    "inscription": "Concepción Arenal / Amó la Ciencia / 1820 Consoló el Dolor 1893 / Monumento Erigido por / suscripción nacional 1934",
+    "material": "stone",
+    "memorial": "statue",
+    "name": "Monumento a Concepción Arenal",
+    "start_date": "1934",
+    "website": "https://patrimonioypaisaje.madrid.es/sites/v/index.jsp?vgnextoid=6928091d1b9c4510091d1b9c45102e085a0aRCRD&vgnextchannel=8fac3cb702aa4510VgnVCM1000008a4a900aRCRD",
+    "wikidata": "Q97955578",
+    "wikimedia_commons": "Category:Monument to Concepción Arenal, Madrid",
+    "wikipedia": "es:Concepción Arenal"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "estatuadeespartero",
+  "n": "Estatua de Espartero",
+  "a": "",
+  "pc": "",
+  "lat": 40.42112,
+  "lng": -3.6836,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Estatua de Espartero Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/942080471",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "monument",
+    "name": "Estatua de Espartero",
+    "statue": "equestrian",
+    "subject:wikidata": "Q434529",
+    "tourism": "artwork",
+    "wikidata": "Q8845596",
+    "wikimedia_commons": "Category:Monument to Baldomero Espartero, Madrid",
+    "wikipedia": "es:Estatua de Espartero (Madrid)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "estatuaamigueldecervante",
+  "n": "Estatua a Miguel de Cervantes Saavedra",
+  "a": "",
+  "pc": "",
+  "lat": 40.41574,
+  "lng": -3.69648,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Estatua a Miguel de Cervantes Saavedra Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/948429375",
+   "raw": {
+    "artist:wikidata": "Q1530645",
+    "artist_name": "Antonio Solá",
+    "artwork_type": "statue",
+    "height": "10",
+    "historic": "memorial",
+    "inscription": "MICHAELI DE CERVANTES | SAAVEDRA | HISPANIAE SCRIPTORIUM | PRINCIPI | ANNO | M.D.CCC.XXXV",
+    "material": "bronze",
+    "memorial": "statue",
+    "min_height": "6",
+    "name": "Estatua a Miguel de Cervantes Saavedra",
+    "name:zh": "米格爾·德賽凡提斯紀念碑",
+    "start_date": "1834-12-11",
+    "tourism": "artwork",
+    "wikidata": "Q56670711",
+    "wikimedia_commons": "Category:Monument to Miguel de Cervantes, Plaza de las Cortes, Madrid",
+    "wikipedia": "es:Estatua de Cervantes (Madrid)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "canovasdelcastillo",
+  "n": "Cánovas del Castillo",
+  "a": "",
+  "pc": "",
+  "lat": 40.42093,
+  "lng": -3.71154,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Cánovas del Castillo Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/958170255",
+   "raw": {
+    "historic": "monument",
+    "name": "Cánovas del Castillo",
+    "name:ru": "Памятник Кановасу-дель-Кастильо",
+    "wikidata": "Q52145627",
+    "wikimedia_commons": "Category:Monument to Antonio Cánovas del Castillo, Madrid",
+    "wikipedia": "es:Monumento a Cánovas del Castillo (Madrid)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinesalagavia",
+  "n": "Cinesa La Gavia",
+  "a": "",
+  "pc": "",
+  "lat": 40.36794,
+  "lng": -3.59762,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinesa La Gavia Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1008451922",
+   "raw": {
+    "amenity": "cinema",
+    "brand": "Cinesa",
+    "brand:wikidata": "Q20732115",
+    "brand:wikipedia": "es:Cinesa",
+    "level": "1",
+    "name": "Cinesa La Gavia",
+    "phone": "+34 902 33 32 31",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.cinesa.es/Cines/La-Gavia",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cineyelmoluxury",
+  "n": "Cine Yelmo Luxury",
+  "a": "",
+  "pc": "",
+  "lat": 40.4301,
+  "lng": -3.7009,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cine Yelmo Luxury Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1016578387",
+   "raw": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "15",
+    "addr:postcode": "28010",
+    "addr:street": "Calle de Luchana",
+    "alt_name": "Cine Palafox",
+    "amenity": "cinema",
+    "check_date": "2025-05-11",
+    "name": "Cine Yelmo Luxury",
+    "website": "https://yelmocines.es/luxury",
+    "wikidata": "Q37469052"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinesverdi",
+  "n": "Cines Verdi",
+  "a": "",
+  "pc": "",
+  "lat": 40.43657,
+  "lng": -3.70408,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cines Verdi Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1016578413",
+   "raw": {
+    "addr:housenumber": "28",
+    "addr:street": "Calle de Bravo Murillo",
+    "amenity": "cinema",
+    "name": "Cines Verdi",
+    "old_name": "Cine Cartago",
+    "phone": "+34 914 473 930",
+    "survey:date": "2023-11-27",
+    "website": "https://madrid.cines-verdi.com/",
+    "wheelchair": "limited",
+    "wheelchair:description": "Escalón a la entrada de 11 centímetros. Dos de sus 5 salas son accesibles y dispone de aseos adaptados."
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "miradordelasarten",
+  "n": "Mirador de la Sartén",
+  "a": "",
+  "pc": "",
+  "lat": 40.42257,
+  "lng": -3.73527,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Mirador de la Sartén Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1052390712",
+   "raw": {
+    "name": "Mirador de la Sartén",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santodomingodelacalzada",
+  "n": "Santo Domingo de la Calzada",
+  "a": "",
+  "pc": "",
+  "lat": 40.47427,
+  "lng": -3.74361,
+  "c": "faith",
+  "s": "church",
+  "q": "Santo Domingo de la Calzada Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1097116650",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Santo Domingo de la Calzada",
+    "religion": "christian",
+    "wikidata": "Q26195961",
+    "wikipedia": "es:Capilla de Santo Domingo de la Calzada"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "miradorglorietaperdida",
+  "n": "Mirador Glorieta Perdida",
+  "a": "",
+  "pc": "",
+  "lat": 40.41974,
+  "lng": -3.74356,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Mirador Glorieta Perdida Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1175067767",
+   "raw": {
+    "name": "Mirador Glorieta Perdida",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eloygonzalo",
+  "n": "Eloy Gonzalo",
+  "a": "",
+  "pc": "",
+  "lat": 40.41024,
+  "lng": -3.70728,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Eloy Gonzalo Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1180100758",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Eloy Gonzalo",
+    "tourism": "artwork",
+    "wikidata": "Q24275932",
+    "wikimedia_commons": "Category:Statue of Eloy Gonzalo",
+    "wikipedia": "en:Monument to Eloy Gonzalo"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinesalasrosas",
+  "n": "Cinesa Las Rosas",
+  "a": "",
+  "pc": "",
+  "lat": 40.41863,
+  "lng": -3.62053,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinesa Las Rosas Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1278209751",
+   "raw": {
+    "amenity": "cinema",
+    "brand": "Cinesa",
+    "brand:wikidata": "Q20732115",
+    "brand:wikipedia": "es:Cinesa",
+    "name": "Cinesa Las Rosas"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "principepio",
+  "n": "Príncipe Pío",
+  "a": "",
+  "pc": "",
+  "lat": 40.42258,
+  "lng": -3.72109,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Príncipe Pío Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1339844691",
+   "raw": {
+    "amenity": "cinema",
+    "check_date": "2024-11-06",
+    "level": "1",
+    "name": "Príncipe Pío",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinepaz",
+  "n": "Cine Paz",
+  "a": "",
+  "pc": "",
+  "lat": 40.43087,
+  "lng": -3.7034,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cine Paz Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1357992373",
+   "raw": {
+    "addr:street": "Calle de Fuencarral",
+    "amenity": "cinema",
+    "name": "Cine Paz",
+    "survey:date": "2023-12-10"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cerrodegarabitas",
+  "n": "Cerro de Garabitas",
+  "a": "",
+  "pc": "",
+  "lat": 40.43449,
+  "lng": -3.7565,
+  "c": "view",
+  "s": "hilltop viewpoint",
+  "q": "Cerro de Garabitas Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1427507331",
+   "raw": {
+    "ele": "675",
+    "name": "Cerro de Garabitas",
+    "natural": "peak",
+    "tourism": "viewpoint",
+    "wikidata": "Q5763007",
+    "wikipedia": "es:Cerro Garabitas"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "condeduque",
+  "n": "Conde Duque",
+  "a": "",
+  "pc": "",
+  "lat": 40.42981,
+  "lng": -3.70652,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Conde Duque Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1434655892",
+   "raw": {
+    "addr:housenumber": "4",
+    "addr:street": "Calle de Alberto Aguilera",
+    "amenity": "cinema",
+    "name": "Conde Duque",
+    "opening_hours": "Mo-Su 16:00-01:00"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "goya",
+  "n": "Goya",
+  "a": "",
+  "pc": "",
+  "lat": 40.42665,
+  "lng": -3.72488,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Goya Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1435994147",
+   "raw": {
+    "artist_name": "Joaquín Vaquero Turcios",
+    "artwork_type": "sculpture",
+    "historic": "memorial",
+    "inscription": "FRANCISCO DE GOYA VIVIÓ EN MADRID / PINTÓ SUS GENTES / SUS FIESTAS, SUS COSTUMBRES / LAS CORRIDAS DE TOROS / LA GENTE EN SUS CALLES / SU CUERPO REPOSA / EN SAN ANTONIO DE LA FLORIDA / A POCOS PASOS DE ESTE LUGAR / DONDE SE RECUERDA SU GENIO ...",
+    "material": "concrete",
+    "name": "Goya",
+    "start_date": "1996",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "miradordelestanquedelrep",
+  "n": "Mirador del Estanque del Repartidor",
+  "a": "",
+  "pc": "",
+  "lat": 40.43417,
+  "lng": -3.7456,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Mirador del Estanque del Repartidor Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1437313599",
+   "raw": {
+    "name": "Mirador del Estanque del Repartidor",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoacamilojosecela",
+  "n": "Monumento a Camilo José Cela",
+  "a": "",
+  "pc": "",
+  "lat": 40.44971,
+  "lng": -3.73008,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento a Camilo José Cela Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1443235061",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Monumento a Camilo José Cela",
+    "name:etymology:wikidata": "Q132589",
+    "wikidata": "Q110746506",
+    "wikimedia_commons": "Category:Monumento a Camilo José Cela, Madrid"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museodecoleccionesico",
+  "n": "Museo de Colecciones ICO",
+  "a": "",
+  "pc": "",
+  "lat": 40.41684,
+  "lng": -3.69777,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo de Colecciones ICO Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1474148142",
+   "raw": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "3",
+    "addr:postcode": "28014",
+    "addr:street": "Calle de Zorrilla",
+    "addr:suburb": "Cortes",
+    "alt_name": "Museo Colecciones del Instituto de Crédito Oficial (ICO)",
+    "description": "El Museo dispone de ascensores, rampas y cuarto de baño adaptado. Actividades educativas inclusivas y específicas para personas con necesidades especiales. Cambiador de bebés para todos aquellos que lo necesiten. Red wifi gratuita.",
+    "email": "museoico@ico.es",
+    "name": "Museo de Colecciones ICO",
+    "opening_hours": "Su 10:00-14:00; Tu-Sa 11:00-20:00; PH 10:00-14:00; Mo off; Jan 01,May 01,Dec 25 off; Dec 24,31: 10:00-14:00",
+    "phone": "+34 914201242",
+    "source:addr": "Ayuntamiento de Madrid",
+    "source:description": "Ayuntamiento de Madrid",
+    "source:email": "Ayuntamiento de Madrid",
+    "source:opening_hours": "Ayuntamiento de Madrid",
+    "source:phone": "Ayuntamiento de Madrid",
+    "source:url": "Ayuntamiento de Madrid",
+    "source:wheelchair": "Ayuntamiento de Madrid",
+    "tourism": "museum",
+    "url": "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2886444a2951c010VgnVCM2000000c205a0aRCRD",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iglesiadesanlorenzo",
+  "n": "Iglesia de San Lorenzo",
+  "a": "",
+  "pc": "",
+  "lat": 40.40857,
+  "lng": -3.69879,
+  "c": "faith",
+  "s": "church",
+  "q": "Iglesia de San Lorenzo Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1517405738",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Iglesia de San Lorenzo",
+    "note": "heritage",
+    "religion": "christian",
+    "wikidata": "Q5910638",
+    "wikimedia_commons": "Category:Church of San Lorenzo, Madrid",
+    "wikipedia": "es:Iglesia de San Lorenzo (Madrid)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jovencaminandosusana",
+  "n": "Joven caminando (Susana)",
+  "a": "",
+  "pc": "",
+  "lat": 40.42403,
+  "lng": -3.70214,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Joven caminando (Susana) Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1517405749",
+   "raw": {
+    "artist:wikidata": "Q110418805",
+    "artist_name": "Rafael González García",
+    "artwork_type": "statue",
+    "name": "Joven caminando (Susana)",
+    "name:es": "Joven caminando (Susana)",
+    "start_date": "1996",
+    "tourism": "artwork",
+    "wikidata": "Q108377331",
+    "wikimedia_commons": "Category:Joven Caminando (statue by Rafael González García)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoadaoizyvelarde",
+  "n": "Monumento a Daoíz y Velarde",
+  "a": "",
+  "pc": "",
+  "lat": 40.42693,
+  "lng": -3.70407,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Monumento a Daoíz y Velarde Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1517405752",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Monumento a Daoíz y Velarde",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinesaparquesur",
+  "n": "Cinesa Parquesur",
+  "a": "",
+  "pc": "",
+  "lat": 40.33893,
+  "lng": -3.73124,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinesa Parquesur Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1553399887",
+   "raw": {
+    "amenity": "cinema",
+    "brand": "Cinesa",
+    "brand:wikidata": "Q20732115",
+    "brand:wikipedia": "es:Cinesa",
+    "name": "Cinesa Parquesur"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "comunidadcristianalgbtye",
+  "n": "Comunidad Cristiana LGBT y Emaús",
+  "a": "",
+  "pc": "",
+  "lat": 40.42165,
+  "lng": -3.69788,
+  "c": "faith",
+  "s": "church",
+  "q": "Comunidad Cristiana LGBT y Emaús Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1666232595",
+   "raw": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "18",
+    "addr:postcode": "28004",
+    "addr:street": "Calle de Barbieri",
+    "amenity": "place_of_worship",
+    "lgbtq": "primary",
+    "name": "Comunidad Cristiana LGBT y Emaús",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "centrodeartedosdemayoca2",
+  "n": "Centro de Arte Dos de Mayo (CA2M)",
+  "a": "",
+  "pc": "",
+  "lat": 40.32471,
+  "lng": -3.8633,
+  "c": "museum",
+  "s": "museum",
+  "q": "Centro de Arte Dos de Mayo (CA2M) Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1704460269",
+   "raw": {
+    "addr:housenumber": "23",
+    "addr:postcode": "28931",
+    "addr:street": "Avenida de la Constitución",
+    "fee": "no",
+    "museum": "art",
+    "name": "Centro de Arte Dos de Mayo (CA2M)",
+    "operator": "Comunidad de Madrid",
+    "operator:type": "public",
+    "tourism": "museum",
+    "website": "https://ca2m.org/es/",
+    "wikidata": "Q20669477",
+    "wikipedia": "es:Centro de Arte Dos de Mayo"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nuevocentrocultural",
+  "n": "Nuevo Centro Cultural",
+  "a": "",
+  "pc": "",
+  "lat": 40.4352,
+  "lng": -3.81442,
+  "c": "museum",
+  "s": "museum",
+  "q": "Nuevo Centro Cultural Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1704914098",
+   "raw": {
+    "name": "Nuevo Centro Cultural",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoafranciscodegoy",
+  "n": "Monumento a Francisco de Goya",
+  "a": "",
+  "pc": "",
+  "lat": 40.42506,
+  "lng": -3.726,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Monumento a Francisco de Goya Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1706373957",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Monumento a Francisco de Goya",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoabernardoohiggi",
+  "n": "Monumento a Bernardo O'Higgins",
+  "a": "",
+  "pc": "",
+  "lat": 40.43389,
+  "lng": -3.73368,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Monumento a Bernardo O'Higgins Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1706391975",
+   "raw": {
+    "artist_name": "Claudio Caroca Calderón",
+    "artwork_subject": "Monumento al General Bernardo O´Higgins, uno de los líderes de la Independencia de Chile y de Perú",
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "inscription": "CAPITÁN GENERAL / BERNARDO O'HIGGINS / 1778-1842 / PRIMER GOBERNANTE DE CHILE / 1817-1823 / CONTRIBUYÓ DECISIVAMENTE A LA CONSOLIDACIÓN / DE ESTADOS HISPANO-AMERICANOS / MONUMENTO ERIGIDO EN TESTIMONIO DE / HERMANDAD HISPANO-CHILENA.",
+    "material": "metal",
+    "memorial": "statue",
+    "name": "Monumento a Bernardo O'Higgins",
+    "start_date": "1987",
+    "tourism": "artwork",
+    "website": "https://patrimonioypaisaje.madrid.es/sites/v/index.jsp?vgnextoid=8718091d1b9c4510091d1b9c45102e085a0aRCRD&vgnextchannel=8fac3cb702aa4510VgnVCM1000008a4a900aRCRD",
+    "wikipedia": "es:Bernardo O'Higgins"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museosorolla",
+  "n": "Museo Sorolla",
+  "a": "",
+  "pc": "",
+  "lat": 40.43539,
+  "lng": -3.69251,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Sorolla Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1719813601",
+   "raw": {
+    "addr:housenumber": "37",
+    "addr:street": "Paseo del General Martínez Campos",
+    "email": "museo.sorolla@mecd.es",
+    "fee": "yes",
+    "name": "Museo Sorolla",
+    "name:ru": "Музей Сороллы",
+    "name:zh": "48'索罗拉博物馆，已关闭？",
+    "opening_hours": "Mo off; Tu-Sa 09:30-20:00; Su 10:00-15:00; Jan 01,06,May 01,Dec 24,25,31 off",
+    "source:email": "Ayuntamiento de Madrid",
+    "source:wheelchair": "Ayuntamiento de Madrid",
+    "tourism": "museum",
+    "website": "http://museosorolla.mcu.es/",
+    "wheelchair": "no",
+    "wikidata": "Q1592523",
+    "wikimedia_commons": "Category:Museo Sorolla",
+    "wikipedia": "es:Museo Sorolla"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fundacioncanal",
+  "n": "Fundación Canal",
+  "a": "",
+  "pc": "",
+  "lat": 40.46416,
+  "lng": -3.68857,
+  "c": "canals",
+  "s": "canal",
+  "q": "Fundación Canal Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1753722721",
+   "raw": {
+    "fee": "yes",
+    "name": "Fundación Canal",
+    "tourism": "gallery",
+    "url": "http://www.fundacioncanal.com/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "miradordeladehesadelavil",
+  "n": "Mirador de la Dehesa de la Villa",
+  "a": "",
+  "pc": "",
+  "lat": 40.45915,
+  "lng": -3.72512,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Mirador de la Dehesa de la Villa Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1802463643",
+   "raw": {
+    "information": "map",
+    "map_size": "site",
+    "name": "Mirador de la Dehesa de la Villa",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "yelmoplenilunio",
+  "n": "Yelmo Plenilunio",
+  "a": "",
+  "pc": "",
+  "lat": 40.4469,
+  "lng": -3.58693,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Yelmo Plenilunio Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1846689924",
+   "raw": {
+    "amenity": "cinema",
+    "brand": "Yelmo",
+    "brand:wikidata": "Q21030996",
+    "brand:wikipedia": "fr:Yelmo Cines",
+    "level": "2",
+    "name": "Yelmo Plenilunio",
+    "ref": "L-222",
+    "website": "https://yelmocines.es/cartelera/madrid/yelmo-cines-plenilunio"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "puente",
+  "n": "Puente",
+  "a": "",
+  "pc": "",
+  "lat": 40.41661,
+  "lng": -3.7509,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Puente Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1867115760",
+   "raw": {
+    "historic": "ruins",
+    "name": "Puente"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "placitademarisadeantonio",
+  "n": "Placita de Marisa de Antonio",
+  "a": "",
+  "pc": "",
+  "lat": 40.41517,
+  "lng": -3.67522,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Placita de Marisa de Antonio Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1891427136",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Placita de Marisa de Antonio",
+    "material": "metal",
+    "memorial": "memorial",
+    "name": "Placita de Marisa de Antonio",
+    "wikimedia_commons": "File:Memorial_Plaque_of_Marisa_de_Antonio_(a_kindergarden_teacher_passed_away_in_2022).jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiasanjuanbautista",
+  "n": "Parroquia San Juan Bautista de la Concepción",
+  "a": "",
+  "pc": "",
+  "lat": 40.39487,
+  "lng": -3.75532,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia San Juan Bautista de la Concepción Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2013850313",
+   "raw": {
+    "addr:city": "Madrid",
+    "addr:housenumber": "57",
+    "addr:postcode": "28047",
+    "addr:street": "Calle de Camarena",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "check_date": "2025-12-25",
+    "denomination": "roman_catholic",
+    "name": "Parroquia San Juan Bautista de la Concepción",
+    "phone": "+34 917195134",
+    "religion": "christian",
+    "source:addr": "Ayuntamiento de Madrid",
+    "source:date:addr": "2013-05-01",
+    "source:date:phone": "2013-05-01",
+    "source:date:url": "2013-05-01",
+    "source:phone": "Ayuntamiento de Madrid",
+    "source:url": "Ayuntamiento de Madrid",
+    "url": "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=66235f463b81c010VgnVCM1000000b205a0aRCRD"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "yelmo",
+  "n": "Yelmo",
+  "a": "",
+  "pc": "",
+  "lat": 40.36398,
+  "lng": -3.73837,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Yelmo Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2028772716",
+   "raw": {
+    "amenity": "cinema",
+    "brand": "Yelmo",
+    "brand:wikidata": "Q21030996",
+    "name": "Yelmo"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "estatuadegoya",
+  "n": "Estatua de Goya",
+  "a": "",
+  "pc": "",
+  "lat": 40.41498,
+  "lng": -3.69254,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Estatua de Goya Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2045974223",
+   "raw": {
+    "addr:city": "Madrid",
+    "historic": "monument",
+    "name": "Estatua de Goya",
+    "name:it": "Statua di Goya",
+    "name:zh": "方尖碑？",
+    "wikidata": "Q105622942",
+    "wikimedia_commons": "Category:Monument to Francisco de Goya by Benlliure, Madrid",
+    "wikipedia": "es:Monumento a Francisco de Goya"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "delaluzylosarboles",
+  "n": "De la luz y los árboles",
+  "a": "",
+  "pc": "",
+  "lat": 40.34699,
+  "lng": -3.75535,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "De la luz y los árboles Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2075466796",
+   "raw": {
+    "artist_name": "Enrique Pujana y Miguel Rodríguez",
+    "artwork_type": "statue",
+    "material": "metal",
+    "name": "De la luz y los árboles",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monstruodeleganess",
+  "n": "Monstruo de Lega-Ness",
+  "a": "",
+  "pc": "",
+  "lat": 40.34248,
+  "lng": -3.75656,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Monstruo de Lega-Ness Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2082563241",
+   "raw": {
+    "artwork_type": "sculpture",
+    "historic": "memorial",
+    "name": "Monstruo de Lega-Ness"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "leganes",
+  "n": "Leganés",
+  "a": "",
+  "pc": "",
+  "lat": 40.32825,
+  "lng": -3.7654,
+  "c": "oddity",
+  "s": "municipality of Spain",
+  "q": "Leganés Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q77433",
+   "raw": "municipality of Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mostoles",
+  "n": "Móstoles",
+  "a": "",
+  "pc": "",
+  "lat": 40.33333,
+  "lng": -3.86667,
+  "c": "oddity",
+  "s": "city in the autonomous community of Madrid, Spain",
+  "q": "Móstoles Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q187826",
+   "raw": "city in the autonomous community of Madrid, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culebrostream",
+  "n": "Culebro Stream",
+  "a": "",
+  "pc": "",
+  "lat": 40.32065,
+  "lng": -3.79269,
+  "c": "oddity",
+  "s": "river in Spain",
+  "q": "Culebro Stream Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q859729",
+   "raw": "river in Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "universidadcarlosiiidema",
+  "n": "Universidad Carlos III de Madrid",
+  "a": "",
+  "pc": "",
+  "lat": 40.33225,
+  "lng": -3.76689,
+  "c": "oddity",
+  "s": "spanish university",
+  "q": "Universidad Carlos III de Madrid Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1247135",
+   "raw": "Spanish university",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kingjuancarlosuniversity",
+  "n": "King Juan Carlos University",
+  "a": "",
+  "pc": "",
+  "lat": 40.33778,
+  "lng": -3.875,
+  "c": "oddity",
+  "s": "university in Madrid, Spain",
+  "q": "King Juan Carlos University Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2000629",
+   "raw": "university in Madrid, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "universidadreyjuancarlos",
+  "n": "Universidad Rey Juan Carlos",
+  "a": "",
+  "pc": "",
+  "lat": 40.3351,
+  "lng": -3.87221,
+  "c": "oddity",
+  "s": "madrid Metro station",
+  "q": "Universidad Rey Juan Carlos Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2482419",
+   "raw": "Madrid Metro station",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hospitaldemostoles",
+  "n": "Hospital de Móstoles",
+  "a": "",
+  "pc": "",
+  "lat": 40.3165,
+  "lng": -3.87468,
+  "c": "oddity",
+  "s": "madrid Metro station, Spain",
+  "q": "Hospital de Móstoles Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2484422",
+   "raw": "Madrid Metro station, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pradillo",
+  "n": "Pradillo",
+  "a": "",
+  "pc": "",
+  "lat": 40.3217,
+  "lng": -3.86487,
+  "c": "oddity",
+  "s": "madrid Metro station",
+  "q": "Pradillo Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2484445",
+   "raw": "Madrid Metro station",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hospitalseveroochoa",
+  "n": "Hospital Severo Ochoa",
+  "a": "",
+  "pc": "",
+  "lat": 40.3217,
+  "lng": -3.76797,
+  "c": "oddity",
+  "s": "madrid Metro station",
+  "q": "Hospital Severo Ochoa Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2485068",
+   "raw": "Madrid Metro station",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "casadelreloj",
+  "n": "Casa del Reloj",
+  "a": "",
+  "pc": "",
+  "lat": 40.32657,
+  "lng": -3.7594,
+  "c": "oddity",
+  "s": "madrid Metro station",
+  "q": "Casa del Reloj Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2486887",
+   "raw": "Madrid Metro station",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museodeesculturadelegane",
+  "n": "Museo de Escultura de Leganés",
+  "a": "",
+  "pc": "",
+  "lat": 40.32483,
+  "lng": -3.76095,
+  "c": "green",
+  "s": "sculpture park in Leganés, Spain",
+  "q": "Museo de Escultura de Leganés Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2545595",
+   "raw": "sculpture park in Leganés, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parquepolvoranca",
+  "n": "Parque Polvoranca",
+  "a": "",
+  "pc": "",
+  "lat": 40.3125,
+  "lng": -3.78351,
+  "c": "oddity",
+  "s": "train station",
+  "q": "Parque Polvoranca Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2883144",
+   "raw": "train station",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ensanchesur",
+  "n": "Ensanche Sur",
+  "a": "",
+  "pc": "",
+  "lat": 40.33034,
+  "lng": -3.83144,
+  "c": "oddity",
+  "s": "place in Madrid, Spain",
+  "q": "Ensanche Sur Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5379912",
+   "raw": "place in Madrid, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "arroyoculebroleganes",
+  "n": "Arroyo Culebro, Leganés",
+  "a": "",
+  "pc": "",
+  "lat": 40.31419,
+  "lng": -3.78792,
+  "c": "oddity",
+  "s": "human settlement in Spain",
+  "q": "Arroyo Culebro, Leganés Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5705638",
+   "raw": "human settlement in Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "leganescitycouncil",
+  "n": "Leganés City Council",
+  "a": "",
+  "pc": "",
+  "lat": 40.32601,
+  "lng": -3.76843,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Leganés City Council Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5714865",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mostolescitycouncil",
+  "n": "Móstoles City Council",
+  "a": "",
+  "pc": "",
+  "lat": 40.32272,
+  "lng": -3.86538,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Móstoles City Council Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5714904",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecadelauniversida",
+  "n": "Biblioteca de la Universidad Carlos III de Madrid",
+  "a": "",
+  "pc": "",
+  "lat": 40.33177,
+  "lng": -3.7653,
+  "c": "oddity",
+  "s": "university library in Spain",
+  "q": "Biblioteca de la Universidad Carlos III de Madrid Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5727988",
+   "raw": "university library in Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mostoleselsotorailwaysta",
+  "n": "Móstoles-El Soto railway station",
+  "a": "",
+  "pc": "",
+  "lat": 40.33097,
+  "lng": -3.88242,
+  "c": "oddity",
+  "s": "situated on the Madrid-Móstoles-El Soto Railway Station",
+  "q": "Móstoles-El Soto railway station Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5846791",
+   "raw": "situated on the Madrid-Móstoles-El Soto Railway Station",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lacasikamostoles",
+  "n": "La Casika, Móstoles",
+  "a": "",
+  "pc": "",
+  "lat": 40.32273,
+  "lng": -3.86797,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "La Casika, Móstoles Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5962758",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parquedepolvoranca",
+  "n": "Parque de Polvoranca",
+  "a": "",
+  "pc": "",
+  "lat": 40.31667,
+  "lng": -3.8,
+  "c": "green",
+  "s": "park in Leganés, Spain",
+  "q": "Parque de Polvoranca Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6062674",
+   "raw": "park in Leganés, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "polvoranca",
+  "n": "Polvoranca",
+  "a": "",
+  "pc": "",
+  "lat": 40.31734,
+  "lng": -3.79742,
+  "c": "oddity",
+  "s": "abandoned village in Spain",
+  "q": "Polvoranca Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6082032",
+   "raw": "abandoned village in Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hermitageofnuestrasenora",
+  "n": "Hermitage of Nuestra Señora de los Santos",
+  "a": "",
+  "pc": "",
+  "lat": 40.32245,
+  "lng": -3.86277,
+  "c": "oddity",
+  "s": "hermitage in Móstoles, Spain",
+  "q": "Hermitage of Nuestra Señora de los Santos Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8009617",
+   "raw": "hermitage in Móstoles, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "leganescentral",
+  "n": "Leganés Central",
+  "a": "",
+  "pc": "",
+  "lat": 40.3289,
+  "lng": -3.77129,
+  "c": "oddity",
+  "s": "madrid Metro station",
+  "q": "Leganés Central Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10948997",
+   "raw": "Madrid Metro station",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "teatrodelbosque",
+  "n": "Teatro del Bosque",
+  "a": "",
+  "pc": "",
+  "lat": 40.32441,
+  "lng": -3.86999,
+  "c": "cinema",
+  "s": "theatre in Móstoles, Spain",
+  "q": "Teatro del Bosque Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16913158",
+   "raw": "theatre in Móstoles, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "centrodeartedosdemayo",
+  "n": "Centro de Arte Dos de Mayo",
+  "a": "",
+  "pc": "",
+  "lat": 40.32471,
+  "lng": -3.8633,
+  "c": "oddity",
+  "s": "spanish center of 20th-century art and contemporary art",
+  "q": "Centro de Arte Dos de Mayo Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q20669477",
+   "raw": "Spanish center of 20th-century art and contemporary art",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parqueliana",
+  "n": "Parque Liana",
+  "a": "",
+  "pc": "",
+  "lat": 40.32358,
+  "lng": -3.8756,
+  "c": "green",
+  "s": "park in Spain",
+  "q": "Parque Liana Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q24003790",
+   "raw": "park in Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pablopicassopark",
+  "n": "Pablo Picasso Park",
+  "a": "",
+  "pc": "",
+  "lat": 40.33207,
+  "lng": -3.75861,
+  "c": "green",
+  "s": "park in Spain",
+  "q": "Pablo Picasso Park Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q24024734",
+   "raw": "park in Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecamunicipalmosto",
+  "n": "Biblioteca Municipal, Móstoles",
+  "a": "",
+  "pc": "",
+  "lat": 40.32514,
+  "lng": -3.86188,
+  "c": "oddity",
+  "s": "library in Spain",
+  "q": "Biblioteca Municipal, Móstoles Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26882269",
+   "raw": "library in Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "conservatoriodemusicarod",
+  "n": "Conservatorio de Música Rodolfo Halfter, Móstoles",
+  "a": "",
+  "pc": "",
+  "lat": 40.32421,
+  "lng": -3.86108,
+  "c": "oddity",
+  "s": "building in Spain",
+  "q": "Conservatorio de Música Rodolfo Halfter, Móstoles Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26882292",
+   "raw": "building in Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hospitaluniversitariosev",
+  "n": "Hospital Universitario Severo Ochoa",
+  "a": "",
+  "pc": "",
+  "lat": 40.32064,
+  "lng": -3.76929,
+  "c": "oddity",
+  "s": "hospital in Spain",
+  "q": "Hospital Universitario Severo Ochoa Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30253926",
+   "raw": "hospital in Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hospitaluniversitariorey",
+  "n": "Hospital Universitario Rey Juan Carlos",
+  "a": "",
+  "pc": "",
+  "lat": 40.33898,
+  "lng": -3.8709,
+  "c": "oddity",
+  "s": "hospital in Spain",
+  "q": "Hospital Universitario Rey Juan Carlos Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30260497",
+   "raw": "hospital in Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "imdeaenergyinstitute",
+  "n": "IMDEA Energy Institute",
+  "a": "",
+  "pc": "",
+  "lat": 40.33993,
+  "lng": -3.88109,
+  "c": "oddity",
+  "s": "facility in Móstoles, Spain",
+  "q": "IMDEA Energy Institute Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30263850",
+   "raw": "facility in Móstoles, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "universityhospitalhmpuer",
+  "n": "University Hospital HM Puerta del Sur",
+  "a": "",
+  "pc": "",
+  "lat": 40.31455,
+  "lng": -3.86041,
+  "c": "oddity",
+  "s": "hospital in Spain",
+  "q": "University Hospital HM Puerta del Sur Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q43896364",
+   "raw": "hospital in Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "institutodelamujeryarchi",
+  "n": "Instituto de la Mujer y Archivo Municipal de Móstoles",
+  "a": "",
+  "pc": "",
+  "lat": 40.3239,
+  "lng": -3.86616,
+  "c": "oddity",
+  "s": "building in Móstoles, Spain",
+  "q": "Instituto de la Mujer y Archivo Municipal de Móstoles Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q52750206",
+   "raw": "building in Móstoles, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoalmaestromostol",
+  "n": "Monumento al Maestro, Móstoles",
+  "a": "",
+  "pc": "",
+  "lat": 40.32368,
+  "lng": -3.86469,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Monumento al Maestro, Móstoles Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q52774147",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "plazadelsalvadorleganes",
+  "n": "Plaza del Salvador, Leganés",
+  "a": "",
+  "pc": "",
+  "lat": 40.32708,
+  "lng": -3.76494,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Plaza del Salvador, Leganés Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q52782653",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "calleparquevosamostoles",
+  "n": "Calle Parque Vosa, Móstoles",
+  "a": "",
+  "pc": "",
+  "lat": 40.32879,
+  "lng": -3.86411,
+  "c": "oddity",
+  "s": "street in Móstoles, Spain",
+  "q": "Calle Parque Vosa, Móstoles Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q52785820",
+   "raw": "street in Móstoles, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecamunicipalsanti",
+  "n": "Biblioteca Municipal - Santiago Amón",
+  "a": "",
+  "pc": "",
+  "lat": 40.3237,
+  "lng": -3.77064,
+  "c": "oddity",
+  "s": "library in Spain",
+  "q": "Biblioteca Municipal - Santiago Amón Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85696384",
+   "raw": "library in Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecacienciasdelasa",
+  "n": "Biblioteca Ciencias de la Salud Hospital de Móstoles",
+  "a": "",
+  "pc": "",
+  "lat": 40.3154,
+  "lng": -3.87779,
+  "c": "oddity",
+  "s": "library in Spain",
+  "q": "Biblioteca Ciencias de la Salud Hospital de Móstoles Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85698773",
+   "raw": "library in Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecamunicipaljoanm",
+  "n": "Biblioteca Municipal - Joán Miró",
+  "a": "",
+  "pc": "",
+  "lat": 40.3165,
+  "lng": -3.86203,
+  "c": "oddity",
+  "s": "library in Spain",
+  "q": "Biblioteca Municipal - Joán Miró Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85698782",
+   "raw": "library in Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecamunicipalelsot",
+  "n": "Biblioteca Municipal - El Soto",
+  "a": "",
+  "pc": "",
+  "lat": 40.3254,
+  "lng": -3.88031,
+  "c": "oddity",
+  "s": "library in Spain",
+  "q": "Biblioteca Municipal - El Soto Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85698780",
+   "raw": "library in Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecamunicipalnorte",
+  "n": "Biblioteca Municipal - Norte Universidad",
+  "a": "",
+  "pc": "",
+  "lat": 40.33583,
+  "lng": -3.86692,
+  "c": "oddity",
+  "s": "library in Spain",
+  "q": "Biblioteca Municipal - Norte Universidad Madrid",
+  "w": "",
+  "city": "madrid",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85698788",
+   "raw": "library in Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

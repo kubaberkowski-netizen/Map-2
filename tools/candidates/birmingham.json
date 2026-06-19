@@ -1,0 +1,4493 @@
+[
+ {
+  "id": "doveofpeace",
+  "n": "Dove of Peace",
+  "a": "",
+  "pc": "",
+  "lat": 52.52153,
+  "lng": -1.86897,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Dove of Peace Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/10284689",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Dove of Peace",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "horseandtamer",
+  "n": "Horse and Tamer",
+  "a": "",
+  "pc": "",
+  "lat": 52.41113,
+  "lng": -1.77103,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Horse and Tamer Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/32125112",
+   "raw": {
+    "artwork_type": "statue",
+    "heritage": "2",
+    "heritage:operator": "Historic England",
+    "listed_status": "Grade II",
+    "name": "Horse and Tamer",
+    "source": "survey;English Heritage",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ghausiamosquetrust",
+  "n": "Ghausia Mosque Trust",
+  "a": "",
+  "pc": "",
+  "lat": 52.51628,
+  "lng": -1.85623,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Ghausia Mosque Trust Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/64798195",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Ghausia Mosque Trust",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lordnelson",
+  "n": "Lord Nelson",
+  "a": "",
+  "pc": "",
+  "lat": 52.47744,
+  "lng": -1.89397,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Lord Nelson Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/90046258",
+   "raw": {
+    "PMSA_ref": "WMbiBIxx246",
+    "artist_name": "Richard Westmacott",
+    "artwork_type": "statue",
+    "heritage": "2",
+    "heritage:operator": "Historic England",
+    "historic": "monument",
+    "listed_status": "Grade II*",
+    "material": "bronze",
+    "name": "Lord Nelson",
+    "operator": "Birmingham City Council",
+    "source": "survey",
+    "start_date": "1809",
+    "subject:wikidata": "Q83235",
+    "tourism": "artwork",
+    "url": "http://www.birmingham.gov.uk/nelson",
+    "wikidata": "Q7604486",
+    "wikimedia_commons": "Category:Statue of Horatio Nelson, Birmingham",
+    "wikipedia": "en:Statue of Horatio Nelson, Birmingham"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chamberlainclock",
+  "n": "Chamberlain Clock",
+  "a": "",
+  "pc": "",
+  "lat": 52.48701,
+  "lng": -1.91258,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Chamberlain Clock Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/187104810",
+   "raw": {
+    "amenity": "clock",
+    "check_date": "2021-07-22",
+    "heritage": "2",
+    "heritage:operator": "Historic England",
+    "historic": "yes",
+    "listed_status": "Grade II",
+    "man_made": "tower",
+    "name": "Chamberlain Clock",
+    "source": "visual survey;cities_revealed_aerial_ imagery;Birmingham_City_Council",
+    "start_date": "1903",
+    "tourism": "attraction",
+    "tower:type": "clock",
+    "wikidata": "Q26626985",
+    "wikipedia": "en:Chamberlain Clock"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pimplehill",
+  "n": "Pimple Hill",
+  "a": "",
+  "pc": "",
+  "lat": 52.50815,
+  "lng": -1.79226,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Pimple Hill Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/196118629",
+   "raw": {
+    "description": "Motte",
+    "historic": "archaeological_site",
+    "name": "Pimple Hill",
+    "source": "NPE",
+    "source:name": "knowledge"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stechfordwarmemorial",
+  "n": "Stechford War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 52.47944,
+  "lng": -1.81273,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Stechford War Memorial Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/253076327",
+   "raw": {
+    "heritage": "2",
+    "heritage:operator": "Historic England",
+    "historic": "memorial",
+    "listed_status": "Grade II",
+    "memorial": "war_memorial",
+    "name": "Stechford War Memorial",
+    "source": "survey",
+    "wikidata": "Q26677588"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cineworld",
+  "n": "Cineworld",
+  "a": "",
+  "pc": "",
+  "lat": 52.47417,
+  "lng": -1.91565,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cineworld Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/259415101",
+   "raw": {
+    "addr:city": "Birmingham",
+    "addr:housenumber": "181",
+    "addr:postcode": "B15 1DA",
+    "addr:street": "Broad Street",
+    "amenity": "cinema",
+    "brand": "Cineworld",
+    "brand:wikidata": "Q5120901",
+    "brand:wikipedia": "en:Cineworld",
+    "cinema:3D": "yes",
+    "cinema:IMAX": "yes",
+    "fhrs:id": "601357",
+    "name": "Cineworld",
+    "operator": "Cineworld",
+    "phone": "+44 871 200 2000",
+    "screen": "12",
+    "website": "https://www.cineworld.co.uk/cinemas/birmingham-broad-street/044",
+    "wikidata": "Q38682765"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jamimadinaashifulloommas",
+  "n": "Jami Madina Ashiful Loom Masjid",
+  "a": "",
+  "pc": "",
+  "lat": 52.4884,
+  "lng": -1.8494,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Jami Madina Ashiful Loom Masjid Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/259645058",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Jami Madina Ashiful Loom Masjid",
+    "religion": "muslim",
+    "source": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamsuttontrustmemori",
+  "n": "William Sutton Trust Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 52.48811,
+  "lng": -1.8392,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "William Sutton Trust Memorial Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/260588068",
+   "raw": {
+    "heritage": "6",
+    "heritage:operator": "Birmingham City Council",
+    "historic": "memorial",
+    "listed_status": "local_grade_B",
+    "name": "William Sutton Trust Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "boyscoutwarmemorial",
+  "n": "Boy Scout War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 52.45025,
+  "lng": -1.90828,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Boy Scout War Memorial Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/272413356",
+   "raw": {
+    "architect:wikipedia": "en:William Haywood (architect)",
+    "artist": "William Haywood",
+    "heritage": "2",
+    "heritage:operator": "Historic England",
+    "historic": "memorial",
+    "listed_status": "Grade II",
+    "material": "concrete",
+    "memorial": "war_memorial",
+    "name": "Boy Scout War Memorial",
+    "source": "survey",
+    "start_date": "1924-07-27",
+    "wikimedia_commons": "Category:Scout memorial, Birmingham"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "theangeldrinkingfountain",
+  "n": "The Angel Drinking Fountain",
+  "a": "",
+  "pc": "",
+  "lat": 52.48116,
+  "lng": -1.89747,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "The Angel Drinking Fountain Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/273113404",
+   "raw": {
+    "name": "The Angel Drinking Fountain",
+    "source": "survey",
+    "tourism": "artwork",
+    "wikidata": "Q21078185"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "quakermeetinghouse",
+  "n": "Quaker Meeting House",
+  "a": "",
+  "pc": "",
+  "lat": 52.41557,
+  "lng": -1.96693,
+  "c": "faith",
+  "s": "church",
+  "q": "Quaker Meeting House Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/278206516",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-01-09",
+    "denomination": "quaker",
+    "name": "Quaker Meeting House",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "shrigeetabhawan",
+  "n": "Shri Geeta Bhawan",
+  "a": "",
+  "pc": "",
+  "lat": 52.50582,
+  "lng": -1.91095,
+  "c": "faith",
+  "s": "temple",
+  "q": "Shri Geeta Bhawan Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/280714540",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Shri Geeta Bhawan",
+    "religion": "hindu",
+    "wikidata": "Q7503483"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sleipnir",
+  "n": "Sleipnir",
+  "a": "",
+  "pc": "",
+  "lat": 52.54717,
+  "lng": -2.02668,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Sleipnir Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/281347892",
+   "raw": {
+    "artist:wikipedia": "en:Steve Field (sculptor)",
+    "artist_name": "Steve Field",
+    "artwork_type": "sculpture",
+    "date": "1998",
+    "material": "metal",
+    "name": "Sleipnir",
+    "source": "visual survey;bing",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:Statue_Sleipnir.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofgodofprophecy",
+  "n": "Church of God of Prophecy",
+  "a": "",
+  "pc": "",
+  "lat": 52.51094,
+  "lng": -1.96164,
+  "c": "faith",
+  "s": "church",
+  "q": "Church of God of Prophecy Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/293190183",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Church of God of Prophecy",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "walmleywarmemorial",
+  "n": "Walmley War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 52.54066,
+  "lng": -1.80061,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Walmley War Memorial Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/301554129",
+   "raw": {
+    "heritage": "2",
+    "heritage:operator": "Historic England",
+    "historic": "memorial",
+    "listed_status": "Grade II",
+    "memorial": "war_memorial",
+    "name": "Walmley War Memorial",
+    "wikidata": "Q26677964"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "odeonluxebirminghambroad",
+  "n": "Odeon Luxe Birmingham Broadway Plaza",
+  "a": "",
+  "pc": "",
+  "lat": 52.47355,
+  "lng": -1.92165,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Odeon Luxe Birmingham Broadway Plaza Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/309457040",
+   "raw": {
+    "addr:city": "Birmingham",
+    "addr:housenumber": "220",
+    "addr:postcode": "B16 8LP",
+    "addr:street": "Ladywood Middleway",
+    "amenity": "cinema",
+    "brand": "Odeon",
+    "brand:wikidata": "Q6127470",
+    "brand:wikipedia": "en:Odeon Cinemas",
+    "cinema:3D": "yes",
+    "contact:website": "https://www.odeon.co.uk/cinemas/birmingham-broadway-plaza/",
+    "drive_in": "no",
+    "name": "Odeon Luxe Birmingham Broadway Plaza",
+    "operator": "Odeon",
+    "screen": "12",
+    "wikidata": "Q38691538"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bartleygreenwarmemorial",
+  "n": "Bartley Green War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 52.43451,
+  "lng": -2.00469,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Bartley Green War Memorial Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/309691029",
+   "raw": {
+    "heritage": "2",
+    "heritage:operator": "Historic England",
+    "historic": "memorial",
+    "listed_status": "Grade II",
+    "name": "Bartley Green War Memorial",
+    "source": "survey",
+    "wikidata": "Q26677834"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "smethwickcityofbirmingha",
+  "n": "Smethwick / City of Birminghamm",
+  "a": "",
+  "pc": "",
+  "lat": 52.4826,
+  "lng": -1.96219,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Smethwick / City of Birminghamm Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/309904165",
+   "raw": {
+    "historic": "boundary_stone",
+    "material": "metal",
+    "name": "Smethwick / City of Birminghamm",
+    "note": "Smethwick/City of Birmingham",
+    "operator": "Sandwell Metropolitan Bourough Council",
+    "source": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "titfordpumphouse",
+  "n": "Titford Pumphouse",
+  "a": "",
+  "pc": "",
+  "lat": 52.49616,
+  "lng": -2.00905,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Titford Pumphouse Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/310436770",
+   "raw": {
+    "historic": "pumping_station",
+    "man_made": "survey_point",
+    "name": "Titford Pumphouse"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "johnchancememorialdrinki",
+  "n": "John Chance Memorial Drinking Fountain",
+  "a": "",
+  "pc": "",
+  "lat": 52.49675,
+  "lng": -1.98947,
+  "c": "history",
+  "s": "memorial fountain",
+  "q": "John Chance Memorial Drinking Fountain Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/310841296",
+   "raw": {
+    "access": "yes",
+    "check_date": "2026-06-16",
+    "historic": "monument",
+    "man_made": "drinking_fountain",
+    "material": "stone",
+    "name": "John Chance Memorial Drinking Fountain",
+    "start_date": "1905-06",
+    "wikimedia_commons": "File:Chance water fountain West Smethwick park (3341489639).jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jameschancememorial",
+  "n": "James Chance Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 52.49843,
+  "lng": -1.99056,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "James Chance Memorial Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/310841298",
+   "raw": {
+    "HE_ref": "1077101",
+    "check_date": "2026-06-16",
+    "heritage": "yes",
+    "heritage:operator": "Historic England",
+    "historic": "memorial",
+    "image": "https://historicengland.org.uk/etl/1077101/86ff0ab7-1402-42a4-ac09-b700bb186be3.jpg",
+    "inscription": "James J Chance, MA, JP, DL. For 50 years, a partner in Chance Brothers & Co at the Glass Works Smethwick, and Akali Works, Oldbury. He purchased the land for the Park, laid it out and endowed it and on Sep 7 1895 opened it as a gift to the public forever.",
+    "listed_status": "Grade II",
+    "material": "terracotta;brick",
+    "memorial": "war_memorial",
+    "name": "James Chance Memorial",
+    "official_name": "Memorial to James Chance in West Smethwick Park",
+    "ref:GB:nhle": "1077101",
+    "start_date": "1900",
+    "subject:wikidata": "Q18529818",
+    "subject:wikipedia": "en:James Timmins Chance",
+    "website": "https://historicengland.org.uk/listing/the-list/list-entry/1077101?section=official-list-entry",
+    "wikidata": "Q26343439",
+    "wikimedia_commons": "File:Chance Monument West Smethwick park (4565999608).jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fltsgtallancharliecoxand",
+  "n": "Flt. Sgt. Allan Charlie Cox & Flt. Sgt. Gordon Preston Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 52.49761,
+  "lng": -1.99237,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Flt. Sgt. Allan Charlie Cox & Flt. Sgt. Gordon Preston Memorial Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/310841300",
+   "raw": {
+    "check_date": "2026-06-16",
+    "historic": "memorial",
+    "inscription": "Not Forgotten/ 60th Anniversary 2004/ This stone is laid in/ remembrance of/ Flt. Sgt. ALLAN CHARLIE COX/ Of Smethwick/ And/ Flt. Sgt. GORFON PRESTON/ Of Pinner (Middlesex)/ who's plane crashed near/ this spot on 31st July 1944",
+    "material": "stone",
+    "memorial": "stone",
+    "monument": "war_memorial",
+    "name": "Flt. Sgt. Allan Charlie Cox & Flt. Sgt. Gordon Preston Memorial",
+    "note": "Commemoration to Ft Sgts Cox and Preston who crashed near this spot 31 July 1944",
+    "start_date": "2004",
+    "subject:wikidata": "Q362",
+    "subject:wikipedia": "en:World War II",
+    "website": "https://www.warmemorialsonline.org.uk/memorial/238281/",
+    "wikimedia_commons": "File:West Smethwick Park - 2015-08-17 - Andy Mabbett - 18.JPG"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kingdomhallofjehovahswit",
+  "n": "Kingdom Hall of Jehovah's Witnesses",
+  "a": "",
+  "pc": "",
+  "lat": 52.49662,
+  "lng": -1.99829,
+  "c": "faith",
+  "s": "church",
+  "q": "Kingdom Hall of Jehovah's Witnesses Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/310841309",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "jehovahs_witness",
+    "name": "Kingdom Hall of Jehovah's Witnesses",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "triumphantchurchofgod",
+  "n": "Triumphant Church of God",
+  "a": "",
+  "pc": "",
+  "lat": 52.49447,
+  "lng": -1.99885,
+  "c": "faith",
+  "s": "church",
+  "q": "Triumphant Church of God Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/310929363",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Triumphant Church of God",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tonyhancock",
+  "n": "Tony Hancock",
+  "a": "",
+  "pc": "",
+  "lat": 52.48217,
+  "lng": -1.89442,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Tony Hancock Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/312619557",
+   "raw": {
+    "PMSA_ref": "WMbiBIxx247",
+    "artist_name": "Bruce Williams",
+    "artwork_type": "street_art",
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Tony Hancock",
+    "operator": "Birmingham City Council",
+    "source": "survey;website",
+    "start_date": "1996",
+    "subject:wikidata": "Q1365832",
+    "subject:wikipedia": "en:Tony Hancock",
+    "tourism": "artwork",
+    "url": "http://www.birmingham.gov.uk/hancock"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "harbornewarmemorial",
+  "n": "Harborne War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 52.45309,
+  "lng": -1.95905,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Harborne War Memorial Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/313734213",
+   "raw": {
+    "heritage": "2",
+    "heritage:operator": "Historic England",
+    "historic": "memorial",
+    "listed_status": "Grade II",
+    "name": "Harborne War Memorial",
+    "source": "visual survey;estimate",
+    "wikidata": "Q26677838"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "warleyinstitutionalchurc",
+  "n": "Warley Institutional Church",
+  "a": "",
+  "pc": "",
+  "lat": 52.48026,
+  "lng": -2.00583,
+  "c": "faith",
+  "s": "church",
+  "q": "Warley Institutional Church Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/315897353",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Warley Institutional Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "knightofthevale",
+  "n": "Knight of the Vale",
+  "a": "",
+  "pc": "",
+  "lat": 52.5175,
+  "lng": -1.79477,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Knight of the Vale Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/319780144",
+   "raw": {
+    "artist_name": "John McKenna",
+    "artwork_type": "statue",
+    "name": "Knight of the Vale",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alexanderparkes",
+  "n": "Alexander Parkes",
+  "a": "",
+  "pc": "",
+  "lat": 52.4836,
+  "lng": -1.90639,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Alexander Parkes Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/330256386",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Alexander Parkes",
+    "openplaques:id": "1595"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rowlandhill",
+  "n": "Rowland Hill",
+  "a": "",
+  "pc": "",
+  "lat": 52.48228,
+  "lng": -1.90552,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Rowland Hill Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/330256388",
+   "raw": {
+    "colour": "blue",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Rowland Hill",
+    "subject:wikidata": "Q370241"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jsamsongamgeesurgeonandf",
+  "n": "J Samson Gamgee, surgeon and founder of Birmingham Saturday Fund",
+  "a": "",
+  "pc": "",
+  "lat": 52.47927,
+  "lng": -1.90895,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "J Samson Gamgee, surgeon and founder of Birmingham Saturday Fund Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/344209089",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "J Samson Gamgee, surgeon and founder of Birmingham Saturday Fund",
+    "openplaques:id": "1563",
+    "source": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "johnbaskervilleprinteran",
+  "n": "John Baskerville, printer and publisher",
+  "a": "",
+  "pc": "",
+  "lat": 52.47973,
+  "lng": -1.90722,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "John Baskerville, printer and publisher Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/344209090",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "John Baskerville, printer and publisher",
+    "openplaques:id": "1541",
+    "source": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "albertwketelbeycomposera",
+  "n": "Albert W Ketelbey, composer & musician",
+  "a": "",
+  "pc": "",
+  "lat": 52.48131,
+  "lng": -1.90368,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Albert W Ketelbey, composer & musician Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/344241311",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Albert W Ketelbey, composer & musician",
+    "openplaques:id": "1579",
+    "source": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquetonyhancock",
+  "n": "Blue Plaque: Tony Hancock",
+  "a": "",
+  "pc": "",
+  "lat": 52.43608,
+  "lng": -1.84836,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Blue Plaque: Tony Hancock Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/350166124",
+   "raw": {
+    "historic": "memorial",
+    "name": "Blue Plaque: Tony Hancock",
+    "source": "survey",
+    "subject:wikidata": "Q1365832",
+    "subject:wikipedia": "en:Tony Hancock"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquematthewboulton",
+  "n": "Blue Plaque: Matthew Boulton",
+  "a": "",
+  "pc": "",
+  "lat": 52.43423,
+  "lng": -1.85597,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Blue Plaque: Matthew Boulton Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/350166139",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Birmingham Civic Society 2002\nSAREHOLE MILL\nSite of Water Mill Since 1542\nUsed by Matthew Boulton in mid 18th century\nRebuilt 1768\nImspired J. R. R. Tolkein\n1896 - 1900\nThe Tolkien Society",
+    "name": "Blue Plaque: Matthew Boulton",
+    "source": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "josephpriestley",
+  "n": "Joseph Priestley",
+  "a": "",
+  "pc": "",
+  "lat": 52.47996,
+  "lng": -1.89259,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Joseph Priestley Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/351779838",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Joseph Priestley",
+    "openplaques:id": "1596",
+    "source": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thepenmuseum",
+  "n": "The Pen Museum",
+  "a": "",
+  "pc": "",
+  "lat": 52.4846,
+  "lng": -1.91161,
+  "c": "museum",
+  "s": "museum",
+  "q": "The Pen Museum Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/352984514",
+   "raw": {
+    "addr:city": "Birmingham",
+    "addr:housename": "Unit 3, The Argent Centre",
+    "addr:housenumber": "60",
+    "addr:postcode": "B1 3HS",
+    "addr:street": "Frederick Street",
+    "fee": "yes",
+    "name": "The Pen Museum",
+    "opening_hours": "Th-Sa 11:00-16:00; Su 12:00-16:00",
+    "operator": "Birmingham Pen Trade Heritage Association",
+    "phone": "+44 121 236 9834",
+    "source": "survey",
+    "tourism": "museum",
+    "url": "https://penmuseum.org.uk/",
+    "wikidata": "Q16707756",
+    "wikipedia": "en:Pen Museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquemajordrjhalled",
+  "n": "Blue Plaque Major Dr J Hall-Edwards pioneer radiologist",
+  "a": "",
+  "pc": "",
+  "lat": 52.48488,
+  "lng": -1.89326,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Blue Plaque Major Dr J Hall-Edwards pioneer radiologist Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/355915866",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Blue Plaque Major Dr J Hall-Edwards pioneer radiologist",
+    "source": "survey",
+    "subject:wikidata": "Q1634452",
+    "subject:wikipedia": "en:John Hall-Edwards"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquealdermanwbyngk",
+  "n": "blue plaque: Alderman W Byng Kenrick",
+  "a": "",
+  "pc": "",
+  "lat": 52.44947,
+  "lng": -1.95504,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "blue plaque: Alderman W Byng Kenrick Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/365123527",
+   "raw": {
+    "historic": "memorial",
+    "name": "blue plaque: Alderman W Byng Kenrick",
+    "operator": "Birmingham Civic Society",
+    "source": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "warmemorial",
+  "n": "War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 52.44561,
+  "lng": -1.82373,
+  "c": "history",
+  "s": "war memorial",
+  "q": "War Memorial Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/365261229",
+   "raw": {
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "War Memorial",
+    "source": "survey",
+    "ukniwm_ref": "19520",
+    "url": "http://www.ukniwm.org.uk/server/show/conMemorial.19520/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "madeleinecarroll",
+  "n": "Madeleine Carroll",
+  "a": "",
+  "pc": "",
+  "lat": 52.5191,
+  "lng": -1.99307,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Madeleine Carroll Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/369783955",
+   "raw": {
+    "historic": "memorial",
+    "name": "Madeleine Carroll",
+    "source": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "holocaustmemorial",
+  "n": "Holocaust Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 52.52185,
+  "lng": -1.99876,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Holocaust Memorial Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/369884806",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "The people of Sandwell\nCommemorate those who\nDied in the Holocaust,\nAs a result of Nazi\nPersecution and in other\nGenocides.\n\nThere are some who have\nno memorial.\nThey are perished as though\nthey had never been.\n\nForget them not",
+    "memorial": "plaque",
+    "name": "Holocaust Memorial"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "boerwarmemorial",
+  "n": "Boer War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 52.45327,
+  "lng": -1.90099,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Boer War Memorial Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/372372334",
+   "raw": {
+    "heritage": "2",
+    "heritage:operator": "Historic England",
+    "historic": "memorial",
+    "listed_status": "Grade II*",
+    "memorial": "war_memorial",
+    "memorial:conflict": "Boer_Wars",
+    "memorial:conflict:wikidata": "Q1676845",
+    "name": "Boer War Memorial",
+    "wikidata": "Q26162445"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquesidfieldcomedi",
+  "n": "Blue Plaque: Sid Field, comedian",
+  "a": "",
+  "pc": "",
+  "lat": 52.45785,
+  "lng": -1.8635,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Blue Plaque: Sid Field, comedian Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/386177483",
+   "raw": {
+    "historic": "memorial",
+    "name": "Blue Plaque: Sid Field, comedian",
+    "source": "survey",
+    "subject:wikidata": "Q7507794",
+    "subject:wikipedia": "en:Sid Field"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquelanchesterbrot",
+  "n": "Blue Plaque: Lanchester Brothers built Uk's first motor car here",
+  "a": "",
+  "pc": "",
+  "lat": 52.46433,
+  "lng": -1.86608,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Blue Plaque: Lanchester Brothers built Uk's first motor car here Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/386795025",
+   "raw": {
+    "historic": "memorial",
+    "name": "Blue Plaque: Lanchester Brothers built Uk's first motor car here",
+    "source": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hurstgreenfamilychurch",
+  "n": "Hurst Green Family Church",
+  "a": "",
+  "pc": "",
+  "lat": 52.47233,
+  "lng": -2.02881,
+  "c": "faith",
+  "s": "church",
+  "q": "Hurst Green Family Church Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/387846718",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Hurst Green Family Church",
+    "religion": "christian",
+    "source": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquetheaustinvilla",
+  "n": "blue plaque: The Austin Village",
+  "a": "",
+  "pc": "",
+  "lat": 52.40239,
+  "lng": -1.97113,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "blue plaque: The Austin Village Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/416495748",
+   "raw": {
+    "historic": "memorial",
+    "name": "blue plaque: The Austin Village"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquejameswatt",
+  "n": "Blue Plaque: James Watt",
+  "a": "",
+  "pc": "",
+  "lat": 52.48589,
+  "lng": -1.91013,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Blue Plaque: James Watt Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/416624178",
+   "raw": {
+    "historic": "memorial",
+    "name": "Blue Plaque: James Watt",
+    "wikidata": "Q9041",
+    "wikipedia": "en:James Watt"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquedamehildalloyd",
+  "n": "blue plaque: Dame Hilda Lloyd",
+  "a": "",
+  "pc": "",
+  "lat": 52.45353,
+  "lng": -1.94225,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "blue plaque: Dame Hilda Lloyd Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/418901358",
+   "raw": {
+    "historic": "memorial",
+    "name": "blue plaque: Dame Hilda Lloyd",
+    "operator": "Birmingham Civic Society",
+    "source": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquesirgranvilleba",
+  "n": "blue plaque: Sir Granville Bantock",
+  "a": "",
+  "pc": "",
+  "lat": 52.45719,
+  "lng": -1.94546,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "blue plaque: Sir Granville Bantock Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/418901371",
+   "raw": {
+    "historic": "memorial",
+    "name": "blue plaque: Sir Granville Bantock"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquedavidcox",
+  "n": "blue plaque: David Cox",
+  "a": "",
+  "pc": "",
+  "lat": 52.45775,
+  "lng": -1.94722,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "blue plaque: David Cox Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/418901377",
+   "raw": {
+    "historic": "memorial",
+    "name": "blue plaque: David Cox"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquewhauden",
+  "n": "blue plaque: W.H. Auden",
+  "a": "",
+  "pc": "",
+  "lat": 52.45842,
+  "lng": -1.95911,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "blue plaque: W.H. Auden Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/418901385",
+   "raw": {
+    "historic": "memorial",
+    "name": "blue plaque: W.H. Auden",
+    "note": "check after reconstruction complete"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquefrancisbrettyo",
+  "n": "blue plaque: Francis Brett Young",
+  "a": "",
+  "pc": "",
+  "lat": 52.46979,
+  "lng": -1.92883,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "blue plaque: Francis Brett Young Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/418901405",
+   "raw": {
+    "historic": "memorial",
+    "name": "blue plaque: Francis Brett Young"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquesiraustenchamb",
+  "n": "blue plaque: Sir Austen Chamberlain",
+  "a": "",
+  "pc": "",
+  "lat": 52.47046,
+  "lng": -1.92581,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "blue plaque: Sir Austen Chamberlain Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/418901411",
+   "raw": {
+    "historic": "memorial",
+    "name": "blue plaque: Sir Austen Chamberlain"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquejohnhenrycardi",
+  "n": "blue plaque: John Henry Cardinal Newman",
+  "a": "",
+  "pc": "",
+  "lat": 52.47199,
+  "lng": -1.92888,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "blue plaque: John Henry Cardinal Newman Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/418901415",
+   "raw": {
+    "historic": "memorial",
+    "name": "blue plaque: John Henry Cardinal Newman"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jrrtolkien",
+  "n": "J.R.R. Tolkien",
+  "a": "",
+  "pc": "",
+  "lat": 52.47244,
+  "lng": -1.92307,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "J.R.R. Tolkien Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/418901455",
+   "raw": {
+    "fixme": "Is this definitely different to the plaque here https://www.openstreetmap.org/node/418901437 ?",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "J.R.R. Tolkien",
+    "openplaques:id": "1609"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "washingtonirving",
+  "n": "Washington Irving",
+  "a": "",
+  "pc": "",
+  "lat": 52.47113,
+  "lng": -1.9189,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Washington Irving Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/418901470",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Washington Irving",
+    "openplaques:id": "1574"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquewilliamwitheri",
+  "n": "blue plaque: William Withering",
+  "a": "",
+  "pc": "",
+  "lat": 52.45987,
+  "lng": -1.91746,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "blue plaque: William Withering Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/418901524",
+   "raw": {
+    "historic": "memorial",
+    "name": "blue plaque: William Withering",
+    "openplaques:id": "1613",
+    "operator": "Edgbaston Golf Club"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquelawntennisandm",
+  "n": "blue plaque: Lawn Tennis and Major T.H. Gem",
+  "a": "",
+  "pc": "",
+  "lat": 52.46376,
+  "lng": -1.91745,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "blue plaque: Lawn Tennis and Major T.H. Gem Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/418901527",
+   "raw": {
+    "historic": "memorial",
+    "name": "blue plaque: Lawn Tennis and Major T.H. Gem"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquejosephsouthall",
+  "n": "blue plaque: Joseph Southall",
+  "a": "",
+  "pc": "",
+  "lat": 52.46555,
+  "lng": -1.90854,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "blue plaque: Joseph Southall Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/418901558",
+   "raw": {
+    "historic": "memorial",
+    "name": "blue plaque: Joseph Southall"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquethewarwickshir",
+  "n": "blue plaque: The Warwickshire County Cricket Club",
+  "a": "",
+  "pc": "",
+  "lat": 52.45496,
+  "lng": -1.90314,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "blue plaque: The Warwickshire County Cricket Club Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/418901568",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "blue plaque: The Warwickshire County Cricket Club"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquelouisaanneryla",
+  "n": "blue plaque: Louisa Anne Ryland",
+  "a": "",
+  "pc": "",
+  "lat": 52.4544,
+  "lng": -1.89911,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "blue plaque: Louisa Anne Ryland Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/418901571",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "blue plaque: Louisa Anne Ryland",
+    "subject:wikidata": "Q6688557",
+    "subject:wikipedia": "en:Louisa Ryland"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquenevillechamber",
+  "n": "blue plaque: Neville Chamberlain",
+  "a": "",
+  "pc": "",
+  "lat": 52.46729,
+  "lng": -1.92854,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "blue plaque: Neville Chamberlain Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/418901628",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "blue plaque: Neville Chamberlain"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaqueedwardrichardt",
+  "n": "Blue Plaque: Edward Richard Taylor;William Howson Taylor",
+  "a": "",
+  "pc": "",
+  "lat": 52.46938,
+  "lng": -1.92329,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Blue Plaque: Edward Richard Taylor;William Howson Taylor Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/418901631",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Blue Plaque: Edward Richard Taylor;William Howson Taylor"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquegeorgecadbury",
+  "n": "Blue Plaque: George Cadbury",
+  "a": "",
+  "pc": "",
+  "lat": 52.42995,
+  "lng": -1.93546,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Blue Plaque: George Cadbury Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/419309889",
+   "raw": {
+    "historic": "memorial",
+    "name": "Blue Plaque: George Cadbury"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "highbury",
+  "n": "Highbury",
+  "a": "",
+  "pc": "",
+  "lat": 52.44204,
+  "lng": -1.90147,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Highbury Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/419309945",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Home of Joseph Chamberlain; Distinguished Statesman and Civic Leader",
+    "memorial": "blue_plaque",
+    "name": "Highbury"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquegeorgehlanches",
+  "n": "Blue Plaque: George H. Lanchester",
+  "a": "",
+  "pc": "",
+  "lat": 52.43866,
+  "lng": -1.87625,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Blue Plaque: George H. Lanchester Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/419923321",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Blue Plaque: George H. Lanchester",
+    "note": "Actually it is green plaque",
+    "openplaques:id": "4575",
+    "subject:wikidata": "Q5541515",
+    "subject:wikipedia": "en:George Lanchester"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquethomashallbd",
+  "n": "Blue Plaque: Thomas Hall BD",
+  "a": "",
+  "pc": "",
+  "lat": 52.40887,
+  "lng": -1.9284,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Blue Plaque: Thomas Hall BD Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/421971658",
+   "raw": {
+    "historic": "memorial",
+    "name": "Blue Plaque: Thomas Hall BD"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquequeenshospital",
+  "n": "Blue Plaque:  Queen's Hospital",
+  "a": "",
+  "pc": "",
+  "lat": 52.47285,
+  "lng": -1.90941,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Blue Plaque: Queen's Hospital Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/428506383",
+   "raw": {
+    "historic": "memorial",
+    "name": "Blue Plaque:  Queen's Hospital",
+    "source": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquesirbarryjackso",
+  "n": "Blue Plaque: Sir Barry Jackson; 1897-1991; Founded this Theatre, Feb. 1913",
+  "a": "",
+  "pc": "",
+  "lat": 52.47678,
+  "lng": -1.89831,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Blue Plaque: Sir Barry Jackson; 1897-1991; Founded this Theatre, Feb. 1913 Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/434729573",
+   "raw": {
+    "historic": "memorial",
+    "name": "Blue Plaque: Sir Barry Jackson; 1897-1991; Founded this Theatre, Feb. 1913"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "birminghamdesigninitiati",
+  "n": "Birmingham Design Initiative: Renaissance Award 1994",
+  "a": "",
+  "pc": "",
+  "lat": 52.48008,
+  "lng": -1.90269,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Birmingham Design Initiative: Renaissance Award 1994 Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/434729574",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Birmingham Design Initiative: Renaissance Award 1994"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "siteofthetheatreroyal177",
+  "n": "Site of the Theatre Royal, 1774-1956",
+  "a": "",
+  "pc": "",
+  "lat": 52.47921,
+  "lng": -1.90029,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Site of the Theatre Royal, 1774-1956 Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/434729575",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "memorial:project": "Blue plaque",
+    "name": "Site of the Theatre Royal, 1774-1956",
+    "openplaques:id": "1607"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "siteofthegildhalloftheho",
+  "n": "Site of the Gild Hall of the Holy Cross, 1392, from 1552 to 1936 King Edward VI. School",
+  "a": "",
+  "pc": "",
+  "lat": 52.47884,
+  "lng": -1.89723,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Site of the Gild Hall of the Holy Cross, 1392, from 1552 to 1936 King Edward VI. School Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/434729576",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "memorial:project": "Blue plaque",
+    "name": "Site of the Gild Hall of the Holy Cross, 1392, from 1552 to 1936 King Edward VI. School",
+    "openplaques:id": "3334"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oldburycenotaph",
+  "n": "Oldbury Cenotaph",
+  "a": "",
+  "pc": "",
+  "lat": 52.50394,
+  "lng": -2.01658,
+  "c": "death",
+  "s": "historic tomb",
+  "q": "Oldbury Cenotaph Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/445423263",
+   "raw": {
+    "HE_ref": "1442288",
+    "addr:street": "Birmingham Street",
+    "check_date": "2025-05-02",
+    "description": "The pylon rises from a five-stepped base, rectangular on plan, and at the top dies back to the foot of the empty tomb. The tomb is in the form of a tapered Classical chest, ornamented with hemispherical bosses.",
+    "heritage": "2",
+    "heritage:operator": "Historic England",
+    "historic": "memorial",
+    "image": "https://historicengland.org.uk/etl/1442288/00d1fec3-6ef0-4ba4-b6d5-868e098ffd77.jpg?autorotate=true&height=500&mode=max&quality=80",
+    "inscription": "East Face: IN MEMORY OF/ THE MEN OF/ OLDBURY/ WHO FELL IN THE/ GREAT WARS/ 1914-1918/ AND/ 1939-1945/ AND IN/ ALL OTHER/ CONFLICTS. \nWest Face: AT THE/ GOING DOWN/ OF THE SUN/ AND IN THE/ MORNING WE WILL/ REMEMBER THEM.",
+    "listed_status": "Grade II",
+    "material": "granite",
+    "memorial": "war_memorial",
+    "name": "Oldbury Cenotaph",
+    "ref:GB:nhle": "1442288",
+    "source": "survey",
+    "website": "https://www.warmemorialsonline.org.uk/memorial/155182",
+    "wikidata": "Q66478448",
+    "wikimedia_commons": "File:Oldbury Cenotaph - geograph.org.uk - 933152.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquesirjohnbenjami",
+  "n": "Blue Plaque: Sir John Benjamin Stone",
+  "a": "",
+  "pc": "",
+  "lat": 52.52736,
+  "lng": -1.82244,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Blue Plaque: Sir John Benjamin Stone Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/448729420",
+   "raw": {
+    "historic": "memorial",
+    "name": "Blue Plaque: Sir John Benjamin Stone",
+    "source": "survey",
+    "url": "http://openplaques.org/plaques/1602"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "josephsturge",
+  "n": "Joseph Sturge",
+  "a": "",
+  "pc": "",
+  "lat": 52.47223,
+  "lng": -1.91925,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Joseph Sturge Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/493626860",
+   "raw": {
+    "HE_ref": "1076324",
+    "PMSA_ref": "WMbiBIxx224",
+    "artist:wikipedia": "en:John Thomas (sculptor)",
+    "artist_name": "John Thomas",
+    "artwork_type": "statue",
+    "heritage": "2",
+    "heritage:operator": "Historic England",
+    "historic": "monument",
+    "listed_status": "Grade II",
+    "material": "portland_stone",
+    "name": "Joseph Sturge",
+    "operator": "Birmingham City Council",
+    "source": "survey;website;PMSA",
+    "start_date": "1862-06-04",
+    "subject:wikidata": "Q6287238",
+    "subject:wikipedia": "en:Joseph Sturge",
+    "tourism": "artwork",
+    "url": "http://www.birmingham.gov.uk/cs/Satellite?c=Page&childpagename=SystemAdmin%2FPageLayout&cid=1223092626075&packedargs=website%3D1&pagename=BCC%2FCommon%2FWrapper%2FWrapper&rendermode=live",
+    "wikidata": "Q15980195",
+    "wikipedia": "en:Joseph Sturge memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "christiankunzle18791954p",
+  "n": "Christian Kunzle (1879-1954), Philanthropist",
+  "a": "",
+  "pc": "",
+  "lat": 52.47307,
+  "lng": -1.91728,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Christian Kunzle (1879-1954), Philanthropist Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/534446687",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Christian Kunzle (1879-1954), Philanthropist",
+    "openplaques:id": "2325"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquejohnrogersmart",
+  "n": "Blue Plaque John Rogers Martyr",
+  "a": "",
+  "pc": "",
+  "lat": 52.47452,
+  "lng": -1.88503,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Blue Plaque John Rogers Martyr Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/567980271",
+   "raw": {
+    "historic": "memorial",
+    "name": "Blue Plaque John Rogers Martyr",
+    "note": "burned at the stake 4 Feb 1555 also site of St John Church damaged by bombing WWII demolished 1947",
+    "operator": "Birmingham Civic Society",
+    "source": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "birminghamprogressivesyn",
+  "n": "Birmingham Progressive Synagogue",
+  "a": "",
+  "pc": "",
+  "lat": 52.47353,
+  "lng": -1.9141,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Birmingham Progressive Synagogue Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/570589234",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Birmingham Progressive Synagogue",
+    "religion": "jewish",
+    "source": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquejosephsturge",
+  "n": "Blue Plaque:  Joseph Sturge",
+  "a": "",
+  "pc": "",
+  "lat": 52.46887,
+  "lng": -1.91318,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Blue Plaque: Joseph Sturge Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/571985371",
+   "raw": {
+    "historic": "memorial",
+    "name": "Blue Plaque:  Joseph Sturge",
+    "operator": "Birmingham Civic Society",
+    "source": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "boultonandwattblowingeng",
+  "n": "Boulton & Watt Blowing Engine 1817",
+  "a": "",
+  "pc": "",
+  "lat": 52.49249,
+  "lng": -1.88819,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Boulton & Watt Blowing Engine 1817 Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/584897184",
+   "raw": {
+    "PMSA_name": "The Beam Engine",
+    "PMSA_ref": "WMbiBIxx081",
+    "historic": "monument",
+    "image": "en:File:Grazebrook Beam Engine.jpg",
+    "name": "Boulton & Watt Blowing Engine 1817",
+    "note": "From the Netherton ironworks of M W Grazebrook.",
+    "source": "survey;PMSA",
+    "wikidata": "Q20127870",
+    "wikipedia": "en:Grazebrook beam engine"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "katyn1940",
+  "n": "Katyn 1940",
+  "a": "",
+  "pc": "",
+  "lat": 52.4791,
+  "lng": -1.89027,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Katyn 1940 Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/590157520",
+   "raw": {
+    "historic": "memorial",
+    "name": "Katyn 1940",
+    "source": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "statueofterpsichorethebi",
+  "n": "Statue of Terpsichore ('The Bird Bath'",
+  "a": "",
+  "pc": "",
+  "lat": 52.42729,
+  "lng": -1.93235,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Statue of Terpsichore ('The Bird Bath' Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/632456219",
+   "raw": {
+    "amenity": "fountain",
+    "drinking_water": "no",
+    "fountain": "decorative",
+    "name": "Statue of Terpsichore ('The Bird Bath'",
+    "operator": "Cadbury",
+    "source": "survey",
+    "tourism": "artwork",
+    "wikidata": "Q104042",
+    "wikipedia": "en:Terpsichore"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fountainofknowledgeislam",
+  "n": "Fountain of Knowledge Islamic Centre",
+  "a": "",
+  "pc": "",
+  "lat": 52.45268,
+  "lng": -1.87813,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Fountain of Knowledge Islamic Centre Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/653179278",
+   "raw": {
+    "addr:city": "Birmingham",
+    "addr:housenumber": "394",
+    "addr:postcode": "B12 8JZ",
+    "addr:street": "Ladypool Road",
+    "amenity": "place_of_worship",
+    "name": "Fountain of Knowledge Islamic Centre",
+    "religion": "muslim",
+    "source": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "goodwayevangelicalfreech",
+  "n": "Goodway Evangelical Free Church",
+  "a": "",
+  "pc": "",
+  "lat": 52.54083,
+  "lng": -1.89226,
+  "c": "faith",
+  "s": "church",
+  "q": "Goodway Evangelical Free Church Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/664607481",
+   "raw": {
+    "addr:city": "Birmingham",
+    "addr:postcode": "B44 8RS",
+    "addr:street": "Goodway Road",
+    "amenity": "place_of_worship",
+    "name": "Goodway Evangelical Free Church",
+    "religion": "christian",
+    "source": "survey",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mauricemell",
+  "n": "Maurice Mell",
+  "a": "",
+  "pc": "",
+  "lat": 52.4138,
+  "lng": -1.77538,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Maurice Mell Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/724178049",
+   "raw": {
+    "artwork:material": "bronze",
+    "historic": "memorial",
+    "name": "Maurice Mell",
+    "source": "survey",
+    "start_date": "17 Dec 1984"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "burntmound",
+  "n": "Burnt Mound",
+  "a": "",
+  "pc": "",
+  "lat": 52.4374,
+  "lng": -1.81815,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Burnt Mound Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/725889895",
+   "raw": {
+    "designation": "scheduled_monument",
+    "historic": "archaeological_site",
+    "name": "Burnt Mound",
+    "national_monument_no": "35110",
+    "source": "Acocks Green Historical Society",
+    "url": "http://web.archive.org/web/20071005041231/aghs.virtualbrum.co.uk/builtenvt/schmon.htm"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "manaratfoundation",
+  "n": "Manarat Foundation",
+  "a": "",
+  "pc": "",
+  "lat": 52.45396,
+  "lng": -1.79225,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Manarat Foundation Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/727795295",
+   "raw": {
+    "addr:city": "Birmingham",
+    "addr:housenumber": "155",
+    "addr:postcode": "B26 3DX",
+    "addr:street": "New Coventry Road",
+    "amenity": "place_of_worship",
+    "check_date": "2024-12-31",
+    "name": "Manarat Foundation",
+    "religion": "muslim",
+    "source": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "maze",
+  "n": "Maze",
+  "a": "",
+  "pc": "",
+  "lat": 52.4255,
+  "lng": -1.7682,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Maze Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/824548321",
+   "raw": {
+    "name": "Maze",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rbsaplaque",
+  "n": "RBSA Plaque",
+  "a": "",
+  "pc": "",
+  "lat": 52.48491,
+  "lng": -1.90747,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "RBSA Plaque Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/867332844",
+   "raw": {
+    "PMSA_ref": "WMbiBIxx044",
+    "artist_name": "William Bloye",
+    "name": "RBSA Plaque",
+    "source": "visual survey; estimate; PMSA",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blueplaquesampsonlloyd16",
+  "n": "Blue Plaque: Sampson Lloyd 1699-1799 founder of Lloyds Bank",
+  "a": "",
+  "pc": "",
+  "lat": 52.46492,
+  "lng": -1.87296,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Blue Plaque: Sampson Lloyd 1699-1799 founder of Lloyds Bank Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/882449501",
+   "raw": {
+    "historic": "memorial",
+    "name": "Blue Plaque: Sampson Lloyd 1699-1799 founder of Lloyds Bank",
+    "openplaques:id": "1405",
+    "operator": "English Heritage",
+    "source": "survey",
+    "subject:wikidata": "Q7410235",
+    "subject:wikipedia": "en:Sampson Lloyd"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "themaypole",
+  "n": "The Maypole",
+  "a": "",
+  "pc": "",
+  "lat": 52.4049,
+  "lng": -1.88645,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "The Maypole Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/899424514",
+   "raw": {
+    "name": "The Maypole",
+    "source": "survey",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "faizanemustafaeducationa",
+  "n": "Faizan -e-Mustafa Educational Centre",
+  "a": "",
+  "pc": "",
+  "lat": 52.45621,
+  "lng": -1.85816,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Faizan -e-Mustafa Educational Centre Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/903941842",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Faizan -e-Mustafa Educational Centre",
+    "religion": "muslim",
+    "source": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "josephchamberlain",
+  "n": "Joseph Chamberlain",
+  "a": "",
+  "pc": "",
+  "lat": 52.49118,
+  "lng": -1.91434,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Joseph Chamberlain Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/908686072",
+   "raw": {
+    "historic": "memorial",
+    "name": "Joseph Chamberlain",
+    "source": "survey",
+    "subject:wikidata": "Q315999",
+    "subject:wikipedia": "en:Joseph Chamberlain"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "clockworkjewelleryquarte",
+  "n": "Clockwork (Jewellery Quarter Interchange)",
+  "a": "",
+  "pc": "",
+  "lat": 52.48937,
+  "lng": -1.91278,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Clockwork (Jewellery Quarter Interchange) Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/920225808",
+   "raw": {
+    "Centro_ref": "IP-0033",
+    "artist:wikidata": "Q80918310",
+    "artist:wikipedia": "en:Mark Renn",
+    "artist_name": "Mark Renn",
+    "artwork_type": "sculpture",
+    "board_type": "public_transport",
+    "check_date": "2025-05-03",
+    "description": "Depicts the workings of a pocket watch.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Jewellery_Quarter_Station.jpg",
+    "information": "board",
+    "inscription": "Jewellery Quarter Interchange Travel Information",
+    "material": "metal",
+    "name": "Clockwork (Jewellery Quarter Interchange)",
+    "naptan_ref": "43000420205",
+    "operator": "TfWM",
+    "operator:historical": "Centro",
+    "source": "survey",
+    "start_date": "15/09/2004",
+    "subject:wikidata": "Q849813",
+    "subject:wikipedia": "en:Pocket watch",
+    "support": "street_furniture:information",
+    "tourism": "artwork",
+    "wikidata": "Q1893132",
+    "wikimedia_commons": "File:Jewellery Quarter Station (cropped).jpg",
+    "wikipedia": "en:Jewellery Quarter station"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sirrobertpeel",
+  "n": "Sir Robert Peel",
+  "a": "",
+  "pc": "",
+  "lat": 52.45456,
+  "lng": -1.90725,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Sir Robert Peel Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/950372027",
+   "raw": {
+    "artist_name": "Peter Hollins",
+    "heritage": "2",
+    "heritage:operator": "Historic England",
+    "listed_status": "Grade II",
+    "material": "bronze",
+    "name": "Sir Robert Peel",
+    "source": "visual survey; estimate; website",
+    "start_date": "1855-08-27",
+    "tourism": "artwork",
+    "url": "http://www.birmingham.gov.uk/cs/Satellite?c=Page&childpagename=SystemAdmin%2FPageLayout&cid=1223092626351&packedargs=website%3D1&pagename=BCC%2FCommon%2FWrapper%2FWrapper&rendermode=live"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bishopcharlesgore",
+  "n": "Bishop Charles Gore",
+  "a": "",
+  "pc": "",
+  "lat": 52.48113,
+  "lng": -1.89944,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Bishop Charles Gore Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/950402449",
+   "raw": {
+    "PMSA_ref": "WMbiBIxx221",
+    "artist_name": "Thomas Stirling Lee",
+    "artwork:material": "bronze",
+    "artwork_type": "statue",
+    "heritage": "2",
+    "heritage:operator": "Historic England",
+    "listed_status": "Grade II",
+    "name": "Bishop Charles Gore",
+    "note": "http://en.wikipedia.org/wiki/Charles_Gore (URL for subject, not statue)",
+    "source": "visual survey; estimate; Wikipedia; PMSA",
+    "start_date": "1914-03-06",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wattilisk",
+  "n": "Wattilisk",
+  "a": "",
+  "pc": "",
+  "lat": 52.48278,
+  "lng": -1.8928,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Wattilisk Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/957146005",
+   "raw": {
+    "PMSA_ref": "WMbiBIxx258",
+    "artist_name": "Vincent Woropay",
+    "artwork:material": "black Indian granite",
+    "artwork_type": "sculpture",
+    "name": "Wattilisk",
+    "source": "visual survey; estimate; PMSA",
+    "start_date": "1988-03-16",
+    "tourism": "artwork",
+    "url": "http://pmsa.cch.kcl.ac.uk/BM/WMbiBIxx258.htm"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "carving",
+  "n": "carving",
+  "a": "",
+  "pc": "",
+  "lat": 52.53561,
+  "lng": -1.92069,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "carving Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/964786995",
+   "raw": {
+    "PMSA_ref": "WMbiBIxx060",
+    "artist_name": "William Bloye",
+    "name": "carving",
+    "source": "visual survey; estimate; PMSA",
+    "start_date": "1936",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "allegoricalfigures6",
+  "n": "Allegorical figures (6)",
+  "a": "",
+  "pc": "",
+  "lat": 52.47553,
+  "lng": -1.88752,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Allegorical figures (6) Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/966122383",
+   "raw": {
+    "PMSA_ref": "WMbiBIxx117",
+    "artist_name": "John Evans",
+    "artwork:material": "terracotta",
+    "artwork_type": "statues",
+    "name": "Allegorical figures (6)",
+    "source": "survey;PMSA",
+    "start_date": "1909",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pagoda",
+  "n": "Pagoda",
+  "a": "",
+  "pc": "",
+  "lat": 52.4749,
+  "lng": -1.90042,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Pagoda Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/968035161",
+   "raw": {
+    "PMSA_ref": "WMbiBIxx263",
+    "artist_name": "unknown",
+    "artwork_material": "marble",
+    "building": "pagoda",
+    "lit": "yes",
+    "name": "Pagoda",
+    "source": "visual survey;estimate",
+    "start_date": "1998-05",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wikidata": "Q5100576",
+    "wikipedia": "en:Chinese Pagoda"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "boarshead",
+  "n": "Boar's Head",
+  "a": "",
+  "pc": "",
+  "lat": 52.52916,
+  "lng": -1.89548,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Boar's Head Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/969303423",
+   "raw": {
+    "artist_name": "William James Bloye",
+    "material": "wood",
+    "name": "Boar's Head",
+    "support": "pole",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sirarthurconandoylecreat",
+  "n": "Sir Arthur Conan Doyle creator of Sherlock Holmes lived here 1878-1881",
+  "a": "",
+  "pc": "",
+  "lat": 52.49695,
+  "lng": -1.88478,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Sir Arthur Conan Doyle creator of Sherlock Holmes lived here 1878-1881 Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/974258926",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Sir Arthur Conan Doyle creator of Sherlock Holmes lived here 1878-1881",
+    "openplaques:id": "1553",
+    "operator": "Birmingham_Civic_Society",
+    "source": "visual survey;estimate"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "northfieldrailwaystation",
+  "n": "Northfield railway station",
+  "a": "",
+  "pc": "",
+  "lat": 52.408,
+  "lng": -1.964,
+  "c": "oddity",
+  "s": "railway station in Northfield, Birmingham, West Midlands, En",
+  "q": "Northfield railway station Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2297133",
+   "raw": "railway station in Northfield, Birmingham, West Midlands, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rowleyregisrailwaystatio",
+  "n": "Rowley Regis railway station",
+  "a": "",
+  "pc": "",
+  "lat": 52.477,
+  "lng": -2.031,
+  "c": "oddity",
+  "s": "railway station in Rowley Regis, Sandwell, West Midlands, En",
+  "q": "Rowley Regis railway station Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2497234",
+   "raw": "railway station in Rowley Regis, Sandwell, West Midlands, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blackheath",
+  "n": "Blackheath",
+  "a": "",
+  "pc": "",
+  "lat": 52.476,
+  "lng": -2.037,
+  "c": "oddity",
+  "s": "town in Sandwell, West Midlands, United Kingdom",
+  "q": "Blackheath Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2575395",
+   "raw": "town in Sandwell, West Midlands, United Kingdom",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kingsnorton",
+  "n": "Kings Norton",
+  "a": "",
+  "pc": "",
+  "lat": 52.4072,
+  "lng": -1.9272,
+  "c": "oddity",
+  "s": "area of Birmingham, West Midlands, England, UK",
+  "q": "Kings Norton Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2856469",
+   "raw": "area of Birmingham, West Midlands, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "birminghamnorthfield",
+  "n": "Birmingham Northfield",
+  "a": "",
+  "pc": "",
+  "lat": 52.4,
+  "lng": -1.98,
+  "c": "oddity",
+  "s": "parliamentary constituency in the United Kingdom, 1950 onwar",
+  "q": "Birmingham Northfield Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3136714",
+   "raw": "Parliamentary constituency in the United Kingdom, 1950 onwards",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "austinvillage",
+  "n": "Austin Village",
+  "a": "",
+  "pc": "",
+  "lat": 52.401,
+  "lng": -1.973,
+  "c": "oddity",
+  "s": "housing estate in Birmingham, West Midlands, England, United",
+  "q": "Austin Village Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4823320",
+   "raw": "housing estate in Birmingham, West Midlands, England, United Kingdom",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bournecollege",
+  "n": "Bourne College",
+  "a": "",
+  "pc": "",
+  "lat": 52.4602,
+  "lng": -2.0153,
+  "c": "oddity",
+  "s": "former school in Quinton, near Birmingham, England",
+  "q": "Bourne College Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4950226",
+   "raw": "former school in Quinton, near Birmingham, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cadburysixthformcollege",
+  "n": "Cadbury Sixth Form College",
+  "a": "",
+  "pc": "",
+  "lat": 52.40424,
+  "lng": -1.93028,
+  "c": "oddity",
+  "s": "school in Birmingham, West Midlands, England",
+  "q": "Cadbury Sixth Form College Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5016280",
+   "raw": "school in Birmingham, West Midlands, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dowerydellviaduct",
+  "n": "Dowery Dell Viaduct",
+  "a": "",
+  "pc": "",
+  "lat": 52.42337,
+  "lng": -2.03936,
+  "c": "oddity",
+  "s": "railway viaduct that carried the Halesowen to Longbridge rai",
+  "q": "Dowery Dell Viaduct Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5302682",
+   "raw": "railway viaduct that carried the Halesowen to Longbridge railway until it was dismantled in 1964",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "frankleycommunityhighsch",
+  "n": "Frankley Community High School",
+  "a": "",
+  "pc": "",
+  "lat": 52.404,
+  "lng": -2.0173,
+  "c": "oddity",
+  "s": "school in Birmingham, UK",
+  "q": "Frankley Community High School Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5491123",
+   "raw": "school in Birmingham, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "frankleyservices",
+  "n": "Frankley services",
+  "a": "",
+  "pc": "",
+  "lat": 52.4291,
+  "lng": -2.01794,
+  "c": "oddity",
+  "s": "motorway service station in Worcestershire, England",
+  "q": "Frankley services Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5491127",
+   "raw": "Motorway service station in Worcestershire, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gannowgreen",
+  "n": "Gannow Green",
+  "a": "",
+  "pc": "",
+  "lat": 52.4027,
+  "lng": -2.0316,
+  "c": "oddity",
+  "s": "area of Birmingham, England",
+  "q": "Gannow Green Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5521433",
+   "raw": "area of Birmingham, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "halesowenabbey",
+  "n": "Halesowen Abbey",
+  "a": "",
+  "pc": "",
+  "lat": 52.44357,
+  "lng": -2.03697,
+  "c": "faith",
+  "s": "grade I listed abbey in Halesowen, West Midlands, United Kin",
+  "q": "Halesowen Abbey Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5641511",
+   "raw": "Grade I listed abbey in Halesowen, West Midlands, United Kingdom",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hill",
+  "n": "Hill",
+  "a": "",
+  "pc": "",
+  "lat": 52.463,
+  "lng": -2.04,
+  "c": "oddity",
+  "s": "former civil parish in Halesowen, West Midlands, United King",
+  "q": "Hill Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5761939",
+   "raw": "former civil parish in Halesowen, West Midlands, United Kingdom",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hurstgreen",
+  "n": "Hurst Green",
+  "a": "",
+  "pc": "",
+  "lat": 52.471,
+  "lng": -2.023,
+  "c": "oddity",
+  "s": "suburb of Halesowen, West Midlands, United Kingdom",
+  "q": "Hurst Green Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5948573",
+   "raw": "suburb of Halesowen, West Midlands, United Kingdom",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "illey",
+  "n": "Illey",
+  "a": "",
+  "pc": "",
+  "lat": 52.4336,
+  "lng": -2.02719,
+  "c": "oddity",
+  "s": "village in West Midlands, England, UK",
+  "q": "Illey Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5999110",
+   "raw": "village in West Midlands, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lapal",
+  "n": "Lapal",
+  "a": "",
+  "pc": "",
+  "lat": 52.451,
+  "lng": -2.022,
+  "c": "oddity",
+  "s": "area in Halesowen, West Midlands, UK",
+  "q": "Lapal Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6488091",
+   "raw": "area in Halesowen, West Midlands, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "leasoweshighschool",
+  "n": "Leasowes High School",
+  "a": "",
+  "pc": "",
+  "lat": 52.4597,
+  "lng": -2.0276,
+  "c": "oddity",
+  "s": "school in Dudley, UK",
+  "q": "Leasowes High School Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6510326",
+   "raw": "school in Dudley, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "northfieldhospital",
+  "n": "Northfield Hospital",
+  "a": "",
+  "pc": "",
+  "lat": 52.4044,
+  "lng": -1.9968,
+  "c": "oddity",
+  "s": "former hospital in England",
+  "q": "Northfield Hospital Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7059372",
+   "raw": "former hospital in England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wychallreservoir",
+  "n": "Wychall Reservoir",
+  "a": "",
+  "pc": "",
+  "lat": 52.4108,
+  "lng": -1.9446,
+  "c": "oddity",
+  "s": "reservoir in Birmingham, West Midlands, England, UK",
+  "q": "Wychall Reservoir Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7332559",
+   "raw": "reservoir in Birmingham, West Midlands, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ruberyrailwaystation",
+  "n": "Rubery railway station",
+  "a": "",
+  "pc": "",
+  "lat": 52.4026,
+  "lng": -2.0153,
+  "c": "oddity",
+  "s": "railway station in Birmingham, West Midlands, England, UK",
+  "q": "Rubery railway station Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7376043",
+   "raw": "railway station in Birmingham, West Midlands, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saracenshead",
+  "n": "Saracen's Head",
+  "a": "",
+  "pc": "",
+  "lat": 52.4081,
+  "lng": -1.9291,
+  "c": "oddity",
+  "s": "group of late medieval buildings in Kings Norton, Birmingham",
+  "q": "Saracen's Head Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7421944",
+   "raw": "group of late medieval buildings in Kings Norton, Birmingham",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stthomasaquinascatholics",
+  "n": "St Thomas Aquinas Catholic School",
+  "a": "",
+  "pc": "",
+  "lat": 52.4099,
+  "lng": -1.9472,
+  "c": "oddity",
+  "s": "school in Birmingham, UK",
+  "q": "St Thomas Aquinas Catholic School Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7591902",
+   "raw": "school in Birmingham, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "theleasowes",
+  "n": "The Leasowes",
+  "a": "",
+  "pc": "",
+  "lat": 52.45392,
+  "lng": -2.03148,
+  "c": "oddity",
+  "s": "house in Halesowen, West Midlands, England, UK",
+  "q": "The Leasowes Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7746569",
+   "raw": "house in Halesowen, West Midlands, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "turvesgreen",
+  "n": "Turves Green",
+  "a": "",
+  "pc": "",
+  "lat": 52.4035,
+  "lng": -1.967,
+  "c": "oddity",
+  "s": "area of Birmingham, England",
+  "q": "Turves Green Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7856531",
+   "raw": "area of Birmingham, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "walkersheath",
+  "n": "Walker's Heath",
+  "a": "",
+  "pc": "",
+  "lat": 52.4052,
+  "lng": -1.9144,
+  "c": "oddity",
+  "s": "area of Birmingham, England",
+  "q": "Walker's Heath Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7962178",
+   "raw": "area of Birmingham, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "newfrankleyinbirmingham",
+  "n": "New Frankley in Birmingham",
+  "a": "",
+  "pc": "",
+  "lat": 52.40345,
+  "lng": -2.02278,
+  "c": "oddity",
+  "s": "civil parish in Birmingham, West Midlands, England, UK",
+  "q": "New Frankley in Birmingham Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q9049724",
+   "raw": "civil parish in Birmingham, West Midlands, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "illeypastures",
+  "n": "Illey Pastures",
+  "a": "",
+  "pc": "",
+  "lat": 52.42885,
+  "lng": -2.03309,
+  "c": "oddity",
+  "s": "site of Special Scientific Interest in Dudley, West Midlands",
+  "q": "Illey Pastures Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q14995458",
+   "raw": "Site of Special Scientific Interest in Dudley, West Midlands, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stbartholomews",
+  "n": "St Bartholomew's",
+  "a": "",
+  "pc": "",
+  "lat": 52.41119,
+  "lng": -1.98456,
+  "c": "faith",
+  "s": "church in Allen's Cross, Birmingham, England",
+  "q": "St Bartholomew's Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19329520",
+   "raw": "church in Allen's Cross, Birmingham, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ourladyandstbrigidschurc",
+  "n": "Our Lady and St Brigid's Church, Northfield",
+  "a": "",
+  "pc": "",
+  "lat": 52.411,
+  "lng": -1.97673,
+  "c": "faith",
+  "s": "church in Northfield, Birmingham, UK",
+  "q": "Our Lady and St Brigid's Church, Northfield Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q20127966",
+   "raw": "church in Northfield, Birmingham, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blackhorse",
+  "n": "Black Horse",
+  "a": "",
+  "pc": "",
+  "lat": 52.41179,
+  "lng": -1.97379,
+  "c": "oddity",
+  "s": "public house in Northfield, Birmingham, England",
+  "q": "Black Horse Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q20886954",
+   "raw": "public house in Northfield, Birmingham, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kingedwardvinorthfieldsc",
+  "n": "King Edward VI Northfield School for Girls",
+  "a": "",
+  "pc": "",
+  "lat": 52.4009,
+  "lng": -1.9674,
+  "c": "oddity",
+  "s": "school in Birmingham, UK",
+  "q": "King Edward VI Northfield School for Girls Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q24993666",
+   "raw": "school in Birmingham, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "greenhillhouse",
+  "n": "Greenhill House",
+  "a": "",
+  "pc": "",
+  "lat": 52.46166,
+  "lng": -2.03125,
+  "c": "oddity",
+  "s": "house in Dudley, West Midlands, England, UK",
+  "q": "Greenhill House Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26317026",
+   "raw": "house in Dudley, West Midlands, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "theoldhouse",
+  "n": "The Old House",
+  "a": "",
+  "pc": "",
+  "lat": 52.46021,
+  "lng": -2.03387,
+  "c": "oddity",
+  "s": "house in Dudley, West Midlands, England, UK",
+  "q": "The Old House Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26317025",
+   "raw": "house in Dudley, West Midlands, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "16and17thegreenb38",
+  "n": "16 And 17, The Green B38",
+  "a": "",
+  "pc": "",
+  "lat": 52.40689,
+  "lng": -1.92944,
+  "c": "oddity",
+  "s": "building in Birmingham, West Midlands, England, UK",
+  "q": "16 And 17, The Green B38 Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26339036",
+   "raw": "building in Birmingham, West Midlands, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "walkersheathfarmhouse",
+  "n": "Walkers Heath Farmhouse",
+  "a": "",
+  "pc": "",
+  "lat": 52.40077,
+  "lng": -1.91853,
+  "c": "oddity",
+  "s": "farmhouse in Birmingham, West Midlands, England, UK",
+  "q": "Walkers Heath Farmhouse Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26339180",
+   "raw": "farmhouse in Birmingham, West Midlands, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchyardwalltothechurc",
+  "n": "Churchyard Wall To The Church Of St Laurence",
+  "a": "",
+  "pc": "",
+  "lat": 52.41194,
+  "lng": -1.9648,
+  "c": "faith",
+  "s": "churchyard wall in Birmingham, West Midlands, England, UK",
+  "q": "Churchyard Wall To The Church Of St Laurence Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26339386",
+   "raw": "churchyard wall in Birmingham, West Midlands, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "moundsleylodge",
+  "n": "Moundsley Lodge",
+  "a": "",
+  "pc": "",
+  "lat": 52.40312,
+  "lng": -1.91667,
+  "c": "oddity",
+  "s": "gatehouse in Birmingham, West Midlands, England, UK",
+  "q": "Moundsley Lodge Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26340364",
+   "raw": "gatehouse in Birmingham, West Midlands, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kinggeorgevpublichouse",
+  "n": "King George V Public House",
+  "a": "",
+  "pc": "",
+  "lat": 52.40199,
+  "lng": -1.98279,
+  "c": "oddity",
+  "s": "pub in Birmingham, West Midlands, England, UK",
+  "q": "King George V Public House Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26668759",
+   "raw": "pub in Birmingham, West Midlands, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kingscinema",
+  "n": "Kings Cinema",
+  "a": "",
+  "pc": "",
+  "lat": 52.47492,
+  "lng": -2.03776,
+  "c": "cinema",
+  "s": "former cinema in Blackheath (near Birmingham), England",
+  "q": "Kings Cinema Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q31520081",
+   "raw": "former cinema in Blackheath (near Birmingham), England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "odeonblackheath",
+  "n": "Odeon Blackheath",
+  "a": "",
+  "pc": "",
+  "lat": 52.47041,
+  "lng": -2.03299,
+  "c": "cinema",
+  "s": "former cinema in Blackheath (near Birmingham), England",
+  "q": "Odeon Blackheath Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q38678981",
+   "raw": "former cinema in Blackheath (near Birmingham), England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kingsnortoncinema",
+  "n": "King's Norton Cinema",
+  "a": "",
+  "pc": "",
+  "lat": 52.4107,
+  "lng": -1.93429,
+  "c": "cinema",
+  "s": "former cinema in Kings Norton, Birmingham, England",
+  "q": "King's Norton Cinema Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q38691185",
+   "raw": "former cinema in Kings Norton, Birmingham, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "reelcinema",
+  "n": "Reel Cinema",
+  "a": "",
+  "pc": "",
+  "lat": 52.46259,
+  "lng": -2.01415,
+  "c": "cinema",
+  "s": "cinema in Quinton, Birmingham, England",
+  "q": "Reel Cinema Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q38692484",
+   "raw": "cinema in Quinton, Birmingham, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kingsnortonlibrary",
+  "n": "Kings Norton Library",
+  "a": "",
+  "pc": "",
+  "lat": 52.40938,
+  "lng": -1.92769,
+  "c": "oddity",
+  "s": "public library in Birmingham, UK",
+  "q": "Kings Norton Library Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q55173243",
+   "raw": "public library in Birmingham, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "westheathlibrary",
+  "n": "West Heath Library",
+  "a": "",
+  "pc": "",
+  "lat": 52.40056,
+  "lng": -1.96016,
+  "c": "oddity",
+  "s": "public library in Birmingham, UK",
+  "q": "West Heath Library Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q55173266",
+   "raw": "public library in Birmingham, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "longlanelibrary",
+  "n": "Long Lane Library",
+  "a": "",
+  "pc": "",
+  "lat": 52.46707,
+  "lng": -2.0306,
+  "c": "oddity",
+  "s": "public library in Dudley, UK",
+  "q": "Long Lane Library Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q55183576",
+   "raw": "public library in Dudley, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "westheathnurseryschool",
+  "n": "West Heath Nursery School",
+  "a": "",
+  "pc": "",
+  "lat": 52.4005,
+  "lng": -1.96209,
+  "c": "oddity",
+  "s": "school in Birmingham, UK",
+  "q": "West Heath Nursery School Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66160425",
+   "raw": "school in Birmingham, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "howleygrangeprimaryschoo",
+  "n": "Howley Grange Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 52.45642,
+  "lng": -2.0158,
+  "c": "oddity",
+  "s": "school in Dudley, UK",
+  "q": "Howley Grange Primary School Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66160853",
+   "raw": "school in Dudley, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "halesburyschool",
+  "n": "Halesbury School",
+  "a": "",
+  "pc": "",
+  "lat": 52.4674,
+  "lng": -2.02833,
+  "c": "oddity",
+  "s": "school in Dudley, UK",
+  "q": "Halesbury School Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66160910",
+   "raw": "school in Dudley, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "forestdaleprimaryschool",
+  "n": "Forestdale Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 52.40782,
+  "lng": -2.00459,
+  "c": "oddity",
+  "s": "school in Birmingham, UK",
+  "q": "Forestdale Primary School Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66165168",
+   "raw": "school in Birmingham, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "reasideacademy",
+  "n": "Reaside Academy",
+  "a": "",
+  "pc": "",
+  "lat": 52.40199,
+  "lng": -2.02549,
+  "c": "oddity",
+  "s": "school in Birmingham, UK",
+  "q": "Reaside Academy Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66166128",
+   "raw": "school in Birmingham, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "merrittsbrookprimaryeact",
+  "n": "Merritts Brook Primary E-ACT Academy",
+  "a": "",
+  "pc": "",
+  "lat": 52.41169,
+  "lng": -1.9923,
+  "c": "oddity",
+  "s": "school in Birmingham, UK",
+  "q": "Merritts Brook Primary E-ACT Academy Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66166137",
+   "raw": "school in Birmingham, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fairwayprimaryacademy",
+  "n": "Fairway Primary Academy",
+  "a": "",
+  "pc": "",
+  "lat": 52.40406,
+  "lng": -1.94598,
+  "c": "oddity",
+  "s": "school in Birmingham, UK",
+  "q": "Fairway Primary Academy Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66166333",
+   "raw": "school in Birmingham, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wychallprimaryschool",
+  "n": "Wychall Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 52.40838,
+  "lng": -1.95047,
+  "c": "oddity",
+  "s": "school in Birmingham, UK",
+  "q": "Wychall Primary School Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66167470",
+   "raw": "school in Birmingham, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lapalprimaryschool",
+  "n": "Lapal Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 52.45225,
+  "lng": -2.02299,
+  "c": "oddity",
+  "s": "school in Dudley, UK",
+  "q": "Lapal Primary School Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66168121",
+   "raw": "school in Dudley, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "olivehillprimaryacademy",
+  "n": "Olive Hill Primary Academy",
+  "a": "",
+  "pc": "",
+  "lat": 52.46591,
+  "lng": -2.03412,
+  "c": "oddity",
+  "s": "school in Dudley, UK",
+  "q": "Olive Hill Primary Academy Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66168367",
+   "raw": "school in Dudley, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "turvesgreenprimaryschool",
+  "n": "Turves Green Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 52.4002,
+  "lng": -1.96936,
+  "c": "oddity",
+  "s": "school in Birmingham, UK",
+  "q": "Turves Green Primary School Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66168395",
+   "raw": "school in Birmingham, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "themeadowsprimaryschool",
+  "n": "The Meadows Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 52.40429,
+  "lng": -1.98074,
+  "c": "oddity",
+  "s": "school in Birmingham, UK",
+  "q": "The Meadows Primary School Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q67147858",
+   "raw": "school in Birmingham, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hurstgreenprimaryschool",
+  "n": "Hurst Green Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 52.46747,
+  "lng": -2.02603,
+  "c": "oddity",
+  "s": "school in Dudley, UK",
+  "q": "Hurst Green Primary School Birmingham",
+  "w": "",
+  "city": "birmingham",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q67147914",
+   "raw": "school in Dudley, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

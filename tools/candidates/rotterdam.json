@@ -1,0 +1,4576 @@
+[
+ {
+  "id": "pathe",
+  "n": "Pathé",
+  "a": "",
+  "pc": "",
+  "lat": 51.92093,
+  "lng": 4.47325,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Pathé Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/29367587",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:country": "NL",
+    "addr:housenumber": "101",
+    "addr:street": "Schouwburgplein",
+    "amenity": "cinema",
+    "brand": "Pathé",
+    "brand:wikidata": "Q61959392",
+    "brand:wikipedia": "nl:Pathé Nederland",
+    "name": "Pathé",
+    "opening_hours": "\"20 minutes before the first film\"",
+    "operator": "Pathé",
+    "payment:cash": "yes",
+    "website": "https://www.pathe.nl/bioscoop/schouwburgplein",
+    "wheelchair": "yes",
+    "wikidata": "Q38238761",
+    "wikimedia_commons": "Category:Pathé Schouwburgplein"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hendriktollens",
+  "n": "Hendrik Tollens",
+  "a": "",
+  "pc": "",
+  "lat": 51.90603,
+  "lng": 4.47034,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Hendrik Tollens Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/29535104",
+   "raw": {
+    "artist_name": "Johann Th. (Jan) Stracké",
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Hendrik Tollens",
+    "tourism": "artwork",
+    "website": "https://standbeelden.vanderkrogt.net/object.php?record=ZH58ac",
+    "wheelchair": "yes",
+    "wikidata": "Q17439742"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nationaaljenevermuseum",
+  "n": "Nationaal Jenevermuseum",
+  "a": "",
+  "pc": "",
+  "lat": 51.91525,
+  "lng": 4.39733,
+  "c": "museum",
+  "s": "museum",
+  "q": "Nationaal Jenevermuseum Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/34050612",
+   "raw": {
+    "addr:city": "Schiedam",
+    "addr:housenumber": "74-76",
+    "addr:postcode": "3111CH",
+    "addr:street": "Lange Haven",
+    "contact:phone": "+31 10 246 9676",
+    "contact:website": "https://www.jenevermuseum.nl",
+    "name": "Nationaal Jenevermuseum",
+    "name:en": "The Distilleries Museum",
+    "name:nl": "Nationaal Jenevermuseum",
+    "payment:museumkaart": "yes",
+    "tourism": "museum",
+    "wikidata": "Q13736930",
+    "wikipedia": "nl:Jenevermuseum (Schiedam)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wereldmuseumrotterdam",
+  "n": "Wereldmuseum Rotterdam",
+  "a": "",
+  "pc": "",
+  "lat": 51.90788,
+  "lng": 4.4805,
+  "c": "museum",
+  "s": "museum",
+  "q": "Wereldmuseum Rotterdam Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/34050614",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "25",
+    "addr:postcode": "3016DM",
+    "addr:street": "Willemskade",
+    "email": "info@wereldmuseum.nl",
+    "fee": "yes",
+    "name": "Wereldmuseum Rotterdam",
+    "name:nl": "Wereldmuseum Rotterdam",
+    "name:zh": "世界博物館",
+    "opening_hours": "Tu-Fr 10:00-17:00; Sa-Su 11:00-17:00",
+    "operator": "Nationaal Museum van Wereldculturen",
+    "operator:wikidata": "Q17153751",
+    "payment:museumkaart": "yes",
+    "phone": "+31 10 270 71 72",
+    "source": "BAG",
+    "source:date": "2013-11-26",
+    "start_date": "1885",
+    "tourism": "museum",
+    "website": "https://rotterdam.wereldmuseum.nl/",
+    "wikidata": "Q2042754",
+    "wikimedia_commons": "Category:Wereldmuseum Rotterdam",
+    "wikipedia": "nl:Wereldmuseum Rotterdam"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "huissonneveld",
+  "n": "Huis Sonneveld",
+  "a": "",
+  "pc": "",
+  "lat": 51.91561,
+  "lng": 4.47234,
+  "c": "museum",
+  "s": "museum",
+  "q": "Huis Sonneveld Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/34051015",
+   "raw": {
+    "fee": "yes",
+    "fee:conditional": "no @ (age <= 18)",
+    "name": "Huis Sonneveld",
+    "name:de": "Sonneveld Haus",
+    "name:en": "Sonneveld House",
+    "name:nl": "Huis Sonneveld",
+    "payment:museumkaart": "yes",
+    "tourism": "museum",
+    "website": "https://www.huissonneveld.nl/",
+    "wheelchair": "yes",
+    "wikidata": "Q2193739",
+    "wikimedia_commons": "Category:Sonneveld House",
+    "wikipedia": "nl:Huis Sonneveld"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mariniersmuseum",
+  "n": "Mariniersmuseum",
+  "a": "",
+  "pc": "",
+  "lat": 51.91872,
+  "lng": 4.49156,
+  "c": "museum",
+  "s": "museum",
+  "q": "Mariniersmuseum Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/34051036",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "7-13",
+    "addr:postcode": "3011WH",
+    "addr:street": "Wijnhaven",
+    "fee": "yes",
+    "name": "Mariniersmuseum",
+    "note": "aed aanwezig",
+    "opening_hours": "Tu-Fr 10:00-17:00; Sa-Su 11:00-17:00",
+    "payment:museumkaart": "yes",
+    "phone": "+31 10 412 9600",
+    "tourism": "museum",
+    "website": "https://www.mariniersmuseumrotterdam.nl",
+    "wikidata": "Q2530385",
+    "wikimedia_commons": "Category:Mariniersmuseum",
+    "wikipedia": "nl:Mariniersmuseum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "waterwoud",
+  "n": "Waterwoud",
+  "a": "",
+  "pc": "",
+  "lat": 51.89859,
+  "lng": 4.52969,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Waterwoud Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/44302273",
+   "raw": {
+    "artwork_type": "installation",
+    "name": "Waterwoud",
+    "note": "Onderdeel van de (toekomstige) serie Maaspoints",
+    "tourism": "artwork",
+    "website": "https://www.maaspoints.nl/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oudeofpelgrimvaderskerk",
+  "n": "Oude of Pelgrimvaderskerk",
+  "a": "",
+  "pc": "",
+  "lat": 51.90855,
+  "lng": 4.44891,
+  "c": "faith",
+  "s": "church",
+  "q": "Oude of Pelgrimvaderskerk Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/206388665",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Oude of Pelgrimvaderskerk",
+    "religion": "christian",
+    "wikidata": "Q2008389",
+    "wikipedia": "nl:Oude of Pelgrimvaderskerk"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "roemeensorthodoxeparochi",
+  "n": "Roemeens Orthodoxe Parochie",
+  "a": "",
+  "pc": "",
+  "lat": 51.9163,
+  "lng": 4.38845,
+  "c": "faith",
+  "s": "church",
+  "q": "Roemeens Orthodoxe Parochie Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/211549783",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "orthodox",
+    "name": "Roemeens Orthodoxe Parochie",
+    "religion": "christian",
+    "url": "www.orthodoxekerk.org"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nederlandsfotomuseum",
+  "n": "Nederlands Fotomuseum",
+  "a": "",
+  "pc": "",
+  "lat": 51.90269,
+  "lng": 4.49519,
+  "c": "museum",
+  "s": "museum",
+  "q": "Nederlands Fotomuseum Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/250735558",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "95",
+    "addr:postcode": "3072KD",
+    "addr:street": "Brede Hilledijk",
+    "email": "info@nederlandsfotomuseum.nl",
+    "fee": "yes",
+    "museum": "art",
+    "museum_type": "national",
+    "name": "Nederlands Fotomuseum",
+    "opening_hours": "Tu-Su 11:00-17:00",
+    "phone": "+31 10 203 0405",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "start_date": "7-2-2026",
+    "toilets": "yes",
+    "toilets:access": "customers",
+    "toilets:wheelchair": "designated",
+    "tourism": "museum",
+    "website": "https://www.nederlandsfotomuseum.nl",
+    "wheelchair": "designated",
+    "wheelchair:description": "Het Nederlands Fotomuseum is volledig rolstoeltoegankelijk. De ingang is bereikbaar via een hellingbaan en in het gebouw zijn liften en toiletten die geschikt zijn voor rolstoelgebruikers.",
+    "wikidata": "Q2191118",
+    "wikipedia": "nl:Nederlands Fotomuseum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "uitkijkpuntluhrs",
+  "n": "Uitkijkpunt Lührs",
+  "a": "",
+  "pc": "",
+  "lat": 51.97646,
+  "lng": 4.54851,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Uitkijkpunt Lührs Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/307515758",
+   "raw": {
+    "name": "Uitkijkpunt Lührs",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "maritiemmuseum",
+  "n": "Maritiem Museum",
+  "a": "",
+  "pc": "",
+  "lat": 51.91763,
+  "lng": 4.48189,
+  "c": "museum",
+  "s": "museum",
+  "q": "Maritiem Museum Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/540223438",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:country": "NL",
+    "addr:housenumber": "1",
+    "addr:postcode": "3011EA",
+    "addr:street": "Leuvehaven",
+    "fee": "yes",
+    "name": "Maritiem Museum",
+    "name:en": "Maritime Museum",
+    "name:nl": "Maritiem Museum",
+    "name:ru": "Морской музей",
+    "name:zh": "海事博物館",
+    "opening_hours": "Tu-Su 10:00-17:00",
+    "payment:museumkaart": "yes",
+    "source": "BAG",
+    "source:date": "2013-11-26",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "website": "https://maritiemmuseum.nl/",
+    "wheelchair": "yes",
+    "wikidata": "Q2755458",
+    "wikimedia_commons": "Category:Maritiem Museum Rotterdam",
+    "wikipedia": "nl:Maritiem Museum Rotterdam"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hervormdeadriaenjanszker",
+  "n": "Hervormde Adriaen Janszkerk",
+  "a": "",
+  "pc": "",
+  "lat": 51.90062,
+  "lng": 4.54881,
+  "c": "faith",
+  "s": "church",
+  "q": "Hervormde Adriaen Janszkerk Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/549945917",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "50",
+    "addr:postcode": "3077BN",
+    "addr:street": "Kasteelweg",
+    "amenity": "place_of_worship",
+    "denomination": "Nederlands hervormd",
+    "name": "Hervormde Adriaen Janszkerk",
+    "religion": "christian",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "wikidata": "Q17439881"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jenhuitang",
+  "n": "Jen Hui Tang",
+  "a": "",
+  "pc": "",
+  "lat": 51.91796,
+  "lng": 4.46261,
+  "c": "faith",
+  "s": "temple",
+  "q": "Jen Hui Tang Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/580011443",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-11-18",
+    "name": "Jen Hui Tang",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mariniersmonument",
+  "n": "Mariniersmonument",
+  "a": "",
+  "pc": "",
+  "lat": 51.92236,
+  "lng": 4.49783,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Mariniersmonument Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/582502300",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Mariniersmonument",
+    "wikidata": "Q2709672",
+    "wikimedia_commons": "Category:Mariniersmonument",
+    "wikipedia": "nl:Mariniersmonument"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "verzetskruis",
+  "n": "Verzetskruis",
+  "a": "",
+  "pc": "",
+  "lat": 51.94153,
+  "lng": 4.48956,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Verzetskruis Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/582661201",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Voor hen die vielen",
+    "name": "Verzetskruis"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "anasr",
+  "n": "Anasr",
+  "a": "",
+  "pc": "",
+  "lat": 51.91812,
+  "lng": 4.44542,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Anasr Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/593364132",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Anasr",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chineseevangelischekerk",
+  "n": "Chinese Evangelische Kerk",
+  "a": "",
+  "pc": "",
+  "lat": 51.89818,
+  "lng": 4.47927,
+  "c": "faith",
+  "s": "church",
+  "q": "Chinese Evangelische Kerk Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/600512845",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "protestant",
+    "name": "Chinese Evangelische Kerk",
+    "religion": "christian",
+    "source": "www.reliwiki.nl",
+    "wikidata": "Q104429561"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "koningskerk",
+  "n": "Koningskerk",
+  "a": "",
+  "pc": "",
+  "lat": 51.91101,
+  "lng": 4.49735,
+  "c": "faith",
+  "s": "church",
+  "q": "Koningskerk Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/600512860",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "protestant",
+    "name": "Koningskerk",
+    "religion": "christian",
+    "wikidata": "Q104429673"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ontmoetingskerkzevenkamp",
+  "n": "Ontmoetingskerk Zevenkamp",
+  "a": "",
+  "pc": "",
+  "lat": 51.96932,
+  "lng": 4.57328,
+  "c": "faith",
+  "s": "church",
+  "q": "Ontmoetingskerk Zevenkamp Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/748442946",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:country": "NL",
+    "addr:housenumber": "1",
+    "addr:postcode": "3069XJ",
+    "addr:street": "Ben Websterstraat",
+    "amenity": "place_of_worship",
+    "name": "Ontmoetingskerk Zevenkamp",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "legerdesheils",
+  "n": "Leger des Heils",
+  "a": "",
+  "pc": "",
+  "lat": 51.91405,
+  "lng": 4.3995,
+  "c": "faith",
+  "s": "church",
+  "q": "Leger des Heils Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/840164918",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "protestant",
+    "name": "Leger des Heils",
+    "religion": "christian",
+    "source": "www.reliwiki.nl"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pinkstergemeentenhetmorg",
+  "n": "Pinkstergemeenten Het Morgenlicht",
+  "a": "",
+  "pc": "",
+  "lat": 51.8789,
+  "lng": 4.51745,
+  "c": "faith",
+  "s": "church",
+  "q": "Pinkstergemeenten Het Morgenlicht Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/919678000",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "1",
+    "addr:postcode": "3076DA",
+    "addr:street": "Bierens de Haanweg",
+    "amenity": "place_of_worship",
+    "denomination": "apostolic",
+    "name": "Pinkstergemeenten Het Morgenlicht",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "houwelingtelecommuseum",
+  "n": "Houweling Telecom Museum",
+  "a": "",
+  "pc": "",
+  "lat": 51.93286,
+  "lng": 4.4681,
+  "c": "museum",
+  "s": "museum",
+  "q": "Houweling Telecom Museum Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1042881588",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "15",
+    "addr:street": "Vlaggemanstraat",
+    "name": "Houweling Telecom Museum",
+    "opening_hours": "Tu 09:00-16:00",
+    "source": "http://houwelingtelecommuseum.nl/",
+    "tourism": "museum",
+    "website": "https://houwelingtelecommuseum.com",
+    "wikidata": "Q2037776",
+    "wikipedia": "nl:Houweling Telecom Museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hommageaanoudenvandoesbu",
+  "n": "Hommage aan Oud en Van Doesburg",
+  "a": "",
+  "pc": "",
+  "lat": 51.91312,
+  "lng": 4.43412,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Hommage aan Oud en Van Doesburg Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1121995053",
+   "raw": {
+    "artist_name": "Lucien den Arend",
+    "artwork_type": "sculpture",
+    "image": "https://images.mapillary.com/bkEgVxkW4vtDk9IVbXbsrm/thumb-2048.jpg",
+    "mapillary": "5448171225221925",
+    "material": "concrete",
+    "name": "Hommage aan Oud en Van Doesburg",
+    "start_date": "1986",
+    "tourism": "artwork",
+    "website": "https://www.bkor.nl/beeld/hommage-aan-oud-en-van-doesburg/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ayasofia",
+  "n": "Aya Sofia",
+  "a": "",
+  "pc": "",
+  "lat": 51.91373,
+  "lng": 4.44476,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Aya Sofia Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1322442904",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Aya Sofia",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "havenmuseum",
+  "n": "Havenmuseum",
+  "a": "",
+  "pc": "",
+  "lat": 51.91564,
+  "lng": 4.48249,
+  "c": "museum",
+  "s": "museum",
+  "q": "Havenmuseum Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1322457400",
+   "raw": {
+    "fee": "yes",
+    "name": "Havenmuseum",
+    "tourism": "museum",
+    "wikidata": "Q1920457",
+    "wikipedia": "nl:Havenmuseum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wrakbotter",
+  "n": "Wrak Botter",
+  "a": "",
+  "pc": "",
+  "lat": 51.90444,
+  "lng": 4.58633,
+  "c": "maritime",
+  "s": "maritime relic",
+  "q": "Wrak Botter Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1322799409",
+   "raw": {
+    "historic": "wreck",
+    "name": "Wrak Botter",
+    "seamark:type": "wreck"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "drjefeisserkapel",
+  "n": "Dr. J. E. Feisserkapel",
+  "a": "",
+  "pc": "",
+  "lat": 51.92666,
+  "lng": 4.472,
+  "c": "faith",
+  "s": "church",
+  "q": "Dr. J. E. Feisserkapel Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1446537703",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2026-05-30",
+    "denomination": "baptist",
+    "name": "Dr. J. E. Feisserkapel",
+    "religion": "christian",
+    "url": "www.baptisten-rdam.nl"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museumrotterdam19401945n",
+  "n": "Museum Rotterdam 1940-1945 NU",
+  "a": "",
+  "pc": "",
+  "lat": 51.90892,
+  "lng": 4.45813,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museum Rotterdam 1940-1945 NU Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1456898028",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "375",
+    "addr:postcode": "3015GC",
+    "addr:street": "Coolhaven",
+    "email": "info@museumrotterdam.nl",
+    "fee": "yes",
+    "name": "Museum Rotterdam 1940-1945 NU",
+    "opening_hours": "Tu-Sa 10:00-17:00; Su 11:00-17:00",
+    "payment:museumkaart": "yes",
+    "phone": "+31 10 217 6773",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "tourism": "museum",
+    "website": "https://museumrotterdam.nl/tentoonstellingen/museum-rotterdam-40-45-nu"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vrouwealeida",
+  "n": "Vrouwe Aleida",
+  "a": "",
+  "pc": "",
+  "lat": 51.9183,
+  "lng": 4.40269,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Vrouwe Aleida Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1464811572",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Vrouwe Aleida",
+    "tourism": "artwork",
+    "wikidata": "Q1941370"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fannyblankerskoen",
+  "n": "Fanny Blankers-Koen",
+  "a": "",
+  "pc": "",
+  "lat": 51.92609,
+  "lng": 4.45483,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Fanny Blankers-Koen Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1468574781",
+   "raw": {
+    "artist_name": "Han Rehm",
+    "artwork_type": "statue",
+    "name": "Fanny Blankers-Koen",
+    "source": "survey",
+    "start_date": "1954",
+    "tourism": "artwork",
+    "website": "https://www.bkor.nl/kunstwerken/fanny-blankers-koen",
+    "wikidata": "Q61653699",
+    "wikimedia_commons": "File:Rotterdam_kunstwerk_fanny_blankers.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "capitulatie14mei1940",
+  "n": "Capitulatie 14 mei 1940",
+  "a": "",
+  "pc": "",
+  "lat": 51.92851,
+  "lng": 4.45917,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Capitulatie 14 mei 1940 Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1468938870",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Capitulatie 14 mei 1940",
+    "source": "local_knowledge",
+    "wikimedia_commons": "File:Rotterdam_monument_Statenweg.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "4045",
+  "n": "40-45",
+  "a": "",
+  "pc": "",
+  "lat": 51.91632,
+  "lng": 4.43621,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "40-45 Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1483272467",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "40-45"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "deboeg",
+  "n": "De Boeg",
+  "a": "",
+  "pc": "",
+  "lat": 51.91227,
+  "lng": 4.48456,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "De Boeg Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1500029717",
+   "raw": {
+    "artist_name": "Frederico Carasso",
+    "description": "Nationaal Monument voor de Koopvaardij",
+    "height": "46",
+    "historic": "monument",
+    "image": "https://photos.app.goo.gl/XeT1kSyzYLdR5dm27",
+    "mapillary": "550732349247865",
+    "name": "De Boeg",
+    "start_date": "1956",
+    "url": "https://www.bkor.nl/beelden/de-boeg",
+    "wikidata": "Q2134942",
+    "wikimedia_commons": "File:Rotterdam_kunstwerk_de_boeg.jpg",
+    "wikipedia": "nl:De Boeg (Rotterdam)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "herdenkingstrijdandverze",
+  "n": "Herdenking strijd & verzet 1940-1945",
+  "a": "",
+  "pc": "",
+  "lat": 51.90317,
+  "lng": 4.47005,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Herdenking strijd & verzet 1940-1945 Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1500033338",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Herdenking van Strijd en Verzet 1940-1945",
+    "name": "Herdenking strijd & verzet 1940-1945",
+    "source": "survey",
+    "wikidata": "Q124729030"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "groenekruiskerk",
+  "n": "Groene Kruiskerk",
+  "a": "",
+  "pc": "",
+  "lat": 51.8609,
+  "lng": 4.39041,
+  "c": "faith",
+  "s": "church",
+  "q": "Groene Kruiskerk Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1565502168",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "protestant",
+    "name": "Groene Kruiskerk",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "deheuvel",
+  "n": "De Heuvel",
+  "a": "",
+  "pc": "",
+  "lat": 51.88528,
+  "lng": 4.38455,
+  "c": "faith",
+  "s": "church",
+  "q": "De Heuvel Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1588781646",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "name": "De Heuvel",
+    "religion": "christian",
+    "wikidata": "Q104430222"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jeugdgebouwgk",
+  "n": "Jeugdgebouw GK",
+  "a": "",
+  "pc": "",
+  "lat": 51.89131,
+  "lng": 4.38731,
+  "c": "faith",
+  "s": "church",
+  "q": "Jeugdgebouw GK Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1588781716",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "protestant",
+    "name": "Jeugdgebouw GK",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lantarenvenster",
+  "n": "LantarenVenster",
+  "a": "",
+  "pc": "",
+  "lat": 51.90485,
+  "lng": 4.48702,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "LantarenVenster Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1608571645",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "996",
+    "addr:postcode": "3072MD",
+    "addr:street": "Otto Reuchlinweg",
+    "amenity": "cinema",
+    "name": "LantarenVenster",
+    "opening_hours": "Mo-Su 09:30-21:00",
+    "screen": "6",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.lantarenvenster.nl/",
+    "wheelchair": "limited",
+    "wheelchair:description": "Very small venues, but accesiblle"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "koninkrijkszaal",
+  "n": "Koninkrijkszaal",
+  "a": "",
+  "pc": "",
+  "lat": 51.95907,
+  "lng": 4.46614,
+  "c": "faith",
+  "s": "church",
+  "q": "Koninkrijkszaal Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1687328796",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-06-04",
+    "denomination": "jehovahs_witness",
+    "name": "Koninkrijkszaal",
+    "religion": "christian",
+    "wikidata": "Q104428469"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lancastermonument",
+  "n": "Lancaster-monument",
+  "a": "",
+  "pc": "",
+  "lat": 51.86071,
+  "lng": 4.56364,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Lancaster-monument Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1696063175",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Lancaster-monument",
+    "start_date": "2002-09-21",
+    "url": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/2833/rijsoord-lancaster-monument"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "steenvandemiljoenentrane",
+  "n": "Steen van de miljoenen tranen",
+  "a": "",
+  "pc": "",
+  "lat": 51.92676,
+  "lng": 4.51044,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Steen van de miljoenen tranen Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1743189815",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Steen van de miljoenen tranen",
+    "wikidata": "Q4533125",
+    "wikipedia": "nl:Steen van de miljoenen tranen"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pimfortuyn",
+  "n": "Pim Fortuyn",
+  "a": "",
+  "pc": "",
+  "lat": 51.91888,
+  "lng": 4.48237,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Pim Fortuyn Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1743630020",
+   "raw": {
+    "artist_name": "Corry Ammerlaan – Van Niekerk",
+    "artwork_type": "statue",
+    "material": "bronze",
+    "name": "Pim Fortuyn",
+    "tourism": "artwork",
+    "wikidata": "Q62088069",
+    "wikimedia_commons": "Category:Pim Fortuyn by Corry Ammerlaan-van Niekerk (Rotterdam)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "annamariadegroot",
+  "n": "Anna-Maria de Groot",
+  "a": "",
+  "pc": "",
+  "lat": 51.88559,
+  "lng": 4.51649,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Anna-Maria de Groot Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1747113124",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "138",
+    "addr:postcode": "3075GJ",
+    "addr:street": "Groenezoom",
+    "email": "annnnam1@hotmail.com",
+    "name": "Anna-Maria de Groot",
+    "phone": "+31 10 419 1771",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wilhelmina",
+  "n": "Wilhelmina",
+  "a": "",
+  "pc": "",
+  "lat": 51.90489,
+  "lng": 4.47346,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Wilhelmina Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1759830147",
+   "raw": {
+    "artist_name": "Charlotte van Pallandt",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Wilhelmina",
+    "start_date": "1968",
+    "website": "https://www.bkor.nl/kunstwerken/wilhelmina",
+    "wikidata": "Q3154841",
+    "wikimedia_commons": "File:Rotterdam_statue_wilhelmina.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wilhelminafontein",
+  "n": "Wilhelminafontein",
+  "a": "",
+  "pc": "",
+  "lat": 51.91391,
+  "lng": 4.49563,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Wilhelminafontein Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1851184991",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:street": "Burgemeester Hoffmanplein",
+    "amenity": "fountain",
+    "artist_name": "Henri Evers, Simon Miedema",
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Wilhelminafontein",
+    "source": "Survey",
+    "start_date": "1898",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wikidata": "Q2916090",
+    "wikipedia": "nl:Wilhelminafontein (Rotterdam)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "odeaanmartentoonder",
+  "n": "Ode aan Marten Toonder",
+  "a": "",
+  "pc": "",
+  "lat": 51.91972,
+  "lng": 4.48808,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Ode aan Marten Toonder Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1875589870",
+   "raw": {
+    "artist_name": "De Artoonisten",
+    "artwork_type": "sculpture",
+    "image": "https://photos.app.goo.gl/Kx4iVjARDpc8NGKx8",
+    "mapillary": "311900270562469",
+    "material": "bronze",
+    "name": "Ode aan Marten Toonder",
+    "tourism": "artwork",
+    "wikidata": "Q33197533",
+    "wikimedia_commons": "Category:Hommage Marten Toonder"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zweedsekerk",
+  "n": "Zweedse kerk",
+  "a": "",
+  "pc": "",
+  "lat": 51.90864,
+  "lng": 4.47664,
+  "c": "faith",
+  "s": "church",
+  "q": "Zweedse kerk Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1881711107",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Zweedse kerk",
+    "name:en": "Swedish church",
+    "name:nl": "Zweedse kerk",
+    "name:sv": "Svenska kyrkan",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "islamitischcentrumschied",
+  "n": "Islamitisch Centrum Schiedam",
+  "a": "",
+  "pc": "",
+  "lat": 51.9158,
+  "lng": 4.38125,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Islamitisch Centrum Schiedam Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1896405845",
+   "raw": {
+    "addr:city": "Schiedam",
+    "addr:housenumber": "5",
+    "addr:postcode": "3118XH",
+    "addr:street": "Dr Schaepmansingel",
+    "amenity": "place_of_worship",
+    "name": "Islamitisch Centrum Schiedam",
+    "religion": "muslim",
+    "source": "BAG",
+    "source:date": "2014-02-11"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bevrijdingsmonument",
+  "n": "Bevrijdingsmonument",
+  "a": "",
+  "pc": "",
+  "lat": 51.9132,
+  "lng": 4.40109,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Bevrijdingsmonument Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1976421082",
+   "raw": {
+    "artist:wikidata": "Q12013149",
+    "artwork_type": "statue",
+    "name": "Bevrijdingsmonument",
+    "tourism": "artwork",
+    "wikidata": "Q110413037"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentaandejanvermeers",
+  "n": "Monument aan de Jan Vermeersingel",
+  "a": "",
+  "pc": "",
+  "lat": 51.9218,
+  "lng": 4.53087,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monument aan de Jan Vermeersingel Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1985339251",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Monument aan de Jan Vermeersingel"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "keersluispoldervaart",
+  "n": "Keersluis Poldervaart",
+  "a": "",
+  "pc": "",
+  "lat": 51.95525,
+  "lng": 4.39976,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Keersluis Poldervaart Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2096603265",
+   "raw": {
+    "historic": "lock",
+    "name": "Keersluis Poldervaart"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vlinderbank",
+  "n": "Vlinderbank",
+  "a": "",
+  "pc": "",
+  "lat": 51.9315,
+  "lng": 4.38582,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Vlinderbank Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2099738464",
+   "raw": {
+    "amenity": "bench",
+    "artist:wikidata": "Q2510365",
+    "artist:wikipedia": "nl:Dora Dolz",
+    "artist_name": "Dora Dolz",
+    "backrest": "yes",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Schiedam_kunstwerk_bank.jpg",
+    "material": "stone",
+    "name": "Vlinderbank",
+    "tourism": "artwork",
+    "wikidata": "Q110474391"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "olvaltijddurendebijstand",
+  "n": "O.L.V. Altijddurende Bijstand",
+  "a": "",
+  "pc": "",
+  "lat": 51.9354,
+  "lng": 4.42832,
+  "c": "faith",
+  "s": "church",
+  "q": "O.L.V. Altijddurende Bijstand Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2140126846",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "O.L.V. Altijddurende Bijstand",
+    "religion": "christian",
+    "wikidata": "Q17190583",
+    "wikipedia": "nl:Onze-Lieve-Vrouw van Altijddurende Bijstandkerk (Overschie)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museumoudoverschie",
+  "n": "Museum Oud Overschie",
+  "a": "",
+  "pc": "",
+  "lat": 51.93846,
+  "lng": 4.41877,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museum Oud Overschie Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2143733037",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "136-140",
+    "addr:postcode": "3043CV",
+    "addr:street": "Overschiese Dorpsstraat",
+    "fee": "yes",
+    "name": "Museum Oud Overschie",
+    "opening_hours": "Su 14:00-17:00",
+    "phone": "+31 10 415 8864",
+    "tourism": "museum",
+    "website": "https://www.museumoudoverschie.nl"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "welschenvii",
+  "n": "Welschen VII",
+  "a": "",
+  "pc": "",
+  "lat": 51.93165,
+  "lng": 4.42753,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Welschen VII Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2157587987",
+   "raw": {
+    "name": "Welschen VII",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stichtingchinesechristel",
+  "n": "Stichting Chinese Christelijke Gemeente",
+  "a": "",
+  "pc": "",
+  "lat": 51.92015,
+  "lng": 4.47137,
+  "c": "faith",
+  "s": "church",
+  "q": "Stichting Chinese Christelijke Gemeente Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2502444201",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:country": "NL",
+    "addr:housenumber": "10",
+    "addr:postcode": "3014GM",
+    "addr:street": "Westersingel",
+    "amenity": "place_of_worship",
+    "check_date": "2025-12-02",
+    "denomination": "protestant",
+    "name": "Stichting Chinese Christelijke Gemeente",
+    "religion": "christian",
+    "website": "https://www.chinesekerk.nl"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinerama",
+  "n": "Cinerama",
+  "a": "",
+  "pc": "",
+  "lat": 51.91707,
+  "lng": 4.47874,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinerama Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2610198544",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:country": "NL",
+    "addr:housenumber": "18",
+    "addr:postcode": "3012KL",
+    "addr:street": "Westblaak",
+    "amenity": "cinema",
+    "check_date": "2026-03-21",
+    "name": "Cinerama",
+    "phone": "+31 10 411 5300",
+    "website": "https://www.cineramabios.nl/",
+    "wheelchair": "no",
+    "wikidata": "Q38238710",
+    "wikimedia_commons": "Category:Cinerama (Rotterdam)",
+    "wikipedia": "nl:Cinerama Filmtheater"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kino",
+  "n": "KINO",
+  "a": "",
+  "pc": "",
+  "lat": 51.91713,
+  "lng": 4.46939,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "KINO Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2610207030",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "129",
+    "addr:postcode": "3014PM",
+    "addr:street": "Gouvernestraat",
+    "amenity": "cinema",
+    "name": "KINO",
+    "opening_hours": "Su-Th 10:00-01:00; Fr,Sa 10:00-02:00",
+    "phone": "+31 10 268 1160",
+    "source": "BAG",
+    "source:date": "2013-11-26",
+    "website": "https://kinorotterdam.nl",
+    "wikidata": "Q76161173"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "christianouwens",
+  "n": "Christian Ouwens",
+  "a": "",
+  "pc": "",
+  "lat": 51.91586,
+  "lng": 4.47465,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Christian Ouwens Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2610220548",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "20",
+    "addr:postcode": "3012LB",
+    "addr:street": "Eendrachtsweg",
+    "name": "Christian Ouwens",
+    "opening_hours": "We-Sa 11:00-17:00",
+    "source": "BAG",
+    "source:date": "2013-11-26",
+    "tourism": "gallery",
+    "website": "https://christianouwens.nl/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kunstinstituutmelly",
+  "n": "Kunstinstituut Melly",
+  "a": "",
+  "pc": "",
+  "lat": 51.91539,
+  "lng": 4.47708,
+  "c": "museum",
+  "s": "museum",
+  "q": "Kunstinstituut Melly Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2610262508",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "50",
+    "addr:postcode": "3012BR",
+    "addr:street": "Witte de Withstraat",
+    "name": "Kunstinstituut Melly",
+    "name:en": "Kunstinstituut Melly",
+    "note": "De nieuwe naam wordt ook in het Engels in de Nederlandse vorm gehanteerd.",
+    "old_name:1990-2020": "Witte de With Centrum voor Hedendaagse Kunst",
+    "old_name:en:1990-2020": "Witte de With Center for Contemporary Art",
+    "payment:museumkaart": "yes",
+    "short_name": "Melly",
+    "short_name:1990-2020": "Witte de With",
+    "source": "BAG",
+    "source:date": "2013-11-26",
+    "tourism": "museum",
+    "website": "https://www.kunstinstituutmelly.nl/",
+    "wikidata": "Q2042148",
+    "wikimedia_commons": "Category:Witte de With Center for Contemporary Art",
+    "wikipedia": "nl:Kunstinstituut Melly"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nlus",
+  "n": "NL=US",
+  "a": "",
+  "pc": "",
+  "lat": 51.91754,
+  "lng": 4.47304,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "NL=US Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2610266757",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "55B",
+    "addr:postcode": "3012JX",
+    "addr:street": "Mauritsweg",
+    "contact:email": "info@nlisus.com",
+    "name": "NL=US",
+    "opening_hours": "We-Th \"by appointment\"; Fr-Su 12:00-17:00",
+    "source": "BAG",
+    "source:date": "2013-11-26",
+    "tourism": "gallery",
+    "website": "https://nlisus.com/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kijkkubus",
+  "n": "Kijk Kubus",
+  "a": "",
+  "pc": "",
+  "lat": 51.92033,
+  "lng": 4.49033,
+  "c": "museum",
+  "s": "museum",
+  "q": "Kijk Kubus Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2610271467",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "70",
+    "addr:postcode": "3011MH",
+    "addr:street": "Overblaak",
+    "charge": "3.00 EUR",
+    "email": "info@kubuswoning.nl",
+    "fee": "yes",
+    "museum": "architecture",
+    "name": "Kijk Kubus",
+    "name:nl": "Kijk Kubus",
+    "name:ru": "Кубические дома",
+    "opening_hours": "11:00-17:00",
+    "phone": "+31 10 4142285",
+    "source": "BAG",
+    "source:date": "2013-11-26",
+    "toilets:wheelchair": "no",
+    "tourism": "museum",
+    "website": "https://kubuswoning.nl/",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spoortunnel",
+  "n": "Spoortunnel",
+  "a": "",
+  "pc": "",
+  "lat": 51.97462,
+  "lng": 4.54243,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Spoortunnel Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2649761643",
+   "raw": {
+    "artist_name": "Marcel Kronenburg",
+    "artwork_type": "sculpture",
+    "name": "Spoortunnel",
+    "tourism": "artwork",
+    "wikidata": "Q1969384"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "trophy1993",
+  "n": "Trophy 1993",
+  "a": "",
+  "pc": "",
+  "lat": 51.97898,
+  "lng": 4.54966,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Trophy 1993 Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2649761644",
+   "raw": {
+    "artist_name": "Hans van Bentem",
+    "artwork_type": "sculpture",
+    "name": "Trophy 1993",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "maheshwardhaam",
+  "n": "Maheshwar Dhaam",
+  "a": "",
+  "pc": "",
+  "lat": 51.89305,
+  "lng": 4.49508,
+  "c": "faith",
+  "s": "temple",
+  "q": "Maheshwar Dhaam Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2667644698",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:country": "NL",
+    "addr:housenumber": "163a",
+    "addr:postcode": "3073HH",
+    "addr:street": "Putsebocht",
+    "amenity": "place_of_worship",
+    "name": "Maheshwar Dhaam",
+    "religion": "hindu"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "shrirammandir",
+  "n": "Shri Ram Mandir",
+  "a": "",
+  "pc": "",
+  "lat": 51.89757,
+  "lng": 4.49796,
+  "c": "faith",
+  "s": "temple",
+  "q": "Shri Ram Mandir Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2667644699",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:country": "NL",
+    "addr:housenumber": "194",
+    "addr:postcode": "3073JM",
+    "addr:street": "Putselaan",
+    "amenity": "place_of_worship",
+    "name": "Shri Ram Mandir",
+    "religion": "hindu",
+    "url": "www.rammandir.nl",
+    "wikidata": "Q104431871"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "shrishivmandir",
+  "n": "Shri Shiv Mandir",
+  "a": "",
+  "pc": "",
+  "lat": 51.91633,
+  "lng": 4.4522,
+  "c": "faith",
+  "s": "temple",
+  "q": "Shri Shiv Mandir Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2667644700",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:country": "NL",
+    "addr:housenumber": "3",
+    "addr:postcode": "3023TK",
+    "addr:street": "Nozemanstraat",
+    "amenity": "place_of_worship",
+    "name": "Shri Shiv Mandir",
+    "religion": "hindu",
+    "url": "https://www.shivmandirrotterdam.nl",
+    "wikidata": "Q104431870"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "boezemkerk",
+  "n": "Boezemkerk",
+  "a": "",
+  "pc": "",
+  "lat": 51.89613,
+  "lng": 4.57782,
+  "c": "faith",
+  "s": "church",
+  "q": "Boezemkerk Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2729178989",
+   "raw": {
+    "addr:city": "Ridderkerk",
+    "addr:housenumber": "2",
+    "addr:postcode": "2987AK",
+    "addr:street": "Pretoriusstraat",
+    "amenity": "place_of_worship",
+    "denomination": "protestant",
+    "name": "Boezemkerk",
+    "religion": "christian",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "wikidata": "Q27915825",
+    "wikipedia": "nl:Boezemkerk"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "islamitischcentrumbarend",
+  "n": "Islamitisch Centrum Barendrecht",
+  "a": "",
+  "pc": "",
+  "lat": 51.8624,
+  "lng": 4.52198,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Islamitisch Centrum Barendrecht Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2744762631",
+   "raw": {
+    "addr:city": "Barendrecht",
+    "addr:housenumber": "41a",
+    "addr:postcode": "2992LB",
+    "addr:street": "Bijdorpplein",
+    "amenity": "place_of_worship",
+    "name": "Islamitisch Centrum Barendrecht",
+    "religion": "muslim",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://icbarendrecht.nl/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "moskeeandmulticultureelc",
+  "n": "Moskee & Multicultureel centrum Zevenkamp",
+  "a": "",
+  "pc": "",
+  "lat": 51.96393,
+  "lng": 4.57053,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Moskee & Multicultureel centrum Zevenkamp Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2768385663",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "31",
+    "addr:postcode": "3068GX",
+    "addr:street": "Imkerstraat",
+    "amenity": "place_of_worship",
+    "denomination": "sunni",
+    "description": "Moskee & multi culturele centrum in Zevenkamp",
+    "name": "Moskee & Multicultureel centrum Zevenkamp",
+    "name:en": "Mosque MCC Zevenkamp",
+    "name:nl": "Moskee MCC Zevenkamp",
+    "religion": "muslim",
+    "source": "BAG",
+    "source:date": "2014-03-24"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nieuwapostolischekerkrot",
+  "n": "Nieuw-Apostolische Kerk Rotterdam",
+  "a": "",
+  "pc": "",
+  "lat": 51.93303,
+  "lng": 4.56206,
+  "c": "faith",
+  "s": "church",
+  "q": "Nieuw-Apostolische Kerk Rotterdam Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2784621655",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "2",
+    "addr:postcode": "3066VV",
+    "addr:street": "Ben-Goerionstraat",
+    "amenity": "place_of_worship",
+    "denomination": "new_apostolic",
+    "name": "Nieuw-Apostolische Kerk Rotterdam",
+    "religion": "christian",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://www.nak-nl.org/",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "elimkerk",
+  "n": "Elimkerk",
+  "a": "",
+  "pc": "",
+  "lat": 51.93219,
+  "lng": 4.58488,
+  "c": "faith",
+  "s": "church",
+  "q": "Elimkerk Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2785840019",
+   "raw": {
+    "addr:city": "Capelle aan den IJssel",
+    "addr:housenumber": "346",
+    "addr:postcode": "2903GM",
+    "addr:street": "Merellaan",
+    "amenity": "place_of_worship",
+    "denomination": "reformed",
+    "name": "Elimkerk",
+    "operator": "Gereformeerde Gemeenten",
+    "operator:abbr": "GG;GerGem",
+    "operator:wikidata": "Q1967348",
+    "religion": "christian",
+    "source": "BAG",
+    "source:date": "2014-03-24"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "evangelischegemeenterafa",
+  "n": "Evangelische gemeente Rafael de Rivier",
+  "a": "",
+  "pc": "",
+  "lat": 51.94131,
+  "lng": 4.55966,
+  "c": "faith",
+  "s": "church",
+  "q": "Evangelische gemeente Rafael de Rivier Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2786601982",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "60",
+    "addr:postcode": "3067PW",
+    "addr:street": "Malmöpad",
+    "amenity": "place_of_worship",
+    "name": "Evangelische gemeente Rafael de Rivier",
+    "opening_hours": "Su 10:00-12:00",
+    "religion": "christian",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://www.rafaelderivier.nl/",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "apostolischgenootschap",
+  "n": "Apostolisch Genootschap",
+  "a": "",
+  "pc": "",
+  "lat": 51.88434,
+  "lng": 4.47073,
+  "c": "faith",
+  "s": "church",
+  "q": "Apostolisch Genootschap Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2786702364",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "205",
+    "addr:postcode": "3082LM",
+    "addr:street": "Dorpsweg",
+    "amenity": "place_of_worship",
+    "denomination": "apostolic",
+    "email": "info@apgen.nl",
+    "name": "Apostolisch Genootschap",
+    "opening_hours": "Sa 10:00-11:00",
+    "religion": "christian",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://apgen.nl"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museumwoningdekiefhoek",
+  "n": "Museumwoning de Kiefhoek",
+  "a": "",
+  "pc": "",
+  "lat": 51.89256,
+  "lng": 4.50826,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museumwoning de Kiefhoek Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2787487225",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "2",
+    "addr:postcode": "3073RC",
+    "addr:street": "Hendrik Idoplein",
+    "museum": "history",
+    "name": "Museumwoning de Kiefhoek",
+    "opening_hours": "\"on appointment\"",
+    "operator": "UrbanGuides",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "tourism": "museum",
+    "website": "https://www.urbanguides.nl/nl/museum/modernisme/de-kiefhoek/",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gemaaljanannebeijerinck",
+  "n": "Gemaal Jan Anne Beijerinck",
+  "a": "",
+  "pc": "",
+  "lat": 51.92943,
+  "lng": 4.56553,
+  "c": "museum",
+  "s": "museum",
+  "q": "Gemaal Jan Anne Beijerinck Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2787591453",
+   "raw": {
+    "addr:city": "Capelle aan den IJssel",
+    "addr:housenumber": "13",
+    "addr:postcode": "2906LA",
+    "addr:street": "Bermweg",
+    "email": "info@hvc-capelle.nl",
+    "name": "Gemaal Jan Anne Beijerinck",
+    "opening_hours": "Sa 13:00-16:00",
+    "phone": "+31 10 450 0080",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "tourism": "museum",
+    "website": "https://www.hvc-capelle.nl"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "devoorhof",
+  "n": "De Voorhof",
+  "a": "",
+  "pc": "",
+  "lat": 51.93802,
+  "lng": 4.58115,
+  "c": "faith",
+  "s": "church",
+  "q": "De Voorhof Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2787756523",
+   "raw": {
+    "addr:city": "Capelle aan den IJssel",
+    "addr:housenumber": "332",
+    "addr:postcode": "2907LA",
+    "addr:street": "Bermweg",
+    "amenity": "place_of_worship",
+    "denomination": "reformed",
+    "name": "De Voorhof",
+    "operator": "Nederlandse Gereformeerde Kerken",
+    "operator:abbr": "NGK",
+    "religion": "christian",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://www.ngkcapelle.nl/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blinddatesexbios",
+  "n": "Blind Date Sex Bios",
+  "a": "",
+  "pc": "",
+  "lat": 51.90677,
+  "lng": 4.50864,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Blind Date Sex Bios Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2788115928",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "267",
+    "addr:postcode": "3071SM",
+    "addr:street": "Oranjeboomstraat",
+    "amenity": "cinema",
+    "check_date": "2026-04-05",
+    "cinema": "erotic",
+    "name": "Blind Date Sex Bios",
+    "opening_hours": "Mo-Th 12:00-01:00; Fr-Sa 12:00-02:00; Su 12:00-01:00",
+    "phone": "+31 10 485 9079",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "website": "https://blinddatesexbios.nl/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nestudios",
+  "n": "NEstudio's",
+  "a": "",
+  "pc": "",
+  "lat": 51.91041,
+  "lng": 4.48929,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "NEstudio's Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2788123723",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "5",
+    "addr:postcode": "3071LG",
+    "addr:street": "Prins Hendrikstraat",
+    "name": "NEstudio's",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "tourism": "gallery",
+    "website": "https://www.nestudios.nl/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "claypotchurchinternation",
+  "n": "Claypot Church International",
+  "a": "",
+  "pc": "",
+  "lat": 51.95387,
+  "lng": 4.5756,
+  "c": "faith",
+  "s": "church",
+  "q": "Claypot Church International Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2788802428",
+   "raw": {
+    "addr:city": "Capelle aan den IJssel",
+    "addr:housenumber": "2",
+    "addr:postcode": "2908BG",
+    "addr:street": "Spoorlaan",
+    "amenity": "place_of_worship",
+    "denomination": "pentecostal",
+    "email": "info@claypotchurchint.com",
+    "name": "Claypot Church International",
+    "phone": "+31 6 23852381",
+    "religion": "christian",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "website": "https://claypotchurchint.com/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "petrakerkgemeente",
+  "n": "Petrakerkgemeente",
+  "a": "",
+  "pc": "",
+  "lat": 51.8772,
+  "lng": 4.52505,
+  "c": "faith",
+  "s": "church",
+  "q": "Petrakerkgemeente Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2788985004",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "21",
+    "addr:postcode": "3076AH",
+    "addr:street": "Pliniusstraat",
+    "amenity": "place_of_worship",
+    "denomination": "protestant",
+    "description": "De Petrakerkgemeente is een samenwerkingsverband van de van oorsprong gereformeerde kerk van Lombardijen, deel uitmakend van de Protestantse Kerk Nederland (PKN) en de Vrije Evangelische Gemeente Rotterdam.",
+    "name": "Petrakerkgemeente",
+    "religion": "christian",
+    "source": "BAG",
+    "source:date": "2014-02-11"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "homerus",
+  "n": "Homerus",
+  "a": "",
+  "pc": "",
+  "lat": 51.87883,
+  "lng": 4.53007,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Homerus Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2789017345",
+   "raw": {
+    "artist_name": "Studio voor kunstwerk",
+    "artwork_type": "mural",
+    "name": "Homerus",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rkkerkvanstpetrusbanden",
+  "n": "R.K. Kerk van St. Petrus'Banden",
+  "a": "",
+  "pc": "",
+  "lat": 51.94093,
+  "lng": 4.42151,
+  "c": "faith",
+  "s": "church",
+  "q": "R.K. Kerk van St. Petrus'Banden Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2789043941",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "13",
+    "addr:postcode": "3043CC",
+    "addr:street": "Delftweg",
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "R.K. Kerk van St. Petrus'Banden",
+    "religion": "christian",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "wikidata": "Q7476568",
+    "wikipedia": "nl:Petrus' Bandenkerk (Overschie)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "niffo",
+  "n": "Niffo",
+  "a": "",
+  "pc": "",
+  "lat": 51.90164,
+  "lng": 4.49737,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Niffo Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2790983331",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "4B",
+    "addr:postcode": "3072EM",
+    "addr:street": "Pretorialaan",
+    "contact:website": "https://www.niffo.nl",
+    "name": "Niffo",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "assembleiadedeusminister",
+  "n": "Assembléia de Deus Ministério Perus",
+  "a": "",
+  "pc": "",
+  "lat": 51.92899,
+  "lng": 4.47927,
+  "c": "faith",
+  "s": "church",
+  "q": "Assembléia de Deus Ministério Perus Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2814061907",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "58",
+    "addr:postcode": "3032CM",
+    "addr:street": "Zomerhofstraat",
+    "amenity": "place_of_worship",
+    "denomination": "evangelical",
+    "name": "Assembléia de Deus Ministério Perus",
+    "religion": "christian",
+    "source": "BAG",
+    "source:date": "2014-02-11"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stadsarchiefrotterdam",
+  "n": "Stadsarchief Rotterdam",
+  "a": "",
+  "pc": "",
+  "lat": 51.92737,
+  "lng": 4.48084,
+  "c": "archive",
+  "s": "archive",
+  "q": "Stadsarchief Rotterdam Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2814065623",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "651",
+    "addr:postcode": "3032CG",
+    "addr:street": "Hofdijk",
+    "amenity": "archive",
+    "government": "archive",
+    "name": "Stadsarchief Rotterdam",
+    "office": "government",
+    "phone": "+31 10 267 5555",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "toilets:wheelchair": "yes",
+    "website": "https://stadsarchief.rotterdam.nl/",
+    "wheelchair": "yes",
+    "wikidata": "Q3912134",
+    "wikipedia": "nl:Stadsarchief Rotterdam"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "radiomuseum",
+  "n": "Radio Museum",
+  "a": "",
+  "pc": "",
+  "lat": 51.9422,
+  "lng": 4.47966,
+  "c": "museum",
+  "s": "museum",
+  "q": "Radio Museum Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2816669212",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "104",
+    "addr:postcode": "3051KD",
+    "addr:street": "Ceintuurbaan",
+    "name": "Radio Museum",
+    "phone": "+31 10 4618618",
+    "source": "BAG",
+    "source:date": "2014-02-11",
+    "tourism": "museum",
+    "website": "https://www.rotterdamsradiomuseum.nl/",
+    "wikidata": "Q1840874",
+    "wikipedia": "nl:Radiomuseum (Rotterdam)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rotterdamsopenbaarvervoe",
+  "n": "Rotterdams Openbaar Vervoer Museum",
+  "a": "",
+  "pc": "",
+  "lat": 51.94474,
+  "lng": 4.48406,
+  "c": "museum",
+  "s": "museum",
+  "q": "Rotterdams Openbaar Vervoer Museum Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2816673702",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "19",
+    "addr:postcode": "3051PC",
+    "addr:street": "Kootsekade",
+    "description": "Rotterdams Openbaar vervoer Museum & Exploitatie Oldtimers Rotterdam transport Museum",
+    "museum": "transport",
+    "name": "Rotterdams Openbaar Vervoer Museum",
+    "opening_hours": "Apr-Nov Sa[1] 10:00-16:00 open \"Museum open\" || \"on appointment\"",
+    "operator": "Stichting RoMeO",
+    "phone": "+31 10 841 7961",
+    "source": "BAG;local knowledge",
+    "source:date": "2014-02-11",
+    "tourism": "museum",
+    "website": "https://www.rovm.nl",
+    "wikidata": "Q2285736",
+    "wikipedia": "nl:Rotterdamse museumtrams"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "streekmuseumkrimpenerwaa",
+  "n": "Streekmuseum Krimpenerwaard",
+  "a": "",
+  "pc": "",
+  "lat": 51.91997,
+  "lng": 4.58812,
+  "c": "museum",
+  "s": "museum",
+  "q": "Streekmuseum Krimpenerwaard Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2838137735",
+   "raw": {
+    "addr:city": "Krimpen aan den IJssel",
+    "addr:housenumber": "312",
+    "addr:postcode": "2922BM",
+    "addr:street": "IJsseldijk",
+    "name": "Streekmuseum Krimpenerwaard",
+    "operator": "Stichting Oudheidkamer Krimpen aan den IJssel",
+    "operator:type": "community",
+    "payment:museumkaart": "yes",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "tourism": "museum",
+    "website": "https://www.streekmuseumkrimpenerwaard.nl",
+    "wikidata": "Q60059394",
+    "wikipedia": "nl:Streekmuseum Krimpenerwaard"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "desideriuserasmus",
+  "n": "Desiderius Erasmus",
+  "a": "",
+  "pc": "",
+  "lat": 51.92151,
+  "lng": 4.48433,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Desiderius Erasmus Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3456200469",
+   "raw": {
+    "artist_name": "Hendrick de Keyser",
+    "artwork_type": "statue",
+    "heritage": "2",
+    "heritage:operator": "rce",
+    "image": "https://photos.app.goo.gl/cxT4fbfsNh2kZtRx6",
+    "mapillary": "308826254090113",
+    "name": "Desiderius Erasmus",
+    "start_date": "1618",
+    "tourism": "artwork",
+    "wheelchair": "limited",
+    "wikidata": "Q16760837",
+    "wikimedia_commons": "Category:Erasmus statue by Hendrick de Keyser",
+    "wikipedia": "nl:Erasmusbeeld (Hendrick de Keyser)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hetvergetenbombardement",
+  "n": "Het Vergeten Bombardement",
+  "a": "",
+  "pc": "",
+  "lat": 51.91283,
+  "lng": 4.44038,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Het Vergeten Bombardement Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3699757544",
+   "raw": {
+    "historic": "memorial",
+    "name": "Het Vergeten Bombardement",
+    "name:en": "Forgotten Bombardment",
+    "wikidata": "Q13441587",
+    "wikipedia": "nl:Bombardement op Rotterdam-West"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bevrijdingsmonumentvreew",
+  "n": "Bevrijdingsmonument Vreewijk",
+  "a": "",
+  "pc": "",
+  "lat": 51.88768,
+  "lng": 4.51113,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Bevrijdingsmonument Vreewijk Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3751446316",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:street": "Brink",
+    "artist_name": "Joan Bakker & J. Poot",
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "name": "Bevrijdingsmonument Vreewijk",
+    "start_date": "1950-05-04",
+    "tourism": "artwork",
+    "wikidata": "Q2596681",
+    "wikipedia": "nl:Bevrijdingsmonument Vreewijk"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dobber",
+  "n": "Dobber",
+  "a": "",
+  "pc": "",
+  "lat": 51.89362,
+  "lng": 4.52964,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Dobber Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3751446317",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:street": "Stadionlaan",
+    "artist_name": "Gust Romijn",
+    "artwork_type": "sculpture",
+    "name": "Dobber",
+    "start_date": "1966",
+    "tourism": "artwork",
+    "website": "https://www.bkor.nl/beelden/de-dobber/",
+    "wikidata": "Q102080930"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gezin",
+  "n": "Gezin",
+  "a": "",
+  "pc": "",
+  "lat": 51.8876,
+  "lng": 4.46506,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Gezin Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3751446319",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:street": "Van Blommesteynstraat",
+    "artist_name": "Chris Elffers",
+    "artwork_type": "statue",
+    "name": "Gezin",
+    "start_date": "1962-11",
+    "tourism": "artwork",
+    "website": "https://www.bkor.nl/beelden/het-gezin-3/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ilgrandemiracolo",
+  "n": "Il grande miracolo",
+  "a": "",
+  "pc": "",
+  "lat": 51.89007,
+  "lng": 4.48838,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Il grande miracolo Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3751446322",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:street": "Mijnsherenlaan",
+    "artist_name": "Marino Marini",
+    "artwork_type": "sculpture",
+    "historic": "memorial",
+    "name": "Il grande miracolo",
+    "start_date": "1958-05-03",
+    "tourism": "artwork",
+    "website": "https://www.bkor.nl/beelden/il-grande-miracolo/",
+    "wikidata": "Q2198455",
+    "wikipedia": "nl:Il grande miracolo"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lastdrager",
+  "n": "Lastdrager",
+  "a": "",
+  "pc": "",
+  "lat": 51.87592,
+  "lng": 4.44509,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Lastdrager Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3751446323",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:housenumber": "1",
+    "addr:street": "Parmentierplein",
+    "artist_name": "Han Rehm",
+    "artwork_type": "statue",
+    "name": "Lastdrager",
+    "start_date": "1950-09-02",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kinderenmetvogel",
+  "n": "Kinderen met vogel",
+  "a": "",
+  "pc": "",
+  "lat": 51.87498,
+  "lng": 4.48799,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Kinderen met vogel Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3751447725",
+   "raw": {
+    "artist_name": "Joan Bakker",
+    "artwork_type": "statue",
+    "fixme": "Exact location",
+    "material": "stone",
+    "name": "Kinderen met vogel",
+    "start_date": "1961-01",
+    "tourism": "artwork",
+    "wikidata": "Q102080649"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "opvliegendemeeuwen",
+  "n": "Opvliegende meeuwen",
+  "a": "",
+  "pc": "",
+  "lat": 51.87569,
+  "lng": 4.44979,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Opvliegende meeuwen Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3751447727",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:street": "Soerweg",
+    "artist_name": "Huib Noorlander",
+    "artwork_type": "statue",
+    "name": "Opvliegende meeuwen",
+    "start_date": "1963",
+    "tourism": "artwork",
+    "wikidata": "Q102082191"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "treurendevrouw",
+  "n": "Treurende vrouw",
+  "a": "",
+  "pc": "",
+  "lat": 51.88731,
+  "lng": 4.48573,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Treurende vrouw Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3751447729",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:street": "Goereesestraat",
+    "artist_name": "Cor van Kralingen",
+    "artwork_type": "statue",
+    "fixme": "Exact location",
+    "historic": "memorial",
+    "name": "Treurende vrouw",
+    "start_date": "1958-05-03",
+    "tourism": "artwork",
+    "wikidata": "Q1862001"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "toekomst",
+  "n": "Toekomst",
+  "a": "",
+  "pc": "",
+  "lat": 51.87378,
+  "lng": 4.4944,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Toekomst Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3761498608",
+   "raw": {
+    "artist_name": "Ad Schouten",
+    "artwork_type": "sculpture",
+    "name": "Toekomst",
+    "start_date": "2011-09",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tweekoeien",
+  "n": "Twee koeien",
+  "a": "",
+  "pc": "",
+  "lat": 51.87523,
+  "lng": 4.50004,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Twee koeien Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3761498609",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Twee koeien",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "baken",
+  "n": "Baken",
+  "a": "",
+  "pc": "",
+  "lat": 51.8855,
+  "lng": 4.54886,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Baken Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3762001682",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:street": "Groeninx van Zoelenlaan",
+    "artist_name": "Per Abramsen;Rob Mainga",
+    "artwork_type": "sculpture",
+    "name": "Baken",
+    "tourism": "artwork",
+    "website": "https://www.bkor.nl/beelden/baken/",
+    "wikidata": "Q102080406"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "menander",
+  "n": "Menander",
+  "a": "",
+  "pc": "",
+  "lat": 51.87741,
+  "lng": 4.52684,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Menander Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3762001685",
+   "raw": {
+    "artwork_type": "mural",
+    "inscription": "Slechts hij die leeft echt die al levend van het leven geniet",
+    "name": "Menander",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "houtenspiralen",
+  "n": "Houten spiralen",
+  "a": "",
+  "pc": "",
+  "lat": 51.88711,
+  "lng": 4.52212,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Houten spiralen Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3767917783",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:street": "Beukendaal",
+    "artist_name": "Rob Maingay",
+    "artwork_type": "sculpture",
+    "name": "Houten spiralen",
+    "start_date": "20101128",
+    "tourism": "artwork",
+    "wikidata": "Q102079734"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "beverzuil",
+  "n": "Beverzuil",
+  "a": "",
+  "pc": "",
+  "lat": 51.89841,
+  "lng": 4.56843,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Beverzuil Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3770319405",
+   "raw": {
+    "artist_name": "Protestants Christelijke basisschool “De Regenboog”",
+    "artwork_type": "sculpture",
+    "name": "Beverzuil",
+    "start_date": "19990425",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dwightdimitri",
+  "n": "Dwight Dimitri",
+  "a": "",
+  "pc": "",
+  "lat": 51.89496,
+  "lng": 4.57352,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Dwight Dimitri Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3770319408",
+   "raw": {
+    "artist_name": "Elly Hendrix",
+    "artwork_type": "sculpture",
+    "name": "Dwight Dimitri",
+    "tourism": "artwork",
+    "website": "http://beeldigijsselmonde.nl/beverwaard/dwight-dimitri"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "waterdiabolo",
+  "n": "Waterdiabolo",
+  "a": "",
+  "pc": "",
+  "lat": 51.89228,
+  "lng": 4.56757,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Waterdiabolo Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3770319418",
+   "raw": {
+    "addr:city": "Rotterdam",
+    "addr:street": "Oude Watering",
+    "artist_name": "Hans van Lunteren",
+    "name": "Waterdiabolo",
+    "start_date": "1990",
+    "tourism": "artwork",
+    "wikidata": "Q102082215"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zondertitel",
+  "n": "Zonder Titel",
+  "a": "",
+  "pc": "",
+  "lat": 51.87775,
+  "lng": 4.54952,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Zonder Titel Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3770319420",
+   "raw": {
+    "addr:street": "Ruimersdijk",
+    "artist_name": "Cor Dijk",
+    "artwork_type": "sculpture",
+    "name": "Zonder Titel",
+    "start_date": "1988",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tsaarpeterdegrote",
+  "n": "Tsaar Peter de Grote",
+  "a": "",
+  "pc": "",
+  "lat": 51.90601,
+  "lng": 4.47799,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Tsaar Peter de Grote Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3931859648",
+   "raw": {
+    "artist_name": "Leonid Baranov",
+    "artwork_type": "statue",
+    "name": "Tsaar Peter de Grote",
+    "start_date": "1997",
+    "tourism": "artwork",
+    "website": "https://www.bkor.nl/kunstwerken/tsaar-peter-de-grote",
+    "wikidata": "Q62081641",
+    "wikimedia_commons": "File:Rotterdam_119.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kasteelvanrhoon",
+  "n": "Kasteel van Rhoon",
+  "a": "",
+  "pc": "",
+  "lat": 51.86028,
+  "lng": 4.41806,
+  "c": "history",
+  "s": "castle in Rhoon, Netherlands",
+  "q": "Kasteel van Rhoon Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1931861",
+   "raw": "castle in Rhoon, Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rotterdamalbrandswaard",
+  "n": "Rotterdam Albrandswaard",
+  "a": "",
+  "pc": "",
+  "lat": 51.8697,
+  "lng": 4.4189,
+  "c": "green",
+  "s": "business park in South Holland, the Netherlands",
+  "q": "Rotterdam Albrandswaard Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2044790",
+   "raw": "business park in South Holland, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "beneluxinterchange",
+  "n": "Benelux Interchange",
+  "a": "",
+  "pc": "",
+  "lat": 51.87306,
+  "lng": 4.38667,
+  "c": "oddity",
+  "s": "interchange in the Netherlands",
+  "q": "Benelux Interchange Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2223298",
+   "raw": "interchange in the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "poortugaal",
+  "n": "Poortugaal",
+  "a": "",
+  "pc": "",
+  "lat": 51.86167,
+  "lng": 4.39583,
+  "c": "oddity",
+  "s": "metro station in Albrandswaard, Netherlands",
+  "q": "Poortugaal Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2476031",
+   "raw": "metro station in Albrandswaard, Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pernismetrostation",
+  "n": "Pernis metro station",
+  "a": "",
+  "pc": "",
+  "lat": 51.885,
+  "lng": 4.38194,
+  "c": "oddity",
+  "s": "metro station in Rotterdam, Netherlands",
+  "q": "Pernis metro station Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2485104",
+   "raw": "metro station in Rotterdam, Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "slotvalckesteyn",
+  "n": "Slot Valckesteyn",
+  "a": "",
+  "pc": "",
+  "lat": 51.86844,
+  "lng": 4.40789,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Slot Valckesteyn Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q14360919",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hervormdekerk",
+  "n": "Hervormde Kerk",
+  "a": "",
+  "pc": "",
+  "lat": 51.86089,
+  "lng": 4.3904,
+  "c": "faith",
+  "s": "church building in Albrandswaard, Netherlands",
+  "q": "Hervormde Kerk Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17439154",
+   "raw": "church building in Albrandswaard, Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "abeltasmanstraat",
+  "n": "Abel Tasmanstraat",
+  "a": "",
+  "pc": "",
+  "lat": 51.8693,
+  "lng": 4.4151,
+  "c": "oddity",
+  "s": "street in Rotterdam Albrandswaard, the Netherlands",
+  "q": "Abel Tasmanstraat Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18928697",
+   "raw": "street in Rotterdam Albrandswaard, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aleijdvanstrienhof",
+  "n": "Aleijd van Strienhof",
+  "a": "",
+  "pc": "",
+  "lat": 51.8638,
+  "lng": 4.3937,
+  "c": "oddity",
+  "s": "street in Poortugaal, the Netherlands",
+  "q": "Aleijd van Strienhof Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18935854",
+   "raw": "street in Poortugaal, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "baljuw",
+  "n": "Baljuw",
+  "a": "",
+  "pc": "",
+  "lat": 51.8608,
+  "lng": 4.4156,
+  "c": "oddity",
+  "s": "street in Rhoon, the Netherlands",
+  "q": "Baljuw Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18941578",
+   "raw": "street in Rhoon, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "beneluxweg",
+  "n": "Beneluxweg",
+  "a": "",
+  "pc": "",
+  "lat": 51.8815,
+  "lng": 4.3848,
+  "c": "oddity",
+  "s": "street in Pernis, the Netherlands",
+  "q": "Beneluxweg Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18946247",
+   "raw": "street in Pernis, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zadelmakerstraat",
+  "n": "Zadelmakerstraat",
+  "a": "",
+  "pc": "",
+  "lat": 51.864,
+  "lng": 4.3819,
+  "c": "oddity",
+  "s": "street in Hoogvliet, the Netherlands",
+  "q": "Zadelmakerstraat Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18950491",
+   "raw": "street in Hoogvliet, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bierbrouwerstraat",
+  "n": "Bierbrouwerstraat",
+  "a": "",
+  "pc": "",
+  "lat": 51.8702,
+  "lng": 4.3812,
+  "c": "oddity",
+  "s": "street in Hoogvliet, the Netherlands",
+  "q": "Bierbrouwerstraat Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18952448",
+   "raw": "street in Hoogvliet, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blaaksewetering",
+  "n": "Blaakse Wetering",
+  "a": "",
+  "pc": "",
+  "lat": 51.8647,
+  "lng": 4.3962,
+  "c": "oddity",
+  "s": "street in Poortugaal, the Netherlands",
+  "q": "Blaakse Wetering Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18955705",
+   "raw": "street in Poortugaal, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zwaardijk",
+  "n": "Zwaardijk",
+  "a": "",
+  "pc": "",
+  "lat": 51.8603,
+  "lng": 4.4052,
+  "c": "oddity",
+  "s": "street in Poortugaal, the Netherlands",
+  "q": "Zwaardijk Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18959368",
+   "raw": "street in Poortugaal, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "boonstraat",
+  "n": "Boonstraat",
+  "a": "",
+  "pc": "",
+  "lat": 51.8876,
+  "lng": 4.3848,
+  "c": "oddity",
+  "s": "street in Pernis, the Netherlands",
+  "q": "Boonstraat Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18962440",
+   "raw": "street in Pernis, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "columbusstraat",
+  "n": "Columbusstraat",
+  "a": "",
+  "pc": "",
+  "lat": 51.8706,
+  "lng": 4.4231,
+  "c": "oddity",
+  "s": "street in Rotterdam Albrandswaard, the Netherlands",
+  "q": "Columbusstraat Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18981964",
+   "raw": "street in Rotterdam Albrandswaard, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "castellum",
+  "n": "Castellum",
+  "a": "",
+  "pc": "",
+  "lat": 51.8624,
+  "lng": 4.4007,
+  "c": "oddity",
+  "s": "street in Poortugaal, the Netherlands",
+  "q": "Castellum Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18984020",
+   "raw": "street in Poortugaal, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "doenbeijenszlaan",
+  "n": "Doen Beijenszlaan",
+  "a": "",
+  "pc": "",
+  "lat": 51.8628,
+  "lng": 4.3977,
+  "c": "oddity",
+  "s": "street in Poortugaal, the Netherlands",
+  "q": "Doen Beijenszlaan Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19018955",
+   "raw": "street in Poortugaal, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gildebrink",
+  "n": "Gildebrink",
+  "a": "",
+  "pc": "",
+  "lat": 51.8607,
+  "lng": 4.4113,
+  "c": "oddity",
+  "s": "street in Rhoon, the Netherlands",
+  "q": "Gildebrink Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19186093",
+   "raw": "street in Rhoon, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "graafbentincklaan",
+  "n": "Graaf Bentincklaan",
+  "a": "",
+  "pc": "",
+  "lat": 51.8644,
+  "lng": 4.4229,
+  "c": "oddity",
+  "s": "street in Rhoon, the Netherlands",
+  "q": "Graaf Bentincklaan Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19202990",
+   "raw": "street in Rhoon, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "groenekruisstraat",
+  "n": "Groene Kruisstraat",
+  "a": "",
+  "pc": "",
+  "lat": 51.8606,
+  "lng": 4.3876,
+  "c": "oddity",
+  "s": "street in Poortugaal, the Netherlands",
+  "q": "Groene Kruisstraat Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19206714",
+   "raw": "street in Poortugaal, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "heraut",
+  "n": "Heraut",
+  "a": "",
+  "pc": "",
+  "lat": 51.8622,
+  "lng": 4.415,
+  "c": "oddity",
+  "s": "street in Rhoon, the Netherlands",
+  "q": "Heraut Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19249190",
+   "raw": "street in Rhoon, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hofweg",
+  "n": "Hofweg",
+  "a": "",
+  "pc": "",
+  "lat": 51.8661,
+  "lng": 4.3891,
+  "c": "oddity",
+  "s": "street in Poortugaal, the Netherlands",
+  "q": "Hofweg Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19257027",
+   "raw": "street in Poortugaal, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hoogvlietsekerkweg",
+  "n": "Hoogvlietsekerkweg",
+  "a": "",
+  "pc": "",
+  "lat": 51.8625,
+  "lng": 4.3807,
+  "c": "oddity",
+  "s": "street in Hoogvliet, the Netherlands",
+  "q": "Hoogvlietsekerkweg Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19258047",
+   "raw": "street in Hoogvliet, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "janvanalmondestraat",
+  "n": "Jan van Almondestraat",
+  "a": "",
+  "pc": "",
+  "lat": 51.8626,
+  "lng": 4.3947,
+  "c": "oddity",
+  "s": "street in Poortugaal, the Netherlands",
+  "q": "Jan van Almondestraat Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19261635",
+   "raw": "street in Poortugaal, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jonkerhof",
+  "n": "Jonkerhof",
+  "a": "",
+  "pc": "",
+  "lat": 51.8602,
+  "lng": 4.413,
+  "c": "oddity",
+  "s": "street in Rhoon, the Netherlands",
+  "q": "Jonkerhof Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19281072",
+   "raw": "street in Rhoon, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kerklaan",
+  "n": "Kerklaan",
+  "a": "",
+  "pc": "",
+  "lat": 51.8629,
+  "lng": 4.4225,
+  "c": "oddity",
+  "s": "street in Rhoon, the Netherlands",
+  "q": "Kerklaan Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19294478",
+   "raw": "street in Rhoon, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kruisdijk",
+  "n": "Kruisdijk",
+  "a": "",
+  "pc": "",
+  "lat": 51.86,
+  "lng": 4.4004,
+  "c": "oddity",
+  "s": "street in Poortugaal, the Netherlands",
+  "q": "Kruisdijk Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19315009",
+   "raw": "street in Poortugaal, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "leendertbraatpad",
+  "n": "Leendert Braatpad",
+  "a": "",
+  "pc": "",
+  "lat": 51.8861,
+  "lng": 4.384,
+  "c": "oddity",
+  "s": "street in Pernis, the Netherlands",
+  "q": "Leendert Braatpad Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19323287",
+   "raw": "street in Pernis, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "limes",
+  "n": "Limes",
+  "a": "",
+  "pc": "",
+  "lat": 51.8631,
+  "lng": 4.4022,
+  "c": "oddity",
+  "s": "street in Poortugaal, the Netherlands",
+  "q": "Limes Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19327515",
+   "raw": "street in Poortugaal, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "marcopolostraat",
+  "n": "Marco Polostraat",
+  "a": "",
+  "pc": "",
+  "lat": 51.8709,
+  "lng": 4.4175,
+  "c": "oddity",
+  "s": "street in Rotterdam Albrandswaard, the Netherlands",
+  "q": "Marco Polostraat Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19334665",
+   "raw": "street in Rotterdam Albrandswaard, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "molenthert",
+  "n": "Molen 't Hert",
+  "a": "",
+  "pc": "",
+  "lat": 51.8628,
+  "lng": 4.4132,
+  "c": "oddity",
+  "s": "street in Rhoon, the Netherlands",
+  "q": "Molen 't Hert Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19347535",
+   "raw": "street in Rhoon, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "molendijk",
+  "n": "Molendijk",
+  "a": "",
+  "pc": "",
+  "lat": 51.8602,
+  "lng": 4.4245,
+  "c": "oddity",
+  "s": "street in Rhoon, the Netherlands",
+  "q": "Molendijk Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19347824",
+   "raw": "street in Rhoon, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oedenvliet",
+  "n": "Oedenvliet",
+  "a": "",
+  "pc": "",
+  "lat": 51.8604,
+  "lng": 4.3857,
+  "c": "oddity",
+  "s": "street in Poortugaal, the Netherlands",
+  "q": "Oedenvliet Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19386766",
+   "raw": "street in Poortugaal, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oudrhoonsedijk2",
+  "n": "Oud Rhoonsedijk",
+  "a": "",
+  "pc": "",
+  "lat": 51.862,
+  "lng": 4.4115,
+  "c": "oddity",
+  "s": "street in Poortugaal, the Netherlands",
+  "q": "Oud Rhoonsedijk Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19399832",
+   "raw": "street in Poortugaal, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pernisseweg",
+  "n": "Pernisseweg",
+  "a": "",
+  "pc": "",
+  "lat": 51.8665,
+  "lng": 4.3827,
+  "c": "oddity",
+  "s": "street in Hoogvliet, the Netherlands",
+  "q": "Pernisseweg Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19410457",
+   "raw": "street in Hoogvliet, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pieterklobbaertlaan",
+  "n": "Pieter Klobbaertlaan",
+  "a": "",
+  "pc": "",
+  "lat": 51.8647,
+  "lng": 4.3905,
+  "c": "oddity",
+  "s": "street in Poortugaal, the Netherlands",
+  "q": "Pieter Klobbaertlaan Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19413914",
+   "raw": "street in Poortugaal, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "poortugaalseweg",
+  "n": "Poortugaalseweg",
+  "a": "",
+  "pc": "",
+  "lat": 51.8712,
+  "lng": 4.4051,
+  "c": "oddity",
+  "s": "street in Poortugaal, the Netherlands",
+  "q": "Poortugaalseweg Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19428188",
+   "raw": "street in Poortugaal, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rhoonsedijk",
+  "n": "Rhoonsedijk",
+  "a": "",
+  "pc": "",
+  "lat": 51.8645,
+  "lng": 4.4109,
+  "c": "oddity",
+  "s": "street in Poortugaal, the Netherlands",
+  "q": "Rhoonsedijk Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19465526",
+   "raw": "street in Poortugaal, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "seattleweg",
+  "n": "Seattleweg",
+  "a": "",
+  "pc": "",
+  "lat": 51.8751,
+  "lng": 4.403,
+  "c": "oddity",
+  "s": "street in Pernis, the Netherlands",
+  "q": "Seattleweg Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19513302",
+   "raw": "street in Pernis, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "slotsedijk",
+  "n": "Slotsedijk",
+  "a": "",
+  "pc": "",
+  "lat": 51.8719,
+  "lng": 4.4111,
+  "c": "oddity",
+  "s": "street in Pernis, the Netherlands",
+  "q": "Slotsedijk Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19519282",
+   "raw": "street in Pernis, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "slotvalkensteinsedijk",
+  "n": "Slotvalkensteinsedijk",
+  "a": "",
+  "pc": "",
+  "lat": 51.865,
+  "lng": 4.4019,
+  "c": "oddity",
+  "s": "street in Poortugaal, the Netherlands",
+  "q": "Slotvalkensteinsedijk Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19519500",
+   "raw": "street in Poortugaal, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "statio",
+  "n": "Statio",
+  "a": "",
+  "pc": "",
+  "lat": 51.8612,
+  "lng": 4.4015,
+  "c": "oddity",
+  "s": "street in Poortugaal, the Netherlands",
+  "q": "Statio Rotterdam",
+  "w": "",
+  "city": "rotterdam",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19546748",
+   "raw": "street in Poortugaal, the Netherlands",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

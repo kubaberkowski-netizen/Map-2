@@ -1,0 +1,4350 @@
+[
+ {
+  "id": "denlillehavfrue",
+  "n": "Den lille Havfrue",
+  "a": "",
+  "pc": "",
+  "lat": 55.69287,
+  "lng": 12.59929,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Den lille Havfrue Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/25074274",
+   "raw": {
+    "artist:wikidata": "Q525819",
+    "artist_name": "Edvard Eriksen",
+    "artwork_type": "statue",
+    "description:en": "Designed by Edvard Eriksen, Her statue was erected in 1913 to commemorate a play of the Little mermaid. The poor lady has lost her head several times, and is often subject to vandalism connected with political statements.",
+    "height": "3.25",
+    "int_name": "The Little Mermaid",
+    "koes_id": "883",
+    "material": "bronze",
+    "min_height": "2",
+    "name": "Den lille Havfrue",
+    "name:ar": "تمثال حورية البحر الصغيرة",
+    "name:be": "Русалачка",
+    "name:br": "Ar vorganez vihan",
+    "name:ca": "La Sireneta",
+    "name:ckb": "پەیکەری پەری دەریایی",
+    "name:cs": "Malá mořská víla",
+    "name:da": "Den lille Havfrue",
+    "name:de": "Kleine Meerjungfrau",
+    "name:en": "The Little Mermaid",
+    "name:eo": "La Marvirineto",
+    "name:es": "La Sirenita",
+    "name:etymology:wikidata": "Q16606663",
+    "name:eu": "Sirenatxoa",
+    "name:fa": "پری دریایی",
+    "name:fi": "Pieni merenneito",
+    "name:fr": "La Petite Sirène",
+    "name:gl": "A sereíña",
+    "name:he": "בת הים הקטנה",
+    "name:hu": "A kis hableány",
+    "name:ia": "Parve Sirena",
+    "name:it": "Statua della Sirenetta",
+    "name:ja": "人魚姫の像",
+    "name:ko": "작은 인어상",
+    "name:lb": "Kleng Mierjoffer",
+    "name:lt": "Undinėlė",
+    "name:nl": "De kleine zeemeermin",
+    "name:nn": "Den lille havfrue",
+    "name:no": "Den lille havfrue",
+    "name:pl": "Mała Syrenka",
+    "name:pt": "A Pequena Sereia",
+    "name:ru": "русалочка",
+    "name:sk": "Malá morská víla",
+    "name:sl": "Mala morska deklica",
+    "name:sv": "Den lilla sjöjungfrun",
+    "name:th": "เงือกน้อย",
+    "name:tr": "Küçük Deniz Kızı",
+    "name:uk": "Русалонька",
+    "name:vi": "Nàng tiên cá",
+    "name:war": "An Gutiay nga Kataw",
+    "name:zh": "美人魚雕像",
+    "start_date": "1913",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wikidata": "Q214619",
+    "wikipedia": "da:Den lille Havfrue"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "empirebio",
+  "n": "Empire Bio",
+  "a": "",
+  "pc": "",
+  "lat": 55.69195,
+  "lng": 12.55582,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Empire Bio Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/25440190",
+   "raw": {
+    "amenity": "cinema",
+    "check_date:opening_hours": "2024-10-25",
+    "fvst:navnelbnr": "113933",
+    "name": "Empire Bio",
+    "opening_hours": "12:00-22:30",
+    "phone": "+45 35360036",
+    "ref:DK:cvr": "12627343",
+    "website": "https://www.empirebio.dk/",
+    "wheelchair": "limited",
+    "wikidata": "Q22582793",
+    "wikipedia": "da:Empire Bio"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "strandstation4",
+  "n": "Strandstation 4",
+  "a": "",
+  "pc": "",
+  "lat": 55.65112,
+  "lng": 12.64663,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Strandstation 4 Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/247090104",
+   "raw": {
+    "name": "Strandstation 4",
+    "tourism": "viewpoint",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nordiskfilmbiograferimpe",
+  "n": "Nordisk Film Biografer Imperial",
+  "a": "",
+  "pc": "",
+  "lat": 55.67525,
+  "lng": 12.56129,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Nordisk Film Biografer Imperial Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/277363233",
+   "raw": {
+    "amenity": "cinema",
+    "check_date": "2025-12-28",
+    "name": "Nordisk Film Biografer Imperial",
+    "opening_hours": "Mo-Su 11:30-21:45",
+    "website": "https://www.kino.dk/biografer/nordisk-film-biografer-imperial",
+    "wheelchair": "no",
+    "wikidata": "Q7061115",
+    "wikipedia": "da:Imperial"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dagmar",
+  "n": "Dagmar",
+  "a": "",
+  "pc": "",
+  "lat": 55.67635,
+  "lng": 12.56641,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Dagmar Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/277363249",
+   "raw": {
+    "alt_name": "Dagmar Teatret",
+    "amenity": "cinema",
+    "fvst:navnelbnr": "111578",
+    "name": "Dagmar",
+    "name:etymology:wikidata": "Q4568001",
+    "ref:DK:cvr": "28344910",
+    "ref:DK:cvr:pnummer": "1014752435",
+    "website": "https://www.nfbio.dk/dagmar",
+    "wikidata": "Q12307028",
+    "wikipedia": "da:Dagmar Teatret"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vestervovvov",
+  "n": "Vester Vov Vov",
+  "a": "",
+  "pc": "",
+  "lat": 55.67198,
+  "lng": 12.55405,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Vester Vov Vov Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/277633635",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Vester Vov Vov",
+    "name:etymology:wikidata": "Q19562613",
+    "phone": "+45 3324 4200",
+    "website": "https://www.vestervovvov.dk/",
+    "wikidata": "Q12340775"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vue",
+  "n": "Vue",
+  "a": "",
+  "pc": "",
+  "lat": 55.66245,
+  "lng": 12.56313,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Vue Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/277634020",
+   "raw": {
+    "amenity": "cinema",
+    "email": "koebenhavn@vuemail.dk",
+    "name": "Vue",
+    "old_name": "CinemaxX",
+    "opening_hours": "Su-Th 09:30-21:30; Fr-Sa 09:30-00:00",
+    "phone": "+45 7010 1202",
+    "website": "https://www.biografenvue.dk/",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "grandteatret",
+  "n": "Grand Teatret",
+  "a": "",
+  "pc": "",
+  "lat": 55.67647,
+  "lng": 12.57101,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Grand Teatret Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/278113654",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Grand Teatret",
+    "website": "http://www.grandteatret.dk/",
+    "wheelchair": "no",
+    "wikidata": "Q5103357",
+    "wikipedia": "da:Grand Teatret"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gentoftekino",
+  "n": "Gentofte Kino",
+  "a": "",
+  "pc": "",
+  "lat": 55.74687,
+  "lng": 12.54122,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Gentofte Kino Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/278783324",
+   "raw": {
+    "amenity": "cinema",
+    "contact:facebook": "gentoftekino",
+    "contact:instagram": "gentoftekino",
+    "email": "mail@gentoftekino.dk",
+    "fvst:navnelbnr": "943513",
+    "name": "Gentofte Kino",
+    "phone": "+45 39 65 33 50",
+    "ref:DK:cvr": "41074361",
+    "ref:DK:cvr:pnummer": "1025418448",
+    "website": "https://gentoftekino.dk/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "falkonerbiografen",
+  "n": "Falkoner Biografen",
+  "a": "",
+  "pc": "",
+  "lat": 55.68016,
+  "lng": 12.53135,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Falkoner Biografen Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/279196297",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Falkoner Biografen",
+    "wheelchair": "yes",
+    "wheelchair:description": "[Good Parking. Very Good Entry. Poor Access to upstairs café. Very Good Toilet. Very Good Wheelchair Spaces at screen 4. 2013 tbasen.dk/rating]",
+    "wikidata": "Q12311006",
+    "wikipedia": "da:Falkoner Biografen"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parkbio",
+  "n": "Park Bio",
+  "a": "",
+  "pc": "",
+  "lat": 55.70376,
+  "lng": 12.57719,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Park Bio Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/279432503",
+   "raw": {
+    "amenity": "cinema",
+    "email": "kontakt@park-bio.dk",
+    "fvst:navnelbnr": "113689",
+    "name": "Park Bio",
+    "opening_hours": "\"opens 30 minutes before shows\"",
+    "phone": "+4535383362",
+    "ref:DK:cvr": "13063338",
+    "ref:DK:cvr:pnummer": "1000493216",
+    "website": "https://parkbio.dk/",
+    "wheelchair": "no",
+    "wikidata": "Q12330998"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bjerget",
+  "n": "Bjerget",
+  "a": "",
+  "pc": "",
+  "lat": 55.63634,
+  "lng": 12.50445,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Bjerget Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/282169115",
+   "raw": {
+    "name": "Bjerget",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "teatermuseet",
+  "n": "Teatermuseet",
+  "a": "",
+  "pc": "",
+  "lat": 55.67478,
+  "lng": 12.57863,
+  "c": "caff",
+  "s": "local curiosity",
+  "q": "Teatermuseet Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/283581117",
+   "raw": {
+    "alt_name:es": "Museo_del_Teatro",
+    "amenity": "cafe",
+    "name": "Teatermuseet",
+    "tourism": "museum",
+    "website": "https://www.teatermuseet.dk/",
+    "wikidata": "Q3072878"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hcrsted",
+  "n": "H.C. Ørsted",
+  "a": "",
+  "pc": "",
+  "lat": 55.68081,
+  "lng": 12.56737,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "H.C. Ørsted Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/289670953",
+   "raw": {
+    "artist:wikidata": "Q288087",
+    "artist_name": "Jens Adolph Jerichau",
+    "artwork_type": "statue",
+    "inscription": "On front of plinth: \"HANS/CHRISTIAN/ ØRSTED\";on right side of plinth: \"FØDT 14 AUGUST/1777\";on the left side of plinth : \"DØD 9 MARTS/1851\"",
+    "koes_id": "493",
+    "material": "bronze;granite",
+    "name": "H.C. Ørsted",
+    "subject:wikidata": "Q44412",
+    "tourism": "artwork",
+    "website": "https://kk.sites.itera.dk/apps/kk_monumenter/index.asp?id=460&mode=detalje",
+    "wikidata": "Q12011328",
+    "wikipedia": "da:Monument for H.C. Ørsted"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "reformationsmonument",
+  "n": "Reformationsmonument",
+  "a": "",
+  "pc": "",
+  "lat": 55.6792,
+  "lng": 12.57175,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Reformationsmonument Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/289670954",
+   "raw": {
+    "artist_name": "Max Andersen",
+    "historic": "memorial",
+    "memorial": "obelisk",
+    "name": "Reformationsmonument",
+    "start_date": "1943",
+    "subject": "Reformationen i Danmark",
+    "subject:wikidata": "Q4381174",
+    "wheelchair": "yes",
+    "wikidata": "Q16324332",
+    "wikipedia": "da:Reformationsmonumentet"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nielsbohr",
+  "n": "Niels Bohr",
+  "a": "",
+  "pc": "",
+  "lat": 55.73204,
+  "lng": 12.51814,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Niels Bohr Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/290350043",
+   "raw": {
+    "historic": "memorial",
+    "name": "Niels Bohr"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kastrupbio",
+  "n": "Kastrup Bio",
+  "a": "",
+  "pc": "",
+  "lat": 55.6388,
+  "lng": 12.63468,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Kastrup Bio Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/297318723",
+   "raw": {
+    "amenity": "cinema",
+    "check_date": "2024-11-01",
+    "fvst:navnelbnr": "112722",
+    "name": "Kastrup Bio",
+    "ref:DK:cvr": "20310413",
+    "ref:DK:cvr:pnummer": "1003273341"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lvenoghesten",
+  "n": "Løven og hesten",
+  "a": "",
+  "pc": "",
+  "lat": 55.68398,
+  "lng": 12.57743,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Løven og hesten Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/298631102",
+   "raw": {
+    "artist:wikipedia": "no:Peter Husum",
+    "artist_name": "Peter Husum; Jørgen Wulff",
+    "artwork_type": "statue",
+    "description": "Støbt af Peter Husum og færdiggjort af Jørgen Wulff cirka 1619.",
+    "description:en": "Cast by Peter Husum and finished by Jørgen Wulff about 1619.",
+    "mapillary": "304249787777317",
+    "material": "bronze",
+    "name": "Løven og hesten",
+    "name:en": "The Lion and the Horse",
+    "pedestal:material": "sandstone",
+    "support": "pedestal",
+    "tourism": "artwork",
+    "wikidata": "Q17280648",
+    "wikimedia_commons": "File:Lion_and_Horse_-_Kongens_Have_-_Copenhagen_-_DSC07901.JPG",
+    "wikipedia": "no:«Løven og hesten»"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "viggohrup",
+  "n": "Viggo Hørup",
+  "a": "",
+  "pc": "",
+  "lat": 55.68337,
+  "lng": 12.58071,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Viggo Hørup Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/298631103",
+   "raw": {
+    "artist:wikidata": "Q924459",
+    "artist:wikipedia": "da:J.F. Willumsen",
+    "artist_name": "J.F. Willumsen",
+    "artwork_type": "statue",
+    "koes_id": "43",
+    "material": "bronze; granite",
+    "name": "Viggo Hørup",
+    "start_date": "1908",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:Kongens_Have_-_path_and_Hørup.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nordland",
+  "n": "Nordland",
+  "a": "",
+  "pc": "",
+  "lat": 55.67304,
+  "lng": 12.55837,
+  "c": "faith",
+  "s": "place of worship",
+  "q": "Nordland Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/298795702",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2023-08-06",
+    "fvst:navnelbnr": "1393022",
+    "name": "Nordland",
+    "ref:DK:cvr": "22740318",
+    "ref:DK:cvr:pnummer": "1003010832",
+    "religion": "scientologist",
+    "wikidata": "Q21822114"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "patria",
+  "n": "Patria",
+  "a": "",
+  "pc": "",
+  "lat": 55.76976,
+  "lng": 12.67918,
+  "c": "maritime",
+  "s": "maritime relic",
+  "q": "Patria Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/330640806",
+   "raw": {
+    "historic": "wreck",
+    "name": "Patria",
+    "seamark:type": "wreck"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hanschristianandersen",
+  "n": "Hans Christian Andersen",
+  "a": "",
+  "pc": "",
+  "lat": 55.68894,
+  "lng": 12.55184,
+  "c": "death",
+  "s": "historic tomb",
+  "q": "Hans Christian Andersen Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/477438328",
+   "raw": {
+    "historic": "tomb",
+    "name": "Hans Christian Andersen",
+    "subject:wikidata": "Q5673",
+    "subject:wikipedia": "da:H.C. Andersen",
+    "tomb": "tombstone",
+    "wikidata": "Q65940028"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "johanhermanwesselogjohan",
+  "n": "Johan Herman Wessel og Johannes Ewald",
+  "a": "",
+  "pc": "",
+  "lat": 55.68134,
+  "lng": 12.57618,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Johan Herman Wessel og Johannes Ewald Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/494585319",
+   "raw": {
+    "artist:wikidata": "Q3430250",
+    "artist_name": "Otto Evens",
+    "artwork_type": "sculpture",
+    "description": "Monument for digterne Johan Herman Wessel og Johannes Ewald",
+    "inscription": "VED DENNE KIRKES MUR HVILER STØVET AF DIGTERNE EWALD OG WESSEL DER SAMTIDIG GAVE ALVOR OG SKJEMT ET LEVENDE UDTRYK TIL GLÆDE FOR FOLKET TIL FREMME FOR VOR DIGTERKUNST",
+    "koes_id": "617",
+    "material": "bronze",
+    "name": "Johan Herman Wessel og Johannes Ewald",
+    "start_date": "1879",
+    "subject:wikidata": "Q649747;Q553844",
+    "subject:wikipedia": "da:Johan Herman Wessel",
+    "tourism": "artwork",
+    "website": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/617",
+    "wikidata": "Q55615121"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hcandersen",
+  "n": "H. C. Andersen",
+  "a": "",
+  "pc": "",
+  "lat": 55.68561,
+  "lng": 12.58161,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "H. C. Andersen Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/495023736",
+   "raw": {
+    "artist:wikidata": "Q3364427",
+    "artist:wikipedia": "da:August Saabye",
+    "artist_name": "August Saabye",
+    "artwork_type": "statue",
+    "material": "bronze",
+    "name": "H. C. Andersen",
+    "name:ru": "Памятник Х. К. Андерсену",
+    "start_date": "1880",
+    "support": "pedestal",
+    "tourism": "artwork",
+    "wikidata": "Q30591194",
+    "wikimedia_commons": "File:Hans Christian Andersen statue in Kongens Have - Copenhagen - DSC07860.JPG"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nybodermindestuer",
+  "n": "Nyboder Mindestuer",
+  "a": "",
+  "pc": "",
+  "lat": 55.68737,
+  "lng": 12.58805,
+  "c": "museum",
+  "s": "museum",
+  "q": "Nyboder Mindestuer Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/496564342",
+   "raw": {
+    "description": "Nyboder mindestuer showcases everyday life in the neighborhood from it's inception in 1631",
+    "museum": "local",
+    "name": "Nyboder Mindestuer",
+    "tourism": "museum",
+    "website": "https://nybodersmindestuer.dk"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "denstoreudveksler",
+  "n": "Den Store Udveksler",
+  "a": "",
+  "pc": "",
+  "lat": 55.61717,
+  "lng": 12.57441,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Den Store Udveksler Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/560746043",
+   "raw": {
+    "artist:wikidata": "Q3428509",
+    "artist_name": "Hein Heinsen",
+    "material": "bronze",
+    "name": "Den Store Udveksler",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "storehj",
+  "n": "Store Høj",
+  "a": "",
+  "pc": "",
+  "lat": 55.61699,
+  "lng": 12.56286,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Store Høj Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/601123934",
+   "raw": {
+    "name": "Store Høj",
+    "tourism": "viewpoint",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ekely",
+  "n": "Ekely",
+  "a": "",
+  "pc": "",
+  "lat": 55.66947,
+  "lng": 12.5547,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Ekely Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/736564693",
+   "raw": {
+    "check_date": "2024-12-27",
+    "email": "ekely@ekely.dk",
+    "name": "Ekely",
+    "opening_hours": "Tu-Fr 11:00-18:00, Sa 11:00-16:00",
+    "operator": "Galleri Bo Bjerggaard",
+    "tourism": "gallery",
+    "website": "https://ekely.dk/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "danskjdiskmuseum",
+  "n": "Dansk Jødisk Museum",
+  "a": "",
+  "pc": "",
+  "lat": 55.67437,
+  "lng": 12.5823,
+  "c": "museum",
+  "s": "museum",
+  "q": "Dansk Jødisk Museum Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/738986844",
+   "raw": {
+    "check_date": "2025-08-23",
+    "fvst:navnelbnr": "955528",
+    "name": "Dansk Jødisk Museum",
+    "name:da": "Dansk Jødisk Museum",
+    "name:de": "Dänisches Jüdisches Museum",
+    "name:en": "Danish Jewish Museum",
+    "name:fr": "Musée Juif Danois",
+    "opening_hours": "We-Su 11:00-17:00",
+    "phone": "+45 33112218",
+    "ref:DK:cvr": "11611443",
+    "ref:DK:cvr:pnummer": "1017935026",
+    "tourism": "museum",
+    "website": "https://jewmus.dk/",
+    "wheelchair": "yes",
+    "wikidata": "Q872947",
+    "wikipedia": "da:Dansk Jødisk Museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "frederikv",
+  "n": "Frederik V",
+  "a": "",
+  "pc": "",
+  "lat": 55.684,
+  "lng": 12.59321,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Frederik V Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/741236304",
+   "raw": {
+    "artist:wikidata": "Q2735088",
+    "artist_name": "Jacques François Joseph Saly",
+    "artwork_type": "statue",
+    "description": "Rytterstatue af Kong Frederik den 5.",
+    "material": "bronze",
+    "name": "Frederik V",
+    "start_date": "1771",
+    "statue": "equestrian",
+    "statue:type": "equestrian_statue",
+    "tourism": "artwork",
+    "wikidata": "Q3424549",
+    "wikimedia_commons": "File:Frederik V statue in Amalienborg Palace Copenhagen 2014 01.jpg",
+    "wikipedia": "da:Frederik V (rytterstatue)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tanzania",
+  "n": "Tanzania",
+  "a": "",
+  "pc": "",
+  "lat": 55.66639,
+  "lng": 12.54825,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Tanzania Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/746317155",
+   "raw": {
+    "artist_name": "H. B. Mruta",
+    "artwork_type": "mural",
+    "name": "Tanzania",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "europiskerejseforsikring",
+  "n": "Europæiske Rejseforsikring -Gavlmaleri",
+  "a": "",
+  "pc": "",
+  "lat": 55.6727,
+  "lng": 12.54956,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Europæiske Rejseforsikring -Gavlmaleri Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/779503817",
+   "raw": {
+    "artist_name": "Henry Heerup",
+    "artwork_type": "mural",
+    "name": "Europæiske Rejseforsikring -Gavlmaleri",
+    "tourism": "artwork",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "granathj",
+  "n": "Granathøj",
+  "a": "",
+  "pc": "",
+  "lat": 55.60169,
+  "lng": 12.55612,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Granathøj Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/835625608",
+   "raw": {
+    "name": "Granathøj",
+    "tourism": "viewpoint",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "skovhj",
+  "n": "Skovhøj",
+  "a": "",
+  "pc": "",
+  "lat": 55.59589,
+  "lng": 12.55094,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Skovhøj Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/835625612",
+   "raw": {
+    "name": "Skovhøj",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "venusmedblet",
+  "n": "Venus med Æblet",
+  "a": "",
+  "pc": "",
+  "lat": 55.6669,
+  "lng": 12.54313,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Venus med Æblet Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/867313967",
+   "raw": {
+    "artist:wikidata": "Q3543184",
+    "artist_name": "Kai Nielsen",
+    "artwork_type": "sculpture",
+    "material": "bronze",
+    "name": "Venus med Æblet",
+    "name:en": "Venus with the apple",
+    "start_date": "1929",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:Venus med æblet Enghaveparken 2016.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "medicinskmuseion",
+  "n": "Medicinsk Museion",
+  "a": "",
+  "pc": "",
+  "lat": 55.68596,
+  "lng": 12.5919,
+  "c": "museum",
+  "s": "museum",
+  "q": "Medicinsk Museion Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/894315602",
+   "raw": {
+    "fee": "yes",
+    "name": "Medicinsk Museion",
+    "name:en": "Medical Museion",
+    "name:es": "Museo de la Medicina",
+    "opening_hours": "Tu-Su 10:00-17:00",
+    "phone": "+45 3532 3800",
+    "toilets": "yes",
+    "tourism": "museum",
+    "website": "https://www.museion.ku.dk/",
+    "wikidata": "Q6806387",
+    "wikipedia": "da:Medicinsk Museion"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliografen",
+  "n": "Bibliografen",
+  "a": "",
+  "pc": "",
+  "lat": 55.76076,
+  "lng": 12.45671,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Bibliografen Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/926616176",
+   "raw": {
+    "amenity": "cinema",
+    "fvst:navnelbnr": "97219",
+    "name": "Bibliografen",
+    "opening_hours": "Mo-Tu 13:00-18:00; We-Fr 10:00-18:00; Sa 10:00-14:00",
+    "phone": "+45 39576464",
+    "ref:DK:cvr": "62761113",
+    "ref:DK:cvr:pnummer": "1003263554",
+    "ref:isil": "DK-715902",
+    "website": "https://www.bibliografen.dk/",
+    "wikidata": "Q21098027"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mindeankeretvednyhavn",
+  "n": "Mindeankeret ved Nyhavn",
+  "a": "",
+  "pc": "",
+  "lat": 55.68063,
+  "lng": 12.58753,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Mindeankeret ved Nyhavn Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/985176258",
+   "raw": {
+    "description": "Rejst til minde om danske søfolk, der mistede livet under 2. verdenskrig 1939-1945",
+    "historic": "memorial",
+    "image": "http://www.navalhistory.dk/images/Mindesmaerker/Mindeanker_Nyhavn.jpg",
+    "inscription:en": "This anchor is placed in honour of more than 2300 danish sailors who lost their lives during World War II - 1939-1945",
+    "int_name": "The Memorial Anchor",
+    "memorial": "anchor",
+    "name": "Mindeankeret ved Nyhavn",
+    "name:en": "The Memorial Anchor",
+    "name:es": "Ancla Conmemorativa",
+    "start_date": "1951-08-29",
+    "website": "http://www.navalhistory.dk/danish/mindesmaerker/maerkerne/mindeankeret_nyhavn.htm",
+    "wikidata": "Q60054298",
+    "wikimedia_commons": "Category:Anchor at Nyhavn"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "slagetikgebugt1710",
+  "n": "Slaget i Køge Bugt 1710",
+  "a": "",
+  "pc": "",
+  "lat": 55.69062,
+  "lng": 12.59915,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Slaget i Køge Bugt 1710 Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/985213252",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Ivar Huitfeldt og hans Mænd Kjøge bugt 4de October 1710",
+    "memorial": "war_memorial",
+    "name": "Slaget i Køge Bugt 1710",
+    "name:de": "Schlacht in der Køgebucht 1710",
+    "name:en": "Battle of Køge Bay 1710",
+    "website": "http://www.navalhistory.dk/danish/mindesmaerker/Maerkerne/Iver_Huitfeldt.htm",
+    "wikidata": "Q6098392",
+    "wikimedia_commons": "Category:Ivar Huitfeldt Column"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vorefaldne",
+  "n": "Vore Faldne",
+  "a": "",
+  "pc": "",
+  "lat": 55.68932,
+  "lng": 12.59522,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Vore Faldne Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1078454826",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Vore faldne i dansk og i allieret krigstjeneste 1940-1945",
+    "mapillary": "3794002010712696",
+    "memorial": "statue",
+    "name": "Vore Faldne",
+    "wikidata": "Q57628472"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nielsjuel",
+  "n": "Niels Juel",
+  "a": "",
+  "pc": "",
+  "lat": 55.67774,
+  "lng": 12.586,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Niels Juel Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1112954259",
+   "raw": {
+    "artist:wikidata": "Q3364949",
+    "artist_name": "Johan Carl Henrik Theobald Stein",
+    "artwork_type": "statue",
+    "height": "8.1",
+    "name": "Niels Juel",
+    "start_date": "1881",
+    "tourism": "artwork",
+    "website": "https://kk.sites.itera.dk/apps/kk_monumenter/index_ny.asp?lang=dk&mode=detalje&id=116",
+    "wikidata": "Q27862475"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lokalhistorisksamling",
+  "n": "Lokalhistorisk Samling",
+  "a": "",
+  "pc": "",
+  "lat": 55.68272,
+  "lng": 12.46729,
+  "c": "museum",
+  "s": "museum",
+  "q": "Lokalhistorisk Samling Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1163389782",
+   "raw": {
+    "name": "Lokalhistorisk Samling",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "christianx",
+  "n": "Christian X",
+  "a": "",
+  "pc": "",
+  "lat": 55.68226,
+  "lng": 12.58882,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Christian X Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1190852509",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Christian X",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nilen",
+  "n": "Nilen",
+  "a": "",
+  "pc": "",
+  "lat": 55.68601,
+  "lng": 12.56473,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Nilen Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1215986933",
+   "raw": {
+    "artwork_type": "statue",
+    "koes_id": "3244",
+    "name": "Nilen",
+    "start_date": "1897",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spejdermuseet",
+  "n": "Spejdermuseet",
+  "a": "",
+  "pc": "",
+  "lat": 55.67521,
+  "lng": 12.60234,
+  "c": "museum",
+  "s": "museum",
+  "q": "Spejdermuseet Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1224762659",
+   "raw": {
+    "name": "Spejdermuseet",
+    "tourism": "museum",
+    "website": "http://spejdermuseet.dk/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "husetderregner",
+  "n": "Huset, der regner",
+  "a": "",
+  "pc": "",
+  "lat": 55.69077,
+  "lng": 12.56061,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Huset, der regner Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1255221413",
+   "raw": {
+    "artist:wikidata": "Q4809720",
+    "artist_name": "Jørgen Haugen Sørensen",
+    "artwork_type": "sculpture",
+    "koes_id": "83",
+    "material": "granite",
+    "name": "Huset, der regner",
+    "name:en": "The House That Rains",
+    "start_date": "1993",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "danturell",
+  "n": "Dan Turèll",
+  "a": "",
+  "pc": "",
+  "lat": 55.6907,
+  "lng": 12.55212,
+  "c": "death",
+  "s": "historic tomb",
+  "q": "Dan Turèll Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1286527038",
+   "raw": {
+    "historic": "tomb",
+    "name": "Dan Turèll",
+    "subject:wikidata": "Q1159183",
+    "subject:wikipedia": "da:Dan Turèll"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "davidssamling",
+  "n": "Davids Samling",
+  "a": "",
+  "pc": "",
+  "lat": 55.68428,
+  "lng": 12.58238,
+  "c": "museum",
+  "s": "museum",
+  "q": "Davids Samling Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1291394245",
+   "raw": {
+    "alt_name:es": "Colección David",
+    "check_date": "2023-04-04",
+    "email": "museum@davidmus.dk",
+    "fee": "no",
+    "name": "Davids Samling",
+    "name:en": "The David Collection",
+    "opening_hours": "Mo off; Tu,Th-Su 10:00-17:00; We 10:00-21:00",
+    "operator": "C.L. Davids Fond og Samling",
+    "phone": "+45 33 73 49 49",
+    "tourism": "museum",
+    "website": "https://www.davidmus.dk/",
+    "wikidata": "Q536499",
+    "wikipedia": "da:Davids Samling"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fordefaldne1940",
+  "n": "For de faldne - 1940",
+  "a": "",
+  "pc": "",
+  "lat": 55.66143,
+  "lng": 12.53103,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "For de faldne - 1940 Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1306239266",
+   "raw": {
+    "artist_name": "Arne Bang",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "war_memorial",
+    "name": "For de faldne - 1940",
+    "start_date": "1942"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "detgenmodificeredeparadi",
+  "n": "Det Genmodificerede Paradis",
+  "a": "",
+  "pc": "",
+  "lat": 55.69826,
+  "lng": 12.5996,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Det Genmodificerede Paradis Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1328260279",
+   "raw": {
+    "artist:wikidata": "Q879842",
+    "artist:wikipedia": "da:Bjørn Nørgaard",
+    "artist_name": "Bjørn Nørgaard",
+    "artwork_type": "sculpture",
+    "koes_id": "6014",
+    "name": "Det Genmodificerede Paradis",
+    "start_date": "2006",
+    "tourism": "artwork",
+    "wikidata": "Q12308454",
+    "wikipedia": "da:Det genmodificerede Paradis"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "johannhartwigernstvonber",
+  "n": "Johann Hartwig Ernst von Bernstorff",
+  "a": "",
+  "pc": "",
+  "lat": 55.73552,
+  "lng": 12.54268,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Johann Hartwig Ernst von Bernstorff Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1347283178",
+   "raw": {
+    "historic": "memorial",
+    "loc_name": "Bernstorffstøtten",
+    "memorial": "obelisk",
+    "name": "Johann Hartwig Ernst von Bernstorff",
+    "wikidata": "Q12303289",
+    "wikipedia": "da:Bernstorffstøtten"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "david",
+  "n": "David",
+  "a": "",
+  "pc": "",
+  "lat": 55.68592,
+  "lng": 12.59741,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "David Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1350486510",
+   "raw": {
+    "artist_name": "Michelangelo",
+    "artwork_type": "statue",
+    "mapillary": "273421247782393",
+    "material": "bronze",
+    "name": "David",
+    "tourism": "artwork",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "byenskilde",
+  "n": "Byens Kilde",
+  "a": "",
+  "pc": "",
+  "lat": 55.64213,
+  "lng": 12.47808,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Byens Kilde Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1354685381",
+   "raw": {
+    "amenity": "fountain",
+    "artist": "Ib Braun",
+    "artist:wikidata": "Q18011351",
+    "artist:wikipedia": "da:Ib Braun",
+    "artwork_type": "sculpture",
+    "koes_id": "321",
+    "material": "copper",
+    "name": "Byens Kilde",
+    "start_date": "1977",
+    "tourism": "artwork",
+    "website": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/321"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kolossen",
+  "n": "Kolossen",
+  "a": "",
+  "pc": "",
+  "lat": 55.63999,
+  "lng": 12.64884,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Kolossen Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1398347706",
+   "raw": {
+    "artist:wikidata": "Q4809720",
+    "artist_name": "Jørgen Haugen Sørensen",
+    "artwork_type": "sculpture",
+    "name": "Kolossen",
+    "start_date": "2011-08-16",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nielswgade",
+  "n": "Niels W. Gade",
+  "a": "",
+  "pc": "",
+  "lat": 55.69094,
+  "lng": 12.5797,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Niels W. Gade Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1412059650",
+   "raw": {
+    "artist_name": "Vilhelm Bissen",
+    "artwork_type": "statue",
+    "material": "bronze",
+    "name": "Niels W. Gade",
+    "tourism": "artwork",
+    "wikidata": "Q48817669",
+    "wikimedia_commons": "File:Niels.W. Gade.JPG"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "detlitermotskymning",
+  "n": "Det liter möt skymning",
+  "a": "",
+  "pc": "",
+  "lat": 55.68931,
+  "lng": 12.5755,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Det liter möt skymning Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1412059654",
+   "raw": {
+    "artist:wikidata": "Q5882812",
+    "artist_name": "Aron Jerndahl",
+    "artwork_type": "statue",
+    "material": "bronze",
+    "name": "Det liter möt skymning",
+    "tourism": "artwork",
+    "wikidata": "Q60777644",
+    "wikimedia_commons": "File:Det lider mot skymning 05.JPG"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "slagetparheden",
+  "n": "Slaget på Rheden",
+  "a": "",
+  "pc": "",
+  "lat": 55.6938,
+  "lng": 12.58098,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Slaget på Rheden Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1412098878",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "Slaget på Rheden"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "agneteoghavmanden",
+  "n": "Agnete og Havmanden",
+  "a": "",
+  "pc": "",
+  "lat": 55.67763,
+  "lng": 12.58019,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Agnete og Havmanden Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1422590693",
+   "raw": {
+    "artist:wikidata": "Q15243776",
+    "artist_name": "Suste Bonnén",
+    "artwork_type": "sculpture",
+    "description": "Skulpturgruppe under vandet",
+    "location": "underwater",
+    "name": "Agnete og Havmanden",
+    "name:ru": "Агнете и Моряки",
+    "subject:wikidata": "Q12300738",
+    "tourism": "artwork",
+    "wikidata": "Q18809149",
+    "wikipedia": "en:Agnete and the Merman"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mindesmrkeforfrivilligeo",
+  "n": "Mindesmærke for frivillige og faldne",
+  "a": "",
+  "pc": "",
+  "lat": 55.6914,
+  "lng": 12.58956,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Mindesmærke for frivillige og faldne Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1440246013",
+   "raw": {
+    "alt_name": "Genforeningsstenen på Kastellet",
+    "artist:wikidata": "Q4563612",
+    "artist:wikipedia": "da:Anders Bundgaard",
+    "artist_name": "Anders Bundgaard",
+    "artwork_type": "sculpture",
+    "description": "Se også https://graenseforeningen.dk/om-graenselandet/genforeningssten/kastellet",
+    "historic": "memorial",
+    "inscription": "MINDE OM\nFRIVILLIGE OG FALDNE\nFOR DANMARK I 1848-50 OG 1864\nREJST VED GENFORENINGEN\nMED SØNDERJYLLAND",
+    "koes_id": "889",
+    "material": "granite",
+    "memorial": "war_memorial",
+    "name": "Mindesmærke for frivillige og faldne",
+    "start_date": "1920",
+    "subject:wikidata": "Q692146",
+    "subject:wikipedia": "da:Genforeningen i 1920",
+    "tourism": "artwork",
+    "website": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/889",
+    "wikidata": "Q60227324",
+    "wikimedia_commons": "File:Mindesmærke for frivillige og faldne.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "christianiv",
+  "n": "Christian IV",
+  "a": "",
+  "pc": "",
+  "lat": 55.69033,
+  "lng": 12.58673,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Christian IV Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1440246014",
+   "raw": {
+    "artwork_type": "statue",
+    "material": "bronze",
+    "name": "Christian IV",
+    "tourism": "artwork",
+    "wikidata": "Q60767796",
+    "wikimedia_commons": "File:Christian IV statue.JPG"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "edouardsuenson",
+  "n": "Edouard Suenson",
+  "a": "",
+  "pc": "",
+  "lat": 55.68845,
+  "lng": 12.5895,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Edouard Suenson Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1440264455",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Edouard Suenson"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoverdanmarksinte",
+  "n": "Monument over Danmarks internationale indsats",
+  "a": "",
+  "pc": "",
+  "lat": 55.69229,
+  "lng": 12.59606,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monument over Danmarks internationale indsats Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1440293918",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Monument over Danmarks internationale indsats",
+    "wikidata": "Q17979367",
+    "wikipedia": "da:Monument over Danmarks internationale indsats"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hcandersen2",
+  "n": "H.C. Andersen",
+  "a": "",
+  "pc": "",
+  "lat": 55.67531,
+  "lng": 12.56912,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "H.C. Andersen Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1465456751",
+   "raw": {
+    "artist_name": "Henry Luckow-Nielsen",
+    "artwork_type": "statue",
+    "koes_id": "195",
+    "material": "bronze;granite",
+    "name": "H.C. Andersen",
+    "panoramax": "2facf1f4-30fc-4264-aaef-f7ae6ca1bb04",
+    "panoramax:0": "eea14838-4a27-477f-8bc6-e0160f3cb6b3",
+    "start_date": "1961",
+    "subject:wikidata": "Q5673",
+    "tourism": "artwork",
+    "website": "https://kk.sites.itera.dk/apps/kk_monumenter/index_ny.asp"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "frederiknblerdfamilyaffa",
+  "n": "Frederik Næblerød Family Affair",
+  "a": "",
+  "pc": "",
+  "lat": 55.68737,
+  "lng": 12.59186,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Frederik Næblerød Family Affair Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1497169194",
+   "raw": {
+    "name": "Frederik Næblerød Family Affair",
+    "opening_hours": "Tu-Fr 11:00-17:00; Sa 11:00-16:00",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "amagerfolk",
+  "n": "Amagerfolk",
+  "a": "",
+  "pc": "",
+  "lat": 55.65531,
+  "lng": 12.60657,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Amagerfolk Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1569660510",
+   "raw": {
+    "amenity": "fountain",
+    "artist_name": "Adam Hansen",
+    "artwork_type": "plaster statue",
+    "koes_id": "400",
+    "name": "Amagerfolk",
+    "start_date": "1896",
+    "tourism": "artwork",
+    "website": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/400"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "carlchristianhall",
+  "n": "Carl Christian Hall",
+  "a": "",
+  "pc": "",
+  "lat": 55.66836,
+  "lng": 12.52988,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Carl Christian Hall Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1579968737",
+   "raw": {
+    "artwork_type": "statue",
+    "inscription": "Født den 25. februar 1812 - Død den 14. august 1888",
+    "name": "Carl Christian Hall",
+    "subject:wikidata": "Q725118",
+    "subject:wikipedia": "da:C.C. Hall",
+    "tourism": "artwork",
+    "wikidata": "Q61962735",
+    "wikimedia_commons": "Category:Statue of Carl Christian Hall"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "adamoehlenschlager",
+  "n": "Adam Oehlenschläger",
+  "a": "",
+  "pc": "",
+  "lat": 55.67067,
+  "lng": 12.52608,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Adam Oehlenschläger Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1579968747",
+   "raw": {
+    "alt_name": "Adam Oehlenschlæger",
+    "artist:wikidata": "Q12320520",
+    "artist_name": "Julius Schultz",
+    "artwork_type": "statue",
+    "koes_id": "291",
+    "name": "Adam Oehlenschläger",
+    "start_date": "1897",
+    "subject:wikidata": "Q168356",
+    "subject:wikipedia": "da:Adam Oehlenschläger",
+    "tourism": "artwork",
+    "website": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/291",
+    "wikidata": "Q61691053",
+    "wikimedia_commons": "Category:Adam Gottlob Oehlenschläger by Julius Schultz"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemateket",
+  "n": "Cinemateket",
+  "a": "",
+  "pc": "",
+  "lat": 55.68307,
+  "lng": 12.57874,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinemateket Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1628990539",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Cinemateket",
+    "opening_hours": "Mo-Fr 09:00-22:00; Sa 10:45-22:00; Su 10:45-19:30",
+    "phone": "+45 3374 3412",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.dfi.dk/en/english/cinematheque-and-archives/cinematheque",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mariekirkegaardgallery",
+  "n": "Marie kirkegaard gallery",
+  "a": "",
+  "pc": "",
+  "lat": 55.67857,
+  "lng": 12.59006,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Marie kirkegaard gallery Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1630148784",
+   "raw": {
+    "name": "Marie kirkegaard gallery",
+    "shop": "jewelry",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kainsefterkommere",
+  "n": "Kains efterkommere",
+  "a": "",
+  "pc": "",
+  "lat": 55.6626,
+  "lng": 12.51618,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Kains efterkommere Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1696110308",
+   "raw": {
+    "artist:wikidata": "Q710530",
+    "artist_name": "Paul Landowski",
+    "artwork_type": "statue",
+    "description": "3 figurer forestillende Jabal, Jubal & Tubalkain",
+    "material": "bronze",
+    "name": "Kains efterkommere",
+    "name:etymology:wikidata": "Q205365",
+    "tourism": "artwork",
+    "wikidata": "Q29410302",
+    "wikipedia": "da:Kains efterkommere"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dialog",
+  "n": "Dialog",
+  "a": "",
+  "pc": "",
+  "lat": 55.66107,
+  "lng": 12.46223,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Dialog Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1698507408",
+   "raw": {
+    "artist_name": "Monica Ritterband",
+    "name": "Dialog",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fredensport",
+  "n": "Fredens Port",
+  "a": "",
+  "pc": "",
+  "lat": 55.69236,
+  "lng": 12.5694,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Fredens Port Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1741264972",
+   "raw": {
+    "artist:wikidata": "Q12337204;Q3428509;Q3318228",
+    "artist_name": "Stig Brøgger, Hein Heinsen og Mogens Møller",
+    "artwork_type": "sculpture",
+    "name": "Fredens Port",
+    "start_date": "1982",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dynamiskvkst",
+  "n": "Dynamisk vækst",
+  "a": "",
+  "pc": "",
+  "lat": 55.71467,
+  "lng": 12.54161,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Dynamisk vækst Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1741892405",
+   "raw": {
+    "artist:wikidata": "Q110323992",
+    "artist_name": "Børge Jørgensen",
+    "name": "Dynamisk vækst",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alfabetturell",
+  "n": "Alfabet Turèll",
+  "a": "",
+  "pc": "",
+  "lat": 55.75179,
+  "lng": 12.5191,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Alfabet Turèll Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1760160823",
+   "raw": {
+    "artist:wikidata": "Q106120944",
+    "artist_name": "Kenn André Stilling",
+    "artwork_type": "sculpture",
+    "koes_id": "5284",
+    "material": "steel",
+    "name": "Alfabet Turèll",
+    "start_date": "2011-10-15",
+    "tourism": "artwork",
+    "website": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/5284"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "victorborge",
+  "n": "Victor Borge",
+  "a": "",
+  "pc": "",
+  "lat": 55.7016,
+  "lng": 12.58071,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Victor Borge Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1781913419",
+   "raw": {
+    "artist:wikidata": "Q12315200",
+    "artist_name": "Hanne Varming",
+    "artwork_type": "sculpture",
+    "name": "Victor Borge",
+    "opening_hours": "24/7",
+    "source": "local knowledge",
+    "tourism": "artwork",
+    "wheelchair": "limited"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "frivilligtforsvarclassen",
+  "n": "Frivilligt forsvar Classens Have",
+  "a": "",
+  "pc": "",
+  "lat": 55.69752,
+  "lng": 12.58909,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Frivilligt forsvar Classens Have Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1804736073",
+   "raw": {
+    "name": "Frivilligt forsvar Classens Have",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "peteratkecastberg",
+  "n": "Peter Atke Castberg",
+  "a": "",
+  "pc": "",
+  "lat": 55.69629,
+  "lng": 12.5872,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Peter Atke Castberg Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1804736078",
+   "raw": {
+    "artwork_type": "bust",
+    "name": "Peter Atke Castberg",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:PeterAtkeCastberg.JPG"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bro",
+  "n": "Bro",
+  "a": "",
+  "pc": "",
+  "lat": 55.67381,
+  "lng": 12.55469,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Bro Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1813060769",
+   "raw": {
+    "artist:wikidata": "Q18421572",
+    "artist_name": "Preben Boye",
+    "artwork_type": "sculpture",
+    "name": "Bro",
+    "natural": "stone",
+    "start_date": "2005-11-02",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "danmarksmonumentet",
+  "n": "Danmarksmonumentet",
+  "a": "",
+  "pc": "",
+  "lat": 55.69029,
+  "lng": 12.58175,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Danmarksmonumentet Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1849033511",
+   "raw": {
+    "artist:wikidata": "Q942029",
+    "artist_name": "Louis Hasselriis",
+    "artwork_type": "sculpture",
+    "name": "Danmarksmonumentet",
+    "start_date": "1919",
+    "tourism": "artwork",
+    "wikidata": "Q60779620",
+    "wikimedia_commons": "File:Danmarksmonumentet.JPG"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lveikampmedenslange",
+  "n": "Løve i kamp med en slange",
+  "a": "",
+  "pc": "",
+  "lat": 55.67315,
+  "lng": 12.57239,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Løve i kamp med en slange Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1947256867",
+   "raw": {
+    "artist:wikidata": "Q451489",
+    "artist_name": "Antoine-Louis Barye",
+    "artwork_type": "sculpture",
+    "koes_id": "2861",
+    "name": "Løve i kamp med en slange",
+    "start_date": "1832",
+    "tourism": "artwork",
+    "website": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/2861",
+    "wikimedia_commons": "File:Lion and Snake (Ny Carlsberg Glyptotek).jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "havfrue",
+  "n": "Havfrue",
+  "a": "",
+  "pc": "",
+  "lat": 55.67299,
+  "lng": 12.58228,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Havfrue Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1947700221",
+   "raw": {
+    "artist:wikidata": "Q2851207",
+    "artist_name": "Anne Marie Carl-Nielsen",
+    "artwork_type": "sculpture",
+    "name": "Havfrue",
+    "start_date": "2009",
+    "tourism": "artwork",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "trolddervejrerkristenblo",
+  "n": "Trold, der vejrer kristenblod",
+  "a": "",
+  "pc": "",
+  "lat": 55.67236,
+  "lng": 12.57071,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Trold, der vejrer kristenblod Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1950932347",
+   "raw": {
+    "artist:wikipedia": "da:Niels Hansen Jacobsen",
+    "artist_name": "Niels Hansen Jacobsen",
+    "artwork_type": "sculpture",
+    "koes_id": "189",
+    "name": "Trold, der vejrer kristenblod",
+    "start_date": "1896",
+    "tourism": "artwork",
+    "website": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/189",
+    "wheelchair": "yes",
+    "wikidata": "Q7845157",
+    "wikipedia": "da:Trold, der vejrer kristenblod"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rigskanslerpedergriffenf",
+  "n": "Rigskansler Peder Griffenfeld",
+  "a": "",
+  "pc": "",
+  "lat": 55.67497,
+  "lng": 12.58062,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Rigskansler Peder Griffenfeld Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2168972476",
+   "raw": {
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Rigskansler Peder Griffenfeld",
+    "wikidata": "Q60889675",
+    "wikimedia_commons": "File:Peder Griffenfeld - Copenhagen (52355265658).jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "moses2",
+  "n": "Moses",
+  "a": "",
+  "pc": "",
+  "lat": 55.68958,
+  "lng": 12.54762,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Moses Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2169528701",
+   "raw": {
+    "artist_name": "Michelangelo (copy)",
+    "artwork_type": "statue",
+    "name": "Moses",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:Moses i Tavsens Park.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cykelpigen",
+  "n": "Cykelpigen",
+  "a": "",
+  "pc": "",
+  "lat": 55.68778,
+  "lng": 12.56158,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Cykelpigen Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2169667441",
+   "raw": {
+    "artist:wikidata": "Q12335016",
+    "artist_name": "Seppo Mattinen",
+    "artwork_type": "mural",
+    "koes_id": "798",
+    "name": "Cykelpigen",
+    "start_date": "1993",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "farvestningafpaladsteatr",
+  "n": "Farvesætning af Paladsteatret",
+  "a": "",
+  "pc": "",
+  "lat": 55.6765,
+  "lng": 12.56352,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Farvesætning af Paladsteatret Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2169730515",
+   "raw": {
+    "artist_name": "Poul Gernes",
+    "artwork_type": "exterior decoration",
+    "koes_id": "1103",
+    "name": "Farvesætning af Paladsteatret",
+    "start_date": "1989",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "frihedensport",
+  "n": "Frihedens port",
+  "a": "",
+  "pc": "",
+  "lat": 55.62864,
+  "lng": 12.48214,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Frihedens port Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2169752266",
+   "raw": {
+    "artist_name": "Hein Heinsen",
+    "koes_id": "318",
+    "name": "Frihedens port",
+    "start_date": "1981",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "katpastensjle",
+  "n": "Kat på stensøjle",
+  "a": "",
+  "pc": "",
+  "lat": 55.75089,
+  "lng": 12.51227,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Kat på stensøjle Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2172641529",
+   "raw": {
+    "artist_name": "Hugo Liisberg",
+    "artwork_type": "sculpture",
+    "koes_id": "1803",
+    "material": "concrete",
+    "name": "Kat på stensøjle",
+    "start_date": "1950",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mormedtvillingerogsakald",
+  "n": "Mor med tvillinger, også kaldet Mælk",
+  "a": "",
+  "pc": "",
+  "lat": 55.68778,
+  "lng": 12.55268,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Mor med tvillinger, også kaldet Mælk Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2176238207",
+   "raw": {
+    "artist:wikidata": "Q742300",
+    "artist_name": "Hans Scherfig",
+    "artwork_type": "mural paint",
+    "koes_id": "833",
+    "name": "Mor med tvillinger, også kaldet Mælk",
+    "start_date": "1962",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mlkgirsundhed",
+  "n": "Mælk gir sundhed",
+  "a": "",
+  "pc": "",
+  "lat": 55.68639,
+  "lng": 12.58297,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Mælk gir sundhed Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2176368823",
+   "raw": {
+    "artist:wikidata": "Q2413064",
+    "artist_name": "Henry Heerup",
+    "artwork_type": "mural paint",
+    "koes_id": "788",
+    "name": "Mælk gir sundhed",
+    "start_date": "1955",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ukendttitel",
+  "n": "Ukendt titel,",
+  "a": "",
+  "pc": "",
+  "lat": 55.69553,
+  "lng": 12.56165,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Ukendt titel, Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2187777000",
+   "raw": {
+    "artist_name": "Claus Carstensen",
+    "artwork_type": "sculpture",
+    "koes_id": "2642",
+    "material": "bronze",
+    "name": "Ukendt titel,",
+    "start_date": "2005",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "apbernstoff",
+  "n": "A.P. Bernstoff",
+  "a": "",
+  "pc": "",
+  "lat": 55.75898,
+  "lng": 12.55208,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "A.P. Bernstoff Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2189068923",
+   "raw": {
+    "artist_name": "Andreas Paulsen",
+    "artwork_type": "statue",
+    "inscription:1": "ANDREAS PETER\nGREVE AF BERNSTORFF\n1735-1797\n\nUDEN MISVISNING\nMDCCXCIII\n\nHØJSINDET\nRETSINDET FRISINDET",
+    "inscription:2": "FRIET FOR AAGET\nBONDEN BAG PLOVEN\nFURED I JORDEN\nVELSTANDENS SPOR\n\nFOLKETS VEN.",
+    "inscription:3": "HANS NAVN VIL\nLEVE MEDENS\nSLÆGTER SVINDE\n\nDROT OG FOLK HAM\nREJSTE DETTE MINDE\n1904",
+    "inscription:4": "FREDLYST FLAGET\nFRA MASTEN VAIED\nDANMARK TIL HÆDER\nPAA FREMMED STRAND\n\nLANDETS VELGØRER.",
+    "koes_id": "998",
+    "material": "bronze",
+    "name": "A.P. Bernstoff",
+    "start_date": "1904",
+    "tourism": "artwork",
+    "website": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/998",
+    "wikimedia_commons": "Category:Statue of Andreas Peter Bernstorff"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "abstraktskulptur",
+  "n": "Abstrakt skulptur",
+  "a": "",
+  "pc": "",
+  "lat": 55.67463,
+  "lng": 12.55955,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Abstrakt skulptur Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2189119016",
+   "raw": {
+    "artist:wikidata": "Q18227900",
+    "artist_name": "Eva Koch",
+    "koes_id": "17",
+    "name": "Abstrakt skulptur",
+    "start_date": "1987",
+    "tourism": "artwork",
+    "website": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/17",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "afroditeogdendendeadonis",
+  "n": "Afrodite og den døende Adonis",
+  "a": "",
+  "pc": "",
+  "lat": 55.6377,
+  "lng": 12.63545,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Afrodite og den døende Adonis Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2189440298",
+   "raw": {
+    "artist:wikidata": "Q110721457",
+    "artist_name": "Willie Wulff",
+    "artwork_type": "sculpture",
+    "koes_id": "346",
+    "material": "granite",
+    "name": "Afrodite og den døende Adonis",
+    "start_date": "1917",
+    "tourism": "artwork",
+    "website": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/346"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "danskeflyveresminde",
+  "n": "Danske Flyveres Minde",
+  "a": "",
+  "pc": "",
+  "lat": 55.66816,
+  "lng": 12.592,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Danske Flyveres Minde Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2193150437",
+   "raw": {
+    "artist:wikidata": "Q3430321",
+    "artist_name": "Einar Utzon-Frank",
+    "height": "6.5",
+    "historic": "memorial",
+    "inscription": "FOR DANSKE DER SATTE LIVET TIL I FLYVNINGENS TJENESTE",
+    "material": "marble;bronze",
+    "memorial": "sculpture",
+    "name": "Danske Flyveres Minde",
+    "start_date": "1938",
+    "wikidata": "Q129778002"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aggression",
+  "n": "Aggression",
+  "a": "",
+  "pc": "",
+  "lat": 55.7576,
+  "lng": 12.46357,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Aggression Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2193763867",
+   "raw": {
+    "artist:wikidata": "Q701078",
+    "artist_name": "Robert Jacobsen",
+    "artwork_type": "sculpture",
+    "koes_id": "9",
+    "material": "iron",
+    "name": "Aggression",
+    "start_date": "1973",
+    "tourism": "artwork",
+    "website": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/9"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "andreasschifter",
+  "n": "Andreas Schifter",
+  "a": "",
+  "pc": "",
+  "lat": 55.68089,
+  "lng": 12.60495,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Andreas Schifter Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2197660582",
+   "raw": {
+    "artist:wikidata": "Q12320367",
+    "artist_name": "Joseph Salamon",
+    "artwork_type": "sculpture",
+    "koes_id": "3258",
+    "material": "bronze",
+    "name": "Andreas Schifter",
+    "start_date": "2002",
+    "tourism": "artwork",
+    "website": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/3258"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "arkitektoniskekommentare",
+  "n": "Arkitektoniske kommentarer",
+  "a": "",
+  "pc": "",
+  "lat": 55.74227,
+  "lng": 12.49797,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Arkitektoniske kommentarer Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2201326486",
+   "raw": {
+    "artist:wikidata": "Q879842",
+    "artist:wikipedia": "da:Bjørn Nørgaard",
+    "artist_name": "Bjørn Nørgaard",
+    "koes_id": "1819",
+    "name": "Arkitektoniske kommentarer",
+    "start_date": "1981",
+    "tourism": "artwork",
+    "website": "https://samlingen.koes.dk/vaerker/koes0029"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "askyggdrasil",
+  "n": "Ask Yggdrasil",
+  "a": "",
+  "pc": "",
+  "lat": 55.69992,
+  "lng": 12.54908,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Ask Yggdrasil Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2201828217",
+   "raw": {
+    "artist_name": "Christian Hansen",
+    "artwork_type": "mural paint",
+    "koes_id": "4264",
+    "name": "Ask Yggdrasil",
+    "start_date": "2008",
+    "tourism": "artwork",
+    "website": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/4264",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "steler",
+  "n": "Steler",
+  "a": "",
+  "pc": "",
+  "lat": 55.66528,
+  "lng": 12.55812,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Steler Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2203590028",
+   "raw": {
+    "artist:wikidata": "Q12310327",
+    "artist:wikipedia": "da:Erik Heide",
+    "artist_name": "Erik Heide",
+    "artwork_type": "granite",
+    "koes_id": "562",
+    "name": "Steler",
+    "start_date": "1996",
+    "tourism": "artwork",
+    "website": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/562"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ejereafrygaard",
+  "n": "Ejere af Rygaard",
+  "a": "",
+  "pc": "",
+  "lat": 55.73109,
+  "lng": 12.55669,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ejere af Rygaard Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2251238578",
+   "raw": {
+    "historic": "memorial",
+    "name": "Ejere af Rygaard"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vesterbrosblomst",
+  "n": "Vesterbros blomst",
+  "a": "",
+  "pc": "",
+  "lat": 55.6732,
+  "lng": 12.56078,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Vesterbros blomst Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2290182544",
+   "raw": {
+    "name": "Vesterbros blomst",
+    "source": "Københavns Kommune",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "risbjergparish",
+  "n": "Risbjerg Parish",
+  "a": "",
+  "pc": "",
+  "lat": 55.64933,
+  "lng": 12.47828,
+  "c": "oddity",
+  "s": "subdivision of the Diocese of Helsingør",
+  "q": "Risbjerg Parish Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q475150",
+   "raw": "subdivision of the Diocese of Helsingør",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rdovremunicipality",
+  "n": "Rødovre Municipality",
+  "a": "",
+  "pc": "",
+  "lat": 55.68139,
+  "lng": 12.455,
+  "c": "oddity",
+  "s": "municipality in Region Hovedstaden, Denmark",
+  "q": "Rødovre Municipality Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q503097",
+   "raw": "municipality in Region Hovedstaden, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "burhaniyya",
+  "n": "Burhaniyya",
+  "a": "",
+  "pc": "",
+  "lat": 55.66833,
+  "lng": 12.47167,
+  "c": "oddity",
+  "s": "religious order",
+  "q": "Burhaniyya Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1016276",
+   "raw": "religious order",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vanlse",
+  "n": "Vanløse",
+  "a": "",
+  "pc": "",
+  "lat": 55.68746,
+  "lng": 12.48004,
+  "c": "oddity",
+  "s": "district of Copenhagen",
+  "q": "Vanløse Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1281756",
+   "raw": "district of Copenhagen",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hvidovreicehockeyclub",
+  "n": "Hvidovre Icehockey Club",
+  "a": "",
+  "pc": "",
+  "lat": 55.62599,
+  "lng": 12.4777,
+  "c": "oddity",
+  "s": "ice hockey club in Hvidovre, Denmark",
+  "q": "Hvidovre Icehockey Club Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1639589",
+   "raw": "ice hockey club in Hvidovre, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hvidovreparish",
+  "n": "Hvidovre Parish",
+  "a": "",
+  "pc": "",
+  "lat": 55.65692,
+  "lng": 12.47267,
+  "c": "oddity",
+  "s": "subdivision of the Diocese of Helsingør",
+  "q": "Hvidovre Parish Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1639593",
+   "raw": "subdivision of the Diocese of Helsingør",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rdovrestation",
+  "n": "Rødovre station",
+  "a": "",
+  "pc": "",
+  "lat": 55.665,
+  "lng": 12.459,
+  "c": "oddity",
+  "s": "railway station in Rødovre Municipality, Denmark",
+  "q": "Rødovre station Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1909224",
+   "raw": "railway station in Rødovre Municipality, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hendriksholmparish",
+  "n": "Hendriksholm Parish",
+  "a": "",
+  "pc": "",
+  "lat": 55.66861,
+  "lng": 12.46472,
+  "c": "oddity",
+  "s": "subdivision of the Diocese of Helsingør",
+  "q": "Hendriksholm Parish Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1984164",
+   "raw": "subdivision of the Diocese of Helsingør",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "grndalslundparish",
+  "n": "Grøndalslund Parish",
+  "a": "",
+  "pc": "",
+  "lat": 55.68917,
+  "lng": 12.45083,
+  "c": "oddity",
+  "s": "subdivision of the Diocese of Helsingør",
+  "q": "Grøndalslund Parish Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2294484",
+   "raw": "subdivision of the Diocese of Helsingør",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rdovreparish",
+  "n": "Rødovre Parish",
+  "a": "",
+  "pc": "",
+  "lat": 55.68194,
+  "lng": 12.46556,
+  "c": "oddity",
+  "s": "subdivision of the Diocese of Helsingør",
+  "q": "Rødovre Parish Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2394804",
+   "raw": "subdivision of the Diocese of Helsingør",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hvidovrestation",
+  "n": "Hvidovre station",
+  "a": "",
+  "pc": "",
+  "lat": 55.6645,
+  "lng": 12.474,
+  "c": "oddity",
+  "s": "railway station in Hvidovre Municipality, Denmark",
+  "q": "Hvidovre station Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2395511",
+   "raw": "railway station in Hvidovre Municipality, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "avedrestation",
+  "n": "Avedøre station",
+  "a": "",
+  "pc": "",
+  "lat": 55.62556,
+  "lng": 12.455,
+  "c": "oddity",
+  "s": "railway station in Hvidovre Municipality, Denmark",
+  "q": "Avedøre station Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2705593",
+   "raw": "railway station in Hvidovre Municipality, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hvidovrehospital",
+  "n": "Hvidovre Hospital",
+  "a": "",
+  "pc": "",
+  "lat": 55.6484,
+  "lng": 12.4659,
+  "c": "oddity",
+  "s": "hospital in Denmark",
+  "q": "Hvidovre Hospital Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3374772",
+   "raw": "hospital in Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "avedrepowerstation",
+  "n": "Avedøre Power Station",
+  "a": "",
+  "pc": "",
+  "lat": 55.60276,
+  "lng": 12.47925,
+  "c": "oddity",
+  "s": "power station in Denmark",
+  "q": "Avedøre Power Station Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3432240",
+   "raw": "Power station in Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vanlseidrtspark",
+  "n": "Vanløse Idrætspark",
+  "a": "",
+  "pc": "",
+  "lat": 55.6869,
+  "lng": 12.4776,
+  "c": "oddity",
+  "s": "football stadium in Denmark",
+  "q": "Vanløse Idrætspark Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3554613",
+   "raw": "football stadium in Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hvidovre",
+  "n": "Hvidovre",
+  "a": "",
+  "pc": "",
+  "lat": 55.6564,
+  "lng": 12.4686,
+  "c": "oddity",
+  "s": "place in Capital Region of Denmark, Denmark",
+  "q": "Hvidovre Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3590079",
+   "raw": "place in Capital Region of Denmark, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "avedre",
+  "n": "Avedøre",
+  "a": "",
+  "pc": "",
+  "lat": 55.6325,
+  "lng": 12.4575,
+  "c": "oddity",
+  "s": "town in Denmark",
+  "q": "Avedøre Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4827976",
+   "raw": "town in Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "damhustorvet",
+  "n": "Damhustorvet",
+  "a": "",
+  "pc": "",
+  "lat": 55.6722,
+  "lng": 12.4731,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Damhustorvet Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5212207",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "friheden",
+  "n": "Friheden",
+  "a": "",
+  "pc": "",
+  "lat": 55.6289,
+  "lng": 12.4822,
+  "c": "oddity",
+  "s": "area of Copenhagen, Denmark",
+  "q": "Friheden Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5500506",
+   "raw": "area of Copenhagen, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jyllingevejstation",
+  "n": "Jyllingevej station",
+  "a": "",
+  "pc": "",
+  "lat": 55.6907,
+  "lng": 12.477,
+  "c": "oddity",
+  "s": "railway station in Copenhagen Municipality, Denmark",
+  "q": "Jyllingevej station Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6319355",
+   "raw": "railway station in Copenhagen Municipality, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thedanishboardoftechnolo",
+  "n": "The Danish Board of Technology",
+  "a": "",
+  "pc": "",
+  "lat": 55.64206,
+  "lng": 12.47039,
+  "c": "oddity",
+  "s": "danish not-for-profit organization",
+  "q": "The Danish Board of Technology Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7728870",
+   "raw": "Danish not-for-profit organization",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vigerslevtraincrash",
+  "n": "Vigerslev train crash",
+  "a": "",
+  "pc": "",
+  "lat": 55.6645,
+  "lng": 12.4685,
+  "c": "oddity",
+  "s": "railway accident in Vigerslev, Denmark on 1 November 1919",
+  "q": "Vigerslev train crash Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7928875",
+   "raw": "railway accident in Vigerslev, Denmark on 1 November 1919",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "damhuslake",
+  "n": "Damhus Lake",
+  "a": "",
+  "pc": "",
+  "lat": 55.675,
+  "lng": 12.4778,
+  "c": "oddity",
+  "s": "body of water",
+  "q": "Damhus Lake Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12307086",
+   "raw": "body of water",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "damhusengen",
+  "n": "Damhusengen",
+  "a": "",
+  "pc": "",
+  "lat": 55.6868,
+  "lng": 12.4699,
+  "c": "green",
+  "s": "park in Rødovre Municipality, Denmark",
+  "q": "Damhusengen Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12307087",
+   "raw": "park in Rødovre Municipality, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "enghjschool",
+  "n": "Enghøj School",
+  "a": "",
+  "pc": "",
+  "lat": 55.6273,
+  "lng": 12.451,
+  "c": "oddity",
+  "s": "public primary school in Hvidovre Municipality, Denmark",
+  "q": "Enghøj School Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12310145",
+   "raw": "public primary school in Hvidovre Municipality, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "archaeologicalmonumentsi",
+  "n": "Archaeological monuments in Hvidovre Kommune",
+  "a": "",
+  "pc": "",
+  "lat": 55.62036,
+  "lng": 12.46804,
+  "c": "oddity",
+  "s": "wikimedia list article",
+  "q": "Archaeological monuments in Hvidovre Kommune Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12312417",
+   "raw": "Wikimedia list article",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "padborgvej",
+  "n": "Padborgvej",
+  "a": "",
+  "pc": "",
+  "lat": 55.6714,
+  "lng": 12.4697,
+  "c": "oddity",
+  "s": "street in Rødovre Municipality, Denmark",
+  "q": "Padborgvej Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12330844",
+   "raw": "street in Rødovre Municipality, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rebkspark",
+  "n": "Rebæk Søpark",
+  "a": "",
+  "pc": "",
+  "lat": 55.6603,
+  "lng": 12.45807,
+  "c": "green",
+  "s": "park in Hvidovre Municipality, Denmark",
+  "q": "Rebæk Søpark Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12333036",
+   "raw": "park in Hvidovre Municipality, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rebksparkbutikscenter",
+  "n": "Rebæk Søpark Butikscenter",
+  "a": "",
+  "pc": "",
+  "lat": 55.6638,
+  "lng": 12.4584,
+  "c": "green",
+  "s": "park",
+  "q": "Rebæk Søpark Butikscenter Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12333037",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rdovrecentrum",
+  "n": "Rødovre Centrum",
+  "a": "",
+  "pc": "",
+  "lat": 55.6792,
+  "lng": 12.4569,
+  "c": "oddity",
+  "s": "shopping mall in Copenhagen, Denmark",
+  "q": "Rødovre Centrum Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12334146",
+   "raw": "shopping mall in Copenhagen, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rdovregymnasium",
+  "n": "Rødovre Gymnasium",
+  "a": "",
+  "pc": "",
+  "lat": 55.6667,
+  "lng": 12.4569,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Rødovre Gymnasium Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12334148",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintnicholaschurch",
+  "n": "Saint Nicholas Church",
+  "a": "",
+  "pc": "",
+  "lat": 55.6396,
+  "lng": 12.4796,
+  "c": "faith",
+  "s": "church building in Hvidovre Municipality, Denmark",
+  "q": "Saint Nicholas Church Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12334610",
+   "raw": "church building in Hvidovre Municipality, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "valhj",
+  "n": "Valhøj",
+  "a": "",
+  "pc": "",
+  "lat": 55.67488,
+  "lng": 12.45755,
+  "c": "oddity",
+  "s": "hill in Rødovre Municipality, Denmark",
+  "q": "Valhøj Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12343682",
+   "raw": "hill in Rødovre Municipality, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "avedreholmewindfarm",
+  "n": "Avedøre Holme Wind Farm",
+  "a": "",
+  "pc": "",
+  "lat": 55.6023,
+  "lng": 12.4612,
+  "c": "oddity",
+  "s": "nearshore wind farm in Denmark",
+  "q": "Avedøre Holme Wind Farm Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12344004",
+   "raw": "nearshore wind farm in Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vigerslevparken",
+  "n": "Vigerslevparken",
+  "a": "",
+  "pc": "",
+  "lat": 55.6585,
+  "lng": 12.4778,
+  "c": "green",
+  "s": "park in Copenhagen",
+  "q": "Vigerslevparken Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16325001",
+   "raw": "park in Copenhagen",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nusratjahanmosque",
+  "n": "Nusrat Jahan Mosque",
+  "a": "",
+  "pc": "",
+  "lat": 55.65098,
+  "lng": 12.47896,
+  "c": "faith",
+  "s": "mosque in Copenhagen, Denmark",
+  "q": "Nusrat Jahan Mosque Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19384094",
+   "raw": "mosque in Copenhagen, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hvidovregymnasiumandhf",
+  "n": "Hvidovre Gymnasium & HF",
+  "a": "",
+  "pc": "",
+  "lat": 55.6288,
+  "lng": 12.4522,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Hvidovre Gymnasium & HF Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q20017937",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "heerupmuseum",
+  "n": "Heerup Museum",
+  "a": "",
+  "pc": "",
+  "lat": 55.68293,
+  "lng": 12.46697,
+  "c": "museum",
+  "s": "museum in Denmark",
+  "q": "Heerup Museum Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q20033272",
+   "raw": "museum in Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hovedbiblioteket",
+  "n": "Hovedbiblioteket",
+  "a": "",
+  "pc": "",
+  "lat": 55.64195,
+  "lng": 12.47767,
+  "c": "oddity",
+  "s": "library in Hvidovre, Denmark",
+  "q": "Hovedbiblioteket Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21098052",
+   "raw": "library in Hvidovre, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rdovrelibrary",
+  "n": "Rødovre Library",
+  "a": "",
+  "pc": "",
+  "lat": 55.6812,
+  "lng": 12.4572,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Rødovre Library Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21098720",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "avedreholme",
+  "n": "Avedøre Holme",
+  "a": "",
+  "pc": "",
+  "lat": 55.60995,
+  "lng": 12.46476,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Avedøre Holme Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21240005",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "danishresearchcentreform",
+  "n": "Danish Research Centre for Magnetic Resonance",
+  "a": "",
+  "pc": "",
+  "lat": 55.64959,
+  "lng": 12.46582,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Danish Research Centre for Magnetic Resonance Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q27568260",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hvidovretunnel",
+  "n": "Hvidovre Tunnel",
+  "a": "",
+  "pc": "",
+  "lat": 55.652,
+  "lng": 12.47456,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Hvidovre Tunnel Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q64513467",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "schweizerdalsparken",
+  "n": "Schweizerdalsparken",
+  "a": "",
+  "pc": "",
+  "lat": 55.6893,
+  "lng": 12.4564,
+  "c": "green",
+  "s": "park in Rødovre Municipality, Denmark",
+  "q": "Schweizerdalsparken Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q78634101",
+   "raw": "park in Rødovre Municipality, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "roskildevej",
+  "n": "Roskildevej",
+  "a": "",
+  "pc": "",
+  "lat": 55.67283,
+  "lng": 12.47932,
+  "c": "oddity",
+  "s": "street in Copenhagen",
+  "q": "Roskildevej Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q110014960",
+   "raw": "street in Copenhagen",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "scandichvidovre",
+  "n": "Scandic Hvidovre",
+  "a": "",
+  "pc": "",
+  "lat": 55.6463,
+  "lng": 12.45944,
+  "c": "oddity",
+  "s": "hotel in Hvidovre, Denmark",
+  "q": "Scandic Hvidovre Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111409476",
+   "raw": "hotel in Hvidovre, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cykleklubbenfixrdovre",
+  "n": "Cykleklubben FIX Rødovre",
+  "a": "",
+  "pc": "",
+  "lat": 55.69183,
+  "lng": 12.4663,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Cykleklubben FIX Rødovre Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111549393",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "risbjergkirkegard",
+  "n": "Risbjerg Kirkegård",
+  "a": "",
+  "pc": "",
+  "lat": 55.64487,
+  "lng": 12.46767,
+  "c": "death",
+  "s": "cemetery in Hvidovre Municipality, Denmark",
+  "q": "Risbjerg Kirkegård Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q117141406",
+   "raw": "cemetery in Hvidovre Municipality, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "damhusengenschool",
+  "n": "Damhusengen School",
+  "a": "",
+  "pc": "",
+  "lat": 55.68605,
+  "lng": 12.48064,
+  "c": "oddity",
+  "s": "public primary school in Copenhagen Municipality, Denmark",
+  "q": "Damhusengen School Copenhagen",
+  "w": "",
+  "city": "copenhagen",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q122926298",
+   "raw": "public primary school in Copenhagen Municipality, Denmark",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

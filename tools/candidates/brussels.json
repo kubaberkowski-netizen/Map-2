@@ -1,0 +1,4317 @@
+[
+ {
+  "id": "couteliersmessenmakers",
+  "n": "Couteliers - Messenmakers",
+  "a": "",
+  "pc": "",
+  "lat": 50.83943,
+  "lng": 4.35709,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Couteliers - Messenmakers Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/123506420",
+   "raw": {
+    "artist_name": "Julien Renodeyn",
+    "artwork_type": "statue",
+    "material": "bronze",
+    "name": "Couteliers - Messenmakers",
+    "name:fr": "Couteliers",
+    "name:nl": "Messenmakers",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mannekenpis",
+  "n": "Manneken Pis",
+  "a": "",
+  "pc": "",
+  "lat": 50.84499,
+  "lng": 4.34999,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Manneken Pis Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/240866019",
+   "raw": {
+    "artist:wikidata": "Q638870",
+    "artist_name": "Hiëronymus Duquesnoy de Oudere",
+    "artwork_type": "statue",
+    "historic": "statue",
+    "mapillary": "1835068946666212",
+    "material": "bronze",
+    "name": "Manneken Pis",
+    "name:de": "Manneken Pis",
+    "name:en": "Manneken Pis",
+    "name:fr": "Manneken-Pis",
+    "name:it": "Manneken-Pis",
+    "name:ja_rm": "小便小僧",
+    "name:li": "Menneke Pies",
+    "name:nl": "Manneken Pis",
+    "name:ru": "Писающий мальчик",
+    "name:vls": "Manneken Pis",
+    "name:wa": "Manikenpisse",
+    "name:zh": "尿尿小童",
+    "panoramax": "39045dd5-09b5-499b-8d63-fea793b4853d",
+    "start_date": "1619",
+    "tourism": "attraction",
+    "url": "https://www.youtube.com/watch?v=fG0rszWxBDw",
+    "wikidata": "Q152072",
+    "wikimedia_commons": "Category:Manneken_Pis_(Brussels)",
+    "wikipedia": "nl:Manneken Pis van Brussel"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jeannekepis",
+  "n": "Jeanneke Pis",
+  "a": "",
+  "pc": "",
+  "lat": 50.84852,
+  "lng": 4.35411,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Jeanneke Pis Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/249292417",
+   "raw": {
+    "alt_name": "Jeanneke-Pis",
+    "amenity": "fountain",
+    "artist:wikidata": "Q106942603",
+    "artist_name": "Denis-Adrien Debouvrie",
+    "artwork_type": "statue",
+    "material": "bronze",
+    "name": "Jeanneke Pis",
+    "name:fr": "Jeanneke Pis",
+    "name:nl": "Jeanneke Pis",
+    "name:ru": "Писающая девочка",
+    "start_date": "1985",
+    "tourism": "artwork",
+    "website": "https://www.jeannekepis.be/",
+    "wheelchair": "yes",
+    "wikidata": "Q152360",
+    "wikimedia_commons": "Category:Jeanneke Pis",
+    "wikipedia": "nl:Jeanneke Pis"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "autoworld",
+  "n": "Autoworld",
+  "a": "",
+  "pc": "",
+  "lat": 50.83946,
+  "lng": 4.39355,
+  "c": "museum",
+  "s": "museum",
+  "q": "Autoworld Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/251316200",
+   "raw": {
+    "charge": "17.00 EUR",
+    "check_date": "2026-02-22",
+    "check_date:opening_hours": "2026-02-22",
+    "contact:website": "https://www.autoworld.be",
+    "fee": "yes",
+    "museum": "car",
+    "name": "Autoworld",
+    "name:en": "Autoworld Museum",
+    "name:es": "Museo Autoworld",
+    "name:fr": "Autoworld",
+    "name:nl": "Autoworld",
+    "opening_hours": "Mo-Fr 10:00-17:00; Sa-Su 10:00-18:00",
+    "tourism": "museum",
+    "wheelchair": "yes",
+    "wikidata": "Q2277238",
+    "wikimedia_commons": "Category:Autoworld",
+    "wikipedia": "fr:Autoworld"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vogelobservatiepuntkruis",
+  "n": "Vogelobservatiepunt Kruiskouter",
+  "a": "",
+  "pc": "",
+  "lat": 50.90378,
+  "lng": 4.26833,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Vogelobservatiepunt Kruiskouter Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/287583814",
+   "raw": {
+    "building": "tower",
+    "leisure": "bird_hide",
+    "name": "Vogelobservatiepunt Kruiskouter",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mosqueeomarbenkhatab",
+  "n": "Mosquée Omar Ben Khatab",
+  "a": "",
+  "pc": "",
+  "lat": 50.85555,
+  "lng": 4.3456,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Mosquée Omar Ben Khatab Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/302349982",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "sunni",
+    "description": "Mosquée de la communauté marocaine",
+    "name": "Mosquée Omar Ben Khatab",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "masjidannajah",
+  "n": "Masjid An-Najah",
+  "a": "",
+  "pc": "",
+  "lat": 50.85464,
+  "lng": 4.32767,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Masjid An-Najah Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/346180597",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "sunni",
+    "description": "Mosquée de la communauté marocaine",
+    "name": "Masjid An-Najah",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "masjidalmoustakbal",
+  "n": "Masjid Al Moustakbal",
+  "a": "",
+  "pc": "",
+  "lat": 50.85617,
+  "lng": 4.3413,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Masjid Al Moustakbal Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/346182562",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "sunni",
+    "description": "Mosquée de la communauté marocaine",
+    "name": "Masjid Al Moustakbal",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "darulumcamiacausia",
+  "n": "Dar Ulum Camia Causia",
+  "a": "",
+  "pc": "",
+  "lat": 50.85759,
+  "lng": 4.3428,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Dar Ulum Camia Causia Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/346185661",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "sunni",
+    "description:fr": "Communauté pakistanaise",
+    "name": "Dar Ulum Camia Causia",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "archedelagloiredeleterne",
+  "n": "Arche de la gloire de l'Éternel",
+  "a": "",
+  "pc": "",
+  "lat": 50.84169,
+  "lng": 4.31818,
+  "c": "faith",
+  "s": "church",
+  "q": "Arche de la gloire de l'Éternel Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/346270002",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "evangelical",
+    "name": "Arche de la gloire de l'Éternel",
+    "place_of_worship": "church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "xhamiaebesimit",
+  "n": "Xhamia e Besimit",
+  "a": "",
+  "pc": "",
+  "lat": 50.86878,
+  "lng": 4.37528,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Xhamia e Besimit Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/346568380",
+   "raw": {
+    "alt_name": "Mosquée de la Foi",
+    "amenity": "place_of_worship",
+    "check_date": "2024-06-06",
+    "denomination": "sunni",
+    "description:fr": "Association islamique et culturelle des Albanais de Macédoine du Nord vivant en Belgique ; Mosquée de la communauté albanaise de Macédoine du Nord",
+    "name": "Xhamia e Besimit",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "masjidalabidin",
+  "n": "Masjid Al Abidin",
+  "a": "",
+  "pc": "",
+  "lat": 50.84616,
+  "lng": 4.34221,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Masjid Al Abidin Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/346650863",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2026-04-13",
+    "denomination": "sufi",
+    "description": "Mosquée de la communauté pakistanaise",
+    "name": "Masjid Al Abidin",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "masjidassounnah",
+  "n": "Masjid Assounnah",
+  "a": "",
+  "pc": "",
+  "lat": 50.84252,
+  "lng": 4.3335,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Masjid Assounnah Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/346652120",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "sunni",
+    "description": "Mosquée de la communauté marocaine",
+    "name": "Masjid Assounnah",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mosqueehamza",
+  "n": "Mosquée Hamza",
+  "a": "",
+  "pc": "",
+  "lat": 50.85375,
+  "lng": 4.34239,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Mosquée Hamza Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/346653003",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "sunni",
+    "description": "Mosquée de la communauté marocaine",
+    "name": "Mosquée Hamza",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemanova",
+  "n": "Cinéma Nova",
+  "a": "",
+  "pc": "",
+  "lat": 50.84834,
+  "lng": 4.35609,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinéma Nova Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/350654302",
+   "raw": {
+    "amenity": "cinema",
+    "check_date": "2026-06-12",
+    "drinking_water": "yes",
+    "name": "Cinéma Nova",
+    "opening_hours": "\"Open 7 days a week, hours depend on the movies\"",
+    "screen": "1",
+    "short_name": "Nova",
+    "toilets:access": "yes",
+    "website": "https://www.nova-cinema.org/",
+    "wikidata": "Q2364244",
+    "wikimedia_commons": "Category:Cinéma Nova",
+    "wikipedia": "fr:Cinéma Nova"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "felixhap",
+  "n": "Felix Hap",
+  "a": "",
+  "pc": "",
+  "lat": 50.83695,
+  "lng": 4.39094,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Felix Hap Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/351935752",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "A FELIX HAP CREATEUR ET ANIMATEUR DES OEUVRES CATHOLIQUES D'ETTERBEEK 1865-1930",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Felix Hap"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "signedelumiere",
+  "n": "Signe de lumière",
+  "a": "",
+  "pc": "",
+  "lat": 50.83865,
+  "lng": 4.36197,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Signe de lumière Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/352689083",
+   "raw": {
+    "artist:wikidata": "Q2742216",
+    "artist_name": "Jacques Moeschal",
+    "artwork_type": "sculpture",
+    "height": "14",
+    "material": "steel",
+    "name": "Signe de lumière",
+    "start_date": "1999",
+    "tourism": "artwork",
+    "wikidata": "Q107358682"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hommedelatlantidemanvana",
+  "n": "Homme de l'Atlantide - Man van Atlantis",
+  "a": "",
+  "pc": "",
+  "lat": 50.83686,
+  "lng": 4.35774,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Homme de l'Atlantide - Man van Atlantis Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/352690916",
+   "raw": {
+    "amenity": "fountain",
+    "artist:wikidata": "Q3968686",
+    "artist_name": "Luk Van Soom",
+    "artwork_type": "statue",
+    "lit": "yes",
+    "material": "bronze",
+    "name": "Homme de l'Atlantide - Man van Atlantis",
+    "name:en": "Man of Atlantis",
+    "name:fr": "Homme de l'Atlantide",
+    "name:nl": "Man van Atlantis",
+    "start_date": "2003",
+    "tourism": "artwork",
+    "wikidata": "Q90309145",
+    "wikimedia_commons": "Category:Man of Atlantis by Luk van Soom"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eglisedesreligieusesdele",
+  "n": "Église des Religieuses de l'Eucharistie",
+  "a": "",
+  "pc": "",
+  "lat": 50.80765,
+  "lng": 4.4076,
+  "c": "faith",
+  "s": "church",
+  "q": "Église des Religieuses de l'Eucharistie Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/371378979",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10f",
+    "name": "Église des Religieuses de l'Eucharistie",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lionrugissantbrullendele",
+  "n": "Lion rugissant - Brullende Leeuw",
+  "a": "",
+  "pc": "",
+  "lat": 50.84295,
+  "lng": 4.4382,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Lion rugissant - Brullende Leeuw Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/402728159",
+   "raw": {
+    "artist_name": "Raymond de Meester de Betzenbroeck",
+    "artwork_type": "statue",
+    "name": "Lion rugissant - Brullende Leeuw",
+    "name:fr": "Lion rugissant",
+    "name:nl": "Brullende Leeuw",
+    "start_date": "1958",
+    "tourism": "artwork",
+    "website": "https://www.standbeelden.be/standbeeld/941"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "korea19511953",
+  "n": "Korea 1951-1953",
+  "a": "",
+  "pc": "",
+  "lat": 50.83252,
+  "lng": 4.41867,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Korea 1951-1953 Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/417672911",
+   "raw": {
+    "artist_name": "Xavier de Crombrugghe de Schipsdaele",
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Korea 1951-1953"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "minhajulquraninternation",
+  "n": "Minhaj-ul-Quran International Belgium (Brussels)",
+  "a": "",
+  "pc": "",
+  "lat": 50.83663,
+  "lng": 4.33174,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Minhaj-ul-Quran International Belgium (Brussels) Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/417830048",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "sufi",
+    "description": "Mosque of the Pakistanese community",
+    "description:fr": "Mosquée de la communauté pakistanaise",
+    "description:nl": "Moskee van de Pakistaanse gemeenschap",
+    "name": "Minhaj-ul-Quran International Belgium (Brussels)",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mosqueeelghofrane",
+  "n": "Mosquée El Ghofrane",
+  "a": "",
+  "pc": "",
+  "lat": 50.84302,
+  "lng": 4.31274,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Mosquée El Ghofrane Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/427873053",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "sunni",
+    "description": "Mosquée de la communauté marocaine",
+    "name": "Mosquée El Ghofrane",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mosqueeattawba",
+  "n": "Mosquée Attawba",
+  "a": "",
+  "pc": "",
+  "lat": 50.87621,
+  "lng": 4.39858,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Mosquée Attawba Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/427874121",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "sunni",
+    "name": "Mosquée Attawba",
+    "operator": "Communauté Marocaine",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mosqueealfath",
+  "n": "Mosquée Al Fath",
+  "a": "",
+  "pc": "",
+  "lat": 50.84552,
+  "lng": 4.33331,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Mosquée Al Fath Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/427877506",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "sunni",
+    "description": "Communauté marocaine",
+    "name": "Mosquée Al Fath",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mosqueeelmouhagirine",
+  "n": "Mosquée El Mouhagirine",
+  "a": "",
+  "pc": "",
+  "lat": 50.83106,
+  "lng": 4.37352,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Mosquée El Mouhagirine Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/427878637",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "sunni",
+    "description": "Mosquée de la communauté marocaine",
+    "name": "Mosquée El Mouhagirine",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mevlanacami",
+  "n": "Mevlana Cami",
+  "a": "",
+  "pc": "",
+  "lat": 50.85789,
+  "lng": 4.33927,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Mevlana Cami Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/427880607",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "sunni",
+    "description": "Communauté turque",
+    "name": "Mevlana Cami",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ahavathreimbeititshak",
+  "n": "Ahavath Reïm - Beit Itshak",
+  "a": "",
+  "pc": "",
+  "lat": 50.82724,
+  "lng": 4.33397,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Ahavath Reïm - Beit Itshak Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/427981827",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Ahavath Reïm - Beit Itshak",
+    "place_of_worship": "temple",
+    "religion": "jewish"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bangladeshislamiccultura",
+  "n": "Bangladesh Islamic Cultural Centre",
+  "a": "",
+  "pc": "",
+  "lat": 50.83582,
+  "lng": 4.37831,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Bangladesh Islamic Cultural Centre Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/470962226",
+   "raw": {
+    "amenity": "place_of_worship",
+    "changing_table": "no",
+    "check_date": "2026-03-28",
+    "denomination": "sunni",
+    "description": "Mosque for the Bangladeshi community",
+    "description:fr": "Mosquée de la communauté bangladaise",
+    "entrance:kerb:height": "0.19",
+    "entrance:ramp": "no",
+    "entrance:step_count": "1",
+    "entrance:width": "0.93",
+    "name": "Bangladesh Islamic Cultural Centre",
+    "religion": "muslim",
+    "wheelchair:turning_circle": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tombedusoldatinconnugraf",
+  "n": "Tombe du Soldat inconnu - Graf van de Onbekende Soldaat",
+  "a": "",
+  "pc": "",
+  "lat": 50.85009,
+  "lng": 4.36358,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Tombe du Soldat inconnu - Graf van de Onbekende Soldaat Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/475214139",
+   "raw": {
+    "access": "yes",
+    "historic": "memorial",
+    "man_made": "tomb",
+    "material": "stone",
+    "memorial": "war_memorial",
+    "name": "Tombe du Soldat inconnu - Graf van de Onbekende Soldaat",
+    "name:de": "Grab des unbekannten Soldaten",
+    "name:en": "Tomb of the Unknown Soldier",
+    "name:fr": "Tombe du Soldat inconnu",
+    "name:nl": "Graf van de Onbekende Soldaat",
+    "start_date": "1922-11-11",
+    "tomb": "war_grave",
+    "wikidata": "Q2751486",
+    "wikimedia_commons": "Category:Tomb of the Unknown Soldier in Brussels",
+    "wikipedia": "nl:Graf van de onbekende soldaat (Brussel)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sintaloysiusvangonzagake",
+  "n": "Sint-Aloysius van Gonzagakerk",
+  "a": "",
+  "pc": "",
+  "lat": 50.90636,
+  "lng": 4.38064,
+  "c": "faith",
+  "s": "church",
+  "q": "Sint-Aloysius van Gonzagakerk Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/599605649",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Sint-Aloysius van Gonzagakerk",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bornedecharlesquint",
+  "n": "Borne de Charles Quint",
+  "a": "",
+  "pc": "",
+  "lat": 50.78851,
+  "lng": 4.38605,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Borne de Charles Quint Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/660604408",
+   "raw": {
+    "historic": "boundary_stone",
+    "name": "Borne de Charles Quint"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chapellesaintmichelsintm",
+  "n": "Chapelle Saint-Michel - Sint-Michielskapel",
+  "a": "",
+  "pc": "",
+  "lat": 50.85005,
+  "lng": 4.38144,
+  "c": "faith",
+  "s": "church",
+  "q": "Chapelle Saint-Michel - Sint-Michielskapel Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/685975516",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Chapelle Saint-Michel - Sint-Michielskapel",
+    "name:fr": "Chapelle Saint-Michel",
+    "name:nl": "Sint-Michielskapel",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "labrabanconne",
+  "n": "La Brabançonne",
+  "a": "",
+  "pc": "",
+  "lat": 50.84894,
+  "lng": 4.36833,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "La Brabançonne Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/712975952",
+   "raw": {
+    "artist_name": "Charles Samuel",
+    "artwork_type": "sculpture",
+    "historic": "memorial",
+    "layer": "1",
+    "memorial": "statue",
+    "name": "La Brabançonne",
+    "start_date": "1930-11-16",
+    "tourism": "artwork",
+    "wikidata": "Q16677912",
+    "wikimedia_commons": "File:'La Brabançonne' (15607113426).jpg",
+    "wikipedia": "fr:Statue de la Brabançonne"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museebruxelloisdelagueuz",
+  "n": "Musée Bruxellois de la Gueuze - Brussels Museum van de Geuze",
+  "a": "",
+  "pc": "",
+  "lat": 50.84155,
+  "lng": 4.3358,
+  "c": "museum",
+  "s": "museum",
+  "q": "Musée Bruxellois de la Gueuze - Brussels Museum van de Geuze Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/789296064",
+   "raw": {
+    "contact:website": "https://www.cantillon.be/",
+    "fee": "yes",
+    "name": "Musée Bruxellois de la Gueuze - Brussels Museum van de Geuze",
+    "name:en": "Museum of the Gueuze",
+    "name:fr": "Musée Bruxellois de la Gueuze",
+    "name:nl": "Brussels Museum van de Geuze",
+    "opening_hours": "Mo-Sa 10:00-17:00",
+    "opening_hours:covid19": "off",
+    "start_date": "1978",
+    "tourism": "museum",
+    "wikidata": "Q2776372",
+    "wikipedia": "nl:Brussels Museum van de Geuze"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "centreevangelique",
+  "n": "Centre évangélique",
+  "a": "",
+  "pc": "",
+  "lat": 50.81923,
+  "lng": 4.32528,
+  "c": "faith",
+  "s": "church",
+  "q": "Centre évangélique Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/826789096",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "evangelical",
+    "name": "Centre évangélique",
+    "place_of_worship": "church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "desmetdenaeyer",
+  "n": "De Smet de Naeyer",
+  "a": "",
+  "pc": "",
+  "lat": 50.83505,
+  "lng": 4.35227,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "De Smet de Naeyer Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1012474434",
+   "raw": {
+    "architect": "Joseph Van Neck",
+    "artist_name": "Charles Samuel",
+    "artwork_type": "statue",
+    "historic": "monument",
+    "inscription:fr": "Aux victimes du premier navire- école belge — 19 avril 1906",
+    "marble": "Carrara",
+    "material": "stone",
+    "name": "De Smet de Naeyer",
+    "start_date": "1912-07-21",
+    "stone": "marble",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lesjoiesduprintemps",
+  "n": "Les joies du Printemps",
+  "a": "",
+  "pc": "",
+  "lat": 50.85015,
+  "lng": 4.39398,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Les joies du Printemps Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1153783088",
+   "raw": {
+    "artist:wikidata": "Q13454338",
+    "artist:wikipedia": "fr:Eugène Canneel",
+    "artist_name": "Eugène Canneel",
+    "artwork_type": "sculpture",
+    "name": "Les joies du Printemps",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "anosheros19141918et19401",
+  "n": "À nos héros (1914-1918 et 1940-1945) - Aan onze helden (1914-1918 en 1940-1945)",
+  "a": "",
+  "pc": "",
+  "lat": 50.83512,
+  "lng": 4.30689,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "À nos héros (1914-1918 et 1940-1945) - Aan onze helden (1914-1918 en 1940-1945) Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1321547202",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "À nos héros (1914-1918 et 1940-1945) - Aan onze helden (1914-1918 en 1940-1945)",
+    "name:fr": "À nos héros (1914-1918 et 1940-1945)",
+    "name:nl": "Aan onze helden (1914-1918 en 1940-1945)",
+    "wikidata": "Q66970688"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dallecommemorativeauxvic",
+  "n": "Dalle commémorative aux victimes de la misère - Gedenksteen ter ere van slachtoffers van honger, onwetendheid en geweld",
+  "a": "",
+  "pc": "",
+  "lat": 50.84064,
+  "lng": 4.37483,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Dalle commémorative aux victimes de la misère - Gedenksteen ter ere van slachtoffers van honger, onwetendheid en geweld Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1333616591",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Dalle commémorative aux victimes de la misère - Gedenksteen ter ere van slachtoffers van honger, onwetendheid en geweld",
+    "name:de": "Gedenkstein an die Opfer von Hunger, Unwissenheit, Gewalt und Elend",
+    "name:fr": "Dalle commémorative aux victimes de la misère",
+    "name:nl": "Gedenksteen ter ere van slachtoffers van honger, onwetendheid en geweld",
+    "source": "https://www.joseph-wresinski.org/nl/oproep-17-oktober-1987-gegraveerd-in-steen/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zebra",
+  "n": "Zebra",
+  "a": "",
+  "pc": "",
+  "lat": 50.83641,
+  "lng": 4.33537,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Zebra Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1401273971",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Zebra",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lesateliersdestanneurs",
+  "n": "Les ateliers des tanneurs",
+  "a": "",
+  "pc": "",
+  "lat": 50.83984,
+  "lng": 4.34656,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Les ateliers des tanneurs Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1401273972",
+   "raw": {
+    "fee": "no",
+    "name": "Les ateliers des tanneurs",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "constellationsdesterrenb",
+  "n": "Constellations - De Sterrenbeelden",
+  "a": "",
+  "pc": "",
+  "lat": 50.85055,
+  "lng": 4.41387,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Constellations - De Sterrenbeelden Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1406287018",
+   "raw": {
+    "artist_name": "Pierre Bertrand",
+    "artwork_type": "sculpture",
+    "name": "Constellations - De Sterrenbeelden",
+    "name:fr": "Constellations",
+    "name:nl": "De Sterrenbeelden",
+    "start_date": "1958",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aanonzehelden",
+  "n": "Aan Onze Helden",
+  "a": "",
+  "pc": "",
+  "lat": 50.89275,
+  "lng": 4.43988,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Aan Onze Helden Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1422893933",
+   "raw": {
+    "historic": "memorial",
+    "name": "Aan Onze Helden",
+    "subject:wikidata": "Q111621247"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "1830",
+  "n": "1830",
+  "a": "",
+  "pc": "",
+  "lat": 50.84678,
+  "lng": 4.35399,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "1830 Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1457735928",
+   "raw": {
+    "historic": "memorial",
+    "inscription:fr": "Le 26 août 1830 Mme Abts confectionna ici les 2 premiers drapeaux belges",
+    "inscription:nl": "Den 26te augustus 1830 vervaardigde Mevr Abts alhier de 2 eerste Belgische vlaggen",
+    "material": "bronze",
+    "memorial": "plaque",
+    "name": "1830",
+    "subject:wikidata": "Q2673194",
+    "subject:wikipedia": "en:Marie Abts-Ermens",
+    "wikimedia_commons": "Category:Madame Abts memorial"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "leopoldiileopoldii",
+  "n": "Léopold II - Leopold II",
+  "a": "",
+  "pc": "",
+  "lat": 50.84046,
+  "lng": 4.36438,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Léopold II - Leopold II Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1466434381",
+   "raw": {
+    "artist:wikidata": "Q2483743",
+    "artist_name": "Thomas Vinçotte",
+    "artwork_type": "statue",
+    "description:fr": "Statue équestre du Roi Léopold II",
+    "historic": "memorial",
+    "inscription": "LEOPOLDO▴Ⅱ REGI▴BELGARVM 1865▴1909 PATRIA MEMOR",
+    "layer": "1",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Léopold II - Leopold II",
+    "name:de": "Leopold II.",
+    "name:en": "Leopold II",
+    "name:fr": "Léopold II",
+    "name:la": "Leopoldo II",
+    "name:nl": "Leopold II",
+    "start_date": "1926",
+    "subject:wikidata": "Q12967",
+    "tourism": "artwork",
+    "wikidata": "Q16038727",
+    "wikimedia_commons": "Category:Equestrian Statue of Leopold II (Brussels)",
+    "wikipedia": "fr:Statue équestre de Léopold II"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "phoenix44",
+  "n": "Phoenix 44",
+  "a": "",
+  "pc": "",
+  "lat": 50.82124,
+  "lng": 4.37034,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Phoenix 44 Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1486032534",
+   "raw": {
+    "artist:wikidata": "Q2532822",
+    "artist:wikipedia": "fr:Olivier Strebelle",
+    "artist_name": "Olivier Strebelle",
+    "artwork_type": "sculpture",
+    "name": "Phoenix 44",
+    "tourism": "artwork",
+    "wikidata": "Q55122440",
+    "wikipedia": "fr:Phénix 44"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hetzinneke",
+  "n": "Het Zinneke",
+  "a": "",
+  "pc": "",
+  "lat": 50.84878,
+  "lng": 4.34566,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Het Zinneke Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1490475849",
+   "raw": {
+    "alt_name": "Zinneke-Pis",
+    "artist:wikidata": "Q24690743",
+    "artist_name": "Tom Frantzen",
+    "artwork_type": "statue",
+    "disused:amenity": "fountain",
+    "lit": "yes",
+    "material": "bronze",
+    "name": "Het Zinneke",
+    "name:ru": "Писающая собачка",
+    "panoramax": "f3e2e667-dd81-49d1-b12d-17b1691974f5",
+    "start_date": "1999",
+    "tourism": "artwork",
+    "wikidata": "Q205064",
+    "wikimedia_commons": "Category:Het Zinneke",
+    "wikipedia": "en:Het Zinneke"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lesingedeaap",
+  "n": "Le Singe - De Aap",
+  "a": "",
+  "pc": "",
+  "lat": 50.83834,
+  "lng": 4.35053,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Le Singe - De Aap Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1504407912",
+   "raw": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "artwork_type": "sculpture",
+    "bottle": "yes",
+    "fee": "no",
+    "maintenance": "ok",
+    "man_made": "water_tap",
+    "material": "bronze",
+    "name": "Le Singe - De Aap",
+    "name:fr": "Le Singe",
+    "name:nl": "De Aap",
+    "source:pkey": "1191",
+    "tourism": "artwork",
+    "wikidata": "Q107392908",
+    "wikimedia_commons": "Category:De aap / Le singe"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lescommeresderoddelaars",
+  "n": "Les Commères - De Roddelaars",
+  "a": "",
+  "pc": "",
+  "lat": 50.83732,
+  "lng": 4.34696,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Les Commères - De Roddelaars Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1504407913",
+   "raw": {
+    "access": "yes",
+    "amenity": "drinking_water",
+    "artist:wikidata": "Q126548787",
+    "artist_name": "Jean Roig",
+    "artwork_type": "sculpture",
+    "bottle": "yes",
+    "covered": "no",
+    "fee": "no",
+    "fountain": "drinking",
+    "mapillary": "1857965777699598",
+    "mapillary_url": "http://www.mapillary.com/map/im/zsOUp9oSv8WiiF_zcTPWXQ/photo",
+    "material": "bronze",
+    "name": "Les Commères - De Roddelaars",
+    "name:de": "Die Klatschtanten",
+    "name:en": "The Gossipers",
+    "name:fr": "Les Commères",
+    "name:la": "Famae",
+    "name:nl": "De Roddelaars",
+    "tourism": "artwork",
+    "wikidata": "Q107392904"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "larche",
+  "n": "L'Arche",
+  "a": "",
+  "pc": "",
+  "lat": 50.83119,
+  "lng": 4.36864,
+  "c": "streetart",
+  "s": "mural",
+  "q": "L'Arche Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1511392162",
+   "raw": {
+    "artist:wikidata": "Q1451193;Q50556420",
+    "artist_name": "François Schuiten;Alexandre Obolensky",
+    "artwork_type": "mural",
+    "name": "L'Arche",
+    "start_date": "2013",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oudstrijdersmonument",
+  "n": "Oudstrijders Monument",
+  "a": "",
+  "pc": "",
+  "lat": 50.91277,
+  "lng": 4.4406,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Oudstrijders Monument Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1547624015",
+   "raw": {
+    "historic": "memorial",
+    "name": "Oudstrijders Monument"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kasteelpellenberg",
+  "n": "Kasteel Pellenberg",
+  "a": "",
+  "pc": "",
+  "lat": 50.91489,
+  "lng": 4.43508,
+  "c": "medieval",
+  "s": "medieval site",
+  "q": "Kasteel Pellenberg Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1548448314",
+   "raw": {
+    "addr:city": "Machelen",
+    "addr:housenumber": "43",
+    "addr:postcode": "1830",
+    "addr:street": "Vilvoordelaan",
+    "historic": "castle",
+    "name": "Kasteel Pellenberg"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "koningalberti",
+  "n": "Koning Albert I",
+  "a": "",
+  "pc": "",
+  "lat": 50.80556,
+  "lng": 4.28427,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Koning Albert I Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1612018821",
+   "raw": {
+    "historic": "memorial",
+    "name": "Koning Albert I"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lapatrouilledescastorsde",
+  "n": "La patrouille des Castors - De Beverpatroelje",
+  "a": "",
+  "pc": "",
+  "lat": 50.83556,
+  "lng": 4.34494,
+  "c": "streetart",
+  "s": "mural",
+  "q": "La patrouille des Castors - De Beverpatroelje Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859134",
+   "raw": {
+    "artist_name": "Mitacq",
+    "artwork_type": "mural",
+    "image": "https://commons.wikimedia.org/wiki/File:De_Beverpatroelje.jpg",
+    "name": "La patrouille des Castors - De Beverpatroelje",
+    "name:fr": "La patrouille des Castors",
+    "name:nl": "De Beverpatroelje",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/la-patrouille-castors/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lechatdekat",
+  "n": "Le Chat - De Kat",
+  "a": "",
+  "pc": "",
+  "lat": 50.83774,
+  "lng": 4.34206,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Le Chat - De Kat Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859160",
+   "raw": {
+    "artist:wikidata": "Q2264505",
+    "artist_name": "Philippe Geluck",
+    "artwork_type": "mural",
+    "name": "Le Chat - De Kat",
+    "name:fr": "Le Chat",
+    "name:nl": "De Kat",
+    "panoramax": "096ee942-52b8-40d7-b181-b38c170dcafe",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/le-chat/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blondinetcirageblondieen",
+  "n": "Blondin et Cirage - Blondie en Blinkie",
+  "a": "",
+  "pc": "",
+  "lat": 50.83841,
+  "lng": 4.3465,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Blondin et Cirage - Blondie en Blinkie Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859163",
+   "raw": {
+    "artist_name": "Jijé",
+    "artwork_type": "mural",
+    "name": "Blondin et Cirage - Blondie en Blinkie",
+    "name:fr": "Blondin et Cirage",
+    "name:nl": "Blondie en Blinkie",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/blondin-et-cirage/",
+    "wikimedia_commons": "File:Blondie en Blinkie.JPG"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "xiii",
+  "n": "XIII",
+  "a": "",
+  "pc": "",
+  "lat": 50.84316,
+  "lng": 4.34826,
+  "c": "streetart",
+  "s": "mural",
+  "q": "XIII Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859204",
+   "raw": {
+    "artist_name": "William Vance;Jean Van Hamme",
+    "artwork_type": "mural",
+    "name": "XIII",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/xiii/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "quartierimaginaire",
+  "n": "Quartier Imaginaire",
+  "a": "",
+  "pc": "",
+  "lat": 50.84434,
+  "lng": 4.34375,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Quartier Imaginaire Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859229",
+   "raw": {
+    "artist_name": "Defo 84;Shake",
+    "artwork_type": "mural",
+    "name": "Quartier Imaginaire",
+    "start_date": "2016",
+    "tourism": "artwork",
+    "was:artist_name": "Will",
+    "was:name": "Isabelle et Calendula",
+    "was:wikimedia_commons": "File:Stripmuur_Isabel_bis.jpg",
+    "website": "https://parcoursstreetart.brussels/oeuvres/defo-84-shake-rue-de-la-verdure-13-1000-bruxelles/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "richochetrikringers",
+  "n": "Ric Hochet - Rik Ringers",
+  "a": "",
+  "pc": "",
+  "lat": 50.84596,
+  "lng": 4.34787,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Ric Hochet - Rik Ringers Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859240",
+   "raw": {
+    "artist_name": "Tibet;André-Paul Duchâteau",
+    "artwork_type": "mural",
+    "name": "Ric Hochet - Rik Ringers",
+    "name:fr": "Ric Hochet",
+    "name:nl": "Rik Ringers",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/ric-hochet/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lepassagededoorgang",
+  "n": "Le Passage - De Doorgang",
+  "a": "",
+  "pc": "",
+  "lat": 50.84648,
+  "lng": 4.35041,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Le Passage - De Doorgang Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859249",
+   "raw": {
+    "artist_name": "François Schuiten",
+    "artwork_type": "mural",
+    "image": "https://commons.wikimedia.org/wiki/File:Doorgang.jpg",
+    "name": "Le Passage - De Doorgang",
+    "name:fr": "Le Passage",
+    "name:nl": "De Doorgang",
+    "title": "Le Passage",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/le-passage/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "luckyluke",
+  "n": "Lucky Luke",
+  "a": "",
+  "pc": "",
+  "lat": 50.84744,
+  "lng": 4.34136,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Lucky Luke Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859262",
+   "raw": {
+    "artist_name": "Morris;René Goscinny",
+    "artwork_type": "mural",
+    "name": "Lucky Luke",
+    "panoramax": "45618b30-db03-4cf9-be5c-297481ff3fca",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/lucky-luke/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "neronnero",
+  "n": "Néron - Nero",
+  "a": "",
+  "pc": "",
+  "lat": 50.84785,
+  "lng": 4.34685,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Néron - Nero Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859265",
+   "raw": {
+    "artist_name": "Marc Sleen",
+    "artwork_type": "mural",
+    "name": "Néron - Nero",
+    "name:fr": "Néron",
+    "name:nl": "Nero",
+    "panoramax": "a9f881c3-9f3a-403f-bc1c-919a2a217464",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/neron/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lescorpiondeschorpioen",
+  "n": "Le Scorpion - De Schorpioen",
+  "a": "",
+  "pc": "",
+  "lat": 50.84769,
+  "lng": 4.36181,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Le Scorpion - De Schorpioen Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859268",
+   "raw": {
+    "artist_name": "Enrico Marini;Stephen Desberg",
+    "artwork_type": "mural",
+    "mapillary": "197881732154014",
+    "name": "Le Scorpion - De Schorpioen",
+    "name:fr": "Le Scorpion",
+    "name:nl": "De Schorpioen",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/le-scorpion/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "corilemoussailloncorides",
+  "n": "Cori le Moussaillon - Cori de Scheepsjongen",
+  "a": "",
+  "pc": "",
+  "lat": 50.84868,
+  "lng": 4.34147,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Cori le Moussaillon - Cori de Scheepsjongen Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859273",
+   "raw": {
+    "artist_name": "Bob de Moor",
+    "artwork_type": "mural",
+    "name": "Cori le Moussaillon - Cori de Scheepsjongen",
+    "name:fr": "Cori le Moussaillon",
+    "name:nl": "Cori de Scheepsjongen",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/cori-le-moussaillon/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "carolinebaldwin",
+  "n": "Caroline Baldwin",
+  "a": "",
+  "pc": "",
+  "lat": 50.84886,
+  "lng": 4.33874,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Caroline Baldwin Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859277",
+   "raw": {
+    "artist:wikidata": "Q2848686;Q2927018",
+    "artist_name": "André Taymans;Bruno Wesel",
+    "artwork_type": "mural",
+    "name": "Caroline Baldwin",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/caroline-baldwin/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lavachedekoe",
+  "n": "La Vache - De Koe",
+  "a": "",
+  "pc": "",
+  "lat": 50.85289,
+  "lng": 4.35823,
+  "c": "streetart",
+  "s": "mural",
+  "q": "La Vache - De Koe Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859307",
+   "raw": {
+    "artist_name": "Johan de Moor;Stephen Desberg",
+    "artwork_type": "mural",
+    "name": "La Vache - De Koe",
+    "name:fr": "La Vache",
+    "name:nl": "De Koe",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/la-vache/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cortomaltese",
+  "n": "Corto Maltese",
+  "a": "",
+  "pc": "",
+  "lat": 50.86103,
+  "lng": 4.34912,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Corto Maltese Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859321",
+   "raw": {
+    "artist:wikidata": "Q12113",
+    "artist_name": "Hugo Pratt",
+    "artwork_type": "mural",
+    "name": "Corto Maltese",
+    "start_date": "2009",
+    "subject:wikidata": "Q12116",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/corto-maltes/",
+    "wikidata": "Q122182938",
+    "wikimedia_commons": "Category:Mural of Corto Maltese"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "martinetiny",
+  "n": "Martine - Tiny",
+  "a": "",
+  "pc": "",
+  "lat": 50.87621,
+  "lng": 4.35788,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Martine - Tiny Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859328",
+   "raw": {
+    "artist_name": "Marc Marlier;Gilbert Delahaye",
+    "artwork_type": "mural",
+    "mapillary": "298450051760760",
+    "name": "Martine - Tiny",
+    "name:fr": "Martine",
+    "name:nl": "Tiny",
+    "start_date": "2004",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/martine/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "giljourdanguusslim",
+  "n": "Gil Jourdan - Guus Slim",
+  "a": "",
+  "pc": "",
+  "lat": 50.8772,
+  "lng": 4.34438,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Gil Jourdan - Guus Slim Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859338",
+   "raw": {
+    "artist_name": "Maurice Tilleux",
+    "artwork_type": "mural",
+    "name": "Gil Jourdan - Guus Slim",
+    "name:fr": "Gil Jourdan",
+    "name:nl": "Guus Slim",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/gil-jourdan/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "natacha",
+  "n": "Natacha",
+  "a": "",
+  "pc": "",
+  "lat": 50.87882,
+  "lng": 4.34679,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Natacha Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859349",
+   "raw": {
+    "artist_name": "François Walthéry",
+    "artwork_type": "mural",
+    "name": "Natacha",
+    "panoramax": "4387f5cc-7b5d-4db4-81ca-258fee1f7a85",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/natacha/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dekiekeboes",
+  "n": "De Kiekeboes",
+  "a": "",
+  "pc": "",
+  "lat": 50.89374,
+  "lng": 4.35155,
+  "c": "streetart",
+  "s": "mural",
+  "q": "De Kiekeboes Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859356",
+   "raw": {
+    "artist:wikidata": "Q726935",
+    "artist_name": "Merho",
+    "artwork_type": "mural",
+    "mapillary": "928161054697093",
+    "name": "De Kiekeboes",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/de-kiekeboes/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lepetitspiroudekleinerob",
+  "n": "Le Petit Spirou - De kleine Robbe",
+  "a": "",
+  "pc": "",
+  "lat": 50.89492,
+  "lng": 4.33814,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Le Petit Spirou - De kleine Robbe Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650859361",
+   "raw": {
+    "artist_name": "Tome & Janry",
+    "artwork_type": "mural",
+    "name": "Le Petit Spirou - De kleine Robbe",
+    "name:fr": "Le Petit Spirou",
+    "name:nl": "De kleine Robbe",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/le-petit-spirou/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lutteequestreruiterstrij",
+  "n": "Lutte équestre - Ruiterstrijd",
+  "a": "",
+  "pc": "",
+  "lat": 50.81478,
+  "lng": 4.37206,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Lutte équestre - Ruiterstrijd Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1739540047",
+   "raw": {
+    "artist_name": "Jacques de Lalaing",
+    "artwork_type": "sculpture",
+    "name": "Lutte équestre - Ruiterstrijd",
+    "name:fr": "Lutte équestre",
+    "name:nl": "Ruiterstrijd",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:La Lutte équestre by Jacques de Lalaing.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentdugeniemonumentv",
+  "n": "Monument du Génie - Monument van de Genie",
+  "a": "",
+  "pc": "",
+  "lat": 50.84604,
+  "lng": 4.40471,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monument du Génie - Monument van de Genie Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1836246802",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "memorial:conflict": "WW1",
+    "name": "Monument du Génie - Monument van de Genie",
+    "name:fr": "Monument du Génie",
+    "name:nl": "Monument van de Genie"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "loreilletourbillonnantew",
+  "n": "L'Oreille Tourbillonnante - Wervelend Oor",
+  "a": "",
+  "pc": "",
+  "lat": 50.84313,
+  "lng": 4.35811,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "L'Oreille Tourbillonnante - Wervelend Oor Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1905827466",
+   "raw": {
+    "artist:wikidata": "Q151580",
+    "artist_name": "Alexander Calder",
+    "artwork_type": "sculpture",
+    "mapillary": "457564878880897",
+    "name": "L'Oreille Tourbillonnante - Wervelend Oor",
+    "name:de": "Das wirbelnde Ohr",
+    "name:en": "The Whirling Ear",
+    "name:fr": "L'Oreille Tourbillonnante",
+    "name:nl": "Wervelend Oor",
+    "tourism": "artwork",
+    "wikidata": "Q55123016",
+    "wikimedia_commons": "Category:The Whirling Ear",
+    "wikipedia": "en:The Whirling Ear"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "elmouahhidine",
+  "n": "El Mouahhidine",
+  "a": "",
+  "pc": "",
+  "lat": 50.87252,
+  "lng": 4.35357,
+  "c": "faith",
+  "s": "mosque",
+  "q": "El Mouahhidine Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2232155556",
+   "raw": {
+    "amenity": "place_of_worship",
+    "contact:phone": "+32 2 426 10 40",
+    "contact:website": "http://elmouahidine.be/",
+    "denomination": "sunni",
+    "description": "Mosquée de la communauté marocaine",
+    "name": "El Mouahhidine",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ledestin",
+  "n": "Le Destin",
+  "a": "",
+  "pc": "",
+  "lat": 50.81939,
+  "lng": 4.35374,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Le Destin Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2269194594",
+   "raw": {
+    "artwork_type": "statue",
+    "author": "Henri Boncquet (1868-1908)",
+    "name": "Le Destin",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lessoucisdomestiques",
+  "n": "Les Soucis Domestiques",
+  "a": "",
+  "pc": "",
+  "lat": 50.79864,
+  "lng": 4.41942,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Les Soucis Domestiques Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2279446219",
+   "raw": {
+    "artist_name": "Rik Wouters",
+    "artwork_type": "sculpture",
+    "description": "« Les Soucis domestiques » est une œuvre du sculpteur et peintre Rik Wouters. La dernière sculpture monumentale de Rik Wouters représente sa femme Nel. Conçue plus grande que nature, elle ne fut coulée qu’en douze exemplaires en bronze.",
+    "mapillary": "976732383277233",
+    "material": "bronze",
+    "name": "Les Soucis Domestiques",
+    "start_date": "1913",
+    "tourism": "artwork",
+    "website": "https://be-monumen.be/patrimoine-belge/les-soucis-domestiques-watermael-boitsfort/",
+    "wikimedia_commons": "File:Les soucis domestiques - Huiselijke zorgen by Rik Wouters 02.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentauxaviateursetae",
+  "n": "Monument aux aviateurs et aérostiers tombés pendant la guerre - Monument voor tijdens de oorlog gesneuvelde vliegeniers en luchtschippers",
+  "a": "",
+  "pc": "",
+  "lat": 50.81485,
+  "lng": 4.37694,
+  "c": "death",
+  "s": "historic tomb",
+  "q": "Monument aux aviateurs et aérostiers tombés pendant la guerre - Monument voor tijdens de oorlog gesneuvelde vliegeniers en luchtschippers Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2281370430",
+   "raw": {
+    "access": "yes",
+    "historic": "memorial",
+    "inscription": "Aux\nHeros de l'Air\n1914 - 1918\nAan de Helden\nvan de\nLuchtvaart",
+    "memorial": "war_memorial",
+    "name": "Monument aux aviateurs et aérostiers tombés pendant la guerre - Monument voor tijdens de oorlog gesneuvelde vliegeniers en luchtschippers",
+    "name:fr": "Monument aux aviateurs et aérostiers tombés pendant la guerre",
+    "name:nl": "Monument voor tijdens de oorlog gesneuvelde vliegeniers en luchtschippers"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lavieillefontainedeoudef",
+  "n": "La Vieille Fontaine - De oude fontein",
+  "a": "",
+  "pc": "",
+  "lat": 50.81824,
+  "lng": 4.36288,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "La Vieille Fontaine - De oude fontein Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2281375142",
+   "raw": {
+    "artist_name": "Isidore De Rudder",
+    "artwork_type": "sculpture",
+    "name": "La Vieille Fontaine - De oude fontein",
+    "name:fr": "La Vieille Fontaine",
+    "name:nl": "De oude fontein",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ledompteurdechevaux",
+  "n": "Le Dompteur de Chevaux",
+  "a": "",
+  "pc": "",
+  "lat": 50.81672,
+  "lng": 4.37554,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Le Dompteur de Chevaux Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2287288853",
+   "raw": {
+    "architect": "Edmond Le Graive",
+    "artist_name": "Thomas Vinçotte",
+    "artwork_type": "sculpture",
+    "material": "bronze",
+    "name": "Le Dompteur de Chevaux",
+    "source:url": "http://www.irismonument.be/fr.Bruxelles_Extension_Sud.Avenue_Emile_De_Mot.A001.html",
+    "tourism": "artwork",
+    "year": "1885"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chapellenotredamedefatim",
+  "n": "Chapelle Notre-Dame de Fatima - Onze-Lieve-Vrouw van Fatimakapel",
+  "a": "",
+  "pc": "",
+  "lat": 50.81626,
+  "lng": 4.36608,
+  "c": "faith",
+  "s": "church",
+  "q": "Chapelle Notre-Dame de Fatima - Onze-Lieve-Vrouw van Fatimakapel Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2323689443",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Chapelle Notre-Dame de Fatima - Onze-Lieve-Vrouw van Fatimakapel",
+    "name:fr": "Chapelle Notre-Dame de Fatima",
+    "name:nl": "Onze-Lieve-Vrouw van Fatimakapel",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lefell",
+  "n": "Le Fell",
+  "a": "",
+  "pc": "",
+  "lat": 50.84425,
+  "lng": 4.35308,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Le Fell Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2334478358",
+   "raw": {
+    "check_date": "2026-02-21",
+    "check_date:opening_hours": "2026-02-21",
+    "contact:phone": "+32 2 380 99 19",
+    "name": "Le Fell",
+    "opening_hours": "Tu-Sa 10:30-18:30",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museedelapoliceintegreem",
+  "n": "Musée de la Police Intégrée - Museum van de Geïntegreerde Politie",
+  "a": "",
+  "pc": "",
+  "lat": 50.82668,
+  "lng": 4.39107,
+  "c": "museum",
+  "s": "museum",
+  "q": "Musée de la Police Intégrée - Museum van de Geïntegreerde Politie Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2351112587",
+   "raw": {
+    "contact:website": "https://www.visit.brussels/fr/visiteurs/venue-details.Musee-de-la-police-integree.245012",
+    "fee": "yes",
+    "name": "Musée de la Police Intégrée - Museum van de Geïntegreerde Politie",
+    "name:fr": "Musée de la Police Intégrée",
+    "name:nl": "Museum van de Geïntegreerde Politie",
+    "note": "Closed for major renovation, expecting re-opening 2028",
+    "opening_hours": "off",
+    "opening_hours:signed": "no",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "grafik",
+  "n": "Grafik",
+  "a": "",
+  "pc": "",
+  "lat": 50.86396,
+  "lng": 4.37533,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Grafik Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2360982309",
+   "raw": {
+    "books": "graphic_novel",
+    "contact:email": "hello@grafik.brussels",
+    "contact:website": "https://www.grafik.brussels/",
+    "craft": "handicraft",
+    "fee": "no",
+    "name": "Grafik",
+    "opening_hours": "We-Su 14:00-18:00; PH open",
+    "operator": "Leticia Serre",
+    "shop": "art",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "brusselsmandir",
+  "n": "Brussels Mandir",
+  "a": "",
+  "pc": "",
+  "lat": 50.85489,
+  "lng": 4.41604,
+  "c": "faith",
+  "s": "temple",
+  "q": "Brussels Mandir Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2380906222",
+   "raw": {
+    "amenity": "place_of_worship",
+    "contact:email": "iccbrussels@gmail.com;brusselsmandir@gmail.com",
+    "contact:facebook": "https://www.facebook.com/BrusselsMandir",
+    "contact:mobile": "+32 476 70 02 42",
+    "contact:website": "https://www.brusselsmandir.com/",
+    "contact:youtube": "https://www.youtube.com/channel/UCbKHx2wykTTqqf7PCgMC2NA",
+    "name": "Brussels Mandir",
+    "place_of_worship": "temple",
+    "religion": "hindu"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museedechinedesmissionna",
+  "n": "Musée de Chine des Missionnaires de Scheut - Chinamuseum",
+  "a": "",
+  "pc": "",
+  "lat": 50.84702,
+  "lng": 4.30565,
+  "c": "museum",
+  "s": "museum",
+  "q": "Musée de Chine des Missionnaires de Scheut - Chinamuseum Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2430169328",
+   "raw": {
+    "fee": "no",
+    "name": "Musée de Chine des Missionnaires de Scheut - Chinamuseum",
+    "name:fr": "Musée de Chine des Missionnaires de Scheut",
+    "name:nl": "Chinamuseum",
+    "tourism": "museum",
+    "wikidata": "Q28841853"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museecamillelemonniercam",
+  "n": "Musée Camille Lemonnier - Camille Lemonnier Museum",
+  "a": "",
+  "pc": "",
+  "lat": 50.83609,
+  "lng": 4.36877,
+  "c": "museum",
+  "s": "museum",
+  "q": "Musée Camille Lemonnier - Camille Lemonnier Museum Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2441937655",
+   "raw": {
+    "fee": "yes",
+    "name": "Musée Camille Lemonnier - Camille Lemonnier Museum",
+    "name:fr": "Musée Camille Lemonnier",
+    "name:nl": "Camille Lemonnier Museum",
+    "tourism": "museum",
+    "wikidata": "Q67203750",
+    "wikimedia_commons": "Category:Maison Camille Lemonnier"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hommeauvasemanmetvaas",
+  "n": "Homme au Vase - Man met vaas",
+  "a": "",
+  "pc": "",
+  "lat": 50.8396,
+  "lng": 4.36946,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Homme au Vase - Man met vaas Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2449605727",
+   "raw": {
+    "artist_name": "Jean-Marie Hérain",
+    "artwork_type": "statue",
+    "description": "Man with vase",
+    "mapillary": "153183240109158",
+    "name": "Homme au Vase - Man met vaas",
+    "name:fr": "Homme au Vase",
+    "name:nl": "Man met vaas",
+    "place:start_date": "1968",
+    "start_date": "1910",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "espaceallende",
+  "n": "Espace Allende",
+  "a": "",
+  "pc": "",
+  "lat": 50.81342,
+  "lng": 4.38231,
+  "c": "museum",
+  "s": "museum",
+  "q": "Espace Allende Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2465448020",
+   "raw": {
+    "contact:website": "https://musees.ulb.be/fr/salle-allende",
+    "fee": "no",
+    "name": "Espace Allende",
+    "name:etymology:wikidata": "Q440",
+    "opening_hours": "Mo,Tu 12:00-14:00; We-Fr 12:00-18:00; Sa 14:00-18:00",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentdelalibertemonum",
+  "n": "Monument de la Liberté - Monument van de bevrijding",
+  "a": "",
+  "pc": "",
+  "lat": 50.82165,
+  "lng": 4.34075,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Monument de la Liberté - Monument van de bevrijding Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2468941949",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Monument de la Liberté - Monument van de bevrijding",
+    "name:fr": "Monument de la Liberté",
+    "name:nl": "Monument van de bevrijding"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "belgianchocolatevillage",
+  "n": "Belgian Chocolate Village",
+  "a": "",
+  "pc": "",
+  "lat": 50.86482,
+  "lng": 4.32994,
+  "c": "museum",
+  "s": "museum",
+  "q": "Belgian Chocolate Village Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2481629936",
+   "raw": {
+    "contact:phone": "+32 2 420 70 76",
+    "contact:website": "https://www.belgianchocolatevillage.be/",
+    "name": "Belgian Chocolate Village",
+    "opening_hours": "Tu-Fr 09:00-18:00; Sa-Su,SH 10:00-18:00",
+    "tourism": "museum",
+    "wikidata": "Q13437154",
+    "wikipedia": "nl:Belgian Chocolate Village"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "charleswoeste",
+  "n": "Charles Woeste",
+  "a": "",
+  "pc": "",
+  "lat": 50.83577,
+  "lng": 4.36496,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Charles Woeste Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2490124404",
+   "raw": {
+    "artist:wikidata": "Q3082991",
+    "artist_name": "Frans Huygelen",
+    "date": "1926",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "bust",
+    "name": "Charles Woeste",
+    "start_date": "1925",
+    "subject:wikidata": "Q950611",
+    "subject:wikipedia": "en:Charles Woeste"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "galeriegretameert",
+  "n": "Galerie Greta Meert",
+  "a": "",
+  "pc": "",
+  "lat": 50.85481,
+  "lng": 4.35154,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Galerie Greta Meert Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2506176793",
+   "raw": {
+    "contact:email": "info@galeriegretameert.com",
+    "contact:fax": "+32 2 219 37 21",
+    "contact:phone": "+32 2 219 14 22",
+    "contact:website": "https://galeriegretameert.com/",
+    "name": "Galerie Greta Meert",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "archiefenmuseumvoorhetvl",
+  "n": "Archief en Museum voor het Vlaams Leven te Brussel",
+  "a": "",
+  "pc": "",
+  "lat": 50.85524,
+  "lng": 4.34901,
+  "c": "museum",
+  "s": "museum",
+  "q": "Archief en Museum voor het Vlaams Leven te Brussel Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2506176872",
+   "raw": {
+    "contact:email": "info@amvb.be",
+    "contact:facebook": "archiefenmuseumvlaamslevenbrussel",
+    "contact:phone": "+32 2 209 06 01",
+    "contact:website": "https://www.amvb.be/",
+    "museum": "history",
+    "name": "Archief en Museum voor het Vlaams Leven te Brussel",
+    "name:de": "Archiv und Museum des Flämischen Lebens in Brüssel",
+    "name:en": "Archive and Museum for the Flemish Living in Brussels",
+    "name:fr": "Archives et Musée de la Vie flamande à Bruxelles",
+    "name:nl": "Archief en Museum voor het Vlaams Leven te Brussel",
+    "office": "archive",
+    "opening_hours": "Mo-Fr 09:00-16:00",
+    "short_name": "AMVB",
+    "start_date": "1977",
+    "tourism": "museum",
+    "wikidata": "Q2860524",
+    "wikipedia": "nl:Archief en Museum voor het Vlaams Leven te Brussel"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "billythecat",
+  "n": "Billy the Cat",
+  "a": "",
+  "pc": "",
+  "lat": 50.85359,
+  "lng": 4.34498,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Billy the Cat Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2506689613",
+   "raw": {
+    "artist_name": "Stéphane Colman;Stephen Desberg",
+    "artwork_type": "mural",
+    "name": "Billy the Cat",
+    "tourism": "artwork",
+    "website": "https://www.parcoursbd.brussels/fresques/billy-the-cat/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museebelgedelafrancmacon",
+  "n": "Musée Belge de la Franc-Maçonnerie - Belgisch Museum van de Vrijmetselarij",
+  "a": "",
+  "pc": "",
+  "lat": 50.85299,
+  "lng": 4.35154,
+  "c": "museum",
+  "s": "museum",
+  "q": "Musée Belge de la Franc-Maçonnerie - Belgisch Museum van de Vrijmetselarij Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2509496179",
+   "raw": {
+    "access": "customers",
+    "contact:website": "http://mbfm.be/",
+    "fee": "yes",
+    "name": "Musée Belge de la Franc-Maçonnerie - Belgisch Museum van de Vrijmetselarij",
+    "name:de": "Belgischen Museum der Freimaurerei",
+    "name:en": "Belgian Museum of Freemasonry",
+    "name:fr": "Musée Belge de la Franc-Maçonnerie",
+    "name:nl": "Belgisch Museum van de Vrijmetselarij",
+    "opening_hours": "Tu-Sa 13:00-17:00",
+    "tourism": "museum",
+    "wikidata": "Q16665619",
+    "wikipedia": "nl:Belgisch Museum van de Vrijmetselarij"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "librarium",
+  "n": "Librarium",
+  "a": "",
+  "pc": "",
+  "lat": 50.84372,
+  "lng": 4.35546,
+  "c": "museum",
+  "s": "museum",
+  "q": "Librarium Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2514192408",
+   "raw": {
+    "contact:phone": "+32 2 519 53 11",
+    "contact:website": "https://www.kbr.be/librarium",
+    "fee": "no",
+    "name": "Librarium",
+    "opening_hours": "Mo-Sa 09:00-17:00",
+    "operator": "KBR",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "espacesablon",
+  "n": "Espace Sablon",
+  "a": "",
+  "pc": "",
+  "lat": 50.84122,
+  "lng": 4.35525,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Espace Sablon Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2514211593",
+   "raw": {
+    "check_date:opening_hours": "2023-02-05",
+    "contact:email": "info@espacesablon.com",
+    "contact:website": "http://www.espacesablon.com/",
+    "name": "Espace Sablon",
+    "opening_hours:signed": "no",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gallerykatarzynanapiorko",
+  "n": "Gallery Katarzyna Napiórkowska",
+  "a": "",
+  "pc": "",
+  "lat": 50.84453,
+  "lng": 4.35731,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Gallery Katarzyna Napiórkowska Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2514211759",
+   "raw": {
+    "contact:mobile": "+32 495 71 89 88",
+    "contact:website": "https://www.napiorkowska.pl",
+    "fee": "no",
+    "name": "Gallery Katarzyna Napiórkowska",
+    "opening_hours": "\"by appointment\"",
+    "tourism": "gallery",
+    "wheelchair": "limited"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museebelvuebelvuemuseum",
+  "n": "Musée BELvue - BELvue Museum",
+  "a": "",
+  "pc": "",
+  "lat": 50.84261,
+  "lng": 4.36069,
+  "c": "museum",
+  "s": "museum",
+  "q": "Musée BELvue - BELvue Museum Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2514258897",
+   "raw": {
+    "alt_name": "Musée Bellevue - Bellevue Museum",
+    "alt_name:fr": "Musée Bellevue",
+    "alt_name:nl": "Bellevue Museum",
+    "check_date": "2025-06-01",
+    "contact:website": "https://belvue.be/",
+    "fee": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "name": "Musée BELvue - BELvue Museum",
+    "name:es": "Museo BELvue",
+    "name:fr": "Musée BELvue",
+    "name:nl": "BELvue Museum",
+    "old_name": "Hôtel Bellevue",
+    "opening_hours": "Mo off; Tu-Fr 09:00-17:00; Sa-Su 10:00-18:00; Jul-Aug Tu-Fr 10:00-18:00; Jan 01 off; Dec 24 09:00-16:00; Dec 25 off; Dec 31 09:00-16:00",
+    "tourism": "museum",
+    "wheelchair": "limited",
+    "wikidata": "Q728437",
+    "wikimedia_commons": "Category:BELvue Museum",
+    "wikipedia": "en:BELvue Museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentacharlesdecoster",
+  "n": "Monument à Charles De Coster - Monument voor Charles De Coster",
+  "a": "",
+  "pc": "",
+  "lat": 50.82713,
+  "lng": 4.37173,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monument à Charles De Coster - Monument voor Charles De Coster Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2523002638",
+   "raw": {
+    "architect": "Franz De Vestel",
+    "architect:wikidata": "Q3083092",
+    "artist:wikidata": "Q2960190",
+    "artist_name": "Charles Samuel",
+    "historic": "memorial",
+    "inscription": "EST-CE QU'ON ENTERRE ULENSPIEGEL, L'ESPRIT NELE, LE CŒUR DE LA MÈRE FLANDRE",
+    "material": "stone;bronze",
+    "memorial": "sculpture",
+    "name": "Monument à Charles De Coster - Monument voor Charles De Coster",
+    "name:fr": "Monument à Charles De Coster",
+    "name:nl": "Monument voor Charles De Coster",
+    "start_date": "1894",
+    "subject:wikidata": "Q315176",
+    "subject:wikipedia": "en:Charles De Coster",
+    "wikidata": "Q120333055",
+    "wikimedia_commons": "Category:Charles De Coster memorial, Ixelles"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eddymerckxmetrostation",
+  "n": "Eddy Merckx metro station",
+  "a": "",
+  "pc": "",
+  "lat": 50.81667,
+  "lng": 4.28083,
+  "c": "oddity",
+  "s": "metro station in Anderlecht, Brussels, Belgium",
+  "q": "Eddy Merckx metro station Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q679095",
+   "raw": "metro station in Anderlecht, Brussels, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sintpietersleeuw",
+  "n": "Sint-Pieters-Leeuw",
+  "a": "",
+  "pc": "",
+  "lat": 50.78333,
+  "lng": 4.25,
+  "c": "oddity",
+  "s": "municipality in Flemish Brabant, Belgium",
+  "q": "Sint-Pieters-Leeuw Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q688790",
+   "raw": "municipality in Flemish Brabant, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "erasmeerasmusmetrostatio",
+  "n": "Érasme/Erasmus metro station",
+  "a": "",
+  "pc": "",
+  "lat": 50.81528,
+  "lng": 4.26694,
+  "c": "oddity",
+  "s": "metro station in Anderlecht, Brussels, Belgium",
+  "q": "Érasme/Erasmus metro station Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q800158",
+   "raw": "metro station in Anderlecht, Brussels, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zuunbeekzuenbeek",
+  "n": "Zuunbeek - Zuenbeek",
+  "a": "",
+  "pc": "",
+  "lat": 50.8,
+  "lng": 4.28333,
+  "c": "oddity",
+  "s": "river in Belgium",
+  "q": "Zuunbeek - Zuenbeek Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1855497",
+   "raw": "river in Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sintniklaasinstituut",
+  "n": "Sint-Niklaasinstituut",
+  "a": "",
+  "pc": "",
+  "lat": 50.81312,
+  "lng": 4.28646,
+  "c": "oddity",
+  "s": "school in Belgium",
+  "q": "Sint-Niklaasinstituut Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1864795",
+   "raw": "school in Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "erasmushospital",
+  "n": "Erasmus Hospital",
+  "a": "",
+  "pc": "",
+  "lat": 50.81361,
+  "lng": 4.26611,
+  "c": "oddity",
+  "s": "hospital in Anderlecht, Belgium",
+  "q": "Erasmus Hospital Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2186806",
+   "raw": "hospital in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zuun",
+  "n": "Zuun",
+  "a": "",
+  "pc": "",
+  "lat": 50.7917,
+  "lng": 4.2769,
+  "c": "oddity",
+  "s": "settlement in Belgium",
+  "q": "Zuun Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2266844",
+   "raw": "settlement in Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ruisbroekrailwaystation",
+  "n": "Ruisbroek railway station",
+  "a": "",
+  "pc": "",
+  "lat": 50.79056,
+  "lng": 4.29417,
+  "c": "oddity",
+  "s": "railway station in Belgium",
+  "q": "Ruisbroek railway station Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2509613",
+   "raw": "railway station in Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bellevuebrewery",
+  "n": "Belle-Vue Brewery",
+  "a": "",
+  "pc": "",
+  "lat": 50.79882,
+  "lng": 4.28711,
+  "c": "oddity",
+  "s": "brewery in Zuun, Belgium",
+  "q": "Belle-Vue Brewery Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2661513",
+   "raw": "brewery in Zuun, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "negenmanneke",
+  "n": "Negenmanneke",
+  "a": "",
+  "pc": "",
+  "lat": 50.8044,
+  "lng": 4.2844,
+  "c": "oddity",
+  "s": "village in Sint-Pieters-Leeuw, Belgium",
+  "q": "Negenmanneke Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2722667",
+   "raw": "village in Sint-Pieters-Leeuw, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ceriacoovimetrostation",
+  "n": "CERIA/COOVI metro station",
+  "a": "",
+  "pc": "",
+  "lat": 50.81645,
+  "lng": 4.29008,
+  "c": "oddity",
+  "s": "metro station in Anderlecht, Brussels, Belgium",
+  "q": "CERIA/COOVI metro station Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2931286",
+   "raw": "metro station in Anderlecht, Brussels, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "foodandchemicalindustrie",
+  "n": "Food and Chemical Industries Education and Research Center",
+  "a": "",
+  "pc": "",
+  "lat": 50.81533,
+  "lng": 4.29261,
+  "c": "oddity",
+  "s": "campus in Anderlecht, Brussels, Belgium",
+  "q": "Food and Chemical Industries Education and Research Center Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2945074",
+   "raw": "campus in Anderlecht, Brussels, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kasteelkleinbijgaarden",
+  "n": "Kasteel Klein-Bijgaarden",
+  "a": "",
+  "pc": "",
+  "lat": 50.7989,
+  "lng": 4.2826,
+  "c": "oddity",
+  "s": "mansion in Sint-Pieters-Leeuw, Belgium",
+  "q": "Kasteel Klein-Bijgaarden Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2970203",
+   "raw": "mansion in Sint-Pieters-Leeuw, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hauteecoleluciadebroucke",
+  "n": "Haute École Lucia de Brouckere",
+  "a": "",
+  "pc": "",
+  "lat": 50.8153,
+  "lng": 4.29489,
+  "c": "oddity",
+  "s": "higher education institution in Brussels, Belgium",
+  "q": "Haute École Lucia de Brouckere Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3128579",
+   "raw": "higher education institution in Brussels, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museumofmedicine",
+  "n": "Museum of Medicine",
+  "a": "",
+  "pc": "",
+  "lat": 50.81324,
+  "lng": 4.26843,
+  "c": "museum",
+  "s": "museum in Anderlecht, Brussels, Belgium",
+  "q": "Museum of Medicine Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3329930",
+   "raw": "museum in Anderlecht, Brussels, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vogelenzang",
+  "n": "Vogelenzang",
+  "a": "",
+  "pc": "",
+  "lat": 50.81548,
+  "lng": 4.28231,
+  "c": "oddity",
+  "s": "neighbourhood in Anderlecht, Brussels, Belgium",
+  "q": "Vogelenzang Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3562066",
+   "raw": "neighbourhood in Anderlecht, Brussels, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "erasmusresearchpark",
+  "n": "Erasmus Research Park",
+  "a": "",
+  "pc": "",
+  "lat": 50.81698,
+  "lng": 4.26673,
+  "c": "green",
+  "s": "science park in Anderlecht, Belgium",
+  "q": "Erasmus Research Park Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5384972",
+   "raw": "science park in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vogelzangbeek",
+  "n": "Vogelzangbeek",
+  "a": "",
+  "pc": "",
+  "lat": 50.81111,
+  "lng": 4.25994,
+  "c": "oddity",
+  "s": "river in Belgium",
+  "q": "Vogelzangbeek Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17640527",
+   "raw": "river in Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "anderlechtcemetery",
+  "n": "Anderlecht Cemetery",
+  "a": "",
+  "pc": "",
+  "lat": 50.8122,
+  "lng": 4.27894,
+  "c": "death",
+  "s": "cemetery in Anderlecht, Brussels, Belgium",
+  "q": "Anderlecht Cemetery Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18610993",
+   "raw": "cemetery in Anderlecht, Brussels, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemaminerva",
+  "n": "Cinema Minerva",
+  "a": "",
+  "pc": "",
+  "lat": 50.78763,
+  "lng": 4.28004,
+  "c": "cinema",
+  "s": "former cinema in Sint-Pieters-Leeuw, Belgium",
+  "q": "Cinema Minerva Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q37951755",
+   "raw": "former cinema in Sint-Pieters-Leeuw, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vogelzang",
+  "n": "Vogelzang",
+  "a": "",
+  "pc": "",
+  "lat": 50.8078,
+  "lng": 4.28335,
+  "c": "oddity",
+  "s": "protected area in Belgium (RBC-059)",
+  "q": "Vogelzang Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q42414298",
+   "raw": "protected area in Belgium (RBC-059)",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alleedelarechercheresear",
+  "n": "Allée de la Recherche - Researchdreef",
+  "a": "",
+  "pc": "",
+  "lat": 50.81724,
+  "lng": 4.2698,
+  "c": "oddity",
+  "s": "street in Anderlecht, Belgium",
+  "q": "Allée de la Recherche - Researchdreef Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85058319",
+   "raw": "street in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alleedescoquelicotsklapr",
+  "n": "Allée des Coquelicots - Klaprozendreef",
+  "a": "",
+  "pc": "",
+  "lat": 50.81678,
+  "lng": 4.26162,
+  "c": "oddity",
+  "s": "street in Anderlecht, Belgium",
+  "q": "Allée des Coquelicots - Klaprozendreef Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85058418",
+   "raw": "street in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alleedesjacintheshyacint",
+  "n": "Allée des Jacinthes - Hyacintendreef",
+  "a": "",
+  "pc": "",
+  "lat": 50.81812,
+  "lng": 4.26035,
+  "c": "oddity",
+  "s": "street in Anderlecht, Belgium",
+  "q": "Allée des Jacinthes - Hyacintendreef Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85058517",
+   "raw": "street in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alleedesorpinsvetkruidwe",
+  "n": "Allée des Orpins - Vetkruidweg",
+  "a": "",
+  "pc": "",
+  "lat": 50.81721,
+  "lng": 4.28374,
+  "c": "oddity",
+  "s": "street in Anderlecht, Belgium",
+  "q": "Allée des Orpins - Vetkruidweg Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85058580",
+   "raw": "street in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alleedespervenchesmaagde",
+  "n": "Allée des Pervenches - Maagdenpalmdreef",
+  "a": "",
+  "pc": "",
+  "lat": 50.8174,
+  "lng": 4.26334,
+  "c": "oddity",
+  "s": "street in Anderlecht, Belgium",
+  "q": "Allée des Pervenches - Maagdenpalmdreef Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85058629",
+   "raw": "street in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alleehoftervleesthofterv",
+  "n": "Allée Hof ter Vleest - Hof ter Vleestdreef",
+  "a": "",
+  "pc": "",
+  "lat": 50.80977,
+  "lng": 4.28792,
+  "c": "oddity",
+  "s": "street in Anderlecht, Belgium",
+  "q": "Allée Hof ter Vleest - Hof ter Vleestdreef Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85058717",
+   "raw": "street in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ruechantdoiseauxvogelenz",
+  "n": "Rue Chant d'Oiseaux - Vogelenzangstraat",
+  "a": "",
+  "pc": "",
+  "lat": 50.80912,
+  "lng": 4.27864,
+  "c": "oddity",
+  "s": "street in Anderlecht, Belgium",
+  "q": "Rue Chant d'Oiseaux - Vogelenzangstraat Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85062150",
+   "raw": "street in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "avenuedescardaminesveldk",
+  "n": "Avenue des Cardamines - Veldkerslaan",
+  "a": "",
+  "pc": "",
+  "lat": 50.81465,
+  "lng": 4.28456,
+  "c": "oddity",
+  "s": "street in Anderlecht, Belgium",
+  "q": "Avenue des Cardamines - Veldkerslaan Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85065628",
+   "raw": "street in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "avenuedeschanterelleshan",
+  "n": "Avenue des Chanterelles - Hanenkammenlaan",
+  "a": "",
+  "pc": "",
+  "lat": 50.81762,
+  "lng": 4.25851,
+  "c": "oddity",
+  "s": "street in Anderlecht, Belgium",
+  "q": "Avenue des Chanterelles - Hanenkammenlaan Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85065777",
+   "raw": "street in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ruemeylemeerschmijlenmee",
+  "n": "Rue Meylemeersch - Mijlenmeersstraat",
+  "a": "",
+  "pc": "",
+  "lat": 50.81219,
+  "lng": 4.26573,
+  "c": "oddity",
+  "s": "street in Anderlecht, Belgium",
+  "q": "Rue Meylemeersch - Mijlenmeersstraat Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85067579",
+   "raw": "street in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ruedeladelivranceverloss",
+  "n": "Rue de la Délivrance - Verlossingsstraat",
+  "a": "",
+  "pc": "",
+  "lat": 50.83277,
+  "lng": 4.25997,
+  "c": "oddity",
+  "s": "street in Anderlecht, Belgium",
+  "q": "Rue de la Délivrance - Verlossingsstraat Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85068729",
+   "raw": "street in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "avenuejosephwybranjoseph",
+  "n": "Avenue Joseph Wybran - Joseph Wybranlaan",
+  "a": "",
+  "pc": "",
+  "lat": 50.81443,
+  "lng": 4.26082,
+  "c": "oddity",
+  "s": "street in Anderlecht, Belgium",
+  "q": "Avenue Joseph Wybran - Joseph Wybranlaan Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85073998",
+   "raw": "street in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ruedezuenzuunstraat",
+  "n": "Rue de Zuen - Zuunstraat",
+  "a": "",
+  "pc": "",
+  "lat": 50.8099,
+  "lng": 4.29402,
+  "c": "oddity",
+  "s": "street in Anderlecht, Belgium",
+  "q": "Rue de Zuen - Zuunstraat Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85074392",
+   "raw": "street in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sentierdeladrevedreefpad",
+  "n": "Sentier de la Drève - Dreefpad",
+  "a": "",
+  "pc": "",
+  "lat": 50.81394,
+  "lng": 4.2944,
+  "c": "oddity",
+  "s": "street in Anderlecht, Belgium",
+  "q": "Sentier de la Drève - Dreefpad Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85075267",
+   "raw": "street in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ruevlasendaelvlazendaals",
+  "n": "Rue Vlasendael - Vlazendaalstraat",
+  "a": "",
+  "pc": "",
+  "lat": 50.83268,
+  "lng": 4.25657,
+  "c": "oddity",
+  "s": "street in Anderlecht and Dilbeek, Belgium",
+  "q": "Rue Vlasendael - Vlazendaalstraat Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85083525",
+   "raw": "street in Anderlecht and Dilbeek, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ruedufromenttarwestraat",
+  "n": "Rue du Froment - Tarwestraat",
+  "a": "",
+  "pc": "",
+  "lat": 50.8295,
+  "lng": 4.25943,
+  "c": "oddity",
+  "s": "street in Anderlecht, Belgium",
+  "q": "Rue du Froment - Tarwestraat Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85084428",
+   "raw": "street in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ruedekoeivijverkoeivijve",
+  "n": "Rue de Koeivijver - Koeivijverstraat",
+  "a": "",
+  "pc": "",
+  "lat": 50.82942,
+  "lng": 4.25649,
+  "c": "oddity",
+  "s": "street in Anderlecht and Dilbeek, Belgium",
+  "q": "Rue de Koeivijver - Koeivijverstraat Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85090211",
+   "raw": "street in Anderlecht and Dilbeek, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "routedelenniklenniksebaa",
+  "n": "Route de Lennik - Lennikse Baan",
+  "a": "",
+  "pc": "",
+  "lat": 50.81733,
+  "lng": 4.25679,
+  "c": "oddity",
+  "s": "street in Anderlecht, Sint-Pieters-Leeuw and Dilbeek, Belgiu",
+  "q": "Route de Lennik - Lennikse Baan Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85622543",
+   "raw": "street in Anderlecht, Sint-Pieters-Leeuw and Dilbeek, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rueberreberrestraat",
+  "n": "Rue Berré - Berréstraat",
+  "a": "",
+  "pc": "",
+  "lat": 50.82564,
+  "lng": 4.25394,
+  "c": "oddity",
+  "s": "road in Anderlecht and Dilbeek, Belgium",
+  "q": "Rue Berré - Berréstraat Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85779351",
+   "raw": "road in Anderlecht and Dilbeek, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rondpointhenrisimonethen",
+  "n": "Rond-Point Henri Simonet - Henri Simonetplein",
+  "a": "",
+  "pc": "",
+  "lat": 50.81551,
+  "lng": 4.26201,
+  "c": "oddity",
+  "s": "square in Anderlecht, Belgium",
+  "q": "Rond-Point Henri Simonet - Henri Simonetplein Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q86106030",
+   "raw": "square in Anderlecht, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kasteelrattendaal",
+  "n": "Kasteel Rattendaal",
+  "a": "",
+  "pc": "",
+  "lat": 50.80006,
+  "lng": 4.25913,
+  "c": "oddity",
+  "s": "mansion in Sint-Pieters-Leeuw, Belgium",
+  "q": "Kasteel Rattendaal Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q91945105",
+   "raw": "mansion in Sint-Pieters-Leeuw, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "onzelievevrouwvanvredesk",
+  "n": "Onze-Lieve-Vrouw-van-Vredeskapel",
+  "a": "",
+  "pc": "",
+  "lat": 50.78158,
+  "lng": 4.28927,
+  "c": "faith",
+  "s": "chapel in Ruisbroek, Belgium",
+  "q": "Onze-Lieve-Vrouw-van-Vredeskapel Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97787182",
+   "raw": "chapel in Ruisbroek, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "onzelievevrouwvanlourdes",
+  "n": "Onze-Lieve-Vrouw-van-Lourdeskapel",
+  "a": "",
+  "pc": "",
+  "lat": 50.78,
+  "lng": 4.29,
+  "c": "faith",
+  "s": "chapel in Ruisbroek, Belgium",
+  "q": "Onze-Lieve-Vrouw-van-Lourdeskapel Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97787183",
+   "raw": "chapel in Ruisbroek, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "onzelievevrouwvanlorette",
+  "n": "Onze-Lieve-Vrouw van Loretten en Sint-Christoffelkapel",
+  "a": "",
+  "pc": "",
+  "lat": 50.80976,
+  "lng": 4.25493,
+  "c": "faith",
+  "s": "chapel in Sint-Pieters-Leeuw, Belgium",
+  "q": "Onze-Lieve-Vrouw van Loretten en Sint-Christoffelkapel Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97787190",
+   "raw": "chapel in Sint-Pieters-Leeuw, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "onzelievevrouwkapel",
+  "n": "Onze-Lieve-Vrouwkapel",
+  "a": "",
+  "pc": "",
+  "lat": 50.78205,
+  "lng": 4.27045,
+  "c": "faith",
+  "s": "chapel at E.Vandersteenenstraat-Zomerlaan in Sint-Pieters-Le",
+  "q": "Onze-Lieve-Vrouwkapel Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97787251",
+   "raw": "chapel at E.Vandersteenenstraat-Zomerlaan in Sint-Pieters-Leeuw, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sintrochuskapel",
+  "n": "Sint-Rochuskapel",
+  "a": "",
+  "pc": "",
+  "lat": 50.79818,
+  "lng": 4.27227,
+  "c": "faith",
+  "s": "chapel in Sint-Pieters-Leeuw, Belgium",
+  "q": "Sint-Rochuskapel Brussels",
+  "w": "",
+  "city": "brussels",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97787254",
+   "raw": "chapel in Sint-Pieters-Leeuw, Belgium",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

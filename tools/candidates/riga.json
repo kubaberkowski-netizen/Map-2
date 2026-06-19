@@ -1,0 +1,4466 @@
+[
+ {
+  "id": "1991gadabarikazumuzejs",
+  "n": "1991. gada barikāžu muzejs",
+  "a": "",
+  "pc": "",
+  "lat": 56.94859,
+  "lng": 24.10588,
+  "c": "museum",
+  "s": "museum",
+  "q": "1991. gada barikāžu muzejs Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/382382211",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "3",
+    "addr:postcode": "LV-1050",
+    "addr:street": "Krāmu iela",
+    "check_date": "2024-07-18",
+    "fee": "no",
+    "name": "1991. gada barikāžu muzejs",
+    "name:be": "Музей барыкад 1991",
+    "name:de": "Museum der Barrikaden von 1991",
+    "name:en": "Museum of barricaces of 1991",
+    "name:fr": "Musée des barricades de 1991",
+    "name:lv": "1991. gada barikāžu muzejs",
+    "name:ru": "Музей баррикад 1991 года",
+    "opening_hours": "Mo-Sa 10:00-17:00",
+    "phone": "+371 67 213525",
+    "ref:LV:addr": "101843461",
+    "tourism": "museum",
+    "website": "http://barikades.lv",
+    "wheelchair": "no",
+    "wikidata": "Q59504500"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "peitavsulsinagoga",
+  "n": "Peitav-šul Sinagoga",
+  "a": "",
+  "pc": "",
+  "lat": 56.94597,
+  "lng": 24.11062,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Peitav-šul Sinagoga Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/382386511",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "6/8",
+    "addr:postcode": "LV-1050",
+    "addr:street": "Peitavas iela",
+    "amenity": "place_of_worship",
+    "int_name": "Peitav Synagogue",
+    "name": "Peitav-šul Sinagoga",
+    "name:en": "Peitav Synagogue",
+    "name:fr": "Synagogue Peitav",
+    "name:lv": "Peitav-šul Sinagoga",
+    "name:ru": "Синагога Пейтау-шул",
+    "opening_hours": "Mo-Fr 10:00-17:00",
+    "ref:LV:addr": "101964017",
+    "religion": "jewish"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "krisjanisvaldemars",
+  "n": "Krišjānis Valdemārs",
+  "a": "",
+  "pc": "",
+  "lat": 56.97235,
+  "lng": 24.14699,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Krišjānis Valdemārs Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/416787092",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "obelisk",
+    "name": "Krišjānis Valdemārs",
+    "subject:wikidata": "Q2984207"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "forumcinemas",
+  "n": "Forum Cinemas",
+  "a": "",
+  "pc": "",
+  "lat": 56.94616,
+  "lng": 24.11628,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Forum Cinemas Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/428039018",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "8",
+    "addr:postcode": "LV-1050",
+    "addr:street": "13. janvāra iela",
+    "alt_name": "Forum Cinemas",
+    "amenity": "cinema",
+    "check_date": "2026-02-17",
+    "contact:facebook": "https://www.facebook.com/forumcinemaslv/",
+    "contact:instagram": "https://www.instagram.com/forumcinemaslv",
+    "contact:twitter": "https://twitter.com/forumcinemaslv/",
+    "name": "Forum Cinemas",
+    "old_name": "Kino Citadele",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "ref:LV:addr": "105870534",
+    "website": "https://www.forumcinemas.lv/",
+    "wikidata": "Q122919761",
+    "wikipedia": "lv:Forum Cinemas"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "andrejspumpurs",
+  "n": "Andrejs Pumpurs",
+  "a": "",
+  "pc": "",
+  "lat": 56.97406,
+  "lng": 24.1446,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Andrejs Pumpurs Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/455488238",
+   "raw": {
+    "artist_name": "Kārlis Zāle",
+    "historic": "memorial",
+    "name": "Andrejs Pumpurs",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "1929",
+    "subject:wikidata": "Q503166"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "latvijasugunsdzesibasmuz",
+  "n": "Latvijas Ugunsdzēsības muzejs",
+  "a": "",
+  "pc": "",
+  "lat": 56.96227,
+  "lng": 24.11214,
+  "c": "museum",
+  "s": "museum",
+  "q": "Latvijas Ugunsdzēsības muzejs Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/457061944",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "5",
+    "addr:postcode": "LV-1045",
+    "addr:street": "Hanzas iela",
+    "email": "muzejs@vugd.gov.lv",
+    "name": "Latvijas Ugunsdzēsības muzejs",
+    "name:be": "Музей пажарнай справы Латвіі",
+    "name:en": "Latvian fire fighting museum",
+    "name:et": "Läti tuletõrjemuuseum",
+    "name:lt": "Latvijos ugniagesių muziejus",
+    "name:lv": "Latvijas Ugunsdzēsības muzejs",
+    "name:pl": "Muzeum łotewskiej straży pożarnej",
+    "name:ru": "Музей пожарного дела Латвии",
+    "name:uk": "Музей пожежної справи Латвії",
+    "opening_hours": "Tu-Sa 10:00-17:00",
+    "phone": "+371-67331334",
+    "ref:LV:addr": "101137946",
+    "tourism": "museum",
+    "website": "https://muzejs.vugd.gov.lv/",
+    "wikidata": "Q4306427",
+    "wikipedia": "lv:Latvijas Ugunsdzēsības muzejs"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "latvijasnacionalaisdabas",
+  "n": "Latvijas Nacionālais dabas muzejs",
+  "a": "",
+  "pc": "",
+  "lat": 56.94949,
+  "lng": 24.11811,
+  "c": "museum",
+  "s": "museum",
+  "q": "Latvijas Nacionālais dabas muzejs Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/470042272",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "4",
+    "addr:postcode": "LV-1050",
+    "addr:street": "Krišjāņa Barona iela",
+    "check_date": "2025-05-29",
+    "fee": "yes",
+    "museum": "nature",
+    "museum_type": "national",
+    "name": "Latvijas Nacionālais dabas muzejs",
+    "name:be": "Латвійскі музей прыроды",
+    "name:cs": "Lotyšské muzeum přírody",
+    "name:en": "Latvian National Museum of Natural History",
+    "name:es": "Museo de historia natural de Letonia",
+    "name:fr": "Musée d'histoire naturelle de Lettonie",
+    "name:lt": "Latvijos gamtos muziejus",
+    "name:lv": "Latvijas Nacionālais dabas muzejs",
+    "name:pl": "Łotewskie muzeum historii przyrody",
+    "name:pt": "Museu da História Natural da Letónia",
+    "name:ru": "Латвийский Национальный музей природы",
+    "name:uk": "Латвійський Національний музей природи",
+    "opening_hours": "Mo-Tu closed; We-Su 10:00-17:00",
+    "phone": "+371 67 356 023",
+    "ref:LV:addr": "101844342",
+    "tourism": "museum",
+    "website": "https://www.dabasmuzejs.gov.lv/",
+    "wheelchair": "yes",
+    "wikidata": "Q6497382",
+    "wikipedia": "lv:Latvijas Nacionālais dabas muzejs"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "piemineklisgaisaspekupal",
+  "n": "Piemineklis Gaisa spēku palīgiem",
+  "a": "",
+  "pc": "",
+  "lat": 56.9299,
+  "lng": 24.07691,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Piemineklis Gaisa spēku palīgiem Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/503575418",
+   "raw": {
+    "architect": "Raimonds Slaidiņš",
+    "artist_name": "Harijs Sprincis",
+    "historic": "memorial",
+    "memorial": "stone",
+    "memorial:conflict": "WW2",
+    "name": "Piemineklis Gaisa spēku palīgiem",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "1996"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "elements",
+  "n": "Elements",
+  "a": "",
+  "pc": "",
+  "lat": 56.96645,
+  "lng": 24.14481,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Elements Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/678874725",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "157",
+    "addr:postcode": "LV-1012",
+    "addr:street": "Brīvības iela",
+    "fee": "no",
+    "name": "Elements",
+    "ref:LV:addr": "101126484",
+    "shop": "interior_decoration",
+    "tourism": "gallery",
+    "website": "https://salonselements.lv/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "putnuverosanastornis",
+  "n": "Putnu vērošanas tornis",
+  "a": "",
+  "pc": "",
+  "lat": 56.89939,
+  "lng": 24.1928,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Putnu vērošanas tornis Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/750475276",
+   "raw": {
+    "man_made": "tower",
+    "name": "Putnu vērošanas tornis",
+    "observation": "landscape",
+    "tourism": "viewpoint",
+    "tower:type": "observation",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "matelatvija",
+  "n": "Māte Latvija",
+  "a": "",
+  "pc": "",
+  "lat": 56.98894,
+  "lng": 24.14299,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Māte Latvija Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/791090317",
+   "raw": {
+    "historic": "monument",
+    "name": "Māte Latvija",
+    "name:da": "Brødrekirkegården",
+    "name:lt": "Brolių kapai",
+    "name:lv": "Māte Latvija",
+    "name:pl": "Cmentarz Braterski",
+    "wikidata": "Q996777",
+    "wikipedia": "lv:Rīgas Brāļu kapi"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "piemineklis1905gadacinit",
+  "n": "Piemineklis 1905. gada cīnītājiem",
+  "a": "",
+  "pc": "",
+  "lat": 56.94436,
+  "lng": 24.10816,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Piemineklis 1905. gada cīnītājiem Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/820283654",
+   "raw": {
+    "alt_name": "Piemineklis 1905. gada 13. janvāra notikumiem",
+    "artist_name": "Alberts Terpilovskis",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Piemineklis 1905. gada cīnītājiem",
+    "name:be": "Помнік барцам рэвалюцыі 1905г.",
+    "name:en": "Monument for 1905 Revolution Fighters",
+    "name:fr": "Monument aux combattants de la révolution de 1905",
+    "name:lv": "Piemineklis 1905. gada cīnītājiem",
+    "name:ru": "Памятник борцам революции 1905 года",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "1959",
+    "wikidata": "Q4343435",
+    "wikipedia": "lv:Piemineklis 1905. gada cīnītājiem"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "akmensuzvaraiparbermonti",
+  "n": "Akmens uzvarai pār bermontiešiem 1919.gadā",
+  "a": "",
+  "pc": "",
+  "lat": 56.93973,
+  "lng": 24.10003,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Akmens uzvarai pār bermontiešiem 1919.gadā Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/831794440",
+   "raw": {
+    "artist_name": "Indulis Ranka",
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "Akmens uzvarai pār bermontiešiem 1919.gadā",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "2002"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "apollo",
+  "n": "Apollo",
+  "a": "",
+  "pc": "",
+  "lat": 56.92787,
+  "lng": 24.10346,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Apollo Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/838557958",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:floor": "2",
+    "addr:housenumber": "71",
+    "addr:postcode": "LV-1004",
+    "addr:street": "Mūkusalas iela",
+    "alt_name": "Apollo Kino Plaza",
+    "amenity": "cinema",
+    "check_date": "2022-10-30",
+    "level": "1",
+    "name": "Apollo",
+    "ref:LV:addr": "101955395"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rainapiemineklis",
+  "n": "Raiņa piemineklis",
+  "a": "",
+  "pc": "",
+  "lat": 56.9542,
+  "lng": 24.113,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Raiņa piemineklis Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/961412974",
+   "raw": {
+    "architect": "Dzintars Driba",
+    "artist_name": "Kārlis Zemdega;Aivars Gulbis ;Laimonis Blumbergs",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Raiņa piemineklis",
+    "name:lv": "Raiņa piemineklis",
+    "name:ru": "Памятник Райнису",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "panoramax": "e19cf638-ac73-4944-899b-bcd36f6f5bbc",
+    "panoramax:0": "f76517f8-e93a-4120-bc05-47ab982afa22",
+    "start_date": "1965",
+    "subject:wikidata": "Q348001",
+    "wheelchair": "yes",
+    "wikidata": "Q4343329",
+    "wikipedia": "lv:Raiņa piemineklis"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rolands",
+  "n": "Rolands",
+  "a": "",
+  "pc": "",
+  "lat": 56.94749,
+  "lng": 24.10662,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Rolands Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/989913434",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Rolands",
+    "name:de": "Roland",
+    "name:fr": "Roland",
+    "name:lv": "Rolands",
+    "name:ru": "Роланд",
+    "panoramax": "cab7c5b4-6254-4922-9819-8952a90a7c8e"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "piemineklisrudolfamblaum",
+  "n": "Piemineklis Rūdolfam Blaumanim",
+  "a": "",
+  "pc": "",
+  "lat": 56.95296,
+  "lng": 24.10968,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Piemineklis Rūdolfam Blaumanim Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1013832256",
+   "raw": {
+    "artist_name": "Teodors Zaļkalns",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Piemineklis Rūdolfam Blaumanim",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "1929",
+    "subject:wikidata": "Q1082044",
+    "wikidata": "Q4343332",
+    "wikipedia": "lv:Blaumaņa piemineklis"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pieminaszimefricimbrivze",
+  "n": "Piemiņas zīme Fricim Brīvzemniekam",
+  "a": "",
+  "pc": "",
+  "lat": 56.92881,
+  "lng": 24.09042,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Piemiņas zīme Fricim Brīvzemniekam Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1029248201",
+   "raw": {
+    "architect": "Žanis Krauklis",
+    "artist_name": "Vilnis Vincevičs;Ģirts Burvis",
+    "bench": "yes",
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Piemiņas zīme Fricim Brīvzemniekam",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "2008",
+    "subject:wikidata": "Q11236407"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "janarozentalaunrudolfabl",
+  "n": "Jaņa Rozentāla un Rūdolfa Blaumaņa muzejs",
+  "a": "",
+  "pc": "",
+  "lat": 56.95948,
+  "lng": 24.10851,
+  "c": "museum",
+  "s": "museum",
+  "q": "Jaņa Rozentāla un Rūdolfa Blaumaņa muzejs Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1160803214",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:floor": "5;6",
+    "addr:housenumber": "12",
+    "addr:postcode": "LV-1010",
+    "addr:street": "Alberta iela",
+    "check_date": "2026-02-07",
+    "email": "jrrbm@memorialiemuzeji.lv",
+    "level": "4;5",
+    "name": "Jaņa Rozentāla un Rūdolfa Blaumaņa muzejs",
+    "name:be": "Музей Я.Разэнталя і Р.Блаўмана",
+    "name:de": "Museum Janis Rozentāls und Rūdolfs Blaumanis",
+    "name:en": "Jaņa Rozentāla and Rūdolfa Blaumaņa Museum",
+    "name:fr": "Musée Janis Rozentâls et Roudolfs Blaumanis",
+    "name:lv": "Jaņa Rozentāla un Rūdolfa Blaumaņa muzejs",
+    "opening_hours": "We-Su 11:00-18:00",
+    "phone": "+371 67331641",
+    "ref:LV:addr": "101813992",
+    "tourism": "museum",
+    "website": "https://memorialiemuzeji.lv/",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "paulsstradinamedicinasve",
+  "n": "Pauls Stradiņa Medicīnas vēstures muzejs",
+  "a": "",
+  "pc": "",
+  "lat": 56.95705,
+  "lng": 24.10803,
+  "c": "museum",
+  "s": "museum",
+  "q": "Pauls Stradiņa Medicīnas vēstures muzejs Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1190742833",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "1",
+    "addr:postcode": "LV-1010",
+    "addr:street": "Ukrainas neatkarības iela",
+    "building:levels": "4",
+    "changing_table": "yes",
+    "check_date": "2024-07-27",
+    "fax": "+371 67333478",
+    "fee": "yes",
+    "name": "Pauls Stradiņa Medicīnas vēstures muzejs",
+    "name:be": "Музей гісторыі медыцыны",
+    "name:de": "Paula Stradiņš Medizinhistorisches Museum",
+    "name:en": "Paul Stradins Museum of the History of Medicine",
+    "name:lt": "Medicinos istorijos muziejus",
+    "name:lv": "Paula Stradiņa Medicīnas vēstures muzejs",
+    "name:ru": "Музей истории медицины имени Паула Страдыня",
+    "opening_hours": "Tu-We, Fr-Sa 11:00-17:00; Th 11:00-19:00; Su 11:00-16:00",
+    "phone": "+371 67222665",
+    "ref:LV:addr": "101137288",
+    "subject:wikidata": "Q2070470",
+    "toilets": "yes",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "website": "https://mvm.lv",
+    "wikidata": "Q4306334"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dziesmusvetkudarzs",
+  "n": "Dziesmusvētku dārzs",
+  "a": "",
+  "pc": "",
+  "lat": 56.96385,
+  "lng": 24.09992,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Dziesmusvētku dārzs Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1215235953",
+   "raw": {
+    "name": "Dziesmusvētku dārzs",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "leopardi",
+  "n": "Leopardi",
+  "a": "",
+  "pc": "",
+  "lat": 56.96359,
+  "lng": 24.1023,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Leopardi Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1215236202",
+   "raw": {
+    "artist_name": "Viktorija Pelše",
+    "artwork_type": "sculpture",
+    "description": "Viktorija's diploma work from 1967",
+    "material": "concrete",
+    "name": "Leopardi",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "1967",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "karliszale",
+  "n": "Kārlis Zāle",
+  "a": "",
+  "pc": "",
+  "lat": 56.94717,
+  "lng": 24.13937,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Kārlis Zāle Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1283083624",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Šeit, Satekles ielā 11, no 1922. līdz 1942. gadam dzīvoja un strādāja izcilais latviešu tēlnieks Kārlis Zāle",
+    "memorial": "stone",
+    "name": "Kārlis Zāle",
+    "subject:wikidata": "Q2451446"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mirzoulugbek",
+  "n": "Mirzo Ulugbek",
+  "a": "",
+  "pc": "",
+  "lat": 56.95774,
+  "lng": 24.10146,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Mirzo Ulugbek Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1294679073",
+   "raw": {
+    "artist_name": "Ravšans Džalalitdins Mirtadžijevs",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Mirzo Ulugbek",
+    "name:lv": "Mirzo Ulugbek",
+    "name:ru": "Улугбек",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "panoramax": "2deacbba-cf70-4bc8-b275-79b2ad6412ad",
+    "start_date": "2004",
+    "subject:wikidata": "Q486088",
+    "subject:wikipedia": "lv:Ulugbeks",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lielaiskristaps",
+  "n": "Lielais Kristaps",
+  "a": "",
+  "pc": "",
+  "lat": 56.94969,
+  "lng": 24.1001,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Lielais Kristaps Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1294679116",
+   "raw": {
+    "artist_name": "Mihaels Brinkmans;Ģirts Upītis",
+    "artwork_type": "statue",
+    "name": "Lielais Kristaps",
+    "name:de": "Statue des Großen Christopherus",
+    "name:lv": "Lielais Kristaps",
+    "name:ru": "Большой Кристап",
+    "tourism": "artwork",
+    "wikidata": "Q4092700"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "daugava",
+  "n": "Daugava",
+  "a": "",
+  "pc": "",
+  "lat": 56.96022,
+  "lng": 24.09359,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Daugava Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1295490023",
+   "raw": {
+    "artist_name": "Viktorija Pelše",
+    "name": "Daugava",
+    "panoramax": "fb699a9f-0185-4d31-9b1e-1e756159b79b",
+    "start_date": "1975",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kokletajsarberniem",
+  "n": "Koklētājs ar bērniem",
+  "a": "",
+  "pc": "",
+  "lat": 57.00569,
+  "lng": 24.15684,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Koklētājs ar bērniem Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1297856602",
+   "raw": {
+    "artist_name": "Robertas Antinis",
+    "artwork_type": "sculpture",
+    "name": "Koklētājs ar bērniem",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "1999",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rigastornuskaititajs",
+  "n": "Rīgas torņu skaitītājs",
+  "a": "",
+  "pc": "",
+  "lat": 56.94952,
+  "lng": 24.09155,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Rīgas torņu skaitītājs Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1446590574",
+   "raw": {
+    "artist_name": "Olga Šilova",
+    "artwork_type": "statue",
+    "name": "Rīgas torņu skaitītājs",
+    "start_date": "2007",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "piemineklis1905gadarevol",
+  "n": "Piemineklis 1905. gada revolūcijas notikumiem Grīziņkalnā",
+  "a": "",
+  "pc": "",
+  "lat": 56.95702,
+  "lng": 24.15358,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Piemineklis 1905. gada revolūcijas notikumiem Grīziņkalnā Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1546891867",
+   "raw": {
+    "architect": "Gunārs Lūsis-Grīnbergs ;Liliāna Kraukle",
+    "artist_name": "Valdis Albergs",
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Piemineklis 1905. gada revolūcijas notikumiem Grīziņkalnā",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "1975"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pieminekliskoncentracija",
+  "n": "Piemineklis koncentrācijas nometnes Rīga – Kaiserwald upuriem",
+  "a": "",
+  "pc": "",
+  "lat": 56.99627,
+  "lng": 24.13241,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Piemineklis koncentrācijas nometnes Rīga – Kaiserwald upuriem Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1705312825",
+   "raw": {
+    "artist_name": "Solveiga Vasiļjeva",
+    "historic": "memorial",
+    "memorial": "memorial",
+    "name": "Piemineklis koncentrācijas nometnes Rīga – Kaiserwald upuriem",
+    "name:de": "Konzentrationslager Kaiserwald",
+    "name:en": "Kaiserwald concentration camp",
+    "name:lv": "Piemineklis koncentrācijas nometnes Rīga – Kaiserwald upuriem",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "2005"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sienaskirejaunvienotaja",
+  "n": "Siena – šķīrēja un vienotāja",
+  "a": "",
+  "pc": "",
+  "lat": 56.95848,
+  "lng": 24.10407,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Siena – šķīrēja un vienotāja Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1709120321",
+   "raw": {
+    "description": "Berlīnes mūra fragments",
+    "description:de": "Fragment der Berliner Mauer",
+    "description:lv": "Berlīnes mūra fragments",
+    "historic": "memorial",
+    "int_name": "Fragment of the Berlin Wall",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Siena – šķīrēja un vienotāja",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "panoramax": "b3e833ed-7dd8-47da-a3e9-c3fef1d5cbc0",
+    "panoramax:0": "7cc34e21-96a1-4da2-952c-31baba73596e",
+    "start_date": "1992",
+    "wheelchair": "limited"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "globussarpaliktni",
+  "n": "Globuss ar paliktni",
+  "a": "",
+  "pc": "",
+  "lat": 56.9439,
+  "lng": 24.13992,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Globuss ar paliktni Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1732652788",
+   "raw": {
+    "name": "Globuss ar paliktni",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "johansgodfridsherders",
+  "n": "Johans Godfrids Herders",
+  "a": "",
+  "pc": "",
+  "lat": 56.94882,
+  "lng": 24.10372,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Johans Godfrids Herders Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1797267646",
+   "raw": {
+    "architect": "Heinrihs K. Šēls",
+    "artist_name": "Ludvigs Šallers",
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Johans Godfrids Herders",
+    "name:de": "Johann Gottfried Herder",
+    "name:lv": "Johans Godfrids Herders",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "1864",
+    "subject:wikidata": "Q155547"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "xviigadsimtarigaslielgab",
+  "n": "XVII gadsimta Rīgas Lielgabals",
+  "a": "",
+  "pc": "",
+  "lat": 56.95136,
+  "lng": 24.10793,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "XVII gadsimta Rīgas Lielgabals Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1801385312",
+   "raw": {
+    "artist_name": "Zigfrīds Rozenbergs",
+    "name": "XVII gadsimta Rīgas Lielgabals",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "panoramax": "6528b2df-2c52-4c54-823c-2b9726c7f7dd",
+    "start_date": "2002",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "matearbernu",
+  "n": "Māte ar bērnu",
+  "a": "",
+  "pc": "",
+  "lat": 56.95976,
+  "lng": 24.12791,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Māte ar bērnu Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1896051110",
+   "raw": {
+    "artist_name": "Indulis Ranka",
+    "artwork_type": "statue",
+    "name": "Māte ar bērnu",
+    "start_date": "1973",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "farmacijasmuzejs",
+  "n": "Farmācijas muzejs",
+  "a": "",
+  "pc": "",
+  "lat": 56.94851,
+  "lng": 24.11174,
+  "c": "museum",
+  "s": "museum",
+  "q": "Farmācijas muzejs Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1907311602",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "13",
+    "addr:postcode": "LV-1050",
+    "addr:street": "Riharda Vāgnera iela",
+    "email": "farmacijasmuzejs@mvm.gov.lv",
+    "fee": "yes",
+    "name": "Farmācijas muzejs",
+    "name:be": "Музей аптэкі",
+    "name:de": "Pharmaziemuseum",
+    "name:en": "Pharmacy Museum",
+    "name:lv": "Farmācijas muzejs",
+    "name:ru": "Музей-аптека",
+    "opening_hours": "Tu-Sa 10:00-18:00",
+    "phone": "+371 67213008",
+    "ref:LV:addr": "102697857",
+    "tourism": "museum",
+    "website": "https://www.farmacijasmuzejs.lv/",
+    "wikidata": "Q3013764",
+    "wikipedia": "lv:Farmācijas muzejs"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "riga",
+  "n": "RĪGA",
+  "a": "",
+  "pc": "",
+  "lat": 56.89746,
+  "lng": 24.13894,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "RĪGA Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1931862141",
+   "raw": {
+    "artist:wikidata": "Q17593709",
+    "artist_name": "Valdis Celms",
+    "colour": "white",
+    "material": "metal",
+    "name": "RĪGA",
+    "official_name": "Dizaina objekts robežzīme RĪGA",
+    "start_date": "1980",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "piemineklismotobraucejie",
+  "n": "Piemineklis motobraucējiem",
+  "a": "",
+  "pc": "",
+  "lat": 56.88187,
+  "lng": 24.15814,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Piemineklis motobraucējiem Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1933433332",
+   "raw": {
+    "historic": "memorial",
+    "name": "Piemineklis motobraucējiem"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pieminekliskarlimulmanim",
+  "n": "Piemineklis Kārlim Ulmanim",
+  "a": "",
+  "pc": "",
+  "lat": 56.95407,
+  "lng": 24.10821,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Piemineklis Kārlim Ulmanim Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1937941782",
+   "raw": {
+    "architect": "Arnis Lukševics",
+    "artist_name": "Uldis Kurzemnieks",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Piemineklis Kārlim Ulmanim",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "2003",
+    "subject:wikidata": "Q298041"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "akmensdzeguzkalnakapiemu",
+  "n": "Akmens Dzegužkalna kapiem un 1905. gadā kritušo piemiņai",
+  "a": "",
+  "pc": "",
+  "lat": 56.95993,
+  "lng": 24.06456,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Akmens Dzegužkalna kapiem un 1905. gadā kritušo piemiņai Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1977869532",
+   "raw": {
+    "artist_name": "Solveiga Vasiļjeva",
+    "historic": "memorial",
+    "name": "Akmens Dzegužkalna kapiem un 1905. gadā kritušo piemiņai",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "2007"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "akmensstrazdumuizaspamie",
+  "n": "Akmens Strazdumuižas pamieram",
+  "a": "",
+  "pc": "",
+  "lat": 56.99029,
+  "lng": 24.24227,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Akmens Strazdumuižas pamieram Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2097377593",
+   "raw": {
+    "artist_name": "Imants Lukažs",
+    "historic": "memorial",
+    "inscription": "Šeit Rīgas Igauņu pamatskolā 1919. g. 3. VII noslēdza Strazdumuižas pamiera līgumu starp Igaunijas karaspēku, Vācijas armijas VI rezerves korpusu un Baltijas landesvēru",
+    "material": "stone",
+    "memorial": "war_memorial",
+    "memorial:conflict": "WW1",
+    "name": "Akmens Strazdumuižas pamieram",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "2005"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rainis",
+  "n": "Rainis",
+  "a": "",
+  "pc": "",
+  "lat": 56.9853,
+  "lng": 24.14287,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Rainis Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2097416740",
+   "raw": {
+    "historic": "memorial",
+    "name": "Rainis"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kisezers",
+  "n": "Ķīšezers",
+  "a": "",
+  "pc": "",
+  "lat": 57.00956,
+  "lng": 24.16274,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Ķīšezers Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2134072267",
+   "raw": {
+    "name": "Ķīšezers",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kinosuns",
+  "n": "Kino Suns",
+  "a": "",
+  "pc": "",
+  "lat": 56.95042,
+  "lng": 24.12176,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Kino Suns Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2167313781",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "83",
+    "addr:postcode": "LV-1050",
+    "addr:street": "Elizabetes iela",
+    "amenity": "cinema",
+    "check_date": "2025-09-03",
+    "name": "Kino Suns",
+    "ref:LV:addr": "101110993",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "piemineklisjorgimzemitan",
+  "n": "Piemineklis Jorģim Zemitānam",
+  "a": "",
+  "pc": "",
+  "lat": 56.97838,
+  "lng": 24.18534,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Piemineklis Jorģim Zemitānam Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2244504141",
+   "raw": {
+    "artist_name": "Gunta Zemīte ;Ivars Feldbergs ;Jānis Metuzāls",
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Piemineklis Jorģim Zemitānam",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "1995",
+    "subject:wikidata": "Q977190"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "acis",
+  "n": "Acis",
+  "a": "",
+  "pc": "",
+  "lat": 56.93334,
+  "lng": 24.11909,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Acis Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2261359326",
+   "raw": {
+    "architect": "Ruta Dobičina",
+    "artist_name": "Igors Dobičins",
+    "description": "Dedicated for those who guarded Latvian Television during barricades in 1991",
+    "description:lv": "Veltīts cilvēkiem, kas barikažu laikā 1991. gadā sargāja Latvijas Televīzijas ēku",
+    "historic": "memorial",
+    "inscription": "Acis. Veltījums Televīzijas centra sargātājiem barikāžu laikā 1991.gadā. Vienotībā ir spēks",
+    "name": "Acis",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "1991"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "karlispadegs",
+  "n": "Kārlis Padegs",
+  "a": "",
+  "pc": "",
+  "lat": 56.95062,
+  "lng": 24.11767,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Kārlis Padegs Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2264719925",
+   "raw": {
+    "architect": "Arno Heinrihsons",
+    "artist_name": "Gotlībs Kaņeps;Andris Vārpa",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Kārlis Padegs",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "panoramax": "a367ee26-50b2-4af9-ae1a-2a248a949ac4",
+    "panoramax:0": "5f729874-2a07-4a11-900b-af2dc9056c73",
+    "panoramax:1": "4177e985-8f61-40a0-8ddc-e89f6e1c27ed",
+    "start_date": "1998",
+    "subject:wikidata": "Q4342040",
+    "wheelchair": "yes",
+    "wikidata": "Q4342040"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "obelisksrigasgeneralgube",
+  "n": "Obelisks Rīgas ģenerālgubernatoram marķīzam Filipo Pauluči",
+  "a": "",
+  "pc": "",
+  "lat": 56.95148,
+  "lng": 24.11937,
+  "c": "history",
+  "s": "monument",
+  "q": "Obelisks Rīgas ģenerālgubernatoram marķīzam Filipo Pauluči Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2264719978",
+   "raw": {
+    "artist_name": "Deniss Gočijajevs;Ivars Feldbergs",
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "obelisk",
+    "name": "Obelisks Rīgas ģenerālgubernatoram marķīzam Filipo Pauluči",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "panoramax": "ca035d11-caa2-4ce5-86a4-c23940ededb8",
+    "start_date": "1851",
+    "subject:wikidata": "Q2621033",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "annagertrudevermane",
+  "n": "Anna Ģertrūde Vērmane",
+  "a": "",
+  "pc": "",
+  "lat": 56.95168,
+  "lng": 24.11729,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Anna Ģertrūde Vērmane Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2264720024",
+   "raw": {
+    "artist_name": "Inga Medne;Edvīns Krūmiņš;Sandrs Skribnovskis",
+    "historic": "memorial",
+    "inscription": "Der Gründerin dieses öffentlichen Gartens weil. Frau Aeltestin Wöhrmann, geb. Ebel",
+    "inscription:en": "Memorial ensemble to founder of a park Anna Gertrud Woehrmann (1750-1827)",
+    "inscription:lv": "Piemiņas ansamblis parka dibinātājai Annai Ģertrūdei Vērmanei (1750-1827)",
+    "inscription:ru": "Ансамбль памяти основательница парка Анны Гертруды Верман (1750-1827)",
+    "memorial": "obelisk",
+    "name": "Anna Ģertrūde Vērmane",
+    "name:de": "Wöhrmann-Denkmal",
+    "name:lv": "Anna Ģertrūde Vērmane",
+    "name:ru": "парк Памяти А.Г. Верман",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "panoramax": "5217a82e-b75a-4d60-8689-7157b02dfff3",
+    "start_date": "1929",
+    "subject:wikidata": "Q30879935",
+    "website": "https://www.rigaspieminekli.lv/?lapa=piemineklis&zanrs=1&rajons=6&id=9",
+    "wheelchair": "yes",
+    "wikidata": "Q56580436"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wwiirermemorial",
+  "n": "WW II RER Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 56.99456,
+  "lng": 24.11746,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "WW II RER Memorial Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2296083091",
+   "raw": {
+    "historic": "memorial",
+    "name": "WW II RER Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "latvijastautasfronte1989",
+  "n": "Latvijas Tautas Fronte 1989",
+  "a": "",
+  "pc": "",
+  "lat": 56.93605,
+  "lng": 24.02195,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Latvijas Tautas Fronte 1989 Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2383247421",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "Latvijas Tautas Fronte 1989"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "smilsupulkstenis",
+  "n": "Smilšu pulkstenis",
+  "a": "",
+  "pc": "",
+  "lat": 56.94194,
+  "lng": 24.13105,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Smilšu pulkstenis Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2465174505",
+   "raw": {
+    "artist_name": "Reinis Vārpa; Atis Lūsis",
+    "artwork_type": "sculpture",
+    "name": "Smilšu pulkstenis",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "2005",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "omnibuss",
+  "n": "Omnibuss",
+  "a": "",
+  "pc": "",
+  "lat": 56.93806,
+  "lng": 24.14666,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Omnibuss Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2465193829",
+   "raw": {
+    "alt_name": "Zirgu tramvajs",
+    "architect": "Arno Heinrihsons",
+    "artist_name": "Andris Vārpa",
+    "artwork_type": "sculpture",
+    "material": "metal",
+    "name": "Omnibuss",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "2009",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bremenesmuzikanti",
+  "n": "Brēmenes muzikanti",
+  "a": "",
+  "pc": "",
+  "lat": 56.94772,
+  "lng": 24.10977,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Brēmenes muzikanti Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2506501899",
+   "raw": {
+    "artist_name": "Gerhards Marks;Krista Baumgartele",
+    "artwork_type": "sculpture",
+    "name": "Brēmenes muzikanti",
+    "name:be": "Брэменскія музыкі",
+    "name:de": "Bremer Stadtmusikanten",
+    "name:en": "Bremen Town Musicians",
+    "name:lt": "Brėmeno muzikantai",
+    "name:lv": "Brēmenes muzikanti",
+    "name:pl": "Muzykanci z Bremy",
+    "name:ru": "Бременские музыканты",
+    "name:tr": "Bremen Mızıkacıları",
+    "name:uk": "Бременські музики",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "panoramax": "a2f19a1f-0eac-418a-9294-08f7d70a9bc6",
+    "panoramax:0": "e40ddad2-3a2f-489c-85dd-c5f8d130fbce",
+    "start_date": "1990",
+    "tourism": "artwork",
+    "wikidata": "Q4343092",
+    "wikipedia": "lv:Brēmenes muzikantu skulptūra"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aviacijasmuzejsspilve",
+  "n": "Aviācijas muzejs \"Spilve\"",
+  "a": "",
+  "pc": "",
+  "lat": 56.97613,
+  "lng": 24.07235,
+  "c": "museum",
+  "s": "museum",
+  "q": "Aviācijas muzejs \"Spilve\" Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2803440764",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "140",
+    "addr:postcode": "LV-1007",
+    "addr:street": "Daugavgrīvas iela",
+    "name": "Aviācijas muzejs \"Spilve\"",
+    "name:en": "Spilve aircraft museum",
+    "name:lv": "Aviācijas muzejs \"Spilve\"",
+    "note": "Some time already museum is closed; in survey June 2016 it was still closed",
+    "opening_hours": "closed",
+    "ref:LV:addr": "106272225",
+    "tourism": "museum",
+    "website": "http://spilve-rix.lv"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pedejodienusvetojezuskri",
+  "n": "Pēdējo dienu svēto Jēzus Kristus baznīca",
+  "a": "",
+  "pc": "",
+  "lat": 56.95781,
+  "lng": 24.12104,
+  "c": "faith",
+  "s": "church",
+  "q": "Pēdējo dienu svēto Jēzus Kristus baznīca Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2820185291",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "31",
+    "addr:postcode": "LV-1010",
+    "addr:street": "Baznīcas iela",
+    "amenity": "place_of_worship",
+    "denomination": "mormon",
+    "name": "Pēdējo dienu svēto Jēzus Kristus baznīca",
+    "ref:LV:addr": "101819778",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kengaragapromenade",
+  "n": "Ķengaraga promenāde",
+  "a": "",
+  "pc": "",
+  "lat": 56.90709,
+  "lng": 24.17967,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Ķengaraga promenāde Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2917895820",
+   "raw": {
+    "architect": "Daiga Veinberga",
+    "artist_name": "Āris Smildzers;Guntis Pandars",
+    "artwork_type": "sculpture",
+    "name": "Ķengaraga promenāde",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "2010",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "piemineklisvacukaravirie",
+  "n": "Piemineklis vācu karavīriem",
+  "a": "",
+  "pc": "",
+  "lat": 56.97008,
+  "lng": 24.14959,
+  "c": "death",
+  "s": "historic cemetery",
+  "q": "Piemineklis vācu karavīriem Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2955643342",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Before 2012 here was a cemetery with German soldiers. But since then all gravestones were moved to Beberbeķu cemetery.",
+    "memorial": "war_memorial",
+    "name": "Piemineklis vācu karavīriem",
+    "name:de": "Denkmal für deutsche Soldaten",
+    "name:lv": "Piemineklis vācu karavīriem"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "piemineklisrepresetajiem",
+  "n": "Piemineklis represētajiem",
+  "a": "",
+  "pc": "",
+  "lat": 56.90431,
+  "lng": 24.21135,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Piemineklis represētajiem Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3018247791",
+   "raw": {
+    "artist_name": "Aivars Vilipsons",
+    "historic": "memorial",
+    "memorial": "stele",
+    "memorial:conflict": "Soviet_repressions",
+    "name": "Piemineklis represētajiem",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "2008"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rigai800",
+  "n": "Rīgai 800",
+  "a": "",
+  "pc": "",
+  "lat": 56.92857,
+  "lng": 24.03212,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Rīgai 800 Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3028647758",
+   "raw": {
+    "artist_name": "Holgers Elers",
+    "artwork_type": "sculpture",
+    "material": "stainless_steel",
+    "name": "Rīgai 800",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "1941",
+  "n": "1941",
+  "a": "",
+  "pc": "",
+  "lat": 56.93184,
+  "lng": 24.08873,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "1941 Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3097934567",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "1941",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "1990",
+    "wikidata": "Q20562607",
+    "wikipedia": "lv:Komunistiskā terora upuru piemiņas vieta Torņakalnā"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "brasastiltamuralis",
+  "n": "Brasas tilta murālis",
+  "a": "",
+  "pc": "",
+  "lat": 56.97733,
+  "lng": 24.14482,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Brasas tilta murālis Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3120472651",
+   "raw": {
+    "alt_name": "Brasas - Čiekurkalna murālis",
+    "artwork_type": "mural",
+    "direction": "270",
+    "name": "Brasas tilta murālis",
+    "start_date": "2024-11-30",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "udenszirgs",
+  "n": "Ūdenszirgs",
+  "a": "",
+  "pc": "",
+  "lat": 56.95633,
+  "lng": 24.15635,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Ūdenszirgs Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3249141869",
+   "raw": {
+    "artist_name": "Rihards Maurs",
+    "artwork_type": "statue",
+    "name": "Ūdenszirgs",
+    "name:lv": "Ūdenszirgs",
+    "name:ru": "Морж",
+    "tourism": "artwork",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sauleperkonsdaugava",
+  "n": "Saule Pērkons Daugava",
+  "a": "",
+  "pc": "",
+  "lat": 56.9604,
+  "lng": 24.14085,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Saule Pērkons Daugava Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3250003916",
+   "raw": {
+    "artist_name": "KIWIE;Dainis Rudens",
+    "artwork_type": "mural",
+    "name": "Saule Pērkons Daugava",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "emilsdarzins",
+  "n": "Emīls Dārziņš",
+  "a": "",
+  "pc": "",
+  "lat": 56.94568,
+  "lng": 24.07757,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Emīls Dārziņš Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3300317042",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Emīls Dārziņš",
+    "subject:wikidata": "Q2607045"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sokoladesmuzejs",
+  "n": "Šokolādes muzejs",
+  "a": "",
+  "pc": "",
+  "lat": 56.96308,
+  "lng": 24.13169,
+  "c": "museum",
+  "s": "museum",
+  "q": "Šokolādes muzejs Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3318331078",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "22",
+    "addr:postcode": "LV-1001",
+    "addr:street": "Miera iela",
+    "fee": "yes",
+    "name": "Šokolādes muzejs",
+    "name:de": "Schokoladenmuseum",
+    "name:en": "Chocolate Museum",
+    "name:lv": "Šokolādes muzejs",
+    "name:ru": "Музей шоколада",
+    "opening_hours": "Tu-Su 10:00-18:00",
+    "operator": "OOO „Orkla Confectionery & Snacks Latvija”",
+    "phone": "+371 66154777",
+    "ref:LV:addr": "102657428",
+    "tourism": "museum",
+    "website": "https://www.laimasokoladesmuzejs.lv"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "paulsvaldens",
+  "n": "Pauls Valdens",
+  "a": "",
+  "pc": "",
+  "lat": 56.95507,
+  "lng": 24.10381,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pauls Valdens Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3532925703",
+   "raw": {
+    "architect": "Arno Heinrihsons",
+    "artist_name": "Andris Vārpa",
+    "historic": "memorial",
+    "material": "metal",
+    "memorial": "sculpture",
+    "name": "Pauls Valdens",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "panoramax": "f0c404d1-23e2-4c4e-8db4-c0b1f81408b0",
+    "start_date": "2003",
+    "subject:wikidata": "Q63131",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ridzinieki",
+  "n": "Rīdzinieki",
+  "a": "",
+  "pc": "",
+  "lat": 56.95371,
+  "lng": 24.15319,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Rīdzinieki Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3586327177",
+   "raw": {
+    "artist_name": "Ģirts Burvis",
+    "artwork_type": "sculpture",
+    "description": "Piemineklis ataino Augusta Deglava romāna personāžus",
+    "name": "Rīdzinieki",
+    "name:en": "The People of Riga",
+    "name:lv": "Rīdzinieki",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "2012",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "skatutornisbumbukalnins",
+  "n": "Skatu tornis \"Bumbu kalniņš\"",
+  "a": "",
+  "pc": "",
+  "lat": 57.00396,
+  "lng": 24.02019,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Skatu tornis \"Bumbu kalniņš\" Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3719893192",
+   "raw": {
+    "fee": "no",
+    "foot": "yes",
+    "man_made": "tower",
+    "material": "wood",
+    "name": "Skatu tornis \"Bumbu kalniņš\"",
+    "observation": "firewatch;landscape",
+    "tourism": "viewpoint",
+    "tower:type": "observation",
+    "wheelchair": "no",
+    "wikimedia_commons": "File:Bumbu kalniņa skatu tornis.jpg"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "piemineklisakademikimedg",
+  "n": "Piemineklis akadēmiķim Edgaram Imantam Siliņam",
+  "a": "",
+  "pc": "",
+  "lat": 56.97587,
+  "lng": 24.19131,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Piemineklis akadēmiķim Edgaram Imantam Siliņam Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3722774402",
+   "raw": {
+    "artist_name": "Zigrīda Rapa; Juris Rapa",
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "Piemineklis akadēmiķim Edgaram Imantam Siliņam",
+    "start_date": "2004",
+    "subject:wikidata": "Q13461287"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sturamaja",
+  "n": "Stūra māja",
+  "a": "",
+  "pc": "",
+  "lat": 56.95817,
+  "lng": 24.12421,
+  "c": "museum",
+  "s": "museum",
+  "q": "Stūra māja Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3733396425",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "61",
+    "addr:postcode": "LV-1010",
+    "addr:street": "Brīvības iela",
+    "check_date": "2026-01-14",
+    "check_date:opening_hours": "2026-01-14",
+    "fee": "no",
+    "name": "Stūra māja",
+    "name:be": "\"Кутавы дом\" КДБ",
+    "name:en": "KGB Building \"Corner House\"",
+    "name:lv": "Stūra māja",
+    "name:ru": "\"Угловой дом\" КГБ",
+    "name:sv": "KGB museum",
+    "opening_hours": "Mo-Su 10:30-17:30",
+    "ref:LV:addr": "101126000",
+    "tourism": "museum",
+    "website": "http://sturamaja.lv",
+    "wikidata": "Q4468975",
+    "wikipedia": "lv:Stūra māja"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rigaspanorama",
+  "n": "Rīgas panorāma",
+  "a": "",
+  "pc": "",
+  "lat": 56.9432,
+  "lng": 24.12193,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Rīgas panorāma Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3737876875",
+   "raw": {
+    "charge": "6 EUR",
+    "fee": "yes",
+    "name": "Rīgas panorāma",
+    "name:en": "Riga Panorama",
+    "name:lt": "Rygos panorama",
+    "name:lv": "Rīgas panorāma",
+    "name:pl": "Panorama Rygi",
+    "tourism": "viewpoint",
+    "website": "http://www.panoramariga.lv",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kassenatnipetinakotnisve",
+  "n": "Kas senatni pētī – nākotni svētī",
+  "a": "",
+  "pc": "",
+  "lat": 56.9937,
+  "lng": 24.27383,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Kas senatni pētī – nākotni svētī Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3743058955",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "KAS SENATNI PĒTĪ NĀKOTNI SVĒTĪ",
+    "memorial": "sculpture",
+    "name": "Kas senatni pētī – nākotni svētī"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "latvijasarhitekturasmuze",
+  "n": "Latvijas Arhitektūras muzejs",
+  "a": "",
+  "pc": "",
+  "lat": 56.95033,
+  "lng": 24.10431,
+  "c": "museum",
+  "s": "museum",
+  "q": "Latvijas Arhitektūras muzejs Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3744135928",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "19",
+    "addr:postcode": "LV-1050",
+    "addr:street": "Mazā Pils iela",
+    "fee": "no",
+    "name": "Latvijas Arhitektūras muzejs",
+    "name:be": "Латвійскі музей архітэктуры",
+    "name:en": "Latvian Museum of Architecture",
+    "name:lv": "Latvijas Arhitektūras muzejs",
+    "name:ru": "Латвийский музей архитектуры",
+    "opening_hours": "Mo 09:00-18:00; Tu-Th 09:00-17:00; Fr 09:00-16:00; Sa,Su off",
+    "ref:LV:addr": "101947757",
+    "tourism": "museum",
+    "website": "http://www.archmuseum.lv",
+    "website:en": "http://www.archmuseum.lv/en/actualities.htm",
+    "website:lv": "http://www.archmuseum.lv/lat/actualities.htm",
+    "wikidata": "Q4254893",
+    "wikipedia": "lv:Latvijas Arhitektūras muzejs"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "autotankupulkapieminekli",
+  "n": "Autotanku pulka piemineklis",
+  "a": "",
+  "pc": "",
+  "lat": 56.95678,
+  "lng": 24.06345,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Autotanku pulka piemineklis Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3763436273",
+   "raw": {
+    "artist_name": "Verners Vitands",
+    "historic": "memorial",
+    "inscription": "Par Tēvzemi un Brīvību ziedojuši dzīvību 1919-1920",
+    "memorial": "war_memorial",
+    "name": "Autotanku pulka piemineklis",
+    "official_name": "Piemineklis 1. bruņotā diviziona Autotanku pulka karavīriem",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "panoramax": "042221b2-8179-4a40-826a-f246d221c97f",
+    "start_date": "1939",
+    "wikidata": "Q56011526"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "georgsarmitsteds",
+  "n": "Georgs Armitsteds",
+  "a": "",
+  "pc": "",
+  "lat": 56.95012,
+  "lng": 24.11397,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Georgs Armitsteds Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3772368683",
+   "raw": {
+    "architect": "Kristīne Vīziņa",
+    "artist_name": "Andris Vārpa;Deniss Gočijajevs",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Georgs Armitsteds",
+    "name:en": "George Armitstead",
+    "name:lv": "Georgs Armitsteds",
+    "name:ru": "Джордж Армистед",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "panoramax": "f99296bf-ad84-42b8-bc97-ab8c200c3bd8",
+    "start_date": "2006-10-18",
+    "subject:wikidata": "Q4069617"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kumelins",
+  "n": "Kumeliņš",
+  "a": "",
+  "pc": "",
+  "lat": 56.95188,
+  "lng": 24.11098,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Kumeliņš Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3772368684",
+   "raw": {
+    "artist_name": "Gaida Grundberga",
+    "artwork_type": "statue",
+    "name": "Kumeliņš",
+    "name:lv": "Kumeliņš",
+    "name:ru": "Жеребёнок",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "panoramax": "b332f410-0eea-4fd4-ba0d-026e4634876d",
+    "start_date": "1970",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "latvenergoenergetikasmuz",
+  "n": "Latvenergo Enerģētikas muzeja krātuves",
+  "a": "",
+  "pc": "",
+  "lat": 56.96632,
+  "lng": 24.09383,
+  "c": "museum",
+  "s": "museum",
+  "q": "Latvenergo Enerģētikas muzeja krātuves Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3815198372",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "19",
+    "addr:postcode": "LV-1045",
+    "addr:street": "Andrejostas iela",
+    "name": "Latvenergo Enerģētikas muzeja krātuves",
+    "ref:LV:addr": "102611623",
+    "tourism": "museum",
+    "website": "https://latvenergo.lv/lat/korporativa_sociala_atbildiba/energetikas_muzejs/muzeja_kratuves_riga/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mazjumprava",
+  "n": "Mazjumprava",
+  "a": "",
+  "pc": "",
+  "lat": 56.89129,
+  "lng": 24.1984,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Mazjumprava Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3869247595",
+   "raw": {
+    "alt_name": "Mazjumpravmuiža",
+    "historic": "manor",
+    "name": "Mazjumprava",
+    "old_name:de": "Jungfernhof",
+    "ruins": "yes",
+    "start_date": "1259",
+    "wikidata": "Q16411596",
+    "wikipedia": "lv:Mazjumpravas muiža (Rīga)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "piemineklis2pasauleskara",
+  "n": "Piemineklis 2. pasaules karā kritušajiem karavīriem",
+  "a": "",
+  "pc": "",
+  "lat": 56.99872,
+  "lng": 24.27124,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Piemineklis 2. pasaules karā kritušajiem karavīriem Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3888849828",
+   "raw": {
+    "artist_name": "Valdis Albergs",
+    "historic": "memorial",
+    "inscription": "No šīs vietas 245. strēlnieku divīzija 1944. gadā naktī no 12. uz 13. oktobri uzsāka izšķirošo kauju par Rīgas atbrīvošanu. Mūžīga slava kritušajiem varoņiem. 1941-1944",
+    "inscription:ru": "С этого места 245 стрелковая дивизия в ночь на 13 октября 1944 г. начала решающий бой за освобождение Риги. Вечная слава павшим героям.",
+    "memorial": "war_memorial",
+    "memorial:conflict": "WW2",
+    "name": "Piemineklis 2. pasaules karā kritušajiem karavīriem",
+    "name:lv": "Piemineklis 2. pasaules karā kritušajiem karavīriem",
+    "name:ru": "Братское кладбище советских войнов (1944)",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "1965",
+    "website": "http://voin.russkie.org.lv/riga_brivibas.php"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "uzskolu",
+  "n": "Uz skolu",
+  "a": "",
+  "pc": "",
+  "lat": 56.93625,
+  "lng": 24.19591,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Uz skolu Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3988018921",
+   "raw": {
+    "architect": "Ēvalds Fogelis",
+    "artist_name": "Zigrīda Rapa",
+    "artwork_type": "sculpture",
+    "name": "Uz skolu",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "1983",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rigasrobezstabs",
+  "n": "Rīgas robežstabs",
+  "a": "",
+  "pc": "",
+  "lat": 56.90598,
+  "lng": 24.08266,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Rīgas robežstabs Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4068212410",
+   "raw": {
+    "architect": "Ansis Kalniņš",
+    "historic": "boundary_stone",
+    "inscription": "RĪGA",
+    "name": "Rīgas robežstabs",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "1938"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "piemineklis1701gadakritu",
+  "n": "Piemineklis 1701. gadā kritušajiem krievu karavīriem",
+  "a": "",
+  "pc": "",
+  "lat": 56.92536,
+  "lng": 24.12557,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Piemineklis 1701. gadā kritušajiem krievu karavīriem Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4123492294",
+   "raw": {
+    "artist_name": "Boriss Epingers",
+    "description:lv": "1891.gada 10.jūlijā šis piemineklis tika uzcelts par brīvprātīgajiem ziedojumiem pēc Līvzemes gubernatora ģenerālleitnanta M.A.Zinovjeva rīkojuma. 400 krievu karavīru piemiņai, kas krituši varoņa nāvē, aizstāvot salu 1701.gada 10.jūlijā",
+    "description:ru": "10 июля 1891г. памятник сей воздвигнут на добровольные пожертвования по распоряжению лифляндского губернатора генерал-лейтенанта М.А.Зиновьева. Памяти 400 русских войнов, геройски павших при защите острова 10 июля 1701 года",
+    "historic": "memorial",
+    "name": "Piemineklis 1701. gadā kritušajiem krievu karavīriem",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "1891"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "klusadaba",
+  "n": "Klusā daba",
+  "a": "",
+  "pc": "",
+  "lat": 56.95041,
+  "lng": 24.05623,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Klusā daba Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4130450830",
+   "raw": {
+    "artist_name": "Brigita Zelča Aispure;Sandis Aispurs",
+    "artwork_type": "sculpture",
+    "name": "Klusā daba",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "anhelaganivetapieminaszi",
+  "n": "Anhela Ganiveta piemiņas zīme",
+  "a": "",
+  "pc": "",
+  "lat": 56.94684,
+  "lng": 24.07089,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Anhela Ganiveta piemiņas zīme Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4204940707",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Anhela Ganiveta piemiņas zīme",
+    "subject:wikidata": "Q706889"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jewsinlatvia",
+  "n": "Jews in Latvia",
+  "a": "",
+  "pc": "",
+  "lat": 56.9564,
+  "lng": 24.11662,
+  "c": "museum",
+  "s": "museum",
+  "q": "Jews in Latvia Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4246679918",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "6",
+    "addr:postcode": "LV-1010",
+    "addr:street": "Skolas iela",
+    "email": "info@jewishmuseum.lv",
+    "fee": "voluntary",
+    "name": "Jews in Latvia",
+    "name:be": "Габрэі ў Латвіі",
+    "name:lv": "Jews in Latvia",
+    "name:ru": "Евреи в Латвии",
+    "name:uk": "Євреї в Латвії",
+    "opening_hours": "Su-Th 11:00-17:00",
+    "phone": "+37167283484",
+    "ref:LV:addr": "101992230",
+    "tourism": "museum",
+    "website": "https://www.jewishmuseum.lv/",
+    "wheelchair": "no",
+    "wikidata": "Q15978608",
+    "wikipedia": "lv:Ebreji Latvijā (muzejs)",
+    "wikipedia:ru": "Евреи_в_Латвии_(музей)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "origouniversi",
+  "n": "Origo Universi",
+  "a": "",
+  "pc": "",
+  "lat": 56.94749,
+  "lng": 24.12061,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Origo Universi Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4271114290",
+   "raw": {
+    "amenity": "clock",
+    "artist_name": "Valdis Majevskis",
+    "check_date": "2022-09-10",
+    "display": "sundial",
+    "indoor": "no",
+    "name": "Origo Universi",
+    "reg_name": "Origo saulespulkstenis",
+    "start_date": "2012-11-14",
+    "support": "ground",
+    "tourism": "artwork",
+    "visibility": "house",
+    "website": "https://www.saulespulkstenis.lv/origo-universi-atklasana/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "priekavests",
+  "n": "Prieka Vēsts",
+  "a": "",
+  "pc": "",
+  "lat": 56.96903,
+  "lng": 24.15853,
+  "c": "faith",
+  "s": "church",
+  "q": "Prieka Vēsts Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4321079562",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "6",
+    "addr:postcode": "LV-1039",
+    "addr:street": "Bērzaunes iela",
+    "amenity": "place_of_worship",
+    "check_date": "2026-03-09",
+    "name": "Prieka Vēsts",
+    "ref:LV:addr": "101819882",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "internationalmuseumofvod",
+  "n": "International Museum of Vodka",
+  "a": "",
+  "pc": "",
+  "lat": 56.96754,
+  "lng": 24.15212,
+  "c": "museum",
+  "s": "museum",
+  "q": "International Museum of Vodka Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4332538891",
+   "raw": {
+    "addr:city": "Rīga",
+    "addr:country": "LV",
+    "addr:housenumber": "136F",
+    "addr:postcode": "LV-1012",
+    "addr:street": "Krišjāņa Barona iela",
+    "disused:tourism": "museum",
+    "email": "rfe@dartzmotorz.com",
+    "name": "International Museum of Vodka",
+    "name:lv": "Starptautiskais Degvīna muzejs",
+    "name:ru": "Международный музей водки",
+    "phone": "+371 26522232",
+    "ref:LV:addr": "103330280",
+    "tourism": "museum",
+    "website": "https://dartzmotorz.com/international-museum-of-vodka/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "laboromniavincit",
+  "n": "Labor Omnia Vincit",
+  "a": "",
+  "pc": "",
+  "lat": 56.96459,
+  "lng": 24.1068,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Labor Omnia Vincit Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4335380710",
+   "raw": {
+    "artist_name": "Gļebs Panteļejevs",
+    "artwork_type": "sculpture",
+    "description:en": "Created upon the request of ABLV Bank in 2013 in honour of its 20 year anniversary",
+    "material": "metal",
+    "name": "Labor Omnia Vincit",
+    "name:en": "Labor conquers all things",
+    "name:lv": "Labor Omnia Vincit",
+    "start_date": "2013",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gulbis",
+  "n": "Gulbis",
+  "a": "",
+  "pc": "",
+  "lat": 56.95205,
+  "lng": 24.10198,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Gulbis Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4373836090",
+   "raw": {
+    "artist_name": "Arta Dumpe",
+    "artwork_type": "statue",
+    "name": "Gulbis",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "start_date": "1986",
+    "tourism": "artwork",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "andrejsupitis",
+  "n": "Andrejs Upītis",
+  "a": "",
+  "pc": "",
+  "lat": 56.95611,
+  "lng": 24.10705,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Andrejs Upītis Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4375317698",
+   "raw": {
+    "architect": "Gunārs Asaris",
+    "artist_name": "Alberts Terpilovskis",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Andrejs Upītis",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "panoramax": "a1658c7f-d663-4b84-80fc-d7c8455b0209",
+    "start_date": "1982",
+    "subject:wikidata": "Q572629",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "livagalva",
+  "n": "Līva galva",
+  "a": "",
+  "pc": "",
+  "lat": 56.94985,
+  "lng": 24.10879,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Līva galva Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4376987389",
+   "raw": {
+    "artist:wikidata": "Q99479044",
+    "artist_name": "Ģirts Burvis",
+    "artwork_type": "sculpture",
+    "material": "granite",
+    "name": "Līva galva",
+    "name:en": "The head of the Liiv",
+    "name:lv": "Līva galva",
+    "operator": "Rīgas pieminekļu aģentūra",
+    "panoramax": "14fc95db-e01f-4458-ae6d-188dc1d9a22d",
+    "start_date": "2003",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vetras",
+  "n": "Vētras",
+  "a": "",
+  "pc": "",
+  "lat": 56.8825,
+  "lng": 23.9947,
+  "c": "oddity",
+  "s": "village in Latvia, Marupe Municipality",
+  "q": "Vētras Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q64913623",
+   "raw": "village in Latvia, Marupe Municipality",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kreiss",
+  "n": "Kreiss",
+  "a": "",
+  "pc": "",
+  "lat": 56.88983,
+  "lng": 24.00806,
+  "c": "oddity",
+  "s": "legal entity in Latvia",
+  "q": "Kreiss Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q99395784",
+   "raw": "legal entity in Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "polipaks",
+  "n": "Polipaks",
+  "a": "",
+  "pc": "",
+  "lat": 56.88433,
+  "lng": 23.98659,
+  "c": "oddity",
+  "s": "legal entity in Latvia",
+  "q": "Polipaks Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q104429485",
+   "raw": "legal entity in Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alsolatvia",
+  "n": "ALSO Latvia",
+  "a": "",
+  "pc": "",
+  "lat": 56.89934,
+  "lng": 24.03967,
+  "c": "oddity",
+  "s": "company based in Latvia",
+  "q": "ALSO Latvia Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q124692961",
+   "raw": "company based in Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dgrsolutions",
+  "n": "DGR solutions",
+  "a": "",
+  "pc": "",
+  "lat": 56.88972,
+  "lng": 24.04976,
+  "c": "oddity",
+  "s": "company based in Latvia",
+  "q": "DGR solutions Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q125618910",
+   "raw": "company based in Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "safegroup",
+  "n": "Safe Group",
+  "a": "",
+  "pc": "",
+  "lat": 56.88854,
+  "lng": 23.98776,
+  "c": "oddity",
+  "s": "company based in Latvia",
+  "q": "Safe Group Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q125749895",
+   "raw": "company based in Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "avesco",
+  "n": "Avesco",
+  "a": "",
+  "pc": "",
+  "lat": 56.88205,
+  "lng": 23.97643,
+  "c": "oddity",
+  "s": "company based in Latvia",
+  "q": "Avesco Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126024525",
+   "raw": "company based in Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dokalatvia",
+  "n": "DOKA Latvia",
+  "a": "",
+  "pc": "",
+  "lat": 56.88318,
+  "lng": 23.98332,
+  "c": "oddity",
+  "s": "company based in Latvia",
+  "q": "DOKA Latvia Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126190468",
+   "raw": "company based in Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "radexeurope",
+  "n": "Radex-Europe",
+  "a": "",
+  "pc": "",
+  "lat": 56.88561,
+  "lng": 23.99046,
+  "c": "oddity",
+  "s": "company based in Latvia",
+  "q": "Radex-Europe Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q126415082",
+   "raw": "company based in Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "belss",
+  "n": "Belss",
+  "a": "",
+  "pc": "",
+  "lat": 56.88131,
+  "lng": 23.96405,
+  "c": "oddity",
+  "s": "company based in Latvia",
+  "q": "Belss Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q128178210",
+   "raw": "company based in Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "marupitesgatve",
+  "n": "Mārupītes gatve",
+  "a": "",
+  "pc": "",
+  "lat": 56.89361,
+  "lng": 24.04594,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Mārupītes gatve Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q131522945",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mazaspulgustreet",
+  "n": "Mazā Spulgu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89142,
+  "lng": 24.0525,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Mazā Spulgu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q131523416",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rozkalnustreet",
+  "n": "Rožkalnu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89422,
+  "lng": 24.04847,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Rožkalnu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q131536178",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vecozolustreet",
+  "n": "Vecozolu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.88983,
+  "lng": 24.05569,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Vecozolu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q131536571",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zeltritustreet",
+  "n": "Zeltrītu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.88767,
+  "lng": 24.05628,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Zeltrītu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q131537156",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zemturustreet",
+  "n": "Zemturu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89289,
+  "lng": 24.04972,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Zemturu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q131537615",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aiviekstesstreet",
+  "n": "Aiviekstes Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.88776,
+  "lng": 24.04752,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Aiviekstes Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468069",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alisesstreet",
+  "n": "Alises Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.88805,
+  "lng": 24.03088,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Alises Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468084",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "asterustreet",
+  "n": "Asteru Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89406,
+  "lng": 24.03828,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Asteru Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468085",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "baltlacustreet",
+  "n": "Baltlāču Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89206,
+  "lng": 24.03228,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Baltlāču Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468091",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ceplustreet",
+  "n": "Cepļu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89026,
+  "lng": 24.03191,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Cepļu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468103",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "burtniekustreet",
+  "n": "Burtnieku Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.88642,
+  "lng": 24.04968,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Burtnieku Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468101",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cakainustreet",
+  "n": "Čakaiņu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89264,
+  "lng": 24.03506,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Čakaiņu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468106",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dalijustreet",
+  "n": "Dāliju Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89114,
+  "lng": 24.03875,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Dāliju Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468110",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dikustreet",
+  "n": "Dīķu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89331,
+  "lng": 24.02944,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Dīķu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468116",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dzervenustreet",
+  "n": "Dzērveņu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89597,
+  "lng": 24.00439,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Dzērveņu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468123",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eglajustreet",
+  "n": "Eglāju Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89209,
+  "lng": 24.04074,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Eglāju Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468126",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "efejustreet",
+  "n": "Efeju Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89733,
+  "lng": 24.03702,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Efeju Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468125",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "forstustreet",
+  "n": "Forstu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.88505,
+  "lng": 24.0409,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Forstu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468131",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "emilijasstreet",
+  "n": "Emīlijas Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.88504,
+  "lng": 24.03819,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Emīlijas Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468128",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "grandulustreet",
+  "n": "Granduļu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.90825,
+  "lng": 24.01194,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Granduļu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468134",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gaizinastreet",
+  "n": "Gaiziņa Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89275,
+  "lng": 24.04415,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Gaiziņa Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468132",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gerberustreet",
+  "n": "Gerberu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89723,
+  "lng": 24.04156,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Gerberu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468133",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "grudupustreet",
+  "n": "Grūdupu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.90337,
+  "lng": 24.03822,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Grūdupu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468138",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jaunatlantustreet",
+  "n": "Jaunatlantu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.90735,
+  "lng": 24.0308,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Jaunatlantu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468142",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "irbitesstreet",
+  "n": "Irbītes Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.88823,
+  "lng": 24.03965,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Irbītes Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468141",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jaunburtniekustreet",
+  "n": "Jaunburtnieku Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.90706,
+  "lng": 24.03661,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Jaunburtnieku Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468146",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "katrinmuizasstreet",
+  "n": "Katrīnmuižas Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.88541,
+  "lng": 24.04545,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Katrīnmuižas Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468155",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kalnastreet",
+  "n": "Kalna Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.8915,
+  "lng": 24.04419,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Kalna Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468153",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "magonustreet",
+  "n": "Magoņu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89771,
+  "lng": 24.03945,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Magoņu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468171",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mazamarzemitesstreet",
+  "n": "Mazā Mārzemītes Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89045,
+  "lng": 24.01924,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Mazā Mārzemītes Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468182",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mazamezmalustreet",
+  "n": "Mazā Mežmaļu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.88785,
+  "lng": 24.01697,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Mazā Mežmaļu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468183",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "makonustreet",
+  "n": "Mākoņu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89383,
+  "lng": 23.99381,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Mākoņu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468186",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "malinustreet",
+  "n": "Māliņu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.88903,
+  "lng": 24.02704,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Māliņu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468187",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mazaungurustreet",
+  "n": "Mazā Unguru Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.90606,
+  "lng": 24.02928,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Mazā Unguru Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468184",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "marasstreet",
+  "n": "Māras Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.88793,
+  "lng": 24.03641,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Māras Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468190",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mezavejustreet",
+  "n": "Mežavēju Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.90345,
+  "lng": 24.02939,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Mežavēju Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468199",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mezgravustreet",
+  "n": "Mežgravu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.8865,
+  "lng": 24.04228,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Mežgravu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468202",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mezkalnustreet",
+  "n": "Mežkalnu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89167,
+  "lng": 23.99931,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Mežkalnu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468203",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mezciemastreet",
+  "n": "Mežciema Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.88567,
+  "lng": 24.0109,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Mežciema Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468201",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nelkustreet",
+  "n": "Neļķu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89549,
+  "lng": 24.03973,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Neļķu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468208",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pakavinustreet",
+  "n": "Pakaviņu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.88664,
+  "lng": 24.01324,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Pakaviņu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468215",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ozolkalnustreet",
+  "n": "Ozolkalnu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.90527,
+  "lng": 23.99248,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Ozolkalnu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468212",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ozolzilustreet",
+  "n": "Ozolzīļu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89139,
+  "lng": 24.02392,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Ozolzīļu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468213",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "prusustreet",
+  "n": "Prūšu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.8907,
+  "lng": 24.03596,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Prūšu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468219",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "samtustreet",
+  "n": "Samtu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.90129,
+  "lng": 24.03337,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Samtu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468230",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rozustreet",
+  "n": "Rožu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.8905,
+  "lng": 24.02697,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Rožu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468228",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "selustreet",
+  "n": "Sēļu Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.89536,
+  "lng": 24.03056,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Sēļu Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468235",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "silajustreet",
+  "n": "Silāju Street",
+  "a": "",
+  "pc": "",
+  "lat": 56.88962,
+  "lng": 24.04019,
+  "c": "oddity",
+  "s": "street in Mārupe, Latvia",
+  "q": "Silāju Street Riga",
+  "w": "",
+  "city": "riga",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q134468238",
+   "raw": "street in Mārupe, Latvia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

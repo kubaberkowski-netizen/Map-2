@@ -1,0 +1,4426 @@
+[
+ {
+  "id": "khanqahnaqshbandia",
+  "n": "Khanqah Naqshbandia",
+  "a": "",
+  "pc": "",
+  "lat": 53.43296,
+  "lng": -2.20882,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Khanqah Naqshbandia Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/25365400",
+   "raw": {
+    "addr:housenumber": "181a",
+    "addr:postcode": "M19 1BA",
+    "addr:street": "Mauldeth Road",
+    "addr:suburb": "Burnage",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "denomination": "sunni",
+    "name": "Khanqah Naqshbandia",
+    "religion": "muslim",
+    "website": "http://www.khanqahnaqshbandia.org/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "druidstonecircle",
+  "n": "Druid Stone Circle",
+  "a": "",
+  "pc": "",
+  "lat": 53.63806,
+  "lng": -2.4303,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Druid Stone Circle Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/29296075",
+   "raw": {
+    "archaeological_site": "megalith",
+    "historic": "archaeological_site",
+    "megalith_type": "stone_circle",
+    "name": "Druid Stone Circle",
+    "note": "Druidical Circle(?) - npe",
+    "source": "npe",
+    "wikidata": "Q5089468",
+    "wikipedia": "en:Cheetham Close"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "waterloomethodistchurch",
+  "n": "Waterloo Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.50284,
+  "lng": -2.10466,
+  "c": "faith",
+  "s": "church",
+  "q": "Waterloo Methodist Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/41101664",
+   "raw": {
+    "addr:city": "Ashton-under-Lyne",
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Waterloo Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "greenmountunitedreformed",
+  "n": "Greenmount United Reformed Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.62526,
+  "lng": -2.33829,
+  "c": "faith",
+  "s": "church",
+  "q": "Greenmount United Reformed Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/256401332",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "united_reformed",
+    "name": "Greenmount United Reformed Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stcuthberts",
+  "n": "St Cuthbert's",
+  "a": "",
+  "pc": "",
+  "lat": 53.43221,
+  "lng": -2.22975,
+  "c": "faith",
+  "s": "church",
+  "q": "St Cuthbert's Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/275673909",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-12-28",
+    "denomination": "catholic",
+    "name": "St Cuthbert's",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "christadelphianhall",
+  "n": "Christadelphian Hall",
+  "a": "",
+  "pc": "",
+  "lat": 53.54042,
+  "lng": -2.106,
+  "c": "faith",
+  "s": "church",
+  "q": "Christadelphian Hall Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/286960803",
+   "raw": {
+    "addr:city": "Oldham",
+    "addr:housename": "Christadelphian Hall",
+    "addr:postcode": "OL1 1ED",
+    "addr:street": "Bridge Street",
+    "amenity": "place_of_worship",
+    "name": "Christadelphian Hall",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "unionstreetunitedreforme",
+  "n": "Union Street United Reformed Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.54091,
+  "lng": -2.10955,
+  "c": "faith",
+  "s": "church",
+  "q": "Union Street United Reformed Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/286964225",
+   "raw": {
+    "addr:city": "Oldham",
+    "addr:housename": "United Reformed Church",
+    "addr:housenumber": "107",
+    "addr:postcode": "OL1 1QH",
+    "addr:street": "Union Street",
+    "amenity": "place_of_worship",
+    "denomination": "united_reformed;methodist",
+    "name": "Union Street United Reformed Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "qadriajilaniaislamicsece",
+  "n": "Qadria Jilania Islamic (S+E) Centre",
+  "a": "",
+  "pc": "",
+  "lat": 53.45697,
+  "lng": -2.20297,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Qadria Jilania Islamic (S+E) Centre Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/298388469",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Qadria Jilania Islamic (S+E) Centre",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thechurchofgodofprophecy",
+  "n": "The Church of God of Prophecy",
+  "a": "",
+  "pc": "",
+  "lat": 53.45572,
+  "lng": -2.2019,
+  "c": "faith",
+  "s": "church",
+  "q": "The Church of God of Prophecy Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/298658995",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "The Church of God of Prophecy",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "historiccargolift",
+  "n": "Historic Cargo Lift",
+  "a": "",
+  "pc": "",
+  "lat": 53.4795,
+  "lng": -2.22581,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Historic Cargo Lift Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/307768960",
+   "raw": {
+    "historic": "monument",
+    "name": "Historic Cargo Lift"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "phillipsparkcemeterychap",
+  "n": "Phillips Park Cemetery Chapel",
+  "a": "",
+  "pc": "",
+  "lat": 53.49064,
+  "lng": -2.19812,
+  "c": "death",
+  "s": "historic cemetery",
+  "q": "Phillips Park Cemetery Chapel Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/307820969",
+   "raw": {
+    "historic": "ruins",
+    "listed_status": "Grade II",
+    "name": "Phillips Park Cemetery Chapel"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "odeonmanchestergreatnort",
+  "n": "ODEON Manchester Great Northern",
+  "a": "",
+  "pc": "",
+  "lat": 53.47641,
+  "lng": -2.24966,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "ODEON Manchester Great Northern Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/307874659",
+   "raw": {
+    "addr:city": "Manchester",
+    "addr:housenumber": "253",
+    "addr:postcode": "M3 4EN",
+    "addr:street": "Deansgate",
+    "addr:unit": "2",
+    "amenity": "cinema",
+    "brand": "Odeon",
+    "brand:wikidata": "Q6127470",
+    "cinema:3D": "yes",
+    "contact:website": "https://www.odeon.co.uk/cinemas/manchester-great-northern/",
+    "fhrs:id": "1820172",
+    "name": "ODEON Manchester Great Northern",
+    "screen": "16"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "whitewallgalleries",
+  "n": "Whitewall Galleries",
+  "a": "",
+  "pc": "",
+  "lat": 53.48131,
+  "lng": -2.24751,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Whitewall Galleries Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/324664008",
+   "raw": {
+    "addr:city": "Manchester",
+    "addr:housenumber": "95-97",
+    "addr:postcode": "M3 2BQ",
+    "addr:street": "Deansgate",
+    "name": "Whitewall Galleries",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ukrainiancatholicchurch",
+  "n": "Ukrainian Catholic Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.51459,
+  "lng": -2.24748,
+  "c": "faith",
+  "s": "church",
+  "q": "Ukrainian Catholic Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/393401955",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-05-25",
+    "denomination": "catholic",
+    "name": "Ukrainian Catholic Church",
+    "religion": "christian",
+    "wikidata": "Q7594542",
+    "wikipedia": "en:St Mary's Ukrainian Catholic Church, Manchester"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "heathfieldchurch",
+  "n": "Heathfield Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.50082,
+  "lng": -2.18287,
+  "c": "faith",
+  "s": "church",
+  "q": "Heathfield Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/431208269",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "evangelical",
+    "name": "Heathfield Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "casuals",
+  "n": "Casuals",
+  "a": "",
+  "pc": "",
+  "lat": 53.46909,
+  "lng": -2.29544,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Casuals Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/442651859",
+   "raw": {
+    "artist_name": "Broadbent",
+    "artwork_type": "sculpture",
+    "material": "metal",
+    "name": "Casuals",
+    "source:name": "sign",
+    "start_date": "2010",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "manchesterbuddhistcentre",
+  "n": "Manchester Buddhist Centre",
+  "a": "",
+  "pc": "",
+  "lat": 53.48374,
+  "lng": -2.23782,
+  "c": "faith",
+  "s": "temple",
+  "q": "Manchester Buddhist Centre Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/451648868",
+   "raw": {
+    "addr:city": "Manchester",
+    "addr:country": "GB",
+    "addr:housenumber": "16-20",
+    "addr:postcode": "M4 1DZ",
+    "addr:street": "Turner Street",
+    "amenity": "place_of_worship",
+    "check_date": "2026-04-14",
+    "name": "Manchester Buddhist Centre",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jaffriaislamiccentre",
+  "n": "Jaffria Islamic Centre",
+  "a": "",
+  "pc": "",
+  "lat": 53.45781,
+  "lng": -2.23369,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Jaffria Islamic Centre Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/623565288",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Jaffria Islamic Centre",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ramsbottomevangelicalchu",
+  "n": "Ramsbottom Evangelical Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.64797,
+  "lng": -2.31476,
+  "c": "faith",
+  "s": "church",
+  "q": "Ramsbottom Evangelical Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/649319393",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Ramsbottom Evangelical Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dundeeunitedreformedchur",
+  "n": "Dundee United Reformed Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.64356,
+  "lng": -2.3241,
+  "c": "faith",
+  "s": "church",
+  "q": "Dundee United Reformed Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/649319435",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "united_reformed",
+    "name": "Dundee United Reformed Church",
+    "religion": "christian",
+    "source:name": "OS Open Local Important Buildings Layer"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "yeoldemanandscythe",
+  "n": "Ye Olde Man & Scythe",
+  "a": "",
+  "pc": "",
+  "lat": 53.57956,
+  "lng": -2.42627,
+  "c": "pub",
+  "s": "historic pub",
+  "q": "Ye Olde Man & Scythe Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/705885656",
+   "raw": {
+    "addr:city": "Bolton",
+    "addr:housenumber": "6-8",
+    "addr:postcode": "BL1 1HL",
+    "addr:street": "Churchgate",
+    "amenity": "pub",
+    "fhrs:id": "861029",
+    "historic": "icon",
+    "name": "Ye Olde Man & Scythe",
+    "source:addr": "FHRS Open Data",
+    "wikidata": "Q8050761",
+    "wikipedia": "en:Ye Olde Man & Scythe"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "davyhulmewesleymethodist",
+  "n": "Davyhulme (Wesley) Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.44992,
+  "lng": -2.37436,
+  "c": "faith",
+  "s": "church",
+  "q": "Davyhulme (Wesley) Methodist Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/705975402",
+   "raw": {
+    "addr:city": "Urmston",
+    "addr:street": "Brook Road",
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Davyhulme (Wesley) Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "victoriagospelhall",
+  "n": "Victoria Gospel Hall",
+  "a": "",
+  "pc": "",
+  "lat": 53.44453,
+  "lng": -2.36406,
+  "c": "faith",
+  "s": "church",
+  "q": "Victoria Gospel Hall Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/715865476",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "gospel",
+    "name": "Victoria Gospel Hall",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "urmstonunitarianchurch",
+  "n": "Urmston Unitarian Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.44572,
+  "lng": -2.35302,
+  "c": "faith",
+  "s": "church",
+  "q": "Urmston Unitarian Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/715865783",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "unitarian",
+    "name": "Urmston Unitarian Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "martinlutherkirche",
+  "n": "Martin Luther Kirche",
+  "a": "",
+  "pc": "",
+  "lat": 53.44783,
+  "lng": -2.31462,
+  "c": "faith",
+  "s": "church",
+  "q": "Martin Luther Kirche Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/740110022",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "lutheran",
+    "language:de": "yes",
+    "name": "Martin Luther Kirche",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stedmundschurch",
+  "n": "St Edmund's Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.62091,
+  "lng": -2.1658,
+  "c": "faith",
+  "s": "church",
+  "q": "St Edmund's Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/778195084",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "St Edmund's Church",
+    "religion": "christian",
+    "source": "OS_OpenData_StreetView",
+    "source:name": "OS Open Local Important Buildings Layer"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "odeon",
+  "n": "Odeon",
+  "a": "",
+  "pc": "",
+  "lat": 53.60299,
+  "lng": -2.16438,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Odeon Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/778242941",
+   "raw": {
+    "amenity": "cinema",
+    "brand": "Odeon",
+    "brand:wikidata": "Q6127470",
+    "brand:wikipedia": "en:Odeon Cinemas",
+    "contact:website": "https://www.odeon.co.uk/cinemas/rochdale/",
+    "name": "Odeon",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q39297052"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thesalvationarmy",
+  "n": "The Salvation Army",
+  "a": "",
+  "pc": "",
+  "lat": 53.61747,
+  "lng": -2.1607,
+  "c": "faith",
+  "s": "church",
+  "q": "The Salvation Army Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/778272844",
+   "raw": {
+    "addr:city": "Rochdale",
+    "addr:country": "GB",
+    "addr:postcode": "OL16 1AW",
+    "addr:street": "Newgate",
+    "amenity": "place_of_worship",
+    "denomination": "salvation_army",
+    "email": "rochdale@salvationarmy.org.uk",
+    "name": "The Salvation Army",
+    "phone": "+44 1706 715624",
+    "religion": "christian",
+    "website": "https://www.salvationarmy.org.uk/rochdale"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ernestjones",
+  "n": "Ernest Jones",
+  "a": "",
+  "pc": "",
+  "lat": 53.48034,
+  "lng": -2.24494,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Ernest Jones Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/778705817",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Ernest Jones;1819-1869;Chartist leader and barrister at law practised from chambers here 1863-1869",
+    "memorial": "plaque",
+    "name": "Ernest Jones",
+    "openplaques:id": "742",
+    "wikimedia_commons": "File:Ernest Jones (1819 - 1869) Chartist leader and barrister at law practised from chambers here c1863 - 1869.jpg"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vue",
+  "n": "Vue",
+  "a": "",
+  "pc": "",
+  "lat": 53.47045,
+  "lng": -2.29278,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Vue Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/811925009",
+   "raw": {
+    "addr:city": "Salford",
+    "addr:housename": "Lowry Designer Outlet",
+    "addr:postcode": "M50 3AH",
+    "addr:street": "The Quays",
+    "amenity": "cinema",
+    "brand": "Vue",
+    "brand:wikidata": "Q2535134",
+    "brand:wikipedia": "en:Vue Cinemas",
+    "fhrs:id": "92949",
+    "name": "Vue",
+    "phone": "+44 8712 240 240",
+    "website": "https://www.myvue.com/cinemas/about-vue-cinemas/cinema/manchester-lowry",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "trinitychurch",
+  "n": "Trinity Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.47143,
+  "lng": -2.12765,
+  "c": "faith",
+  "s": "church",
+  "q": "Trinity Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/838845369",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Trinity Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "moorsideindependentmetho",
+  "n": "Moorside Independent Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.50795,
+  "lng": -2.35719,
+  "c": "faith",
+  "s": "church",
+  "q": "Moorside Independent Methodist Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/864691446",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Moorside Independent Methodist Church",
+    "religion": "christian",
+    "source:name": "OS Open Local Important Buildings Layer"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stcharlessromancatholicc",
+  "n": "St Charles's Roman Catholic Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.51271,
+  "lng": -2.35244,
+  "c": "faith",
+  "s": "church",
+  "q": "St Charles's Roman Catholic Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/864691449",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "St Charles's Roman Catholic Church",
+    "religion": "christian",
+    "source:name": "OS Open Local Important Buildings Layer"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "higherblackleymedicalcen",
+  "n": "Higher Blackley Medical Centre",
+  "a": "",
+  "pc": "",
+  "lat": 53.5344,
+  "lng": -2.2192,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Higher Blackley Medical Centre Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/911107715",
+   "raw": {
+    "amenity": "doctors",
+    "healthcare": "doctor",
+    "historic": "monument",
+    "name": "Higher Blackley Medical Centre"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ukrainianorthodoxchurchs",
+  "n": "Ukrainian Orthodox Church St Mary Dormition",
+  "a": "",
+  "pc": "",
+  "lat": 53.46207,
+  "lng": -2.21017,
+  "c": "faith",
+  "s": "church",
+  "q": "Ukrainian Orthodox Church St Mary Dormition Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/930256552",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "ukrainian_orthodox",
+    "name": "Ukrainian Orthodox Church St Mary Dormition",
+    "note": "22/8/24 - Unable to verify status of this facility",
+    "religion": "christian",
+    "source": "https://www.augb.co.uk/about-us-and-our-community/uaoc"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "resurrectedchurchofgod",
+  "n": "Resurrected Church of God",
+  "a": "",
+  "pc": "",
+  "lat": 53.45486,
+  "lng": -2.22383,
+  "c": "faith",
+  "s": "church",
+  "q": "Resurrected Church of God Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/930291579",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Resurrected Church of God",
+    "religion": "christian",
+    "source": "OS OpenData StreetView"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stfrancisofassisircchurc",
+  "n": "St. Francis of Assisi R.C. Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.46989,
+  "lng": -2.18921,
+  "c": "faith",
+  "s": "church",
+  "q": "St. Francis of Assisi R.C. Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/931738100",
+   "raw": {
+    "addr:city": "Manchester",
+    "addr:street": "Textile Street",
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "St. Francis of Assisi R.C. Church",
+    "operator": "The Parish of Sacred Heart and St. Francis in the Diocese of Salford",
+    "phone": "+44 161 223 0338",
+    "religion": "christian",
+    "service_times": "Sa 17:30",
+    "source": "OS OpenData StreetView",
+    "source:name": "OS Open Local Important Buildings Layer"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "theecclesandsalfordislam",
+  "n": "The Eccles and Salford Islamic Society",
+  "a": "",
+  "pc": "",
+  "lat": 53.48303,
+  "lng": -2.34525,
+  "c": "faith",
+  "s": "mosque",
+  "q": "The Eccles and Salford Islamic Society Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/945002012",
+   "raw": {
+    "addr:city": "Manchester",
+    "addr:country": "GB",
+    "addr:housenumber": "5",
+    "addr:street": "Liverpool Road",
+    "addr:suburb": "Eccles",
+    "addr:town": "Eccles",
+    "amenity": "place_of_worship",
+    "check_date": "2023-08-11",
+    "name": "The Eccles and Salford Islamic Society",
+    "phone": "+44 161 789 2609",
+    "religion": "muslim",
+    "website": "https://www.ecclesmosque.org.uk/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thepeopleschurch",
+  "n": "The Peoples Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.41595,
+  "lng": -2.42775,
+  "c": "faith",
+  "s": "church",
+  "q": "The Peoples Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/946073261",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "name": "The Peoples Church",
+    "phone": "+44 161 775 1934",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "partingtonmethodistchurc",
+  "n": "Partington Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.41806,
+  "lng": -2.42928,
+  "c": "faith",
+  "s": "church",
+  "q": "Partington Methodist Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/946073350",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Partington Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "xivthcenturystocks",
+  "n": "XIVth Century Stocks",
+  "a": "",
+  "pc": "",
+  "lat": 53.42013,
+  "lng": -2.42762,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "XIVth Century Stocks Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/946304124",
+   "raw": {
+    "historic": "stocks",
+    "name": "XIVth Century Stocks"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saleanddistricthebrewcon",
+  "n": "Sale and District Hebrew Congregation",
+  "a": "",
+  "pc": "",
+  "lat": 53.42,
+  "lng": -2.33361,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Sale and District Hebrew Congregation Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/963912461",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Sale and District Hebrew Congregation",
+    "religion": "jewish"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sirmattbusbystatue",
+  "n": "Sir Matt Busby statue",
+  "a": "",
+  "pc": "",
+  "lat": 53.46346,
+  "lng": -2.28953,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Sir Matt Busby statue Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/979429028",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "monument",
+    "name": "Sir Matt Busby statue",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lifechurchmanchester",
+  "n": "LifeChurch Manchester",
+  "a": "",
+  "pc": "",
+  "lat": 53.41663,
+  "lng": -2.33478,
+  "c": "faith",
+  "s": "church",
+  "q": "LifeChurch Manchester Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/979881972",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "name": "LifeChurch Manchester",
+    "old_name": "Sale Baptist Church",
+    "religion": "christian",
+    "service_times": "Su 10:30",
+    "website": "https://lifechurch.uk.net/sale"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stjohnschurch",
+  "n": "St John's Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.48634,
+  "lng": -2.13718,
+  "c": "faith",
+  "s": "church",
+  "q": "St John's Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/982443567",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "St John's Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stmargaretwardromancatho",
+  "n": "St. Margaret Ward Roman Catholic Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.4139,
+  "lng": -2.35631,
+  "c": "faith",
+  "s": "church",
+  "q": "St. Margaret Ward Roman Catholic Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/984877935",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "St. Margaret Ward Roman Catholic Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "salewestcommunitychurch",
+  "n": "Sale West Community Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.41854,
+  "lng": -2.35653,
+  "c": "faith",
+  "s": "church",
+  "q": "Sale West Community Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/998863971",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "name": "Sale West Community Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kingswaychurch",
+  "n": "King's Way Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.43167,
+  "lng": -2.33144,
+  "c": "faith",
+  "s": "church",
+  "q": "King's Way Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1012884103",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "name": "King's Way Church",
+    "phone": "+44 161 282 2776",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "quakermeetinghouse",
+  "n": "Quaker Meeting House",
+  "a": "",
+  "pc": "",
+  "lat": 53.42782,
+  "lng": -2.32757,
+  "c": "faith",
+  "s": "church",
+  "q": "Quaker Meeting House Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1013798602",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "quaker",
+    "name": "Quaker Meeting House",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "3rddukeofbridgewatersmon",
+  "n": "3rd Duke of Bridgewater's monument",
+  "a": "",
+  "pc": "",
+  "lat": 53.49902,
+  "lng": -2.3785,
+  "c": "history",
+  "s": "monument",
+  "q": "3rd Duke of Bridgewater's monument Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1094284093",
+   "raw": {
+    "access": "yes",
+    "historic": "monument",
+    "inscription": "Latin: \"I was a lofty column, where panting nostrils were made by the skill of the Cyclops, the glory of the smith”",
+    "listed_status": "Grade II",
+    "name": "3rd Duke of Bridgewater's monument",
+    "start_date": "1905",
+    "wikidata": "Q26509903"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "staidanschurch",
+  "n": "St Aidan's Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.40823,
+  "lng": -2.28726,
+  "c": "faith",
+  "s": "church",
+  "q": "St Aidan's Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1104984198",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-08-13",
+    "name": "St Aidan's Church",
+    "religion": "christian",
+    "source:name": "OS Open Local Important Buildings Layer"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "guardianangelschurch",
+  "n": "Guardian Angels' Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.59655,
+  "lng": -2.31751,
+  "c": "faith",
+  "s": "church",
+  "q": "Guardian Angels' Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1139482615",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "Guardian Angels' Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bethesdapentecostalchurc",
+  "n": "Bethesda Pentecostal Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.58403,
+  "lng": -2.29662,
+  "c": "faith",
+  "s": "church",
+  "q": "Bethesda Pentecostal Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1139534785",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Bethesda Pentecostal Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "banksystreetartwork",
+  "n": "Banksy Street Artwork",
+  "a": "",
+  "pc": "",
+  "lat": 53.48328,
+  "lng": -2.23565,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Banksy Street Artwork Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1223174136",
+   "raw": {
+    "artist:wikidata": "Q133600",
+    "artist_name": "Banksy",
+    "artwork_type": "graffiti",
+    "description": "Street artwork",
+    "name": "Banksy Street Artwork",
+    "opening_hours": "24/7",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "statueofjpjoule",
+  "n": "Statue of JP Joule",
+  "a": "",
+  "pc": "",
+  "lat": 53.42333,
+  "lng": -2.3112,
+  "c": "history",
+  "s": "commemorative statue",
+  "q": "Statue of JP Joule Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1258806870",
+   "raw": {
+    "historic": "statue",
+    "name": "Statue of JP Joule",
+    "subject:wikidata": "Q8962"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jamesprescottjoulesgrave",
+  "n": "James Prescott Joule's Grave",
+  "a": "",
+  "pc": "",
+  "lat": 53.41918,
+  "lng": -2.32605,
+  "c": "death",
+  "s": "historic tomb",
+  "q": "James Prescott Joule's Grave Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1264090555",
+   "raw": {
+    "death_date": "1889-10-11",
+    "historic": "memorial",
+    "memorial:subject:wikidata": "Q8962",
+    "name": "James Prescott Joule's Grave",
+    "note": "famous physicist, SI unit of energy is the \"Joule\""
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofchristmeetingpla",
+  "n": "Church of Christ Meeting Place",
+  "a": "",
+  "pc": "",
+  "lat": 53.44878,
+  "lng": -2.29947,
+  "c": "faith",
+  "s": "church",
+  "q": "Church of Christ Meeting Place Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1278747944",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Church of Christ Meeting Place",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thepottershousechurch",
+  "n": "The Potters House Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.45334,
+  "lng": -2.2972,
+  "c": "faith",
+  "s": "church",
+  "q": "The Potters House Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1278747946",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "The Potters House Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stretfordwarmemorial",
+  "n": "Stretford War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 53.45663,
+  "lng": -2.29662,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Stretford War Memorial Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1279869972",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Stretford War Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ourladyofgracerc",
+  "n": "Our Lady Of Grace R.C.",
+  "a": "",
+  "pc": "",
+  "lat": 53.53409,
+  "lng": -2.28441,
+  "c": "faith",
+  "s": "church",
+  "q": "Our Lady Of Grace R.C. Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1293378685",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Our Lady Of Grace R.C.",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "marshallstevens",
+  "n": "Marshall Stevens",
+  "a": "",
+  "pc": "",
+  "lat": 53.46643,
+  "lng": -2.30985,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Marshall Stevens Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1293933675",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Marshall Stevens\n1852-1936\nTo whose foresight, energy and ability the successful development of Trafford Park as an industrial area is due.\n? by the Director and ? of Trafford Park Estates Ltd.",
+    "material": "stone",
+    "memorial": "plaque",
+    "name": "Marshall Stevens",
+    "subject:wikidata": "Q13530047"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "beaconofhope",
+  "n": "Beacon of Hope",
+  "a": "",
+  "pc": "",
+  "lat": 53.47692,
+  "lng": -2.23659,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Beacon of Hope Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1295065994",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/At_Manchester_2018_016.jpg",
+    "lgbtq": "primary",
+    "memorial": "sculpture",
+    "name": "Beacon of Hope",
+    "website": "https://www.beacon-of-hope.org.uk/",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "faizaneislamcentre",
+  "n": "Faizan E Islam Centre",
+  "a": "",
+  "pc": "",
+  "lat": 53.45592,
+  "lng": -2.28354,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Faizan E Islam Centre Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1313559535",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Faizan E Islam Centre",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kingdomhallofjehovahswit",
+  "n": "Kingdom Hall of Jehovah's Witnesses",
+  "a": "",
+  "pc": "",
+  "lat": 53.46431,
+  "lng": -2.25836,
+  "c": "faith",
+  "s": "church",
+  "q": "Kingdom Hall of Jehovah's Witnesses Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1321055997",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-05-30",
+    "denomination": "jehovahs_witness",
+    "name": "Kingdom Hall of Jehovah's Witnesses",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "popejohnpaulii31stmay198",
+  "n": "Pope John Paul II (31st May 1982)",
+  "a": "",
+  "pc": "",
+  "lat": 53.52913,
+  "lng": -2.26155,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pope John Paul II (31st May 1982) Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1327607723",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "Pope John Paul II (31st May 1982)",
+    "religion": "christian",
+    "subject:wikidata": "Q989",
+    "subject:wikipedia": "en:Pope John Paul II",
+    "tourism": "attraction",
+    "wikimedia_commons": "File:Heaton Park Papal Monument, Heaton Park, Manchester, UK.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "congregationalist",
+  "n": "Congregationalist",
+  "a": "",
+  "pc": "",
+  "lat": 53.52441,
+  "lng": -2.39822,
+  "c": "faith",
+  "s": "church",
+  "q": "Congregationalist Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1339843645",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "united_reformed",
+    "name": "Congregationalist",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "christtheking",
+  "n": "Christ the King",
+  "a": "",
+  "pc": "",
+  "lat": 53.52272,
+  "lng": -2.39349,
+  "c": "faith",
+  "s": "church",
+  "q": "Christ the King Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1339843661",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "Christ the King",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "prestwichmethodistchurch",
+  "n": "Prestwich Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.53106,
+  "lng": -2.28385,
+  "c": "faith",
+  "s": "church",
+  "q": "Prestwich Methodist Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1352729144",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Prestwich Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "manchesterfokuangshanbud",
+  "n": "Manchester Fo Kuang Shan Buddhist Temple",
+  "a": "",
+  "pc": "",
+  "lat": 53.46403,
+  "lng": -2.26754,
+  "c": "faith",
+  "s": "temple",
+  "q": "Manchester Fo Kuang Shan Buddhist Temple Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1357164489",
+   "raw": {
+    "addr:city": "Manchester",
+    "addr:housenumber": "540",
+    "addr:postcode": "M16 9AF",
+    "addr:street": "Stretford Road",
+    "amenity": "place_of_worship",
+    "name": "Manchester Fo Kuang Shan Buddhist Temple",
+    "religion": "buddhist"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stteresaofavila",
+  "n": "St Teresa of Avila",
+  "a": "",
+  "pc": "",
+  "lat": 53.43785,
+  "lng": -2.42882,
+  "c": "faith",
+  "s": "church",
+  "q": "St Teresa of Avila Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1391308380",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-12-14",
+    "denomination": "roman_catholic",
+    "name": "St Teresa of Avila",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "standrews",
+  "n": "St Andrews",
+  "a": "",
+  "pc": "",
+  "lat": 53.61796,
+  "lng": -2.14918,
+  "c": "faith",
+  "s": "church",
+  "q": "St Andrews Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1423061666",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist;united_reform",
+    "name": "St Andrews",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "manchesterinspire",
+  "n": "Manchester Inspire",
+  "a": "",
+  "pc": "",
+  "lat": 53.4478,
+  "lng": -2.1914,
+  "c": "faith",
+  "s": "church",
+  "q": "Manchester Inspire Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1429282439",
+   "raw": {
+    "addr:city": "Manchester",
+    "addr:country": "GB",
+    "addr:housenumber": "747",
+    "addr:postcode": "M19 3AR",
+    "addr:street": "Stockport Road",
+    "amenity": "place_of_worship",
+    "check_date": "2025-04-13",
+    "contact:website": "http://www.inspirechurch.co.uk/",
+    "denomination": "united_reformed",
+    "name": "Manchester Inspire",
+    "religion": "christian",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "temple2000",
+  "n": "Temple 2000",
+  "a": "",
+  "pc": "",
+  "lat": 53.46812,
+  "lng": -2.25226,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Temple 2000 Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1436423356",
+   "raw": {
+    "artist_name": "George Wylie",
+    "artwork_type": "sculpture",
+    "material": "metal",
+    "name": "Temple 2000",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "droylsdenindependentchur",
+  "n": "Droylsden Independent Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.47768,
+  "lng": -2.14437,
+  "c": "faith",
+  "s": "church",
+  "q": "Droylsden Independent Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1442639020",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "EFCC",
+    "name": "Droylsden Independent Church",
+    "religion": "christian",
+    "source": "http://www.droylsdenindchurch.co.uk/search/label/finding%20us"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fryderykchopin",
+  "n": "Fryderyk Chopin",
+  "a": "",
+  "pc": "",
+  "lat": 53.47991,
+  "lng": -2.24839,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Fryderyk Chopin Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1447118039",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Fryderyk Chopin",
+    "subject:wikidata": "Q1268"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dcstephenoakememorial",
+  "n": "DC Stephen Oake memorial",
+  "a": "",
+  "pc": "",
+  "lat": 53.51829,
+  "lng": -2.24785,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "DC Stephen Oake memorial Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1478334575",
+   "raw": {
+    "historic": "memorial",
+    "material": "Pink granite",
+    "name": "DC Stephen Oake memorial",
+    "operator": "Police Memorial Trust",
+    "source": "estimate; Bing",
+    "text": "Here fell DC Stephen Oake 14 January 2003",
+    "url": "http://www.policememorial.org.uk/Police_Memorial_Trust/PMT_Local_Memorials/PMT-Oake-2003/PMT-Oake-2003.htm",
+    "wikidata": "Q6938068",
+    "wikipedia": "en:Murder of Stephen Oake"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "manchesterunitedmuseum",
+  "n": "Manchester United Museum",
+  "a": "",
+  "pc": "",
+  "lat": 53.46399,
+  "lng": -2.29115,
+  "c": "museum",
+  "s": "museum",
+  "q": "Manchester United Museum Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1492440334",
+   "raw": {
+    "check_date:opening_hours": "2024-03-08",
+    "fee": "yes",
+    "name": "Manchester United Museum",
+    "opening_hours": "Mo-Sa 09:30-17:00; Su 09:30-16:00",
+    "tourism": "museum",
+    "website": "https://www.manutd.com/en/visit-old-trafford/museum-stadium-tours",
+    "wikidata": "Q56681476"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pollysgrave",
+  "n": "Polly's Grave",
+  "a": "",
+  "pc": "",
+  "lat": 53.51045,
+  "lng": -2.38913,
+  "c": "death",
+  "s": "historic tomb",
+  "q": "Polly's Grave Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1516026722",
+   "raw": {
+    "check_date": "2025-05-28",
+    "description": "\"Polly first made it into the press in 1899 and by this time she had produced 164 piglets... This outstanding feat was also reported in local newspapers in Hull, Hampshire and Reading.\"",
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "memorial",
+    "name": "Polly's Grave",
+    "source": "survey;local knowledge",
+    "website": "https://ifthosewallscouldtalk.wordpress.com/2020/07/27/hidden-histories-polly-the-pigs-grave-worsley/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "newapostolicchurch",
+  "n": "New Apostolic Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.45314,
+  "lng": -2.21871,
+  "c": "faith",
+  "s": "church",
+  "q": "New Apostolic Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1577542065",
+   "raw": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "check_date": "2024-03-31",
+    "denomination": "new_apostolic",
+    "name": "New Apostolic Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cenotaph",
+  "n": "Cenotaph",
+  "a": "",
+  "pc": "",
+  "lat": 53.47873,
+  "lng": -2.24305,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Cenotaph Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1634316329",
+   "raw": {
+    "historic": "monument",
+    "name": "Cenotaph",
+    "name:es": "Cenotafio de Mánchester",
+    "note": "Moved from original location April 2014.",
+    "source": "http://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchesters-cenotaph-move-side-st-6559512",
+    "wikidata": "Q6747297",
+    "wikipedia": "en:Manchester Cenotaph"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "newjerusalemchurch",
+  "n": "New Jerusalem Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.55454,
+  "lng": -2.31728,
+  "c": "faith",
+  "s": "church",
+  "q": "New Jerusalem Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1666997922",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "New Jerusalem Church",
+    "religion": "christian",
+    "source": "OS_OpenData_StreetView",
+    "source:name": "OS Open Local Important Buildings Layer"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jarvisstreetmethodistchu",
+  "n": "Jarvis Street Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.62508,
+  "lng": -2.15535,
+  "c": "faith",
+  "s": "church",
+  "q": "Jarvis Street Methodist Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1667211230",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Jarvis Street Methodist Church",
+    "religion": "christian",
+    "source": "OS_OpenData_StreetView",
+    "source:name": "OS Open Local Important Buildings Layer"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "castlehill",
+  "n": "Castle Hill",
+  "a": "",
+  "pc": "",
+  "lat": 53.61288,
+  "lng": -2.16523,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Castle Hill Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1669908507",
+   "raw": {
+    "historic": "archaeological_site",
+    "name": "Castle Hill",
+    "source": "OS_OpenData_StreetView"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stpatricksrcchurch",
+  "n": "St Patrick's RC Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.62217,
+  "lng": -2.15181,
+  "c": "faith",
+  "s": "church",
+  "q": "St Patrick's RC Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1669908726",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "St Patrick's RC Church",
+    "religion": "christian",
+    "source": "OS_OpenData_StreetView"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kingdomhall",
+  "n": "Kingdom Hall",
+  "a": "",
+  "pc": "",
+  "lat": 53.61002,
+  "lng": -2.16039,
+  "c": "faith",
+  "s": "church",
+  "q": "Kingdom Hall Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1669908809",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "jehovahs_witness",
+    "name": "Kingdom Hall",
+    "name:en": "Kingdom Hall",
+    "religion": "christian",
+    "source": "OS_OpenData_StreetView"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stvincentdepaulrcchurch",
+  "n": "St Vincent de Paul RC Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.6236,
+  "lng": -2.19689,
+  "c": "faith",
+  "s": "church",
+  "q": "St Vincent de Paul RC Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1673248371",
+   "raw": {
+    "addr:city": "Rochdale",
+    "addr:housename": "St Vincent de Paul RC Church",
+    "addr:postcode": "OL12 6BU",
+    "addr:street": "Caldershaw Road",
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "St Vincent de Paul RC Church",
+    "religion": "christian",
+    "source": "OS_OpenData_StreetView"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gravelholemethodistchurc",
+  "n": "Gravel Hole Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.58414,
+  "lng": -2.13143,
+  "c": "faith",
+  "s": "church",
+  "q": "Gravel Hole Methodist Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1681265566",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Gravel Hole Methodist Church",
+    "religion": "christian",
+    "source": "OS_OpenData_StreetView",
+    "source:name": "OS Open Local Important Buildings Layer"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thelancashirefusiliers",
+  "n": "The Lancashire Fusiliers",
+  "a": "",
+  "pc": "",
+  "lat": 53.48405,
+  "lng": -2.27214,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "The Lancashire Fusiliers Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1700801440",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "The Lancashire Fusiliers"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "olivercromwellstatue",
+  "n": "Oliver Cromwell Statue",
+  "a": "",
+  "pc": "",
+  "lat": 53.40478,
+  "lng": -2.27685,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Oliver Cromwell Statue Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1706721227",
+   "raw": {
+    "artist_name": "Matthew Noble",
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "inscription": "OLIVER CROMWELL BORN 1599 DIED 1658  The gift of Elizabeth Salisbury Heywood to to the citizens of Manchester 1875",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Oliver Cromwell Statue",
+    "tourism": "artwork",
+    "wikidata": "Q26546639"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eriesrest",
+  "n": "Erie's Rest",
+  "a": "",
+  "pc": "",
+  "lat": 53.47296,
+  "lng": -2.28945,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Erie's Rest Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1750223704",
+   "raw": {
+    "artist_name": "Ingrid Hu",
+    "artwork_type": "sculpture",
+    "material": "wood",
+    "name": "Erie's Rest",
+    "start_date": "2010",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "khizramosque",
+  "n": "Khizra mosque",
+  "a": "",
+  "pc": "",
+  "lat": 53.50542,
+  "lng": -2.23724,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Khizra mosque Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1780296965",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-05-25",
+    "name": "Khizra mosque",
+    "name:en": "Khizra Mosque",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jamiamosque",
+  "n": "Jamia Mosque",
+  "a": "",
+  "pc": "",
+  "lat": 53.51055,
+  "lng": -2.2432,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Jamia Mosque Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1780436363",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Jamia Mosque",
+    "religion": "muslim",
+    "source:name": "OS Open Local Important Buildings Layer",
+    "wikidata": "Q7056037",
+    "wikipedia": "en:North Manchester Jamia Mosque"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "crumpsallmethodistchurch",
+  "n": "Crumpsall Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.51624,
+  "lng": -2.23603,
+  "c": "faith",
+  "s": "church",
+  "q": "Crumpsall Methodist Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1780438850",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Crumpsall Methodist Church",
+    "religion": "christian",
+    "source:name": "OS Open Local Important Buildings Layer"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "heatonparkhebrewcongrega",
+  "n": "Heaton Park Hebrew Congregation Synagogue",
+  "a": "",
+  "pc": "",
+  "lat": 53.52009,
+  "lng": -2.24838,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Heaton Park Hebrew Congregation Synagogue Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1780444484",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Heaton Park Hebrew Congregation Synagogue",
+    "religion": "jewish",
+    "source:name": "OS Open Local Important Buildings Layer",
+    "wikidata": "Q5694432",
+    "wikipedia": "en:Heaton Park Hebrew Congregation"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stanselmhall",
+  "n": "St. Anselm Hall",
+  "a": "",
+  "pc": "",
+  "lat": 53.45421,
+  "lng": -2.21321,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "St. Anselm Hall Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1783942018",
+   "raw": {
+    "historic": "monument",
+    "name": "St. Anselm Hall"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tottingtonmethodistchurc",
+  "n": "Tottington Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.61373,
+  "lng": -2.34105,
+  "c": "faith",
+  "s": "church",
+  "q": "Tottington Methodist Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1833403683",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Tottington Methodist Church",
+    "religion": "christian",
+    "source:name": "OS Open Local Important Buildings Layer"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rw13",
+  "n": "RW13",
+  "a": "",
+  "pc": "",
+  "lat": 53.58071,
+  "lng": -2.32307,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "RW13 Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1833841753",
+   "raw": {
+    "historic": "boundary_stone",
+    "inscription": "M. B. & B. CL. & RY. CO. 1842",
+    "name": "RW13"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rw10",
+  "n": "RW10",
+  "a": "",
+  "pc": "",
+  "lat": 53.58239,
+  "lng": -2.32344,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "RW10 Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1833841760",
+   "raw": {
+    "historic": "boundary_stone",
+    "inscription": "M. B. & B. CL. & RY. CO. 1842",
+    "name": "RW10"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oheltorah",
+  "n": "Ohel Torah",
+  "a": "",
+  "pc": "",
+  "lat": 53.51298,
+  "lng": -2.25149,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Ohel Torah Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1873657660",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Ohel Torah",
+    "religion": "jewish",
+    "source:name": "OS Open Local Important Buildings Layer"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gardenofremembrance",
+  "n": "Garden of Remembrance",
+  "a": "",
+  "pc": "",
+  "lat": 53.54617,
+  "lng": -2.20944,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Garden of Remembrance Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1877692806",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "cenotaph",
+    "name": "Garden of Remembrance"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wwimemorial",
+  "n": "WWI Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 53.42578,
+  "lng": -2.24344,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "WWI Memorial Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1941242465",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "obelisk",
+    "name": "WWI Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "industrialchimney",
+  "n": "Industrial Chimney",
+  "a": "",
+  "pc": "",
+  "lat": 53.48178,
+  "lng": -2.10131,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Industrial Chimney Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1942713343",
+   "raw": {
+    "historic": "archaeological_site",
+    "man_made": "chimney",
+    "name": "Industrial Chimney"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "skyhook",
+  "n": "Skyhook",
+  "a": "",
+  "pc": "",
+  "lat": 53.46481,
+  "lng": -2.28464,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Skyhook Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1962534918",
+   "raw": {
+    "artist_name": "Brian Fell",
+    "artwork_type": "sculpture",
+    "material": "metal",
+    "name": "Skyhook",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "holyfamily",
+  "n": "Holy Family",
+  "a": "",
+  "pc": "",
+  "lat": 53.59631,
+  "lng": -2.15277,
+  "c": "faith",
+  "s": "church",
+  "q": "Holy Family Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1965735913",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "Holy Family",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kirkholtcommunitychurch",
+  "n": "Kirkholt Community Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.59776,
+  "lng": -2.1572,
+  "c": "faith",
+  "s": "church",
+  "q": "Kirkholt Community Church Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1965739039",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "pentecostal",
+    "name": "Kirkholt Community Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "edwardvii",
+  "n": "Edward VII",
+  "a": "",
+  "pc": "",
+  "lat": 53.45955,
+  "lng": -2.2283,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Edward VII Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1977807672",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Edward VII",
+    "wikidata": "Q20875",
+    "wikipedia": "en:Edward VII"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wythenshaweandsaleeast",
+  "n": "Wythenshawe and Sale East",
+  "a": "",
+  "pc": "",
+  "lat": 53.41,
+  "lng": -2.27,
+  "c": "oddity",
+  "s": "parliamentary constituency in the United Kingdom, 1997 onwar",
+  "q": "Wythenshawe and Sale East Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q750690",
+   "raw": "Parliamentary constituency in the United Kingdom, 1997 onwards",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "traffordtrainingcentre",
+  "n": "Trafford Training Centre",
+  "a": "",
+  "pc": "",
+  "lat": 53.4178,
+  "lng": -2.375,
+  "c": "oddity",
+  "s": "football training ground in England",
+  "q": "Trafford Training Centre Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2657185",
+   "raw": "football training ground in England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "riverbollin",
+  "n": "River Bollin",
+  "a": "",
+  "pc": "",
+  "lat": 53.4,
+  "lng": -2.43333,
+  "c": "oddity",
+  "s": "river in the United Kingdom",
+  "q": "River Bollin Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3362643",
+   "raw": "river in the United Kingdom",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "birchmosscovertnatureres",
+  "n": "Birch Moss Covert Nature Reserve",
+  "a": "",
+  "pc": "",
+  "lat": 53.414,
+  "lng": -2.379,
+  "c": "oddity",
+  "s": "uK nature reserve",
+  "q": "Birch Moss Covert Nature Reserve Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4915681",
+   "raw": "UK nature reserve",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "broadheath",
+  "n": "Broadheath",
+  "a": "",
+  "pc": "",
+  "lat": 53.4,
+  "lng": -2.35,
+  "c": "oddity",
+  "s": "town in Greater Manchester, UK",
+  "q": "Broadheath Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4972196",
+   "raw": "town in Greater Manchester, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "brookheyscovertnatureres",
+  "n": "Brookheys Covert Nature Reserve",
+  "a": "",
+  "pc": "",
+  "lat": 53.4095,
+  "lng": -2.3894,
+  "c": "oddity",
+  "s": "uK nature reserve",
+  "q": "Brookheys Covert Nature Reserve Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4974637",
+   "raw": "UK nature reserve",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "brooklands",
+  "n": "Brooklands",
+  "a": "",
+  "pc": "",
+  "lat": 53.409,
+  "lng": -2.318,
+  "c": "oddity",
+  "s": "area in Manchester/Trafford, Greater Manchester, UK",
+  "q": "Brooklands Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4974665",
+   "raw": "area in Manchester/Trafford, Greater Manchester, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofstmichaelandalla",
+  "n": "Church of St Michael and All Angels, Northenden",
+  "a": "",
+  "pc": "",
+  "lat": 53.4099,
+  "lng": -2.2821,
+  "c": "faith",
+  "s": "church in Manchester, UK",
+  "q": "Church of St Michael and All Angels, Northenden Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5117635",
+   "raw": "church in Manchester, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "glazebrookeastjunctionto",
+  "n": "Glazebrook East Junction to Skelton Junction Line",
+  "a": "",
+  "pc": "",
+  "lat": 53.4147,
+  "lng": -2.3938,
+  "c": "oddity",
+  "s": "railway line in the UK",
+  "q": "Glazebrook East Junction to Skelton Junction Line Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5567346",
+   "raw": "railway line in the UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "heywoodroad",
+  "n": "Heywood Road",
+  "a": "",
+  "pc": "",
+  "lat": 53.41607,
+  "lng": -2.32126,
+  "c": "oddity",
+  "s": "rugby stadium in Sale",
+  "q": "Heywood Road Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5749887",
+   "raw": "rugby stadium in Sale",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "manchesterwythenshaweaer",
+  "n": "Manchester (Wythenshawe) Aerodrome",
+  "a": "",
+  "pc": "",
+  "lat": 53.4099,
+  "lng": -2.2801,
+  "c": "oddity",
+  "s": "former airport that served Manchester, England, United Kingd",
+  "q": "Manchester (Wythenshawe) Aerodrome Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6747247",
+   "raw": "former airport that served Manchester, England, United Kingdom (1929—1930)",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "moorroadtramstop",
+  "n": "Moor Road tram stop",
+  "a": "",
+  "pc": "",
+  "lat": 53.40333,
+  "lng": -2.29515,
+  "c": "oddity",
+  "s": "manchester Metrolink tram stop",
+  "q": "Moor Road tram stop Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6908057",
+   "raw": "Manchester Metrolink tram stop",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rosehillnorthenden",
+  "n": "Rose Hill, Northenden",
+  "a": "",
+  "pc": "",
+  "lat": 53.4017,
+  "lng": -2.2488,
+  "c": "oddity",
+  "s": "19th-century Victorian villa in Northenden, Manchester, Engl",
+  "q": "Rose Hill, Northenden Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7367762",
+   "raw": "19th-century Victorian villa in Northenden, Manchester, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "salehighschool",
+  "n": "Sale High School",
+  "a": "",
+  "pc": "",
+  "lat": 53.4138,
+  "lng": -2.3046,
+  "c": "oddity",
+  "s": "school in Trafford, UK",
+  "q": "Sale High School Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7403798",
+   "raw": "school in Trafford, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "salegrammarschool",
+  "n": "Sale Grammar School",
+  "a": "",
+  "pc": "",
+  "lat": 53.41801,
+  "lng": -2.31502,
+  "c": "oddity",
+  "s": "school in Trafford, UK",
+  "q": "Sale Grammar School Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7403797",
+   "raw": "school in Trafford, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sandilandscommunityprima",
+  "n": "Sandilands Community Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 53.403,
+  "lng": -2.308,
+  "c": "oddity",
+  "s": "school in Manchester, UK",
+  "q": "Sandilands Community Primary School Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7416356",
+   "raw": "school in Manchester, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "skeltonjunction",
+  "n": "Skelton Junction",
+  "a": "",
+  "pc": "",
+  "lat": 53.4006,
+  "lng": -2.33778,
+  "c": "oddity",
+  "s": "complex of railway junctions",
+  "q": "Skelton Junction Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7534526",
+   "raw": "complex of railway junctions",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stalbanschurchbroadheath",
+  "n": "St Alban's Church, Broadheath",
+  "a": "",
+  "pc": "",
+  "lat": 53.4024,
+  "lng": -2.352,
+  "c": "faith",
+  "s": "grade II listed church in Trafford, Greater Manchester, Engl",
+  "q": "St Alban's Church, Broadheath Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7592236",
+   "raw": "grade II listed church in Trafford, Greater Manchester, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "themanchesterhealthacade",
+  "n": "The Manchester Health Academy",
+  "a": "",
+  "pc": "",
+  "lat": 53.402,
+  "lng": -2.2956,
+  "c": "oddity",
+  "s": "academy in Manchester, England",
+  "q": "The Manchester Health Academy Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7750159",
+   "raw": "academy in Manchester, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "timperleytramstop",
+  "n": "Timperley tram stop",
+  "a": "",
+  "pc": "",
+  "lat": 53.40432,
+  "lng": -2.33835,
+  "c": "oddity",
+  "s": "manchester Metrolink tram stop",
+  "q": "Timperley tram stop Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7807652",
+   "raw": "Manchester Metrolink tram stop",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "traffordcollege",
+  "n": "Trafford College",
+  "a": "",
+  "pc": "",
+  "lat": 53.4048,
+  "lng": -2.3493,
+  "c": "oddity",
+  "s": "further education school in Trafford, Greater Manchester, En",
+  "q": "Trafford College Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7832539",
+   "raw": "further education school in Trafford, Greater Manchester, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "woodheyspark",
+  "n": "Woodheys Park",
+  "a": "",
+  "pc": "",
+  "lat": 53.4105,
+  "lng": -2.3535,
+  "c": "green",
+  "s": "park in United Kingdom",
+  "q": "Woodheys Park Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8032731",
+   "raw": "park in United Kingdom",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wythenshawebusgarage",
+  "n": "Wythenshawe Bus Garage",
+  "a": "",
+  "pc": "",
+  "lat": 53.401,
+  "lng": -2.25624,
+  "c": "oddity",
+  "s": "bus depot in Manchester, England, UK",
+  "q": "Wythenshawe Bus Garage Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8040655",
+   "raw": "bus depot in Manchester, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wythenshaweparktramstop",
+  "n": "Wythenshawe Park tram stop",
+  "a": "",
+  "pc": "",
+  "lat": 53.40771,
+  "lng": -2.29569,
+  "c": "green",
+  "s": "manchester Metrolink tram stop",
+  "q": "Wythenshawe Park tram stop Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8040658",
+   "raw": "Manchester Metrolink tram stop",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wythenshawehall",
+  "n": "Wythenshawe Hall",
+  "a": "",
+  "pc": "",
+  "lat": 53.40483,
+  "lng": -2.27778,
+  "c": "oddity",
+  "s": "historic site in Wythenshawe, Manchester",
+  "q": "Wythenshawe Hall Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8040656",
+   "raw": "historic site in Wythenshawe, Manchester",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wythenshawecommunityfarm",
+  "n": "Wythenshawe community farm",
+  "a": "",
+  "pc": "",
+  "lat": 53.4046,
+  "lng": -2.2813,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Wythenshawe community farm Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8040661",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "northernmoortramstop",
+  "n": "Northern Moor tram stop",
+  "a": "",
+  "pc": "",
+  "lat": 53.41456,
+  "lng": -2.28815,
+  "c": "oddity",
+  "s": "manchester Metrolink tram stop",
+  "q": "Northern Moor tram stop Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q15262573",
+   "raw": "Manchester Metrolink tram stop",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "woodheysprimaryschool",
+  "n": "Woodheys Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 53.41385,
+  "lng": -2.34655,
+  "c": "oddity",
+  "s": "school in Trafford, UK",
+  "q": "Woodheys Primary School Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16903658",
+   "raw": "school in Trafford, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "broadoakschool",
+  "n": "Broadoak School",
+  "a": "",
+  "pc": "",
+  "lat": 53.4122,
+  "lng": -2.43097,
+  "c": "oddity",
+  "s": "school in Trafford, UK",
+  "q": "Broadoak School Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18379086",
+   "raw": "school in Trafford, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "walkdengardens",
+  "n": "Walkden Gardens",
+  "a": "",
+  "pc": "",
+  "lat": 53.4184,
+  "lng": -2.3123,
+  "c": "green",
+  "s": "park in Sale, United Kingdom",
+  "q": "Walkden Gardens Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18394360",
+   "raw": "park in Sale, United Kingdom",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "warburton",
+  "n": "Warburton",
+  "a": "",
+  "pc": "",
+  "lat": 53.40095,
+  "lng": -2.44333,
+  "c": "oddity",
+  "s": "uK civil parish",
+  "q": "Warburton Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q24663595",
+   "raw": "UK civil parish",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "erlamfarmhouse",
+  "n": "Erlam Farmhouse",
+  "a": "",
+  "pc": "",
+  "lat": 53.41854,
+  "lng": -2.42965,
+  "c": "oddity",
+  "s": "farmhouse in Partington, Trafford, Greater Manchester, Engla",
+  "q": "Erlam Farmhouse Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26320659",
+   "raw": "farmhouse in Partington, Trafford, Greater Manchester, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "barntosouthwestofovertow",
+  "n": "Barn To South West Of Overtown Farmhouse",
+  "a": "",
+  "pc": "",
+  "lat": 53.40033,
+  "lng": -2.44798,
+  "c": "oddity",
+  "s": "barn in Warburton, Trafford, Greater Manchester, England, UK",
+  "q": "Barn To South West Of Overtown Farmhouse Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26320685",
+   "raw": "barn in Warburton, Trafford, Greater Manchester, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sinderlandhouse",
+  "n": "Sinderland House",
+  "a": "",
+  "pc": "",
+  "lat": 53.40264,
+  "lng": -2.39983,
+  "c": "oddity",
+  "s": "house in Dunham Massey, Trafford, Greater Manchester, Englan",
+  "q": "Sinderland House Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26320697",
+   "raw": "house in Dunham Massey, Trafford, Greater Manchester, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "watlinggate",
+  "n": "Watling Gate",
+  "a": "",
+  "pc": "",
+  "lat": 53.40702,
+  "lng": -2.34229,
+  "c": "oddity",
+  "s": "building in Trafford, Greater Manchester, England, UK",
+  "q": "Watling Gate Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26320734",
+   "raw": "building in Trafford, Greater Manchester, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "barntosoutheastofbirchfa",
+  "n": "Barn To South East Of Birch Farmhouse",
+  "a": "",
+  "pc": "",
+  "lat": 53.40841,
+  "lng": -2.42149,
+  "c": "oddity",
+  "s": "barn in Warburton, Trafford, Greater Manchester, England, UK",
+  "q": "Barn To South East Of Birch Farmhouse Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26395458",
+   "raw": "barn in Warburton, Trafford, Greater Manchester, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "northlodgeofwythenshaweh",
+  "n": "North Lodge Of Wythenshawe Hall",
+  "a": "",
+  "pc": "",
+  "lat": 53.40701,
+  "lng": -2.2751,
+  "c": "oddity",
+  "s": "building in Manchester, Greater Manchester, England, UK",
+  "q": "North Lodge Of Wythenshawe Hall Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26546640",
+   "raw": "building in Manchester, Greater Manchester, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "buildingapproximately10m",
+  "n": "Building Approximately 10 Metres West Of Villa Farmhouse",
+  "a": "",
+  "pc": "",
+  "lat": 53.40083,
+  "lng": -2.43845,
+  "c": "oddity",
+  "s": "building in Warburton, Trafford, Greater Manchester, England",
+  "q": "Building Approximately 10 Metres West Of Villa Farmhouse Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26623170",
+   "raw": "building in Warburton, Trafford, Greater Manchester, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "heathlandsfarmhouse",
+  "n": "Heathlands Farmhouse",
+  "a": "",
+  "pc": "",
+  "lat": 53.40733,
+  "lng": -2.43496,
+  "c": "oddity",
+  "s": "farmhouse in Warburton, Trafford, Greater Manchester, Englan",
+  "q": "Heathlands Farmhouse Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26630102",
+   "raw": "farmhouse in Warburton, Trafford, Greater Manchester, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ardenhall",
+  "n": "Arden Hall",
+  "a": "",
+  "pc": "",
+  "lat": 53.41464,
+  "lng": -2.32336,
+  "c": "oddity",
+  "s": "villa in Trafford, Greater Manchester, England, UK",
+  "q": "Arden Hall Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26670922",
+   "raw": "villa in Trafford, Greater Manchester, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thesale",
+  "n": "The Sale",
+  "a": "",
+  "pc": "",
+  "lat": 53.41739,
+  "lng": -2.31138,
+  "c": "oddity",
+  "s": "pub in Sale, Trafford, Greater Manchester, England, UK",
+  "q": "The Sale Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26672585",
+   "raw": "pub in Sale, Trafford, Greater Manchester, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wythenshawetownfc",
+  "n": "Wythenshawe Town F.C.",
+  "a": "",
+  "pc": "",
+  "lat": 53.40021,
+  "lng": -2.29993,
+  "c": "oddity",
+  "s": "association football club in Wythenshawe, England, United Ki",
+  "q": "Wythenshawe Town F.C. Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q54818184",
+   "raw": "association football club in Wythenshawe, England, United Kingdom",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "coppicelibrary",
+  "n": "Coppice Library",
+  "a": "",
+  "pc": "",
+  "lat": 53.41406,
+  "lng": -2.3511,
+  "c": "oddity",
+  "s": "public library in Trafford, UK",
+  "q": "Coppice Library Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q55184241",
+   "raw": "public library in Trafford, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "partingtonlibrary",
+  "n": "Partington Library",
+  "a": "",
+  "pc": "",
+  "lat": 53.41862,
+  "lng": -2.42671,
+  "c": "oddity",
+  "s": "public library in Trafford, UK",
+  "q": "Partington Library Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q55184250",
+   "raw": "public library in Trafford, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "timperleylibrary",
+  "n": "Timperley Library",
+  "a": "",
+  "pc": "",
+  "lat": 53.4017,
+  "lng": -2.3286,
+  "c": "oddity",
+  "s": "public library in Trafford, UK",
+  "q": "Timperley Library Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q55184256",
+   "raw": "public library in Trafford, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wythenshawepark",
+  "n": "Wythenshawe Park",
+  "a": "",
+  "pc": "",
+  "lat": 53.40422,
+  "lng": -2.27461,
+  "c": "green",
+  "s": "park in Manchester, England",
+  "q": "Wythenshawe Park Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q56557099",
+   "raw": "park in Manchester, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "staidanscatholicprimarys",
+  "n": "St Aidan's Catholic Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 53.40906,
+  "lng": -2.27563,
+  "c": "oddity",
+  "s": "school in Manchester, UK",
+  "q": "St Aidan's Catholic Primary School Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66135387",
+   "raw": "school in Manchester, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "broadheathprimaryschool",
+  "n": "Broadheath Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 53.40443,
+  "lng": -2.36022,
+  "c": "oddity",
+  "s": "school in Trafford, UK",
+  "q": "Broadheath Primary School Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66135762",
+   "raw": "school in Trafford, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "heyeslaneprimaryschool",
+  "n": "Heyes Lane Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 53.40619,
+  "lng": -2.32374,
+  "c": "oddity",
+  "s": "school in Trafford, UK",
+  "q": "Heyes Lane Primary School Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66135761",
+   "raw": "school in Trafford, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "brooklandsprimaryschool",
+  "n": "Brooklands Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 53.41329,
+  "lng": -2.32571,
+  "c": "oddity",
+  "s": "school in Trafford, UK",
+  "q": "Brooklands Primary School Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66135768",
+   "raw": "school in Trafford, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sthughscatholicprimarysc",
+  "n": "St Hugh's Catholic Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 53.4019,
+  "lng": -2.33569,
+  "c": "oddity",
+  "s": "school in Trafford, UK",
+  "q": "St Hugh's Catholic Primary School Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66135788",
+   "raw": "school in Trafford, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stmargaretwardcatholicpr",
+  "n": "St Margaret Ward Catholic Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 53.41376,
+  "lng": -2.35671,
+  "c": "oddity",
+  "s": "school in Trafford, UK",
+  "q": "St Margaret Ward Catholic Primary School Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66135803",
+   "raw": "school in Trafford, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "buttonlaneprimaryschool",
+  "n": "Button Lane Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 53.41159,
+  "lng": -2.28893,
+  "c": "oddity",
+  "s": "school in Manchester, UK",
+  "q": "Button Lane Primary School Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66139294",
+   "raw": "school in Manchester, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fairfieldhouseschool",
+  "n": "Fairfield House School",
+  "a": "",
+  "pc": "",
+  "lat": 53.41625,
+  "lng": -2.43045,
+  "c": "oddity",
+  "s": "school in Trafford, UK",
+  "q": "Fairfield House School Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66139687",
+   "raw": "school in Trafford, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "forestgateacademy",
+  "n": "Forest Gate Academy",
+  "a": "",
+  "pc": "",
+  "lat": 53.41633,
+  "lng": -2.44107,
+  "c": "oddity",
+  "s": "school in Trafford, UK",
+  "q": "Forest Gate Academy Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66139950",
+   "raw": "school in Trafford, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "limetreeprimaryacademy",
+  "n": "Lime Tree Primary Academy",
+  "a": "",
+  "pc": "",
+  "lat": 53.41696,
+  "lng": -2.29943,
+  "c": "oddity",
+  "s": "school in Trafford, UK",
+  "q": "Lime Tree Primary Academy Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66140328",
+   "raw": "school in Trafford, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pioneerhousehighschool",
+  "n": "Pioneer House High School",
+  "a": "",
+  "pc": "",
+  "lat": 53.41255,
+  "lng": -2.27948,
+  "c": "oddity",
+  "s": "school in Manchester, UK",
+  "q": "Pioneer House High School Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66140729",
+   "raw": "school in Manchester, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "partingtoncentralacademy",
+  "n": "Partington Central Academy",
+  "a": "",
+  "pc": "",
+  "lat": 53.41703,
+  "lng": -2.42637,
+  "c": "oddity",
+  "s": "school in Trafford, UK",
+  "q": "Partington Central Academy Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66140857",
+   "raw": "school in Trafford, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tyntesfieldprimaryschool",
+  "n": "Tyntesfield Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 53.41068,
+  "lng": -2.34444,
+  "c": "oddity",
+  "s": "school in Trafford, UK",
+  "q": "Tyntesfield Primary School Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66141305",
+   "raw": "school in Trafford, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "traffordrowingclub",
+  "n": "Trafford Rowing Club",
+  "a": "",
+  "pc": "",
+  "lat": 53.4146,
+  "lng": -2.32941,
+  "c": "oddity",
+  "s": "british rowing club",
+  "q": "Trafford Rowing Club Manchester",
+  "w": "",
+  "city": "manchester",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98805134",
+   "raw": "British rowing club",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

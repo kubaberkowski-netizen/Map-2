@@ -1,0 +1,3835 @@
+[
+ {
+  "id": "miradourodesaopedrodealc",
+  "n": "Miradouro de São Pedro de Alcântara",
+  "a": "",
+  "pc": "",
+  "lat": 38.71544,
+  "lng": -9.14405,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Miradouro de São Pedro de Alcântara Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/419313189",
+   "raw": {
+    "addr:street": "Rua de São Pedro de Alcântara",
+    "description": "Do miradouro de São Pedro de Alcântara, localizado no jardim do mesmo nome, somos privilegiados com uma das mais completas e belas panorâmicas da cidade de Lisboa, comparável à que oferece o miradouro fronteiro do Castelo de São Jorge. A partir des",
+    "direction": "70",
+    "email": "daev@cm-lisboa.pt",
+    "name": "Miradouro de São Pedro de Alcântara",
+    "name:ca": "Mirador de Sant Pere d’Alcantara",
+    "name:es": "San Pedro de Alcántara",
+    "name:pt": "Miradouro de São Pedro de Alcântara",
+    "phone": "+351 213 912 600",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "tourism": "viewpoint",
+    "wikidata": "Q6672039",
+    "wikimedia_commons": "Category:Jardim de São Pedro de Alcântara",
+    "wikipedia": "pt:Jardim de São Pedro de Alcântara"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "uci",
+  "n": "UCI",
+  "a": "",
+  "pc": "",
+  "lat": 38.7336,
+  "lng": -9.15394,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "UCI Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/476943348",
+   "raw": {
+    "addr:city": "Lisboa",
+    "addr:housenumber": "31",
+    "addr:postcode": "1069-413",
+    "addr:street": "Avenida António Augusto de Aguiar",
+    "alt_name": "UCI El Corte Inglés",
+    "amenity": "cinema",
+    "check_date": "2024-05-02",
+    "name": "UCI",
+    "phone": "+351 707 23 22 21",
+    "website": "https://www.ucicinemas.pt/cines/cines2.aspx?id=1028"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museudoscombatentesdoult",
+  "n": "Museu dos Combatentes do Ultramar",
+  "a": "",
+  "pc": "",
+  "lat": 38.6922,
+  "lng": -9.2175,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museu dos Combatentes do Ultramar Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/578460076",
+   "raw": {
+    "addr:city": "Lisboa",
+    "addr:housename": "Forte do Bom Sucesso",
+    "addr:street": "Avenida de Brasília",
+    "check_date": "2024-05-02",
+    "fee": "yes",
+    "name": "Museu dos Combatentes do Ultramar",
+    "tourism": "museum",
+    "website": "https://www.ligacombatentes.org/museu-do-combatente-lisboa/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "primeiratravessiaaereado",
+  "n": "Primeira Travessia Aérea do Atlântico Sul",
+  "a": "",
+  "pc": "",
+  "lat": 38.69221,
+  "lng": -9.21394,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Primeira Travessia Aérea do Atlântico Sul Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/578460077",
+   "raw": {
+    "artist_name": "Domingos Soares Branco",
+    "artwork_subject": "figurative",
+    "description": "Réplica do Fairey F III-D MkII. Reproduz em tamanho natural o hidroavião \"Lusitânia\" utilizado por Gago Coutinho e Sacadura Cabral na primeira travessia do Atlântico Sul, rumo ao Brasil, em 1922.",
+    "exhibit": "aircraft",
+    "historic": "memorial",
+    "material": "bronze;granite;reinforced_concrete;steel",
+    "memorial": "sculpture",
+    "name": "Primeira Travessia Aérea do Atlântico Sul",
+    "operator": "Câmara Municipal de Lisboa",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_153",
+    "start_date": "1991",
+    "subject:wikidata": "Q2784101",
+    "subject:wikipedia": "pt:Primeira travessia aérea do Atlântico Sul",
+    "tourism": "attraction",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/gago-coutinho-e-sacadura-cabral",
+    "wikidata": "Q130240436",
+    "wikimedia_commons": "Category:Monumento Comemorativo da Iª Travessia Aérea do Atlântico Sul",
+    "wikipedia": "en:Monument to the First Aerial Crossing of the South Atlantic (Belém)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemacity",
+  "n": "Cinema City",
+  "a": "",
+  "pc": "",
+  "lat": 38.72866,
+  "lng": -9.22005,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinema City Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/721746450",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Cinema City"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "torredesaolourenco",
+  "n": "Torre de São Lourenço",
+  "a": "",
+  "pc": "",
+  "lat": 38.7146,
+  "lng": -9.13426,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Torre de São Lourenço Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/970768059",
+   "raw": {
+    "name": "Torre de São Lourenço",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "afonsodealbuquerque",
+  "n": "Afonso de Albuquerque",
+  "a": "",
+  "pc": "",
+  "lat": 38.69665,
+  "lng": -9.20027,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Afonso de Albuquerque Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1087174563",
+   "raw": {
+    "artwork_type": "statue",
+    "description": "Monumento erigido, por iniciativa do historiador Simão José da Luz Soriano, que legou fundos para esse efeito.",
+    "material": "bronze;stone",
+    "memorial": "statue",
+    "name": "Afonso de Albuquerque",
+    "name:de": "Afonso de Albuquerque",
+    "name:en": "Afonso de Albuquerque",
+    "operator": "Câmara Municipal de Lisboa",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_9",
+    "tourism": "artwork",
+    "war_memorial": "yes",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/afonso-de-albuquerque",
+    "wikimedia_commons": "Category:Statue of Afonso de Albuquerque in Lisbon"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "arcoescuro",
+  "n": "Arco Escuro",
+  "a": "",
+  "pc": "",
+  "lat": 38.70922,
+  "lng": -9.13411,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Arco Escuro Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1116354597",
+   "raw": {
+    "access": "yes",
+    "alt_name": "Porta do Mar Antiga",
+    "barrier": "entrance",
+    "historic": "sally_port",
+    "name": "Arco Escuro",
+    "old_name": "Porta do Mar"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pelourinhodelisboa",
+  "n": "Pelourinho de Lisboa",
+  "a": "",
+  "pc": "",
+  "lat": 38.70804,
+  "lng": -9.1392,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pelourinho de Lisboa Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1120633222",
+   "raw": {
+    "description": "Erguido após o terramoto de 1755, em substituição do anterior, de acordo com o plano urbanístico de Eugénio dos Santos, foi objecto de alterações ao longo do tempo, que lhe conferiram o aspecto actual.",
+    "heritage": "2",
+    "heritage:operator": "dgpc",
+    "heritage:ref": "MN",
+    "heritage:website": "https://servicos.dgpc.gov.pt/pesquisapatrimonioimovel/detalhes.php?code=70709",
+    "heritage:website:sipa": "http://monumentos.pt/Site/APP_PagesUser/SIPA.aspx?id=3023",
+    "historic": "pillory",
+    "material": "marble",
+    "name": "Pelourinho de Lisboa",
+    "operator": "Câmara Municipal de Lisboa",
+    "protection_title": "Monumento Nacional",
+    "ref:dgpc": "70709",
+    "ref:ipa": "3023",
+    "site_status": "Classificado",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_39",
+    "source:ref": "http://www.igespar.pt/media/uploads/decsmaria/Decreto23_06_1910.pdf",
+    "tourism": "attraction",
+    "wheelchair": "limited",
+    "wikidata": "Q10348128",
+    "wikimedia_commons": "Category:Pelourinho de Lisboa",
+    "wikipedia": "en:Pillory of Lisbon"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saojoaobosco",
+  "n": "São João Bosco",
+  "a": "",
+  "pc": "",
+  "lat": 38.71419,
+  "lng": -9.16929,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "São João Bosco Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1131000965",
+   "raw": {
+    "artist_name": "Luís de Matos",
+    "artwork_subject": "figurative",
+    "description": "João Bosco (1815-1888), foi sacerdote e educador, consagrando toda a sua vida à instrução popular e gratuita de crianças socialmente desfavorecidas. Fundador da Congregação dos Salesianos, foi canonizado na Páscoa de 1934 pelo Papa Pio XI.",
+    "historic": "memorial",
+    "inscription": "HOMENAGEM DA FAMÍLIA SALESIANA A SÃO JOÃO BOSCO NO PRIMEIRO CENTENÁRIO DA SUA MORTE 31·1·1988",
+    "material": "bronze;stone",
+    "memorial": "statue",
+    "name": "São João Bosco",
+    "operator": "Câmara Municipal de Lisboa",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_253",
+    "start_date": "1987",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/s-joao-bosco"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "doutorsousamartins",
+  "n": "Doutor Sousa Martins",
+  "a": "",
+  "pc": "",
+  "lat": 38.72055,
+  "lng": -9.14002,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Doutor Sousa Martins Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1131437414",
+   "raw": {
+    "artist_name": "António Augusto da Costa Motta (Tio)",
+    "artwork_subject": "figurative",
+    "description": "José Tomás de Sousa Martins (1843-1897),foi um distinto médico,cientista,investigador,professor e escritor da 2ª metade do séc. XIX.",
+    "historic": "memorial",
+    "material": "bronze;stone",
+    "memorial": "statue",
+    "name": "Doutor Sousa Martins",
+    "operator": "Câmara Municipal de Lisboa",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_30",
+    "start_date": "1907",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/dr-sousa-martins"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "memorialasvitimasdomassa",
+  "n": "Memorial às Vítimas do Massacre Judaico de 1506",
+  "a": "",
+  "pc": "",
+  "lat": 38.71484,
+  "lng": -9.13902,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Memorial às Vítimas do Massacre Judaico de 1506 Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1135629310",
+   "raw": {
+    "artist_name": "Graça Bachmann",
+    "artwork_subject": "Acontecimentos",
+    "description": "Tributo da cidade de Lisboa às vítimas da intolerância e do fanatismo religioso resultantes do massacre judaico de 1506. No fi",
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "inscription;sculpture",
+    "name": "Memorial às Vítimas do Massacre Judaico de 1506",
+    "name:pl": "Pomnik Tolerancji",
+    "name:pt": "Memorial às Vítimas do Massacre Judaico de 1506",
+    "operator": "Câmara Municipal de Lisboa",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_308",
+    "start_date": "2008",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/memorial-as-vitimas-do-massacre-judaico-de-1506",
+    "wikimedia_commons": "File:1506 pogrom memorial in Lisbon.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "arcodejesus",
+  "n": "Arco de Jesus",
+  "a": "",
+  "pc": "",
+  "lat": 38.70923,
+  "lng": -9.13091,
+  "c": "medieval",
+  "s": "medieval site",
+  "q": "Arco de Jesus Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1140926163",
+   "raw": {
+    "historic": "city_gate",
+    "name": "Arco de Jesus"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pedropeixe",
+  "n": "pedro peixe",
+  "a": "",
+  "pc": "",
+  "lat": 38.76069,
+  "lng": -9.2308,
+  "c": "streetart",
+  "s": "mural",
+  "q": "pedro peixe Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1163627223",
+   "raw": {
+    "artist_name": "pedro peixe",
+    "artwork_type": "graffiti",
+    "description": "Pedro Peixe (2018). O artista inspirou-se na dança contemporânea para a criação deste mural em grande escala, com recurso à técnica mista, entre pintura com tinta plástica espray. O artista incorreu na experimentação de novas texturas e formas que s que p",
+    "image": "http://geoportal.cm-amadora.pt/files_site_internet/links/pcultural/id115.jpg",
+    "name": "pedro peixe",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museudeartecontemporanea",
+  "n": "Museu de Arte Contemporânea MAC/CCB",
+  "a": "",
+  "pc": "",
+  "lat": 38.69565,
+  "lng": -9.20931,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museu de Arte Contemporânea MAC/CCB Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1204384734",
+   "raw": {
+    "addr:city": "Lisboa",
+    "addr:place": "Centro Cultural de Belém",
+    "addr:postcode": "1449-003",
+    "addr:street": "Praça do Império",
+    "contact:email": "mac@ccb.pt",
+    "contact:phone": "+351 213 612 400",
+    "contact:website": "www.museuberardo.pt",
+    "internet_access": "wlan",
+    "museum": "art",
+    "name": "Museu de Arte Contemporânea MAC/CCB",
+    "old_name": "Museu Coleção Berardo",
+    "opening_hours": "Mo-Su 10:00-19:00",
+    "short_name": "MAC;MAC/CCB",
+    "start_date": "2007-06-25",
+    "tourism": "museum",
+    "website": "https://www.ccb.pt/macccb/",
+    "wikidata": "Q2191491",
+    "wikimedia_commons": "Category:Museu Coleção Berardo",
+    "wikipedia": "en:Berardo Collection Museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museunacionaldotrajeedam",
+  "n": "Museu Nacional do Traje e da Moda",
+  "a": "",
+  "pc": "",
+  "lat": 38.77515,
+  "lng": -9.16481,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museu Nacional do Traje e da Moda Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1301526823",
+   "raw": {
+    "addr:city": "Lisboa",
+    "addr:place": "Lumiar",
+    "addr:postcode": "1600-483",
+    "addr:street": "Largo Júlio de Castilho",
+    "contact:email": "mntraje@mntraje.dgpc.pt",
+    "contact:phone": "+351 217 567 620;+351 217 543 920",
+    "contact:website": "http://museudotraje.pt",
+    "fee": "yes",
+    "name": "Museu Nacional do Traje e da Moda",
+    "name:de": "Trachtenmuseum",
+    "name:pt": "Museu Nacional do Traje e da Moda",
+    "opening_hours": "Tu 14:00-18:00; We-Su 10:00-18:00",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museunacionaldoteatroeda",
+  "n": "Museu Nacional do Teatro e da Dança",
+  "a": "",
+  "pc": "",
+  "lat": 38.77476,
+  "lng": -9.16694,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museu Nacional do Teatro e da Dança Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1301526826",
+   "raw": {
+    "addr:city": "Lisboa",
+    "addr:housenumber": "10",
+    "addr:place": "Lumiar",
+    "addr:street": "Estrada do Lumiar",
+    "contact:email": "geral@mnteatro.dgpc.pt",
+    "contact:phone": "+351 217 567 410;+351 217 567 419",
+    "contact:website": "http://museudoteatroedanca.pt/",
+    "fee": "yes",
+    "name": "Museu Nacional do Teatro e da Dança",
+    "name:de": "Theatermuseum",
+    "name:pt": "Museu Nacional do Teatro e da Dança",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "antigafabricadepolvora",
+  "n": "Antiga Fabrica de Polvora",
+  "a": "",
+  "pc": "",
+  "lat": 38.73941,
+  "lng": -9.11514,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Antiga Fabrica de Polvora Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1309960937",
+   "raw": {
+    "historic": "ruins",
+    "name": "Antiga Fabrica de Polvora"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "arcodorosario",
+  "n": "Arco do Rosário",
+  "a": "",
+  "pc": "",
+  "lat": 38.71006,
+  "lng": -9.12936,
+  "c": "medieval",
+  "s": "medieval site",
+  "q": "Arco do Rosário Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1563757711",
+   "raw": {
+    "entrance": "yes",
+    "historic": "city_gate",
+    "name": "Arco do Rosário",
+    "old_name": "Porta da Judiaria",
+    "wikidata": "Q23005918",
+    "wikimedia_commons": "Category:Arco do Rosário (Lisbon)",
+    "wikipedia": "pt:Porta da Judiaria"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "igrejadaparoquiadecristo",
+  "n": "Igreja da Paróquia de Cristo Rei de Algés",
+  "a": "",
+  "pc": "",
+  "lat": 38.70015,
+  "lng": -9.23212,
+  "c": "faith",
+  "s": "church",
+  "q": "Igreja da Paróquia de Cristo Rei de Algés Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1568546006",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Igreja da Paróquia de Cristo Rei de Algés",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "igrejadoconventodesantos",
+  "n": "Igreja do Convento de Santos-o-Novo",
+  "a": "",
+  "pc": "",
+  "lat": 38.72148,
+  "lng": -9.11734,
+  "c": "faith",
+  "s": "church",
+  "q": "Igreja do Convento de Santos-o-Novo Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1595748651",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2026-01-08",
+    "name": "Igreja do Convento de Santos-o-Novo",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "primeiroascriancas",
+  "n": "Primeiro as Crianças",
+  "a": "",
+  "pc": "",
+  "lat": 38.68491,
+  "lng": -9.15018,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Primeiro as Crianças Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1596316906",
+   "raw": {
+    "name": "Primeiro as Crianças",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "addfuel",
+  "n": "Add Fuel",
+  "a": "",
+  "pc": "",
+  "lat": 38.76027,
+  "lng": -9.2288,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Add Fuel Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1598020792",
+   "raw": {
+    "artwork_type": "graffiti",
+    "description": "Add Fuel desenvolveu um conceito criativo relacionado com uma reinterpretação da tradição azulejar portuguesa, através dos seus padrões em stencil, com base num processo de tesselação, criam um equílibrio entre repetições simétricas",
+    "image": "http://geoportal.cm-amadora.pt/files_site_internet/links/pcultural/id125.jpg",
+    "name": "Add Fuel",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiadoantonioribeiro",
+  "n": "Chiado (António Ribeiro)",
+  "a": "",
+  "pc": "",
+  "lat": 38.7105,
+  "lng": -9.14222,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Chiado (António Ribeiro) Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1600208694",
+   "raw": {
+    "artist_name": "António Augusto da Costa Motta, José Alexandre Soares",
+    "artwork_subject": "figurative",
+    "description": "António Ribeiro, mais conhecido por \"Chiado\", era natural de Évora. Depois de abandonar a Ordem dos Franciscanos veio residir para Lisboa, onde mostrou ser um poeta repentista, improvisador, actor e ventríloquo.",
+    "historic": "memorial",
+    "material": "bronze;limestone;stone",
+    "memorial": "statue",
+    "name": "Chiado (António Ribeiro)",
+    "operator": "Câmara Municipal de Lisboa",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_10",
+    "start_date": "1925",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/chiado-antonio-ribeiro",
+    "wikidata": "Q130283945",
+    "wikimedia_commons": "Category:Monumento a António Ribeiro (\"o Chiado\")"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fernaodemagalhaes",
+  "n": "Fernão de Magalhães",
+  "a": "",
+  "pc": "",
+  "lat": 38.73365,
+  "lng": -9.1342,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Fernão de Magalhães Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1600701261",
+   "raw": {
+    "artist_name": "Guilherme Cordoba",
+    "artwork_subject": "figurative",
+    "description": "Ilustre navegador português, nascido em 1840, que, ao serviço de Espanha, empreendeu a 1ª viagem de circum-navegação e descobriu o estreito, que permite a passagem entre o Atlântico e o Pacífico.",
+    "historic": "memorial",
+    "material": "bronze;stone",
+    "memorial": "statue",
+    "name": "Fernão de Magalhães",
+    "operator": "Câmara Municipal de Lisboa",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_21",
+    "start_date": "1950",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/fernao-de-magalhaes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "estatuacomcavalo",
+  "n": "Estátua com Cavalo",
+  "a": "",
+  "pc": "",
+  "lat": 38.73053,
+  "lng": -9.15321,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Estátua com Cavalo Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1616920542",
+   "raw": {
+    "artist_name": "Euclides Vaz",
+    "artwork_subject": "figurative",
+    "artwork_type": "statue",
+    "description": "Estátua em pedra colocada dentro de um lago, representando uma figura feminina em pé sobre um cavalo, numa linguagem claramente moderna, mas evidenciando ainda um certo academismo e formalismo.",
+    "material": "stone",
+    "name": "Estátua com Cavalo",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_225",
+    "start_date": "1958",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/estatua-com-cavalo"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lagodastagides",
+  "n": "Lago das Tágides",
+  "a": "",
+  "pc": "",
+  "lat": 38.76839,
+  "lng": -9.09228,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Lago das Tágides Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1616923977",
+   "raw": {
+    "artist:wikidata": "Q6298111",
+    "artist_name": "João Cutileiro",
+    "artwork_type": "installation",
+    "description": "Obra do escultor João Cutileiro, executada e inaugurada em 1998, traduz um conjunto de esculturas em pedra mármore dentro de um lago. Encontramos aqui representadas uma falua, barco tradicional do Tejo, e figuras femininas que evocam as Tágides.",
+    "material": "marble;stone",
+    "name": "Lago das Tágides",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_210",
+    "start_date": "1998",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/lago-das-tagides"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museugeologico",
+  "n": "Museu Geológico",
+  "a": "",
+  "pc": "",
+  "lat": 38.71311,
+  "lng": -9.14975,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museu Geológico Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1623055925",
+   "raw": {
+    "addr:city": "Lisboa",
+    "addr:flats": "2",
+    "addr:housenumber": "19",
+    "addr:postcode": "1249-280",
+    "addr:street": "Rua da Academia das Ciências",
+    "alt_name": "Museu Geológico e Mineiro",
+    "contact:email": "museugeol@lneg.pt",
+    "contact:phone": "+351 213 463 915",
+    "contact:website": "http://www.lneg.pt/museugeologico/",
+    "name": "Museu Geológico",
+    "opening_hours": "Mo-Sa 10:00-18:00; PH off",
+    "operator": "Laboratório Nacional de Energia e Geologia",
+    "start_date": "1859",
+    "tourism": "museum",
+    "wikidata": "Q10333493",
+    "wikimedia_commons": "Category:Museu Geológico (Lisboa)",
+    "wikipedia": "pt:Museu Geológico de Lisboa"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "igrejaevangelicaassemble",
+  "n": "Igreja Evangélica Assembleia de Deus Ministério Emanuel",
+  "a": "",
+  "pc": "",
+  "lat": 38.75689,
+  "lng": -9.25773,
+  "c": "faith",
+  "s": "church",
+  "q": "Igreja Evangélica Assembleia de Deus Ministério Emanuel Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1664344900",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Igreja Evangélica Assembleia de Deus Ministério Emanuel",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "altodaserafina",
+  "n": "Alto da Serafina",
+  "a": "",
+  "pc": "",
+  "lat": 38.73339,
+  "lng": -9.17569,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Alto da Serafina Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1668354051",
+   "raw": {
+    "name": "Alto da Serafina",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "miradourodocastelodesaoj",
+  "n": "Miradouro do Castelo de São Jorge",
+  "a": "",
+  "pc": "",
+  "lat": 38.71212,
+  "lng": -9.13373,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Miradouro do Castelo de São Jorge Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1801653047",
+   "raw": {
+    "name": "Miradouro do Castelo de São Jorge",
+    "tourism": "viewpoint",
+    "website": "https://www.playocean.net/portugal/lisboa/miradouros/miradouro-do-castelo-de-sao-jorge"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "juliodecastilho",
+  "n": "Júlio de Castilho",
+  "a": "",
+  "pc": "",
+  "lat": 38.71173,
+  "lng": -9.13029,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Júlio de Castilho Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1801821472",
+   "raw": {
+    "artist_name": "António Augusto da Costa Motta (Tio)",
+    "artwork_subject": "figurative",
+    "description": "Monumento constituído por um busto de bronze, modelado e cinzelado pelo escultor Costa Motta (sobrinho), colocado sobre um plinto de pedra lioz, mandado erigir, por iniciativa da Comissão Administrativa do Município de Lisboa, em homenagem a este hist",
+    "historic": "memorial",
+    "material": "bronze;limestone;stone",
+    "memorial": "bust",
+    "name": "Júlio de Castilho",
+    "operator": "Câmara Municipal de Lisboa",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_202",
+    "start_date": "1929",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/julio-de-castilho"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "casadaachada",
+  "n": "Casa da Achada",
+  "a": "",
+  "pc": "",
+  "lat": 38.71343,
+  "lng": -9.13526,
+  "c": "museum",
+  "s": "museum",
+  "q": "Casa da Achada Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1802199762",
+   "raw": {
+    "addr:city": "Lisboa",
+    "addr:country": "PT",
+    "addr:housenumber": "11",
+    "addr:postcode": "1100-004",
+    "addr:street": "Rua da Achada",
+    "alt_name": "Centro Mário Dionísio",
+    "amenity": "community_centre",
+    "community_centre": "cultural_centre",
+    "email": "casadaachada@centromariodionisio.org",
+    "heritage": "yes",
+    "name": "Casa da Achada",
+    "opening_hours": "Mo,Fr 15:00-20:00; Sa-Su 11:0-18:00",
+    "phone": "+351 218 877090",
+    "tourism": "museum",
+    "website": "http://www.centromariodionisio.org"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "urinolpublicomasculinodo",
+  "n": "Urinol Público Masculino do Chão da Feira",
+  "a": "",
+  "pc": "",
+  "lat": 38.7124,
+  "lng": -9.13185,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Urinol Público Masculino do Chão da Feira Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1802199778",
+   "raw": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "no",
+    "covered": "no",
+    "fee": "no",
+    "historic": "toilets",
+    "male": "yes",
+    "name": "Urinol Público Masculino do Chão da Feira",
+    "opening_hours": "24/7",
+    "source": "https://cidadanialx.org/portfolio/pedido-de-classificacao-dos-3-urinois-publicos-masculinos-do-sec-xix-de-chao-da-feira-poco-do-bispo-e-olivais",
+    "toilets:position": "urinal",
+    "wheelchair": "no"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "agirafa",
+  "n": "A Girafa",
+  "a": "",
+  "pc": "",
+  "lat": 38.76154,
+  "lng": -9.09542,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "A Girafa Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1852999332",
+   "raw": {
+    "artist_name": "Fernanda Fragateiro",
+    "artwork_subject": "figurative",
+    "artwork_type": "sculpture",
+    "description": "Figura de girafa em resina, olhando-se ao espelho, da autoria de Fernanda Fragateiro, colocada, por altura da EXPO 98, no Jardim das Palmeiras, o qual faz parte dos Jardins da Água no Parque das Nações.",
+    "material": "resine",
+    "name": "A Girafa",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_213",
+    "start_date": "1998",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/girafa-mirando-se-ao-espelho",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "calcadadomarportugues",
+  "n": "Calçada do Mar Português",
+  "a": "",
+  "pc": "",
+  "lat": 38.76361,
+  "lng": -9.09502,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Calçada do Mar Português Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1852999339",
+   "raw": {
+    "artist_name": "Xana",
+    "name": "Calçada do Mar Português",
+    "tourism": "artwork",
+    "website": "http://www.portaldasnacoes.pt/item/xana/",
+    "wheelchair": "limited"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "caminhosdeagua",
+  "n": "Caminhos de água",
+  "a": "",
+  "pc": "",
+  "lat": 38.76625,
+  "lng": -9.09587,
+  "c": "streetart",
+  "s": "mosaic",
+  "q": "Caminhos de água Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1852999343",
+   "raw": {
+    "artist_name": "Rigo",
+    "artwork_type": "mosaic",
+    "name": "Caminhos de água",
+    "tourism": "artwork",
+    "website": "http://www.portaldasnacoes.pt/item/rigo/",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "homenagemadomjoaoii",
+  "n": "Homenagem a Dom João II",
+  "a": "",
+  "pc": "",
+  "lat": 38.76171,
+  "lng": -9.09835,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Homenagem a Dom João II Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1852999374",
+   "raw": {
+    "artist_name": "Manuel Rosa",
+    "artwork_subject": "abstract",
+    "artwork_type": "sculpture",
+    "description": "D. João II (1455-1495), ficou conhecido como o Príncipe Perfeito. Durante o seu reinado os descobrimentos marítimos sofreram um grande impulso: boa parte da costa ocidental africana foi navegada.",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "sculpture",
+    "name": "Homenagem a Dom João II",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_214",
+    "start_date": "1998",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/homenagem-a-d-joao-ii"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "horasdechumbo",
+  "n": "Horas de Chumbo",
+  "a": "",
+  "pc": "",
+  "lat": 38.76504,
+  "lng": -9.0951,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Horas de Chumbo Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1852999397",
+   "raw": {
+    "artist_name": "Rui Chafes",
+    "artwork_subject": "Abstracto",
+    "artwork_type": "sculpture",
+    "description": "Traduz uma escultura em ferro pintado de preto, formando um duplo óculo, composto por duas formas cónicas, com 9 m de comprimento, apontadas para o vento.",
+    "material": "iron",
+    "name": "Horas de Chumbo",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_208",
+    "start_date": "1998",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/horas-de-chumbo",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "marlargo",
+  "n": "Mar Largo",
+  "a": "",
+  "pc": "",
+  "lat": 38.76735,
+  "lng": -9.09353,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Mar Largo Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1852999404",
+   "raw": {
+    "artist_name": "Fernando Conduto",
+    "name": "Mar Largo",
+    "tourism": "artwork",
+    "website": "http://www.portaldasnacoes.pt/item/fernando-conduto-1/",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "navigatiosanctibrendanni",
+  "n": "Navigatio Sancti Brendanni Abbatis",
+  "a": "",
+  "pc": "",
+  "lat": 38.75545,
+  "lng": -9.09516,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Navigatio Sancti Brendanni Abbatis Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1852999424",
+   "raw": {
+    "artist_name": "Ilda David",
+    "artwork_type": "sculpture",
+    "name": "Navigatio Sancti Brendanni Abbatis",
+    "tourism": "artwork",
+    "website": "http://www.portaldasnacoes.pt/item/ilda-david/",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ondalusoamericana",
+  "n": "Onda Luso-Americana",
+  "a": "",
+  "pc": "",
+  "lat": 38.75744,
+  "lng": -9.09339,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Onda Luso-Americana Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1852999434",
+   "raw": {
+    "artist_name": "Stephen Frietch;Steven Spurlock",
+    "artwork_subject": "Abstracto",
+    "artwork_type": "sculpture",
+    "description": "Executada em 1998 por Stephen Frietch e Steven Spurlock, esta obra traduz uma escultura em aço inoxidável e azulejos, oferecida pela Comunidade Luso-Americana à Parque EXPO 98, representando a onda de emigração portuguesa para os E.U.A..",
+    "material": "steel;tiles",
+    "name": "Onda Luso-Americana",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_211",
+    "start_date": "1998",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/onda-luso-americana",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "reflexodoceunavegante",
+  "n": "Reflexo do Céu, Navegante",
+  "a": "",
+  "pc": "",
+  "lat": 38.76088,
+  "lng": -9.09249,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Reflexo do Céu, Navegante Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1852999452",
+   "raw": {
+    "artist_name": "Susumu Shingu",
+    "artwork_subject": "Abstracto",
+    "artwork_type": "sculpture",
+    "description": "Executada em 1998 por Susumu Shingu, esta escultura cinética, em aço inox, com 6 m de altura, apresenta no topo grandes pás ou hélices, que absorvem a energia natural do vento e da luz, movimentando-se sob a acção eólica, reflectindo a paisagem.",
+    "material": "steel",
+    "name": "Reflexo do Céu, Navegante",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_212",
+    "start_date": "1998",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/reflexo-do-ceu-navegante",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "semtitulopedrocabritarei",
+  "n": "Sem título (Pedro Cabrita Reis)",
+  "a": "",
+  "pc": "",
+  "lat": 38.75407,
+  "lng": -9.09681,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Sem título (Pedro Cabrita Reis) Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1852999491",
+   "raw": {
+    "artist_name": "Pedro Cabrita Reis",
+    "artwork_subject": "Abstracto",
+    "artwork_type": "sculpture",
+    "description": "Obra geométrica, abstracta e simbólica, da autoria de Pedro Cabrita Reis, datada de 1998, implantada na Rotunda da EXPO 98 e no Viaduto da Avenida Marechal Gomes da Costa, ao Parque das Nações.",
+    "material": "reinforced_concrete",
+    "name": "Sem título (Pedro Cabrita Reis)",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_215",
+    "start_date": "1998",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/sem-titulo-pedro-cabrita-reis"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cursiva",
+  "n": "Cursiva",
+  "a": "",
+  "pc": "",
+  "lat": 38.77511,
+  "lng": -9.09193,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Cursiva Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1853219396",
+   "raw": {
+    "artist_name": "Amy Yoes",
+    "artwork_subject": "Abstracto",
+    "artwork_type": "sculpture",
+    "description": "Executada em 1998 por Amy Yoes, esta escultura de grande porte, composta por dois corpos curvilíneos de diferentes tamanhos, em ferro pintado de verde, faz lembrar um molde gigantesco de uma capitular de um códice medieval.",
+    "material": "iron",
+    "name": "Cursiva",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_206",
+    "start_date": "1998",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/cursiva"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "montanhario",
+  "n": "Montanha-Rio",
+  "a": "",
+  "pc": "",
+  "lat": 38.77684,
+  "lng": -9.09388,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Montanha-Rio Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1853219420",
+   "raw": {
+    "artist_name": "Rui Sanches",
+    "artwork_subject": "Abstracto",
+    "artwork_type": "sculpture",
+    "description": "Da autoria de Rui Sanches, esta escultura localizada no Cais do Olival ao Parque das Nações, desde 1998, é constituída por uma parede de betão que corta um soco semicircular, feito de degraus de granito, no meio do qual está enterrado um bloco de p",
+    "material": "granite;reinforced_concrete;stone",
+    "name": "Montanha-Rio",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_207",
+    "start_date": "1998",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/montanha-rio",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "caminho",
+  "n": "Caminho",
+  "a": "",
+  "pc": "",
+  "lat": 38.77882,
+  "lng": -9.0948,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Caminho Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1856367711",
+   "raw": {
+    "artist_name": "Carsten Hölle",
+    "artwork_type": "installation",
+    "description": "Elemento escultórico natural, que traduz uma ilha vegetal circular, dividida em duas metades por um caminho cerrado e secreto entre loureiros e medronheiros, formado por duas curvas e uma contracurva, à semelhança de um pequeno labirinto.",
+    "material": "soil",
+    "name": "Caminho",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_209",
+    "start_date": "1998",
+    "tourism": "artwork",
+    "website": "https://www.lisboapatrimoniocultural.pt/artepublica/eescultura/pecas/Paginas/Caminho.aspx",
+    "wheelchair": "limited"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kanimambo",
+  "n": "Kanimambo",
+  "a": "",
+  "pc": "",
+  "lat": 38.78116,
+  "lng": -9.09454,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Kanimambo Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1856367715",
+   "raw": {
+    "artist_name": "Ângela Ferreira",
+    "artwork_subject": "Abstracto",
+    "description": "À semelhança de um parque infantil, homenagem de agradecimento prestada a todos os trabalhadores que participaram na construção da EXPO 98.",
+    "historic": "memorial",
+    "material": "aluminium;concrete;steel",
+    "memorial": "sculpture",
+    "name": "Kanimambo",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_285",
+    "start_date": "1998",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/kanimambo",
+    "wheelchair": "limited"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dcatarinadebraganca",
+  "n": "D. Catarina de Bragança",
+  "a": "",
+  "pc": "",
+  "lat": 38.78146,
+  "lng": -9.09106,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "D. Catarina de Bragança Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1856367719",
+   "raw": {
+    "artist_name": "Tim Fargher",
+    "artwork_subject": "figurative",
+    "artwork_type": "statue",
+    "description": "D. Catarina de Bragança (1638-1705), filha do duque de Bragança, que foi o nosso rei D. João IV, nasceu em Vila Viçosa e foi rainha de Inglaterra, através do seu casamento com Carlos II, entre 1662 e 1685.",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "D. Catarina de Bragança",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_286",
+    "start_date": "2002",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/d-catarina-de-braganca",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "toban",
+  "n": "Toban",
+  "a": "",
+  "pc": "",
+  "lat": 38.78568,
+  "lng": -9.09259,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Toban Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1856367730",
+   "raw": {
+    "artist_name": "Painel Japonês",
+    "name": "Toban",
+    "tourism": "artwork",
+    "website": "http://www.portaldasnacoes.pt/item/painel-japones/",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "semtitulo",
+  "n": "Sem título",
+  "a": "",
+  "pc": "",
+  "lat": 38.78346,
+  "lng": -9.09399,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Sem título Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1856367775",
+   "raw": {
+    "artist_name": "José Pedro Croft",
+    "artwork_subject": "abstract",
+    "artwork_type": "sculpture",
+    "description": "Obra de arte pública, representativa de um bosque mágico com espelhos, que nos dão uma visão diferente do meio que nos rodeia, está localizada, desde 1998, no Rossio do Levante ao Parque das Nações.",
+    "field": "yes",
+    "material": "iron",
+    "name": "Sem título",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_287",
+    "start_date": "1998",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/sem-titulo-jose-pedro-croft",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "69homensdebessines",
+  "n": "69 Homens de Bessines",
+  "a": "",
+  "pc": "",
+  "lat": 38.78009,
+  "lng": -9.09425,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "69 Homens de Bessines Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1856367846",
+   "raw": {
+    "artist_name": "Fabrice Hybert",
+    "artwork_type": "sculpture",
+    "description": "Executado em 1998 por Fabrice Hybert, este elemento, inserido num lago ou espelho de água, é composto por 69 figuras humanas, em resina e aço inoxidável, pintadas de verde e crivadas de orifícios que jorram água.",
+    "material": "steel",
+    "name": "69 Homens de Bessines",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_3345",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/pt/equipamentos/equipamento/info/escultura-69-homens-de-bessines",
+    "wheelchair": "limited"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "airportspotting",
+  "n": "Airport Spotting",
+  "a": "",
+  "pc": "",
+  "lat": 38.78001,
+  "lng": -9.1407,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Airport Spotting Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2014279345",
+   "raw": {
+    "aircraft_spotting": "yes",
+    "direction": "120",
+    "name": "Airport Spotting",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "miradourodacasadacerca",
+  "n": "Miradouro da Casa da Cerca",
+  "a": "",
+  "pc": "",
+  "lat": 38.68432,
+  "lng": -9.15889,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Miradouro da Casa da Cerca Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2146523275",
+   "raw": {
+    "name": "Miradouro da Casa da Cerca",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vivaalmadaviva",
+  "n": "Viva Almada Viva",
+  "a": "",
+  "pc": "",
+  "lat": 38.68784,
+  "lng": -9.14805,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Viva Almada Viva Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2146523336",
+   "raw": {
+    "name": "Viva Almada Viva",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "paginasdecor",
+  "n": "Páginas de Cor",
+  "a": "",
+  "pc": "",
+  "lat": 38.68315,
+  "lng": -9.16035,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Páginas de Cor Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2146523353",
+   "raw": {
+    "name": "Páginas de Cor",
+    "source": "CMA",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "osperseguidos",
+  "n": "Os Perseguídos",
+  "a": "",
+  "pc": "",
+  "lat": 38.68022,
+  "lng": -9.15582,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Os Perseguídos Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2228801394",
+   "raw": {
+    "historic": "monument",
+    "name": "Os Perseguídos"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "martinhodaarcada",
+  "n": "Martinho da Arcada",
+  "a": "",
+  "pc": "",
+  "lat": 38.70869,
+  "lng": -9.13585,
+  "c": "caff",
+  "s": "local curiosity",
+  "q": "Martinho da Arcada Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2305795082",
+   "raw": {
+    "addr:housenumber": "3",
+    "addr:postcode": "1100-148",
+    "addr:street": "Praça do Comércio",
+    "amenity": "cafe",
+    "cuisine": "regional;local;seafood;portuguese",
+    "historic": "cafe",
+    "image": "File:Café Martinho da Arcada - 2014 (3).JPG",
+    "internet_access": "wlan",
+    "name": "Martinho da Arcada",
+    "opening_hours": "Mo-Sa 07:00-23:00",
+    "phone": "+351 21 887 9259",
+    "wikidata": "Q10326949",
+    "wikimedia_commons": "Category:Café Martinho da Arcada",
+    "wikipedia": "fr:Martinho da Arcada"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "doutoralbertoaraujo",
+  "n": "Doutor Alberto Araújo",
+  "a": "",
+  "pc": "",
+  "lat": 38.6811,
+  "lng": -9.15805,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Doutor Alberto Araújo Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2355892890",
+   "raw": {
+    "historic": "memorial",
+    "name": "Doutor Alberto Araújo"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "incrivelalmadense",
+  "n": "Incrível Almadense",
+  "a": "",
+  "pc": "",
+  "lat": 38.68292,
+  "lng": -9.15767,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Incrível Almadense Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2358857693",
+   "raw": {
+    "alt_name": "Cine Incrível Almadense",
+    "amenity": "cinema",
+    "name": "Incrível Almadense",
+    "wikidata": "Q97097702",
+    "wikimedia_commons": "Category:Edifício do Cinema da Sociedade Filarmónica Incrível Almadense (SFIA)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "famamontandopegaso",
+  "n": "Fama montando Pégaso",
+  "a": "",
+  "pc": "",
+  "lat": 38.74961,
+  "lng": -9.25873,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Fama montando Pégaso Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2410268979",
+   "raw": {
+    "artwork_type": "statue",
+    "material": "stone",
+    "name": "Fama montando Pégaso",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lisboaaosconstrutoresdac",
+  "n": "Lisboa - Aos Construtores da Cidade",
+  "a": "",
+  "pc": "",
+  "lat": 38.74352,
+  "lng": -9.09881,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Lisboa - Aos Construtores da Cidade Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2441537828",
+   "raw": {
+    "artist_name": "José de Guimarães",
+    "artwork_subject": "abstract",
+    "artwork_type": "sculpture",
+    "description": "Escultura alegórica denominada \"Lisboa\", tratada como uma figura feminina reclinada, voltada para o Tejo.",
+    "historic": "memorial",
+    "material": "limestone;plastic;reinforced_concrete;stone",
+    "memorial": "sculpture",
+    "name": "Lisboa - Aos Construtores da Cidade",
+    "operator": "Câmara Municipal de Lisboa",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_1",
+    "start_date": "1999",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/lisboa-aos-construtores-da-cidade",
+    "wikidata": "Q134714221",
+    "wikimedia_commons": "Category:Monumento aos Construtores da Cidade"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "memorialajorgeluisborges",
+  "n": "Memorial a Jorge Luís Borges",
+  "a": "",
+  "pc": "",
+  "lat": 38.73625,
+  "lng": -9.14215,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Memorial a Jorge Luís Borges Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2472271806",
+   "raw": {
+    "artist_name": "Frederico Brook",
+    "artwork_subject": "Abstracto",
+    "artwork_type": "sculpture",
+    "description": "Memorial em homenagem ao escritor argentino Jorge Luís Borges (1899-1986).",
+    "material": "bronze;granite;marble",
+    "memorial": "inscription;stele",
+    "name": "Memorial a Jorge Luís Borges",
+    "operator": "Câmara Municipal de Lisboa",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_314",
+    "start_date": "2008",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/memorial-a-jorge-luis-borges"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "engenharia",
+  "n": "Engenharia",
+  "a": "",
+  "pc": "",
+  "lat": 38.73735,
+  "lng": -9.13902,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Engenharia Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2475211343",
+   "raw": {
+    "artist_name": "Author unknown",
+    "artwork_subject": "Alegorias",
+    "description": "Estátua de pedra, com 3m de altura, assente sobre pedestal, também de pedra, que representa a engenharia através de uma figura feminina, segurando na mão instrumentos utilizados por esta área do conhecimento",
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "statue",
+    "name": "Engenharia",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_123",
+    "start_date": "unknown",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/engenharia"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museunacionaldearqueolog",
+  "n": "Museu Nacional de Arqueologia",
+  "a": "",
+  "pc": "",
+  "lat": 38.69737,
+  "lng": -9.20708,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museu Nacional de Arqueologia Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2491785179",
+   "raw": {
+    "addr:city": "Lisboa",
+    "addr:housename": "Mosteiro dos Jerónimos",
+    "addr:postcode": "1400-206",
+    "addr:street": "Praça do Império",
+    "check_date": "2024-05-04",
+    "contact:email": "geral@mnarqueologia.dgpc.pt",
+    "contact:fax": "+351 213 620 016",
+    "contact:phone": "+351 213 620 000;+351 213 620 025",
+    "contact:website": "www.museuarqueologia.pt",
+    "description": "Instalado em 1893, possui um acervo vastíssimo e diversificado dividido em núcleos: arqueologia, etnografia, numismática, epigrafia pré-latina e latina, escultura, documentos escritos, mosaicos e antropologia física. Na sala do tesouro encontra-se u",
+    "fee": "yes",
+    "name": "Museu Nacional de Arqueologia",
+    "name:de": "Nationalmuseum für Archäologie",
+    "name:en": "National Archaeology Museum",
+    "name:es": "Museo Nacional de Arqueología",
+    "name:it": "Museo archeologico nazionale",
+    "name:pt": "Museu Nacional de Arqueologia",
+    "note": "Currently closed (5/2024)",
+    "opening_hours": "Tu-Su 10:00-18:00; Jan 01,May 01,Jun 13,Dec 25 off;easter off",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:name": "Museu",
+    "source:pkey": "d502d173-87bd-4a4a-8009-76fc941feb63",
+    "start_date": "1893",
+    "tourism": "museum",
+    "website": "https://www.mnarqueologia-ipmuseus.pt/",
+    "wikidata": "Q1954384",
+    "wikimedia_commons": "Category:Museu Nacional de Arqueologia",
+    "wikipedia": "pt:Museu Nacional de Arqueologia"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "reservatoriodapatriarcal",
+  "n": "Reservatório da Patriarcal",
+  "a": "",
+  "pc": "",
+  "lat": 38.71615,
+  "lng": -9.1489,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Reservatório da Patriarcal Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2501708673",
+   "raw": {
+    "description": "Respiradouro",
+    "entrance": "yes",
+    "heritage": "yes",
+    "historic": "yes",
+    "man_made": "tower",
+    "name": "Reservatório da Patriarcal",
+    "note": "Aqueduto das Águas Livres",
+    "opening_hours": "24/7",
+    "tower:type": "ventilation_shaft"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dmanueli",
+  "n": "D. Manuel I",
+  "a": "",
+  "pc": "",
+  "lat": 38.7127,
+  "lng": -9.12488,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "D. Manuel I Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2502863443",
+   "raw": {
+    "description": "D. Manuel I (1469-1521), O Venturoso, 14º rei de Portugal, reinou durante 26 anos, entre o final do séc. XV e o início do séc. XVI, época de grande actividade marítima portuguesa pelo mundo.",
+    "historic": "memorial",
+    "material": "marble",
+    "memorial": "bust",
+    "name": "D. Manuel I",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_191"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "anturiocom",
+  "n": "Anturio.com",
+  "a": "",
+  "pc": "",
+  "lat": 38.72766,
+  "lng": -9.12512,
+  "c": "faith",
+  "s": "church",
+  "q": "Anturio.com Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2505207598",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "Anturio.com",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "miradourodomercadodochao",
+  "n": "Miradouro do Mercado do Chão do Loureiro",
+  "a": "",
+  "pc": "",
+  "lat": 38.7121,
+  "lng": -9.13524,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Miradouro do Mercado do Chão do Loureiro Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2505381525",
+   "raw": {
+    "alt_name": "Miradouro do Chão do Loureiro",
+    "name": "Miradouro do Mercado do Chão do Loureiro",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mulhersegurandoomenino",
+  "n": "Mulher segurando o Menino",
+  "a": "",
+  "pc": "",
+  "lat": 38.7495,
+  "lng": -9.15004,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Mulher segurando o Menino Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2508703400",
+   "raw": {
+    "artist_name": "Euclides Vaz",
+    "artwork_subject": "figurative",
+    "artwork_type": "statue",
+    "description": "Peça em bronze, representando uma figura feminina com uma criança ao ombro, assente sobre plinto paralelepipédico em pedra. Executada, em 1964, por Euclides Vaz.",
+    "material": "bronze;stone",
+    "name": "Mulher segurando o Menino",
+    "operator": "Câmara Municipal de Lisboa",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_96",
+    "start_date": "1964-1997",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/mulher-segurando-o-menino"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "osaber",
+  "n": "O Saber",
+  "a": "",
+  "pc": "",
+  "lat": 38.75162,
+  "lng": -9.15219,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "O Saber Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2522075142",
+   "raw": {
+    "artist_name": "António Duarte",
+    "artwork_subject": "Alegorias",
+    "artwork_type": "statue",
+    "description": "Estátua de bronze assente sobre base de pedra, representando uma figura masculina, de tamanho superior ao natural, modelada por António Duarte, entre 1960-1962, e colocada na frontaria da Biblioteca Nacional (frente ao anfiteatro).",
+    "material": "bronze;stone",
+    "name": "O Saber",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_91",
+    "start_date": "1962",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/o-saber"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ribeiradasnaus",
+  "n": "Ribeira das Naus",
+  "a": "",
+  "pc": "",
+  "lat": 38.75423,
+  "lng": -9.1535,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ribeira das Naus Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2522075176",
+   "raw": {
+    "alt_name": "Monumento ao Metropolitano de Lisboa",
+    "colour": "red",
+    "description": "Conjunto escultórico designado por \"Ribeira das Naus\", também conhecido como \"Monumento ao Metropolitano de Lisboa\", da autoria do escultor João Charters d'Almeida, executado em 1995 e inaugurado em Julho/Agosto do mesmo ano.",
+    "historic": "memorial",
+    "material": "reinforced_concrete",
+    "memorial": "sculpture",
+    "name": "Ribeira das Naus",
+    "operator": "Câmara Municipal de Lisboa",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_85",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "duasestatuasduasfigurasm",
+  "n": "Duas estátuas (duas figuras masculinas)",
+  "a": "",
+  "pc": "",
+  "lat": 38.72803,
+  "lng": -9.15453,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Duas estátuas (duas figuras masculinas) Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2533859456",
+   "raw": {
+    "artist_name": "Martinho Félix de Brito",
+    "artwork_subject": "figurative",
+    "artwork_type": "statue",
+    "description": "Peça localizada no Parque Eduardo VII, na zona do parque infantil, composta por duas estátuas decorativas representando duas crianças (figuras masculinas), ajoelhadas e abraçadas.",
+    "material": "stone",
+    "name": "Duas estátuas (duas figuras masculinas)",
+    "operator": "Câmara Municipal de Lisboa",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_226",
+    "start_date": "1963",
+    "tourism": "artwork",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/duas-estatuas-duas-figuras-masculinas"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "obeliscoaquatico",
+  "n": "Obelisco Aquático",
+  "a": "",
+  "pc": "",
+  "lat": 38.70653,
+  "lng": -9.17161,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Obelisco Aquático Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2547826930",
+   "raw": {
+    "addr:street": "Jardim Olavo Bilac",
+    "artist_name": "Arquitectos Caetano Tomás;Reinaldo dos Santos",
+    "artwork_subject": "Marco",
+    "description": "O Obelisco aquático é o elemento central do Chafariz das Necessidades.",
+    "historic": "memorial",
+    "material": "bronze;marble",
+    "memorial": "stele;obelisk",
+    "name": "Obelisco Aquático",
+    "note": "Obelisco Aquático",
+    "source": "dadosabertos.cm-lisboa.pt",
+    "source:pkey": "9_2606",
+    "start_date": "1745",
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/obelisco-aquatico"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "casaparganaarquivohistor",
+  "n": "Casa Pargana - Arquivo Histórico",
+  "a": "",
+  "pc": "",
+  "lat": 38.68203,
+  "lng": -9.16003,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Casa Pargana - Arquivo Histórico Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2592916333",
+   "raw": {
+    "historic": "monument",
+    "name": "Casa Pargana - Arquivo Histórico"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "leitariaacamponeza",
+  "n": "Leitaria A Camponeza",
+  "a": "",
+  "pc": "",
+  "lat": 38.71174,
+  "lng": -9.1386,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Leitaria A Camponeza Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2620368934",
+   "raw": {
+    "addr:city": "Lisbon",
+    "addr:housenumber": "155",
+    "addr:street": "Rua dos Sapateiros",
+    "amenity": "restaurant",
+    "capacity": "42",
+    "cuisine": "regional",
+    "historic": "yes",
+    "name": "Leitaria A Camponeza",
+    "opening_hours": "Mo-Su 19:00-23:00",
+    "phone": "+351 923 132488",
+    "smoking": "outside",
+    "takeaway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q96906908",
+    "wikimedia_commons": "Category:Leitaria A Camponeza"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oratoriosjosemaria",
+  "n": "Oratório S. Josemaria",
+  "a": "",
+  "pc": "",
+  "lat": 38.74692,
+  "lng": -9.16697,
+  "c": "faith",
+  "s": "church",
+  "q": "Oratório S. Josemaria Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2809240304",
+   "raw": {
+    "addr:city": "Lisboa",
+    "addr:housenumber": "5C",
+    "addr:postcode": "1600-028",
+    "addr:street": "Rua Vera Lagoa",
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Oratório S. Josemaria",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kasturbagandhiandmahatma",
+  "n": "Kasturba Gandhi & Mahatma Gandhi",
+  "a": "",
+  "pc": "",
+  "lat": 38.76924,
+  "lng": -9.17384,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Kasturba Gandhi & Mahatma Gandhi Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2894010410",
+   "raw": {
+    "artist_name": "Rajan Yawalkar",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Kasturba Gandhi & Mahatma Gandhi",
+    "start_date": "1998",
+    "subject:wikidata": "Q264908;Q1001",
+    "subject:wikipedia": "pt:Kasturba Gandhi;pt:Mahatma Gandhi"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "animatografodorossio",
+  "n": "Animatógrafo do Rossio",
+  "a": "",
+  "pc": "",
+  "lat": 38.7128,
+  "lng": -9.13901,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Animatógrafo do Rossio Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2933990243",
+   "raw": {
+    "addr:housenumber": "229",
+    "addr:street": "Rua dos Sapateiros",
+    "historic": "yes",
+    "name": "Animatógrafo do Rossio",
+    "shop": "yes",
+    "wikidata": "Q548009",
+    "wikimedia_commons": "Category:Animatógrafo do Rossio"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "versobranco",
+  "n": "Verso Branco",
+  "a": "",
+  "pc": "",
+  "lat": 38.70897,
+  "lng": -9.14982,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Verso Branco Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3037180563",
+   "raw": {
+    "addr:city": "Lisboa",
+    "addr:housenumber": "132-134",
+    "addr:postcode": "1200-070",
+    "addr:street": "Rua da Boavista",
+    "email": "info@versobranco.pt",
+    "facebook": "https://www.facebook.com/versobranco.design/",
+    "name": "Verso Branco",
+    "opening_hours": "Tu-Sa 11:30-20:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+351 211 342634",
+    "tourism": "gallery",
+    "website": "https://www.versobranco.pt/",
+    "wikidata": "Q101063104"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemacityalvalade",
+  "n": "Cinema City Alvalade",
+  "a": "",
+  "pc": "",
+  "lat": 38.75437,
+  "lng": -9.14434,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinema City Alvalade Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3086172543",
+   "raw": {
+    "addr:city": "Lisboa",
+    "addr:housenumber": "100",
+    "addr:postcode": "1700-352",
+    "addr:street": "Avenida de Roma",
+    "amenity": "cinema",
+    "name": "Cinema City Alvalade",
+    "phone": "+351 214 221 030",
+    "website": "https://www.cinemacity.pt/",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museudamarioneta",
+  "n": "Museu da Marioneta",
+  "a": "",
+  "pc": "",
+  "lat": 38.708,
+  "lng": -9.15579,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museu da Marioneta Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3128158245",
+   "raw": {
+    "addr:city": "Lisboa",
+    "addr:housename": "Convento das Bernardas",
+    "addr:housenumber": "146",
+    "addr:postcode": "1200-660",
+    "addr:street": "Rua da Esperança",
+    "alt_name": "Museu das Marionetas de Lisboa",
+    "charge": "5.00 EUR",
+    "contact:email": "museudamarioneta@egeac.pt",
+    "contact:facebook": "museudamarioneta",
+    "contact:fax": "+351 213 942 819",
+    "contact:instagram": "museu_marioneta",
+    "contact:phone": "+351 213 942 810;+351 916 294 128;+351 916 294 135",
+    "contact:twitter": "museumarioneta",
+    "contact:website": "https://www.museudamarioneta.pt",
+    "email": "museu@museudamarioneta.pt",
+    "fee": "yes",
+    "name": "Museu da Marioneta",
+    "name:pt": "Museu da Marioneta",
+    "name:ru": "Музей марионеток",
+    "opening_hours": "Tu-Su 10:00-18:00",
+    "start_date": "1987",
+    "tourism": "museum",
+    "website": "https://museudamarioneta.pt",
+    "wikidata": "Q10333706",
+    "wikimedia_commons": "Category:Museu da Marioneta (Lisbon)",
+    "wikipedia": "pt:Museu da Marioneta"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinebolso",
+  "n": "Cinebolso",
+  "a": "",
+  "pc": "",
+  "lat": 38.73195,
+  "lng": -9.14314,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinebolso Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3188732024",
+   "raw": {
+    "addr:city": "Lisboa",
+    "addr:country": "PT",
+    "addr:door": "27-B",
+    "addr:postcode": "1000-007",
+    "addr:street": "Rua Actor Taborda",
+    "amenity": "cinema",
+    "email": "cinebolso@cinebolso.com",
+    "min_age": "18",
+    "name": "Cinebolso",
+    "phone": "+351 213 573 407",
+    "website": "https://www.cinebolso.com",
+    "wikidata": "Q37813193"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "quintadaalegria",
+  "n": "Quinta da Alegria",
+  "a": "",
+  "pc": "",
+  "lat": 38.68144,
+  "lng": -9.15082,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Quinta da Alegria Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3284640112",
+   "raw": {
+    "historic": "ruins",
+    "name": "Quinta da Alegria"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "seminariomaiordesaopaulo",
+  "n": "Seminário Maior de São Paulo",
+  "a": "",
+  "pc": "",
+  "lat": 38.68124,
+  "lng": -9.16258,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Seminário Maior de São Paulo Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3319024907",
+   "raw": {
+    "historic": "monument",
+    "name": "Seminário Maior de São Paulo"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "adprevan",
+  "n": "AD Prevan",
+  "a": "",
+  "pc": "",
+  "lat": 38.68154,
+  "lng": -9.1534,
+  "c": "faith",
+  "s": "place of worship",
+  "q": "AD Prevan Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3448667102",
+   "raw": {
+    "addr:housenumber": "9",
+    "addr:street": "Avenida Dom Afonso Henriques",
+    "amenity": "place_of_worship",
+    "check_date": "2026-04-14",
+    "name": "AD Prevan"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "graffiti",
+  "n": "Graffiti",
+  "a": "",
+  "pc": "",
+  "lat": 38.76285,
+  "lng": -9.22446,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Graffiti Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3475079026",
+   "raw": {
+    "artwork_type": "graffiti",
+    "material": "concrete",
+    "name": "Graffiti",
+    "panoramax": "304c63bb-4d52-4811-ae50-703937489014",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "belemtower",
+  "n": "Belém Tower",
+  "a": "",
+  "pc": "",
+  "lat": 38.69139,
+  "lng": -9.21583,
+  "c": "history",
+  "s": "fortified tower located in the civil parish of Santa Maria d",
+  "q": "Belém Tower Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q215003",
+   "raw": "fortified tower located in the civil parish of Santa Maria de Belém in the municipality of Lisbon, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "portugalopen",
+  "n": "Portugal Open",
+  "a": "",
+  "pc": "",
+  "lat": 38.70806,
+  "lng": -9.2525,
+  "c": "oddity",
+  "s": "tennis tournament held in Portugal",
+  "q": "Portugal Open Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q299425",
+   "raw": "tennis tournament held in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "freguesiadesantamariadeb",
+  "n": "Freguesia de Santa Maria de Belém",
+  "a": "",
+  "pc": "",
+  "lat": 38.69472,
+  "lng": -9.21472,
+  "c": "oddity",
+  "s": "former civil parish in Lisboa, Portugal",
+  "q": "Freguesia de Santa Maria de Belém Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q376866",
+   "raw": "former civil parish in Lisboa, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "algestrainstation",
+  "n": "Algés train station",
+  "a": "",
+  "pc": "",
+  "lat": 38.6984,
+  "lng": -9.2295,
+  "c": "oddity",
+  "s": "railway station in Portugal",
+  "q": "Algés train station Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q594294",
+   "raw": "railway station in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lindaavelha",
+  "n": "Linda-a-Velha",
+  "a": "",
+  "pc": "",
+  "lat": 38.71446,
+  "lng": -9.2422,
+  "c": "oddity",
+  "s": "former civil parish in Oeiras, Portugal",
+  "q": "Linda-a-Velha Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1013294",
+   "raw": "former civil parish in Oeiras, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cruzquebradadafundo",
+  "n": "Cruz Quebrada - Dafundo",
+  "a": "",
+  "pc": "",
+  "lat": 38.70611,
+  "lng": -9.25056,
+  "c": "oddity",
+  "s": "former civil parish in Portugal",
+  "q": "Cruz Quebrada - Dafundo Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1021364",
+   "raw": "former civil parish in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cruzeirodealges",
+  "n": "Cruzeiro de Algés",
+  "a": "",
+  "pc": "",
+  "lat": 38.69957,
+  "lng": -9.2316,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Cruzeiro de Algés Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1142170",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nosalive",
+  "n": "NOS Alive",
+  "a": "",
+  "pc": "",
+  "lat": 38.69581,
+  "lng": -9.22952,
+  "c": "oddity",
+  "s": "music festival in Portugal",
+  "q": "NOS Alive Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1164378",
+   "raw": "Music festival in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alges",
+  "n": "Algés",
+  "a": "",
+  "pc": "",
+  "lat": 38.6995,
+  "lng": -9.22927,
+  "c": "oddity",
+  "s": "former civil parish in Portugal",
+  "q": "Algés Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1975409",
+   "raw": "former civil parish in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "portugalopenwomen",
+  "n": "Portugal Open (women)",
+  "a": "",
+  "pc": "",
+  "lat": 38.70389,
+  "lng": -9.25722,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Portugal Open (women) Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2622340",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "2012estorilopenmen",
+  "n": "2012 Estoril Open (men)",
+  "a": "",
+  "pc": "",
+  "lat": 38.7098,
+  "lng": -9.25371,
+  "c": "oddity",
+  "s": "tennis tournament",
+  "q": "2012 Estoril Open (men) Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2693249",
+   "raw": "tennis tournament",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "champalimaudfoundation",
+  "n": "Champalimaud Foundation",
+  "a": "",
+  "pc": "",
+  "lat": 38.693,
+  "lng": -9.2215,
+  "c": "oddity",
+  "s": "portuguese biomedical research foundation",
+  "q": "Champalimaud Foundation Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5069928",
+   "raw": "Portuguese biomedical research foundation",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lisbonharborcontroltower",
+  "n": "Lisbon Harbor Control Tower",
+  "a": "",
+  "pc": "",
+  "lat": 38.694,
+  "lng": -9.2343,
+  "c": "history",
+  "s": "building in Lisbon, Lisbon District, Portugal",
+  "q": "Lisbon Harbor Control Tower Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6558626",
+   "raw": "building in Lisbon, Lisbon District, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jardimdatorredebelem",
+  "n": "Jardim da Torre de Belém",
+  "a": "",
+  "pc": "",
+  "lat": 38.69277,
+  "lng": -9.21567,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Jardim da Torre de Belém Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6698351",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aquariovascodagama",
+  "n": "Aquário Vasco da Gama",
+  "a": "",
+  "pc": "",
+  "lat": 38.69919,
+  "lng": -9.23818,
+  "c": "oddity",
+  "s": "public aquarium in Algés, Oeiras",
+  "q": "Aquário Vasco da Gama Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8187791",
+   "raw": "public aquarium in Algés, Oeiras",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cruzquebradarailwaystati",
+  "n": "Cruz Quebrada railway station",
+  "a": "",
+  "pc": "",
+  "lat": 38.6999,
+  "lng": -9.25222,
+  "c": "oddity",
+  "s": "railway station in Portugal",
+  "q": "Cruz Quebrada railway station Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8779679",
+   "raw": "railway station in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "docadobomsucesso",
+  "n": "Doca do Bom Sucesso",
+  "a": "",
+  "pc": "",
+  "lat": 38.6931,
+  "lng": -9.212,
+  "c": "oddity",
+  "s": "marina in Lisbon",
+  "q": "Doca do Bom Sucesso Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10267760",
+   "raw": "marina in Lisbon",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pedroucostrainstation",
+  "n": "Pedrouços train station",
+  "a": "",
+  "pc": "",
+  "lat": 38.69497,
+  "lng": -9.22146,
+  "c": "oddity",
+  "s": "railway station in Portugal",
+  "q": "Pedrouços train station Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10275783",
+   "raw": "railway station in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "esteirolighthouse",
+  "n": "Esteiro Lighthouse",
+  "a": "",
+  "pc": "",
+  "lat": 38.70381,
+  "lng": -9.25983,
+  "c": "maritime",
+  "s": "lighthouse in Portugal",
+  "q": "Esteiro Lighthouse Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10280185",
+   "raw": "lighthouse in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "portugueseswimmingfedera",
+  "n": "Portuguese Swimming Federation",
+  "a": "",
+  "pc": "",
+  "lat": 38.70535,
+  "lng": -9.25239,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Portuguese Swimming Federation Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10280687",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fortedobomsucesso",
+  "n": "Forte do Bom Sucesso",
+  "a": "",
+  "pc": "",
+  "lat": 38.69309,
+  "lng": -9.21844,
+  "c": "oddity",
+  "s": "building in Lisbon, Lisbon District, Portugal",
+  "q": "Forte do Bom Sucesso Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10284089",
+   "raw": "building in Lisbon, Lisbon District, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "palaciodosaciprestes",
+  "n": "Palácio dos Aciprestes",
+  "a": "",
+  "pc": "",
+  "lat": 38.71172,
+  "lng": -9.24232,
+  "c": "oddity",
+  "s": "building in \"Algés, Linda-a-Velha e Cruz Quebrada-Dafundo\",L",
+  "q": "Palácio dos Aciprestes Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10344056",
+   "raw": "building in \"Algés, Linda-a-Velha e Cruz Quebrada-Dafundo\",Lisbon District, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "riojamor",
+  "n": "Rio Jamor",
+  "a": "",
+  "pc": "",
+  "lat": 38.69861,
+  "lng": -9.25083,
+  "c": "oddity",
+  "s": "river in Portugal",
+  "q": "Rio Jamor Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10362085",
+   "raw": "river in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "altodesantacatarina",
+  "n": "Alto de Santa Catarina",
+  "a": "",
+  "pc": "",
+  "lat": 38.70399,
+  "lng": -9.23917,
+  "c": "oddity",
+  "s": "populated place in Portugal",
+  "q": "Alto de Santa Catarina Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16489188",
+   "raw": "populated place in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "confederacaododesportode",
+  "n": "Confederação do Desporto de Portugal",
+  "a": "",
+  "pc": "",
+  "lat": 38.70056,
+  "lng": -9.23063,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Confederação do Desporto de Portugal Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16879547",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santuariodenossasenhorad",
+  "n": "Santuário de Nossa Senhora da Rocha",
+  "a": "",
+  "pc": "",
+  "lat": 38.72156,
+  "lng": -9.24969,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Santuário de Nossa Senhora da Rocha Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18483838",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oikoscooperationanddevel",
+  "n": "Oikos – Cooperation and Development",
+  "a": "",
+  "pc": "",
+  "lat": 38.71591,
+  "lng": -9.25473,
+  "c": "oddity",
+  "s": "nonprofit organization in Lisbon, Portugal",
+  "q": "Oikos – Cooperation and Development Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30268683",
+   "raw": "nonprofit organization in Lisbon, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "irradiare",
+  "n": "IrRADIARE",
+  "a": "",
+  "pc": "",
+  "lat": 38.70775,
+  "lng": -9.22932,
+  "c": "oddity",
+  "s": "organization in Lisbon, Portugal",
+  "q": "IrRADIARE Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30290282",
+   "raw": "organization in Lisbon, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "centrodesportivonacional",
+  "n": "Centro Desportivo Nacional do Jamor",
+  "a": "",
+  "pc": "",
+  "lat": 38.70676,
+  "lng": -9.25503,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Centro Desportivo Nacional do Jamor Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q48855239",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "praiadacruzquebrada",
+  "n": "Praia da Cruz Quebrada",
+  "a": "",
+  "pc": "",
+  "lat": 38.7,
+  "lng": -9.25,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Praia da Cruz Quebrada Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q49323673",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "algesbeach",
+  "n": "Algés Beach",
+  "a": "",
+  "pc": "",
+  "lat": 38.69585,
+  "lng": -9.23106,
+  "c": "oddity",
+  "s": "beach in Algés, Portugal",
+  "q": "Algés Beach Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q56348641",
+   "raw": "beach in Algés, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dafundobeach",
+  "n": "Dafundo Beach",
+  "a": "",
+  "pc": "",
+  "lat": 38.69796,
+  "lng": -9.23957,
+  "c": "oddity",
+  "s": "beach in Dafundo, Portugal",
+  "q": "Dafundo Beach Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q64217413",
+   "raw": "beach in Dafundo, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "imovelnaruadapraiadepedr",
+  "n": "Imóvel na Rua da Praia de Pedrouços, 75 a 79",
+  "a": "",
+  "pc": "",
+  "lat": 38.6951,
+  "lng": -9.21918,
+  "c": "history",
+  "s": "cultural heritage monument in Lisboa, Portugal",
+  "q": "Imóvel na Rua da Praia de Pedrouços, 75 a 79 Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66814266",
+   "raw": "cultural heritage monument in Lisboa, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "palacetenaruadepedroucos",
+  "n": "Palacete na Rua de Pedrouços, 97 a 99",
+  "a": "",
+  "pc": "",
+  "lat": 38.69648,
+  "lng": -9.22119,
+  "c": "history",
+  "s": "cultural heritage monument in Lisboa, Portugal",
+  "q": "Palacete na Rua de Pedrouços, 97 a 99 Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66814355",
+   "raw": "cultural heritage monument in Lisboa, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pontedoseculoxviisobreor",
+  "n": "Ponte do século XVII sobre o Rio Jamor",
+  "a": "",
+  "pc": "",
+  "lat": 38.70161,
+  "lng": -9.25166,
+  "c": "history",
+  "s": "cultural heritage monument in Oeiras, Portugal",
+  "q": "Ponte do século XVII sobre o Rio Jamor Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66814419",
+   "raw": "cultural heritage monument in Oeiras, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kodakportuguesalda",
+  "n": "Kodak Portuguesa, Lda",
+  "a": "",
+  "pc": "",
+  "lat": 38.7186,
+  "lng": -9.23786,
+  "c": "history",
+  "s": "cultural heritage monument in Oeiras, Portugal",
+  "q": "Kodak Portuguesa, Lda Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66814425",
+   "raw": "cultural heritage monument in Oeiras, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pavilhaoderecreiodaautor",
+  "n": "Pavilhão de recreio da autoria do Arquiteto Porfírio Pardal Monteiro",
+  "a": "",
+  "pc": "",
+  "lat": 38.69946,
+  "lng": -9.24252,
+  "c": "oddity",
+  "s": "building in Portugal",
+  "q": "Pavilhão de recreio da autoria do Arquiteto Porfírio Pardal Monteiro Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q99245448",
+   "raw": "building in Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "altisbelemhotelandspa",
+  "n": "Altis Belém Hotel & Spa",
+  "a": "",
+  "pc": "",
+  "lat": 38.69382,
+  "lng": -9.21088,
+  "c": "oddity",
+  "s": "hotel in Lisbon, Portugal",
+  "q": "Altis Belém Hotel & Spa Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111408567",
+   "raw": "hotel in Lisbon, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "msaparthotel",
+  "n": "MS Aparthotel",
+  "a": "",
+  "pc": "",
+  "lat": 38.70563,
+  "lng": -9.24387,
+  "c": "oddity",
+  "s": "hotel in Linda-a-Velha, Portugal",
+  "q": "MS Aparthotel Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111408569",
+   "raw": "hotel in Linda-a-Velha, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "amazoniajamorhotel",
+  "n": "Amazonia Jamor Hotel",
+  "a": "",
+  "pc": "",
+  "lat": 38.71451,
+  "lng": -9.25933,
+  "c": "oddity",
+  "s": "hotel in Queijas, Portugal",
+  "q": "Amazonia Jamor Hotel Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111870869",
+   "raw": "hotel in Queijas, Portugal",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "igrejaparoquialdenossase",
+  "n": "Igreja Paroquial de Nossa Senhora do Cabo",
+  "a": "",
+  "pc": "",
+  "lat": 38.71242,
+  "lng": -9.23992,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Igreja Paroquial de Nossa Senhora do Cabo Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q113151259",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "capeladenossasenhoradoca",
+  "n": "Capela de Nossa Senhora do Cabo",
+  "a": "",
+  "pc": "",
+  "lat": 38.71294,
+  "lng": -9.2441,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Capela de Nossa Senhora do Cabo Lisbon",
+  "w": "",
+  "city": "lisbon",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q113152140",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

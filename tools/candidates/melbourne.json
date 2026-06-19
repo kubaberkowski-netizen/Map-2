@@ -1,0 +1,4319 @@
+[
+ {
+  "id": "stjosephs",
+  "n": "St Joseph's",
+  "a": "",
+  "pc": "",
+  "lat": -37.76236,
+  "lng": 144.94394,
+  "c": "faith",
+  "s": "church",
+  "q": "St Joseph's Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/34051871",
+   "raw": {
+    "addr:housenumber": "183",
+    "addr:street": "Hope Street",
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "St Joseph's",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stfidelis",
+  "n": "St Fidelis",
+  "a": "",
+  "pc": "",
+  "lat": -37.74989,
+  "lng": 144.95265,
+  "c": "faith",
+  "s": "church",
+  "q": "St Fidelis Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/81082899",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "xybot",
+    "name": "St Fidelis",
+    "religion": "christian",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintaugustinescatholicc",
+  "n": "Saint Augustine's Catholic Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.81708,
+  "lng": 144.95485,
+  "c": "faith",
+  "s": "church",
+  "q": "Saint Augustine's Catholic Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/145200030",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-02-29",
+    "denomination": "catholic",
+    "name": "Saint Augustine's Catholic Church",
+    "religion": "christian",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "anglicanchurchofaustrali",
+  "n": "Anglican Church of Australia",
+  "a": "",
+  "pc": "",
+  "lat": -37.74683,
+  "lng": 144.94917,
+  "c": "faith",
+  "s": "church",
+  "q": "Anglican Church of Australia Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/196196656",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "anglican",
+    "name": "Anglican Church of Australia",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "timeballtower",
+  "n": "Timeball Tower",
+  "a": "",
+  "pc": "",
+  "lat": -37.86685,
+  "lng": 144.91271,
+  "c": "maritime",
+  "s": "lighthouse",
+  "q": "Timeball Tower Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/244078632",
+   "raw": {
+    "description": "Historic lighthouse built in 1852.",
+    "historic": "yes",
+    "man_made": "lighthouse",
+    "name": "Timeball Tower",
+    "operator": "Williamstown Historical Society"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stjohnchrysostum",
+  "n": "St John Chrysostum",
+  "a": "",
+  "pc": "",
+  "lat": -37.76506,
+  "lng": 144.94394,
+  "c": "faith",
+  "s": "church",
+  "q": "St John Chrysostum Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/244220852",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "anglican",
+    "name": "St John Chrysostum",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chadstonebaptistchurch",
+  "n": "Chadstone Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.87664,
+  "lng": 145.09701,
+  "c": "faith",
+  "s": "church",
+  "q": "Chadstone Baptist Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/251296278",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "name": "Chadstone Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oakleighgreekorthodoxchu",
+  "n": "Oakleigh Greek Orthodox Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.89647,
+  "lng": 145.0837,
+  "c": "faith",
+  "s": "church",
+  "q": "Oakleigh Greek Orthodox Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/257871187",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "xybot",
+    "denomination": "greek_orthodox",
+    "name": "Oakleigh Greek Orthodox Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "australianfreechurch",
+  "n": "Australian Free Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.88884,
+  "lng": 145.08352,
+  "c": "faith",
+  "s": "church",
+  "q": "Australian Free Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/258287830",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2023-10-02",
+    "denomination": "free_presbyterian",
+    "name": "Australian Free Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hughesdaleseventhdayadve",
+  "n": "Hughesdale Seventh-day Adventist Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.89743,
+  "lng": 145.07602,
+  "c": "faith",
+  "s": "church",
+  "q": "Hughesdale Seventh-day Adventist Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/258289227",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "seventh_day_adventist",
+    "name": "Hughesdale Seventh-day Adventist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "holytrinityoakleighangli",
+  "n": "Holy Trinity Oakleigh Anglican Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.89248,
+  "lng": 145.08797,
+  "c": "faith",
+  "s": "church",
+  "q": "Holy Trinity Oakleigh Anglican Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/259129863",
+   "raw": {
+    "addr:housenumber": "812",
+    "addr:street": "Warrigal Road",
+    "amenity": "place_of_worship",
+    "denomination": "anglican",
+    "name": "Holy Trinity Oakleigh Anglican Church",
+    "ref": "http://www.oakchurch.org.au/",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bethelbiblepresbyterianc",
+  "n": "Bethel Bible Presbyterian Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.89998,
+  "lng": 145.09425,
+  "c": "faith",
+  "s": "church",
+  "q": "Bethel Bible Presbyterian Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/271047804",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "presbyterian",
+    "name": "Bethel Bible Presbyterian Church",
+    "religion": "christian",
+    "website": "http://www.bethelbpc.com.au/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hoytsmelbournecentral",
+  "n": "Hoyts Melbourne Central",
+  "a": "",
+  "pc": "",
+  "lat": -37.81007,
+  "lng": 144.9634,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Hoyts Melbourne Central Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/291210034",
+   "raw": {
+    "addr:postcode": "3000",
+    "amenity": "cinema",
+    "brand": "Hoyts",
+    "brand:wikidata": "Q5922976",
+    "brand:wikipedia": "en:Hoyts",
+    "floor": "3",
+    "level": "2",
+    "name": "Hoyts Melbourne Central",
+    "website": "https://www.hoyts.com.au",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "villagecinemas",
+  "n": "Village Cinemas",
+  "a": "",
+  "pc": "",
+  "lat": -37.84295,
+  "lng": 144.99599,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Village Cinemas Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/294964802",
+   "raw": {
+    "amenity": "cinema",
+    "brand": "Village",
+    "brand:wikidata": "Q7930631",
+    "name": "Village Cinemas",
+    "website": "https://www.villagecinemas.com.au/",
+    "wheelchair": "yes",
+    "wikidata": "Q47001168"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemanova",
+  "n": "Cinema Nova",
+  "a": "",
+  "pc": "",
+  "lat": -37.79781,
+  "lng": 144.96801,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinema Nova Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/302129361",
+   "raw": {
+    "addr:housenumber": "380",
+    "addr:postcode": "3053",
+    "addr:state": "VIC",
+    "addr:street": "Lygon Street",
+    "addr:suburb": "Carlton",
+    "air_conditioning": "yes",
+    "amenity": "cinema",
+    "check_date": "2022-10-02",
+    "name": "Cinema Nova",
+    "screen": "16",
+    "start_date": "1992-08-29",
+    "website": "https://www.cinemanova.com.au/",
+    "wheelchair": "yes",
+    "wikidata": "Q47000853"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wearydunlopmemorial",
+  "n": "Weary Dunlop Memorial",
+  "a": "",
+  "pc": "",
+  "lat": -37.8253,
+  "lng": 144.97159,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Weary Dunlop Memorial Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/302539297",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Weary Dunlop Memorial",
+    "subject:wikidata": "Q3048501"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sacredheartcatholicchurc",
+  "n": "Sacred Heart Catholic Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.86344,
+  "lng": 144.98071,
+  "c": "faith",
+  "s": "church",
+  "q": "Sacred Heart Catholic Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/302755132",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10f",
+    "denomination": "catholic",
+    "name": "Sacred Heart Catholic Church",
+    "religion": "christian",
+    "wheelchair": "yes",
+    "wikidata": "Q12067842"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "palacegeorge",
+  "n": "Palace George",
+  "a": "",
+  "pc": "",
+  "lat": -37.85955,
+  "lng": 144.97828,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Palace George Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/302755274",
+   "raw": {
+    "addr:housenumber": "135",
+    "addr:street": "Fitzroy Street",
+    "amenity": "cinema",
+    "name": "Palace George",
+    "phone": "+61 3 9534 6952",
+    "source": "Collected via KeypadMapper",
+    "website": "https://www.palacecinemas.com.au/venue.asp"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ourladyofdolourscatholic",
+  "n": "Our Lady of Dolours Catholic Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.85791,
+  "lng": 144.97047,
+  "c": "faith",
+  "s": "church",
+  "q": "Our Lady of Dolours Catholic Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304150131",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10e",
+    "denomination": "catholic",
+    "name": "Our Lady of Dolours Catholic Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "forwardsurge",
+  "n": "Forward Surge",
+  "a": "",
+  "pc": "",
+  "lat": -37.82059,
+  "lng": 144.96827,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Forward Surge Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304170568",
+   "raw": {
+    "artist_name": "Inge King",
+    "name": "Forward Surge",
+    "tourism": "artwork",
+    "wikidata": "Q27477315"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vaulttheyellowperil",
+  "n": "Vault (The Yellow Peril)",
+  "a": "",
+  "pc": "",
+  "lat": -37.82607,
+  "lng": 144.96774,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Vault (The Yellow Peril) Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304710201",
+   "raw": {
+    "artist_name": "Ron Robertson-Swann",
+    "artwork_type": "sculpture",
+    "name": "Vault (The Yellow Peril)",
+    "tourism": "artwork",
+    "wikidata": "Q2254184",
+    "wikipedia": "en:Vault (sculpture)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sassoonyehudasephardisyn",
+  "n": "Sassoon Yehuda Sephardi Synagogue",
+  "a": "",
+  "pc": "",
+  "lat": -37.86723,
+  "lng": 144.99958,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Sassoon Yehuda Sephardi Synagogue Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304891751",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Sassoon Yehuda Sephardi Synagogue",
+    "religion": "jewish",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stmarysanglicanchurch",
+  "n": "St Mary's Anglican Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.87827,
+  "lng": 145.01272,
+  "c": "faith",
+  "s": "church",
+  "q": "St Mary's Anglican Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/305874032",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10e",
+    "denomination": "anglican",
+    "name": "St Mary's Anglican Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "historicalmarker",
+  "n": "Historical Marker",
+  "a": "",
+  "pc": "",
+  "lat": -37.79733,
+  "lng": 145.0035,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Historical Marker Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/305911658",
+   "raw": {
+    "historic": "memorial",
+    "name": "Historical Marker"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "leobaeckcentreforprogres",
+  "n": "Leo Baeck Centre for Progressive Judaism",
+  "a": "",
+  "pc": "",
+  "lat": -37.79946,
+  "lng": 145.05345,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Leo Baeck Centre for Progressive Judaism Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/310001193",
+   "raw": {
+    "addr:housenumber": "31-37",
+    "addr:postcode": "3102",
+    "addr:street": "Harp Road",
+    "amenity": "place_of_worship",
+    "check_date": "2026-05-28",
+    "name": "Leo Baeck Centre for Progressive Judaism",
+    "religion": "jewish"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "basilicaofourladyofvicto",
+  "n": "Basilica of Our Lady of Victories",
+  "a": "",
+  "pc": "",
+  "lat": -37.83378,
+  "lng": 145.05658,
+  "c": "faith",
+  "s": "church",
+  "q": "Basilica of Our Lady of Victories Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/312678800",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10f",
+    "denomination": "catholic",
+    "name": "Basilica of Our Lady of Victories",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ewingmemorialunitingchur",
+  "n": "Ewing Memorial Uniting Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.87219,
+  "lng": 145.04866,
+  "c": "faith",
+  "s": "church",
+  "q": "Ewing Memorial Uniting Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/315181593",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "uniting",
+    "name": "Ewing Memorial Uniting Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "seventhdayadventistchurc",
+  "n": "Seventh Day Adventist Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.85293,
+  "lng": 145.00891,
+  "c": "faith",
+  "s": "church",
+  "q": "Seventh Day Adventist Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/316374525",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "seventh_day_adventist",
+    "name": "Seventh Day Adventist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stalbansanglicanchurch",
+  "n": "St Alban's Anglican Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.8527,
+  "lng": 145.0115,
+  "c": "faith",
+  "s": "church",
+  "q": "St Alban's Anglican Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/316374542",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "anglican",
+    "name": "St Alban's Anglican Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "greekorthodoxchurchofstg",
+  "n": "Greek Orthodox Church of St. George",
+  "a": "",
+  "pc": "",
+  "lat": -37.76117,
+  "lng": 145.00163,
+  "c": "faith",
+  "s": "church",
+  "q": "Greek Orthodox Church of St. George Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/328431290",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10f",
+    "denomination": "orthodox",
+    "name": "Greek Orthodox Church of St. George",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ststephensanglicanchurch",
+  "n": "St Stephen's Anglican Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.89857,
+  "lng": 144.99949,
+  "c": "faith",
+  "s": "church",
+  "q": "St Stephen's Anglican Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/339054774",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "anglican",
+    "name": "St Stephen's Anglican Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stjamesanglicanchurch",
+  "n": "St. James' Anglican Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.76635,
+  "lng": 145.04595,
+  "c": "faith",
+  "s": "church",
+  "q": "St. James' Anglican Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/345143402",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2023-12-11",
+    "created_by": "Potlatch 0.10f",
+    "denomination": "anglican",
+    "name": "St. James' Anglican Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ivanhoeunitingchurch",
+  "n": "Ivanhoe Uniting Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.76889,
+  "lng": 145.0432,
+  "c": "faith",
+  "s": "church",
+  "q": "Ivanhoe Uniting Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/345145310",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2023-09-18",
+    "denomination": "united_reformed",
+    "name": "Ivanhoe Uniting Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "staidansunitingchurch",
+  "n": "St Aidan's Uniting Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.7961,
+  "lng": 145.09054,
+  "c": "faith",
+  "s": "church",
+  "q": "St Aidan's Uniting Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/347424259",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10f",
+    "denomination": "united_reformed",
+    "name": "St Aidan's Uniting Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bediuzzamansaidnursicult",
+  "n": "Bediuzzaman Said Nursi Cultural Foundation",
+  "a": "",
+  "pc": "",
+  "lat": -37.80438,
+  "lng": 144.97646,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Bediuzzaman Said Nursi Cultural Foundation Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368392243",
+   "raw": {
+    "addr:housenumber": "144",
+    "addr:street": "Fitzroy Street",
+    "amenity": "place_of_worship",
+    "name": "Bediuzzaman Said Nursi Cultural Foundation",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "imaxmelbourne",
+  "n": "IMAX Melbourne",
+  "a": "",
+  "pc": "",
+  "lat": -37.80351,
+  "lng": 144.97064,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "IMAX Melbourne Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368393200",
+   "raw": {
+    "addr:postcode": "3053",
+    "addr:state": "VIC",
+    "addr:street": "Rathdowne Street",
+    "addr:suburb": "Carlton",
+    "amenity": "cinema",
+    "check_date": "2022-10-02",
+    "name": "IMAX Melbourne",
+    "operator": "Melbourne museum",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+61 3 9663 5454",
+    "screen": "1",
+    "website": "https://imaxmelbourne.com.au/",
+    "wikidata": "Q47000854",
+    "wikipedia": "en:IMAX Melbourne"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "coburgbaptistchurch",
+  "n": "Coburg Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.74699,
+  "lng": 144.96593,
+  "c": "faith",
+  "s": "church",
+  "q": "Coburg Baptist Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/375734448",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "name": "Coburg Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thedormitionofourladygre",
+  "n": "The Dormition of Our Lady Greek Orthodox Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.83717,
+  "lng": 144.85513,
+  "c": "faith",
+  "s": "church",
+  "q": "The Dormition of Our Lady Greek Orthodox Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/377884427",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "orthodox",
+    "name": "The Dormition of Our Lady Greek Orthodox Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "steustathioschurch",
+  "n": "St. Eustathios Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.83303,
+  "lng": 144.96138,
+  "c": "faith",
+  "s": "church",
+  "q": "St. Eustathios Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/380063234",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "orthodox",
+    "name": "St. Eustathios Church",
+    "religion": "christian",
+    "website": "https://www.greekorthodox.org.au/general/aboutus/parishdirectory?parish_id=41"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "villagerivoli",
+  "n": "Village Rivoli",
+  "a": "",
+  "pc": "",
+  "lat": -37.83062,
+  "lng": 145.05545,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Village Rivoli Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/396987047",
+   "raw": {
+    "addr:housenumber": "200",
+    "addr:postcode": "3123",
+    "addr:state": "VIC",
+    "addr:street": "Camberwell Road",
+    "addr:suburb": "Hawthorn East",
+    "air_conditioning": "yes",
+    "amenity": "cinema",
+    "brand": "Village",
+    "brand:wikidata": "Q7930631",
+    "brand:wikipedia": "en:Village Cinemas",
+    "name": "Village Rivoli",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:notes": "yes",
+    "payment:visa": "yes",
+    "website": "https://villagecinemas.com.au/cinemas/rivoli",
+    "wikidata": "Q16864824",
+    "wikipedia": "en:Rivoli Cinemas"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "burwoodunitingchurch",
+  "n": "Burwood Uniting Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.85096,
+  "lng": 145.09521,
+  "c": "faith",
+  "s": "church",
+  "q": "Burwood Uniting Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/397154132",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "united_reformed",
+    "name": "Burwood Uniting Church",
+    "religion": "christian",
+    "website": "www.burwood.unitingchurch.org.au"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stbenedicts",
+  "n": "St. Benedict's",
+  "a": "",
+  "pc": "",
+  "lat": -37.84853,
+  "lng": 145.09622,
+  "c": "faith",
+  "s": "church",
+  "q": "St. Benedict's Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/440555705",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "St. Benedict's",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hoytsvictoriagardens",
+  "n": "Hoyts Victoria Gardens",
+  "a": "",
+  "pc": "",
+  "lat": -37.81354,
+  "lng": 145.01157,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Hoyts Victoria Gardens Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/446516607",
+   "raw": {
+    "amenity": "cinema",
+    "brand": "Hoyts",
+    "brand:wikidata": "Q5922976",
+    "brand:wikipedia": "en:Hoyts",
+    "layer": "2",
+    "name": "Hoyts Victoria Gardens",
+    "website": "https://www.hoyts.com.au/cinemas/locations/victoria_gardens.aspx",
+    "wikidata": "Q47001109"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stclementsanglicanchurch",
+  "n": "St Clement's Anglican Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.88348,
+  "lng": 144.99753,
+  "c": "faith",
+  "s": "church",
+  "q": "St Clement's Anglican Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/448825446",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "anglican",
+    "name": "St Clement's Anglican Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stmatthews",
+  "n": "St Matthew's",
+  "a": "",
+  "pc": "",
+  "lat": -37.86521,
+  "lng": 145.09263,
+  "c": "faith",
+  "s": "church",
+  "q": "St Matthew's Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/472598810",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "anglican",
+    "name": "St Matthew's",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "christchurchkensington",
+  "n": "Christ Church Kensington",
+  "a": "",
+  "pc": "",
+  "lat": -37.79321,
+  "lng": 144.92751,
+  "c": "faith",
+  "s": "church",
+  "q": "Christ Church Kensington Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/493881504",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "uniting",
+    "name": "Christ Church Kensington",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "villagecinemascrown",
+  "n": "Village Cinemas Crown",
+  "a": "",
+  "pc": "",
+  "lat": -37.82427,
+  "lng": 144.95775,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Village Cinemas Crown Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/496943527",
+   "raw": {
+    "addr:housenumber": "8",
+    "addr:postcode": "3006",
+    "addr:street": "Whiteman Street",
+    "addr:suburb": "Southbank",
+    "addr:unit": "Shop 50",
+    "amenity": "cinema",
+    "brand": "Village",
+    "brand:wikidata": "Q7930631",
+    "name": "Village Cinemas Crown",
+    "toilets:wheelchair": "yes",
+    "website": "https://villagecinemas.com.au/cinemas/crown",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "galateapointlookout",
+  "n": "Galatea Point Lookout",
+  "a": "",
+  "pc": "",
+  "lat": -37.79653,
+  "lng": 145.01005,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Galatea Point Lookout Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/501544041",
+   "raw": {
+    "name": "Galatea Point Lookout",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "allsaintsanglicanchurch",
+  "n": "All Saints' Anglican Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.85864,
+  "lng": 144.99278,
+  "c": "faith",
+  "s": "church",
+  "q": "All Saints' Anglican Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/503787427",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "anglican",
+    "name": "All Saints' Anglican Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "greekorthodoxchurchofsts",
+  "n": "Greek Orthodox Church of Sts Constantine and Helen",
+  "a": "",
+  "pc": "",
+  "lat": -37.84492,
+  "lng": 144.99336,
+  "c": "faith",
+  "s": "church",
+  "q": "Greek Orthodox Church of Sts Constantine and Helen Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/517109171",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "greek_orthodox",
+    "name": "Greek Orthodox Church of Sts Constantine and Helen",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "palacecinemas",
+  "n": "Palace Cinemas",
+  "a": "",
+  "pc": "",
+  "lat": -37.83926,
+  "lng": 144.99702,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Palace Cinemas Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/518260719",
+   "raw": {
+    "amenity": "cinema",
+    "brand": "Palace Cinemas",
+    "brand:wikidata": "Q7126164",
+    "brand:wikipedia": "en:Palace Cinemas (Australia)",
+    "name": "Palace Cinemas",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "richmondunitingchurch",
+  "n": "Richmond Uniting Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.82059,
+  "lng": 144.99853,
+  "c": "faith",
+  "s": "church",
+  "q": "Richmond Uniting Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/534016280",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "uniting",
+    "name": "Richmond Uniting Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "toorakunitingchurch",
+  "n": "Toorak Uniting Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.84209,
+  "lng": 145.01968,
+  "c": "faith",
+  "s": "church",
+  "q": "Toorak Uniting Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/541331282",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "uniting",
+    "name": "Toorak Uniting Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stjohnsanglicanchurch",
+  "n": "St John's Anglican Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.84206,
+  "lng": 145.01476,
+  "c": "faith",
+  "s": "church",
+  "q": "St John's Anglican Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/541331287",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "anglican",
+    "name": "St John's Anglican Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "southafricanwarmemorial",
+  "n": "South African War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": -37.8338,
+  "lng": 144.97208,
+  "c": "history",
+  "s": "war memorial",
+  "q": "South African War Memorial Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/555742276",
+   "raw": {
+    "historic": "monument",
+    "name": "South African War Memorial",
+    "removed:historic": "memorial",
+    "removed:memorial": "war_memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hmascastlemaine",
+  "n": "HMAS Castlemaine",
+  "a": "",
+  "pc": "",
+  "lat": -37.86103,
+  "lng": 144.90568,
+  "c": "museum",
+  "s": "museum",
+  "q": "HMAS Castlemaine Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/566701872",
+   "raw": {
+    "fee": "yes",
+    "name": "HMAS Castlemaine",
+    "tourism": "museum",
+    "website": "https://www.hmascastlemaine.org.au/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fairchildfountain",
+  "n": "Fairchild Fountain",
+  "a": "",
+  "pc": "",
+  "lat": -37.86646,
+  "lng": 144.9751,
+  "c": "history",
+  "s": "memorial fountain",
+  "q": "Fairchild Fountain Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/570748041",
+   "raw": {
+    "amenity": "drinking_water",
+    "historic": "memorial",
+    "memorial": "fountain",
+    "name": "Fairchild Fountain"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stkildacenotaph",
+  "n": "St Kilda Cenotaph",
+  "a": "",
+  "pc": "",
+  "lat": -37.86277,
+  "lng": 144.97209,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "St Kilda Cenotaph Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/570748969",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "The Great War 1914 - 18: St Kilda remembers",
+    "memorial": "war_memorial",
+    "name": "St Kilda Cenotaph",
+    "source:name": "services.land.vic.gov.au"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stkildasouthportunitingc",
+  "n": "St Kilda South Port Uniting Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.86869,
+  "lng": 144.98986,
+  "c": "faith",
+  "s": "church",
+  "q": "St Kilda South Port Uniting Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/570756139",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "uniting",
+    "name": "St Kilda South Port Uniting Church",
+    "religion": "christian",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pointormondlookout",
+  "n": "Point Ormond Lookout",
+  "a": "",
+  "pc": "",
+  "lat": -37.88194,
+  "lng": 144.97621,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Point Ormond Lookout Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/571316287",
+   "raw": {
+    "man_made": "survey_point",
+    "name": "Point Ormond Lookout",
+    "source": "nearmap",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "unitingchurch",
+  "n": "Uniting Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.8455,
+  "lng": 144.99956,
+  "c": "faith",
+  "s": "church",
+  "q": "Uniting Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/571322280",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "uniting",
+    "name": "Uniting Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cataniclocktower",
+  "n": "Catani Clocktower",
+  "a": "",
+  "pc": "",
+  "lat": -37.86505,
+  "lng": 144.97295,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Catani Clocktower Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/571327181",
+   "raw": {
+    "historic": "memorial",
+    "name": "Catani Clocktower",
+    "source:name": "services.land.vic.gov.au",
+    "subject:wikidata": "Q5041480"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "holytrinityanglicanchurc",
+  "n": "Holy Trinity Anglican Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.87076,
+  "lng": 144.9895,
+  "c": "faith",
+  "s": "church",
+  "q": "Holy Trinity Anglican Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/571395166",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "anglican",
+    "name": "Holy Trinity Anglican Church",
+    "religion": "christian",
+    "website": "https://holytrinitybalaclavaandelwood.com"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alfredthomasclarkstatue",
+  "n": "Alfred Thomas Clark Statue",
+  "a": "",
+  "pc": "",
+  "lat": -37.86765,
+  "lng": 144.89678,
+  "c": "history",
+  "s": "commemorative statue",
+  "q": "Alfred Thomas Clark Statue Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/571827237",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "The Honourable Alfred Thomas Clark MLA \n\nRepresentative for Williamstown in the Legislative Assembly of Victoria from 16th March 1871 to 11th October 1887\n\nErected by his constituents\n\n18th July 1891.",
+    "memorial": "statue",
+    "name": "Alfred Thomas Clark Statue",
+    "start_date": "1891"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofstdemetrios",
+  "n": "Church of St Demetrios",
+  "a": "",
+  "pc": "",
+  "lat": -37.85307,
+  "lng": 145.00044,
+  "c": "faith",
+  "s": "church",
+  "q": "Church of St Demetrios Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/575455088",
+   "raw": {
+    "addr:housenumber": "380",
+    "addr:street": "High Street",
+    "amenity": "place_of_worship",
+    "denomination": "orthodox",
+    "name": "Church of St Demetrios",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stmatthewsanglicanchurch",
+  "n": "St Matthews Anglican Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.85155,
+  "lng": 144.99273,
+  "c": "faith",
+  "s": "church",
+  "q": "St Matthews Anglican Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/576843551",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "anglican",
+    "name": "St Matthews Anglican Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "queenvictoriamemorial",
+  "n": "Queen Victoria Memorial",
+  "a": "",
+  "pc": "",
+  "lat": -37.82183,
+  "lng": 144.97248,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Queen Victoria Memorial Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/579416347",
+   "raw": {
+    "check_date": "2024-09-06",
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "statue",
+    "name": "Queen Victoria Memorial",
+    "subject:wikidata": "Q56206369"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "majorgeneralcharlesgeorg",
+  "n": "Major General Charles George Gordon",
+  "a": "",
+  "pc": "",
+  "lat": -37.81236,
+  "lng": 144.97375,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Major General Charles George Gordon Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/589399515",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Major General Charles George Gordon",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chinatowncinema",
+  "n": "Chinatown Cinema",
+  "a": "",
+  "pc": "",
+  "lat": -37.81234,
+  "lng": 144.96726,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Chinatown Cinema Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/594819685",
+   "raw": {
+    "addr:housenumber": "200",
+    "addr:postcode": "3000",
+    "addr:street": "Bourke Street",
+    "addr:suburb": "Melbourne",
+    "air_conditioning": "yes",
+    "amenity": "cinema",
+    "level": "1",
+    "name": "Chinatown Cinema",
+    "screen": "1",
+    "website": "https://www.heroic-cinema.com/chinatown/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fireservicesmuseum",
+  "n": "Fire Services Museum",
+  "a": "",
+  "pc": "",
+  "lat": -37.8086,
+  "lng": 144.97545,
+  "c": "museum",
+  "s": "museum",
+  "q": "Fire Services Museum Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/595504813",
+   "raw": {
+    "addr:housenumber": "39",
+    "addr:street": "Gisborne Street",
+    "check_date:opening_hours": "2024-10-21",
+    "fee": "yes",
+    "name": "Fire Services Museum",
+    "opening_hours": "Th-Fr 09:00-15:00; Su 10:00-16:00",
+    "phone": "+61 3 9662 2907",
+    "start_date": "1979-09",
+    "tourism": "museum",
+    "website": "https://www.fsmv.net.au/",
+    "wheelchair": "yes",
+    "wikidata": "Q5330187"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thornburychurchofchrist",
+  "n": "Thornbury Church of Christ",
+  "a": "",
+  "pc": "",
+  "lat": -37.75693,
+  "lng": 144.99427,
+  "c": "faith",
+  "s": "church",
+  "q": "Thornbury Church of Christ Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/607445300",
+   "raw": {
+    "addr:housenumber": "398",
+    "addr:postcode": "3071",
+    "addr:street": "St Georges Road",
+    "addr:suburb": "Thornbury",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "united_reformed",
+    "name": "Thornbury Church of Christ",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "elwoodshule",
+  "n": "Elwood Shule",
+  "a": "",
+  "pc": "",
+  "lat": -37.87344,
+  "lng": 144.98235,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Elwood Shule Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/608704460",
+   "raw": {
+    "addr:housenumber": "39",
+    "addr:postcode": "3184",
+    "addr:street": "Dickens Street",
+    "addr:suburb": "Elwood",
+    "amenity": "place_of_worship",
+    "name": "Elwood Shule",
+    "religion": "jewish",
+    "wikidata": "Q5368351"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "anzbankingmuseum",
+  "n": "ANZ Banking Museum",
+  "a": "",
+  "pc": "",
+  "lat": -37.81663,
+  "lng": 144.96187,
+  "c": "museum",
+  "s": "museum",
+  "q": "ANZ Banking Museum Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/611984584",
+   "raw": {
+    "addr:housenumber": "380",
+    "addr:postcode": "3000",
+    "addr:street": "Collins Street",
+    "addr:suburb": "Melbourne",
+    "email": "museum@anz.com",
+    "fee": "no",
+    "museum": "local_history",
+    "name": "ANZ Banking Museum",
+    "opening_hours": "Mo-Fr 09:30-16:00",
+    "operator": "ANZ",
+    "tourism": "museum",
+    "website": "https://www.anz.com/shareholder/centre/about/history/banking-museum/",
+    "wheelchair": "no",
+    "wikidata": "Q53695886"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "athenatemple",
+  "n": "Athena Temple",
+  "a": "",
+  "pc": "",
+  "lat": -37.81322,
+  "lng": 144.98132,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Athena Temple Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/614574534",
+   "raw": {
+    "historic": "monument",
+    "name": "Athena Temple"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sun",
+  "n": "Sun",
+  "a": "",
+  "pc": "",
+  "lat": -37.8722,
+  "lng": 144.9759,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Sun Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/615057953",
+   "raw": {
+    "description": "Melbourne Solar System Sculpture 1:1,000,000,000",
+    "material": "bronze",
+    "name": "Sun",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jupiter",
+  "n": "Jupiter",
+  "a": "",
+  "pc": "",
+  "lat": -37.86645,
+  "lng": 144.97295,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Jupiter Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/615058993",
+   "raw": {
+    "material": "bronze",
+    "name": "Jupiter",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saturn",
+  "n": "Saturn",
+  "a": "",
+  "pc": "",
+  "lat": -37.85967,
+  "lng": 144.96945,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Saturn Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/615072483",
+   "raw": {
+    "material": "bronze",
+    "name": "Saturn",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mars",
+  "n": "Mars",
+  "a": "",
+  "pc": "",
+  "lat": -37.87018,
+  "lng": 144.97589,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Mars Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/616022420",
+   "raw": {
+    "material": "bronze",
+    "name": "Mars",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "captaincookmemorial",
+  "n": "Captain Cook Memorial",
+  "a": "",
+  "pc": "",
+  "lat": -37.86397,
+  "lng": 144.97155,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Captain Cook Memorial Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/627213895",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Captain Cook. HMS Endeavour",
+    "memorial": "statue",
+    "name": "Captain Cook Memorial",
+    "source:name": "services.land.vic.gov.au",
+    "subject:wikidata": "Q7324"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stbrigidschurch",
+  "n": "St Brigid's Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.79224,
+  "lng": 144.97645,
+  "c": "faith",
+  "s": "church",
+  "q": "St Brigid's Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/632349501",
+   "raw": {
+    "addr:housenumber": "378",
+    "addr:street": "Nicholson Street",
+    "addr:suburb": "Fitzroy North",
+    "amenity": "place_of_worship",
+    "check_date": "2024-10-06",
+    "denomination": "catholic",
+    "name": "St Brigid's Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "johnfkennedymemorial",
+  "n": "John F. Kennedy Memorial",
+  "a": "",
+  "pc": "",
+  "lat": -37.81367,
+  "lng": 144.97637,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "John F. Kennedy Memorial Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/660544918",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "John F. Kennedy Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "holyvirginsprotection",
+  "n": "Holy Virgin's Protection",
+  "a": "",
+  "pc": "",
+  "lat": -37.84405,
+  "lng": 144.98913,
+  "c": "faith",
+  "s": "church",
+  "q": "Holy Virgin's Protection Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/660911846",
+   "raw": {
+    "addr:housenumber": "41",
+    "addr:street": "Moore Street",
+    "amenity": "place_of_worship",
+    "denomination": "russian_orthodox",
+    "name": "Holy Virgin's Protection",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stbernadettechurch",
+  "n": "St Bernadette Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.76251,
+  "lng": 145.035,
+  "c": "faith",
+  "s": "church",
+  "q": "St Bernadette Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/718622840",
+   "raw": {
+    "addr:housenumber": "89",
+    "addr:street": "Bond Street",
+    "addr:suburb": "Ivanhoe",
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "St Bernadette Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "classiccinemaelsternwick",
+  "n": "Classic Cinema Elsternwick",
+  "a": "",
+  "pc": "",
+  "lat": -37.88383,
+  "lng": 145.00066,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Classic Cinema Elsternwick Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/726076025",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Classic Cinema Elsternwick"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "centrefortheologyandmini",
+  "n": "Centre for Theology and Ministry",
+  "a": "",
+  "pc": "",
+  "lat": -37.79261,
+  "lng": 144.96165,
+  "c": "faith",
+  "s": "church",
+  "q": "Centre for Theology and Ministry Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/763661371",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "uniting",
+    "name": "Centre for Theology and Ministry",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chinesechurchofchrist",
+  "n": "Chinese Church of Christ",
+  "a": "",
+  "pc": "",
+  "lat": -37.80452,
+  "lng": 144.96395,
+  "c": "faith",
+  "s": "church",
+  "q": "Chinese Church of Christ Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1017442397",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Chinese Church of Christ",
+    "phone": "+61 3 9893 2807",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "disharmony",
+  "n": "Disharmony",
+  "a": "",
+  "pc": "",
+  "lat": -37.82396,
+  "lng": 144.96992,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Disharmony Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1040561859",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Disharmony",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "holyrosary",
+  "n": "Holy Rosary",
+  "a": "",
+  "pc": "",
+  "lat": -37.7949,
+  "lng": 144.92849,
+  "c": "faith",
+  "s": "church",
+  "q": "Holy Rosary Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1072328486",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-11-17",
+    "denomination": "catholic",
+    "name": "Holy Rosary",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "burkeandwillshistoricalm",
+  "n": "Burke and Wills Historical Memorial",
+  "a": "",
+  "pc": "",
+  "lat": -37.76175,
+  "lng": 144.92228,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Burke and Wills Historical Memorial Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1081128686",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Burke and Wills Historical Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spiritoftheland",
+  "n": "Spirit of the Land",
+  "a": "",
+  "pc": "",
+  "lat": -37.89648,
+  "lng": 145.09928,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Spirit of the Land Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1193041230",
+   "raw": {
+    "artist_name": "Maree Clark, Megan Cadd, Vicki Couzens",
+    "artwork_type": "sculpture",
+    "name": "Spirit of the Land",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rollingpath",
+  "n": "Rolling Path",
+  "a": "",
+  "pc": "",
+  "lat": -37.76181,
+  "lng": 144.98245,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Rolling Path Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1262984935",
+   "raw": {
+    "artist_name": "Simon Perry",
+    "artwork_type": "sculpture",
+    "name": "Rolling Path",
+    "start_date": "1999",
+    "tourism": "artwork",
+    "website": "https://www.moreland.vic.gov.au/arts-and-festivals/public-art/morelands-public-art-collection/public-art-brunswick-east.html"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blowhole",
+  "n": "Blowhole",
+  "a": "",
+  "pc": "",
+  "lat": -37.82187,
+  "lng": 144.947,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Blowhole Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1271094090",
+   "raw": {
+    "artist_name": "Duncan Stemler",
+    "artwork_type": "sculpture",
+    "name": "Blowhole",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "counihangallery",
+  "n": "Counihan Gallery",
+  "a": "",
+  "pc": "",
+  "lat": -37.77212,
+  "lng": 144.96104,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Counihan Gallery Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1279107005",
+   "raw": {
+    "addr:housenumber": "233",
+    "addr:street": "Sydney Road",
+    "name": "Counihan Gallery",
+    "opening_hours": "We-Sa 11:00-17:00; Su 13:00-17:00; Mo-Tu,PH off",
+    "phone": "+61 3 9389 8622",
+    "tourism": "gallery",
+    "website": "https://www.merri-bek.vic.gov.au/exploring-merri-bek/arts-merri-bek/counihan-gallery/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "skink",
+  "n": "Skink",
+  "a": "",
+  "pc": "",
+  "lat": -37.76636,
+  "lng": 144.98348,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Skink Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1287464653",
+   "raw": {
+    "artist_name": "Juan Sanz",
+    "artwork_type": "sculpture",
+    "name": "Skink",
+    "start_date": "1999",
+    "tourism": "artwork",
+    "website": "https://www.moreland.vic.gov.au/arts-and-festivals/public-art/morelands-public-art-collection/public-art-brunswick-east.html"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stgeorgegreekorthodoxchu",
+  "n": "St George Greek Orthodox Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.76158,
+  "lng": 145.00609,
+  "c": "faith",
+  "s": "church",
+  "q": "St George Greek Orthodox Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1374428936",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "greek_orthodox",
+    "name": "St George Greek Orthodox Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "acrux",
+  "n": "Acrux",
+  "a": "",
+  "pc": "",
+  "lat": -37.78426,
+  "lng": 144.95871,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Acrux Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1420663373",
+   "raw": {
+    "artist_name": "Lenton Parr",
+    "artwork_type": "sculpture",
+    "name": "Acrux",
+    "source": "survey",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "yarraplentychurch",
+  "n": "Yarra Plenty Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.74923,
+  "lng": 145.0423,
+  "c": "faith",
+  "s": "church",
+  "q": "Yarra Plenty Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1432376907",
+   "raw": {
+    "addr:housenumber": "15",
+    "addr:postcode": "3081",
+    "addr:street": "The Mall",
+    "amenity": "place_of_worship",
+    "name": "Yarra Plenty Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "westgarthbaptistchurch",
+  "n": "Westgarth Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.78002,
+  "lng": 145.00636,
+  "c": "faith",
+  "s": "church",
+  "q": "Westgarth Baptist Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1434206940",
+   "raw": {
+    "addr:housenumber": "29",
+    "addr:postcode": "3070",
+    "addr:street": "Simpson Street",
+    "addr:suburb": "Northcote",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "baptist",
+    "name": "Westgarth Baptist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "northcotecannons",
+  "n": "Northcote Cannons",
+  "a": "",
+  "pc": "",
+  "lat": -37.78302,
+  "lng": 144.99614,
+  "c": "history",
+  "s": "old cannon",
+  "q": "Northcote Cannons Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1435070800",
+   "raw": {
+    "historic": "cannon",
+    "name": "Northcote Cannons",
+    "website": "https://heritage.darebinlibraries.vic.gov.au/article/381"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "holytrinitychurch",
+  "n": "Holy Trinity Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.80522,
+  "lng": 145.03402,
+  "c": "faith",
+  "s": "church",
+  "q": "Holy Trinity Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1479928962",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "anglican",
+    "name": "Holy Trinity Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "walsheppard",
+  "n": "Wal Sheppard",
+  "a": "",
+  "pc": "",
+  "lat": -37.7532,
+  "lng": 145.09388,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Wal Sheppard Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1496839755",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Wal Sheppard 5.6.(19)22 - 12.4.(19)86 In memory of our past president and respected member who gained great pleasure runing in this park. The Richmond Harriers",
+    "name": "Wal Sheppard",
+    "source": "gps"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "warmemorial",
+  "n": "War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": -37.82016,
+  "lng": 145.01947,
+  "c": "history",
+  "s": "war memorial",
+  "q": "War Memorial Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1650033609",
+   "raw": {
+    "access": "yes",
+    "historic": "monument",
+    "material": "stone",
+    "name": "War Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stpiusxcatholicchurch",
+  "n": "St Pius X Catholic Church",
+  "a": "",
+  "pc": "",
+  "lat": -37.74668,
+  "lng": 145.04676,
+  "c": "faith",
+  "s": "church",
+  "q": "St Pius X Catholic Church Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1693963249",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "St Pius X Catholic Church",
+    "ref:dove": "10825",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamstown",
+  "n": "Williamstown",
+  "a": "",
+  "pc": "",
+  "lat": -37.861,
+  "lng": 144.885,
+  "c": "oddity",
+  "s": "suburb of Melbourne, Victoria, Australia",
+  "q": "Williamstown Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1012058",
+   "raw": "suburb of Melbourne, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hobsonsbay",
+  "n": "Hobsons Bay",
+  "a": "",
+  "pc": "",
+  "lat": -37.85238,
+  "lng": 144.92295,
+  "c": "oddity",
+  "s": "bay in Victoria, Australia",
+  "q": "Hobsons Bay Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1621616",
+   "raw": "bay in Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "707operations",
+  "n": "707 Operations",
+  "a": "",
+  "pc": "",
+  "lat": -37.85006,
+  "lng": 144.87981,
+  "c": "oddity",
+  "s": "australian railway preservation group",
+  "q": "707 Operations Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4642998",
+   "raw": "Australian railway preservation group",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "altonacoastalpark",
+  "n": "Altona Coastal Park",
+  "a": "",
+  "pc": "",
+  "lat": -37.8615,
+  "lng": 144.856,
+  "c": "green",
+  "s": "nature reserve in Melbourne, Victoria, Australia",
+  "q": "Altona Coastal Park Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4736934",
+   "raw": "nature reserve in Melbourne, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "australianrailwayhistori",
+  "n": "Australian Railway Historical Society",
+  "a": "",
+  "pc": "",
+  "lat": -37.85427,
+  "lng": 144.88142,
+  "c": "oddity",
+  "s": "society preserving Australian railway operations",
+  "q": "Australian Railway Historical Society Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4824598",
+   "raw": "Society preserving Australian railway operations",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "baysidep12college",
+  "n": "Bayside P-12 College",
+  "a": "",
+  "pc": "",
+  "lat": -37.8436,
+  "lng": 144.863,
+  "c": "oddity",
+  "s": "public, co-educational P-12 school in Melbourne, Australia",
+  "q": "Bayside P-12 College Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4874830",
+   "raw": "Public, co-educational P-12 school in Melbourne, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "burbankoval",
+  "n": "Burbank Oval",
+  "a": "",
+  "pc": "",
+  "lat": -37.8711,
+  "lng": 144.903,
+  "c": "oddity",
+  "s": "cricket stadium in Williamstown, Victoria",
+  "q": "Burbank Oval Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4998160",
+   "raw": "cricket stadium in Williamstown, Victoria",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cityofwilliamstown",
+  "n": "City of Williamstown",
+  "a": "",
+  "pc": "",
+  "lat": -37.862,
+  "lng": 144.889,
+  "c": "oddity",
+  "s": "former local government area in Victoria, Australia",
+  "q": "City of Williamstown Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5123987",
+   "raw": "former local government area in Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kororoitcreek",
+  "n": "Kororoit Creek",
+  "a": "",
+  "pc": "",
+  "lat": -37.86667,
+  "lng": 144.86667,
+  "c": "oddity",
+  "s": "river in Victoria, Australia",
+  "q": "Kororoit Creek Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6432563",
+   "raw": "river in Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mobiltownrailwaystation",
+  "n": "Mobiltown railway station",
+  "a": "",
+  "pc": "",
+  "lat": -37.85139,
+  "lng": 144.85306,
+  "c": "oddity",
+  "s": "railway station in Victoria, Australia",
+  "q": "Mobiltown railway station Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6887326",
+   "raw": "railway station in Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "paisleyparksoccercomplex",
+  "n": "Paisley Park Soccer Complex",
+  "a": "",
+  "pc": "",
+  "lat": -37.84667,
+  "lng": 144.85694,
+  "c": "green",
+  "s": "soccer venue in Altona North, Victoria",
+  "q": "Paisley Park Soccer Complex Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7125192",
+   "raw": "soccer venue in Altona North, Victoria",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spotswood",
+  "n": "Spotswood",
+  "a": "",
+  "pc": "",
+  "lat": -37.8306,
+  "lng": 144.8858,
+  "c": "oddity",
+  "s": "railway station in Spotswood, Melbourne, Victoria, Australia",
+  "q": "Spotswood Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7580095",
+   "raw": "railway station in Spotswood, Melbourne, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamstownbeach",
+  "n": "Williamstown Beach",
+  "a": "",
+  "pc": "",
+  "lat": -37.8641,
+  "lng": 144.8944,
+  "c": "oddity",
+  "s": "railway station in Williamstown, Melbourne, Victoria, Austra",
+  "q": "Williamstown Beach Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8021294",
+   "raw": "railway station in Williamstown, Melbourne, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamstowndockyard",
+  "n": "Williamstown Dockyard",
+  "a": "",
+  "pc": "",
+  "lat": -37.8639,
+  "lng": 144.911,
+  "c": "oddity",
+  "s": "shipyard in Victoria, Australia",
+  "q": "Williamstown Dockyard Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8021298",
+   "raw": "shipyard in Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamstownhighschool",
+  "n": "Williamstown High School",
+  "a": "",
+  "pc": "",
+  "lat": -37.8622,
+  "lng": 144.895,
+  "c": "oddity",
+  "s": "public school in Williamstown, Victoria, Australia",
+  "q": "Williamstown High School Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8021302",
+   "raw": "public school in Williamstown, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamstownlighthouse",
+  "n": "Williamstown Lighthouse",
+  "a": "",
+  "pc": "",
+  "lat": -37.8683,
+  "lng": 144.912,
+  "c": "maritime",
+  "s": "lighthouse in Victoria, Australia",
+  "q": "Williamstown Lighthouse Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8021303",
+   "raw": "lighthouse in Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamstownnorth",
+  "n": "Williamstown North",
+  "a": "",
+  "pc": "",
+  "lat": -37.85515,
+  "lng": 144.88259,
+  "c": "oddity",
+  "s": "suburb of Melbourne, Victoria, Australia",
+  "q": "Williamstown North Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8021306",
+   "raw": "suburb of Melbourne, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamstownpierrailways",
+  "n": "Williamstown Pier railway station",
+  "a": "",
+  "pc": "",
+  "lat": -37.86583,
+  "lng": 144.91056,
+  "c": "oddity",
+  "s": "railway station in Victoria, Australia",
+  "q": "Williamstown Pier railway station Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8021307",
+   "raw": "railway station in Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamstowntownhall",
+  "n": "Williamstown Town Hall",
+  "a": "",
+  "pc": "",
+  "lat": -37.8583,
+  "lng": 144.896,
+  "c": "oddity",
+  "s": "civic building in Melbourne, Australia",
+  "q": "Williamstown Town Hall Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8021311",
+   "raw": "civic building in Melbourne, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamstownracecoursera",
+  "n": "Williamstown Racecourse railway station",
+  "a": "",
+  "pc": "",
+  "lat": -37.85556,
+  "lng": 144.85194,
+  "c": "oddity",
+  "s": "railway station in Victoria, Australia",
+  "q": "Williamstown Racecourse railway station Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8021309",
+   "raw": "railway station in Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "newportworkshops",
+  "n": "Newport Workshops",
+  "a": "",
+  "pc": "",
+  "lat": -37.8516,
+  "lng": 144.8819,
+  "c": "oddity",
+  "s": "railway workshops in Melbourne, Victoria, Australia",
+  "q": "Newport Workshops Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12064010",
+   "raw": "Railway workshops in Melbourne, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "newport",
+  "n": "Newport",
+  "a": "",
+  "pc": "",
+  "lat": -37.842,
+  "lng": 144.884,
+  "c": "oddity",
+  "s": "suburb of Melbourne, Victoria, Australia",
+  "q": "Newport Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q14935251",
+   "raw": "suburb of Melbourne, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "northwilliamstown",
+  "n": "North Williamstown",
+  "a": "",
+  "pc": "",
+  "lat": -37.8573,
+  "lng": 144.889,
+  "c": "oddity",
+  "s": "railway station in Newport, Melbourne, Victoria, Australia",
+  "q": "North Williamstown Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q14935261",
+   "raw": "railway station in Newport, Melbourne, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "newportrailwaymuseum",
+  "n": "Newport Railway Museum",
+  "a": "",
+  "pc": "",
+  "lat": -37.85611,
+  "lng": 144.88667,
+  "c": "museum",
+  "s": "railway museum in Newport, Victoria",
+  "q": "Newport Railway Museum Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16926902",
+   "raw": "railway museum in Newport, Victoria",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pointgellibrand",
+  "n": "Point Gellibrand",
+  "a": "",
+  "pc": "",
+  "lat": -37.87222,
+  "lng": 144.90639,
+  "c": "oddity",
+  "s": "point in Australia",
+  "q": "Point Gellibrand Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21923220",
+   "raw": "point in Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pointgellibrandcoastalhe",
+  "n": "Point Gellibrand Coastal Heritage Park",
+  "a": "",
+  "pc": "",
+  "lat": -37.86818,
+  "lng": 144.91001,
+  "c": "green",
+  "s": "park in Victoria, Australia",
+  "q": "Point Gellibrand Coastal Heritage Park Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21924263",
+   "raw": "park in Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jawbonefloraandfaunarese",
+  "n": "Jawbone Flora and Fauna Reserve",
+  "a": "",
+  "pc": "",
+  "lat": -37.85995,
+  "lng": 144.87435,
+  "c": "oddity",
+  "s": "nature reserve in Australia",
+  "q": "Jawbone Flora and Fauna Reserve Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21924264",
+   "raw": "nature reserve in Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "newportlakes",
+  "n": "Newport Lakes",
+  "a": "",
+  "pc": "",
+  "lat": -37.83833,
+  "lng": 144.87345,
+  "c": "green",
+  "s": "park in Victoria, Australia",
+  "q": "Newport Lakes Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21924265",
+   "raw": "park in Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "altonareef",
+  "n": "Altona Reef",
+  "a": "",
+  "pc": "",
+  "lat": -37.88111,
+  "lng": 144.85639,
+  "c": "oddity",
+  "s": "reef in Australia",
+  "q": "Altona Reef Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21924474",
+   "raw": "reef in Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gellibrandshoal",
+  "n": "Gellibrand Shoal",
+  "a": "",
+  "pc": "",
+  "lat": -37.87833,
+  "lng": 144.91306,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Gellibrand Shoal Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21924473",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rotarypark",
+  "n": "Rotary Park",
+  "a": "",
+  "pc": "",
+  "lat": -37.86681,
+  "lng": 144.90486,
+  "c": "green",
+  "s": "park in Victoria, Australia",
+  "q": "Rotary Park Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21971052",
+   "raw": "park in Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "paisleypark",
+  "n": "Paisley Park",
+  "a": "",
+  "pc": "",
+  "lat": -37.84542,
+  "lng": 144.85875,
+  "c": "green",
+  "s": "park in Victoria, Australia",
+  "q": "Paisley Park Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21971097",
+   "raw": "park in Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pinna",
+  "n": "Pinna",
+  "a": "",
+  "pc": "",
+  "lat": -37.8651,
+  "lng": 144.94082,
+  "c": "oddity",
+  "s": "reef in Australia",
+  "q": "Pinna Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21971991",
+   "raw": "reef in Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stmaryscatholicchurchwil",
+  "n": "St Mary's Catholic Church, Williamstown",
+  "a": "",
+  "pc": "",
+  "lat": -37.8638,
+  "lng": 144.9011,
+  "c": "faith",
+  "s": "church building in Victoria, Australia",
+  "q": "St Mary's Catholic Church, Williamstown Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q24185341",
+   "raw": "church building in Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamstowncemetery",
+  "n": "Williamstown Cemetery",
+  "a": "",
+  "pc": "",
+  "lat": -37.853,
+  "lng": 144.8808,
+  "c": "death",
+  "s": "cemetery in Williamstown, Victoria, Australia",
+  "q": "Williamstown Cemetery Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q28147798",
+   "raw": "cemetery in Williamstown, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "newportpolicestation",
+  "n": "Newport Police Station",
+  "a": "",
+  "pc": "",
+  "lat": -37.84403,
+  "lng": 144.88625,
+  "c": "oddity",
+  "s": "police station in Hobsons Bay City, Victoria, Australia",
+  "q": "Newport Police Station Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q28927164",
+   "raw": "police station in Hobsons Bay City, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamstownpolicestatio",
+  "n": "Williamstown Police Station",
+  "a": "",
+  "pc": "",
+  "lat": -37.86431,
+  "lng": 144.90486,
+  "c": "oddity",
+  "s": "police station in Hobsons Bay City, Victoria, Australia",
+  "q": "Williamstown Police Station Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q28927258",
+   "raw": "police station in Hobsons Bay City, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamstownpostoffice",
+  "n": "Williamstown Post Office",
+  "a": "",
+  "pc": "",
+  "lat": -37.86319,
+  "lng": 144.90264,
+  "c": "oddity",
+  "s": "post office in Hobsons Bay City, Victoria, Australia",
+  "q": "Williamstown Post Office Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q28929670",
+   "raw": "post office in Hobsons Bay City, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamstowntimeballtowe",
+  "n": "Williamstown Timeball Tower Trig",
+  "a": "",
+  "pc": "",
+  "lat": -37.86686,
+  "lng": 144.91271,
+  "c": "history",
+  "s": "trigonometrical station in Hobsons Bay City, Victoria, Austr",
+  "q": "Williamstown Timeball Tower Trig Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q28932689",
+   "raw": "trigonometrical station in Hobsons Bay City, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fortgellibrand",
+  "n": "Fort Gellibrand",
+  "a": "",
+  "pc": "",
+  "lat": -37.86948,
+  "lng": 144.9063,
+  "c": "oddity",
+  "s": "former battery fort in Williamstown, Victoria, Australia",
+  "q": "Fort Gellibrand Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q38155832",
+   "raw": "former battery fort in Williamstown, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "plazatheatre",
+  "n": "Plaza Theatre",
+  "a": "",
+  "pc": "",
+  "lat": -37.84138,
+  "lng": 144.88275,
+  "c": "cinema",
+  "s": "former cinema in Newport, Melbourne, Victoria, Australia",
+  "q": "Plaza Theatre Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q47001041",
+   "raw": "former cinema in Newport, Melbourne, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "newempresstheatre",
+  "n": "New Empress Theatre",
+  "a": "",
+  "pc": "",
+  "lat": -37.86545,
+  "lng": 144.89469,
+  "c": "cinema",
+  "s": "former cinema in Williamstown, Melbourne, Victoria, Australi",
+  "q": "New Empress Theatre Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q47001203",
+   "raw": "former cinema in Williamstown, Melbourne, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamstowncustomshouse",
+  "n": "Williamstown Customs House",
+  "a": "",
+  "pc": "",
+  "lat": -37.86311,
+  "lng": 144.90519,
+  "c": "oddity",
+  "s": "heritage-listed custom house in Williamstown, Victoria, Aust",
+  "q": "Williamstown Customs House Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q56074810",
+   "raw": "heritage-listed custom house in Williamstown, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "royalhotelwilliamstown",
+  "n": "Royal Hotel, Williamstown",
+  "a": "",
+  "pc": "",
+  "lat": -37.86411,
+  "lng": 144.90681,
+  "c": "oddity",
+  "s": "heritage-listed hotel and pub in Williamstown, Victoria, Aus",
+  "q": "Royal Hotel, Williamstown Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q56651024",
+   "raw": "heritage-listed hotel and pub in Williamstown, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "williamstownbotanicgarde",
+  "n": "Williamstown Botanic Gardens",
+  "a": "",
+  "pc": "",
+  "lat": -37.868,
+  "lng": 144.897,
+  "c": "green",
+  "s": "botanic garden in Melbourne, Australia",
+  "q": "Williamstown Botanic Gardens Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66521786",
+   "raw": "botanic garden in Melbourne, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kerferdroadpier",
+  "n": "Kerferd Road Pier",
+  "a": "",
+  "pc": "",
+  "lat": -37.8503,
+  "lng": 144.95,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Kerferd Road Pier Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66765609",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bluntsboatyardandslipway",
+  "n": "Blunts Boatyard and Slipway",
+  "a": "",
+  "pc": "",
+  "lat": -37.8613,
+  "lng": 144.903,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Blunts Boatyard and Slipway Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66768616",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dressingpavilion",
+  "n": "Dressing Pavilion",
+  "a": "",
+  "pc": "",
+  "lat": -37.868,
+  "lng": 144.894,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Dressing Pavilion Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66768617",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "formermorgue",
+  "n": "Former Morgue",
+  "a": "",
+  "pc": "",
+  "lat": -37.8632,
+  "lng": 144.908,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Former Morgue Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66768623",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "formerbridgehotel",
+  "n": "Former Bridge Hotel",
+  "a": "",
+  "pc": "",
+  "lat": -37.8679,
+  "lng": 144.903,
+  "c": "oddity",
+  "s": "heritage site in City of Hobsons Bay, Australia",
+  "q": "Former Bridge Hotel Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66768620",
+   "raw": "heritage site in City of Hobsons Bay, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mandalay",
+  "n": "Mandalay",
+  "a": "",
+  "pc": "",
+  "lat": -37.8556,
+  "lng": 144.901,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Mandalay Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66768626",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "princealberthotel",
+  "n": "Prince Albert Hotel",
+  "a": "",
+  "pc": "",
+  "lat": -37.8534,
+  "lng": 144.896,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Prince Albert Hotel Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66768627",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "formerpresbyterianmanse",
+  "n": "Former Presbyterian Manse",
+  "a": "",
+  "pc": "",
+  "lat": -37.8594,
+  "lng": 144.896,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Former Presbyterian Manse Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66768624",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gellibrandpierandbreakwa",
+  "n": "Gellibrand Pier and Breakwater Pier",
+  "a": "",
+  "pc": "",
+  "lat": -37.8643,
+  "lng": 144.918,
+  "c": "oddity",
+  "s": "heritage site in Williamstown, Melbourne, Victoria, Australi",
+  "q": "Gellibrand Pier and Breakwater Pier Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66768625",
+   "raw": "heritage site in Williamstown, Melbourne, Victoria, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sthelliers",
+  "n": "St Helliers",
+  "a": "",
+  "pc": "",
+  "lat": -37.8582,
+  "lng": 144.899,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "St Helliers Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66768630",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "formerdeputymanagersresi",
+  "n": "Former Deputy Manager's Residence, Newport Railway Workshops",
+  "a": "",
+  "pc": "",
+  "lat": -37.8555,
+  "lng": 144.884,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Former Deputy Manager's Residence, Newport Railway Workshops Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66768634",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tudorhouse",
+  "n": "Tudor House",
+  "a": "",
+  "pc": "",
+  "lat": -37.8614,
+  "lng": 144.898,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Tudor House Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66768632",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "altonaoilrefinery",
+  "n": "Altona oil refinery",
+  "a": "",
+  "pc": "",
+  "lat": -37.85,
+  "lng": 144.85,
+  "c": "oddity",
+  "s": "oil refinery southeast of Melbourne, Australia",
+  "q": "Altona oil refinery Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q77023721",
+   "raw": "Oil refinery southeast of Melbourne, Australia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "royalyachtclubofvictoria",
+  "n": "Royal Yacht Club of Victoria",
+  "a": "",
+  "pc": "",
+  "lat": -37.8626,
+  "lng": 144.9064,
+  "c": "oddity",
+  "s": "yachting club in Victoria",
+  "q": "Royal Yacht Club of Victoria Melbourne",
+  "w": "",
+  "city": "melbourne",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q84892992",
+   "raw": "yachting club in Victoria",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

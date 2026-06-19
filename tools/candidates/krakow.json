@@ -1,0 +1,2765 @@
+[
+ {
+  "id": "kopieckosciuszki",
+  "n": "Kopiec Kościuszki",
+  "a": "",
+  "pc": "",
+  "lat": 50.05492,
+  "lng": 19.89335,
+  "c": "view",
+  "s": "hilltop viewpoint",
+  "q": "Kopiec Kościuszki Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/226153423",
+   "raw": {
+    "commemorates:wikidata": "Q191479",
+    "description": "Kopiec Kościuszki usypany w 1823 roku przez społeczeństwo polskie",
+    "ele": "326.5",
+    "fee": "yes",
+    "fee:conditional": "no @ 4 February, 24 March, 15 October",
+    "heritage": "2",
+    "heritage:operator": "nid",
+    "historic": "monument",
+    "inscription": "Kościuszce",
+    "name": "Kopiec Kościuszki",
+    "name:de": "Kościuszko-Hügel",
+    "name:en": "Kościuszko Mound",
+    "name:pl": "Kopiec Kościuszki",
+    "name:ru": "Курган Костюшко",
+    "natural": "peak",
+    "nid:inscription_date": "1936-10-20",
+    "operator": "Komitet Kopca Kościuszki",
+    "prominence": "80",
+    "ref:ckkp": "MA00273",
+    "ref:nid": "A-954",
+    "start_date": "1823-10-25",
+    "subject:wikidata": "Q191479",
+    "subject:wikipedia": "pl:Tadeusz Kościuszko",
+    "website": "https://kopieckosciuszki.pl/",
+    "wikidata": "Q641398",
+    "wikimedia_commons": "Category:Kościuszko Mound",
+    "wikipedia": "pl:Kopiec Kościuszki w Krakowie"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mikoajkopernik",
+  "n": "Mikołaj Kopernik",
+  "a": "",
+  "pc": "",
+  "lat": 50.06132,
+  "lng": 19.93276,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Mikołaj Kopernik Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/273492033",
+   "raw": {
+    "artist_name": "Cyprian Godebski",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Mikołaj Kopernik",
+    "name:de": "Nikolaus-Kopernikus-Denkmal",
+    "name:en": "Statue of Nicolaus Copernicus",
+    "name:pl": "Mikołaj Kopernik",
+    "start_date": "1900",
+    "subject:wikidata": "Q619",
+    "wikidata": "Q7029919",
+    "wikipedia": "pl:Pomnik Mikołaja Kopernika w Krakowie"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "florianstraszewski",
+  "n": "Florian Straszewski",
+  "a": "",
+  "pc": "",
+  "lat": 50.06434,
+  "lng": 19.94434,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Florian Straszewski Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/273536893",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "obelisk",
+    "name": "Florian Straszewski",
+    "name:be": "Флорыян Страшэўскі",
+    "name:de": "Florian-Straszewski-Denkmal",
+    "subject:wikidata": "Q11698350",
+    "subject:wikipedia": "pl:Florian Straszewski",
+    "wikidata": "Q117828523",
+    "wikimedia_commons": "Category:Florian Straszewski Monument in Kraków"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tadeuszrejtan",
+  "n": "Tadeusz Rejtan",
+  "a": "",
+  "pc": "",
+  "lat": 50.06602,
+  "lng": 19.93539,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Tadeusz Rejtan Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/273537217",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Tadeusz Rejtan",
+    "subject:wikidata": "Q2120989",
+    "subject:wikipedia": "pl:Tadeusz Reytan",
+    "wikidata": "Q11823487",
+    "wikimedia_commons": "File:Tadeusz Rejtan Monument in Kraków.jpg",
+    "wikipedia": "pl:Pomnik Tadeusza Rejtana w Krakowie"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "piotrskarga",
+  "n": "Piotr Skarga",
+  "a": "",
+  "pc": "",
+  "lat": 50.05681,
+  "lng": 19.93782,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Piotr Skarga Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/273723498",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Piotr Skarga",
+    "name:de": "Piotr-Skarga-Denkmal",
+    "name:pl": "Piotr Skarga",
+    "subject:wikidata": "Q712463",
+    "subject:wikipedia": "pl:Piotr Skarga",
+    "wheelchair": "yes",
+    "wikidata": "Q11823396",
+    "wikimedia_commons": "Category:Piotr Skarga Monument in Kraków",
+    "wikipedia": "pl:Pomnik Piotra Skargi w Krakowie"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikgrunwaldzki",
+  "n": "Pomnik Grunwaldzki",
+  "a": "",
+  "pc": "",
+  "lat": 50.06642,
+  "lng": 19.94214,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Grunwaldzki Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/274088760",
+   "raw": {
+    "artist_name": "Antoni Wiwulski",
+    "height": "24",
+    "historic": "memorial",
+    "inscription": "Praojcom na chwałę – braciom na otuchę",
+    "memorial": "statue",
+    "name": "Pomnik Grunwaldzki",
+    "name:be": "Помнік Грунвальдскі",
+    "name:de": "Grunwalddenkmal",
+    "name:en": "Grunwald Monument",
+    "name:fr": "Monument Grunwald",
+    "name:hu": "Grünwaldi csata (1410) emlékműve",
+    "start_date": "1910",
+    "subject:wikidata": "Q33570",
+    "wikidata": "Q11823211",
+    "wikipedia": "pl:Pomnik Grunwaldzki w Krakowie"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jadwigaijagieo",
+  "n": "Jadwiga i Jagiełło",
+  "a": "",
+  "pc": "",
+  "lat": 50.06596,
+  "lng": 19.93852,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Jadwiga i Jagiełło Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/274088837",
+   "raw": {
+    "artist_name": "Karol Knaus, Oskar Sosnowski",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Jadwiga i Jagiełło",
+    "name:de": "Denkmal von Jagiello und Jadwiga",
+    "name:pl": "Jadwiga i Jagiełło",
+    "start_date": "1886",
+    "subject:wikidata": "Q54049",
+    "wheelchair": "yes",
+    "wikimedia_commons": "File:Pomnik Jadwigi i Jagiełły.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "harfiarz",
+  "n": "Harfiarz",
+  "a": "",
+  "pc": "",
+  "lat": 50.06594,
+  "lng": 19.94031,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Harfiarz Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/274088838",
+   "raw": {
+    "alt_name": "Grupa Bojana",
+    "artist:wikidata": "Q11818732",
+    "artist_name": "Pius Weloński",
+    "historic": "memorial",
+    "inscription": "PAMIĘCI|BOHDANA|ZALESKIEGO|1886",
+    "memorial": "statue",
+    "name": "Harfiarz",
+    "wheelchair": "yes",
+    "wikimedia_commons": "File:Pomnik Harfiarza.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fryderykchopin",
+  "n": "Fryderyk Chopin",
+  "a": "",
+  "pc": "",
+  "lat": 50.05932,
+  "lng": 19.93403,
+  "c": "streetart",
+  "s": "decorative fountain",
+  "q": "Fryderyk Chopin Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/274094870",
+   "raw": {
+    "artist_name": "Maria Jarema",
+    "artwork_type": "fountain",
+    "drinking_water": "no",
+    "inscription": "Realizacja gmina Krakow 2006",
+    "name": "Fryderyk Chopin",
+    "name:en": "Frédéric Chopin",
+    "name:fr": "Frédéric Chopin",
+    "name:pl": "Fryderyk Chopin",
+    "start_date": "1949",
+    "tourism": "artwork",
+    "wikidata": "Q114677559",
+    "wikimedia_commons": "Category:Piano Fountain in Kraków"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "arturgrottger",
+  "n": "Artur Grottger",
+  "a": "",
+  "pc": "",
+  "lat": 50.06422,
+  "lng": 19.93431,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Artur Grottger Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/274094875",
+   "raw": {
+    "artist_name": "Wacław Szymanowski",
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Artur Grottger",
+    "name:de": "Artur-Grottger-Denkmal",
+    "name:pl": "Artur Grottger",
+    "start_date": "1903",
+    "subject:wikidata": "Q714401"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kopiecpisudskiego",
+  "n": "Kopiec Piłsudskiego",
+  "a": "",
+  "pc": "",
+  "lat": 50.06005,
+  "lng": 19.84717,
+  "c": "view",
+  "s": "hilltop viewpoint",
+  "q": "Kopiec Piłsudskiego Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/274386820",
+   "raw": {
+    "description": "The highest point in Kraków",
+    "ele": "383.6",
+    "historic": "monument",
+    "name": "Kopiec Piłsudskiego",
+    "name:de": "Piłsudski-Hügel",
+    "name:en": "Piłsudski's Mound",
+    "name:pl": "Kopiec Piłsudskiego",
+    "natural": "peak",
+    "prominence": "149",
+    "ref:ckkp": "MA00275",
+    "subject:wikidata": "Q885",
+    "tourism": "viewpoint",
+    "wheelchair": "no",
+    "wikidata": "Q1985405",
+    "wikipedia": "pl:Kopiec Józefa Piłsudskiego w Krakowie"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tadeuszboyzelenski",
+  "n": "Tadeusz Boy-Żeleński",
+  "a": "",
+  "pc": "",
+  "lat": 50.05664,
+  "lng": 19.93479,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Tadeusz Boy-Żeleński Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/277498333",
+   "raw": {
+    "artist_name": "Edward Krzak",
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Tadeusz Boy-Żeleński",
+    "name:de": "Tadeusz-Boy-Żeleński-Büste",
+    "name:pl": "Tadeusz Boy-Żeleński",
+    "start_date": "1985",
+    "subject:wikidata": "Q699597",
+    "subject:wikipedia": "pl:Tadeusz Boy-Żeleński",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "grazynailitawor",
+  "n": "Grażyna i Litawor",
+  "a": "",
+  "pc": "",
+  "lat": 50.05807,
+  "lng": 19.93439,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Grażyna i Litawor Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/277498334",
+   "raw": {
+    "artist_name": "Alfred Daun",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Grażyna i Litawor",
+    "start_date": "1884"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "smokwawelski",
+  "n": "Smok Wawelski",
+  "a": "",
+  "pc": "",
+  "lat": 50.05302,
+  "lng": 19.93359,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Smok Wawelski Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/278057698",
+   "raw": {
+    "artist:wikidata": "Q362880",
+    "artist:wikipedia": "pl:Bronisław Chromy",
+    "artist_name": "Bronisław Chromy",
+    "artwork_type": "statue",
+    "brand:wikidata": "Q126651178",
+    "brand:wikipedia": "pl:Smoczy szlak w Krakowie",
+    "height": "6",
+    "image": "https://bronislawchromy.pl/wp-content/gallery/pomniki/001-kopia.jpg",
+    "material": "bronze;limestone",
+    "name": "Smok Wawelski",
+    "name:be": "Вавельскі цмок",
+    "name:de": "Wawel-Drachen",
+    "name:en": "Wawel Dragon",
+    "name:hu": "Wawel sárkánya",
+    "name:ja": "ヴァヴェルの竜",
+    "name:lt": "Vavelio drakonas",
+    "name:pl": "Smok Wawelski",
+    "name:ru": "Вавельский дракон",
+    "network": "Smoczy szlak",
+    "official_name": "WAWEL DRAGON",
+    "start_date": "1972",
+    "subject": "Smok wawelski",
+    "subject:wikidata": "Q463190",
+    "subject:wikipedia": "pl:Smok wawelski",
+    "tourism": "artwork",
+    "wikidata": "Q9338697",
+    "wikipedia": "pl:Smok Wawelski (rzeźba)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "drhenrykjordan",
+  "n": "dr Henryk Jordan",
+  "a": "",
+  "pc": "",
+  "lat": 50.06275,
+  "lng": 19.91747,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "dr Henryk Jordan Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/278072159",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "dr Henryk Jordan",
+    "subject:wikidata": "Q4554347",
+    "subject:wikipedia": "pl:Henryk Jordan"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pukowniknarcyzwiatr",
+  "n": "Pułkownik Narcyz Wiatr",
+  "a": "",
+  "pc": "",
+  "lat": 50.0593,
+  "lng": 19.94115,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pułkownik Narcyz Wiatr Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/278514452",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Pułkownik Narcyz Wiatr",
+    "name:de": "Narcyz-Wiatr-Zawojny-Denkmal",
+    "name:pl": "Pułkownik Narcyz Wiatr",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "piesdzok",
+  "n": "Pies Dżok",
+  "a": "",
+  "pc": "",
+  "lat": 50.05128,
+  "lng": 19.9349,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pies Dżok Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/278516635",
+   "raw": {
+    "artist:wikidata": "Q362880",
+    "artist:wikipedia": "pl:Bronisław Chromy",
+    "artist_name": "Bronisław Chromy",
+    "historic": "memorial",
+    "inscription:pl": "PIES DŻOK|NAJWIERNIEJSZY Z WIERNYCH|SYMBOL PSIEJ WIERNOŚCI|PRZEZ ROK /1990–1991/ OCZEKIWAŁ|NA RONDZIE GRUNWALDZKIM NA SWOJEGO PANA,|KTÓRY W TYM MIEJSCU ZMARŁ.",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Pies Dżok",
+    "start_date": "2001",
+    "subject": "Dżok",
+    "wheelchair": "yes",
+    "wikidata": "Q2480782",
+    "wikipedia": "pl:Pomnik psa Dżoka"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikzonierzypolskiwalc",
+  "n": "Pomnik żołnierzy Polski Walczącej",
+  "a": "",
+  "pc": "",
+  "lat": 50.05573,
+  "lng": 19.92918,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik żołnierzy Polski Walczącej Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/279033719",
+   "raw": {
+    "artist:wikipedia": "pl:Bronisław Chromy",
+    "artist_name": "Bronisław Chromy",
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Pomnik żołnierzy Polski Walczącej"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikwojciechabednarski",
+  "n": "Pomnik Wojciecha Bednarskiego",
+  "a": "",
+  "pc": "",
+  "lat": 50.04078,
+  "lng": 19.94873,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Wojciecha Bednarskiego Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/288615790",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Pomnik Wojciecha Bednarskiego",
+    "subject:wikidata": "Q9376351",
+    "subject:wikipedia": "pl:Wojciech Bednarski"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kopieckrakusa",
+  "n": "Kopiec Krakusa",
+  "a": "",
+  "pc": "",
+  "lat": 50.03808,
+  "lng": 19.95844,
+  "c": "view",
+  "s": "hilltop viewpoint",
+  "q": "Kopiec Krakusa Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/288621733",
+   "raw": {
+    "alt_name": "Kopiec Kraka",
+    "alt_name:it": "Tumulo di Krak",
+    "alt_name:pl": "Kopiec Kraka",
+    "archaeological_site": "tumulus",
+    "description": "stanowisko archeologiczne obiekt kultowy i pochówek, wczesne średniowiecze, materiał z nasypu kultura łużycka, lateńska, przeworska",
+    "ele": "269",
+    "heritage": "2",
+    "heritage:operator": "nid",
+    "historic": "archaeological_site",
+    "name": "Kopiec Krakusa",
+    "name:de": "Krak-Hügel",
+    "name:en": "Krakus Mound",
+    "name:es": "Túmulo de Krakus",
+    "name:fr": "Tumulus de Krakus",
+    "name:it": "Tumulo di Krakus",
+    "name:pl": "Kopiec Krakusa",
+    "natural": "peak",
+    "nid:inscription_date": "1933-10-11",
+    "ref:nid": "A-955",
+    "tourism": "viewpoint",
+    "wikidata": "Q722446",
+    "wikipedia": "pl:Kopiec Krakusa"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikpiwnicypodbaranami",
+  "n": "Pomnik Piwnicy pod Baranami",
+  "a": "",
+  "pc": "",
+  "lat": 50.06527,
+  "lng": 19.87153,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Piwnicy pod Baranami Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/290271175",
+   "raw": {
+    "artist_name": "Bronisław Chromy",
+    "historic": "monument",
+    "name": "Pomnik Piwnicy pod Baranami",
+    "start_date": "2000"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikmarszakajozefapisu",
+  "n": "Pomnik Marszałka Józefa Piłsudskiego i Legionistów",
+  "a": "",
+  "pc": "",
+  "lat": 50.06002,
+  "lng": 19.9276,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Marszałka Józefa Piłsudskiego i Legionistów Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/311330840",
+   "raw": {
+    "artist:wikidata": "Q5202115",
+    "artist:wikipedia": "pl:Czesław Dźwigaj",
+    "artist_name": "Czesław Dźwigaj",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Pomnik Marszałka Józefa Piłsudskiego i Legionistów",
+    "name:be": "маршал Юзэф Пілсудскі",
+    "name:hu": "Józef Piłsudski",
+    "name:pl": "Pomnik Marszałka Józefa Piłsudskiego i Legionistów",
+    "subject:wikidata": "Q885",
+    "subject:wikipedia": "pl:Józef Piłsudski",
+    "wikidata": "Q11823279",
+    "wikimedia_commons": "Category:Józef Piłsudski Monument in Kraków",
+    "wikipedia": "pl:Pomnik Józefa Piłsudskiego w Krakowie"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "muzeumfarmacjiuj",
+  "n": "Muzeum Farmacji UJ",
+  "a": "",
+  "pc": "",
+  "lat": 50.06323,
+  "lng": 19.94033,
+  "c": "museum",
+  "s": "museum",
+  "q": "Muzeum Farmacji UJ Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/471557535",
+   "raw": {
+    "addr:city": "Kraków",
+    "addr:country": "PL",
+    "addr:housenumber": "25",
+    "addr:street": "Floriańska",
+    "email": "mf1@mp.pl",
+    "name": "Muzeum Farmacji UJ",
+    "name:en": "Museum of Pharmacy",
+    "name:hu": "Patikamúzeum",
+    "name:pl": "Muzeum Farmacji UJ",
+    "name:ru": "Музей фармацевтики",
+    "opening_hours": "We-Sa 09:30-15:00; Tu 12:00-18:30",
+    "phone": "+48 12 421 92 79",
+    "tourism": "museum",
+    "website": "http://muzeum.farmacja.uj.edu.pl",
+    "wikidata": "Q11786965",
+    "wikipedia": "pl:Muzeum Farmacji Collegium Medicum Uniwersytetu Jagiellońskiego"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "paackrzysztofory",
+  "n": "Pałac Krzysztofory",
+  "a": "",
+  "pc": "",
+  "lat": 50.06277,
+  "lng": 19.9365,
+  "c": "museum",
+  "s": "museum",
+  "q": "Pałac Krzysztofory Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/471557838",
+   "raw": {
+    "fee": "yes",
+    "fee:conditional": "Tu @ Mo except temporary exhibitions",
+    "museum": "history",
+    "name": "Pałac Krzysztofory",
+    "name:en": "Krzysztofory Palace",
+    "name:hu": "Krakkói Várostörténeti Múzeum",
+    "name:pl": "Pałac Krzysztofory",
+    "opening_hours": "Tu-Su 10:00-18:00",
+    "tourism": "museum",
+    "website": "https://muzeumkrakowa.pl/oddzialy/palac-krzysztofory"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "muzeumprzyrodniczepan",
+  "n": "Muzeum Przyrodnicze PAN",
+  "a": "",
+  "pc": "",
+  "lat": 50.05547,
+  "lng": 19.94151,
+  "c": "museum",
+  "s": "museum",
+  "q": "Muzeum Przyrodnicze PAN Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/472032760",
+   "raw": {
+    "addr:city": "Kraków",
+    "addr:housenumber": "9",
+    "addr:postcode": "31-049",
+    "addr:street": "Świętego Sebastiana",
+    "fee": "yes",
+    "free_day": "no",
+    "museum": "nature",
+    "name": "Muzeum Przyrodnicze PAN",
+    "name:hu": "Lengyel Tudományos Akadémia Természettudományi Múzeuma",
+    "opening_hours": "Tu-Fr 09:00-15:00; Sa, Su 10:00-18:00",
+    "operator": "PAN",
+    "tourism": "museum",
+    "website": "https://isez.pan.krakow.pl/muzeum.html",
+    "wikidata": "Q16580065",
+    "wikipedia": "pl:Muzeum Przyrodnicze Instytutu Systematyki i Ewolucji Zwierząt PAN"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "janpaweii",
+  "n": "Jan Paweł II",
+  "a": "",
+  "pc": "",
+  "lat": 50.06539,
+  "lng": 19.94997,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Jan Paweł II Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/472086915",
+   "raw": {
+    "artist:wikidata": "Q5202115",
+    "artist_name": "Czesław Dźwigaj",
+    "historic": "memorial",
+    "image": "https://commons.wikimedia.org/wiki/File:John_Paul_II_monument_by_D%C5%BAwigaj,_Krak%C3%B3w.JPG",
+    "memorial": "statue",
+    "name": "Jan Paweł II",
+    "start_date": "2000",
+    "subject:wikidata": "Q989",
+    "subject:wikipedia": "pl:Jan Paweł II"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zydowskiemuzeumgalicja",
+  "n": "Żydowskie Muzeum Galicja",
+  "a": "",
+  "pc": "",
+  "lat": 50.05086,
+  "lng": 19.94968,
+  "c": "museum",
+  "s": "museum",
+  "q": "Żydowskie Muzeum Galicja Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/472147189",
+   "raw": {
+    "addr:city": "Kraków",
+    "addr:country": "PL",
+    "addr:housenumber": "18",
+    "addr:street": "Dajwór",
+    "name": "Żydowskie Muzeum Galicja",
+    "name:en": "Galicia Jewish Museum",
+    "name:he": "מוזיאון יהודי",
+    "name:hu": "Galíciai Zsidó Múzeum",
+    "name:pl": "Żydowskie Muzeum Galicja",
+    "opening_hours": "Mo-Su 10:00-18:00",
+    "phone": "+48 12 421 68 42",
+    "source:name:en": "http://www.galiciajewishmuseum.org/en",
+    "tourism": "museum",
+    "website": "https://galiciajewishmuseum.org/",
+    "wikidata": "Q326670",
+    "wikipedia": "pl:Żydowskie Muzeum Galicja w Krakowie"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "muzeumetnograficzne",
+  "n": "Muzeum Etnograficzne",
+  "a": "",
+  "pc": "",
+  "lat": 50.04866,
+  "lng": 19.94349,
+  "c": "museum",
+  "s": "museum",
+  "q": "Muzeum Etnograficzne Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/472147202",
+   "raw": {
+    "addr:housenumber": "1",
+    "addr:street": "Plac Wolnica",
+    "fee": "yes",
+    "fee:conditional": "no @ (Tu except temporary exhibitions)",
+    "name": "Muzeum Etnograficzne",
+    "name:hu": "Néprajzi Múzeum",
+    "name:pl": "Muzeum Etnograficzne",
+    "opening_hours": "Tu-Su 10:00-19:00",
+    "tourism": "museum",
+    "website": "https://etnomuzeum.eu/",
+    "wikidata": "Q194616",
+    "wikipedia": "en:Ethnographic Museum of Kraków"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "janfejkielgallery",
+  "n": "Jan Fejkiel Gallery",
+  "a": "",
+  "pc": "",
+  "lat": 50.06391,
+  "lng": 19.9376,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Jan Fejkiel Gallery Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/490986154",
+   "raw": {
+    "addr:city": "Kraków",
+    "addr:country": "PL",
+    "addr:housenumber": "14",
+    "addr:street": "Sławkowska",
+    "gallery": "art",
+    "name": "Jan Fejkiel Gallery",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "artgallery36",
+  "n": "Art Gallery 36",
+  "a": "",
+  "pc": "",
+  "lat": 50.06432,
+  "lng": 19.94082,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Art Gallery 36 Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/490986302",
+   "raw": {
+    "gallery": "art",
+    "name": "Art Gallery 36",
+    "shop": "frame",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "28lipca1943",
+  "n": "28 Lipca 1943",
+  "a": "",
+  "pc": "",
+  "lat": 50.06424,
+  "lng": 19.87646,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "28 Lipca 1943 Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/495519815",
+   "raw": {
+    "historic": "memorial",
+    "name": "28 Lipca 1943",
+    "wikimedia_commons": "File:Pomnik 28 lipca 1943 Wola Justowska.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "muzeumniepoomickie",
+  "n": "Muzeum Niepołomickie",
+  "a": "",
+  "pc": "",
+  "lat": 50.03412,
+  "lng": 20.21757,
+  "c": "museum",
+  "s": "museum",
+  "q": "Muzeum Niepołomickie Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/748842563",
+   "raw": {
+    "check_date": "2023-09-29",
+    "fee": "yes",
+    "level": "1",
+    "name": "Muzeum Niepołomickie",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "maopolskibankspodzielczy",
+  "n": "Małopolski Bank Spółdzielczy",
+  "a": "",
+  "pc": "",
+  "lat": 50.03306,
+  "lng": 20.21642,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Małopolski Bank Spółdzielczy Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/767861774",
+   "raw": {
+    "amenity": "bank",
+    "check_date": "2023-09-29",
+    "historic": "monument",
+    "name": "Małopolski Bank Spółdzielczy",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "wheelchair": "no"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemacitykrakowgaleriak",
+  "n": "Cinema City Kraków - Galeria Kazimierz",
+  "a": "",
+  "pc": "",
+  "lat": 50.05342,
+  "lng": 19.9543,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinema City Kraków - Galeria Kazimierz Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/957908480",
+   "raw": {
+    "amenity": "cinema",
+    "brand": "Cinema City",
+    "brand:wikidata": "Q543651",
+    "brand:wikipedia": "en:Cinema City International",
+    "name": "Cinema City Kraków - Galeria Kazimierz",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kinostudyjnesfinks",
+  "n": "Kino Studyjne Sfinks",
+  "a": "",
+  "pc": "",
+  "lat": 50.07971,
+  "lng": 20.03647,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Kino Studyjne Sfinks Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/968360644",
+   "raw": {
+    "addr:city": "Kraków",
+    "addr:country": "PL",
+    "addr:housenumber": "5",
+    "addr:place": "Osiedle Górali",
+    "addr:postcode": "31-959",
+    "amenity": "cinema",
+    "check_date:opening_hours": "2025-03-30",
+    "name": "Kino Studyjne Sfinks",
+    "opening_hours:signed": "no",
+    "phone": "+48 12 644 27 65",
+    "website": "https://www.kinosfinks.pl/",
+    "wikidata": "Q11739393",
+    "wikipedia": "pl:Kino Sfinks"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "muzeumczynuzbrojnego",
+  "n": "Muzeum Czynu Zbrojnego",
+  "a": "",
+  "pc": "",
+  "lat": 50.08154,
+  "lng": 20.03649,
+  "c": "museum",
+  "s": "museum",
+  "q": "Muzeum Czynu Zbrojnego Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/968360655",
+   "raw": {
+    "addr:city": "Kraków",
+    "addr:country": "PL",
+    "addr:housenumber": "23",
+    "addr:place": "Osiedle Górali",
+    "fee": "no",
+    "name": "Muzeum Czynu Zbrojnego",
+    "name:en": "Museum of Armed Deed",
+    "name:hu": "Hadtörténetni Múzeum",
+    "tourism": "museum",
+    "wikidata": "Q11786944",
+    "wikipedia": "pl:Muzeum Czynu Zbrojnego w Krakowie"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomniksolidarnosci",
+  "n": "Pomnik Solidarności",
+  "a": "",
+  "pc": "",
+  "lat": 50.07121,
+  "lng": 20.03707,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Solidarności Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/968360657",
+   "raw": {
+    "historic": "monument",
+    "name": "Pomnik Solidarności",
+    "subject:wikidata": "Q1003",
+    "wikidata": "Q11823441",
+    "wikipedia": "pl:Pomnik Solidarności w Nowej Hucie"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aptekapodorem",
+  "n": "Apteka Pod Orłem",
+  "a": "",
+  "pc": "",
+  "lat": 50.04624,
+  "lng": 19.95415,
+  "c": "museum",
+  "s": "museum",
+  "q": "Apteka Pod Orłem Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/979972831",
+   "raw": {
+    "addr:city": "Kraków",
+    "addr:housenumber": "18",
+    "addr:postcode": "30-530",
+    "addr:street": "Plac Bohaterów Getta",
+    "description:hu": "Az egykori varsói gettóban működő egyetlen gyógyszertár",
+    "fee": "yes",
+    "fee:conditional": "no @ Th",
+    "museum": "history",
+    "name": "Apteka Pod Orłem",
+    "name:en": "Eagle Pharmacy",
+    "name:hu": "Patika a Sas Alatt",
+    "name:pl": "Apteka Pod Orłem",
+    "opening_hours": "We-Su 10:00-17:00",
+    "operator": "Muzeum Krakowa",
+    "operator:type": "public",
+    "phone": "+48 12 656 56 25",
+    "tourism": "museum",
+    "website": "https://muzeumkrakowa.pl/oddzialy/apteka-pod-orlem",
+    "wheelchair": "limited",
+    "wheelchair:description": "jest wyciągana dostawka na schody",
+    "wikidata": "Q5101454",
+    "wikimedia_commons": "Category:Pharmacy Pod Orłem",
+    "wikipedia": "pl:Apteka Pod Orłem w Krakowie"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomniknawzgorzukaim",
+  "n": "Pomnik na Wzgórzu Kaim",
+  "a": "",
+  "pc": "",
+  "lat": 50.00141,
+  "lng": 20.03546,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Pomnik na Wzgórzu Kaim Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1076873889",
+   "raw": {
+    "inscription": "TU ODPARTO DNIA 6 GRUDNIA 1914 NAJDALEJ NAPRZÓD ODDZIAŁY ROSYJSKIEJ ARMII",
+    "man_made": "obelisk",
+    "material": "concrete",
+    "memorial": "war_memorial",
+    "name": "Pomnik na Wzgórzu Kaim",
+    "start_date": "1915-12-06",
+    "subject:wikidata": "Q361",
+    "wikidata": "Q11823563",
+    "wikipedia": "pl:Pomnik na Wzgórzu Kaim"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "swiatowid",
+  "n": "Światowid",
+  "a": "",
+  "pc": "",
+  "lat": 50.05431,
+  "lng": 19.93845,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Światowid Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1159658771",
+   "raw": {
+    "denomination": "slavic",
+    "historic": "wayside_shrine",
+    "mapillary": "127267599360279",
+    "material": "stone",
+    "name": "Światowid",
+    "religion": "pagan",
+    "subject:wikidata": "Q104895379",
+    "subject:wikipedia": "pl:Światowid pod Wawelem w Krakowie",
+    "wikidata": "Q104895379",
+    "wikimedia_commons": "File:Replika Swiatowida ze Zbrucza.jpg",
+    "wikipedia": "pl:Światowid pod Wawelem w Krakowie"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zbiorowamogiaofiarepidem",
+  "n": "Zbiorowa mogiła ofiar epidemii cholery z roku 1873",
+  "a": "",
+  "pc": "",
+  "lat": 50.01574,
+  "lng": 19.9021,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Zbiorowa mogiła ofiar epidemii cholery z roku 1873 Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1232314842",
+   "raw": {
+    "historic": "memorial",
+    "material": "wood",
+    "memorial": "stele",
+    "name": "Zbiorowa mogiła ofiar epidemii cholery z roku 1873"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "edwarddembowski",
+  "n": "Edward Dembowski",
+  "a": "",
+  "pc": "",
+  "lat": 50.04201,
+  "lng": 19.9527,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Edward Dembowski Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1244802738",
+   "raw": {
+    "historic": "memorial",
+    "image": "File:Edward Dembowski Monument in Kraków 2014 bk1.jpg",
+    "inscription": "Edward Dembowski 25 IV 1822 27 II 1846",
+    "material": "bronze",
+    "memorial": "bust",
+    "name": "Edward Dembowski",
+    "start_date": "1966",
+    "subject:wikidata": "Q1292039",
+    "subject:wikipedia": "pl:Edward_Dembowski",
+    "wikidata": "Q126712369",
+    "wikimedia_commons": "Category:Edward Dembowski Monument in Kraków",
+    "wikipedia": "pl:Pomnik Edwarda Dembowskiego w Krakowie"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikmartyrologii1944",
+  "n": "Pomnik Martyrologii 1944",
+  "a": "",
+  "pc": "",
+  "lat": 50.0641,
+  "lng": 20.00875,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Martyrologii 1944 Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1262809264",
+   "raw": {
+    "historic": "monument",
+    "name": "Pomnik Martyrologii 1944"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rynekpodziemny",
+  "n": "Rynek Podziemny",
+  "a": "",
+  "pc": "",
+  "lat": 50.062,
+  "lng": 19.93778,
+  "c": "museum",
+  "s": "museum",
+  "q": "Rynek Podziemny Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1332080339",
+   "raw": {
+    "addr:city": "Kraków",
+    "addr:country": "PL",
+    "addr:housenumber": "1",
+    "addr:postcode": "31-042",
+    "addr:street": "Rynek Główny",
+    "fee": "yes",
+    "museum": "history",
+    "name": "Rynek Podziemny",
+    "name:en": "Rynek Underground",
+    "name:hu": "Föld alatti Piac tér",
+    "name:pl": "Rynek Podziemny",
+    "name:ru": "Подземелье рынка",
+    "opening_hours": "Mo-Su 10:00-20:00; Tu 10:00-16:00; Nov-Mar: Mo,We,Th 10:00-19:00; Nov-Mar: Tu 10:00-14:00; Nov-Mar: Fr-Su 10:00-20:00",
+    "operator": "Muzeum Krakowa",
+    "operator:type": "public",
+    "ref:ckkp": "MA00458",
+    "tourism": "museum",
+    "website": "https://muzeumkrakowa.pl/oddzialy/rynek-podziemny",
+    "wheelchair": "limited",
+    "wikidata": "Q5420576",
+    "wikipedia": "pl:Podziemia Rynku w Krakowie"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikgeneraaandersaizon",
+  "n": "Pomnik Generała Andersa i Żołnierzy II Korpusu Polskiego",
+  "a": "",
+  "pc": "",
+  "lat": 50.0798,
+  "lng": 20.02587,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Generała Andersa i Żołnierzy II Korpusu Polskiego Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1417866496",
+   "raw": {
+    "historic": "monument",
+    "name": "Pomnik Generała Andersa i Żołnierzy II Korpusu Polskiego",
+    "wikidata": "Q11823594",
+    "wikipedia": "pl:Pomnik upamiętniający bohaterów bitwy o Monte Cassino w Krakowie"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "figuramatkiboskiejniepok",
+  "n": "Figura Matki Boskiej Niepokalanego Poczęcia",
+  "a": "",
+  "pc": "",
+  "lat": 50.05978,
+  "lng": 20.0246,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Figura Matki Boskiej Niepokalanego Poczęcia Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1436590764",
+   "raw": {
+    "historic": "wayside_shrine",
+    "name": "Figura Matki Boskiej Niepokalanego Poczęcia"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parowoztkp2316slask",
+  "n": "Parowóz TKp-2316 „Śląsk”",
+  "a": "",
+  "pc": "",
+  "lat": 49.98355,
+  "lng": 20.05304,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Parowóz TKp-2316 „Śląsk” Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1440447304",
+   "raw": {
+    "historic": "locomotive",
+    "image": "https://commons.wikimedia.org/wiki/File:I10_132_Wieliczka,_TKp_2316.jpg",
+    "locomotive:type": "steam",
+    "name": "Parowóz TKp-2316 „Śląsk”",
+    "note": "mimo informacji na Wikipedii (TKp-2816) wymalowany na boku numer serii pojazdu to TKp-2316 !",
+    "tourism": "attraction",
+    "wikidata": "Q9353658",
+    "wikipedia": "pl:T2D Śląsk"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aptekajanickigallery",
+  "n": "Apteka janicki gallery",
+  "a": "",
+  "pc": "",
+  "lat": 50.04516,
+  "lng": 19.95631,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Apteka janicki gallery Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1480544401",
+   "raw": {
+    "check_date:opening_hours": "2026-04-30",
+    "name": "Apteka janicki gallery",
+    "opening_hours:signed": "no",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikofiarfaszyzmu",
+  "n": "Pomnik Ofiar Faszyzmu",
+  "a": "",
+  "pc": "",
+  "lat": 50.029,
+  "lng": 19.96136,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Ofiar Faszyzmu Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1500744003",
+   "raw": {
+    "architect": "Witold Cęckiewicz",
+    "height": "7",
+    "heritage": "yes",
+    "historic": "monument",
+    "inscription": "W hołdzie męczennikom pomordowanym przez hitlerowskich ludobójców w latach 1943–1945",
+    "material": "stone",
+    "name": "Pomnik Ofiar Faszyzmu",
+    "name:pl": "Pomnik Ofiar Faszyzmu",
+    "name:ru": "Памятник жертвам фашизма",
+    "start_date": "1964",
+    "wikidata": "Q11823369",
+    "wikipedia": "pl:Pomnik Ofiar Faszyzmu w Krakowie"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hujowagorka",
+  "n": "Hujowa Górka",
+  "a": "",
+  "pc": "",
+  "lat": 50.03032,
+  "lng": 19.96541,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Hujowa Górka Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1500744010",
+   "raw": {
+    "alt_name": "Chujowa Górka",
+    "alt_name:pl": "Chujowa Górka",
+    "historic": "memorial",
+    "layer": "5",
+    "man_made": "cross",
+    "memorial": "cross",
+    "name": "Hujowa Górka",
+    "name:pl": "Hujowa Górka",
+    "name:ru": "Хуёва-Гурка",
+    "wikidata": "Q5935378",
+    "wikimedia_commons": "File:Chujowa Gorka.JPG",
+    "wikipedia": "pl:Hujowa Górka"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "krak",
+  "n": "Krak",
+  "a": "",
+  "pc": "",
+  "lat": 50.06074,
+  "lng": 19.94117,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Krak Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1512027471",
+   "raw": {
+    "historic": "memorial",
+    "name": "Krak",
+    "name:be": "Крак",
+    "name:pl": "Krak",
+    "wikidata": "Q11823307",
+    "wikipedia": "pl:Pomnik Kraka w Krakowie"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jozefdietl",
+  "n": "Józef Dietl",
+  "a": "",
+  "pc": "",
+  "lat": 50.05909,
+  "lng": 19.93676,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Józef Dietl Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1517262415",
+   "raw": {
+    "artist_name": "Xawery Dunikowski",
+    "description:hu": "Josef Dietl (1804–78) osztrák orvos, patológus, balneológus, egyetemi oktató és politikus, a krakkói egyetem rektora, később a város polgármestere",
+    "height": "15",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Józef Dietl",
+    "name:de": "Josef-Dietl-Denkmal",
+    "name:hu": "Józef Dietl",
+    "name:pl": "Józef Dietl",
+    "opening_hours": "24/7",
+    "start_date": "1938-10-08",
+    "subject:wikidata": "Q746534",
+    "subject:wikipedia": "pl:Józef Dietl",
+    "tourism": "attraction",
+    "wheelchair": "yes",
+    "wikidata": "Q11823273",
+    "wikipedia": "pl:Pomnik Józefa Dietla w Krakowie"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikzydowpomordowanych",
+  "n": "Pomnik Żydów pomordowanych przez hitlerowców w 1942 roku",
+  "a": "",
+  "pc": "",
+  "lat": 50.0167,
+  "lng": 20.21945,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Żydów pomordowanych przez hitlerowców w 1942 roku Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1699651142",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "stone",
+    "name": "Pomnik Żydów pomordowanych przez hitlerowców w 1942 roku"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kapliczkadawnalatarniaum",
+  "n": "Kapliczka - dawna latarnia umarłych",
+  "a": "",
+  "pc": "",
+  "lat": 50.04687,
+  "lng": 19.92449,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Kapliczka - dawna latarnia umarłych Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1709318024",
+   "raw": {
+    "historic": "wayside_shrine",
+    "name": "Kapliczka - dawna latarnia umarłych",
+    "religion": "christian"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kapliczkasobierajow",
+  "n": "Kapliczka Sobierajów",
+  "a": "",
+  "pc": "",
+  "lat": 50.08877,
+  "lng": 19.95923,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Kapliczka Sobierajów Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1740781275",
+   "raw": {
+    "building": "wayside_shrine",
+    "denomination": "roman_catholic",
+    "historic": "wayside_shrine",
+    "name": "Kapliczka Sobierajów",
+    "religion": "christian",
+    "start_date": "1683",
+    "wikimedia_commons": "File:Kapliczka Sobierajów z XVIII w w Krakowie.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "domstanisawawyspianskieg",
+  "n": "Dom Stanisława Wyspiańskiego",
+  "a": "",
+  "pc": "",
+  "lat": 50.11959,
+  "lng": 19.97609,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Dom Stanisława Wyspiańskiego Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1741976932",
+   "raw": {
+    "historic": "memorial",
+    "name": "Dom Stanisława Wyspiańskiego"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lokomotywaaghty2559",
+  "n": "Lokomotywa AGH Ty2-559",
+  "a": "",
+  "pc": "",
+  "lat": 50.06735,
+  "lng": 19.91735,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Lokomotywa AGH Ty2-559 Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1746708895",
+   "raw": {
+    "historic": "locomotive",
+    "locomotive:type": "steam",
+    "model": "Ty2-559",
+    "name": "Lokomotywa AGH Ty2-559",
+    "tourism": "attraction",
+    "wheelchair": "yes",
+    "wikidata": "Q11762474",
+    "wikipedia": "pl:Lokomotywa AGH"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "krzyzgrunwaldzki",
+  "n": "Krzyż Grunwaldzki",
+  "a": "",
+  "pc": "",
+  "lat": 50.10086,
+  "lng": 19.81134,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Krzyż Grunwaldzki Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1835606491",
+   "raw": {
+    "historic": "memorial",
+    "name": "Krzyż Grunwaldzki",
+    "source": "gps",
+    "subject:wikidata": "Q33570"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "swwincentyapaulo",
+  "n": "Św. Wincenty à Paulo",
+  "a": "",
+  "pc": "",
+  "lat": 50.07101,
+  "lng": 19.91171,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Św. Wincenty à Paulo Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1878082164",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Św. Wincenty à Paulo 1581 - 1660 Patron Dzieł Miłosierdzia […]",
+    "memorial": "statue",
+    "name": "Św. Wincenty à Paulo",
+    "subject:wikipedia": "pl:Wincenty a Paulo"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mikro",
+  "n": "Mikro",
+  "a": "",
+  "pc": "",
+  "lat": 50.06953,
+  "lng": 19.92381,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Mikro Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1878966498",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Mikro",
+    "opening_hours": "\"zależnie od seansów\"",
+    "wheelchair": "no",
+    "wikidata": "Q38244641"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikmartyrologiirozstr",
+  "n": "Pomnik Martyrologii Rozstrzelanych 20 października 1943 roku w Krakowie",
+  "a": "",
+  "pc": "",
+  "lat": 50.07391,
+  "lng": 19.92668,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Martyrologii Rozstrzelanych 20 października 1943 roku w Krakowie Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1879715896",
+   "raw": {
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Pomnik Martyrologii Rozstrzelanych 20 października 1943 roku w Krakowie"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bohaterompolegymzaojczyz",
+  "n": "Bohaterom poległym za Ojczyznę",
+  "a": "",
+  "pc": "",
+  "lat": 49.98622,
+  "lng": 20.0523,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Bohaterom poległym za Ojczyznę Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1887204904",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Bohaterom poległym za Ojczyznę zamordowanym przez Hitlerowców w 1943 r., Kopalnia Soli Wieliczka",
+    "memorial": "war_memorial",
+    "name": "Bohaterom poległym za Ojczyznę",
+    "source:inscription": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pamiecipomordowanychwhit",
+  "n": "Pamięci pomordowanych w hitlerowskich obozach koncentracyjnych i obozach zagłady",
+  "a": "",
+  "pc": "",
+  "lat": 50.07179,
+  "lng": 19.92538,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pamięci pomordowanych w hitlerowskich obozach koncentracyjnych i obozach zagłady Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1892027904",
+   "raw": {
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Pamięci pomordowanych w hitlerowskich obozach koncentracyjnych i obozach zagłady",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pomnikczynuzbrojnegoprol",
+  "n": "Pomnik Czynu Zbrojnego Proletariatu Krakowa",
+  "a": "",
+  "pc": "",
+  "lat": 50.05501,
+  "lng": 19.95403,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Pomnik Czynu Zbrojnego Proletariatu Krakowa Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1893340190",
+   "raw": {
+    "artist_name": "Antoni Hajdecki",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Pomnik Czynu Zbrojnego Proletariatu Krakowa"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "adammickiewicz",
+  "n": "Adam Mickiewicz",
+  "a": "",
+  "pc": "",
+  "lat": 49.98418,
+  "lng": 20.06072,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Adam Mickiewicz Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1893672767",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Adam Mickiewicz",
+    "wikidata": "Q11823101",
+    "wikipedia": "pl:Pomnik Adama Mickiewicza w Wieliczce"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "erazmjozefjerzmanowski",
+  "n": "Erazm Józef Jerzmanowski",
+  "a": "",
+  "pc": "",
+  "lat": 49.9907,
+  "lng": 20.03257,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Erazm Józef Jerzmanowski Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1901080253",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Erazm Józef Jerzmanowski",
+    "subject:wikidata": "Q9254464",
+    "subject:wikipedia": "pl:Erazm Jerzmanowski"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kolumnazkrzyzemrok1776",
+  "n": "Kolumna z krzyżem - rok 1776",
+  "a": "",
+  "pc": "",
+  "lat": 50.07578,
+  "lng": 19.88911,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Kolumna z krzyżem - rok 1776 Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1905931905",
+   "raw": {
+    "description": "Kolumna z krzyżem fundacji Szymona Słabego i jego żony Zofii - z roku 1776",
+    "historic": "wayside_shrine",
+    "inscription": "FUNDATOR TEY FIGURY SZYMON SŁABY I ŻONA JEGO ZOFIA WIECZORKÓWNA \nWYSTAWIONA W RP 1776",
+    "name": "Kolumna z krzyżem - rok 1776",
+    "religion": "christian",
+    "url": "https://www.straznicyczasu.pl/viewtopic.php?t=819"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "krzyzhrwodzickiej",
+  "n": "Krzyż hr. Wodzickiej",
+  "a": "",
+  "pc": "",
+  "lat": 50.01504,
+  "lng": 19.99552,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Krzyż hr. Wodzickiej Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1906216643",
+   "raw": {
+    "historic": "wayside_cross",
+    "inscription": "Na wieczną pamiątkę Dla Ludwiki z Hr. Wielopolskich Hr. Wodzickiey",
+    "name": "Krzyż hr. Wodzickiej"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tablicaprzyjaznikrakowai",
+  "n": "Tablica przyjaźni Krakowa i Kijowa",
+  "a": "",
+  "pc": "",
+  "lat": 50.07048,
+  "lng": 19.91458,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Tablica przyjaźni Krakowa i Kijowa Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1908973016",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Tablica przyjaźni Krakowa i Kijowa"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kapliczkabogaojca",
+  "n": "Kapliczka Boga Ojca",
+  "a": "",
+  "pc": "",
+  "lat": 50.04236,
+  "lng": 19.96032,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Kapliczka Boga Ojca Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1910815444",
+   "raw": {
+    "denomination": "roman_catholic",
+    "description": "Miejsce pamiętnego męczeństwa Polaków rozstrzelanych przez Niemców 20. XI. 1943 r.",
+    "historic": "wayside_shrine",
+    "name": "Kapliczka Boga Ojca",
+    "religion": "christian"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stanisawwyspianski",
+  "n": "Stanisław Wyspiański",
+  "a": "",
+  "pc": "",
+  "lat": 50.05972,
+  "lng": 19.92322,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Stanisław Wyspiański Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1918990221",
+   "raw": {
+    "artist:wikidata": "Q6370836",
+    "artist:wikipedia": "pl:Marian Konieczny",
+    "artist_name": "Marian Konieczny",
+    "historic": "memorial",
+    "inscription": "artysta malarz poeta dramaturg",
+    "memorial": "statue",
+    "name": "Stanisław Wyspiański",
+    "start_date": "1982",
+    "subject:wikidata": "Q312627",
+    "subject:wikipedia": "pl:Stanisław Wyspiański",
+    "wikidata": "Q11823456",
+    "wikimedia_commons": "Category:Stanisław Wyspiański Monument in Kraków",
+    "wikipedia": "pl:Pomnik Stanisława Wyspiańskiego w Krakowie"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "adamstefansapieha",
+  "n": "Adam Stefan Sapieha",
+  "a": "",
+  "pc": "",
+  "lat": 50.06124,
+  "lng": 19.9174,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Adam Stefan Sapieha Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1919234845",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Adam Stefan Sapieha",
+    "subject:wikidata": "Q350963",
+    "subject:wikipedia": "pl:Adam Stefan Sapieha"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "skawina",
+  "n": "Skawina",
+  "a": "",
+  "pc": "",
+  "lat": 49.97528,
+  "lng": 19.8275,
+  "c": "oddity",
+  "s": "city of Poland",
+  "q": "Skawina Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q301924",
+   "raw": "city of Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kopankalesserpolandvoivo",
+  "n": "Kopanka, Lesser Poland Voivodeship",
+  "a": "",
+  "pc": "",
+  "lat": 49.98346,
+  "lng": 19.79324,
+  "c": "oddity",
+  "s": "village of Poland",
+  "q": "Kopanka, Lesser Poland Voivodeship Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q387156",
+   "raw": "village of Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "piekary",
+  "n": "Piekary",
+  "a": "",
+  "pc": "",
+  "lat": 50.02361,
+  "lng": 19.79583,
+  "c": "oddity",
+  "s": "village in Kraków County, Lesser Poland Voivodeship, Poland",
+  "q": "Piekary Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q733810",
+   "raw": "village in Kraków County, Lesser Poland Voivodeship, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "skawinka",
+  "n": "Skawinka",
+  "a": "",
+  "pc": "",
+  "lat": 49.99528,
+  "lng": 19.79611,
+  "c": "oddity",
+  "s": "river in Poland",
+  "q": "Skawinka Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q954273",
+   "raw": "river in Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "skawinatrainstation",
+  "n": "Skawina train station",
+  "a": "",
+  "pc": "",
+  "lat": 49.9772,
+  "lng": 19.8222,
+  "c": "oddity",
+  "s": "railway station in Skawina, Poland",
+  "q": "Skawina train station Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2156575",
+   "raw": "railway station in Skawina, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tyniec",
+  "n": "Tyniec",
+  "a": "",
+  "pc": "",
+  "lat": 50.0108,
+  "lng": 19.8203,
+  "c": "oddity",
+  "s": "historic village in Poland",
+  "q": "Tyniec Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3487449",
+   "raw": "historic village in Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gminaskawina",
+  "n": "Gmina Skawina",
+  "a": "",
+  "pc": "",
+  "lat": 49.98333,
+  "lng": 19.83333,
+  "c": "oddity",
+  "s": "urban-rural municipality in Lesser Poland Voivodeship, Polan",
+  "q": "Gmina Skawina Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7726653",
+   "raw": "urban-rural municipality in Lesser Poland Voivodeship, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "skawinazachodniatrainsta",
+  "n": "Skawina Zachodnia train station",
+  "a": "",
+  "pc": "",
+  "lat": 49.9731,
+  "lng": 19.8011,
+  "c": "oddity",
+  "s": "railway station in Skawina, Poland",
+  "q": "Skawina Zachodnia train station Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q9337738",
+   "raw": "railway station in Skawina, Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "zamekwskawinie",
+  "n": "Zamek w Skawinie",
+  "a": "",
+  "pc": "",
+  "lat": 49.9744,
+  "lng": 19.8233,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Zamek w Skawinie Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q9386736",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "skawinapowerstation",
+  "n": "Skawina Power Station",
+  "a": "",
+  "pc": "",
+  "lat": 49.97589,
+  "lng": 19.80389,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Skawina Power Station Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q11696584",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "korabniki",
+  "n": "Korabniki",
+  "a": "",
+  "pc": "",
+  "lat": 49.9719,
+  "lng": 19.852,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Korabniki Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q11743588",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museumofthebenedictineab",
+  "n": "Museum of the Benedictine Abbey in Tyniec",
+  "a": "",
+  "pc": "",
+  "lat": 50.0191,
+  "lng": 19.8023,
+  "c": "faith",
+  "s": "museum in Poland",
+  "q": "Museum of the Benedictine Abbey in Tyniec Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q11786921",
+   "raw": "museum in Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "palaceinpiekary",
+  "n": "Palace in Piekary",
+  "a": "",
+  "pc": "",
+  "lat": 50.0202,
+  "lng": 19.7919,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Palace in Piekary Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q11815013",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tyniecparishcemetery",
+  "n": "Tyniec parish cemetery",
+  "a": "",
+  "pc": "",
+  "lat": 50.0189,
+  "lng": 19.805,
+  "c": "death",
+  "s": "historic cemetery",
+  "q": "Tyniec parish cemetery Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16612261",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "manorinskawinakorabniki",
+  "n": "Manor in Skawina Korabniki",
+  "a": "",
+  "pc": "",
+  "lat": 49.97336,
+  "lng": 19.85806,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Manor in Skawina Korabniki Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16620067",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "skakipiekarskie",
+  "n": "Skałki Piekarskie",
+  "a": "",
+  "pc": "",
+  "lat": 50.01583,
+  "lng": 19.79417,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Skałki Piekarskie Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30906051",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kawernawpiekarach",
+  "n": "Kawerna w Piekarach",
+  "a": "",
+  "pc": "",
+  "lat": 50.01778,
+  "lng": 19.79622,
+  "c": "oddity",
+  "s": "cave in Poland",
+  "q": "Kawerna w Piekarach Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30906082",
+   "raw": "cave in Poland",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "skawinajagielniarailwayh",
+  "n": "Skawina Jagielnia railway halt",
+  "a": "",
+  "pc": "",
+  "lat": 49.97944,
+  "lng": 19.835,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Skawina Jagielnia railway halt Krakow",
+  "w": "",
+  "city": "krakow",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q48841510",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

@@ -1,0 +1,5062 @@
+[
+ {
+  "id": "galeriadeartaeuropeana",
+  "n": "Galeria de Artă Europeană",
+  "a": "",
+  "pc": "",
+  "lat": 44.43891,
+  "lng": 26.09647,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Galeria de Artă Europeană Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/255088136",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "49-53",
+    "addr:postcode": "010063",
+    "addr:street": "Calea Victoriei",
+    "fee": "yes",
+    "is_in:city": "București",
+    "name": "Galeria de Artă Europeană",
+    "opening_hours": "We-Su 10:00-18:00",
+    "operator": "Muzeul Naţional de Artă al României",
+    "tourism": "gallery",
+    "wheelchair": "limited"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericamarcuta",
+  "n": "Biserica Mărcuța",
+  "a": "",
+  "pc": "",
+  "lat": 44.44414,
+  "lng": 26.17164,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Mărcuța Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/256669045",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "8",
+    "addr:postcode": "022373",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Biserica Mărcuța",
+    "amenity": "place_of_worship",
+    "check_date": "2025-09-27",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Mărcuța",
+    "religion": "christian",
+    "start_date": "1586",
+    "wikidata": "Q4682370",
+    "wikipedia": "en:Mărcuța Church"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaizvorulnou",
+  "n": "Biserica Izvorul Nou",
+  "a": "",
+  "pc": "",
+  "lat": 44.42165,
+  "lng": 26.13757,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Izvorul Nou Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/256699692",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "311",
+    "addr:postcode": "030309",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Șoseaua Mihai Bravu",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Izvorul Nou",
+    "religion": "christian",
+    "start_date": "1823",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxatotisfin",
+  "n": "Biserica Ortodoxă \"Toți Sfinții Români\"",
+  "a": "",
+  "pc": "",
+  "lat": 44.40677,
+  "lng": 26.0735,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă \"Toți Sfinții Români\" Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/256878622",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "4",
+    "addr:postcode": "051909",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Aleea Sălaj",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă \"Toți Sfinții Români\"",
+    "religion": "christian",
+    "source:addr:housenumber": "survey",
+    "source:addr:street": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxasfantuls",
+  "n": "Biserica Ortodoxă „Sfântul Silvestru”",
+  "a": "",
+  "pc": "",
+  "lat": 44.44294,
+  "lng": 26.11541,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă „Sfântul Silvestru” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/257587205",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "36",
+    "addr:postcode": "020737",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Silvestru",
+    "amenity": "place_of_worship",
+    "check_date": "2025-04-11",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă „Sfântul Silvestru”",
+    "religion": "christian",
+    "start_date": "1743",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericasfvasilecelmares",
+  "n": "Biserica Sf. Vasile cel Mare și Sf. Ilie",
+  "a": "",
+  "pc": "",
+  "lat": 44.4108,
+  "lng": 26.01664,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Sf. Vasile cel Mare și Sf. Ilie Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/286674396",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "1",
+    "addr:postcode": "052834",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Floare de Gheață",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Sf. Vasile cel Mare și Sf. Ilie",
+    "religion": "christian",
+    "start_date": "1989"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cruceasecolului",
+  "n": "Crucea Secolului",
+  "a": "",
+  "pc": "",
+  "lat": 44.47271,
+  "lng": 26.08803,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Crucea Secolului Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304797077",
+   "raw": {
+    "addr:city": "București",
+    "addr:country": "RO",
+    "historic": "monument",
+    "man_made": "cross",
+    "name": "Crucea Secolului"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericacatolicasfintiip",
+  "n": "Biserica catolică „Sfinții Petru și Pavel”",
+  "a": "",
+  "pc": "",
+  "lat": 44.49043,
+  "lng": 26.09171,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica catolică „Sfinții Petru și Pavel” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304915993",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "16",
+    "addr:postcode": "013982",
+    "addr:street": "Strada Pechea",
+    "amenity": "place_of_worship",
+    "check_date": "2024-05-26",
+    "denomination": "roman_catholic",
+    "name": "Biserica catolică „Sfinții Petru și Pavel”",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericafloreascasfnicol",
+  "n": "Biserica Floreasca - Sf Nicolae",
+  "a": "",
+  "pc": "",
+  "lat": 44.47012,
+  "lng": 26.10466,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Floreasca - Sf Nicolae Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304916537",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "166",
+    "addr:postcode": "014472",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Calea Floreasca",
+    "amenity": "place_of_worship",
+    "check_date": "2025-04-07",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Floreasca - Sf Nicolae",
+    "religion": "christian",
+    "start_date": "1912"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxadoamnaol",
+  "n": "Biserica Ortodoxă „Doamna Oltea”",
+  "a": "",
+  "pc": "",
+  "lat": 44.45742,
+  "lng": 26.10633,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă „Doamna Oltea” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/306343402",
+   "raw": {
+    "addr:city": "București",
+    "addr:street": "Strada Barbu Văcărescu",
+    "amenity": "place_of_worship",
+    "check_date": "2023-10-26",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă „Doamna Oltea”",
+    "religion": "christian",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "coloanatimpuluijoccuinfi",
+  "n": "Coloana Timpului (Joc cu infinitul)",
+  "a": "",
+  "pc": "",
+  "lat": 44.43972,
+  "lng": 26.05161,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Coloana Timpului (Joc cu infinitul) Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/360401896",
+   "raw": {
+    "historic": "monument",
+    "name": "Coloana Timpului (Joc cu infinitul)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "avantultarii",
+  "n": "Avântul Țării",
+  "a": "",
+  "pc": "",
+  "lat": 44.43742,
+  "lng": 26.09324,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Avântul Țării Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/422555836",
+   "raw": {
+    "artist_name": "Emil Wilhelm Becker;Arghir Culina",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Avântul Țării",
+    "ref:RO:lmi": "B-III-m-B-20013",
+    "start_date": "1921",
+    "wikidata": "Q12735917",
+    "wikipedia": "ro:Monumentul Avântul Țării din București"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxasfantulg",
+  "n": "Biserica Ortodoxă „Sfântul Gheorghe - Capră”",
+  "a": "",
+  "pc": "",
+  "lat": 44.44456,
+  "lng": 26.14623,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă „Sfântul Gheorghe - Capră” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/440160978",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "131",
+    "addr:postcode": "021804",
+    "addr:street": "Șoseaua Pantelimon",
+    "amenity": "place_of_worship",
+    "check_date": "2024-11-17",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă „Sfântul Gheorghe - Capră”",
+    "religion": "christian",
+    "start_date": "1877",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cineplexx",
+  "n": "Cineplexx",
+  "a": "",
+  "pc": "",
+  "lat": 44.4195,
+  "lng": 26.17861,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cineplexx Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/442896940",
+   "raw": {
+    "addr:city": "București",
+    "addr:country": "RO",
+    "addr:housenumber": "33A",
+    "addr:postcode": "032455",
+    "addr:street": "Bulevardul 1 Decembrie 1918",
+    "amenity": "cinema",
+    "branch": "Auchan Titan",
+    "brand": "Cineplexx",
+    "brand:wikidata": "Q873340",
+    "brand:wikipedia": "en:Cineplexx Cinemas",
+    "level": "1",
+    "name": "Cineplexx",
+    "opening_hours": "Mo-Fr 15:00-22:00; Sa-Su 11:30-22:00",
+    "screen": "8",
+    "source:addr:housenumber": "survey",
+    "website": "https://cineplexx.ro/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericasfantulantonieco",
+  "n": "Biserica Sfântul Antonie - Colentina",
+  "a": "",
+  "pc": "",
+  "lat": 44.46011,
+  "lng": 26.13359,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Sfântul Antonie - Colentina Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/445630265",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "20",
+    "addr:postcode": "021212",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Trei Scaune",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Sfântul Antonie - Colentina",
+    "religion": "christian",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "coloana",
+  "n": "Coloana",
+  "a": "",
+  "pc": "",
+  "lat": 44.47831,
+  "lng": 26.07426,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Coloana Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/452652929",
+   "raw": {
+    "artist_name": "Eugen Ciucă",
+    "artwork_type": "sculpture",
+    "height": "11.30",
+    "material": "stone",
+    "name": "Coloana",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxaschituma",
+  "n": "Biserica Ortodoxă Schitu Măgureanu",
+  "a": "",
+  "pc": "",
+  "lat": 44.43919,
+  "lng": 26.08734,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă Schitu Măgureanu Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/462347535",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "14",
+    "addr:postcode": "010186",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Bulevardul Schitu Măgureanu",
+    "amenity": "place_of_worship",
+    "check_date": "2023-11-13",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă Schitu Măgureanu",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lenin",
+  "n": "Lenin",
+  "a": "",
+  "pc": "",
+  "lat": 44.5284,
+  "lng": 25.99353,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Lenin Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/471447988",
+   "raw": {
+    "historic": "monument",
+    "monument": "statue",
+    "name": "Lenin",
+    "source": "local knowledge"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentuleroilorfrancez",
+  "n": "Monumentul Eroilor Francezi",
+  "a": "",
+  "pc": "",
+  "lat": 44.43694,
+  "lng": 26.09094,
+  "c": "death",
+  "s": "historic tomb",
+  "q": "Monumentul Eroilor Francezi Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/473428601",
+   "raw": {
+    "artist_name": "Ion Jalea",
+    "artwork_type": "statue",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "image": "https://photos.app.goo.gl/dQNuMJzMmw7NN29UA",
+    "inscription": "„Aux soldats français tombés au champ d’honneur sur le sol roumain pendant la Grande Guerre 1916-1918”",
+    "mapillary": "766829520643913",
+    "material": "marble",
+    "name": "Monumentul Eroilor Francezi",
+    "name:en": "The French Heroes Monument",
+    "name:fr": "Monument des Héros Français",
+    "ref:RO:lmi": "B-III-m-B-20049",
+    "start_date": "1922-10-25",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wikidata": "Q167032",
+    "wikipedia": "ro:Monumentul Eroilor Francezi din București"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxasfalexan",
+  "n": "Biserica Ortodoxă Sf. Alexandru",
+  "a": "",
+  "pc": "",
+  "lat": 44.45663,
+  "lng": 26.1412,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă Sf. Alexandru Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/483544085",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "125",
+    "addr:postcode": "022824",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Doamna Ghica",
+    "amenity": "place_of_worship",
+    "check_date": "2024-12-30",
+    "denomination": "romanian_orthodox",
+    "is_in:city": "București",
+    "name": "Biserica Ortodoxă Sf. Alexandru",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxasfantatr",
+  "n": "Biserica Ortodoxă \"Sfânta Treime - Dudești\"",
+  "a": "",
+  "pc": "",
+  "lat": 44.4224,
+  "lng": 26.13218,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă \"Sfânta Treime - Dudești\" Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/493727263",
+   "raw": {
+    "addr:city": "București",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă \"Sfânta Treime - Dudești\"",
+    "religion": "christian",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxadeleanou",
+  "n": "Biserica Ortodoxă \"Delea Nouă - Calist\"",
+  "a": "",
+  "pc": "",
+  "lat": 44.43138,
+  "lng": 26.13051,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă \"Delea Nouă - Calist\" Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/493732507",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "1",
+    "addr:postcode": "030924",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Delea Nouă",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă \"Delea Nouă - Calist\"",
+    "religion": "christian",
+    "start_date": "1798",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxadichiu",
+  "n": "Biserica Ortodoxă „Dichiu”",
+  "a": "",
+  "pc": "",
+  "lat": 44.44761,
+  "lng": 26.11072,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă „Dichiu” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/493892409",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "73",
+    "addr:postcode": "020454",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Icoanei",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă „Dichiu”",
+    "religion": "christian",
+    "start_date": "1775",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "constantinbrancusi",
+  "n": "Constantin Brâncuși",
+  "a": "",
+  "pc": "",
+  "lat": 44.45974,
+  "lng": 26.09408,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Constantin Brâncuși Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/502524099",
+   "raw": {
+    "addr:city": "București",
+    "addr:country": "RO",
+    "artwork_type": "bust",
+    "historic": "monument",
+    "name": "Constantin Brâncuși",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "charlesdegaulle",
+  "n": "Charles de Gaulle",
+  "a": "",
+  "pc": "",
+  "lat": 44.46697,
+  "lng": 26.0857,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Charles de Gaulle Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/530686317",
+   "raw": {
+    "artist_name": "Mircea Corneliu Spătaru",
+    "artwork_type": "statue",
+    "image": "https://photos.app.goo.gl/9VnWqWUeHpjpLuGD7",
+    "mapillary": "2934621286860401",
+    "material": "bronze",
+    "name": "Charles de Gaulle",
+    "name:fr": "Charles de Gaulle",
+    "start_date": "2004",
+    "subject:wikidata": "Q2042",
+    "tourism": "artwork",
+    "wheelchair": "limited",
+    "wikidata": "Q12741340",
+    "wikipedia": "ro:Statuia lui Charles de Gaulle din București"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sandorpetofi",
+  "n": "Sándor Petőfi",
+  "a": "",
+  "pc": "",
+  "lat": 44.46932,
+  "lng": 26.08219,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Sándor Petőfi Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/559615174",
+   "raw": {
+    "artist_name": "A. Sobotka",
+    "artwork_type": "bust",
+    "material": "stone",
+    "name": "Sándor Petőfi",
+    "subject:wikidata": "Q81219",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fantanamodura",
+  "n": "Fântâna Modura",
+  "a": "",
+  "pc": "",
+  "lat": 44.468,
+  "lng": 26.08481,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Fântâna Modura Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/559629028",
+   "raw": {
+    "amenity": "fountain",
+    "artist_name": "Ioana Kassargian",
+    "artwork_type": "statue",
+    "historic": "monument",
+    "image": "https://photos.app.goo.gl/rSPyQT71PeCzRywx5",
+    "mapillary": "289190906077032",
+    "material": "stone",
+    "name": "Fântâna Modura",
+    "tourism": "artwork",
+    "wikidata": "Q18541978",
+    "wikipedia": "ro:Fântâna Modura"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentuleroiloraerului",
+  "n": "Monumentul Eroilor Aerului",
+  "a": "",
+  "pc": "",
+  "lat": 44.45977,
+  "lng": 26.08608,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumentul Eroilor Aerului Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/559876471",
+   "raw": {
+    "addr:city": "București",
+    "addr:country": "RO",
+    "historic": "monument",
+    "image": "https://photos.app.goo.gl/sHTDb5QfjQN2NmkCA",
+    "mapillary": "465943321176822",
+    "name": "Monumentul Eroilor Aerului",
+    "wikidata": "Q1187980",
+    "wikimedia_commons": "Category:Monument to the Heroes of the Air",
+    "wikipedia": "en:Monument to the Heroes of the Air"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxaiancuvec",
+  "n": "Biserica Ortodoxă „Iancu Vechi”",
+  "a": "",
+  "pc": "",
+  "lat": 44.44001,
+  "lng": 26.12907,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă „Iancu Vechi” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/559958651",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "39",
+    "addr:postcode": "021425",
+    "addr:street": "Strada Mătăsari",
+    "amenity": "place_of_worship",
+    "check_date": "2023-11-07",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă „Iancu Vechi”",
+    "religion": "christian",
+    "start_date": "1774",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericasfantairina",
+  "n": "Biserica „Sfânta Irina”",
+  "a": "",
+  "pc": "",
+  "lat": 44.49833,
+  "lng": 26.17387,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica „Sfânta Irina” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/581138389",
+   "raw": {
+    "addr:city": "Voluntari",
+    "addr:housenumber": "10",
+    "addr:interpolation": "even",
+    "addr:postcode": "077190",
+    "addr:street": "Strada Erou Mircea Marinescu",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "email": "parohiasfantairina@yahoo.com",
+    "name": "Biserica „Sfânta Irina”",
+    "phone": "0788.202.640",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxasfantula",
+  "n": "Biserica Ortodoxă „Sfântul Andrei”",
+  "a": "",
+  "pc": "",
+  "lat": 44.4176,
+  "lng": 26.01636,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă „Sfântul Andrei” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/599008479",
+   "raw": {
+    "addr:city": "București",
+    "addr:street": "Aleea Parva",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "is_in:city": "București",
+    "is_in:country": "România",
+    "name": "Biserica Ortodoxă „Sfântul Andrei”",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentuleroilorcazutii",
+  "n": "Monumentul Eroilor Căzuți în Primul și al Doilea Război Mondial",
+  "a": "",
+  "pc": "",
+  "lat": 44.41259,
+  "lng": 26.16356,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Monumentul Eroilor Căzuți în Primul și al Doilea Război Mondial Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/623620164",
+   "raw": {
+    "artwork_type": "statue",
+    "is_in:city": "București",
+    "memorial": "war_memorial",
+    "name": "Monumentul Eroilor Căzuți în Primul și al Doilea Război Mondial",
+    "tourism": "artwork",
+    "wikidata": "Q18542037",
+    "wikimedia_commons": "Category:Monument to the Heroes of the World War I and World War II, Spiridon Georgescu, Bucharest",
+    "wikipedia": "ro:Monumentul eroilor căzuți în Primul și Al Doilea Război Mondial din București"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxasfantulc",
+  "n": "Biserica Ortodoxă Sfântul Calinic",
+  "a": "",
+  "pc": "",
+  "lat": 44.42689,
+  "lng": 26.14914,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă Sfântul Calinic Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/630643251",
+   "raw": {
+    "addr:city": "București",
+    "amenity": "place_of_worship",
+    "check_date": "2023-11-05",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă Sfântul Calinic",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaadventistabaltaa",
+  "n": "Biserica Adventistă Balta Albă",
+  "a": "",
+  "pc": "",
+  "lat": 44.41121,
+  "lng": 26.16256,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Adventistă Balta Albă Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/639027997",
+   "raw": {
+    "addr:city": "București",
+    "amenity": "place_of_worship",
+    "denomination": "seventh_day_adventist",
+    "name": "Biserica Adventistă Balta Albă",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mihailsadoveanu",
+  "n": "Mihail Sadoveanu",
+  "a": "",
+  "pc": "",
+  "lat": 44.47652,
+  "lng": 26.08874,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Mihail Sadoveanu Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/690802731",
+   "raw": {
+    "artist_name": "Romul Ladea",
+    "artwork_type": "statue",
+    "material": "bronze",
+    "name": "Mihail Sadoveanu",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "georgeenescu",
+  "n": "George Enescu",
+  "a": "",
+  "pc": "",
+  "lat": 44.4347,
+  "lng": 26.07934,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "George Enescu Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/832531662",
+   "raw": {
+    "addr:city": "București",
+    "artist_name": "Ion Jalea",
+    "artwork_type": "statue",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "is_in:city": "București",
+    "material": "bronze",
+    "name": "George Enescu",
+    "ref:RO:lmi": "B-III-m-B-19998",
+    "start_date": "1971",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "patria",
+  "n": "Patria",
+  "a": "",
+  "pc": "",
+  "lat": 44.44255,
+  "lng": 26.09921,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Patria Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/849372213",
+   "raw": {
+    "addr:city": "București",
+    "amenity": "cinema",
+    "name": "Patria",
+    "opening_hours": "closed",
+    "wheelchair": "yes",
+    "wikidata": "Q7145239",
+    "wikipedia": "en:Patria Cinema"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "imax",
+  "n": "IMAX",
+  "a": "",
+  "pc": "",
+  "lat": 44.43136,
+  "lng": 26.05372,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "IMAX Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/849372287",
+   "raw": {
+    "addr:city": "București",
+    "addr:country": "RO",
+    "addr:housenumber": "4",
+    "addr:postcode": "061346",
+    "addr:street": "Bulevardul General Paul Teodorescu",
+    "amenity": "cinema",
+    "brand:wikidata": "Q1654103",
+    "brand:wikipedia": "en:IMAX",
+    "level": "1",
+    "name": "IMAX",
+    "operator": "Cinema City Romania",
+    "screen": "1",
+    "source:addr:housenumber": "survey",
+    "source:addr:street": "survey",
+    "website": "https://www.cinemacity.ro/imax"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hollywoodmultiplex",
+  "n": "Hollywood Multiplex",
+  "a": "",
+  "pc": "",
+  "lat": 44.41982,
+  "lng": 26.12726,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Hollywood Multiplex Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/849372311",
+   "raw": {
+    "addr:city": "București",
+    "addr:country": "RO",
+    "addr:housenumber": "55-59",
+    "addr:postcode": "031281",
+    "addr:street": "Calea Vitan",
+    "amenity": "cinema",
+    "branch": "Bucuresti Mall",
+    "facebook": "hollywoodmultiplex",
+    "level": "2",
+    "name": "Hollywood Multiplex",
+    "operator": "Hollywood Multiplex Operations SRL",
+    "phone": "+40 21 327 7020",
+    "screen": "10",
+    "source:postcode": "survey",
+    "source:streetnumber": "survey",
+    "start_date": "1999",
+    "website": "https://hmultiplex.ro/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinematecaeforie",
+  "n": "Cinemateca Eforie",
+  "a": "",
+  "pc": "",
+  "lat": 44.43409,
+  "lng": 26.09687,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinemateca Eforie Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/849372318",
+   "raw": {
+    "addr:city": "București",
+    "addr:country": "RO",
+    "addr:housenumber": "2",
+    "addr:interpolation": "odd",
+    "addr:postcode": "050037",
+    "addr:street": "Strada Eforiei",
+    "amenity": "cinema",
+    "contact:facebook": "cinematecaeforiebucuresti",
+    "name": "Cinemateca Eforie",
+    "phone": "021 313 0483",
+    "source:addr:street": "survey",
+    "website": "http://www.anf-cinemateca.ro/selectii-din-program",
+    "wikidata": "Q37815679"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "movieplex",
+  "n": "Movieplex",
+  "a": "",
+  "pc": "",
+  "lat": 44.42801,
+  "lng": 26.0341,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Movieplex Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/849372344",
+   "raw": {
+    "addr:city": "București",
+    "addr:country": "RO",
+    "addr:housenumber": "26",
+    "addr:postcode": "061331",
+    "addr:street": "Bulevardul Timișoara",
+    "amenity": "cinema",
+    "facebook": "movieplexcinema",
+    "level": "2",
+    "name": "Movieplex",
+    "operator": "Anchor Grup",
+    "screen": "11",
+    "source:addr:housenumber": "survey",
+    "source:addr:street": "survey",
+    "website": "https://movieplex.ro/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemaunion",
+  "n": "Cinema Union",
+  "a": "",
+  "pc": "",
+  "lat": 44.43715,
+  "lng": 26.09603,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinema Union Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/849372350",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "21",
+    "addr:postcode": "010033",
+    "addr:street": "Strada Ion Câmpineanu",
+    "alt_name": "Cinemateca Union",
+    "amenity": "cinema",
+    "facebook": "CinemaUnionBucuresti",
+    "name": "Cinema Union",
+    "official_name": "Sala Paul Călinescu",
+    "phone": "+40 21 313 9289",
+    "screen": "1",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemacity",
+  "n": "Cinema City",
+  "a": "",
+  "pc": "",
+  "lat": 44.39618,
+  "lng": 26.12216,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinema City Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/849372378",
+   "raw": {
+    "addr:city": "București",
+    "addr:country": "RO",
+    "addr:housenumber": "391",
+    "addr:postcode": "040055",
+    "addr:street": "Calea Văcărești",
+    "amenity": "cinema",
+    "branch": "Sun Plaza",
+    "brand": "Cinema City",
+    "brand:wikidata": "Q543651",
+    "brand:wikipedia": "en:Cinema City International",
+    "name": "Cinema City",
+    "screen": "15",
+    "source:addr:housenumber": "survey",
+    "source:addr:postcode": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemaeuropa",
+  "n": "Cinema Europa",
+  "a": "",
+  "pc": "",
+  "lat": 44.43813,
+  "lng": 26.11431,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinema Europa Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/849372410",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "127",
+    "addr:postcode": "020854",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Calea Moșilor",
+    "amenity": "cinema",
+    "capacity": "247",
+    "contact:facebook": "CinematografulEuropa",
+    "name": "Cinema Europa",
+    "opening_hours": "Mo-Fr 12:00-22:00; Sa 10:30-22:00",
+    "phone": "021 3672567",
+    "website": "http://www.romaniafilm.ro/cinematografe/cinema-europa-bucuresti"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vladimirghika",
+  "n": "Vladimir Ghika",
+  "a": "",
+  "pc": "",
+  "lat": 44.45983,
+  "lng": 26.08861,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Vladimir Ghika Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/881802945",
+   "raw": {
+    "addr:city": "București",
+    "addr:country": "RO",
+    "artwork_type": "statue",
+    "is_in:city": "București",
+    "name": "Vladimir Ghika",
+    "subject:wikidata": "Q3561784",
+    "subject:wikipedia": "en:Vladimir Ghika",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:Statue of Vladimir in Bukarest Ghika 2022-05-17.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "simonbolivar",
+  "n": "Simón Bolívar",
+  "a": "",
+  "pc": "",
+  "lat": 44.46526,
+  "lng": 26.0886,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Simón Bolívar Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/883273771",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Simón Bolívar",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentulaerului",
+  "n": "Monumentul Aerului",
+  "a": "",
+  "pc": "",
+  "lat": 44.45703,
+  "lng": 26.09127,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Monumentul Aerului Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/883514530",
+   "raw": {
+    "artist_name": "Emil Ludovic Gové",
+    "artwork_type": "sculpture",
+    "historic": "monument",
+    "name": "Monumentul Aerului",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericagrecocatolicaacv",
+  "n": "Biserica Greco-Catolică Acvila",
+  "a": "",
+  "pc": "",
+  "lat": 44.42299,
+  "lng": 26.08059,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Greco-Catolică Acvila Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/893441658",
+   "raw": {
+    "addr:housenumber": "39",
+    "addr:street": "Strada Sirenelor",
+    "amenity": "place_of_worship",
+    "denomination": "greek_catholic",
+    "name": "Biserica Greco-Catolică Acvila",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericasfantulnicolaene",
+  "n": "Biserica Sfântul Nicolae - Negustori",
+  "a": "",
+  "pc": "",
+  "lat": 44.43399,
+  "lng": 26.10965,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Sfântul Nicolae - Negustori Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/899599769",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "5",
+    "addr:street": "Strada Teodor Ștefănescu",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Sfântul Nicolae - Negustori",
+    "religion": "christian",
+    "start_date": "1721"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxagreaca",
+  "n": "Biserica Ortodoxă Greacă",
+  "a": "",
+  "pc": "",
+  "lat": 44.43855,
+  "lng": 26.11767,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă Greacă Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/899633232",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "1",
+    "addr:postcode": "021403",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Bulevardul Pache Protopopescu",
+    "amenity": "place_of_worship",
+    "check_date": "2024-10-08",
+    "denomination": "greek_orthodox",
+    "name": "Biserica Ortodoxă Greacă",
+    "religion": "christian",
+    "start_date": "1893",
+    "tourism": "place_of_worship",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "carosetti",
+  "n": "C. A. Rosetti",
+  "a": "",
+  "pc": "",
+  "lat": 44.4363,
+  "lng": 26.10648,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "C. A. Rosetti Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/899658120",
+   "raw": {
+    "artist_name": "Wladimir Hegel",
+    "artwork_type": "statue",
+    "is_in:city": "București",
+    "material": "bronze",
+    "monument": "statue",
+    "name": "C. A. Rosetti",
+    "start_date": "1902",
+    "subject": "Constantin Alexandru Rosetti",
+    "subject:wikidata": "Q2092785",
+    "tourism": "artwork",
+    "wikidata": "Q12735931",
+    "wikipedia": "ro:Monumentul lui C. A. Rosetti"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxasfintiii",
+  "n": "Biserica Ortodoxă \"Sfinții Ioachim și Ana - Oborul Vechi\"",
+  "a": "",
+  "pc": "",
+  "lat": 44.43944,
+  "lng": 26.12093,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă \"Sfinții Ioachim și Ana - Oborul Vechi\" Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/905720788",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "204",
+    "addr:postcode": "024046",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Traian",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă \"Sfinții Ioachim și Ana - Oborul Vechi\"",
+    "religion": "christian",
+    "url": "http://www.crestinortodox.ro/biserici-manastiri/mitropolia-munteniei-dobrogei/biserica-sfintii-ioachim-ana-oborul-vechi-68180.html"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxapopasoar",
+  "n": "Biserica Ortodoxă Popa Soare",
+  "a": "",
+  "pc": "",
+  "lat": 44.43591,
+  "lng": 26.11857,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă Popa Soare Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/905726832",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "7",
+    "addr:postcode": "024031",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Doctor Burghelea",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă Popa Soare",
+    "religion": "christian",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alexandrulahovary",
+  "n": "Alexandru Lahovary",
+  "a": "",
+  "pc": "",
+  "lat": 44.44549,
+  "lng": 26.09997,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Alexandru Lahovary Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/905903852",
+   "raw": {
+    "artist_name": "Jean-Marius Antonin Mercié",
+    "artwork_type": "statue",
+    "is_in:city": "București",
+    "material": "bronze",
+    "monument": "statue",
+    "name": "Alexandru Lahovary",
+    "tourism": "artwork",
+    "wheelchair": "no",
+    "wikidata": "Q12741336",
+    "wikimedia_commons": "Category:Monument to Alexandru Lahovary, Marius Jean Antonin Mercié, Bucharest",
+    "wikipedia": "ro:Statuia lui Alexandru Lahovari din București"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxaprecupet",
+  "n": "Biserica Ortodoxă „Precupeții Vechi - a Tuturor Sfinților”",
+  "a": "",
+  "pc": "",
+  "lat": 44.44649,
+  "lng": 26.11538,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă „Precupeții Vechi - a Tuturor Sfinților” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/906031384",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "92",
+    "addr:postcode": "020715",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Toamnei",
+    "alt_name": "Biserica Ortodoxă a Tuturor Sfinților",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă „Precupeții Vechi - a Tuturor Sfinților”",
+    "religion": "christian",
+    "start_date": "1773",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentuleroilorcazutii2",
+  "n": "Monumentul Eroilor căzuți în primul război mondial",
+  "a": "",
+  "pc": "",
+  "lat": 44.45679,
+  "lng": 26.16313,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumentul Eroilor căzuți în primul război mondial Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/906089634",
+   "raw": {
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "monument": "statue",
+    "name": "Monumentul Eroilor căzuți în primul război mondial",
+    "ref:RO:lmi": "IF-III-m-B-15330"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxaolari",
+  "n": "Biserica Ortodoxă „Olari”",
+  "a": "",
+  "pc": "",
+  "lat": 44.43872,
+  "lng": 26.11585,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă „Olari” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/915929726",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "8A",
+    "addr:postcode": "024057",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Olari",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă „Olari”",
+    "religion": "christian",
+    "start_date": "1758"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mihailcantacuzino",
+  "n": "Mihail Cantacuzino",
+  "a": "",
+  "pc": "",
+  "lat": 44.43439,
+  "lng": 26.10329,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Mihail Cantacuzino Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/916016099",
+   "raw": {
+    "artist_name": "Karl Storck",
+    "artwork_type": "statue",
+    "is_in:city": "București",
+    "material": "marble",
+    "monument": "statue",
+    "name": "Mihail Cantacuzino",
+    "start_date": "1870",
+    "tourism": "artwork",
+    "wikidata": "Q18548130",
+    "wikimedia_commons": "Category:Monument to Mihail Cantacuzino, Karl Storck, Bucharest",
+    "wikipedia": "ro:Statuia spătarului Mihai Cantacuzino"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "constantinbrancoveanu",
+  "n": "Constantin Brâncoveanu",
+  "a": "",
+  "pc": "",
+  "lat": 44.43239,
+  "lng": 26.10422,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Constantin Brâncoveanu Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/916036213",
+   "raw": {
+    "artwork_type": "statue",
+    "is_in:city": "București",
+    "material": "bronze",
+    "monument": "statue",
+    "name": "Constantin Brâncoveanu",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentulsifantanaluigi",
+  "n": "Monumentul și fântâna Luigi Cazzavillan",
+  "a": "",
+  "pc": "",
+  "lat": 44.44247,
+  "lng": 26.08659,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Monumentul și fântâna Luigi Cazzavillan Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/916143488",
+   "raw": {
+    "amenity": "fountain",
+    "artwork_type": "statue",
+    "is_in:city": "București",
+    "monument": "statue",
+    "name": "Monumentul și fântâna Luigi Cazzavillan",
+    "start_date": "1906",
+    "tourism": "artwork",
+    "wikidata": "Q18542055",
+    "wikipedia": "ro:Monumentul și fântâna Luigi Cazzavillan"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dinicugolescu",
+  "n": "Dinicu Golescu",
+  "a": "",
+  "pc": "",
+  "lat": 44.44255,
+  "lng": 26.07844,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Dinicu Golescu Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/916152291",
+   "raw": {
+    "artist_name": "Wladimir Hegel",
+    "artwork_type": "statue",
+    "is_in:city": "București",
+    "memorial": "statue",
+    "name": "Dinicu Golescu",
+    "subject:wikidata": "Q731706",
+    "subject:wikipedia": "en:Dinicu Golescu",
+    "tourism": "artwork",
+    "wikidata": "Q12735933",
+    "wikipedia": "ro:Monumentul lui Dinicu Golescu din București"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxasfintiiv",
+  "n": "Biserica Ortodoxă „Sfinții Voievozi”",
+  "a": "",
+  "pc": "",
+  "lat": 44.44571,
+  "lng": 26.08396,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă „Sfinții Voievozi” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/916164675",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "58",
+    "addr:postcode": "010734",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Calea Griviței",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "is_in:city": "București",
+    "is_in:country": "România",
+    "name": "Biserica Ortodoxă „Sfinții Voievozi”",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxasfantulp",
+  "n": "Biserica Ortodoxă „Sfântul Pantelimon”",
+  "a": "",
+  "pc": "",
+  "lat": 44.44248,
+  "lng": 26.12179,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă „Sfântul Pantelimon” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/920697793",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "24",
+    "addr:postcode": "021364",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Iancu Căpitanu",
+    "amenity": "place_of_worship",
+    "check_date": "2024-11-20",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă „Sfântul Pantelimon”",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "domnitabalasa",
+  "n": "Domnița Bălașa",
+  "a": "",
+  "pc": "",
+  "lat": 44.42845,
+  "lng": 26.09992,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Domnița Bălașa Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/921821381",
+   "raw": {
+    "addr:city": "București",
+    "artist_name": "Karl Storck",
+    "artwork_type": "statue",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "is_in:city": "București",
+    "material": "marble",
+    "monument": "statue",
+    "name": "Domnița Bălașa",
+    "name:ro": "Domnița Bălașa",
+    "ref:RO:lmi": "B-III-m-B-20052",
+    "start_date": "1881",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxapopasapc",
+  "n": "Biserica Ortodoxă „Popa Șapcă” Voluntari",
+  "a": "",
+  "pc": "",
+  "lat": 44.48588,
+  "lng": 26.18014,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă „Popa Șapcă” Voluntari Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/924445135",
+   "raw": {
+    "addr:city": "Voluntari",
+    "addr:housenumber": "1",
+    "addr:postcode": "077190",
+    "addr:street": "Strada Popa Șapcă",
+    "amenity": "place_of_worship",
+    "check_date": "2024-06-02",
+    "denomination": "romanian_orthodox",
+    "is_in:city": "Voluntari",
+    "is_in:country": "România",
+    "is_in:county": "Ilfov",
+    "name": "Biserica Ortodoxă „Popa Șapcă” Voluntari",
+    "religion": "christian",
+    "start_date": "1953"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxasfcuvpar",
+  "n": "Biserica Ortodoxă „Sf. Cuv. Paraschiva Galileea Străulești”",
+  "a": "",
+  "pc": "",
+  "lat": 44.49712,
+  "lng": 26.02907,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă „Sf. Cuv. Paraschiva Galileea Străulești” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/933872147",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "3",
+    "addr:postcode": "013031",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Nazarcea",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă „Sf. Cuv. Paraschiva Galileea Străulești”",
+    "religion": "christian",
+    "website": "http://galileeastraulesti.protoieria1.ro/despr.html"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxaghencean",
+  "n": "Biserica Ortodoxă Ghencea – Nașterea Domnului",
+  "a": "",
+  "pc": "",
+  "lat": 44.4129,
+  "lng": 26.06057,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă Ghencea – Nașterea Domnului Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/933918714",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "107",
+    "addr:postcode": "051044",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Mărgeanului",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă Ghencea – Nașterea Domnului",
+    "religion": "christian",
+    "source": "survey, field survey",
+    "source:addr:housenumber": "survey",
+    "source:addr:street": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericainaltareadomnulu",
+  "n": "Biserica Înălțarea Domnului",
+  "a": "",
+  "pc": "",
+  "lat": 44.42483,
+  "lng": 26.02245,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Înălțarea Domnului Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/938768192",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "7",
+    "addr:postcode": "062011",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Aleea Valea Boteni",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Înălțarea Domnului",
+    "religion": "christian",
+    "source:addr:housenumber": "survey",
+    "source:addr:street": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxanasterea",
+  "n": "Biserica Ortodoxă Nașterea Maicii Domnului – Drumul Taberei",
+  "a": "",
+  "pc": "",
+  "lat": 44.42025,
+  "lng": 26.02816,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă Nașterea Maicii Domnului – Drumul Taberei Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/938819576",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "12C",
+    "addr:postcode": "062057",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Târgu Neamț",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă Nașterea Maicii Domnului – Drumul Taberei",
+    "religion": "christian",
+    "source:addr:housenumber": "survey",
+    "source:addr:street": "survey",
+    "start_date": "1997"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxasfantama",
+  "n": "Biserica Ortodoxă „Sfânta Maria - Herăstrău”",
+  "a": "",
+  "pc": "",
+  "lat": 44.48985,
+  "lng": 26.09304,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă „Sfânta Maria - Herăstrău” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/938879109",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "3",
+    "addr:postcode": "013985",
+    "addr:street": "Strada Trifești",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "is_in:city": "București",
+    "is_in:country": "România",
+    "name": "Biserica Ortodoxă „Sfânta Maria - Herăstrău”",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bustulluidimitriecantemi",
+  "n": "Bustul lui Dimitrie Cantemir",
+  "a": "",
+  "pc": "",
+  "lat": 44.42132,
+  "lng": 26.10353,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Bustul lui Dimitrie Cantemir Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/939719545",
+   "raw": {
+    "artist_name": "Ion Irimescu",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "historic": "memorial",
+    "is_in:city": "București",
+    "memorial": "bust",
+    "name": "Bustul lui Dimitrie Cantemir",
+    "ref:RO:lmi": "B-III-m-B-19969",
+    "start_date": "1973"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxaspireano",
+  "n": "Biserica Ortodoxă Spirea Nouă",
+  "a": "",
+  "pc": "",
+  "lat": 44.42386,
+  "lng": 26.07809,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă Spirea Nouă Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/939770168",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "59",
+    "addr:postcode": "050857",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Puișor",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă Spirea Nouă",
+    "religion": "christian",
+    "source:addr:housenumber": "survey",
+    "source:addr:street": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxatudorvla",
+  "n": "Biserica Ortodoxă Tudor Vladimirescu - Rahova",
+  "a": "",
+  "pc": "",
+  "lat": 44.40443,
+  "lng": 26.05774,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă Tudor Vladimirescu - Rahova Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/940763273",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "6",
+    "addr:postcode": "051045",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Mărgeanului",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă Tudor Vladimirescu - Rahova",
+    "religion": "christian",
+    "source": "survey",
+    "source:addr:housenumber": "survey",
+    "source:addr:street": "survey",
+    "start_date": "1930"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxavovideni",
+  "n": "Biserica Ortodoxă \"Vovidenia\"",
+  "a": "",
+  "pc": "",
+  "lat": 44.39942,
+  "lng": 26.05879,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă \"Vovidenia\" Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/940800779",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "56",
+    "addr:postcode": "051236",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Garoafei",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă \"Vovidenia\"",
+    "religion": "christian",
+    "source": "survey",
+    "source:addr:housenumber": "survey",
+    "source:addr:street": "survey"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "crucedepiatra",
+  "n": "Cruce de piatră",
+  "a": "",
+  "pc": "",
+  "lat": 44.43542,
+  "lng": 26.12968,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Cruce de piatră Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/940839126",
+   "raw": {
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "historic": "wayside_cross",
+    "material": "stone",
+    "name": "Cruce de piatră",
+    "name:signed": "no",
+    "ref:RO:lmi": "B-IV-m-B-20119",
+    "start_date": "1852",
+    "tourism": "attraction"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxaadormire",
+  "n": "Biserica Ortodoxă Adormirea Maicii Domnului - Giulești",
+  "a": "",
+  "pc": "",
+  "lat": 44.46828,
+  "lng": 26.03084,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă Adormirea Maicii Domnului - Giulești Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/947060459",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "236 - 238",
+    "addr:postcode": "060256",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Calea Giulești",
+    "amenity": "place_of_worship",
+    "check_date": "2025-06-03",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă Adormirea Maicii Domnului - Giulești",
+    "religion": "christian",
+    "start_date": "1900"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vasilelascar",
+  "n": "Vasile Lascăr",
+  "a": "",
+  "pc": "",
+  "lat": 44.44057,
+  "lng": 26.10855,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Vasile Lascăr Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/950747815",
+   "raw": {
+    "artist_name": "Gheorghe Horvath",
+    "artwork_type": "statue",
+    "material": "bronze",
+    "monument": "statue",
+    "name": "Vasile Lascăr",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sinagogabethamirdas",
+  "n": "Sinagoga Bet Hamirdaș",
+  "a": "",
+  "pc": "",
+  "lat": 44.43201,
+  "lng": 26.10633,
+  "c": "faith",
+  "s": "synagogue",
+  "q": "Sinagoga Bet Hamirdaș Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/950781677",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "jewish",
+    "name": "Sinagoga Bet Hamirdaș",
+    "name:fr": "Sinagogue Bet Hamirdaș",
+    "religion": "jewish",
+    "start_date": "1812"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxaceausrad",
+  "n": "Biserica Ortodoxă „Ceauș Radu”",
+  "a": "",
+  "pc": "",
+  "lat": 44.42914,
+  "lng": 26.1165,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă „Ceauș Radu” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/955132888",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "8",
+    "addr:postcode": "030844",
+    "addr:street": "Strada Radu Ceauș",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "is_in:city": "București",
+    "is_in:country": "România",
+    "name": "Biserica Ortodoxă „Ceauș Radu”",
+    "religion": "christian",
+    "source": "http://www.crestinortodox.ro/biserici-manastiri/biserica-ceaus-radu-137365.html",
+    "start_date": "1757",
+    "website": "https://bisericaceausradu.ro/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxadudestic",
+  "n": "Biserica Ortodoxă Dudești Cioplea II",
+  "a": "",
+  "pc": "",
+  "lat": 44.41587,
+  "lng": 26.14872,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă Dudești Cioplea II Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/955207931",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "38 A",
+    "addr:postcode": "031755",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Bulevardul Camil Ressu",
+    "amenity": "place_of_worship",
+    "check_date": "2023-11-07",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă Dudești Cioplea II",
+    "religion": "christian",
+    "start_date": "1957"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxaconstant",
+  "n": "Biserica Ortodoxă Constantin Brâncoveanu Nouă",
+  "a": "",
+  "pc": "",
+  "lat": 44.38331,
+  "lng": 26.109,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă Constantin Brâncoveanu Nouă Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/955278065",
+   "raw": {
+    "addr:city": "București",
+    "amenity": "place_of_worship",
+    "check_date": "2025-04-27",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă Constantin Brâncoveanu Nouă",
+    "religion": "christian",
+    "start_date": "1997"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mormantulluiionheliadera",
+  "n": "Mormântul lui Ion Heliade Rădulescu",
+  "a": "",
+  "pc": "",
+  "lat": 44.45493,
+  "lng": 26.08313,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Mormântul lui Ion Heliade Rădulescu Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/987457581",
+   "raw": {
+    "historic": "monument",
+    "name": "Mormântul lui Ion Heliade Rădulescu"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentulinfanterieirom",
+  "n": "Monumentul Infanteriei Române",
+  "a": "",
+  "pc": "",
+  "lat": 44.45646,
+  "lng": 26.08449,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumentul Infanteriei Române Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/987467409",
+   "raw": {
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "war_memorial",
+    "name": "Monumentul Infanteriei Române"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "antonpann",
+  "n": "Anton Pann",
+  "a": "",
+  "pc": "",
+  "lat": 44.43115,
+  "lng": 26.11339,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Anton Pann Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/998425774",
+   "raw": {
+    "artist_name": "Dimitrie D. Mirea",
+    "artwork_type": "bust",
+    "material": "bronze",
+    "monument": "statue",
+    "name": "Anton Pann",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alexandrutatos",
+  "n": "Alexandru Tatos",
+  "a": "",
+  "pc": "",
+  "lat": 44.44355,
+  "lng": 26.11348,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Alexandru Tatos Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1015079732",
+   "raw": {
+    "artwork_type": "bust",
+    "is_in:city": "București",
+    "material": "bronze",
+    "name": "Alexandru Tatos",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "theodorpallady",
+  "n": "Theodor Pallady",
+  "a": "",
+  "pc": "",
+  "lat": 44.43929,
+  "lng": 26.11359,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Theodor Pallady Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1015136181",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "22",
+    "addr:postcode": "020775",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Spătarului",
+    "artwork_type": "statue",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "name": "Theodor Pallady",
+    "ref:RO:lmi": "B-III-m-B-20054",
+    "tourism": "artwork",
+    "wikidata": "Q18548127",
+    "wikipedia": "ro:Statuia lui Theodor Pallady din București"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "crucealuineofit",
+  "n": "Crucea lui Neofit",
+  "a": "",
+  "pc": "",
+  "lat": 44.43596,
+  "lng": 26.10223,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Crucea lui Neofit Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1015159329",
+   "raw": {
+    "denomination": "orthodox",
+    "historic": "wayside_cross",
+    "material": "stone",
+    "name": "Crucea lui Neofit",
+    "religion": "christian",
+    "start_date": "1741-09-01",
+    "website": "https://crucidinpiatra.ro/cruci-din-piatra/crucea-lui-neofit/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parohiaortodoxasfantulni",
+  "n": "Parohia Ortodoxă Sfântul Nicolae – Malaxa",
+  "a": "",
+  "pc": "",
+  "lat": 44.43339,
+  "lng": 26.19056,
+  "c": "faith",
+  "s": "church",
+  "q": "Parohia Ortodoxă Sfântul Nicolae – Malaxa Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1077769284",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "5",
+    "addr:postcode": "033075",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Tufănica",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Parohia Ortodoxă Sfântul Nicolae – Malaxa",
+    "religion": "christian",
+    "source": "survey, field survey",
+    "start_date": "1942"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentulsoldatuluisovi",
+  "n": "Monumentul Soldatului Sovietic",
+  "a": "",
+  "pc": "",
+  "lat": 44.47881,
+  "lng": 26.09736,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumentul Soldatului Sovietic Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1174026151",
+   "raw": {
+    "historic": "monument",
+    "name": "Monumentul Soldatului Sovietic"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "manastireacatolicasfanta",
+  "n": "Mănăstirea catolică „Sfânta Familie”",
+  "a": "",
+  "pc": "",
+  "lat": 44.48395,
+  "lng": 26.04409,
+  "c": "faith",
+  "s": "church",
+  "q": "Mănăstirea catolică „Sfânta Familie” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1211865828",
+   "raw": {
+    "addr:city": "București",
+    "addr:housenumber": "35-37",
+    "addr:postcode": "013211",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Jiului",
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "Mănăstirea catolică „Sfânta Familie”",
+    "religion": "christian",
+    "website": "https://manastireasfantafamilie.wordpress.com/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kodakcinelabsromania",
+  "n": "KODAK Cinelabs Romania",
+  "a": "",
+  "pc": "",
+  "lat": 44.49668,
+  "lng": 26.03051,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "KODAK Cinelabs Romania Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1213250524",
+   "raw": {
+    "amenity": "cinema",
+    "name": "KODAK Cinelabs Romania"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxa16februa",
+  "n": "Biserica Ortodoxă „16 Februarie”",
+  "a": "",
+  "pc": "",
+  "lat": 44.48827,
+  "lng": 26.02299,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă „16 Februarie” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1215723096",
+   "raw": {
+    "addr:city": "București",
+    "addr:street": "Strada Hotin",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "is_in:city": "București",
+    "is_in:country": "România",
+    "name": "Biserica Ortodoxă „16 Februarie”",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "iosifsava",
+  "n": "Iosif Sava",
+  "a": "",
+  "pc": "",
+  "lat": 44.43898,
+  "lng": 26.09242,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Iosif Sava Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1227925581",
+   "raw": {
+    "artwork_type": "bust",
+    "name": "Iosif Sava",
+    "source": "survey",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ioncbratianu",
+  "n": "Ion C. Brătianu",
+  "a": "",
+  "pc": "",
+  "lat": 44.44569,
+  "lng": 26.09284,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Ion C. Brătianu Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1393747894",
+   "raw": {
+    "access": "yes",
+    "artist_name": "Ivan Meštrović",
+    "artwork_type": "statue",
+    "material": "granite",
+    "name": "Ion C. Brătianu",
+    "subject:wikidata": "Q153047",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentulsfantavineri",
+  "n": "Monumentul Sfânta Vineri",
+  "a": "",
+  "pc": "",
+  "lat": 44.42986,
+  "lng": 26.10726,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Monumentul Sfânta Vineri Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1439641175",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Monumentul Sfânta Vineri",
+    "name:en": "Holy Friday Monument",
+    "name:ro": "Monumentul Sfânta Vineri"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ionlucacaragiale",
+  "n": "Ion Luca Caragiale",
+  "a": "",
+  "pc": "",
+  "lat": 44.42746,
+  "lng": 26.15413,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Ion Luca Caragiale Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1668022229",
+   "raw": {
+    "artwork_type": "bust",
+    "name": "Ion Luca Caragiale",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alexandruioncuza",
+  "n": "Alexandru Ion Cuza",
+  "a": "",
+  "pc": "",
+  "lat": 44.42806,
+  "lng": 26.17004,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Alexandru Ion Cuza Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1668626062",
+   "raw": {
+    "artwork_type": "bust",
+    "name": "Alexandru Ion Cuza",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tunuri",
+  "n": "Tunuri",
+  "a": "",
+  "pc": "",
+  "lat": 44.43968,
+  "lng": 26.17254,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Tunuri Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1725768052",
+   "raw": {
+    "historic": "monument",
+    "name": "Tunuri",
+    "name:en": "Cannon"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lalele",
+  "n": "Lalele",
+  "a": "",
+  "pc": "",
+  "lat": 44.4433,
+  "lng": 26.14907,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Lalele Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1743399307",
+   "raw": {
+    "amenity": "fountain",
+    "artwork_type": "sculpture",
+    "name": "Lalele",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "statuiagigantul2",
+  "n": "Statuia \"Gigantul\" (2)",
+  "a": "",
+  "pc": "",
+  "lat": 44.4153,
+  "lng": 26.09649,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Statuia \"Gigantul\" (2) Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1889364089",
+   "raw": {
+    "artist_name": "Frederic Storck",
+    "artwork_type": "statue",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "material": "stone",
+    "name": "Statuia \"Gigantul\" (2)",
+    "ref:RO:lmi": "B-III-m-A-20006",
+    "start_date": "1906",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mihaieminescu",
+  "n": "Mihai Eminescu",
+  "a": "",
+  "pc": "",
+  "lat": 44.44107,
+  "lng": 26.09678,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Mihai Eminescu Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1911337561",
+   "raw": {
+    "artist_name": "Gheorghe Anghel",
+    "artwork_type": "statue",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "material": "bronze",
+    "name": "Mihai Eminescu",
+    "ref:RO:lmi": "B-III-m-B-19983",
+    "start_date": "1963",
+    "subject:wikidata": "Q184935",
+    "tourism": "artwork",
+    "wikidata": "Q12741357",
+    "wikimedia_commons": "Category:The statue of Mihai Eminescu in Bucharest",
+    "wikipedia": "ro:Statuia lui Mihai Eminescu din București"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ioncreanga",
+  "n": "Ion Creangă",
+  "a": "",
+  "pc": "",
+  "lat": 44.46813,
+  "lng": 26.14691,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Ion Creangă Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1935442817",
+   "raw": {
+    "artwork_type": "bust",
+    "material": "stone",
+    "name": "Ion Creangă",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericaortodoxasfantafe",
+  "n": "Biserica Ortodoxă „Sfânta Fecioară Maria”",
+  "a": "",
+  "pc": "",
+  "lat": 44.42083,
+  "lng": 26.13479,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica Ortodoxă „Sfânta Fecioară Maria” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1942633310",
+   "raw": {
+    "addr:city": "București",
+    "addr:postcode": "031433",
+    "addr:street": "Strada Stan Județul",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "is_in:city": "București",
+    "is_in:country": "România",
+    "name": "Biserica Ortodoxă „Sfânta Fecioară Maria”",
+    "religion": "christian",
+    "website": "https://www.sfantafecioaramaria.ro/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bustulluimirceavulcanesc",
+  "n": "Bustul lui Mircea Vulcănescu",
+  "a": "",
+  "pc": "",
+  "lat": 44.43448,
+  "lng": 26.11635,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Bustul lui Mircea Vulcănescu Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1977859584",
+   "raw": {
+    "name": "Bustul lui Mircea Vulcănescu",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bisericainaltareasfintei",
+  "n": "Biserica „Înălțarea Sfintei Cruci”",
+  "a": "",
+  "pc": "",
+  "lat": 44.46635,
+  "lng": 26.14953,
+  "c": "faith",
+  "s": "church",
+  "q": "Biserica „Înălțarea Sfintei Cruci” Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1982919560",
+   "raw": {
+    "addr:city": "București",
+    "addr:street": "Strada Balotului",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica „Înălțarea Sfintei Cruci”",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "troitamantuiriineamului",
+  "n": "Troița Mântuirii Neamului",
+  "a": "",
+  "pc": "",
+  "lat": 44.42795,
+  "lng": 26.103,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Troița Mântuirii Neamului Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2079451985",
+   "raw": {
+    "addr:city": "București",
+    "historic": "wayside_cross",
+    "name": "Troița Mântuirii Neamului",
+    "start_date": "1999"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "regelemihaiialromaniei",
+  "n": "Regele Mihai I al României",
+  "a": "",
+  "pc": "",
+  "lat": 44.45915,
+  "lng": 26.08187,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Regele Mihai I al României Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2155554009",
+   "raw": {
+    "artwork_type": "bust",
+    "inscription": "Nu văd România de astăzi ca pe o moștenire de la părinții noștri, ci ca pe o țară pe care am luat-o cu împrumut de la copiii noștri. Așa să ne ajute Dumnezeu. Mihai R",
+    "name": "Regele Mihai I al României",
+    "tourism": "artwork",
+    "website": "https://foursquare.com/v/piateta-regelui/50894cfee4b0ef1360362ed7/photos?openPhotoId=50b9f4d6e4b071d53002767b"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gheorgheduca",
+  "n": "Gheorghe Duca",
+  "a": "",
+  "pc": "",
+  "lat": 44.4471,
+  "lng": 26.07612,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Gheorghe Duca Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2378840912",
+   "raw": {
+    "addr:city": "București",
+    "addr:country": "RO",
+    "addr:street": "Piața Gării de Nord",
+    "artist_name": "Dimitrie Paciurea;Filip Marin;Ștefan Burcuș",
+    "artwork_type": "statue",
+    "height": "5",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Gheorghe Duca",
+    "start_date": "1904",
+    "tourism": "artwork",
+    "wikidata": "Q18542044",
+    "wikipedia": "ro:Monumentul ing. Gheorghe Duca"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "memorialmichaeljjackson",
+  "n": "Memorial Michael J. Jackson",
+  "a": "",
+  "pc": "",
+  "lat": 44.4694,
+  "lng": 26.08032,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Memorial Michael J. Jackson Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2382565617",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "MICHAEL J. JACKSON - HIS MUSIC WILL LIVE FOREVER",
+    "material": "marble",
+    "memorial": "plaque",
+    "name": "Memorial Michael J. Jackson",
+    "name:en": "Michael Jackson Memorial",
+    "name:fr": "Mémorial Michaël Jackson"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "leonardodavinci",
+  "n": "Leonardo da Vinci",
+  "a": "",
+  "pc": "",
+  "lat": 44.47018,
+  "lng": 26.08461,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Leonardo da Vinci Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2382565629",
+   "raw": {
+    "artist_name": "Constanța Buzdugan",
+    "artwork_type": "bust",
+    "material": "stone",
+    "name": "Leonardo da Vinci",
+    "subject:wikidata": "Q762",
+    "subject:wikipedia": "en:Leonardo da Vinci",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "adrianpaunescu",
+  "n": "Adrian Păunescu",
+  "a": "",
+  "pc": "",
+  "lat": 44.44296,
+  "lng": 26.10419,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Adrian Păunescu Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2385829352",
+   "raw": {
+    "artwork_type": "bust",
+    "material": "bronze",
+    "name": "Adrian Păunescu",
+    "tourism": "artwork",
+    "wheelchair": "limited"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gccantacuzino",
+  "n": "G. C. Cantacuzino",
+  "a": "",
+  "pc": "",
+  "lat": 44.44403,
+  "lng": 26.10365,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "G. C. Cantacuzino Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2385850654",
+   "raw": {
+    "artist_name": "Ernest Henri Dubois",
+    "artwork_type": "statue",
+    "material": "bronze",
+    "name": "G. C. Cantacuzino",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "intrarescari",
+  "n": "Intrare-scari",
+  "a": "",
+  "pc": "",
+  "lat": 44.50413,
+  "lng": 26.20195,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Intrare-scari Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2416924014",
+   "raw": {
+    "name": "Intrare-scari",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "memorialulvictimelorcomu",
+  "n": "Memorialul Victimelor Comunismului și al Rezistenței",
+  "a": "",
+  "pc": "",
+  "lat": 44.44185,
+  "lng": 26.10455,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Memorialul Victimelor Comunismului și al Rezistenței Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2440139875",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Memorialul Victimelor Comunismului și al Rezistenței",
+    "source": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spiruharet",
+  "n": "Spiru Haret",
+  "a": "",
+  "pc": "",
+  "lat": 44.43489,
+  "lng": 26.10027,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Spiru Haret Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2466907140",
+   "raw": {
+    "artwork_type": "statue",
+    "image": "https://photos.app.goo.gl/BYZyfrGqv2SsiakM6",
+    "name": "Spiru Haret",
+    "tourism": "artwork",
+    "wikidata": "Q12741361",
+    "wikipedia": "ro:Statuia lui Spiru Haret din București"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bragadiru",
+  "n": "Bragadiru",
+  "a": "",
+  "pc": "",
+  "lat": 44.36944,
+  "lng": 25.97528,
+  "c": "oddity",
+  "s": "town in Ilfov County, Romania",
+  "q": "Bragadiru Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q168921",
+   "raw": "town in Ilfov County, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiajna",
+  "n": "Chiajna",
+  "a": "",
+  "pc": "",
+  "lat": 44.45565,
+  "lng": 25.97456,
+  "c": "oddity",
+  "s": "commune in Ilfov County, Romania",
+  "q": "Chiajna Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q375699",
+   "raw": "commune in Ilfov County, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "a1motorway",
+  "n": "A1 motorway",
+  "a": "",
+  "pc": "",
+  "lat": 44.4358,
+  "lng": 25.96507,
+  "c": "oddity",
+  "s": "motorway in Romania",
+  "q": "A1 motorway Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q429181",
+   "raw": "motorway in Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dudu",
+  "n": "Dudu",
+  "a": "",
+  "pc": "",
+  "lat": 44.45628,
+  "lng": 25.99064,
+  "c": "oddity",
+  "s": "village in Ilfov County, Romania",
+  "q": "Dudu Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q616538",
+   "raw": "village in Ilfov County, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "moriilake",
+  "n": "Morii Lake",
+  "a": "",
+  "pc": "",
+  "lat": 44.45556,
+  "lng": 26.02528,
+  "c": "oddity",
+  "s": "lake",
+  "q": "Morii Lake Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1148231",
+   "raw": "lake",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cornetu",
+  "n": "Cornetu",
+  "a": "",
+  "pc": "",
+  "lat": 44.35,
+  "lng": 25.95,
+  "c": "oddity",
+  "s": "commune in Ilfov County, Romania",
+  "q": "Cornetu Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1572924",
+   "raw": "commune in Ilfov County, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiajnamonastery",
+  "n": "Chiajna Monastery",
+  "a": "",
+  "pc": "",
+  "lat": 44.47917,
+  "lng": 25.99806,
+  "c": "faith",
+  "s": "monastery",
+  "q": "Chiajna Monastery Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1632848",
+   "raw": "monastery",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lujerului",
+  "n": "Lujerului",
+  "a": "",
+  "pc": "",
+  "lat": 44.4345,
+  "lng": 26.0337,
+  "c": "oddity",
+  "s": "metro station in Bucharest, Romania",
+  "q": "Lujerului Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1921423",
+   "raw": "metro station in Bucharest, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "drumultaberei",
+  "n": "Drumul Taberei",
+  "a": "",
+  "pc": "",
+  "lat": 44.42003,
+  "lng": 26.02453,
+  "c": "oddity",
+  "s": "neighbourhood in Bucharest, Romania",
+  "q": "Drumul Taberei Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2065207",
+   "raw": "Neighbourhood in Bucharest, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gorjului",
+  "n": "Gorjului",
+  "a": "",
+  "pc": "",
+  "lat": 44.43429,
+  "lng": 26.02135,
+  "c": "oddity",
+  "s": "metro station in Bucharest, Romania",
+  "q": "Gorjului Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2287151",
+   "raw": "metro station in Bucharest, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stadionulconcordia",
+  "n": "Stadionul Concordia",
+  "a": "",
+  "pc": "",
+  "lat": 44.46278,
+  "lng": 25.97528,
+  "c": "oddity",
+  "s": "concordia Stadium, the home grounds of CS Concordia Chiajna",
+  "q": "Stadionul Concordia Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2607402",
+   "raw": "Concordia Stadium, the home grounds of CS Concordia Chiajna",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pacii",
+  "n": "Păcii",
+  "a": "",
+  "pc": "",
+  "lat": 44.43403,
+  "lng": 26.00538,
+  "c": "oddity",
+  "s": "metro station in Bucharest, Romania",
+  "q": "Păcii Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2794825",
+   "raw": "metro station in Bucharest, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "preciziei",
+  "n": "Preciziei",
+  "a": "",
+  "pc": "",
+  "lat": 44.43052,
+  "lng": 25.99119,
+  "c": "oddity",
+  "s": "metro station in Bucharest, Romania",
+  "q": "Preciziei Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3036310",
+   "raw": "metro station in Bucharest, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lakedambovita",
+  "n": "Lake Dâmbovița",
+  "a": "",
+  "pc": "",
+  "lat": 44.45832,
+  "lng": 26.00685,
+  "c": "oddity",
+  "s": "lake in Bucharest, Romania",
+  "q": "Lake Dâmbovița Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3214854",
+   "raw": "lake in Bucharest, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "anchorplaza",
+  "n": "Anchor Plaza",
+  "a": "",
+  "pc": "",
+  "lat": 44.43001,
+  "lng": 26.03559,
+  "c": "maritime",
+  "s": "romanian office building",
+  "q": "Anchor Plaza Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4752695",
+   "raw": "Romanian office building",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bucharestwestpowerstatio",
+  "n": "Bucharest West Power Station",
+  "a": "",
+  "pc": "",
+  "lat": 44.42389,
+  "lng": 25.97722,
+  "c": "oddity",
+  "s": "power station in Bucharest, Romania",
+  "q": "Bucharest West Power Station Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4982661",
+   "raw": "power station in Bucharest, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ciorogarlariver",
+  "n": "Ciorogârla River",
+  "a": "",
+  "pc": "",
+  "lat": 44.36667,
+  "lng": 25.98333,
+  "c": "oddity",
+  "s": "river in Romania",
+  "q": "Ciorogârla River Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5121228",
+   "raw": "river in Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ghencea",
+  "n": "Ghencea",
+  "a": "",
+  "pc": "",
+  "lat": 44.4,
+  "lng": 26,
+  "c": "oddity",
+  "s": "quarter of Bucharest, Romania",
+  "q": "Ghencea Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5556215",
+   "raw": "quarter of Bucharest, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "militarishopping",
+  "n": "Militari Shopping",
+  "a": "",
+  "pc": "",
+  "lat": 44.43977,
+  "lng": 25.9822,
+  "c": "oddity",
+  "s": "shopping center in Bucharest",
+  "q": "Militari Shopping Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6851937",
+   "raw": "shopping center in Bucharest",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "odai",
+  "n": "Odăi",
+  "a": "",
+  "pc": "",
+  "lat": 44.39273,
+  "lng": 26.03747,
+  "c": "oddity",
+  "s": "district in Bucharest, Romania",
+  "q": "Odăi Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7078455",
+   "raw": "district in Bucharest, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parcbazilescu",
+  "n": "Parc Bazilescu",
+  "a": "",
+  "pc": "",
+  "lat": 44.4879,
+  "lng": 26.0369,
+  "c": "oddity",
+  "s": "metro station in Bucharest, Romania",
+  "q": "Parc Bazilescu Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7136365",
+   "raw": "metro station in Bucharest, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "plazaromania",
+  "n": "Plaza Romania",
+  "a": "",
+  "pc": "",
+  "lat": 44.42848,
+  "lng": 26.03481,
+  "c": "oddity",
+  "s": "shopping mall in Bucharest, Romania",
+  "q": "Plaza Romania Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7203641",
+   "raw": "shopping mall in Bucharest, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "buda",
+  "n": "Buda",
+  "a": "",
+  "pc": "",
+  "lat": 44.35496,
+  "lng": 25.95911,
+  "c": "oddity",
+  "s": "village in Ilfov County, Romania",
+  "q": "Buda Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12085182",
+   "raw": "village in Ilfov County, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "buciumeni",
+  "n": "Buciumeni",
+  "a": "",
+  "pc": "",
+  "lat": 44.54891,
+  "lng": 25.96326,
+  "c": "oddity",
+  "s": "village in Ilfov County, Romania",
+  "q": "Buciumeni Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12086081",
+   "raw": "village in Ilfov County, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "varteju",
+  "n": "Vârteju",
+  "a": "",
+  "pc": "",
+  "lat": 44.35598,
+  "lng": 25.98973,
+  "c": "oddity",
+  "s": "locality in Ilfov County, Romania",
+  "q": "Vârteju Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12089527",
+   "raw": "locality in Ilfov County, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "olteni",
+  "n": "Olteni",
+  "a": "",
+  "pc": "",
+  "lat": 44.40271,
+  "lng": 25.9549,
+  "c": "oddity",
+  "s": "village in Ilfov County, Romania",
+  "q": "Olteni Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12135765",
+   "raw": "village in Ilfov County, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rosu",
+  "n": "Roșu",
+  "a": "",
+  "pc": "",
+  "lat": 44.45089,
+  "lng": 26.00827,
+  "c": "oddity",
+  "s": "village in Ilfov County, Romania",
+  "q": "Roșu Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12148972",
+   "raw": "village in Ilfov County, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rudeni",
+  "n": "Rudeni",
+  "a": "",
+  "pc": "",
+  "lat": 44.47242,
+  "lng": 25.97325,
+  "c": "oddity",
+  "s": "locality in Ilfov County, Romania",
+  "q": "Rudeni Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12149116",
+   "raw": "locality in Ilfov County, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "drumultabereipark",
+  "n": "Drumul Taberei Park",
+  "a": "",
+  "pc": "",
+  "lat": 44.42078,
+  "lng": 26.0323,
+  "c": "green",
+  "s": "park in Bucharest, Romania",
+  "q": "Drumul Taberei Park Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12737518",
+   "raw": "park in Bucharest, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bazilescupark",
+  "n": "Bazilescu Park",
+  "a": "",
+  "pc": "",
+  "lat": 44.48894,
+  "lng": 26.03361,
+  "c": "green",
+  "s": "urban park in Bucharest, Romania",
+  "q": "Bazilescu Park Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12737517",
+   "raw": "urban park in Bucharest, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "romancierilor",
+  "n": "Romancierilor",
+  "a": "",
+  "pc": "",
+  "lat": 44.4231,
+  "lng": 26.02469,
+  "c": "oddity",
+  "s": "bucharest metro station",
+  "q": "Romancierilor Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12739518",
+   "raw": "Bucharest metro station",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rauldoamnei",
+  "n": "Râul Doamnei",
+  "a": "",
+  "pc": "",
+  "lat": 44.41561,
+  "lng": 26.02402,
+  "c": "oddity",
+  "s": "bucharest Metro station",
+  "q": "Râul Doamnei Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12739761",
+   "raw": "Bucharest Metro station",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "valeaialomitei",
+  "n": "Valea Ialomiței",
+  "a": "",
+  "pc": "",
+  "lat": 44.4212,
+  "lng": 26.01412,
+  "c": "oddity",
+  "s": "metro station in Bucharest, Romania",
+  "q": "Valea Ialomiței Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q12742966",
+   "raw": "metro station in Bucharest, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "magurele",
+  "n": "Măgurele",
+  "a": "",
+  "pc": "",
+  "lat": 44.35026,
+  "lng": 26.02924,
+  "c": "oddity",
+  "s": "locality in Ilfov County, Romania",
+  "q": "Măgurele Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16898366",
+   "raw": "locality in Ilfov County, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parcdrumultaberei",
+  "n": "Parc Drumul Taberei",
+  "a": "",
+  "pc": "",
+  "lat": 44.42225,
+  "lng": 26.03324,
+  "c": "oddity",
+  "s": "bucharest metro station",
+  "q": "Parc Drumul Taberei Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18545189",
+   "raw": "Bucharest metro station",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rahovapenitentiary",
+  "n": "Rahova Penitentiary",
+  "a": "",
+  "pc": "",
+  "lat": 44.39545,
+  "lng": 26.0316,
+  "c": "oddity",
+  "s": "penitentiary in Rahova, Romania",
+  "q": "Rahova Penitentiary Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18545285",
+   "raw": "penitentiary in Rahova, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "asociatiaromanaacarnii",
+  "n": "Asociatia Românã a Cãrnii",
+  "a": "",
+  "pc": "",
+  "lat": 44.4908,
+  "lng": 26.03531,
+  "c": "oddity",
+  "s": "organization in Bucuresti, Romania",
+  "q": "Asociatia Românã a Cãrnii Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30255215",
+   "raw": "organization in Bucuresti, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "instituteofspacescience",
+  "n": "Institute of Space Science",
+  "a": "",
+  "pc": "",
+  "lat": 44.35157,
+  "lng": 26.03109,
+  "c": "oddity",
+  "s": "facility in Măgurele, Romania",
+  "q": "Institute of Space Science Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30259222",
+   "raw": "facility in Măgurele, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nationalinsituteformater",
+  "n": "National Insitute for Materials Physics",
+  "a": "",
+  "pc": "",
+  "lat": 44.35557,
+  "lng": 26.03429,
+  "c": "oddity",
+  "s": "facility in Măgurele, Romania",
+  "q": "National Insitute for Materials Physics Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30294593",
+   "raw": "facility in Măgurele, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bucurestitriajrailwaysta",
+  "n": "București Triaj railway station",
+  "a": "",
+  "pc": "",
+  "lat": 44.47907,
+  "lng": 26.02352,
+  "c": "oddity",
+  "s": "railway station in Bucharest, Romania",
+  "q": "București Triaj railway station Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q59606116",
+   "raw": "railway station in Bucharest, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bucurestivestrailwaystat",
+  "n": "București Vest railway station",
+  "a": "",
+  "pc": "",
+  "lat": 44.42746,
+  "lng": 25.96792,
+  "c": "oddity",
+  "s": "railway station in Romania",
+  "q": "București Vest railway station Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q59606125",
+   "raw": "railway station in Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bucurestiinoirailwaystat",
+  "n": "Bucureștii Noi railway station",
+  "a": "",
+  "pc": "",
+  "lat": 44.47565,
+  "lng": 26.01543,
+  "c": "oddity",
+  "s": "railway station in Bucharest, Romania",
+  "q": "Bucureștii Noi railway station Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q59606132",
+   "raw": "railway station in Bucharest, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiajnarailwaystation",
+  "n": "Chiajna railway station",
+  "a": "",
+  "pc": "",
+  "lat": 44.47045,
+  "lng": 25.9803,
+  "c": "oddity",
+  "s": "railway station in Romania",
+  "q": "Chiajna railway station Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q59614947",
+   "raw": "railway station in Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chitilarailwaystation",
+  "n": "Chitila railway station",
+  "a": "",
+  "pc": "",
+  "lat": 44.50224,
+  "lng": 25.98469,
+  "c": "oddity",
+  "s": "railway station in Chitila, Romania",
+  "q": "Chitila railway station Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q59614984",
+   "raw": "railway station in Chitila, Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vartejurailwaystation",
+  "n": "Vârteju railway station",
+  "a": "",
+  "pc": "",
+  "lat": 44.3688,
+  "lng": 26.01493,
+  "c": "oddity",
+  "s": "railway station in Romania",
+  "q": "Vârteju railway station Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q60810841",
+   "raw": "railway station in Romania",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "basilescuchurch",
+  "n": "Basilescu Church",
+  "a": "",
+  "pc": "",
+  "lat": 44.48933,
+  "lng": 26.03675,
+  "c": "faith",
+  "s": "church building",
+  "q": "Basilescu Church Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q118854257",
+   "raw": "church building",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cartier16februarie",
+  "n": "Cartier 16 Februarie",
+  "a": "",
+  "pc": "",
+  "lat": 44.47016,
+  "lng": 26.02207,
+  "c": "oddity",
+  "s": "stație de tramvai în București",
+  "q": "Cartier 16 Februarie Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q128305284",
+   "raw": "stație de tramvai în București",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cesarom",
+  "n": "Cesarom",
+  "a": "",
+  "pc": "",
+  "lat": 44.43155,
+  "lng": 26.00128,
+  "c": "oddity",
+  "s": "stație de tramvai în București",
+  "q": "Cesarom Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q128305290",
+   "raw": "stație de tramvai în București",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "copsamica",
+  "n": "Copșa Mică",
+  "a": "",
+  "pc": "",
+  "lat": 44.46746,
+  "lng": 26.03179,
+  "c": "oddity",
+  "s": "bucharest tram stop",
+  "q": "Copșa Mică Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q128305303",
+   "raw": "Bucharest tram stop",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "compasului",
+  "n": "Compasului",
+  "a": "",
+  "pc": "",
+  "lat": 44.42707,
+  "lng": 26.02925,
+  "c": "oddity",
+  "s": "stație de tramvai în București",
+  "q": "Compasului Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q128305301",
+   "raw": "stație de tramvai în București",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "crinului",
+  "n": "Crinului",
+  "a": "",
+  "pc": "",
+  "lat": 44.48079,
+  "lng": 26.03372,
+  "c": "oddity",
+  "s": "bucharest tram stop",
+  "q": "Crinului Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q128305305",
+   "raw": "Bucharest tram stop",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "depoulmilitari",
+  "n": "Depoul Militari",
+  "a": "",
+  "pc": "",
+  "lat": 44.42972,
+  "lng": 25.9793,
+  "c": "oddity",
+  "s": "bucharest tram stop",
+  "q": "Depoul Militari Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q128305311",
+   "raw": "Bucharest tram stop",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "institutulpasteur",
+  "n": "Institutul Pasteur",
+  "a": "",
+  "pc": "",
+  "lat": 44.46859,
+  "lng": 26.02812,
+  "c": "oddity",
+  "s": "stație de tramvai în București",
+  "q": "Institutul Pasteur Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q128305322",
+   "raw": "stație de tramvai în București",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "inscut",
+  "n": "Inscut",
+  "a": "",
+  "pc": "",
+  "lat": 44.43006,
+  "lng": 25.98307,
+  "c": "oddity",
+  "s": "bucharest tram stop",
+  "q": "Inscut Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q128305321",
+   "raw": "Bucharest tram stop",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mezes",
+  "n": "Mezeș",
+  "a": "",
+  "pc": "",
+  "lat": 44.4854,
+  "lng": 26.02295,
+  "c": "oddity",
+  "s": "bucharest tram stop",
+  "q": "Mezeș Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q128305339",
+   "raw": "Bucharest tram stop",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "marmurei",
+  "n": "Marmurei",
+  "a": "",
+  "pc": "",
+  "lat": 44.48237,
+  "lng": 26.02977,
+  "c": "oddity",
+  "s": "stație de tramvai în București",
+  "q": "Marmurei Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q128305337",
+   "raw": "stație de tramvai în București",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "minerva",
+  "n": "Minerva",
+  "a": "",
+  "pc": "",
+  "lat": 44.4791,
+  "lng": 26.03793,
+  "c": "oddity",
+  "s": "stație de tramvai în București",
+  "q": "Minerva Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q128305343",
+   "raw": "stație de tramvai în București",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "orsova",
+  "n": "Orșova",
+  "a": "",
+  "pc": "",
+  "lat": 44.44023,
+  "lng": 26.03534,
+  "c": "oddity",
+  "s": "bucharest tram stop",
+  "q": "Orșova Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q128305354",
+   "raw": "Bucharest tram stop",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "piatagiulesti",
+  "n": "Piața Giulești",
+  "a": "",
+  "pc": "",
+  "lat": 44.46647,
+  "lng": 26.035,
+  "c": "oddity",
+  "s": "bucharest tram stop",
+  "q": "Piața Giulești Bucharest",
+  "w": "",
+  "city": "bucharest",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q128305368",
+   "raw": "Bucharest tram stop",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

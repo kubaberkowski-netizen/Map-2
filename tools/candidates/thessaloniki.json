@@ -1,0 +1,3323 @@
+[
+ {
+  "id": "spot",
+  "n": "Βυζαντινά Τείχη Θεσσαλονίκης",
+  "a": "",
+  "pc": "",
+  "lat": 40.64162,
+  "lng": 22.95787,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Βυζαντινά Τείχη Θεσσαλονίκης Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/140160188",
+   "raw": {
+    "historic": "monument",
+    "int_name": "Byzantine City Walls of Thessaloniki",
+    "name": "Βυζαντινά Τείχη Θεσσαλονίκης"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot2",
+  "n": "Ολυμπιακό Μουσείο",
+  "a": "",
+  "pc": "",
+  "lat": 40.62747,
+  "lng": 22.96428,
+  "c": "museum",
+  "s": "museum",
+  "q": "Ολυμπιακό Μουσείο Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/206191867",
+   "raw": {
+    "addr:city": "Θεσσαλονίκη",
+    "addr:postcode": "54636",
+    "addr:street": "Γ΄Σεπτεμβρίου",
+    "alt_name": "Αθλητικό Μουσείο Θεσσαλονίκης",
+    "alt_name:el": "Αθλητικό Μουσείο Θεσσαλονίκης",
+    "amenity": "museum",
+    "fee": "yes",
+    "museum": "sports",
+    "name": "Ολυμπιακό Μουσείο",
+    "name:el": "Ολυμπιακό Μουσείο",
+    "name:en": "Olympic Museum",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-16:00; Su 10:00-14:00; PH off",
+    "phone": "+30 2310968531",
+    "tourism": "museum",
+    "website": "http://www.olympicmuseum-thessaloniki.org",
+    "wikidata": "Q4333880"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot3",
+  "n": "Άγαλμα Ελευθερίου Βενιζέλου",
+  "a": "",
+  "pc": "",
+  "lat": 40.63616,
+  "lng": 22.94442,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Άγαλμα Ελευθερίου Βενιζέλου Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/211265285",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "layer": "2",
+    "material": "marble",
+    "memorial": "statue",
+    "name": "Άγαλμα Ελευθερίου Βενιζέλου",
+    "name:el": "Άγαλμα Ελευθερίου Βενιζέλου",
+    "name:en": "Eleftheros Venizelos Statue",
+    "short_name": "Βενιζέλος",
+    "short_name:en": "Venizelos",
+    "subject:wikidata": "Q205545",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wikidata": "Q115105743"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot4",
+  "n": "Άγαλμα Κωνσταντίνου Α'",
+  "a": "",
+  "pc": "",
+  "lat": 40.64025,
+  "lng": 22.93535,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Άγαλμα Κωνσταντίνου Α' Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/250767617",
+   "raw": {
+    "artwork_type": "statue",
+    "heritage": "2",
+    "historic": "memorial",
+    "material": "marble",
+    "memorial": "statue",
+    "name": "Άγαλμα Κωνσταντίνου Α'",
+    "name:de": "Statue von Konstantin I.",
+    "name:el": "Άγαλμα Κωνσταντίνου Α'",
+    "statue": "equestrian",
+    "subject:wikidata": "Q152099",
+    "subject:wikipedia": "el:Κωνσταντίνος Α΄ της Ελλάδας",
+    "tourism": "artwork",
+    "wikidata": "Q115105846"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot5",
+  "n": "Άγιος Χαράλαμπος",
+  "a": "",
+  "pc": "",
+  "lat": 40.64852,
+  "lng": 22.96038,
+  "c": "faith",
+  "s": "church",
+  "q": "Άγιος Χαράλαμπος Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/250914676",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "greek_orthodox",
+    "name": "Άγιος Χαράλαμπος",
+    "name:el:en": "Ekklisia Agiou Charalambou",
+    "religion": "christian",
+    "wikidata": "Q27180226"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot6",
+  "n": "Άγαλμα Αριστοτέλη",
+  "a": "",
+  "pc": "",
+  "lat": 40.63224,
+  "lng": 22.94108,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Άγαλμα Αριστοτέλη Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/292160693",
+   "raw": {
+    "access": "yes",
+    "artwork_type": "statue",
+    "historic": "monument",
+    "material": "marble",
+    "name": "Άγαλμα Αριστοτέλη",
+    "name:el": "Άγαλμα Αριστοτέλη",
+    "name:en": "Statue of Aristotle",
+    "short_name": "Αριστοτέλης",
+    "short_name:en": "Aristotle",
+    "subject:wikidata": "Q868",
+    "subject:wikipedia": "el:Αριστοτέλης",
+    "tourism": "artwork",
+    "wikidata": "Q115105725"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "soutsos",
+  "n": "SOUTSOS",
+  "a": "",
+  "pc": "",
+  "lat": 40.6352,
+  "lng": 22.94586,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "SOUTSOS Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/306009201",
+   "raw": {
+    "name": "SOUTSOS",
+    "note:en": "They sell motorcycles",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot7",
+  "n": "Μουσείο Μακεδονικού Αγώνα",
+  "a": "",
+  "pc": "",
+  "lat": 40.63085,
+  "lng": 22.94363,
+  "c": "museum",
+  "s": "museum",
+  "q": "Μουσείο Μακεδονικού Αγώνα Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/377007405",
+   "raw": {
+    "addr:city": "Θεσσαλονίκη",
+    "addr:housenumber": "23",
+    "addr:postcode": "54622",
+    "addr:street": "Προξένου Κορομηλά",
+    "charge": "2€",
+    "email": "info@imma.edu.gr",
+    "fee": "yes",
+    "museum": "history",
+    "name": "Μουσείο Μακεδονικού Αγώνα",
+    "name:az": "Makedoniya Mübarizəsi Muzeyi",
+    "name:be": "Музей Македонскай барацьбы",
+    "name:bg": "Музей на Македонската борба",
+    "name:bs": "Muzej Makedonske Borbe",
+    "name:ca": "Museu de la Lluita Macedonia",
+    "name:cs": "Muzeum Makedonského Boje",
+    "name:cy": "Amgueddfa Ymladd Macedonian",
+    "name:de": "Museum des Makedonischen Kampfes",
+    "name:el": "Μουσείο Μακεδονικού Αγώνα",
+    "name:en": "Museum of the Macedonian Struggle",
+    "name:es": "Museo de la Lucha Macedonia",
+    "name:et": "Makedoonia Võitluse Muuseum",
+    "name:eu": "Mazedoniako Borrokaren Museoa",
+    "name:fi": "Makedonian Taistelun Museo",
+    "name:fr": "Musée de la Lutte Macédonienne",
+    "name:ga": "Músaem na Struchtúr Macadóineach",
+    "name:gd": "Taigh-tasgaidh a 'Mhac-Macedannaich Strì",
+    "name:he": "מוזיאון המאבק המקדוני",
+    "name:hr": "Muzej Makedonske Borbe",
+    "name:hu": "A Macedón Harc Múzeuma",
+    "name:hy": "Մակեդոնիայի թանգարան",
+    "name:it": "Museo della Lotta Macedone",
+    "name:ka": "მაკედონიის მაკედონიის ბრძოლის მუზეუმი",
+    "name:kk": "Македонский Күрес Мұражайы",
+    "name:ku": "Mûzgehek Têkoşîna Macedonia",
+    "name:ky": "Macedonian билемдигинен Mузейи",
+    "name:lt": "Makedonijos Kovos Muziejus",
+    "name:mt": "Mużew tal-Ġlieda Maċedonja",
+    "name:nl": "Museum van de Macedonische Strijd",
+    "name:pl": "Muzeum Walki Macedońskiej",
+    "name:pt": "Museu da Luta Macedônia",
+    "name:ro": "Muzeul Luptei Macedonene",
+    "name:ru": "Музей Македонской борьбы",
+    "name:sk": "Múzeum Macedónskeho Boja",
+    "name:sl": "Muzej Makedonske Borbe",
+    "name:sq": "Muzeu i Luftës Maqedonase",
+    "name:sr": "Музеј Македонске борбе",
+    "name:tr": "Makedon Mücadelesi Müzesi",
+    "name:uk": "Музей Македонської боротьби",
+    "name:uz": "Makedoniya Kurashining Muzeyi",
+    "name:zh": "马其顿斗争博物馆",
+    "opening_hours": "Mo-Fr 09:00-14:00; We 09:00-20:00; Sa 10:00-14:00",
+    "phone": "+302310229778",
+    "short_name": "Μουσείο Μακεδονικού Αγώνα",
+    "tourism": "museum",
+    "website": "https://www.imma.edu.gr",
+    "wikidata": "Q1954602",
+    "wikipedia": "el:Μουσείο Μακεδονικού Αγώνα Θεσσαλονίκης"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot8",
+  "n": "Μνημείο Αραβησσού",
+  "a": "",
+  "pc": "",
+  "lat": 40.64993,
+  "lng": 22.94597,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Μνημείο Αραβησσού Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/421774815",
+   "raw": {
+    "historic": "memorial",
+    "name": "Μνημείο Αραβησσού"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot9",
+  "n": "Λαογραφικό και Εθνολογικό μουσείο Μακεδονίας - Θράκης",
+  "a": "",
+  "pc": "",
+  "lat": 40.61018,
+  "lng": 22.95218,
+  "c": "museum",
+  "s": "museum",
+  "q": "Λαογραφικό και Εθνολογικό μουσείο Μακεδονίας - Θράκης Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/776991690",
+   "raw": {
+    "addr:city": "Θεσσαλονίκη",
+    "addr:housenumber": "68",
+    "addr:postcode": "54642",
+    "addr:street": "Βασιλίσσης Όλγας",
+    "name": "Λαογραφικό και Εθνολογικό μουσείο Μακεδονίας - Θράκης",
+    "name:bg": "Фолклорният и Етноложки Музей на Македония-Тракия",
+    "name:el": "Λαογραφικό και Εθνολογικό μουσείο Μακεδονίας - Θράκης",
+    "name:en": "Folklife and Ethnological museum of Macedonia - Thrace",
+    "name:ru": "Muzeul de Arta Populara si Etnologic din Macedonia si Tracia",
+    "name:tr": "Makedonya- Trakya Folklör ve Etnoğrafya Müzesi",
+    "tourism": "museum",
+    "website": "https://lemmth.gr/",
+    "wikidata": "Q3563137"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot10",
+  "n": "Θερινός Κινηματογράφος Ναταλί",
+  "a": "",
+  "pc": "",
+  "lat": 40.62158,
+  "lng": 22.95259,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Θερινός Κινηματογράφος Ναταλί Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/891584663",
+   "raw": {
+    "addr:city": "Θεσσαλονίκη",
+    "addr:housenumber": "3",
+    "addr:postcode": "54640",
+    "addr:street": "Μεγάλου Αλεξάνδρου",
+    "amenity": "cinema",
+    "name": "Θερινός Κινηματογράφος Ναταλί",
+    "open_air": "yes",
+    "phone": "+30 2310 82 94 57",
+    "website": "http://www.thekinematografers.com/nualphataualphalambda943.html"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot11",
+  "n": "Λυσίμαχος Καυταντζόγλου",
+  "a": "",
+  "pc": "",
+  "lat": 40.62491,
+  "lng": 22.96586,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Λυσίμαχος Καυταντζόγλου Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1152869848",
+   "raw": {
+    "artist_name": "Αλίκη Χατζή",
+    "historic": "memorial",
+    "material": "marble",
+    "memorial": "statue",
+    "name": "Λυσίμαχος Καυταντζόγλου",
+    "name:el": "Λυσίμαχος Καυταντζόγλου",
+    "subject:wikidata": "Q126049896",
+    "wikidata": "Q115105786"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot12",
+  "n": "Μνημείο Γρηγόρη Λαμπράκη",
+  "a": "",
+  "pc": "",
+  "lat": 40.63596,
+  "lng": 22.94107,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Μνημείο Γρηγόρη Λαμπράκη Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1258950701",
+   "raw": {
+    "description:el": "Σημείο της δολοφονίας του πολιτικού της αριστεράς Γρηγόρη Λαμπράκη",
+    "description:en": "The exact point where radiocal left-wing politician Grigoris Lambrakis was assassinated",
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Μνημείο Γρηγόρη Λαμπράκη",
+    "name:ca": "Memorial Grigórios Lambrakis",
+    "name:el": "Μνημείο Γρηγόρη Λαμπράκη",
+    "name:en": "Memorial for Grigoris Lambrakis",
+    "subject:wikidata": "Q700611",
+    "wikidata": "Q115106103",
+    "wikipedia": "en:Grigoris Lambrakis"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot13",
+  "n": "Άγαλμα Χρυσοστόμου Σμύρνης",
+  "a": "",
+  "pc": "",
+  "lat": 40.63378,
+  "lng": 22.94624,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Άγαλμα Χρυσοστόμου Σμύρνης Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1258966607",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Άγαλμα Χρυσοστόμου Σμύρνης",
+    "name:el": "Άγαλμα Χρυσοστόμου Σμύρνης",
+    "name:en": "Statue of Chrisostomos of Smyrna",
+    "subject:wikidata": "Q951183",
+    "tourism": "artwork",
+    "wikidata": "Q115105802",
+    "wikipedia": "el:Χρυσόστομος Σμύρνης"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "odeon",
+  "n": "ODEON Πλατεία",
+  "a": "",
+  "pc": "",
+  "lat": 40.63356,
+  "lng": 22.94303,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "ODEON Πλατεία Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1258976288",
+   "raw": {
+    "addr:housenumber": "43",
+    "addr:street": "Ιωάννη Τσιμισκή",
+    "amenity": "cinema",
+    "brand": "Odeon",
+    "brand:wikidata": "Q6127470",
+    "name": "ODEON Πλατεία",
+    "name:el": "ODEON Πλατεία",
+    "phone": "+30 2310290290",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.odeon.gr/plateia/",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot16",
+  "n": "Βυζαντινά Τείχη",
+  "a": "",
+  "pc": "",
+  "lat": 40.63555,
+  "lng": 22.95565,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Βυζαντινά Τείχη Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1258982282",
+   "raw": {
+    "historic": "ruins",
+    "name": "Βυζαντινά Τείχη",
+    "name:el": "Βυζαντινά Τείχη",
+    "name:en": "Byzantine Wall"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot17",
+  "n": "Ελληνική Ευαγγελική Εκκλησία Θεσσαλονίκης",
+  "a": "",
+  "pc": "",
+  "lat": 40.63207,
+  "lng": 22.94951,
+  "c": "faith",
+  "s": "church",
+  "q": "Ελληνική Ευαγγελική Εκκλησία Θεσσαλονίκης Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1260045406",
+   "raw": {
+    "addr:city": "Θεσσαλονίκη",
+    "addr:housenumber": "37",
+    "addr:postcode": "54622",
+    "addr:street": "Παλαιών Πατρών Γερμανού",
+    "amenity": "place_of_worship",
+    "denomination": "evangelical",
+    "email": "info@eeeth.gr",
+    "full_name": "Ελληνική Ευαγγελική Εκκλησία Θεσσαλονίκης",
+    "name": "Ελληνική Ευαγγελική Εκκλησία Θεσσαλονίκης",
+    "name:el": "Ελληνική Ευαγγελική Εκκλησία Θεσσαλονίκης",
+    "name:en": "Thessaloniki Greek Evangelical Church",
+    "phone": "+30 2310273380",
+    "religion": "christian",
+    "short_name": "Ευαγγελική Εκκλησία",
+    "website": "https://www.eeeth.gr/",
+    "wikidata": "Q27516334"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot18",
+  "n": "Κέντρο Ιστορίας Θεσσαλονίκης",
+  "a": "",
+  "pc": "",
+  "lat": 40.62913,
+  "lng": 22.94996,
+  "c": "museum",
+  "s": "museum",
+  "q": "Κέντρο Ιστορίας Θεσσαλονίκης Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1260045542",
+   "raw": {
+    "name": "Κέντρο Ιστορίας Θεσσαλονίκης",
+    "name:el": "Κέντρο Ιστορίας Θεσσαλονίκης",
+    "name:en": "Centre for the History of Thessaloniki",
+    "tourism": "museum",
+    "wheelchair": "limited",
+    "wikidata": "Q7783469"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot19",
+  "n": "Ανδριάντας Βιζυηνού",
+  "a": "",
+  "pc": "",
+  "lat": 40.63423,
+  "lng": 22.95703,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ανδριάντας Βιζυηνού Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1260355916",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Ανδριάντας Βιζυηνού",
+    "subject:wikidata": "Q331250",
+    "wikidata": "Q115105730",
+    "wikipedia": "el:Γεώργιος Βιζυηνός"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot20",
+  "n": "Μάνα του Στρατιώτη",
+  "a": "",
+  "pc": "",
+  "lat": 40.62447,
+  "lng": 22.95585,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Μάνα του Στρατιώτη Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1260398029",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "plaque",
+    "name": "Μάνα του Στρατιώτη",
+    "name:el": "Μάνα του Στρατιώτη",
+    "name:en": "Soldier's Mother",
+    "name:ru": "Памятник солдатским матерям",
+    "tourism": "artwork",
+    "wikidata": "Q115106108"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot21",
+  "n": "Προτομή Μανόλη Ανδρόνικου",
+  "a": "",
+  "pc": "",
+  "lat": 40.62589,
+  "lng": 22.95255,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Προτομή Μανόλη Ανδρόνικου Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1260398040",
+   "raw": {
+    "check_date": "2025-09-12",
+    "historic": "memorial",
+    "inscription": "ΜΑΝΟΛΗΣ | ΑΝΔΡΟΝΙΚΟΣ | ΑΡΧΑΙΟΛΟΓΟΣ | 1912-1992",
+    "material": "brass",
+    "memorial": "bust",
+    "name": "Προτομή Μανόλη Ανδρόνικου",
+    "name:el": "Προτομή Μανόλη Ανδρόνικου",
+    "name:en": "Bust of Manolis Andronikos",
+    "subject:wikidata": "Q1362287",
+    "wikidata": "Q115106495"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot22",
+  "n": "Αρμένικος Σταυρός",
+  "a": "",
+  "pc": "",
+  "lat": 40.62734,
+  "lng": 22.95197,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Αρμένικος Σταυρός Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1260398062",
+   "raw": {
+    "alt_name": "Αρμένικος Σταυρός",
+    "historic": "memorial",
+    "inscription": "Μνημης Χαριν",
+    "memorial": "stele",
+    "name": "Αρμένικος Σταυρός",
+    "name:el": "Αρμένικος Σταυρός",
+    "name:en": "Armenian Cross",
+    "stele": "khachkar",
+    "wikidata": "Q117312910"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot23",
+  "n": "Γλυπτό ΔΕΘ",
+  "a": "",
+  "pc": "",
+  "lat": 40.63055,
+  "lng": 22.95391,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Γλυπτό ΔΕΘ Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1260398088",
+   "raw": {
+    "artist:wikidata": "Q12875325",
+    "artist_name": "Γιώργος Ζογγολόπουλος",
+    "artwork_type": "sculpture",
+    "material": "metal",
+    "name": "Γλυπτό ΔΕΘ",
+    "name:el": "Γλυπτό ΔΕΘ",
+    "name:en": "Sculpture Cor-ten",
+    "tourism": "artwork",
+    "wikidata": "Q18692021",
+    "wikipedia": "el:Γλυπτό ΔΕΘ"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot24",
+  "n": "Προτομή Τάκη Κανελλόπουλου",
+  "a": "",
+  "pc": "",
+  "lat": 40.62671,
+  "lng": 22.94911,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Προτομή Τάκη Κανελλόπουλου Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1260398095",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Προτομή Τάκη Κανελλόπουλου",
+    "name:el": "Προτομή Τάκη Κανελλόπουλου",
+    "name:en": "Bust of Takis Kanellopoulos",
+    "subject:wikidata": "Q384122",
+    "wikidata": "Q115106651"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot27",
+  "n": "Γυναίκα",
+  "a": "",
+  "pc": "",
+  "lat": 40.61796,
+  "lng": 22.95341,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Γυναίκα Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1260398111",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Γυναίκα",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot30",
+  "n": "Μνημείο Πολυτεχνείου",
+  "a": "",
+  "pc": "",
+  "lat": 40.6283,
+  "lng": 22.9583,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Μνημείο Πολυτεχνείου Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1260398190",
+   "raw": {
+    "historic": "memorial",
+    "name": "Μνημείο Πολυτεχνείου",
+    "wikidata": "Q115106047"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot31",
+  "n": "Ζευγάρι και περιστέρι",
+  "a": "",
+  "pc": "",
+  "lat": 40.60233,
+  "lng": 22.95029,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Ζευγάρι και περιστέρι Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1260398196",
+   "raw": {
+    "alt_name": "Γλυπτό Τζοπανάκη",
+    "artist_name": "Μανώλης Τζομπανάκης",
+    "artwork_type": "sculpture",
+    "material": "bronze",
+    "name": "Ζευγάρι και περιστέρι",
+    "name:el": "Ζευγάρι και περιστέρι",
+    "name:en": "Couple and dove",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot32",
+  "n": "Άγαλμα Τσάμη Καρατάσου",
+  "a": "",
+  "pc": "",
+  "lat": 40.63283,
+  "lng": 22.95445,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Άγαλμα Τσάμη Καρατάσου Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1260398214",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Άγαλμα Τσάμη Καρατάσου",
+    "name:de": "D. Tsam. Karatassos",
+    "name:el": "Άγαλμα Τσάμη Καρατάσου",
+    "wikidata": "Q115105738"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot33",
+  "n": "Μακεδονικόν",
+  "a": "",
+  "pc": "",
+  "lat": 40.62975,
+  "lng": 22.95168,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Μακεδονικόν Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1264446449",
+   "raw": {
+    "addr:city": "Θεσσαλονίκη",
+    "addr:housenumber": "24",
+    "addr:street": "Φιλικής Εταιρείας",
+    "amenity": "cinema",
+    "contact:facebook": "https://www.facebook.com/Makedonikon/",
+    "contact:instagram": "https://www.instagram.com/cinemakedonikon/",
+    "name": "Μακεδονικόν",
+    "name:el": "Μακεδονικόν",
+    "name:en": "Makedonikon",
+    "opening_hours": "Mo-Su 17:00-23:00",
+    "phone": "+30 231 026 1727",
+    "screen": "1",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot34",
+  "n": "Παιδικό Μουσείο Θεσσαλονίκης",
+  "a": "",
+  "pc": "",
+  "lat": 40.63766,
+  "lng": 22.95719,
+  "c": "museum",
+  "s": "museum",
+  "q": "Παιδικό Μουσείο Θεσσαλονίκης Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1282041555",
+   "raw": {
+    "name": "Παιδικό Μουσείο Θεσσαλονίκης",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot35",
+  "n": "Ειρήνη",
+  "a": "",
+  "pc": "",
+  "lat": 40.64733,
+  "lng": 22.94671,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ειρήνη Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1409480582",
+   "raw": {
+    "historic": "monument",
+    "name": "Ειρήνη",
+    "name:el": "Ειρήνη",
+    "name:en": "Peace"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot36",
+  "n": "Βυζαντινοί Νερόμυλοι",
+  "a": "",
+  "pc": "",
+  "lat": 40.6667,
+  "lng": 22.96484,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Βυζαντινοί Νερόμυλοι Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1489036025",
+   "raw": {
+    "historic": "ruins",
+    "historic:civilization": "byzantine",
+    "name": "Βυζαντινοί Νερόμυλοι",
+    "ruins": "watermill",
+    "wikidata": "Q111154692"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot37",
+  "n": "Αίθουσα Συνελεύσεων των Μαρτύρων του Ιεχωβά",
+  "a": "",
+  "pc": "",
+  "lat": 40.6762,
+  "lng": 22.93844,
+  "c": "faith",
+  "s": "church",
+  "q": "Αίθουσα Συνελεύσεων των Μαρτύρων του Ιεχωβά Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1489148188",
+   "raw": {
+    "addr:city": "Σταυρούπολη Θεσσαλονίκη",
+    "addr:housenumber": "349-351",
+    "addr:postcode": "56430",
+    "addr:street": "Λαγκαδά",
+    "amenity": "place_of_worship",
+    "denomination": "jehovahs_witness",
+    "name": "Αίθουσα Συνελεύσεων των Μαρτύρων του Ιεχωβά",
+    "name:el": "Αίθουσα Συνελεύσεων των Μαρτύρων του Ιεχωβά",
+    "name:en": "Assembly Hall of Jehovah's Witnesses",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot38",
+  "n": "Μελίνα Μερκουρη",
+  "a": "",
+  "pc": "",
+  "lat": 40.64684,
+  "lng": 22.95448,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Μελίνα Μερκουρη Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1523230288",
+   "raw": {
+    "historic": "monument",
+    "name": "Μελίνα Μερκουρη",
+    "note:el": "Γράφει ότι ο το δημοτικό συμβούλιο του Δήμου Συκεών πήρε την απόφαση το 1997 να ονομάσει την οδό στη τιμή της Μελίνας Μερκουρι"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot39",
+  "n": "Εθνική Χαρτοθήκη",
+  "a": "",
+  "pc": "",
+  "lat": 40.64315,
+  "lng": 22.94948,
+  "c": "museum",
+  "s": "museum",
+  "q": "Εθνική Χαρτοθήκη Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1723432700",
+   "raw": {
+    "addr:housenumber": "37",
+    "addr:street": "Δημητρίου Πολιορκητού",
+    "description": "Εθνικό Κέντρο Χαρτών και Χαρτογραφικής Κληρονομιάς",
+    "name": "Εθνική Χαρτοθήκη",
+    "tourism": "museum",
+    "wikidata": "Q6974229"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot40",
+  "n": "Μνημείο Ιωάννη Παπάφη",
+  "a": "",
+  "pc": "",
+  "lat": 40.61922,
+  "lng": 22.96347,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Μνημείο Ιωάννη Παπάφη Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1735048544",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Μνημείο Ιωάννη Παπάφη",
+    "subject:wikidata": "Q2599644"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot41",
+  "n": "Μνημείο πεσόντων αστυνομικών",
+  "a": "",
+  "pc": "",
+  "lat": 40.62317,
+  "lng": 22.95599,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Μνημείο πεσόντων αστυνομικών Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1736682397",
+   "raw": {
+    "historic": "memorial",
+    "name": "Μνημείο πεσόντων αστυνομικών",
+    "name:el": "Μνημείο πεσόντων αστυνομικών",
+    "name:en": "Memorial to fallen police officers",
+    "subject:wikidata": "Q3100396",
+    "wikidata": "Q115105989"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot42",
+  "n": "Πύλη Άννας Παλαιολογίνας",
+  "a": "",
+  "pc": "",
+  "lat": 40.64128,
+  "lng": 22.95949,
+  "c": "medieval",
+  "s": "medieval site",
+  "q": "Πύλη Άννας Παλαιολογίνας Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1737019277",
+   "raw": {
+    "barrier": "sally_port",
+    "historic": "city_gate",
+    "int_name": "Anna Palaiologina gate",
+    "name": "Πύλη Άννας Παλαιολογίνας"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "skylinecafebar",
+  "n": "Skyline Café-Bar",
+  "a": "",
+  "pc": "",
+  "lat": 40.62623,
+  "lng": 22.95453,
+  "c": "caff",
+  "s": "local curiosity",
+  "q": "Skyline Café-Bar Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1741553174",
+   "raw": {
+    "addr:city": "Θεσσαλονίκη",
+    "addr:housenumber": "154",
+    "addr:postcode": "54621",
+    "addr:street": "Εγνατία",
+    "addr:unit": "TIF",
+    "amenity": "cafe",
+    "email": "info@skyline.bar",
+    "name": "Skyline Café-Bar",
+    "opening_hours": "Su-Th 10:00-25:00; Fr-Sa 10:00-26:00",
+    "phone": "+30 2310 26 54 60",
+    "smoking": "outside",
+    "tourism": "viewpoint",
+    "website": "https://www.skyline.bar/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot43",
+  "n": "Μουσείο Φωτογραφίας",
+  "a": "",
+  "pc": "",
+  "lat": 40.5856,
+  "lng": 22.9544,
+  "c": "museum",
+  "s": "museum",
+  "q": "Μουσείο Φωτογραφίας Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1764229129",
+   "raw": {
+    "name": "Μουσείο Φωτογραφίας",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot44",
+  "n": "Αγ. Ειρ. Χρυσοβαλάντου",
+  "a": "",
+  "pc": "",
+  "lat": 40.68202,
+  "lng": 22.95319,
+  "c": "faith",
+  "s": "church",
+  "q": "Αγ. Ειρ. Χρυσοβαλάντου Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1848295302",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Αγ. Ειρ. Χρυσοβαλάντου",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot45",
+  "n": "Πευκόφυτον",
+  "a": "",
+  "pc": "",
+  "lat": 40.64498,
+  "lng": 22.98022,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Πευκόφυτον Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1863999634",
+   "raw": {
+    "int_name": "Kara Tepe",
+    "name": "Πευκόφυτον",
+    "place": "locality",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot46",
+  "n": "Άγαλμα Ιβάνοφ",
+  "a": "",
+  "pc": "",
+  "lat": 40.64552,
+  "lng": 22.93552,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Άγαλμα Ιβάνοφ Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1918454457",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Άγαλμα Ιβάνοφ",
+    "subject:wikidata": "Q630758",
+    "wikidata": "Q115105732"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot47",
+  "n": "Μνημείο Γενοκτονίας Ποντιακού Ελληνισμού",
+  "a": "",
+  "pc": "",
+  "lat": 40.6853,
+  "lng": 22.85844,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Μνημείο Γενοκτονίας Ποντιακού Ελληνισμού Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1930763478",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Μνημείο Γενοκτονίας Ποντιακού Ελληνισμού",
+    "material": "bronze",
+    "memorial": "sculpture",
+    "name": "Μνημείο Γενοκτονίας Ποντιακού Ελληνισμού",
+    "name:el": "Μνημείο Γενοκτονίας Ποντιακού Ελληνισμού",
+    "name:en": "Monument of Pontic Greek Genocide"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot48",
+  "n": "Αγία Ειρήνη Χρυσοβαλάντου",
+  "a": "",
+  "pc": "",
+  "lat": 40.67311,
+  "lng": 22.88838,
+  "c": "faith",
+  "s": "church",
+  "q": "Αγία Ειρήνη Χρυσοβαλάντου Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1944163091",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "greek_orthodox",
+    "name": "Αγία Ειρήνη Χρυσοβαλάντου",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot49",
+  "n": "Μνημείο Πεσόντων Ηρώων",
+  "a": "",
+  "pc": "",
+  "lat": 40.64063,
+  "lng": 23.02203,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Μνημείο Πεσόντων Ηρώων Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1995561004",
+   "raw": {
+    "historic": "monument",
+    "name": "Μνημείο Πεσόντων Ηρώων"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot50",
+  "n": "Δημοτική Πινακοθήκη",
+  "a": "",
+  "pc": "",
+  "lat": 40.59652,
+  "lng": 22.95578,
+  "c": "museum",
+  "s": "museum",
+  "q": "Δημοτική Πινακοθήκη Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2057467561",
+   "raw": {
+    "fee": "no",
+    "name": "Δημοτική Πινακοθήκη",
+    "tourism": "museum",
+    "wikidata": "Q6936124"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot51",
+  "n": "Άρτεμις",
+  "a": "",
+  "pc": "",
+  "lat": 40.63897,
+  "lng": 23.00126,
+  "c": "view",
+  "s": "hilltop viewpoint",
+  "q": "Άρτεμις Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2346732591",
+   "raw": {
+    "ele": "410",
+    "name": "Άρτεμις",
+    "natural": "peak",
+    "place": "locality",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot52",
+  "n": "Κοίμηση Θεοτόκου",
+  "a": "",
+  "pc": "",
+  "lat": 40.6573,
+  "lng": 22.89847,
+  "c": "faith",
+  "s": "church",
+  "q": "Κοίμηση Θεοτόκου Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2657951087",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Κοίμηση Θεοτόκου",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot53",
+  "n": "Κρητικός Μακεδονομάχος Αγωνιστής",
+  "a": "",
+  "pc": "",
+  "lat": 40.62828,
+  "lng": 22.94835,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Κρητικός Μακεδονομάχος Αγωνιστής Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3023870733",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Κρητικός Μακεδονομάχος Αγωνιστής",
+    "source": "survey",
+    "wikidata": "Q115105713"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot54",
+  "n": "Άγαλμα Αλέξανδρου Υψηλάντη",
+  "a": "",
+  "pc": "",
+  "lat": 40.67338,
+  "lng": 22.92894,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Άγαλμα Αλέξανδρου Υψηλάντη Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3073685719",
+   "raw": {
+    "artwork_type": "bust",
+    "historic": "memorial",
+    "material": "marble",
+    "name": "Άγαλμα Αλέξανδρου Υψηλάντη",
+    "tourism": "artwork",
+    "wikidata": "Q115106191"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot57",
+  "n": "Σινέ Πυλαία",
+  "a": "",
+  "pc": "",
+  "lat": 40.59984,
+  "lng": 22.98869,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Σινέ Πυλαία Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3276142510",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Σινέ Πυλαία"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot58",
+  "n": "Ιερός Ναός Γέννησις του Χριστού",
+  "a": "",
+  "pc": "",
+  "lat": 40.60246,
+  "lng": 22.95876,
+  "c": "faith",
+  "s": "church",
+  "q": "Ιερός Ναός Γέννησις του Χριστού Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3371522183",
+   "raw": {
+    "addr:city": "Θεσσαλονίκη",
+    "addr:postcode": "54248",
+    "addr:street": "Γραβιάς",
+    "amenity": "place_of_worship",
+    "check_date": "2025-08-17",
+    "denomination": "greek_orthodox",
+    "name": "Ιερός Ναός Γέννησις του Χριστού",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot60",
+  "n": "Μνημείο Εβραϊκού Νεκροταφείου",
+  "a": "",
+  "pc": "",
+  "lat": 40.63108,
+  "lng": 22.95922,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Μνημείο Εβραϊκού Νεκροταφείου Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3646429878",
+   "raw": {
+    "historic": "monument",
+    "name": "Μνημείο Εβραϊκού Νεκροταφείου",
+    "name:el": "Μνημείο Εβραϊκού Νεκροταφείου",
+    "name:en": "Jewish Cemetary Monument",
+    "wikidata": "Q111540624"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot61",
+  "n": "Παναγία Ελεούσα",
+  "a": "",
+  "pc": "",
+  "lat": 40.63216,
+  "lng": 22.94366,
+  "c": "faith",
+  "s": "church",
+  "q": "Παναγία Ελεούσα Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3738891986",
+   "raw": {
+    "addr:city": "Θεσσαλονίκη",
+    "addr:postcode": "54623",
+    "addr:street": "Ιωάννη Τσιμισκή",
+    "amenity": "place_of_worship",
+    "denomination": "greek_orthodox",
+    "level": "0",
+    "name": "Παναγία Ελεούσα",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot63",
+  "n": "Μουσείο Φωτογραφίας Θεσσαλονίκης",
+  "a": "",
+  "pc": "",
+  "lat": 40.63281,
+  "lng": 22.93539,
+  "c": "museum",
+  "s": "museum",
+  "q": "Μουσείο Φωτογραφίας Θεσσαλονίκης Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3746008996",
+   "raw": {
+    "addr:city": "Θεσσαλονίκη",
+    "alt_name": "MOMus Μουσείο Φωτογραφίας Θεσσαλονίκης",
+    "alt_name:en": "MOMus Thessaloniki Museum of Photography",
+    "fee": "no",
+    "name": "Μουσείο Φωτογραφίας Θεσσαλονίκης",
+    "name:de": "Fotografiemuseum Thessaloniki",
+    "name:el": "Μουσείο Φωτογραφίας Θεσσαλονίκης",
+    "name:en": "Thessaloniki Museum of Photography",
+    "name:mk": "Фотографски музеј на Солун",
+    "phone": "+30 2310 566 716",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "website": "https://www.thmphoto.gr/",
+    "wheelchair": "yes",
+    "wikidata": "Q2331186"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot64",
+  "n": "Αγία Παρασκευή",
+  "a": "",
+  "pc": "",
+  "lat": 40.63671,
+  "lng": 23.02451,
+  "c": "faith",
+  "s": "church",
+  "q": "Αγία Παρασκευή Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3755074543",
+   "raw": {
+    "addr:city": "Ασβεστοχώρι",
+    "addr:postcode": "57010",
+    "addr:street": "Αγίας Παρασκευής",
+    "amenity": "place_of_worship",
+    "denomination": "greek_orthodox",
+    "name": "Αγία Παρασκευή",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot65",
+  "n": "Κρατικό Μουσείο Σύγχρονης Τέχνης",
+  "a": "",
+  "pc": "",
+  "lat": 40.65817,
+  "lng": 22.93161,
+  "c": "museum",
+  "s": "museum",
+  "q": "Κρατικό Μουσείο Σύγχρονης Τέχνης Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3755408867",
+   "raw": {
+    "addr:city": "Θεσσαλονίκη",
+    "addr:housename": "Μονή Λαζαριστών",
+    "addr:housenumber": "21",
+    "addr:postcode": "564 30",
+    "addr:street": "Κολοκοτρώνη",
+    "fee": "yes",
+    "name": "Κρατικό Μουσείο Σύγχρονης Τέχνης",
+    "tourism": "museum",
+    "website": "https://www.greekstatemuseum.com/",
+    "wikidata": "Q247518",
+    "wikipedia": "el:Κρατικό Μουσείο Σύγχρονης Τέχνης"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot66",
+  "n": "Αγίασμα Ευκαρπίας",
+  "a": "",
+  "pc": "",
+  "lat": 40.69425,
+  "lng": 22.9579,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Αγίασμα Ευκαρπίας Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3761447247",
+   "raw": {
+    "historic": "church",
+    "name": "Αγίασμα Ευκαρπίας"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot67",
+  "n": "Πορτάρα",
+  "a": "",
+  "pc": "",
+  "lat": 40.6423,
+  "lng": 22.95556,
+  "c": "medieval",
+  "s": "medieval site",
+  "q": "Πορτάρα Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3861176031",
+   "raw": {
+    "barrier": "sally_port",
+    "building:colour": "#c8b4a0",
+    "historic": "city_gate",
+    "int_name": "Portara",
+    "name": "Πορτάρα",
+    "roof:colour": "#cc9376",
+    "tourism": "attraction"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot68",
+  "n": "Άγαλμα Κ. Καραμανλή",
+  "a": "",
+  "pc": "",
+  "lat": 40.6229,
+  "lng": 22.95167,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Άγαλμα Κ. Καραμανλή Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3909581881",
+   "raw": {
+    "alt_name": "Κωνσταντίνος Καραμανλής",
+    "artist:wikidata": "Q101429764",
+    "artist:wikipedia": "el:Πραξιτέλης Τζανουλίνος",
+    "artist_name": "Πραξιτέλης Τζανουλίνος",
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "material": "marble",
+    "memorial": "statue",
+    "name": "Άγαλμα Κ. Καραμανλή",
+    "subject": "Κωνσταντίνος Καραμανλής",
+    "subject:wikidata": "Q156806",
+    "tourism": "artwork",
+    "wikidata": "Q115105784"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "filmoramasa",
+  "n": "FILMORAMA S.A.",
+  "a": "",
+  "pc": "",
+  "lat": 40.65946,
+  "lng": 22.85019,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "FILMORAMA S.A. Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4114855013",
+   "raw": {
+    "name": "FILMORAMA S.A.",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tsso",
+  "n": "TSSO",
+  "a": "",
+  "pc": "",
+  "lat": 40.62767,
+  "lng": 22.947,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "TSSO Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4226001793",
+   "raw": {
+    "name": "TSSO",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot73",
+  "n": "Μνημείο Εμμανουήλ Παπά",
+  "a": "",
+  "pc": "",
+  "lat": 40.62404,
+  "lng": 22.95263,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Μνημείο Εμμανουήλ Παπά Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4241586087",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Μνημείο Εμμανουήλ Παπά",
+    "short_name": "Εμμανουήλ Παπάς",
+    "subject:wikidata": "Q1338130",
+    "subject:wikipedia": "el:Εμμανουήλ Παπάς",
+    "tourism": "artwork",
+    "wikidata": "Q115105746"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot74",
+  "n": "Ανδριάντας Ίωνος Δραγούμη",
+  "a": "",
+  "pc": "",
+  "lat": 40.62517,
+  "lng": 22.95085,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Ανδριάντας Ίωνος Δραγούμη Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4241770784",
+   "raw": {
+    "artist_name": "Yannis Pappas",
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Ανδριάντας Ίωνος Δραγούμη",
+    "name:el": "Ανδριάντας Ίωνος Δραγούμη",
+    "name:en": "Statue of Ion Dragoumis",
+    "subject:wikidata": "Q737889",
+    "subject:wikipedia": "el:Ίων Δραγούμης",
+    "tourism": "artwork",
+    "wikidata": "Q115105771"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot76",
+  "n": "Μνημείο για τον Ποντιακό Ελληνισμό",
+  "a": "",
+  "pc": "",
+  "lat": 40.68599,
+  "lng": 22.92975,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Μνημείο για τον Ποντιακό Ελληνισμό Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4296173761",
+   "raw": {
+    "direction": "0",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Μνημείο για τον Ποντιακό Ελληνισμό",
+    "wikidata": "Q115105889"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot77",
+  "n": "Ιερός Ναός Οσίας Ξένης",
+  "a": "",
+  "pc": "",
+  "lat": 40.67091,
+  "lng": 22.90194,
+  "c": "faith",
+  "s": "church",
+  "q": "Ιερός Ναός Οσίας Ξένης Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4391434191",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "greek_orthodox",
+    "name": "Ιερός Ναός Οσίας Ξένης",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot78",
+  "n": "Άγιος Νικόλαος",
+  "a": "",
+  "pc": "",
+  "lat": 40.58941,
+  "lng": 22.94095,
+  "c": "faith",
+  "s": "church",
+  "q": "Άγιος Νικόλαος Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4394804722",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "greek_orthodox",
+    "name": "Άγιος Νικόλαος",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stergiosdelialisdesigner",
+  "n": "Stergios Delialis Designer",
+  "a": "",
+  "pc": "",
+  "lat": 40.59893,
+  "lng": 22.9648,
+  "c": "museum",
+  "s": "museum",
+  "q": "Stergios Delialis Designer Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4420649391",
+   "raw": {
+    "name": "Stergios Delialis Designer",
+    "tourism": "museum",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "beetroot",
+  "n": "Beetroot",
+  "a": "",
+  "pc": "",
+  "lat": 40.63752,
+  "lng": 22.93975,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Beetroot Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4543013722",
+   "raw": {
+    "fee": "no",
+    "name": "Beetroot",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot90",
+  "n": "Τρικλίνιο Οδού Λαπιθών",
+  "a": "",
+  "pc": "",
+  "lat": 40.64009,
+  "lng": 22.94828,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Τρικλίνιο Οδού Λαπιθών Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4715904008",
+   "raw": {
+    "historic": "ruins",
+    "name": "Τρικλίνιο Οδού Λαπιθών",
+    "name:el": "Τρικλίνιο Οδού Λαπιθών",
+    "name:en": "Triclinium at Lapithon str.",
+    "operator": "Βυζαντινή Εφορία Αρχαιοτήτων"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "art",
+  "n": "Φαργκάνη Art",
+  "a": "",
+  "pc": "",
+  "lat": 40.63282,
+  "lng": 22.95134,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Φαργκάνη Art Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4821842321",
+   "raw": {
+    "addr:city": "Θεσσαλονίκη",
+    "addr:housenumber": "10",
+    "addr:street": "Αγίου Παντελεήμονος",
+    "amenity": "cinema",
+    "facebook": "https://el-gr.facebook.com/farganiart/",
+    "name": "Φαργκάνη Art",
+    "name:el": "Φαργκάνη Art",
+    "name:en": "Fargani Art",
+    "phone": "2310208007"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot92",
+  "n": "Μητροπολίτης Χρύσανθος",
+  "a": "",
+  "pc": "",
+  "lat": 40.5826,
+  "lng": 22.94887,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Μητροπολίτης Χρύσανθος Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4885807104",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "material": "marble",
+    "memorial": "statue",
+    "name": "Μητροπολίτης Χρύσανθος",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot93",
+  "n": "Πόντιος Ακρίτας",
+  "a": "",
+  "pc": "",
+  "lat": 40.66419,
+  "lng": 22.93594,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Πόντιος Ακρίτας Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4912528864",
+   "raw": {
+    "artist:wikidata": "Q14911952",
+    "artist_name": "Ευθύμιος Καλεβράς",
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "inscription": "ΑΚΡΙΤΑΣ ΤΟΥ ΠΟΝΤΟΥ",
+    "memorial": "statue",
+    "name": "Πόντιος Ακρίτας",
+    "tourism": "artwork",
+    "wikidata": "Q115105814"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot94",
+  "n": "Μνημείο Εθνικής Αντίστασης",
+  "a": "",
+  "pc": "",
+  "lat": 40.6621,
+  "lng": 22.93518,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Μνημείο Εθνικής Αντίστασης Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4938306433",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "war_memorial",
+    "name": "Μνημείο Εθνικής Αντίστασης",
+    "subject:wikidata": "Q490035",
+    "tourism": "artwork",
+    "wikidata": "Q115105686"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot95",
+  "n": "Μνημείο Ποντίων",
+  "a": "",
+  "pc": "",
+  "lat": 40.66051,
+  "lng": 22.94555,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Μνημείο Ποντίων Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4938309483",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Μνημείο Ποντίων",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot96",
+  "n": "Αγίασμα Αγίας Ζώνης",
+  "a": "",
+  "pc": "",
+  "lat": 40.64176,
+  "lng": 22.95269,
+  "c": "faith",
+  "s": "church",
+  "q": "Αγίασμα Αγίας Ζώνης Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4954209263",
+   "raw": {
+    "amenity": "place_of_worship",
+    "description": "The key can be fetched at Όσιος Δαυίδ Church.",
+    "name": "Αγίασμα Αγίας Ζώνης",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot97",
+  "n": "Καπετάν Γκόνας Ιώτας",
+  "a": "",
+  "pc": "",
+  "lat": 40.63994,
+  "lng": 22.95243,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Καπετάν Γκόνας Ιώτας Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4954328917",
+   "raw": {
+    "artist:wikidata": "Q14106428",
+    "artist_name": "Δημήτρης Καλαμάρας",
+    "artwork_type": "bust",
+    "inscription": "Καπετάν Γκόνας Ιώτας / 1880 - 1911",
+    "material": "marble",
+    "memorial": "bust",
+    "name": "Καπετάν Γκόνας Ιώτας",
+    "subject:wikidata": "Q3394762",
+    "tourism": "artwork",
+    "wikidata": "Q115106419"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot98",
+  "n": "Γεφύρι",
+  "a": "",
+  "pc": "",
+  "lat": 40.60406,
+  "lng": 22.98331,
+  "c": "roman",
+  "s": "Roman remains",
+  "q": "Γεφύρι Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5069659280",
+   "raw": {
+    "access": "yes",
+    "alt_name": "Καμάρα Πυλαίας",
+    "archaeological_site": "bridge",
+    "heritage": "2",
+    "historic": "archaeological_site",
+    "historic:civilization": "roman",
+    "name": "Γεφύρι",
+    "name:el": "Γεφύρι",
+    "name:en": "Roman Bridge",
+    "wikidata": "Q55398965"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "colosseon",
+  "n": "Colosseon",
+  "a": "",
+  "pc": "",
+  "lat": 40.60048,
+  "lng": 22.95383,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Colosseon Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5325278689",
+   "raw": {
+    "addr:city": "Θεσσαλονίκη",
+    "addr:housenumber": "150",
+    "addr:postcode": "54645",
+    "addr:street": "Βασιλίσσης Όλγας",
+    "amenity": "cinema",
+    "check_date": "2025-08-30",
+    "name": "Colosseon",
+    "name:el": "Κολοσσαίον"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot102",
+  "n": "Ανδριάντας Κολοκοτρώνη",
+  "a": "",
+  "pc": "",
+  "lat": 40.65236,
+  "lng": 22.94046,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Ανδριάντας Κολοκοτρώνη Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5398831013",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "name": "Ανδριάντας Κολοκοτρώνη",
+    "tourism": "artwork",
+    "wikidata": "Q116954359"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot103",
+  "n": "Πεταλούδες",
+  "a": "",
+  "pc": "",
+  "lat": 40.66564,
+  "lng": 22.8948,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Πεταλούδες Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5475765341",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Πεταλούδες",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot104",
+  "n": "Μνημειο εθνικης αντιστασης",
+  "a": "",
+  "pc": "",
+  "lat": 40.66997,
+  "lng": 22.8968,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Μνημειο εθνικης αντιστασης Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5475834516",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Μνημειο εθνικης αντιστασης"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot105",
+  "n": "Μνημειο Γενοκτονιας Ποντιακου Ελληνισμου",
+  "a": "",
+  "pc": "",
+  "lat": 40.66522,
+  "lng": 22.89664,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Μνημειο Γενοκτονιας Ποντιακου Ελληνισμου Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5475880834",
+   "raw": {
+    "addr:city": "Ελευθέριο-Κορδελιό",
+    "addr:housenumber": "19",
+    "addr:postcode": "56334",
+    "addr:street": "Πατριάρχου Γρηγορίου Ε'",
+    "historic": "memorial",
+    "inscription": "Μνημείο της γενοκτονίας 350.000 Ελλήνων του Πόντου από τους Τούρκους",
+    "memorial": "memorial",
+    "name": "Μνημειο Γενοκτονιας Ποντιακου Ελληνισμου",
+    "source": "https://en.wikipedia.org/wiki/Greek_genocide;https://el.wikipedia.org/wiki/%CE%93%CE%B5%CE%BD%CE%BF%CE%BA%CF%84%CE%BF%CE%BD%CE%AF%CE%B1_%CF%84%CF%89%CE%BD_%CE%95%CE%BB%CE%BB%CE%AE%CE%BD%CF%89%CE%BD_%CF%84%CE%BF%CF%85_%CE%A0%CF%8C%CE%BD%CF%84%CE%BF%CF%85"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spot106",
+  "n": "Παύλος Μελάς",
+  "a": "",
+  "pc": "",
+  "lat": 40.67321,
+  "lng": 22.89406,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Παύλος Μελάς Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5475898449",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Μνημείο Μακεδονομάχου Παύλου Μελά",
+    "memorial": "statue",
+    "name": "Παύλος Μελάς",
+    "wikidata": "Q116954338"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "whitetowerofthessaloniki",
+  "n": "White Tower of Thessaloniki",
+  "a": "",
+  "pc": "",
+  "lat": 40.62639,
+  "lng": 22.94833,
+  "c": "history",
+  "s": "fortified tower",
+  "q": "White Tower of Thessaloniki Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q550576",
+   "raw": "fortified tower",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aristoteloussquare",
+  "n": "Aristotelous Square",
+  "a": "",
+  "pc": "",
+  "lat": 40.63246,
+  "lng": 22.94119,
+  "c": "oddity",
+  "s": "square in Thessaloniki, Greece",
+  "q": "Aristotelous Square Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q667472",
+   "raw": "square in Thessaloniki, Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kalamaria",
+  "n": "Kalamaria",
+  "a": "",
+  "pc": "",
+  "lat": 40.58333,
+  "lng": 22.95,
+  "c": "oddity",
+  "s": "suburb of Thessaloniki, Greece",
+  "q": "Kalamaria Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q737468",
+   "raw": "suburb of Thessaloniki, Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museumforthemacedonianst",
+  "n": "Museum for the Macedonian Struggle",
+  "a": "",
+  "pc": "",
+  "lat": 40.63083,
+  "lng": 22.94363,
+  "c": "museum",
+  "s": "museum in Greece",
+  "q": "Museum for the Macedonian Struggle Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1954602",
+   "raw": "museum in Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "momusthessalonikimuseumo",
+  "n": "MOMus–Thessaloniki Museum of Photography",
+  "a": "",
+  "pc": "",
+  "lat": 40.63295,
+  "lng": 22.93547,
+  "c": "museum",
+  "s": "museum in Greece",
+  "q": "MOMus–Thessaloniki Museum of Photography Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2331186",
+   "raw": "museum in Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kalochori",
+  "n": "Kalochori",
+  "a": "",
+  "pc": "",
+  "lat": 40.64093,
+  "lng": 22.85781,
+  "c": "oddity",
+  "s": "town in Thessaloniki, Greece",
+  "q": "Kalochori Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3558195",
+   "raw": "town in Thessaloniki, Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "artgalleryofthesocietyfo2",
+  "n": "Art Gallery of the Society for Macedonian Studies",
+  "a": "",
+  "pc": "",
+  "lat": 40.62658,
+  "lng": 22.94999,
+  "c": "museum",
+  "s": "art museum in Thessaloniki, Greece",
+  "q": "Art Gallery of the Society for Macedonian Studies Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4796835",
+   "raw": "art museum in Thessaloniki, Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "consulategeneraloftheuni",
+  "n": "Consulate General of the United States, Thessaloniki",
+  "a": "",
+  "pc": "",
+  "lat": 40.63369,
+  "lng": 22.94246,
+  "c": "oddity",
+  "s": "uS consulate for Northern Greece",
+  "q": "Consulate General of the United States, Thessaloniki Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5164582",
+   "raw": "US consulate for Northern Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mikroemvolo",
+  "n": "Mikro Emvolo",
+  "a": "",
+  "pc": "",
+  "lat": 40.58306,
+  "lng": 22.93583,
+  "c": "oddity",
+  "s": "cape in Kalamaria, Thessaloniki, Greece",
+  "q": "Mikro Emvolo Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6367651",
+   "raw": "cape in Kalamaria, Thessaloniki, Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "societyformacedonianstud",
+  "n": "Society for Macedonian Studies",
+  "a": "",
+  "pc": "",
+  "lat": 40.62509,
+  "lng": 22.94941,
+  "c": "oddity",
+  "s": "scientific organization for the study of the history and cul",
+  "q": "Society for Macedonian Studies Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6768426",
+   "raw": "scientific organization for the study of the history and culture of Macedonia in Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thessalonikiconcerthall",
+  "n": "Thessaloniki Concert Hall",
+  "a": "",
+  "pc": "",
+  "lat": 40.5983,
+  "lng": 22.9483,
+  "c": "oddity",
+  "s": "building in Municipality of Thessaloniki, Central Macedonia,",
+  "q": "Thessaloniki Concert Hall Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7783471",
+   "raw": "building in Municipality of Thessaloniki, Central Macedonia, Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thessalonikihistorycentr",
+  "n": "Thessaloniki History Centre",
+  "a": "",
+  "pc": "",
+  "lat": 40.6292,
+  "lng": 22.95,
+  "c": "museum",
+  "s": "history museum in Thessaloniki, Greece",
+  "q": "Thessaloniki History Centre Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7783469",
+   "raw": "History museum in Thessaloniki, Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "videodancefestivalgreece",
+  "n": "VideoDance Festival, Greece",
+  "a": "",
+  "pc": "",
+  "lat": 40.63333,
+  "lng": 22.93333,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "VideoDance Festival, Greece Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7927780",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alexanderthegreatstatuet",
+  "n": "Alexander the Great statue, Thessaloniki",
+  "a": "",
+  "pc": "",
+  "lat": 40.624,
+  "lng": 22.95,
+  "c": "history",
+  "s": "equestrian statue by Evangelos Moustakas in Greece",
+  "q": "Alexander the Great statue, Thessaloniki Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q11823111",
+   "raw": "equestrian statue by Evangelos Moustakas in Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kalamariastadium",
+  "n": "Kalamaria Stadium",
+  "a": "",
+  "pc": "",
+  "lat": 40.58147,
+  "lng": 22.94511,
+  "c": "oddity",
+  "s": "multi-purpose stadium in Kalamaria, Thessaloniki, Greece",
+  "q": "Kalamaria Stadium Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q15232877",
+   "raw": "multi-purpose stadium in Kalamaria, Thessaloniki, Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eleftheriassquare",
+  "n": "Eleftherias Square",
+  "a": "",
+  "pc": "",
+  "lat": 40.634,
+  "lng": 22.938,
+  "c": "oddity",
+  "s": "square in Thessaloniki, Greece",
+  "q": "Eleftherias Square Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q20717313",
+   "raw": "square in Thessaloniki, Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "agiasofia",
+  "n": "Agia Sofia",
+  "a": "",
+  "pc": "",
+  "lat": 40.665,
+  "lng": 22.86389,
+  "c": "oddity",
+  "s": "settlement in Diavata, Thessaloniki regional unit, Greece",
+  "q": "Agia Sofia Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q21079931",
+   "raw": "settlement in Diavata, Thessaloniki regional unit, Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ormosthessalonikis",
+  "n": "Órmos Thessaloníkis",
+  "a": "",
+  "pc": "",
+  "lat": 40.61083,
+  "lng": 22.90444,
+  "c": "oddity",
+  "s": "bay in Greece",
+  "q": "Órmos Thessaloníkis Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q25122849",
+   "raw": "bay in Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "megalosvardaris",
+  "n": "Megalos Vardaris",
+  "a": "",
+  "pc": "",
+  "lat": 40.59665,
+  "lng": 22.85219,
+  "c": "oddity",
+  "s": "distributary and old riverbed of Vardar, Greece",
+  "q": "Megalos Vardaris Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q25132685",
+   "raw": "distributary and old riverbed of Vardar, Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "neapanagia",
+  "n": "Nea Panagia",
+  "a": "",
+  "pc": "",
+  "lat": 40.62868,
+  "lng": 22.94864,
+  "c": "faith",
+  "s": "church building in Thessaloniki Municipality, Greece",
+  "q": "Nea Panagia Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q25353132",
+   "raw": "church building in Thessaloniki Municipality, Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintgeorgechurchkalohor",
+  "n": "Saint George Church, Kalohori, Thessaloniki",
+  "a": "",
+  "pc": "",
+  "lat": 40.64167,
+  "lng": 22.85667,
+  "c": "faith",
+  "s": "church building in Delta Municipality, Greece",
+  "q": "Saint George Church, Kalohori, Thessaloniki Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q27149977",
+   "raw": "church building in Delta Municipality, Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintphotioschurchthessa",
+  "n": "Saint Photios Church, Thessaloniki",
+  "a": "",
+  "pc": "",
+  "lat": 40.59778,
+  "lng": 22.95111,
+  "c": "faith",
+  "s": "church building in Thessaloniki, Greece",
+  "q": "Saint Photios Church, Thessaloniki Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q27182566",
+   "raw": "church building in Thessaloniki, Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "northerngreecenavalcomma",
+  "n": "Northern Greece Naval Command",
+  "a": "",
+  "pc": "",
+  "lat": 40.5858,
+  "lng": 22.9385,
+  "c": "maritime",
+  "s": "military unit",
+  "q": "Northern Greece Naval Command Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q28229977",
+   "raw": "military unit",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thessalonikilighthouse",
+  "n": "Thessaloniki lighthouse",
+  "a": "",
+  "pc": "",
+  "lat": 40.63167,
+  "lng": 22.93481,
+  "c": "maritime",
+  "s": "lighthouse in Thessaloniki port, Greece",
+  "q": "Thessaloniki lighthouse Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q94509904",
+   "raw": "lighthouse in Thessaloniki port, Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "andromedathessaloniki",
+  "n": "Andromeda, Thessaloniki",
+  "a": "",
+  "pc": "",
+  "lat": 40.6332,
+  "lng": 22.9393,
+  "c": "oddity",
+  "s": "hotel building (protected) in Thessaloniki",
+  "q": "Andromeda, Thessaloniki Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q104869371",
+   "raw": "hotel building (protected) in Thessaloniki",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "daiosluxuryliving",
+  "n": "Daios Luxury Living",
+  "a": "",
+  "pc": "",
+  "lat": 40.62877,
+  "lng": 22.94568,
+  "c": "oddity",
+  "s": "hotel in Thessaloniki, Greece",
+  "q": "Daios Luxury Living Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111400774",
+   "raw": "hotel in Thessaloniki, Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "houseonnavarchosvotsis3s",
+  "n": "House on Navarchos Votsis 3 Street",
+  "a": "",
+  "pc": "",
+  "lat": 40.63391,
+  "lng": 22.93616,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "House on Navarchos Votsis 3 Street Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111730815",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "neatouzlakarabournaki",
+  "n": "Nea Touzla-Karabournaki",
+  "a": "",
+  "pc": "",
+  "lat": 40.5902,
+  "lng": 22.9509,
+  "c": "oddity",
+  "s": "neighborhood of Kalamaria, Thessaloniki, Greece",
+  "q": "Nea Touzla-Karabournaki Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q113382434",
+   "raw": "neighborhood of Kalamaria, Thessaloniki, Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "memorialtothefallen13aug",
+  "n": "Memorial to the Fallen, 13 August 1944, Thessaloniki",
+  "a": "",
+  "pc": "",
+  "lat": 40.58475,
+  "lng": 22.94573,
+  "c": "history",
+  "s": "1983, memorial in Greece by Apostolos Fanakidis",
+  "q": "Memorial to the Fallen, 13 August 1944, Thessaloniki Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q115105963",
+   "raw": "1983, memorial in Greece by Apostolos Fanakidis",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "memorialtothefalleninkor",
+  "n": "Memorial to the Fallen in Korea, Thessaloniki",
+  "a": "",
+  "pc": "",
+  "lat": 40.60753,
+  "lng": 22.95089,
+  "c": "history",
+  "s": "1994 memorial in Greece",
+  "q": "Memorial to the Fallen in Korea, Thessaloniki Thessaloniki",
+  "w": "",
+  "city": "thessaloniki",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q115105980",
+   "raw": "1994 memorial in Greece",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

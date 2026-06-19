@@ -1,0 +1,3625 @@
+[
+ {
+  "id": "bearpit",
+  "n": "Bear Pit",
+  "a": "",
+  "pc": "",
+  "lat": 53.81517,
+  "lng": -1.57581,
+  "c": "follies",
+  "s": "folly",
+  "q": "Bear Pit Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/21035840",
+   "raw": {
+    "historic": "folly",
+    "listed_status": "Grade II",
+    "name": "Bear Pit",
+    "operator": "Leeds Civic Trust",
+    "tourism": "attraction",
+    "wikidata": "Q26547250",
+    "wikimedia_commons": "File:Bear pit, Headingley 22 July 2018 5.jpg",
+    "wikipedia": "en:Headingley Bear Pit"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "statueofdukeofwellington",
+  "n": "Statue of Duke of Wellington",
+  "a": "",
+  "pc": "",
+  "lat": 53.80819,
+  "lng": -1.55981,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Statue of Duke of Wellington Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/26653419",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "mapillary": "495748461877382",
+    "memorial": "statue",
+    "name": "Statue of Duke of Wellington",
+    "survey:date": "2020-05-19",
+    "tourism": "artwork",
+    "url": "http://www.leodis.net/display.aspx?resourceIdentifier=2008118_165852",
+    "wikidata": "Q26656015",
+    "wikimedia_commons": "Category:Duke of Wellington statue, Woodhouse Moor"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "leedsartgallery",
+  "n": "Leeds Art Gallery",
+  "a": "",
+  "pc": "",
+  "lat": 53.80003,
+  "lng": -1.54811,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Leeds Art Gallery Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/29058588",
+   "raw": {
+    "addr:city": "Leeds",
+    "addr:postcode": "LS1 3AA",
+    "addr:street": "The Headrow",
+    "amenity": "arts_centre",
+    "contact:facebook": "https://www.facebook.com/LeedsArtGallery",
+    "contact:instagram": "https://www.instagram.com/LeedsArtGallery/",
+    "contact:twitter": "https://x.com/LeedsArtGallery/",
+    "contact:youtube": "https://www.youtube.com/user/LeedsArtGallery",
+    "fee": "no",
+    "name": "Leeds Art Gallery",
+    "opening_hours": "Mo closed; Tu-Sa 10:00-17:00; Su 11:00-15:00; PH off \"Ground Floor (Gallery)\" || Mo closed; Tu-Sa 10:00-16:00; Su 11:00-15:00; PH off \"Upper Floor\"",
+    "opening_hours:url": "https://museumsandgalleries.leeds.gov.uk/visit-leeds-art-gallery-d1s9",
+    "phone": "+44 113 378 5350",
+    "shop": "art;gift",
+    "tourism": "gallery",
+    "website": "https://museumsandgalleries.leeds.gov.uk/leeds-art-gallery/",
+    "website:shop": "https://www.shopleedsmuseums.co.uk/collections/leeds-art-gallery",
+    "wheelchair": "yes",
+    "wikidata": "Q6515835",
+    "wikipedia": "en:Leeds Art Gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "abbeyhousemuseum",
+  "n": "Abbey House Museum",
+  "a": "",
+  "pc": "",
+  "lat": 53.82226,
+  "lng": -1.60708,
+  "c": "museum",
+  "s": "museum",
+  "q": "Abbey House Museum Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/29058835",
+   "raw": {
+    "addr:city": "Leeds",
+    "addr:postcode": "LS5 3EH",
+    "addr:street": "Abbey Walk",
+    "check_date:opening_hours": "2023-09-01",
+    "description": "\"A lively, interactive museum which was short-listed for the Guardian ‘Kids in Museum Family Friendly Award’ in 2011. Wander the beautifully created authentic Victorian streets for a glimpse of life in 19th century Leeds.\"",
+    "fee": "yes",
+    "name": "Abbey House Museum",
+    "opening_hours": "Mo off; Tu-Fr,Su 10:00-17:00; Sa 12:00-17:00",
+    "operator": "Leeds City Council",
+    "tourism": "museum",
+    "website": "https://museumsandgalleries.leeds.gov.uk/abbey-house-museum/",
+    "wikidata": "Q4664027",
+    "wikimedia_commons": "Category:Abbey House Museum",
+    "wikipedia": "en:Abbey House Museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "robinhoodwarmemorial",
+  "n": "Robin Hood War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 53.74329,
+  "lng": -1.50861,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Robin Hood War Memorial Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/48190418",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Robin Hood War Memorial",
+    "wikidata": "Q66986002"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "blenheimbaptistchurch",
+  "n": "Blenheim Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.80636,
+  "lng": -1.54883,
+  "c": "faith",
+  "s": "church",
+  "q": "Blenheim Baptist Church Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/52761018",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "name": "Blenheim Baptist Church",
+    "religion": "christian",
+    "wikidata": "Q26547219"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "statueofhenryrowlandmars",
+  "n": "Statue of Henry Rowland Marsden",
+  "a": "",
+  "pc": "",
+  "lat": 53.81156,
+  "lng": -1.55677,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Statue of Henry Rowland Marsden Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/249661440",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "mapillary": "322066365982836",
+    "name": "Statue of Henry Rowland Marsden",
+    "survey:date": "2019-10-08",
+    "tourism": "artwork",
+    "wikidata": "Q26547177"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "coltonmedievalvillage",
+  "n": "Colton Medieval Village",
+  "a": "",
+  "pc": "",
+  "lat": 53.7869,
+  "lng": -1.44731,
+  "c": "museum",
+  "s": "museum",
+  "q": "Colton Medieval Village Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/250164026",
+   "raw": {
+    "created_by": "JOSM",
+    "name": "Colton Medieval Village",
+    "source": "survey",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stchadswarmemorial",
+  "n": "St. Chad's War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 53.82779,
+  "lng": -1.58356,
+  "c": "history",
+  "s": "war memorial",
+  "q": "St. Chad's War Memorial Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/263923995",
+   "raw": {
+    "historic": "monument",
+    "name": "St. Chad's War Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "arthurlouisaaron",
+  "n": "Arthur Louis Aaron",
+  "a": "",
+  "pc": "",
+  "lat": 53.7985,
+  "lng": -1.53603,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Arthur Louis Aaron Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/274060298",
+   "raw": {
+    "historic": "monument",
+    "name": "Arthur Louis Aaron"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "carltonhillfriendsmeetin",
+  "n": "Carlton Hill Friends Meeting House",
+  "a": "",
+  "pc": "",
+  "lat": 53.81005,
+  "lng": -1.55457,
+  "c": "faith",
+  "s": "church",
+  "q": "Carlton Hill Friends Meeting House Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/288958109",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "quaker",
+    "name": "Carlton Hill Friends Meeting House",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "victorychristiancentre",
+  "n": "Victory Christian Centre",
+  "a": "",
+  "pc": "",
+  "lat": 53.77408,
+  "lng": -1.5438,
+  "c": "faith",
+  "s": "church",
+  "q": "Victory Christian Centre Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/292238631",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Victory Christian Centre",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eastardsleycollierymemor",
+  "n": "East Ardsley Colliery Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 53.72797,
+  "lng": -1.53868,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "East Ardsley Colliery Memorial Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/296490764",
+   "raw": {
+    "created_by": "JOSM",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "East Ardsley Colliery Memorial"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "almadinajamiamosque",
+  "n": "Al Madina Jamia Mosque",
+  "a": "",
+  "pc": "",
+  "lat": 53.8113,
+  "lng": -1.56796,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Al Madina Jamia Mosque Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/299171016",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Al Madina Jamia Mosque",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "statueofrobertpeel",
+  "n": "Statue of Robert Peel",
+  "a": "",
+  "pc": "",
+  "lat": 53.81402,
+  "lng": -1.56204,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Statue of Robert Peel Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/301287876",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Statue of Robert Peel",
+    "tourism": "artwork",
+    "wikidata": "Q26655833"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sirpeterfairbairn",
+  "n": "Sir Peter Fairbairn",
+  "a": "",
+  "pc": "",
+  "lat": 53.80169,
+  "lng": -1.55654,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Sir Peter Fairbairn Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/301673125",
+   "raw": {
+    "artist:wikipedia": "en:Matthew Noble",
+    "artist_name": "Matthew Noble",
+    "artwork_type": "statue",
+    "historic": "monument",
+    "listed_status": "Grade II",
+    "material": "bronze",
+    "name": "Sir Peter Fairbairn",
+    "start_date": "1868",
+    "subject:wikipedia": "en:Peter Fairbairn",
+    "wikidata": "Q26547184"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thedortmunddrayman",
+  "n": "The Dortmund Drayman",
+  "a": "",
+  "pc": "",
+  "lat": 53.7996,
+  "lng": -1.54399,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "The Dortmund Drayman Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/301687713",
+   "raw": {
+    "artist_name": "Artur Schulze-Engels",
+    "artwork_type": "statue",
+    "loc_name": "The Barrel Man",
+    "material": "bronze",
+    "name": "The Dortmund Drayman",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kingdomhallofjehovahswit",
+  "n": "Kingdom Hall of Jehovah's Witnesses",
+  "a": "",
+  "pc": "",
+  "lat": 53.74381,
+  "lng": -1.62248,
+  "c": "faith",
+  "s": "church",
+  "q": "Kingdom Hall of Jehovah's Witnesses Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/305074293",
+   "raw": {
+    "addr:city": "Leeds",
+    "addr:postcode": "LS27 0LJ",
+    "addr:street": "Bruntcliffe Road",
+    "addr:suburb": "Morley",
+    "amenity": "place_of_worship",
+    "denomination": "jehovahs_witness",
+    "name": "Kingdom Hall of Jehovah's Witnesses",
+    "name:en": "Kingdom Hall of Jehovah's Witnesses",
+    "name:pl": "Sala Królestwa Świadków Jehowy",
+    "religion": "christian",
+    "website": "https://www.jw.org/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "steepedvessels",
+  "n": "Steeped Vessels",
+  "a": "",
+  "pc": "",
+  "lat": 53.79371,
+  "lng": -1.53754,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Steeped Vessels Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/317087630",
+   "raw": {
+    "artist_name": "Ian Randall",
+    "artwork_type": "sculpture",
+    "material": "metal",
+    "name": "Steeped Vessels",
+    "tourism": "artwork",
+    "wikidata": "Q110881317"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "areflectiveapproach",
+  "n": "A Reflective Approach",
+  "a": "",
+  "pc": "",
+  "lat": 53.79012,
+  "lng": -1.5326,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "A Reflective Approach Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/317087819",
+   "raw": {
+    "artist_name": "Kevin Atherton",
+    "artwork_type": "sculpture",
+    "material": "steel;bronze",
+    "name": "A Reflective Approach",
+    "start_date": "2007",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "theblackprince",
+  "n": "The Black Prince",
+  "a": "",
+  "pc": "",
+  "lat": 53.79639,
+  "lng": -1.54758,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "The Black Prince Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/317114905",
+   "raw": {
+    "artist_name": "Thomas Brock",
+    "artwork_type": "statue",
+    "name": "The Black Prince",
+    "subject:wikidata": "Q184854",
+    "subject:wikipedia": "en:Edward the Black Prince",
+    "tourism": "artwork",
+    "wikidata": "Q17533834",
+    "wikimedia_commons": "File:The Black Prince Leeds City Square.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "leedsrifleswarmemorial",
+  "n": "Leeds Rifles War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 53.79532,
+  "lng": -1.53543,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Leeds Rifles War Memorial Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/320952872",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Leeds Rifles War Memorial",
+    "wikidata": "Q26655868",
+    "wikipedia": "en:Leeds Rifles War Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gameofboules",
+  "n": "Game of Boules",
+  "a": "",
+  "pc": "",
+  "lat": 53.79787,
+  "lng": -1.54821,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Game of Boules Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/339724672",
+   "raw": {
+    "alt_name": "Voila",
+    "name": "Game of Boules",
+    "tourism": "artwork",
+    "wikimedia_commons": "File:Petanque court, Bond Court, Leeds - geograph.org.uk - 4735335.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "brunswickgreatwarmemoria",
+  "n": "Brunswick Great War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 53.80209,
+  "lng": -1.54124,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Brunswick Great War Memorial Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/342529345",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Brunswick Great War Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stfrancisofassisi",
+  "n": "St Francis of Assisi",
+  "a": "",
+  "pc": "",
+  "lat": 53.74327,
+  "lng": -1.6039,
+  "c": "faith",
+  "s": "church",
+  "q": "St Francis of Assisi Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/381013874",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "St Francis of Assisi",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nationalspiritualistchur",
+  "n": "National Spiritualist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.74738,
+  "lng": -1.60096,
+  "c": "faith",
+  "s": "church",
+  "q": "National Spiritualist Church Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/381913590",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "spiritualist",
+    "name": "National Spiritualist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gospelhall",
+  "n": "Gospel Hall",
+  "a": "",
+  "pc": "",
+  "lat": 53.77916,
+  "lng": -1.53507,
+  "c": "faith",
+  "s": "church",
+  "q": "Gospel Hall Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/388505898",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Gospel Hall",
+    "religion": "christian",
+    "start_date": "1932"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "middletonmethodistchurch",
+  "n": "Middleton Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.75043,
+  "lng": -1.53847,
+  "c": "faith",
+  "s": "church",
+  "q": "Middleton Methodist Church Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/410494873",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Middleton Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gildersomewarmemorial",
+  "n": "Gildersome War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 53.7581,
+  "lng": -1.62684,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Gildersome War Memorial Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/410920470",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Gildersome War Memorial",
+    "wikidata": "Q66985974"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "moorsidechurch",
+  "n": "Moorside Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.75193,
+  "lng": -1.65905,
+  "c": "faith",
+  "s": "church",
+  "q": "Moorside Church Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/410968348",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Moorside Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oultonwarmemorial",
+  "n": "Oulton War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 53.75068,
+  "lng": -1.44904,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Oulton War Memorial Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/413571538",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Oulton War Memorial",
+    "wikidata": "Q66985999"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "birkenshawandeastbierley",
+  "n": "Birkenshaw and East Bierley Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.75398,
+  "lng": -1.69469,
+  "c": "faith",
+  "s": "church",
+  "q": "Birkenshaw and East Bierley Methodist Church Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/413588234",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Birkenshaw and East Bierley Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pudseywarmemorial",
+  "n": "Pudsey War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 53.79248,
+  "lng": -1.66859,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Pudsey War Memorial Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/444622649",
+   "raw": {
+    "historic": "memorial",
+    "listed_status": "Grade II",
+    "loc_name": "Pudsey Cenotaph",
+    "memorial": "war_memorial",
+    "name": "Pudsey War Memorial",
+    "wikidata": "Q26599919"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "greatwarmemorial",
+  "n": "Great War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 53.82954,
+  "lng": -1.69021,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Great War Memorial Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/452643812",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Great War Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kirkstallwarmemorial",
+  "n": "Kirkstall War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 53.81602,
+  "lng": -1.60325,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Kirkstall War Memorial Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/456034978",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "To Our Glorious Dead 1914-1918 1939-1945",
+    "memorial": "war_memorial",
+    "name": "Kirkstall War Memorial",
+    "wikidata": "Q26547410"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "roundhaycastlefolly",
+  "n": "Roundhay Castle (Folly)",
+  "a": "",
+  "pc": "",
+  "lat": 53.84123,
+  "lng": -1.49255,
+  "c": "medieval",
+  "s": "medieval site",
+  "q": "Roundhay Castle (Folly) Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/483451778",
+   "raw": {
+    "historic": "castle",
+    "name": "Roundhay Castle (Folly)",
+    "wikidata": "Q26547712"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "burgodonum",
+  "n": "Burgodonum",
+  "a": "",
+  "pc": "",
+  "lat": 53.86439,
+  "lng": -1.58218,
+  "c": "roman",
+  "s": "Roman remains",
+  "q": "Burgodonum Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/534379198",
+   "raw": {
+    "archaeological_site": "fortification",
+    "description": "Roman fort on Ilkley - Tadcaster road",
+    "fortification_type": "castrum",
+    "historic": "archaeological_site",
+    "historic:period": "roman",
+    "name": "Burgodonum",
+    "source:geometry": "OS Sheet CCIII.NW, publ. 1894"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "horsforthmuseum",
+  "n": "Horsforth Museum",
+  "a": "",
+  "pc": "",
+  "lat": 53.83676,
+  "lng": -1.64295,
+  "c": "museum",
+  "s": "museum",
+  "q": "Horsforth Museum Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/674154533",
+   "raw": {
+    "addr:city": "Leeds",
+    "addr:housenumber": "5",
+    "addr:postcode": "LS18 5JB",
+    "addr:street": "The Green",
+    "addr:suburb": "Horsforth",
+    "alt_name": "Horsforth Village Museum",
+    "fee": "no",
+    "museum": "local",
+    "name": "Horsforth Museum",
+    "opening_hours": "Sa 10:00-16:00; Su 14:00-17:00; Dec off; Jan-Mar off",
+    "phone": "+44 113 281 9877",
+    "tourism": "museum",
+    "url": "https://horsforthvillagemuseum.wordpress.com/",
+    "wikidata": "Q112977808"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rawdontrigpoint",
+  "n": "Rawdon Trig point",
+  "a": "",
+  "pc": "",
+  "lat": 53.85442,
+  "lng": -1.66721,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Rawdon Trig point Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/761999418",
+   "raw": {
+    "ele": "1",
+    "man_made": "survey_point",
+    "name": "Rawdon Trig point",
+    "ref": "BM S3875",
+    "survey_point:purpose": "vertical",
+    "survey_point:structure": "survey_/_trig_point",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stpeterschurch",
+  "n": "St Peter's Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.78081,
+  "lng": -1.5466,
+  "c": "faith",
+  "s": "church",
+  "q": "St Peter's Church Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/921219258",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "St Peter's Church",
+    "religion": "christian",
+    "source": "OS OpenData StreetView",
+    "source:name": "OS Open Local Important Buildings Layer"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thornermethodistchurch",
+  "n": "Thorner Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.85703,
+  "lng": -1.4286,
+  "c": "faith",
+  "s": "church",
+  "q": "Thorner Methodist Church Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/936565735",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Thorner Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thestanleyandaudreyburto",
+  "n": "The Stanley & Audrey Burton Gallery",
+  "a": "",
+  "pc": "",
+  "lat": 53.80771,
+  "lng": -1.55256,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "The Stanley & Audrey Burton Gallery Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1187324667",
+   "raw": {
+    "amenity": "arts_centre",
+    "name": "The Stanley & Audrey Burton Gallery",
+    "shop": "art",
+    "tourism": "gallery",
+    "website": "https://library.leeds.ac.uk/info/1900/galleries",
+    "wheelchair": "yes",
+    "wikidata": "Q25175004"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mobys",
+  "n": "Moby's",
+  "a": "",
+  "pc": "",
+  "lat": 53.85237,
+  "lng": -1.62758,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Moby's Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1221694631",
+   "raw": {
+    "historic": "No Preset",
+    "name": "Moby's"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "waterhaighcolliery",
+  "n": "Water Haigh Colliery",
+  "a": "",
+  "pc": "",
+  "lat": 53.75019,
+  "lng": -1.43637,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Water Haigh Colliery Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1299881043",
+   "raw": {
+    "historic": "mine",
+    "mineral": "coal",
+    "name": "Water Haigh Colliery",
+    "railway": "dismantled_colliery",
+    "source": "OS 1:25k"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "moat",
+  "n": "moat",
+  "a": "",
+  "pc": "",
+  "lat": 53.8211,
+  "lng": -1.41767,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "moat Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1299884423",
+   "raw": {
+    "historic": "archaeological_site",
+    "name": "moat",
+    "source": "NPE"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fiddleheadandfernblades",
+  "n": "Fiddlehead and Fernblades",
+  "a": "",
+  "pc": "",
+  "lat": 53.73905,
+  "lng": -1.67781,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Fiddlehead and Fernblades Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1616056905",
+   "raw": {
+    "artist_name": "Adrian Moakes",
+    "artwork_type": "sculpture",
+    "name": "Fiddlehead and Fernblades",
+    "start_date": "2008",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wesleyanmethodistchapel",
+  "n": "Wesleyan Methodist Chapel",
+  "a": "",
+  "pc": "",
+  "lat": 53.86538,
+  "lng": -1.68507,
+  "c": "faith",
+  "s": "church",
+  "q": "Wesleyan Methodist Chapel Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1623940767",
+   "raw": {
+    "addr:city": "Leeds",
+    "addr:postcode": "LS19 7RG",
+    "addr:street": "Chapel Hill",
+    "addr:suburb": "Yeadon",
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Wesleyan Methodist Chapel",
+    "religion": "christian",
+    "source": "OS_OpenData_StreetView"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mountzionpentecostalapos",
+  "n": "Mount Zion Pentecostal Apostolic Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.81696,
+  "lng": -1.52327,
+  "c": "faith",
+  "s": "church",
+  "q": "Mount Zion Pentecostal Apostolic Church Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1627024211",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "pentecostal",
+    "name": "Mount Zion Pentecostal Apostolic Church",
+    "religion": "christian",
+    "source": "OS_OpenData_StreetView"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "harehillslanebaptistchur",
+  "n": "Harehills Lane Baptist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.81966,
+  "lng": -1.51991,
+  "c": "faith",
+  "s": "church",
+  "q": "Harehills Lane Baptist Church Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1627024219",
+   "raw": {
+    "addr:city": "Leeds",
+    "addr:country": "GB",
+    "addr:postcode": "LS8 4HE",
+    "addr:street": "Hilton Place",
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "fhrs:id": "321239",
+    "name": "Harehills Lane Baptist Church",
+    "religion": "christian",
+    "source": "OS_OpenData_StreetView",
+    "source:addr": "FHRS Open Data",
+    "wikidata": "Q66818867"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "horsforthcentralmethodis",
+  "n": "Horsforth Central Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.83967,
+  "lng": -1.63733,
+  "c": "faith",
+  "s": "church",
+  "q": "Horsforth Central Methodist Church Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1628108125",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-03-24",
+    "name": "Horsforth Central Methodist Church",
+    "religion": "christian",
+    "service_times": "Su 10:30",
+    "source": "OS_OpenData_StreetView",
+    "url": "https://grovemethodist.chessck.co.uk/centralmethodistchurch"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thegreenroom",
+  "n": "The Green Room",
+  "a": "",
+  "pc": "",
+  "lat": 53.804,
+  "lng": -1.55311,
+  "c": "faith",
+  "s": "mosque",
+  "q": "The Green Room Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1685139707",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "The Green Room",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rocbunkerrocgrouphqno18",
+  "n": "ROC Bunker (ROC Group HQ No18)",
+  "a": "",
+  "pc": "",
+  "lat": 53.87665,
+  "lng": -1.6624,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "ROC Bunker (ROC Group HQ No18) Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1751675770",
+   "raw": {
+    "historic": "monument",
+    "name": "ROC Bunker (ROC Group HQ No18)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "warmemorial",
+  "n": "War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 53.81952,
+  "lng": -1.57629,
+  "c": "history",
+  "s": "war memorial",
+  "q": "War Memorial Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1859958035",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "obelisk",
+    "name": "War Memorial",
+    "url": "http://www.leedsww1memorials.com/headingleywarmemorial.htm",
+    "wikidata": "Q26547665"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jamyang",
+  "n": "Jamyang",
+  "a": "",
+  "pc": "",
+  "lat": 53.79795,
+  "lng": -1.55127,
+  "c": "faith",
+  "s": "temple",
+  "q": "Jamyang Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2104911034",
+   "raw": {
+    "addr:city": "Leeds",
+    "addr:housenumber": "31",
+    "addr:postcode": "LS1 2JG",
+    "addr:street": "St Paul's Street",
+    "amenity": "place_of_worship",
+    "denomination": "tibetan",
+    "level": "1",
+    "name": "Jamyang",
+    "religion": "buddhist",
+    "website": "https://jamyangleeds.co.uk/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "captainoatesmemorial",
+  "n": "Captain Oates Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 53.8314,
+  "lng": -1.57361,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Captain Oates Memorial Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2345430688",
+   "raw": {
+    "historic": "memorial",
+    "name": "Captain Oates Memorial",
+    "subject:wikidata": "Q317941",
+    "subject:wikipedia": "en:Lawrence Oates",
+    "wikidata": "Q63249286"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "haltoncolliery",
+  "n": "Halton Colliery",
+  "a": "",
+  "pc": "",
+  "lat": 53.7913,
+  "lng": -1.46234,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Halton Colliery Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2462938424",
+   "raw": {
+    "historic": "mine",
+    "mineral": "coal",
+    "name": "Halton Colliery",
+    "note": "Exact location uncertain.",
+    "source": "OS 1:25k"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oldshafts",
+  "n": "old shafts",
+  "a": "",
+  "pc": "",
+  "lat": 53.7937,
+  "lng": -1.44519,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "old shafts Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2462938425",
+   "raw": {
+    "historic": "mine_shaft",
+    "name": "old shafts",
+    "source": "OS 1:25k"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "morleycommunitychurch",
+  "n": "Morley Community Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.73804,
+  "lng": -1.61038,
+  "c": "faith",
+  "s": "church",
+  "q": "Morley Community Church Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2667298221",
+   "raw": {
+    "addr:city": "Leeds",
+    "addr:housename": "Fountain Primary School",
+    "addr:postcode": "LS27 0AW",
+    "addr:street": "Fountain Street",
+    "addr:suburb": "Morley",
+    "amenity": "place_of_worship",
+    "contact": "Rev. Steve Wright",
+    "denomination": "EFCC",
+    "email": "info@morleycommunitychurch.org.uk",
+    "name": "Morley Community Church",
+    "phone": "+44 113 253 5477",
+    "religion": "christian",
+    "service_times": "Su 10:00",
+    "website": "https://morleycommunitychurch.org.uk/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "queenvictoriacommemorati",
+  "n": "Queen Victoria Commemoration Monument",
+  "a": "",
+  "pc": "",
+  "lat": 53.82562,
+  "lng": -1.59987,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Queen Victoria Commemoration Monument Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2919634624",
+   "raw": {
+    "description": "\"To commemorate the visit of Queen Victoria for the inauguration of the Town Hall at Leeds. 1858.\"",
+    "historic": "monument",
+    "name": "Queen Victoria Commemoration Monument",
+    "wikidata": "Q26547835"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lincolngreenmosque",
+  "n": "Lincoln Green Mosque",
+  "a": "",
+  "pc": "",
+  "lat": 53.80448,
+  "lng": -1.52823,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Lincoln Green Mosque Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2922772996",
+   "raw": {
+    "addr:city": "Leeds",
+    "addr:housename": "The Cherry Tree",
+    "addr:postcode": "LS9 7LY",
+    "addr:street": "Cherry Row",
+    "amenity": "place_of_worship",
+    "denomination": "sunni",
+    "description:wheelchair:female": "musalla 0 steps",
+    "description:wheelchair:male": "musalla 0 steps. wudu 13 steps, no handrail.",
+    "management": "Kurdish",
+    "name": "Lincoln Green Mosque",
+    "operator": "Lincoln Green Mosque & Education Centre Leeds",
+    "reg_charity_number": "1136935",
+    "religion": "muslim",
+    "service_times:url": "http://lincolngreenmosque.co.uk/?page=Timetable",
+    "unisex": "yes",
+    "website": "lincolngreenmosque.co.uk",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "conversation",
+  "n": "Conversation",
+  "a": "",
+  "pc": "",
+  "lat": 53.80512,
+  "lng": -1.5552,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Conversation Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3018817288",
+   "raw": {
+    "artist_name": "Lorna Green",
+    "artwork_type": "sculpture",
+    "material": "stone",
+    "name": "Conversation",
+    "tourism": "artwork",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "methodistchurch",
+  "n": "Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.7214,
+  "lng": -1.53984,
+  "c": "faith",
+  "s": "church",
+  "q": "Methodist Church Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3649681932",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "name": "Methodist Church",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "matthewmurraystomb",
+  "n": "Matthew Murray's Tomb",
+  "a": "",
+  "pc": "",
+  "lat": 53.78653,
+  "lng": -1.55939,
+  "c": "death",
+  "s": "historic tomb",
+  "q": "Matthew Murray's Tomb Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3714275471",
+   "raw": {
+    "historic": "monument",
+    "name": "Matthew Murray's Tomb",
+    "source": "survey",
+    "wikidata": "Q26547656"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fulneckmoravianchurch",
+  "n": "Fulneck Moravian Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.78386,
+  "lng": -1.66448,
+  "c": "faith",
+  "s": "church",
+  "q": "Fulneck Moravian Church Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3772610950",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "moravian",
+    "listed_status": "Grade I",
+    "name": "Fulneck Moravian Church",
+    "religion": "christian",
+    "wikidata": "Q5508370",
+    "wikipedia": "en:Fulneck Moravian Church"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "billybremner",
+  "n": "Billy Bremner",
+  "a": "",
+  "pc": "",
+  "lat": 53.77773,
+  "lng": -1.56999,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Billy Bremner Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3778289459",
+   "raw": {
+    "artist_name": "Frances Segelman",
+    "artwork_type": "statue",
+    "name": "Billy Bremner",
+    "subject:wikidata": "Q202867",
+    "subject:wikipedia": "en:Billy Bremner",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thecalverleyangel",
+  "n": "The Calverley Angel",
+  "a": "",
+  "pc": "",
+  "lat": 53.83017,
+  "lng": -1.6843,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "The Calverley Angel Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4295416375",
+   "raw": {
+    "artist_name": "Shane Green",
+    "artwork_type": "sculpture",
+    "material": "wood",
+    "name": "The Calverley Angel",
+    "start_date": "2012-06",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "birthplaceofcommercialra",
+  "n": "Birthplace of Commercial Rail",
+  "a": "",
+  "pc": "",
+  "lat": 53.79385,
+  "lng": -1.54772,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Birthplace of Commercial Rail Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4353929864",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Birthplace of Commercial Rail",
+    "note": "Roundel set into ground",
+    "source": "survey",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "outoftheearth",
+  "n": "Out of the Earth",
+  "a": "",
+  "pc": "",
+  "lat": 53.79704,
+  "lng": -1.53247,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Out of the Earth Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4361246662",
+   "raw": {
+    "artist_name": "Ray Smith",
+    "artwork_type": "sculpture",
+    "name": "Out of the Earth",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "signforartwavybacon",
+  "n": "Sign for Art (Wavy Bacon)",
+  "a": "",
+  "pc": "",
+  "lat": 53.80706,
+  "lng": -1.55434,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Sign for Art (Wavy Bacon) Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4378097296",
+   "raw": {
+    "artist_name": "Keith Wilson",
+    "artwork_type": "sculpture",
+    "material": "plastic",
+    "name": "Sign for Art (Wavy Bacon)",
+    "source": "survey;Bing",
+    "start_date": "2014",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "barnbowlasses",
+  "n": "Barnbow Lasses",
+  "a": "",
+  "pc": "",
+  "lat": 53.80826,
+  "lng": -1.45364,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Barnbow Lasses Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4474326830",
+   "raw": {
+    "historic": "memorial",
+    "name": "Barnbow Lasses"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "incident",
+  "n": "incident",
+  "a": "",
+  "pc": "",
+  "lat": 53.79722,
+  "lng": -1.48434,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "incident Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4480933412",
+   "raw": {
+    "historic": "yes",
+    "name": "incident",
+    "wikidata": "Q18751018"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cornucopia",
+  "n": "Cornucopia",
+  "a": "",
+  "pc": "",
+  "lat": 53.79642,
+  "lng": -1.54028,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Cornucopia Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4512012890",
+   "raw": {
+    "artist_name": "Graeme Wilson",
+    "artwork_type": "mural",
+    "name": "Cornucopia",
+    "start_date": "1990",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rothwellcastle",
+  "n": "Rothwell Castle",
+  "a": "",
+  "pc": "",
+  "lat": 53.75001,
+  "lng": -1.48208,
+  "c": "history",
+  "s": "old well",
+  "q": "Rothwell Castle Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4575087168",
+   "raw": {
+    "description": "Rothwell Castle was originally an 11th century timber castle or fortified manor house,",
+    "historic": "ruins",
+    "name": "Rothwell Castle",
+    "wikidata": "Q17643941"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "carltongate",
+  "n": "Carlton Gate",
+  "a": "",
+  "pc": "",
+  "lat": 53.8064,
+  "lng": -1.54066,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Carlton Gate Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4619339747",
+   "raw": {
+    "artwork_type": "column",
+    "name": "Carlton Gate",
+    "source": "survey",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rothwellmethodistchurchl",
+  "n": "Rothwell Methodist Church, Leeds",
+  "a": "",
+  "pc": "",
+  "lat": 53.74797,
+  "lng": -1.48083,
+  "c": "faith",
+  "s": "church",
+  "q": "Rothwell Methodist Church, Leeds Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4681753175",
+   "raw": {
+    "addr:city": "Leeds",
+    "addr:housename": "Rothwell Methodist Church",
+    "addr:postcode": "LS26 0DB",
+    "addr:street": "Butcher Lane",
+    "addr:suburb": "Rothwell",
+    "amenity": "place_of_worship",
+    "denomination": "methodist",
+    "fhrs:id": "553154",
+    "name": "Rothwell Methodist Church, Leeds",
+    "religion": "christian",
+    "website": "https://www.aireandcaldercircuit.org.uk/churches/rothwell"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "c",
+  "n": "c",
+  "a": "",
+  "pc": "",
+  "lat": 53.81202,
+  "lng": -1.53463,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "c Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4685693902",
+   "raw": {
+    "addr:city": "Leeds",
+    "addr:housenumber": "101",
+    "addr:postcode": "LS7 3JA",
+    "addr:street": "Chapeltown Road",
+    "historic": "monument",
+    "name": "c",
+    "website": "https://www.aboutmyarea.co.uk/West-Yorkshire/Leeds/LS7/News/Local-News/174882-C-stands-for-Chapeltown"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lowerwortleywheel",
+  "n": "Lower Wortley Wheel",
+  "a": "",
+  "pc": "",
+  "lat": 53.78282,
+  "lng": -1.60353,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Lower Wortley Wheel Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4735918696",
+   "raw": {
+    "artwork_type": "sculpture",
+    "ele": "42.4",
+    "ele:msl": "42.4",
+    "ele:source": "GPS",
+    "level": "0",
+    "name": "Lower Wortley Wheel",
+    "source": "GPS",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "erniewise",
+  "n": "Ernie Wise",
+  "a": "",
+  "pc": "",
+  "lat": 53.7438,
+  "lng": -1.59988,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Ernie Wise Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4846648954",
+   "raw": {
+    "artist_name": "Melanie Wilks",
+    "artwork_type": "sculpture",
+    "date": "2009",
+    "material": "stone",
+    "name": "Ernie Wise",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "conversecolumn",
+  "n": "Converse Column",
+  "a": "",
+  "pc": "",
+  "lat": 53.80519,
+  "lng": -1.54902,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Converse Column Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5144716424",
+   "raw": {
+    "artist_name": "Liliane Lijn",
+    "artwork_type": "sculpture",
+    "image": "https://www.geograph.org.uk/photo/7158984",
+    "name": "Converse Column",
+    "start_date": "2019",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hut42",
+  "n": "Hut 42",
+  "a": "",
+  "pc": "",
+  "lat": 53.81027,
+  "lng": -1.40693,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Hut 42 Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5184324867",
+   "raw": {
+    "historic": "yes",
+    "name": "Hut 42",
+    "source": "local",
+    "source_ref": "ELHAS - East Leeds History & Archaeology Society"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "theweaver",
+  "n": "The Weaver",
+  "a": "",
+  "pc": "",
+  "lat": 53.74575,
+  "lng": -1.60167,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "The Weaver Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5194913960",
+   "raw": {
+    "artwork_type": "sculpture",
+    "material": "stone",
+    "name": "The Weaver",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "equusaltus",
+  "n": "Equus Altus",
+  "a": "",
+  "pc": "",
+  "lat": 53.79656,
+  "lng": -1.54426,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Equus Altus Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5195049310",
+   "raw": {
+    "artist_name": "Andy Scott",
+    "artwork_type": "statue",
+    "height": "15",
+    "material": "steel",
+    "name": "Equus Altus",
+    "source": "survey;Bing",
+    "start_date": "2013",
+    "tourism": "artwork",
+    "website": "http://www.andyscottsculptor.com/sculptures/equus-altus"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "josephpriestley",
+  "n": "Joseph Priestley",
+  "a": "",
+  "pc": "",
+  "lat": 53.73193,
+  "lng": -1.65989,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Joseph Priestley Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5261167312",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Joseph Priestley",
+    "wikidata": "Q26587631"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wigtonmoormarker",
+  "n": "Wigton Moor Marker",
+  "a": "",
+  "pc": "",
+  "lat": 53.86127,
+  "lng": -1.52467,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Wigton Moor Marker Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5284237785",
+   "raw": {
+    "historic": "monument",
+    "name": "Wigton Moor Marker"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "birstall",
+  "n": "Birstall",
+  "a": "",
+  "pc": "",
+  "lat": 53.7343,
+  "lng": -1.66092,
+  "c": "oddity",
+  "s": "village in West Yorkshire, England",
+  "q": "Birstall Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q865872",
+   "raw": "village in West Yorkshire, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "westridingofyorkshire",
+  "n": "West Riding of Yorkshire",
+  "a": "",
+  "pc": "",
+  "lat": 53.75,
+  "lng": -1.66667,
+  "c": "oddity",
+  "s": "one of the historic subdivisions of Yorkshire, England",
+  "q": "West Riding of Yorkshire Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1934075",
+   "raw": "one of the historic subdivisions of Yorkshire, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gomersal",
+  "n": "Gomersal",
+  "a": "",
+  "pc": "",
+  "lat": 53.7362,
+  "lng": -1.68824,
+  "c": "oddity",
+  "s": "village in the metropolitan county of West Yorkshire, Englan",
+  "q": "Gomersal Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3773203",
+   "raw": "village in the metropolitan county of West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bronteway",
+  "n": "Brontë Way",
+  "a": "",
+  "pc": "",
+  "lat": 53.739,
+  "lng": -1.672,
+  "c": "oddity",
+  "s": "long-distance footpath in West Yorkshire and Lancashire, Eng",
+  "q": "Brontë Way Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4974111",
+   "raw": "Long-distance footpath in West Yorkshire and Lancashire, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "carlinghow",
+  "n": "Carlinghow",
+  "a": "",
+  "pc": "",
+  "lat": 53.723,
+  "lng": -1.648,
+  "c": "oddity",
+  "s": "district of Batley in West Yorkshire, England",
+  "q": "Carlinghow Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5041325",
+   "raw": "district of Batley in West Yorkshire, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "m62coachbombing",
+  "n": "M62 coach bombing",
+  "a": "",
+  "pc": "",
+  "lat": 53.74333,
+  "lng": -1.66861,
+  "c": "oddity",
+  "s": "1974 IRA attack in northern England",
+  "q": "M62 coach bombing Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q6713893",
+   "raw": "1974 IRA attack in northern England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "redhousemuseum",
+  "n": "Red House Museum",
+  "a": "",
+  "pc": "",
+  "lat": 53.7324,
+  "lng": -1.6864,
+  "c": "museum",
+  "s": "historic house museum. in West Yorkshire, England",
+  "q": "Red House Museum Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7304379",
+   "raw": "historic house museum. in West Yorkshire, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "birkenshaw",
+  "n": "Birkenshaw",
+  "a": "",
+  "pc": "",
+  "lat": 53.7475,
+  "lng": -1.6934,
+  "c": "oddity",
+  "s": "village in West Yorkshire, England, UK",
+  "q": "Birkenshaw Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q9171962",
+   "raw": "village in West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bagshawmuseumthewoodland",
+  "n": "Bagshaw Museum The Woodlands",
+  "a": "",
+  "pc": "",
+  "lat": 53.7279,
+  "lng": -1.64539,
+  "c": "museum",
+  "s": "museum building in Kirklees, West Yorkshire, England, UK",
+  "q": "Bagshaw Museum The Woodlands Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17547846",
+   "raw": "museum building in Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "highfieldfarmhouseandcot",
+  "n": "Highfield Farmhouse And Cottage",
+  "a": "",
+  "pc": "",
+  "lat": 53.7361,
+  "lng": -1.66368,
+  "c": "oddity",
+  "s": "farmhouse in Kirklees, West Yorkshire, England, UK",
+  "q": "Highfield Farmhouse And Cottage Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17547955",
+   "raw": "farmhouse in Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bbgacademy",
+  "n": "BBG Academy",
+  "a": "",
+  "pc": "",
+  "lat": 53.74543,
+  "lng": -1.69024,
+  "c": "oddity",
+  "s": "school in Kirklees, UK",
+  "q": "BBG Academy Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q22336762",
+   "raw": "school in Kirklees, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "batleygirlshighschool",
+  "n": "Batley Girls High School",
+  "a": "",
+  "pc": "",
+  "lat": 53.73231,
+  "lng": -1.64532,
+  "c": "oddity",
+  "s": "school in Kirklees, UK",
+  "q": "Batley Girls High School Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q22336760",
+   "raw": "school in Kirklees, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "murderofjocox",
+  "n": "murder of Jo Cox",
+  "a": "",
+  "pc": "",
+  "lat": 53.7315,
+  "lng": -1.661,
+  "c": "oddity",
+  "s": "2016 killing of a UK member of parliament",
+  "q": "murder of Jo Cox Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q24661988",
+   "raw": "2016 killing of a UK member of parliament",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "416groveterrace",
+  "n": "4-16, Grove Terrace",
+  "a": "",
+  "pc": "",
+  "lat": 53.74629,
+  "lng": -1.69227,
+  "c": "oddity",
+  "s": "building in Kirklees, West Yorkshire, England, UK",
+  "q": "4-16, Grove Terrace Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26426055",
+   "raw": "building in Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "officebuildingtoventorwo",
+  "n": "Office Building To Ventor Works",
+  "a": "",
+  "pc": "",
+  "lat": 53.73806,
+  "lng": -1.68836,
+  "c": "oddity",
+  "s": "office building in Kirklees, West Yorkshire, England, UK",
+  "q": "Office Building To Ventor Works Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26427983",
+   "raw": "office building in Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sistershouses",
+  "n": "Sister's Houses",
+  "a": "",
+  "pc": "",
+  "lat": 53.72267,
+  "lng": -1.68843,
+  "c": "oddity",
+  "s": "architectural structure in Kirklees, West Yorkshire, England",
+  "q": "Sister's Houses Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26427986",
+   "raw": "architectural structure in Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "89and91brookroydlane",
+  "n": "89 And 91, Brookroyd Lane",
+  "a": "",
+  "pc": "",
+  "lat": 53.72957,
+  "lng": -1.65762,
+  "c": "oddity",
+  "s": "building in Kirklees, West Yorkshire, England, UK",
+  "q": "89 And 91, Brookroyd Lane Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26428011",
+   "raw": "building in Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofstsaviour",
+  "n": "Church of St Saviour",
+  "a": "",
+  "pc": "",
+  "lat": 53.72855,
+  "lng": -1.65642,
+  "c": "faith",
+  "s": "church building in Kirklees, West Yorkshire, England, UK",
+  "q": "Church of St Saviour Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26428012",
+   "raw": "church building in Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lanesidehouse",
+  "n": "Lane Side House",
+  "a": "",
+  "pc": "",
+  "lat": 53.72914,
+  "lng": -1.67859,
+  "c": "oddity",
+  "s": "house in Kirklees, West Yorkshire, England, UK",
+  "q": "Lane Side House Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26428019",
+   "raw": "house in Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ridingshall",
+  "n": "Ridings Hall",
+  "a": "",
+  "pc": "",
+  "lat": 53.72861,
+  "lng": -1.66418,
+  "c": "oddity",
+  "s": "house in Kirklees, West Yorkshire, England, UK",
+  "q": "Ridings Hall Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26428023",
+   "raw": "house in Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofstjohn",
+  "n": "Church of St John",
+  "a": "",
+  "pc": "",
+  "lat": 53.72064,
+  "lng": -1.64721,
+  "c": "faith",
+  "s": "church in Carlinghow, West Yorkshire, England, UK",
+  "q": "Church of St John Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26428020",
+   "raw": "church in Carlinghow, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "finalroyd",
+  "n": "Final Royd",
+  "a": "",
+  "pc": "",
+  "lat": 53.74995,
+  "lng": -1.68824,
+  "c": "oddity",
+  "s": "grade II listed house in Birkenshaw, Kirklees, West Yorkshir",
+  "q": "Final Royd Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26428787",
+   "raw": "Grade II listed house in Birkenshaw, Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sigstonhouse",
+  "n": "Sigston House",
+  "a": "",
+  "pc": "",
+  "lat": 53.73457,
+  "lng": -1.68669,
+  "c": "oddity",
+  "s": "grade II listed house in Gomersal, Kirklees, West Yorkshire,",
+  "q": "Sigston House Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26428791",
+   "raw": "Grade II listed house in Gomersal, Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "grovecongregationalchurc",
+  "n": "Grove Congregational Church And Sunday School",
+  "a": "",
+  "pc": "",
+  "lat": 53.73348,
+  "lng": -1.68592,
+  "c": "faith",
+  "s": "church in Gomersal, West Yorkshire, England, UK",
+  "q": "Grove Congregational Church And Sunday School Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26428789",
+   "raw": "church in Gomersal, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hilltophouse",
+  "n": "Hill Top House",
+  "a": "",
+  "pc": "",
+  "lat": 53.72955,
+  "lng": -1.68494,
+  "c": "oddity",
+  "s": "house in Kirklees, West Yorkshire, England, UK",
+  "q": "Hill Top House Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26428799",
+   "raw": "house in Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "179181and183quarryroad",
+  "n": "179, 181 And 183, Quarry Road",
+  "a": "",
+  "pc": "",
+  "lat": 53.7239,
+  "lng": -1.68537,
+  "c": "oddity",
+  "s": "building in Kirklees, West Yorkshire, England, UK",
+  "q": "179, 181 And 183, Quarry Road Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26428796",
+   "raw": "building in Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "barntorearofnumbers45and",
+  "n": "Barn To Rear Of Numbers 45 And 47",
+  "a": "",
+  "pc": "",
+  "lat": 53.72967,
+  "lng": -1.68083,
+  "c": "oddity",
+  "s": "barn in Kirklees, West Yorkshire, England, UK",
+  "q": "Barn To Rear Of Numbers 45 And 47 Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26428805",
+   "raw": "barn in Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofstjohnmethodist",
+  "n": "Church of St John (Methodist)",
+  "a": "",
+  "pc": "",
+  "lat": 53.73135,
+  "lng": -1.65896,
+  "c": "faith",
+  "s": "church in Birstall, West Yorkshire, England, UK",
+  "q": "Church of St John (Methodist) Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26479301",
+   "raw": "church in Birstall, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oldschoolhouse",
+  "n": "Old School House",
+  "a": "",
+  "pc": "",
+  "lat": 53.73254,
+  "lng": -1.66791,
+  "c": "oddity",
+  "s": "grade II listed house in Birstall, Kirklees, West Yorkshire,",
+  "q": "Old School House Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26479324",
+   "raw": "Grade II listed house in Birstall, Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofstpaul",
+  "n": "Church of St Paul",
+  "a": "",
+  "pc": "",
+  "lat": 53.75032,
+  "lng": -1.69311,
+  "c": "faith",
+  "s": "church building in Birkenshaw, West Yorkshire, England, UK",
+  "q": "Church of St Paul Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26479549",
+   "raw": "church building in Birkenshaw, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofstmary",
+  "n": "Church of St Mary",
+  "a": "",
+  "pc": "",
+  "lat": 53.72921,
+  "lng": -1.68873,
+  "c": "faith",
+  "s": "church building in Gomersal, West Yorkshire, England, UK",
+  "q": "Church of St Mary Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26479944",
+   "raw": "church building in Gomersal, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "crowtreesincludingpumpin",
+  "n": "Crowtrees, Including Pump In Garden At Rear",
+  "a": "",
+  "pc": "",
+  "lat": 53.72869,
+  "lng": -1.68329,
+  "c": "green",
+  "s": "architectural structure in Kirklees, West Yorkshire, England",
+  "q": "Crowtrees, Including Pump In Garden At Rear Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26545667",
+   "raw": "architectural structure in Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "barntosouthwestofroydsfa",
+  "n": "Barn To South West Of Royds Farm",
+  "a": "",
+  "pc": "",
+  "lat": 53.72344,
+  "lng": -1.6925,
+  "c": "oddity",
+  "s": "barn in Kirklees, West Yorkshire, England, UK",
+  "q": "Barn To South West Of Royds Farm Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26545744",
+   "raw": "barn in Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "westhouse",
+  "n": "West House",
+  "a": "",
+  "pc": "",
+  "lat": 53.73814,
+  "lng": -1.69206,
+  "c": "oddity",
+  "s": "house in Kirklees, West Yorkshire, England, UK",
+  "q": "West House Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26599733",
+   "raw": "house in Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gomersalmethodistchurch",
+  "n": "Gomersal Methodist Church",
+  "a": "",
+  "pc": "",
+  "lat": 53.73423,
+  "lng": -1.69048,
+  "c": "faith",
+  "s": "protestant church building in Gomersal, West Yorkshire, Engl",
+  "q": "Gomersal Methodist Church Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26600165",
+   "raw": "protestant church building in Gomersal, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "oakroydhallfireservicehe",
+  "n": "Oakroyd Hall, Fire Service Head Quarters Oakroyd Drive",
+  "a": "",
+  "pc": "",
+  "lat": 53.74728,
+  "lng": -1.69705,
+  "c": "oddity",
+  "s": "architectural structure in Kirklees, West Yorkshire, England",
+  "q": "Oakroyd Hall, Fire Service Head Quarters Oakroyd Drive Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26670544",
+   "raw": "architectural structure in Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "carlinghowmill",
+  "n": "Carlinghow Mill",
+  "a": "",
+  "pc": "",
+  "lat": 53.72282,
+  "lng": -1.64553,
+  "c": "oddity",
+  "s": "mill in Kirklees, West Yorkshire, England, UK",
+  "q": "Carlinghow Mill Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26676755",
+   "raw": "mill in Kirklees, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "manorhouse2",
+  "n": "Manor House",
+  "a": "",
+  "pc": "",
+  "lat": 53.75352,
+  "lng": -1.69166,
+  "c": "oddity",
+  "s": "grade II listed house in Birkenshaw, Kirklees, West Yorkshir",
+  "q": "Manor House Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26684135",
+   "raw": "Grade II listed house in Birkenshaw, Kirklees, West Yorkshire, BD11.",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "collinscinema",
+  "n": "Collins Cinema",
+  "a": "",
+  "pc": "",
+  "lat": 53.73311,
+  "lng": -1.65938,
+  "c": "cinema",
+  "s": "former cinema in Batley, England",
+  "q": "Collins Cinema Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q38616417",
+   "raw": "former cinema in Batley, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lowlanecinema",
+  "n": "Low Lane Cinema",
+  "a": "",
+  "pc": "",
+  "lat": 53.73232,
+  "lng": -1.66329,
+  "c": "cinema",
+  "s": "former cinema in Birstall, Metropolitan Borough of Kirklees,",
+  "q": "Low Lane Cinema Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q38711420",
+   "raw": "former cinema in Birstall, Metropolitan Borough of Kirklees, West Yorkshire, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "drighlingtonandadwaltonr",
+  "n": "Drighlington and Adwalton railway station",
+  "a": "",
+  "pc": "",
+  "lat": 53.7481,
+  "lng": -1.6645,
+  "c": "oddity",
+  "s": "railway station in West Yorkshire, England, UK, now closed",
+  "q": "Drighlington and Adwalton railway station Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q48815487",
+   "raw": "railway station in West Yorkshire, England, UK, now closed",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wiltonparkbatley",
+  "n": "Wilton Park, Batley",
+  "a": "",
+  "pc": "",
+  "lat": 53.72667,
+  "lng": -1.64889,
+  "c": "green",
+  "s": "a public park in West Yorkshire, England",
+  "q": "Wilton Park, Batley Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q60744981",
+   "raw": "a public park in West Yorkshire, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "carlinghowprincessroyalj",
+  "n": "Carlinghow Princess Royal Junior Infant and Nursery School",
+  "a": "",
+  "pc": "",
+  "lat": 53.72161,
+  "lng": -1.64871,
+  "c": "oddity",
+  "s": "school in Kirklees, UK",
+  "q": "Carlinghow Princess Royal Junior Infant and Nursery School Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66132858",
+   "raw": "school in Kirklees, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gomersalprimaryschool",
+  "n": "Gomersal Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 53.73079,
+  "lng": -1.68403,
+  "c": "oddity",
+  "s": "school in Kirklees, UK",
+  "q": "Gomersal Primary School Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66132882",
+   "raw": "school in Kirklees, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gomersalstmaryschurchofe",
+  "n": "Gomersal St Mary's Church of England Voluntary Controlled Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 53.72737,
+  "lng": -1.68695,
+  "c": "faith",
+  "s": "school in Kirklees, UK",
+  "q": "Gomersal St Mary's Church of England Voluntary Controlled Primary School Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66132941",
+   "raw": "school in Kirklees, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stpatrickscatholicprimar",
+  "n": "St Patrick's Catholic Primary School, Birstall",
+  "a": "",
+  "pc": "",
+  "lat": 53.7374,
+  "lng": -1.66799,
+  "c": "oddity",
+  "s": "school in Kirklees, UK",
+  "q": "St Patrick's Catholic Primary School, Birstall Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66132946",
+   "raw": "school in Kirklees, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fairfieldschool",
+  "n": "Fairfield School",
+  "a": "",
+  "pc": "",
+  "lat": 53.72088,
+  "lng": -1.66525,
+  "c": "oddity",
+  "s": "school in Kirklees, UK",
+  "q": "Fairfield School Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66132958",
+   "raw": "school in Kirklees, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "windmillcofevcprimarysch",
+  "n": "Windmill CofE (VC) Primary School",
+  "a": "",
+  "pc": "",
+  "lat": 53.73101,
+  "lng": -1.64789,
+  "c": "oddity",
+  "s": "school in Kirklees, UK",
+  "q": "Windmill CofE (VC) Primary School Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q66133118",
+   "raw": "school in Kirklees, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "b6125road",
+  "n": "B6125 road",
+  "a": "",
+  "pc": "",
+  "lat": 53.7455,
+  "lng": -1.6619,
+  "c": "oddity",
+  "s": "road in West Yorkshire, England",
+  "q": "B6125 road Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q89088085",
+   "raw": "road in West Yorkshire, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cloughhouse",
+  "n": "Clough House",
+  "a": "",
+  "pc": "",
+  "lat": 53.73614,
+  "lng": -1.64706,
+  "c": "oddity",
+  "s": "house in Howden Clough, West Yorkshire, England, UK",
+  "q": "Clough House Leeds",
+  "w": "",
+  "city": "leeds",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q105721207",
+   "raw": "house in Howden Clough, West Yorkshire, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

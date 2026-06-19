@@ -1,0 +1,2822 @@
+[
+ {
+  "id": "standrewscliftonoldchurc",
+  "n": "St. Andrew's Clifton old church site",
+  "a": "",
+  "pc": "",
+  "lat": 51.45357,
+  "lng": -2.6143,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "St. Andrew's Clifton old church site Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/26070167",
+   "raw": {
+    "date": "pre-1842",
+    "historic": "ruins",
+    "name": "St. Andrew's Clifton old church site"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "marycarpenterladybyron",
+  "n": "Mary Carpenter; Lady Byron",
+  "a": "",
+  "pc": "",
+  "lat": 51.45556,
+  "lng": -2.59952,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Mary Carpenter; Lady Byron Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/26104493",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "blue_plaque",
+    "name": "Mary Carpenter; Lady Byron"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tyntesfieldestatevictori",
+  "n": "Tyntesfield Estate Victorian Open-air Bathing Pool",
+  "a": "",
+  "pc": "",
+  "lat": 51.42913,
+  "lng": -2.70993,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Tyntesfield Estate Victorian Open-air Bathing Pool Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/30813057",
+   "raw": {
+    "historic": "ruins",
+    "name": "Tyntesfield Estate Victorian Open-air Bathing Pool"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wellinbourtoncombe",
+  "n": "Well in Bourton Combe",
+  "a": "",
+  "pc": "",
+  "lat": 51.40726,
+  "lng": -2.71019,
+  "c": "history",
+  "s": "old well",
+  "q": "Well in Bourton Combe Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/31732428",
+   "raw": {
+    "created_by": "JOSM",
+    "historic": "ruins",
+    "name": "Well in Bourton Combe"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "warmemorial",
+  "n": "War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.49316,
+  "lng": -2.61854,
+  "c": "history",
+  "s": "war memorial",
+  "q": "War Memorial Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/199596801",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "War Memorial",
+    "wikidata": "Q26581111"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "croftsendmission",
+  "n": "Crofts End Mission",
+  "a": "",
+  "pc": "",
+  "lat": 51.46679,
+  "lng": -2.54167,
+  "c": "faith",
+  "s": "church",
+  "q": "Crofts End Mission Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/260380021",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Crofts End Mission",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "quakersfriars",
+  "n": "Quakers Friars",
+  "a": "",
+  "pc": "",
+  "lat": 51.45722,
+  "lng": -2.58743,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Quakers Friars Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/299952660",
+   "raw": {
+    "historic": "ruins",
+    "name": "Quakers Friars"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lollypopbebop",
+  "n": "Lollypop-Be-bop",
+  "a": "",
+  "pc": "",
+  "lat": 51.45796,
+  "lng": -2.59677,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Lollypop-Be-bop Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/358530691",
+   "raw": {
+    "artwork_type": "sculpture",
+    "mapillary": "532265481276482",
+    "name": "Lollypop-Be-bop",
+    "survey:date": "2019-05-12",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bristolroyalblindasylumo",
+  "n": "Bristol Royal Blind Asylum or School of Industry For The Blind",
+  "a": "",
+  "pc": "",
+  "lat": 51.49139,
+  "lng": -2.60733,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Bristol Royal Blind Asylum or School of Industry For The Blind Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/611682954",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "blue_plaque",
+    "name": "Bristol Royal Blind Asylum or School of Industry For The Blind",
+    "openplaques:id": "31082"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stanneswell",
+  "n": "St Anne's Well",
+  "a": "",
+  "pc": "",
+  "lat": 51.45032,
+  "lng": -2.54573,
+  "c": "history",
+  "s": "old well",
+  "q": "St Anne's Well Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/804052709",
+   "raw": {
+    "historic": "yes",
+    "man_made": "water_well",
+    "name": "St Anne's Well",
+    "pump": "no",
+    "religion": "christian",
+    "tourism": "attraction"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "guarddog",
+  "n": "Guard Dog",
+  "a": "",
+  "pc": "",
+  "lat": 51.50514,
+  "lng": -2.63659,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Guard Dog Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/849939019",
+   "raw": {
+    "name": "Guard Dog",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wellhunglover",
+  "n": "Well Hung Lover",
+  "a": "",
+  "pc": "",
+  "lat": 51.45339,
+  "lng": -2.60102,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Well Hung Lover Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/851928330",
+   "raw": {
+    "artist_name": "Banksy",
+    "artwork_type": "graffiti",
+    "name": "Well Hung Lover",
+    "start_date": "2006",
+    "tourism": "artwork",
+    "website": "http://www.bristol-street-art.co.uk/category/banksy-street-art/photo/man-hanging-from-window",
+    "wikidata": "Q48812496"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "statueofearlhaig",
+  "n": "Statue of Earl Haig",
+  "a": "",
+  "pc": "",
+  "lat": 51.4617,
+  "lng": -2.62096,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Statue of Earl Haig Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/852084170",
+   "raw": {
+    "artist_name": "W McMillan",
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "material": "bronze",
+    "name": "Statue of Earl Haig",
+    "start_date": "1931",
+    "tourism": "artwork",
+    "website": "http://www.imagesofengland.org.uk/details/default.aspx?id=379326"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "themildmildwest",
+  "n": "The Mild Mild West",
+  "a": "",
+  "pc": "",
+  "lat": 51.46273,
+  "lng": -2.58979,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "The Mild Mild West Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/858478161",
+   "raw": {
+    "artist_name": "Banksy",
+    "artwork_type": "graffiti",
+    "name": "The Mild Mild West",
+    "tourism": "artwork",
+    "website": "http://www.bristol-street-art.co.uk/gallery/photo/mild-mild-west-banksy",
+    "wikidata": "Q22330073"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "andalism",
+  "n": "♥andalism",
+  "a": "",
+  "pc": "",
+  "lat": 51.46145,
+  "lng": -2.60247,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "♥andalism Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/859403147",
+   "raw": {
+    "artist_name": "Nick Walker",
+    "artwork_type": "graffiti",
+    "name": "♥andalism",
+    "tourism": "artwork",
+    "website": "https://bristolgraffiti.wordpress.com/2008/08/12/new-nick-walker/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "goramschair",
+  "n": "Goram's Chair",
+  "a": "",
+  "pc": "",
+  "lat": 51.49988,
+  "lng": -2.63634,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Goram's Chair Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/861804943",
+   "raw": {
+    "direction": "NW",
+    "name": "Goram's Chair",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "roseonamousetrap",
+  "n": "Rose on a Mousetrap",
+  "a": "",
+  "pc": "",
+  "lat": 51.46382,
+  "lng": -2.59202,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Rose on a Mousetrap Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/943889576",
+   "raw": {
+    "artist_name": "Banksy",
+    "artwork_type": "graffiti",
+    "name": "Rose on a Mousetrap",
+    "tourism": "artwork",
+    "website": "http://www.bristol-street-art.co.uk/category/banksy-street-art/photo/banksy-rose-mouse-trap"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sirhenrynewbolt",
+  "n": "Sir Henry Newbolt",
+  "a": "",
+  "pc": "",
+  "lat": 51.46013,
+  "lng": -2.61975,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Sir Henry Newbolt Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/951938623",
+   "raw": {
+    "historic": "memorial",
+    "name": "Sir Henry Newbolt"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "queenvictoria",
+  "n": "Queen Victoria",
+  "a": "",
+  "pc": "",
+  "lat": 51.45219,
+  "lng": -2.5994,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Queen Victoria Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/956598306",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "memorial": "statue",
+    "monument": "statue",
+    "name": "Queen Victoria",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wikidata": "Q7270543"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rajahrammohunroy",
+  "n": "Rajah Rammohun Roy",
+  "a": "",
+  "pc": "",
+  "lat": 51.45179,
+  "lng": -2.60182,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Rajah Rammohun Roy Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/956598354",
+   "raw": {
+    "artwork_type": "statue",
+    "material": "stone",
+    "name": "Rajah Rammohun Roy",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "memorialtowilliampitt1st",
+  "n": "Memorial to William Pitt, 1st Earl of Chatham",
+  "a": "",
+  "pc": "",
+  "lat": 51.45684,
+  "lng": -2.62089,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Memorial to William Pitt, 1st Earl of Chatham Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/957178469",
+   "raw": {
+    "format": "obelisk",
+    "historic": "memorial",
+    "man_made": "obelisk",
+    "memorial": "obelisk",
+    "name": "Memorial to William Pitt, 1st Earl of Chatham",
+    "wikidata": "Q17553207"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "goldentree",
+  "n": "Golden Tree",
+  "a": "",
+  "pc": "",
+  "lat": 51.50991,
+  "lng": -2.55,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Golden Tree Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/958552079",
+   "raw": {
+    "name": "Golden Tree",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monkeyandrubilkscube",
+  "n": "monkey & rubilk's cube",
+  "a": "",
+  "pc": "",
+  "lat": 51.46501,
+  "lng": -2.61022,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "monkey & rubilk's cube Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/989058650",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "monkey & rubilk's cube",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kingedwardvii",
+  "n": "King Edward VII",
+  "a": "",
+  "pc": "",
+  "lat": 51.4581,
+  "lng": -2.60936,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "King Edward VII Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1058156216",
+   "raw": {
+    "artist_name": "Henry Poole",
+    "historic": "monument",
+    "monument": "statue",
+    "name": "King Edward VII",
+    "start_date": "1913"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spiritofflight",
+  "n": "Spirit of Flight",
+  "a": "",
+  "pc": "",
+  "lat": 51.50828,
+  "lng": -2.57618,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Spirit of Flight Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1180908508",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Spirit of Flight",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hollow",
+  "n": "Hollow",
+  "a": "",
+  "pc": "",
+  "lat": 51.45747,
+  "lng": -2.60091,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Hollow Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1192444817",
+   "raw": {
+    "artist_name": "John Huggins",
+    "artwork_type": "sculpture",
+    "material": "wood",
+    "name": "Hollow",
+    "tourism": "artwork",
+    "website": "http://www.hollow.org.uk"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "grotto",
+  "n": "Grotto",
+  "a": "",
+  "pc": "",
+  "lat": 51.47482,
+  "lng": -2.65208,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Grotto Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1240403803",
+   "raw": {
+    "name": "Grotto",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "josephcottle",
+  "n": "Joseph Cottle",
+  "a": "",
+  "pc": "",
+  "lat": 51.45486,
+  "lng": -2.59307,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Joseph Cottle Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1381060385",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Joseph Cottle",
+    "openplaques:id": "11809"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sirgeorgewhite",
+  "n": "Sir George White",
+  "a": "",
+  "pc": "",
+  "lat": 51.45374,
+  "lng": -2.59438,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Sir George White Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1381079338",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "blue_plaque",
+    "name": "Sir George White"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stphilipsmarsh",
+  "n": "St Philip's Marsh",
+  "a": "",
+  "pc": "",
+  "lat": 51.44898,
+  "lng": -2.57423,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "St Philip's Marsh Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1423373518",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "St Philip's Marsh"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "siteofravenswell",
+  "n": "Site of Ravens Well",
+  "a": "",
+  "pc": "",
+  "lat": 51.44406,
+  "lng": -2.57866,
+  "c": "history",
+  "s": "old well",
+  "q": "Site of Ravens Well Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1548816006",
+   "raw": {
+    "historic": "archaeological_site",
+    "name": "Site of Ravens Well"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "samuelplimsollmp",
+  "n": "Samuel Plimsoll MP",
+  "a": "",
+  "pc": "",
+  "lat": 51.45019,
+  "lng": -2.60838,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Samuel Plimsoll MP Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1594119025",
+   "raw": {
+    "description": "Samuel Plimsoll 1824-1898, British politician and social reformer, best remembered for the Plimsoll line on ships.",
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Samuel Plimsoll MP",
+    "source:description": "en:wikipedia",
+    "subject:wikidata": "Q333611",
+    "subject:wikipedia": "en:Samuel Plimsoll"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "portlandmethodistchapel",
+  "n": "Portland Methodist Chapel",
+  "a": "",
+  "pc": "",
+  "lat": 51.46193,
+  "lng": -2.59872,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Portland Methodist Chapel Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1651020224",
+   "raw": {
+    "historic": "memorial",
+    "name": "Portland Methodist Chapel"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "animalmosaics",
+  "n": "animal mosaics",
+  "a": "",
+  "pc": "",
+  "lat": 51.44388,
+  "lng": -2.59966,
+  "c": "streetart",
+  "s": "mosaic",
+  "q": "animal mosaics Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1655248567",
+   "raw": {
+    "name": "animal mosaics",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "washingmachines",
+  "n": "Washing Machines",
+  "a": "",
+  "pc": "",
+  "lat": 51.50906,
+  "lng": -2.57475,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Washing Machines Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1655285987",
+   "raw": {
+    "artwork_type": "relief",
+    "name": "Washing Machines",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "felixroadadventureplaygr",
+  "n": "Felix Road Adventure Playground",
+  "a": "",
+  "pc": "",
+  "lat": 51.46304,
+  "lng": -2.56788,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Felix Road Adventure Playground Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1697740498",
+   "raw": {
+    "board_type": "history",
+    "check_date": "2023-09-25",
+    "historic": "memorial",
+    "information": "board",
+    "memorial": "plaque",
+    "name": "Felix Road Adventure Playground",
+    "openplaques:id": "55012",
+    "plaque": "Easton Time Signs Trail",
+    "tourism": "information"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "swingbridgeandnorthernap",
+  "n": "Swing Bridge & Northern Approaches",
+  "a": "",
+  "pc": "",
+  "lat": 51.44816,
+  "lng": -2.62406,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Swing Bridge & Northern Approaches Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1758930527",
+   "raw": {
+    "historic": "monument",
+    "name": "Swing Bridge & Northern Approaches"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stronghold",
+  "n": "Stronghold",
+  "a": "",
+  "pc": "",
+  "lat": 51.48335,
+  "lng": -2.69736,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Stronghold Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1759030437",
+   "raw": {
+    "artist_name": "Pat Daw",
+    "artwork_type": "sculpture",
+    "name": "Stronghold",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bristols600thcharteranni",
+  "n": "Bristol's 600th Charter Anniversary",
+  "a": "",
+  "pc": "",
+  "lat": 51.46945,
+  "lng": -2.62705,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Bristol's 600th Charter Anniversary Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1837085806",
+   "raw": {
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Bristol's 600th Charter Anniversary"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fireman",
+  "n": "Fireman",
+  "a": "",
+  "pc": "",
+  "lat": 51.45288,
+  "lng": -2.58624,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Fireman Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1852068566",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Fireman",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ateyo",
+  "n": "Ateyo",
+  "a": "",
+  "pc": "",
+  "lat": 51.44793,
+  "lng": -2.61397,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Ateyo Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1852155597",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Ateyo",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wikidata": "Q18343111"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thearkandfish",
+  "n": "The Ark and Fish",
+  "a": "",
+  "pc": "",
+  "lat": 51.45537,
+  "lng": -2.58845,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "The Ark and Fish Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1856407656",
+   "raw": {
+    "artwork_type": "sculpture",
+    "check_date": "2025-03-19",
+    "description": "This is designed by Kate Malone and dates from 1993. It was commissioned especially for the new park and is everything that a drinking water fountain should be - functional, aesthetically pleasing, and witty.",
+    "disused:amenity": "drinking_water",
+    "fountain": "bubbler",
+    "name": "The Ark and Fish",
+    "note": "Water fountain function is currently out-of-order. Retained as sculpture",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hismastersvoice",
+  "n": "His Masters Voice",
+  "a": "",
+  "pc": "",
+  "lat": 51.45543,
+  "lng": -2.60188,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "His Masters Voice Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1860094606",
+   "raw": {
+    "alt_name": "Nipper",
+    "historic": "memorial",
+    "memorial": "blue_plaque",
+    "name": "His Masters Voice"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "henryherbertwills",
+  "n": "Henry Herbert Wills",
+  "a": "",
+  "pc": "",
+  "lat": 51.47576,
+  "lng": -2.61097,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Henry Herbert Wills Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1867994965",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Henry Herbert Wills, 1856‒1922, engineer and philanthropist, lived here 1874‒1885",
+    "memorial": "plaque",
+    "name": "Henry Herbert Wills",
+    "openplaques:id": "958",
+    "plaque": "blue",
+    "subject:wikidata": "Q5722907",
+    "subject:wikipedia": "en:Henry Herbert Wills"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "henburywarmemorial",
+  "n": "Henbury War Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.50656,
+  "lng": -2.63098,
+  "c": "history",
+  "s": "war memorial",
+  "q": "Henbury War Memorial Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1875214254",
+   "raw": {
+    "historic": "memorial",
+    "name": "Henbury War Memorial",
+    "wikidata": "Q66478690"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "clock",
+  "n": "Clock",
+  "a": "",
+  "pc": "",
+  "lat": 51.49442,
+  "lng": -2.61417,
+  "c": "streetart",
+  "s": "mural",
+  "q": "Clock Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1876866297",
+   "raw": {
+    "artwork_type": "mural",
+    "name": "Clock",
+    "tourism": "artwork"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cloakedhorseman",
+  "n": "Cloaked Horseman",
+  "a": "",
+  "pc": "",
+  "lat": 51.45654,
+  "lng": -2.59623,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Cloaked Horseman Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1881624838",
+   "raw": {
+    "artwork_type": "statue",
+    "material": "metal",
+    "name": "Cloaked Horseman",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hmsflyingfox",
+  "n": "HMS Flying Fox",
+  "a": "",
+  "pc": "",
+  "lat": 51.44931,
+  "lng": -2.61281,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "HMS Flying Fox Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1885230867",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "HMS Flying Fox"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "missmabeltribeangelofsai",
+  "n": "Miss Mabel Tribe; Angel Of Saint Philips",
+  "a": "",
+  "pc": "",
+  "lat": 51.45221,
+  "lng": -2.57526,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Miss Mabel Tribe; Angel Of Saint Philips Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1885570902",
+   "raw": {
+    "board_type": "history",
+    "check_date": "2025-04-26",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Miss Mabel Tribe; Angel Of Saint Philips",
+    "plaque": "stone"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "suncloud",
+  "n": "Suncloud",
+  "a": "",
+  "pc": "",
+  "lat": 51.4433,
+  "lng": -2.56656,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Suncloud Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1910719962",
+   "raw": {
+    "name": "Suncloud",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "brislingtonchristianfell",
+  "n": "Brislington Christian Fellowship",
+  "a": "",
+  "pc": "",
+  "lat": 51.42647,
+  "lng": -2.54338,
+  "c": "faith",
+  "s": "church",
+  "q": "Brislington Christian Fellowship Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1912239071",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Brislington Christian Fellowship",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sirfabianware",
+  "n": "Sir Fabian Ware",
+  "a": "",
+  "pc": "",
+  "lat": 51.458,
+  "lng": -2.62046,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Sir Fabian Ware Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1949894507",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Sir Fabian Ware",
+    "plaque": "green"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "catherinedymondgrace",
+  "n": "Catherine Dymond Grace",
+  "a": "",
+  "pc": "",
+  "lat": 51.46928,
+  "lng": -2.61833,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Catherine Dymond Grace Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1975737388",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Catherine Dymond Grace, 1907‒1986, educational pioneer and founder of St. Christopher’s School, lived here",
+    "memorial": "blue_plaque",
+    "name": "Catherine Dymond Grace",
+    "openplaques:id": "955"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lordmacaulay",
+  "n": "Lord Macaulay",
+  "a": "",
+  "pc": "",
+  "lat": 51.45416,
+  "lng": -2.62356,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Lord Macaulay Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1975821870",
+   "raw": {
+    "historic": "monument",
+    "monument": "plaque",
+    "name": "Lord Macaulay",
+    "plaque": "metal"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "perosbridge",
+  "n": "Pero's Bridge",
+  "a": "",
+  "pc": "",
+  "lat": 51.45,
+  "lng": -2.59763,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Pero's Bridge Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2019018840",
+   "raw": {
+    "historic": "memorial",
+    "material": "metal",
+    "memorial": "plaque",
+    "name": "Pero's Bridge"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "elizabethsturgehelenstur",
+  "n": "Elizabeth Sturge;Helen Sturge",
+  "a": "",
+  "pc": "",
+  "lat": 51.4723,
+  "lng": -2.61278,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Elizabeth Sturge;Helen Sturge Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2019080346",
+   "raw": {
+    "description": "Elizabeth Sturge 1849-1944 & Helen Sturge 1858-1945",
+    "historic": "memorial",
+    "memorial": "blue_plaque",
+    "name": "Elizabeth Sturge;Helen Sturge",
+    "openplaques:id": "950"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sirhenryirving",
+  "n": "Sir Henry Irving",
+  "a": "",
+  "pc": "",
+  "lat": 51.46468,
+  "lng": -2.58906,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Sir Henry Irving Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2045107959",
+   "raw": {
+    "description": "Sir Henry Irving, actor, lived here.",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Sir Henry Irving"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "dukeofbeaufortmemorial",
+  "n": "Duke of Beaufort Memorial",
+  "a": "",
+  "pc": "",
+  "lat": 51.49404,
+  "lng": -2.5469,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Duke of Beaufort Memorial Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2102171347",
+   "raw": {
+    "historic": "monument",
+    "name": "Duke of Beaufort Memorial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "timorousbeasties",
+  "n": "Timorous Beasties",
+  "a": "",
+  "pc": "",
+  "lat": 51.45805,
+  "lng": -2.58445,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Timorous Beasties Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2130609178",
+   "raw": {
+    "artist_name": "Bristol Daisy",
+    "name": "Timorous Beasties",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jack",
+  "n": "Jack",
+  "a": "",
+  "pc": "",
+  "lat": 51.46817,
+  "lng": -2.61291,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Jack Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2268838294",
+   "raw": {
+    "artwork_type": "sculpture",
+    "description": "monkey",
+    "name": "Jack",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "princesscharlotteobelisk",
+  "n": "Princess Charlotte Obelisk",
+  "a": "",
+  "pc": "",
+  "lat": 51.47086,
+  "lng": -2.61387,
+  "c": "history",
+  "s": "monument",
+  "q": "Princess Charlotte Obelisk Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2268838301",
+   "raw": {
+    "historic": "memorial",
+    "name": "Princess Charlotte Obelisk",
+    "website": "https://www.pmsa.org.uk/pmsa-database/12417/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "charleswesley",
+  "n": "Charles Wesley",
+  "a": "",
+  "pc": "",
+  "lat": 51.45812,
+  "lng": -2.59032,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Charles Wesley Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2268865186",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Charles Wesley",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "charleswesleyandsamuelwe",
+  "n": "Charles Wesley & Samuel Wesley",
+  "a": "",
+  "pc": "",
+  "lat": 51.46033,
+  "lng": -2.59241,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Charles Wesley & Samuel Wesley Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2268894728",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Charles Wesley & Samuel Wesley"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "srichinmoypeaceblossomci",
+  "n": "Sri Chinmoy Peace Blossom City",
+  "a": "",
+  "pc": "",
+  "lat": 51.4535,
+  "lng": -2.60651,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Sri Chinmoy Peace Blossom City Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2268918990",
+   "raw": {
+    "check_date": "2022-07-05",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Sri Chinmoy Peace Blossom City"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thomasrichardguppy",
+  "n": "Thomas Richard Guppy",
+  "a": "",
+  "pc": "",
+  "lat": 51.45497,
+  "lng": -2.60655,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Thomas Richard Guppy Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2268918992",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Thomas Richard Guppy",
+    "plaque": "green"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "johnjamescbe",
+  "n": "John James CBE",
+  "a": "",
+  "pc": "",
+  "lat": 51.44243,
+  "lng": -2.59227,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "John James CBE Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2283531195",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "John James\nCBE 1906-1996\nPhilanthropist who gave so much to the people of Bristol. Born & lived at 96 Philip Street, Bedminster.",
+    "memorial": "plaque",
+    "name": "John James CBE",
+    "openplaques:id": "55013"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "drinkingfountain",
+  "n": "drinking fountain",
+  "a": "",
+  "pc": "",
+  "lat": 51.46537,
+  "lng": -2.63156,
+  "c": "history",
+  "s": "memorial fountain",
+  "q": "drinking fountain Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2283531283",
+   "raw": {
+    "disused:amenity": "drinking_water",
+    "historic": "yes",
+    "name": "drinking fountain"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "duchessobelisk",
+  "n": "Duchess Obelisk",
+  "a": "",
+  "pc": "",
+  "lat": 51.49226,
+  "lng": -2.55162,
+  "c": "history",
+  "s": "monument",
+  "q": "Duchess Obelisk Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2290976146",
+   "raw": {
+    "historic": "monument",
+    "name": "Duchess Obelisk"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "portbury",
+  "n": "Portbury",
+  "a": "",
+  "pc": "",
+  "lat": 51.4699,
+  "lng": -2.7163,
+  "c": "oddity",
+  "s": "village in North Somerset, England, UK",
+  "q": "Portbury Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2740123",
+   "raw": "village in North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "flaxbourton",
+  "n": "Flax Bourton",
+  "a": "",
+  "pc": "",
+  "lat": 51.4223,
+  "lng": -2.7112,
+  "c": "oddity",
+  "s": "village in Somerset, England, UK",
+  "q": "Flax Bourton Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2881181",
+   "raw": "village in Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tyntesfield",
+  "n": "Tyntesfield",
+  "a": "",
+  "pc": "",
+  "lat": 51.44056,
+  "lng": -2.71167,
+  "c": "museum",
+  "s": "grade I listed historic house museum in North Somerset, Engl",
+  "q": "Tyntesfield Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3695427",
+   "raw": "Grade I listed historic house museum in North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "failand",
+  "n": "Failand",
+  "a": "",
+  "pc": "",
+  "lat": 51.4392,
+  "lng": -2.6905,
+  "c": "oddity",
+  "s": "village in Somerset, England",
+  "q": "Failand Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5429672",
+   "raw": "village in Somerset, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "flaxbourtonrailwaystatio",
+  "n": "Flax Bourton railway station",
+  "a": "",
+  "pc": "",
+  "lat": 51.4247,
+  "lng": -2.7011,
+  "c": "oddity",
+  "s": "disused railway station in England",
+  "q": "Flax Bourton railway station Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5458247",
+   "raw": "disused railway station in England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "royalportburydock",
+  "n": "Royal Portbury Dock",
+  "a": "",
+  "pc": "",
+  "lat": 51.4931,
+  "lng": -2.72,
+  "c": "oddity",
+  "s": "dock in Somerset, England, UK; part of the Port of Bristol",
+  "q": "Royal Portbury Dock Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7374733",
+   "raw": "dock in Somerset, England, UK; part of the Port of Bristol",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stancombequarry",
+  "n": "Stancombe Quarry",
+  "a": "",
+  "pc": "",
+  "lat": 51.4107,
+  "lng": -2.7145,
+  "c": "oddity",
+  "s": "limestone quarry in Somerset, England",
+  "q": "Stancombe Quarry Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7598037",
+   "raw": "Limestone quarry in Somerset, England",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "barrowcourt",
+  "n": "Barrow Court",
+  "a": "",
+  "pc": "",
+  "lat": 51.4129,
+  "lng": -2.69977,
+  "c": "history",
+  "s": "manor house in Barrow Gurney, Somerset, England, UK",
+  "q": "Barrow Court Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q15074166",
+   "raw": "manor house in Barrow Gurney, Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "homefarmbuildings",
+  "n": "Home Farm Buildings",
+  "a": "",
+  "pc": "",
+  "lat": 51.4422,
+  "lng": -2.71844,
+  "c": "oddity",
+  "s": "building in Wraxall and Failand, North Somerset, England, UK",
+  "q": "Home Farm Buildings Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17533858",
+   "raw": "building in Wraxall and Failand, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eastandwestcornergazebos",
+  "n": "East And West Corner Gazebos And Linking North Boundary Wall Of Formal Garden At Barrow Court",
+  "a": "",
+  "pc": "",
+  "lat": 51.4134,
+  "lng": -2.69805,
+  "c": "green",
+  "s": "gazebo in Barrow Gurney, North Somerset, England, UK",
+  "q": "East And West Corner Gazebos And Linking North Boundary Wall Of Formal Garden At Barrow Court Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17533915",
+   "raw": "gazebo in Barrow Gurney, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gatepiersgatesandserieso",
+  "n": "Gatepiers, Gates And Series Of 12 Pillars Forming West Boundary Wall Of Garden At Barrow Court",
+  "a": "",
+  "pc": "",
+  "lat": 51.414,
+  "lng": -2.70042,
+  "c": "green",
+  "s": "gatepost in Flax Bourton, North Somerset, England, UK",
+  "q": "Gatepiers, Gates And Series Of 12 Pillars Forming West Boundary Wall Of Garden At Barrow Court Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17533935",
+   "raw": "gatepost in Flax Bourton, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofstmichaelandalla",
+  "n": "Church of St Michael and All Angels",
+  "a": "",
+  "pc": "",
+  "lat": 51.4212,
+  "lng": -2.71104,
+  "c": "faith",
+  "s": "church in Flax Bourton, Somerset, England, UK",
+  "q": "Church of St Michael and All Angels Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17534142",
+   "raw": "church in Flax Bourton, Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ironagedefendedsettlemen",
+  "n": "Iron Age defended settlement 400m south of Manor Farm",
+  "a": "",
+  "pc": "",
+  "lat": 51.4443,
+  "lng": -2.69131,
+  "c": "oddity",
+  "s": "archaeological site in Wraxall and Failand, North Somerset, ",
+  "q": "Iron Age defended settlement 400m south of Manor Farm Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q17672487",
+   "raw": "archaeological site in Wraxall and Failand, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "northsomersetshow",
+  "n": "North Somerset Show",
+  "a": "",
+  "pc": "",
+  "lat": 51.4278,
+  "lng": -2.7053,
+  "c": "oddity",
+  "s": "agricultural show in the UK",
+  "q": "North Somerset Show Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q20712635",
+   "raw": "agricultural show in the UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "largegothicseatabout180m",
+  "n": "Large Gothic Seat About 180 Metres West Northwest Of Tyntesfield House",
+  "a": "",
+  "pc": "",
+  "lat": 51.44119,
+  "lng": -2.71437,
+  "c": "oddity",
+  "s": "building in Wraxall and Failand, North Somerset, England, UK",
+  "q": "Large Gothic Seat About 180 Metres West Northwest Of Tyntesfield House Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26314530",
+   "raw": "building in Wraxall and Failand, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "summerhouseoutbuilding",
+  "n": "Summerhouse (Outbuilding)",
+  "a": "",
+  "pc": "",
+  "lat": 51.44443,
+  "lng": -2.71136,
+  "c": "oddity",
+  "s": "building in Wraxall and Failand, North Somerset, England, UK",
+  "q": "Summerhouse (Outbuilding) Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26314529",
+   "raw": "building in Wraxall and Failand, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "belmontlodge",
+  "n": "Belmont Lodge",
+  "a": "",
+  "pc": "",
+  "lat": 51.42827,
+  "lng": -2.69784,
+  "c": "oddity",
+  "s": "gatehouse in Wraxall and Failand, North Somerset, England, U",
+  "q": "Belmont Lodge Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26314534",
+   "raw": "gatehouse in Wraxall and Failand, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "estateoffice",
+  "n": "Estate Office",
+  "a": "",
+  "pc": "",
+  "lat": 51.43761,
+  "lng": -2.71049,
+  "c": "oddity",
+  "s": "building in Wraxall and Failand, North Somerset, England, UK",
+  "q": "Estate Office Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26314535",
+   "raw": "building in Wraxall and Failand, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cliftonlodgewithgatesand",
+  "n": "Clifton Lodge With Gates And Gatepiers To South-East",
+  "a": "",
+  "pc": "",
+  "lat": 51.43656,
+  "lng": -2.69417,
+  "c": "oddity",
+  "s": "building in Wraxall and Failand, North Somerset, England, UK",
+  "q": "Clifton Lodge With Gates And Gatepiers To South-East Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26314538",
+   "raw": "building in Wraxall and Failand, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "clevedonlodge",
+  "n": "Clevedon Lodge",
+  "a": "",
+  "pc": "",
+  "lat": 51.44808,
+  "lng": -2.71878,
+  "c": "oddity",
+  "s": "gatehouse in Wraxall and Failand, North Somerset, England, U",
+  "q": "Clevedon Lodge Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26314539",
+   "raw": "gatehouse in Wraxall and Failand, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kitchengardenwallsnortho",
+  "n": "Kitchen Garden Walls North Of Belmont",
+  "a": "",
+  "pc": "",
+  "lat": 51.43399,
+  "lng": -2.70155,
+  "c": "green",
+  "s": "building in Wraxall and Failand, North Somerset, England, UK",
+  "q": "Kitchen Garden Walls North Of Belmont Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26314536",
+   "raw": "building in Wraxall and Failand, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chaplainshouse",
+  "n": "Chaplains House",
+  "a": "",
+  "pc": "",
+  "lat": 51.44246,
+  "lng": -2.71333,
+  "c": "oddity",
+  "s": "house in Wraxall and Failand, North Somerset, England, UK",
+  "q": "Chaplains House Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26314542",
+   "raw": "house in Wraxall and Failand, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stationlodgeincludinggat",
+  "n": "Station Lodge Including Gate Piers And Gate Adjoining North West",
+  "a": "",
+  "pc": "",
+  "lat": 51.42905,
+  "lng": -2.70343,
+  "c": "oddity",
+  "s": "building in Wraxall and Failand, North Somerset, England, UK",
+  "q": "Station Lodge Including Gate Piers And Gate Adjoining North West Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26314547",
+   "raw": "building in Wraxall and Failand, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hannahmore",
+  "n": "Hannah More",
+  "a": "",
+  "pc": "",
+  "lat": 51.43851,
+  "lng": -2.70801,
+  "c": "oddity",
+  "s": "building in Wraxall and Failand, North Somerset, England, UK",
+  "q": "Hannah More Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26314545",
+   "raw": "building in Wraxall and Failand, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "drivecottage",
+  "n": "Drive Cottage",
+  "a": "",
+  "pc": "",
+  "lat": 51.43738,
+  "lng": -2.71292,
+  "c": "oddity",
+  "s": "cottage in Wraxall and Failand, North Somerset, England, UK",
+  "q": "Drive Cottage Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26314550",
+   "raw": "cottage in Wraxall and Failand, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lowerlodgeorwraxalllodge",
+  "n": "Lower Lodge Or Wraxall Lodge",
+  "a": "",
+  "pc": "",
+  "lat": 51.43523,
+  "lng": -2.7185,
+  "c": "oddity",
+  "s": "gatehouse in Wraxall and Failand, North Somerset, England, U",
+  "q": "Lower Lodge Or Wraxall Lodge Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26314548",
+   "raw": "gatehouse in Wraxall and Failand, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kingcotfarmhouse",
+  "n": "Kingcot Farmhouse",
+  "a": "",
+  "pc": "",
+  "lat": 51.42943,
+  "lng": -2.6912,
+  "c": "oddity",
+  "s": "farmhouse in Long Ashton, North Somerset, England, UK",
+  "q": "Kingcot Farmhouse Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26421884",
+   "raw": "farmhouse in Long Ashton, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "manorfarmhouse",
+  "n": "Manor Farmhouse",
+  "a": "",
+  "pc": "",
+  "lat": 51.44789,
+  "lng": -2.69026,
+  "c": "oddity",
+  "s": "farmhouse in Wraxall and Failand, North Somerset, England, U",
+  "q": "Manor Farmhouse Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26421895",
+   "raw": "farmhouse in Wraxall and Failand, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stablesandcoachhouse5yar",
+  "n": "Stables And Coachhouse, 5 Yards To Rear Of Old Vicarage",
+  "a": "",
+  "pc": "",
+  "lat": 51.47372,
+  "lng": -2.7169,
+  "c": "oddity",
+  "s": "stable in Portbury, North Somerset, England, UK",
+  "q": "Stables And Coachhouse, 5 Yards To Rear Of Old Vicarage Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26421892",
+   "raw": "stable in Portbury, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gatcombemill",
+  "n": "Gatcombe Mill",
+  "a": "",
+  "pc": "",
+  "lat": 51.42769,
+  "lng": -2.68891,
+  "c": "oddity",
+  "s": "mill in Long Ashton, North Somerset, England, UK",
+  "q": "Gatcombe Mill Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26421900",
+   "raw": "mill in Long Ashton, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "batchcottage",
+  "n": "Batch Cottage",
+  "a": "",
+  "pc": "",
+  "lat": 51.42442,
+  "lng": -2.69008,
+  "c": "oddity",
+  "s": "cottage in Long Ashton, North Somerset, England, UK",
+  "q": "Batch Cottage Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26421901",
+   "raw": "cottage in Long Ashton, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "happertonfarmhouse",
+  "n": "Happerton Farmhouse",
+  "a": "",
+  "pc": "",
+  "lat": 51.46827,
+  "lng": -2.68917,
+  "c": "oddity",
+  "s": "farmhouse in Easton-in-Gordano, North Somerset, England, UK",
+  "q": "Happerton Farmhouse Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26422896",
+   "raw": "farmhouse in Easton-in-Gordano, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bourtonhouse",
+  "n": "Bourton House",
+  "a": "",
+  "pc": "",
+  "lat": 51.42045,
+  "lng": -2.70858,
+  "c": "oddity",
+  "s": "house in Flax Bourton, North Somerset, England, UK",
+  "q": "Bourton House Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26422903",
+   "raw": "house in Flax Bourton, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "longashtonmagistratescou",
+  "n": "Long Ashton Magistrate's Court",
+  "a": "",
+  "pc": "",
+  "lat": 51.42314,
+  "lng": -2.69315,
+  "c": "oddity",
+  "s": "architectural structure in Flax Bourton, North Somerset, Eng",
+  "q": "Long Ashton Magistrate's Court Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26422911",
+   "raw": "architectural structure in Flax Bourton, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "millfarmhouse",
+  "n": "Mill Farmhouse",
+  "a": "",
+  "pc": "",
+  "lat": 51.42596,
+  "lng": -2.70395,
+  "c": "oddity",
+  "s": "farmhouse in Flax Bourton, North Somerset, England, UK",
+  "q": "Mill Farmhouse Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26422916",
+   "raw": "farmhouse in Flax Bourton, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gatesandpiers50yardsnort",
+  "n": "Gates And Piers, 50 Yards North Of Backwell House",
+  "a": "",
+  "pc": "",
+  "lat": 51.42056,
+  "lng": -2.7185,
+  "c": "oddity",
+  "s": "gate in Backwell, North Somerset, England, UK",
+  "q": "Gates And Piers, 50 Yards North Of Backwell House Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26430745",
+   "raw": "gate in Backwell, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "failandfarmhouse",
+  "n": "Failand Farmhouse",
+  "a": "",
+  "pc": "",
+  "lat": 51.45007,
+  "lng": -2.68462,
+  "c": "oddity",
+  "s": "farmhouse in Wraxall and Failand, North Somerset, England, U",
+  "q": "Failand Farmhouse Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26567118",
+   "raw": "farmhouse in Wraxall and Failand, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "schoolhouseanddoubledoor",
+  "n": "School House And Double Door Cottage",
+  "a": "",
+  "pc": "",
+  "lat": 51.42116,
+  "lng": -2.70647,
+  "c": "oddity",
+  "s": "school building in Flax Bourton, North Somerset, England, UK",
+  "q": "School House And Double Door Cottage Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26572079",
+   "raw": "school building in Flax Bourton, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofstbartholomew",
+  "n": "Church of St Bartholomew",
+  "a": "",
+  "pc": "",
+  "lat": 51.45852,
+  "lng": -2.69988,
+  "c": "faith",
+  "s": "church building in Lower Failand, Somerset, England, UK",
+  "q": "Church of St Bartholomew Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26598281",
+   "raw": "church building in Lower Failand, Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "outbuilding15yardstonort",
+  "n": "Outbuilding, 15 Yards To North East Of Upper Happerton Farmhouse",
+  "a": "",
+  "pc": "",
+  "lat": 51.46525,
+  "lng": -2.68633,
+  "c": "oddity",
+  "s": "appendage in Easton-in-Gordano, North Somerset, England, UK",
+  "q": "Outbuilding, 15 Yards To North East Of Upper Happerton Farmhouse Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26598709",
+   "raw": "appendage in Easton-in-Gordano, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "theoldrectory",
+  "n": "The Old Rectory",
+  "a": "",
+  "pc": "",
+  "lat": 51.42148,
+  "lng": -2.70324,
+  "c": "oddity",
+  "s": "clergy house in Flax Bourton, North Somerset, England, UK",
+  "q": "The Old Rectory Bristol",
+  "w": "",
+  "city": "bristol",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q26606626",
+   "raw": "clergy house in Flax Bourton, North Somerset, England, UK",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

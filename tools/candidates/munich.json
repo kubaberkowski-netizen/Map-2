@@ -1,0 +1,4336 @@
+[
+ {
+  "id": "stegandermarienklause",
+  "n": "Steg an der Marienklause",
+  "a": "",
+  "pc": "",
+  "lat": 48.09262,
+  "lng": 11.55024,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Steg an der Marienklause Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/29582657",
+   "raw": {
+    "direction": "202-157",
+    "layer": "1",
+    "name": "Steg an der Marienklause",
+    "tourism": "viewpoint",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "torbogen",
+  "n": "Torbogen",
+  "a": "",
+  "pc": "",
+  "lat": 48.12715,
+  "lng": 11.53845,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Torbogen Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/31385283",
+   "raw": {
+    "artwork_type": "sculpture",
+    "description": "ehemaliger Eingang IGA 1986",
+    "name": "Torbogen",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wikimedia_commons": "File:Fussgängerbrücke Hansapark.JPG"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jakobvonbauer",
+  "n": "Jakob von Bauer",
+  "a": "",
+  "pc": "",
+  "lat": 48.11338,
+  "lng": 11.55802,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Jakob von Bauer Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/48269599",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Dem Gründer dieser aus Gemeindemitteln hergestellten Anlagen, Bürgermeister Jakob von Bauer zum Andenken gewidmet von seinen Freunden.",
+    "memorial": "bust",
+    "name": "Jakob von Bauer",
+    "start_date": "1861"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bavaria",
+  "n": "Bavaria",
+  "a": "",
+  "pc": "",
+  "lat": 48.13069,
+  "lng": 11.54594,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Bavaria Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/50840808",
+   "raw": {
+    "charge": "5 EUR/person;0 EUR/child",
+    "fee": "yes",
+    "name": "Bavaria",
+    "name:de": "Bavaria",
+    "name:ru": "Монумент Бавария",
+    "name:zh": "巴伐利亞雕像",
+    "opening_hours": "Apr 01-Oct 15: Mo-Su,PH 09:00-18:00; 09:00-20:00 \"während Oktoberfest\"",
+    "source": "survey",
+    "tourism": "viewpoint",
+    "website": "https://www.schloesser.bayern.de/deutsch/schloss/objekte/mu_ruhm.htm",
+    "wheelchair": "yes",
+    "wheelchair:description": "wheelchair acces from the side ramp"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "19391945",
+  "n": "1939-1945",
+  "a": "",
+  "pc": "",
+  "lat": 48.21674,
+  "lng": 11.52889,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "1939-1945 Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/59986715",
+   "raw": {
+    "historic": "memorial",
+    "name": "1939-1945"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "spielzeugmuseum",
+  "n": "Spielzeugmuseum",
+  "a": "",
+  "pc": "",
+  "lat": 48.13669,
+  "lng": 11.57688,
+  "c": "museum",
+  "s": "museum",
+  "q": "Spielzeugmuseum Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/60013074",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "15",
+    "addr:postcode": "80331",
+    "addr:street": "Marienplatz",
+    "check_date": "2025-08-06",
+    "check_date:opening_hours": "2025-08-06",
+    "email": "spielzeugmuseummuenchen@gmail.com",
+    "fee": "yes",
+    "fee:icom_member": "unknown",
+    "name": "Spielzeugmuseum",
+    "name:de": "Spielzeugmuseum",
+    "name:en": "Toy Museum",
+    "name:fr": "Musée du jouet",
+    "name:ru": "Музей Игрушек",
+    "opening_hours": "Mo-Su,PH 10:00-17:30",
+    "operator": "Ivan Steiger",
+    "phone": "+49 89 294001",
+    "tourism": "museum",
+    "website": "https://www.spielzeugmuseummuenchen.de/",
+    "wheelchair": "no",
+    "wikidata": "Q76628660"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "konigludwigi",
+  "n": "König Ludwig I",
+  "a": "",
+  "pc": "",
+  "lat": 48.15635,
+  "lng": 11.48977,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "König Ludwig I Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/60941226",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "stele",
+    "name": "König Ludwig I"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kinoottobrunn",
+  "n": "Kino Ottobrunn",
+  "a": "",
+  "pc": "",
+  "lat": 48.0622,
+  "lng": 11.67676,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Kino Ottobrunn Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/67134955",
+   "raw": {
+    "addr:city": "Ottobrunn",
+    "addr:country": "DE",
+    "addr:housenumber": "72",
+    "addr:postcode": "85521",
+    "addr:street": "Ottostraße",
+    "amenity": "cinema",
+    "check_date": "2025-09-13",
+    "name": "Kino Ottobrunn",
+    "source": "survey",
+    "toilets:wheelchair": "no",
+    "website": "https://kino-ottobrunn.de/",
+    "wheelchair": "yes",
+    "wikidata": "Q50843614"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "filmstudio",
+  "n": "Filmstudio",
+  "a": "",
+  "pc": "",
+  "lat": 48.06501,
+  "lng": 11.66519,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Filmstudio Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/67134958",
+   "raw": {
+    "amenity": "cinema",
+    "level": "-1",
+    "name": "Filmstudio",
+    "source": "survey",
+    "website": "https://kino-ottobrunn.de/",
+    "wheelchair": "yes",
+    "wheelchair:description": "Im Keller, Aufzug um die Ecke, Toiletten im Wolf-Ferrari-Haus (ca. 20m um die Ecke)",
+    "wheelchair:description:de": "Im Keller, Aufzug um die Ecke, Toiletten im Wolf-Ferrari-Haus (ca. 20m um die Ecke)",
+    "wikidata": "Q50843613"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "royalfilmpalast",
+  "n": "Royal Filmpalast",
+  "a": "",
+  "pc": "",
+  "lat": 48.13014,
+  "lng": 11.55795,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Royal Filmpalast Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/78402190",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "2",
+    "addr:postcode": "80337",
+    "addr:street": "Goetheplatz",
+    "amenity": "cinema",
+    "cinema:3D": "yes",
+    "name": "Royal Filmpalast",
+    "opening_hours": "Mo-Su,PH 11:00-18:00+",
+    "phone": "+49 89 533957",
+    "website": "https://www.royal-muenchen.de/",
+    "wheelchair": "no",
+    "wikidata": "Q50843566"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gloriapalast",
+  "n": "Gloria Palast",
+  "a": "",
+  "pc": "",
+  "lat": 48.13966,
+  "lng": 11.56649,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Gloria Palast Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/125087548",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "5",
+    "addr:place": "Karlsplatz",
+    "addr:postcode": "80335",
+    "amenity": "cinema",
+    "contact:phone": "+49 89 120220120",
+    "contact:website": "https://www.gloria-palast.de/gp",
+    "name": "Gloria Palast",
+    "opening_hours": "15:00-20:00",
+    "toilets:wheelchair": "no",
+    "website": "https://www.gloria-palast.de/gp/kontakt",
+    "wheelchair": "yes",
+    "wikidata": "Q34380797"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vaterchentimofei",
+  "n": "Väterchen Timofei",
+  "a": "",
+  "pc": "",
+  "lat": 48.16722,
+  "lng": 11.54866,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Väterchen Timofei Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/158737331",
+   "raw": {
+    "historic": "memorial",
+    "name": "Väterchen Timofei",
+    "name:de": "Väterchen Timofei",
+    "name:pl": "Timofiej Prochorow",
+    "name:ru": "Прохоров, Тимофей Васильевич",
+    "subject:wikidata": "Q779101",
+    "subject:wikipedia": "de:Timofei Wassiljewitsch Prochorow"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "neuesrottmann",
+  "n": "Neues Rottmann",
+  "a": "",
+  "pc": "",
+  "lat": 48.14854,
+  "lng": 11.56022,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Neues Rottmann Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/211874136",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:floor": "0",
+    "addr:housenumber": "15",
+    "addr:postcode": "80333",
+    "addr:street": "Rottmannstraße",
+    "air_conditioning": "yes",
+    "amenity": "cinema",
+    "check_date": "2025-10-05",
+    "check_date:toilets:wheelchair": "2024-10-06",
+    "internet_access": "no",
+    "level": "0",
+    "name": "Neues Rottmann",
+    "name:de": "Neues Rottmann",
+    "opening_hours": "\"Kinokasse öffnet eine halbe Stunde vor dem Beginn der ersten Vorstellung und ist durchgehend bis zur letzten Vorstellung geöffnet.\"",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+49 89 521683",
+    "screen": "1",
+    "toilets": "yes",
+    "toilets:wheelchair": "no",
+    "website": "https://neuesrottmann.de/",
+    "wheelchair": "limited",
+    "wikidata": "Q50843564"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "islamischeszentrummunche",
+  "n": "Islamisches Zentrum München",
+  "a": "",
+  "pc": "",
+  "lat": 48.21035,
+  "lng": 11.6341,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Islamisches Zentrum München Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/221616058",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "1",
+    "addr:postcode": "80939",
+    "addr:street": "Wallnerstraße",
+    "amenity": "place_of_worship",
+    "check_date": "2026-04-20",
+    "name": "Islamisches Zentrum München",
+    "religion": "muslim",
+    "toilets:wheelchair": "no",
+    "website": "https://islamisches-zentrum-muenchen.de",
+    "wheelchair": "limited",
+    "wikidata": "Q1454557",
+    "wikipedia": "de:Freimann-Moschee"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ottosaule",
+  "n": "Ottosäule",
+  "a": "",
+  "pc": "",
+  "lat": 48.05295,
+  "lng": 11.66909,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ottosäule Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/240545760",
+   "raw": {
+    "artist_name": "Anton Ripfel",
+    "height": "9.60",
+    "historic": "memorial",
+    "inscription": "DER ERINNERUNG AN DIE ABSCHIEDS-STUNDE KÖNIGS OTTO I VON GRIECHENLAND VON SEINEM ERHABENEN VATER LUDIWG I KÖNIGE VON BAYERN AM VI. DEZEMBER MDCCCXXXII",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Ottosäule",
+    "start_date": "1834-02-13",
+    "wheelchair": "yes",
+    "wikidata": "Q2041504",
+    "wikimedia_commons": "Category:Ottosäule",
+    "wikipedia": "de:Ottosäule"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "georgsimonohm",
+  "n": "Georg Simon Ohm",
+  "a": "",
+  "pc": "",
+  "lat": 48.15028,
+  "lng": 11.56788,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Georg Simon Ohm Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/244015478",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Georg Simon Ohm",
+    "name:etymology:wikidata": "Q1585",
+    "wheelchair": "yes",
+    "wikidata": "Q41181385"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemafilmtheater",
+  "n": "CINEMA Filmtheater",
+  "a": "",
+  "pc": "",
+  "lat": 48.14827,
+  "lng": 11.55316,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "CINEMA Filmtheater Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/246919524",
+   "raw": {
+    "addr:city": "München",
+    "addr:housenumber": "31",
+    "addr:postcode": "80335",
+    "addr:street": "Nymphenburger Straße",
+    "amenity": "cinema",
+    "check_date": "2026-03-31",
+    "cinema:3D": "yes",
+    "contact:email": "info@cinema-muenchen.com",
+    "contact:fax": "+49 89 594599",
+    "contact:phone": "+49 89 555255",
+    "name": "CINEMA Filmtheater",
+    "toilets:wheelchair": "no",
+    "website": "https://cinema-muenchen.com/de/",
+    "wheelchair": "yes",
+    "wheelchair:description": "WC etwas eng",
+    "wikidata": "Q29878919"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mariensaule",
+  "n": "Mariensäule",
+  "a": "",
+  "pc": "",
+  "lat": 48.14676,
+  "lng": 11.45939,
+  "c": "faith",
+  "s": "church",
+  "q": "Mariensäule Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/247101948",
+   "raw": {
+    "BLfD:criteria": "Baudenkmal",
+    "alt_name": "Pasinger Mariensäule",
+    "amenity": "place_of_worship",
+    "check_date": "2025-06-28",
+    "denomination": "catholic",
+    "description": "vergoldete Marienfigur; Säule 1980 ergänzt",
+    "heritage": "4",
+    "heritage:operator": "BLfD",
+    "historic": "wayside_shrine",
+    "name": "Mariensäule",
+    "name:de": "Mariensäule",
+    "note": "place_of_worship, da hier auch Marienandachten, Prozession",
+    "ref:BLfD": "D-1-62-000-11151",
+    "religion": "christian",
+    "start_date": "~1880;1980",
+    "wheelchair": "yes",
+    "wikidata": "Q1667909",
+    "wikipedia": "de:Mariensäule (Pasing)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museummineralogiamunchen",
+  "n": "Museum Mineralogia München",
+  "a": "",
+  "pc": "",
+  "lat": 48.14811,
+  "lng": 11.57236,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museum Mineralogia München Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/249814994",
+   "raw": {
+    "addr:city": "München",
+    "addr:housenumber": "41",
+    "addr:postcode": "80333",
+    "addr:street": "Theresienstraße",
+    "alt_name": "Mineralogische Staatssammlung München",
+    "contact:email": "mineralogische.staatssammlung@lrz.uni-muenchen.de",
+    "contact:fax": "+49 89 2180-4334",
+    "contact:phone": "+49 89 21804312",
+    "contact:website": "https://msm.snsb.de/",
+    "description": "Besuchereingang: Marianne-von-Werefkin-Weg",
+    "fee": "yes",
+    "fee:icom_member": "no",
+    "level": "1",
+    "name": "Museum Mineralogia München",
+    "opening_hours": "Tu-Su,PH 13:00-17:00",
+    "tourism": "museum",
+    "wheelchair": "limited",
+    "wikidata": "Q1792764",
+    "wikimedia_commons": "Category:Museum Mineralogia München",
+    "wikipedia": "de:Museum Mineralogia München"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "heimatmuseum",
+  "n": "Heimatmuseum",
+  "a": "",
+  "pc": "",
+  "lat": 48.06106,
+  "lng": 11.61839,
+  "c": "museum",
+  "s": "museum",
+  "q": "Heimatmuseum Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/250887769",
+   "raw": {
+    "fee": "no",
+    "name": "Heimatmuseum",
+    "opening_hours": "Su[2,4] 13:30-16:30",
+    "tourism": "museum",
+    "website": "https://www.heimatmuseum-unterhaching.de/",
+    "wheelchair": "limited",
+    "wikidata": "Q22694390"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kallmannmuseum",
+  "n": "Kallmann-Museum",
+  "a": "",
+  "pc": "",
+  "lat": 48.2285,
+  "lng": 11.67224,
+  "c": "museum",
+  "s": "museum",
+  "q": "Kallmann-Museum Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/251071848",
+   "raw": {
+    "addr:city": "Ismaning",
+    "addr:country": "DE",
+    "addr:housenumber": "3b",
+    "addr:postcode": "85737",
+    "addr:street": "Schloßstraße",
+    "fee": "yes",
+    "fee:icom_member": "no",
+    "name": "Kallmann-Museum",
+    "opening_hours": "Tu-Sa 14:30-17:00; Su 13:00-17:00",
+    "phone": "+49 89 9612948",
+    "tourism": "museum",
+    "website": "https://kallmann-museum.de/",
+    "wikidata": "Q1722508",
+    "wikimedia_commons": "Category:Kallmann-Museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kapelle",
+  "n": "Kapelle",
+  "a": "",
+  "pc": "",
+  "lat": 48.07686,
+  "lng": 11.69597,
+  "c": "faith",
+  "s": "church",
+  "q": "Kapelle Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/251112331",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Kapelle",
+    "religion": "christian",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemaxx",
+  "n": "CinemaxX",
+  "a": "",
+  "pc": "",
+  "lat": 48.13416,
+  "lng": 11.58218,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "CinemaxX Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/251873298",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "8",
+    "addr:postcode": "80331",
+    "addr:street": "Isartorplatz",
+    "amenity": "cinema",
+    "branch": "München",
+    "brand": "Cinemaxx",
+    "brand:wikidata": "Q881860",
+    "brand:wikipedia": "de:CinemaxX",
+    "contact:phone": "+49 180 5 24636299",
+    "contact:website": "https://www.cinemaxx.de/kinoprogramm/munchen/",
+    "level": "-1",
+    "name": "CinemaxX",
+    "opening_hours": "Mo-Fr 13:30-22:30; PH,Sa,Su 11:30-23:30",
+    "screen": "7",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q50877290"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "riofilmpalast",
+  "n": "Rio Filmpalast",
+  "a": "",
+  "pc": "",
+  "lat": 48.12864,
+  "lng": 11.59303,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Rio Filmpalast Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/259759735",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "46",
+    "addr:postcode": "81669",
+    "addr:street": "Rosenheimer Straße",
+    "alt_name": "Rio Palast",
+    "amenity": "cinema",
+    "cinema:3D": "yes",
+    "contact:instagram": "neokinos",
+    "email": "kontakt@riopalast.de",
+    "level": "0",
+    "loc_name": "Rio Kino",
+    "name": "Rio Filmpalast",
+    "operator": "Arena Filmtheater BetriebsGmbH",
+    "phone": "+49 89 486979",
+    "screen": "2",
+    "short_name": "Rio",
+    "website": "https://neokinos.de/kinos/rio",
+    "wheelchair": "limited",
+    "wikidata": "Q50843565"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "richardwagner",
+  "n": "Richard Wagner",
+  "a": "",
+  "pc": "",
+  "lat": 48.13957,
+  "lng": 11.60479,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Richard Wagner Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/259828094",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:postcode": "81675",
+    "addr:street": "Prinzregentenplatz",
+    "addr:suburb": "Bogenhausen",
+    "artist:wikidata": "Q1599156",
+    "artist_name": "Heinrich Waderé",
+    "heritage": "4",
+    "heritage:operator": "BLfD",
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Richard Wagner",
+    "ref:BLfD": "D-1-62-000-5570",
+    "start_date": "1913",
+    "wheelchair": "yes",
+    "wikidata": "Q2148912",
+    "wikimedia_commons": "File:Denkmal fuer Richard Wagner Prinzregentenplatz Muenchen-2.jpg",
+    "wikipedia": "de:Richard-Wagner-Denkmal (München)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "geschwisterschollandcpro",
+  "n": "Geschwister Scholl & C. Probst",
+  "a": "",
+  "pc": "",
+  "lat": 48.09733,
+  "lng": 11.59948,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Geschwister Scholl & C. Probst Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/260126439",
+   "raw": {
+    "cemetery": "grave",
+    "historic": "memorial",
+    "inscription": "Hans Scholl\nSophie Scholl\nChristoph Probst",
+    "material": "bronze",
+    "memorial": "cross",
+    "name": "Geschwister Scholl & C. Probst",
+    "note_1": "hingerichtet am 22.02.1943",
+    "note_2": "aus der Münchner Wiederstandsgruppe \"Weisse Rose\"",
+    "note_3": "Scholl Sophie;geb 1921;Philosophiestudentin",
+    "note_4": "Scholl Hans;geb 1918;Medizinstudent",
+    "note_5": "Probst Christoph;geb 1919;Medizinstudent",
+    "tomb": "tombstone"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mvgmuseum",
+  "n": "MVG-Museum",
+  "a": "",
+  "pc": "",
+  "lat": 48.10301,
+  "lng": 11.60223,
+  "c": "museum",
+  "s": "museum",
+  "q": "MVG-Museum Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/260432742",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "20",
+    "addr:postcode": "81549",
+    "addr:street": "Ständlerstraße",
+    "check_date": "2026-03-13",
+    "check_date:opening_hours": "2026-03-13",
+    "fee": "yes",
+    "fee:icom_member": "unknown",
+    "name": "MVG-Museum",
+    "opening_hours": "2026 Mar 14, Mar 15, Mar 29, Apr 12, Apr 26, May 10, May 24, Jun 13, Jun 14, Jun 28, Jul 12, Jul 26 11:00-17:00",
+    "operator": "Münchner Verkehrsgesellschaft",
+    "tourism": "museum",
+    "website": "https://www.mvg.de/ueber-die-mvg/mvg-museum.html",
+    "wheelchair": "limited",
+    "wikidata": "Q280024",
+    "wikimedia_commons": "Category:MVG Museum",
+    "wikipedia": "de:MVG Museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "residenzmuseumundschatzk",
+  "n": "Residenzmuseum und Schatzkammer",
+  "a": "",
+  "pc": "",
+  "lat": 48.14063,
+  "lng": 11.57862,
+  "c": "museum",
+  "s": "museum",
+  "q": "Residenzmuseum und Schatzkammer Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/261030708",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housename": "Residenzmuseum",
+    "addr:housenumber": "3",
+    "addr:postcode": "80333",
+    "addr:street": "Max-Joseph-Platz",
+    "check_date": "2025-04-13",
+    "email": "residenzmuenchen@bsv.bayern.de",
+    "fee": "yes",
+    "fee:icom_member": "no",
+    "name": "Residenzmuseum und Schatzkammer",
+    "name:de": "Residenzmuseum und Schatzkammer",
+    "name:en": "Residence Museum and Treasury",
+    "name:it": "Museo della Residenz e Tesoro",
+    "name:zh": "慕尼黑寶物館",
+    "note": "letzter Einlass ist eine Stunde früher",
+    "opening_hours": "Apr 01-Oct 15: 09:00-18:00; Oct 16-Mar 31: 10:00-17:00",
+    "phone": "+49 89 29067-1",
+    "tourism": "museum",
+    "website": "https://www.residenz-muenchen.de/",
+    "wheelchair": "no",
+    "wikidata": "Q2145673",
+    "wikipedia": "de:Residenzmuseum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "claudegeleelorrain",
+  "n": "Claude Gelée Lorrain",
+  "a": "",
+  "pc": "",
+  "lat": 48.0955,
+  "lng": 11.55663,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Claude Gelée Lorrain Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/261739443",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "obelisk",
+    "name": "Claude Gelée Lorrain",
+    "wikidata": "Q15054557",
+    "wikimedia_commons": "Category:Denkmal für Claude Lorrain (München)",
+    "wikipedia": "de:Claude-Lorrain-Denkmal"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "schwedensteingedenkstein",
+  "n": "\"Schwedenstein\" Gedenkstein",
+  "a": "",
+  "pc": "",
+  "lat": 48.09131,
+  "lng": 11.67841,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "\"Schwedenstein\" Gedenkstein Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/264908982",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Schweden-Gedenkstein Nachbildung des Originals aus den Jahren um 1500 i. Münchner Stadtmuseum",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "\"Schwedenstein\" Gedenkstein",
+    "source": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stphilippusundjakobus",
+  "n": "St. Philippus und Jakobus",
+  "a": "",
+  "pc": "",
+  "lat": 48.15237,
+  "lng": 11.65769,
+  "c": "faith",
+  "s": "church",
+  "q": "St. Philippus und Jakobus Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/268696269",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-05-22",
+    "denomination": "catholic",
+    "name": "St. Philippus und Jakobus",
+    "religion": "christian",
+    "wikidata": "Q2322895"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "filmeckgrafelfing",
+  "n": "Filmeck Gräfelfing",
+  "a": "",
+  "pc": "",
+  "lat": 48.12038,
+  "lng": 11.42777,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Filmeck Gräfelfing Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/269399982",
+   "raw": {
+    "alt_name": "Kino im Bürgerhaus Gräfelfing",
+    "amenity": "cinema",
+    "contact:phone": "+49 89 851822",
+    "description": "Kartenreservierungen nur telefonisch möglich. Erreichbarkeit immer 30 Minuten vor Beginn der ersten Vorstellung. Für hörgeschädigte Besucher gibt es 2 Funk-Ohrhörer an der Kasse kostenlos zum Ausleihen.",
+    "name": "Filmeck Gräfelfing",
+    "website": "https://filmeck.com/",
+    "wheelchair": "no",
+    "wikidata": "Q50843474"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kriegerdenkmal",
+  "n": "Kriegerdenkmal",
+  "a": "",
+  "pc": "",
+  "lat": 48.14526,
+  "lng": 11.46162,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Kriegerdenkmal Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/269698956",
+   "raw": {
+    "BLfD:criteria": "Baudenkmal",
+    "architect": "Hans Osel",
+    "description": "Kriegerdenkmal im Stil des Nationalsozialismus, 1934 von Hans Osel",
+    "heritage": "4",
+    "heritage:operator": "BLfD",
+    "historic": "memorial",
+    "image": "https://commons.wikimedia.org/wiki/File:Kriegerdenkmal_B%C3%A4ckerstra%C3%9Fe,_Pasing_(2).jpg#/media/File:Kriegerdenkmal_Bäckerstraße,_Pasing_(2).jpg",
+    "inscription": "MEHR ALS TAUSEND OPFER / FORDERTEN DIE BEIDEN WELTKRIEGE / 1914-1918 + 1939-1945 / AUS DEN REIHEN UNSERER MITBÜRGER / GEDENKT DER TOTEN / UND BEWAHRT DEN FRIEDEN / PASING IM OKTOBER 1953",
+    "material": "stone",
+    "memorial": "war_memorial",
+    "name": "Kriegerdenkmal",
+    "ref:BLfD": "D-1-62-000-545",
+    "source": "https://de.wikipedia.org/wiki/Liste_der_Baudenkmäler_in_Pasing",
+    "start_date": "1934",
+    "wikidata": "Q41208069"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "forum2",
+  "n": "forum 2",
+  "a": "",
+  "pc": "",
+  "lat": 48.18146,
+  "lng": 11.55165,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "forum 2 Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/270952421",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "3",
+    "addr:street": "Nadistraße",
+    "amenity": "cinema",
+    "name": "forum 2",
+    "opening_hours:url": "https://www.kultur-forum2.de",
+    "website": "https://www.kultur-forum2.de/",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "todesmarschkzdachau",
+  "n": "Todesmarsch KZ Dachau",
+  "a": "",
+  "pc": "",
+  "lat": 48.11879,
+  "lng": 11.44504,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Todesmarsch KZ Dachau Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/271038347",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://commons.wikimedia.org/wiki/File:Gr%C3%A4felfing_Denkmal_Todesmarsch_von_Dachau.jpg#/media/File:Gräfelfing_Denkmal_Todesmarsch_von_Dachau.jpg",
+    "memorial": "sculpture",
+    "name": "Todesmarsch KZ Dachau",
+    "subject:wikidata": "Q5023193",
+    "subject:wikipedia": "de:Todesmärsche von KZ-Häftlingen",
+    "website": "https://www.kz-gedenkstaette-dachau.de"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stmonika",
+  "n": "St. Monika",
+  "a": "",
+  "pc": "",
+  "lat": 48.1075,
+  "lng": 11.65433,
+  "c": "faith",
+  "s": "church",
+  "q": "St. Monika Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/271227304",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "St. Monika",
+    "religion": "christian",
+    "wheelchair": "yes",
+    "wikidata": "Q98650263"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "werkstattkino",
+  "n": "Werkstattkino",
+  "a": "",
+  "pc": "",
+  "lat": 48.13089,
+  "lng": 11.57286,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Werkstattkino Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/274372610",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "9",
+    "addr:postcode": "80469",
+    "addr:street": "Fraunhoferstraße",
+    "amenity": "cinema",
+    "name": "Werkstattkino",
+    "phone": "+49 89 2607250",
+    "website": "https://werkstattkino.de/",
+    "wheelchair": "no",
+    "wikidata": "Q50843572"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "theatinerfilmkunst",
+  "n": "Theatiner Filmkunst",
+  "a": "",
+  "pc": "",
+  "lat": 48.14093,
+  "lng": 11.57702,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Theatiner Filmkunst Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/277309657",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "32",
+    "addr:postcode": "80333",
+    "addr:street": "Theatinerstraße",
+    "amenity": "cinema",
+    "check_date": "2026-05-16",
+    "check_date:opening_hours": "2023-01-26",
+    "contact:email": "kirchner@theatiner-film.de",
+    "contact:phone": "+49 89 223 183",
+    "contact:website": "https://theatiner-film.de/",
+    "name": "Theatiner Filmkunst",
+    "opening_hours:signed": "no",
+    "wheelchair": "no",
+    "wikidata": "Q50843569"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "maximiliankurfurstvonbay",
+  "n": "Maximilian, Kurfürst von Bayern",
+  "a": "",
+  "pc": "",
+  "lat": 48.14334,
+  "lng": 11.57611,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Maximilian, Kurfürst von Bayern Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/282331992",
+   "raw": {
+    "alt_name": "Reiterstandbild Kurfürst Maximilian I. von Bayern",
+    "artist:wikidata": "Q47812",
+    "artist_name": "Bertel Thorvaldsen",
+    "artwork_type": "statue",
+    "direction": "15",
+    "heritage": "4",
+    "heritage:operator": "BLfD",
+    "historic": "memorial",
+    "image": "https://de.wikipedia.org/wiki/Datei:Wittelsbacherplatz_Reiterstandbild_Maximilian_I._Muenchen-2.jpg",
+    "memorial": "statue",
+    "name": "Maximilian, Kurfürst von Bayern",
+    "ref:BLfD": "D-1-62-000-7627",
+    "start_date": "1839",
+    "statue": "equestrian",
+    "subject:wikidata": "Q57206",
+    "wheelchair": "yes",
+    "wikidata": "Q41181550",
+    "wikimedia_commons": "Category:Denkmal Kurfürst Maximilian I. (München)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "strita",
+  "n": "St. Rita",
+  "a": "",
+  "pc": "",
+  "lat": 48.14982,
+  "lng": 11.62583,
+  "c": "faith",
+  "s": "church",
+  "q": "St. Rita Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/283161404",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2026-01-04",
+    "denomination": "catholic",
+    "name": "St. Rita",
+    "religion": "christian",
+    "wheelchair": "yes",
+    "wikidata": "Q2323019",
+    "wikimedia_commons": "Category:Saint Rita of Cascia Church (Bogenhausen)",
+    "wikipedia": "de:St. Rita (Bogenhausen)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kriegermahnmalunterhachi",
+  "n": "Kriegermahnmal Unterhaching",
+  "a": "",
+  "pc": "",
+  "lat": 48.05975,
+  "lng": 11.62113,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Kriegermahnmal Unterhaching Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/286843623",
+   "raw": {
+    "description": "Für die Unterhachinger Gefallenen und Opfer der beiden Weltkriege",
+    "historic": "memorial",
+    "inscription": "Gedenkt der Toten und bewahrt den Frieden",
+    "material": "stone",
+    "memorial": "war_memorial",
+    "name": "Kriegermahnmal Unterhaching",
+    "source": "survey",
+    "start_date": "1925",
+    "wheelchair": "yes",
+    "wikipedia": "de:Kriegerdenkmal (Unterhaching)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rumforddenkmal",
+  "n": "Rumford-Denkmal",
+  "a": "",
+  "pc": "",
+  "lat": 48.14397,
+  "lng": 11.5891,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Rumford-Denkmal Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/292679715",
+   "raw": {
+    "artist:wikidata": "Q1447445",
+    "artist_name": "Franz Jakob Schwanthaler",
+    "heritage": "4",
+    "heritage:operator": "BLfD",
+    "historic": "memorial",
+    "image": "https://de.wikipedia.org/wiki/Datei:Rumford-Denkmal_Englischer_Garten_Muenchen-1.jpg",
+    "memorial": "relief",
+    "name": "Rumford-Denkmal",
+    "ref:BLfD": "D-1-62-000-1545",
+    "start_date": "1796",
+    "website": "https://www.muenchenwiki.de/wiki/Rumford-Denkmal",
+    "wikidata": "Q98739330"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "burgfriedenssaule13",
+  "n": "Burgfriedenssäule 13",
+  "a": "",
+  "pc": "",
+  "lat": 48.14944,
+  "lng": 11.58909,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Burgfriedenssäule 13 Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/292679717",
+   "raw": {
+    "access": "yes",
+    "heritage": "4",
+    "heritage:operator": "BLfD",
+    "historic": "boundary_stone",
+    "image": "https://commons.wikimedia.org/wiki/File:Burgfriedenssaeule_engl_garten_02.JPG",
+    "inscription": "1724 / 13",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Burgfriedenssäule 13",
+    "old_ref": "13",
+    "operator:wikidata": "Q812412",
+    "ref": "12",
+    "ref:BLfD": "D-1-62-000-1545",
+    "start_date": "1728",
+    "wheelchair": "yes",
+    "wikidata": "Q107407323",
+    "wikimedia_commons": "Category:Burgfriedenssäule 13"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "steinernebank",
+  "n": "Steinerne Bank",
+  "a": "",
+  "pc": "",
+  "lat": 48.15042,
+  "lng": 11.59264,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Steinerne Bank Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/292679767",
+   "raw": {
+    "amenity": "bench",
+    "artist_name": "Leo von Klenze",
+    "artwork_type": "architecture",
+    "backrest": "yes",
+    "heritage": "4",
+    "heritage:operator": "BLfD",
+    "historic": "memorial",
+    "inscription": "Hier, wo ihr wallet, da war sonst Wald nur und Sumpf",
+    "material": "stone",
+    "memorial": "sculpture",
+    "name": "Steinerne Bank",
+    "nickname": "Heiliger Steinkreis",
+    "ref:BLfD": "D-1-62-000-1545",
+    "start_date": "1838",
+    "tourism": "artwork",
+    "wikidata": "Q98739323",
+    "wikimedia_commons": "Category:Stone bench in the Englischer Garten (Munich)",
+    "wikipedia": "de:Englischer Garten (München)#Steinerne Bank"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "schuttblume",
+  "n": "Schuttblume",
+  "a": "",
+  "pc": "",
+  "lat": 48.17084,
+  "lng": 11.55611,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Schuttblume Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/293903566",
+   "raw": {
+    "description": "It is a memorial for the civil victims of the aerial warfare.",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "war_memorial",
+    "name": "Schuttblume",
+    "start_date": "1972",
+    "wikidata": "Q15846773",
+    "wikimedia_commons": "Category:Blossom-Theme of Rudolf Belling (Schuttblume)",
+    "wikipedia": "de:Schuttblume (München)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museummenschundnatur",
+  "n": "Museum Mensch und Natur",
+  "a": "",
+  "pc": "",
+  "lat": 48.16028,
+  "lng": 11.50384,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museum Mensch und Natur Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/296313563",
+   "raw": {
+    "contact:email": "museum@musmn.de",
+    "contact:phone": "+49 89 179589-0",
+    "contact:website": "https://mmn-muenchen.snsb.de/",
+    "fee": "yes",
+    "fee:icom_member": "no",
+    "museum": "nature",
+    "name": "Museum Mensch und Natur",
+    "name:de": "Museum Mensch und Natur",
+    "opening_hours": "Mo off; Tu-Fr 09:00-17:00; Sa,Su,PH 10:00-18:00",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "website": "https://mmn-muenchen.snsb.de",
+    "wheelchair": "yes",
+    "wikidata": "Q1954475",
+    "wikipedia": "de:Museum Mensch und Natur",
+    "wikipedia:en": "Museum of Man and Nature"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "marstallmuseumnymphenbur",
+  "n": "Marstallmuseum Nymphenburg",
+  "a": "",
+  "pc": "",
+  "lat": 48.15659,
+  "lng": 11.50447,
+  "c": "museum",
+  "s": "museum",
+  "q": "Marstallmuseum Nymphenburg Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/296314458",
+   "raw": {
+    "contact:email": "sgvnymphenburg@bsv.bayern.de",
+    "contact:phone": "+49 89 17908-0",
+    "fee": "yes",
+    "fee:icom_member": "no",
+    "name": "Marstallmuseum Nymphenburg",
+    "tourism": "museum",
+    "website": "https://www.schloss-nymphenburg.de/deutsch/marstall/index.htm",
+    "wheelchair": "limited",
+    "wikidata": "Q1902850",
+    "wikipedia": "de:Marstallmuseum Nymphenburg"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "maxgoelitz",
+  "n": "max goelitz",
+  "a": "",
+  "pc": "",
+  "lat": 48.1391,
+  "lng": 11.58361,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "max goelitz Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/299100566",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:description": "Eingang Herzog-Rudolf-Straße",
+    "addr:housenumber": "35",
+    "addr:postcode": "80539",
+    "addr:street": "Maximilianstraße",
+    "contact:email": "gallery@maxgoelitz.com",
+    "contact:phone": "+49 89 89063944",
+    "contact:website": "https://www.maxgoelitz.com/",
+    "name": "max goelitz",
+    "opening_hours": "Tu-Fr 11:00-19:00;Sa 11:00-16:00 || \"nach Vereinbarung\"",
+    "shop": "art",
+    "tourism": "gallery",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "asphaltsee",
+  "n": "Asphaltsee",
+  "a": "",
+  "pc": "",
+  "lat": 48.1439,
+  "lng": 11.53704,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Asphaltsee Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304045358",
+   "raw": {
+    "artist_name": "Wilhelm Koch",
+    "artwork_type": "relief",
+    "description": "Rainer Werner Fassbinder Platz München „Asphaltsee“, 2007  Grundfläche des „Asphaltsees“ - ca. 400 qm.   60 Tonnen 245° heißer Gußasphalt wurden verarbeitet.  In die Gussasphaltflächen sind alle 43 Filmtitel, 11 Theaterstücke und Hörspiele Rainer Werner F",
+    "name": "Asphaltsee",
+    "tourism": "artwork",
+    "website": "https://www.koch-studio.com/arbeiten/asphaltsee/",
+    "wheelchair": "yes",
+    "wikimedia_commons": "Category:Asphaltsee"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "klause",
+  "n": "Klause",
+  "a": "",
+  "pc": "",
+  "lat": 48.23723,
+  "lng": 11.54755,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Klause Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/305374157",
+   "raw": {
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Klause"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bayerischesnationalmuseu",
+  "n": "Bayerisches Nationalmuseum",
+  "a": "",
+  "pc": "",
+  "lat": 48.14339,
+  "lng": 11.59115,
+  "c": "museum",
+  "s": "museum",
+  "q": "Bayerisches Nationalmuseum Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/305581866",
+   "raw": {
+    "addr:city": "München",
+    "addr:housenumber": "3",
+    "addr:postcode": "80538",
+    "addr:street": "Prinzregentenstraße",
+    "email": "bay.nationalmuseum@bnm.mwn.de",
+    "fee": "yes",
+    "fee:icom_member": "no",
+    "name": "Bayerisches Nationalmuseum",
+    "name:de": "Bayerisches Nationalmuseum",
+    "name:en": "Bavarian National Museum",
+    "name:es": "Museo Nacional Bávaro",
+    "name:ru": "Баварский национальный музей",
+    "name:zh": "巴伐利亞博物館",
+    "opening_hours": "Tu-Su 10:00-17:00; Th 10:00-20:00",
+    "phone": "+49 89 21 12 40 1",
+    "tourism": "museum",
+    "website": "https://www.bayerisches-nationalmuseum.de/",
+    "wheelchair": "limited",
+    "wikidata": "Q631056",
+    "wikipedia": "de:Bayerisches Nationalmuseum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jesusderweg",
+  "n": "Jesus der Weg",
+  "a": "",
+  "pc": "",
+  "lat": 48.20366,
+  "lng": 11.54627,
+  "c": "faith",
+  "s": "church",
+  "q": "Jesus der Weg Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/305693106",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Jesus der Weg",
+    "religion": "christian",
+    "service_times": "Su 10:30-11:30",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eishuttenplatz",
+  "n": "Eishüttenplatz",
+  "a": "",
+  "pc": "",
+  "lat": 48.23192,
+  "lng": 11.53021,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Eishüttenplatz Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/305693824",
+   "raw": {
+    "historic": "place",
+    "name": "Eishüttenplatz"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "galerieandreasbinder",
+  "n": "Galerie Andreas Binder",
+  "a": "",
+  "pc": "",
+  "lat": 48.13716,
+  "lng": 11.58666,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Galerie Andreas Binder Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/305750714",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "27",
+    "addr:postcode": "80538",
+    "addr:street": "Knöbelstraße",
+    "check_date": "2022-11-19",
+    "email": "info@andreasbinder.de",
+    "name": "Galerie Andreas Binder",
+    "opening_hours": "Tu-Fr 11:00-18:00; Sa 11:00-15:00",
+    "phone": "+49 89 2193 9250",
+    "shop": "art",
+    "tourism": "gallery",
+    "website": "https://www.galerieandreasbinder.de/",
+    "wheelchair": "no"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "deutschestheatermuseum",
+  "n": "Deutsches Theatermuseum",
+  "a": "",
+  "pc": "",
+  "lat": 48.14367,
+  "lng": 11.58054,
+  "c": "museum",
+  "s": "museum",
+  "q": "Deutsches Theatermuseum Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/307729970",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "4a",
+    "addr:postcode": "80539",
+    "addr:street": "Galeriestraße",
+    "check_date": "2025-04-13",
+    "email": "info@deutschestheatermuseum.de",
+    "fee:icom_member": "no",
+    "name": "Deutsches Theatermuseum",
+    "name:de": "Deutsches Theatermuseum",
+    "name:zh": "慕尼黑王宮",
+    "opening_hours": "Tu-Su 11:00-17:00",
+    "phone": "+49 89 21069128",
+    "toilets:wheelchair": "no",
+    "tourism": "museum",
+    "website": "https://www.deutschestheatermuseum.de/",
+    "wheelchair": "no",
+    "wikidata": "Q1206066",
+    "wikipedia": "de:Deutsches Theatermuseum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "geologischesmuseum",
+  "n": "Geologisches Museum",
+  "a": "",
+  "pc": "",
+  "lat": 48.14761,
+  "lng": 11.5641,
+  "c": "museum",
+  "s": "museum",
+  "q": "Geologisches Museum Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/307734040",
+   "raw": {
+    "addr:city": "München",
+    "addr:housenumber": "37",
+    "addr:postcode": "80333",
+    "addr:street": "Luisenstraße",
+    "fee": "no",
+    "fee:icom_member": "no",
+    "name": "Geologisches Museum",
+    "opening_hours": "Mo-Th 08:00-16:00; Fr 08:00-14:00",
+    "tourism": "museum",
+    "website": "https://bspg.snsb.de/geologisches-museum-muenchen/",
+    "wheelchair": "yes",
+    "wikidata": "Q1503250",
+    "wikipedia": "de:Geologisches Museum München"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "deutschesjagdundfischere",
+  "n": "Deutsches Jagd- und Fischereimuseum",
+  "a": "",
+  "pc": "",
+  "lat": 48.13834,
+  "lng": 11.57159,
+  "c": "museum",
+  "s": "museum",
+  "q": "Deutsches Jagd- und Fischereimuseum Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/307738674",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "2",
+    "addr:postcode": "80331",
+    "addr:street": "Neuhauser Straße",
+    "check_date": "2024-11-16",
+    "fax": "+49 89 2904037",
+    "fee": "yes",
+    "fee:icom_member": "unknown",
+    "name": "Deutsches Jagd- und Fischereimuseum",
+    "name:de": "Deutsches Jagd- und Fischereimuseum",
+    "name:ru": "Немецкий музей охоты и рыболовства",
+    "opening_hours": "Mo-Su 09:30-17:00; Th 09:30-21:00",
+    "payment:cards": "no",
+    "payment:cash": "yes",
+    "payment:credit_cards": "no",
+    "payment:debit_cards": "no",
+    "phone": "+49 89 220522",
+    "tourism": "museum",
+    "website": "https://www.jagd-fischerei-museum.de/",
+    "wheelchair": "no",
+    "wikidata": "Q152966",
+    "wikimedia_commons": "Category:Deutsches Jagd- und Fischereimuseum",
+    "wikipedia": "de:Deutsches Jagd- und Fischereimuseum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cadillacandveranda",
+  "n": "Cadillac & Veranda",
+  "a": "",
+  "pc": "",
+  "lat": 48.15106,
+  "lng": 11.61979,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cadillac & Veranda Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/310668323",
+   "raw": {
+    "addr:city": "München",
+    "addr:housenumber": "12",
+    "addr:postcode": "81925",
+    "addr:street": "Rosenkavalierplatz",
+    "amenity": "cinema",
+    "check_date": "2025-08-24",
+    "contact:email": "cadillac@movieplace.de",
+    "contact:phone": "+49 89 912000",
+    "contact:website": "https://cadillac.movieplace.de/",
+    "name": "Cadillac & Veranda",
+    "opening_hours": "\"Geöffnet bei Filmvorführungen\"",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:notes": "yes",
+    "payment:prepaid_ticket": "yes",
+    "screen": "2",
+    "toilets": "yes",
+    "toilets:wheelchair": "no",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "denwiderstandskampfernun",
+  "n": "Den Widerstandskämpfern und Verfolgten im Dritten Reich zum Gedenken",
+  "a": "",
+  "pc": "",
+  "lat": 48.07608,
+  "lng": 11.54283,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Den Widerstandskämpfern und Verfolgten im Dritten Reich zum Gedenken Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/310844670",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Den Widerstandskämpfern und Verfolgten im Dritten Reich zum Gedenken",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Den Widerstandskämpfern und Verfolgten im Dritten Reich zum Gedenken",
+    "name:en": "To commemorate the resistance fighters and persecuted in the Third Reich",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "basispyramide",
+  "n": "Basispyramide",
+  "a": "",
+  "pc": "",
+  "lat": 48.1767,
+  "lng": 11.63842,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Basispyramide Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/311037364",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "ANFANG DER ZWISCHEN MUENCHEN UND AUFKIRCHEN IM JAHRE 1801 GEMESSENEN GRUNDLINIE und META BASEOS AUSPICIIS MAXIMILIANI IV. BOI: DUC: ELECT: ANNO MDCCCI DIMENSAE",
+    "lat": "48,17668333",
+    "lon": "11,63841389",
+    "man_made": "survey_point",
+    "memorial": "stele",
+    "name": "Basispyramide",
+    "note": "This is a point from an official geodetic network. Use it as a reference, but do NOT move it",
+    "start_date": "1801",
+    "wikimedia_commons": "Category:Basispyramide Unterföhring"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "denkmalandieopferdesatte",
+  "n": "Denkmal an die Opfer des Attentats auf das Oktoberfest am 26. September 1980",
+  "a": "",
+  "pc": "",
+  "lat": 48.13592,
+  "lng": 11.54973,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Denkmal an die Opfer des Attentats auf das Oktoberfest am 26. September 1980 Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/311974710",
+   "raw": {
+    "artist_name": "Friedrich Koller",
+    "historic": "memorial",
+    "image": "https://de.wikipedia.org/wiki/Datei:Oktoberfest_Mahnmal.JPG",
+    "memorial": "war_memorial",
+    "name": "Denkmal an die Opfer des Attentats auf das Oktoberfest am 26. September 1980",
+    "source": "survey",
+    "wheelchair": "yes",
+    "wikidata": "Q1188052",
+    "wikimedia_commons": "Category:Oktoberfest terror attack monument",
+    "wikipedia": "de:Denkmal für die Wiesn-Attentat-Opfer"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "burgfriedensauleno3",
+  "n": "Burgfriedensäule No. 3",
+  "a": "",
+  "pc": "",
+  "lat": 48.12731,
+  "lng": 11.54512,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Burgfriedensäule No. 3 Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/311978618",
+   "raw": {
+    "access": "yes",
+    "heritage": "4",
+    "heritage:operator": "BLfD",
+    "historic": "boundary_stone",
+    "image": "https://commons.wikimedia.org/wiki/File:Burgfriedenssäule_3-bjs130705-01a.jpg",
+    "inscription": "Auf Grund der von dem Kurfürsten MAXIMILIAN II. Emanuel u.d. Kronprinzen KARL ALBRECHT der Stadt MÜNCHEN i.J. 1774 u.v. Kurfürsten KARL ALBRECHT i.J. 1735 erteilten Burgfriedensbestätigung",
+    "inscription:url": "https://commons.wikimedia.org/wiki/File:Burgfriedenssäule_3-bjs130705-05.jpg",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Burgfriedensäule No. 3",
+    "operator:wikidata": "Q812412",
+    "ref": "3",
+    "ref:BLfD": "D-1-62-000-6860",
+    "source": "survey",
+    "start_date": "1521",
+    "wheelchair": "yes",
+    "wikidata": "Q41183897",
+    "wikimedia_commons": "Category:Burgfriedenssäule 3"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sweetbrownsnail",
+  "n": "Sweet Brown Snail",
+  "a": "",
+  "pc": "",
+  "lat": 48.13215,
+  "lng": 11.54328,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Sweet Brown Snail Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/311978622",
+   "raw": {
+    "access": "yes",
+    "artist_name": "Jason Rhoades & Paul McCarthy, Altadena, U.S.A",
+    "artwork_type": "sculpture",
+    "image": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_-_Grosse_Schnecke_(49167853356).jpg",
+    "material": "plastic",
+    "name": "Sweet Brown Snail",
+    "tourism": "artwork",
+    "wikimedia_commons": "Category:Sweet Brown Snail, Bavariapark (Munich)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "scientologykirche",
+  "n": "Scientology Kirche",
+  "a": "",
+  "pc": "",
+  "lat": 48.15993,
+  "lng": 11.58651,
+  "c": "faith",
+  "s": "place of worship",
+  "q": "Scientology Kirche Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/312385391",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2022-11-15",
+    "name": "Scientology Kirche",
+    "religion": "scientologist",
+    "wheelchair": "no",
+    "wikimedia_commons": "File:Scientology München.JPG"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sigisommerderspaziergang",
+  "n": "Sigi Sommer (Der Spaziergänger)",
+  "a": "",
+  "pc": "",
+  "lat": 48.13654,
+  "lng": 11.57368,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Sigi Sommer (Der Spaziergänger) Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/312391020",
+   "raw": {
+    "artwork_type": "sculpture",
+    "description": "Wegen der Bauarbeiten am Gebäude Rosenstraße 8 wurde die Statue temporär abgebaut und vor der Sendlinger Straße 2 aufgestellt. Quelle: https://sz.de/1.5752136",
+    "description:en": "Has been temporary removed because of construction works in the neighbourhood. Temporary moved to Sendlinger Straße 2",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Sigi Sommer (Der Spaziergänger)",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wikidata": "Q111728804",
+    "wikimedia_commons": "Category:Der Spaziergänger (Max Wagner)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "wowmuseum",
+  "n": "WOW Museum",
+  "a": "",
+  "pc": "",
+  "lat": 48.13579,
+  "lng": 11.58054,
+  "c": "museum",
+  "s": "museum",
+  "q": "WOW Museum Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/314035226",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "27",
+    "addr:postcode": "80331",
+    "addr:street": "Tal",
+    "contact:website": "https://www.wow-museum.de",
+    "email": "info@wow-museum.de",
+    "fee": "yes",
+    "fee:icom_member": "yes",
+    "name": "WOW Museum",
+    "opening_hours": "Su-Mo, We-Fr 10:00-20:00; Sa 09:00-20:00; Tu off",
+    "tourism": "museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "buddhahausmunchen",
+  "n": "Buddha-Haus München",
+  "a": "",
+  "pc": "",
+  "lat": 48.14819,
+  "lng": 11.54259,
+  "c": "faith",
+  "s": "temple",
+  "q": "Buddha-Haus München Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/315969658",
+   "raw": {
+    "addr:housenumber": "4",
+    "addr:street": "Klarastraße",
+    "amenity": "place_of_worship",
+    "check_date": "2026-06-11",
+    "name": "Buddha-Haus München",
+    "religion": "buddhist",
+    "website": "https://buddhahaus-muenchen.de/",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "obeliskluitpoldpark",
+  "n": "Obelisk (Luitpoldpark)",
+  "a": "",
+  "pc": "",
+  "lat": 48.16848,
+  "lng": 11.56872,
+  "c": "history",
+  "s": "monument",
+  "q": "Obelisk (Luitpoldpark) Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/320389514",
+   "raw": {
+    "height": "10",
+    "historic": "memorial",
+    "image": "https://commons.wikimedia.org/wiki/File:Luitpoldpark_Muenchen_1.jpg",
+    "inscription": "Zum 12.März 1911, dem Tag an welchem seine Königliche Hoheit Prinzregent Luitpold von Bayern im 25. Jahre einer reich gesegneten Regierung das Neunzigste Lebensjahr vollendet hat, widmet diese Säule und diesen Hain von neunzig Linden die dankbare Stadt",
+    "material": "stone",
+    "memorial": "obelisk",
+    "name": "Obelisk (Luitpoldpark)",
+    "wikidata": "Q98740009",
+    "wikimedia_commons": "Category:Obelisk (Luitpoldpark)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stemmeramskapelle",
+  "n": "St. Emmerams-Kapelle",
+  "a": "",
+  "pc": "",
+  "lat": 48.17214,
+  "lng": 11.71132,
+  "c": "faith",
+  "s": "church",
+  "q": "St. Emmerams-Kapelle Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/320883088",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "St. Emmerams-Kapelle",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "friedhofskapelle",
+  "n": "Friedhofskapelle",
+  "a": "",
+  "pc": "",
+  "lat": 48.07622,
+  "lng": 11.65015,
+  "c": "faith",
+  "s": "church",
+  "q": "Friedhofskapelle Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/322574081",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-02-16",
+    "image": "http://arweave.net/X4z5GvaNf2QHBej1yuTziImaVr1Uyh0wrvq3KZgbcEc",
+    "name": "Friedhofskapelle",
+    "religion": "christian",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eyupsultancamiimoschee",
+  "n": "Eyup Sultan Camii Moschee",
+  "a": "",
+  "pc": "",
+  "lat": 48.13013,
+  "lng": 11.61574,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Eyup Sultan Camii Moschee Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/331359830",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-08-26",
+    "name": "Eyup Sultan Camii Moschee",
+    "religion": "muslim",
+    "wheelchair": "limited"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bordsteinplakette",
+  "n": "Bordsteinplakette",
+  "a": "",
+  "pc": "",
+  "lat": 48.12591,
+  "lng": 11.56688,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Bordsteinplakette Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/333147670",
+   "raw": {
+    "name": "Bordsteinplakette",
+    "tourism": "artwork",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stemmeram",
+  "n": "St. Emmeram",
+  "a": "",
+  "pc": "",
+  "lat": 48.1783,
+  "lng": 11.6261,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "St. Emmeram Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/333196915",
+   "raw": {
+    "artist_name": "Rolf Nida-Rümelin",
+    "historic": "memorial",
+    "image": "https://commons.wikimedia.org/wiki/File:St_emmeram_Oberfoehring.jpg",
+    "memorial": "statue",
+    "name": "St. Emmeram",
+    "start_date": "1979",
+    "wikidata": "Q98084417",
+    "wikimedia_commons": "Category:Statue St. Emmeram (Rolf Nida-Rümelin)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "franzxavergabelsberger",
+  "n": "Franz Xaver Gabelsberger",
+  "a": "",
+  "pc": "",
+  "lat": 48.14181,
+  "lng": 11.5678,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Franz Xaver Gabelsberger Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/337822792",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Franz Xaver Gabelsberger",
+    "source": "survey",
+    "subject:wikidata": "Q62137",
+    "subject:wikipedia": "de:Franz Xaver Gabelsberger",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "abckino",
+  "n": "ABC Kino",
+  "a": "",
+  "pc": "",
+  "lat": 48.16186,
+  "lng": 11.58547,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "ABC Kino Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/338175108",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "1a",
+    "addr:postcode": "80803",
+    "addr:street": "Herzogstraße",
+    "amenity": "cinema",
+    "check_date:opening_hours": "2026-06-15",
+    "contact:website": "https://leopold-abckinos.de/",
+    "name": "ABC Kino",
+    "opening_hours": "Mo-Fr 14:30-19:45; Sa,Su 14:30-20:00",
+    "toilets:wheelchair": "no",
+    "wheelchair": "yes",
+    "wikidata": "Q34380689"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "neuesrex",
+  "n": "Neues Rex",
+  "a": "",
+  "pc": "",
+  "lat": 48.1414,
+  "lng": 11.49239,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Neues Rex Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/339219410",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "16",
+    "addr:postcode": "80687",
+    "addr:street": "Agricolastraße",
+    "amenity": "cinema",
+    "cinema:3D": "yes",
+    "contact:email": "info@neuesrex.de",
+    "contact:phone": "+49 89 562500",
+    "description": "Gemütliches Kino mit Snackbar, in dem sowohl kommerziell erfolgreiche als auch Arthouse-Filme gezeigt werden. Während der Kassenöffnungszeiten können Sie sich Ihre Karten auch telefonisch unter 089 / 56 25 00 reservieren.",
+    "name": "Neues Rex",
+    "opening_hours": "\"15min - 30min vor Vorstellung\"",
+    "website": "https://neuesrex.de/",
+    "wheelchair": "no",
+    "wikidata": "Q50843563"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "filmmuseummunchen",
+  "n": "Filmmuseum München",
+  "a": "",
+  "pc": "",
+  "lat": 48.13487,
+  "lng": 11.57276,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Filmmuseum München Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/342930150",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "1",
+    "addr:postcode": "80331",
+    "addr:street": "Sankt-Jakobs-Platz",
+    "amenity": "cinema",
+    "contact:phone": "+49 89 233-22348",
+    "contact:website": "https://www.muenchner-stadtmuseum.de/",
+    "name": "Filmmuseum München",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes",
+    "wheelchair:description": "Zugang vom St. Jakobs-Platz (Großsteinpflaster), Lift vorhanden. 4 Behindertenparkplätze Sendlinger Straße 3. Barrierefreies WC vorhanden. 4 Rollstuhlplätze im Kino. Induktionsleitung, an der Kasse die Anlage einschalten lassen.",
+    "wikidata": "Q1415141",
+    "wikipedia": "de:Filmmuseum München"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gedenksaulegiesingerfeld",
+  "n": "Gedenksäule \"Giesinger Feldkreuz\"",
+  "a": "",
+  "pc": "",
+  "lat": 48.11557,
+  "lng": 11.58037,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Gedenksäule \"Giesinger Feldkreuz\" Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/360662559",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "obelisk",
+    "name": "Gedenksäule \"Giesinger Feldkreuz\"",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mahnmaltodesmarschkzdach",
+  "n": "Mahnmal Todesmarsch KZ Dachau",
+  "a": "",
+  "pc": "",
+  "lat": 48.09612,
+  "lng": 11.41339,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Mahnmal Todesmarsch KZ Dachau Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/364041012",
+   "raw": {
+    "artist_name": "Hubertus von Pilgrim",
+    "description:de": "gut erhalten",
+    "historic": "memorial",
+    "image": "https://commons.wikimedia.org/wiki/File:Mahnmal_Todesmarsch_KZ_Dachau_in_Krailling_Gautinger_Stra%C3%9Fe_Frontansicht_01.jpg#/media/File:Mahnmal_Todesmarsch_KZ_Dachau_in_Krailling_Gautinger_Straße_Frontansicht_01.jpg",
+    "inscription": "HIER FÜHRTE IN DEN LETZTEN KRIEGSTAGEN IM APRIL 1945 DER LEIDENSWEG DER HÄFTLINGE AUS DEM KONZENTRATIONSLAGER DACHAU VORBEI INS UNGEWISSE",
+    "material": "bronze",
+    "memorial": "sculpture",
+    "name": "Mahnmal Todesmarsch KZ Dachau",
+    "website": "http://www.gz-tm-dachau.de/mahnmale"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alfreddelpdenkmal",
+  "n": "Alfred-Delp-Denkmal",
+  "a": "",
+  "pc": "",
+  "lat": 48.14764,
+  "lng": 11.60108,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Alfred-Delp-Denkmal Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368348694",
+   "raw": {
+    "commemorates:wikidata": "Q61305",
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Alfred-Delp-Denkmal",
+    "wikimedia_commons": "Category:Alfred-Delp-Denkmal (Munich)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jagermithund",
+  "n": "Jäger mit Hund",
+  "a": "",
+  "pc": "",
+  "lat": 48.15393,
+  "lng": 11.60748,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Jäger mit Hund Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/368348701",
+   "raw": {
+    "heritage": "4",
+    "heritage:operator": "BLfD",
+    "historic": "memorial",
+    "image": "https://commons.wikimedia.org/wiki/File:Steinfigur_J%C3%A4ger_mit_Hund.JPG",
+    "material": "stone",
+    "memorial": "statue",
+    "name": "Jäger mit Hund",
+    "ref:BLfD": "D-1-62-000-7236",
+    "wikidata": "Q41177312"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "neuapostolischekirche",
+  "n": "Neuapostolische Kirche",
+  "a": "",
+  "pc": "",
+  "lat": 48.1879,
+  "lng": 11.45289,
+  "c": "faith",
+  "s": "church",
+  "q": "Neuapostolische Kirche Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/369592496",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "new_apostolic",
+    "name": "Neuapostolische Kirche",
+    "religion": "christian",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "isabella",
+  "n": "Isabella",
+  "a": "",
+  "pc": "",
+  "lat": 48.15534,
+  "lng": 11.57018,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Isabella Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/369666364",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "29",
+    "addr:postcode": "80799",
+    "addr:street": "Neureutherstraße",
+    "amenity": "cinema",
+    "check_date": "2026-04-29",
+    "check_date:opening_hours": "2026-03-08",
+    "contact:email": "2010@isabella.li",
+    "contact:phone": "+49 89 2718 844",
+    "contact:website": "https://studio-isabella.com/",
+    "name": "Isabella",
+    "opening_hours": "Mo-Su 08:00-23:00",
+    "operator": "Louis Anschütz",
+    "toilets:wheelchair": "no",
+    "wheelchair": "limited",
+    "wheelchair:description": "1 Stufe",
+    "wikidata": "Q50843567"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mihaileminescu",
+  "n": "Mihail Eminescu",
+  "a": "",
+  "pc": "",
+  "lat": 48.08844,
+  "lng": 11.60708,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Mihail Eminescu Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/370441804",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Mihail Eminescu",
+    "wheelchair": "limited",
+    "wikimedia_commons": "File:Mihai Eminescu Fasangarten Muenchen-1.jpg",
+    "wikipedia": "de:Mihail Eminescu"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mehmedakifcamiiturkischi",
+  "n": "Mehmed Akif Camii/ Türkisch Islamische Gemeinde e.V.",
+  "a": "",
+  "pc": "",
+  "lat": 48.18694,
+  "lng": 11.56015,
+  "c": "faith",
+  "s": "mosque",
+  "q": "Mehmed Akif Camii/ Türkisch Islamische Gemeinde e.V. Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/371176649",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-10-22",
+    "name": "Mehmed Akif Camii/ Türkisch Islamische Gemeinde e.V.",
+    "religion": "muslim"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "evangelischfreikirchlich",
+  "n": "Evangelisch-Freikirchliche Gemeinde",
+  "a": "",
+  "pc": "",
+  "lat": 48.13036,
+  "lng": 11.56858,
+  "c": "faith",
+  "s": "church",
+  "q": "Evangelisch-Freikirchliche Gemeinde Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/371694200",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "9",
+    "addr:postcode": "80469",
+    "addr:street": "Holzstraße",
+    "amenity": "place_of_worship",
+    "check_date": "2023-08-23",
+    "denomination": "baptist",
+    "name": "Evangelisch-Freikirchliche Gemeinde",
+    "religion": "christian",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gedenktafelgebaudederisr",
+  "n": "Gedenktafel: Gebäude der israelischen Olympiamannschaft",
+  "a": "",
+  "pc": "",
+  "lat": 48.17982,
+  "lng": 11.54934,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Gedenktafel: Gebäude der israelischen Olympiamannschaft Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/373456677",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Gedenktafel: Gebäude der israelischen Olympiamannschaft",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "klagebalkengedenkstattez",
+  "n": "Klagebalken (Gedenkstätte zu Ehren der Opfer des Olympiaattentats)",
+  "a": "",
+  "pc": "",
+  "lat": 48.17672,
+  "lng": 11.54775,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Klagebalken (Gedenkstätte zu Ehren der Opfer des Olympiaattentats) Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/373456679",
+   "raw": {
+    "artist:wikidata": "Q524205",
+    "artist_name": "Fritz Koenig",
+    "historic": "memorial",
+    "image": "https://commons.wikimedia.org/wiki/File:Fritz_Koenig_Denkmal_fuer_die_Opfer_des_Olympiaattentats_1972_1995_Olympiapark-2.jpg",
+    "inscription": "יעקב שפרינגר עמיצור שפירא אנדרי שפיצר קהת שור Anton Fliegerbauer יוסף רומנו זאב פרידמן מרק סלבין אליעזר חלפין משה ויינברג  יוסף גוטפרוינד‎ דוד ברגר",
+    "inscription:de": "David (Mark) Berger Yossef Gutfreund Mosche Weinberg Eliezer Halfin Mark (Yakovlevich) Slavin Zeev Friedman Josef Romano Anton Fliegerbauer Kehat Shorr André Spitzer Amitzur Shapira Yakov Springer",
+    "material": "granite",
+    "memorial": "plaque",
+    "name": "Klagebalken (Gedenkstätte zu Ehren der Opfer des Olympiaattentats)",
+    "name:en": "Memorial dedicated to the 1972 Olympic Tragedy",
+    "start_date": "1995",
+    "wheelchair": "yes",
+    "wikidata": "Q1188042",
+    "wikimedia_commons": "Category:Munich massacre memorial in Munich",
+    "wikipedia": "de:Denkmal für die Opfer des Olympiaattentats 1972"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "citykino",
+  "n": "City Kino",
+  "a": "",
+  "pc": "",
+  "lat": 48.13691,
+  "lng": 11.56333,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "City Kino Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/388387288",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "12",
+    "addr:postcode": "80331",
+    "addr:street": "Sonnenstraße",
+    "air_conditioning": "yes",
+    "amenity": "cinema",
+    "check_date": "2026-03-03",
+    "name": "City Kino",
+    "phone": "+49 89 591983",
+    "screen": "3",
+    "toilets": "yes",
+    "toilets:wheelchair": "no",
+    "website": "https://www.city-kinos.de/",
+    "wheelchair": "limited",
+    "wheelchair:description": "Kino 1+3 stufenlos, Kino 2 nicht zugänglich - WC eng",
+    "wikidata": "Q34380732"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "doppelsaule2370",
+  "n": "Doppelsäule 23/70",
+  "a": "",
+  "pc": "",
+  "lat": 48.14918,
+  "lng": 11.56989,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Doppelsäule 23/70 Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/389981746",
+   "raw": {
+    "artist_name": "Erich Hauser",
+    "artwork_type": "sculpture",
+    "name": "Doppelsäule 23/70",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wikidata": "Q1243323",
+    "wikimedia_commons": "Category:Doppelsäule 23 70 (Erich Hauser)",
+    "wikipedia": "de:Doppelsäule 23/70"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "amuseumofcontemporaryart",
+  "n": "A Museum of contemporary art",
+  "a": "",
+  "pc": "",
+  "lat": 48.14929,
+  "lng": 11.57904,
+  "c": "museum",
+  "s": "museum",
+  "q": "A Museum of contemporary art Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/390909981",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "3",
+    "addr:postcode": "80799",
+    "addr:street": "Schellingstraße",
+    "addr:suburb": "Maxvorstadt",
+    "fee": "no",
+    "name": "A Museum of contemporary art",
+    "opening_hours": "We-Su 12:00-19:00; Mo,Tu,PH off",
+    "tourism": "museum",
+    "website": "https://www.visit-amuseum.com/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanktnikolaus",
+  "n": "Sankt Nikolaus",
+  "a": "",
+  "pc": "",
+  "lat": 48.09018,
+  "lng": 11.46649,
+  "c": "faith",
+  "s": "church",
+  "q": "Sankt Nikolaus Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/404417877",
+   "raw": {
+    "addr:city": "Neuried",
+    "addr:housenumber": "7",
+    "addr:postcode": "82061",
+    "addr:street": "Maxhofweg",
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "Sankt Nikolaus",
+    "religion": "christian",
+    "website": "https://www.st-nikolaus-neuried.de/",
+    "wheelchair": "limited",
+    "wikidata": "Q108839192",
+    "wikimedia_commons": "Category:St. Nikolaus (Neuried) Neubau 2008",
+    "wikipedia": "de:St. Nikolaus (Neuried) Neubau"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lauraisaza",
+  "n": "Laura Isaza",
+  "a": "",
+  "pc": "",
+  "lat": 48.1296,
+  "lng": 11.57002,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Laura Isaza Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/409497623",
+   "raw": {
+    "addr:city": "München",
+    "addr:country": "DE",
+    "addr:housenumber": "9",
+    "addr:postcode": "80469",
+    "addr:street": "Hans-Sachs-Straße",
+    "check_date:opening_hours": "2024-02-09",
+    "name": "Laura Isaza",
+    "opening_hours": "Th-Fr 17:00-20:00; Sa 10:00-16:00",
+    "phone": "+49 176 6082 5888",
+    "tourism": "gallery",
+    "website": "https://www.art-li.com/",
+    "wheelchair": "limited"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "friedrichebert",
+  "n": "Friedrich Ebert",
+  "a": "",
+  "pc": "",
+  "lat": 48.05967,
+  "lng": 11.6672,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Friedrich Ebert Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/416035240",
+   "raw": {
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Friedrich Ebert"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "werneregk",
+  "n": "Werner Egk",
+  "a": "",
+  "pc": "",
+  "lat": 48.12877,
+  "lng": 11.43491,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Werner Egk Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/416864067",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "Hier stand das Haus des Komponisten Werner Egk (...), der von 1953-1971 in Lochham lebte",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Werner Egk",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mahnmalfurdasattentatvon",
+  "n": "Mahnmal für das Attentat von Kurt Eisner",
+  "a": "",
+  "pc": "",
+  "lat": 48.1403,
+  "lng": 11.57397,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Mahnmal für das Attentat von Kurt Eisner Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/422881164",
+   "raw": {
+    "description:de": "Gedenkplatte für Kurt Eisner, den ersten bayerischen Ministerpräsidenten, der am 21. Februar 1919 an dieser Stelle ermordet wurde.",
+    "description:en": "Memorial Plate at the Assasination Site of Kurt Eisner, first Prime Minister of Bavaria in 1918",
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "Mahnmal für das Attentat von Kurt Eisner",
+    "name:de": "ermordungsdenkmal",
+    "name:en": "Kurt Eisner Assassination Memorial",
+    "subject:wikidata": "Q76440",
+    "subject:wikipedia": "de:Kurt Eisner",
+    "wheelchair": "yes"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "friedrichludwigvonsckell",
+  "n": "Friedrich Ludwig von Sckell",
+  "a": "",
+  "pc": "",
+  "lat": 48.15985,
+  "lng": 11.59781,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Friedrich Ludwig von Sckell Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/430479538",
+   "raw": {
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "Friedrich Ludwig von Sckell",
+    "subject:wikidata": "Q68169",
+    "subject:wikipedia": "de:Friedrich Ludwig von Sckell",
+    "wheelchair": "yes",
+    "wikidata": "Q96348144",
+    "wikimedia_commons": "Category:Von-Sckell-Denkmal (München)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "vonwerneck",
+  "n": "von Werneck",
+  "a": "",
+  "pc": "",
+  "lat": 48.16091,
+  "lng": 11.59864,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "von Werneck Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/430479539",
+   "raw": {
+    "historic": "memorial",
+    "image": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen,_Von-Werneck-Denkmal,_11.jpeg",
+    "inscription": "Den Verdiensten den Gen Lieut Freiherrn von Werneck um Verschoenerung dieses Gartens durch Erstanlage des Sees. Gewidmet von Ludwig 1 Koen V Bayern MDCCCXXXVIII",
+    "material": "stone",
+    "memorial": "stele",
+    "name": "von Werneck",
+    "wheelchair": "yes",
+    "wikidata": "Q98739332",
+    "wikimedia_commons": "Category:Werneck-Denkmal"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "krailling",
+  "n": "Krailling",
+  "a": "",
+  "pc": "",
+  "lat": 48.1,
+  "lng": 11.4,
+  "c": "oddity",
+  "s": "municipality of Germany",
+  "q": "Krailling Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q530780",
+   "raw": "municipality of Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "forstkasten",
+  "n": "Forst Kasten",
+  "a": "",
+  "pc": "",
+  "lat": 48.0756,
+  "lng": 11.4166,
+  "c": "oddity",
+  "s": "former unincorporated area in Germany",
+  "q": "Forst Kasten Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q994306",
+   "raw": "former unincorporated area in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "buchendorf",
+  "n": "Buchendorf",
+  "a": "",
+  "pc": "",
+  "lat": 48.0573,
+  "lng": 11.4027,
+  "c": "oddity",
+  "s": "human settlement in Germany",
+  "q": "Buchendorf Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q998274",
+   "raw": "human settlement in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "burgstallaubing",
+  "n": "Burgstall Aubing",
+  "a": "",
+  "pc": "",
+  "lat": 48.1691,
+  "lng": 11.402,
+  "c": "history",
+  "s": "castle",
+  "q": "Burgstall Aubing Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1015684",
+   "raw": "castle",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stockdorf",
+  "n": "Stockdorf",
+  "a": "",
+  "pc": "",
+  "lat": 48.0886,
+  "lng": 11.4044,
+  "c": "oddity",
+  "s": "human settlement in Germany",
+  "q": "Stockdorf Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1225691",
+   "raw": "human settlement in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gutfreiham",
+  "n": "Gut Freiham",
+  "a": "",
+  "pc": "",
+  "lat": 48.1362,
+  "lng": 11.4033,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Gut Freiham Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1556921",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "viereckschanze",
+  "n": "Viereckschanze",
+  "a": "",
+  "pc": "",
+  "lat": 48.0606,
+  "lng": 11.4097,
+  "c": "history",
+  "s": "cultural heritage monument in Bavaria, Germany",
+  "q": "Viereckschanze Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1793635",
+   "raw": "cultural heritage monument in Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lochhausen",
+  "n": "Lochhausen",
+  "a": "",
+  "pc": "",
+  "lat": 48.1798,
+  "lng": 11.4056,
+  "c": "oddity",
+  "s": "human settlement in Germany",
+  "q": "Lochhausen Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1867350",
+   "raw": "human settlement in Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "preysingsaule",
+  "n": "Preysingsäule",
+  "a": "",
+  "pc": "",
+  "lat": 48.0643,
+  "lng": 11.4201,
+  "c": "oddity",
+  "s": "building in Neuried, Germany",
+  "q": "Preysingsäule Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q2109385",
+   "raw": "building in Neuried, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "planeggerholz",
+  "n": "Planegger Holz",
+  "a": "",
+  "pc": "",
+  "lat": 48.11667,
+  "lng": 11.4,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Planegger Holz Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q32227136",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stvitus",
+  "n": "St. Vitus",
+  "a": "",
+  "pc": "",
+  "lat": 48.09222,
+  "lng": 11.40759,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "St. Vitus Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q41212402",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kreuzweg25",
+  "n": "Kreuzweg 25",
+  "a": "",
+  "pc": "",
+  "lat": 48.09502,
+  "lng": 11.40103,
+  "c": "oddity",
+  "s": "building in Gauting, Upper Bavaria, Germany",
+  "q": "Kreuzweg 25 Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q41212417",
+   "raw": "building in Gauting, Upper Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tellhohe7",
+  "n": "Tellhöhe 7",
+  "a": "",
+  "pc": "",
+  "lat": 48.09134,
+  "lng": 11.40077,
+  "c": "oddity",
+  "s": "building in Gauting, Upper Bavaria, Germany",
+  "q": "Tellhöhe 7 Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q41212425",
+   "raw": "building in Gauting, Upper Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gedenkstelefurjoseffreih",
+  "n": "Gedenkstele für Josef Freiherrn von Hirsch",
+  "a": "",
+  "pc": "",
+  "lat": 48.10879,
+  "lng": 11.40185,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Gedenkstele für Josef Freiherrn von Hirsch Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q41212485",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "freihamfolly",
+  "n": "Freiham Folly",
+  "a": "",
+  "pc": "",
+  "lat": 48.1485,
+  "lng": 11.408,
+  "c": "oddity",
+  "s": "sculpture in Munich, Germany",
+  "q": "Freiham Folly Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q59220620",
+   "raw": "sculpture in Munich, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lsgplaneggerholz",
+  "n": "LSG Planegger Holz",
+  "a": "",
+  "pc": "",
+  "lat": 48.11375,
+  "lng": 11.40655,
+  "c": "oddity",
+  "s": "protected landscape in Bavaria, Germany",
+  "q": "LSG Planegger Holz Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q59643632",
+   "raw": "protected landscape in Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged1793401",
+  "n": "Cultural heritage D-1-7934-0145 in Gauting",
+  "a": "",
+  "pc": "",
+  "lat": 48.05849,
+  "lng": 11.40829,
+  "c": "history",
+  "s": "cultural heritage monument in Gauting, Starnberg, Upper Bava",
+  "q": "Cultural heritage D-1-7934-0145 in Gauting Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98327714",
+   "raw": "cultural heritage monument in Gauting, Starnberg, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged1793403",
+  "n": "Cultural heritage D-1-7934-0339 in Gauting",
+  "a": "",
+  "pc": "",
+  "lat": 48.08061,
+  "lng": 11.40901,
+  "c": "history",
+  "s": "cultural heritage monument in Gauting, Starnberg, Upper Bava",
+  "q": "Cultural heritage D-1-7934-0339 in Gauting Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98327723",
+   "raw": "cultural heritage monument in Gauting, Starnberg, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged1793400",
+  "n": "Cultural heritage D-1-7934-0021 in Gauting",
+  "a": "",
+  "pc": "",
+  "lat": 48.05172,
+  "lng": 11.41754,
+  "c": "history",
+  "s": "cultural heritage monument in Gauting, Starnberg, Upper Bava",
+  "q": "Cultural heritage D-1-7934-0021 in Gauting Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98327727",
+   "raw": "cultural heritage monument in Gauting, Starnberg, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17934003",
+  "n": "Cultural heritage D-1-7934-0016 in Gauting",
+  "a": "",
+  "pc": "",
+  "lat": 48.06801,
+  "lng": 11.41048,
+  "c": "history",
+  "s": "cultural heritage monument in Gauting, Starnberg, Upper Bava",
+  "q": "Cultural heritage D-1-7934-0016 in Gauting Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98327776",
+   "raw": "cultural heritage monument in Gauting, Starnberg, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17934004",
+  "n": "Cultural heritage D-1-7934-0022 in Gauting",
+  "a": "",
+  "pc": "",
+  "lat": 48.06527,
+  "lng": 11.4129,
+  "c": "history",
+  "s": "cultural heritage monument in Gauting, Starnberg, Upper Bava",
+  "q": "Cultural heritage D-1-7934-0022 in Gauting Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98327788",
+   "raw": "cultural heritage monument in Gauting, Starnberg, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17934012",
+  "n": "Cultural heritage D-1-7934-0117 in Gauting",
+  "a": "",
+  "pc": "",
+  "lat": 48.07184,
+  "lng": 11.40425,
+  "c": "history",
+  "s": "cultural heritage monument in Bavaria, Germany",
+  "q": "Cultural heritage D-1-7934-0117 in Gauting Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98327798",
+   "raw": "cultural heritage monument in Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged1783403",
+  "n": "Cultural heritage D-1-7834-0396 in München",
+  "a": "",
+  "pc": "",
+  "lat": 48.15368,
+  "lng": 11.40691,
+  "c": "history",
+  "s": "cultural heritage monument in Munich, Upper Bavaria, Bavaria",
+  "q": "Cultural heritage D-1-7834-0396 in München Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98333411",
+   "raw": "cultural heritage monument in Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged1783404",
+  "n": "Cultural heritage D-1-7834-0405 in München",
+  "a": "",
+  "pc": "",
+  "lat": 48.15624,
+  "lng": 11.40534,
+  "c": "history",
+  "s": "cultural heritage monument in Munich, Upper Bavaria, Bavaria",
+  "q": "Cultural heritage D-1-7834-0405 in München Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98333416",
+   "raw": "cultural heritage monument in Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17834034",
+  "n": "Cultural heritage D-1-7834-0348 in München",
+  "a": "",
+  "pc": "",
+  "lat": 48.13696,
+  "lng": 11.4018,
+  "c": "history",
+  "s": "cultural heritage monument in Munich, Upper Bavaria, Bavaria",
+  "q": "Cultural heritage D-1-7834-0348 in München Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98333473",
+   "raw": "cultural heritage monument in Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged1783400",
+  "n": "Cultural heritage D-1-7834-0071 in München",
+  "a": "",
+  "pc": "",
+  "lat": 48.17733,
+  "lng": 11.40663,
+  "c": "history",
+  "s": "cultural heritage monument in Munich, Upper Bavaria, Bavaria",
+  "q": "Cultural heritage D-1-7834-0071 in München Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98334047",
+   "raw": "cultural heritage monument in Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17834002",
+  "n": "Cultural heritage D-1-7834-0061 in München",
+  "a": "",
+  "pc": "",
+  "lat": 48.14976,
+  "lng": 11.40553,
+  "c": "history",
+  "s": "cultural heritage monument in Munich, Upper Bavaria, Bavaria",
+  "q": "Cultural heritage D-1-7834-0061 in München Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98334066",
+   "raw": "cultural heritage monument in Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17834003",
+  "n": "Cultural heritage D-1-7834-0058 in München",
+  "a": "",
+  "pc": "",
+  "lat": 48.14931,
+  "lng": 11.40115,
+  "c": "history",
+  "s": "cultural heritage monument in Munich, Upper Bavaria, Bavaria",
+  "q": "Cultural heritage D-1-7834-0058 in München Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98334071",
+   "raw": "cultural heritage monument in Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17834004",
+  "n": "Cultural heritage D-1-7834-0060 in München",
+  "a": "",
+  "pc": "",
+  "lat": 48.1475,
+  "lng": 11.40715,
+  "c": "history",
+  "s": "cultural heritage monument in Munich, Upper Bavaria, Bavaria",
+  "q": "Cultural heritage D-1-7834-0060 in München Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98334068",
+   "raw": "cultural heritage monument in Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17834005",
+  "n": "Cultural heritage D-1-7834-0073 in München",
+  "a": "",
+  "pc": "",
+  "lat": 48.17932,
+  "lng": 11.40833,
+  "c": "history",
+  "s": "cultural heritage monument in Munich, Upper Bavaria, Bavaria",
+  "q": "Cultural heritage D-1-7834-0073 in München Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98334072",
+   "raw": "cultural heritage monument in Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged1783402",
+  "n": "Cultural heritage D-1-7834-0266 in München",
+  "a": "",
+  "pc": "",
+  "lat": 48.12983,
+  "lng": 11.40181,
+  "c": "history",
+  "s": "cultural heritage monument in Munich, Upper Bavaria, Bavaria",
+  "q": "Cultural heritage D-1-7834-0266 in München Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98334125",
+   "raw": "cultural heritage monument in Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17934032",
+  "n": "Cultural heritage D-1-7934-0343 in Neuried (bei München)",
+  "a": "",
+  "pc": "",
+  "lat": 48.07381,
+  "lng": 11.43586,
+  "c": "history",
+  "s": "cultural heritage monument in Neuried, Munich, Upper Bavaria",
+  "q": "Cultural heritage D-1-7934-0343 in Neuried (bei München) Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98334819",
+   "raw": "cultural heritage monument in Neuried, Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17934033",
+  "n": "Cultural heritage D-1-7934-0348 in Neuried (bei München)",
+  "a": "",
+  "pc": "",
+  "lat": 48.07355,
+  "lng": 11.43369,
+  "c": "history",
+  "s": "cultural heritage monument in Neuried, Munich, Upper Bavaria",
+  "q": "Cultural heritage D-1-7934-0348 in Neuried (bei München) Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98334817",
+   "raw": "cultural heritage monument in Neuried, Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17934013",
+  "n": "Cultural heritage D-1-7934-0120 in Neuried (bei München)",
+  "a": "",
+  "pc": "",
+  "lat": 48.07847,
+  "lng": 11.41485,
+  "c": "history",
+  "s": "cultural heritage monument in Neuried, Munich, Upper Bavaria",
+  "q": "Cultural heritage D-1-7934-0120 in Neuried (bei München) Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98334823",
+   "raw": "cultural heritage monument in Neuried, Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17934034",
+  "n": "Cultural heritage D-1-7934-0335 in Neuried (bei München)",
+  "a": "",
+  "pc": "",
+  "lat": 48.07047,
+  "lng": 11.41513,
+  "c": "history",
+  "s": "cultural heritage monument in Neuried, Munich, Upper Bavaria",
+  "q": "Cultural heritage D-1-7934-0335 in Neuried (bei München) Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98334820",
+   "raw": "cultural heritage monument in Neuried, Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17934014",
+  "n": "Cultural heritage D-1-7934-0115 in Neuried (bei München)",
+  "a": "",
+  "pc": "",
+  "lat": 48.07762,
+  "lng": 11.41312,
+  "c": "history",
+  "s": "cultural heritage monument in Neuried, Munich, Upper Bavaria",
+  "q": "Cultural heritage D-1-7934-0115 in Neuried (bei München) Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98334826",
+   "raw": "cultural heritage monument in Neuried, Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17934015",
+  "n": "Cultural heritage D-1-7934-0118 in Neuried (bei München)",
+  "a": "",
+  "pc": "",
+  "lat": 48.07043,
+  "lng": 11.41051,
+  "c": "history",
+  "s": "cultural heritage monument in Neuried, Munich, Upper Bavaria",
+  "q": "Cultural heritage D-1-7934-0118 in Neuried (bei München) Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98334825",
+   "raw": "cultural heritage monument in Neuried, Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17934035",
+  "n": "Cultural heritage D-1-7934-0344 in Neuried (bei München)",
+  "a": "",
+  "pc": "",
+  "lat": 48.07407,
+  "lng": 11.43776,
+  "c": "history",
+  "s": "cultural heritage monument in Neuried, Munich, Upper Bavaria",
+  "q": "Cultural heritage D-1-7934-0344 in Neuried (bei München) Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98334828",
+   "raw": "cultural heritage monument in Neuried, Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17934005",
+  "n": "Cultural heritage D-1-7934-0028 in Planegg",
+  "a": "",
+  "pc": "",
+  "lat": 48.08383,
+  "lng": 11.41247,
+  "c": "history",
+  "s": "cultural heritage monument in Bavaria, Germany",
+  "q": "Cultural heritage D-1-7934-0028 in Planegg Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98336284",
+   "raw": "cultural heritage monument in Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17934016",
+  "n": "Cultural heritage D-1-7934-0114 in Planegg",
+  "a": "",
+  "pc": "",
+  "lat": 48.08347,
+  "lng": 11.41888,
+  "c": "history",
+  "s": "cultural heritage monument in Planegg, Munich, Upper Bavaria",
+  "q": "Cultural heritage D-1-7934-0114 in Planegg Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98336291",
+   "raw": "cultural heritage monument in Planegg, Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17834006",
+  "n": "Cultural heritage D-1-7834-0056 in München",
+  "a": "",
+  "pc": "",
+  "lat": 48.14351,
+  "lng": 11.40363,
+  "c": "history",
+  "s": "cultural heritage monument in Munich, Upper Bavaria, Bavaria",
+  "q": "Cultural heritage D-1-7834-0056 in München Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98351417",
+   "raw": "cultural heritage monument in Munich, Upper Bavaria, Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "culturalheritaged17934036",
+  "n": "Cultural heritage D-1-7934-0349 in Neuried (bei München)",
+  "a": "",
+  "pc": "",
+  "lat": 48.0736,
+  "lng": 11.43959,
+  "c": "history",
+  "s": "cultural heritage monument in Bavaria, Germany",
+  "q": "Cultural heritage D-1-7934-0349 in Neuried (bei München) Munich",
+  "w": "",
+  "city": "munich",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q98351724",
+   "raw": "cultural heritage monument in Bavaria, Germany",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

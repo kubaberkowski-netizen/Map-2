@@ -1,0 +1,3407 @@
+[
+ {
+  "id": "parroquiadesantamarta",
+  "n": "Parroquia de Santa Marta",
+  "a": "",
+  "pc": "",
+  "lat": 39.44875,
+  "lng": -0.36687,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia de Santa Marta Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/107931106",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.5a",
+    "denomination": "catholic",
+    "name": "Parroquia de Santa Marta",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "antiguocuarteldelpilar",
+  "n": "antiguo Cuartel del Pilar",
+  "a": "",
+  "pc": "",
+  "lat": 39.47133,
+  "lng": -0.38338,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "antiguo Cuartel del Pilar Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/165388687",
+   "raw": {
+    "historic": "ruins",
+    "name": "antiguo Cuartel del Pilar"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentajoaquimsorolla",
+  "n": "Monument a Joaquim Sorolla",
+  "a": "",
+  "pc": "",
+  "lat": 39.46347,
+  "lng": -0.32981,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Monument a Joaquim Sorolla Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/254021929",
+   "raw": {
+    "artwork_type": "bust",
+    "name": "Monument a Joaquim Sorolla",
+    "name:ca": "Monument a Joaquim Sorolla",
+    "name:es": "Monumento a Joaquín Sorolla",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "esglesiaparroquialdesant",
+  "n": "Església Parroquial de Sant Lluís Bertrán",
+  "a": "",
+  "pc": "",
+  "lat": 39.44421,
+  "lng": -0.36632,
+  "c": "faith",
+  "s": "church",
+  "q": "Església Parroquial de Sant Lluís Bertrán Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/255312237",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Església Parroquial de Sant Lluís Bertrán",
+    "name:ca": "Església Parroquial de Sant Lluís Bertrán",
+    "name:es": "Iglesia de San Luis Bertrán",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinesbabel",
+  "n": "Cines Babel",
+  "a": "",
+  "pc": "",
+  "lat": 39.46969,
+  "lng": -0.35724,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cines Babel Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/387096740",
+   "raw": {
+    "addr:city": "València",
+    "addr:housenumber": "10",
+    "addr:postcode": "46021",
+    "addr:street": "Carrer de Vicent Sancho Tello",
+    "amenity": "cinema",
+    "name": "Cines Babel",
+    "website": "https://cinesalbatrosbabel.com/",
+    "wikidata": "Q114760156"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiasantisimocristo",
+  "n": "Parroquia Santísimo Cristo de la Luz",
+  "a": "",
+  "pc": "",
+  "lat": 39.46753,
+  "lng": -0.41546,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia Santísimo Cristo de la Luz Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/973868068",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Parroquia Santísimo Cristo de la Luz",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santacecilia",
+  "n": "Santa Cecilia",
+  "a": "",
+  "pc": "",
+  "lat": 39.48179,
+  "lng": -0.43565,
+  "c": "faith",
+  "s": "church",
+  "q": "Santa Cecilia Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1344429362",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Santa Cecilia",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cisternaarabesvii",
+  "n": "Cisterna Árabe (s.VII)",
+  "a": "",
+  "pc": "",
+  "lat": 39.48347,
+  "lng": -0.44165,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Cisterna Árabe (s.VII) Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1350523947",
+   "raw": {
+    "designation": "Infraestructura Hidráulica",
+    "historic": "monument",
+    "name": "Cisterna Árabe (s.VII)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cineoscarocineaqua",
+  "n": "Cine Oscar Ocine Aqua",
+  "a": "",
+  "pc": "",
+  "lat": 39.457,
+  "lng": -0.34536,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cine Oscar Ocine Aqua Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1708637282",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Cine Oscar Ocine Aqua"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "creucobertademislata",
+  "n": "Creu Coberta de Mislata",
+  "a": "",
+  "pc": "",
+  "lat": 39.47279,
+  "lng": -0.40947,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Creu Coberta de Mislata Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1760083652",
+   "raw": {
+    "designation": "Construcción Civil",
+    "historic": "wayside_cross",
+    "name": "Creu Coberta de Mislata",
+    "name:ca": "Creu Coberta de Mislata",
+    "name:es": "Cruz Cubierta de Mislata",
+    "start_date": "C15"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ermitavirgendelasalud",
+  "n": "Ermita Virgen de la Salud",
+  "a": "",
+  "pc": "",
+  "lat": 39.46578,
+  "lng": -0.42646,
+  "c": "faith",
+  "s": "church",
+  "q": "Ermita Virgen de la Salud Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1761630490",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-08-21",
+    "designation": "Monumento Religioso",
+    "name": "Ermita Virgen de la Salud",
+    "name:ca": "Ermita de la Mare Déu de la Salut",
+    "religion": "christian",
+    "wikidata": "Q28089364",
+    "wikipedia": "ca:Ermita de la Salut de Xirivella"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pontdelcatxo",
+  "n": "Pont del Catxo",
+  "a": "",
+  "pc": "",
+  "lat": 39.48667,
+  "lng": -0.44456,
+  "c": "roman",
+  "s": "Roman remains",
+  "q": "Pont del Catxo Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1763949807",
+   "raw": {
+    "designation": "Puente de Origen Romano",
+    "historic": "archaeological_site",
+    "name": "Pont del Catxo"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "elparotet",
+  "n": "El Parotet",
+  "a": "",
+  "pc": "",
+  "lat": 39.46019,
+  "lng": -0.35344,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "El Parotet Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2048687600",
+   "raw": {
+    "artist_name": "Miquel Navarro",
+    "artwork_type": "sculpture",
+    "height": "46",
+    "name": "El Parotet",
+    "name:ca": "El Parotet",
+    "tourism": "artwork",
+    "wikidata": "Q9055725",
+    "wikipedia": "ca:Parotet"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "elterrer",
+  "n": "el Terrer",
+  "a": "",
+  "pc": "",
+  "lat": 39.51117,
+  "lng": -0.43591,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "el Terrer Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2154313164",
+   "raw": {
+    "alt_name": "Paredón de España",
+    "historic": "memorial",
+    "name": "el Terrer"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mountainoffireandmiracle",
+  "n": "Mountain of Fire and Miracles Ministries",
+  "a": "",
+  "pc": "",
+  "lat": 39.46326,
+  "lng": -0.44568,
+  "c": "faith",
+  "s": "church",
+  "q": "Mountain of Fire and Miracles Ministries Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2394180048",
+   "raw": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "check_date": "2026-02-25",
+    "name": "Mountain of Fire and Miracles Ministries",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "apolodepinedo",
+  "n": "Apolo de Pinedo",
+  "a": "",
+  "pc": "",
+  "lat": 39.42489,
+  "lng": -0.34115,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Apolo de Pinedo Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2477521728",
+   "raw": {
+    "name": "Apolo de Pinedo",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaignaciopinazoc",
+  "n": "Monumento a Ignacio Pinazo Camarlench",
+  "a": "",
+  "pc": "",
+  "lat": 39.47173,
+  "lng": -0.36909,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Monumento a Ignacio Pinazo Camarlench Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2506470182",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Monumento a Ignacio Pinazo Camarlench",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiasagradafamilia",
+  "n": "Parroquia Sagrada Familia",
+  "a": "",
+  "pc": "",
+  "lat": 39.47025,
+  "lng": -0.34906,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia Sagrada Familia Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2506490498",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-11-12",
+    "name": "Parroquia Sagrada Familia",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museotaurino",
+  "n": "Museo Taurino",
+  "a": "",
+  "pc": "",
+  "lat": 39.46628,
+  "lng": -0.37564,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Taurino Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2508173010",
+   "raw": {
+    "charge": "2 EUR",
+    "fee": "yes",
+    "name": "Museo Taurino",
+    "name:ru": "Музей корриды",
+    "opening_hours": "Mo-Sa 10:00-19:00; PH,Su 10:00-14:00",
+    "phone": "+34 963 157 919",
+    "tourism": "museum",
+    "website": "http://www.museotaurinovalencia.es/",
+    "wikidata": "Q1431438",
+    "wikipedia": "es:Museo Taurino de Valencia"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiasanprudencio",
+  "n": "Parroquia San Prudencio",
+  "a": "",
+  "pc": "",
+  "lat": 39.47335,
+  "lng": -0.34378,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia San Prudencio Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2508922308",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-11-09",
+    "denomination": "catholic",
+    "name": "Parroquia San Prudencio",
+    "name:es": "Parroquia San Prudencio",
+    "religion": "christian",
+    "wheelchair": "no"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museodelossoldaditosdepl",
+  "n": "Museo de los Soldaditos de Plomo L'Iber",
+  "a": "",
+  "pc": "",
+  "lat": 39.47672,
+  "lng": -0.37823,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo de los Soldaditos de Plomo L'Iber Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2700282752",
+   "raw": {
+    "addr:city": "València",
+    "addr:postcode": "46003",
+    "addr:street": "Carrer Cavallers",
+    "fee": "yes",
+    "name": "Museo de los Soldaditos de Plomo L'Iber",
+    "name:ca": "Museu dels Soldadets de Plom L'Iber",
+    "note": "January closed,February open weekends, from Match 14 see opening hours",
+    "opening_hours": "Jan off; Feb: Sa 11:00-14:00,16:00-19:00; Su 11:00-14:00; Mar-Dec: Tu-Sa 11:00-14:00,16:00-19:00; Su 11:00-14:00",
+    "phone": "+34 963 918675",
+    "start_date": "2007",
+    "tourism": "museum",
+    "website": "https://www.museoliber.org/",
+    "wheelchair": "limited",
+    "wikidata": "Q9047028",
+    "wikipedia": "es:Museo de Soldaditos de Plomo L’Iber"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "otono",
+  "n": "Otoño",
+  "a": "",
+  "pc": "",
+  "lat": 39.48111,
+  "lng": -0.34657,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Otoño Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2701558998",
+   "raw": {
+    "artist:wikidata": "Q435086",
+    "artist_name": "Gerardo Rueda Salaberry",
+    "artwork_type": "sculpture",
+    "name": "Otoño",
+    "start_date": "1992",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "yelmocines",
+  "n": "Yelmo Cines",
+  "a": "",
+  "pc": "",
+  "lat": 39.47736,
+  "lng": -0.39535,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Yelmo Cines Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3017694056",
+   "raw": {
+    "amenity": "cinema",
+    "brand": "Yelmo",
+    "brand:wikidata": "Q21030996",
+    "level": "2",
+    "name": "Yelmo Cines"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiadelavemariaysan",
+  "n": "Parroquia del Ave María y San José",
+  "a": "",
+  "pc": "",
+  "lat": 39.501,
+  "lng": -0.42489,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia del Ave María y San José Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3415662078",
+   "raw": {
+    "addr:postcode": "46035",
+    "addr:street": "Calle Campamento",
+    "amenity": "place_of_worship",
+    "check_date": "2025-03-11",
+    "denomination": "catholic",
+    "name": "Parroquia del Ave María y San José",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "edgesi",
+  "n": "Edges I",
+  "a": "",
+  "pc": "",
+  "lat": 39.48024,
+  "lng": -0.34512,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Edges I Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3467890617",
+   "raw": {
+    "artist_name": "Diesco",
+    "artwork_type": "sculpture",
+    "material": "steel",
+    "name": "Edges I",
+    "start_date": "1990",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "relojdesol",
+  "n": "Reloj de sol",
+  "a": "",
+  "pc": "",
+  "lat": 39.45461,
+  "lng": -0.35179,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Reloj de sol Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3536480546",
+   "raw": {
+    "historic": "monument",
+    "name": "Reloj de sol",
+    "name:ca": "Rellotge de Sol",
+    "name:en": "Sundial"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ladamaiberica",
+  "n": "La Dama Ibèrica",
+  "a": "",
+  "pc": "",
+  "lat": 39.49027,
+  "lng": -0.39932,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "La Dama Ibèrica Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3540456749",
+   "raw": {
+    "architect:wikidata": "Q546947",
+    "ele": "20",
+    "historic": "monument",
+    "name": "La Dama Ibèrica",
+    "name:ca": "La Dama Ibèrica",
+    "name:es": "La Dama Ibérica",
+    "wikidata": "Q16745578",
+    "wikimedia_commons": "Category:Dama Ibèrica (València)",
+    "wikipedia": "es:Dama Ibérica"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bustodebernardoferrandiz",
+  "n": "Busto de Bernardo Ferrándiz",
+  "a": "",
+  "pc": "",
+  "lat": 39.47668,
+  "lng": -0.3705,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Busto de Bernardo Ferrándiz Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3927593254",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "VALENCIA A BERNARDO FERRANDIZ 1833 -1885",
+    "memorial": "bust",
+    "name": "Busto de Bernardo Ferrándiz",
+    "name:ca": "Bust de Bernat Ferrandis",
+    "subject:wikidata": "Q3544063",
+    "subject:wikipedia": "es:Bernardo Ferrándiz"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "palaciodevaleriola",
+  "n": "Palacio de Valeriola",
+  "a": "",
+  "pc": "",
+  "lat": 39.47388,
+  "lng": -0.37299,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Palacio de Valeriola Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4511759590",
+   "raw": {
+    "historic": "monument",
+    "name": "Palacio de Valeriola",
+    "name:es": "Palacio de Valeriola"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cimientosdelamuralladeva",
+  "n": "Cimientos de la muralla de Valencia",
+  "a": "",
+  "pc": "",
+  "lat": 39.47023,
+  "lng": -0.37072,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Cimientos de la muralla de Valencia Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4661324212",
+   "raw": {
+    "historic": "archaeological_site",
+    "name": "Cimientos de la muralla de Valencia"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallapintordomingoguille",
+  "n": "Falla Pintor Domingo - Guillem de Castro",
+  "a": "",
+  "pc": "",
+  "lat": 39.47439,
+  "lng": -0.37947,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Pintor Domingo - Guillem de Castro Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4744188532",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Pintor Domingo - Guillem de Castro",
+    "name:ca": "Falla Pintor Domingo - Guillem de Castro",
+    "name:es": "Falla Pintor Domingo - Guillem de Castro",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallallanternanarovellaa",
+  "n": "Falla Llanterna-Na Rovella-Avinguda Oest",
+  "a": "",
+  "pc": "",
+  "lat": 39.47232,
+  "lng": -0.37969,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Llanterna-Na Rovella-Avinguda Oest Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4744203327",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Llanterna-Na Rovella-Avinguda Oest",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "falladelconventdejerusal",
+  "n": "Falla del Convent de Jerusalem - Matemàtic Marçal",
+  "a": "",
+  "pc": "",
+  "lat": 39.46645,
+  "lng": -0.37953,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla del Convent de Jerusalem - Matemàtic Marçal Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4744203332",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla del Convent de Jerusalem - Matemàtic Marçal",
+    "name:ca": "Falla del Convent de Jerusalem - Matemàtic Marçal",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork",
+    "wheelchair": "yes",
+    "wikidata": "Q18696196",
+    "wikipedia": "ca:Falla del Convent de Jerusalem - Matemàtic Marçal"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "esglesiadesantcarlesborr",
+  "n": "Església de Sant Carles Borromeo",
+  "a": "",
+  "pc": "",
+  "lat": 39.47021,
+  "lng": -0.38022,
+  "c": "faith",
+  "s": "church",
+  "q": "Església de Sant Carles Borromeo Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4744208028",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Església de Sant Carles Borromeo",
+    "name:ca": "Església de Sant Carles Borromeo",
+    "name:es": "Iglesia de San Carlos Borromeo",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "anticrefugiantiaeridelag",
+  "n": "Antic refugi anti-aeri de la guerra civil",
+  "a": "",
+  "pc": "",
+  "lat": 39.47828,
+  "lng": -0.37656,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Antic refugi anti-aeri de la guerra civil Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4755157470",
+   "raw": {
+    "building": "bunker",
+    "historic": "memorial",
+    "name": "Antic refugi anti-aeri de la guerra civil",
+    "name:en": "Old civil war bomb shelter",
+    "name:es": "Antiguo refugio anti-aereo de la guerra civil",
+    "shelter": "bomb"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentomorosycristiano",
+  "n": "Monumento Moros y Cristianos",
+  "a": "",
+  "pc": "",
+  "lat": 39.50246,
+  "lng": -0.43922,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Monumento Moros y Cristianos Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4771545590",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Monumento Moros y Cristianos",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallariberaconventsantac",
+  "n": "Falla Ribera - Convent Santa Clara",
+  "a": "",
+  "pc": "",
+  "lat": 39.46831,
+  "lng": -0.37679,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Ribera - Convent Santa Clara Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4816327721",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Ribera - Convent Santa Clara",
+    "name:ca": "Falla Ribera - Convent Santa Clara",
+    "name:es": "Falla Ribera - Convento de Santa Clara",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallaplacadelamerce",
+  "n": "Falla Plaça de la Mercé",
+  "a": "",
+  "pc": "",
+  "lat": 39.47277,
+  "lng": -0.37785,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Plaça de la Mercé Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4816360522",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Plaça de la Mercé",
+    "name:ca": "Falla Plaça de la Mercé",
+    "name:es": "Falla Plaza de la Mercé",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallabolseriatrosalt",
+  "n": "Falla Bolsería Tros-Alt",
+  "a": "",
+  "pc": "",
+  "lat": 39.47607,
+  "lng": -0.38031,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Bolsería Tros-Alt Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4816415423",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Bolsería Tros-Alt",
+    "name:ca": "Falla Bosseria - Tossal",
+    "name:es": "Falla Bolsería Tros-Alt",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallaplacadoctorcollado",
+  "n": "Falla Plaça Doctor Collado",
+  "a": "",
+  "pc": "",
+  "lat": 39.47433,
+  "lng": -0.3778,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Plaça Doctor Collado Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4816417721",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Plaça Doctor Collado",
+    "name:ca": "Falla Plaça Doctor Collado+",
+    "name:es": "Falla Plaza Doctor Collado",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallapeudelacreuenjoande",
+  "n": "Falla Peu de La Creu - En Joan de Vila-Rasa",
+  "a": "",
+  "pc": "",
+  "lat": 39.47389,
+  "lng": -0.38108,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Peu de La Creu - En Joan de Vila-Rasa Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4816417725",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Peu de La Creu - En Joan de Vila-Rasa",
+    "name:ca": "Falla Peu de La Creu-En Joan de Vila-Rasa",
+    "name:es": "Falla Pie de La Cruz - Don Joan de Vila-Rasa",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "falladelajuntament",
+  "n": "Falla de l'Ajuntament",
+  "a": "",
+  "pc": "",
+  "lat": 39.47029,
+  "lng": -0.37623,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla de l'Ajuntament Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4816444321",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla de l'Ajuntament",
+    "opening_hours": "Mar 16-19",
+    "start_date": "1942",
+    "tourism": "artwork",
+    "wikidata": "Q20104055",
+    "wikipedia": "ca:Falla de l'Ajuntament"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallareinapausantvicent",
+  "n": "Falla Reina - Pau - Sant Vicent",
+  "a": "",
+  "pc": "",
+  "lat": 39.47383,
+  "lng": -0.37553,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Reina - Pau - Sant Vicent Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4816444322",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Reina - Pau - Sant Vicent",
+    "name:ca": "Falla Reina - Pau - Sant Vicent",
+    "name:es": "Falla Reina - Pau - San Vicente",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallaferranelcatolicange",
+  "n": "Falla Ferran el Catòlic-Àngel Guimerà",
+  "a": "",
+  "pc": "",
+  "lat": 39.4703,
+  "lng": -0.38472,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Ferran el Catòlic-Àngel Guimerà Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4816456721",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Ferran el Catòlic-Àngel Guimerà",
+    "name:ca": "Falla Ferran el Catòlic-Àngel Guimerà",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallaesparteroramonicaja",
+  "n": "Falla Espartero - Ramón i Cajal",
+  "a": "",
+  "pc": "",
+  "lat": 39.46796,
+  "lng": -0.38301,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Espartero - Ramón i Cajal Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4816461421",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Espartero - Ramón i Cajal",
+    "name:ca": "Falla Espartero - Ramón i Cajal",
+    "name:es": "Falla Espartero - Ramón y Cajal",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallamonestirdepobletapa",
+  "n": "Falla Monestir de Poblet - Aparicio Albiñana",
+  "a": "",
+  "pc": "",
+  "lat": 39.48374,
+  "lng": -0.39714,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Monestir de Poblet - Aparicio Albiñana Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4816461426",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Monestir de Poblet - Aparicio Albiñana",
+    "name:ca": "Falla Monestir de Poblet - Aparicio Albiñana",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallaisabellacatolicacir",
+  "n": "Falla Isabel la Catòlica - Ciril Amorós",
+  "a": "",
+  "pc": "",
+  "lat": 39.46802,
+  "lng": -0.37001,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Isabel la Catòlica - Ciril Amorós Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4816487524",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Isabel la Catòlica - Ciril Amorós",
+    "name:ca": "Falla Isabel la Catòlica - Ciril Amorós",
+    "name:es": "Falla Isabel la Católica - Cirilo Amorós",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museudeprehistoriadevale",
+  "n": "Museu de Prehistòria de València",
+  "a": "",
+  "pc": "",
+  "lat": 39.47832,
+  "lng": -0.38306,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museu de Prehistòria de València Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4854372337",
+   "raw": {
+    "addr:housenumber": "36",
+    "addr:postcode": "46003",
+    "addr:street": "Carrer de la Corona",
+    "check_date": "2026-04-15",
+    "check_date:opening_hours": "2026-04-15",
+    "email": "servici.visites@dival.es",
+    "name": "Museu de Prehistòria de València",
+    "name:ca": "Museu de Prehistòria de València",
+    "name:es": "Museo de Prehistoria de Valencia",
+    "opening_hours": "Tu-Su 10:00-20:00",
+    "phone": "+34 963 883 565",
+    "tourism": "museum",
+    "website": "https://mupreva.org",
+    "wheelchair": "yes",
+    "wikidata": "Q2701512",
+    "wikipedia": "ca:Museu de Prehistòria de València"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "centroneocatecumenaldioc",
+  "n": "Centro Neocatecumenal Diocesano",
+  "a": "",
+  "pc": "",
+  "lat": 39.47753,
+  "lng": -0.37267,
+  "c": "faith",
+  "s": "church",
+  "q": "Centro Neocatecumenal Diocesano Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4859975422",
+   "raw": {
+    "addr:housenumber": "4",
+    "addr:postcode": "46003",
+    "addr:street": "Plaça del Comte de Carlet",
+    "amenity": "place_of_worship",
+    "name": "Centro Neocatecumenal Diocesano",
+    "name:es": "Centro Neocatecumenal Diocesano",
+    "phone": "+34 963923485",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "casanataliciadesanvicent",
+  "n": "Casa Natalicia de San Vicente Ferrer",
+  "a": "",
+  "pc": "",
+  "lat": 39.47334,
+  "lng": -0.37067,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Casa Natalicia de San Vicente Ferrer Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4870102996",
+   "raw": {
+    "fixme": "website 404 http://cort.as/x8hn",
+    "historic": "monument",
+    "name": "Casa Natalicia de San Vicente Ferrer",
+    "name:ca": "Casa natal de Sant Vicent Ferrer",
+    "name:en": "Birth place of San Vicente Ferrer",
+    "phone": "+34 963 52 84 81",
+    "subject:wikidata": "Q317131",
+    "subject:wikipedia": "es:Vicente Ferrer (santo)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "esglesiadelpatriarca",
+  "n": "Església del Patriarca",
+  "a": "",
+  "pc": "",
+  "lat": 39.47247,
+  "lng": -0.37333,
+  "c": "faith",
+  "s": "church",
+  "q": "Església del Patriarca Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4870255195",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2023-11-19",
+    "denomination": "roman_catholic",
+    "name": "Església del Patriarca",
+    "name:ca": "Església del Patriarca",
+    "name:es": "Iglesia del Patriarca",
+    "religion": "christian",
+    "wikidata": "Q4984364"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "centroarrupejesuitas",
+  "n": "Centro Arrupe - Jesuitas",
+  "a": "",
+  "pc": "",
+  "lat": 39.47654,
+  "lng": -0.38832,
+  "c": "faith",
+  "s": "church",
+  "q": "Centro Arrupe - Jesuitas Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4890729305",
+   "raw": {
+    "addr:city": "València",
+    "addr:housenumber": "78",
+    "addr:postcode": "46008",
+    "addr:street": "Gran Via de Ferran el Catòlic",
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Centro Arrupe - Jesuitas",
+    "opening_hours": "Mo-Th 09:00-21:00; Sa 09:00-14:00; Th 12:00-13:00",
+    "phone": "+34 963 92 50 01",
+    "religion": "christian",
+    "website": "https://centroarrupevalencia.org/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parroquiasanfranciscodea",
+  "n": "Parroquia San Francisco de Asís",
+  "a": "",
+  "pc": "",
+  "lat": 39.48921,
+  "lng": -0.39225,
+  "c": "faith",
+  "s": "church",
+  "q": "Parroquia San Francisco de Asís Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4894496660",
+   "raw": {
+    "addr:city": "València",
+    "addr:housenumber": "32",
+    "addr:postcode": "46015",
+    "addr:street": "Carrer del Doctor Nicasi Benlloch",
+    "amenity": "place_of_worship",
+    "check_date": "2026-05-27",
+    "name": "Parroquia San Francisco de Asís",
+    "phone": "+34 963 47 58 84",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "luisamigo",
+  "n": "Luis Amigó",
+  "a": "",
+  "pc": "",
+  "lat": 39.46645,
+  "lng": -0.3863,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Luis Amigó Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4897349832",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Luis Amigó",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aruydiazdevivar",
+  "n": "A Ruy Díaz de Vivar",
+  "a": "",
+  "pc": "",
+  "lat": 39.46513,
+  "lng": -0.38132,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "A Ruy Díaz de Vivar Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4897429123",
+   "raw": {
+    "alt_name": "Monumento al Cid Campeador",
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "A Ruy Díaz de Vivar",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallacomtedesalvatierrac",
+  "n": "Falla Comte de Salvatierra - Ciril Amorós",
+  "a": "",
+  "pc": "",
+  "lat": 39.46897,
+  "lng": -0.36779,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Comte de Salvatierra - Ciril Amorós Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4930367823",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Comte de Salvatierra - Ciril Amorós",
+    "name:ca": "Falla Comte de Salvatierra - Ciril Amorós",
+    "name:es": "Falla Conde de Salvatierra - Cirilo Amorós",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallanajordana",
+  "n": "Falla Na Jordana",
+  "a": "",
+  "pc": "",
+  "lat": 39.48106,
+  "lng": -0.38012,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Na Jordana Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4930418822",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Na Jordana",
+    "name:ca": "Falla Na Jordana",
+    "name:es": "Falla Na Jordana",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallacubapuertorico",
+  "n": "Falla Cuba - Puerto Rico",
+  "a": "",
+  "pc": "",
+  "lat": 39.46097,
+  "lng": -0.37645,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Cuba - Puerto Rico Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4930448326",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Cuba - Puerto Rico",
+    "name:ca": "Falla Cuba - Puerto Rico",
+    "name:es": "Falla Cuba - Puerto Rico",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallagravadoresteveciril",
+  "n": "Falla Gravador Esteve - Ciril Amorós",
+  "a": "",
+  "pc": "",
+  "lat": 39.46947,
+  "lng": -0.36648,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Gravador Esteve - Ciril Amorós Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4930448522",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Gravador Esteve - Ciril Amorós",
+    "name:ca": "Falla Gravador Esteve - Ciril Amorós",
+    "name:es": "Falla Grabador Esteve - Cirilo Amorós",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallajesussantfrancescde",
+  "n": "Falla Jesús - Sant Francesc de Borja",
+  "a": "",
+  "pc": "",
+  "lat": 39.46579,
+  "lng": -0.38385,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Jesús - Sant Francesc de Borja Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4930462322",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Jesús - Sant Francesc de Borja",
+    "name:ca": "Falla Jesús - Sant Francesc de Borja",
+    "name:es": "Falla Jesús - San Francisco de Borja",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallacubaliteratazorin",
+  "n": "Falla Cuba - Literat Azorín",
+  "a": "",
+  "pc": "",
+  "lat": 39.45991,
+  "lng": -0.37552,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Cuba - Literat Azorín Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4930462323",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Cuba - Literat Azorín",
+    "name:ca": "Falla Cuba - Literat Azorín",
+    "name:es": "Falla Cuba - Literato Azorín",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santamariamicaelamartilh",
+  "n": "Santa Maria Micaela - Martí l'Humà",
+  "a": "",
+  "pc": "",
+  "lat": 39.47209,
+  "lng": -0.39185,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Santa Maria Micaela - Martí l'Humà Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4930463921",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Santa Maria Micaela - Martí l'Humà",
+    "name:ca": "Santa Maria Micaela - Martí l'Humà",
+    "name:es": "Falla Santa María Micaela - Martín el Humano",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallaplacadelpintorsegre",
+  "n": "Falla Plaça del Pintor Segrelles",
+  "a": "",
+  "pc": "",
+  "lat": 39.46393,
+  "lng": -0.38607,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Plaça del Pintor Segrelles Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4930486521",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Plaça del Pintor Segrelles",
+    "name:ca": "Falla Plaça del Pintor Segrelles",
+    "name:es": "Falla Plaza del Pintor Segrelles",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork",
+    "wheelchair": "yes"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallacadiselscentelles",
+  "n": "Falla Càdis - els Centelles",
+  "a": "",
+  "pc": "",
+  "lat": 39.4597,
+  "lng": -0.37218,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Càdis - els Centelles Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4930496923",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Càdis - els Centelles",
+    "name:ca": "Falla Càdis - els Centelles",
+    "name:es": "Falla Cádiz - Los Centelles",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallasuecaliteratazorin",
+  "n": "Falla Sueca - Literat Azorín",
+  "a": "",
+  "pc": "",
+  "lat": 39.46043,
+  "lng": -0.37428,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Sueca - Literat Azorín Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4930498221",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Sueca - Literat Azorín",
+    "name:ca": "Falla Sueca - Literat Azorín",
+    "name:es": "Falla Sueca - Literato Azorín",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallapintorsalvadorabril",
+  "n": "Falla Pintor Salvador Abril-Pere III El Gran",
+  "a": "",
+  "pc": "",
+  "lat": 39.46241,
+  "lng": -0.36998,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Pintor Salvador Abril-Pere III El Gran Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4930498224",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Pintor Salvador Abril-Pere III El Gran",
+    "name:ca": "Falla Pintor Salvador Abril-Pere III El Gran",
+    "name:es": "Falla Pintor Salvador Albril - Pedro III el Grande",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallaregnedevalenciaducd",
+  "n": "Falla Regne de València - Duc de Calàbria",
+  "a": "",
+  "pc": "",
+  "lat": 39.46358,
+  "lng": -0.36642,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Regne de València - Duc de Calàbria Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4930498225",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Regne de València - Duc de Calàbria",
+    "name:ca": "Falla Regne de València - Duc de Calàbria",
+    "name:es": "Falla Reino de Valencia - Duque de Calabria",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallamestregonzalbocompt",
+  "n": "Falla Mestre Gonzalbo - Compte d'Altea",
+  "a": "",
+  "pc": "",
+  "lat": 39.46549,
+  "lng": -0.36942,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Mestre Gonzalbo - Compte d'Altea Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4930498226",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Mestre Gonzalbo - Compte d'Altea",
+    "name:ca": "Falla Mestre Gonzalbo - Compte d'Altea",
+    "name:es": "Falla Maestro Gonzalbo - Conde de Altea",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallapintorsalvadorabril2",
+  "n": "Falla Pintor Salvador Abril - Peris i Valero",
+  "a": "",
+  "pc": "",
+  "lat": 39.4602,
+  "lng": -0.36845,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Pintor Salvador Abril - Peris i Valero Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4930501822",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Pintor Salvador Abril - Peris i Valero",
+    "name:ca": "Falla Pintor Salvador Abril - Peris i Valero",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallaciscarborriana",
+  "n": "Falla Císcar - Borriana",
+  "a": "",
+  "pc": "",
+  "lat": 39.46574,
+  "lng": -0.36538,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Císcar - Borriana Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4930501923",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Císcar - Borriana",
+    "name:ca": "Falla Císcar - Borriana",
+    "name:es": "Falla Císcar - Burriana",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fallajoaquimcostacompted",
+  "n": "Falla Joaquim Costa - Compte d'Altea",
+  "a": "",
+  "pc": "",
+  "lat": 39.46636,
+  "lng": -0.3674,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Falla Joaquim Costa - Compte d'Altea Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/4930502124",
+   "raw": {
+    "artwork_type": "falla",
+    "name": "Falla Joaquim Costa - Compte d'Altea",
+    "name:ca": "Falla Joaquim Costa - Compte d'Altea",
+    "name:es": "Falla Joaquín Costa - Conde de Altea",
+    "opening_hours": "Mar 16-19",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "1ercentenarifalladelacor",
+  "n": "1er Centenari Falla de la Corretgeria",
+  "a": "",
+  "pc": "",
+  "lat": 39.47543,
+  "lng": -0.37678,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "1er Centenari Falla de la Corretgeria Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5046886224",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "plaque",
+    "name": "1er Centenari Falla de la Corretgeria"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "reinamariana",
+  "n": "Reina Mariana",
+  "a": "",
+  "pc": "",
+  "lat": 39.47148,
+  "lng": -0.37756,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Reina Mariana Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5046970847",
+   "raw": {
+    "artist:wikidata": "Q546947",
+    "artist_name": "Manolo Valdés",
+    "artwork_type": "statue",
+    "name": "Reina Mariana",
+    "start_date": "2004-01-00",
+    "subject:wikidata": "Q311469",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaaugusto",
+  "n": "Monumento a Augusto",
+  "a": "",
+  "pc": "",
+  "lat": 39.47016,
+  "lng": -0.38285,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento a Augusto Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5062951170",
+   "raw": {
+    "historic": "monument",
+    "name": "Monumento a Augusto"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alaqua",
+  "n": "Al aqua",
+  "a": "",
+  "pc": "",
+  "lat": 39.47861,
+  "lng": -0.36976,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Al aqua Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5079446521",
+   "raw": {
+    "name": "Al aqua",
+    "name:es": "Al aqua",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bombasgenscentredart",
+  "n": "Bombas Gens Centre d'Art",
+  "a": "",
+  "pc": "",
+  "lat": 39.48555,
+  "lng": -0.38498,
+  "c": "museum",
+  "s": "museum",
+  "q": "Bombas Gens Centre d'Art Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5100017480",
+   "raw": {
+    "contact:email": "info@bombasgens.com",
+    "contact:facebook": "https://www.facebook.com/BombasGens/",
+    "contact:phone": "+34 963 463 856",
+    "contact:twitter": "https://twitter.com/BombasGens",
+    "name": "Bombas Gens Centre d'Art",
+    "opening_hours": "We 17:00-21:00; Th-Su 11:00-14:00,17:00-21:00; Mo,Tu off",
+    "operator": "Fundació per Amor a l'Art",
+    "tourism": "museum",
+    "website": "https://www.bombasgens.com/",
+    "wikidata": "Q16911704",
+    "wikipedia": "ca:Bombas Gens"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pintorjuandejuanes",
+  "n": "Pintor Juan de Juanes",
+  "a": "",
+  "pc": "",
+  "lat": 39.47907,
+  "lng": -0.37866,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Pintor Juan de Juanes Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5140340360",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Pintor Juan de Juanes",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museudelarrosdevalencia",
+  "n": "Museu de l'Arròs de València",
+  "a": "",
+  "pc": "",
+  "lat": 39.46328,
+  "lng": -0.33192,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museu de l'Arròs de València Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5167202796",
+   "raw": {
+    "addr:housenumber": "3",
+    "addr:postcode": "46011",
+    "addr:street": "Carrer del Rosari",
+    "contact:phone": "+34 962084075",
+    "email": "info.museo@arrozdevalencia.org",
+    "fee": "yes",
+    "name": "Museu de l'Arròs de València",
+    "name:ca": "Museu de l'Arròs",
+    "name:es": "Museo del Arroz",
+    "opening_hours": "Mo off; Tu-Sa 10:00-14:00,15:00-19:00; Su 10:30-14:00; PH 10:00-14:00",
+    "tourism": "museum",
+    "website": "https:// museodelarrozdevalencia.com",
+    "wikidata": "Q107509424"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaelbigotes",
+  "n": "Monumento a \"El bigotes\"",
+  "a": "",
+  "pc": "",
+  "lat": 39.49756,
+  "lng": -0.43405,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento a \"El bigotes\" Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5320166676",
+   "raw": {
+    "historic": "memorial",
+    "name": "Monumento a \"El bigotes\""
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "estatuavicenteblascoiban",
+  "n": "Estàtua Vicente Blasco Ibáñez",
+  "a": "",
+  "pc": "",
+  "lat": 39.50972,
+  "lng": -0.41198,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Estàtua Vicente Blasco Ibáñez Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5355838339",
+   "raw": {
+    "artwork_type": "sculpture",
+    "name": "Estàtua Vicente Blasco Ibáñez",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "elpouet",
+  "n": "El Pouet",
+  "a": "",
+  "pc": "",
+  "lat": 39.50518,
+  "lng": -0.40521,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "El Pouet Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5355938765",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "yes",
+    "name": "El Pouet"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "homenatgealhorta",
+  "n": "Homenatge a l'Horta",
+  "a": "",
+  "pc": "",
+  "lat": 39.49807,
+  "lng": -0.35124,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Homenatge a l'Horta Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5372132021",
+   "raw": {
+    "historic": "monument",
+    "name": "Homenatge a l'Horta"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "marquesdelturia",
+  "n": "Marqués del Túria",
+  "a": "",
+  "pc": "",
+  "lat": 39.46831,
+  "lng": -0.36573,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Marqués del Túria Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5457808193",
+   "raw": {
+    "artwork_type": "statue",
+    "name": "Marqués del Túria",
+    "name:ca": "Marquès del Túria",
+    "tourism": "artwork",
+    "wikidata": "Q17301977",
+    "wikipedia": "es:Marquesado del Turia"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "creucobertadelcamireiald",
+  "n": "Creu Coberta del Camí Reial de Xàtiva",
+  "a": "",
+  "pc": "",
+  "lat": 39.44797,
+  "lng": -0.38576,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Creu Coberta del Camí Reial de Xàtiva Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5472798401",
+   "raw": {
+    "denomination": "roman_catholic",
+    "historic": "wayside_cross",
+    "name": "Creu Coberta del Camí Reial de Xàtiva",
+    "religion": "christian",
+    "short_name": "Creu Coberta",
+    "start_date": "1376"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ruedadelcementerio",
+  "n": "Rueda del cementerio",
+  "a": "",
+  "pc": "",
+  "lat": 39.50634,
+  "lng": -0.42303,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Rueda del cementerio Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/5616317687",
+   "raw": {
+    "historic": "memorial",
+    "name": "Rueda del cementerio"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "paiporta",
+  "n": "Paiporta",
+  "a": "",
+  "pc": "",
+  "lat": 39.42778,
+  "lng": -0.41833,
+  "c": "oddity",
+  "s": "municipality of Spain",
+  "q": "Paiporta Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q102848",
+   "raw": "municipality of Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "picanya",
+  "n": "Picanya",
+  "a": "",
+  "pc": "",
+  "lat": 39.43559,
+  "lng": -0.43591,
+  "c": "oddity",
+  "s": "municipality of Spain",
+  "q": "Picanya Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1982763",
+   "raw": "municipality of Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "trainstationofvalenciasa",
+  "n": "Train station of València-Sant Isidre",
+  "a": "",
+  "pc": "",
+  "lat": 39.45014,
+  "lng": -0.404,
+  "c": "oddity",
+  "s": "railway station in Valencia, Spain",
+  "q": "Train station of València-Sant Isidre Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3097924",
+   "raw": "railway station in Valencia, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofourladyofthefors",
+  "n": "Church of Our Lady of the Forsaken and Saint Isidore",
+  "a": "",
+  "pc": "",
+  "lat": 39.45333,
+  "lng": -0.40742,
+  "c": "faith",
+  "s": "cultural property in Valencia, Spain",
+  "q": "Church of Our Lady of the Forsaken and Saint Isidore Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5836672",
+   "raw": "cultural property in Valencia, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "varadequarttrainstation",
+  "n": "Vara de Quart train station",
+  "a": "",
+  "pc": "",
+  "lat": 39.45275,
+  "lng": -0.40588,
+  "c": "oddity",
+  "s": "railway station in Valencia, Spain",
+  "q": "Vara de Quart train station Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5847424",
+   "raw": "railway station in Valencia, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "faitanar",
+  "n": "Faitanar",
+  "a": "",
+  "pc": "",
+  "lat": 39.44111,
+  "lng": -0.41111,
+  "c": "oddity",
+  "s": "neighbourhood in Valencia, Spain",
+  "q": "Faitanar Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q8960773",
+   "raw": "neighbourhood in Valencia, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanisidrovalencia",
+  "n": "San Isidro (Valencia)",
+  "a": "",
+  "pc": "",
+  "lat": 39.4519,
+  "lng": -0.40291,
+  "c": "oddity",
+  "s": "neighbourhood in Valencia, Spain",
+  "q": "San Isidro (Valencia) Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q9073950",
+   "raw": "neighbourhood in Valencia, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cv36",
+  "n": "CV-36",
+  "a": "",
+  "pc": "",
+  "lat": 39.44428,
+  "lng": -0.4216,
+  "c": "oddity",
+  "s": "regional motorway in the Land of Valencia",
+  "q": "CV-36 Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10995774",
+   "raw": "regional motorway in the Land of Valencia",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "escolagavina",
+  "n": "Escola Gavina",
+  "a": "",
+  "pc": "",
+  "lat": 39.44507,
+  "lng": -0.44313,
+  "c": "oddity",
+  "s": "school in Picanya",
+  "q": "Escola Gavina Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q11919742",
+   "raw": "school in Picanya",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alqueriaaiguamollsicasam",
+  "n": "Alqueria Aiguamolls i Casa Maso",
+  "a": "",
+  "pc": "",
+  "lat": 39.4445,
+  "lng": -0.40691,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Alqueria Aiguamolls i Casa Maso Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q15291161",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chimneyofagustinhurtadob",
+  "n": "Chimney of Agustín Hurtado Brickyars",
+  "a": "",
+  "pc": "",
+  "lat": 39.43977,
+  "lng": -0.40323,
+  "c": "oddity",
+  "s": "chimney in Valencia, Spain",
+  "q": "Chimney of Agustín Hurtado Brickyars Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q16548709",
+   "raw": "chimney in Valencia, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "paiportastation",
+  "n": "Paiporta station",
+  "a": "",
+  "pc": "",
+  "lat": 39.4323,
+  "lng": -0.41805,
+  "c": "oddity",
+  "s": "railway station in Paiporta, Spain",
+  "q": "Paiporta station Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q19367978",
+   "raw": "railway station in Paiporta, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rajolardebauset",
+  "n": "Rajolar de Bauset",
+  "a": "",
+  "pc": "",
+  "lat": 39.42419,
+  "lng": -0.4176,
+  "c": "oddity",
+  "s": "brickyard in Paiporta, Spain",
+  "q": "Rajolar de Bauset Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q27043450",
+   "raw": "brickyard in Paiporta, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "churchofsaintgeorge",
+  "n": "Church of Saint George",
+  "a": "",
+  "pc": "",
+  "lat": 39.43088,
+  "lng": -0.41746,
+  "c": "faith",
+  "s": "church in Paiporta",
+  "q": "Church of Saint George Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q28132284",
+   "raw": "church in Paiporta",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pontvellpaiporta",
+  "n": "Pont Vell, Paiporta",
+  "a": "",
+  "pc": "",
+  "lat": 39.42917,
+  "lng": -0.41843,
+  "c": "oddity",
+  "s": "bridge in Paiporta",
+  "q": "Pont Vell, Paiporta Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q39386185",
+   "raw": "bridge in Paiporta",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecapublicamunicip",
+  "n": "Biblioteca Pública Municipal de Picanya",
+  "a": "",
+  "pc": "",
+  "lat": 39.43667,
+  "lng": -0.43707,
+  "c": "oddity",
+  "s": "library in Spain",
+  "q": "Biblioteca Pública Municipal de Picanya Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q85817611",
+   "raw": "library in Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "motordesancristobal",
+  "n": "Motor de San Cristóbal",
+  "a": "",
+  "pc": "",
+  "lat": 39.44351,
+  "lng": -0.42561,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Motor de San Cristóbal Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q89995003",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "motordeferrerandchimney",
+  "n": "Motor de Ferrer and chimney",
+  "a": "",
+  "pc": "",
+  "lat": 39.44826,
+  "lng": -0.42513,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Motor de Ferrer and chimney Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q89995000",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "llenguesdepaiportafaitan",
+  "n": "Llengües de Paiporta (Faitanar)",
+  "a": "",
+  "pc": "",
+  "lat": 39.43558,
+  "lng": -0.42122,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Llengües de Paiporta (Faitanar) Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q90106768",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "camivelldetorrentvalenci",
+  "n": "Camí Vell de Torrent, València",
+  "a": "",
+  "pc": "",
+  "lat": 39.44806,
+  "lng": -0.41337,
+  "c": "oddity",
+  "s": "old road in Valencia municipality",
+  "q": "Camí Vell de Torrent, València Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q90126120",
+   "raw": "old road in Valencia municipality",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chimneyatcamialqueriader",
+  "n": "Chimney at Camí Alqueria de Rocatí",
+  "a": "",
+  "pc": "",
+  "lat": 39.44561,
+  "lng": -0.41138,
+  "c": "oddity",
+  "s": "chimney in Valencia municipality",
+  "q": "Chimney at Camí Alqueria de Rocatí Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q90153146",
+   "raw": "chimney in Valencia municipality",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alqueriadelrocati",
+  "n": "Alqueria del Rocatí",
+  "a": "",
+  "pc": "",
+  "lat": 39.44733,
+  "lng": -0.41119,
+  "c": "oddity",
+  "s": "alqueria in Valencia municipality",
+  "q": "Alqueria del Rocatí Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q90408449",
+   "raw": "alqueria in Valencia municipality",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alqueriadeferrer",
+  "n": "Alqueria de Ferrer",
+  "a": "",
+  "pc": "",
+  "lat": 39.44861,
+  "lng": -0.42083,
+  "c": "oddity",
+  "s": "alqueria in Valencia municipality",
+  "q": "Alqueria de Ferrer Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q90409974",
+   "raw": "alqueria in Valencia municipality",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alqueriadebartol",
+  "n": "Alqueria de Bàrtol",
+  "a": "",
+  "pc": "",
+  "lat": 39.44472,
+  "lng": -0.41611,
+  "c": "oddity",
+  "s": "alqueria in Valencia municipality",
+  "q": "Alqueria de Bàrtol Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q90409983",
+   "raw": "alqueria in Valencia municipality",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alqueriadebaixandceramic",
+  "n": "Alqueria de Baix and ceràmic panel",
+  "a": "",
+  "pc": "",
+  "lat": 39.44004,
+  "lng": -0.42279,
+  "c": "oddity",
+  "s": "alqueria with ceramic panel in Valencia municipality",
+  "q": "Alqueria de Baix and ceràmic panel Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q90412261",
+   "raw": "alqueria with ceramic panel in Valencia municipality",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "motordeladivinapastora",
+  "n": "Motor de la Divina Pastora",
+  "a": "",
+  "pc": "",
+  "lat": 39.45543,
+  "lng": -0.44911,
+  "c": "oddity",
+  "s": "building in Alaquàs, Spain",
+  "q": "Motor de la Divina Pastora Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97485105",
+   "raw": "building in Alaquàs, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pontvell",
+  "n": "Pont Vell",
+  "a": "",
+  "pc": "",
+  "lat": 39.43664,
+  "lng": -0.43401,
+  "c": "oddity",
+  "s": "bridge in Picanya, Spain",
+  "q": "Pont Vell Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97485359",
+   "raw": "bridge in Picanya, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "picanyawatertower",
+  "n": "Picanya water tower",
+  "a": "",
+  "pc": "",
+  "lat": 39.43529,
+  "lng": -0.43789,
+  "c": "history",
+  "s": "water tower in Picanya, Spain",
+  "q": "Picanya water tower Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97485357",
+   "raw": "water tower in Picanya, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "motordevaleropicanya",
+  "n": "Motor de Valero, Picanya",
+  "a": "",
+  "pc": "",
+  "lat": 39.43826,
+  "lng": -0.43682,
+  "c": "oddity",
+  "s": "building in Picanya, Spain",
+  "q": "Motor de Valero, Picanya Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97485367",
+   "raw": "building in Picanya, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "motordesantjordi",
+  "n": "Motor de Sant Jordi",
+  "a": "",
+  "pc": "",
+  "lat": 39.43075,
+  "lng": -0.4405,
+  "c": "oddity",
+  "s": "irrigation engine in Picanya, Spain",
+  "q": "Motor de Sant Jordi Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97485365",
+   "raw": "irrigation engine in Picanya, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "motordeginerpicanya",
+  "n": "Motor de Giner, Picanya",
+  "a": "",
+  "pc": "",
+  "lat": 39.43514,
+  "lng": -0.4321,
+  "c": "oddity",
+  "s": "building in Picanya, Spain",
+  "q": "Motor de Giner, Picanya Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97485370",
+   "raw": "building in Picanya, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "motordelasangpicanya",
+  "n": "Motor de la Sang, Picanya",
+  "a": "",
+  "pc": "",
+  "lat": 39.44635,
+  "lng": -0.44596,
+  "c": "oddity",
+  "s": "building in Picanya, Spain",
+  "q": "Motor de la Sang, Picanya Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97485374",
+   "raw": "building in Picanya, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "picanyastation",
+  "n": "Picanya station",
+  "a": "",
+  "pc": "",
+  "lat": 39.4331,
+  "lng": -0.43658,
+  "c": "oddity",
+  "s": "building in Picanya, Spain",
+  "q": "Picanya station Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97485372",
+   "raw": "building in Picanya, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "motordesantagusti",
+  "n": "Motor de Sant Agustí",
+  "a": "",
+  "pc": "",
+  "lat": 39.43,
+  "lng": -0.43072,
+  "c": "oddity",
+  "s": "irrigation engine in Picanya, Spain",
+  "q": "Motor de Sant Agustí Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97485379",
+   "raw": "irrigation engine in Picanya, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cemeteryofourladyofgoodh",
+  "n": "Cemetery of Our Lady of Good Health",
+  "a": "",
+  "pc": "",
+  "lat": 39.45175,
+  "lng": -0.4224,
+  "c": "death",
+  "s": "cemetery in Xirivella",
+  "q": "Cemetery of Our Lady of Good Health Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97485475",
+   "raw": "cemetery in Xirivella",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "poudesantbernat",
+  "n": "Pou de Sant Bernat",
+  "a": "",
+  "pc": "",
+  "lat": 39.43392,
+  "lng": -0.42001,
+  "c": "oddity",
+  "s": "building in Paiporta, Spain",
+  "q": "Pou de Sant Bernat Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97485723",
+   "raw": "building in Paiporta, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "watertank",
+  "n": "water tank",
+  "a": "",
+  "pc": "",
+  "lat": 39.42437,
+  "lng": -0.42004,
+  "c": "history",
+  "s": "water tower in Paiporta, Spain",
+  "q": "water tank Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97485725",
+   "raw": "water tower in Paiporta, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "motordesantfrancesc",
+  "n": "Motor de Sant Francesc",
+  "a": "",
+  "pc": "",
+  "lat": 39.42729,
+  "lng": -0.41265,
+  "c": "oddity",
+  "s": "building in Paiporta, Spain",
+  "q": "Motor de Sant Francesc Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q97485734",
+   "raw": "building in Paiporta, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santisidrerailwaystop",
+  "n": "Sant Isidre railway stop",
+  "a": "",
+  "pc": "",
+  "lat": 39.44294,
+  "lng": -0.40872,
+  "c": "oddity",
+  "s": "railway stop in Valencia, Spain",
+  "q": "Sant Isidre railway stop Valencia",
+  "w": "",
+  "city": "valencia",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q106243177",
+   "raw": "railway stop in Valencia, Spain",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

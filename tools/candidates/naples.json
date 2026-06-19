@@ -1,0 +1,3253 @@
+[
+ {
+  "id": "flaminio",
+  "n": "Flaminio",
+  "a": "",
+  "pc": "",
+  "lat": 40.83886,
+  "lng": 14.3438,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Flaminio Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/298270500",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Flaminio"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lapiccolalourdesdiportic",
+  "n": "La piccola Lourdes di Portici",
+  "a": "",
+  "pc": "",
+  "lat": 40.81249,
+  "lng": 14.33798,
+  "c": "faith",
+  "s": "church",
+  "q": "La piccola Lourdes di Portici Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/472481723",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-04-28",
+    "denomination": "catholic",
+    "name": "La piccola Lourdes di Portici",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cappelladelpalazzorealed",
+  "n": "Cappella del Palazzo Reale di Portici",
+  "a": "",
+  "pc": "",
+  "lat": 40.81176,
+  "lng": 14.34257,
+  "c": "faith",
+  "s": "church",
+  "q": "Cappella del Palazzo Reale di Portici Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/472481724",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Cappella del Palazzo Reale di Portici",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesadisanluigi",
+  "n": "Chiesa di San Luigi",
+  "a": "",
+  "pc": "",
+  "lat": 40.8163,
+  "lng": 14.3342,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa di San Luigi Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/472481729",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2025-08-25",
+    "denomination": "catholic",
+    "name": "Chiesa di San Luigi",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "torremedievale",
+  "n": "Torre Medievale",
+  "a": "",
+  "pc": "",
+  "lat": 40.81417,
+  "lng": 14.33925,
+  "c": "medieval",
+  "s": "medieval site",
+  "q": "Torre Medievale Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/472481730",
+   "raw": {
+    "historic": "castle",
+    "name": "Torre Medievale"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemafilangieri",
+  "n": "Cinema Filangieri",
+  "a": "",
+  "pc": "",
+  "lat": 40.83611,
+  "lng": 14.24098,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinema Filangieri Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/499479012",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Cinema Filangieri",
+    "phone": "+39 081 251 2408",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.cinemafilangieri.it/",
+    "wheelchair": "yes",
+    "wikidata": "Q37161857"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemametropolitan",
+  "n": "Cinema Metropolitan",
+  "a": "",
+  "pc": "",
+  "lat": 40.8359,
+  "lng": 14.2429,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinema Metropolitan Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/499480400",
+   "raw": {
+    "addr:city": "Napoli",
+    "addr:housenumber": "149",
+    "addr:postcode": "80121",
+    "addr:street": "Vía Chiaia",
+    "amenity": "cinema",
+    "name": "Cinema Metropolitan",
+    "wheelchair": "yes",
+    "wikidata": "Q37161968"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cinemadellepalme",
+  "n": "Cinema delle Palme",
+  "a": "",
+  "pc": "",
+  "lat": 40.83755,
+  "lng": 14.23922,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Cinema delle Palme Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/499480599",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Cinema delle Palme",
+    "wheelchair": "limited",
+    "wikidata": "Q37161715"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "plazaingressobernini",
+  "n": "Plaza - ingresso Bernini",
+  "a": "",
+  "pc": "",
+  "lat": 40.84512,
+  "lng": 14.23171,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Plaza - ingresso Bernini Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1418558868",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Plaza - ingresso Bernini"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "casanatalesanludovicodac",
+  "n": "Casa Natale San Ludovico da Casoria",
+  "a": "",
+  "pc": "",
+  "lat": 40.90688,
+  "lng": 14.29,
+  "c": "faith",
+  "s": "place of worship",
+  "q": "Casa Natale San Ludovico da Casoria Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1501429669",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Casa Natale San Ludovico da Casoria"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "belvederefrancescoluccio",
+  "n": "Belvedere Francesco Luccio",
+  "a": "",
+  "pc": "",
+  "lat": 40.85768,
+  "lng": 14.20395,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Belvedere Francesco Luccio Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1587272114",
+   "raw": {
+    "name": "Belvedere Francesco Luccio",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cappelladisangiovannibat",
+  "n": "Cappella di San Giovanni Battista",
+  "a": "",
+  "pc": "",
+  "lat": 40.86569,
+  "lng": 14.18586,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Cappella di San Giovanni Battista Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1589845002",
+   "raw": {
+    "historic": "ruins",
+    "name": "Cappella di San Giovanni Battista"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lapidediclaudiomiccoli",
+  "n": "Lapide di Claudio Miccoli",
+  "a": "",
+  "pc": "",
+  "lat": 40.8291,
+  "lng": 14.21996,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Lapide di Claudio Miccoli Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1634579028",
+   "raw": {
+    "commemorates:wikidata": "Q16542300",
+    "historic": "memorial",
+    "inscription": "A | CLAUDIO MICCOLI | VITTIMA A VENT'ANNI DELL'INTOLLERANZA | E DELLA VIOLENZA | PER NON DIMENTICARE! | 1978 - NAPOLI, 6 OTTOBRE - 1998",
+    "inscription:url": "http://www.associazioneclaudiomiccoli.it/foto/big/File0050.jpg",
+    "memorial": "plaque",
+    "name": "Lapide di Claudio Miccoli",
+    "openplaques:id": "53432",
+    "start_date": "1998",
+    "subject:wikipedia": "it:Claudio_Miccoli"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "osservatorioastronomico",
+  "n": "Osservatorio Astronomico",
+  "a": "",
+  "pc": "",
+  "lat": 40.86353,
+  "lng": 14.25537,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Osservatorio Astronomico Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1683061306",
+   "raw": {
+    "historic": "monument",
+    "name": "Osservatorio Astronomico"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parrocchiagesudivinomaes",
+  "n": "Parrocchia Gesù Divino Maestro",
+  "a": "",
+  "pc": "",
+  "lat": 40.88884,
+  "lng": 14.14249,
+  "c": "faith",
+  "s": "church",
+  "q": "Parrocchia Gesù Divino Maestro Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1699992662",
+   "raw": {
+    "amenity": "place_of_worship",
+    "name": "Parrocchia Gesù Divino Maestro",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "pietrabianca",
+  "n": "Pietra Bianca",
+  "a": "",
+  "pc": "",
+  "lat": 40.87424,
+  "lng": 14.14535,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Pietra Bianca Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1706621925",
+   "raw": {
+    "check_date": "2025-11-22",
+    "historic": "archaeological_site",
+    "name": "Pietra Bianca",
+    "wikimedia_commons": "File:Pietra Bianca.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sorgentetermaleemuragrec",
+  "n": "Sorgente termale e mura greche",
+  "a": "",
+  "pc": "",
+  "lat": 40.82792,
+  "lng": 14.1725,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Sorgente termale e mura greche Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1767583545",
+   "raw": {
+    "historic": "ruins",
+    "name": "Sorgente termale e mura greche"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "statuadeldionilo",
+  "n": "Statua del dio Nilo",
+  "a": "",
+  "pc": "",
+  "lat": 40.84874,
+  "lng": 14.25621,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Statua del dio Nilo Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1777082761",
+   "raw": {
+    "alt_name": "Corpo di Napoli",
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "inscription": "Vetustissimam Nili Statuam Ab Alexandrinis Olim Ut Fama Est In Proximo Habitantibus Velut Patrio Numini Positam Deinde Temporum Injuria Corruptam Capiteque Truncatam Aediles Quidem Anni MDCLXVII Ne Quae Huic Regioni Celebre Nomen Fecit Sine Honore Jaceret",
+    "material": "marble",
+    "memorial": "statue",
+    "name": "Statua del dio Nilo",
+    "tourism": "artwork",
+    "wikidata": "Q3968659",
+    "wikimedia_commons": "Category:Statue of the Nile (Naples)",
+    "wikipedia": "it:Statua del dio Nilo"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "termeromanediagnano",
+  "n": "Terme Romane di Agnano",
+  "a": "",
+  "pc": "",
+  "lat": 40.82577,
+  "lng": 14.16945,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Terme Romane di Agnano Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1782917581",
+   "raw": {
+    "historic": "ruins",
+    "name": "Terme Romane di Agnano"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaimartirinapole",
+  "n": "Monumento ai Martiri Napoletani",
+  "a": "",
+  "pc": "",
+  "lat": 40.83418,
+  "lng": 14.24186,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento ai Martiri Napoletani Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1941104118",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "obelisk",
+    "name": "Monumento ai Martiri Napoletani"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaicolerosi",
+  "n": "Monumento ai Colerosi",
+  "a": "",
+  "pc": "",
+  "lat": 40.83266,
+  "lng": 14.23741,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento ai Colerosi Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1941427012",
+   "raw": {
+    "historic": "monument",
+    "name": "Monumento ai Colerosi"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiostrodelleclarisse",
+  "n": "Chiostro delle Clarisse",
+  "a": "",
+  "pc": "",
+  "lat": 40.84603,
+  "lng": 14.25327,
+  "c": "museum",
+  "s": "museum",
+  "q": "Chiostro delle Clarisse Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1941560988",
+   "raw": {
+    "fee": "yes",
+    "name": "Chiostro delle Clarisse",
+    "opening_hours": "Mo-Sa 09:30-17:30+; Su 10:00-14:30+",
+    "tourism": "museum",
+    "wheelchair": "yes",
+    "wikidata": "Q21192700",
+    "wikipedia": "it:Chiostro maiolicato"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lacura",
+  "n": "La Cura",
+  "a": "",
+  "pc": "",
+  "lat": 40.84322,
+  "lng": 14.23889,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "La Cura Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/1946020239",
+   "raw": {
+    "artist_name": "Chiara Coccorese",
+    "artwork_type": "installation",
+    "name": "La Cura",
+    "start_date": "2017",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesadellordinedeicarme",
+  "n": "Chiesa dell'ordine dei carmelitani scalzi",
+  "a": "",
+  "pc": "",
+  "lat": 40.79519,
+  "lng": 14.36184,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa dell'ordine dei carmelitani scalzi Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2004779774",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Chiesa dell'ordine dei carmelitani scalzi",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "smariadelpopolo",
+  "n": "S. Maria del Popolo",
+  "a": "",
+  "pc": "",
+  "lat": 40.7933,
+  "lng": 14.36223,
+  "c": "faith",
+  "s": "church",
+  "q": "S. Maria del Popolo Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2034605653",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "S. Maria del Popolo",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesasansebastiano",
+  "n": "Chiesa San Sebastiano",
+  "a": "",
+  "pc": "",
+  "lat": 40.84308,
+  "lng": 14.36989,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa San Sebastiano Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2089746162",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Chiesa San Sebastiano",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "casadiantoniodecurtisina",
+  "n": "Casa di Antonio De Curtis in arte Totò",
+  "a": "",
+  "pc": "",
+  "lat": 40.85844,
+  "lng": 14.25223,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Casa di Antonio De Curtis in arte Totò Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2190824534",
+   "raw": {
+    "historic": "memorial",
+    "name": "Casa di Antonio De Curtis in arte Totò"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "belvederesanmartino",
+  "n": "Belvedere San Martino",
+  "a": "",
+  "pc": "",
+  "lat": 40.84411,
+  "lng": 14.24086,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Belvedere San Martino Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2209672133",
+   "raw": {
+    "name": "Belvedere San Martino",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "giuseppemazzini",
+  "n": "Giuseppe Mazzini",
+  "a": "",
+  "pc": "",
+  "lat": 40.83866,
+  "lng": 14.25156,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Giuseppe Mazzini Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2209919915",
+   "raw": {
+    "artwork_type": "bust",
+    "inscription": "A Mazzini, Napoli 1920",
+    "name": "Giuseppe Mazzini",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "monumentoaicadutidelmare",
+  "n": "Monumento ai Caduti del Mare",
+  "a": "",
+  "pc": "",
+  "lat": 40.83146,
+  "lng": 14.24125,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Monumento ai Caduti del Mare Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2210392929",
+   "raw": {
+    "alt_name": "Colonna spezzata",
+    "historic": "memorial",
+    "name": "Monumento ai Caduti del Mare",
+    "wikidata": "Q56323312",
+    "wikipedia": "it:Colonna spezzata"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gugliadisangennaro",
+  "n": "Guglia di San Gennaro",
+  "a": "",
+  "pc": "",
+  "lat": 40.85214,
+  "lng": 14.26017,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Guglia di San Gennaro Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2217484157",
+   "raw": {
+    "historic": "monument",
+    "name": "Guglia di San Gennaro",
+    "wikidata": "Q1255701",
+    "wikimedia_commons": "Category:Spire of San Gennaro",
+    "wikipedia": "it:Guglia di San Gennaro"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "uomovitruviano",
+  "n": "Uomo Vitruviano",
+  "a": "",
+  "pc": "",
+  "lat": 40.85651,
+  "lng": 14.28212,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Uomo Vitruviano Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2232486910",
+   "raw": {
+    "historic": "memorial",
+    "layer": "1",
+    "name": "Uomo Vitruviano"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "simonbolivar",
+  "n": "Simón Bolívar",
+  "a": "",
+  "pc": "",
+  "lat": 40.79878,
+  "lng": 14.17691,
+  "c": "streetart",
+  "s": "public artwork",
+  "q": "Simón Bolívar Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2242805079",
+   "raw": {
+    "artwork_type": "bust",
+    "historic": "memorial",
+    "inscription": "República Bolivariana de Venezuela / Simón Bolívar / El Libertador / 1783 - 1830 / \"La Igualdad, la Libertad y la Independencia son nuestra divisa\" / (discurso de Bolívar a los soldados del Ejército Libertador - 17 de octubre de 1817)",
+    "memorial": "bust",
+    "name": "Simón Bolívar",
+    "subject:wikidata": "Q8605",
+    "subject:wikipedia": "it:Simón Bolívar"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "corporea",
+  "n": "Corporea",
+  "a": "",
+  "pc": "",
+  "lat": 40.80542,
+  "lng": 14.1742,
+  "c": "museum",
+  "s": "museum",
+  "q": "Corporea Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2338747687",
+   "raw": {
+    "check_date": "2023-05-28",
+    "fee": "yes",
+    "name": "Corporea",
+    "tourism": "museum",
+    "wikidata": "Q68670285"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cervosullacolonna",
+  "n": "Cervo sulla colonna",
+  "a": "",
+  "pc": "",
+  "lat": 40.82462,
+  "lng": 14.18454,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Cervo sulla colonna Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2414437667",
+   "raw": {
+    "artwork_type": "statue",
+    "man_made": "pole",
+    "name": "Cervo sulla colonna",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesadisantalfonsomaria",
+  "n": "Chiesa di Sant'Alfonso Maria de Liguori",
+  "a": "",
+  "pc": "",
+  "lat": 40.86178,
+  "lng": 14.26848,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa di Sant'Alfonso Maria de Liguori Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2432387418",
+   "raw": {
+    "addr:city": "Napoli",
+    "addr:housename": "Via Pietro Giannone",
+    "addr:postcode": "80142",
+    "amenity": "place_of_worship",
+    "name": "Chiesa di Sant'Alfonso Maria de Liguori",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aeritalialockheedf104sas",
+  "n": "Aeritalia Lockheed F 104S ASA",
+  "a": "",
+  "pc": "",
+  "lat": 40.82168,
+  "lng": 14.14096,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Aeritalia Lockheed F 104S ASA Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2506382672",
+   "raw": {
+    "historic": "aircraft",
+    "model:wikidata": "Q327844",
+    "model:wikipedia": "en:Aeritalia F-104S Starfighter",
+    "name": "Aeritalia Lockheed F 104S ASA",
+    "ref": "MM 6921",
+    "start_date": "1999",
+    "tourism": "attraction",
+    "wikimedia_commons": "Category:Aeritalia F-104S"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "aermacchimb339pan",
+  "n": "Aermacchi MB 339PAN",
+  "a": "",
+  "pc": "",
+  "lat": 40.82056,
+  "lng": 14.14239,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Aermacchi MB 339PAN Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2506386787",
+   "raw": {
+    "historic": "aircraft",
+    "model:wikidata": "Q17519142",
+    "name": "Aermacchi MB 339PAN",
+    "ref": "MM 54478",
+    "tourism": "attraction"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "portadelleterme",
+  "n": "Porta delle Terme",
+  "a": "",
+  "pc": "",
+  "lat": 40.82609,
+  "lng": 14.17102,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Porta delle Terme Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2522260191",
+   "raw": {
+    "historic": "monument",
+    "name": "Porta delle Terme"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "salvodacquisto",
+  "n": "Salvo D'Acquisto",
+  "a": "",
+  "pc": "",
+  "lat": 40.84438,
+  "lng": 14.24926,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Salvo D'Acquisto Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2554370130",
+   "raw": {
+    "historic": "monument",
+    "name": "Salvo D'Acquisto"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museohermannnitsch",
+  "n": "Museo Hermann Nitsch",
+  "a": "",
+  "pc": "",
+  "lat": 40.85027,
+  "lng": 14.24812,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Hermann Nitsch Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2601104325",
+   "raw": {
+    "addr:city": "Napoli",
+    "addr:housenumber": "29d",
+    "addr:postcode": "80135",
+    "addr:street": "Vico Lungo Pontecorvo",
+    "check_date": "2023-05-08",
+    "museum": "art",
+    "name": "Museo Hermann Nitsch",
+    "opening_hours": "Mo-Fr 10:00-19:00, Sa-Su 10:00-16:00",
+    "operator": "Fondazione Morra",
+    "operator:type": "private",
+    "phone": "+39 081 5641655",
+    "tourism": "museum",
+    "website": "https://www.museonitsch.org/it/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "teatroromanodiercolano",
+  "n": "Teatro romano di Ercolano",
+  "a": "",
+  "pc": "",
+  "lat": 40.80823,
+  "lng": 14.34776,
+  "c": "roman",
+  "s": "Roman remains",
+  "q": "Teatro romano di Ercolano Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2662236954",
+   "raw": {
+    "historic": "archaeological_site",
+    "name": "Teatro romano di Ercolano",
+    "website": "http://www.cir.campania.beniculturali.it/luoghi-della-cultura/ercolano-teatro-romano",
+    "wikidata": "Q16612568",
+    "wikipedia": "es:Teatro de Herculano"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesadisantasprenoalpor",
+  "n": "Chiesa di Sant'Aspreno al Porto",
+  "a": "",
+  "pc": "",
+  "lat": 40.84429,
+  "lng": 14.25502,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa di Sant'Aspreno al Porto Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2669010776",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Chiesa di Sant'Aspreno al Porto",
+    "religion": "christian",
+    "wikidata": "Q255343",
+    "wikimedia_commons": "Category:Sant'Aspreno al Porto",
+    "wikipedia": "it:Chiesa di Sant'Aspreno al Porto"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "arcaartereligiosacontemp",
+  "n": "ARCA - Arte Religiosa Contemporanea",
+  "a": "",
+  "pc": "",
+  "lat": 40.84397,
+  "lng": 14.25294,
+  "c": "museum",
+  "s": "museum",
+  "q": "ARCA - Arte Religiosa Contemporanea Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2685752767",
+   "raw": {
+    "charge": "5 EUR",
+    "check_date": "2025-11-07",
+    "fee": "yes",
+    "internet_access": "wlan",
+    "museum": "art",
+    "name": "ARCA - Arte Religiosa Contemporanea",
+    "operator:type": "private",
+    "payment:cash": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "toilets": "yes",
+    "toilets:wheelchair": "no",
+    "tourism": "museum",
+    "wikidata": "Q21551893"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sanpietroapostolo",
+  "n": "San Pietro Apostolo",
+  "a": "",
+  "pc": "",
+  "lat": 40.84624,
+  "lng": 14.25784,
+  "c": "faith",
+  "s": "church",
+  "q": "San Pietro Apostolo Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2727159807",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "orthodox",
+    "name": "San Pietro Apostolo",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "montedipieta",
+  "n": "Monte di Pietà",
+  "a": "",
+  "pc": "",
+  "lat": 40.84876,
+  "lng": 14.25784,
+  "c": "faith",
+  "s": "church",
+  "q": "Monte di Pietà Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2748670954",
+   "raw": {
+    "addr:city": "Napoli",
+    "addr:housenumber": "114",
+    "addr:street": "Via San Biagio dei Librai",
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Monte di Pietà",
+    "religion": "christian",
+    "wikidata": "Q283693",
+    "wikimedia_commons": "Category:Monte di Pietà (Naples)",
+    "wikipedia": "it:Monte di Pietà (Napoli)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "giuseppegaribaldi",
+  "n": "Giuseppe Garibaldi",
+  "a": "",
+  "pc": "",
+  "lat": 40.84727,
+  "lng": 14.24965,
+  "c": "plaque",
+  "s": "commemorative plaque",
+  "q": "Giuseppe Garibaldi Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2758594892",
+   "raw": {
+    "historic": "memorial",
+    "inscription": "nel primo centenario del giorno fatidico nel quale in questa piazza GIUSEPPE GARIBALDI veniva acclamato latore glorioso della libertà nell'Italia meridionale il popolo napoletano riafferma con immutato spirito la sua fede nell'Italia una libera democratic",
+    "memorial": "plaque",
+    "name": "Giuseppe Garibaldi"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "immacolatadeglioperatori",
+  "n": "Immacolata degli Operatori Sanitari",
+  "a": "",
+  "pc": "",
+  "lat": 40.84835,
+  "lng": 14.25056,
+  "c": "faith",
+  "s": "church",
+  "q": "Immacolata degli Operatori Sanitari Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2758744626",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Immacolata degli Operatori Sanitari",
+    "religion": "christian",
+    "start_date": "C19",
+    "wikidata": "Q3668805",
+    "wikipedia": "it:Chiesa dell'Immacolata degli Operatori Sanitari"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "teatroromanodineapolis",
+  "n": "Teatro romano di Neapolis",
+  "a": "",
+  "pc": "",
+  "lat": 40.85231,
+  "lng": 14.25652,
+  "c": "roman",
+  "s": "Roman remains",
+  "q": "Teatro romano di Neapolis Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2762632324",
+   "raw": {
+    "alt_name": "Teatro Greco-Romano;Teatro romano dell'Anticaglia",
+    "archaeological_site": "theatre",
+    "historic": "archaeological_site",
+    "historic:civilization": "ancient_roman",
+    "name": "Teatro romano di Neapolis",
+    "wikidata": "Q2202658",
+    "wikimedia_commons": "Category:Ancient Roman theatre (Naples)",
+    "wikipedia": "it:Teatro romano di Neapolis"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesadisantamariadeibia",
+  "n": "Chiesa di Santa Maria dei Bianchi",
+  "a": "",
+  "pc": "",
+  "lat": 40.85368,
+  "lng": 14.25589,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa di Santa Maria dei Bianchi Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2785258928",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2026-05-29",
+    "denomination": "catholic",
+    "name": "Chiesa di Santa Maria dei Bianchi",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "musasezionedifarmacologi",
+  "n": "MUSA - Sezione di Farmacologia",
+  "a": "",
+  "pc": "",
+  "lat": 40.85514,
+  "lng": 14.25666,
+  "c": "museum",
+  "s": "museum",
+  "q": "MUSA - Sezione di Farmacologia Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2785688521",
+   "raw": {
+    "addr:city": "Napoli",
+    "addr:housenumber": "1",
+    "addr:postcode": "80138",
+    "addr:street": "vico Luigi De Creccio",
+    "museum": "science",
+    "name": "MUSA - Sezione di Farmacologia",
+    "operator": "Vanvitelli MUSA",
+    "tourism": "museum",
+    "website": "https://www.musa.unicampania.it/index.php/le-sezioni/farmacologia"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santantoniodipadova",
+  "n": "Sant'Antonio di Padova",
+  "a": "",
+  "pc": "",
+  "lat": 40.85078,
+  "lng": 14.25638,
+  "c": "faith",
+  "s": "church",
+  "q": "Sant'Antonio di Padova Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2841970242",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Sant'Antonio di Padova",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "catacombedisangennaro",
+  "n": "Catacombe di San Gennaro",
+  "a": "",
+  "pc": "",
+  "lat": 40.86378,
+  "lng": 14.24706,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Catacombe di San Gennaro Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2866685547",
+   "raw": {
+    "access": "private",
+    "historic": "archaeological_site",
+    "level": "-1",
+    "name": "Catacombe di San Gennaro",
+    "tourism": "attraction",
+    "website": "https://www.catacombedinapoli.it/",
+    "wheelchair": "limited",
+    "wikidata": "Q3663206",
+    "wikimedia_commons": "Category:Catacombs of San Gennaro (Naples)",
+    "wikipedia": "it:Catacombe di San Gennaro"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "catacombedisangaudiosio",
+  "n": "Catacombe di San Gaudiosio",
+  "a": "",
+  "pc": "",
+  "lat": 40.85946,
+  "lng": 14.24857,
+  "c": "museum",
+  "s": "museum",
+  "q": "Catacombe di San Gaudiosio Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2866697526",
+   "raw": {
+    "archaeological_site": "necropolis",
+    "charge": "11 EUR",
+    "check_date": "2024-11-17",
+    "fee": "yes",
+    "historic": "archaeological_site",
+    "internet_access": "no",
+    "name": "Catacombe di San Gaudiosio",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "toilets": "yes",
+    "tourism": "museum",
+    "website": "https://www.catacombedinapoli.it/en",
+    "wheelchair": "no",
+    "wikidata": "Q3663202",
+    "wikimedia_commons": "Category:San Gaudioso",
+    "wikipedia": "it:Catacombe di San Gaudioso"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sacromontedeipoveri",
+  "n": "Sacro Monte dei Poveri",
+  "a": "",
+  "pc": "",
+  "lat": 40.85243,
+  "lng": 14.26318,
+  "c": "faith",
+  "s": "church",
+  "q": "Sacro Monte dei Poveri Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2914255019",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Sacro Monte dei Poveri",
+    "religion": "christian",
+    "wikidata": "Q3657411",
+    "wikimedia_commons": "Category:Monte dei Poveri (Naples)",
+    "wikipedia": "it:Cappella del Monte dei Poveri"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "scavidisantamariadiagnon",
+  "n": "Scavi di Santa Maria di Agnone",
+  "a": "",
+  "pc": "",
+  "lat": 40.8538,
+  "lng": 14.26168,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Scavi di Santa Maria di Agnone Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2916165379",
+   "raw": {
+    "historic": "archaeological_site",
+    "name": "Scavi di Santa Maria di Agnone",
+    "wikidata": "Q3673617",
+    "wikipedia": "it:Chiesa di Santa Maria ad Agnone"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesaevangelicavaldese",
+  "n": "Chiesa Evangelica Valdese",
+  "a": "",
+  "pc": "",
+  "lat": 40.84843,
+  "lng": 14.26146,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa Evangelica Valdese Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2967361087",
+   "raw": {
+    "addr:housenumber": "275",
+    "addr:street": "Via Duomo",
+    "amenity": "place_of_worship",
+    "check_date": "2025-07-19",
+    "denomination": "waldensian",
+    "name": "Chiesa Evangelica Valdese",
+    "religion": "christian",
+    "website": "http://www.napolivaldese.it/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesadisanteligiodeichi",
+  "n": "Chiesa di Sant'Eligio dei Chiavettieri",
+  "a": "",
+  "pc": "",
+  "lat": 40.85031,
+  "lng": 14.2629,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa di Sant'Eligio dei Chiavettieri Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/2984474693",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Chiesa di Sant'Eligio dei Chiavettieri",
+    "religion": "christian",
+    "wikidata": "Q3672781",
+    "wikimedia_commons": "Category:Sant'Eligio dei Chiavettieri",
+    "wikipedia": "it:Chiesa di Sant'Eligio dei Chiavettieri"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "domenicomartuscelli",
+  "n": "Domenico Martuscelli",
+  "a": "",
+  "pc": "",
+  "lat": 40.84985,
+  "lng": 14.25017,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Domenico Martuscelli Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3166427553",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Domenico Martuscelli"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "paulpharris",
+  "n": "Paul P. Harris",
+  "a": "",
+  "pc": "",
+  "lat": 40.83702,
+  "lng": 14.2316,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Paul P. Harris Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3185089692",
+   "raw": {
+    "historic": "monument",
+    "name": "Paul P. Harris"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesadisantamariadelcar",
+  "n": "Chiesa di Santa Maria del Carmine",
+  "a": "",
+  "pc": "",
+  "lat": 40.85366,
+  "lng": 14.27031,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa di Santa Maria del Carmine Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3344792612",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Chiesa di Santa Maria del Carmine",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "confraternitadisantanton",
+  "n": "Confraternita di Sant'Antonio e Madonna Santissima del Carmine",
+  "a": "",
+  "pc": "",
+  "lat": 40.84943,
+  "lng": 14.27218,
+  "c": "faith",
+  "s": "church",
+  "q": "Confraternita di Sant'Antonio e Madonna Santissima del Carmine Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3362141740",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Confraternita di Sant'Antonio e Madonna Santissima del Carmine",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesadellimmacolataesan",
+  "n": "Chiesa dell'Immacolata e Sant'Anna al Vasto",
+  "a": "",
+  "pc": "",
+  "lat": 40.85657,
+  "lng": 14.27372,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa dell'Immacolata e Sant'Anna al Vasto Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3418407330",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Chiesa dell'Immacolata e Sant'Anna al Vasto",
+    "religion": "christian",
+    "wikidata": "Q3668808",
+    "wikipedia": "it:Chiesa dell'Immacolata e Sant'Anna al Vasto"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ottavianoaugusto",
+  "n": "Ottaviano Augusto",
+  "a": "",
+  "pc": "",
+  "lat": 40.83358,
+  "lng": 14.25173,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ottaviano Augusto Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3455594752",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Ottaviano Augusto"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nicolaamore",
+  "n": "Nicola Amore",
+  "a": "",
+  "pc": "",
+  "lat": 40.83267,
+  "lng": 14.24132,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Nicola Amore Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3465094524",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Nicola Amore"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gallerieditalia",
+  "n": "Gallerie d'Italia",
+  "a": "",
+  "pc": "",
+  "lat": 40.84042,
+  "lng": 14.24881,
+  "c": "museum",
+  "s": "museum",
+  "q": "Gallerie d'Italia Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3466005069",
+   "raw": {
+    "addr:city": "Napoli",
+    "addr:housenumber": "179;180;181;182;183;184;185;186;187",
+    "addr:postcode": "80132",
+    "addr:street": "Via Toledo",
+    "check_date": "2024-11-26",
+    "email": "info@palazzozevallos.com",
+    "fee": "yes",
+    "name": "Gallerie d'Italia",
+    "opening_hours": "Mo-Fr 10:00-18:00; Sa-Su 10:00-20:00",
+    "phone": "+39 800 454 229",
+    "tourism": "museum",
+    "website": "https://www.gallerieditalia.com/it/napoli/",
+    "wheelchair": "yes",
+    "wikidata": "Q3757772",
+    "wikipedia": "it:Gallerie d'Italia"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "carlopoerio",
+  "n": "Carlo Poerio",
+  "a": "",
+  "pc": "",
+  "lat": 40.8341,
+  "lng": 14.23631,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Carlo Poerio Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3468033761",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Carlo Poerio"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museogiuseppecaravitapri",
+  "n": "Museo Giuseppe Caravita principe di Sirignano",
+  "a": "",
+  "pc": "",
+  "lat": 40.83715,
+  "lng": 14.24835,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo Giuseppe Caravita principe di Sirignano Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3515649876",
+   "raw": {
+    "addr:city": "Napoli",
+    "addr:housenumber": "48",
+    "addr:postcode": "80132",
+    "addr:street": "Piazza Trieste e Trento",
+    "name": "Museo Giuseppe Caravita principe di Sirignano",
+    "opening_hours": "Tu-Sa 10:00-16:00",
+    "operator": "Fondazione \"Circolo Artistico Politecnico\"",
+    "phone": "+39 081 42 65 43",
+    "tourism": "museum",
+    "website": "https://www.fondazionecircoloartistico.it",
+    "wikidata": "Q3867608",
+    "wikipedia": "it:Museo Giuseppe Caravita principe di Sirignano"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "francescosaveriomercadan",
+  "n": "Francesco Saverio Mercadante",
+  "a": "",
+  "pc": "",
+  "lat": 40.83674,
+  "lng": 14.22353,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Francesco Saverio Mercadante Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3622509756",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "material": "stone",
+    "memorial": "statue",
+    "name": "Francesco Saverio Mercadante",
+    "subject:wikidata": "Q313980",
+    "subject:wikipedia": "it:Saverio Mercadante",
+    "support": "column",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "statuaequestredicarlodib",
+  "n": "Statua equestre di Carlo di Borbone",
+  "a": "",
+  "pc": "",
+  "lat": 40.83573,
+  "lng": 14.24796,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Statua equestre di Carlo di Borbone Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3636006370",
+   "raw": {
+    "artist:wikidata": "Q5547",
+    "artist_name": "Antonio Canova",
+    "artwork_type": "statue",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Statua equestre di Carlo di Borbone",
+    "statue": "equestrian",
+    "subject:wikidata": "Q36234",
+    "tourism": "artwork",
+    "wikidata": "Q21141642"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "palazzodelleartinapoli",
+  "n": "Palazzo delle Arti Napoli",
+  "a": "",
+  "pc": "",
+  "lat": 40.83678,
+  "lng": 14.23694,
+  "c": "museum",
+  "s": "museum",
+  "q": "Palazzo delle Arti Napoli Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3683555296",
+   "raw": {
+    "addr:city": "Napoli",
+    "addr:housenumber": "60",
+    "addr:postcode": "80121",
+    "addr:street": "Via dei Mille",
+    "alt_name": "PAN",
+    "check_date": "2022-07-03",
+    "museum": "art",
+    "name": "Palazzo delle Arti Napoli",
+    "name:fr": "Palais des Arts de Naples",
+    "opening_hours": "Mo-Fr 09:30-20:30; Sa-Su 09:30-21:00",
+    "tourism": "museum",
+    "website": "http://www.palazzoartinapoli.net/",
+    "wheelchair": "limited",
+    "wikidata": "Q1228306",
+    "wikimedia_commons": "Category:Museo PAN",
+    "wikipedia": "it:Palazzo delle Arti di Napoli"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "casadisantalfonsomariade",
+  "n": "Casa di Sant'Alfonso Maria de' Liguori",
+  "a": "",
+  "pc": "",
+  "lat": 40.89006,
+  "lng": 14.22932,
+  "c": "faith",
+  "s": "church",
+  "q": "Casa di Sant'Alfonso Maria de' Liguori Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3691540955",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Casa di Sant'Alfonso Maria de' Liguori",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museonazionaledellaceram",
+  "n": "Museo nazionale della ceramica Duca di Martina",
+  "a": "",
+  "pc": "",
+  "lat": 40.83942,
+  "lng": 14.2301,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museo nazionale della ceramica Duca di Martina Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3733540789",
+   "raw": {
+    "addr:city": "Napoli",
+    "addr:country": "IT",
+    "addr:housename": "Villa Floridiana",
+    "addr:housenumber": "77",
+    "addr:postcode": "80127",
+    "addr:street": "Via Domenico Cimarosa",
+    "check_date": "2024-12-05",
+    "email": "pm-cam.martina@beniculturali.it",
+    "name": "Museo nazionale della ceramica Duca di Martina",
+    "opening_hours": "We-Su 08:30-16:15; Tu off",
+    "phone": "+39 081 5788418",
+    "tourism": "museum",
+    "website": "http://www.polomusealecampania.beniculturali.it/index.php/il-museo",
+    "wikidata": "Q3868424",
+    "wikimedia_commons": "Category:Museo Duca di Martina",
+    "wikipedia": "it:Museo nazionale della ceramica Duca di Martina"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "multisalamagicvision",
+  "n": "Multisala Magic Vision",
+  "a": "",
+  "pc": "",
+  "lat": 40.91223,
+  "lng": 14.36229,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Multisala Magic Vision Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3750393937",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Multisala Magic Vision"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "chiesadellasantissimaann",
+  "n": "Chiesa della Santissima Annunziata",
+  "a": "",
+  "pc": "",
+  "lat": 40.85566,
+  "lng": 14.27101,
+  "c": "faith",
+  "s": "church",
+  "q": "Chiesa della Santissima Annunziata Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3779553623",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "Chiesa della Santissima Annunziata",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "confraternita",
+  "n": "Confraternita",
+  "a": "",
+  "pc": "",
+  "lat": 40.85931,
+  "lng": 14.26838,
+  "c": "faith",
+  "s": "church",
+  "q": "Confraternita Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3779566421",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Confraternita",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "camcasoriacontemporaryar",
+  "n": "CAM Casoria Contemporary Art Museum",
+  "a": "",
+  "pc": "",
+  "lat": 40.91433,
+  "lng": 14.29867,
+  "c": "museum",
+  "s": "museum",
+  "q": "CAM Casoria Contemporary Art Museum Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/3782303049",
+   "raw": {
+    "addr:city": "Casoria",
+    "addr:housenumber": "63",
+    "addr:street": "Via Duca d'Aosta",
+    "name": "CAM Casoria Contemporary Art Museum",
+    "opening_hours": "Tu-Th,Su 10:00-13:00; Sa 17:00- 20:00",
+    "operator": "CAM | Casoria Contemporary Art Museum",
+    "phone": "+39 0817576167",
+    "tourism": "museum",
+    "wikidata": "Q1047785",
+    "wikipedia": "it:CAM Casoria Contemporary Art Museum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "circumflegrearailway",
+  "n": "Circumflegrea railway",
+  "a": "",
+  "pc": "",
+  "lat": 40.86138,
+  "lng": 14.14129,
+  "c": "oddity",
+  "s": "railway line in Italy",
+  "q": "Circumflegrea railway Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q692803",
+   "raw": "railway line in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "phlegraeanfields",
+  "n": "Phlegraean Fields",
+  "a": "",
+  "pc": "",
+  "lat": 40.827,
+  "lng": 14.139,
+  "c": "oddity",
+  "s": "volcanic region located in the Gulf of Pozzoles, west of Nap",
+  "q": "Phlegraean Fields Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q755123",
+   "raw": "volcanic region located in the Gulf of Pozzoles, west of Naples, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "crateredegliastroni",
+  "n": "Cratere degli Astroni",
+  "a": "",
+  "pc": "",
+  "lat": 40.84214,
+  "lng": 14.14983,
+  "c": "oddity",
+  "s": "protected area in Italy (EUAP0057)",
+  "q": "Cratere degli Astroni Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q779257",
+   "raw": "protected area in Italy (EUAP0057)",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "cumanarailway",
+  "n": "Cumana Railway",
+  "a": "",
+  "pc": "",
+  "lat": 40.81852,
+  "lng": 14.15631,
+  "c": "oddity",
+  "s": "railway line in Italy",
+  "q": "Cumana Railway Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1000745",
+   "raw": "railway line in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "agnano",
+  "n": "Agnano",
+  "a": "",
+  "pc": "",
+  "lat": 40.84472,
+  "lng": 14.14972,
+  "c": "oddity",
+  "s": "crater",
+  "q": "Agnano Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1037278",
+   "raw": "crater",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nisida",
+  "n": "Nisida",
+  "a": "",
+  "pc": "",
+  "lat": 40.79528,
+  "lng": 14.16333,
+  "c": "oddity",
+  "s": "volcanic islet, north of Naples",
+  "q": "Nisida Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1192720",
+   "raw": "volcanic islet, north of Naples",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parcovirgiliano",
+  "n": "Parco Virgiliano",
+  "a": "",
+  "pc": "",
+  "lat": 40.79972,
+  "lng": 14.18083,
+  "c": "green",
+  "s": "park in Naples, Italy",
+  "q": "Parco Virgiliano Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1230048",
+   "raw": "park in Naples, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "santamariadelfaronaples",
+  "n": "Santa Maria del Faro, Naples",
+  "a": "",
+  "pc": "",
+  "lat": 40.79575,
+  "lng": 14.19135,
+  "c": "faith",
+  "s": "church",
+  "q": "Santa Maria del Faro, Naples Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1256274",
+   "raw": "church",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "grottaofsejanus",
+  "n": "Grotta of Sejanus",
+  "a": "",
+  "pc": "",
+  "lat": 40.79991,
+  "lng": 14.17626,
+  "c": "museum",
+  "s": "subterranean gallery in the hill of Pausilipon",
+  "q": "Grotta of Sejanus Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1547614",
+   "raw": "subterranean gallery in the hill of Pausilipon",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "napoliteatrofestivalital",
+  "n": "Napoli Teatro Festival Italia",
+  "a": "",
+  "pc": "",
+  "lat": 40.79459,
+  "lng": 14.18475,
+  "c": "cinema",
+  "s": "annual theatre festival in Naples, Italy",
+  "q": "Napoli Teatro Festival Italia Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1569609",
+   "raw": "annual theatre festival in Naples, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "villarosebery",
+  "n": "Villa Rosebery",
+  "a": "",
+  "pc": "",
+  "lat": 40.8006,
+  "lng": 14.20497,
+  "c": "oddity",
+  "s": "villa",
+  "q": "Villa Rosebery Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1631971",
+   "raw": "villa",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "accademiaaeronautica",
+  "n": "Accademia Aeronautica",
+  "a": "",
+  "pc": "",
+  "lat": 40.822,
+  "lng": 14.141,
+  "c": "oddity",
+  "s": "italian Air Force Academy",
+  "q": "Accademia Aeronautica Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1875913",
+   "raw": "Italian Air Force Academy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "migliodoro",
+  "n": "Miglio d'Oro",
+  "a": "",
+  "pc": "",
+  "lat": 40.7974,
+  "lng": 14.358,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Miglio d'Oro Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1932414",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mountolibano",
+  "n": "Mount Olibano",
+  "a": "",
+  "pc": "",
+  "lat": 40.8244,
+  "lng": 14.1414,
+  "c": "oddity",
+  "s": "mountain in Italy",
+  "q": "Mount Olibano Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3322000",
+   "raw": "mountain in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "parcosommersodigaiola",
+  "n": "Parco sommerso di Gaiola",
+  "a": "",
+  "pc": "",
+  "lat": 40.7911,
+  "lng": 14.187,
+  "c": "oddity",
+  "s": "protected area in Italy (EUAP0850)",
+  "q": "Parco sommerso di Gaiola Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3364769",
+   "raw": "protected area in Italy (EUAP0850)",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "archaeologicalparkofposi",
+  "n": "Archaeological park of Posillipo",
+  "a": "",
+  "pc": "",
+  "lat": 40.79323,
+  "lng": 14.18603,
+  "c": "green",
+  "s": "park",
+  "q": "Archaeological park of Posillipo Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3575454",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "basilicasantacroce",
+  "n": "basilica Santa Croce",
+  "a": "",
+  "pc": "",
+  "lat": 40.7871,
+  "lng": 14.36858,
+  "c": "faith",
+  "s": "church building in Torre del Greco, Italy",
+  "q": "basilica Santa Croce Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3635748",
+   "raw": "church building in Torre del Greco, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "castellodinisida",
+  "n": "Castello di Nisida",
+  "a": "",
+  "pc": "",
+  "lat": 40.79701,
+  "lng": 14.16096,
+  "c": "oddity",
+  "s": "building in Naples, Italy",
+  "q": "Castello di Nisida Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3662763",
+   "raw": "building in Naples, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fontanaalcapoposillipo",
+  "n": "Fontana al Capo Posillipo",
+  "a": "",
+  "pc": "",
+  "lat": 40.80211,
+  "lng": 14.19272,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Fontana al Capo Posillipo Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3747329",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "saintjanuariuschurch",
+  "n": "Saint Januarius Church",
+  "a": "",
+  "pc": "",
+  "lat": 40.82456,
+  "lng": 14.13702,
+  "c": "faith",
+  "s": "place of worship",
+  "q": "Saint Januarius Church Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3950011",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "scogliopietrasalata",
+  "n": "Scoglio Pietra Salata",
+  "a": "",
+  "pc": "",
+  "lat": 40.7975,
+  "lng": 14.20583,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Scoglio Pietra Salata Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3952574",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "daziorailwaystop",
+  "n": "Dazio railway stop",
+  "a": "",
+  "pc": "",
+  "lat": 40.8174,
+  "lng": 14.1598,
+  "c": "oddity",
+  "s": "railway stop in Italy",
+  "q": "Dazio railway stop Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3969513",
+   "raw": "railway stop in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gerolominirailwaystation",
+  "n": "Gerolomini railway station",
+  "a": "",
+  "pc": "",
+  "lat": 40.821,
+  "lng": 14.135,
+  "c": "oddity",
+  "s": "railway station in Italy",
+  "q": "Gerolomini railway station Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3969723",
+   "raw": "railway station in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "migliodororailwaystation",
+  "n": "Miglio d'Oro railway station",
+  "a": "",
+  "pc": "",
+  "lat": 40.8021,
+  "lng": 14.3614,
+  "c": "oddity",
+  "s": "railway station in Ercolano, Italy",
+  "q": "Miglio d'Oro railway station Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3970105",
+   "raw": "railway station in Ercolano, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "torredelgrecorailwaystat",
+  "n": "Torre del Greco railway station",
+  "a": "",
+  "pc": "",
+  "lat": 40.7933,
+  "lng": 14.37,
+  "c": "oddity",
+  "s": "railway station in Torre del Greco, Italy",
+  "q": "Torre del Greco railway station Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3971150",
+   "raw": "railway station in Torre del Greco, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tempiodellagaiola",
+  "n": "Tempio della Gaiola",
+  "a": "",
+  "pc": "",
+  "lat": 40.79583,
+  "lng": 14.18597,
+  "c": "faith",
+  "s": "church building in Naples, Italy",
+  "q": "Tempio della Gaiola Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q3983209",
+   "raw": "church building in Naples, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "villacampolieto",
+  "n": "Villa Campolieto",
+  "a": "",
+  "pc": "",
+  "lat": 40.80139,
+  "lng": 14.35312,
+  "c": "oddity",
+  "s": "building in Ercolano, Italy",
+  "q": "Villa Campolieto Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4011852",
+   "raw": "building in Ercolano, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "villavolpicelli",
+  "n": "Villa Volpicelli",
+  "a": "",
+  "pc": "",
+  "lat": 40.80197,
+  "lng": 14.20722,
+  "c": "oddity",
+  "s": "building in Naples, Italy",
+  "q": "Villa Volpicelli Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q4012639",
+   "raw": "building in Naples, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "villafavoritaercolano",
+  "n": "Villa Favorita, Ercolano",
+  "a": "",
+  "pc": "",
+  "lat": 40.80029,
+  "lng": 14.35474,
+  "c": "oddity",
+  "s": "building in Ercolano, Italy",
+  "q": "Villa Favorita, Ercolano Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18150033",
+   "raw": "building in Ercolano, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "torredelgreco",
+  "n": "Torre del Greco",
+  "a": "",
+  "pc": "",
+  "lat": 40.78931,
+  "lng": 14.36806,
+  "c": "oddity",
+  "s": "chief town of the homonym municipality",
+  "q": "Torre del Greco Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q30031191",
+   "raw": "chief town of the homonym municipality",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "capodiposillipo",
+  "n": "Capo di Posillipo",
+  "a": "",
+  "pc": "",
+  "lat": 40.8,
+  "lng": 14.2,
+  "c": "oddity",
+  "s": "cape in Campania, Italy",
+  "q": "Capo di Posillipo Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q34834804",
+   "raw": "cape in Campania, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "torredelgrecoport",
+  "n": "Torre del Greco port",
+  "a": "",
+  "pc": "",
+  "lat": 40.7858,
+  "lng": 14.36154,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Torre del Greco port Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q34965550",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "isitcipctilgher",
+  "n": "I.S. - Itc - Ipc - Tilgher",
+  "a": "",
+  "pc": "",
+  "lat": 40.79872,
+  "lng": 14.36178,
+  "c": "oddity",
+  "s": "high school in Ercolano, Naples, Campania, Italy",
+  "q": "I.S. - Itc - Ipc - Tilgher Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q52793845",
+   "raw": "high school in Ercolano, Naples, Campania, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fondalimarinidigaiolaeni",
+  "n": "Fondali Marini di Gaiola e Nisida",
+  "a": "",
+  "pc": "",
+  "lat": 40.79539,
+  "lng": 14.17336,
+  "c": "oddity",
+  "s": "nature reserve in the province of Naples, Italy",
+  "q": "Fondali Marini di Gaiola e Nisida Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q55436052",
+   "raw": "nature reserve in the province of Naples, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "underwaterarchaeological",
+  "n": "Underwater archaeological park of Gajola",
+  "a": "",
+  "pc": "",
+  "lat": 40.79231,
+  "lng": 14.18742,
+  "c": "green",
+  "s": "park",
+  "q": "Underwater archaeological park of Gajola Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q55673866",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "villaofvediuspollio",
+  "n": "Villa of Vedius Pollio",
+  "a": "",
+  "pc": "",
+  "lat": 40.80217,
+  "lng": 14.18247,
+  "c": "oddity",
+  "s": "heritage site in Naples",
+  "q": "Villa of Vedius Pollio Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q55673968",
+   "raw": "heritage site in Naples",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bradyseismintheflegreaar",
+  "n": "Bradyseism in the Flegrea Area",
+  "a": "",
+  "pc": "",
+  "lat": 40.8234,
+  "lng": 14.139,
+  "c": "oddity",
+  "s": "tentative World Heritage site in Italy",
+  "q": "Bradyseism in the Flegrea Area Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q65028897",
+   "raw": "Tentative World Heritage site in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "herculaneumsamianwaredis",
+  "n": "Herculaneum (Samian Ware Discovery Site)",
+  "a": "",
+  "pc": "",
+  "lat": 40.8,
+  "lng": 14.35,
+  "c": "oddity",
+  "s": "herculaneum as Samian Ware discovery site",
+  "q": "Herculaneum (Samian Ware Discovery Site) Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q103163614",
+   "raw": "Herculaneum as Samian Ware discovery site",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ecohostelfloreale",
+  "n": "Ecohostelfloreale",
+  "a": "",
+  "pc": "",
+  "lat": 40.79487,
+  "lng": 14.35508,
+  "c": "oddity",
+  "s": "hostel in Naples",
+  "q": "Ecohostelfloreale Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111118945",
+   "raw": "hostel in Naples",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "suitesandresidencehotel",
+  "n": "Suites & Residence Hotel",
+  "a": "",
+  "pc": "",
+  "lat": 40.82738,
+  "lng": 14.15471,
+  "c": "oddity",
+  "s": "hotel in Pozzuoli, Italy",
+  "q": "Suites & Residence Hotel Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q111878571",
+   "raw": "hotel in Pozzuoli, Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecadelconventodei",
+  "n": "Biblioteca del Convento dei Cappuccini di Pozzuoli",
+  "a": "",
+  "pc": "",
+  "lat": 40.82694,
+  "lng": 14.1353,
+  "c": "oddity",
+  "s": "special library in Italy",
+  "q": "Biblioteca del Convento dei Cappuccini di Pozzuoli Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q113092765",
+   "raw": "special library in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecadellistitutoma",
+  "n": "Biblioteca dell'Istituto magistrale statale Virgilio",
+  "a": "",
+  "pc": "",
+  "lat": 40.82517,
+  "lng": 14.13205,
+  "c": "oddity",
+  "s": "school library in Italy",
+  "q": "Biblioteca dell'Istituto magistrale statale Virgilio Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q113359686",
+   "raw": "school library in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecadeiragazzigian",
+  "n": "Biblioteca dei ragazzi Gianni Rodari dell'Istituto comprensivo statale Russo 2",
+  "a": "",
+  "pc": "",
+  "lat": 40.81829,
+  "lng": 14.1503,
+  "c": "oddity",
+  "s": "school library in Italy",
+  "q": "Biblioteca dei ragazzi Gianni Rodari dell'Istituto comprensivo statale Russo 2 Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q113359694",
+   "raw": "school library in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bibliotecadellistitutosu",
+  "n": "Biblioteca dell'Istituto Superiore A. Tilgher",
+  "a": "",
+  "pc": "",
+  "lat": 40.7976,
+  "lng": 14.36491,
+  "c": "oddity",
+  "s": "school library in Italy",
+  "q": "Biblioteca dell'Istituto Superiore A. Tilgher Naples",
+  "w": "",
+  "city": "naples",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q113359714",
+   "raw": "school library in Italy",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]

@@ -1,0 +1,3575 @@
+[
+ {
+  "id": "djursholmskapell",
+  "n": "Djursholms Kapell",
+  "a": "",
+  "pc": "",
+  "lat": 59.3944,
+  "lng": 18.08932,
+  "c": "faith",
+  "s": "church",
+  "q": "Djursholms Kapell Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/29167938",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "lutheran",
+    "name": "Djursholms Kapell",
+    "religion": "christian",
+    "source": "survey",
+    "wikidata": "Q10474983"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "masterpalm",
+  "n": "Mäster Palm",
+  "a": "",
+  "pc": "",
+  "lat": 59.33569,
+  "lng": 18.05491,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Mäster Palm Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/29835352",
+   "raw": {
+    "historic": "monument",
+    "name": "Mäster Palm"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "modernamuseet",
+  "n": "Moderna museet",
+  "a": "",
+  "pc": "",
+  "lat": 59.32635,
+  "lng": 18.084,
+  "c": "museum",
+  "s": "museum",
+  "q": "Moderna museet Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/29898032",
+   "raw": {
+    "check_date": "2025-05-01",
+    "description:en": "Modern and contemporary art - Pablo Picasso, Salvador Dalí, Henri Matisse, Meret Oppenheim, Robert Rauschenberg, Marcel Duchamp, Carolee Schneemann, Louise Bourgeois, Vera Nilsson, Siri Derkert, Georges Braque (Source: museum website)",
+    "fee": "no",
+    "museum": "art",
+    "name": "Moderna museet",
+    "name:en": "Modern Art Museum",
+    "name:es": "Moderna Museet",
+    "name:fi": "Nykytaiteen museo",
+    "name:fr": "Musée d'art moderne",
+    "name:ru": "Музей современного искусства",
+    "name:uk": "Музей сучасного мистецтва",
+    "opening_hours": "Mo off; Tu,Fr 10:00-20:00; We-Th,Sa-Su 10:00-18:00",
+    "operator": "Statlig förvaltningsmyndighet",
+    "start_date": "1958-05-09",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "website": "https://www.modernamuseet.se/",
+    "wheelchair": "yes",
+    "wikidata": "Q1274511",
+    "wikipedia": "sv:Moderna Museet"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ssorion",
+  "n": "SS Orion",
+  "a": "",
+  "pc": "",
+  "lat": 59.3273,
+  "lng": 18.0806,
+  "c": "maritime",
+  "s": "maritime relic",
+  "q": "SS Orion Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/29898118",
+   "raw": {
+    "historic": "ship",
+    "name": "SS Orion",
+    "wikidata": "Q7394166",
+    "wikimedia_commons": "Category:S/S Orion (ship, 1929)",
+    "wikipedia": "sv:S/S Orion"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lidingoloppet",
+  "n": "Lidingöloppet",
+  "a": "",
+  "pc": "",
+  "lat": 59.37865,
+  "lng": 18.15622,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Lidingöloppet Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/31580813",
+   "raw": {
+    "historic": "monument",
+    "name": "Lidingöloppet",
+    "sport": "running"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "edsviksgrottan",
+  "n": "Edsviksgrottan",
+  "a": "",
+  "pc": "",
+  "lat": 59.4043,
+  "lng": 18.00207,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Edsviksgrottan Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/35180432",
+   "raw": {
+    "created_by": "Potlatch 0.4b",
+    "historic": "archaeological_site",
+    "name": "Edsviksgrottan"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "naturhistoriskariksmusee",
+  "n": "Naturhistoriska riksmuseet",
+  "a": "",
+  "pc": "",
+  "lat": 59.36905,
+  "lng": 18.054,
+  "c": "museum",
+  "s": "museum",
+  "q": "Naturhistoriska riksmuseet Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/47704184",
+   "raw": {
+    "check_date": "2024-07-16",
+    "description": "The universe, animals and nature; and Cosmonova, Sweden's only IMAX cimema",
+    "fee": "yes",
+    "name": "Naturhistoriska riksmuseet",
+    "name:en": "Swedish Museum of Natural History",
+    "name:es": "Museo Sueco de Historia Natural",
+    "name:fi": "Valtion luonnonhistoriallinen museo",
+    "name:fr": "Muséum suédois d'histoire naturelle",
+    "name:ru": "Шведский музей естественной истории",
+    "name:sv": "Naturhistoriska riksmuseet",
+    "opening_hours": "Tu-Su 10:00-18:00",
+    "tourism": "museum",
+    "website": "https://www.nrm.se/",
+    "wikidata": "Q1420103",
+    "wikimedia_commons": "Category:Swedish Museum of Natural History",
+    "wikipedia": "sv:Naturhistoriska riksmuseet"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ulriksdalsslottskapell",
+  "n": "Ulriksdals slottskapell",
+  "a": "",
+  "pc": "",
+  "lat": 59.38861,
+  "lng": 18.0184,
+  "c": "faith",
+  "s": "church",
+  "q": "Ulriksdals slottskapell Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/49495595",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "church_of_sweden",
+    "description:en": "Dutch Renaissance-style royal chapel built 1863-65 by King Karl XV",
+    "historic": "church",
+    "name": "Ulriksdals slottskapell",
+    "religion": "christian",
+    "wikidata": "Q10708901",
+    "wikipedia": "sv:Ulriksdals slottskapell"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gustaviii",
+  "n": "Gustav III",
+  "a": "",
+  "pc": "",
+  "lat": 59.32673,
+  "lng": 18.07497,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Gustav III Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/60191130",
+   "raw": {
+    "artist:wikidata": "Q924618",
+    "artist_name": "Johan Tobias Sergel",
+    "historic": "memorial",
+    "material": "bronze",
+    "memorial": "statue",
+    "name": "Gustav III",
+    "name:ru": "Памятник Густаву III",
+    "start_date": "1808",
+    "subject:wikidata": "Q52930",
+    "subject:wikipedia": "sv:Gustav III",
+    "wikidata": "Q10511146",
+    "wikimedia_commons": "Category:Gustav III:s staty",
+    "wikipedia": "sv:Gustav III (staty)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "orangerimuseet",
+  "n": "Orangerimuseet",
+  "a": "",
+  "pc": "",
+  "lat": 59.39064,
+  "lng": 18.01361,
+  "c": "museum",
+  "s": "museum",
+  "q": "Orangerimuseet Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/61277266",
+   "raw": {
+    "description:en": "National Museum's collection of Swedish sculpture from the early 1700s to the 1900s. Housed in Ulriksdal Palace orangery.",
+    "name": "Orangerimuseet",
+    "name:fi": "Kasvihuonemuseo",
+    "name:sv": "Orangerimuseet",
+    "operator": "Nationalmuseum",
+    "tourism": "museum",
+    "website": "https://www.nationalmuseum.se/sv/Om-samlingarna1/NM-runt-om-i-Sverige/Ulriksdals-slott-med-Orangerimuseet/",
+    "wikidata": "Q10611052",
+    "wikipedia": "sv:Orangerimuseet"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "genius",
+  "n": "Genius",
+  "a": "",
+  "pc": "",
+  "lat": 59.32265,
+  "lng": 18.13345,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Genius Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/90278499",
+   "raw": {
+    "artist_name": "Carl Milles",
+    "artwork_type": "statue",
+    "name": "Genius",
+    "start_date": "1940",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "edsbergsslott",
+  "n": "Edsbergs slott",
+  "a": "",
+  "pc": "",
+  "lat": 59.44106,
+  "lng": 17.95565,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Edsbergs slott Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/94066107",
+   "raw": {
+    "addr:city": "Sollentuna",
+    "addr:country": "SE",
+    "addr:housenumber": "10",
+    "addr:postcode": "19186",
+    "addr:street": "Landsnoravägen",
+    "historic": "palace",
+    "name": "Edsbergs slott",
+    "name:en": "Edsberg's Palace",
+    "opening_hours": "Su, We 12:00-16:00",
+    "tourism": "attraction"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jehovasvittnenriketsal",
+  "n": "Jehovas vittnen riket sal",
+  "a": "",
+  "pc": "",
+  "lat": 59.44029,
+  "lng": 18.04269,
+  "c": "faith",
+  "s": "church",
+  "q": "Jehovas vittnen riket sal Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/103810997",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "jehovahs_witness",
+    "name": "Jehovas vittnen riket sal",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sten",
+  "n": "Sten",
+  "a": "",
+  "pc": "",
+  "lat": 59.44103,
+  "lng": 17.95132,
+  "c": "history",
+  "s": "prehistoric standing stone",
+  "q": "Sten Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/122071952",
+   "raw": {
+    "description": "Man-sized standing stone, runes or carving (if any) not easily visible.",
+    "historic": "stone",
+    "name": "Sten",
+    "name:en": "Stone"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jesukristikyrkaavsistada",
+  "n": "Jesu Kristi Kyrka av Sista Dagars Heliga",
+  "a": "",
+  "pc": "",
+  "lat": 59.29186,
+  "lng": 17.99242,
+  "c": "faith",
+  "s": "church",
+  "q": "Jesu Kristi Kyrka av Sista Dagars Heliga Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/175229590",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "mormon",
+    "name": "Jesu Kristi Kyrka av Sista Dagars Heliga",
+    "note": "Mormonkyrka",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "limpanlindstrom",
+  "n": "Limpan Lindström",
+  "a": "",
+  "pc": "",
+  "lat": 59.33413,
+  "lng": 18.06314,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Limpan Lindström Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/193944761",
+   "raw": {
+    "artist_name": "Göran Strååt",
+    "artwork_type": "sculpture",
+    "name": "Limpan Lindström",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "enebykyrkan",
+  "n": "Enebykyrkan",
+  "a": "",
+  "pc": "",
+  "lat": 59.43208,
+  "lng": 18.03949,
+  "c": "faith",
+  "s": "church",
+  "q": "Enebykyrkan Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/221808295",
+   "raw": {
+    "addr:city": "Enebyberg",
+    "addr:country": "SE",
+    "addr:housenumber": "15",
+    "addr:postcode": "182 48",
+    "addr:street": "Enebytorg",
+    "amenity": "place_of_worship",
+    "denomination": "uniting_church_in_sweden",
+    "name": "Enebykyrkan",
+    "religion": "christian",
+    "website": "https://www.enebykyrkan.se",
+    "wikidata": "Q10484064",
+    "wikipedia": "sv:Enebykyrkan"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "carleldhsateljemuseum",
+  "n": "Carl Eldhs Ateljémuseum",
+  "a": "",
+  "pc": "",
+  "lat": 59.35287,
+  "lng": 18.05162,
+  "c": "museum",
+  "s": "museum",
+  "q": "Carl Eldhs Ateljémuseum Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/248913932",
+   "raw": {
+    "contact:email": "info@eldhsatelje.se",
+    "description": "The collected works of sculptor Carl Eldh (1873-1954)",
+    "fee": "yes",
+    "name": "Carl Eldhs Ateljémuseum",
+    "name:en": "Carl Eldh Studio Museum",
+    "name:fi": "Carl Eldhin ateljeemuseo",
+    "name:sv": "Carl Eldhs Ateljémuseum",
+    "opening_hours": "Apr,Oct Sa,Su 12:00-16:00; May,Sep Th-Su 12:00-16:00; Jun-Aug Tu-Su 12:00-16:00",
+    "phone": "+4686126560",
+    "tourism": "museum",
+    "website": "https://www.eldhsatelje.se",
+    "wikidata": "Q10443031",
+    "wikimedia_commons": "Category:Carl Eldhs Ateljémuseum",
+    "wikipedia": "sv:Carl Eldhs Ateljémuseum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "flojtspeladeangel",
+  "n": "Flöjtspelade ängel",
+  "a": "",
+  "pc": "",
+  "lat": 59.3635,
+  "lng": 18.11632,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Flöjtspelade ängel Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/251151677",
+   "raw": {
+    "artist_name": "Carl Milles",
+    "artwork_type": "sculpture",
+    "description": "Sculpture by Carl Milles",
+    "name": "Flöjtspelade ängel",
+    "name:en": "Flute-playing Angel",
+    "tourism": "artwork",
+    "wikidata": "Q10497235",
+    "wikipedia": "sv:Flöjtspelande ängel"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "raulwallenbergsgarning",
+  "n": "Raul Wallenbergs gärning-",
+  "a": "",
+  "pc": "",
+  "lat": 59.36532,
+  "lng": 18.13445,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Raul Wallenbergs gärning- Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/251151682",
+   "raw": {
+    "description": "Memorial to Raoul Wahlenburg",
+    "historic": "monument",
+    "name": "Raul Wallenbergs gärning-"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fjarilshusethagaocean",
+  "n": "Fjärilshuset Haga Ocean",
+  "a": "",
+  "pc": "",
+  "lat": 59.36608,
+  "lng": 18.03061,
+  "c": "museum",
+  "s": "museum",
+  "q": "Fjärilshuset Haga Ocean Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/254673412",
+   "raw": {
+    "addr:city": "Solna",
+    "addr:postcode": "169 70",
+    "addr:street": "Fjärilshuset i Hagaparken",
+    "charge:conditional": "249 SEK @ (age < 65 AND age > 15); 198 SEK @ (age >= 65); 149 SEK @ (age >= 3 AND age <= 15)",
+    "check_date": "2023-07-14",
+    "description": "Naturhistoriskt museum med fritt flygande tropiska fjärilar och ett av Skandinaviens största hajakvarier",
+    "description:en": "Natural history museum with free-flying tropical butterflies Natural history museum with free-flying tropical butterflies and one of Scandinavia's largest shark aquariums",
+    "description:sv": "Naturhistoriskt museum med fritt flygande tropiska fjärilar och ett av Skandinaviens största hajakvarier",
+    "dog": "no",
+    "email": "info@fjarilshuset.se",
+    "fee": "yes",
+    "fee:conditional": "no @ (age < 3)",
+    "museum": "nature",
+    "name": "Fjärilshuset Haga Ocean",
+    "name:en": "Butterfly House Haga Ocean",
+    "name:sv": "Fjärilshuset Haga Ocean",
+    "opening_hours": "Mo-Su 10:00-17:00",
+    "payment:american_express": "no",
+    "payment:diners_club": "no",
+    "payment:swish": "yes",
+    "phone": "+46 8 730 39 81",
+    "stroller": "no",
+    "temperature": "warm",
+    "toilets": "yes",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "website": "https://www.fjarilshuset.se/",
+    "wheelchair": "yes",
+    "wikidata": "Q6112406",
+    "wikimedia_commons": "Category:Butterfly House at Hagaparken",
+    "wikipedia": "sv:Fjärilshuset"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ulvsundaslott",
+  "n": "Ulvsunda Slott",
+  "a": "",
+  "pc": "",
+  "lat": 59.34099,
+  "lng": 17.96441,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Ulvsunda Slott Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/254694793",
+   "raw": {
+    "alt_name": "Ulfvsunda Slott",
+    "historic": "palace",
+    "name": "Ulvsunda Slott",
+    "wikidata": "Q931176",
+    "wikimedia_commons": "Category:Ulvsunda slott",
+    "wikipedia": "en:Ulvsunda Castle"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "konsthallc",
+  "n": "Konsthall C",
+  "a": "",
+  "pc": "",
+  "lat": 59.25367,
+  "lng": 18.07818,
+  "c": "museum",
+  "s": "art gallery",
+  "q": "Konsthall C Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/255080561",
+   "raw": {
+    "addr:city": "Farsta",
+    "addr:country": "SE",
+    "addr:housenumber": "16",
+    "addr:street": "Cigarrvägen",
+    "fee": "no",
+    "name": "Konsthall C",
+    "tourism": "gallery"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fatburen",
+  "n": "Fatburen",
+  "a": "",
+  "pc": "",
+  "lat": 59.32599,
+  "lng": 18.10251,
+  "c": "view",
+  "s": "viewpoint",
+  "q": "Fatburen Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/255862094",
+   "raw": {
+    "name": "Fatburen",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "svalnasgravfalt",
+  "n": "Svalnäs gravfält",
+  "a": "",
+  "pc": "",
+  "lat": 59.41476,
+  "lng": 18.08778,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Svalnäs gravfält Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/258884228",
+   "raw": {
+    "historic": "archaeological_site",
+    "name": "Svalnäs gravfält",
+    "source": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nasbyslott",
+  "n": "Näsby slott",
+  "a": "",
+  "pc": "",
+  "lat": 59.42417,
+  "lng": 18.08663,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Näsby slott Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/258901577",
+   "raw": {
+    "historic": "palace",
+    "name": "Näsby slott",
+    "wikidata": "Q2242744",
+    "wikimedia_commons": "File:Näsby slott 110917.jpg",
+    "wikipedia": "sv:Näsby slott"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "medicinhistoriskamuseet",
+  "n": "Medicinhistoriska museet",
+  "a": "",
+  "pc": "",
+  "lat": 59.35066,
+  "lng": 18.03822,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Medicinhistoriska museet Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/263724835",
+   "raw": {
+    "description": "This museum closed in 2005 to cut costs. See website",
+    "historic": "building",
+    "name": "Medicinhistoriska museet",
+    "name:en": "Medical History Museum (CLOSED)",
+    "website": "https://www.medicinhistoriskastockholm.se/"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "runsten",
+  "n": "Runsten",
+  "a": "",
+  "pc": "",
+  "lat": 59.40143,
+  "lng": 17.8434,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Runsten Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/263847503",
+   "raw": {
+    "historic": "rune_stone",
+    "name": "Runsten",
+    "ref": "U88"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hagsatrakyrka",
+  "n": "Hagsätra kyrka",
+  "a": "",
+  "pc": "",
+  "lat": 59.26163,
+  "lng": 18.0145,
+  "c": "faith",
+  "s": "church",
+  "q": "Hagsätra kyrka Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/264771592",
+   "raw": {
+    "addr:city": "Bandhagen",
+    "addr:country": "SE",
+    "addr:housenumber": "34",
+    "addr:postcode": "124 73",
+    "addr:street": "Hagsätra Torg",
+    "amenity": "place_of_worship",
+    "denomination": "lutheran",
+    "internet_access": "yes",
+    "name": "Hagsätra kyrka",
+    "opening_hours": "Mo-Fr 09:00-15:00; Su 15:00-16:00",
+    "religion": "christian",
+    "website": "https://www.svenskakyrkan.se/vantor/hagsatra-kyrka",
+    "wheelchair": "yes",
+    "wikidata": "Q125546806",
+    "wikipedia": "sv:Hagsätra kyrka"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "akeshovsslott",
+  "n": "Åkeshovs slott",
+  "a": "",
+  "pc": "",
+  "lat": 59.341,
+  "lng": 17.92495,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Åkeshovs slott Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/264900088",
+   "raw": {
+    "alt_name": "Åkeshof slott",
+    "description:en": "Stately home originally built around, but with the current buildings built in the 1720s. A conference center and hotel since 1988. (Source website/Wikiedia:sv)",
+    "historic": "house",
+    "name": "Åkeshovs slott",
+    "tourism": "attraction",
+    "website": "https://www.akeshofsslott.se/",
+    "wikidata": "Q1544347",
+    "wikipedia": "sv:Åkeshovs slott"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kyrkanvidbrommaplan",
+  "n": "Kyrkan vid Brommaplan",
+  "a": "",
+  "pc": "",
+  "lat": 59.33984,
+  "lng": 17.94114,
+  "c": "faith",
+  "s": "church",
+  "q": "Kyrkan vid Brommaplan Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/264900335",
+   "raw": {
+    "addr:city": "Bromma",
+    "addr:country": "SE",
+    "addr:housenumber": "400",
+    "addr:postcode": "168 74",
+    "addr:street": "Drottningholmsvägen",
+    "amenity": "place_of_worship",
+    "denomination": "uniting_church_in_sweden",
+    "name": "Kyrkan vid Brommaplan",
+    "religion": "christian",
+    "website": "https://www.motesplatsbromma.se/",
+    "wikidata": "Q10551422",
+    "wikimedia_commons": "Category:Kyrkan vid Brommaplan",
+    "wikipedia": "sv:Kyrkan vid Brommaplan"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "karlxiii",
+  "n": "Karl XIII",
+  "a": "",
+  "pc": "",
+  "lat": 59.33145,
+  "lng": 18.07138,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Karl XIII Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/271321021",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Karl XIII",
+    "start_date": "1821",
+    "subject:wikidata": "Q52928",
+    "subject:wikipedia": "sv:Karl XIII",
+    "wikidata": "Q10543740",
+    "wikimedia_commons": "Category:Statue of Carl XIII, Stockholm",
+    "wikipedia": "sv:Karl XIII:s staty"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bellmanmuseet",
+  "n": "Bellmanmuséet",
+  "a": "",
+  "pc": "",
+  "lat": 59.32198,
+  "lng": 18.02577,
+  "c": "museum",
+  "s": "museum",
+  "q": "Bellmanmuséet Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/279804327",
+   "raw": {
+    "description": "Det lilla museet över Carl Michael Bellman, hans liv, sånger och gestalter, Gustaf den III:s Sverige och 1700-talets Stockholm är sammanbyggt med kafé och trädgård.",
+    "description:en": "Small museum about Swedish cultural icon, musician Carl Michael Bellman, his life, songs and characters.",
+    "name": "Bellmanmuséet",
+    "name:en": "Bellman Exhibition",
+    "tourism": "museum",
+    "website": "https://www.storahenriksvik.se/bellmanmuseet"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "armemuseum",
+  "n": "Armémuseum",
+  "a": "",
+  "pc": "",
+  "lat": 59.33476,
+  "lng": 18.08026,
+  "c": "museum",
+  "s": "museum",
+  "q": "Armémuseum Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/289851448",
+   "raw": {
+    "changing_table": "yes",
+    "changing_table:location": "wheelchair_toilet",
+    "check_date": "2023-03-21",
+    "description": "Sweden's military museum",
+    "fee": "yes",
+    "name": "Armémuseum",
+    "name:en": "Swedish Army Museum",
+    "name:fi": "Armeijamuseo",
+    "name:fr": "Musée de l'Armée",
+    "name:ru": "Музей шведской армии",
+    "opening_hours": "We-Su 11:00-17:00; Tu 11:00-19:00",
+    "tourism": "museum",
+    "website": "https://www.armemuseum.se/",
+    "wheelchair": "yes",
+    "wikidata": "Q690002",
+    "wikimedia_commons": "Category:Swedish Army Museum",
+    "wikipedia": "sv:Armémuseum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "diana",
+  "n": "Diana",
+  "a": "",
+  "pc": "",
+  "lat": 59.35859,
+  "lng": 18.12969,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Diana Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/299470484",
+   "raw": {
+    "artist_name": "Carl Milles",
+    "artwork_type": "sculpture",
+    "name": "Diana",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "obelisken",
+  "n": "Obelisken",
+  "a": "",
+  "pc": "",
+  "lat": 59.32587,
+  "lng": 18.07151,
+  "c": "history",
+  "s": "monument",
+  "q": "Obelisken Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/300162703",
+   "raw": {
+    "height": "22",
+    "historic": "monument",
+    "man_made": "obelisk",
+    "name": "Obelisken",
+    "wikidata": "Q7074706",
+    "wikimedia_commons": "Category:Obelisken i Stockholm",
+    "wikipedia": "sv:Obelisken i Stockholm"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "karlxii",
+  "n": "Karl XII",
+  "a": "",
+  "pc": "",
+  "lat": 59.33001,
+  "lng": 18.07222,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Karl XII Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/300169645",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Karl XII",
+    "operator": "Statens fastighetsverk",
+    "start_date": "1868",
+    "subject:wikidata": "Q52934",
+    "subject:wikipedia": "sv:Karl XII",
+    "wikidata": "Q43073856",
+    "wikipedia": "sv:Karl XII:s torg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "lidingoloppetstartplats",
+  "n": "Lidingöloppet startplats",
+  "a": "",
+  "pc": "",
+  "lat": 59.3602,
+  "lng": 18.17662,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Lidingöloppet startplats Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/302860667",
+   "raw": {
+    "description": "Startplats seden 1966. Stenen rest till 35 års jubileet. Den 3 Okt. 1999",
+    "historic": "monument",
+    "name": "Lidingöloppet startplats",
+    "name:en": "Lidingöloppet start stone"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hagaparkmuseum",
+  "n": "Haga Parkmuseum",
+  "a": "",
+  "pc": "",
+  "lat": 59.36447,
+  "lng": 18.03046,
+  "c": "museum",
+  "s": "museum",
+  "q": "Haga Parkmuseum Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304572565",
+   "raw": {
+    "access": "no",
+    "check_date": "2026-04-25",
+    "description": "Exhibition about Haga Park and its buildings",
+    "name": "Haga Parkmuseum",
+    "operator": "National Property Board",
+    "tourism": "museum",
+    "website": "https://www.sfv.se/hagaparkmuseum",
+    "wikidata": "Q10515883",
+    "wikimedia_commons": "Category:Hagaparkens museum",
+    "wikipedia": "sv:Haga parkmuseum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "olleolssonhagalundmuseet",
+  "n": "Olle Olsson Hagalund-museet",
+  "a": "",
+  "pc": "",
+  "lat": 59.36102,
+  "lng": 18.01604,
+  "c": "museum",
+  "s": "museum",
+  "q": "Olle Olsson Hagalund-museet Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304574173",
+   "raw": {
+    "addr:city": "Solna",
+    "addr:country": "SE",
+    "addr:housenumber": "2",
+    "addr:street": "Spetsgatan",
+    "address": "Furugatan 3",
+    "contact:website": "https://www.solna.se/olleolssonmuseet",
+    "description": "Artist's home full of painting for the theatre from 1930s - 1970.",
+    "name": "Olle Olsson Hagalund-museet",
+    "opening_hours": "Jan-May We,Su 12:00-16:00; Jun-Aug Su 12:00-16:00; Sep-Dec We,Su 12:00-16:00",
+    "tourism": "museum",
+    "wikidata": "Q18244852",
+    "wikimedia_commons": "Category:Olle Olsson-huset",
+    "wikipedia": "sv:Olle Olsson Hagalund-museet"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "judiskamuseet",
+  "n": "Judiska muséet",
+  "a": "",
+  "pc": "",
+  "lat": 59.32383,
+  "lng": 18.07302,
+  "c": "museum",
+  "s": "museum",
+  "q": "Judiska muséet Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304577359",
+   "raw": {
+    "changing_table": "yes",
+    "check_date": "2026-05-29",
+    "contact:phone": "+468301500",
+    "contact:website": "https://judiskamuseet.se/",
+    "description": "Jewish life, heritage and traditions in Sweden",
+    "fee": "yes",
+    "museum": "history",
+    "name": "Judiska muséet",
+    "name:de": "Jüdisches Museum",
+    "name:en": "Jewish Museum",
+    "name:fi": "Juutalainen museo",
+    "name:he": "המוזיאון היהודי בסטוקהולם",
+    "name:sv": "Judiska muséet",
+    "opening_hours": "Mo off; Tu-We 11:00-17:00; Th 11:00-20:00; Fr 11:00-16:00; Sa-Su 11:00-17:00",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "wheelchair": "yes",
+    "wikidata": "Q684827",
+    "wikimedia_commons": "Category:Jewish Museum of Sweden",
+    "wikipedia": "sv:Judiska museet"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "strindbergsmuseet",
+  "n": "Strindbergsmuseet",
+  "a": "",
+  "pc": "",
+  "lat": 59.33853,
+  "lng": 18.05661,
+  "c": "museum",
+  "s": "museum",
+  "q": "Strindbergsmuseet Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304578099",
+   "raw": {
+    "check_date": "2026-04-18",
+    "description": "Last home of writer August Strindberg (1849 - 1912)",
+    "fee": "yes",
+    "museum": "person",
+    "name": "Strindbergsmuseet",
+    "name:en": "Strindberg Museum",
+    "name:fi": "Strindbergin museo",
+    "name:sv": "Strindbergsmuseet",
+    "opening_hours": "Mo off; Tu-Su 12:00-16:00",
+    "phone": "+46 8 411 53 54",
+    "tourism": "museum",
+    "website": "https://www.strindbergsmuseet.se/",
+    "wheelchair": "no",
+    "wikidata": "Q1890584",
+    "wikimedia_commons": "Category:Strindbergsmuseet",
+    "wikipedia": "sv:Strindbergsmuseet"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "drottningholmsslottsteat",
+  "n": "Drottningholms Slottsteater",
+  "a": "",
+  "pc": "",
+  "lat": 59.32307,
+  "lng": 17.88508,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Drottningholms Slottsteater Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304582331",
+   "raw": {
+    "address": "Drottningholm",
+    "amenity": "theatre",
+    "description": "World Heritage list. The Court Theatre, dating from 1766 in original condition.",
+    "historic": "theatre",
+    "name": "Drottningholms Slottsteater",
+    "name:en": "Drottningholm Palace Theatre",
+    "name:fi": "Drottningholmin linnateatteri",
+    "name:sv": "Drottningholms Slottsteater",
+    "website": "https://dtm.se/",
+    "wikidata": "Q3058143",
+    "wikipedia": "sv:Drottningholms slottsteater"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "fargfabriken",
+  "n": "Färgfabriken",
+  "a": "",
+  "pc": "",
+  "lat": 59.31525,
+  "lng": 18.01932,
+  "c": "museum",
+  "s": "museum",
+  "q": "Färgfabriken Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304586910",
+   "raw": {
+    "description": "Experimental art, architecture and design.",
+    "name": "Färgfabriken",
+    "name:en": "Colour Factory",
+    "name:sv": "Färgfabriken",
+    "tourism": "museum",
+    "website": "https://fargfabriken.se/",
+    "wheelchair": "yes",
+    "wikidata": "Q10500816",
+    "wikipedia": "sv:Färgfabriken"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "almgrenssidenvaveriandmu",
+  "n": "Almgrens Sidenväveri & Museum",
+  "a": "",
+  "pc": "",
+  "lat": 59.3173,
+  "lng": 18.07068,
+  "c": "museum",
+  "s": "museum",
+  "q": "Almgrens Sidenväveri & Museum Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304600134",
+   "raw": {
+    "charge": "100 SEK",
+    "check_date": "2024-07-08",
+    "check_date:opening_hours": "2023-09-05",
+    "contact:facebook": "https://www.facebook.com/almgrens",
+    "contact:instagram": "https://www.instagram.com/almgren.sidenvaveri",
+    "description": "Silk weaving mill with 160-year old working looms",
+    "email": "info@kasiden.se",
+    "fee": "yes",
+    "fee:conditional": "no @ (age < 19)",
+    "name": "Almgrens Sidenväveri & Museum",
+    "name:en": "Almgren Silk-Weaving Mill & Museum",
+    "opening_hours": "Mo-Sa 12:00-16:00; Su off",
+    "payment:cards": "yes",
+    "payment:credit_cards": "yes",
+    "phone": "+46 8 642 561 6",
+    "tourism": "museum",
+    "website": "https://www.kasiden.se/",
+    "wheelchair": "yes",
+    "wikidata": "Q10542299"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stadsmuseetistockholm",
+  "n": "Stadsmuseet i Stockholm",
+  "a": "",
+  "pc": "",
+  "lat": 59.31959,
+  "lng": 18.07126,
+  "c": "museum",
+  "s": "museum",
+  "q": "Stadsmuseet i Stockholm Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304602016",
+   "raw": {
+    "building:levels": "3",
+    "check_date": "2025-12-11",
+    "contact:email": "stadsmuseet@stockholm.se",
+    "contact:phone": "+46850831620",
+    "contact:website": "https://stadsmuseet.stockholm",
+    "description": "The development of Stockholm from middle ages fortified port to the city of today.",
+    "fee": "no",
+    "museum": "local",
+    "name": "Stadsmuseet i Stockholm",
+    "name:en": "Stockholm City Museum",
+    "name:fi": "Tukholman kaupunginmuseo",
+    "name:ru": "Городской музей",
+    "name:sv": "Stadsmuseet i Stockholm",
+    "opening_hours": "Mo-Tu, Th-Su 11:00-17:00; We 11:00-20:00",
+    "operator:type": "public",
+    "toilets": "yes",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "wheelchair": "yes",
+    "wikidata": "Q1933896",
+    "wikimedia_commons": "Category:Stockholms stadsmuseum",
+    "wikipedia": "sv:Stadsmuseet i Stockholm"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "postmuseum",
+  "n": "Postmuseum",
+  "a": "",
+  "pc": "",
+  "lat": 59.32409,
+  "lng": 18.068,
+  "c": "museum",
+  "s": "museum",
+  "q": "Postmuseum Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304603696",
+   "raw": {
+    "check_date": "2025-11-14",
+    "contact:email": "postmuseum@postnord.com",
+    "contact:phone": "+46104364439",
+    "contact:website": "https://www.postmuseum.se/",
+    "description": "History of the Swedish postal service, postcards and stamps",
+    "fee": "yes",
+    "name": "Postmuseum",
+    "name:en": "Post Museum",
+    "name:fi": "Postimuseo",
+    "name:ru": "Почтовый музей",
+    "name:sv": "Postmuseum",
+    "name:zh": "郵政博物館",
+    "opening_hours": "Mo off; Tu-Fr 11:00-17:00; Sa-Su 10:00-16:00",
+    "toilets": "yes",
+    "tourism": "museum",
+    "wikidata": "Q712309",
+    "wikimedia_commons": "Category:Postmuseum",
+    "wikipedia": "sv:Postmuseum"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kungligamyntkabinettet",
+  "n": "Kungliga Myntkabinettet",
+  "a": "",
+  "pc": "",
+  "lat": 59.33467,
+  "lng": 18.09022,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Kungliga Myntkabinettet Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304604287",
+   "raw": {
+    "description:en": "Economic and financial history with coin, gold and silver displays.",
+    "museum": "history",
+    "name": "Kungliga Myntkabinettet",
+    "name:en": "Royal Coin Cabinet",
+    "opening_hours": "11:00-17:00",
+    "tourism": "museum_closed_for_renovation",
+    "website": "http://www.myntkabinettet.se/",
+    "wheelchair": "yes",
+    "wikidata": "Q1750428",
+    "wikimedia_commons": "Category:Kungliga Myntkabinettet",
+    "wikipedia": "sv:Ekonomiska museet – Kungliga Myntkabinettet"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "trekronor",
+  "n": "Tre Kronor",
+  "a": "",
+  "pc": "",
+  "lat": 59.32741,
+  "lng": 18.07105,
+  "c": "museum",
+  "s": "museum",
+  "q": "Tre Kronor Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304607835",
+   "raw": {
+    "description": "Explains the 13th century fortifications that underly the Royal Palace",
+    "fee": "yes",
+    "museum": "history",
+    "name": "Tre Kronor",
+    "name:en": "Tre Kronor Museum",
+    "name:fi": "Kolmen kruunun museo",
+    "name:ru": "Музей Три Короны",
+    "name:sv": "Tre Kronor",
+    "opening_hours": "Mo-Su 10:00-17:00",
+    "operator": "H.M. Konungens Hovmarskalksämbete",
+    "phone": "+4684026130",
+    "tourism": "museum",
+    "website": "http://www.kungahuset.se/kungligaslotten/kungligaslottet/museumtrekronor",
+    "wikidata": "Q10590595",
+    "wikimedia_commons": "Category:Museum Tre kronor",
+    "wikipedia": "sv:Museum Tre Kronor"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "konstakademien",
+  "n": "Konstakademien",
+  "a": "",
+  "pc": "",
+  "lat": 59.32877,
+  "lng": 18.06437,
+  "c": "museum",
+  "s": "museum",
+  "q": "Konstakademien Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304608689",
+   "raw": {
+    "addr:city": "Stockholm",
+    "addr:country": "SE",
+    "addr:housenumber": "27",
+    "addr:postcode": "111 52",
+    "addr:street": "Jakobsgatan",
+    "addr:unit": "C",
+    "cafe": "yes",
+    "check_date": "2026-05-01",
+    "description": "The Royal Academy of Fine Arts was founded in 1735",
+    "fee": "no",
+    "name": "Konstakademien",
+    "name:de": "Kunstakademien",
+    "name:en": "Royal Academy of Fine Arts",
+    "name:fi": "Taideakatemia",
+    "name:sv": "Konstakademien",
+    "opening_hours": "Mo,Su off; Tu-Sa 11:00-16:00",
+    "toilets": "yes",
+    "tourism": "museum",
+    "website": "https://konstakademien.se/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "medelhavsmuseet",
+  "n": "Medelhavsmuseet",
+  "a": "",
+  "pc": "",
+  "lat": 59.32945,
+  "lng": 18.0673,
+  "c": "museum",
+  "s": "museum",
+  "q": "Medelhavsmuseet Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304609719",
+   "raw": {
+    "check_date": "2024-06-25",
+    "description": "Archaeological museum with focus on ancient cultures around the Mediterranean",
+    "fee": "yes",
+    "name": "Medelhavsmuseet",
+    "name:en": "Museum of Mediterranean & Near East Antiquities",
+    "name:fi": "Välimerimuseo",
+    "name:sv": "Medelhavsmuseet",
+    "opening_hours": "Mo off; Tu-Su 11:00-17:00",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "website": "https://www.medelhavsmuseet.se/",
+    "wheelchair": "yes",
+    "wikidata": "Q1331646",
+    "wikimedia_commons": "Category:Medelhavsmuseet",
+    "wikipedia": "sv:Medelhavsmuseet"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "scenkonstmuseet",
+  "n": "Scenkonstmuseet",
+  "a": "",
+  "pc": "",
+  "lat": 59.33372,
+  "lng": 18.0783,
+  "c": "museum",
+  "s": "museum",
+  "q": "Scenkonstmuseet Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/304624735",
+   "raw": {
+    "addr:city": "Stockholm",
+    "addr:housenumber": "2",
+    "addr:postcode": "114 51",
+    "addr:street": "Sibyllegatan",
+    "description": "An experience centre devoted to the arts of dance, music and theatre, as well as being one of Europe's leading museums for performance",
+    "email": "info@scenkonstmuseet.se",
+    "fee": "yes",
+    "name": "Scenkonstmuseet",
+    "name:en": "Swedish Museum of Performing Arts",
+    "name:ru": "Музей музыки и театра",
+    "opening_hours": "Tu-Su 11:00-17:00",
+    "payment:cash": "no",
+    "phone": "+46 8 519 567 00",
+    "tourism": "museum",
+    "website": "https://scenkonstmuseet.se/",
+    "wheelchair": "yes",
+    "wikidata": "Q18448716",
+    "wikimedia_commons": "Category:Scenkonstmuseet",
+    "wikipedia": "sv:Scenkonstmuseet"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kappalastallningen",
+  "n": "Käppalaställningen",
+  "a": "",
+  "pc": "",
+  "lat": 59.3544,
+  "lng": 18.22605,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Käppalaställningen Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/307429126",
+   "raw": {
+    "description": "Second World War anti-aircraft guns? One is still in place.",
+    "historic": "cannon",
+    "model:wikipedia": "en:Bofors 75 mm Model 1929",
+    "name": "Käppalaställningen"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kungsholmsbaptistkyrka",
+  "n": "Kungsholms baptistkyrka",
+  "a": "",
+  "pc": "",
+  "lat": 59.33083,
+  "lng": 18.03549,
+  "c": "faith",
+  "s": "church",
+  "q": "Kungsholms baptistkyrka Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/316097403",
+   "raw": {
+    "alt_name": "Fridhemskyrkan",
+    "amenity": "place_of_worship",
+    "denomination": "baptist",
+    "name": "Kungsholms baptistkyrka",
+    "religion": "christian",
+    "wikidata": "Q10550315",
+    "wikimedia_commons": "Category:Kungsholms baptistkyrka",
+    "wikipedia": "sv:Kungsholms baptistkyrka"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "mikaelskapellet",
+  "n": "Mikaelskapellet",
+  "a": "",
+  "pc": "",
+  "lat": 59.34257,
+  "lng": 18.03294,
+  "c": "faith",
+  "s": "church",
+  "q": "Mikaelskapellet Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/332140474",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2020-06-10",
+    "denomination": "lutheran",
+    "name": "Mikaelskapellet",
+    "religion": "christian",
+    "wikidata": "Q10585160",
+    "wikimedia_commons": "Category:Mikaelskapellet, Stockholm"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "jarlabankessten",
+  "n": "Jarlabankes sten",
+  "a": "",
+  "pc": "",
+  "lat": 59.44867,
+  "lng": 17.98403,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Jarlabankes sten Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/343021678",
+   "raw": {
+    "historic": "rune_stone",
+    "inscription": "Häming och Jarlabanke de lät röja väg och göra broar efter sin fader, och Estrid efter sina söner Ingefast och Ingvar. Gud hjälpe deras ande.",
+    "name": "Jarlabankes sten",
+    "source": "GPS",
+    "wikipedia": "sv:Upplands runinskrifter 101"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museumdevries",
+  "n": "Museum de Vries",
+  "a": "",
+  "pc": "",
+  "lat": 59.32501,
+  "lng": 17.88783,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museum de Vries Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/343391620",
+   "raw": {
+    "description:en": "A unique collection of sculptures by Adriaen de Vries (1556–1626), one of the foremost Baroque sculptors.",
+    "name": "Museum de Vries",
+    "name:en": "Museum de Vries",
+    "tourism": "museum",
+    "website:en": "www.nationalmuseum.se",
+    "website:sv": "www.kungahuset.se",
+    "wikidata": "Q10590596",
+    "wikipedia": "sv:Museum de Vries"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kapellet",
+  "n": "Kapellet",
+  "a": "",
+  "pc": "",
+  "lat": 59.35573,
+  "lng": 18.16833,
+  "c": "faith",
+  "s": "church",
+  "q": "Kapellet Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/353055007",
+   "raw": {
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10f",
+    "description": "Kapellet som ritats av arkitekt SAR Carl Nyrén invigdes 1964.",
+    "name": "Kapellet",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "margarethakrook",
+  "n": "Margaretha Krook",
+  "a": "",
+  "pc": "",
+  "lat": 59.33314,
+  "lng": 18.07639,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Margaretha Krook Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/369970869",
+   "raw": {
+    "artist_name": "Marie-Louise Ekman",
+    "artwork_type": "statue",
+    "description": "Stands at the corner of the theatre where the actress used to stand and have a cigarette. Placed 2002.",
+    "material": "bronze",
+    "name": "Margaretha Krook",
+    "start_date": "2002",
+    "subject:wikidata": "Q1799576",
+    "subject:wikipedia": "sv:Margaretha Krook",
+    "tourism": "artwork",
+    "wikidata": "Q125885488",
+    "wikipedia": "sv:Margaretha Krooks staty"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "sunby",
+  "n": "Sunby",
+  "a": "",
+  "pc": "",
+  "lat": 59.36875,
+  "lng": 18.18169,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Sunby Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/370833769",
+   "raw": {
+    "description": "Prehistoric village, still in use as a farm until 1789.",
+    "historic": "remains",
+    "name": "Sunby",
+    "place": "locality"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "olauspetrikyrka",
+  "n": "Olaus Petri kyrka",
+  "a": "",
+  "pc": "",
+  "lat": 59.34498,
+  "lng": 18.08792,
+  "c": "faith",
+  "s": "church",
+  "q": "Olaus Petri kyrka Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/373399103",
+   "raw": {
+    "amenity": "place_of_worship",
+    "denomination": "lutheran",
+    "name": "Olaus Petri kyrka",
+    "religion": "christian",
+    "wikidata": "Q10608172",
+    "wikimedia_commons": "Category:Olaus Petri kyrka, Stockholm",
+    "wikipedia": "sv:Olaus Petri kyrka, Stockholm"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "estoniaminnesvarden",
+  "n": "Estoniaminnesvården",
+  "a": "",
+  "pc": "",
+  "lat": 59.32767,
+  "lng": 18.09362,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Estoniaminnesvården Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/373499621",
+   "raw": {
+    "description": "Monument bearing the names of the 824 victims of the 1994 MS Estonia ferry disaster.",
+    "historic": "memorial",
+    "name": "Estoniaminnesvården",
+    "start_date": "1997",
+    "wikidata": "Q3817479",
+    "wikimedia_commons": "Category:Estonia memorial, Stockholm"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "karlxgustav",
+  "n": "Karl X Gustav",
+  "a": "",
+  "pc": "",
+  "lat": 59.32938,
+  "lng": 18.09457,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Karl X Gustav Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/373500792",
+   "raw": {
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Karl X Gustav",
+    "statue": "equestrian",
+    "subject:wikidata": "Q52936",
+    "wikidata": "Q30502944"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "orfeus",
+  "n": "Orfeus",
+  "a": "",
+  "pc": "",
+  "lat": 59.32818,
+  "lng": 18.0957,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Orfeus Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/373501727",
+   "raw": {
+    "artist_name": "Teodor Lundberg",
+    "artwork_type": "sculpture",
+    "erected": "1905",
+    "name": "Orfeus",
+    "tourism": "artwork",
+    "wikidata": "Q109559515",
+    "wikimedia_commons": "Category:Orfeus by Theodor Lundberg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "museifartygen",
+  "n": "Museifartygen",
+  "a": "",
+  "pc": "",
+  "lat": 59.32729,
+  "lng": 18.09077,
+  "c": "museum",
+  "s": "museum",
+  "q": "Museifartygen Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/373780532",
+   "raw": {
+    "description:en": "Visit a light-ship and an ice-breaker.",
+    "fee": "no",
+    "name": "Museifartygen",
+    "name:de": "Museumsschiffe",
+    "name:en": "Maritime Museum, Stockholm",
+    "name:fr": "Musée de la Marine",
+    "opening_hours": "Tu-Su 11:00-18:00",
+    "tourism": "museum",
+    "website": "https://www.sjohistoriska.se/sv/Besok/Besok-oss/Galarvarvet/Oppettider-pa-Galarvarvet/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "bagskytten",
+  "n": "Bågskytten",
+  "a": "",
+  "pc": "",
+  "lat": 59.32587,
+  "lng": 18.09618,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Bågskytten Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/373827961",
+   "raw": {
+    "artist_name": "Carl Milles",
+    "artwork_type": "sculpture",
+    "name": "Bågskytten",
+    "tourism": "artwork",
+    "wikidata": "Q10438592",
+    "wikimedia_commons": "Category:Bågskytten Milles",
+    "wikipedia": "sv:Bågskytten (skulptur)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "thethinker",
+  "n": "The Thinker",
+  "a": "",
+  "pc": "",
+  "lat": 59.31985,
+  "lng": 18.11326,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "The Thinker Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/408296178",
+   "raw": {
+    "artist_name": "August Rodin",
+    "artwork_type": "sculpture",
+    "name": "The Thinker",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "park",
+  "n": "Park",
+  "a": "",
+  "pc": "",
+  "lat": 59.33786,
+  "lng": 18.07452,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Park Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/410525920",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Park",
+    "operator": "SF",
+    "phone": "+46 8 522 232 00",
+    "website": "https://biografenpark.se/",
+    "wikidata": "Q3365398",
+    "wikimedia_commons": "Category:Biograf Park",
+    "wikipedia": "sv:Park (biograf)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hokenochduvan",
+  "n": "Höken och duvan",
+  "a": "",
+  "pc": "",
+  "lat": 59.33635,
+  "lng": 18.07244,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Höken och duvan Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/410544349",
+   "raw": {
+    "artist_name": "Torsten Fridh",
+    "artwork_type": "sculpture",
+    "name": "Höken och duvan",
+    "tourism": "artwork",
+    "wikidata": "Q10532503",
+    "wikipedia": "sv:Höken och duvan"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "everttaube18901976",
+  "n": "Evert Taube 1890-1976",
+  "a": "",
+  "pc": "",
+  "lat": 59.32522,
+  "lng": 18.06141,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Evert Taube 1890-1976 Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/410644726",
+   "raw": {
+    "artist:wikidata": "Q2581960",
+    "artist_name": "Willy Gordon",
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Evert Taube 1890-1976",
+    "name:ru": "Памятник Эверту Тону",
+    "subject:wikidata": "Q455625",
+    "subject:wikipedia": "sv:Evert Taube",
+    "tourism": "artwork",
+    "wikidata": "Q134525210"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "birgerjarl",
+  "n": "Birger Jarl",
+  "a": "",
+  "pc": "",
+  "lat": 59.32511,
+  "lng": 18.06385,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Birger Jarl Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/410645926",
+   "raw": {
+    "artwork_type": "statue",
+    "historic": "memorial",
+    "memorial": "statue",
+    "name": "Birger Jarl",
+    "name:ru": "Памятник Биргеру Ярлу",
+    "subject:wikidata": "Q316828",
+    "subject:wikipedia": "sv:Birger jarl",
+    "tourism": "artwork",
+    "wikidata": "Q10429912",
+    "wikimedia_commons": "Category:Statue of Birger jarl, Stockholm",
+    "wikipedia": "sv:Birger jarl (staty)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "everttaube",
+  "n": "Evert Taube",
+  "a": "",
+  "pc": "",
+  "lat": 59.32266,
+  "lng": 18.07338,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Evert Taube Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/418320423",
+   "raw": {
+    "artwork_type": "statue",
+    "description": "Popular 20th century poet and singer",
+    "material": "metal",
+    "name": "Evert Taube",
+    "name:ru": "Памятник Эверту Таубе",
+    "subject:wikidata": "Q455625",
+    "subject:wikipedia": "sv:Evert Taube",
+    "tourism": "artwork",
+    "wikidata": "Q20823583",
+    "wikimedia_commons": "Category:Statue of Evert Taube, Gamla stan"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "filmstadensoder",
+  "n": "Filmstaden Söder",
+  "a": "",
+  "pc": "",
+  "lat": 59.31405,
+  "lng": 18.07113,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Filmstaden Söder Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/426931991",
+   "raw": {
+    "amenity": "cinema",
+    "contact:phone": "+46856260000",
+    "contact:website": "https://www.filmstaden.se/biograf/NCG37226/filmstaden-soder",
+    "facebook": "https://www.facebook.com/FilmstadenAB/",
+    "name": "Filmstaden Söder",
+    "operator": "SF",
+    "wheelchair": "yes",
+    "wikidata": "Q3072167",
+    "wikipedia": "sv:Filmstaden Söder"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "biokontrast",
+  "n": "Bio Kontrast",
+  "a": "",
+  "pc": "",
+  "lat": 59.29753,
+  "lng": 18.05269,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Bio Kontrast Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/442049900",
+   "raw": {
+    "amenity": "cinema",
+    "name": "Bio Kontrast",
+    "opening_hours": "\"Depending on programme, sign outside showing the current movies shown and times\"",
+    "website": "http://arstafolketshus.org/?page_id=25",
+    "wikidata": "Q10429749"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "gravfalt",
+  "n": "Gravfält",
+  "a": "",
+  "pc": "",
+  "lat": 59.29489,
+  "lng": 18.05023,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Gravfält Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/442073063",
+   "raw": {
+    "historic": "archaeological_site",
+    "name": "Gravfält",
+    "name:en": "grave site"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "nilsericson",
+  "n": "Nils Ericson",
+  "a": "",
+  "pc": "",
+  "lat": 59.33045,
+  "lng": 18.05895,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Nils Ericson Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/444829122",
+   "raw": {
+    "description": "Friherre Nils Ericson (31 January 1802 – 8 September 1870), Swedish inventor and mechanical engineer.",
+    "historic": "monument",
+    "name": "Nils Ericson",
+    "subject:wikidata": "Q1938740",
+    "subject:wikipedia": "sv:Nils Ericson",
+    "wikidata": "Q10600818",
+    "wikimedia_commons": "Category:Nils Ericson, skulptur",
+    "wikipedia": "sv:Nils Ericson (staty)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "rigoletto",
+  "n": "Rigoletto",
+  "a": "",
+  "pc": "",
+  "lat": 59.33614,
+  "lng": 18.06838,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Rigoletto Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/449884311",
+   "raw": {
+    "amenity": "cinema",
+    "facebook": "https://www.facebook.com/FilmstadenAB/",
+    "name": "Rigoletto",
+    "opening_hours": "Mo-Fr 16:30-21:15; Sa-Su 13:30-21:15; ",
+    "operator": "SF",
+    "payment:cash": "no",
+    "phone": "+46 8 562 600 00",
+    "website": "https://www.filmstaden.se/stockholm/biograf/rigoletto/",
+    "wheelchair": "yes",
+    "wikidata": "Q3431963",
+    "wikimedia_commons": "Category:Biograf Rigoletto",
+    "wikipedia": "sv:Rigoletto (biograf)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "arstablick",
+  "n": "Årstablick",
+  "a": "",
+  "pc": "",
+  "lat": 59.3023,
+  "lng": 18.05848,
+  "c": "view",
+  "s": "hilltop viewpoint",
+  "q": "Årstablick Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/458455085",
+   "raw": {
+    "ele": "38",
+    "name": "Årstablick",
+    "natural": "peak",
+    "tourism": "viewpoint"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "skanskvarnsluftvarnsstal",
+  "n": "Skanskvarns luftvärnsställning",
+  "a": "",
+  "pc": "",
+  "lat": 59.29937,
+  "lng": 18.073,
+  "c": "history",
+  "s": "historic landmark",
+  "q": "Skanskvarns luftvärnsställning Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/458456387",
+   "raw": {
+    "historic": "ruins",
+    "historic:civilization": "modern",
+    "name": "Skanskvarns luftvärnsställning",
+    "wikidata": "Q10669736",
+    "wikipedia": "sv:Skanskvarns luftvärnsställning"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "tenstakonsthall",
+  "n": "Tensta konsthall",
+  "a": "",
+  "pc": "",
+  "lat": 59.3937,
+  "lng": 17.9033,
+  "c": "museum",
+  "s": "museum",
+  "q": "Tensta konsthall Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/462114043",
+   "raw": {
+    "addr:housenumber": "10",
+    "addr:street": "Taxingegränd",
+    "check_date": "2026-04-06",
+    "check_date:opening_hours": "2026-04-06",
+    "name": "Tensta konsthall",
+    "opening_hours": "Tu-Fr 11:00-17:00; Sa-Su 12:00-17:00",
+    "tourism": "museum",
+    "website": "http://www.tenstakonsthall.se/",
+    "wikidata": "Q7700727",
+    "wikipedia": "sv:Tensta konsthall"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "frosundatoppen",
+  "n": "Frösundatoppen",
+  "a": "",
+  "pc": "",
+  "lat": 59.36616,
+  "lng": 18.02484,
+  "c": "view",
+  "s": "hilltop viewpoint",
+  "q": "Frösundatoppen Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/470266846",
+   "raw": {
+    "alt_name": "Hagakullen",
+    "ele": "72",
+    "name": "Frösundatoppen",
+    "natural": "peak",
+    "tourism": "viewpoint",
+    "wheelchair": "no",
+    "wikidata": "Q10499778",
+    "wikimedia_commons": "Category:Frösundatoppen",
+    "wikipedia": "sv:Frösundatoppen"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "kentauren",
+  "n": "Kentauren",
+  "a": "",
+  "pc": "",
+  "lat": 59.34275,
+  "lng": 18.05464,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Kentauren Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/472687398",
+   "raw": {
+    "artist_name": "Sigrid Fridman",
+    "artwork_type": "statue",
+    "check_date": "2019-12-05",
+    "material": "bronze",
+    "name": "Kentauren",
+    "statue": "mythology",
+    "tourism": "artwork",
+    "wikidata": "Q10544895",
+    "wikimedia_commons": "File:Kentauren_2011a.jpg",
+    "wikipedia": "sv:Kentauren_(skulptur)"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hamnarbetaren",
+  "n": "Hamnarbetaren",
+  "a": "",
+  "pc": "",
+  "lat": 59.33601,
+  "lng": 18.05765,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Hamnarbetaren Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/473568861",
+   "raw": {
+    "artist_name": "Constantin Meunier",
+    "artwork_type": "statue",
+    "name": "Hamnarbetaren",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "adventkyrkan",
+  "n": "Adventkyrkan",
+  "a": "",
+  "pc": "",
+  "lat": 59.33484,
+  "lng": 18.05636,
+  "c": "faith",
+  "s": "church",
+  "q": "Adventkyrkan Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/473595652",
+   "raw": {
+    "amenity": "place_of_worship",
+    "check_date": "2024-08-06",
+    "denomination": "seventh_day_adventist",
+    "name": "Adventkyrkan",
+    "religion": "christian"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "grand",
+  "n": "Grand",
+  "a": "",
+  "pc": "",
+  "lat": 59.33911,
+  "lng": 18.05982,
+  "c": "cinema",
+  "s": "cinema",
+  "q": "Grand Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/474987953",
+   "raw": {
+    "amenity": "cinema",
+    "brand": "Svenska Bio",
+    "brand:wikidata": "Q3506261",
+    "check_date": "2024-10-29",
+    "check_date:opening_hours": "2024-10-29",
+    "facebook": "https://www.facebook.com/FilmstadenAB/",
+    "name": "Grand",
+    "opening_hours": "Mo-Su 12:00-21:00",
+    "operator": "Svenska Bio",
+    "payment:cash": "no",
+    "website": "https://www.filmstaden.se/biograf/NCG49012/grand-stockholm",
+    "wikidata": "Q921471",
+    "wikimedia_commons": "Category:Biograf Grand",
+    "wikipedia": "sv:Grand (biograf, Stockholm)"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "flickaiaftonsol",
+  "n": "Flicka i aftonsol",
+  "a": "",
+  "pc": "",
+  "lat": 59.34898,
+  "lng": 18.05304,
+  "c": "streetart",
+  "s": "public statue",
+  "q": "Flicka i aftonsol Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/482343651",
+   "raw": {
+    "artist_name": "Anders Jönsson",
+    "artwork_subject": "figurative",
+    "artwork_type": "statue",
+    "check_date": "2020-01-07",
+    "material": "bronze",
+    "name": "Flicka i aftonsol",
+    "start_date": "1955",
+    "tourism": "artwork",
+    "wikimedia_commons:path": "File:Flicka_i_aftonsol_-_Anders_Jönsson_02.jpg"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "baltesspannarna",
+  "n": "Bältesspännarna",
+  "a": "",
+  "pc": "",
+  "lat": 59.32886,
+  "lng": 18.07754,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Bältesspännarna Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/486020483",
+   "raw": {
+    "artist_name": "Johan Peter Molin",
+    "artwork_type": "sculpture",
+    "name": "Bältesspännarna",
+    "tourism": "artwork",
+    "wikidata": "Q10438503",
+    "wikimedia_commons": "File:Johan_Peter_Molin_Baltesspannare.JPG"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "laura",
+  "n": "Laura",
+  "a": "",
+  "pc": "",
+  "lat": 59.33317,
+  "lng": 18.07337,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Laura Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/486127739",
+   "raw": {
+    "artist_name": "Ebba Hedqvist",
+    "artwork_type": "sculpture",
+    "name": "Laura",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "skalgropsstenbrannkyrkar",
+  "n": "Skålgropssten Brännkyrka RAÄ222",
+  "a": "",
+  "pc": "",
+  "lat": 59.29219,
+  "lng": 18.03101,
+  "c": "history",
+  "s": "archaeological site",
+  "q": "Skålgropssten Brännkyrka RAÄ222 Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/492883288",
+   "raw": {
+    "historic": "archaeological_site",
+    "name": "Skålgropssten Brännkyrka RAÄ222"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "stuvstakyrkan",
+  "n": "Stuvstakyrkan",
+  "a": "",
+  "pc": "",
+  "lat": 59.25031,
+  "lng": 17.99737,
+  "c": "faith",
+  "s": "church",
+  "q": "Stuvstakyrkan Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/498436327",
+   "raw": {
+    "addr:city": "Huddinge",
+    "addr:country": "SE",
+    "addr:housenumber": "1",
+    "addr:postcode": "141 40",
+    "addr:street": "Mellanskogsvägen",
+    "amenity": "place_of_worship",
+    "check_date": "2024-10-14",
+    "denomination": "uniting_church_in_sweden",
+    "name": "Stuvstakyrkan",
+    "religion": "christian",
+    "website": "https://stuvstakyrkan.se/"
+   },
+   "confidence": "category-guessed",
+   "needs": [
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "formtida",
+  "n": "Formtida",
+  "a": "",
+  "pc": "",
+  "lat": 59.38848,
+  "lng": 18.10058,
+  "c": "death",
+  "s": "historic tomb",
+  "q": "Formtida Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/506158055",
+   "raw": {
+    "description": "Bronze age or early iron age grave site.",
+    "historic": "archaeological_site",
+    "name": "Formtida",
+    "name:en": "grave site",
+    "source": "survey"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "samsprakvidbadet",
+  "n": "Samspråk vid badet",
+  "a": "",
+  "pc": "",
+  "lat": 59.36462,
+  "lng": 18.12111,
+  "c": "streetart",
+  "s": "public sculpture",
+  "q": "Samspråk vid badet Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "overpass",
+   "url": "https://www.openstreetmap.org/node/510670140",
+   "raw": {
+    "artist_name": "Ansgar Almqvist",
+    "artwork_type": "sculpture",
+    "name": "Samspråk vid badet",
+    "source": "survey",
+    "tourism": "artwork"
+   },
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "alby",
+  "n": "Alby",
+  "a": "",
+  "pc": "",
+  "lat": 59.23333,
+  "lng": 17.85,
+  "c": "oddity",
+  "s": "urban district in Botkyrka Municipality, Sweden",
+  "q": "Alby Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q934689",
+   "raw": "urban district in Botkyrka Municipality, Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "slagsta",
+  "n": "Slagsta",
+  "a": "",
+  "pc": "",
+  "lat": 59.25389,
+  "lng": 17.84528,
+  "c": "oddity",
+  "s": "residential district Botkyrka Municipality, Sweden",
+  "q": "Slagsta Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1448815",
+   "raw": "residential district Botkyrka Municipality, Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eriksberg",
+  "n": "Eriksberg",
+  "a": "",
+  "pc": "",
+  "lat": 59.23639,
+  "lng": 17.83778,
+  "c": "oddity",
+  "s": "residential area in Botkyrka municipality, Sweden",
+  "q": "Eriksberg Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1449662",
+   "raw": "residential area in Botkyrka municipality, Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hallundametrostation",
+  "n": "Hallunda metro station",
+  "a": "",
+  "pc": "",
+  "lat": 59.24333,
+  "lng": 17.82528,
+  "c": "oddity",
+  "s": "metro station southwest of Stockholm",
+  "q": "Hallunda metro station Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1571967",
+   "raw": "metro station southwest of Stockholm",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "albymetrostation",
+  "n": "Alby metro station",
+  "a": "",
+  "pc": "",
+  "lat": 59.23903,
+  "lng": 17.84486,
+  "c": "oddity",
+  "s": "metro station southeast of Stockholm",
+  "q": "Alby metro station Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q1606137",
+   "raw": "metro station southeast of Stockholm",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hallunda",
+  "n": "Hallunda",
+  "a": "",
+  "pc": "",
+  "lat": 59.24865,
+  "lng": 17.82411,
+  "c": "oddity",
+  "s": "human settlement in Sweden",
+  "q": "Hallunda Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q5643216",
+   "raw": "human settlement in Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "norrabotkyrka",
+  "n": "Norra Botkyrka",
+  "a": "",
+  "pc": "",
+  "lat": 59.24167,
+  "lng": 17.83667,
+  "c": "oddity",
+  "s": "swedish residential areas",
+  "q": "Norra Botkyrka Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q7053218",
+   "raw": "Swedish residential areas",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "albykistan",
+  "n": "Albykistan",
+  "a": "",
+  "pc": "",
+  "lat": 59.23278,
+  "lng": 17.84056,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Albykistan Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10404426",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hallundachurch",
+  "n": "Hallunda Church",
+  "a": "",
+  "pc": "",
+  "lat": 59.24447,
+  "lng": 17.82461,
+  "c": "faith",
+  "s": "church building in Botkyrka Municipality, Stockholm County, ",
+  "q": "Hallunda Church Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10516451",
+   "raw": "church building in Botkyrka Municipality, Stockholm County, Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hallundagard",
+  "n": "Hallunda gård",
+  "a": "",
+  "pc": "",
+  "lat": 59.25333,
+  "lng": 17.82806,
+  "c": "oddity",
+  "s": "building in Botkyrka Municipality, Stockholm County, Sweden",
+  "q": "Hallunda gård Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10516449",
+   "raw": "building in Botkyrka Municipality, Stockholm County, Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ljusetskyrka",
+  "n": "Ljusets kyrka",
+  "a": "",
+  "pc": "",
+  "lat": 59.24489,
+  "lng": 17.83039,
+  "c": "faith",
+  "s": "church building in Botkyrka Municipality, Stockholm County, ",
+  "q": "Ljusets kyrka Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10568432",
+   "raw": "church building in Botkyrka Municipality, Stockholm County, Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "slagstaristningen",
+  "n": "Slagstaristningen",
+  "a": "",
+  "pc": "",
+  "lat": 59.251,
+  "lng": 17.85017,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Slagstaristningen Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10671431",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "slagstaholme",
+  "n": "Slagsta holme",
+  "a": "",
+  "pc": "",
+  "lat": 59.26272,
+  "lng": 17.84344,
+  "c": "oddity",
+  "s": "islet in Stockholm County, Sweden",
+  "q": "Slagsta holme Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10671429",
+   "raw": "islet in Stockholm County, Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "slagstabadet",
+  "n": "Slagstabadet",
+  "a": "",
+  "pc": "",
+  "lat": 59.25833,
+  "lng": 17.8475,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Slagstabadet Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q10671432",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "eriksbergsindustriomrade",
+  "n": "Eriksbergs industriområde",
+  "a": "",
+  "pc": "",
+  "lat": 59.2322,
+  "lng": 17.8327,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Eriksbergs industriområde Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q18289693",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "botkyrka702",
+  "n": "Botkyrka 70:2",
+  "a": "",
+  "pc": "",
+  "lat": 59.25585,
+  "lng": 17.82634,
+  "c": "oddity",
+  "s": "stone setting in Botkyrka Municipality, Stockholm County, Sw",
+  "q": "Botkyrka 70:2 Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q29479406",
+   "raw": "stone setting in Botkyrka Municipality, Stockholm County, Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "hallundagardsgravfalt",
+  "n": "Hallunda gårds gravfält",
+  "a": "",
+  "pc": "",
+  "lat": 59.25224,
+  "lng": 17.83233,
+  "c": "oddity",
+  "s": "building in Botkyrka Municipality, Stockholm County, Sweden",
+  "q": "Hallunda gårds gravfält Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q29479410",
+   "raw": "building in Botkyrka Municipality, Stockholm County, Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "botkyrka771",
+  "n": "Botkyrka 77:1",
+  "a": "",
+  "pc": "",
+  "lat": 59.25418,
+  "lng": 17.84237,
+  "c": "oddity",
+  "s": "stone setting in Botkyrka Municipality, Stockholm County, Sw",
+  "q": "Botkyrka 77:1 Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q29479414",
+   "raw": "stone setting in Botkyrka Municipality, Stockholm County, Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "botkyrka893",
+  "n": "Botkyrka 89:3",
+  "a": "",
+  "pc": "",
+  "lat": 59.24149,
+  "lng": 17.83398,
+  "c": "oddity",
+  "s": "stone setting in Botkyrka Municipality, Stockholm County, Sw",
+  "q": "Botkyrka 89:3 Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q29479426",
+   "raw": "stone setting in Botkyrka Municipality, Stockholm County, Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "botkyrka1062",
+  "n": "Botkyrka 106:2",
+  "a": "",
+  "pc": "",
+  "lat": 59.23011,
+  "lng": 17.824,
+  "c": "oddity",
+  "s": "stone setting in Botkyrka Municipality, Stockholm County, Sw",
+  "q": "Botkyrka 106:2 Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q29479436",
+   "raw": "stone setting in Botkyrka Municipality, Stockholm County, Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "botkyrka1124",
+  "n": "Botkyrka 112:4",
+  "a": "",
+  "pc": "",
+  "lat": 59.23172,
+  "lng": 17.84147,
+  "c": "oddity",
+  "s": "stone setting in Botkyrka Municipality, Stockholm County, Sw",
+  "q": "Botkyrka 112:4 Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q29479449",
+   "raw": "stone setting in Botkyrka Municipality, Stockholm County, Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "botkyrka1231",
+  "n": "Botkyrka 123:1",
+  "a": "",
+  "pc": "",
+  "lat": 59.23011,
+  "lng": 17.8486,
+  "c": "oddity",
+  "s": "stone setting in Botkyrka Municipality, Stockholm County, Sw",
+  "q": "Botkyrka 123:1 Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q29479483",
+   "raw": "stone setting in Botkyrka Municipality, Stockholm County, Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "botkyrka3211",
+  "n": "Botkyrka 321:1",
+  "a": "",
+  "pc": "",
+  "lat": 59.24134,
+  "lng": 17.83006,
+  "c": "oddity",
+  "s": "stone setting in Botkyrka Municipality, Stockholm County, Sw",
+  "q": "Botkyrka 321:1 Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q29479776",
+   "raw": "stone setting in Botkyrka Municipality, Stockholm County, Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "botkyrka4472",
+  "n": "Botkyrka 447:2",
+  "a": "",
+  "pc": "",
+  "lat": 59.23536,
+  "lng": 17.83597,
+  "c": "oddity",
+  "s": "stone setting in Botkyrka Municipality, Stockholm County, Sw",
+  "q": "Botkyrka 447:2 Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q29479831",
+   "raw": "stone setting in Botkyrka Municipality, Stockholm County, Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "ekero721",
+  "n": "Ekerö 72:1",
+  "a": "",
+  "pc": "",
+  "lat": 59.26879,
+  "lng": 17.8392,
+  "c": "oddity",
+  "s": "stone setting in Ekerö Municipality, Stockholm County, Swede",
+  "q": "Ekerö 72:1 Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q29480718",
+   "raw": "stone setting in Ekerö Municipality, Stockholm County, Sweden",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ },
+ {
+  "id": "slagstaberget",
+  "n": "Slagstaberget",
+  "a": "",
+  "pc": "",
+  "lat": 59.2551,
+  "lng": 17.8408,
+  "c": "oddity",
+  "s": "local curiosity",
+  "q": "Slagstaberget Stockholm",
+  "w": "",
+  "city": "stockholm",
+  "_meta": {
+   "source": "wikidata",
+   "url": "http://www.wikidata.org/entity/Q31266067",
+   "raw": "",
+   "confidence": "needs-category",
+   "needs": [
+    "c",
+    "w"
+   ]
+  }
+ }
+]
