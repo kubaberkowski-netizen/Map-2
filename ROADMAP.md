@@ -81,7 +81,7 @@ mark-visited, per-spot "visited on foot" state.
 unlocked, a place card) saved as images; deep share links that open straight to a place;
 "invite a fellow wanderer" copy.
 
-**Platform** — installable PWA, offline app shell + stale-while-revalidate tile cache +
+**Platform** — installable PWA, stale-while-revalidate offline app shell + tile cache +
 cache-first Leaflet (`sw.js`); runtime Wikipedia thumbnails per place; "Pics" button to
 image-search a place; privacy page; optional "Suggest a place" / "Support Flâneur" footer
 links (hidden unless `FORM_URL` / `DONATE_URL` are set).

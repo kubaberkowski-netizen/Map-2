@@ -11,8 +11,9 @@ fully before touching anything.
   catalogue, so the file is now **~4 MB total** (the catalogue dominates). GitHub Pages serves this
   file directly from `main` / root (no `gh-pages` branch, no `/docs`). Confirm the
   source in **Settings → Pages** before pushing if in doubt — do not guess.
-- A small hand-written **`sw.js`** sits at the repo root (a service worker: offline app
-  shell + stale-while-revalidate tile cache + cache-first Leaflet). It is **static —
+- A small hand-written **`sw.js`** sits at the repo root (a service worker: a
+  stale-while-revalidate offline app shell + stale-while-revalidate tile cache +
+  cache-first Leaflet). It is **static —
   not processed by `build.js`** — and is registered by a tiny `<script>` near the end
   of the template. Edit it directly; bump its cache-name constants when its logic
   changes so clients pick it up. The navigate handler distinguishes the **app shell**
