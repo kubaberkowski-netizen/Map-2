@@ -24,7 +24,7 @@ text + place thumbnails), and Open-Meteo (weather for "Today's Detour").
 CLAUDE.md still describes **787 spots across 6 cities**. The live data has grown by
 **~19×**:
 
-- **15,322 spots across 71 cities** (`build.js` baseline is already updated to 15,322).
+- **15,322 spots across 70 cities** (`build.js` baseline is already updated to 15,322).
 - Beyond London (996) and the original UK/EU cities, the catalogue now spans
   global metros: NYC (298), Chicago (307), LA (287), San Francisco (264), Tokyo (231),
   Seoul (220), Hong Kong (232), Singapore (224), Sydney (221), Melbourne (243),
@@ -121,16 +121,17 @@ point of the product."** The data no longer reflects that:
 
 **This is a strategic fork, not just a data-quality nit** (see roadmap Phase 0).
 
-### 3.2 Stale source-of-truth documentation
-CLAUDE.md still claims 787 spots / 6 cities and an "owner's voice everywhere" invariant
-that the data contradicts. An AI session following CLAUDE.md literally would make wrong
-assumptions (e.g. about baselines, about which cities exist). The guide needs to catch up
-to 71 cities / 15,322 spots.
+### 3.2 Stale source-of-truth documentation — **addressed in this PR**
+CLAUDE.md claimed 787 spots / 6 cities and an "owner's voice everywhere" invariant that
+the data contradicts. An AI session following it literally would make wrong assumptions
+(baselines, which cities exist). **Fixed here:** CLAUDE.md now reflects 70 cities /
+15,322 spots, the ~4 MB bundle, and the machine-stub writeup reality.
 
-### 3.3 Privacy page is unpublished-ready
-`privacy.html` still contains `[EFFECTIVE DATE]` and two `[YOUR EMAIL]` placeholders. With
-a now-global audience hitting third-party services (MapTiler, Geoapify, Wikipedia,
-Open-Meteo), this should be completed before any wider launch.
+### 3.3 Privacy page was not publish-ready — **addressed in this PR**
+`privacy.html` contained `[EFFECTIVE DATE]` and two `[YOUR EMAIL]` placeholders. With a
+now-global audience hitting third-party services (MapTiler, Geoapify, Wikipedia,
+Open-Meteo), it needed completing before any wider launch. **Fixed here:** effective date
+and contact email are filled in.
 
 ### 3.4 No cross-device persistence
 All progress — visits, streaks, freezes, recorded walks, achievements — is in
@@ -138,11 +139,11 @@ All progress — visits, streaks, freezes, recorded walks, achievements — is i
 everything. For an app whose entire reward loop is long-running streaks and collection
 completion, this is the single biggest retention risk after writeup quality.
 
-### 3.5 Per-city polish is uneven at 71 cities
+### 3.5 Per-city polish is uneven at 70 cities
 Only ~5 cities have bespoke `zones`; the rest fall back to generic handling. The walk
 route-drawing, zone chips and "neighbourhood" framing were tuned for London and don't yet
 have equivalents in the new metros. Worlds are almost entirely London-specific (Queer
-Soho, Camden Music Mile, Wapping Pirate Pubs…), so 70 cities have rich spots but no
+Soho, Camden Music Mile, Wapping Pirate Pubs…), so the other ~69 cities have rich spots but no
 themed collections to pull them together.
 
 ### 3.6 Bundle weight
@@ -171,7 +172,7 @@ Everything else is wasted if the catalogue reads like a POI dump. Pick a lane:
 
 Recommendation: do **(c) immediately** (cheap, honest, protects the brand) and **(a)** to
 re-foreground the ~3,000 substantive writeups, then **(b)** as the long game.
-_Also: refresh CLAUDE.md to match reality (71 cities / 15,322 spots) — half a session._
+_Also: refresh CLAUDE.md to match reality (70 cities / 15,322 spots) — half a session._
 
 ### Phase 1 — Don't lose people's progress: backup & restore — **M**
 Without standing up a backend, add **export / import of all local state** (visits,
@@ -225,11 +226,11 @@ already flags this), wire haptics for check-ins, and use native geofencing for t
 
 ## 5. Suggested near-term sequence
 
-1. **Phase 0(c)** — visibly separate authored vs. reference text. _(this week)_
-2. **Refresh CLAUDE.md** to 71 cities / 15,322 spots and the new writeup reality.
-3. **Fill `privacy.html`** placeholders.
+1. ~~**Refresh CLAUDE.md** to 70 cities / 15,322 spots and the new writeup reality.~~ ✅ done in this PR.
+2. ~~**Fill `privacy.html`** placeholders.~~ ✅ done in this PR.
+3. **Phase 0(c)** — visibly separate authored vs. reference text. _(next)_
 4. **Phase 1** — export/import of local progress.
 5. **Phase 0(a)** — quality-tier the catalogue and foreground authored writeups.
 
-Items 1–3 are each well under a session and remove the most embarrassing/risky gaps;
+Items 1–2 (the documentation/privacy gaps) are shipped here; item 3 is the next small win;
 item 4 protects users' months-long streaks; item 5 restores the product's soul at scale.
