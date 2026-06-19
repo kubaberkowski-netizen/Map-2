@@ -1,5 +1,5 @@
 /* Flâneur service worker — offline app shell + tile/asset caching */
-const SHELL = "flaneur-shell-v4";
+const SHELL = "flaneur-shell-v5";
 const TILES = "flaneur-tiles-v2";
 const TILE_MAX = 350;
 
@@ -32,12 +32,17 @@ self.addEventListener("fetch", (e) => {
 
   if (req.mode === "navigate") {
     if (isShellNav(url)) {
-      e.respondWith(
-        fetch(req).then((res) => {
-          caches.open(SHELL).then((c) => c.put("./index.html", res.clone())).catch(() => {});
+      // Stale-while-revalidate the app shell: serve the cached index.html
+      // instantly (fast cold starts on the ~4 MB file) and refresh it in the
+      // background; fall back to the network when nothing is cached yet.
+      e.respondWith(caches.open(SHELL).then(async (c) => {
+        const hit = await c.match("./index.html");
+        const net = fetch(req).then((res) => {
+          if (res && res.ok) c.put("./index.html", res.clone());
           return res;
-        }).catch(() => caches.match("./index.html").then((r) => r || caches.match("./")))
-      );
+        }).catch(() => hit || caches.match("./"));
+        return hit || net;
+      }));
       return;
     }
     if (url.origin === self.location.origin) {
