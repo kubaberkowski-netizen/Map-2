@@ -1,0 +1,762 @@
+{
+ "_generated": "2026-06-19T21:44:07.747Z",
+ "_source": "OpenStreetMap opening_hours via Overpass (ODbL)",
+ "hours": {
+  "algerian": {
+   "h": "Mo-We 10:00-18:00; Th-Sa 10:00-19:00",
+   "osm": "node/692190694",
+   "name": "Algerian Coffee Stores",
+   "match": "name",
+   "dist": 40
+  },
+  "andrewedmunds": {
+   "h": "Mo-Fr 12:00-15:30, 17:30-22:45; Sa 12:30-15:30, 17:30-22:45; Su 13:00-16:00, 18:00-22:30",
+   "osm": "way/273697611",
+   "name": "Andrew Edmunds",
+   "match": "name",
+   "dist": 90
+  },
+  "arome": {
+   "h": "We-Sa 08:00-17:00; Su 09:00-16:00",
+   "osm": "way/565171620",
+   "name": "Arôme Bakery",
+   "match": "name",
+   "dist": 172
+  },
+  "baritalia": {
+   "h": "24/7",
+   "osm": "node/372519553",
+   "name": "Bar Italia",
+   "match": "contains",
+   "dist": 25
+  },
+  "beigel": {
+   "h": "24/7",
+   "osm": "way/271641402",
+   "name": "Beigel Bake",
+   "match": "name",
+   "dist": 10
+  },
+  "booksforcooks": {
+   "h": "Tu-Sa 10:00-18:00; \"3 weeks August\" off; \"10 days Christmas\" off; PH off",
+   "osm": "node/7205392587",
+   "name": "Books for Cooks",
+   "match": "name",
+   "dist": 24
+  },
+  "bowbells": {
+   "h": "We 07:30-18:00; Th 07:30-18:30; Fr 07:30-16:00",
+   "osm": "way/90244113",
+   "name": "St. Mary-Le-Bow",
+   "match": "contains",
+   "dist": 7
+  },
+  "broadwaymarket": {
+   "h": "Sa 09:00-17:00; Su 10:00-16:00; PH off",
+   "osm": "way/1426032700",
+   "name": "Broadway Market",
+   "match": "name",
+   "dist": 127
+  },
+  "brockwell-lido": {
+   "h": "Mo-Th 06:30-20:00;Fr 06:30-19:00;Sa-Su 07:00-18:00;PH 06:30-19:00",
+   "osm": "way/317411459",
+   "name": "Brockwell Lido",
+   "match": "name",
+   "dist": 103
+  },
+  "cartandhorses": {
+   "h": "Mo-Th 12:00-00:30, Fr 12:00-03:00, Sa 12:00-03:30, Su 12:00-00:30",
+   "osm": "way/465890007",
+   "name": "Cart and Horses",
+   "match": "name",
+   "dist": 171
+  },
+  "casbah-greenwich": {
+   "h": "Mo-Su 10:30-18:00",
+   "osm": "node/10266440522",
+   "name": "Casbah Records",
+   "match": "name",
+   "dist": 130
+  },
+  "cheshire": {
+   "h": "Mo-Su 11:30-23:00",
+   "osm": "way/60186067",
+   "name": "Ye Olde Cheshire Cheese",
+   "match": "name",
+   "dist": 37
+  },
+  "churchillarms": {
+   "h": "Mo-Sa 11:00-23:00; Su 12:00-22:30",
+   "osm": "way/192794336",
+   "name": "The Churchill Arms",
+   "match": "name",
+   "dist": 49
+  },
+  "climpsons": {
+   "h": "Mo-Fr 07:00-17:00; Sa 08:30-17:00; Su 09:00-17:00",
+   "osm": "way/366327526",
+   "name": "Climpson & Sons",
+   "match": "name",
+   "dist": 51
+  },
+  "cloth": {
+   "h": "Tu-Fr 08:30-15:30; Mo 11:30-15:30",
+   "osm": "node/1497452177",
+   "name": "Simpson's Tavern",
+   "match": "contains",
+   "dist": 19
+  },
+  "dauntbooks": {
+   "h": "Mo-Sa 09:00-19:30; Su 11:00-18:00",
+   "osm": "way/148887992",
+   "name": "Daunt Books",
+   "match": "contains",
+   "dist": 149
+  },
+  "dishoom": {
+   "h": "Mo-Th 08:00-23:00; Fr 08:00-00:00; Sa 09:00-00:00; Su 09:00-23:00",
+   "osm": "node/3841913476",
+   "name": "Dishoom",
+   "match": "contains",
+   "dist": 58
+  },
+  "doms-subs-hackney": {
+   "h": "Tu-Fr 12:00-23:00; Sa-Su 12:00-23:30",
+   "osm": "way/587954391",
+   "name": "Rasputin's",
+   "match": "contains",
+   "dist": 8
+  },
+  "dukeofstalbans": {
+   "h": "Mo-Th 12:00-23:00; Fr,Sa 10:00-00:00; Su 12:00-22:00",
+   "osm": "node/98170592",
+   "name": "Duke of St. Albans",
+   "match": "name",
+   "dist": 0
+  },
+  "dumplings-legend-chinatown": {
+   "h": "Mo-Sa 11:30-03:00, Su 11:30-23:00",
+   "osm": "node/13547039539",
+   "name": "小籠皇 Dumplings' Legend",
+   "match": "name",
+   "dist": 88
+  },
+  "dustyknuckle": {
+   "h": "Mo-Su 08:00-15:30",
+   "osm": "way/1006732892",
+   "name": "The Dusty Knuckle",
+   "match": "name",
+   "dist": 84
+  },
+  "eelpieisland": {
+   "h": "Th-Su 12:00-18:00",
+   "osm": "way/706967305",
+   "name": "Eel Pie Island Museum",
+   "match": "contains",
+   "dist": 181
+  },
+  "esarn": {
+   "h": "Mo-Fr 12:00-15:00, 18:00-22:30; Sa 18:00-22:30",
+   "osm": "way/931326064",
+   "name": "Esarn Kheaw",
+   "match": "name",
+   "dist": 64
+  },
+  "farmgirl": {
+   "h": "Mo-Fr 08:30-16:30; Sa 09:00-17:00; Su 09:00-16:00",
+   "osm": "node/731087846",
+   "name": "Farm Girl",
+   "match": "name",
+   "dist": 106
+  },
+  "flashback-islington": {
+   "h": "Mo-Su 10:00-19:00",
+   "osm": "node/823339393",
+   "name": "Flashback Records Islington",
+   "match": "contains",
+   "dist": 132
+  },
+  "fortitude": {
+   "h": "Mo-Fr 07:30-15:00; Sa-Su 08:30-14:30",
+   "osm": "node/5456244922",
+   "name": "Fortitude",
+   "match": "contains",
+   "dist": 127
+  },
+  "foxunderthehill": {
+   "h": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa 09:00-24:00; Su 09:00-23:00",
+   "osm": "node/90272342",
+   "name": "Fox Under The Hill",
+   "match": "name",
+   "dist": 0
+  },
+  "gaystheword": {
+   "h": "Mo-Sa 10:00-18:30;Su 14:00-18:00",
+   "osm": "way/290459102",
+   "name": "Gay's The Word",
+   "match": "name",
+   "dist": 25
+  },
+  "gelupo-soho": {
+   "h": "Mo-Th 11:00-23:00; Fr-Sa 11:00-24:00; Su 12:00-23:00",
+   "osm": "node/4365097290",
+   "name": "Gelupo",
+   "match": "name",
+   "dist": 196
+  },
+  "georgeinn": {
+   "h": "Mo-Th 11:00-23:00; Fr-Sa 11:00-00:00; Su 12:00-22:30",
+   "osm": "way/90830736",
+   "name": "George Inn",
+   "match": "name",
+   "dist": 35
+  },
+  "goddards-greenwich": {
+   "h": "Su-Th 10:00-19:30; Fr-Sa 10:00-20:00",
+   "osm": "node/10266440554",
+   "name": "Goddards at Greenwich",
+   "match": "name",
+   "dist": 59
+  },
+  "gordons": {
+   "h": "Mo-Sa 11:00-23:00; Su 12:00-22:00",
+   "osm": "way/71408528",
+   "name": "Gordon's Wine Bar",
+   "match": "name",
+   "dist": 33
+  },
+  "grantmuseum": {
+   "h": "Tu-Fr 13:00-17:00; Sa 11:00-17:00; Su,Mo,PH off",
+   "osm": "node/1216160782",
+   "name": "Grant Museum of Zoology",
+   "match": "name",
+   "dist": 66
+  },
+  "hatchards": {
+   "h": "Su-Fr 09:30-20:00; Sa 12:00-18:00",
+   "osm": "node/623353910",
+   "name": "Hatchards",
+   "match": "name",
+   "dist": 66
+  },
+  "hoopandgrapes": {
+   "h": "Su-Fr 12:00-23:30; Sa 11:00-18:00",
+   "osm": "node/288045288",
+   "name": "Hoop and Grapes",
+   "match": "name",
+   "dist": 196
+  },
+  "kaffeine": {
+   "h": "Mo-Fr 07:30-17:00; Sa 08:30-17:00; Su 09:00-17:00",
+   "osm": "node/13664659101",
+   "name": "Kaffeine",
+   "match": "name",
+   "dist": 50
+  },
+  "kiln": {
+   "h": "Mo-Sa 12:00-14:30, 17:00-22:30; Su 13:00-20:00",
+   "osm": "node/466926237",
+   "name": "Kiln",
+   "match": "name",
+   "dist": 35
+  },
+  "kingofprussia": {
+   "h": "Mo-Th 12:00-23:00; Fr-Sa 12:00-24:00; Su 12:00-23:00",
+   "osm": "node/451152",
+   "name": "King of Prussia",
+   "match": "name",
+   "dist": 0
+  },
+  "kissaten": {
+   "h": "Mo-Su 12:00-21:00",
+   "osm": "way/157779699",
+   "name": "Kissaten",
+   "match": "name",
+   "dist": 114
+  },
+  "koya": {
+   "h": "10:00-22:00",
+   "osm": "way/280997373",
+   "name": "Koya",
+   "match": "contains",
+   "dist": 16
+  },
+  "leatherlane": {
+   "h": "Mo-Fr 10:00-16:00",
+   "osm": "way/85625507",
+   "name": "Leather Lane Market",
+   "match": "name",
+   "dist": 47
+  },
+  "linastores": {
+   "h": "Mo-Tu 08:30-19:30; We-Fr 08:30-20:30; Sa 10:00-19:30; Su 11:00-17:00",
+   "osm": "node/2905982901",
+   "name": "Lina Stores",
+   "match": "name",
+   "dist": 53
+  },
+  "london-fields-lido": {
+   "h": "Mo-Su 06:30-21:00",
+   "osm": "way/6637460",
+   "name": "London Fields Lido",
+   "match": "name",
+   "dist": 187
+  },
+  "london-stadium": {
+   "h": "Mo-Fr 09:30-17:00; Sa 09:00-17:00; Su 11:00-17:00",
+   "osm": "way/487760322",
+   "name": "Stadium Store",
+   "match": "contains",
+   "dist": 162
+  },
+  "lotsroad": {
+   "h": "Mo-Sa 12:00-23:00; Su 12:00-22:00",
+   "osm": "node/27512718",
+   "name": "Lots Road",
+   "match": "name",
+   "dist": 0
+  },
+  "lyles": {
+   "h": "Mo-Fr 08:00-23:00; Sa 12:00-23:00",
+   "osm": "node/4191192096",
+   "name": "Lyle's",
+   "match": "name",
+   "dist": 103
+  },
+  "m-manze-tower-bridge": {
+   "h": "Mo-Th 10:30-17:45; Fr 10:00-18:45; Sa 10:00-19:45; Su 11:00-14:45",
+   "osm": "node/677316017",
+   "name": "M. Manze",
+   "match": "name",
+   "dist": 142
+  },
+  "maltbystreet": {
+   "h": "Sa 10:00-17:00; Su 11:00-16:00",
+   "osm": "node/2825011782",
+   "name": "Maltby Street Market",
+   "match": "name",
+   "dist": 169
+  },
+  "maxs-sandwich-shop": {
+   "h": "We 18:00-23:00; Th, Fr 18:00-23:00, 11:00-03:00; Sa 17:00-23:00, 11:00-03:30; Su 11:00-18:00",
+   "osm": "node/3648083067",
+   "name": "Max's Sandwhich Shop",
+   "match": "token",
+   "dist": 112
+  },
+  "mayflower": {
+   "h": "Mo-Sa 12:00-23:00; Su 12:00-22:00",
+   "osm": "way/444744679",
+   "name": "The Mayflower",
+   "match": "name",
+   "dist": 2
+  },
+  "mercatomayfair": {
+   "h": "Mo-Th 09:00-23:00; Fr-Sa 09:00-24:00; Su 09:00-22:30",
+   "osm": "node/12185001162",
+   "name": "Mercato Mayfair",
+   "match": "name",
+   "dist": 60
+  },
+  "mollondocklands": {
+   "h": "Mo-Su 10:00-17:00",
+   "osm": "way/140144139",
+   "name": "London Museum Docklands",
+   "match": "name",
+   "dist": 28
+  },
+  "monmouth": {
+   "h": "Mo-Sa 08:00-18:30",
+   "osm": "node/12920922057",
+   "name": "Monmouth Coffee Company",
+   "match": "contains",
+   "dist": 30
+  },
+  "nightingalemus": {
+   "h": "Tu-Su 10:00-17:00; \"Last Th of month close at 20:00\"",
+   "osm": "node/5741257603",
+   "name": "The Florence Nightingale Museum",
+   "match": "name",
+   "dist": 149
+  },
+  "noblerot": {
+   "h": "Mo-Fr 12:00-23:00",
+   "osm": "node/7549940581",
+   "name": "Noble Rot",
+   "match": "name",
+   "dist": 102
+  },
+  "northnineteen": {
+   "h": "Mo-Th 16:00-12:00, Fr 16:00-01:00",
+   "osm": "node/27411557",
+   "name": "North Nineteen",
+   "match": "name",
+   "dist": 0
+  },
+  "novelty-automation": {
+   "h": "Tu,We,Fr,Sa 11:00-18:00; Th 12:00-20:00; Su 12:00-18:00",
+   "osm": "node/3397886782",
+   "name": "Novelty Automation",
+   "match": "name",
+   "dist": 164
+  },
+  "oddonos-south-ken": {
+   "h": "Su-Th 09:30-23:00, Sa 09:30-24:00; Fr 09:30-24:00",
+   "osm": "node/2326003088",
+   "name": "Oddono's Gelati",
+   "match": "contains",
+   "dist": 159
+  },
+  "origincoffee": {
+   "h": "Mo-Fr 08:00-17:00; Sa-Su 08:00-16:00",
+   "osm": "node/13687915701",
+   "name": "Origin Coffee (Charlotte Road)",
+   "match": "contains",
+   "dist": 129
+  },
+  "paul-rothe-marylebone": {
+   "h": "Mo-Fr 07:30-20:00; Sa,Su 08:00-20:00",
+   "osm": "way/148893872",
+   "name": "Paul",
+   "match": "contains",
+   "dist": 57
+  },
+  "prufrock": {
+   "h": "Mo-Fr 07:30-16:30; Sa 08:00-17:00; Su 09:00-17:00",
+   "osm": "node/4185611903",
+   "name": "Prufrock Coffee",
+   "match": "name",
+   "dist": 79
+  },
+  "qualitychop": {
+   "h": "Mo-Sa 12:00-15:00, 18:00-23:00; Su 12:00-16:00",
+   "osm": "node/581005278",
+   "name": "Quality Chop House",
+   "match": "name",
+   "dist": 184
+  },
+  "quovadis": {
+   "h": "Mo-Sa 12:00-14:30, 17:00-22:00",
+   "osm": "way/288394416",
+   "name": "Quo Vadis",
+   "match": "contains",
+   "dist": 27
+  },
+  "reckless-records-soho": {
+   "h": "Mo-Su 10:00-19:00",
+   "osm": "node/13712036901",
+   "name": "Reckless Records",
+   "match": "name",
+   "dist": 117
+  },
+  "regency-cafe-westminster": {
+   "h": "Mo-Fr 07:00-14:30, 16:00-19:15; Sa 07:00-12:00",
+   "osm": "way/100822479",
+   "name": "Regency Cafe",
+   "match": "name",
+   "dist": 132
+  },
+  "ridleyroad": {
+   "h": "Mo-Sa 09:00-15:00; PH off",
+   "osm": "way/321722646",
+   "name": "Ridley Road Market",
+   "match": "name",
+   "dist": 104
+  },
+  "roseandcrown2": {
+   "h": "Mo-Sa 12:00-23:00; Su 12:00-22:30",
+   "osm": "node/27348824",
+   "name": "Rose and Crown",
+   "match": "name",
+   "dist": 0
+  },
+  "rough-trade-east": {
+   "h": "Mo-Sa 10:00-19:00, Su 11:00-17:00",
+   "osm": "way/270424948",
+   "name": "Rough Trade East",
+   "match": "name",
+   "dist": 142
+  },
+  "ruby-violet-kings-cross": {
+   "h": "Mo 10:00-19:00; Tu-Su 10:00-22:00",
+   "osm": "node/5057389641",
+   "name": "Ruby Violet",
+   "match": "name",
+   "dist": 182
+  },
+  "rules": {
+   "h": "Mo-Sa 12:00-23:30; Su 12:00-22:30",
+   "osm": "way/558928361",
+   "name": "Rules",
+   "match": "name",
+   "dist": 84
+  },
+  "seven-stars-carey-street": {
+   "h": "Mo-Sa 11:00-23:00; Su 12:00-22:30",
+   "osm": "way/185312889",
+   "name": "The Seven Stars",
+   "match": "name",
+   "dist": 35
+  },
+  "shortlandstavern": {
+   "h": "12:00-23:00",
+   "osm": "node/25523569",
+   "name": "Shortlands Tavern",
+   "match": "name",
+   "dist": 0
+  },
+  "sky-garden": {
+   "h": "Mo-Fr 10:00-18:00; Sa-Su,PH 11:00-21:00",
+   "osm": "node/3272712570",
+   "name": "Sky Garden",
+   "match": "name",
+   "dist": 43
+  },
+  "sounds-of-the-universe": {
+   "h": "Mo-Sa 10:00-18:30; Su 11:00-17:30",
+   "osm": "way/274002585",
+   "name": "Sounds of the Universe",
+   "match": "name",
+   "dist": 47
+  },
+  "southlondongallery": {
+   "h": "Tu,Th-Su 11:00-18:00; We 11:00-21:00",
+   "osm": "way/67163594",
+   "name": "South London Gallery",
+   "match": "name",
+   "dist": 51
+  },
+  "stjohn": {
+   "h": "24/7",
+   "osm": "way/146986826",
+   "name": "Smithfield Cafe",
+   "match": "contains",
+   "dist": 115
+  },
+  "tenbells": {
+   "h": "Mo-We,Su 12:00-24:00; Th-Sa 12:00-01:00",
+   "osm": "way/157323000",
+   "name": "The Ten Bells",
+   "match": "name",
+   "dist": 22
+  },
+  "the-grapes-limehouse": {
+   "h": "Mo-Sa 12:00-23:00; Su 12:00-22:30",
+   "osm": "way/195200692",
+   "name": "The Grapes",
+   "match": "name",
+   "dist": 81
+  },
+  "the-grenadier-belgravia": {
+   "h": "Mo-Sa 12:00-23:00; Su 12:00-22:00",
+   "osm": "node/13235500301",
+   "name": "The Grenadier",
+   "match": "name",
+   "dist": 143
+  },
+  "theblackstock": {
+   "h": "Mo-Th 14:00-24:00; Fr 14:00-24:00; Sa 00:00-02:00,11:00-24:00; Su 00:00-02:00,11:00-24:00",
+   "osm": "node/26065903",
+   "name": "The BlackStock",
+   "match": "name",
+   "dist": 0
+  },
+  "thebolton": {
+   "h": "Mo-Th 12:00-23:00; Fr 12:00-00:00; Sa 10:00-00:00; Su 10:00-23:00",
+   "osm": "node/59169435",
+   "name": "The Bolton",
+   "match": "name",
+   "dist": 0
+  },
+  "thecardinal": {
+   "h": "Tu-Th 17:30-10:30, Fr 12:30-23:30, Sa 12:30-11:30, Su 12:30-21:00",
+   "osm": "node/30512931",
+   "name": "The Cardinal",
+   "match": "name",
+   "dist": 1
+  },
+  "thecrown": {
+   "h": "Mo-Su 12:00-22:00",
+   "osm": "node/26603929",
+   "name": "The Crown",
+   "match": "name",
+   "dist": 0
+  },
+  "thehonoroak": {
+   "h": "Su-Th 12:00-23:00; Fr-Sa 12:00-25:00",
+   "osm": "node/26992933",
+   "name": "The Honor Oak",
+   "match": "name",
+   "dist": 0
+  },
+  "theloft": {
+   "h": "Mo-Fr 15:00-23:00; Sa-Su 12:00-23:00",
+   "osm": "node/26603473",
+   "name": "The Loft",
+   "match": "name",
+   "dist": 1
+  },
+  "themint": {
+   "h": "Mo-Fr 12:00-23:00; Sa 09:00-23:00; Su 09:00-22:00",
+   "osm": "node/26422089",
+   "name": "The Mint",
+   "match": "name",
+   "dist": 1
+  },
+  "themonkeypuzzle": {
+   "h": "Mo-Sa 12:00-23:30; Su 12:00-22:30",
+   "osm": "node/15262028",
+   "name": "The Monkey Puzzle",
+   "match": "name",
+   "dist": 0
+  },
+  "theoldaleemporium": {
+   "h": "Mo-Th 11:00-00:00; Fr-Sa 11:00-01:00; Su 12:00-23:00",
+   "osm": "node/25717653",
+   "name": "The Old Ale Emporium",
+   "match": "name",
+   "dist": 0
+  },
+  "theoxfordarms": {
+   "h": "Fr-Sa 12:00-02:00; Su-Th 12:00-01:00",
+   "osm": "node/26610590",
+   "name": "The Oxford Arms",
+   "match": "name",
+   "dist": 0
+  },
+  "theroseofyork": {
+   "h": "Mo-Sa 12:00-23:00; Su 12:00-22:30",
+   "osm": "node/30669338",
+   "name": "The Rose of York",
+   "match": "name",
+   "dist": 1
+  },
+  "thesirjulianhuxley": {
+   "h": "Mo-Th 08:00-24:00; Fr-Sa 08:00-01:00; Su 08:00-24:00",
+   "osm": "node/87355103",
+   "name": "The Sir Julian Huxley",
+   "match": "name",
+   "dist": 0
+  },
+  "thestartavern": {
+   "h": "Mo-Fr 11:00-23:00; Sa 12:00-23:00; Su 12:00-22:30",
+   "osm": "node/27718642",
+   "name": "The Star Tavern",
+   "match": "name",
+   "dist": 0
+  },
+  "thesun": {
+   "h": "Mo-Th 12:00-23:00; Fr-Sa 12:00-24:00; Su 12:00-22:30",
+   "osm": "node/33583650",
+   "name": "The Sun",
+   "match": "name",
+   "dist": 0
+  },
+  "theunionbar": {
+   "h": "\"by appointment\"",
+   "osm": "node/20821133",
+   "name": "The Union Bar",
+   "match": "name",
+   "dist": 0
+  },
+  "thewonder": {
+   "h": "Mo-Th 11:00-23:00; Su 12:00-23:00; Fr,Sa 11:00-24:00",
+   "osm": "node/26980235",
+   "name": "The Wonder",
+   "match": "name",
+   "dist": 0
+  },
+  "thewoodlandstavern": {
+   "h": "Mo-Fr 09:00-18:00; Sa 09:00-16:00; PH closed",
+   "osm": "node/8313260095",
+   "name": "Woodland",
+   "match": "contains",
+   "dist": 101
+  },
+  "toad": {
+   "h": "Tu-Sa 08:00-15:00; Mo,Su off",
+   "osm": "node/11999189644",
+   "name": "Toad Bakery",
+   "match": "name",
+   "dist": 79
+  },
+  "viaduct-tavern": {
+   "h": "Mo-Fr 11:00-23:00",
+   "osm": "way/170525606",
+   "name": "The Viaduct Tavern",
+   "match": "name",
+   "dist": 8
+  },
+  "wa-cafe-marylebone": {
+   "h": "Mo-Su 09:00-18:00",
+   "osm": "node/1262681790",
+   "name": "WA Bakery",
+   "match": "token",
+   "dist": 32
+  },
+  "watchhouse": {
+   "h": "Mo-Fr 07:00-18:00; Sa-Su 08:00-18:00",
+   "osm": "way/305276866",
+   "name": "WatchHouse",
+   "match": "contains",
+   "dist": 59
+  },
+  "watersteammuseum": {
+   "h": "Th-Su 10:00-16:00; Jul 22-Aug 28 We 10:00-16:00; SH 10:00-16:00",
+   "osm": "way/838163904",
+   "name": "London Museum of Water and Steam",
+   "match": "name",
+   "dist": 147
+  },
+  "wiltonshall": {
+   "h": "Mo-Fr 12:00-23:00; Sa 17:00-23:00",
+   "osm": "way/264532955",
+   "name": "Wilton's Music Hall",
+   "match": "name",
+   "dist": 20
+  },
+  "windmillpub": {
+   "h": "24/7",
+   "osm": "way/25818589",
+   "name": "Windmill Gardens",
+   "match": "contains",
+   "dist": 66
+  },
+  "wolseley": {
+   "h": "Mo-Fr 07:00-00:00; Sa 08:00-00:00; Su 08:00-23:00",
+   "osm": "way/289859695",
+   "name": "The Wolseley",
+   "match": "name",
+   "dist": 34
+  },
+  "word-on-the-water": {
+   "h": "Mo-Su 12:00-19:00",
+   "osm": "way/1216224606",
+   "name": "Word on the Water",
+   "match": "name",
+   "dist": 198
+  },
+  "zedel": {
+   "h": "Mo-We 12:00-22:30; Th-Sa 11:30-23:00; Su 11:30-22:00",
+   "osm": "node/4255515336",
+   "name": "Brasserie Zedel",
+   "match": "name",
+   "dist": 56
+  },
+  "ziggy": {
+   "h": "Mo-Th 07:30-24:00; Fr 07:30-01:00; Sa 10:00-01:00; Su 10:00-23:00",
+   "osm": "way/96237041",
+   "name": "Heddon Street Kitchen",
+   "match": "contains",
+   "dist": 108
+  },
+  "e-pellicci-bethnal-green": {
+   "h": "Mo-Sa 08:00-15:30",
+   "osm": "node/1024570955",
+   "name": "E. Pellicci",
+   "match": "name",
+   "dist": 98
+  }
+ }
+}
