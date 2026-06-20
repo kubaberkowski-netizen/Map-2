@@ -59,7 +59,9 @@ function main() {
   const proximityM = args.includes("--proximity") ? +args[args.indexOf("--proximity") + 1] : 120;
   if (!city) { console.error("usage: node tools/add-spots.js <city> [--dry] [--proximity <m>]"); process.exit(1); }
 
-  const file = path.join(NEW_DIR, `${city}.json`);
+  // default input research/new/<city>.json; --file <path> for a per-run provenance file
+  const fileArg = args.includes("--file") ? args[args.indexOf("--file") + 1] : null;
+  const file = fileArg ? path.resolve(ROOT, fileArg) : path.join(NEW_DIR, `${city}.json`);
   if (!fs.existsSync(file)) { console.error(`no ${path.relative(ROOT, file)} — discovery stage writes this.`); process.exit(1); }
 
   const model = M.loadModel();
