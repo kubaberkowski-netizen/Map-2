@@ -71,8 +71,9 @@ fully before touching anything.
 - `c` **MUST** be one of exactly **44 valid category slugs**. The code reads
   `ne[entry.c]` **unguarded**, so any unknown slug = **instant white-screen**.
 - `city` **MUST** be a slug defined in the **`Ci` cities registry**. `build.js`
-  rejects unknown city slugs. There are **70 cities** today, spanning the UK, Europe,
-  the Americas, Asia and Australia — `london` (988) is by far the largest, followed by
+  rejects unknown city slugs. There are **71 cities** today, spanning the UK, Europe,
+  the Americas, Asia, Australia and now Africa (`capetown`, the first African city) —
+  `london` (988) is by far the largest, followed by
   global metros (e.g. `chicago` 307, `nyc` 298, `losangeles` 287, `helsinki` 272,
   `sanfrancisco` 264, `dublin` 245, `manchester` 243, `tokyo` 231). The full list +
   per-city counts can be recomputed from `data/spots.json` at any time.
