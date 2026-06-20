@@ -17,6 +17,8 @@ automatically — it produces a **review pile** you curate by hand.
 > - **`blueprint.js`** — measures any city's gap vs London (Track B targeting).
 > - **`dossier.js`** — the sourced-facts contract between research and writing.
 > - **`write-up.js`** — the house-voice writer (few-shot on authored London).
+> - **`add-spots.js`** — bring in NEW write-up-worthy spots a discovery pass found
+>   (not yet in the app), through the same validate/dedupe gates as the build.
 
 > **The writeup rule still holds.** These tools **never** write the `w` field.
 > Every candidate comes out with `w:""`. The writeups are the product and stay

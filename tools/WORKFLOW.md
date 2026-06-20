@@ -64,6 +64,9 @@ prose are separate** so "source everything / never invent" stays enforceable.
 ```
 1 blueprint  →  2 source  →  3 research  →  4 write  →  review → build
   (gap map)     (candidates)  (dossiers)    (drafts)
+                    │
+   already in app ──┤── enrich existing stub: dossier.js → write-up.js
+                    └── NOT in app yet:       discovery subagent → add-spots.js  (Stage 2b)
 ```
 
 ### Stage 1 — blueprint (what's missing)
@@ -102,6 +105,30 @@ existing spot. Fill each `c`, leave `w` blank, paste in, `npm run build`. **Bump
 > the city's **native subreddit / local-language forums** via `reddit`/`pullpush` +
 > `claudeExtract`. Treat TikTok/YouTube (via `apify` + `claudeExtract`) as flavour, not
 > spine. Honour each source's ToS — keep it personal, prefer official APIs (see README).
+
+#### Stage 2b — discovery by subagent (no keys; capture what's NOT in the app yet)
+
+The keyed sources above need network/secrets. When those aren't available, a **discovery
+subagent** is the zero-key alternative — and it's how you capture write-up-worthy places
+the catalogue is simply *missing*. Brief one agent with: the city's existing spot names
+(so it avoids duplicates), the **44 category slugs**, and the city **bbox**. Ask it to
+return ~7 new offbeat/storied places as rows with `{n, a, c, lat, lng, hook, facts,
+sources, confidence}` — real coordinates inside the bbox, cited. It writes
+`research/new/<city>.json`.
+
+```bash
+node tools/add-spots.js edinburgh --dry   # validate (slug/bbox/coords) + dedupe report
+node tools/add-spots.js edinburgh         # append the valid, non-duplicate rows
+#   → assigns ids, bumps build.js BASELINE.entries, flags each new spot "d"
+npm run build
+```
+
+`add-spots.js` runs each discovered row through the **same gates build.js enforces** and
+the same dedupe as the finder, so a hallucinated coordinate or a place that already exists
+is rejected, not shipped. New spots can carry a writeup already (write it in Stage 4 from
+the same facts) or land with `w:""` and flow through the normal enrichment like any stub.
+**Coordinates from an LLM are the risk** — the bbox check catches gross errors, but
+spot-check the pins on a map before promoting `d`→`a`.
 
 ### Stage 3 — research into dossiers (the fan-out)
 
