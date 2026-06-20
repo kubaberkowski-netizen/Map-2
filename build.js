@@ -27,7 +27,7 @@ const SPOTS = path.join(ROOT, "data", "spots.json");
 const OUTPUT = path.join(ROOT, "index.html");
 const PLACEHOLDER = "[]/*__FLANEUR_SPOTS__*/";
 const REQUIRED = ["id", "n", "a", "pc", "lat", "lng", "c", "s", "q", "w", "city"];
-const BASELINE = { entries: 14258, worlds: 81, categories: 44 };
+const BASELINE = { entries: 12482, worlds: 81, categories: 44 };
 
 function die(msg) {
   console.error("✗ build aborted (nothing written): " + msg);
