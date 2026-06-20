@@ -12,10 +12,15 @@
  * It writes data/quality.json — the source of truth other tools read:
  *   {
  *     generated, baseline,
- *     counts: { a, m, notable },
- *     flags: { "<id>": "a" | "m" | "v", ... }   // a=authored, m=machine stub, v=verified
+ *     counts: { a, v, d, m, notable },
+ *     flags: { "<id>": "a" | "v" | "d" | "m", ... }
+ *            // a=authored/approved, v=verified-sourced, d=machine draft (pending
+ *            // review — NOT your voice yet), m=thin machine stub
  *     notable: [ "<id>", ... ]                  // has Wikipedia/Wikidata backing
  *   }
+ *
+ * a/v/d are STICKY: regeneration never changes them (a draft stays a draft until
+ * a human promotes d→a). Only an `m`/absent spot gets re-seeded from the heuristic.
  *
  * Regeneration is MONOTONIC and safe: it never downgrades a spot a human (or a
  * prior run) marked "a"/"v" back to "m" — it only PROMOTES m→a when a writeup has
@@ -101,9 +106,8 @@ function generate({ reset = false } = {}) {
   for (const s of spots) {
     const seeded = looksAuthored(s.w) ? "a" : "m";
     const old = prevFlags[s.id];
-    // Monotonic: keep a human/prior "a"/"v"; only ever promote m→a, never demote.
-    if (old === "v") flags[s.id] = "v";
-    else if (old === "a") flags[s.id] = "a";
+    // Monotonic: a/v/d are sticky (human-owned states). Only m/absent re-seeds.
+    if (old === "v" || old === "a" || old === "d") flags[s.id] = old;
     else {
       flags[s.id] = seeded;
       if (old === "m" && seeded === "a") promoted++;
@@ -112,14 +116,27 @@ function generate({ reset = false } = {}) {
 
   const ids = new Set(spots.map((s) => s.id));
   const notableInCat = [...notable].filter((id) => ids.has(id)).sort();
-  const counts = {
-    a: Object.values(flags).filter((f) => f === "a").length,
-    v: Object.values(flags).filter((f) => f === "v").length,
-    m: Object.values(flags).filter((f) => f === "m").length,
-    notable: notableInCat.length,
-  };
+  const tally = (f) => Object.values(flags).filter((x) => x === f).length;
+  const counts = { a: tally("a"), v: tally("v"), d: tally("d"), m: tally("m"), notable: notableInCat.length };
 
   return { obj: { generated: new Date().toISOString(), baseline: spots.length, counts, flags, notable: notableInCat }, promoted };
+}
+
+/**
+ * Set the quality flag for a list of ids (used by write-up.js --apply to mark
+ * machine drafts "d", and by a human promoting d→a). Rewrites data/quality.json.
+ */
+function setFlags(ids, flag) {
+  const o = readExisting();
+  if (!o) throw new Error("no data/quality.json — run `node tools/quality.js` first.");
+  let changed = 0;
+  for (const id of ids) if (o.flags[id] !== flag) { o.flags[id] = flag; changed++; }
+  const tally = (f) => Object.values(o.flags).filter((x) => x === f).length;
+  o.counts = { a: tally("a"), v: tally("v"), d: tally("d"), m: tally("m"), notable: (o.notable || []).length };
+  o.generated = new Date().toISOString();
+  fs.writeFileSync(QFILE, serialize(o));
+  _q = null; // invalidate cache
+  return changed;
 }
 
 // pretty-print flags one-per-line so diffs/hand-edits stay clean
@@ -148,6 +165,7 @@ function statsTable() {
     c.t++;
     const f = flags[s.id] || "m";
     if (f === "a" || f === "v") c.a++;
+    else if (f === "d") (c.d = (c.d || 0) + 1);
     else c.m++;
     if (notable.has(s.id)) {
       c.nb++;
@@ -155,12 +173,13 @@ function statsTable() {
     }
   }
   const rows = Object.entries(by).sort((a, b) => b[1].t - a[1].t);
-  console.log("city            total  authored   stub  notable  notable-but-weak  %auth");
+  console.log("city            total  authored  draft   stub  notable  notable-but-weak  %auth");
   for (const [city, c] of rows) {
     console.log(
       city.padEnd(14),
       String(c.t).padStart(6),
       String(c.a).padStart(9),
+      String(c.d || 0).padStart(6),
       String(c.m).padStart(6),
       String(c.nb).padStart(8),
       String(c.nbWeak).padStart(17),
@@ -174,6 +193,21 @@ if (require.main === module) {
   const args = process.argv.slice(2);
   if (args.includes("--stats")) {
     statsTable();
+  } else if (args.includes("--set")) {
+    // node tools/quality.js --set <flag> <id> [<id>...]
+    const i = args.indexOf("--set");
+    const flag = args[i + 1];
+    const ids = args.slice(i + 2).filter((a) => !a.startsWith("--"));
+    if (!["a", "v", "d", "m"].includes(flag) || !ids.length) {
+      console.error("usage: node tools/quality.js --set <a|v|d|m> <id> [<id>...]");
+      process.exit(1);
+    }
+    console.log(`set ${setFlags(ids, flag)} id(s) → "${flag}".`);
+  } else if (args.includes("--promote")) {
+    // node tools/quality.js --promote  — promote all reviewed drafts d→a
+    const o = readExisting();
+    const ids = Object.entries(o.flags).filter(([, f]) => f === "d").map(([id]) => id);
+    console.log(`promoting ${setFlags(ids, "a")} draft(s) d→a (mark these as reviewed/approved).`);
   } else if (args.includes("--check")) {
     const prev = readExisting();
     if (!prev) {
@@ -204,4 +238,4 @@ if (require.main === module) {
   }
 }
 
-module.exports = { load, flagOf, isAuthored, isVerified, isNotable, looksAuthored };
+module.exports = { load, flagOf, isAuthored, isVerified, isNotable, looksAuthored, setFlags };

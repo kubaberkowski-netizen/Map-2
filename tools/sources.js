@@ -202,9 +202,72 @@ const firecrawl = notWired("firecrawl", "Set FIRECRAWL_API_KEY and POST to api.f
 // Apify: marketplace actors (Google Maps, Instagram, TikTok). Set APIFY_TOKEN,
 // POST https://api.apify.com/v2/acts/<actor>/run-sync-get-dataset-items?token=...
 const apify = notWired("apify", "Set APIFY_TOKEN and run-sync-get-dataset-items on an actor id.");
-// Google Places: the gold standard for canonical name + postcode + coords.
-// Set GOOGLE_PLACES_KEY, call Places API (New) :searchText / :details.
-const googlePlaces = notWired("googlePlaces", "Set GOOGLE_PLACES_KEY and call Places API (New) searchText/details.");
+// --- Google Places (New) — IMPLEMENTED ---------------------------------------
+// The source that surfaces "top-reviewed local legends" (the thousands-of-reviews
+// restaurants/cafes/bakeries OSM and Wikidata structurally miss). Text Search,
+// biased to the city bbox, returns canonical name + coords + postcode + the
+// USER RATING COUNT we sort/threshold on. Needs a key (it costs money per call):
+//     export GOOGLE_PLACES_KEY=...
+// Returns the same shape as overpass(): {n, lat, lng, tags, hint, _meta:{…,reviews,rating}}.
+// `tags` is a small OSM-ish shim so category-map.js can still guess `c`.
+const GTYPE_TO_OSM = {
+  restaurant: { amenity: "restaurant" }, cafe: { amenity: "cafe" },
+  coffee_shop: { amenity: "cafe" }, bakery: { shop: "bakery" },
+  bar: { amenity: "bar" }, pub: { amenity: "pub" }, wine_bar: { amenity: "bar", wine: "yes" },
+  book_store: { shop: "books" }, museum: { tourism: "museum" }, art_gallery: { tourism: "gallery" },
+  movie_theater: { amenity: "cinema" }, church: { amenity: "place_of_worship" },
+  place_of_worship: { amenity: "place_of_worship" }, park: { leisure: "park" },
+  tourist_attraction: { tourism: "attraction" }, historical_landmark: { historic: "yes" },
+};
+async function googlePlaces(bbox, { query, limit = 20, minReviews = 1000 } = {}) {
+  const key = process.env.GOOGLE_PLACES_KEY;
+  if (!key)
+    throw new Error(
+      "googlePlaces() needs GOOGLE_PLACES_KEY in the environment (Places API New; it bills per call).\n" +
+        "  export GOOGLE_PLACES_KEY=...  then: find-spots.js --source googlePlaces --city <c> --query \"best bakery\""
+    );
+  if (!query) throw new Error('googlePlaces() needs a --query (e.g. "famous restaurant", "historic pub").');
+  const [w, s, e, n] = bbox;
+  const fieldMask = [
+    "places.displayName", "places.location", "places.formattedAddress",
+    "places.addressComponents", "places.rating", "places.userRatingCount",
+    "places.primaryType", "places.types", "places.googleMapsUri",
+  ].join(",");
+  const body = JSON.stringify({
+    textQuery: query,
+    maxResultCount: Math.min(limit, 20), // searchText caps at 20/page
+    rankPreference: "RELEVANCE",
+    locationBias: { rectangle: { low: { latitude: s, longitude: w }, high: { latitude: n, longitude: e } } },
+  });
+  const data = await fetchJSON("https://places.googleapis.com/v1/places:searchText", {
+    method: "POST",
+    host: "places.googleapis.com",
+    minMs: 250,
+    headers: { "Content-Type": "application/json", "X-Goog-Api-Key": key, "X-Goog-FieldMask": fieldMask },
+    body,
+  });
+  return (data.places || [])
+    .map((p) => {
+      const lat = p.location?.latitude, lng = p.location?.longitude;
+      const name = p.displayName?.text;
+      if (!name || lat == null || lng == null) return null;
+      const reviews = p.userRatingCount || 0;
+      if (reviews < minReviews) return null; // the whole point: well-loved places only
+      const pc = (p.addressComponents || []).find((c) => (c.types || []).includes("postal_code"));
+      const tags = { name, ...(GTYPE_TO_OSM[p.primaryType] || {}) };
+      return {
+        n: name, lat, lng, tags,
+        pc: pc?.shortText || "",
+        hint: `${p.primaryType || "place"} — ${reviews.toLocaleString()} reviews, ${p.rating ?? "?"}★`,
+        _meta: {
+          source: "googlePlaces", url: p.googleMapsUri || "",
+          reviews, rating: p.rating ?? null, primaryType: p.primaryType || "", raw: tags,
+        },
+      };
+    })
+    .filter(Boolean)
+    .sort((a, b) => (b._meta.reviews || 0) - (a._meta.reviews || 0));
+}
 // --- Claude extraction (IMPLEMENTED) -----------------------------------------
 // Turns the messy text leads from reddit()/pullpush()/tiktok() into structured
 // candidate places. Uses the official Anthropic SDK (lazy-required so the rest

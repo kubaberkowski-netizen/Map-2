@@ -91,6 +91,10 @@ async function gather(args, model) {
 
   if (args.source === "overpass") return S.overpass(city.bbox, { limit: args.limit, broad: !!args.broad });
   if (args.source === "wikidata") return S.wikidata(city.bbox, { limit: args.limit });
+  if (args.source === "googlePlaces") {
+    if (!args.query) throw new Error('--source googlePlaces needs --query (e.g. "famous bakery") and optionally --minReviews');
+    return S.googlePlaces(city.bbox, { query: args.query, limit: args.limit, minReviews: args.minReviews ? +args.minReviews : 1000 });
+  }
 
   if (args.source === "reddit" || args.source === "pullpush") {
     if (!args.sub || !args.query) throw new Error(`--source ${args.source} needs --sub and --query`);
