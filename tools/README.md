@@ -1,9 +1,24 @@
 # tools/ — spot-research pipeline
 
 Helpers for **finding new candidate spots** (Reddit / web / OpenStreetMap /
-Wikidata / TikTok) and turning them into rows that drop straight into
-`data/spots.json`. Nothing here touches the live app or the catalogue
+Wikidata / TikTok / Google Places) and turning them into rows that drop straight
+into `data/spots.json`. Nothing here touches the live app or the catalogue
 automatically — it produces a **review pile** you curate by hand.
+
+> **New here? Read [`WORKFLOW.md`](./WORKFLOW.md) first.** It is the end-to-end
+> operating manual for the two tracks — **(A)** cleaning up junk and **(B)**
+> expanding cities to the London blueprint with house-voice writeups — and ties
+> the tools below into one batched, build-gated assembly line. Key pieces it adds:
+>
+> - **`quality.js` + `data/quality.json`** — the durable per-spot provenance flag
+>   (`a`uthored / `v`erified / `d`raft / `m`achine-stub). The source of truth for
+>   "what's sacred", replacing length-guessing and the old `/tmp/orig*.json` files.
+> - **`audit-city.js`** — scored, per-city junk audit (Track A).
+> - **`blueprint.js`** — measures any city's gap vs London (Track B targeting).
+> - **`dossier.js`** — the sourced-facts contract between research and writing.
+> - **`write-up.js`** — the house-voice writer (few-shot on authored London).
+> - **`add-spots.js`** — bring in NEW write-up-worthy spots a discovery pass found
+>   (not yet in the app), through the same validate/dedupe gates as the build.
 
 > **The writeup rule still holds.** These tools **never** write the `w` field.
 > Every candidate comes out with `w:""`. The writeups are the product and stay
