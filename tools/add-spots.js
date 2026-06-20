@@ -23,9 +23,15 @@
  * each new id "d" (draft pending review) in data/quality.json.
  *
  * Usage:
- *   node tools/add-spots.js edinburgh --dry     # validate + dedupe report, write nothing
- *   node tools/add-spots.js edinburgh           # append the valid, non-duplicate rows
+ *   node tools/add-spots.js edinburgh --dry             # validate + dedupe report, write nothing
+ *   node tools/add-spots.js edinburgh                   # append the valid, non-duplicate rows
+ *   node tools/add-spots.js edinburgh --proximity 40    # tighten the proximity dedupe (see below)
  *   # then: npm run build   (and review the new 'd' spots; quality.js --promote to approve)
+ *
+ * --proximity <m> (default 120): how close to an EXISTING spot counts as a likely
+ * re-geocode duplicate. In dense historic centres (Old Town, etc.) 120 m wrongly
+ * flags distinct neighbours, so after eyeballing the --dry report you can lower it.
+ * The id-collision and same-name-in-city checks ALWAYS run and are not affected.
  */
 const fs = require("fs");
 const path = require("path");
@@ -50,7 +56,8 @@ function main() {
   const args = process.argv.slice(2);
   const city = args.find((a) => !a.startsWith("--"));
   const dry = args.includes("--dry");
-  if (!city) { console.error("usage: node tools/add-spots.js <city> [--dry]"); process.exit(1); }
+  const proximityM = args.includes("--proximity") ? +args[args.indexOf("--proximity") + 1] : 120;
+  if (!city) { console.error("usage: node tools/add-spots.js <city> [--dry] [--proximity <m>]"); process.exit(1); }
 
   const file = path.join(NEW_DIR, `${city}.json`);
   if (!fs.existsSync(file)) { console.error(`no ${path.relative(ROOT, file)} — discovery stage writes this.`); process.exit(1); }
@@ -77,7 +84,7 @@ function main() {
     };
     const v = M.validateRow(row, model);
     if (!v.ok) { stats.invalid++; console.error(`  ✗ ${r.n}: ${v.errors.join("; ")}`); taken.delete(row.id); continue; }
-    const dup = M.findDuplicate(row, cat, { proximityM: 120 });
+    const dup = M.findDuplicate(row, cat, { proximityM });
     if (dup) { stats.dup++; console.error(`  ~ ${r.n}: duplicate — ${dup}`); taken.delete(row.id); continue; }
     // register so later rows in THIS batch dedupe against it too
     cat.ids.add(row.id);
