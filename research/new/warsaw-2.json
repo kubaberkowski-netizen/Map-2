@@ -1,0 +1,233 @@
+[
+ {
+  "n": "Restauracja Pod Samsonem",
+  "a": "Nowe Miasto",
+  "c": "food",
+  "lat": 52.2510529,
+  "lng": 21.0085458,
+  "hook": "Polish-Jewish home cooking in the New Town since 1958, generations deep.",
+  "facts": [
+   "Operating continuously since 1958 at ul. Freta 3/5 in Warsaw's New Town (Nowe Miasto).",
+   "Serves Polish and Jewish cuisine; the name 'Pod Samsonem' (Under Samson) comes from the historic tenement it occupies.",
+   "Signature dishes long associated with the place include veal schnitzel, roast duck with apples and pork knuckle.",
+   "Housed in the Kamienica 'Pod Samsonem' (the Samson tenement), confirmed at this address by OpenStreetMap.",
+   "A multi-generational Warsaw institution bringing together locals and visitors rather than a tourist novelty."
+  ],
+  "legend": [],
+  "sources": [
+   {
+    "url": "https://www.podsamsonem.com/o-nas",
+    "note": "Restaurant's own history page: open since 1958, Polish-Jewish cuisine, Freta 3/5."
+   },
+   {
+    "url": "https://nominatim.openstreetmap.org/search?q=Freta+3,+Warszawa&format=json",
+    "note": "Geocode of Freta 3 returns 'Kamienica ... Pod Samsonem' at 52.2510529, 21.0085458 (corroborates coords)."
+   }
+  ],
+  "confidence": "high",
+  "w": "Polish-Jewish home cooking on Freta since 1958, served in the old 'Under Samson' tenement that gives it its name. Generations of New Town families have come for the veal schnitzel, the roast duck with apples, the pork knuckle. No reinvention, no fuss — a Warsaw institution that has simply kept cooking. Bring an appetite.",
+  "_issues": []
+ },
+ {
+  "n": "Pole Mokotowskie",
+  "a": "Ochota / Mokotów / Śródmieście",
+  "c": "green",
+  "lat": 52.2119857,
+  "lng": 21.0005601,
+  "hook": "Warsaw's beloved 73-hectare green lung, a former cavalry field and airfield.",
+  "facts": [
+   "Covers roughly 73 hectares across three districts (Ochota, Śródmieście, Mokotów), one of the largest parks in Warsaw.",
+   "In the early 19th century the Mokotowskie Military Field was an exercise ground for the Tsar's cavalry; later it hosted horse racing.",
+   "At the start of the 20th century an airfield, the Awiata aviation workshops and a pilot school operated on the site.",
+   "A major revitalisation including water-reservoir renaturalisation and rain gardens had its first phase completed at the end of 2023.",
+   "Today it is the largest developed recreational green space in the city, hugely popular for running, cycling and picnics."
+  ],
+  "legend": [],
+  "sources": [
+   {
+    "url": "https://dzieje.pl/dziedzictwo-kulturowe/pole-mokotowskie-zielony-fragment-historii-i-wspolczesnosci-warszawy",
+    "note": "History: cavalry field, racing, early airfield, ~73 ha."
+   },
+   {
+    "url": "https://zzw.waw.pl/nasze-tereny/parki/park-pole-mokotowskie/",
+    "note": "City Greenery Board page on the park (corroborates location/size)."
+   }
+  ],
+  "confidence": "high",
+  "w": "Warsaw's 73-hectare green lung, sprawled across three districts and loved by every runner, cyclist and picnicker in the city. The Tsar's cavalry once drilled here; by 1910 it held an airfield with its own aviation workshops and flying school. Renaturalised in 2023, with reed-fringed water and rain gardens. The city comes here to breathe.",
+  "_issues": []
+ },
+ {
+  "n": "Tygmont Live Club",
+  "a": "Śródmieście (Mazowiecka)",
+  "c": "music",
+  "lat": 52.2371212,
+  "lng": 21.0136553,
+  "hook": "Warsaw's central jazz cellar on Mazowiecka, ranked among the world's top jazz clubs.",
+  "facts": [
+   "Opened 27 January 2001 at ul. Mazowiecka 6/8 in the heart of Śródmieście.",
+   "The opening night drew 428 people and featured the Tygmont All Stars led by Jerzy 'Duduś' Matuszkiewicz.",
+   "Founded by Krzysztof Boguszewski, a former activist of the legendary Remont club; photographer Marek Karewicz was its artistic soul.",
+   "Listed by Jazz Forum magazine among the top hundred jazz clubs in the world.",
+   "Practically every notable Polish jazz musician has played there and many return regularly."
+  ],
+  "legend": [],
+  "sources": [
+   {
+    "url": "https://polishjazz.pl/kluby-elementy/jazz-club-tygmont-warszawa-2001/",
+    "note": "Founding date, founders, Tygmont All Stars opening night."
+   },
+   {
+    "url": "https://nominatim.openstreetmap.org/search?q=Mazowiecka+6/8,+Warszawa&format=json",
+    "note": "Geocode of Mazowiecka 6/8: 52.2371212, 21.0136553 (corroborates coords)."
+   }
+  ],
+  "confidence": "high",
+  "w": "A jazz cellar off Mazowiecka that Jazz Forum ranks among the hundred best in the world. It opened in 2001 with 428 in the room and the Tygmont All Stars under Jerzy 'Duduś' Matuszkiewicz; the founder came out of the legendary Remont club. Pretty much every Polish jazz name has played down here, and most keep coming back.",
+  "_issues": []
+ },
+ {
+  "n": "Kawiarnia Relaks",
+  "a": "Mokotów",
+  "c": "coffee",
+  "lat": 52.2027248,
+  "lng": 21.0217316,
+  "hook": "A Mokotów legend and one of Warsaw's first specialty-coffee cafés.",
+  "facts": [
+   "Located at ul. Puławska 48 in Mokotów (Yelp and city café guides confirm the address).",
+   "Widely described as a legend of the Mokotów district and one of the first specialty-coffee cafés in Warsaw.",
+   "Known for a bright, characteristic interior, homemade cakes and an unhurried, relaxed atmosphere.",
+   "Pours coffee sourced from leading roasteries, drawing regulars from across the city, not just the neighbourhood."
+  ],
+  "legend": [],
+  "sources": [
+   {
+    "url": "https://razdwatrzywarszawiak.pl/top-10-kawiarni-specialty-coffee-w-warszawie.php",
+    "note": "Calls Relaks a Mokotów legend and early specialty café."
+   },
+   {
+    "url": "https://nominatim.openstreetmap.org/search?q=Pu%C5%82awska+48,+Warszawa&format=json",
+    "note": "Geocode of Puławska 48: 52.2027248, 21.0217316 (corroborates coords)."
+   }
+  ],
+  "confidence": "medium",
+  "w": "A Mokotów legend on Puławska, and one of the first cafés in Warsaw to take coffee seriously. Bright, unhurried, with homemade cakes and beans from the best roasteries — the kind of place regulars cross the city for, long before specialty coffee was everywhere. No rush, by name and by nature.",
+  "_issues": []
+ },
+ {
+  "n": "Mielżyński Wine Bar",
+  "a": "Wola (Stara Fabryka Koronek)",
+  "c": "wine",
+  "lat": 52.2543713,
+  "lng": 20.9789583,
+  "hook": "A 20-year wine-bar-and-shop in the Old Lace Factory with one of the city's loveliest gardens.",
+  "facts": [
+   "Operating since 2004 as a combined wine shop, wine bar and meeting place for wine lovers, at ul. Burakowska 5/7.",
+   "Set in the historic Stara Fabryka Koronek (Old Lace Factory), whose courtyard hosts one of Warsaw's most attractive restaurant gardens.",
+   "Founded by Robert Mielżyński, who has advised guests on wine selection for two decades.",
+   "Offers a collection of over 700 labels, most also available by the glass.",
+   "Runs a regular calendar of tastings combined with concerts, hosting winemakers from around the world."
+  ],
+  "legend": [],
+  "sources": [
+   {
+    "url": "https://bestofwarsaw.pl/miejsce/mielzynski-wine-bar-sklep-z-winem/",
+    "note": "History since 2004, 700+ labels, Old Lace Factory setting."
+   },
+   {
+    "url": "https://nominatim.openstreetmap.org/search?q=Burakowska+5,+Warszawa&format=json",
+    "note": "Geocode of Burakowska 5/7: 52.2543713, 20.9789583 (corroborates coords)."
+   }
+  ],
+  "confidence": "high",
+  "w": "Twenty years of wine in the old Lace Factory on Wola — part shop, part bar, with 700-plus labels and most of them open by the glass. Robert Mielżyński has steered guests to the right bottle since 2004, in a courtyard garden that ranks among the city's loveliest. Tastings come with concerts. Drink in the factory yard.",
+  "_issues": []
+ },
+ {
+  "n": "Hey Joe",
+  "a": "Śródmieście (Złota)",
+  "c": "vinyl",
+  "lat": 52.2331304,
+  "lng": 21.0110264,
+  "hook": "A cramped 30-year vinyl-and-CD antykwariat, a fixture of Warsaw's record-digging folklore.",
+  "facts": [
+   "Established in 1992 and run for some three decades by Krzysztof Nieporęcki at ul. Złota 8 in Śródmieście.",
+   "A small space packed with vinyl, CDs and cassettes across nearly all music styles.",
+   "Its current stock has grown to several thousand titles, including records described as unique on a global scale.",
+   "Open Monday to Friday and Saturday mornings; regarded as a permanent fixture on Warsaw's cultural map.",
+   "Featured by Warszawa Nasze Miasto as one of the city's best-known record antykwariats."
+  ],
+  "legend": [],
+  "sources": [
+   {
+    "url": "https://warszawa.naszemiasto.pl/kultowy-antykwariat-element-folkloru-dusza-warszawy-jest-w-takich-miejscach-zajrzyjcie-z-nami-do-hey-joe/ar/c13p2-26902069",
+    "note": "30-year history, founder, cult status, Złota 8."
+   },
+   {
+    "url": "https://nominatim.openstreetmap.org/search?street=Z%C5%82ota+8&city=Warszawa&format=json",
+    "note": "Geocode of Złota 8: 52.2331304, 21.0110264 (corroborates coords)."
+   }
+  ],
+  "confidence": "medium",
+  "w": "A cramped record antykwariat on Złota, run by Krzysztof Nieporęcki since 1992 — several thousand vinyl, CDs and tapes across every style, some pressings rare the world over. A fixture of Warsaw's crate-digging folklore, in the shadow of the Palace of Culture. Squeeze in and dig.",
+  "_issues": []
+ },
+ {
+  "n": "Dom Kereta (Keret House)",
+  "a": "Wola (Wola / Żelazna Brama)",
+  "c": "oddity",
+  "lat": 52.237703,
+  "lng": 20.989075,
+  "hook": "The world's narrowest house, an art installation wedged into a 92-cm gap.",
+  "facts": [
+   "Designed by architect Jakub Szczęsny (studio Centrala) and built in 2012 between 22 Chłodna Street and 74 Żelazna Street.",
+   "Described as the narrowest house in the world: about 92 cm at its thinnest point and 152 cm at its widest.",
+   "Despite the width it fits a bedroom, bathroom and kitchen across its tiny floors, lit through a semi-transparent polycarbonate skin.",
+   "Named after Israeli writer Etgar Keret, its first tenant; conceived as a creative residency for travelling writers.",
+   "Stands in the former Jewish ghetto area of Wola; Wikipedia gives its coordinates as 52.237703 N, 20.989075 E."
+  ],
+  "legend": [],
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Keret_House",
+    "note": "Architect, dimensions, namesake, and coordinates 52.237703, 20.989075 (corroborates coords)."
+   },
+   {
+    "url": "https://www.dezeen.com/2012/10/31/worlds-narrowest-house-by-jakub-szczesny/",
+    "note": "World's narrowest house, design details and location."
+   }
+  ],
+  "confidence": "high",
+  "w": "The narrowest house in the world, wedged into a 92-centimetre gap between two Wola buildings — 152 cm at its widest. Jakub Szczęsny slipped it in in 2012, lit through a glowing polycarbonate skin, a bedroom, kitchen and bathroom somehow stacked inside. Named for its first tenant, the writer Etgar Keret. Turn sideways.",
+  "_issues": []
+ },
+ {
+  "n": "Mural Powstania Warszawskiego (Okrzei 5)",
+  "a": "Praga-Północ",
+  "c": "streetart",
+  "lat": 52.2492214,
+  "lng": 21.0304626,
+  "hook": "A Praga gable mural of the Gray Ranks heroes Zośka, Rudy and Alek.",
+  "facts": [
+   "Painted in 2012 by Maciej Pakalski and Dominik Robak on the side wall of a pre-war tenement at ul. Okrzei 5 in Praga-Północ.",
+   "Depicts four Home Army figures over a map of Warsaw: Tadeusz 'Zośka' Zawadzki, Jan 'Rudy' Bytnar, Aleksander 'Alek' Dawidowski and Colonel Antoni 'Bober' Żurowski.",
+   "The first three were close friends and Gray Ranks scouts of the legendary 'Zośka' battalion, all killed fighting the occupiers in 1943.",
+   "The composition includes the Fighting Poland anchor with the year 1944 and the Vistula rendered in red.",
+   "Funded by the 'Monopol Warszawski' association as part of Praga's wall-art tradition."
+  ],
+  "legend": [],
+  "sources": [
+   {
+    "url": "http://www.sppw1944.org/mural/mur20.html",
+    "note": "Detailed description: artists, 2012, figures depicted, Fighting Poland anchor, Okrzei 5."
+   },
+   {
+    "url": "https://nominatim.openstreetmap.org/search?q=Okrzei+5,+Warszawa&format=json",
+    "note": "Geocode of Okrzei 5: 52.2492214, 21.0304626 (corroborates coords)."
+   }
+  ],
+  "confidence": "medium",
+  "w": "On a Praga gable, four Home Army fighters loom over a map of Warsaw — Zośka, Rudy and Alek, the inseparable Gray Ranks scouts of the 'Zośka' battalion, all killed in 1943, with Colonel 'Bober' beside them. The Fighting Poland anchor and '1944' anchor the scene, the Vistula running red. Painted in 2012, Praga remembering its own.",
+  "_issues": []
+ }
+]

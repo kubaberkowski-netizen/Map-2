@@ -1,2 +1,10 @@
 node_modules/
 tools/candidates/
+# scratch research files: per-batch splits + blank templates under research/.
+# The merged research/<dir>/<city>.json is the committed artifact.
+research/**/*.todo.json
+research/**/*-a.json
+research/**/*-b.json
+# numbered per-batch splits, e.g. warsaw-11a.json / warsaw-10b.json (a digit then a
+# letter before .json) — but NOT merged files like warsaw-11.json or barcelona.json
+research/**/*[0-9][a-z].json
