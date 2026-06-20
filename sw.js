@@ -1,5 +1,5 @@
 /* Flâneur service worker — offline app shell + tile/asset caching */
-const SHELL = "flaneur-shell-v65";
+const SHELL = "flaneur-shell-v66";
 const TILES = "flaneur-tiles-v2";
 const TILE_MAX = 350;
 
@@ -65,6 +65,10 @@ self.addEventListener("fetch", (e) => {
       }).catch(() => hit);
       return hit || net;
     }));
+    return;
+  }
+  if (url.hostname === "flagcdn.com") {
+    e.respondWith(caches.open(SHELL).then(async (c) => { const hit = await c.match(req); if (hit) return hit; try { const res = await fetch(req); if (res && (res.ok || res.type === "opaque")) c.put(req, res.clone()); return res; } catch (_) { return hit || Response.error(); } }));
     return;
   }
   if (url.hostname === "unpkg.com") {
