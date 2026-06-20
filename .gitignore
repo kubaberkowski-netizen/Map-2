@@ -1,2 +1,7 @@
 node_modules/
 tools/candidates/
+# scratch dossier files: per-batch research splits + blank templates.
+# The merged research/dossiers/<city>.json is the committed artifact.
+research/dossiers/*.todo.json
+research/dossiers/*-a.json
+research/dossiers/*-b.json
