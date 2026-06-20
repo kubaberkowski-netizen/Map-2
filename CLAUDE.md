@@ -34,7 +34,7 @@ fully before touching anything.
   clean JSON without touching minified code). The boot sequence is **unchanged and
   fully synchronous** — the app does NOT fetch JSON at runtime; the catalogue is
   inlined at build time.
-  - `data/spots.json` — the **12,581 spots** as pretty JSON. **Source of truth for `Z`.**
+  - `data/spots.json` — the **12,692 spots** as pretty JSON. **Source of truth for `Z`.**
   - `src/app.template.html` — the full app with the inline `Z=[…]` array literal
     replaced by the placeholder `[]/*__FLANEUR_SPOTS__*/`. **Everything else
     (`ne`, `Xr`, all app code) is byte-for-byte the deployed bundle.**
@@ -57,7 +57,7 @@ fully before touching anything.
   the template, not hand-typed), any coordinate is non-finite/zero, or any coordinate
   lands **outside its city's `Ci` bbox** (±0.1° margin — catches wrong-city / sign-flip /
   transposed-digit typos). It **warns** (non-fatal) if the entry count differs from the
-  baseline (12,581; see `BASELINE` in `build.js`), if two spots share a name within a
+  baseline (12,692; see `BASELINE` in `build.js`), if two spots share a name within a
   city (likely duplicate spots), or
   if any writeups are empty (with a per-city count). It then re-runs the CLAUDE.md checks
   below on the generated HTML and fails loudly on any miss.
@@ -71,8 +71,9 @@ fully before touching anything.
 - `c` **MUST** be one of exactly **43 valid category slugs**. The code reads
   `ne[entry.c]` **unguarded**, so any unknown slug = **instant white-screen**.
 - `city` **MUST** be a slug defined in the **`Ci` cities registry**. `build.js`
-  rejects unknown city slugs. There are **70 cities** today, spanning the UK, Europe,
-  the Americas, Asia and Australia — `london` (988) is by far the largest, followed by
+  rejects unknown city slugs. There are **73 cities** today, spanning the UK, Europe,
+  the Americas, Asia, Australia and now Africa (`capetown`, `dakar`, `rabat`) —
+  `london` (988) is by far the largest, followed by
   global metros (e.g. `chicago` 307, `nyc` 298, `losangeles` 287, `helsinki` 272,
   `sanfrancisco` 264, `dublin` 245, `manchester` 243, `tokyo` 231). The full list +
   per-city counts can be recomputed from `data/spots.json` at any time.
@@ -108,7 +109,7 @@ fully before touching anything.
   they are the owner's voice. **NEVER rewrite, "improve," or invent writeup text.**
   Add sourced facts only when explicitly asked. Writeups are now edited in
   `data/spots.json` (the `w` field of each entry), then `npm run build`.
-- **Reality check (post-scale-up):** with the catalogue at 12,581 spots, the **majority
+- **Reality check (post-scale-up):** with the catalogue at 12,692 spots, the **majority
   of `w` fields are now short machine-generated stubs** from the `tools/` enrichment
   pipeline (OSM / Wikidata / Wikipedia) — median length ~41 chars, ~80% under 80 chars,
   ~150 empty. The "owner's voice" rule still applies to the **authored** writeups (do not
@@ -122,7 +123,7 @@ fully before touching anything.
 ## Validation recipe — run before EVERY commit, no exceptions
 1. Extract the inline `<script>` body to a temp `.js` and run `node --check` on it.
 2. Confirm counts via grep on the HTML:
-   - **entries** — `id:"…",n:"` → should be **12,581** (keep in sync with `build.js`'s `BASELINE`)
+   - **entries** — `id:"…",n:"` → should be **12,692** (keep in sync with `build.js`'s `BASELINE`)
      `grep -oE 'id:"[^"]*",n:"' index.html | wc -l`
    - **Worlds** — `match:\s*e\s*=>` → should be **80** (do NOT count `osm:`)
      `grep -oE 'match:[[:space:]]*e[[:space:]]*=>' index.html | wc -l`
