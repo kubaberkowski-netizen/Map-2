@@ -659,5 +659,5 @@ lucide-react/dist/esm/lucide-react.js:
 */
 
 </script>
-<script>if("serviceWorker"in navigator){addEventListener("load",function(){navigator.serviceWorker.register("./sw.js").then(function(reg){if(reg){reg.update();setInterval(function(){reg.update()},6e4)}}).catch(function(){});var _rf=!1;navigator.serviceWorker.addEventListener("controllerchange",function(){if(_rf)return;_rf=!0;location.reload()})})}</script>
+<script>if("serviceWorker"in navigator){addEventListener("load",function(){navigator.serviceWorker.register("./sw.js",{updateViaCache:"none"}).then(function(reg){if(reg){reg.update();setInterval(function(){reg.update()},6e4)}}).catch(function(){});var _rf=!1;navigator.serviceWorker.addEventListener("controllerchange",function(){if(_rf)return;_rf=!0;location.reload()})})}</script>
 </body></html>
