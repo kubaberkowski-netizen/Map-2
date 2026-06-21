@@ -128,13 +128,6 @@
    "match": "contains",
    "dist": 8
   },
-  "dukeofstalbans": {
-   "h": "Mo-Th 12:00-23:00; Fr,Sa 10:00-00:00; Su 12:00-22:00",
-   "osm": "node/98170592",
-   "name": "Duke of St. Albans",
-   "match": "name",
-   "dist": 0
-  },
   "dumplings-legend-chinatown": {
    "h": "Mo-Sa 11:30-03:00, Su 11:30-23:00",
    "osm": "node/13547039539",
@@ -183,13 +176,6 @@
    "name": "Fortitude",
    "match": "contains",
    "dist": 127
-  },
-  "foxunderthehill": {
-   "h": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa 09:00-24:00; Su 09:00-23:00",
-   "osm": "node/90272342",
-   "name": "Fox Under The Hill",
-   "match": "name",
-   "dist": 0
   },
   "gaystheword": {
    "h": "Mo-Sa 10:00-18:30;Su 14:00-18:00",
@@ -261,13 +247,6 @@
    "match": "name",
    "dist": 35
   },
-  "kingofprussia": {
-   "h": "Mo-Th 12:00-23:00; Fr-Sa 12:00-24:00; Su 12:00-23:00",
-   "osm": "node/451152",
-   "name": "King of Prussia",
-   "match": "name",
-   "dist": 0
-  },
   "kissaten": {
    "h": "Mo-Su 12:00-21:00",
    "osm": "way/157779699",
@@ -309,13 +288,6 @@
    "name": "Stadium Store",
    "match": "contains",
    "dist": 162
-  },
-  "lotsroad": {
-   "h": "Mo-Sa 12:00-23:00; Su 12:00-22:00",
-   "osm": "node/27512718",
-   "name": "Lots Road",
-   "match": "name",
-   "dist": 0
   },
   "lyles": {
    "h": "Mo-Fr 08:00-23:00; Sa 12:00-23:00",
@@ -386,13 +358,6 @@
    "name": "Noble Rot",
    "match": "name",
    "dist": 102
-  },
-  "northnineteen": {
-   "h": "Mo-Th 16:00-12:00, Fr 16:00-01:00",
-   "osm": "node/27411557",
-   "name": "North Nineteen",
-   "match": "name",
-   "dist": 0
   },
   "novelty-automation": {
    "h": "Tu,We,Fr,Sa 11:00-18:00; Th 12:00-20:00; Su 12:00-18:00",
@@ -499,13 +464,6 @@
    "match": "name",
    "dist": 35
   },
-  "shortlandstavern": {
-   "h": "12:00-23:00",
-   "osm": "node/25523569",
-   "name": "Shortlands Tavern",
-   "match": "name",
-   "dist": 0
-  },
   "sky-garden": {
    "h": "Mo-Fr 10:00-18:00; Sa-Su,PH 11:00-21:00",
    "osm": "node/3272712570",
@@ -555,82 +513,12 @@
    "match": "name",
    "dist": 143
   },
-  "theblackstock": {
-   "h": "Mo-Th 14:00-24:00; Fr 14:00-24:00; Sa 00:00-02:00,11:00-24:00; Su 00:00-02:00,11:00-24:00",
-   "osm": "node/26065903",
-   "name": "The BlackStock",
-   "match": "name",
-   "dist": 0
-  },
-  "thebolton": {
-   "h": "Mo-Th 12:00-23:00; Fr 12:00-00:00; Sa 10:00-00:00; Su 10:00-23:00",
-   "osm": "node/59169435",
-   "name": "The Bolton",
-   "match": "name",
-   "dist": 0
-  },
-  "thecardinal": {
-   "h": "Tu-Th 17:30-10:30, Fr 12:30-23:30, Sa 12:30-11:30, Su 12:30-21:00",
-   "osm": "node/30512931",
-   "name": "The Cardinal",
-   "match": "name",
-   "dist": 1
-  },
   "thecrown": {
    "h": "Mo-Su 12:00-22:00",
    "osm": "node/26603929",
    "name": "The Crown",
    "match": "name",
    "dist": 0
-  },
-  "thehonoroak": {
-   "h": "Su-Th 12:00-23:00; Fr-Sa 12:00-25:00",
-   "osm": "node/26992933",
-   "name": "The Honor Oak",
-   "match": "name",
-   "dist": 0
-  },
-  "theloft": {
-   "h": "Mo-Fr 15:00-23:00; Sa-Su 12:00-23:00",
-   "osm": "node/26603473",
-   "name": "The Loft",
-   "match": "name",
-   "dist": 1
-  },
-  "themint": {
-   "h": "Mo-Fr 12:00-23:00; Sa 09:00-23:00; Su 09:00-22:00",
-   "osm": "node/26422089",
-   "name": "The Mint",
-   "match": "name",
-   "dist": 1
-  },
-  "themonkeypuzzle": {
-   "h": "Mo-Sa 12:00-23:30; Su 12:00-22:30",
-   "osm": "node/15262028",
-   "name": "The Monkey Puzzle",
-   "match": "name",
-   "dist": 0
-  },
-  "theoldaleemporium": {
-   "h": "Mo-Th 11:00-00:00; Fr-Sa 11:00-01:00; Su 12:00-23:00",
-   "osm": "node/25717653",
-   "name": "The Old Ale Emporium",
-   "match": "name",
-   "dist": 0
-  },
-  "theoxfordarms": {
-   "h": "Fr-Sa 12:00-02:00; Su-Th 12:00-01:00",
-   "osm": "node/26610590",
-   "name": "The Oxford Arms",
-   "match": "name",
-   "dist": 0
-  },
-  "theroseofyork": {
-   "h": "Mo-Sa 12:00-23:00; Su 12:00-22:30",
-   "osm": "node/30669338",
-   "name": "The Rose of York",
-   "match": "name",
-   "dist": 1
   },
   "thesirjulianhuxley": {
    "h": "Mo-Th 08:00-24:00; Fr-Sa 08:00-01:00; Su 08:00-24:00",
@@ -646,33 +534,12 @@
    "match": "name",
    "dist": 0
   },
-  "thesun": {
-   "h": "Mo-Th 12:00-23:00; Fr-Sa 12:00-24:00; Su 12:00-22:30",
-   "osm": "node/33583650",
-   "name": "The Sun",
-   "match": "name",
-   "dist": 0
-  },
-  "theunionbar": {
-   "h": "\"by appointment\"",
-   "osm": "node/20821133",
-   "name": "The Union Bar",
-   "match": "name",
-   "dist": 0
-  },
   "thewonder": {
    "h": "Mo-Th 11:00-23:00; Su 12:00-23:00; Fr,Sa 11:00-24:00",
    "osm": "node/26980235",
    "name": "The Wonder",
    "match": "name",
    "dist": 0
-  },
-  "thewoodlandstavern": {
-   "h": "Mo-Fr 09:00-18:00; Sa 09:00-16:00; PH closed",
-   "osm": "node/8313260095",
-   "name": "Woodland",
-   "match": "contains",
-   "dist": 101
   },
   "toad": {
    "h": "Tu-Sa 08:00-15:00; Mo,Su off",
