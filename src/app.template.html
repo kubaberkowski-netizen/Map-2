@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: blob: https://tile.openstreetmap.org https://*.tile.openstreetmap.org https://*.basemaps.cartocdn.com https://api.maptiler.com https://*.wikimedia.org https://flagcdn.com; connect-src 'self' https://overpass-api.de https://overpass.kumi.systems https://overpass.openstreetmap.fr https://nominatim.openstreetmap.org https://en.wikipedia.org https://api.maptiler.com https://api.geoapify.com https://routing.openstreetmap.de https://api.open-meteo.com; worker-src 'self'; manifest-src 'self' data:; object-src 'none'; base-uri 'self'" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: blob: https://tile.openstreetmap.org https://*.tile.openstreetmap.org https://*.basemaps.cartocdn.com https://api.maptiler.com https://*.wikimedia.org https://flagcdn.com; connect-src 'self' https://overpass-api.de https://overpass.kumi.systems https://overpass.openstreetmap.fr https://nominatim.openstreetmap.org https://en.wikipedia.org https://api.maptiler.com https://api.geoapify.com https://routing.openstreetmap.de https://api.open-meteo.com https://cloudflareinsights.com; worker-src 'self'; manifest-src 'self' data:; object-src 'none'; base-uri 'self'" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="theme-color" content="#C8372D" />
 <title>Flâneur</title>
@@ -659,5 +659,5 @@ lucide-react/dist/esm/lucide-react.js:
 */
 
 </script>
-<script>if("serviceWorker"in navigator){addEventListener("load",function(){navigator.serviceWorker.register("./sw.js",{updateViaCache:"none"}).then(function(reg){if(reg){reg.update();setInterval(function(){reg.update()},6e4)}}).catch(function(){});var _rf=!1;navigator.serviceWorker.addEventListener("controllerchange",function(){if(_rf)return;_rf=!0;location.reload()})})}</script>
+<script>/* Cloudflare Web Analytics (cookieless). Paste your beacon token between the quotes to enable; leave empty to disable. */(function(){var CFTOKEN="";if(!CFTOKEN)return;try{var s=document.createElement("script");s.defer=true;s.src="https://static.cloudflareinsights.com/beacon.min.js";s.setAttribute("data-cf-beacon",JSON.stringify({token:CFTOKEN}));document.head.appendChild(s)}catch(e){}})();</script><script>if("serviceWorker"in navigator){addEventListener("load",function(){navigator.serviceWorker.register("./sw.js",{updateViaCache:"none"}).then(function(reg){if(reg){reg.update();setInterval(function(){reg.update()},6e4)}}).catch(function(){});var _rf=!1;navigator.serviceWorker.addEventListener("controllerchange",function(){if(_rf)return;_rf=!0;location.reload()})})}</script>
 </body></html>
