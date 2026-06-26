@@ -1,0 +1,26 @@
+name: Ingest events
+
+# Fills the Flâneur events feed from Ticketmaster. Runs daily, plus a manual
+# "Run workflow" button. No terminal needed — just add the two repo secrets:
+#   TICKETMASTER_KEY            (developer.ticketmaster.com → Consumer Key)
+#   SUPABASE_SERVICE_ROLE_KEY   (Supabase → Settings → API → service_role key)
+on:
+  schedule:
+    - cron: "0 5 * * *" # every day at 05:00 UTC
+  workflow_dispatch: {} # manual trigger from the Actions tab
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Ingest
+        run: node scripts/ingest-events.mjs
+        env:
+          TICKETMASTER_KEY: ${{ secrets.TICKETMASTER_KEY }}
+          SUPABASE_URL: https://fpngxchltuovtsyzigul.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          INGEST_STATUS: approved
