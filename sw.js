@@ -1,5 +1,5 @@
 /* Flâneur service worker — offline app shell + tile/asset caching */
-const SHELL = "flaneur-shell-v165";
+const SHELL = "flaneur-shell-v166";
 const TILES = "flaneur-tiles-v2";
 const TILE_MAX = 350;
 
@@ -87,4 +87,32 @@ self.addEventListener("fetch", (e) => {
     }).catch(() => r)));
     return;
   }
+});
+
+// --- Web Push (payloads sent by the Supabase Edge Function; see BACKEND.md) ---
+self.addEventListener("push", (e) => {
+  let d = {};
+  try { d = e.data.json(); } catch (_) { try { d = { body: e.data.text() }; } catch (__) {} }
+  const title = d.title || "Flâneur";
+  const opts = {
+    body: d.body || "",
+    icon: d.icon || "./icon-512.png",
+    badge: d.badge || "./icon-512.png",
+    tag: d.tag,
+    renotify: !!d.tag,
+    data: { url: d.url || "./" },
+  };
+  e.waitUntil(self.registration.showNotification(title, opts));
+});
+self.addEventListener("notificationclick", (e) => {
+  e.notification.close();
+  const target = (e.notification.data && e.notification.data.url) || "./";
+  e.waitUntil(
+    clients.matchAll({ type: "window", includeUncontrolled: true }).then((list) => {
+      for (const c of list) {
+        if (c.url.indexOf(self.registration.scope) === 0 && "focus" in c) return c.focus();
+      }
+      if (clients.openWindow) return clients.openWindow(target);
+    })
+  );
 });

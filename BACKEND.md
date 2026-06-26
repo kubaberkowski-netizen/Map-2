@@ -182,6 +182,80 @@ the backend behind.
 $0 to start: PostHog free ~1M events/mo; Supabase free tier (500 MB DB, 1 GB
 storage, 50k MAU auth). Realistically ~$25–50/mo only once there's real traction.
 
+## 10. Push notifications (retention nudges)
+
+Client + service-worker plumbing ships **dormant** until `CFG.vapidPublic` is set
+(the `🔔 Daily reminders` row in the You tab only renders once it's configured and
+the user is signed in). The server sender is a Supabase Edge Function you deploy.
+
+### A. Generate VAPID keys (you run this — private key never leaves your machine)
+```bash
+node -e 'const c=require("crypto");const{publicKey,privateKey}=c.generateKeyPairSync("ec",{namedCurve:"prime256v1"});const pub=publicKey.export({format:"jwk"}),pk=privateKey.export({format:"jwk"}),u=s=>Buffer.from(s,"base64url");console.log("PUBLIC :",Buffer.concat([Buffer.from([4]),u(pub.x),u(pub.y)]).toString("base64url"));console.log("PRIVATE:",pk.d);'
+```
+- `PUBLIC` → send to me; goes in `CFG.vapidPublic`.
+- `PRIVATE` → keep; becomes an Edge Function secret (below). Never commit it.
+
+### B. Table (run in SQL editor)
+```sql
+create table public.push_subscriptions (
+  endpoint     text primary key,
+  user_id      uuid references auth.users on delete cascade,
+  subscription jsonb not null,
+  updated_at   timestamptz default now(),
+  created_at   timestamptz default now()
+);
+alter table public.push_subscriptions enable row level security;
+create policy "own subs sel" on public.push_subscriptions for select using (auth.uid() = user_id);
+create policy "own subs ins" on public.push_subscriptions for insert with check (auth.uid() = user_id);
+create policy "own subs upd" on public.push_subscriptions for update using (auth.uid() = user_id);
+create policy "own subs del" on public.push_subscriptions for delete using (auth.uid() = user_id);
+```
+
+### C. Edge Function `send-reminders` (supabase/functions/send-reminders/index.ts)
+```ts
+import webpush from "npm:web-push@3.6.7";
+import { createClient } from "npm:@supabase/supabase-js@2";
+const sb = createClient(Deno.env.get("SUPABASE_URL")!, Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!);
+webpush.setVapidDetails("mailto:kuba.berkowski@gmail.com", Deno.env.get("VAPID_PUBLIC")!, Deno.env.get("VAPID_PRIVATE")!);
+Deno.serve(async () => {
+  const { data: subs } = await sb.from("push_subscriptions").select("endpoint, subscription, profiles(state)");
+  let sent = 0; const gone: string[] = [];
+  const today = new Date().toISOString().slice(0,10);
+  for (const row of subs ?? []) {
+    // targeting: skip anyone who already checked in today (state.checkinAt holds timestamps)
+    const ci = (row as any).profiles?.state ? JSON.parse(((row as any).profiles.state["flaneur-v2"])||"{}").checkinAt||{} : {};
+    const activeToday = Object.values(ci).some((t:any)=> String(t).slice(0,10)===today);
+    if (activeToday) continue;
+    const payload = JSON.stringify({ title:"Flâneur", body:"New daily missions are live — keep your streak alive.", url:"./", tag:"daily" });
+    try { await webpush.sendNotification((row as any).subscription, payload); sent++; }
+    catch (e:any) { if (e.statusCode===404||e.statusCode===410) gone.push((row as any).endpoint); }
+  }
+  if (gone.length) await sb.from("push_subscriptions").delete().in("endpoint", gone);
+  return new Response(JSON.stringify({ sent, pruned: gone.length }), { headers:{ "Content-Type":"application/json" }});
+});
+```
+Deploy + secrets (Supabase CLI):
+```bash
+supabase functions deploy send-reminders
+supabase secrets set VAPID_PUBLIC=<public> VAPID_PRIVATE=<private>
+# SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY are injected automatically.
+```
+
+### D. Schedule it (SQL editor — pg_cron + pg_net, e.g. 18:00 daily)
+```sql
+select cron.schedule('daily-reminders','0 18 * * *', $$
+  select net.http_post(
+    url := 'https://fpngxchltuovtsyzigul.supabase.co/functions/v1/send-reminders',
+    headers := '{"Content-Type":"application/json","Authorization":"Bearer <service_role_key>"}'::jsonb
+  );
+$$);
+```
+
+**Notes / caveats:** iOS only delivers web push to a **home-screen-installed** PWA
+(iOS 16.4+). The daily 18:00 UTC fire is a v1 — proper per-user timezones and
+streak-aware copy come next. Pruning on `404/410` keeps the table clean as
+subscriptions expire.
+
 ## 9. Roadmap after Phase 1
 
 Photos → Storage (lazy up/download, local cache); friends + city leaderboards
