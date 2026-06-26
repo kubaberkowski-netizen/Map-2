@@ -24,7 +24,8 @@ function q(base, c, full) {
   if (full && base === LEG) u += "&categories=13000&fields=fsq_id,name,geocodes,location,categories";
   return u;
 }
-const FOOD = /restaurant|caf|coffee|\bbar\b|pub|food|eatery|bistro|brasserie|diner|bakery|gastropub|wine|cocktail|tavern|trattoria|izakaya|ramen|deli|kitchen|grill/i;
+const FOOD = /restaurant|caf[eé]|coffee|\bbar\b|\bpub\b|bistro|brasserie|diner|bakery|gastropub|wine bar|cocktail|tavern|trattoria|izakaya|ramen|noodle|sushi|pizz|steak|\bgrill\b|bbq|barbecue|eatery|tea ?room|teahouse|dessert|ice cream|gelato|creper|juice bar|breakfast|brunch/i;
+const NOTFOOD = /grocer|supermarket|convenience|food store|drugstore|pharmacy|liquor store/i;
 const PROBES = [
   { label: "new+bearer", base: NEW, headers: { Authorization: "Bearer " + KEY, "X-Places-Api-Version": VER, Accept: "application/json" } },
   { label: "new+raw", base: NEW, headers: { Authorization: KEY, "X-Places-Api-Version": VER, Accept: "application/json" } },
@@ -45,6 +46,8 @@ for (const p of PROBES) {
 }
 if (!chosen) { console.error("No working Foursquare auth combo — likely the wrong key type."); process.exit(1); }
 console.log("Foursquare auth: " + chosen.label);
+// refresh: clear our prior foursquare rows so each run reflects the current filter
+try { await fetch(`${SB_URL}/rest/v1/places?source=eq.foursquare`, { method: "DELETE", headers: { apikey: SB_KEY, Authorization: "Bearer " + SB_KEY } }); } catch (e) { /* non-fatal */ }
 
 function row(e, slug) {
   const id = e.fsq_place_id || e.fsq_id;
@@ -71,7 +74,7 @@ for (const c of cities) {
     if (r.ok) results = JSON.parse(t).results || [];
   } catch (e) { if (!dbg) { dbg = true; console.error("MAIN err " + String(e).slice(0, 200)); } }
   const rows = results
-    .filter((e) => FOOD.test((e.categories || []).map((x) => x.name || "").join(" ")))
+    .filter((e) => { const n = (e.categories || []).map((x) => x.name || "").join(" "); return FOOD.test(n) && !NOTFOOD.test(n); })
     .map((e) => row(e, c.slug))
     .filter((x) => x.name && /:.+/.test(x.ext_id) && isFinite(x.lat) && isFinite(x.lng));
   if (rows.length) {
