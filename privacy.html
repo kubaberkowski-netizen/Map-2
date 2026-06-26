@@ -36,7 +36,7 @@
   <a class="back" href="./">← Back to Flâneur</a>
 
   <h1>Privacy Policy</h1>
-  <p class="meta">Flâneur · Effective date: 19 June 2026</p>
+  <p class="meta">Flâneur · Effective date: 24 June 2026</p>
 
   <p><strong>Flâneur</strong> is a personal guide to offbeat, storied places, sorted by how
   far they are from where you’re standing. This policy explains what the app does — and
@@ -91,15 +91,18 @@
     <tr><td>unpkg (CDN)</td><td>Delivers the open-source map library (Leaflet)</td></tr>
     <tr><td>GitHub Pages</td><td>Hosts and serves the app; may keep standard server access logs</td></tr>
     <tr><td>Cloudflare Web Analytics</td><td>Cookieless, aggregate page-view counts — sets no cookies and collects no personal data</td></tr>
+    <tr><td>PostHog (EU)</td><td>Privacy-respecting product analytics — counts in-app actions (e.g. opening the app, checking in) to understand which features help. EU-hosted, no session recording; linked to you only if you sign in</td></tr>
+    <tr><td>Supabase (EU)</td><td>Optional account sign-in (email magic-link) and syncing your saved places across devices. Stores your email and your saved/visited data — only active if you choose to sign in</td></tr>
   </table>
 
   <h2>What we don’t do</h2>
   <ul>
-    <li>No user accounts and no passwords.</li>
+    <li>No passwords. Sign-in is optional (used only to sync across devices) and works by an
+    emailed magic-link — there is nothing for us to leak.</li>
     <li>No advertising and no ad networks.</li>
-    <li>No behavioural or cross-site tracking, and no tracking cookies set by the app. The only
-    analytics is Cloudflare Web Analytics, which is cookieless and reports aggregate page views
-    only — no personal data.</li>
+    <li>No cross-site tracking and no session recording. Product analytics (PostHog, EU-hosted)
+    and Cloudflare Web Analytics measure feature usage in aggregate; analytics are not linked to
+    your identity unless you choose to sign in.</li>
     <li>No selling or sharing of personal information — there is no personal data collected by
     us to sell or share.</li>
   </ul>
@@ -113,6 +116,10 @@
     <li><strong>Location:</strong> grant or revoke at any time in your browser/device settings.</li>
     <li><strong>Stored data:</strong> clear it by removing this site’s data, or by deleting the
     installed app.</li>
+    <li><strong>Account &amp; sync:</strong> signing in is optional. To export or delete your
+    synced data, or close your account, email
+    <a href="mailto:kuba.berkowski@gmail.com">kuba.berkowski@gmail.com</a> and your stored data
+    will be removed.</li>
   </ul>
 
   <h2>Changes to this policy</h2>
