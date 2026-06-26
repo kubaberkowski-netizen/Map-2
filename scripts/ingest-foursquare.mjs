@@ -17,11 +17,11 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const NEW = "https://places-api.foursquare.com/places/search";
 const LEG = "https://api.foursquare.com/v3/places/search";
 function q(base, c, full) {
-  let u = `${base}?ll=${c.lat},${c.lng}&radius=2500&limit=${full ? 50 : 5}&sort=RATING`;
-  if (full) {
-    if (base === LEG) u += "&categories=13000&fields=fsq_id,name,geocodes,location,categories,rating,price,website,description,photos,chains";
-    else u += "&fields=fsq_place_id,name,latitude,longitude,location,categories,rating,price,website,description,photos";
-  }
+  let u = `${base}?ll=${c.lat},${c.lng}&radius=2500&limit=${full ? 40 : 5}&sort=RATING`;
+  // FREE TIER ONLY: request no premium fields (rating/photos cost credits). The
+  // default response gives name, location, categories, coords — enough for names
+  // + map pins. sort=RATING ordering is free, so the better spots still come first.
+  if (full && base === LEG) u += "&categories=13000&fields=fsq_id,name,geocodes,location,categories";
   return u;
 }
 const FOOD = /restaurant|caf|coffee|\bbar\b|pub|food|eatery|bistro|brasserie|diner|bakery|gastropub|wine|cocktail|tavern|trattoria|izakaya|ramen|deli|kitchen|grill/i;
@@ -71,7 +71,7 @@ for (const c of cities) {
     if (r.ok) results = JSON.parse(t).results || [];
   } catch (e) { if (!dbg) { dbg = true; console.error("MAIN err " + String(e).slice(0, 200)); } }
   const rows = results
-    .filter((e) => e.rating != null && e.rating >= MIN_RATING && !(e.chains && e.chains.length) && FOOD.test((e.categories || []).map((x) => x.name || "").join(" ")))
+    .filter((e) => FOOD.test((e.categories || []).map((x) => x.name || "").join(" ")))
     .map((e) => row(e, c.slug))
     .filter((x) => x.name && /:.+/.test(x.ext_id) && isFinite(x.lat) && isFinite(x.lng));
   if (rows.length) {
