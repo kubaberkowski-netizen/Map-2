@@ -1,0 +1,27 @@
+name: Send reminders
+
+# Daily push notifications to subscribed users. No terminal needed — add three
+# repo secrets once: VAPID_PUBLIC, VAPID_PRIVATE (generate per BACKEND.md §10A)
+# and reuse SUPABASE_SERVICE_ROLE_KEY. Requires the push_subscriptions table.
+on:
+  schedule:
+    - cron: "0 18 * * *" # every day at 18:00 UTC
+  workflow_dispatch: {} # manual trigger from the Actions tab
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Install web-push
+        run: npm install web-push@3 --no-save --no-package-lock
+      - name: Send
+        run: node scripts/send-reminders.mjs
+        env:
+          SUPABASE_URL: https://fpngxchltuovtsyzigul.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          VAPID_PUBLIC: ${{ secrets.VAPID_PUBLIC }}
+          VAPID_PRIVATE: ${{ secrets.VAPID_PRIVATE }}
