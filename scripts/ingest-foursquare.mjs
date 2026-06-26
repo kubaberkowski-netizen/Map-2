@@ -17,10 +17,14 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const NEW = "https://places-api.foursquare.com/places/search";
 const LEG = "https://api.foursquare.com/v3/places/search";
 function q(base, c, full) {
-  let u = `${base}?ll=${c.lat},${c.lng}&radius=2500&limit=${full ? 30 : 5}&sort=RATING`;
-  if (full) { u += "&categories=13000"; if (base === LEG) u += "&fields=fsq_id,name,geocodes,location,categories,rating,price,website,description,photos,chains"; }
+  let u = `${base}?ll=${c.lat},${c.lng}&radius=2500&limit=${full ? 50 : 5}&sort=RATING`;
+  if (full) {
+    if (base === LEG) u += "&categories=13000&fields=fsq_id,name,geocodes,location,categories,rating,price,website,description,photos,chains";
+    else u += "&fields=fsq_place_id,name,latitude,longitude,location,categories,rating,price,website,description,photos";
+  }
   return u;
 }
+const FOOD = /restaurant|caf|coffee|\bbar\b|pub|food|eatery|bistro|brasserie|diner|bakery|gastropub|wine|cocktail|tavern|trattoria|izakaya|ramen|deli|kitchen|grill/i;
 const PROBES = [
   { label: "new+bearer", base: NEW, headers: { Authorization: "Bearer " + KEY, "X-Places-Api-Version": VER, Accept: "application/json" } },
   { label: "new+raw", base: NEW, headers: { Authorization: KEY, "X-Places-Api-Version": VER, Accept: "application/json" } },
@@ -62,7 +66,7 @@ for (const c of cities) {
   let results = [];
   try { const r = await fetch(q(chosen.base, c, true), { headers: chosen.headers }); if (r.ok) results = (await r.json()).results || []; } catch (e) { /* skip */ }
   const rows = results
-    .filter((e) => e.rating != null && e.rating >= MIN_RATING && !(e.chains && e.chains.length))
+    .filter((e) => e.rating != null && e.rating >= MIN_RATING && !(e.chains && e.chains.length) && FOOD.test((e.categories || []).map((x) => x.name || "").join(" ")))
     .map((e) => row(e, c.slug))
     .filter((x) => x.name && /:.+/.test(x.ext_id) && isFinite(x.lat) && isFinite(x.lng));
   if (rows.length) {
