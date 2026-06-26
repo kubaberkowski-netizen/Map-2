@@ -1,0 +1,24 @@
+name: Ingest Wikidata places
+
+# Storied places near each city from Wikidata (keyless). Weekly, since these are
+# largely static. No new secret needed — reuses SUPABASE_SERVICE_ROLE_KEY.
+# Requires the public.places table (see PLACES.md). Dedupes by ext_id 'wd:'.
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Ingest
+        run: node scripts/ingest-wikidata.mjs
+        env:
+          SUPABASE_URL: https://fpngxchltuovtsyzigul.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          INGEST_STATUS: approved
