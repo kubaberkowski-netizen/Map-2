@@ -61,10 +61,15 @@ function row(e, slug) {
   };
 }
 
-let upserted = 0, hits = 0;
+let upserted = 0, hits = 0, dbg = false;
 for (const c of cities) {
   let results = [];
-  try { const r = await fetch(q(chosen.base, c, true), { headers: chosen.headers }); if (r.ok) results = (await r.json()).results || []; } catch (e) { /* skip */ }
+  try {
+    const r = await fetch(q(chosen.base, c, true), { headers: chosen.headers });
+    const t = await r.text();
+    if (!dbg) { dbg = true; console.error(`MAIN ${r.status} ${t.slice(0, 500)}`); }
+    if (r.ok) results = JSON.parse(t).results || [];
+  } catch (e) { if (!dbg) { dbg = true; console.error("MAIN err " + String(e).slice(0, 200)); } }
   const rows = results
     .filter((e) => e.rating != null && e.rating >= MIN_RATING && !(e.chains && e.chains.length) && FOOD.test((e.categories || []).map((x) => x.name || "").join(" ")))
     .map((e) => row(e, c.slug))
