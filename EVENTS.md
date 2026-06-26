@@ -23,6 +23,7 @@ events are publicly readable (enforced by RLS). Auto-ingest writes events direct
 -- live events feed
 create table public.events (
   id uuid primary key default gen_random_uuid(),
+  ext_id text unique,                        -- dedup key for ingested events (e.g. 'tm:<id>')
   name text not null,
   description text,
   category text,
@@ -77,6 +78,47 @@ app on next load. For places, copy good ones into `data/spots.json` and rebuild.
 - `flEvents.parseLink(url)` → calls the `parse-link` Edge Function (graceful until deployed).
 - `flSubmit.open(citySlug)` → the submission modal (event/place toggle).
 - `flSubmit.event(row)` / `flSubmit.place(row)` → insert `pending` (sign-in required).
+
+## Server functions (`supabase/functions/`)
+
+Both are written and committed; you deploy them with the Supabase CLI.
+
+> If you created `events` before this change, add the dedup column once:
+> `alter table public.events add column if not exists ext_id text unique;`
+
+### `parse-link` — makes paste-a-link real
+Fetches the pasted URL server-side, reads OpenGraph + JSON-LD `Event` data, returns
+`{ title, venue, start, lat, lng, image }`. No secrets needed.
+```bash
+supabase functions deploy parse-link
+```
+The client already calls it (`flEvents.parseLink` → `sb.functions.invoke("parse-link")`)
+and degrades gracefully until it's deployed.
+
+### `ingest-events` — auto-fills the feed (cold-start answer)
+One geo-query per city (all 115, from `cities.json`) against the **Ticketmaster
+Discovery API**, mapped into `events` and upserted by `ext_id` (no duplicates).
+```bash
+# 1. free key from https://developer.ticketmaster.com (Discovery API)
+supabase functions deploy ingest-events
+supabase secrets set TICKETMASTER_KEY=<key>
+# optional: review before publishing instead of going live immediately
+supabase secrets set INGEST_STATUS=pending
+# 2. test once
+supabase functions invoke ingest-events
+```
+Schedule it daily (SQL editor, pg_cron + pg_net):
+```sql
+select cron.schedule('ingest-events','0 5 * * *', $$
+  select net.http_post(
+    url := 'https://fpngxchltuovtsyzigul.supabase.co/functions/v1/ingest-events',
+    headers := '{"Content-Type":"application/json","Authorization":"Bearer <service_role_key>"}'::jsonb
+  );
+$$);
+```
+**Coverage caveat:** Ticketmaster is strong in UK/US/EU/AU, thin in parts of
+Africa/Asia — those cities just return nothing (graceful). Add ICS feeds or other
+sources later by writing more rows with a different `source` + `ext_id` prefix.
 
 ## Cold-start / freshness
 Auto-ingest (phase 3) seeds every city so the tab is never empty; submissions +
