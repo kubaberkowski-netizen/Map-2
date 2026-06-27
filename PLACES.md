@@ -44,3 +44,28 @@ A toggleable "✦ Storied nearby" / "🍽 Food nearby" layer on the discovery ma
 distinct pin style from curated spots, off by default so the curated map stays the
 hero. Wired the same way as the events map layer. (Deliberately held until the data
 is in, so we can eyeball quality before surfacing it.)
+
+---
+
+## Enrichment: ratings · hours · photos (phase 2.1)
+
+The client now **displays** `rating`, `hours` and `image` on discovery places
+(Nearby finds rows show a thumbnail + ★rating; the place sheet shows ★rating +
+🕒 hours) whenever those fields are present — so populating them lights up the UI
+with no further client work.
+
+Add the columns once (SQL editor):
+```sql
+alter table public.places add column if not exists rating     numeric;   -- e.g. 8.6 (FSQ) or 4.5 (stars)
+alter table public.places add column if not exists popularity numeric;   -- 0..1 optional
+alter table public.places add column if not exists hours      text;      -- OSM-style "Mo-Su 10:00-17:00"
+-- image already exists
+```
+
+Foursquare ingest (`scripts/ingest-foursquare.mjs`, GitHub Action, gated on a
+`FOURSQUARE_KEY` secret) should, per place, set:
+`rating` (FSQ `rating`), `popularity` (FSQ `popularity`), `hours`
+(`hours.display` / regular hours → OSM-ish string), `image`
+(`photos[0]` prefix+suffix), filtered to high rating (≥ 7.5) and independent
+venues. Same `ext_id='fsq:<id>'` dedup as today. Wikidata places can borrow a
+Commons image for `image` similarly.

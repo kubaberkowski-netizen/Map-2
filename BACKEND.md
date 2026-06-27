@@ -327,3 +327,25 @@ side with the right tags, or (b) deploy a tiny Supabase Edge Function that
 returns OG-tagged HTML and redirects humans to `c.html`, then set
 `CFG.ogFn` to its base URL so shared links point at it. The image URL above is
 the same in all cases, so the function only needs to emit `<meta>` + a redirect.
+
+---
+
+## 12. AI trip planning (natural language) — `plan-trip` Edge Function
+
+Optional, off by default. The Plan wizard shows a "✨ Plan with AI" box **only
+when configured** (the client hook `window.flAIPlan` is null until `AIFN` is set),
+so nothing changes until you deploy this.
+
+Function: `supabase/functions/plan-trip/index.ts` — takes `{city,days,prompt,spots}`
+(the client sends the city's spot list as `{id,n,c}`), asks Claude to pick a
+walkable, on-brand set, and returns `{ids,note}` (ids restricted to the input).
+
+Deploy:
+```bash
+supabase functions deploy plan-trip --no-verify-jwt
+supabase secrets set ANTHROPIC_API_KEY=sk-ant-...      # (optionally ANTHROPIC_MODEL)
+```
+Then, in `src/app.template.html`, set the constant
+`AIFN = "https://<project-ref>.functions.supabase.co/plan-trip"`, add that origin
+to the inline CSP `connect-src`, and `npm run build`. The box appears and routes
+free-text trips into the existing optimiser. Cost is ~1 cheap Haiku call per plan.
