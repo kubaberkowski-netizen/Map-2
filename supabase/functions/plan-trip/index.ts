@@ -44,6 +44,12 @@ Deno.serve(async (req) => {
       body: JSON.stringify({ model: MODEL, max_tokens: 1024, system, messages: [{ role: "user", content: user }] }),
     });
     const d = await r.json();
+    // Surface upstream Anthropic failures instead of silently returning empty —
+    // e.g. "credit balance is too low", invalid key, unknown model.
+    if (!r.ok || d?.type === "error") {
+      const msg = d?.error?.message || `Anthropic HTTP ${r.status}`;
+      return json({ ids: [], error: msg }, 502);
+    }
     const txt = (d?.content?.[0]?.text) || "{}";
     const m = txt.match(/\{[\s\S]*\}/);
     let out: any = {};
