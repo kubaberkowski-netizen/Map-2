@@ -1,255 +1,464 @@
 [
  {
-  "n": "University Café",
-  "a": "West End (Byres Road)",
-  "c": "caff",
-  "lat": 55.8720337,
-  "lng": -4.2977248,
-  "hook": "Art Deco family caff on Byres Road, barely changed since the 1930s and run by the Verrecchias since 1918.",
-  "facts": [
-   "Opened in 1918 and has been run by the Verrecchia family ever since, now into a fourth generation.",
-   "The Verrecchias came from the Cassino area of Italy, part of the wave of Italians who settled in Scotland from the mid-19th century.",
-   "The interior retains its original Art Deco fittings and wooden booths, little changed since the 1930s.",
-   "Known for fish suppers, fry-ups and award-winning Italian ice cream made on the premises.",
-   "Address is 87 Byres Road, Glasgow G11 5HN."
+  "n": "Provand's Lordship",
+  "a": "Townhead",
+  "c": "medieval",
+  "lat": 55.8624,
+  "lng": -4.2369,
+  "s": "Glasgow's oldest building, a 1471 hospital house in the shadow of the Cathedral.",
+  "w": "Built in 1471 as part of St Nicholas's Hospital by Bishop Andrew Muirhead, it outlasted the Reformation and the clearances to become the oldest building in Glasgow. The Morton family ran it as a sweet shop in the 1800s. Sir William Burrell saved it. Medieval sandstone, four walls deep.",
+  "_facts": [
+   "Built in 1471 as part of St Nicholas's Hospital by Andrew Muirhead, Bishop of Glasgow.",
+   "It is the oldest surviving building in Glasgow.",
+   "In the 19th century it was used as a sweet shop by the Morton family.",
+   "Sir William Burrell donated money and 17th-century Scottish furniture; the Provand's Lordship Society purchased the house in the late 1920s.",
+   "Glasgow City Council acquired it in 1978 and restored it; reopened 1983, then again 2000."
   ],
-  "legend": [
-   "Sometimes claimed locally as a contender for the home of the original deep-fried Mars bar.",
-   "Has drawn celebrity fans including chefs Rick Stein and the late Anthony Bourdain."
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Provand%27s_Lordship",
+   "https://nominatim.openstreetmap.org/search?q=Provand%27s+Lordship%2C+Glasgow&format=json"
   ],
-  "sources": [
-   {
-    "url": "https://brickingit.blog/2018/01/20/the-verrecchias-university-cafe/",
-    "note": "Detailed history of the Verrecchia family ownership from 1918 and the Italian-Scots context."
-   },
-   {
-    "url": "https://www.spottedbylocals.com/glasgow/university-cafe/",
-    "note": "Describes the 1930s Art Deco interior, menu and family ownership."
-   },
-   {
-    "url": "https://nominatim.openstreetmap.org/search?q=University+Cafe%2C+87+Byres+Road%2C+Glasgow&format=json",
-    "note": "Geocodes 87 Byres Road to 55.8720337, -4.2977248 (coordinate corroboration)."
-   }
-  ],
-  "confidence": "high",
-  "w": "Run by the Verrecchia family since 1918 and barely touched since the 1930s — original Art Deco fittings, wooden booths, and ice cream still churned on the spot on Byres Road. Fish suppers, fry-ups, and a fourth generation behind the counter. Anthony Bourdain and Rick Stein both made the pilgrimage. Unchanged on purpose.",
-  "_issues": []
+  "confidence": "solid"
  },
  {
-  "n": "King Tut's Wah Wah Hut",
-  "a": "City Centre (St Vincent Street)",
+  "n": "Sharmanka Kinetic Theatre",
+  "a": "Merchant City (Trongate)",
+  "c": "oddity",
+  "lat": 55.8570,
+  "lng": -4.2468,
+  "s": "A Russian sculptor's mechanical menagerie performs harrowing, beautiful shows in a darkened Trongate room.",
+  "w": "Eduard Bersudsky, sculptor and mechanic, built a theatre of kinetic carved figures — wood, wire and found metal that grind to life in the dark. The word 'sharmanka' is Russian for hurdy-gurdy. Born in Leningrad in 1989, transplanted to Glasgow in 1996. Nothing else like it in the city.",
+  "_facts": [
+   "Founded in St Petersburg in 1989 by sculptor-mechanic Eduard Bersudsky, theatre director Tatyana Jakovskaya and light/sound designer Sergey Jakovsky.",
+   "Based in Glasgow since 1996, located at 103 Trongate in Merchant City.",
+   "The word 'sharmanka' is Russian for hurdy-gurdy or barrel-organ.",
+   "The kinetic sculptures perform shows featuring mechanical carved figures; works held in Glasgow Museums and Museum of Nonconformist Art in St Petersburg.",
+   "Bersudsky also created the Millennium Clock for the Royal Museum in Edinburgh."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Sharmanka_Kinetic_Gallery",
+   "https://nominatim.openstreetmap.org/search?q=Sharmanka+Kinetic+Theatre%2C+Glasgow&format=json"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Fossil Grove",
+  "a": "Whiteinch (Victoria Park)",
+  "c": "oddity",
+  "lat": 55.8767,
+  "lng": -4.3381,
+  "s": "Eleven 325-million-year-old tree stumps, standing where they grew, enclosed in a park building open to the public.",
+  "w": "Workers landscaping Victoria Park in 1887 broke into a quarry floor and found lycopsid stumps still upright from 325 million years ago, when Scotland sat near the equator. The roots fan out across the stone; a shed was thrown up to protect them. Glasgow's oldest attraction. The most implausible thing in a public park.",
+  "_facts": [
+   "Discovered in 1887 during landscaping of Victoria Park; opened to the public in 1890.",
+   "Contains eleven fossilised stumps of extinct Lepidodendron lycopsids dating to approximately 325 million years ago.",
+   "Trunks preserved in their original growth positions on a 23m x 10m quarry floor.",
+   "Scotland was in a tropical swampy environment near the equator during the Carboniferous period.",
+   "Considered Glasgow's most ancient visitor attraction."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Fossil_Grove",
+   "https://nominatim.openstreetmap.org/search?q=Fossil+Grove%2C+Victoria+Park%2C+Glasgow&format=json"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Garnethill Synagogue",
+  "a": "Garnethill",
+  "c": "faith",
+  "lat": 55.8671,
+  "lng": -4.2677,
+  "s": "Scotland's cathedral synagogue, completed 1881 in Romanesque and Byzantine Revival — the finest of its kind north of Liverpool.",
+  "w": "When Glasgow's Jewish community outgrew its converted George Street premises in the 1870s, they commissioned a permanent home on Garnet Street. John McLeod and Nathan Solomon Joseph delivered a Romanesque exterior and Byzantine basilica interior, completed 1881. Still in weekly use. The mother synagogue of Scotland.",
+  "_facts": [
+   "Completed in 1881, designed by John McLeod of Dumbarton and London-based Nathan Solomon Joseph.",
+   "Considered the 'cathedral synagogue' of Scotland and the mother synagogue of Glasgow.",
+   "The exterior is Romanesque Revival; the interior is a Byzantine Revival basilica with an ornate Torah Ark.",
+   "Described as the finest example of high-Victorian synagogue architecture north of Liverpool.",
+   "Glasgow's first Jewish community traced from c.1823; by the 1870s numbered about 1,000."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Garnethill_Synagogue",
+   "https://nominatim.openstreetmap.org/search?q=Garnethill+Synagogue%2C+Glasgow&format=json"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Sub Club",
+  "a": "City Centre (Jamaica Street)",
   "c": "music",
-  "lat": 55.8631,
-  "lng": -4.265,
-  "hook": "The St Vincent Street club where Alan McGee saw Oasis and signed them on the spot in 1993.",
-  "facts": [
-   "Opened in February 1990 in the former Saints and Sinners pub by DF Concerts founder Stuart Clumpas.",
-   "Named after a 1980s New York club of the same name.",
-   "On 31 May 1993 Oasis played here and were signed to Creation Records by Alan McGee, who happened to be in the audience.",
-   "Within a two-week stretch in 1993 The Verve, Radiohead and Oasis all played the venue.",
-   "Address is 272a St Vincent Street, Glasgow G2 5RL; Wikipedia gives coordinates 55deg51'47\"N 4deg15'54\"W."
+  "lat": 55.8579,
+  "lng": -4.2572,
+  "s": "A 410-capacity basement on Jamaica Street, open since 1987 and the world's longest-running underground dance club.",
+  "w": "Opened 1 April 1987 in a 3,500-square-foot Jamaica Street basement. Harri and Domenic have held the Saturday night since 1990; Optimo ran Sundays from 1997 to 2010. Primal Scream played their first gig here. Voted among the world's best clubs repeatedly. Glasgow techno's ground zero.",
+  "_facts": [
+   "Opened 1 April 1987 at 22 Jamaica Street; described as the world's longest-running underground dance club.",
+   "The 3,500 sq ft basement legally holds 410 people.",
+   "Harri and Domenic have been Saturday night residents since 1990; Optimo ran Sundays 1997-2010.",
+   "Largest bodysonic dancefloor in the UK installed 2006.",
+   "Primal Scream played their first gig here; voted 10th best club globally by Resident Advisor in 2008."
   ],
-  "legend": [
-   "The Oasis signing is one of the most retold origin stories in British indie rock and cemented King Tut's reputation as a talent-spotting venue.",
-   "Acts including Manic Street Preachers, Teenage Fanclub, Primal Scream and Snow Patrol have played its small upstairs stage."
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Sub_Club",
+   "https://nominatim.openstreetmap.org/search?q=Sub+Club%2C+Glasgow&format=json"
   ],
-  "sources": [
-   {
-    "url": "https://en.wikipedia.org/wiki/King_Tut's_Wah_Wah_Hut",
-    "note": "Founding date, name origin, Oasis/Creation signing and coordinates 55.8631, -4.2650."
-   },
-   {
-    "url": "https://www.glasgowworld.com/whats-on/music/how-oasis-were-discovered-in-glasgow-at-king-tuts-wah-wah-hut-in-1993-8655327",
-    "note": "Account of the 31 May 1993 Oasis gig and McGee signing."
-   }
-  ],
-  "confidence": "high",
-  "w": "The St Vincent Street club where Alan McGee, in the crowd by chance on 31 May 1993, watched Oasis and signed them to Creation on the spot. In one fortnight that year The Verve, Radiohead and Oasis all played the little upstairs room. Open since 1990, still a talent-spotter's stage. Where Britpop got its break.",
-  "_issues": []
+  "confidence": "solid"
  },
  {
-  "n": "Monorail Music",
-  "a": "Merchant City (King Street)",
-  "c": "vinyl",
-  "lat": 55.8553,
-  "lng": -4.2472,
-  "hook": "Fiercely independent record shop tucked in a railway arch inside the vegan cafe-bar Mono, co-founded by Stephen Pastel.",
-  "facts": [
-   "Opened in 2002 inside Mono cafe-bar at 12 King's Court, off King Street, Merchant City (G1 5RB).",
-   "Co-founded by Stephen McRobbie (Stephen Pastel) of the cult Glasgow indie band The Pastels.",
-   "Devoted to vinyl, with a deep range of independent, experimental and reissue stock.",
-   "Sits in a railway-arch space symbiotically attached to Mono, which doubles as a gig venue.",
-   "King Street in the Merchant City geocodes to roughly 55.855, -4.247 (G1 5RB end)."
+  "n": "Oghan Mor",
+  "a": "West End (Byres Road)",
+  "c": "pub",
+  "lat": 55.8776,
+  "lng": -4.2899,
+  "s": "A deconsecrated Victorian church at the top of Byres Road, now a pub and the home of 'A Play A Pie and A Pint'.",
+  "w": "Kelvinside Parish Church from 1862 until the congregation dwindled in 1978, then derelict for two decades. Converted in 2004 and named Oghan Mor — Gaelic for 'great melody of life'. Launched the 'A Play A Pie and A Pint' lunchtime format, now touring internationally. Gothic spire, real ale, one-act play at noon.",
+  "_facts": [
+   "Built as the Kelvinside Free Church in 1862 to designs by J. J. Stevenson in Neo-Gothic style.",
+   "Congregation merged with Hillhead Parish Church in 1978; building became redundant and derelict.",
+   "Converted and opened in June 2004 as Oghan Mor.",
+   "The name means 'great melody of life' or 'big song' in Scottish Gaelic.",
+   "Home of the 'A Play A Pie and A Pint' lunchtime theatre format, now exported internationally."
   ],
-  "legend": [
-   "Regularly cited as one of the UK's best independent record shops and a hub of Glasgow's alternative music community."
+  "_sources": [
+   "https://en.wikipedia.org/wiki/%C3%92ran_M%C3%B3r",
+   "https://nominatim.openstreetmap.org/search?q=Oran+Mor%2C+Glasgow&format=json"
   ],
-  "sources": [
-   {
-    "url": "https://www.timeout.com/glasgow/shops/monorail-music",
-    "note": "Confirms 2002 opening, Stephen Pastel connection and the Mono / railway-arch setting."
-   },
-   {
-    "url": "https://nominatim.openstreetmap.org/search?street=12+King+Street&city=Glasgow&format=json",
-    "note": "King Street G1 5RB (Mono's postcode) geocodes to ~55.8552, -4.2472 (coordinate corroboration)."
-   }
-  ],
-  "confidence": "medium",
-  "w": "A fiercely independent record shop in a railway arch, folded into the vegan cafe-bar Mono off King Street — co-founded in 2002 by Stephen McRobbie of The Pastels. Deep in independent, experimental and reissue vinyl, with a gig space next door. One of the UK's best, and a hub of Glasgow's alternative scene. Dig, then stay for a pint.",
-  "_issues": []
+  "confidence": "solid"
  },
  {
-  "n": "Glasgow Film Theatre",
-  "a": "City Centre (Rose Street)",
-  "c": "cinema",
-  "lat": 55.86575,
-  "lng": -4.26122,
-  "hook": "Glasgow's beloved arthouse cinema in a windowless 1939 Dutch-modernist building, once the Cosmo.",
-  "facts": [
-   "The building opened on 18 May 1939 as the Cosmo, Scotland's first arthouse cinema and only the second purpose-built arthouse in Britain after the Curzon Mayfair.",
-   "It was the last cinema built in Glasgow before the outbreak of the Second World War.",
-   "Designed by James McKissack and W J Anderson II, its brick, windowless facade was influenced by Dutch modernist Willem Dudok.",
-   "Reopened as the Glasgow Film Theatre under the Scottish Film Council on 2 May 1974.",
-   "Category B listed; address 12 Rose Street, Glasgow; Wikipedia coordinates 55.86575, -4.26122."
+  "n": "Queen's Cross Church",
+  "a": "Maryhill (Queen's Cross)",
+  "c": "faith",
+  "lat": 55.8803,
+  "lng": -4.2719,
+  "s": "The only church Charles Rennie Mackintosh designed that was ever built, now home of the Mackintosh Society.",
+  "w": "Mackintosh got the job in 1896 as a trainee at Honeyman and Keppie. The tower was modelled on a Norman church he sketched in Somerset. First service 1899; the only Mackintosh church completed. After decommissioning in the 1970s it became the Charles Rennie Mackintosh Society's headquarters. The last church standing.",
+  "_facts": [
+   "Commissioned in 1896 from Honeyman and Keppie; Mackintosh designed it as a young trainee architect.",
+   "Memorial stone laid 23 June 1898; first service 10 September 1899.",
+   "The only church designed by Mackintosh to have been built.",
+   "The south-west tower modelled on a church at Merriot in Somerset that Mackintosh sketched in 1895.",
+   "After decommissioning in the 1970s became the home of the Charles Rennie Mackintosh Society."
   ],
-  "legend": [],
-  "sources": [
-   {
-    "url": "https://en.wikipedia.org/wiki/Glasgow_Film_Theatre",
-    "note": "1939 Cosmo opening, Dudok-influenced design, 1974 GFT reopening, listing status and coordinates 55.86575, -4.26122."
-   },
-   {
-    "url": "https://www.glasgowfilm.org/about-us/",
-    "note": "GFT's own history confirming the Cosmo origins and arthouse status."
-   }
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Queen%27s_Cross_Church%2C_Glasgow",
+   "https://nominatim.openstreetmap.org/search?q=Queen%27s+Cross+Church%2C+Glasgow&format=json"
   ],
-  "confidence": "high",
-  "w": "Scotland's first arthouse cinema, opened in 1939 as the Cosmo behind a brick, windowless facade lifted from the Dutch modernist Dudok — the last picture house built in Glasgow before the war. It became the GFT under the Scottish Film Council in 1974, and remains the city's home of world and independent film. The Cosmo, by another name.",
-  "_issues": []
+  "confidence": "solid"
  },
  {
-  "n": "Voltaire & Rousseau",
-  "a": "West End (Otago Lane)",
-  "c": "bookshops",
-  "lat": 55.8728343,
-  "lng": -4.2822065,
-  "hook": "Gloriously chaotic second-hand bookshop in a bohemian West End lane, where you dig through teetering piles to find treasure.",
-  "facts": [
-   "Located at 12-14 Otago Lane, a tiny lane in Hillhead near Kelvingrove Park and the University of Glasgow.",
-   "A family-run second-hand and antiquarian bookshop, long operated by two brothers.",
-   "Famous for its cluttered, floor-to-ceiling stacks, with books piled in the aisles as well as on shelves.",
-   "Despite the chaos, stock is roughly arranged by subject and covers almost every topic, including long out-of-print titles.",
-   "Address 12-14 Otago Lane geocodes to 55.8728, -4.2822."
+  "n": "Citizens Theatre",
+  "a": "Gorbals",
+  "c": "history",
+  "lat": 55.8508,
+  "lng": -4.2528,
+  "s": "Britain's oldest working theatre with original Victorian understage machinery, radical since 1945 in the Gorbals.",
+  "w": "Built 1878 as Her Majesty's Theatre, it became the Citizens in 1945 and earned a reputation for fearless programming. The Victorian trap machinery and paint frame under the stage still function — the last of their kind in any working UK theatre. Reopened August 2025 after a seven-year refurb. The Citz, uncompromised.",
+  "_facts": [
+   "Built 1878 as Her Majesty's Theatre, designed by James Sellars; became Citizens Theatre 1945.",
+   "Category B listed 650-seat sandstone Victorian auditorium.",
+   "Retains original Victorian understage machinery and paint frame, oldest in any working UK theatre.",
+   "Radical reputation under director Giles Havergal from 1969 to 2003.",
+   "Reopened August 2025 after seven-year refurbishment."
   ],
-  "legend": [
-   "Routinely named one of Glasgow's best bookshops and a favourite photographic subject for its overflowing, ramshackle interior."
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Citizens_Theatre",
+   "https://nominatim.openstreetmap.org/search?q=Citizens+Theatre%2C+Glasgow&format=json"
   ],
-  "sources": [
-   {
-    "url": "https://ayearofreadingtheworld.com/2016/05/14/world-bookshopper-8-voltaire-and-rousseau-glasgow/",
-    "note": "Describes the chaotic stacks, family ownership and Otago Lane location."
-   },
-   {
-    "url": "https://nominatim.openstreetmap.org/search?q=Voltaire+and+Rousseau%2C+Otago+Lane%2C+Glasgow&format=json",
-    "note": "Geocodes the shop to 55.8728343, -4.2822065 (coordinate corroboration)."
-   }
-  ],
-  "confidence": "high",
-  "w": "A second-hand bookshop so gloriously overrun that books are stacked in the aisles as well as floor to ceiling — you climb the piles to find the treasure. Down bohemian Otago Lane near Kelvingrove, family-run by two brothers, it's one of Glasgow's most photographed interiors. Chaos, loosely sorted by subject. Bring time and dust tolerance.",
-  "_issues": []
+  "confidence": "solid"
  },
  {
-  "n": "Kibble Palace, Glasgow Botanic Gardens",
-  "a": "West End (Great Western Road)",
-  "c": "green",
-  "lat": 55.8793,
-  "lng": -4.29066,
-  "hook": "A wrought-iron Victorian glasshouse, floated up the Clyde by barge, that crowns the West End's Botanic Gardens.",
-  "facts": [
-   "The Glasgow Botanic Gardens cover over 20 hectares in the West End and hold more than 9,000 plant species.",
-   "The Kibble Palace was originally built around 1860 as a conservatory for John Kibble's estate on Loch Long.",
-   "In 1871-73 it was dismantled, floated by barge down the Clyde and reconstructed in the Botanic Gardens, opening to the public in 1873.",
-   "The curved iron-and-glass structure covers about 2,137 square metres and was originally lit by some 600 gas lamps.",
-   "It houses the national collection of tree ferns; gardens coordinates 55.87930, -4.29066."
+  "n": "The Horseshoe Bar",
+  "a": "City Centre (Drury Street)",
+  "c": "pub",
+  "lat": 55.8609,
+  "lng": -4.2563,
+  "s": "The longest continuous bar in Britain curves around a Victorian room that has barely changed since the 1880s.",
+  "w": "The horseshoe-shaped mahogany counter at 17 Drury Street is the longest continuous bar in Britain, wrapping around a room of engraved glass, tiles and plasterwork unchanged since the 1880s. Three floors, cheap food, a legendary pie, and opera upstairs on weekends. One of those pubs that cities lose and never get back.",
+  "_facts": [
+   "Located at 17 Drury Street, Glasgow G2 5AE; dates from the 1880s.",
+   "The horseshoe-shaped bar is cited as the longest continuous bar in Great Britain.",
+   "The Victorian interior retains original engraved glass, decorative tiles and period plasterwork.",
+   "Known for affordable food and drink; live entertainment including karaoke and opera on upper floors.",
+   "Listed as a historic pub interior by CAMRA's National Inventory."
   ],
-  "legend": [
-   "The barge journey of the great glasshouse down Loch Long and up the Clyde is a celebrated piece of Glasgow engineering folklore.",
-   "In its early years the lit palace was used for grand concerts and gatherings, including political meetings."
+  "_sources": [
+   "https://nominatim.openstreetmap.org/search?q=Horseshoe+Bar%2C+Glasgow&format=json",
+   "https://www.camra.org.uk/"
   ],
-  "sources": [
-   {
-    "url": "https://en.wikipedia.org/wiki/Glasgow_Botanic_Gardens",
-    "note": "Gardens history, Kibble Palace relocation by barge, opening 1873 and coordinates 55.87930, -4.29066."
-   },
-   {
-    "url": "https://glasgowbotanicgardens.com/the-gardens/history/kibble-palace/",
-    "note": "Friends of the Gardens history confirming the structure's origins, dimensions and relocation."
-   }
-  ],
-  "confidence": "high",
-  "w": "A wrought-iron Victorian glasshouse from John Kibble's Loch Long estate, dismantled and floated down the Clyde by barge to be rebuilt in the Botanic Gardens in 1873. Curved iron and glass, once lit by 600 gas lamps, now sheltering the national tree-fern collection. The West End's crystal palace.",
-  "_issues": []
+  "confidence": "solid"
  },
  {
-  "n": "Mother India's Cafe",
-  "a": "West End (Argyle Street / Kelvingrove)",
-  "c": "food",
-  "lat": 55.8673074,
-  "lng": -4.2911287,
-  "hook": "The curry-tapas restaurant opposite Kelvingrove that turned Indian sharing plates into a Glasgow institution.",
-  "facts": [
-   "Opened in 2004 at 1355 Argyle Street, directly across from Kelvingrove Art Gallery and Museum.",
-   "Its signature format is curry served tapas-style, with around 40 small dishes to mix and share rather than a few large mains.",
-   "It was the first expansion of the Mother India family of restaurants, which grew to several Glasgow outlets and one in Edinburgh.",
-   "Decor evokes colonial-era Indian dining rooms with retro furnishings and black-and-white photographs.",
-   "Address 1355 Argyle Street (G3 8AD) geocodes to 55.8673, -4.2911."
-  ],
-  "legend": [
-   "Widely credited with popularising the curry-tapas small-plates style now copied across the city."
-  ],
-  "sources": [
-   {
-    "url": "https://curry-heute.com/2015/01/04/mother-indias-cafe-a-glasgow-institution/",
-    "note": "History as a Glasgow institution, 2004-era opening, the curry-tapas concept and decor."
-   },
-   {
-    "url": "https://nominatim.openstreetmap.org/search?q=Mother+India%27s+Cafe%2C+1355+Argyle+Street%2C+Glasgow&format=json",
-    "note": "Geocodes 1355 Argyle Street to 55.8673074, -4.2911287 (coordinate corroboration)."
-   }
-  ],
-  "confidence": "high",
-  "w": "The place opposite Kelvingrove that turned curry into tapas — forty small dishes to mix and share instead of one big plate, a format the whole city soon copied. A 2004 spin-off of the Mother India family, in retro colonial-dining-room surroundings. Sharing plates before sharing plates were everywhere. Order too much; you'll want to.",
-  "_issues": []
- },
- {
-  "n": "Laboratorio Espresso",
-  "a": "City Centre (West Nile Street)",
+  "n": "The Mackintosh Tearooms",
+  "a": "City Centre (Sauchiehall Street)",
   "c": "coffee",
-  "lat": 55.8631864,
-  "lng": -4.2547772,
-  "hook": "Tiny Italian-style espresso bar just off Buchanan Street that helped set the bar for Glasgow's specialty coffee scene.",
-  "facts": [
-   "Opened in autumn 2013 at 93 West Nile Street, just behind Buchanan Street.",
-   "Designed around Italian espresso culture combined with modern specialty-coffee technique.",
-   "Pulls shots on a La Marzocco machine and rotates beans from small-batch roasters.",
-   "The compact ten-seat interior was shortlisted for the Architects' Journal Small Projects Award 2014; its ceiling uses timber reclaimed from the Glasgow School of Art.",
-   "Address 93 West Nile Street geocodes to 55.8632, -4.2548."
+  "lat": 55.8650,
+  "lng": -4.2608,
+  "s": "Mackintosh's 1903 interior for Kate Cranston, fully restored and operating again at 217 Sauchiehall Street.",
+  "w": "Miss Cranston commissioned Mackintosh to design every inch of her 1903 tearoom — furniture, light fittings, the lot. The 'Room de Luxe' upstairs is his masterpiece. The building fell to ruin before the Willow Tea Rooms Trust rescued it in 2014; now National Trust for Scotland. The only surviving Mackintosh tearoom.",
+  "_facts": [
+   "Opened October 1903 at 217 Sauchiehall Street; designed entirely by Charles Rennie Mackintosh for Kate Cranston.",
+   "The 'Room de Luxe' on the upper floor is considered one of Mackintosh's finest interiors.",
+   "Miss Cranston was a prominent temperance advocate who conceived the idea of art tearooms as alternatives to pubs.",
+   "Purchased by the Willow Tea Rooms Trust in 2014 to prevent forced sale; restored 2014-2018.",
+   "Now owned by the National Trust for Scotland; renamed The Mackintosh Tearooms in February 2026."
   ],
-  "legend": [
-   "Frequently named among the best coffee bars in Glasgow and credited with raising the city's espresso standards."
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Willow_Tearooms",
+   "https://nominatim.openstreetmap.org/search?q=217+Sauchiehall+Street%2C+Glasgow&format=json"
   ],
-  "sources": [
-   {
-    "url": "https://europeancoffeetrip.com/cafe/laboratorioespresso-glasgow/",
-    "note": "2013 opening, Italian-espresso concept, La Marzocco, reclaimed GSA timber and design-award shortlisting."
-   },
-   {
-    "url": "https://nominatim.openstreetmap.org/search?q=Laboratorio+Espresso%2C+93+West+Nile+Street%2C+Glasgow&format=json",
-    "note": "Geocodes 93 West Nile Street to 55.8631864, -4.2547772 (coordinate corroboration)."
-   }
+  "confidence": "solid"
+ },
+ {
+  "n": "People's Palace",
+  "a": "Glasgow Green (Calton)",
+  "c": "museum",
+  "lat": 55.8513,
+  "lng": -4.2370,
+  "s": "Glasgow's social history museum, opened 1898 on the Green for the East End with the words 'Open to the people for ever and ever'.",
+  "w": "Lord Rosebery opened it in January 1898 for the overcrowded East End, when the West End had all the galleries. Since the 1940s it has been Glasgow looking at itself: the single-end tenement room, nights at the Barrowland, trips doon the watter. John MacLean's campaign desk is on the first floor. Free and permanent.",
+  "_facts": [
+   "Opened 22 January 1898 by the 5th Earl of Rosebery at Glasgow Green; designed by city engineer Alexander B. McDonald.",
+   "Inspired by the People's Palace in London's East End; intended to provide culture for Glasgow's overcrowded East End.",
+   "Glasgow's museum of social history since the 1940s, covering 1750 to the present day.",
+   "Displays include a replica single-end tenement room, communal steamie laundry, and John MacLean's campaign desk.",
+   "The attached Winter Gardens glasshouse was restored and reopened for the 100th anniversary in 1998."
   ],
-  "confidence": "high",
-  "w": "A ten-seat Italian espresso bar off Buchanan Street that helped set Glasgow's coffee standard when it opened in 2013 — La Marzocco shots, rotating small-batch beans, and a ceiling built from timber salvaged from the Glasgow School of Art. The little room was even shortlisted for an architecture award. Stand-up espresso, done right.",
-  "_issues": []
+  "_sources": [
+   "https://en.wikipedia.org/wiki/People%27s_Palace%2C_Glasgow",
+   "https://nominatim.openstreetmap.org/search?q=People%27s+Palace%2C+Glasgow&format=json"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Glasgow Cathedral",
+  "a": "Townhead",
+  "c": "medieval",
+  "lat": 55.8630,
+  "lng": -4.2346,
+  "s": "Dedicated in 1197, the oldest cathedral on mainland Scotland and one of only two medieval Scottish cathedrals to survive the Reformation intact.",
+  "w": "The trades guilds of Glasgow saved it when the Reformers came. First dedicated in 1136, rebuilt in the 13th century over St Mungo's tomb in the Lower Church — the best-preserved medieval crypt in Scotland. The University of Glasgow held its first classes in the chapter house in 1451. Crown property since 1587.",
+  "_facts": [
+   "First stone cathedral dedicated 1136; present structure dedicated 1197, major rebuilding in the 13th century.",
+   "Oldest cathedral in mainland Scotland and oldest building type in Glasgow.",
+   "With St Magnus Cathedral in Orkney, only two medieval Scottish cathedrals survived the Reformation virtually intact.",
+   "The University of Glasgow held its first classes in the cathedral's chapter house after its foundation in 1451.",
+   "Crown property since 1587; now cared for by Historic Environment Scotland."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Glasgow_Cathedral",
+   "https://nominatim.openstreetmap.org/search?q=Glasgow+Cathedral&format=json"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Tennent's Wellpark Brewery",
+  "a": "Calton",
+  "c": "history",
+  "lat": 55.8602,
+  "lng": -4.2307,
+  "s": "Glasgow's oldest commercial concern, brewing on the same Calton site since before 1556.",
+  "w": "Robert Tennent was brewing on the Molendinar Burn at Drygate Bridge before 1556 — the oldest continuous commercial enterprise in Glasgow. Hugh and Robert formalised it in 1740; by the mid-19th century J. & R. Tennent was the world's largest bottled beer exporter. Tennent's Lager first brewed here in 1885. Same ground.",
+  "_facts": [
+   "Brewing on the Molendinar Burn site dates to Robert Tennent before 1556; oldest continuous commercial concern in Glasgow.",
+   "Formally founded as H. & R. Tennent in 1740 by Hugh and Robert Tennent near Glasgow Cathedral.",
+   "By the mid-19th century J. & R. Tennent was the world's largest bottled beer exporter.",
+   "Tennent's Lager first brewed at Wellpark in 1885; first draught lager 1924, first canned lager 1935.",
+   "Drygate Brewing Co., a craft brewery joint venture, opened on the same site in 2014."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Tennent_Caledonian",
+   "https://nominatim.openstreetmap.org/search?q=Wellpark+Brewery%2C+Glasgow&format=json"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Mitchell Library",
+  "a": "Charing Cross",
+  "c": "archive",
+  "lat": 55.8650,
+  "lng": -4.2727,
+  "s": "Europe's largest public reference library, endowed by a tobacco merchant and topped by a copper dome on North Street.",
+  "w": "Stephen Mitchell, tobacco producer, left the bequest in 1877. North Street opened 1911 with a copper dome topped by Clapperton's bronze 'Literature'. Andrew Carnegie laid the stone. The St Andrew's Halls facade, gutted by fire in 1962, is wrapped into the 1980 extension. Over a million items, free.",
+  "_facts": [
+   "Founded 1877 following a bequest from Stephen Mitchell, tobacco producer; initially in Ingram Street.",
+   "North Street building opened 16 October 1911, designed by William B. Whitie; foundation stone by Andrew Carnegie 1907.",
+   "Largest public reference library in Europe; over one million items.",
+   "Copper dome topped by Thomas Clapperton's bronze 'Literature', often called Minerva.",
+   "Facade of St Andrew's Halls, gutted by fire 1962, incorporated into 1980 extension."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Mitchell_Library",
+   "https://nominatim.openstreetmap.org/search?q=Mitchell+Library%2C+Glasgow&format=json"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Riverside Museum",
+  "a": "Partick (Pointhouse Quay)",
+  "c": "museum",
+  "lat": 55.8652,
+  "lng": -4.3062,
+  "s": "Zaha Hadid's corrugated zinc transport museum on the Clyde, European Museum of the Year 2013.",
+  "w": "Zaha Hadid's corrugated zinc roof opens at both ends — river on one side, city on the other. Replaced the Museum of Transport; opened 2011, won European Museum of the Year 2013. The Tall Ship Glenlee, built in 1896, is moored outside. The Govan-Partick bridge, opened 2024, links across the Clyde to where she was built.",
+  "_facts": [
+   "Designed by Zaha Hadid Architects; opened 21 June 2011 at Pointhouse Quay, Partick.",
+   "Replaced the Glasgow Museum of Transport, which had been at Kelvin Hall since 1988.",
+   "Won the 2013 European Museum of the Year Award.",
+   "Tall Ship Glenlee, a 1896 barque, permanently moored at the Clyde frontage.",
+   "Govan-Partick Bridge, pedestrian and cycle link, opened 2024 connecting museum to Govan across the Clyde."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Riverside_Museum",
+   "https://nominatim.openstreetmap.org/search?q=Riverside+Museum%2C+Glasgow&format=json"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Kelvingrove Art Gallery and Museum",
+  "a": "West End (Kelvingrove Park)",
+  "c": "museum",
+  "lat": 55.8686,
+  "lng": -4.2906,
+  "s": "The free Spanish Baroque palace that hangs Dali's 'Christ of St John of the Cross' and owns a stuffed elephant.",
+  "w": "The story goes the architect built it back-to-front and threw himself off a bridge in shame — in fact the park entrance was always the main door. Built for the 1901 Exhibition in red sandstone, always free. Dali's 'Christ of St John of the Cross', Sir Roger the elephant, 8,000 objects across 22 galleries.",
+  "_facts": [
+   "Opened 1901 for the Glasgow International Exhibition; publicly accessible from 1 October 1902.",
+   "Spanish Baroque style in red Dumfriesshire sandstone; entry always free.",
+   "Notable exhibits include Salvador Dali's 'Christ of St John of the Cross' (purchased 1952), Sir Roger the Asian elephant (taxidermied), and the Avant armour.",
+   "The legend that the architect built it back-to-front and killed himself is false; the park entrance was always intended as the main entrance.",
+   "Holds over 8,000 objects across 22 galleries; about one million visitors annually."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Kelvingrove_Art_Gallery_and_Museum",
+   "https://nominatim.openstreetmap.org/search?q=Kelvingrove+Art+Gallery+and+Museum%2C+Glasgow&format=json"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "The Briggait",
+  "a": "Merchant City (Bridgegate)",
+  "c": "history",
+  "lat": 55.8544,
+  "lng": -4.2496,
+  "s": "Glasgow's Victorian fish market, with a 1659 steeple from the original Merchants' House embedded in its roofline.",
+  "w": "The fish market from 1873 until the late 1970s, then a failed shopping centre, then derelict. The steeple at one corner is two centuries older — built 1659 for the Merchants' House on Bridgegate before they moved to George Square. Converted to WASPS artists' studios in 2010. Mackerel to murals; the steeple unmoved.",
+  "_facts": [
+   "Construction completed 1873; served as Glasgow's fish market until the late 1970s.",
+   "Converted to a shopping centre in the 1980s, but this proved temporary.",
+   "The incorporated steeple dates to 1659 as part of the Merchants' House of Glasgow headquarters.",
+   "Converted to WASPS artists' studios, opening August 2010.",
+   "Category A listed building, Bridgegate and Clyde Street, Merchant City."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/The_Briggait",
+   "https://nominatim.openstreetmap.org/search?q=The+Briggait%2C+Glasgow&format=json"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Southern Necropolis",
+  "a": "Gorbals (Caledonia Road)",
+  "c": "death",
+  "lat": 55.8436,
+  "lng": -4.2469,
+  "s": "The Gorbals' burial ground for 250,000 souls, and the scene of the 1954 'Gorbals Vampire' children's panic.",
+  "w": "Opened in 1840 for the overcrowded Gorbals; over 250,000 buried here. In 1954 hundreds of children with stakes flooded in searching for a vampire said to have killed two local kids — blamed on American horror comics. Alexander 'Greek' Thomson is buried here. Charles Wilson's gatehouse marks the entrance.",
+  "_facts": [
+   "Opened 1840; contains Central (1840), Eastern (1846) and Western (1850) sections.",
+   "Over 250,000 individuals buried within.",
+   "In 1954, hundreds of Glasgow children with stakes and knives flooded in searching for the 'Gorbals Vampire'; panic blamed on American horror comics.",
+   "Notable interments: architect Alexander 'Greek' Thomson (d. 1875) and tea merchant Sir Thomas Lipton (d. 1931).",
+   "Entrance gatehouse 1848, designed by Charles Wilson; Category A listed."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Southern_Necropolis",
+   "https://nominatim.openstreetmap.org/search?q=Southern+Necropolis%2C+Glasgow&format=json"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Ashton Lane",
+  "a": "West End (Hillhead)",
+  "c": "pub",
+  "lat": 55.8747,
+  "lng": -4.2930,
+  "s": "A cobbled West End back lane packed with bars and restaurants, fairy-lit year-round and loud until midnight.",
+  "w": "A cobbled lane off Byres Road barely wide enough for two abreast, strung with lights and lined with pubs and restaurants. The Grosvenor Cinema sits at one end; the Glasgow Subway runs below. Glasgow's West End in miniature — students, academics, arguing about films since the 1980s. Turn off Byres Road and fall in.",
+  "_facts": [
+   "Pedestrianised cobbled lane in Hillhead, connecting Byres Road and Hillhead Street.",
+   "Home to multiple bars, restaurants and independent businesses with fairy-light atmosphere.",
+   "The Grosvenor Cinema is located at the Ashton Lane end.",
+   "Glasgow Subway's Hillhead station runs beneath the area.",
+   "Regarded as the social heart of the West End."
+  ],
+  "_sources": [
+   "https://nominatim.openstreetmap.org/search?q=Ashton+Lane%2C+Glasgow&format=json",
+   "https://www.timeout.com/glasgow/bars-and-pubs/ashton-lane"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "The Clutha Vaults",
+  "a": "City Centre (Clyde Street)",
+  "c": "pub",
+  "lat": 55.8545,
+  "lng": -4.2501,
+  "s": "The Clyde Street live-music pub where a police helicopter crashed through the roof in November 2013, killing ten.",
+  "w": "On 29 November 2013 a Police Scotland helicopter ran out of fuel and fell through the roof. Three crew and seven patrons died; 31 more were injured. The pub — a live-music institution for decades — was rebuilt and reopened. A memorial stands outside. One of Glasgow's great music pubs, carrying a weight now.",
+  "_facts": [
+   "On 29 November 2013, a Police Scotland helicopter crashed into The Clutha, killing all three crew and seven patrons; 31 more injured.",
+   "Long-established live music venue on Clyde Street, central Glasgow.",
+   "The helicopter (Eurocopter EC135) ran out of fuel; both engines flamed out.",
+   "Pub rebuilt and reopened after the crash; a permanent memorial marks the site.",
+   "One of the worst peacetime accidents in Glasgow's history."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/2013_Glasgow_helicopter_crash",
+   "https://nominatim.openstreetmap.org/search?q=Clutha+Bar%2C+Glasgow&format=json"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Nice 'n' Sleazy",
+  "a": "City Centre (Sauchiehall Street)",
+  "c": "music",
+  "lat": 55.8660,
+  "lng": -4.2689,
+  "s": "The Sauchiehall Street basement bar that has championed underground and alternative music since 1992.",
+  "w": "Opened 1992 at 421 Sauchiehall Street. Pinball machines, cheap drinks, walls of band stickers, a small stage that has hosted every serious underground act passing through Glasgow. The upstairs bar is loud; the basement room is darker. A pub that resists gentrification on a street that keeps trying. Still as it was.",
+  "_facts": [
+   "Opened 1992 at 421 Sauchiehall Street, Glasgow G2 3LW.",
+   "Known for alternative, punk, indie and experimental music programming.",
+   "Two floors: upper bar and darker basement with a small stage.",
+   "Lo-fi aesthetic: pinball machines, band stickers covering walls.",
+   "Considered one of Glasgow's most important independent music venues."
+  ],
+  "_sources": [
+   "https://nominatim.openstreetmap.org/search?q=Nice+N+Sleazy%2C+Glasgow&format=json",
+   "https://www.nicensleazy.com/"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "The Whisky Bond",
+  "a": "Firhill (Dawson Road)",
+  "c": "history",
+  "lat": 55.8762,
+  "lng": -4.2582,
+  "s": "A Victorian bonded whisky warehouse by the Forth and Clyde Canal, now studios for Glasgow's artists and makers.",
+  "w": "Built by the Forth and Clyde Canal to store bonded spirits when Glasgow was shipping whisky worldwide, then empty for decades. Converted to studios; Glasgow Sculpture Studios is based here. Thick stone walls, iron beams, loading bays — framing the people making things now. What the canal economy left behind.",
+  "_facts": [
+   "Located at 2 Dawson Road, Firhill, beside the Forth and Clyde Canal in north Glasgow.",
+   "Originally a bonded whisky warehouse during Glasgow's era as a major spirits-shipping port.",
+   "Converted into a creative industries hub: artists' studios, workshops and events spaces.",
+   "Glasgow Sculpture Studios is based in the building.",
+   "Retains original industrial character: thick stone walls, iron beams, loading-bay structures."
+  ],
+  "_sources": [
+   "https://nominatim.openstreetmap.org/search?q=Whisky+Bond%2C+Glasgow&format=json",
+   "https://www.thewhiskybond.co.uk/"
+  ],
+  "confidence": "solid"
  }
 ]
