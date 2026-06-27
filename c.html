@@ -40,6 +40,13 @@
   .pname{font-size:15.5px;font-weight:700;}
   .pname .e{margin-right:5px;}
   .pcat{font-size:12.5px;color:var(--ink3);margin-top:1px;}
+  /* day-by-day itinerary */
+  .day{margin:16px 0 4px;}
+  .dayh{font:800 12px/1 system-ui;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:0 0 9px;}
+  .stop{display:flex;align-items:flex-start;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:13px 14px;}
+  .num2{flex:none;width:24px;height:24px;border-radius:50%;background:var(--accent);color:#fff;font:700 12px/24px system-ui;text-align:center;}
+  .parr{font:600 12.5px system-ui;color:var(--ink2);margin-top:3px;}
+  .leg{font:600 12px system-ui;color:var(--ink3);margin:8px 0 8px 12px;}
   .cta{display:block;text-align:center;background:var(--accent);color:#fff;text-decoration:none;border-radius:13px;padding:14px;font-weight:700;font-size:15px;margin:22px 0 8px;}
   .sub{text-align:center;font-size:12.5px;color:var(--ink3);}
   .state{text-align:center;color:var(--ink3);padding:60px 16px;font-size:15px;}
@@ -50,7 +57,7 @@
 <body>
 <div class="wrap">
   <a class="brand" href="./"><span class="dot"></span>Flâneur</a>
-  <div id="app"><div class="state">Loading collection…</div></div>
+  <div id="app"><div class="state">Loading…</div></div>
   <div class="foot"><a href="./">Flâneur</a> — a personal guide to offbeat, storied places. · <a href="./privacy.html">Privacy</a></div>
 </div>
 <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
@@ -61,6 +68,7 @@
   var SB_ANON="sb_publishable_At343ximg1anAi2TkHyCXw_82vw4wMB";
   var app=document.getElementById("app");
   function esc(t){return String(t==null?"":t).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
+  function fmtMin(m){m=Math.round(m);var h=Math.floor(m/60)%24,mm=(m%60+60)%60,ap=h<12?"am":"pm",h12=h%12;if(h12===0)h12=12;return h12+":"+(mm<10?"0":"")+mm+ap;}
   function state(msg){app.innerHTML='<div class="state">'+esc(msg)+'</div>';}
   function slugParam(){try{return new URLSearchParams(location.search).get("s");}catch(e){return null;}}
   function setMeta(title,desc){
@@ -71,23 +79,44 @@
   }
   function render(c){
     var spots=Array.isArray(c.spots)?c.spots.filter(function(s){return s&&typeof s.lat==="number"&&typeof s.lng==="number";}):[];
-    var title=(c.emoji?c.emoji+" ":"")+(c.name||"A collection");
-    var metaTitle=(c.name||"A collection")+" — Flâneur";
-    var desc=spots.length+" place"+(spots.length===1?"":"s")+(c.city?" in "+c.city:"")+", hand-picked on Flâneur"+(c.note?": "+c.note:".");
-    setMeta(metaTitle,desc.slice(0,180));try{var _img=SB_URL+"/storage/v1/object/public/cards/"+encodeURIComponent(c.slug)+".png";["og-image","tw-image"].forEach(function(id){var el=document.getElementById(id);if(el)el.setAttribute("content",_img);});}catch(e){}
-    var h='<div class="eyebrow">A Flâneur collection</div>';
-    h+='<h1>'+(c.emoji?'<span class="e">'+esc(c.emoji)+'</span>':'')+esc(c.name||"A collection")+'</h1>';
-    h+='<div class="meta">'+spots.length+' place'+(spots.length===1?'':'s')+(c.city?' · '+esc(c.city):'')+'</div>';
+    var itin=spots.length&&typeof spots[0].d==="number";
+    var ndays=itin?(Math.max.apply(null,spots.map(function(s){return s.d||0;}))+1):0;
+    var twk=0;if(itin){spots.forEach(function(s){twk+=s.wk||0;});twk=Math.round(twk*10)/10;}
+    var metaTitle=(c.name||(itin?"An itinerary":"A collection"))+" — Flâneur";
+    var desc=itin
+      ?(ndays+"-day walking itinerary · "+spots.length+" stops"+(c.city?" in "+c.city:"")+", planned on Flâneur"+(c.note?": "+c.note:"."))
+      :(spots.length+" place"+(spots.length===1?"":"s")+(c.city?" in "+c.city:"")+", hand-picked on Flâneur"+(c.note?": "+c.note:"."));
+    setMeta(metaTitle,desc.slice(0,180));
+    try{var _img=SB_URL+"/storage/v1/object/public/cards/"+encodeURIComponent(c.slug)+".png";["og-image","tw-image"].forEach(function(id){var el=document.getElementById(id);if(el)el.setAttribute("content",_img);});}catch(e){}
+    var h='<div class="eyebrow">A Flâneur '+(itin?'itinerary':'collection')+'</div>';
+    h+='<h1>'+(c.emoji?'<span class="e">'+esc(c.emoji)+'</span>':'')+esc(c.name||(itin?"An itinerary":"A collection"))+'</h1>';
+    h+='<div class="meta">'+(itin
+      ?(ndays+'-day itinerary · '+spots.length+' stops · '+twk+' km walking'+(c.city?' · '+esc(c.city):''))
+      :(spots.length+' place'+(spots.length===1?'':'s')+(c.city?' · '+esc(c.city):'')))+'</div>';
     if(c.note)h+='<p class="note">'+esc(c.note)+'</p>';
     h+='<div id="map"></div>';
-    h+='<ol class="places">';
-    spots.forEach(function(s){
-      h+='<li><span class="num"></span><div class="pbody"><div class="pname">'+(s.e?'<span class="e">'+esc(s.e)+'</span>':'')+esc(s.n||"Place")+'</div>'+
-         '<div class="pcat">'+esc([s.cl,s.a].filter(Boolean).join(" · "))+'</div></div></li>';
-    });
-    h+='</ol>';
+    if(itin){
+      var gi=0,cur=-1;
+      spots.forEach(function(s){
+        var nd=s.d||0;
+        if(nd!==cur){if(cur!==-1)h+='</div>';cur=nd;h+='<div class="day"><div class="dayh">Day '+(cur+1)+'</div>';}
+        else if(s.wm||s.wk)h+='<div class="leg">🚶 '+(s.wm||0)+' min walk · '+(Math.round((s.wk||0)*10)/10)+' km</div>';
+        gi++;
+        h+='<div class="stop"><span class="num2">'+gi+'</span><div class="pbody"><div class="pname">'+(s.e?'<span class="e">'+esc(s.e)+'</span>':'')+esc(s.n||"Place")+'</div>'+
+           '<div class="pcat">'+esc([s.cl,s.a].filter(Boolean).join(" · "))+'</div>'+
+           (typeof s.arr==="number"?'<div class="parr">arrive '+fmtMin(s.arr)+(s.stay?' · stay '+s.stay+'m':'')+'</div>':'')+'</div></div>';
+      });
+      if(cur!==-1)h+='</div>';
+    }else{
+      h+='<ol class="places">';
+      spots.forEach(function(s){
+        h+='<li><span class="num"></span><div class="pbody"><div class="pname">'+(s.e?'<span class="e">'+esc(s.e)+'</span>':'')+esc(s.n||"Place")+'</div>'+
+           '<div class="pcat">'+esc([s.cl,s.a].filter(Boolean).join(" · "))+'</div></div></li>';
+      });
+      h+='</ol>';
+    }
     h+='<a class="cta" href="./#c='+encodeURIComponent(c.slug||"")+'">Open in Flâneur</a>';
-    h+='<div class="sub">Build and share your own collections in the app.</div>';
+    h+='<div class="sub">'+(itin?'Plan and share your own trips in the app.':'Build and share your own collections in the app.')+'</div>';
     app.innerHTML=h;
     if(window.L&&spots.length){
       try{
@@ -104,13 +133,13 @@
     }else{var m=document.getElementById("map");if(m)m.style.display="none";}
   }
   var slug=slugParam();
-  if(!slug){state("No collection specified.");return;}
+  if(!slug){state("Nothing specified.");return;}
   if(!window.supabase){state("Couldn’t load. Please try again.");return;}
   var sb=window.supabase.createClient(SB_URL,SB_ANON);
   sb.from("collections").select("*").eq("slug",slug).maybeSingle().then(function(r){
-    if(r.error||!r.data){state("This collection couldn’t be found — it may have been made private.");return;}
+    if(r.error||!r.data){state("This link couldn’t be found — it may have been made private.");return;}
     render(r.data);
-  },function(){state("Couldn’t load this collection.");});
+  },function(){state("Couldn’t load this.");});
 })();
 </script>
 </body>
