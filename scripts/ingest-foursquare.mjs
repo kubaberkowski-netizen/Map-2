@@ -18,15 +18,18 @@ const NEW = "https://places-api.foursquare.com/places/search";
 const LEG = "https://api.foursquare.com/v3/places/search";
 // Premium fields (rating/popularity/hours/photos) CONSUME Foursquare API credits.
 // We request them on the main (full) query so the discovery cards light up with
-// ★ratings, 🕒hours and thumbnails. A free-tier key simply returns them as null,
-// in which case the rating filter below is skipped and we still get names + pins.
+// ★ratings, 🕒hours and thumbnails. If the account has NO credits the API answers
+// 429, and we fall back to the free fields below (names + map pins, no premium
+// data) so the ingest still produces useful rows instead of nothing.
 const FIELDS_LEG = "fsq_id,name,geocodes,location,categories,rating,popularity,hours,photos,website,description,tel,chains";
 const FIELDS_NEW = "fsq_place_id,name,latitude,longitude,location,categories,rating,popularity,hours,photos,website,description,tel,chains";
-function q(base, c, full) {
+const FREE_LEG = "fsq_id,name,geocodes,location,categories";
+const FREE_NEW = "fsq_place_id,name,latitude,longitude,location,categories";
+function q(base, c, full, free) {
   let u = `${base}?ll=${c.lat},${c.lng}&radius=2500&limit=${full ? 40 : 5}&sort=RATING`;
   if (!full) return u; // cheap auth probe — no fields, no credits spent
-  if (base === LEG) u += "&categories=13000&fields=" + FIELDS_LEG;
-  else u += "&fsq_category_ids=13000&fields=" + FIELDS_NEW;
+  if (base === LEG) u += "&categories=13000&fields=" + (free ? FREE_LEG : FIELDS_LEG);
+  else u += "&fsq_category_ids=13000&fields=" + (free ? FREE_NEW : FIELDS_NEW);
   return u;
 }
 const FOOD = /restaurant|caf[eé]|coffee|\bbar\b|\bpub\b|bistro|brasserie|diner|bakery|gastropub|wine bar|cocktail|tavern|trattoria|izakaya|ramen|noodle|sushi|pizz|steak|\bgrill\b|bbq|barbecue|eatery|tea ?room|teahouse|dessert|ice cream|gelato|creper|juice bar|breakfast|brunch/i;
@@ -73,12 +76,20 @@ function row(e, slug) {
   };
 }
 
-let upserted = 0, hits = 0, dbg = false;
+let upserted = 0, hits = 0, dbg = false, freeMode = false;
 for (const c of cities) {
   let results = [];
   try {
-    const r = await fetch(q(chosen.base, c, true), { headers: chosen.headers });
-    const t = await r.text();
+    let r = await fetch(q(chosen.base, c, true, freeMode), { headers: chosen.headers });
+    let t = await r.text();
+    if (!freeMode && r.status === 429) {
+      // No Foursquare credits → premium fields rejected. Drop to free fields
+      // (names + pins) for this and every remaining city.
+      console.error("Foursquare 429 (no credits for premium fields) — falling back to FREE fields: names + map pins only, no ratings/photos/hours.");
+      freeMode = true;
+      r = await fetch(q(chosen.base, c, true, true), { headers: chosen.headers });
+      t = await r.text();
+    }
     if (!dbg) { dbg = true; console.error(`MAIN ${r.status} ${t.slice(0, 500)}`); }
     if (r.ok) results = JSON.parse(t).results || [];
   } catch (e) { if (!dbg) { dbg = true; console.error("MAIN err " + String(e).slice(0, 200)); } }
