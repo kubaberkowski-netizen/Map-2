@@ -1,255 +1,469 @@
 [
  {
-  "n": "Konnopke's Imbiß",
-  "a": "Prenzlauer Berg",
-  "c": "food",
-  "lat": 52.540486,
-  "lng": 13.412176,
-  "hook": "The original East-Berlin currywurst stand, under the U2 viaduct since 1930",
-  "facts": [
-   "Founded by Max Konnopke on 4 October 1930 on Schönhauser Allee.",
-   "Sits beneath the U2 elevated railway bridge, directly south of U-Bahnhof Eberswalder Straße.",
-   "Son Günter Konnopke began serving Currywurst here in 1960; it is regarded as the first snack stand to sell Currywurst in East Berlin.",
-   "Daughter Waltraud Ziervogel took over in 1976; the wooden booth was replaced by a metal stand in 1983.",
-   "During the 2010 U2 renovation the stand was relocated and rebuilt in 1960s style at the same spot, reopening in 2011.",
-   "Remained a family business operating continuously through the GDR era."
+  "n": "Spreepark",
+  "a": "Plänterwald, Treptow",
+  "c": "oddity",
+  "lat": 52.4849253,
+  "lng": 13.4889931,
+  "s": "The GDR's only amusement park, now a ghost forest of rusting rides",
+  "w": "The GDR's only amusement park drew 1.5 million visitors a year; after reunification it went private, then bust in 2001. Its last operator smuggled rides to Peru in a cocaine venture, leaving dinosaur sculptures rotting in the forest. Grün Berlin took over in 2014; the Ferris wheel is now listed. The ruin outlasted the drug plot.",
+  "_facts": [
+   "Opened 1969 as Kulturpark Plänterwald, GDR's sole amusement park",
+   "Private operator filed for insolvency 2001 after reunification crowds dropped",
+   "Last operator drove dismantled rides to Peru in 2002 in failed cocaine-smuggling scheme",
+   "Became Berlin's most-photographed ruin site in 2000s; Ferris wheel visible from the Spree",
+   "Grün Berlin restoration started 2014; Ferris wheel now listed for preservation"
   ],
-  "legend": [
-   "Long held up as proof that the best Currywurst in Berlin came from the East, not the West."
-  ],
-  "sources": [
-   {
-    "url": "https://de.wikipedia.org/wiki/Konnopke%E2%80%99s_Imbi%C3%9F",
-    "note": "History (1930 founding, 1960 Currywurst, 2010-11 rebuild) and decimal coordinates 52.540486, 13.412176"
-   },
-   {
-    "url": "https://www.konnopke-imbiss.de/en",
-    "note": "Official site corroborating 1930 founding and Schönhauser Allee location"
-   }
-  ],
-  "confidence": "high",
-  "w": "The original East-Berlin currywurst stand, under the U2 viaduct at Eberswalder Straße since 1930 — and the GDR's first to sell the sauce-drowned sausage, from 1960. Four generations of one family kept it going straight through the communist years. Rebuilt 1960s-style in 2011, same spot. The East's currywurst, and proud of it.",
-  "_issues": []
+  "_sources": ["https://en.wikipedia.org/wiki/Spreepark"],
+  "confidence": "solid"
  },
  {
-  "n": "The Barn Roastery",
-  "a": "Mitte",
-  "c": "coffee",
-  "lat": 52.527379,
-  "lng": 13.398254,
-  "hook": "Ralf Rüller's gallery-district roastery that pioneered third-wave coffee in Germany",
-  "facts": [
-   "Founded by Ralf Rüller in 2010; the original cafe opened on Auguststraße in Berlin-Mitte's gallery district.",
-   "Current address Auguststraße 58, 10119 Berlin.",
-   "Rüller moved from London to Berlin in 2008, inspired by Borough Market, and opened The Barn after finding no proper specialty coffee in the city.",
-   "The dedicated roastery opened in September 2012.",
-   "Widely cited as one of Europe's leading specialty roasters and a pioneer of Germany's third-wave coffee movement.",
-   "Known historically for a no-laptops, no-distractions house style focused on the coffee."
-  ],
-  "legend": [],
-  "sources": [
-   {
-    "url": "https://thebarn.de/pages/locations/mitte",
-    "note": "Official: Auguststraße 58, 10119 Berlin Mitte location, est. 2010"
-   },
-   {
-    "url": "https://nominatim.openstreetmap.org/search?q=Auguststra%C3%9Fe+58,+10119+Berlin&format=json",
-    "note": "OSM geocode of Auguststraße 58 corroborating coordinates 52.5274, 13.3983"
-   },
-   {
-    "url": "https://europeancoffeetrip.com/a-story-of-the-barn-coffee-roasters-with-ralf-ruller/",
-    "note": "Founder Ralf Rüller, 2008 move from London, third-wave pioneer status"
-   }
-  ],
-  "confidence": "high",
-  "w": "Ralf Rüller came back from London in 2008, found Berlin had no real specialty coffee, and opened The Barn on Auguststraße to fix it — roasting since 2012, now one of Europe's most exacting. The house rule was famously strict: no laptops, no distractions, just the coffee. Third-wave Germany started here. Put your phone away.",
-  "_issues": []
- },
- {
-  "n": "SO36",
-  "a": "Kreuzberg",
-  "c": "music",
-  "lat": 52.50028,
-  "lng": 13.42222,
-  "hook": "Kreuzberg's legendary punk club, Germany's answer to CBGB, on Oranienstraße since 1978",
-  "facts": [
-   "Music club on Oranienstraße (No. 190) near Heinrichplatz, named after the historic SO36 (Südost 36) postal code.",
-   "Opened 11-12 August 1978 with an ironic 'Mauerbaufestival'.",
-   "Hosted early German punk concerts; Iggy Pop, David Bowie and Einstürzende Neubauten are associated with its scene.",
-   "Bands including Die Ärzte, Die Toten Hosen, Slime and the Dead Kennedys played here.",
-   "Run for years by Turkish social worker Hilal Kurutan, it was a centre of the German punk and new wave scene until 1983.",
-   "Often described as Germany's answer to New York's CBGB."
-  ],
-  "legend": [
-   "Long the spiritual home of Berlin punk and a cornerstone of Kreuzberg's subculture; today also hosts the queer 'Gayhane' night."
-  ],
-  "sources": [
-   {
-    "url": "https://en.wikipedia.org/wiki/SO36",
-    "note": "History (1978 opening, postcode origin, bands) and coordinates 52.50028, 13.42222"
-   },
-   {
-    "url": "https://www.visitberlin.de/en/so36",
-    "note": "Corroborates Oranienstraße/Kreuzberg location and cultural significance"
-   }
-  ],
-  "confidence": "high",
-  "w": "Germany's answer to CBGB — a Kreuzberg punk club on Oranienstraße since 1978, named for the old postal code and opened with an 'ironic wall-building festival.' The Dead Kennedys and Die Ärzte played here; Bowie and Iggy haunted the scene. Still going, queer Gayhane nights and all. Loud since '78.",
-  "_issues": []
- },
- {
-  "n": "JAJA Weinbar",
-  "a": "Neukölln",
-  "c": "wine",
-  "lat": 52.484109,
-  "lng": 13.433212,
-  "hook": "A tiny, reservation-only Neukölln natural-wine bistro at the heart of the scene",
-  "facts": [
-   "Located at Weichselstraße 7, 12043 Berlin (Neukölln).",
-   "Serves over 200 natural wines, mostly from French growers working close to nature, alongside local organic food.",
-   "Has only a few seats, so reservations are effectively required.",
-   "Repeatedly cited as a favourite of Berlin's natural-wine community since opening in the 2010s.",
-   "Pairs the wines with seasonal, regionally inspired small plates."
-  ],
-  "legend": [],
-  "sources": [
-   {
-    "url": "https://berlin.kauperts.de/eintrag/JAJA-Weichselstrasse-7-12043-Berlin",
-    "note": "Address Weichselstraße 7, 12043 Berlin and coordinates 52.4841, 13.4332"
-   },
-   {
-    "url": "https://jajawein.de/",
-    "note": "Official site confirming natural-wine focus and Neukölln location"
-   }
-  ],
-  "confidence": "high",
-  "w": "A tiny natural-wine bistro on a Neukölln corner, just a few seats and a reservation you'll need — 200-plus low-intervention bottles, mostly from French growers working close to nature, with seasonal small plates to match. A fixture of Berlin's natural-wine crowd since the 2010s. Book ahead, then settle in. Raw wine, Neukölln-style.",
-  "_issues": []
- },
- {
-  "n": "Hard Wax",
-  "a": "Kreuzberg",
-  "c": "vinyl",
-  "lat": 52.49667,
-  "lng": 13.42083,
-  "hook": "The techno-defining record shop, founded 1989, now inside Kraftwerk beside Tresor",
-  "facts": [
-   "Founded in 1989 by musician Mark Ernestus; specialist in electronic music and a pioneer of Berlin's techno scene.",
-   "After roughly three decades on Paul-Lincke-Ufer, it moved in 2023 to Köpenicker Straße 70, inside Kraftwerk Berlin alongside the Tresor club.",
-   "Stock centres on club-ready 12-inch techno plus house classics from Chicago and Detroit, reggae, dub and dubstep.",
-   "Part of the Berlin-Detroit axis that drove the 1990s techno exchange between the two cities.",
-   "DJs from Marcel Dettmann to Cassy to DJ Hell have worked behind its counter."
-  ],
-  "legend": [
-   "Spoken of in the same breath as Tresor as a foundational institution of Berlin techno."
-  ],
-  "sources": [
-   {
-    "url": "https://en.wikipedia.org/wiki/Hard_Wax",
-    "note": "1989 founding by Mark Ernestus, 2023 move to Köpenicker Str. 70 / Kraftwerk, coordinates 52.49667, 13.42083"
-   },
-   {
-    "url": "https://www.the-berliner.com/music-clubs/hard-wax-legendary-record-shop-kopenicker-strasse/",
-    "note": "Corroborates current Köpenicker Straße location and staff/curation legend"
-   }
-  ],
-  "confidence": "high",
-  "w": "The record shop that defined Berlin techno — Mark Ernestus opened it in 1989, and the Berlin-Detroit 12-inches that crossed its counter shaped the 1990s. Dettmann and DJ Hell have worked the till. In 2023 it moved into Kraftwerk, beside Tresor. House and dub and dubstep too, but techno runs deepest. Where the bass got its passport.",
-  "_issues": []
- },
- {
-  "n": "Volkspark Friedrichshain",
-  "a": "Friedrichshain",
-  "c": "green",
-  "lat": 52.52667,
-  "lng": 13.43389,
-  "hook": "Berlin's oldest public park, with a Grimm fairy-tale fountain and a hidden flak-tower hill",
-  "facts": [
-   "Berlin's oldest public park at 52 hectares; the city council resolved to build it in 1840, with the oldest sections laid out 1846-48.",
-   "Conceived from an idea by landscape architect Peter Joseph Lenné, with planting by Gustav Meyer.",
-   "The Märchenbrunnen ('Fairy-Tale Fountain'), completed in 1913, has 106 stone figures drawn from the Brothers Grimm.",
-   "Contains 'Mont Klamott' (Großer Bunkerberg), a ~78 m hill of WWII rubble heaped over a destroyed Nazi-era flak bunker.",
-   "In 1848 the Cemetery of the March Fallen (Friedhof der Märzgefallenen) was established within the park.",
-   "Straddles the Friedrichshain and Prenzlauer Berg districts."
-  ],
-  "legend": [
-   "Generations of Berlin children's lore attaches to the Märchenbrunnen; Mont Klamott lent its name to a Silly/Wolfgang Hilbig song about the buried war."
-  ],
-  "sources": [
-   {
-    "url": "https://en.wikipedia.org/wiki/Volkspark_Friedrichshain",
-    "note": "Oldest park, 1840 decision, 1913 Märchenbrunnen, Mont Klamott flak-tower hill, coordinates 52.52667, 13.43389"
-   },
-   {
-    "url": "https://www.berlin.de/en/parks-and-gardens/3560363-4407152-volkspark-friedrichshain.en.html",
-    "note": "Official Berlin.de corroboration of park history and features"
-   }
-  ],
-  "confidence": "high",
-  "w": "Berlin's oldest public park, laid out from 1846 on a Lenné idea — and stranger than it looks. The 1913 Märchenbrunnen spills down in 106 stone Brothers Grimm characters; up the path rises Mont Klamott, a 78-metre hill of war rubble heaped over a buried Nazi flak bunker. History, gone green.",
-  "_issues": []
- },
- {
-  "n": "Clärchens Ballhaus",
-  "a": "Mitte",
-  "c": "music",
-  "lat": 52.526944,
-  "lng": 13.396667,
-  "hook": "The last of Berlin's ~900 ballrooms, dancing without interruption since 1913",
-  "facts": [
-   "Ballroom, saloon and restaurant at Auguststraße 24, 10117 Berlin, in the historic Spandauer Vorstadt (Mitte).",
-   "Opened 13 September 1913 by Fritz and Clara Bühler as 'Bühler's Ballhaus'; later renamed for Clara ('Clärchen').",
-   "The only survivor of the roughly 900 ballrooms Berlin once had.",
-   "Survived two world wars and five systems of government while staying open for business.",
-   "Has protected status as a Berlin cultural monument (Kulturdenkmal).",
-   "Upstairs features a faded, partly mirrored 'Spiegelsaal' (mirror hall)."
-  ],
-  "legend": [
-   "Romanticised as a time-capsule of pre-war Berlin nightlife; featured on screen including in 'Inglourious Basterds' and 'Babylon Berlin'-era nostalgia."
-  ],
-  "sources": [
-   {
-    "url": "https://en.wikipedia.org/wiki/Cl%C3%A4rchen's_Ballroom",
-    "note": "1913 founding, last of ~900 ballrooms, Kulturdenkmal status, Auguststraße 24 and coordinates 52.526944, 13.396667"
-   },
-   {
-    "url": "https://www.visitberlin.de/en/clarchens-ballhaus",
-    "note": "Corroborates history and Mitte / Auguststraße location"
-   }
-  ],
-  "confidence": "high",
-  "w": "The last of the roughly 900 ballrooms Berlin once had, dancing without a break since 1913 — through two wars and five governments. Fritz and Clara Bühler opened it; the place took its name from Clara. Upstairs, a faded, half-mirrored Spiegelsaal looks straight out of pre-war Berlin. Tarantino filmed here. Take a turn on the floor.",
-  "_issues": []
- },
- {
-  "n": "Tränenpalast",
-  "a": "Mitte",
+  "n": "Berliner Unterwelten",
+  "a": "Gesundbrunnen",
   "c": "history",
-  "lat": 52.5208,
-  "lng": 13.3869,
-  "hook": "The 'Palace of Tears' departure hall where divided Berliners said goodbye, 1962-1989",
-  "facts": [
-   "A steel-and-glass border-crossing pavilion at Berlin Friedrichstraße station, in operation 1962-1990.",
-   "Used only for westbound border crossings out of the GDR, with separate channels for West Berliners, foreigners, diplomats and East Germans.",
-   "Nicknamed 'Tränenpalast' (Palace of Tears) for the tearful farewells between East and West relatives.",
-   "Now a free museum on Cold War division and German reunification, opened 14 September 2011.",
-   "Run as part of the Stiftung Haus der Geschichte's exhibition network."
+  "lat": 52.5478117,
+  "lng": 13.3892456,
+  "s": "Guided tours into WWII bunkers and Cold War tunnels beneath the city",
+  "w": "Below Brunnenstrasse lies a city that never appeared on any official map. Since 1997 these tours descend into WWII air-raid shelters, ghost U-Bahn stations sealed by the Wall, and the Humboldthain flak-tower bunker — which Allied engineers failed to demolish post-1945, leaving vast concrete masses buried under the park. Over 1,200 underground sites documented.",
+  "_facts": [
+   "Founded 1997 by urban explorers; leads tours through WWII bunkers, Cold War tunnels, ghost U-Bahn stations",
+   "Tour 1 accesses Humboldthain flak-tower bunker — Allies tried and failed to demolish it post-1945",
+   "Gesundbrunnen U-Bahn sealed as ghost station under East Berlin 1961-89",
+   "Over 1,200 underground sites documented across Berlin"
   ],
-  "legend": [
-   "Its name became shorthand for the human cost of the divided city."
+  "_sources": ["https://www.berliner-unterwelten.de/en/"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Prater Biergarten",
+  "a": "Prenzlauer Berg",
+  "c": "pub",
+  "lat": 52.5402446,
+  "lng": 13.4095113,
+  "s": "Berlin's oldest beer garden, chestnut canopy on Kastanienallee since 1837",
+  "w": "Berlin's oldest beer garden has poured under the same chestnut canopy since 1837 — older than a united Germany. Self-service, 600 seats, no pretension. Jewish owners were expropriated in 1938; the attached Prater Bühne hosted cabaret through the GDR years. In the 1990s the street outside earned the nickname 'Casting Allee'. Still the best spot under the leaves.",
+  "_facts": [
+   "Founded 1837, predates German unification; 600 seats under chestnuts, self-service tradition",
+   "Jewish owners expropriated 1938 under Nazi Aryanisation laws",
+   "Attached Prater Bühne variety stage hosted GDR-era cabaret",
+   "Kastanienallee nicknamed 'Casting Allee' in 1990s for post-Wall aspiring arrivals"
   ],
-  "sources": [
-   {
-    "url": "https://en.wikipedia.org/wiki/Tr%C3%A4nenpalast",
-    "note": "1962-1990 border crossing, Palace of Tears name, 2011 museum, coordinates 52.5208, 13.3869"
-   },
-   {
-    "url": "https://www.berlin.de/en/attractions-and-sights/3560337-3104052-traenenpalast.en.html",
-    "note": "Official Berlin.de corroboration of Friedrichstraße location, history and free museum"
-   }
+  "_sources": ["https://en.wikipedia.org/wiki/Prater_(Berlin_beer_garden)"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Stasimuseum",
+  "a": "Lichtenberg",
+  "c": "history",
+  "lat": 52.5145073,
+  "lng": 13.4874850,
+  "s": "Erich Mielke's actual office, preserved as left on 7 November 1989",
+  "w": "The real headquarters of the Stasi — which kept files on 6 million of East Germany's 17 million citizens. Erich Mielke's office on Ruschestrasse has been kept exactly as on 7 November 1989: wood panelling, Bakelite switchboard, Lenin portrait intact. Citizens occupied the building on 15 January 1990 to stop shredding. The files, laid end to end, would stretch 111 km.",
+  "_facts": [
+   "Former global HQ of the Ministerium für Staatssicherheit; 91,000 full-time officers, 175,000 informants",
+   "Mielke's office preserved exactly as of 7 November 1989",
+   "Citizens occupied building 15 January 1990 to stop document shredding; museum opened next year",
+   "Files compiled on 6 million of 17 million East Germans; 111 km if laid end to end"
   ],
-  "confidence": "high",
-  "w": "The Palace of Tears — a glass-and-steel hall at Friedrichstraße where, from 1962 to 1989, divided Berliners said goodbye at the border between East and West. West-bound crossings only, sorted into channels by passport; the tears were on the platform behind. Now a free museum of the divided city. The name says everything.",
-  "_issues": []
+  "_sources": ["https://en.wikipedia.org/wiki/Stasimuseum"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Gedenkstätte Plötzensee",
+  "a": "Charlottenburg-Nord",
+  "c": "death",
+  "lat": 52.5408675,
+  "lng": 13.3228192,
+  "s": "The execution shed where ~2,500 Nazi victims died — meat-hooks still in the beam",
+  "w": "A red-brick shed beside a working prison holds the chamber where the Nazi regime killed up to 3,000 people. After the July 1944 bomb plot, 89 conspirators were hanged on meat-hooks from an iron beam still crossing the room. The guillotine arrived from Brandenburg Prison in 1937. An urn of soil from concentration camps stands at the centre. Opened 1952. Quiet, unforgettable.",
+  "_facts": [
+   "2,500-3,000 people executed here 1933-1945",
+   "89 July 1944 bomb plot conspirators hanged on meat-hooks from a beam still visible",
+   "Guillotine transferred from Brandenburg Prison 1937",
+   "Urn of soil from German concentration camps at the memorial's centre",
+   "Opened 1952, among the first West German Nazi victim memorial sites"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Pl%C3%B6tzensee_Prison"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Hamburger Bahnhof",
+  "a": "Moabit",
+  "c": "museum",
+  "lat": 52.5286316,
+  "lng": 13.3718665,
+  "s": "Berlin's oldest surviving rail terminus, now home to Beuys and Kiefer's lead books",
+  "w": "Built in 1847 as the Hamburg line's Berlin terminus, it stopped running trains in 1884. After a century as a transport museum it reopened in 1996 as the Museum für Gegenwart. Friedrich Neuhaus's 210-metre iron-and-glass nave now shows Anselm Kiefer's lead-book installations alongside Beuys, Twombly and Warhol. The Wall's death strip ran just north until 1989. Railway ghost turned art palace.",
+  "_facts": [
+   "Built 1847, stopped operating as station 1884; one of Germany's oldest surviving railway buildings",
+   "Reopened 1996 as Museum für Gegenwart (Nationalgalerie contemporary collection)",
+   "210-metre iron-and-glass nave by Friedrich Neuhaus",
+   "Berlin Wall death strip ran just north of the building until 1989"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Hamburger_Bahnhof"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Haus der Kulturen der Welt",
+  "a": "Tiergarten",
+  "c": "oddity",
+  "lat": 52.5187884,
+  "lng": 13.3648356,
+  "s": "The 'pregnant oyster' — America's Cold War gift, rebuilt after its roof collapsed",
+  "w": "Berliners called it the Schwangere Auster — the pregnant oyster — for its billowing concrete shell. America built it for West Berlin in 1957, deliberately visible from the East: culture as Cold War weapon. In 1980 the roof collapsed, killing one person; rebuilt and reopened 1987. Henry Moore's 'Butterfly' stands outside. Germany's national centre for non-European contemporary arts. Still the strangest building in the park.",
+  "_facts": [
+   "Nicknamed 'Schwangere Auster' (pregnant oyster) by Berliners",
+   "Gift from USA to West Berlin, designed by Hugh Stubbins, opened 1957 Interbau exhibition",
+   "Roof dramatically collapsed 1980, killing one person; rebuilt and reopened 1987",
+   "Henry Moore's 'Butterfly' (1979) in the reflecting pool outside"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Haus_der_Kulturen_der_Welt"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Badeschiff",
+  "a": "Alt-Treptow",
+  "c": "lido",
+  "lat": 52.4976332,
+  "lng": 13.4536667,
+  "s": "A converted cargo hull moored in the Spree — swimming inside a river too polluted to enter",
+  "w": "A 32-by-8-metre pool floats sealed inside a converted cargo hull moored in the Osthafen — because the Spree is far too polluted to swim in. Opened in 2004 as an art project designed by Fernando Menis, drawing on the blue waters of Tenerife, it revived a stretch of Treptow waterfront derelict since GDR times. In winter a translucent bubble encloses it as a spa. The river is right there. Don't drink it.",
+  "_facts": [
+   "32x8m pool inside converted cargo hull moored in East Harbour of the Spree",
+   "Spree too polluted for safe swimming — sealed pool is the workaround",
+   "Opened 2004 as art project; designed by architect Fernando Menis",
+   "In winter enclosed in translucent bubble structure, reopens as spa with sauna"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Badeschiff"],
+  "confidence": "solid"
+ },
+ {
+  "n": "RAW-Gelände",
+  "a": "Friedrichshain",
+  "c": "music",
+  "lat": 52.5070127,
+  "lng": 13.4543002,
+  "s": "An 1867 Prussian rail-repair yard squatted by artists after reunification",
+  "w": "The Reichsbahn-Ausbesserungswerk was a Prussian railway repair yard from 1867; after reunification its workshops were squatted by artists and club promoters in the 1990s. On five hectares off Revaler Strasse: Cassiopeia, Astra Kulturhaus, a skate park, boxing gym, and Urban Spree gallery with 500 square metres of rotating murals. Brick machine halls still carry Reichsbahn cranes. Unreconstructed. Long may it stay.",
+  "_facts": [
+   "Prussian railway repair yard (Reichsbahn-Ausbesserungswerk) built 1867",
+   "Squatted by artists and club promoters in 1990s after decommissioning",
+   "Five-hectare site hosts clubs, skate park, climbing wall, flea market, boxing gym",
+   "Urban Spree: gallery, concert stage, 500m² of rotating street-art murals",
+   "Brick machine halls retain original Reichsbahn cranes"
+  ],
+  "_sources": ["https://www.raw-gelaende.de/"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Viktoriapark",
+  "a": "Kreuzberg",
+  "c": "history",
+  "lat": 52.4874665,
+  "lng": 13.3808123,
+  "s": "The hill that named Kreuzberg, with Schinkel's Iron Cross and a working vineyard",
+  "w": "The borough borrowed its name from here: Kreuzberg means 'Cross Mountain', after the Gothic monument Schinkel designed in 1821 to commemorate Prussia's victories over Napoleon — 12 niches, 12 battle allegories. An artificial waterfall runs down in summer. Two Senate vineyards, vines gifted by twin cities Wiesbaden and Ingelheim in 1968, produce around 600 bottles of white a year. The cross came first; the borough followed.",
+  "_facts": [
+   "Kreuzberg borough named after this hill (66m, highest natural point in inner Berlin)",
+   "Schinkel's cast-iron Napoleonic Wars monument (1821) with 12 battle allegory niches",
+   "Artificial waterfall from the monument's base in summer",
+   "Two working vineyards (est. 1968) produce ~600 bottles of Kreuz-Neroberger annually"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Viktoriapark"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Karl-Marx-Allee",
+  "a": "Friedrichshain",
+  "c": "history",
+  "lat": 52.5159618,
+  "lng": 13.4530388,
+  "s": "Two kilometres of Stalinist boulevard built to prove socialism could build beautifully",
+  "w": "Stalin wanted East Germany to show socialism could build more grandly than capitalism — between 1949 and 1960 his architects built this. Originally Stalinallee, the two-kilometre boulevard featured spacious workers' apartments and the Kino International. Workers laying these stones triggered the June 1953 uprising when construction norms were raised. Renamed in 1961 after de-Stalinisation. The most beautiful street that power ever demanded.",
+  "_facts": [
+   "Built 1949-1960 as showcase of socialist urbanism; originally called Stalinallee",
+   "Workers here triggered June 1953 East German uprising when construction norms were increased",
+   "Renamed Karl-Marx-Allee in 1961 after Khrushchev's de-Stalinisation speech",
+   "Features Kino International (1963) and socialist classicist apartment blocks by Henselmann and others"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Karl-Marx-Allee"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Kino International",
+  "a": "Friedrichshain",
+  "c": "cinema",
+  "lat": 52.5206816,
+  "lng": 13.4230450,
+  "s": "The GDR's premiere cinema, now a Berlinale venue in a time-capsule interior",
+  "w": "When East Germany wanted to show the world a film premiere in style, it built this. Opened in 1963 on Karl-Marx-Allee, the Kino International was the GDR's flagship cinema where DEFA studios launched their films until 1989. The interior is a masterpiece of socialist modernism: terrazzo, sweeping staircase, original fittings intact. Listed, now a Berlinale venue. The 1960s haven't entirely left.",
+  "_facts": [
+   "Built 1961-1963 on Karl-Marx-Allee; GDR's flagship premiere cinema",
+   "Hosted DEFA film studio premieres until the Wall fell in 1989",
+   "Interior: terrazzo floors, sweeping staircase, original 1960s socialist modernist fittings",
+   "Now a listed monument and official Berlinale venue"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Kino_International"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Pfaueninsel",
+  "a": "Wannsee",
+  "c": "follies",
+  "lat": 52.4351386,
+  "lng": 13.1302736,
+  "s": "A rope-ferry island with deliberate ruins, free peacocks and a Prussian folly castle",
+  "w": "Peacock Island reaches only by two-minute rope-ferry — no cars, no dogs, peacocks roaming free. Frederick William II had the 'ruined' castle built here in 1794 as a retreat for himself and his mistress. The ruin aesthetic was deliberate: built to look already ancient. The island's menagerie later became the nucleus of the Berlin Zoo. A Cavalier's House sports a facade transplanted from Danzig in 1824. UNESCO-listed. The peacocks have seniority.",
+  "_facts": [
+   "Accessible only by rope-pulled ferry, two-minute crossing; no cars, no café, no dogs",
+   "Frederick William II built 'ruined' castle in 1794 — ruin aesthetic was deliberate",
+   "Island's menagerie became nucleus of the Berlin Zoo after Schinkel/Lenné redesign 1820s-30s",
+   "Cavalier's House facade transplanted from Danzig (now Gdańsk) in 1824",
+   "UNESCO World Heritage Site; strict nature reserve"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Pfaueninsel"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Dorotheenstädtischer Friedhof",
+  "a": "Mitte",
+  "c": "death",
+  "lat": 52.5288458,
+  "lng": 13.3849475,
+  "s": "Hegel, Brecht, Fichte and Schinkel share 1.7 hectares on Chausseestrasse",
+  "w": "A 1.7-hectare Protestant burial ground at Chausseestrasse 126 that accumulated, across 200 years, an implausible density of German intellectual life. Hegel, Fichte, Schinkel, Brecht, Helene Weigel, Heinrich Mann. Brecht's grave is plain stone, by his own instruction; a steel spike is driven through it against grave-robbers, also his instruction. Some graves you visit for the view. This one for the company.",
+  "_facts": [
+   "Protestant burial ground at 126 Chausseestrasse; dates to late 18th century, 1.7 hectares",
+   "Burials include Hegel, Fichte, Schinkel, Bertolt Brecht, Helene Weigel, and Heinrich Mann",
+   "Brecht's grave plain stone by his own instruction; steel spike through it against grave-robbers, his instruction",
+   "Adjacent to the French Huguenot cemetery established 1780"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Dorotheenst%C3%A4dtischer_Friedhof"],
+  "confidence": "solid"
+ },
+ {
+  "n": "KINDL – Zentrum für zeitgenössische Kunst",
+  "a": "Neukölln",
+  "c": "museum",
+  "lat": 52.4794637,
+  "lng": 13.4312750,
+  "s": "A 28-metre brewery Maschinenhaus turned art space — nothing collected, only commissioned",
+  "w": "A Neukölln brewery made Kindl-Schultheiss beer for 120 years before closing in 2000. Swiss collectors Ariane Karbe and Michael Fuchs opened an art centre in its ruins in 2014. The Maschinenhaus is 28 metres high: a cavernous brick nave for installations built to its industrial scale. Boiler house and pump rooms keep their original machinery. KINDL collects nothing — it only commissions. Commission, not collect. Show, not store.",
+  "_facts": [
+   "Former Berliner-Kindl-Schultheiss-Brauerei; 120 years of beer production, closed 2000",
+   "Opened 2014 by Swiss collectors Ariane Karbe and Michael Fuchs",
+   "Maschinenhaus: 28-metre brick industrial hall for large-scale site-specific installations",
+   "Boiler house and pump rooms retain original machinery as found objects",
+   "Kunsthalle model: commissions only, never collects"
+  ],
+  "_sources": ["https://kindl-berlin.de/en/"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Gedenkstätte Berliner Mauer",
+  "a": "Wedding",
+  "c": "history",
+  "lat": 52.5353002,
+  "lng": 13.3895542,
+  "s": "A 60-metre border strip on Bernauer Strasse, with a chapel built inside the Death Strip",
+  "w": "Bernauer Strasse was where the Wall cut most brutally through daily life: the border ran down the middle of the street, house fronts bricked up, people jumping from upper-floor windows in the first days of 1961. The memorial preserves 60 metres of original border — both walls, death strip, watchtower. A Chapel of Reconciliation stands on foundations of a church the GDR demolished in 1985. The gap between the walls is still cold.",
+  "_facts": [
+   "Preserves 60-metre section of border including both walls, death strip, watchtower",
+   "Bernauer Strasse: border bisected the street; people jumped from house windows in 1961",
+   "Chapel of Reconciliation on foundations of Versöhnungskirche blown up by GDR in 1985",
+   "Memorial created 1998 by Federal Republic and Berlin state government"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Gedenkst%C3%A4tte_Berliner_Mauer"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Märkisches Museum",
+  "a": "Mitte",
+  "c": "museum",
+  "lat": 52.5135306,
+  "lng": 13.4146056,
+  "s": "Berlin's city-history collection in a neo-Gothic pile with a live bear in the courtyard",
+  "w": "Ludwig Hoffmann's neo-Gothic red-brick towers opened in 1908, their jagged silhouette deliberately echoing medieval Brandenburg cathedrals. Berlin's city-history collection lives here since 1874. In the courtyard: a statue of the Iron Roland, symbol of civic freedom, and a real brown bear — Berlin's heraldic animal — in its own enclosure. The building sits on the site of medieval Cölln, merged with Berlin in 1307. The bear is still there.",
+  "_facts": [
+   "Founded 1874; Ludwig Hoffmann neo-Gothic building completed 1908",
+   "Silhouette deliberately echoes medieval cathedrals of the Brandenburg March",
+   "Courtyard has Iron Roland statue and live brown bear (Berlin's heraldic animal)",
+   "Sits on site of medieval Cölln, Berlin's twin city, merged with it in 1307",
+   "Complete renovation 2020-2024"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/M%C3%A4rkisches_Museum"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Pumpwerk Friedrichshagen",
+  "a": "Friedrichshagen, Köpenick",
+  "c": "history",
+  "lat": 52.4503125,
+  "lng": 13.6202362,
+  "s": "A Victorian Gothic waterworks still pumping after 130 years, built like a cathedral",
+  "w": "English engineer Henry Gill designed Berlin's first modern waterworks here in 1893-1905 — and built the pump house to look like a Gothic cathedral, because the Victorians considered clean water a civic and moral good worth monumental architecture. Terracotta detailing, ornate brick nave, the full devotional vocabulary applied to municipal plumbing. Still pumping from Lake Müggelsee today. Over 130 years without a fundamental rebuild. Sacred infrastructure.",
+  "_facts": [
+   "Berlin's first modern waterworks, built 1893-1905 by English engineer Henry Gill",
+   "Pump house built in neo-Gothic style with ornate terracotta detailing",
+   "Still pumps drinking water from Müggelsee today; 130+ years of continuous operation",
+   "Technical museum in original engine room shows historic steam-driven centrifugal pumps"
+  ],
+  "_sources": ["https://www.bwb.de/"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Neue Synagoge",
+  "a": "Oranienburger Vorstadt",
+  "c": "faith",
+  "lat": 52.5249837,
+  "lng": 13.3943204,
+  "s": "An 1866 Moorish-Alhambra synagogue whose gilded dome survived Kristallnacht",
+  "w": "Completed in 1866, Berlin's Great Synagogue was the largest in Germany — a golden-domed Moorish Revival building seating 3,000, its gilded onion dome visible across the city. On Kristallnacht in 1938 a police officer named Wilhelm Krützfeld drew his weapon and ordered Nazi arsonists to leave; the building survived the night. It was bombed in 1943; the dome was rebuilt in the 1990s. Krützfeld's name is on a plaque outside. One act of courage, one golden dome.",
+  "_facts": [
+   "Completed 1866 by Eduard Knoblauch and Friedrich August Stüler; Moorish Revival style",
+   "Largest synagogue in Germany at completion; capacity 3,000 people",
+   "On Kristallnacht (9 November 1938) police officer Wilhelm Krützfeld ordered arsonists out at gunpoint",
+   "Bombed 1943; gilded dome rebuilt in the 1990s; now houses Centrum Judaicum museum"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Neue_Synagoge"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Neue Nationalgalerie",
+  "a": "Tiergarten",
+  "c": "museum",
+  "lat": 52.5070408,
+  "lng": 13.3676212,
+  "s": "Mies van der Rohe's glass temple — his last building, a floating steel roof of pure geometry",
+  "w": "Ludwig Mies van der Rohe built this as his last major project, opened in 1968 in then-West Berlin. A 65-by-65-metre steel roof floats on eight cruciform columns — the entire upper floor one uninterrupted glass hall, the purest realisation of his 'universal space' ideal. The permanent collection is housed underground; the upper pavilion is left deliberately empty. After a 2021 renovation Berlin finally has it back. Architecture as argument, made in glass.",
+  "_facts": [
+   "Designed by Mies van der Rohe; opened 15 September 1968 in then-West Berlin",
+   "65x65m steel roof on eight cruciform columns; upper floor a single glass hall",
+   "Realisation of Mies's 'universal space' concept",
+   "Permanent 20th-century collection underground; upper pavilion used for temporary shows",
+   "Comprehensive renovation completed 2021"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Neue_Nationalgalerie"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Invalidenfriedhof",
+  "a": "Mitte",
+  "c": "death",
+  "lat": 52.5320926,
+  "lng": 13.3721502,
+  "s": "Prussia's military graveyard, bisected by the Berlin Wall and half-swallowed by the Death Strip",
+  "w": "Founded in 1748 as the burial ground of the Prussian Invalid Corps, it became over 150 years the resting place of field marshals, aviators and engineers. Scharnhorst lies here, his memorial by Schinkel. When the Wall was built in 1961 it ran straight through the cemetery — graves were bulldozed, the western half swallowed by the Death Strip. Partially restored after reunification. Bisected by ideology, grown over by grass and ivy.",
+  "_facts": [
+   "Founded 1748 as burial ground of the Prussian Invalid Corps",
+   "Scharnhorst buried here; Schinkel designed his memorial (1822)",
+   "Berlin Wall cut through the cemetery in 1961; western section absorbed into Death Strip",
+   "Graves partially restored after reunification"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Invalidenfriedhof"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Molecule Man",
+  "a": "Alt-Treptow",
+  "c": "streetart",
+  "lat": 52.4969763,
+  "lng": 13.4589482,
+  "s": "Three 30-metre aluminium figures rising from the Spree at the old district border",
+  "w": "Three 30-metre perforated aluminium figures rise from the River Spree precisely where the old borders of Treptow, Kreuzberg and Alt-Treptow met. Jonathan Borofsky made them in 1999, commissioned to mark where three formerly divided neighbourhoods rejoined after the Wall came down. Seen from a boat, the figures appear to walk towards each other. Thousands of molecule-shaped holes let the sky through. Reunification made monumental, left in the river.",
+  "_facts": [
+   "Three 30-metre perforated aluminium figures by American sculptor Jonathan Borofsky",
+   "Installed 1999 at the precise junction of former Treptow, Kreuzberg and Alt-Treptow district borders",
+   "Commissioned to mark where three formerly divided neighbourhoods reunited",
+   "Figures appear to walk toward each other when seen from the river"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Molecule_Man_(sculpture)"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Mauerpark",
+  "a": "Prenzlauer Berg",
+  "c": "green",
+  "lat": 52.5437161,
+  "lng": 13.4019327,
+  "s": "The Death Strip turned Sunday flea market and open-air karaoke amphitheatre",
+  "w": "This linear park follows the exact course of the Berlin Wall's death strip between Prenzlauer Berg and Gesundbrunnen. Until 1989 it was a killing zone; since 2010 it is the city's most sociable Sunday: the flea market sells vinyl and Soviet kitsch while thousands fill the amphitheatre to watch strangers perform karaoke. The concrete bleachers look straight across to a surviving painted Wall section. One generation from death strip to picnic.",
+  "_facts": [
+   "Name means 'Wall Park' — follows the exact death strip course between Prenzlauer Berg and Gesundbrunnen",
+   "Sunday Flohmarkt: one of Berlin's largest flea markets",
+   "Amphitheatre hosts Bearpit Karaoke — free, audience-judged, thousands of spectators",
+   "Surviving Wall section visible from the bleachers, painted with murals"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Mauerpark"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Kunsthaus Tacheles",
+  "a": "Oranienburger Vorstadt",
+  "c": "streetart",
+  "lat": 52.5256724,
+  "lng": 13.3891203,
+  "s": "The bombed-out ruin on Oranienburger Strasse that defined post-Wall Berlin's image",
+  "w": "In 1990 artists broke into a bombed-out 1908 shopping arcade on Oranienburger Strasse and declared it a collective. For 22 years Tacheles was Berlin's most photographed symbol of raw post-Wall creativity: murals scaling the facades, sculptures in the rubble courtyard, studios occupied by artists from across Europe. The collective was evicted in 2012. A luxury hotel occupies part of the site now. The graffiti is gone. The photographs remain.",
+  "_facts": [
+   "1908 commercial arcade on Oranienburger Strasse, damaged in WWII and left derelict",
+   "Artist collective occupied from 1990; declared open art space",
+   "22 years of murals, sculptures, studios — Berlin's defining post-Wall creative squat",
+   "Collective evicted 2012; building subsequently redeveloped with luxury hotel"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Kunsthaus_Tacheles"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Admiralspalast",
+  "a": "Mitte",
+  "c": "music",
+  "lat": 52.5207714,
+  "lng": 13.3889021,
+  "s": "A 1910 variety palace where in 1946 the SPD was forced to merge with the Communists",
+  "w": "The Admiralspalast on Friedrichstrasse opened in 1910 on the site of an 1873 bathhouse — variety theatre, cinema and ice rink in one building, one of the few pre-war entertainment palaces to survive. In April 1946 it hosted the forced SPD-KPD merger that created the SED — one of East Germany's founding acts. The ornate interior was restored in 2006. The stage is older than the Wall and outlasted it.",
+  "_facts": [
+   "Opened 1910 on site of 1873 Admiralsgarten bathhouse; included cinema and ice rink",
+   "One of the city's few preserved pre-World War II variety venues; 1,756 seats",
+   "In April 1946 hosted the forced SPD-KPD merger creating the SED — key moment in East Germany's creation",
+   "Interior restored 2006; listed building"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Admiralspalast"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Zeiss-Großplanetarium",
+  "a": "Prenzlauer Berg",
+  "c": "oddity",
+  "lat": 52.5430569,
+  "lng": 13.4281438,
+  "s": "The GDR's showcase planetarium, built 1987 as a monument to East German science",
+  "w": "The GDR built this in 1987 as its scientific showpiece — one of the largest modern planetariums in Europe, with a 23-metre dome and the most advanced Zeiss projector East Germany could specify. It sits at the heart of the Ernst-Thälmann-Park housing estate in Prenzlauer Berg. Continued under Berlin's Senate after reunification; upgraded to full-dome digital in 2016. The GDR wanted to own the stars as well as the streets. The dome is still there.",
+  "_facts": [
+   "Built 1987 as GDR scientific prestige project; one of largest planetariums in Europe",
+   "23-metre dome with advanced Zeiss projection system",
+   "Located within Ernst-Thälmann-Park socialist housing estate, Prenzlauer Berg",
+   "Full-dome digital projection system installed 2016"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Zeiss-Gro%C3%9Fplanetarium"],
+  "confidence": "solid"
+ },
+ {
+  "n": "Berghain",
+  "a": "Friedrichshain",
+  "c": "music",
+  "lat": 52.5111669,
+  "lng": 13.4430356,
+  "s": "A decommissioned GDR power station whose queue became Berlin's most-studied social frontier",
+  "w": "Norbert Thormann and Michael Teufele opened Berghain in 2004 in a GDR-era power station near Ostbahnhof. The main room is a cathedral of bass and darkness; the Panorama Bar upstairs faces east. The door policy — silent queuing, sober faces — is a ritual studied by sociologists. In 2016 a German tax court ruled that Berghain stages 'art', qualifying its door for cultural tax exemption. Techno is now legally art in Germany. The power station still runs.",
+  "_facts": [
+   "Opened 2004 by Norbert Thormann and Michael Teufele in a former GDR power station",
+   "Named for its position at the Kreuzberg-Friedrichshain border",
+   "Door policy — silent queuing, sober faces — has become a studied cultural phenomenon",
+   "2016 German tax court ruled Berghain stages 'art', qualifying for cultural tax exemption",
+   "Widely considered the world capital of techno"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Berghain"],
+  "confidence": "solid"
  }
 ]
