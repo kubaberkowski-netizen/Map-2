@@ -11,6 +11,9 @@
 <meta id="og-title" property="og:title" content="A collection — Flâneur" />
 <meta id="og-desc" property="og:description" content="A hand-picked collection of places, mapped with Flâneur." />
 <meta name="description" id="m-desc" content="A hand-picked collection of places, mapped with Flâneur." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta id="og-image" property="og:image" content="" />
+<meta id="tw-image" name="twitter:image" content="" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
   :root{--bg:#FAF8F3;--surface:#FFFFFF;--ink:#2C2522;--ink2:#5C524A;--ink3:#736A5E;--line:#E7E0D4;--accent:#C8372D;}
@@ -71,7 +74,7 @@
     var title=(c.emoji?c.emoji+" ":"")+(c.name||"A collection");
     var metaTitle=(c.name||"A collection")+" — Flâneur";
     var desc=spots.length+" place"+(spots.length===1?"":"s")+(c.city?" in "+c.city:"")+", hand-picked on Flâneur"+(c.note?": "+c.note:".");
-    setMeta(metaTitle,desc.slice(0,180));
+    setMeta(metaTitle,desc.slice(0,180));try{var _img=SB_URL+"/storage/v1/object/public/cards/"+encodeURIComponent(c.slug)+".png";["og-image","tw-image"].forEach(function(id){var el=document.getElementById(id);if(el)el.setAttribute("content",_img);});}catch(e){}
     var h='<div class="eyebrow">A Flâneur collection</div>';
     h+='<h1>'+(c.emoji?'<span class="e">'+esc(c.emoji)+'</span>':'')+esc(c.name||"A collection")+'</h1>';
     h+='<div class="meta">'+spots.length+' place'+(spots.length===1?'':'s')+(c.city?' · '+esc(c.city):'')+'</div>';

@@ -302,3 +302,28 @@ now is manual: `delete from public.collections where slug = '…';`.
 Client surface: `window.flPublish` (in the cloud module) — `.publish(col)`
 upserts and returns `{slug,url}`; `.unpublish(slug)` deletes; `.signedIn()`
 gates the UI; `.open()` opens the magic-link modal.
+
+### Rich link previews (OG images)
+
+When a collection is published the app renders a 1200×630 card (the `ogcard`
+Cw variant) and uploads it to a public Storage bucket `cards/<slug>.png`. The
+public page sets `og:image` / `twitter:image` to the deterministic URL
+`<supabaseUrl>/storage/v1/object/public/cards/<slug>.png`. No DB column needed.
+
+Create the bucket once (SQL editor):
+```sql
+insert into storage.buckets (id,name,public) values ('cards','cards',true)
+  on conflict do nothing;
+create policy "cards read"   on storage.objects for select using (bucket_id='cards');
+create policy "cards write"  on storage.objects for insert with check (bucket_id='cards' and auth.role()='authenticated');
+create policy "cards update"  on storage.objects for update using (bucket_id='cards' and auth.role()='authenticated');
+```
+
+Caveat: GitHub Pages can't serve per-slug `<meta>` to crawlers that don't run
+JS, so the `og:image` set by `c.html`'s script is seen by JS-capable scrapers
+(and by in-app sharing) but not by all of them. For **universal** unfurls,
+either (a) after migrating to a host with SSR/rewrites, render `c.html` server
+side with the right tags, or (b) deploy a tiny Supabase Edge Function that
+returns OG-tagged HTML and redirects humans to `c.html`, then set
+`CFG.ogFn` to its base URL so shared links point at it. The image URL above is
+the same in all cases, so the function only needs to emit `<meta>` + a redirect.
