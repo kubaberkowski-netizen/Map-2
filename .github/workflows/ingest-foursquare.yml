@@ -1,6 +1,8 @@
 name: Ingest Foursquare
 
 # Quality restaurants/cafés/bars into the places table (rating-filtered, no chains).
+# Enriches each row with rating / popularity / hours / photo (premium FSQ fields —
+# run the places enrichment SQL in PLACES.md first so the columns exist).
 # Add one repo secret: FOURSQUARE_KEY (location.foursquare.com/developer).
 # Reuses SUPABASE_SERVICE_ROLE_KEY. Dedupes by ext_id 'fsq:'.
 on:

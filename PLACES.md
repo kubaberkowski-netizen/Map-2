@@ -63,9 +63,14 @@ alter table public.places add column if not exists hours      text;      -- OSM-
 ```
 
 Foursquare ingest (`scripts/ingest-foursquare.mjs`, GitHub Action, gated on a
-`FOURSQUARE_KEY` secret) should, per place, set:
-`rating` (FSQ `rating`), `popularity` (FSQ `popularity`), `hours`
-(`hours.display` / regular hours → OSM-ish string), `image`
-(`photos[0]` prefix+suffix), filtered to high rating (≥ 7.5) and independent
-venues. Same `ext_id='fsq:<id>'` dedup as today. Wikidata places can borrow a
-Commons image for `image` similarly.
+`FOURSQUARE_KEY` secret) **now does this**: per place it sets `rating` (FSQ
+`rating`, 0–10), `popularity` (FSQ `popularity`, 0–1), `hours` (`hours.display`,
+human-readable — the client renders it as plain text after 🕒, no parsing), and
+`image` (`photos[0]` prefix + `400x400` + suffix). It filters to the food
+category, **independent venues** (drops anything with a non-empty `chains` array)
+and **high rating** (≥ 7.5). These are premium FSQ fields that consume API
+credits; a **free-tier key returns them as null**, in which case the rating filter
+is skipped and the script degrades to names + map pins (as before). Same
+`ext_id='fsq:<id>'` dedup. **Run the columns SQL above before the first enriched
+ingest** (the upsert sends `rating`/`popularity`/`hours`, so missing columns =
+error). Wikidata places can borrow a Commons image for `image` similarly.

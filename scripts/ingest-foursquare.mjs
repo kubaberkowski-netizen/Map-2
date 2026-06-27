@@ -16,12 +16,17 @@ const cities = JSON.parse(fs.readFileSync(new URL("../supabase/functions/ingest-
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const NEW = "https://places-api.foursquare.com/places/search";
 const LEG = "https://api.foursquare.com/v3/places/search";
+// Premium fields (rating/popularity/hours/photos) CONSUME Foursquare API credits.
+// We request them on the main (full) query so the discovery cards light up with
+// ★ratings, 🕒hours and thumbnails. A free-tier key simply returns them as null,
+// in which case the rating filter below is skipped and we still get names + pins.
+const FIELDS_LEG = "fsq_id,name,geocodes,location,categories,rating,popularity,hours,photos,website,description,tel,chains";
+const FIELDS_NEW = "fsq_place_id,name,latitude,longitude,location,categories,rating,popularity,hours,photos,website,description,tel,chains";
 function q(base, c, full) {
   let u = `${base}?ll=${c.lat},${c.lng}&radius=2500&limit=${full ? 40 : 5}&sort=RATING`;
-  // FREE TIER ONLY: request no premium fields (rating/photos cost credits). The
-  // default response gives name, location, categories, coords — enough for names
-  // + map pins. sort=RATING ordering is free, so the better spots still come first.
-  if (full && base === LEG) u += "&categories=13000&fields=fsq_id,name,geocodes,location,categories";
+  if (!full) return u; // cheap auth probe — no fields, no credits spent
+  if (base === LEG) u += "&categories=13000&fields=" + FIELDS_LEG;
+  else u += "&fsq_category_ids=13000&fields=" + FIELDS_NEW;
   return u;
 }
 const FOOD = /restaurant|caf[eé]|coffee|\bbar\b|\bpub\b|bistro|brasserie|diner|bakery|gastropub|wine bar|cocktail|tavern|trattoria|izakaya|ramen|noodle|sushi|pizz|steak|\bgrill\b|bbq|barbecue|eatery|tea ?room|teahouse|dessert|ice cream|gelato|creper|juice bar|breakfast|brunch/i;
@@ -53,14 +58,18 @@ function row(e, slug) {
   const id = e.fsq_place_id || e.fsq_id;
   const lat = e.latitude != null ? e.latitude : e.geocodes?.main?.latitude;
   const lng = e.longitude != null ? e.longitude : e.geocodes?.main?.longitude;
-  const ph = e.photos?.[0] ? e.photos[0].prefix + "original" + e.photos[0].suffix : null;
+  const ph = e.photos?.[0] ? e.photos[0].prefix + "400x400" + e.photos[0].suffix : null;
+  const rating = e.rating != null && isFinite(+e.rating) ? +e.rating : null;     // FSQ 0–10
+  const pop = e.popularity != null && isFinite(+e.popularity) ? +e.popularity : null; // 0–1
+  const hours = e.hours?.display ? String(e.hours.display).trim() : null;        // human-readable
   return {
     ext_id: "fsq:" + id, name: e.name,
     category: e.categories?.[0]?.name || "Food & drink",
     description: e.description || e.location?.formatted_address || null,
     lat: +lat, lng: +lng, city: slug,
     url: e.website || (id ? "https://foursquare.com/v/" + id : null),
-    image: ph, source: "foursquare", status: STATUS,
+    image: ph, rating, popularity: pop, hours,
+    source: "foursquare", status: STATUS,
   };
 }
 
@@ -74,7 +83,13 @@ for (const c of cities) {
     if (r.ok) results = JSON.parse(t).results || [];
   } catch (e) { if (!dbg) { dbg = true; console.error("MAIN err " + String(e).slice(0, 200)); } }
   const rows = results
-    .filter((e) => { const n = (e.categories || []).map((x) => x.name || "").join(" "); return FOOD.test(n) && !NOTFOOD.test(n); })
+    .filter((e) => {
+      const n = (e.categories || []).map((x) => x.name || "").join(" ");
+      if (!(FOOD.test(n) && !NOTFOOD.test(n))) return false;
+      if (Array.isArray(e.chains) && e.chains.length) return false;        // independents only
+      if (e.rating != null && +e.rating < MIN_RATING) return false;        // high-rated (skipped if rating absent)
+      return true;
+    })
     .map((e) => row(e, c.slug))
     .filter((x) => x.name && /:.+/.test(x.ext_id) && isFinite(x.lat) && isFinite(x.lng));
   if (rows.length) {
