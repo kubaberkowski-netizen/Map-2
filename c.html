@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: blob: https://*.basemaps.cartocdn.com https://*.tile.openstreetmap.org; connect-src 'self' https://*.supabase.co; font-src 'self'; base-uri 'self'; object-src 'none'" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="robots" content="index,follow" />
+<title>A collection — Flâneur</title>
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Flâneur" />
+<meta id="og-title" property="og:title" content="A collection — Flâneur" />
+<meta id="og-desc" property="og:description" content="A hand-picked collection of places, mapped with Flâneur." />
+<meta name="description" id="m-desc" content="A hand-picked collection of places, mapped with Flâneur." />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  :root{--bg:#FAF8F3;--surface:#FFFFFF;--ink:#2C2522;--ink2:#5C524A;--ink3:#736A5E;--line:#E7E0D4;--accent:#C8372D;}
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust:100%;}
+  .wrap{max-width:620px;margin:0 auto;padding:22px 18px calc(40px + env(safe-area-inset-bottom));}
+  .brand{display:flex;align-items:center;gap:8px;font-weight:800;font-size:15px;letter-spacing:.01em;margin-bottom:20px;text-decoration:none;color:var(--ink);}
+  .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--accent);}
+  .eyebrow{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:6px;}
+  h1{font-family:Georgia,"Times New Roman",serif;font-weight:700;font-size:30px;line-height:1.15;margin:0 0 6px;}
+  h1 .e{margin-right:8px;}
+  .meta{font-size:14px;color:var(--ink3);margin-bottom:4px;}
+  .note{font-family:Georgia,serif;font-style:italic;font-size:16px;color:var(--ink2);margin:10px 0 0;line-height:1.5;}
+  #map{height:300px;border-radius:16px;overflow:hidden;border:1px solid var(--line);margin:18px 0;background:var(--surface);}
+  .leaflet-container{font:inherit;background:var(--bg);}
+  .pin{width:26px;height:26px;background:var(--accent);color:#fff;border:2px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font:700 13px/1 system-ui;box-shadow:0 2px 6px rgba(0,0,0,.3);}
+  ol.places{list-style:none;margin:0;padding:0;counter-reset:p;}
+  ol.places li{display:flex;align-items:flex-start;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:13px 14px;margin-bottom:9px;}
+  .num{counter-increment:p;flex:none;width:24px;height:24px;border-radius:50%;background:var(--accent);color:#fff;font:700 12px/24px system-ui;text-align:center;}
+  .num::before{content:counter(p);}
+  .pbody{flex:1;min-width:0;}
+  .pname{font-size:15.5px;font-weight:700;}
+  .pname .e{margin-right:5px;}
+  .pcat{font-size:12.5px;color:var(--ink3);margin-top:1px;}
+  .cta{display:block;text-align:center;background:var(--accent);color:#fff;text-decoration:none;border-radius:13px;padding:14px;font-weight:700;font-size:15px;margin:22px 0 8px;}
+  .sub{text-align:center;font-size:12.5px;color:var(--ink3);}
+  .state{text-align:center;color:var(--ink3);padding:60px 16px;font-size:15px;}
+  .foot{margin-top:30px;font-size:12px;color:var(--ink3);text-align:center;}
+  .foot a{color:var(--ink3);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="brand" href="./"><span class="dot"></span>Flâneur</a>
+  <div id="app"><div class="state">Loading collection…</div></div>
+  <div class="foot"><a href="./">Flâneur</a> — a personal guide to offbeat, storied places. · <a href="./privacy.html">Privacy</a></div>
+</div>
+<script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+(function(){
+  var SB_URL="https://fpngxchltuovtsyzigul.supabase.co";
+  var SB_ANON="sb_publishable_At343ximg1anAi2TkHyCXw_82vw4wMB";
+  var app=document.getElementById("app");
+  function esc(t){return String(t==null?"":t).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
+  function state(msg){app.innerHTML='<div class="state">'+esc(msg)+'</div>';}
+  function slugParam(){try{return new URLSearchParams(location.search).get("s");}catch(e){return null;}}
+  function setMeta(title,desc){
+    document.title=title;
+    var ot=document.getElementById("og-title");ot&&ot.setAttribute("content",title);
+    var od=document.getElementById("og-desc");od&&od.setAttribute("content",desc);
+    var md=document.getElementById("m-desc");md&&md.setAttribute("content",desc);
+  }
+  function render(c){
+    var spots=Array.isArray(c.spots)?c.spots.filter(function(s){return s&&typeof s.lat==="number"&&typeof s.lng==="number";}):[];
+    var title=(c.emoji?c.emoji+" ":"")+(c.name||"A collection");
+    var metaTitle=(c.name||"A collection")+" — Flâneur";
+    var desc=spots.length+" place"+(spots.length===1?"":"s")+(c.city?" in "+c.city:"")+", hand-picked on Flâneur"+(c.note?": "+c.note:".");
+    setMeta(metaTitle,desc.slice(0,180));
+    var h='<div class="eyebrow">A Flâneur collection</div>';
+    h+='<h1>'+(c.emoji?'<span class="e">'+esc(c.emoji)+'</span>':'')+esc(c.name||"A collection")+'</h1>';
+    h+='<div class="meta">'+spots.length+' place'+(spots.length===1?'':'s')+(c.city?' · '+esc(c.city):'')+'</div>';
+    if(c.note)h+='<p class="note">'+esc(c.note)+'</p>';
+    h+='<div id="map"></div>';
+    h+='<ol class="places">';
+    spots.forEach(function(s){
+      h+='<li><span class="num"></span><div class="pbody"><div class="pname">'+(s.e?'<span class="e">'+esc(s.e)+'</span>':'')+esc(s.n||"Place")+'</div>'+
+         '<div class="pcat">'+esc([s.cl,s.a].filter(Boolean).join(" · "))+'</div></div></li>';
+    });
+    h+='</ol>';
+    h+='<a class="cta" href="./">Open in Flâneur</a>';
+    h+='<div class="sub">Build and share your own collections in the app.</div>';
+    app.innerHTML=h;
+    if(window.L&&spots.length){
+      try{
+        var map=L.map("map",{scrollWheelZoom:false,attributionControl:true});
+        L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",{maxZoom:19,subdomains:"abcd",attribution:'© OpenStreetMap, © CARTO'}).addTo(map);
+        var b=[];
+        spots.forEach(function(s,i){
+          var mk=L.marker([s.lat,s.lng],{icon:L.divIcon({html:'<div class="pin">'+(i+1)+'</div>',className:"",iconSize:[26,26],iconAnchor:[13,13]})});
+          mk.addTo(map);b.push([s.lat,s.lng]);
+        });
+        if(b.length===1)map.setView(b[0],14);else map.fitBounds(b,{padding:[36,36],maxZoom:15});
+        setTimeout(function(){try{map.invalidateSize();}catch(e){}},120);
+      }catch(e){var m=document.getElementById("map");if(m)m.style.display="none";}
+    }else{var m=document.getElementById("map");if(m)m.style.display="none";}
+  }
+  var slug=slugParam();
+  if(!slug){state("No collection specified.");return;}
+  if(!window.supabase){state("Couldn’t load. Please try again.");return;}
+  var sb=window.supabase.createClient(SB_URL,SB_ANON);
+  sb.from("collections").select("*").eq("slug",slug).maybeSingle().then(function(r){
+    if(r.error||!r.data){state("This collection couldn’t be found — it may have been made private.");return;}
+    render(r.data);
+  },function(){state("Couldn’t load this collection.");});
+})();
+</script>
+</body>
+</html>

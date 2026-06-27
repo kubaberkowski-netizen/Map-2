@@ -261,3 +261,44 @@ subscriptions expire.
 Photos → Storage (lazy up/download, local cache); friends + city leaderboards
 (new RLS tables); server-validated achievements (Edge Function) to harden the XP
 economy before any social comparison ships.
+
+---
+
+## 11. Public collection links (shareable, no-login viewing)
+
+Users publish a personal collection to a public URL anyone can open without an
+account. Publishing requires the owner to be signed in; viewing does not. The
+published row **denormalises** the spots (name/area/coords/category) so the
+public page never needs the 4 MB catalogue.
+
+Public URL scheme (GitHub Pages has no server rewrites, so the slug is a query
+param): `https://<site>/c.html?s=<slug>`. After a move to a host with rewrites
+you can serve the same page at `/c/<slug>` with no data change.
+
+### Schema (run in SQL editor)
+```sql
+create table public.collections (
+  slug       text primary key,
+  owner_id   uuid references auth.users on delete cascade,
+  name       text not null,
+  emoji      text,
+  note       text,
+  city       text,
+  spots      jsonb not null default '[]'::jsonb,   -- [{id,n,a,lat,lng,c}]
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+alter table public.collections enable row level security;
+create policy "public read"  on public.collections for select using (true);
+create policy "owner insert" on public.collections for insert with check (auth.uid() = owner_id);
+create policy "owner update" on public.collections for update using (auth.uid() = owner_id);
+create policy "owner delete" on public.collections for delete using (auth.uid() = owner_id);
+```
+
+The `anon` key + `public read` policy is what lets `c.html` fetch a collection
+with no session. Owners can only write/delete their own rows. Moderation for
+now is manual: `delete from public.collections where slug = '…';`.
+
+Client surface: `window.flPublish` (in the cloud module) — `.publish(col)`
+upserts and returns `{slug,url}`; `.unpublish(slug)` deletes; `.signedIn()`
+gates the UI; `.open()` opens the magic-link modal.
