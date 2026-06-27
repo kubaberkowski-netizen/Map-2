@@ -741,7 +741,7 @@ var CFG={
   supabaseAnon:"sb_publishable_At343ximg1anAi2TkHyCXw_82vw4wMB",
   vapidPublic:"BKkW_wex2A88yNBlhBcTyDoyk2zX_jqUkQgID4dwY5phmuiOTUsiZNlcBf-T5eBHjhR2GE2jf6xWINQ4IoayWzU"          /* Web Push VAPID public key (base64url). See BACKEND.md §10. */
 };
-var AIFN="";try{window.flAIPlan=AIFN?function(p){return fetch(AIFN,{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify(p)}).then(function(r){return r.json()})}:null;}catch(e){}
+var AIFN="https://fpngxchltuovtsyzigul.supabase.co/functions/v1/plan-trip";try{window.flAIPlan=AIFN?function(p){return fetch(AIFN,{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify(p)}).then(function(r){return r.json()})}:null;}catch(e){}
 window.flTrack=function(){(window.__flq=window.__flq||[]).push([].slice.call(arguments));};
 if(!CFG.posthogKey&&!CFG.supabaseUrl)return;
 
