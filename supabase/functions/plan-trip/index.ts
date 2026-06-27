@@ -10,7 +10,7 @@
 // Response (JSON):      { ids:[spotId,...], note:"one sentence" }   // ids are a subset of the input
 
 const KEY = Deno.env.get("ANTHROPIC_API_KEY");
-const MODEL = Deno.env.get("ANTHROPIC_MODEL") || "claude-3-5-haiku-latest";
+const MODEL = Deno.env.get("ANTHROPIC_MODEL") || "claude-haiku-4-5";
 const CORS = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Headers": "content-type",
