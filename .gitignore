@@ -8,3 +8,5 @@ research/**/*-b.json
 # numbered per-batch splits, e.g. warsaw-11a.json / warsaw-10b.json (a digit then a
 # letter before .json) — but NOT merged files like warsaw-11.json or barcelona.json
 research/**/*[0-9][a-z].json
+# derived dedup name-lists staged for a discovery run (regenerable from spots.json)
+research/new/_existing_*.json
