@@ -28,16 +28,20 @@ Deno.serve(async (req) => {
     const { city, days, prompt, spots } = await req.json();
     if (!Array.isArray(spots) || !spots.length) return json({ ids: [] });
     const valid = new Set(spots.map((s: any) => s.id));
-    const target = Math.min(8 * (days || 2), 16);
-    const list = spots.slice(0, 300).map((s: any) => `${s.id}\t${s.n}\t${s.c}`).join("\n");
+    const perDay = 5;
+    const target = Math.min(perDay * (days || 2), 14);
+    const list = spots.slice(0, 300).map((s: any) => `${s.id}\t${s.n}\t${s.c}\t${s.a || ""}`).join("\n");
     const system =
       `You are a concierge for Flâneur, a guide to offbeat, storied places. ` +
-      `From the PLACES list ONLY, choose about ${target} places that best match the traveller's request — ` +
-      `bias toward the most distinctive/storied and a walkable, coherent set. ` +
+      `From the PLACES list ONLY, choose places matching the traveller's request. RULES: ` +
+      `(1) Honour explicit quantities — "a coffee"/"a coffee break" means exactly ONE cafe, not several. ` +
+      `(2) Keep the set geographically TIGHT and walkable — strongly prefer places in the same or adjacent areas (the 4th column); never mix far-apart neighbourhoods in a single day. ` +
+      `(3) Choose a relaxed number — about ${perDay} per day (${days || 2} day(s) total, ~${target} max); fewer is better than cramming. ` +
+      `(4) Bias toward the most distinctive/storied. ` +
       `Reply with STRICT JSON: {"ids":["<id>",...],"note":"one short sentence"}. Use ids from the list only; no prose.`;
     const user =
       `City: ${city}\nDays: ${days || 2}\nTraveller wants: ${prompt || "a curious wander"}\n\n` +
-      `PLACES (id<TAB>name<TAB>category):\n${list}`;
+      `PLACES (id<TAB>name<TAB>category<TAB>area):\n${list}`;
     const r = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
       headers: { "content-type": "application/json", "x-api-key": KEY, "anthropic-version": "2023-06-01" },
