@@ -86,7 +86,7 @@
          '<div class="pcat">'+esc([s.cl,s.a].filter(Boolean).join(" · "))+'</div></div></li>';
     });
     h+='</ol>';
-    h+='<a class="cta" href="./">Open in Flâneur</a>';
+    h+='<a class="cta" href="./#c='+encodeURIComponent(c.slug||"")+'">Open in Flâneur</a>';
     h+='<div class="sub">Build and share your own collections in the app.</div>';
     app.innerHTML=h;
     if(window.L&&spots.length){
