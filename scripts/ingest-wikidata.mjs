@@ -15,6 +15,16 @@ const cities = JSON.parse(
 );
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// P18 comes back as an http Special:FilePath URL pointing at the full-res
+// original. Force https (else it's blocked as mixed content on the https app)
+// and ask Commons for a 400px-wide thumbnail so the discovery cards stay light.
+function commonsThumb(u) {
+  if (!u) return null;
+  u = u.replace(/^http:/i, "https:");
+  if (/Special:FilePath/i.test(u)) u += (u.includes("?") ? "&" : "?") + "width=400";
+  return u;
+}
+
 // storied types: monument, memorial, tourist attraction, archaeological site,
 // sculpture, museum, historic site, heritage building, castle, statue
 const TYPES = ["Q4989906","Q5003624","Q570116","Q839954","Q860861","Q33506","Q1081138","Q35112127","Q23413","Q179700"];
@@ -56,7 +66,7 @@ for (const c of cities) {
       lat, lng,
       city: c.slug,
       url: b.article?.value || `https://www.wikidata.org/wiki/${qid}`,
-      image: b.image?.value || null,
+      image: commonsThumb(b.image?.value),
       source: "wikidata",
       status: STATUS,
     };
