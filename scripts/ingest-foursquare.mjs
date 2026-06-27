@@ -26,10 +26,13 @@ const FIELDS_NEW = "fsq_place_id,name,latitude,longitude,location,categories,rat
 const FREE_LEG = "fsq_id,name,geocodes,location,categories";
 const FREE_NEW = "fsq_place_id,name,latitude,longitude,location,categories";
 function q(base, c, full, free) {
-  let u = `${base}?ll=${c.lat},${c.lng}&radius=2500&limit=${full ? 40 : 5}&sort=RATING`;
+  let u = `${base}?ll=${c.lat},${c.lng}&radius=2500&limit=${full ? 50 : 5}&sort=RATING`;
   if (!full) return u; // cheap auth probe — no fields, no credits spent
+  // Category filtering: legacy v3 accepts the numeric "13000" (Dining & Drinking);
+  // the new Places API uses a different taxonomy and rejects it (400), so we omit
+  // the category param there and rely on the FOOD/NOTFOOD name regex below.
   if (base === LEG) u += "&categories=13000&fields=" + (free ? FREE_LEG : FIELDS_LEG);
-  else u += "&fsq_category_ids=13000&fields=" + (free ? FREE_NEW : FIELDS_NEW);
+  else u += "&fields=" + (free ? FREE_NEW : FIELDS_NEW);
   return u;
 }
 const FOOD = /restaurant|caf[eé]|coffee|\bbar\b|\bpub\b|bistro|brasserie|diner|bakery|gastropub|wine bar|cocktail|tavern|trattoria|izakaya|ramen|noodle|sushi|pizz|steak|\bgrill\b|bbq|barbecue|eatery|tea ?room|teahouse|dessert|ice cream|gelato|creper|juice bar|breakfast|brunch/i;
