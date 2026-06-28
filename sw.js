@@ -1,5 +1,5 @@
 /* Flâneur service worker — offline app shell + tile/asset caching */
-const SHELL = "flaneur-shell-v226";
+const SHELL = "flaneur-shell-v227";
 const TILES = "flaneur-tiles-v2";
 const TILE_MAX = 350;
 
