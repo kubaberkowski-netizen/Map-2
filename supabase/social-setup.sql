@@ -189,3 +189,28 @@ create policy "avatars update" on storage.objects for update using (bucket_id = 
 
 -- Done. Sign in to the app, open "Profile & friends", claim a @username,
 -- and the social features light up. (Push notifications, §16, are separate.)
+
+-- ── Block enforcement (review follow-up) ─────────────────────────────────────
+-- Stop a user you've blocked from following you, friend-requesting you, or
+-- liking/commenting on your collections. Self-contained: safe to paste alone.
+create or replace function public.is_blocked(p_blocker uuid, p_blocked uuid)
+  returns boolean language sql security definer stable as
+$$ select exists (select 1 from public.blocks where blocker_id = p_blocker and blocked_id = p_blocked) $$;
+revoke all on function public.is_blocked(uuid,uuid) from public;
+grant execute on function public.is_blocked(uuid,uuid) to authenticated;
+
+drop policy if exists "follows self insert" on public.follows;
+create policy "follows self insert" on public.follows for insert
+  with check (auth.uid() = follower_id and not public.is_blocked(followee_id, auth.uid()));
+
+drop policy if exists "fr insert" on public.friend_requests;
+create policy "fr insert" on public.friend_requests for insert
+  with check (auth.uid() = requester_id and status = 'pending' and not public.is_blocked(addressee_id, auth.uid()));
+
+drop policy if exists "comments self insert" on public.collection_comments;
+create policy "comments self insert" on public.collection_comments for insert
+  with check (auth.uid() = user_id and not public.is_blocked((select c.owner_id from public.collections c where c.slug = collection_comments.slug), auth.uid()));
+
+drop policy if exists "likes self insert" on public.collection_likes;
+create policy "likes self insert" on public.collection_likes for insert
+  with check (auth.uid() = user_id and not public.is_blocked((select c.owner_id from public.collections c where c.slug = collection_likes.slug), auth.uid()));

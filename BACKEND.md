@@ -683,3 +683,14 @@ create policy "ce ins editor" on public.collection_events for insert with check 
 (`is_collab` is the SECURITY DEFINER function from §19.) Presence/broadcast need
 no SQL — they work as long as Realtime is enabled on the project (default).
 Everything degrades gracefully if the table/Realtime are unavailable.
+
+---
+
+## 21. Block enforcement (RLS)
+
+Hardens §18 blocks so a blocked user can't *interact*, not just be hidden. A
+`SECURITY DEFINER public.is_blocked(blocker,blocked)` is added, and the insert
+policies for `follows`, `friend_requests`, `collection_comments` and
+`collection_likes` now reject the row when the target (or the collection owner)
+has blocked the actor. See the tail of `supabase/social-setup.sql`; it's
+self-contained and idempotent, so it can be pasted on its own after the rest.

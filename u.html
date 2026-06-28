@@ -99,6 +99,7 @@
     h+='<a class="cta" href="./#u='+encodeURIComponent(p.username)+'">Follow @'+esc(p.username)+' in Flâneur</a>';
     h+='<div class="sub">Opens the app — sign in to follow and see their newest collections.</div>';
     app.innerHTML=h;
+    var _av=app.querySelector("img.avatar");if(_av)_av.onerror=function(){var dv=document.createElement("div");dv.className="avatar";dv.textContent=init;_av.replaceWith(dv);};
   }
   var u=uParam();
   if(!u){state("No profile specified.");return;}

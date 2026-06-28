@@ -163,6 +163,7 @@
       var av=a.avatar_v?(SB_URL+'/storage/v1/object/public/avatars/'+encodeURIComponent(a.user_id)+'?v='+a.avatar_v):null;
       var ic=av?('<img src=\''+av+'\' alt=\'\'>'):('<span class=\'byi\'>'+esc((a.display_name||a.username||'?').slice(0,1).toUpperCase())+'</span>');
       bx.innerHTML='<a class=\'byl\' href=\'u.html?u='+encodeURIComponent(a.username)+'\'>'+ic+'<span>by @'+esc(a.username)+'</span></a>';
+      var _bi=bx.querySelector('img');if(_bi)_bi.onerror=function(){var sp=document.createElement('span');sp.className='byi';sp.textContent=(a.display_name||a.username||'?').slice(0,1).toUpperCase();_bi.replaceWith(sp);};
     },function(){});}catch(e){}
   }
   function renderComments(slug){

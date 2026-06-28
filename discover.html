@@ -68,6 +68,7 @@
          (c.likes>0?'<div class="lk">♥ '+c.likes+'</div>':'')+'</a>';
     });
     app.innerHTML=h;
+    app.querySelectorAll(".cm img").forEach(function(im){im.onerror=function(){im.style.display="none";};});
   }
   if(!window.supabase){state("Couldn’t load. Please try again.");return;}
   var sb=window.supabase.createClient(SB_URL,SB_ANON);
