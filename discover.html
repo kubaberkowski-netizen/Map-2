@@ -56,7 +56,7 @@
     if(!cols.length){state("No public collections yet.");return;}
     var h="";
     cols.forEach(function(c){
-      var n=Array.isArray(c.spots)?c.spots.length:0;
+      var n=(c.places!=null?c.places:(Array.isArray(c.spots)?c.spots.length:0));
       var itin=Array.isArray(c.spots)&&c.spots.length&&typeof c.spots[0].d==="number";
       var a=c.author;
       var av=(a&&a.avatar_v)?(SB_URL+"/storage/v1/object/public/avatars/"+encodeURIComponent(a.user_id)+"?v="+a.avatar_v):null;
@@ -72,6 +72,14 @@
   }
   if(!window.supabase){state("Couldn’t load. Please try again.");return;}
   var sb=window.supabase.createClient(SB_URL,SB_ANON);
+  sb.rpc("top_collections",{lim:50}).then(function(r){
+    if(r&&!r.error&&r.data){
+      if(!r.data.length){state("No public collections yet — be the first to publish one.");return;}
+      render(r.data.map(function(c){return {slug:c.slug,name:c.name,emoji:c.emoji,city:c.city,places:c.places,likes:c.likes,author:c.author_username?{user_id:c.owner_id,username:c.author_username,avatar_v:c.author_avatar_v}:null};}));return;
+    }
+    legacy();
+  },function(){legacy();});
+  function legacy(){
   Promise.all([
     sb.from("collections").select("slug,name,emoji,city,spots,owner_id,updated_at").order("updated_at",{ascending:false}).limit(80),
     sb.from("collection_likes").select("slug")
@@ -88,6 +96,7 @@
       render(cols);
     },function(){render(cols.map(function(c){return Object.assign({},c,{likes:cnt[c.slug]||0});}).sort(function(x,y){return y.likes-x.likes;}));});
   },function(){state("Couldn’t load collections.");});
+  }
 })();
 </script>
 </body>

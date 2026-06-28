@@ -214,3 +214,24 @@ create policy "comments self insert" on public.collection_comments for insert
 drop policy if exists "likes self insert" on public.collection_likes;
 create policy "likes self insert" on public.collection_likes for insert
   with check (auth.uid() = user_id and not public.is_blocked((select c.owner_id from public.collections c where c.slug = collection_likes.slug), auth.uid()));
+
+-- ── Discover ranking RPC (review follow-up) ──────────────────────────────────
+-- Ranks ALL public collections by like count (server-side), returns just the
+-- top N — so Discover no longer fetches every like row or ranks only recent ones.
+create or replace function public.top_collections(lim int default 30)
+returns table(slug text, name text, emoji text, city text, owner_id uuid,
+              updated_at timestamptz, places int, likes bigint, liked boolean,
+              author_username text, author_avatar_v bigint)
+language sql stable as $$
+  select c.slug, c.name, c.emoji, c.city, c.owner_id, c.updated_at,
+         coalesce(jsonb_array_length(c.spots),0) as places,
+         coalesce(l.cnt,0) as likes,
+         exists(select 1 from public.collection_likes ml where ml.slug=c.slug and ml.user_id=auth.uid()) as liked,
+         p.username, p.avatar_v
+  from public.collections c
+  left join (select slug, count(*) cnt from public.collection_likes group by slug) l on l.slug=c.slug
+  left join public.public_profiles p on p.user_id=c.owner_id
+  order by coalesce(l.cnt,0) desc, c.updated_at desc
+  limit greatest(1, least(coalesce(lim,30),100));
+$$;
+grant execute on function public.top_collections(int) to anon, authenticated;

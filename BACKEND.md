@@ -694,3 +694,17 @@ policies for `follows`, `friend_requests`, `collection_comments` and
 `collection_likes` now reject the row when the target (or the collection owner)
 has blocked the actor. See the tail of `supabase/social-setup.sql`; it's
 self-contained and idempotent, so it can be pasted on its own after the rest.
+
+---
+
+## 22. Discover ranking RPC + misc review follow-ups
+
+- `top_collections(lim)` RPC ranks **all** public collections by like count
+  server-side and returns the top N (with place count, the caller's `liked`
+  flag, and author handle/avatar). Discover (`flSocial.discover` + `discover.html`)
+  calls it and **falls back** to the old client-side tally if it's absent — so
+  no behaviour change until you add it, then better ranking + far less data
+  transferred. Self-contained; paste it on its own.
+- Collaborative-merge spot cap aligned to 200 (matches publish).
+- Re-added author avatars on feed/Discover collection cards (regressed during a
+  refactor).
