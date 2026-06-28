@@ -96,11 +96,14 @@ The client already calls it (`flEvents.parseLink` → `sb.functions.invoke("pars
 and degrades gracefully until it's deployed.
 
 ### `ingest-events` — auto-fills the feed (cold-start answer)
-One geo-query per city (all 115, from `cities.json`) against the **Ticketmaster
-Discovery API**, mapped into `events` and upserted by `ext_id` (no duplicates).
+One geo-query per city (all 115, inlined) against the **Ticketmaster Discovery
+API**, mapped into `events` and upserted by `ext_id` (no duplicates). Populates
+`description` from Ticketmaster's own copy (`info`/`pleaseNote`), falling back to
+a genre line. Single-file, so it can be deployed by pasting into the dashboard
+function editor (mobile) — no second file needed.
 ```bash
 # 1. free key from https://developer.ticketmaster.com (Discovery API)
-supabase functions deploy ingest-events
+supabase functions deploy ingest-events      # or paste index.ts in the dashboard
 supabase secrets set TICKETMASTER_KEY=<key>
 # optional: review before publishing instead of going live immediately
 supabase secrets set INGEST_STATUS=pending

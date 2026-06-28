@@ -48,6 +48,14 @@ function image(e: any): string | null {
   return (p && (p.image || (p.images && (p.images.huge || p.images.large || p.images.medium)))) || null;
 }
 
+// SeatGeek has no event blurb, but the lineup beyond the headliner is genuinely
+// additive (the card meta only shows venue + time), so surface support acts.
+function describe(e: any): string | null {
+  const perf = (e.performers || []).map((p: any) => p && p.name).filter(Boolean);
+  const extra = perf.slice(1, 4);
+  return extra.length ? "With " + extra.join(", ") : null;
+}
+
 Deno.serve(async () => {
   if (!CLIENT_ID) return new Response(JSON.stringify({ error: "SEATGEEK_CLIENT_ID not set" }), { status: 500 });
   const auth = `client_id=${CLIENT_ID}` + (CLIENT_SECRET ? `&client_secret=${CLIENT_SECRET}` : "");
@@ -67,6 +75,7 @@ Deno.serve(async () => {
       return {
         ext_id: "sg:" + e.id,
         name: e.title || e.short_title,
+        description: describe(e),
         category: category(e.type, e.taxonomies?.[0]?.name),
         venue: v.name || null,
         lat: typeof loc.lat === "number" ? loc.lat : null,
