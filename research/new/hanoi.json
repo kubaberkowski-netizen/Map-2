@@ -1,0 +1,310 @@
+[
+  {
+    "n": "Kim Ngan Guild Hall",
+    "a": "Hoàn Kiếm",
+    "c": "faith",
+    "lat": 21.0341,
+    "lng": 105.8529,
+    "s": "Gold & silver guild temple hiding in plain sight",
+    "w": "At 42-44 Hang Bac — 'Silver Street' — this 17th-century communal house served the gold and silver craftsmen's guild. Three courtyards deep, dark-teak altars and drum towers hide behind a facade most passers-by mistake for a shophouse. One of the Old Quarter's last intact guild halls.",
+    "_facts": [
+      "Located at 42-44 Hang Bac (Silver Street) in the Old Quarter",
+      "17th-century communal house (dinh) for the gold and silver craftsmen guild",
+      "Three-courtyard traditional Vietnamese layout with teak woodwork and gilded altars",
+      "One of the few surviving guild communal houses in Hanoi's Old Quarter"
+    ],
+    "_sources": [
+      "https://nominatim.openstreetmap.org/search?q=Dinh+Kim+Ng%C3%A2n%2C+Hanoi&format=json",
+      "https://en.wikipedia.org/wiki/36_Streets_of_Hanoi"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "n": "One Pillar Pagoda",
+    "a": "Ba Đình",
+    "c": "faith",
+    "lat": 21.0359,
+    "lng": 105.8336,
+    "s": "A lotus on a single stone leg since 1049",
+    "w": "Emperor Lý Thái Tông built this in 1049 after dreaming the goddess of mercy handed him a son from a lotus throne. The timber chapel sits on one stone pillar 1.25 metres wide rising from a square pond. French forces dynamited it in September 1954 during their withdrawal; the government rebuilt it within weeks. One of Vietnam's two most iconic temples.",
+    "_facts": [
+      "Built 1049 by Emperor Lý Thái Tông after a dream of the goddess of mercy",
+      "Single stone pillar 1.25 metres in diameter rising from a pond",
+      "Blown up by French forces September 1954; rebuilt by DRV within weeks",
+      "Regarded alongside Hương Temple as one of Vietnam's two most iconic temples"
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/api/rest_v1/page/summary/One_Pillar_Pagoda"
+    ],
+    "confidence": "high"
+  },
+  {
+    "n": "Temple of Literature",
+    "a": "Đống Đa",
+    "c": "literary",
+    "lat": 21.0288,
+    "lng": 105.8360,
+    "s": "Vietnam's first university, open since 1076",
+    "w": "Founded in 1070 and opened as the Imperial Academy — Vietnam's first national university — in 1076, Văn Miếu trained mandarins for seven centuries. Eighty-two stone stelae on tortoise bases record every doctoral graduate 1442-1778: 1,307 scholars named and homed. Students rub the turtles' heads before exams. The stelae are a UNESCO Memory of the World document.",
+    "_facts": [
+      "Founded 1070 under Lý Thánh Tông; Imperial Academy opened 1076",
+      "Vietnam's first national university; operated 1076-1779",
+      "82 stone doctoral steles on tortoise bases record 1,307 graduates 1442-1778",
+      "Stelae on UNESCO Memory of the World register since 2010"
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Temple_of_Literature%2C_Hanoi"
+    ],
+    "confidence": "high"
+  },
+  {
+    "n": "Vietnam Museum of Ethnology",
+    "a": "Cầu Giấy",
+    "c": "museum",
+    "lat": 21.0401,
+    "lng": 105.7988,
+    "s": "54 peoples, one Dong Son drum-shaped building",
+    "w": "A museum that looks like what it contains: the building was shaped as a Đông Sơn bronze drum by a Tày ethnic architect. Inside, 15,000 artefacts cover all 54 recognised ethnic groups. The outdoor zone has full-scale traditional structures — a 17-metre Bahnar communal house, a Cham tower, stilt-houses over a real pond. Consistently rated the country's best museum.",
+    "_facts": [
+      "Building designed in shape of a Đông Sơn drum by Tày architect Ha Duc Linh",
+      "Covers all 54 officially recognised ethnic groups in Vietnam",
+      "Collection over 15,000 artifacts and 42,000 photographs",
+      "Outdoor zone has full-scale traditional buildings from multiple ethnic groups"
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Vietnam_Museum_of_Ethnology"
+    ],
+    "confidence": "high"
+  },
+  {
+    "n": "Imperial Citadel of Thăng Long",
+    "a": "Ba Đình",
+    "c": "history",
+    "lat": 21.0384,
+    "lng": 105.8406,
+    "s": "A thousand years of power, plus a Cold War bunker",
+    "w": "Founded in 1010, Vietnam's seat of power until 1789. The French demolished most of it for barracks; only the North Gate and Flag Tower survived. Excavations since 2002 found nine occupation layers. Building D67 (1967), with 60-centimetre soundproof walls, is where Giáp's Politburo planned the Tet Offensive. UNESCO World Heritage Site since 2010.",
+    "_facts": [
+      "Founded 1010 under Lý Thái Tổ; royal seat until 1789",
+      "French demolished most structures except North Gate and Flag Tower",
+      "Excavations since 2002 revealed nine occupation layers",
+      "Building D67 (1967), 60cm soundproof walls, used to plan the Tet Offensive",
+      "UNESCO World Heritage Site inscribed July 31, 2010"
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Imperial_Citadel_of_Th%C4%83ng_Long"
+    ],
+    "confidence": "high"
+  },
+  {
+    "n": "Vietnam National Museum of Fine Arts",
+    "a": "Ba Đình",
+    "c": "museum",
+    "lat": 21.0306,
+    "lng": 105.8370,
+    "s": "Lacquer propaganda art in a colonial mansion",
+    "w": "A French colonial school converted into Vietnam's primary art museum in 1966. The standout is lacquer painting — sơn mài — developed at Hanoi's École des Beaux-Arts from the 1930s into a vehicle for revolutionary imagery: female militia and anti-aircraft gunners in gleaming urushi. The building also holds Đông Sơn bronzes and Cham sculpture.",
+    "_facts": [
+      "Building formerly a French colonial school, converted to museum in 1966",
+      "Houses Vietnam's primary collection of lacquer (sơn mài) painting",
+      "Lacquer painting developed at Hanoi's École des Beaux-Arts from the 1930s",
+      "Collection spans Dong Son bronzes, Cham sculpture, and propaganda-era paintings"
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Vietnam_National_Museum_of_Fine_Arts"
+    ],
+    "confidence": "high"
+  },
+  {
+    "n": "Cửa Bắc Church",
+    "a": "Ba Đình",
+    "c": "faith",
+    "lat": 21.0414,
+    "lng": 105.8405,
+    "s": "Cannonball scars from 1882 still in the facade",
+    "w": "Built in 1931 as part of Ernest Hébrard's Hanoi urban plan, originally named the Church of Our Lady of the Martyrs. Two cannonball scars from the 1882 Battle of Hanoi are preserved on the facade — Black Flag troops bombarding the old city gate that stood here. In 2006, George W. Bush worshipped inside: the first sitting US president to do so in Vietnam.",
+    "_facts": [
+      "Built 1931 as part of Ernest Hébrard's Hanoi urban plan",
+      "Originally named Church of Our Lady of the Martyrs",
+      "Two cannonball scars from 1882 Battle of Hanoi preserved on facade",
+      "In November 2006, George W. Bush attended ecumenical service — first sitting US president to worship in Vietnam"
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Cua_Bac_Church"
+    ],
+    "confidence": "high"
+  },
+  {
+    "n": "Hanoi Opera House",
+    "a": "Hoàn Kiếm",
+    "c": "music",
+    "lat": 21.0242,
+    "lng": 105.8578,
+    "s": "Palais Garnier replica, seat of a revolution",
+    "w": "Modelled on the Palais Garnier but scaled to 870 seats and built 1901-1911 for French Hanoi's elite — subsidised opera each winter at native taxpayers' expense. On 19 August 1945 a mass rally outside sparked the August Revolution; Viet Minh leaders proclaimed independence from its balcony. The first National Assembly met inside on 2 March 1946.",
+    "_facts": [
+      "Built 1901-1911, modelled on Palais Garnier; 870-seat auditorium",
+      "One of three French colonial opera houses in Indochina",
+      "Mass rally August 19, 1945 outside sparked the August Revolution",
+      "Viet Minh leaders proclaimed independence from the balcony; first National Assembly March 2, 1946"
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Hanoi_Opera_House"
+    ],
+    "confidence": "high"
+  },
+  {
+    "n": "Flag Tower of Hanoi",
+    "a": "Ba Đình",
+    "c": "history",
+    "lat": 21.0326,
+    "lng": 105.8398,
+    "s": "The only citadel structure the French kept standing",
+    "w": "Built in 1812 during the Nguyen dynasty's Vauban reconstruction of the Thang Long Citadel, this 33.4-metre tower is the sole structure French authorities preserved — they used it as a military post. Its doors are inscribed 'To welcome dawn's sunlight' and 'To reflect light.' The national flag has flown from the top around the clock since 1956.",
+    "_facts": [
+      "Built 1812 during Nguyen dynasty Vauban reconstruction",
+      "Height 33.4 metres (41m with flag)",
+      "Sole major citadel structure preserved by French colonial authorities, used as military post",
+      "Doorways inscribed with poetic references to light and the sun",
+      "Has flown Vietnamese national flag continuously since 1956"
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Flag_Tower_of_Hanoi"
+    ],
+    "confidence": "high"
+  },
+  {
+    "n": "Trúc Bạch Lake",
+    "a": "Ba Đình",
+    "c": "history",
+    "lat": 21.0463,
+    "lng": 105.8384,
+    "s": "Where John McCain hit the water, October 1967",
+    "w": "On 26 October 1967, US Navy pilot John McCain was shot down on his 23rd bombing mission and parachuted into this lake, breaking both arms and a knee on impact. Locals pulled him out; soldiers took him prisoner for five and a half years. A stone monument on the western bank marks the spot. The lake was dammed from West Lake in the 17th century by bamboo-silk weavers.",
+    "_facts": [
+      "October 26, 1967: John McCain's A-4 Skyhawk shot down; he parachuted into this lake",
+      "McCain broke both arms and a knee; imprisoned 5.5 years as POW",
+      "Stone monument on western bank commemorates event in Vietnamese and English",
+      "Lake dammed from West Lake in 17th century; named for bamboo-silk weavers"
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Tr%C3%BAc_B%E1%BA%A1ch_Lake"
+    ],
+    "confidence": "high"
+  },
+  {
+    "n": "Phủ Tây Hồ",
+    "a": "Tây Hồ",
+    "c": "faith",
+    "lat": 21.0557,
+    "lng": 105.8196,
+    "s": "Goddess of pleasure on a West Lake peninsula",
+    "w": "On a narrow tongue of land in West Lake, this is Hanoi's most popular pilgrimage site. Dedicated to Princess Liễu Hạnh — one of Vietnam's Four Immortals, twice exiled from heaven, once for breaking a jade cup — the courtyard fills with offerings on the 1st and 15th of each lunar month. Incense, paper money, fruit. The water views from the outer terrace are some of the quietest in the city.",
+    "_facts": [
+      "Located on a narrow peninsula in West Lake (Hồ Tây)",
+      "Dedicated to Princess Liễu Hạnh, one of the Four Immortals of Vietnamese folk religion",
+      "Liễu Hạnh governs Earth realm in the Đạo Mẫu Four Palaces belief",
+      "Most popular pilgrimage site in Hanoi; busiest on 1st and 15th of lunar month",
+      "Legend: Liễu Hạnh twice exiled from heaven, once for breaking a jade cup"
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Li%E1%BB%85u_H%E1%BA%A1nh"
+    ],
+    "confidence": "high"
+  },
+  {
+    "n": "Đồng Xuân Market",
+    "a": "Hoàn Kiếm",
+    "c": "food",
+    "lat": 21.0383,
+    "lng": 105.8497,
+    "s": "1889 iron market that burned and was fought for",
+    "w": "Built by the French in 1889 with iron-frame arcades — five gabled bays, two floors, wholesale everything from before dawn. In July 1994 a fire killed five people and gutted most of the building before army units fought through the night to save the shell. Reopened within months; the original five facade arches on Hang Khoai Street still stand. Hanoi's oldest covered market.",
+    "_facts": [
+      "Built by French administration 1889 with iron-frame arcade construction",
+      "Largest covered wholesale market in Hanoi",
+      "July 1994 fire killed five people and gutted most of the building; rebuilt same year",
+      "Five original gabled facade arches on Hang Khoai Street survived"
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/api/rest_v1/page/summary/D%E1%BB%93ng_Xu%C3%A2n_Market"
+    ],
+    "confidence": "high"
+  },
+  {
+    "n": "Chả Cá Lã Vọng",
+    "a": "Hoàn Kiếm",
+    "c": "food",
+    "lat": 21.0357,
+    "lng": 105.8492,
+    "s": "So famous the city renamed the street after the dish",
+    "w": "The Doan family began serving turmeric-marinated catfish grilled at the table in the 19th century and kept going through occupation, partition, and collectivisation. The dish became so identified with this address that city authorities renamed the lane Phố Chả Cá — the only street in Hanoi named after a single recipe. One dish, one menu, one room.",
+    "_facts": [
+      "Doan family restaurant serving turmeric-marinated catfish (chả cá) since 19th century",
+      "City renamed the lane 'Phố Chả Cá' after the dish",
+      "Only street in Hanoi named after a single dish",
+      "Single-dish restaurant: catfish grilled at table with dill, spring onion, over bún"
+    ],
+    "_sources": [
+      "https://nominatim.openstreetmap.org/search?q=Ch%E1%BA%A3+C%C3%A1+L%C3%A3+V%E1%BB%8Dng%2C+Hanoi&format=json"
+    ],
+    "confidence": "high"
+  },
+  {
+    "n": "Hội Quán Phúc Kiến",
+    "a": "Hoàn Kiếm",
+    "c": "faith",
+    "lat": 21.0356,
+    "lng": 105.8489,
+    "s": "Fujianese sea-goddess temple on the herb-sellers' street",
+    "w": "Hokkien merchants settled the Old Quarter in the 17th-18th centuries and built this assembly hall to worship Mazu, sea goddess — practical piety for traders whose goods arrived by junk from the South China coast. On Lan Ong Street, still selling dried bark and bones by the kilo. Dense with painted dragons, incense coils the size of wagon wheels, paper ingots.",
+    "_facts": [
+      "Built by Fujianese (Hokkien) merchants in Hanoi's Old Quarter 17th-18th centuries",
+      "Located on Lan Ong Street, historically Hanoi's traditional medicine and herb market",
+      "Dedicated to Mazu, Chinese sea goddess and patron of maritime traders",
+      "Still used for active worship by Hanoi's Hokkien Chinese community"
+    ],
+    "_sources": [
+      "https://nominatim.openstreetmap.org/search?q=H%E1%BB%99i+Qu%C3%A1n+Ph%C3%BAc+Ki%E1%BA%BFn%2C+Hanoi&format=json"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "n": "Vietnam National Museum of History",
+    "a": "Hoàn Kiếm",
+    "c": "museum",
+    "lat": 21.0241,
+    "lng": 105.8598,
+    "s": "French colonial archaeology museum in a colonial building",
+    "w": "Completed in 1932 by the French School of the Far East (EFEO) — the colonial body that excavated sites across Indochina — the building blends Beaux-Arts with Vietnamese roof forms in an early 'Indochine' style. North Vietnam took it over in 1958. Inside: Đông Sơn drums, Cham sandstone gods, relics from every dynasty Hung King to Nguyen.",
+    "_facts": [
+      "Building completed 1932 by EFEO (French School of the Far East)",
+      "Architecture blends Beaux-Arts with Vietnamese roof forms — Indochine style",
+      "Acquired by North Vietnamese government in 1958",
+      "Collection covers Bronze Age Dong Son through Cham to Nguyen dynasty"
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/api/rest_v1/page/summary/Vietnam_National_Museum_of_History"
+    ],
+    "confidence": "high"
+  },
+  {
+    "n": "Quảng Bá Flower Market",
+    "a": "Tây Hồ",
+    "c": "food",
+    "lat": 21.0682,
+    "lng": 105.8273,
+    "s": "Hanoi's flower trade runs 1am to 5am",
+    "w": "While the city sleeps, growers from villages around West Lake arrive with motorbikes stacked ceiling-high: peach blossom in January, lotus in summer, chrysanthemums year-round. The market runs roughly 1am to 5am — by sunrise the stalls are bare. Come at 2am: women bargain under generator-powered lights, tuberose changing hands faster than cash. Overwhelmingly fragrant.",
+    "_facts": [
+      "Wholesale flower market on Au Co Street near West Lake, operating approx 1am-5am",
+      "Suppliers from flower-growing villages around West Lake, especially Nghi Tam",
+      "Seasonal flowers: peach blossom (Tet), lotus (summer), chrysanthemum year-round",
+      "Primary buyers are retail flower vendors selling from motorbikes across Hanoi"
+    ],
+    "_sources": [
+      "https://nominatim.openstreetmap.org/search?q=Ch%E1%BB%A3+Hoa+Qu%E1%BA%A3ng+B%C3%A1%2C+Hanoi&format=json"
+    ],
+    "confidence": "medium"
+  }
+]
