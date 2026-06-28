@@ -441,3 +441,62 @@ create policy "likes self delete" on public.collection_likes for delete using (a
 
 Everything degrades gracefully if this table is absent (counts read as 0, the
 feed still lists collections) — so it can be added independently of §13.
+
+---
+
+## 15. Social: comments on collections + friends (request/accept)
+
+### Comments
+Public-read comments on any published collection (rendered read-only on
+`c.html` with a count; posted/deleted in-app via the comment sheet opened from
+a collection in the feed/Discover). Client: `flSocial.comments(slug)`,
+`addComment(slug,body)`, `deleteComment(id)`, `commentCount(slug)`.
+
+```sql
+create table public.collection_comments (
+  id         bigint generated always as identity primary key,
+  slug       text not null references public.collections(slug) on delete cascade,
+  user_id    uuid not null references auth.users on delete cascade,
+  body       text not null check (char_length(body) between 1 and 500),
+  created_at timestamptz not null default now()
+);
+create index collection_comments_slug on public.collection_comments (slug, created_at);
+alter table public.collection_comments enable row level security;
+create policy "comments public read" on public.collection_comments for select using (true);
+create policy "comments self insert" on public.collection_comments for insert with check (auth.uid() = user_id);
+create policy "comments self delete" on public.collection_comments for delete using (auth.uid() = user_id);
+```
+
+### Friends (request/accept, layered on §13 follow)
+A mutual tier with a pending→accepted handshake. Client:
+`friendStatus(uid)` (none/pending_out/pending_in/friends), `sendFriendRequest`,
+`acceptFriendRequest`, `declineFriendRequest`, `cancelFriendRequest`,
+`unfriend`, `incomingRequests()`, `friends()`. The "Profile & friends" sheet
+shows incoming requests (Accept/Decline), a Friends list, and an Add-friend
+button on every person card.
+
+```sql
+create table public.friend_requests (
+  requester_id uuid not null references auth.users on delete cascade,
+  addressee_id uuid not null references auth.users on delete cascade,
+  status       text not null default 'pending' check (status in ('pending','accepted')),
+  created_at   timestamptz not null default now(),
+  primary key (requester_id, addressee_id),
+  check (requester_id <> addressee_id)
+);
+alter table public.friend_requests enable row level security;
+-- either party may read the row
+create policy "fr read"   on public.friend_requests for select
+  using (auth.uid() = requester_id or auth.uid() = addressee_id);
+-- only the requester creates the pending row
+create policy "fr insert" on public.friend_requests for insert
+  with check (auth.uid() = requester_id and status = 'pending');
+-- only the addressee can accept (flip to accepted)
+create policy "fr accept" on public.friend_requests for update
+  using (auth.uid() = addressee_id) with check (auth.uid() = addressee_id);
+-- either party may remove (cancel / decline / unfriend)
+create policy "fr delete" on public.friend_requests for delete
+  using (auth.uid() = requester_id or auth.uid() = addressee_id);
+```
+
+All of this degrades gracefully if the tables are absent.

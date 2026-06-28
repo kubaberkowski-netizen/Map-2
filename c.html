@@ -54,6 +54,11 @@
   .state{text-align:center;color:var(--ink3);padding:60px 16px;font-size:15px;}
   .foot{margin-top:30px;font-size:12px;color:var(--ink3);text-align:center;}
   .foot a{color:var(--ink3);}
+  .cmth{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:26px 0 10px;}
+  .cmt{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:11px 13px;margin-bottom:8px;}
+  .cmtwho{font-size:12.5px;font-weight:700;color:var(--ink);}
+  .cmtbody{font-size:14px;color:var(--ink2);margin-top:2px;line-height:1.4;word-break:break-word;}
+  .cmtempty{font-size:13px;color:var(--ink3);}
 </style>
 </head>
 <body>
@@ -124,7 +129,9 @@
     }
     h+='<a class="cta" href="./#c='+encodeURIComponent(c.slug||"")+'">Open in Flâneur</a>';
     h+='<div class="sub">'+(itin?'Plan and share your own trips in the app.':'Build and share your own collections in the app.')+'</div>';
+    h+='<div id="cmts"></div>';
     app.innerHTML=h;
+    renderComments(c.slug);
     try{sb.from("collection_likes").select("*",{count:"exact",head:true}).eq("slug",c.slug).then(function(lc){var n=(lc&&lc.count)||0;if(n>0){var mEl=document.querySelector(".meta");if(mEl)mEl.insertAdjacentHTML("beforeend"," · \u2665 "+n);}},function(){});}catch(e){}
     if(window.L&&spots.length){
       try{
@@ -143,6 +150,19 @@
       fetch("https://api.open-meteo.com/v1/forecast?"+wq+"&current=temperature_2m,apparent_temperature,relative_humidity_2m,wind_speed_10m,weather_code").then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}),
       fetch("https://air-quality-api.open-meteo.com/v1/air-quality?"+wq+"&current=european_aqi").then(function(r){return r.ok?r.json():null;}).catch(function(){return null;})
     ]).then(function(a){var j=a[0],aq=a[1];if(!j||!j.current)return;var cu=j.current,parts=[wxEmoji(cu.weather_code)+" Now"+(c.city?" in "+c.city:"")+": "+Math.round(cu.temperature_2m)+"°C"];if(cu.apparent_temperature!=null)parts.push("feels "+Math.round(cu.apparent_temperature)+"°");if(cu.relative_humidity_2m!=null)parts.push("💧"+Math.round(cu.relative_humidity_2m)+"%");if(cu.wind_speed_10m!=null)parts.push("🌬 "+Math.round(cu.wind_speed_10m)+" km/h");if(aq&&aq.current&&aq.current.european_aqi!=null)parts.push("AQI "+Math.round(aq.current.european_aqi)+aqiWord(aq.current.european_aqi));var el=document.getElementById("wx");if(el)el.textContent=parts.join(" · ");}).catch(function(){});}
+  }
+  function renderComments(slug){
+    try{sb.from('collection_comments').select('id,user_id,body,created_at').eq('slug',slug).order('created_at',{ascending:true}).limit(200).then(function(r){
+      var rows=(r&&r.data)||[];var box=document.getElementById('cmts');if(!box)return;
+      if(!rows.length){box.innerHTML='<div class=\'cmth\'>Comments</div><div class=\'cmtempty\'>No comments yet.</div>';return;}
+      var ids=rows.map(function(x){return x.user_id;});
+      sb.from('public_profiles').select('user_id,username,display_name').in('user_id',ids).then(function(pr){
+        var pm={};((pr&&pr.data)||[]).forEach(function(p){pm[p.user_id]=p;});
+        var h='<div class=\'cmth\'>Comments · '+rows.length+'</div>';
+        rows.forEach(function(m){var a=pm[m.user_id];h+='<div class=\'cmt\'><div class=\'cmtwho\'>'+esc(a?('@'+a.username):'someone')+'</div><div class=\'cmtbody\'>'+esc(m.body)+'</div></div>';});
+        box.innerHTML=h;
+      },function(){});
+    },function(){});}catch(e){}
   }
   var slug=slugParam();
   if(!slug){state("Nothing specified.");return;}
