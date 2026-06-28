@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: blob: https://*.basemaps.cartocdn.com https://*.tile.openstreetmap.org; connect-src 'self' https://*.supabase.co https://api.open-meteo.com; font-src 'self'; base-uri 'self'; object-src 'none'" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: blob: https://*.basemaps.cartocdn.com https://*.tile.openstreetmap.org; connect-src 'self' https://*.supabase.co https://api.open-meteo.com https://air-quality-api.open-meteo.com; font-src 'self'; base-uri 'self'; object-src 'none'" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="robots" content="index,follow" />
 <title>A collection — Flâneur</title>
@@ -72,6 +72,7 @@
   function esc(t){return String(t==null?"":t).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
   function fmtMin(m){m=Math.round(m);var h=Math.floor(m/60)%24,mm=(m%60+60)%60,ap=h<12?"am":"pm",h12=h%12;if(h12===0)h12=12;return h12+":"+(mm<10?"0":"")+mm+ap;}
   function wxEmoji(c){c=+c;if(c===0)return"☀️";if(c<=3)return"⛅";if(c===45||c===48)return"🌫️";if(c>=51&&c<=67)return"🌧️";if(c>=71&&c<=77)return"❄️";if(c>=80&&c<=82)return"🌦️";if(c>=95)return"⛈️";return"🌥️";}
+  function aqiWord(a){a=+a;return a<=20?" Good":a<=40?" Fair":a<=60?" Moderate":a<=80?" Poor":a<=100?" Very poor":" Extreme";}
   function state(msg){app.innerHTML='<div class="state">'+esc(msg)+'</div>';}
   function slugParam(){try{return new URLSearchParams(location.search).get("s");}catch(e){return null;}}
   function setMeta(title,desc){
@@ -137,7 +138,10 @@
         setTimeout(function(){try{map.invalidateSize();}catch(e){}},120);
       }catch(e){var m=document.getElementById("map");if(m)m.style.display="none";}
     }else{var m=document.getElementById("map");if(m)m.style.display="none";}
-    if(spots.length){try{var w0=spots[0];fetch("https://api.open-meteo.com/v1/forecast?latitude="+w0.lat+"&longitude="+w0.lng+"&current=temperature_2m,weather_code").then(function(r){return r.json();}).then(function(j){if(!j||!j.current)return;var el=document.getElementById("wx");if(el)el.textContent=wxEmoji(j.current.weather_code)+" Now"+(c.city?" in "+esc(c.city):"")+": "+Math.round(j.current.temperature_2m)+"°C";}).catch(function(){});}catch(e){}}
+    if(spots.length){var w0=spots[0],wq="latitude="+w0.lat+"&longitude="+w0.lng;Promise.all([
+      fetch("https://api.open-meteo.com/v1/forecast?"+wq+"&current=temperature_2m,apparent_temperature,relative_humidity_2m,wind_speed_10m,weather_code").then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}),
+      fetch("https://air-quality-api.open-meteo.com/v1/air-quality?"+wq+"&current=european_aqi").then(function(r){return r.ok?r.json():null;}).catch(function(){return null;})
+    ]).then(function(a){var j=a[0],aq=a[1];if(!j||!j.current)return;var cu=j.current,parts=[wxEmoji(cu.weather_code)+" Now"+(c.city?" in "+c.city:"")+": "+Math.round(cu.temperature_2m)+"°C"];if(cu.apparent_temperature!=null)parts.push("feels "+Math.round(cu.apparent_temperature)+"°");if(cu.relative_humidity_2m!=null)parts.push("💧"+Math.round(cu.relative_humidity_2m)+"%");if(cu.wind_speed_10m!=null)parts.push("🌬 "+Math.round(cu.wind_speed_10m)+" km/h");if(aq&&aq.current&&aq.current.european_aqi!=null)parts.push("AQI "+Math.round(aq.current.european_aqi)+aqiWord(aq.current.european_aqi));var el=document.getElementById("wx");if(el)el.textContent=parts.join(" · ");}).catch(function(){});}
   }
   var slug=slugParam();
   if(!slug){state("Nothing specified.");return;}
