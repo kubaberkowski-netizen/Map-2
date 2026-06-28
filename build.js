@@ -491,7 +491,7 @@ ul.spots li{padding:11px 0;border-bottom:1px solid var(--line)}
       foot: `<a href="index.html">Flâneur</a> · <a href="privacy.html">Privacy</a>` }));
 
   // sitemap + robots
-  const urls = [`${SITE}/`, `${SITE}/explore.html`].concat(cityList.map((c) => `${SITE}/city/${c.id}.html`));
+  const urls = [`${SITE}/`, `${SITE}/explore.html`, `${SITE}/discover.html`].concat(cityList.map((c) => `${SITE}/city/${c.id}.html`));
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
     urls.map((u) => `  <url><loc>${esc(u)}</loc></url>`).join("\n") + `\n</urlset>\n`;
   fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemap);

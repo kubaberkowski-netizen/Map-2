@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: blob: https://*.supabase.co; connect-src 'self' https://*.supabase.co; font-src 'self'; base-uri 'self'; object-src 'none'" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="robots" content="index,follow" />
+<title>Discover collections — Flâneur</title>
+<meta name="description" content="Browse the most-loved public collections of offbeat, storied places, hand-picked by wanderers on Flâneur." />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Flâneur" />
+<meta property="og:title" content="Discover collections — Flâneur" />
+<meta property="og:description" content="The most-loved public collections of offbeat, storied places on Flâneur." />
+<style>
+  :root{--bg:#FAF8F3;--surface:#FFFFFF;--ink:#2C2522;--ink2:#5C524A;--ink3:#736A5E;--line:#E7E0D4;--accent:#C8372D;--tint:#ECE4D4;}
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%;}
+  .wrap{max-width:680px;margin:0 auto;padding:22px 18px calc(40px + env(safe-area-inset-bottom));}
+  .brand{display:flex;align-items:center;gap:8px;font-weight:800;font-size:15px;letter-spacing:.01em;margin-bottom:20px;text-decoration:none;color:var(--ink);}
+  .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--accent);}
+  .eyebrow{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:6px;}
+  h1{font-family:Georgia,"Times New Roman",serif;font-weight:700;font-size:30px;line-height:1.15;margin:0 0 6px;}
+  .lede{font-size:15px;color:var(--ink3);margin:0 0 18px;line-height:1.5;}
+  a.col{display:flex;align-items:center;gap:13px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:10px;text-decoration:none;color:var(--ink);}
+  .col .ce{width:46px;height:46px;border-radius:12px;background:var(--tint);display:flex;align-items:center;justify-content:center;font-size:22px;flex:none;}
+  .col .cb{flex:1;min-width:0;}
+  .col .cn{font-size:16px;font-weight:700;line-height:1.25;}
+  .col .cm{font-size:12.5px;color:var(--ink3);margin-top:3px;display:flex;align-items:center;gap:6px;}
+  .col .cm img{width:16px;height:16px;border-radius:50%;object-fit:cover;background:var(--tint);}
+  .col .lk{font-size:13px;font-weight:700;color:var(--accent);flex:none;}
+  .cta{display:block;text-align:center;background:var(--accent);color:#fff;text-decoration:none;border-radius:13px;padding:14px;font-weight:700;font-size:15px;margin:22px 0 8px;}
+  .state{text-align:center;color:var(--ink3);padding:60px 16px;font-size:15px;}
+  .foot{margin-top:30px;font-size:12px;color:var(--ink3);text-align:center;}
+  .foot a{color:var(--ink3);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="brand" href="./"><span class="dot"></span>Flâneur</a>
+  <div class="eyebrow">Discover</div>
+  <h1>Most-loved collections</h1>
+  <p class="lede">Hand-picked sets of offbeat, storied places, curated by wanderers on Flâneur.</p>
+  <div id="app"><div class="state">Loading…</div></div>
+  <a class="cta" href="./">Open Flâneur</a>
+  <div class="foot"><a href="./">Flâneur</a> — a personal guide to offbeat, storied places. · <a href="./privacy.html">Privacy</a></div>
+</div>
+<script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+<script>
+(function(){
+  var SB_URL="https://fpngxchltuovtsyzigul.supabase.co";
+  var SB_ANON="sb_publishable_At343ximg1anAi2TkHyCXw_82vw4wMB";
+  var app=document.getElementById("app");
+  function esc(t){return String(t==null?"":t).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
+  function state(msg){app.innerHTML='<div class="state">'+esc(msg)+'</div>';}
+  function render(cols){
+    if(!cols.length){state("No public collections yet.");return;}
+    var h="";
+    cols.forEach(function(c){
+      var n=Array.isArray(c.spots)?c.spots.length:0;
+      var itin=Array.isArray(c.spots)&&c.spots.length&&typeof c.spots[0].d==="number";
+      var a=c.author;
+      var av=(a&&a.avatar_v)?(SB_URL+"/storage/v1/object/public/avatars/"+encodeURIComponent(a.user_id)+"?v="+a.avatar_v):null;
+      var by=a?((av?'<img src="'+av+'" alt="">':'')+'@'+esc(a.username)+' · '):'';
+      h+='<a class="col" href="./c.html?s='+encodeURIComponent(c.slug)+'">'+
+         '<div class="ce">'+esc(c.emoji||(itin?'🗺':'📍'))+'</div>'+
+         '<div class="cb"><div class="cn">'+esc(c.name||"Collection")+'</div>'+
+         '<div class="cm">'+by+n+' place'+(n===1?'':'s')+(c.city?' · '+esc(c.city):'')+'</div></div>'+
+         (c.likes>0?'<div class="lk">♥ '+c.likes+'</div>':'')+'</a>';
+    });
+    app.innerHTML=h;
+  }
+  if(!window.supabase){state("Couldn’t load. Please try again.");return;}
+  var sb=window.supabase.createClient(SB_URL,SB_ANON);
+  Promise.all([
+    sb.from("collections").select("slug,name,emoji,city,spots,owner_id,updated_at").order("updated_at",{ascending:false}).limit(80),
+    sb.from("collection_likes").select("slug")
+  ]).then(function(a){
+    var cols=(a[0]&&a[0].data)||[];
+    if(!cols.length){state("No public collections yet — be the first to publish one.");return;}
+    var lk=(a[1]&&a[1].data)||[],cnt={};
+    lk.forEach(function(x){cnt[x.slug]=(cnt[x.slug]||0)+1;});
+    var owners=cols.map(function(c){return c.owner_id;}).filter(Boolean);
+    sb.from("public_profiles").select("user_id,username,avatar_v").in("user_id",owners).then(function(pr){
+      var pm={};((pr&&pr.data)||[]).forEach(function(p){pm[p.user_id]=p;});
+      cols=cols.map(function(c){return Object.assign({},c,{likes:cnt[c.slug]||0,author:pm[c.owner_id]||null});})
+        .sort(function(x,y){return (y.likes-x.likes)||(x.updated_at<y.updated_at?1:-1);}).slice(0,50);
+      render(cols);
+    },function(){render(cols.map(function(c){return Object.assign({},c,{likes:cnt[c.slug]||0});}).sort(function(x,y){return y.likes-x.likes;}));});
+  },function(){state("Couldn’t load collections.");});
+})();
+</script>
+</body>
+</html>
