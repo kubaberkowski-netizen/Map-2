@@ -151,6 +151,50 @@ type filter + map pins pick up SeatGeek's categories (Music/Sport/Theatre/Comedy
 automatically. Event images are CSP-allowed for SeatGeek hosts and any blocked/broken
 thumbnail hides itself gracefully.
 
+## Saved events + reminders (retention)
+Users can ♥-save events (heart on cards + a "Save event" button in the detail
+sheet, with a "♥ Saved" filter in the Events tab). Saves persist in
+`localStorage` and — when signed in — sync to a cloud table so they follow the
+user across devices and power a day-before push reminder. Shared events open
+in-app via `#event=<uuid>` deep links (the Share button uses these), so a shared
+link pulls people back into Flâneur rather than out to the ticket site.
+
+### Table — `event_saves`
+```sql
+create table if not exists public.event_saves (
+  user_id     uuid not null references auth.users(id) on delete cascade,
+  event_id    uuid not null references public.events(id) on delete cascade,
+  created_at  timestamptz not null default now(),
+  reminded_at timestamptz,                       -- set once the day-before push fires
+  primary key (user_id, event_id)
+);
+alter table public.event_saves enable row level security;
+create policy event_saves_sel on public.event_saves for select using (auth.uid() = user_id);
+create policy event_saves_ins on public.event_saves for insert with check (auth.uid() = user_id);
+create policy event_saves_del on public.event_saves for delete using (auth.uid() = user_id);
+create index if not exists event_saves_event_idx on public.event_saves(event_id);
+```
+The client writes here best-effort; if the table is absent, saves still work
+locally (no errors). Create it to enable cross-device sync + reminders.
+
+### `event-reminders` — day-before push
+Finds saves whose event starts in ~20–28h with `reminded_at` null, pushes via
+`push_subscriptions` (BACKEND.md §10), then stamps `reminded_at` so each fires
+once. Needs the existing `VAPID_PUBLIC`/`VAPID_PRIVATE` secrets.
+```bash
+supabase functions deploy event-reminders     # or paste in the dashboard
+supabase functions invoke event-reminders      # test once
+```
+Schedule daily (morning, so "tomorrow" reads right):
+```sql
+select cron.schedule('event-reminders','0 9 * * *', $$
+  select net.http_post(
+    url := 'https://fpngxchltuovtsyzigul.supabase.co/functions/v1/event-reminders',
+    headers := '{"Content-Type":"application/json","Authorization":"Bearer <service_role_key>"}'::jsonb
+  );
+$$);
+```
+
 ## Cold-start / freshness
 Auto-ingest (phase 3) seeds every city so the tab is never empty; submissions +
 moderation keep it current; expiry prunes itself. Until ingest ships, seed London
