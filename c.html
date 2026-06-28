@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: blob: https://*.basemaps.cartocdn.com https://*.tile.openstreetmap.org; connect-src 'self' https://*.supabase.co https://api.open-meteo.com https://air-quality-api.open-meteo.com; font-src 'self'; base-uri 'self'; object-src 'none'" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: blob: https://*.basemaps.cartocdn.com https://*.tile.openstreetmap.org https://*.supabase.co; connect-src 'self' https://*.supabase.co https://api.open-meteo.com https://air-quality-api.open-meteo.com; font-src 'self'; base-uri 'self'; object-src 'none'" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="robots" content="index,follow" />
 <title>A collection — Flâneur</title>
@@ -54,6 +54,10 @@
   .state{text-align:center;color:var(--ink3);padding:60px 16px;font-size:15px;}
   .foot{margin-top:30px;font-size:12px;color:var(--ink3);text-align:center;}
   .foot a{color:var(--ink3);}
+  .byl{display:inline-flex;align-items:center;gap:8px;margin:12px 0 2px;text-decoration:none;color:var(--ink2);font-size:14px;font-weight:600;}
+  .byl img{width:28px;height:28px;border-radius:50%;object-fit:cover;background:var(--tint);}
+  .byl .byi{width:28px;height:28px;border-radius:50%;background:var(--tint);display:flex;align-items:center;justify-content:center;font-family:Georgia,serif;font-weight:700;font-size:13px;color:var(--ink);}
+  .byl:hover{color:var(--accent);}
   .cmth{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:26px 0 10px;}
   .cmt{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:11px 13px;margin-bottom:8px;}
   .cmtwho{font-size:12.5px;font-weight:700;color:var(--ink);}
@@ -102,6 +106,7 @@
     h+='<div class="meta">'+(itin
       ?(ndays+'-day itinerary · '+spots.length+' stops · '+twk+' km walking'+(c.city?' · '+esc(c.city):''))
       :(spots.length+' place'+(spots.length===1?'':'s')+(c.city?' · '+esc(c.city):'')))+'</div>';
+    h+='<div id="byline"></div>';
     if(c.note)h+='<p class="note">'+esc(c.note)+'</p>';
     h+='<div class="wx" id="wx"></div>';
     h+='<div id="map"></div>';
@@ -132,6 +137,7 @@
     h+='<div id="cmts"></div>';
     app.innerHTML=h;
     renderComments(c.slug);
+    renderAuthor(c.owner_id);
     try{sb.from("collection_likes").select("*",{count:"exact",head:true}).eq("slug",c.slug).then(function(lc){var n=(lc&&lc.count)||0;if(n>0){var mEl=document.querySelector(".meta");if(mEl)mEl.insertAdjacentHTML("beforeend"," · \u2665 "+n);}},function(){});}catch(e){}
     if(window.L&&spots.length){
       try{
@@ -150,6 +156,14 @@
       fetch("https://api.open-meteo.com/v1/forecast?"+wq+"&current=temperature_2m,apparent_temperature,relative_humidity_2m,wind_speed_10m,weather_code").then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}),
       fetch("https://air-quality-api.open-meteo.com/v1/air-quality?"+wq+"&current=european_aqi").then(function(r){return r.ok?r.json():null;}).catch(function(){return null;})
     ]).then(function(a){var j=a[0],aq=a[1];if(!j||!j.current)return;var cu=j.current,parts=[wxEmoji(cu.weather_code)+" Now"+(c.city?" in "+c.city:"")+": "+Math.round(cu.temperature_2m)+"°C"];if(cu.apparent_temperature!=null)parts.push("feels "+Math.round(cu.apparent_temperature)+"°");if(cu.relative_humidity_2m!=null)parts.push("💧"+Math.round(cu.relative_humidity_2m)+"%");if(cu.wind_speed_10m!=null)parts.push("🌬 "+Math.round(cu.wind_speed_10m)+" km/h");if(aq&&aq.current&&aq.current.european_aqi!=null)parts.push("AQI "+Math.round(aq.current.european_aqi)+aqiWord(aq.current.european_aqi));var el=document.getElementById("wx");if(el)el.textContent=parts.join(" · ");}).catch(function(){});}
+  }
+  function renderAuthor(uid){
+    if(!uid)return;try{sb.from('public_profiles').select('username,display_name,avatar_v,user_id').eq('user_id',uid).maybeSingle().then(function(r){
+      if(!r||!r.data)return;var a=r.data;var bx=document.getElementById('byline');if(!bx)return;
+      var av=a.avatar_v?(SB_URL+'/storage/v1/object/public/avatars/'+encodeURIComponent(a.user_id)+'?v='+a.avatar_v):null;
+      var ic=av?('<img src=\''+av+'\' alt=\'\'>'):('<span class=\'byi\'>'+esc((a.display_name||a.username||'?').slice(0,1).toUpperCase())+'</span>');
+      bx.innerHTML='<a class=\'byl\' href=\'u.html?u='+encodeURIComponent(a.username)+'\'>'+ic+'<span>by @'+esc(a.username)+'</span></a>';
+    },function(){});}catch(e){}
   }
   function renderComments(slug){
     try{sb.from('collection_comments').select('id,user_id,body,created_at').eq('slug',slug).order('created_at',{ascending:true}).limit(200).then(function(r){
