@@ -647,3 +647,39 @@ create policy "collab update" on public.collections for update
   using (public.is_collab(slug, auth.uid())) with check (public.is_collab(slug, auth.uid()));
 ```
 Degrades gracefully if the table/policy/function are absent.
+
+---
+
+## 20. Collaborative collections: realtime presence + edit activity
+
+- **Realtime presence:** the Collaborate sheet joins a Supabase channel
+  `collab:<slug>` (presence + broadcast — no DB/replication setup needed). It
+  shows "● here now" avatars of other collaborators viewing the same
+  collection, and rebroadcasts an `edit` event on add/remove so everyone's
+  place list refreshes live. The channel is removed on close.
+- **Edit activity:** add/remove on a shared collection inserts a row into
+  `collection_events`; the Activity feed then surfaces "X edited “collection”"
+  for collections you own or collaborate on (excluding your own edits).
+
+```sql
+create table public.collection_events (
+  id         bigint generated always as identity primary key,
+  slug       text not null references public.collections(slug) on delete cascade,
+  actor_id   uuid not null references auth.users on delete cascade,
+  kind       text not null default 'edit',
+  created_at timestamptz not null default now()
+);
+create index collection_events_slug on public.collection_events (slug, created_at desc);
+alter table public.collection_events enable row level security;
+create policy "ce read" on public.collection_events for select using (true);
+-- only someone who can actually edit the collection may log an event for it
+create policy "ce ins editor" on public.collection_events for insert with check (
+  auth.uid() = actor_id and (
+    public.is_collab(slug, auth.uid())
+    or exists (select 1 from public.collections c where c.slug = collection_events.slug and c.owner_id = auth.uid())
+  )
+);
+```
+(`is_collab` is the SECURITY DEFINER function from §19.) Presence/broadcast need
+no SQL — they work as long as Realtime is enabled on the project (default).
+Everything degrades gracefully if the table/Realtime are unavailable.
