@@ -120,6 +120,34 @@ $$);
 Africa/Asia — those cities just return nothing (graceful). Add ICS feeds or other
 sources later by writing more rows with a different `source` + `ext_id` prefix.
 
+### `ingest-seatgeek` — second source, same feed
+Identical shape to `ingest-events` but hits the **SeatGeek API** (one geo-query per
+city) and upserts into the same `events` table with `source:"seatgeek"` and an
+`ext_id` prefixed `sg:`, so the two sources merge with no duplicates. Adds concert,
+sport, theatre and comedy coverage (strong in the US, decent UK/EU).
+```bash
+# 1. free client id from https://seatgeek.com/account/develop ("Create an app")
+supabase functions deploy ingest-seatgeek
+supabase secrets set SEATGEEK_CLIENT_ID=<client_id>
+# optional: client secret raises the rate limit; INGEST_STATUS=pending to review first
+supabase secrets set SEATGEEK_CLIENT_SECRET=<client_secret>
+# 2. test once
+supabase functions invoke ingest-seatgeek
+```
+Schedule it daily, offset from Ticketmaster so they don't run together:
+```sql
+select cron.schedule('ingest-seatgeek','30 5 * * *', $$
+  select net.http_post(
+    url := 'https://fpngxchltuovtsyzigul.supabase.co/functions/v1/ingest-seatgeek',
+    headers := '{"Content-Type":"application/json","Authorization":"Bearer <service_role_key>"}'::jsonb
+  );
+$$);
+```
+The client needs no change — it reads the merged `events` table, and the Events-tab
+type filter + map pins pick up SeatGeek's categories (Music/Sport/Theatre/Comedy/…)
+automatically. Event images are CSP-allowed for SeatGeek hosts and any blocked/broken
+thumbnail hides itself gracefully.
+
 ## Cold-start / freshness
 Auto-ingest (phase 3) seeds every city so the tab is never empty; submissions +
 moderation keep it current; expiry prunes itself. Until ingest ships, seed London
