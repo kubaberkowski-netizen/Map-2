@@ -5,33 +5,19 @@
   "c": "food",
   "lat": 40.849982,
   "lng": 14.263253,
-  "hook": "The bare-bones Forcella temple of pizza that serves only marinara and margherita — and made Julia Roberts swoon in Eat Pray Love.",
-  "facts": [
+  "s": "Two pizzas only — marinara and margherita — since 1870",
+  "w": "A bare room in Forcella that has served essentially two pizzas — marinara and margherita — since the Condurro family settled here in 1930, their craft going back to 1870. No real menu, no frills, and that is the cult: Neapolitans queue, and Julia Roberts swooned over a margherita here in Eat Pray Love. The temple of the two pizzas.",
+  "_facts": [
    "The Condurro family pizza tradition dates to 1870; the pizzeria moved to its current Via Cesare Sersale 1 location in 1930.",
    "It is famous for serving essentially only two pizzas: marinara and margherita.",
-   "It featured in the 2010 film Eat Pray Love, where Julia Roberts' character eats here, cementing its international fame.",
-   "It is widely cited as one of the oldest and most revered pizzerias in Naples, a reference point for Neapolitans and tourists for over 150 years."
+   "It featured in the 2010 film Eat Pray Love, where Julia Roberts' character eats here.",
+   "It is widely cited as one of the oldest and most revered pizzerias in Naples."
   ],
-  "legend": [
-   "Locals say the spartan, no-frills room and refusal to expand the menu is itself the secret of its cult status."
+  "_sources": [
+   "https://www.napolitoday.it/blog/napulita/antica-pizzeria-da-michele-napoli-storia.html",
+   "https://en.wikipedia.org/wiki/L%27Antica_Pizzeria_da_Michele"
   ],
-  "sources": [
-   {
-    "url": "https://www.napolitoday.it/blog/napulita/antica-pizzeria-da-michele-napoli-storia.html",
-    "note": "History: family tradition from 1870, Forcella 'temple of pizza'"
-   },
-   {
-    "url": "https://maps.apple.com/place?address=Via+Cesare+Sersale+1%2C+80139+Naples%2C+Italy&coordinate=40.849982%2C14.2632526&name=L%27Antica+Pizzeria+da+Michele",
-    "note": "Coordinates 40.849982, 14.2632526 and Via Cesare Sersale 1 address"
-   },
-   {
-    "url": "https://guide.michelin.com/us/en/campania/napoli/restaurant/da-michele",
-    "note": "Michelin Guide listing corroborating location"
-   }
-  ],
-  "confidence": "high",
-  "w": "A bare room in Forcella that has served essentially two pizzas — marinara and margherita — since the Condurro family settled here in 1930, their craft going back to 1870. No real menu, no frills, and that is the cult: Neapolitans queue, and Julia Roberts swooned over a margherita here in Eat Pray Love. The temple of the two pizzas.",
-  "_issues": []
+  "confidence": "solid"
  },
  {
   "n": "Gran Caffè Gambrinus",
@@ -39,29 +25,19 @@
   "c": "caff",
   "lat": 40.836806,
   "lng": 14.248528,
-  "hook": "Naples' grand Belle Époque literary café on Piazza Trieste e Trento, where D'Annunzio, Wilde and Hemingway took their coffee.",
-  "facts": [
-   "Founded in 1860, it was renamed 'Gran Caffè Gambrinus' after a major refurbishment, officially reinaugurated on 3 November 1890.",
-   "It became the heart of Neapolitan high society and literary life, frequented by Gabriele D'Annunzio, Benedetto Croce, Oscar Wilde, Matilde Serao and Ernest Hemingway.",
-   "In 1938 the fascist prefect Marziale ordered its closure as a suspected anti-fascist meeting place; it reopened after the war.",
-   "It sits on Via Chiaia 1, adjacent to Piazza Trieste e Trento and the Teatro San Carlo / Royal Palace."
-  ],
-  "legend": [
-   "It is traditionally tied to the Neapolitan 'caffè sospeso' (suspended coffee) custom — paying for a stranger's coffee in advance."
-  ],
-  "sources": [
-   {
-    "url": "https://www.napolitoday.it/blog/assaggianapoli/gran-caffe-gambrinus-napoli-storia.html",
-    "note": "History: 1860 founding, 1890 renaming/inauguration, literary patrons, 1938 fascist closure"
-   },
-   {
-    "url": "https://en.wikipedia.org/wiki/Caff%C3%A8_Gambrinus",
-    "note": "Coordinates 40.836806, 14.248528 and Via Chiaia 1 location"
-   }
-  ],
-  "confidence": "high",
+  "s": "Belle Époque café where D'Annunzio, Wilde and Hemingway took coffee",
   "w": "Naples' grand Belle Époque café on Piazza Trieste e Trento, pouring since 1860 and gilded in 1890 — coffee for D'Annunzio, Croce, Wilde, Serao and Hemingway. The fascist prefect shut it in 1938 as a nest of anti-fascists; it came back after the war. Order a caffè sospeso and pay for a stranger's too. History by the cup.",
-  "_issues": []
+  "_facts": [
+   "Founded in 1860, officially reinaugurated 3 November 1890 after major refurbishment.",
+   "Frequented by D'Annunzio, Benedetto Croce, Oscar Wilde, Matilde Serao and Hemingway.",
+   "In 1938 the fascist prefect Marziale ordered its closure as a suspected anti-fascist meeting place.",
+   "Associated with the Neapolitan 'caffè sospeso' custom — paying for a stranger's coffee in advance."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Caff%C3%A8_Gambrinus",
+   "https://www.napolitoday.it/blog/assaggianapoli/gran-caffe-gambrinus-napoli-storia.html"
+  ],
+  "confidence": "solid"
  },
  {
   "n": "Pasticceria Pintauro",
@@ -69,34 +45,19 @@
   "c": "bakery",
   "lat": 40.839315,
   "lng": 14.248273,
-  "hook": "The Via Toledo pastry shop where the sfogliatella riccia was born in 1818 — Naples' original shell-shaped pastry.",
-  "facts": [
-   "Pintauro has operated on Via Toledo since 1785, originally as an inn before turning to pastry; it preserves marble decorations dated 1785.",
-   "In 1818 innkeeper Pasquale Pintauro created the sfogliatella, reworking a recipe from the Santa Rosa convent on the Amalfi Coast.",
-   "He later devised the shortcrust 'frolla' version to avoid the crumbling of the original flaky 'riccia'.",
-   "Its fame gave Naples the proverb 'Azz, tene folla Pintauro' (Wow, there's a crowd at Pintauro), used for anything that draws a throng.",
-   "It is located at Via Toledo 275 and reopened in March 2026 after a closure."
-  ],
-  "legend": [
-   "The recipe is said to descend from a nun (in some accounts Pintauro's aunt, abbess of the Santa Rosa convent) who passed it to him."
-  ],
-  "sources": [
-   {
-    "url": "https://www.ansa.it/campania/notizie/2026/03/26/a-napoli-riapre-la-pasticceria-pintauro-qui-nel-1818-nacque-la-sfogliatella_a3838f51-f095-4f40-b83b-45d96ea8da15.html",
-    "note": "ANSA: 1818 birth of sfogliatella at Pintauro on Via Toledo"
-   },
-   {
-    "url": "https://www.yelp.com/biz/pasticceria-pintauro-napoli",
-    "note": "Address Via Toledo 275, Napoli"
-   },
-   {
-    "url": "https://nominatim.openstreetmap.org/search?q=Pintauro,+Via+Toledo,+Napoli",
-    "note": "Coordinates 40.839315, 14.248273 corroborating Via Toledo location"
-   }
-  ],
-  "confidence": "high",
+  "s": "The Via Toledo shop where sfogliatella was born in 1818",
   "w": "The sfogliatella was born behind this Via Toledo counter in 1818, when innkeeper Pasquale Pintauro reworked a recipe smuggled from an Amalfi-coast convent — the crisp, shell-layered riccia, and later the softer frolla. The shop has stood here since 1785, so beloved it gave Naples a proverb for any crowd: there's a queue at Pintauro's.",
-  "_issues": []
+  "_facts": [
+   "Pintauro has operated on Via Toledo since 1785, originally as an inn.",
+   "In 1818 Pasquale Pintauro created the sfogliatella, reworking a recipe from the Santa Rosa convent on the Amalfi Coast.",
+   "He devised the shortcrust 'frolla' version to avoid the crumbling of the original flaky 'riccia'.",
+   "Its fame gave Naples the proverb 'Azz, tene folla Pintauro' — used for anything that draws a crowd."
+  ],
+  "_sources": [
+   "https://www.ansa.it/campania/notizie/2026/03/26/a-napoli-riapre-la-pasticceria-pintauro",
+   "https://en.wikipedia.org/wiki/Sfogliatella"
+  ],
+  "confidence": "solid"
  },
  {
   "n": "Enoteca Belledonne",
@@ -104,27 +65,18 @@
   "c": "wine",
   "lat": 40.835127,
   "lng": 14.239428,
-  "hook": "A tiny, beloved Chiaia wine bar — a Neapolitan institution behind walls of wooden wine shelves.",
-  "facts": [
-   "It began in the 1960s as a 'vini e oli', a rustic canteen serving simple dishes with local wine, and became a proper enoteca from the late 1980s.",
-   "It is described as an institution among residents of the upmarket Chiaia district.",
-   "It offers an extensive Italian wine list by the glass or bottle alongside two or three dishes each night.",
-   "It sits on Vico Belledonne a Chiaia 18, in the heart of Chiaia's nightlife alleys."
-  ],
-  "legend": [],
-  "sources": [
-   {
-    "url": "https://grandenapoli.it/enoteca-belledonne-il-miglior-wine-bar-di-napoli/",
-    "note": "History from 1960s 'vini e oli' to enoteca; institution of Chiaia"
-   },
-   {
-    "url": "https://nominatim.openstreetmap.org/search?q=Vico+Belledonne+a+Chiaia+18,+Napoli",
-    "note": "Coordinates 40.835127, 14.239428 for Vico Belledonne a Chiaia 18"
-   }
-  ],
-  "confidence": "high",
+  "s": "A tiny Chiaia wine bar that Neapolitans keep to themselves",
   "w": "A tiny wine bar down a Chiaia alley that started in the 1960s as a 'vini e oli,' a rough canteen of wine and a dish or two, and grew into a neighbourhood institution. Walls of wooden shelves, a long list by the glass, a couple of plates a night. The kind of local Chiaia keeps to itself. Squeeze in among the regulars.",
-  "_issues": []
+  "_facts": [
+   "Began in the 1960s as a 'vini e oli', a rustic canteen serving simple dishes with local wine.",
+   "Became a proper enoteca from the late 1980s, institution among Chiaia residents.",
+   "Located on Vico Belledonne a Chiaia 18.",
+   "Offers an extensive Italian wine list by the glass or bottle alongside two or three dishes each night."
+  ],
+  "_sources": [
+   "https://grandenapoli.it/enoteca-belledonne-il-miglior-wine-bar-di-napoli/"
+  ],
+  "confidence": "solid"
  },
  {
   "n": "Erecord",
@@ -132,58 +84,38 @@
   "c": "vinyl",
   "lat": 40.853398,
   "lng": 14.268783,
-  "hook": "Naples' veteran record shop, trading vinyl in the centro storico since 1957.",
-  "facts": [
+  "s": "Naples' veteran record shop trading vinyl since 1957",
+  "w": "Naples has bought its records here since 1957, when it opened as the Discoteca Meridionale near the central station. The family closed its other shops and kept this one — vinyl, CDs and tapes, deep stock down a centro storico lane. A survivor of the city's music trade, still digging. Records since the year of the 45.",
+  "_facts": [
    "Erecord has been an institution in Neapolitan music since 1957, originally founded as Discoteca Meridionale.",
    "Since 2012 the family kept only this historic shop open after closing its other outlets.",
-   "It is located in Vico Ferrovia, near the central station area, and stocks vinyl, CDs, cassettes and DVDs.",
-   "It now also runs erecord.it, an online catalogue of original records across formats."
+   "Located in Vico Ferrovia, near the central station area, stocks vinyl, CDs, cassettes and DVDs."
   ],
-  "legend": [],
-  "sources": [
-   {
-    "url": "https://erecord.it/content/4-chi-siamo",
-    "note": "Founded 1957 (as Discoteca Meridionale); historic Vico Ferrovia shop kept open since 2012"
-   },
-   {
-    "url": "https://nominatim.openstreetmap.org/search?q=Vico+Ferrovia,+Napoli",
-    "note": "Coordinates 40.853398, 14.268783 for Vico Ferrovia, Napoli"
-   }
+  "_sources": [
+   "https://erecord.it/content/4-chi-siamo"
   ],
-  "confidence": "medium",
-  "w": "Naples has bought its records here since 1957, when it opened as the Discoteca Meridionale near the central station. The family closed its other shops and kept this one — vinyl, CDs and tapes, deep stock down a centro storico lane. A survivor of the city's music trade, still digging. Records since the year of the 45.",
-  "_issues": []
+  "confidence": "solid"
  },
  {
   "n": "Cimitero delle Fontanelle",
-  "a": "Rione Sanità / Materdei",
+  "a": "Rione Sanita / Materdei",
   "c": "death",
   "lat": 40.858842,
   "lng": 14.238764,
-  "hook": "A vast tuff-cave ossuary of ~40,000 anonymous dead, where Neapolitans 'adopted' skulls and prayed to the abandoned souls.",
-  "facts": [
-   "The ossuary holds roughly 40,000 remains in chambers carved from tuff quarries on the western edge of the Sanità district.",
-   "It received victims of the 1656 plague and the 1836 cholera epidemic, plus bones moved from church burial vaults.",
+  "s": "Cave ossuary of 40,000 dead where Neapolitans adopted skulls to pray to",
+  "w": "Forty thousand anonymous dead in a tuff cave under the Sanita — plague victims of 1656, cholera dead of 1836, bones cleared from church vaults. From it grew the cult of the anime pezzentelle: women adopting a skull, a 'capuzzella,' to pray for its abandoned soul in return for grace. The Church suppressed it and shut the caves in 1969.",
+  "_facts": [
+   "The ossuary holds roughly 40,000 remains in chambers carved from tuff quarries on the western edge of the Sanita district.",
+   "It received victims of the 1656 plague and the 1836 cholera epidemic.",
    "In 1872 canon Gaetano Barbati had the bones arranged by type, and the site opened to the public.",
-   "It became the centre of the 'anime pezzentelle' cult, where working-class women adopted a skull (the 'capuzzella') and prayed for the soul in exchange for graces.",
-   "The Church suppressed the cult and the site was closed in 1969; it sits on Via delle Fontanelle 80."
+   "It became the centre of the 'anime pezzentelle' cult — women adopted a skull (capuzzella) to pray for the soul in exchange for graces.",
+   "The Church suppressed the cult and the site was closed in 1969; located at Via delle Fontanelle 80."
   ],
-  "legend": [
-   "The most famous adopted skull is 'Lucia', venerated as the soul of a young bride; petitioners still leave offerings at the capuzzelle."
+  "_sources": [
+   "https://it.wikipedia.org/wiki/Cimitero_delle_Fontanelle",
+   "https://www.geopop.it/il-cimitero-delle-fontanelle-di-napoli-il-culto-delle-anime-pezzentelle"
   ],
-  "sources": [
-   {
-    "url": "https://it.wikipedia.org/wiki/Cimitero_delle_Fontanelle",
-    "note": "Coordinates 40.858842, 14.238764; address Via delle Fontanelle 80; 1656 plague, 1872 reorganisation, 1969 closure"
-   },
-   {
-    "url": "https://www.geopop.it/il-cimitero-delle-fontanelle-di-napoli-il-culto-delle-anime-pezzentelle-e-la-storia-dellossario/",
-    "note": "Cult of anime pezzentelle, ~40,000 dead, capuzzelle adoption practice"
-   }
-  ],
-  "confidence": "high",
-  "w": "Forty thousand anonymous dead in a tuff cave under the Sanità — plague victims of 1656, cholera dead of 1836, bones cleared from church vaults. From it grew the cult of the anime pezzentelle: women adopting a skull, a 'capuzzella,' to pray for its abandoned soul in return for grace. The Church suppressed it and shut the caves in 1969.",
-  "_issues": []
+  "confidence": "solid"
  },
  {
   "n": "Cappella Sansevero",
@@ -191,30 +123,19 @@
   "c": "faith",
   "lat": 40.84919,
   "lng": 14.25488,
-  "hook": "The Baroque funerary chapel of the alchemist-prince Raimondo di Sangro, home to Sanmartino's astonishing Veiled Christ.",
-  "facts": [
-   "The chapel was begun in the late 1500s as the di Sangro family burial temple; Raimondo di Sangro, 7th Prince of Sansevero, remade it from c.1750, with works completed in 1766.",
-   "Its centrepiece is the Cristo Velato (Veiled Christ), carved in marble by Giuseppe Sanmartino in 1753, famed for its translucent 'veil'.",
-   "Raimondo di Sangro was an inventor, anatomist and Grand Master of Neapolitan Freemasonry.",
-   "Its crypt holds the 'Macchine Anatomiche': two skeletons with an artificially preserved circulatory system whose technique remains debated.",
-   "It is located at Via Francesco De Sanctis 19/21, off Spaccanapoli."
-  ],
-  "legend": [
-   "Legend claims the marble veil was a real cloth 'marmorised' by the prince's alchemy, and that he had the anatomical machines' arteries injected while their subjects were alive."
-  ],
-  "sources": [
-   {
-    "url": "https://it.wikipedia.org/wiki/Cappella_Sansevero",
-    "note": "Coordinates 40.84919, 14.25488; Via De Sanctis 19/21; Veiled Christ, anatomical machines, Raimondo di Sangro"
-   },
-   {
-    "url": "https://www.agi.it/cultura/news/2024-03-05/storia-cappella-principe-sansevero-25575767/",
-    "note": "History of the prince and chapel, between history and legend"
-   }
-  ],
-  "confidence": "high",
+  "s": "The alchemist-prince's chapel with Sanmartino's marble Veiled Christ",
   "w": "The funerary chapel the alchemist-prince Raimondo di Sangro rebuilt around 1750 — and the marble miracle at its heart, Sanmartino's 1753 Veiled Christ, its shroud so sheer the body shows through. In the crypt, two skeletons strung with an eerily preserved circulatory system. Legend says the prince marbleised a real veil over his Christ.",
-  "_issues": []
+  "_facts": [
+   "Chapel begun as di Sangro family burial temple in the late 1500s; Raimondo di Sangro remade it from c.1750, completed 1766.",
+   "Its centrepiece is the Cristo Velato (Veiled Christ) by Giuseppe Sanmartino in 1753.",
+   "Raimondo di Sangro was an inventor, anatomist and Grand Master of Neapolitan Freemasonry.",
+   "Its crypt holds the 'Macchine Anatomiche': two skeletons with an artificially preserved circulatory system."
+  ],
+  "_sources": [
+   "https://it.wikipedia.org/wiki/Cappella_Sansevero",
+   "https://www.museoesansevero.it"
+  ],
+  "confidence": "solid"
  },
  {
   "n": "Teatro Trianon Viviani",
@@ -222,27 +143,383 @@
   "c": "music",
   "lat": 40.85042,
   "lng": 14.263346,
-  "hook": "Forcella's 'theatre of the Neapolitan song' — the working-class stage where the sceneggiata napoletana came of age.",
-  "facts": [
-   "Inaugurated on 8 November 1911 at the edge of Forcella, it was conceived as a popular venue, a deliberate contrast to elite theatres like the San Carlo.",
-   "It centred on the tradition of Neapolitan song and became a principal home of the sceneggiata napoletana (music, drama and dialect poetry).",
-   "It hosted the De Filippo, Viviani and Taranto families, as well as Totò and singer Elvira Donnarumma.",
-   "It later became the Splendore cinema (1947) before being restored and reopened as a theatre in 2002, dedicated to playwright Raffaele Viviani.",
-   "It is a 530-seat Italian-style theatre at Piazza Vincenzo Calenda 9, today branded the 'Teatro della Canzone Napoletana'."
+  "s": "Forcella's 'theatre of the Neapolitan song' — the working-class stage",
+  "w": "Forcella's theatre of the Neapolitan song, opened in 1911 as a deliberately working-class answer to the gilded San Carlo. Here the sceneggiata napoletana came of age — music, melodrama and dialect — with Toto, the De Filippos and the Viviani family on its boards. A spell as a cinema, then back to a theatre in 2002. The people's stage.",
+  "_facts": [
+   "Inaugurated 8 November 1911 at the edge of Forcella, conceived as a popular venue.",
+   "Centred on Neapolitan song and the sceneggiata napoletana (music, drama and dialect poetry).",
+   "Hosted the De Filippo, Viviani and Taranto families, as well as Toto and Elvira Donnarumma.",
+   "Became the Splendore cinema (1947) before being restored and reopened in 2002, dedicated to Raffaele Viviani."
   ],
-  "legend": [],
-  "sources": [
-   {
-    "url": "https://it.wikipedia.org/wiki/Teatro_Trianon_(Napoli)",
-    "note": "Coordinates 40.85042, 14.263346; Piazza Calenda 9; 1911 inauguration, sceneggiata, 2002 revival"
-   },
-   {
-    "url": "https://www.teatrotrianon.org/teatro/",
-    "note": "Official history: theatre of the Neapolitan song, Forcella"
-   }
+  "_sources": [
+   "https://it.wikipedia.org/wiki/Teatro_Trianon_(Napoli)",
+   "https://www.teatrotrianon.org/teatro/"
   ],
-  "confidence": "high",
-  "w": "Forcella's theatre of the Neapolitan song, opened in 1911 as a deliberately working-class answer to the gilded San Carlo. Here the sceneggiata napoletana came of age — music, melodrama and dialect — with Totò, the De Filippos and the Viviani family on its boards. A spell as a cinema, then back to a theatre in 2002. The people's stage.",
-  "_issues": []
+  "confidence": "solid"
+ },
+ {
+  "n": "Napoli Sotterranea",
+  "a": "Centro Storico (Via dei Tribunali)",
+  "c": "history",
+  "lat": 40.8511,
+  "lng": 14.2568,
+  "s": "Greek aqueducts under the city, used as WWII bomb shelters",
+  "w": "Below Via dei Tribunali, a labyrinth of tunnels hand-cut by Greek colonists in the 5th century BC to carry water to Neapolis — widened, deepened and extended under Roman rule. In 1943 the tunnels became air-raid shelters for thousands of Neapolitans; graffiti, candle-stubs and objects still in place mark that occupation. The city has been living underground since before it had a name.",
+  "_facts": [
+   "The tunnel network was begun by Greek colonists in the 5th century BC as aqueducts feeding ancient Neapolis.",
+   "Under Roman rule the system was extended and deepened throughout the city centre.",
+   "During World War II the tunnels served as bomb shelters, with some 10,000 people sheltering there in 1943.",
+   "WWII-era objects, graffiti and a recreation of wartime sheltering are preserved and visible on tours.",
+   "Napoli Sotterranea is at Piazza San Gaetano 68, just off Via dei Tribunali."
+  ],
+  "_sources": [
+   "https://napolisotterranea.org",
+   "https://en.wikipedia.org/wiki/Naples_underground"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Basilica di San Lorenzo Maggiore",
+  "a": "Centro Storico (Via dei Tribunali)",
+  "c": "medieval",
+  "lat": 40.8509,
+  "lng": 14.2580,
+  "s": "Gothic church with a Roman market from the 4th century BC buried beneath",
+  "w": "The heart of the ancient Greek city is under this Gothic church: the Macellum, a Roman market built over a 4th-century BC Greek agora, buried by a mudslide in the 5th century AD and only excavated from the 1950s. Boccaccio met Fiammetta here in 1336; Thomas Aquinas lectured in the adjacent convent. Three layers of civilisation, one foundation.",
+  "_facts": [
+   "Built by Angevins in Gothic style from 1270, the church stands at the precise geographic centre of ancient Neapolis.",
+   "Beneath it lies the Macellum of Naples, a Roman market whose first construction dates to the 4th or 5th century BC as a Greek agora.",
+   "The Macellum was buried by a mudslide in the 5th century AD and excavated from the 1950s onward.",
+   "Boccaccio met the woman he called Fiammetta in the church on Holy Saturday 1336, inspiring much of his writing.",
+   "Thomas Aquinas studied and lectured in the adjacent convent in the 13th century."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/San_Lorenzo_Maggiore%2C_Naples",
+   "https://en.wikipedia.org/wiki/Macellum_of_Naples"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Via San Gregorio Armeno",
+  "a": "Centro Storico",
+  "c": "oddity",
+  "lat": 40.8498,
+  "lng": 14.2580,
+  "s": "The Christmas-nativity alley open year-round — also sells Messi and Draghi",
+  "w": "Naples' famous 'nativity street' runs year-round, its workshops turning out presepe figures — the Madonna, the shepherds, the magi — alongside celebrity caricatures of footballers and politicians that Neapolitans cannot resist. The craft tradition dates to at least the 16th century, when the adjacent Benedictine convent set the local fashion for elaborate nativity scenes. Kitsch and craft, inseparable.",
+  "_facts": [
+   "Via San Gregorio Armeno is lined with workshops making Neapolitan presepe (nativity scene) figures year-round.",
+   "The craft tradition in this street goes back to at least the 16th century, linked to the adjacent Benedictine monastery.",
+   "Modern artisans also make celebrity figures — politicians, footballers — alongside traditional religious ones.",
+   "The church of San Gregorio Armeno on the same street is one of the most important Baroque complexes in Naples, built from the 8th century."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/San_Gregorio_Armeno"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Castel dell'Ovo",
+  "a": "Borgo Marinari",
+  "c": "medieval",
+  "lat": 40.8277,
+  "lng": 14.2480,
+  "s": "The egg-castle on a rock: Virgil's magic egg holds the fortifications up",
+  "w": "Naples' oldest castle sits on a former island jutting into the gulf — the Megaride rock where Greek colonists first settled in the 6th century BC. The name comes from a legend about the poet Virgil, who in the Middle Ages was credited with magical powers: he hid an enchanted egg in the foundations, and if the egg breaks, Naples falls. Said to be still there.",
+  "_facts": [
+   "Castel dell'Ovo is built on the former island of Megaride, where Greek settlers established their first outpost before founding Neapolis.",
+   "The name derives from a medieval legend that the Roman poet Virgil concealed a magical egg in the foundations.",
+   "Legend holds that if the egg breaks, the castle will collapse and catastrophe will befall Naples.",
+   "The castle was successively held by Romans, Normans, Hohenstaufens, Angevins and Aragonese.",
+   "It is located between the districts of San Ferdinando and Chiaia, on the Via Partenope waterfront."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Castel_dell'Ovo"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Teatro di San Carlo",
+  "a": "San Ferdinando (Via San Carlo)",
+  "c": "music",
+  "lat": 40.8374,
+  "lng": 14.2498,
+  "s": "Oldest continuously active opera house in the world, opened 1737",
+  "w": "Opera's oldest continuously active stage opened here on 4 November 1737 — decades before La Scala or La Fenice. Built by Bourbon King Charles VII in just nine months and connected directly to the Royal Palace, it held 3,000 spectators from the start. Burned down in 1816 and rebuilt in six months. The backstory to every opera house that came after.",
+  "_facts": [
+   "Teatro di San Carlo is the oldest continuously active venue for opera in the world, having opened in 1737.",
+   "It was commissioned by Bourbon King Charles VII and opened decades before Milan's La Scala or Venice's La Fenice.",
+   "Connected to the Royal Palace via a private passage for the royal family.",
+   "Burned down in 1816 and was rebuilt and reopened within six months.",
+   "At opening it seated approximately 3,000 spectators in six tiers of boxes."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Teatro_di_San_Carlo"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Certosa di San Martino",
+  "a": "Vomero Hill",
+  "c": "museum",
+  "lat": 40.8432,
+  "lng": 14.2411,
+  "s": "Baroque Carthusian monastery on the Vomero, with the best view of Naples",
+  "w": "Perched on the Vomero beside Castel Sant'Elmo, this Carthusian monastery was inaugurated in 1368 and redesigned in full Baroque by Cosimo Fanzago from 1623. Now the National Museum of San Martino, it holds the largest collection of Neapolitan presepe (nativity scenes), canvases by Ribera and Stanzione, and a terrace from which the entire gulf unfurls. Worth it for the view alone.",
+  "_facts": [
+   "A Carthusian monastery, finished and inaugurated under Queen Joan I of Naples in 1368.",
+   "Redesigned and expanded under architect Cosimo Fanzago from 1623 into its current Baroque form.",
+   "Now the National Museum of San Martino, opened to the public in 1866 after Italian unification.",
+   "Holds the largest and finest collection of Neapolitan presepe (nativity scenes) in existence.",
+   "Commands panoramic views of the entire Gulf of Naples and the city below."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Certosa_di_San_Martino",
+   "https://en.wikipedia.org/wiki/National_Museum_of_San_Martino"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Castel Nuovo",
+  "a": "Porto (Piazza Municipio)",
+  "c": "medieval",
+  "lat": 40.8383,
+  "lng": 14.2537,
+  "s": "Maschio Angioino: five-towered fortress and royal seat from 1279",
+  "w": "Five cylindrical towers in dark Piperno stone dominate the waterfront: the Maschio Angioino, raised in 1279 for the Angevins and later seat of Aragonese and Spanish kings. Sandwiched between two towers is a Renaissance triumphal arch of 1470 commemorating Alfonso I's entry into Naples. Inside, a small papal conclave in 1294 elected Celestine V — and Dante punished him for it.",
+  "_facts": [
+   "Castel Nuovo was first erected in 1279 by order of Charles I of Anjou.",
+   "It served as royal seat for kings of Naples, Aragon and Spain until 1815.",
+   "The Triumphal Arch of Alfonso I (1470) between its two main towers commemorates the Aragonese king's entry into Naples.",
+   "In 1294 a papal conclave held inside the castle elected Pietro da Morrone as Pope Celestine V, who resigned after five months.",
+   "Dante placed the 'shade who made the great refusal' (Celestine V's abdication) in Hell, Inferno III."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Castel_Nuovo"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Galleria Umberto I",
+  "a": "San Ferdinando",
+  "c": "history",
+  "lat": 40.8385,
+  "lng": 14.2492,
+  "s": "Nineteenth-century iron-and-glass galleria — the cornerstone of the 'risanamento'",
+  "w": "Built between 1887 and 1890 directly opposite the San Carlo opera house, this iron-and-glass galleria with its 57-metre dome was the flagship of the risanamento — the controversial demolition-and-rebuild that cleared Naples' worst cholera-ridden slums. Designed in the Stile Umbertino by Emanuele Rocco, it took Milan's Galleria Vittorio Emanuele II as its model. The price of modernisation.",
+  "_facts": [
+   "Galleria Umberto I was built between 1887 and 1890, designed by Emanuele Rocco in the Stile Umbertino.",
+   "Located directly across from the Teatro San Carlo opera house.",
+   "Its dome rises 57 metres at the tip of the spire.",
+   "It was the cornerstone of the risanamento, the decades-long rebuilding of Naples that razed cholera-ridden quarters.",
+   "It was modelled on the earlier Galleria Vittorio Emanuele II in Milan."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Galleria_Umberto_I"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Parco Vergiliano e Tomba di Virgilio",
+  "a": "Piedigrotta (Mergellina)",
+  "c": "literary",
+  "lat": 40.8296,
+  "lng": 14.2173,
+  "s": "The park at the entry to a Roman tunnel said to hold Virgil's bones",
+  "w": "At the mouth of the Crypta Neapolitana — a Roman road tunnel cut in 37 BC, over 700 metres long, still passable — a columbarium holds a Roman burial vault traditionally identified as Virgil's tomb. The poet lived his last years near Naples and asked to be buried here. Scholars doubt it; pilgrims have not. Leopardi and Petrarch both came to pay their respects.",
+  "_facts": [
+   "The 'tomb' is a Roman columbarium at the entrance to the Crypta Neapolitana, a road tunnel built in 37 BC over 700 metres long.",
+   "Tradition since antiquity holds this is the tomb of Virgil, who spent his last years near Naples and died at Brindisi in 19 BC.",
+   "Petrarch and Leopardi both visited to pay homage to the poet.",
+   "The Crypta Neapolitana itself was an important Roman road linking Naples to Pozzuoli.",
+   "The site is now the Parco Vergiliano a Piedigrotta, a small public garden in the Mergellina district."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Virgil's_tomb",
+   "https://en.wikipedia.org/wiki/Crypta_Neapolitana"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Museo del Tesoro di San Gennaro",
+  "a": "Centro Storico (Via Duomo)",
+  "c": "museum",
+  "lat": 40.8523,
+  "lng": 14.2597,
+  "s": "The treasure hoard vowed to Naples' patron saint: gold, jewels, relics",
+  "w": "Next to the cathedral on Via Duomo sits a treasury of votive offerings accumulated over four centuries — tiaras, busts, necklaces and a diamond-studded mitre made by Neapolitan craftsmen for the city's patron saint. The hoard grew through plague-vows, royal gifts and public subscriptions. The blood of San Gennaro liquefies in the adjacent cathedral three times a year. His faithful have been insuring the city ever since.",
+  "_facts": [
+   "The museum houses sacred art and relics accumulated from the 17th century onward as votive offerings to San Gennaro.",
+   "The collection includes a jewelled mitre, ceremonial bust, tiaras and necklaces made by Neapolitan goldsmiths.",
+   "The Treasury was begun in 1601 after a vow by the city to build it if San Gennaro protected Naples from Vesuvius.",
+   "Three times annually the dried blood of San Gennaro liquefies in an ampoule held in the adjacent cathedral — a miracle watched by thousands.",
+   "Located at Via Duomo 149, immediately adjacent to the Naples Cathedral."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Museo_del_Tesoro_di_San_Gennaro",
+   "https://en.wikipedia.org/wiki/Naples_Cathedral"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Museo Madre",
+  "a": "Centro Storico (Via Settembrini)",
+  "c": "museum",
+  "lat": 40.8551,
+  "lng": 14.2586,
+  "s": "Naples' contemporary art museum in a Baroque palazzo remade by Alvaro Siza",
+  "w": "The Palazzo Donnaregina — a 17th-century Baroque pile off Via Tribunali — was stripped back and rewired in 2005 by Portuguese architect Alvaro Siza Vieira to house Naples' contemporary art museum. Permanent commissions by Jeff Koons, Kiki Smith and Richard Serra sit alongside Neapolitan artists. Old money palazzo, new art. The contrast is deliberate.",
+  "_facts": [
+   "The Museo d'Arte Contemporanea Donnaregina (Museo Madre) opened in 2005.",
+   "Housed in the Palazzo Donnaregina, adapted by Portuguese architect Alvaro Siza Vieira.",
+   "Holds permanent site-specific commissions by international artists including Jeff Koons, Kiki Smith and Richard Serra.",
+   "Located at Via Luigi Settembrini 79, in the historic centre near Via dei Tribunali."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Museo_d'Arte_Contemporanea_Donnaregina"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Porta Capuana",
+  "a": "Porta Capuana / Castel Capuano",
+  "c": "medieval",
+  "lat": 40.8544,
+  "lng": 14.2654,
+  "s": "The Renaissance marble gate flanked by two Aragonese towers from 1484",
+  "w": "The finest surviving gateway of the old Aragonese walls: Porta Capuana was rebuilt by Ferdinand I of Aragon and finished in 1484, its two dark stone towers flanking a white marble triumphal arch. It marked the main road north to Rome and the entrance used for royal and papal processions. The French tore down the rest of the walls around it; this gate survived. An Aragonese welcome.",
+  "_facts": [
+   "Porta Capuana is a Renaissance city gate in Naples, rebuilt by Ferdinand I of Aragon and completed in 1484.",
+   "It is flanked by two cylindrical bastions named Honour and Virtue.",
+   "The white marble arch is attributed to Giuliano da Maiano, who also worked on the Castel Nuovo.",
+   "It marked the principal route north from Naples toward Capua and Rome.",
+   "Two of the original medieval bastions remain; most of the surrounding walls were demolished in the 19th century."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Porta_Capuana"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "San Domenico Maggiore",
+  "a": "Spaccanapoli (Piazza San Domenico)",
+  "c": "faith",
+  "lat": 40.8490,
+  "lng": 14.2543,
+  "s": "Gothic Dominican church where Aquinas studied — royal coffins above the altar",
+  "w": "Founded by Dominicans in 1283 on land seized from older churches, San Domenico Maggiore is where Thomas Aquinas studied and reportedly experienced a vision before the crucifix that spoke to him. Above the sacristy hang 45 royal and noble coffins in their wooden cases — a rare funerary spectacle. The piazza outside is the evening centre of the centro storico, ringed by cafes.",
+  "_facts": [
+   "San Domenico Maggiore is a Gothic Dominican church founded in 1283 at the centre of the historic city.",
+   "Thomas Aquinas studied at the adjacent Dominican convent in the 13th century and reportedly received a vision at the church's crucifix.",
+   "The sacristy contains 45 wooden coffins of Aragonese royalty and nobles dating from the 14th to 17th centuries.",
+   "The church holds works by Caravaggio, Titian, and other masters.",
+   "The piazza outside is a major social hub of the centro storico."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/San_Domenico_Maggiore",
+   "https://en.wikipedia.org/wiki/Thomas_Aquinas"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Piazza Bellini",
+  "a": "Centro Storico",
+  "c": "history",
+  "lat": 40.8499,
+  "lng": 14.2522,
+  "s": "Centro storico square with Greek city-wall ruins in its sunken garden",
+  "w": "A sunken garden in the middle of this bohemian piazza reveals sections of the original Greek city wall of Neapolis — tufa blocks from the 4th century BC still visible below street level. The square is ringed by music bars and independent bookshops, and a baroque statue of Vincenzo Bellini watches over it all. Ancient stones, aperitivi, and student clutter.",
+  "_facts": [
+   "Piazza Bellini displays visible remains of the ancient Greek walls of Neapolis, dating to the 4th century BC.",
+   "The Greek walls are visible in the sunken garden at the centre of the piazza.",
+   "The square is named after Vincenzo Bellini, and a 19th-century statue of the composer stands in it.",
+   "The piazza is a hub of Naples' bookshop scene and nightlife, particularly popular with students.",
+   "It is located just north of the Decumanus Maximus, in the heart of the centro storico."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Piazza_Bellini%2C_Naples"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Museo di Capodimonte",
+  "a": "Capodimonte",
+  "c": "museum",
+  "lat": 40.8677,
+  "lng": 14.2506,
+  "s": "Bourbon royal palace on the hill — the greatest Neapolitan painting collection",
+  "w": "Charles of Bourbon built this palace from 1738 to house the Farnese inheritance he brought from Parma — Titian, Raphael, Bruegel, El Greco. From it grew the prime repository of Neapolitan painting, with Caravaggio's 'Flagellation of Christ,' Ribera and Artemisia Gentileschi. The palace stands in a park above the city; one of the largest museums in Italy, and still underknown.",
+  "_facts": [
+   "Museo di Capodimonte is housed in the Palace of Capodimonte, designed by Giovanni Antonio Medrano and built from 1738.",
+   "The museum began with the Farnese collection Charles of Bourbon inherited and brought to Naples from Parma.",
+   "It holds Caravaggio's 'Flagellation of Christ,' painted in 1607 specifically for Naples.",
+   "It is one of the largest museums in Italy and was inaugurated to the public in 1957.",
+   "The palace sits within the Bosco di Capodimonte, a large park above the city."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Museo_di_Capodimonte"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "State Archives of Naples",
+  "a": "Pendino (Santi Severino e Sossio)",
+  "c": "archive",
+  "lat": 40.8480,
+  "lng": 14.2583,
+  "s": "50,000 metres of southern Italian history, shelved in a Benedictine cloister",
+  "w": "The cloisters of the suppressed Benedictine church of Santi Severino e Sossio hold over 50,000 linear metres of documents covering southern Italian history from the 10th century to today — charters, feudal registers, royal decrees, inquisition records. One of the great archives of Europe, and wholly undervisited. Ask at the reading room; the cloister itself can be viewed.",
+  "_facts": [
+   "The State Archives of Naples holds over 50,000 linear metres of documents.",
+   "Coverage spans southern Italy from the 10th century to the present, including Norman, Aragonese, Bourbon and Italian state records.",
+   "The archives are housed in the cloisters of the former church of Santi Severino e Sossio, a Benedictine complex.",
+   "The complex includes a 15th-century cloister with marble columns, now open to researchers.",
+   "Among its holdings are the records of the Kingdom of Naples, Angevin registers and inquisition trials."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/State_Archives_of_Naples"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Chiesa del Gesu Nuovo",
+  "a": "Piazza del Gesu Nuovo",
+  "c": "faith",
+  "lat": 40.8476,
+  "lng": 14.2519,
+  "s": "Diamond-rusticated fortress facade hiding an extravagant Baroque interior",
+  "w": "The facade is a 15th-century aristocratic palazzo in diamond-cut rustication — every stone a sharp pyramid — repurposed in 1584 when the Jesuits converted it into a church. Step inside and the austerity shatters: all-over Baroque fresco and marble. The church has become a major pilgrimage site for the modern physician-saint Giuseppe Moscati; ex-votos and surgeons' instruments line the walls.",
+  "_facts": [
+   "The diamond-rusticated facade dates from 1470 when the site was the palace of the Sanseverino princes.",
+   "The Jesuits acquired the palazzo in 1584 and converted it into a church, preserving the unusual exterior.",
+   "It contains some of the most extravagant Baroque decoration in Naples, with frescoes by Francesco Solimena.",
+   "The church became a major pilgrimage centre after the beatification (1975) and canonisation (1987) of doctor Giuseppe Moscati, who worked with the poor of Naples.",
+   "Votive offerings including medical instruments and surgical tools are on display near Moscati's chapel."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Ges%C3%B9_Nuovo"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Conservatorio San Pietro a Majella",
+  "a": "Piazza Bellini / San Giuseppe",
+  "c": "music",
+  "lat": 40.8492,
+  "lng": 14.2526,
+  "s": "One of the oldest music conservatories in Europe, founded 1537",
+  "w": "Naples ran the first dedicated music conservatories in Europe from the 1530s — training the composers of the Baroque era, from Alessandro Scarlatti to Pergolesi. Today's conservatory at San Pietro a Majella is their direct descendant, operating inside a 14th-century Franciscan complex since 1826. Its library holds autographs by Bellini, Donizetti and Cimarosa. Music was a Neapolitan industry before Naples knew it.",
+  "_facts": [
+   "The conservatory at San Pietro a Majella is descended from four earlier Neapolitan conservatories dating to 1537.",
+   "Naples' conservatories trained composers including Alessandro Scarlatti, Pergolesi, Cimarosa and Porpora.",
+   "The present conservatory has occupied the 14th-century Franciscan complex of San Pietro a Majella since 1826.",
+   "Its library holds manuscript autographs by Bellini, Donizetti, Cimarosa and Scarlatti.",
+   "The conservatory is credited with helping establish the 'Neapolitan school' of opera in the 17th-18th centuries."
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Music_conservatories_of_Naples",
+   "https://en.wikipedia.org/wiki/Music_of_Naples"
+  ],
+  "confidence": "solid"
  }
 ]
