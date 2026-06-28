@@ -500,3 +500,30 @@ create policy "fr delete" on public.friend_requests for delete
 ```
 
 All of this degrades gracefully if the tables are absent.
+
+---
+
+## 16. Social push notifications — `notify-social` Edge Function
+
+Sends a Web Push when someone follows you, likes/comments on your collection,
+or sends/accepts a friend request. Reuses the §10 push plumbing
+(`push_subscriptions` table, the SW `push` handler, the `flPush` subscribe UI).
+No new tables. **Dormant** until you (a) have §10 push working — VAPID keys set,
+`CFG.vapidPublic` filled, a user subscribed — and (b) deploy this function.
+
+Flow: a social action (`follow`/`like`/`comment`/friend) calls the client hook
+`flNotify(type, targetUserId, {name})` best-effort. It POSTs to the function
+**with the actor's JWT**; the function derives the *actor* from that token (so
+the "who" can't be spoofed), looks up the *target's* subscriptions, and sends a
+templated push. Bad tokens / self-targets / missing subscriptions are no-ops,
+and the client swallows all failures so the underlying action never breaks.
+
+Deploy (JWT verification ON — note: NOT `--no-verify-jwt`):
+```bash
+supabase functions deploy notify-social
+supabase secrets set VAPID_PUBLIC=<public> VAPID_PRIVATE=<private>
+# SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY are injected automatically.
+```
+The client targets `<supabaseUrl>/functions/v1/notify-social` automatically
+(derived from `CFG.supabaseUrl`); if the function isn't deployed the POST 404s
+and is ignored. Pruning on 404/410 keeps `push_subscriptions` clean.
