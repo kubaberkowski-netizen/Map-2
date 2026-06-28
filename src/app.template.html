@@ -1046,10 +1046,11 @@ window.flSocialUI=function(openUser){
   function renderSignedOut(openUser){clr();pad.appendChild(h("Profile & friends"));pad.appendChild(note("Sign in to claim your @username, publish collections and follow other wanderers."));var b=btn("Sign in");b.style.width="100%";b.style.marginTop="8px";b.onclick=function(){close();openModal();};pad.appendChild(b);pad.appendChild(discoverSection());pad.appendChild(findSection(openUser));}
   function renderSignedIn(openUser){
     clr();pad.appendChild(h("Profile & friends"));
-    var info=el("div","");pad.appendChild(info);info.appendChild(note("Loading…"));
-    S.myProfile().then(function(p){
-      info.innerHTML="";
-      info.appendChild(lbl("Your public profile"));
+    var tabbar=el("div","display:flex;gap:6px;margin-bottom:14px;");pad.appendChild(tabbar);
+    var paneMe=el("div",""),paneAct=el("div","display:none;"),paneDisc=el("div","display:none;");pad.appendChild(paneMe);pad.appendChild(paneAct);pad.appendChild(paneDisc);
+    var built={},tA=el("button",""),tB=el("button",""),tC=el("button","");
+    function setActive(which){[["me",tA],["act",tB],["disc",tC]].forEach(function(x){var on=x[0]===which;x[1].style.background=on?"var(--ink,#211)":"var(--surface2,#eee)";x[1].style.color=on?"#fff":"var(--ink2,#555)";});}
+    function buildMe(){var info=paneMe;info.appendChild(note("Loading…"));S.myProfile().then(function(p){info.innerHTML="";      info.appendChild(lbl("Your public profile"));
       var unameRow=el("div","display:flex;align-items:center;gap:6px;margin-bottom:8px;");
       unameRow.appendChild(el("div","font:700 16px var(--font-sans);color:var(--ink3,#888);","@"));
       var uname=inp("username");uname.style.flex="1";uname.value=(p&&p.username)||"";unameRow.appendChild(uname);info.appendChild(unameRow);
@@ -1060,18 +1061,11 @@ window.flSocialUI=function(openUser){
       info.appendChild(save);info.appendChild(smsg);
       save.onclick=function(){save.disabled=true;smsg.style.color="var(--ink3,#777)";smsg.textContent="Saving…";S.saveProfile({username:uname.value,display_name:dname.value,bio:bio.value,links:links.value}).then(function(np){smsg.style.color="var(--ok,#1F8A5B)";smsg.textContent="Saved — your profile is live.";save.disabled=false;save.textContent="Save profile";linkRow(info,np.username);},function(e){save.disabled=false;smsg.style.color="var(--red,#C8372D)";smsg.textContent=(e&&e.code==="taken")?"That @username is taken.":((e&&e.message)||"Couldn’t save.");});};
       if(p&&p.username)linkRow(info,p.username);
-      if(USER)S.counts(USER.id).then(function(cc){var cr=el("div","display:flex;gap:18px;margin:14px 0 2px;");cr.appendChild(stat(cc.followers,"followers"));cr.appendChild(stat(cc.following,"following"));info.appendChild(cr);});
-      info.appendChild(yourCollectionsSection());
-      info.appendChild(sharedSection());
-      info.appendChild(notifPrefsSection());
-      info.appendChild(friendRequestsSection());
-      info.appendChild(activitySection());
-      info.appendChild(feedSection());
-      info.appendChild(followingSection());      info.appendChild(friendsSection());
-
-      info.appendChild(discoverSection());
-      info.appendChild(findSection(openUser));
-    },function(){info.innerHTML="";info.appendChild(note("Couldn’t load your profile — check your connection."));});
+      if(USER)S.counts(USER.id).then(function(cc){var cr=el("div","display:flex;gap:18px;margin:14px 0 2px;");cr.appendChild(stat(cc.followers,"followers"));cr.appendChild(stat(cc.following,"following"));info.appendChild(cr);});info.appendChild(yourCollectionsSection());info.appendChild(sharedSection());info.appendChild(notifPrefsSection());},function(){info.innerHTML="";info.appendChild(note("Couldn’t load your profile — check your connection."));});}
+    function build(which){if(which==="me")buildMe();else if(which==="act"){paneAct.appendChild(friendRequestsSection());paneAct.appendChild(activitySection());paneAct.appendChild(feedSection());paneAct.appendChild(friendsSection());paneAct.appendChild(followingSection());}else{paneDisc.appendChild(discoverSection());paneDisc.appendChild(findSection(openUser));}}
+    function show(which){paneMe.style.display=which==="me"?"block":"none";paneAct.style.display=which==="act"?"block":"none";paneDisc.style.display=which==="disc"?"block":"none";setActive(which);if(!built[which]){built[which]=true;build(which);}}
+    [["Me",tA,"me"],["Activity",tB,"act"],["Discover",tC,"disc"]].forEach(function(t){t[1].textContent=t[0];t[1].setAttribute("style","flex:1;border:none;border-radius:10px;padding:9px;font:700 13px var(--font-sans);cursor:pointer;");tabbar.appendChild(t[1]);t[1].onclick=function(){show(t[2]);};});
+    show(openUser?"disc":"me");
   }
   if(!S||!S.configured){clr();pad.appendChild(h("Profile & friends"));pad.appendChild(note("Social features aren’t set up yet."));return;}
   if(USER)renderSignedIn(openUser);else renderSignedOut(openUser);
