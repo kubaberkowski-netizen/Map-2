@@ -88,8 +88,8 @@
     }else{
       h+='<div class="state">No public collections yet.</div>';
     }
-    h+='<a class="cta" href="./">Open Flâneur</a>';
-    h+='<div class="sub">Follow @'+esc(p.username)+' in the app — open Flâneur, then “Profile &amp; friends”.</div>';
+    h+='<a class="cta" href="./#u='+encodeURIComponent(p.username)+'">Follow @'+esc(p.username)+' in Flâneur</a>';
+    h+='<div class="sub">Opens the app — sign in to follow and see their newest collections.</div>';
     app.innerHTML=h;
   }
   var u=uParam();

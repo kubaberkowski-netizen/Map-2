@@ -408,3 +408,36 @@ DB-side; uniqueness is enforced by the lower() index. Moderation is manual for
 now (`delete from public.public_profiles where username='…'`). Natural follow-ups:
 an in-app feed of followed users' newest collections, like/save counts on
 collections, and `#u=<username>` deep-linking from `u.html` into the app.
+
+---
+
+## 14. Social: likes + feed (extends §13)
+
+A heart/save on public collections, plus an in-app feed of the newest
+collections from people you follow. Likes are public-read (counts render on
+`c.html` and in the feed without a session); only the liker can add/remove
+their own like. The feed is purely client-side (no new table): it reads your
+follows, fetches those owners' collections newest-first, and tallies likes.
+
+Client surface (cloud module, on `window.flSocial`): `like(slug)`,
+`unlike(slug)`, `hasLiked(slug)`, `likeCount(slug)`, and `feed(limit)` (returns
+collections enriched with `author`, `likes`, `liked`). The feed + heart buttons
+live in the "Profile & friends" sheet; `u.html`'s CTA deep-links to
+`./#u=<username>` which opens that profile in-app.
+
+### Schema (run once in the SQL editor — after §13)
+```sql
+create table public.collection_likes (
+  user_id    uuid not null references auth.users on delete cascade,
+  slug       text not null references public.collections(slug) on delete cascade,
+  created_at timestamptz not null default now(),
+  primary key (user_id, slug)
+);
+alter table public.collection_likes enable row level security;
+create policy "likes public read" on public.collection_likes for select using (true);
+create policy "likes self insert" on public.collection_likes for insert with check (auth.uid() = user_id);
+create policy "likes self delete" on public.collection_likes for delete using (auth.uid() = user_id);
+```
+
+Everything degrades gracefully if this table is absent (counts read as 0, the
+feed still lists collections) — so it can be added independently of §13.

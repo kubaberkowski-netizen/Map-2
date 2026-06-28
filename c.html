@@ -125,6 +125,7 @@
     h+='<a class="cta" href="./#c='+encodeURIComponent(c.slug||"")+'">Open in Flâneur</a>';
     h+='<div class="sub">'+(itin?'Plan and share your own trips in the app.':'Build and share your own collections in the app.')+'</div>';
     app.innerHTML=h;
+    try{sb.from("collection_likes").select("*",{count:"exact",head:true}).eq("slug",c.slug).then(function(lc){var n=(lc&&lc.count)||0;if(n>0){var mEl=document.querySelector(".meta");if(mEl)mEl.insertAdjacentHTML("beforeend"," · \u2665 "+n);}},function(){});}catch(e){}
     if(window.L&&spots.length){
       try{
         var map=L.map("map",{scrollWheelZoom:false,attributionControl:true});
