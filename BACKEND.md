@@ -556,3 +556,51 @@ create policy "avatars update"  on storage.objects for update
 ```
 (The object name is exactly the uploader's `user_id`, so the policy ties each
 file to its owner.) Degrades gracefully: no `avatar_v` → initials fallback.
+
+---
+
+## 18. Notification preferences · block · report
+
+- **Notification prefs:** a `notify_prefs jsonb` column on public_profiles
+  ({follow,like,comment,friend} → bool, absence = on). Toggled in the
+  "Notifications" section of the Profile sheet; `notify-social` reads the
+  target's prefs and skips muted types.
+- **Block:** a `blocks` table. The client caches the blocker's set and filters
+  blocked users out of feed / Discover / following / friends / suggestions /
+  activity; the ⋯ menu on a person card blocks/unblocks. `notify-social` skips
+  sending if the target has blocked the actor.
+- **Report:** a `reports` table (user/collection/comment + free-text reason),
+  posted from the ⋯ menu. No public read — moderate via the dashboard.
+
+Client: `flSocial.getPrefs/savePrefs`, `block/unblock/isBlocked/blockedSet`,
+`report(kind,id,reason)`. All degrade gracefully if the tables/column are absent.
+
+```sql
+alter table public.public_profiles add column if not exists notify_prefs jsonb not null default '{}'::jsonb;
+
+create table public.blocks (
+  blocker_id uuid not null references auth.users on delete cascade,
+  blocked_id uuid not null references auth.users on delete cascade,
+  created_at timestamptz not null default now(),
+  primary key (blocker_id, blocked_id),
+  check (blocker_id <> blocked_id)
+);
+alter table public.blocks enable row level security;
+create policy "blocks read self" on public.blocks for select using (auth.uid() = blocker_id);
+create policy "blocks ins self"  on public.blocks for insert with check (auth.uid() = blocker_id);
+create policy "blocks del self"  on public.blocks for delete using (auth.uid() = blocker_id);
+
+create table public.reports (
+  id          bigint generated always as identity primary key,
+  reporter_id uuid not null references auth.users on delete cascade,
+  target_type text not null check (target_type in ('user','collection','comment')),
+  target_id   text not null,
+  reason      text,
+  created_at  timestamptz not null default now()
+);
+alter table public.reports enable row level security;
+create policy "reports ins self" on public.reports for insert with check (auth.uid() = reporter_id);
+-- no select policy: only service_role / dashboard can read reports.
+```
+(`notify-social` reads notify_prefs + blocks via the service role, so no extra
+read policies are needed for it.)

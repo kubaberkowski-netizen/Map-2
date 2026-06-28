@@ -63,6 +63,13 @@ Deno.serve(async (req) => {
     const { data: prof } = await sb.from("public_profiles").select("username").eq("user_id", actor.id).maybeSingle();
     const who = prof?.username || "";
 
+    // Respect the target's notification preferences and blocks.
+    const { data: tprof } = await sb.from("public_profiles").select("notify_prefs").eq("user_id", target).maybeSingle();
+    const prefs = (tprof?.notify_prefs ?? {}) as Record<string, unknown>;
+    if (prefs[String(type)] === false) return json({ ok: true, muted: true });
+    const { data: blk } = await sb.from("blocks").select("blocker_id").eq("blocker_id", target).eq("blocked_id", actor.id).maybeSingle();
+    if (blk) return json({ ok: true, blocked: true });
+
     const { data: subs } = await sb.from("push_subscriptions")
       .select("endpoint, subscription").eq("user_id", target);
     if (!subs || !subs.length) return json({ ok: true, sent: 0 });
