@@ -492,5 +492,445 @@
       "https://en.wikipedia.org/wiki/Belvedere_Castle"
     ],
     "confidence": "solid"
+  },
+  {
+    "n": "New York Earth Room",
+    "a": "SoHo, Manhattan",
+    "c": "oddity",
+    "lat": 40.7259792,
+    "lng": -73.9997541,
+    "s": "A loft floor buried under 280,000 pounds of soil — and open to the public",
+    "w": "Walter de Maria filled 3,600 square feet of a SoHo loft to a depth of 22 inches with 280,000 pounds of dark earth in 1977. The piece has been on continuous display ever since, tended by a single caretaker. No other artwork in New York smells like this room. Dia Art Foundation commission; admission free.",
+    "_facts": [
+      "Created 1977 by Walter De Maria at 141 Wooster Street, SoHo.",
+      "Consists of 250 cubic yards of earth in 3,600 square feet at a 22-inch depth.",
+      "Total weight approximately 280,000 pounds.",
+      "Maintained by the Dia Art Foundation; on continuous display since 1977.",
+      "One full-time caretaker maintains the installation, removing weeds and controlling moisture."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/The_New_York_Earth_Room"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "The Broken Kilometer",
+    "a": "SoHo, Manhattan",
+    "c": "oddity",
+    "lat": 40.7240871,
+    "lng": -74.0021462,
+    "s": "500 brass rods laid end-to-end across a SoHo floor, adding up to a kilometre",
+    "w": "Walter de Maria arranged 500 solid brass rods — each two metres long, two inches in diameter — across the floor of a West Broadway storefront in 1979. The rods are laid in five rows of 100; the spacing between each rod increases by 5 mm as the rows recede. Dia Art Foundation commission; on view since 1979.",
+    "_facts": [
+      "Created 1979 by Walter De Maria at 393 West Broadway, SoHo.",
+      "500 solid brass rods, each 2 metres long and 2 inches in diameter, in five rows of 100.",
+      "The spacing between consecutive rods increases by 5 mm, from 80 mm to 570 mm.",
+      "Illuminated by metal-halide stadium lights.",
+      "Commissioned and maintained by the Dia Art Foundation; free admission, limited hours."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/The_Broken_Kilometer"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "New York Transit Museum",
+    "a": "Downtown Brooklyn",
+    "c": "museum",
+    "lat": 40.6905176,
+    "lng": -73.9899802,
+    "s": "A real 1930s subway station with vintage trains — still underground, never reopened",
+    "w": "The decommissioned Court Street station, closed 1946, was converted into a museum in 1976. Vintage subway cars from 1907 to the 1960s stand on functioning platforms, complete with period advertising. The station retains its original mosaics and signage. The museum operates entirely below street level.",
+    "_facts": [
+      "Located in the former Court Street subway station, Brooklyn Heights, closed 1946.",
+      "Opened as a museum in 1976; now a division of the Metropolitan Transportation Authority.",
+      "Collection includes subway cars from 1907, 1916, and every subsequent decade through the 1960s.",
+      "Platforms retain original 1930s mosaics and station signage.",
+      "A satellite gallery annex operates in Grand Central Terminal."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/New_York_Transit_Museum"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Smallpox Hospital",
+    "a": "Roosevelt Island, Manhattan",
+    "c": "history",
+    "lat": 40.7516667,
+    "lng": -73.9594444,
+    "s": "James Renwick Jr's Gothic ruin — a smallpox ward the city walled off and forgot",
+    "w": "Designed by James Renwick Jr. (architect of St Patrick's Cathedral), opened 1856 as a 100-bed smallpox isolation ward on Blackwell's Island. Abandoned in 1875, declared a New York City landmark in 1975, it stands as a roofless shell at the island's southern tip — the only officially sanctioned ruin in New York.",
+    "_facts": [
+      "Designed by James Renwick Jr.; opened 1856 as a smallpox hospital on Blackwell's Island (now Roosevelt Island).",
+      "Renwick also designed St Patrick's Cathedral and Grace Church.",
+      "Abandoned circa 1875 when the Riverside Hospital for smallpox patients replaced it.",
+      "Designated a New York City landmark in 1975 and listed on the National Register of Historic Places.",
+      "Described as the only officially designated ruin in New York City; remains a roofless Gothic shell."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Smallpox_Hospital"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Kings Theatre",
+    "a": "Flatbush, Brooklyn",
+    "c": "cinema",
+    "lat": 40.6460103,
+    "lng": -73.9573556,
+    "s": "Loew's grandest Wonder Theatre — shuttered for 35 years, now restored to full baroque glory",
+    "w": "Opened September 7, 1929 as one of five Loew's Wonder Theatres, Kings was the largest and most opulent — French Baroque interior with a soaring ceiling fresco and gilded boxes seating 3,600. Closed 1977, left to decay. Reopened 2015 after a 95-million-dollar restoration. The chandelier never left.",
+    "_facts": [
+      "Designed by Rapp and Rapp; opened September 7, 1929 at 1027 Flatbush Avenue.",
+      "One of five Loew's Wonder Theatres in the New York area; the largest at 3,600 seats.",
+      "Closed in 1977 after declining attendance; stood vacant for 35 years.",
+      "Reopened in 2015 following a 95-million-dollar restoration funded by the city and private investors.",
+      "Listed on the National Register of Historic Places."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Kings_Theatre_(Brooklyn)"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Vander Ende-Onderdonk House",
+    "a": "Ridgewood, Queens",
+    "c": "history",
+    "lat": 40.7109550,
+    "lng": -73.9200457,
+    "s": "The oldest Dutch Colonial stone house in New York City — hidden in Ridgewood",
+    "w": "Built in the late 17th century on what was then the Brooklyn-Queens border, this fieldstone farmhouse is the oldest Dutch Colonial stone structure in the five boroughs. The Vander Ende family built it; the Onderdonks owned it for generations. Now a house museum run by the Greater Ridgewood Historical Society.",
+    "_facts": [
+      "Built late 17th century at 1820 Flushing Avenue, Ridgewood, Queens.",
+      "Oldest Dutch Colonial stone house in New York City.",
+      "Named for two successive families who owned it: the Vander Ende and Onderdonk families.",
+      "Listed on the National Register of Historic Places and designated a New York City landmark.",
+      "Operated as a house museum by the Greater Ridgewood Historical Society."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Vander_Ende%E2%80%93Onderdonk_House"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Woodlawn Cemetery",
+    "a": "Woodlawn, The Bronx",
+    "c": "death",
+    "lat": 40.8881345,
+    "lng": -73.8728116,
+    "s": "Duke Ellington, Miles Davis and Herman Melville share 400 acres of Bronx hillside",
+    "w": "Founded 1863, Woodlawn is a National Historic Landmark and one of the great rural cemeteries — 400 acres of glacially sculpted terrain with mausoleums designed by McKim, Mead and White. Duke Ellington, Miles Davis, Irving Berlin, Herman Melville and Jay Gould are all here. Freely walkable.",
+    "_facts": [
+      "Founded 1863 in Woodlawn Heights, The Bronx; designated a National Historic Landmark.",
+      "400 acres; over 300,000 interments.",
+      "Notable burials include Duke Ellington, Miles Davis, Irving Berlin, Herman Melville, Jay Gould and Fiorello La Guardia.",
+      "Features mausoleums designed by prominent architects including McKim, Mead and White.",
+      "Free to enter; operates as a cultural institution with guided tours."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Woodlawn_Cemetery_(Bronx%2C_New_York)"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "High Bridge",
+    "a": "Washington Heights, Manhattan",
+    "c": "history",
+    "lat": 40.8422717,
+    "lng": -73.9296698,
+    "s": "New York's oldest surviving bridge — built as a Roman aqueduct in 1848",
+    "w": "Completed in 1848 as part of the Croton Aqueduct, High Bridge carried fresh water across the Harlem River to Manhattan on arches modelled on Roman aqueducts. The city's oldest major bridge: 140 feet above the river, connecting Washington Heights to the Bronx. Closed 1970; reopened as a pedestrian bridge in 2015.",
+    "_facts": [
+      "Completed 1848 as part of the Old Croton Aqueduct system, bringing water from Westchester to Manhattan.",
+      "City's oldest major bridge; rises 140 feet above the Harlem River.",
+      "Originally built with stone arches modelled on Roman aqueducts; central arches replaced with steel in 1928.",
+      "Closed to pedestrians circa 1970 due to vandalism; reopened June 2015 after a 61-million-dollar restoration.",
+      "New York City designated landmark and National Register of Historic Places."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/High_Bridge_(New_York_City)"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Prison Ship Martyrs Monument",
+    "a": "Fort Greene, Brooklyn",
+    "c": "history",
+    "lat": 40.6917895,
+    "lng": -73.9755330,
+    "s": "More Americans died in British prison ships here than in all Revolutionary War battles",
+    "w": "Over 11,500 American prisoners of war died aboard British prison ships moored off Brooklyn during the Revolution — more than in all battlefield deaths combined. Their bones were gathered by Colonel Benjamin Tallmadge and interred below this 148-foot Doric column in Fort Greene Park, designed by McKim, Mead and White, 1908.",
+    "_facts": [
+      "Commemorates more than 11,500 Americans who died on British prison ships in Wallabout Bay during the Revolution.",
+      "More American POW deaths occurred here than total battlefield deaths in the Revolutionary War.",
+      "Remains collected and reinterred by Colonel Benjamin Tallmadge; 20,000 mourners attended an 1808 ceremony.",
+      "Current monument designed by McKim, Mead and White; bronze entrance doors by Augustus Saint-Gaudens.",
+      "148-foot Doric column in Fort Greene Park, dedicated 1908."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Prison_Ship_Martyrs%27_Monument"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Interference Archive",
+    "a": "Park Slope, Brooklyn",
+    "c": "archive",
+    "lat": 40.6704879,
+    "lng": -73.9857817,
+    "s": "A volunteer-run archive of radical posters, zines and movement ephemera",
+    "w": "Founded 2011 at 314 7th Street in Park Slope: an open-stack archive of political and social movement cultural production — protest posters, zines, buttons, banners, films from labor, feminist, anti-war and civil rights movements worldwide. Free to visit; community-run. The collection exceeds 50,000 items.",
+    "_facts": [
+      "Founded 2011 at 314 7th Street, Park Slope, Brooklyn.",
+      "Open-stack archive of materials related to social and political movements worldwide.",
+      "Holdings include posters, zines, pamphlets, buttons, T-shirts, films and audio recordings.",
+      "Entirely volunteer-run; free admission.",
+      "Mission: to explore the relationship between cultural production and social movements."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Interference_Archive"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Dead Horse Bay",
+    "a": "Marine Park, Brooklyn",
+    "c": "oddity",
+    "lat": 40.5823273,
+    "lng": -73.8987476,
+    "s": "A 1950s landfill that broke open and spilled its contents on the beach — still there",
+    "w": "Named for the horse-rendering factories that operated here from the 1850s. The southern shore became a city landfill capped in the 1930s; the cap broke in the 1950s and the entire contents spilled onto the beach — bottles, shoes, crockery, toys. Time-capsule debris still washes out with every tide. Gateway National Recreation Area.",
+    "_facts": [
+      "Site of horse-rendering glue factories from the 1850s through the 1930s.",
+      "Southern portion used as a city landfill capped circa 1930s.",
+      "The landfill cap broke in the 1950s; mid-20th-century household debris scattered across the beach.",
+      "Part of the Gateway National Recreation Area managed by the National Park Service.",
+      "Popular with beachcombers; removing artifacts is prohibited."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Dead_Horse_Bay"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Floyd Bennett Field",
+    "a": "Marine Park, Brooklyn",
+    "c": "history",
+    "lat": 40.5945286,
+    "lng": -73.8880351,
+    "s": "New York City's first municipal airport — the runways still there, the planes long gone",
+    "w": "Opened June 26, 1931 as New York City's first municipal airport. Amelia Earhart and Howard Hughes used it for record-setting flights. The Navy took it over in 1941; commercial aviation moved to LaGuardia and Idlewild. Now a National Park Service site with the original Art Deco terminal building and vast empty runways.",
+    "_facts": [
+      "Opened June 26, 1931 as New York City's first municipal airport, on Barren Island in Jamaica Bay.",
+      "Named for polar explorer Floyd Bennett, the first person to fly over the North Pole.",
+      "Used by Amelia Earhart, Howard Hughes and Wiley Post for record-setting flights in the 1930s.",
+      "Transferred to the US Navy in 1941; commercial traffic shifted to LaGuardia and Idlewild.",
+      "Now part of Gateway National Recreation Area; Art Deco terminal building survives."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Floyd_Bennett_Field"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Louis Armstrong House Museum",
+    "a": "Corona, Queens",
+    "c": "music",
+    "lat": 40.7545676,
+    "lng": -73.8615434,
+    "s": "Satchmo's house in Corona — exactly as he left it when he died in 1971",
+    "w": "Louis Armstrong and his wife Lucille lived in this modest brick house at 107th Street from 1943 until Armstrong died here on July 6, 1971. Lucille chose the house over Manhattan penthouses. The interior — kitchen, den, recording studio — is preserved exactly as it was. A National Historic Landmark, open for tours.",
+    "_facts": [
+      "Louis Armstrong lived at 34-56 107th Street, Corona, Queens from 1943 until his death on July 6, 1971.",
+      "Armstrong chose the modest Corona house over more prestigious Manhattan addresses.",
+      "Lucille Wilson Armstrong bequeathed the house to New York City to create a museum.",
+      "Interior preserved as Armstrong left it, including his in-home recording studio.",
+      "Designated a National Historic Landmark in 1977."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Louis_Armstrong_House"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Ridgewood Reservoir",
+    "a": "Glendale, Queens",
+    "c": "green",
+    "lat": 40.6891234,
+    "lng": -73.8864635,
+    "s": "A Victorian water supply reservoir turned secret woodland wetland on the borough boundary",
+    "w": "Built 1858 to supply Brooklyn with fresh water, the three interconnected basins of Ridgewood Reservoir were decommissioned in 1990. Abandoned, they seeded themselves into dense wetland forest — a rare freshwater wetland in New York City. Sits exactly on the Brooklyn-Queens border in Highland Park. Birders come at dawn.",
+    "_facts": [
+      "Built 1858 as part of the Brooklyn Water Works to supply water to the City of Brooklyn.",
+      "Three basins, totalling 34 acres, on the Brooklyn-Queens border within Highland Park.",
+      "Decommissioned in 1990; naturally revegetated into freshwater wetland over subsequent decades.",
+      "One of the few significant freshwater wetlands within New York City.",
+      "Listed on the National Register of Historic Places."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Ridgewood_Reservoir"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Steinway Mansion",
+    "a": "Astoria, Queens",
+    "c": "history",
+    "lat": 40.7787326,
+    "lng": -73.8970444,
+    "s": "The piano family's Italianate villa — they built an entire company town around it",
+    "w": "Benjamin Pike Jr. built this Italianate villa in 1857. William Steinway bought it in 1870 and proceeded to develop the surrounding area into Steinway Village — worker housing, a bathhouse, a kindergarten and a piano factory. The mansion sat on 70 acres overlooking Long Island Sound. NYC landmark 1967.",
+    "_facts": [
+      "Built 1857-58 by Benjamin Pike Jr., a scientific instrument maker.",
+      "Purchased 1870 by William Steinway of Steinway and Sons.",
+      "Steinway developed the surrounding area into a planned industrial village for his workers.",
+      "Originally sat on a 70-acre estate with views of Long Island Sound.",
+      "Designated a New York City landmark in 1967; listed on the National Register of Historic Places in 1983."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Steinway_Mansion"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Merchant's House Museum",
+    "a": "NoHo, Manhattan",
+    "c": "history",
+    "lat": 40.7276594,
+    "lng": -73.9923423,
+    "s": "The only 19th-century Manhattan house with its original interior and exterior intact",
+    "w": "Built 1831 by the hatter Joseph Brewster; purchased by merchant Seabury Tredwell in 1835 for 18,000 dollars. The Tredwell family lived here without significant alteration for nearly a century. The last Tredwell died in 1933; a cousin turned it into a museum in 1936. Everything from the silver to the wallpaper is original.",
+    "_facts": [
+      "Built 1831-32 at 29 East 4th Street; purchased by merchant Seabury Tredwell in 1835.",
+      "The Tredwell family occupied the house for nearly 100 years without significant renovation.",
+      "Last family member, Gertrude Tredwell, died in 1933.",
+      "Converted to a museum by cousin George Chapman in 1936.",
+      "Only 19th-century residence in Manhattan with both exterior and interior completely intact."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Merchant%27s_House_Museum"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Gowanus Canal",
+    "a": "Gowanus, Brooklyn",
+    "c": "history",
+    "lat": 40.6728584,
+    "lng": -73.9974341,
+    "s": "One of America's most polluted waterways — also Brooklyn's fastest-gentrifying address",
+    "w": "Dug in the 1860s as a cargo canal for coal, lumber and manufactured goods, Gowanus carried industrial waste for over a century. Declared a Superfund site by the EPA in 2010. The flushing tunnel installed in 1911 still runs — the sole mechanism preventing the canal from becoming solid sludge. Luxury apartments now overlook it.",
+    "_facts": [
+      "1.8-mile canal in Brooklyn; dug in the 1860s for commercial cargo.",
+      "Received industrial runoff from nearby factories and combined sewer overflows for over 100 years.",
+      "Designated an EPA Superfund site in 2010 due to coal tar and heavy metal contamination.",
+      "A flushing tunnel installed in 1911 pumps fresh water in to prevent stagnation; still operational.",
+      "Among the most polluted bodies of water in the United States."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Gowanus_Canal"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Governors Island",
+    "a": "New York Harbor, Manhattan",
+    "c": "history",
+    "lat": 40.6886536,
+    "lng": -74.0182760,
+    "s": "A 172-acre former military island in New York Harbor — free ferry from Manhattan",
+    "w": "Originally Lenape land called Pagganck, the island served as a British, then American military installation from 1776 through 2003. Fort Jay dates to 1794; Castle Williams — a circular sandstone fort — to 1811. Opened to the public 2005: 172 acres of car-free parkland eight minutes from Lower Manhattan.",
+    "_facts": [
+      "Known as Pagganck ('nut island') to the Lenape; ceded to the Dutch in 1637.",
+      "Fort Jay completed 1794; Castle Williams, a circular sandstone fort, completed 1811.",
+      "Served as a US Army post and then a US Coast Guard base until 2003.",
+      "Transferred to New York State and City; opened to the public in 2005.",
+      "172 acres; roughly 103 acres are 20th-century landfill added to the original island."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Governors_Island"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Paradise Theater",
+    "a": "Fordham, The Bronx",
+    "c": "cinema",
+    "lat": 40.8603139,
+    "lng": -73.8986681,
+    "s": "An 'atmospheric' movie palace designed to make audiences feel they were outdoors under stars",
+    "w": "John Eberson designed the 1929 Paradise as an 'atmospheric theatre' — the ceiling above 4,000 seats was a simulated Mediterranean sky complete with twinkling stars and drifting clouds. One of five Loew's Wonder Theatres, it held operatic performances during the Depression. The building survives on Grand Concourse, designated a landmark.",
+    "_facts": [
+      "Designed by John Eberson; opened September 7, 1929 at 2403 Grand Concourse, Fordham.",
+      "An 'atmospheric theatre': interior designed as an open-air Mediterranean courtyard with a star-projection ceiling.",
+      "Capacity of 4,000; one of five Loew's Wonder Theatres in the New York area.",
+      "Hosted Metropolitan Opera performances during the 1930s Depression era.",
+      "Designated a New York City interior and exterior landmark; currently being converted to apartments."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Paradise_Theater_(Bronx)"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Sunnyside Gardens",
+    "a": "Sunnyside, Queens",
+    "c": "history",
+    "lat": 40.7469444,
+    "lng": -73.9175000,
+    "s": "America's first garden city — built by idealists in Queens in 1924",
+    "w": "Planned 1924-28 by Clarence Stein and Henry Wright for the City Housing Corporation, Sunnyside Gardens was the first attempt to apply Ebenezer Howard's English garden city principles in the United States. Lewis Mumford lived here. Residents shared interior courtyards; private gardens were banned. A National Historic District.",
+    "_facts": [
+      "Built 1924-28 by the City Housing Corporation on a 77-acre site in Sunnyside, Queens.",
+      "Designed by architects Clarence Stein and Henry Wright, influenced by the English garden city movement of Ebenezer Howard.",
+      "First built community of the Regional Planning Association of America (RPAA).",
+      "Lewis Mumford, Clarence Stein and other RPAA founders lived here.",
+      "Designated a National Historic District."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Sunnyside_Gardens%2C_Queens"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Panorama of the City of New York",
+    "a": "Flushing Meadows, Queens",
+    "c": "oddity",
+    "lat": 40.7458690,
+    "lng": -73.8467413,
+    "s": "A 1:1200 scale model of every building in New York — all 895,000 of them",
+    "w": "Robert Moses commissioned Robert Gould to build a complete scale model of New York City for the 1964 World's Fair: 895,000 individual buildings across 9,335 square feet of floor space at 1:1200 scale. Planes that once flew overhead have been removed; the model is periodically updated. At the Queens Museum since 1972.",
+    "_facts": [
+      "Commissioned by Robert Moses for the 1964-65 New York World's Fair.",
+      "Built by Robert Gould and a team of 100 workers over three years.",
+      "Scale 1:1200; 9,335 square feet; represents all five boroughs with 895,000 individual building models.",
+      "Originally included radio-controlled model planes flying over it; these were removed.",
+      "Has been at the Queens Museum (in Flushing Meadows Corona Park) since 1972; regularly updated to reflect new construction."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Panorama_of_the_City_of_New_York"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Bartow-Pell Mansion",
+    "a": "Pelham Bay Park, The Bronx",
+    "c": "history",
+    "lat": 40.8717809,
+    "lng": -73.8056401,
+    "s": "A Greek Revival manor in the Bronx with terraced gardens overlooking Long Island Sound",
+    "w": "Built circa 1842 on land the Pell family acquired in 1654 from Native Americans, this Greek Revival mansion is the last surviving manor house in Pelham Bay Park. Bought by the city in 1888 and used as a mayoral summer residence, it was leased to the International Garden Club in 1914 and opened as a museum in 1946. Remote and quietly extraordinary.",
+    "_facts": [
+      "Built circa 1842; the Pell family purchased the surrounding land in 1654.",
+      "Greek Revival exterior; Federal interiors; last surviving manor house in the Pelham Bay Park area.",
+      "New York City acquired the property in 1888; used as a summer residence by several mayors.",
+      "International Garden Club leased it in 1914 and restored the terraced gardens.",
+      "Opened as a museum in 1946; designated a New York City landmark."
+    ],
+    "_sources": [
+      "https://en.wikipedia.org/wiki/Bartow%E2%80%93Pell_Mansion"
+    ],
+    "confidence": "solid"
   }
 ]
