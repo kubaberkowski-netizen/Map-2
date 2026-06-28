@@ -275,5 +275,436 @@
   "confidence": "high",
   "w": "The 'Fool's Tower,' a round drum of 28 cells built in 1784 as continental Europe's first purpose-made asylum — the Viennese call it the Guglhupf, after the cake. It held patients until 1866; since 1971 it has held the world's largest pathology collection, 50,000 specimens of disease and deformity. Dark tourism, in stone.",
   "_issues": []
+ },
+ {
+  "n": "Josephinum",
+  "a": "Alsergrund",
+  "c": "museum",
+  "lat": 48.2194,
+  "lng": 16.3564,
+  "s": "Wax bodies Joseph II ordered from Florence",
+  "w": "Joseph II founded this military surgical academy in 1784 and commissioned 1,192 anatomical wax models from Florentine craftsmen to teach army surgeons without cadavers. The reclining female figures, rendered in silk and beeswax with real human hair, were so lifelike they horrified visiting officers. The building now holds the Medical University's museum; the models survive intact, still arrayed in their original gilded cases.",
+  "_facts": [
+   "Founded by Emperor Joseph II in 1784 as the Josephinian Military Academy of Surgery",
+   "1,192 wax anatomical models commissioned from Florentine craftsmen (La Specola workshop)",
+   "Models made with real human hair, beeswax, silk; created to teach without cadavers",
+   "Building transferred to Medical University of Vienna; models still in original gilded cases"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Josephinian_Military_Academy_of_Surgery",
+   "https://www.josephinum.ac.at/"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Kaisergruft",
+  "a": "Innere Stadt",
+  "c": "death",
+  "lat": 48.2058,
+  "lng": 16.3702,
+  "s": "145 Habsburgs under a Capuchin friary, last entombed 2023",
+  "w": "Beneath an unremarkable Capuchin church off Neuer Markt lie 107 metal sarcophagi ranging from puritan plain to extravagant rococo, holding the remains of 12 emperors and 18 empresses. Founded 1618, the crypt has never stopped filling: the most recent interment was in 2023. A dozen Capuchin friars still guard the tombs. The bodies are here; the hearts went elsewhere; the viscera to the Stephansdom. Three-way Habsburg death protocol.",
+  "_facts": [
+   "Founded 1618, dedicated 1632; contains 145 Habsburg remains plus hearts/ashes of 4 others",
+   "107 metal sarcophagi ranging from puritan plain to exuberant rococo",
+   "12 emperors and 18 empresses interred; most recent entombment 2023",
+   "Capuchin friars serve as traditional guardians of the crypt"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Imperial_Crypt"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Herzgruft",
+  "a": "Innere Stadt",
+  "c": "death",
+  "lat": 48.2057,
+  "lng": 16.3677,
+  "s": "54 Habsburg hearts in silver urns, hidden in the Augustinerkirche",
+  "w": "Behind the Loreto Chapel in the Hofburg's parish church sits a low crypt holding 54 silver urns, each containing the heart of a Habsburg. The custom began in 1654 when King Ferdinand IV specified his heart alone should lie here, at the foot of the Madonna. It ran unbroken until 1878. The bodies are at the Kapuzinergruft, the organs at St Stephan's. Vienna divided its royals into three pieces.",
+  "_facts": [
+   "54 urns containing hearts of the House of Habsburg, spanning 1654 to 1878",
+   "Custom started at death of King Ferdinand IV on 9 July 1654",
+   "Located behind the Loreto Chapel in the Augustinian Church (Hofburg parish church)",
+   "Bodies are entombed at the Kaisergruft; organs/viscera at Stephansdom"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Herzgruft"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Michaelergruft",
+  "a": "Innere Stadt",
+  "c": "death",
+  "lat": 48.208,
+  "lng": 16.3674,
+  "s": "Open coffins, mummified courtiers below the Hofburg church",
+  "w": "Directly opposite the Hofburg gate, St Michael's Church was the Habsburg Court parish for centuries. Its crypt holds the remains of roughly 4,000 people, including court composers and nobility; in some coffins the corpses mummified rather than decayed, preserved by the peculiar microclimate below the square. Guided tours descend past open wooden caskets. Undisturbed since the 18th century.",
+  "_facts": [
+   "St Michael's Church built 1219-1221; one of Vienna's oldest churches, Romanesque",
+   "Crypt holds roughly 4,000 remains of court nobility, composers and clergy",
+   "Some corpses mummified due to special climate (cold, dry air) rather than decomposing",
+   "Known as Michaelergruft; guided tours visit the open coffins"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Church_of_Saint_Michael,_Vienna",
+   "https://de.wikipedia.org/api/rest_v1/page/summary/Michaelerkirche_(Wien)"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Flakturm Augarten",
+  "a": "Leopoldstadt",
+  "c": "history",
+  "lat": 48.2258,
+  "lng": 16.3733,
+  "s": "Nazi gun towers marooned in Vienna's oldest baroque garden",
+  "w": "Two vast concrete towers from Hitler's 1944 Augarten flak complex loom above the baroque allees of Vienna's oldest public park, opened by Leopold I in 1671. With walls up to 3.5 metres thick they proved indestructible; demolition was estimated to cost more than rebuilding the park. One tower suffered an internal explosion and is now home to thousands of pigeons; the other houses a children's choir school. The city has not decided what to do with them for eighty years.",
+  "_facts": [
+   "Augarten is Vienna's oldest baroque public garden, opened by Leopold I in 1671",
+   "Three pairs of flak towers built in Vienna from 1944; Augarten pair are third generation",
+   "Walls up to 3.5 metres thick; considered impossible to demolish without damaging the park",
+   "G-tower (Gefechtsturm) home to thousands of pigeons; L-tower repurposed for Vienna Boys Choir",
+   "No resolution on reuse or demolition after 80 years"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Flak_tower"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Looshaus",
+  "a": "Innere Stadt",
+  "c": "artdeco",
+  "lat": 48.2084,
+  "lng": 16.3667,
+  "s": "The building that made the Emperor close his curtains",
+  "w": "When Adolf Loos unveiled his unornamented facade on Michaelerplatz in 1910, directly facing the Hofburg, the scandal was immediate. The press called it a 'dung heap'; Vienna's building authority halted construction until Loos added flower boxes. Reportedly Emperor Franz Joseph found the building so offensive he ordered the Hofburg curtains on that side kept permanently closed. Completed 1912, it is now considered a founding document of modern architecture.",
+  "_facts": [
+   "Designed by Adolf Loos, completed 1912; address Michaelerplatz 3, directly facing the Hofburg",
+   "Construction halted in 1910 over the unornamented upper facade; forced to add window boxes",
+   "Press called it 'a dung heap'; Emperor Franz Joseph reportedly kept Hofburg curtains closed",
+   "Goldman and Salatsch menswear building; reinforced concrete construction"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Looshaus"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Heeresgeschichtliches Museum",
+  "a": "Landstrasse",
+  "c": "museum",
+  "lat": 48.1843,
+  "lng": 16.389,
+  "s": "The car Franz Ferdinand was shot in, still bloodstained",
+  "w": "Tucked behind the Arsenal in Vienna's third district, Austria's military history museum holds the open-topped touring car in which Archduke Franz Ferdinand and his wife Sophie were assassinated in Sarajevo on 28 June 1914, triggering World War I. Also on display: the blood-stained pale-blue uniform jacket he was wearing and the chaise longue on which he died. Built in 1856 in neo-Moorish-Byzantine style, the museum predates the event that made its most famous exhibit.",
+  "_facts": [
+   "Holds the 1910 Graf und Stift touring car from the Sarajevo assassination",
+   "Franz Ferdinand and Sophie shot 28 June 1914 by Gavrilo Princip; event triggered WWI",
+   "Displays his blood-stained uniform jacket and the couch on which he died",
+   "Museum building opened 1856, designed by Ludwig Foerster and Theophil Hansen"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Heeresgeschichtliches_Museum",
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Assassination_of_Archduke_Franz_Ferdinand"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Griechenbeisl",
+  "a": "Innere Stadt",
+  "c": "food",
+  "lat": 48.2107,
+  "lng": 16.3773,
+  "s": "Vienna's oldest inn, trading since 1447",
+  "w": "First documented in 1447 as a guest house built into remnants of Vienna's medieval town walls, the Griechenbeisl earned its name in the 17th century when Greek and Levantine merchants colonised the surrounding streets. The legendary bagpiper Marx Augustin - subject of the folk song 'O du lieber Augustin' - is said to have played here regularly. In 1852, landlord Leopold Schmied brought Pilsner Urquell to Vienna for the first time. Still serving Schnitzel in the same rooms.",
+  "_facts": [
+   "First documentary mention 1447; at Fleischmarkt 11, Innere Stadt",
+   "Named for Greek and Levantine merchants who settled the quarter in the 17th century",
+   "Folk hero Marx Augustin said to have regularly played here (traditional legend)",
+   "In 1852, landlord Leopold Schmied introduced Pilsner Urquell to Vienna for the first time"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Griechenbeisl"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Ankeruhr",
+  "a": "Innere Stadt",
+  "c": "oddity",
+  "lat": 48.2109,
+  "lng": 16.3734,
+  "s": "Art Nouveau clock bridges two buildings; at noon, history parades",
+  "w": "Franz von Matsch's gilded Art Nouveau clock bridges two buildings of the Anker insurance company at Hoher Markt 10-11, installed 1911-17. Each hour a single gilded figure moves across its face - Marcus Aurelius, Charlemagne, Rudolf IV - one for each hour of the day. At noon all twelve figures parade together to period music while Viennese stop in the square to watch. One of the few Jugendstil animations still running as intended.",
+  "_facts": [
+   "Designed by Franz von Matsch, installed 1911-1917; spans Hoher Markt 10-11",
+   "Commissioned by the Anker insurance company (now Helvetia Versicherung)",
+   "12 historical figures including Marcus Aurelius, Charlemagne, Rudolf IV - each represents one hour",
+   "At noon all 12 figures parade across the bridge to period music"
+  ],
+  "_sources": [
+   "https://de.wikipedia.org/api/rest_v1/page/summary/Ankeruhr"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Karl-Marx-Hof",
+  "a": "Heiligenstadt",
+  "c": "history",
+  "lat": 48.2502,
+  "lng": 16.3645,
+  "s": "1,100 metres long; shelled by its own government in 1934",
+  "w": "Built between 1927 and 1930 under Red Vienna's social democratic council, this single residential block stretches 1,100 metres - spanning four tram stops - and holds 1,382 apartments. During the February Uprising of 1934, workers barricaded themselves inside and the Austrian army and Heimwehr paramilitary bombarded the building with light artillery, killing residents. Renamed under the Nazis, it took back its name in 1945. Still social housing.",
+  "_facts": [
+   "Built 1927-1930 by city planner Karl Ehn; 1,100 metres long, spanning four tram stops",
+   "1,382 apartments; 18.5% of site area built; rest developed into play areas and gardens",
+   "During 1934 Austrian Civil War, residents barricaded inside; bombarded with light artillery",
+   "Renamed 'Heiligenstadter Hof' under Nazi Anschluss 1938; original name restored 1945",
+   "Filming location for The Night Porter (1974)"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Karl-Marx-Hof"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Prunksaal",
+  "a": "Innere Stadt",
+  "c": "archive",
+  "lat": 48.2062,
+  "lng": 16.3667,
+  "s": "The most magnificent baroque library hall in the world",
+  "w": "Johann Bernhard Fischer von Erlach began this vast hall in 1721 for Emperor Charles VI and his son finished it in 1726. Two hundred thousand leather-bound volumes line walls divided into a 'war' side and a 'peace' side, the ceiling fresco showing Charles VI apotheosised between Hercules and Apollo. Four colossal globes by Vincenzo Coronelli anchor the floor. The books are no longer working stock - they are the room.",
+  "_facts": [
+   "Begun 1721 by Johann Bernhard Fischer von Erlach; completed 1726 by his son Joseph Emanuel",
+   "Holds approximately 200,000 volumes; divided into 'war' and 'peace' sections",
+   "Central dome fresco by Daniel Gran shows apotheosis of Emperor Charles VI between Hercules and Apollo",
+   "Four large globes by Vincenzo Coronelli; marble statues of emperors",
+   "Part of the Hofburg Palace complex; entrance via Josefsplatz"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Austrian_National_Library"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Oesterreichische Postsparkasse",
+  "a": "Innere Stadt",
+  "c": "artdeco",
+  "lat": 48.21,
+  "lng": 16.3806,
+  "s": "Otto Wagner's glass-floored banking hall, light falling two storeys",
+  "w": "Completed in 1906 at Georg-Coch-Platz 2, Otto Wagner's postal savings bank was the most radical modern building in Vienna at its time. The grand cash hall is roofed with a frosted glass skylight whose light passes through a glazed floor to the mail-sorting rooms below. The aluminium bolt-heads studding the marble facade look structural but are purely ornamental - Wagner's joke on classicism. A museum devoted to Wagner occupies part of the building.",
+  "_facts": [
+   "Constructed 1904-1906 in reinforced concrete; opened 17 December 1906",
+   "Glass floor in main hall allows daylight to reach mail-sorting room below",
+   "Aluminium bolt-heads on marble facade are decorative, not structural",
+   "4.3-metre cast aluminium sculptures on roofline by Othmar Schimkowitz",
+   "Now houses BAWAG PSK bank and an Otto Wagner museum"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Austrian_Postal_Savings_Bank"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Schloss Neugebaeude",
+  "a": "Simmering",
+  "c": "history",
+  "lat": 48.1605,
+  "lng": 16.4432,
+  "s": "Habsburg palace built on the spot Suleiman pitched his tent",
+  "w": "When the Ottoman army lifted the 1529 Siege of Vienna, Sultan Suleiman the Magnificent left behind the site of his command tent at Simmering. According to tradition, Emperor Maximilian II built this large Mannerist palace from 1569 on that exact spot, modelling elements on the Ottoman encampment it replaced. Neglected for centuries, used as a gunpowder store and menagerie, the ruins were partially restored from 2010 and are open for guided tours.",
+  "_facts": [
+   "Built from 1569 by Emperor Maximilian II; large Mannerist complex in Simmering",
+   "Site said to be where Sultan Suleiman the Magnificent's tent stood during 1529 Siege of Vienna (legend)",
+   "Palace said to be modelled partly on the Ottoman tent-castle it replaced",
+   "Used as gunpowder magazine and imperial menagerie; fell into disrepair for centuries",
+   "Partial restoration from 2010; guided tours available"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Schloss_Neugebäude"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Votivkirche",
+  "a": "Alsergrund",
+  "c": "faith",
+  "lat": 48.2154,
+  "lng": 16.3591,
+  "s": "Built to thank God for a failed stabbing of Franz Joseph",
+  "w": "On 18 February 1853, Hungarian nationalist Janos Libenyi stabbed Emperor Franz Joseph in the collar from behind; a stiff gold-embroidered collar deflected the blade. The Emperor's younger brother - later the ill-fated Emperor Maximilian of Mexico - raised funds from across the Habsburg Empire to build a votive church of gratitude. Consecrated in 1879, its neo-Gothic twin spires contain one of the finest collections of Flemish Renaissance stained glass in Central Europe.",
+  "_facts": [
+   "Built following failed assassination of Emperor Franz Joseph on 18 February 1853 by Janos Libenyi",
+   "Knife deflected by the heavy gold-embroidered stiff collar the Emperor was wearing",
+   "Funded by donations across the Habsburg Empire; led by Archduke Ferdinand Maximilian (later Emperor of Mexico)",
+   "Dedicated 1879 on silver jubilee of Franz Joseph and Empress Elisabeth",
+   "Contains valuable Flemish Renaissance stained glass"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Votivkirche,_Vienna"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Ruprechtskirche",
+  "a": "Innere Stadt",
+  "c": "medieval",
+  "lat": 48.212,
+  "lng": 16.3744,
+  "s": "Vienna's oldest church; oldest bells; oldest glass",
+  "w": "Ivy-draped on a small rise above the Danube canal, St Rupert's is Vienna's oldest surviving church - the first documented mention is 1200, but the foundation probably dates to the 8th century. It was the seat of the Salt Office through the Middle Ages, overseeing merchants who unloaded at the jetty below. The oldest bells in Vienna ring from its tower (circa 1280); the oldest stained glass dates from around 1370. Open daily, rarely crowded.",
+  "_facts": [
+   "Vienna's oldest church; first documented mention 1200 as 'oldest in the city'",
+   "Dedicated to Saint Rupert of Salzburg, patron of the salt merchants",
+   "Seat of the Salt Office (Salzamt) through the Middle Ages; overlooks former salt jetty",
+   "Oldest bells in Vienna, dating from approximately 1280",
+   "Oldest stained-glass windows in Vienna, approximately 1370 (crucified Christ and Madonna)"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/St._Rupert%27s_Church,_Vienna"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Gasometer Wien",
+  "a": "Simmering",
+  "c": "history",
+  "lat": 48.1849,
+  "lng": 16.4173,
+  "s": "Four Victorian gas towers now hold apartments and a James Bond set",
+  "w": "Four ornate brick cylinders - each 70 metres tall and 60 metres across - were built 1896-1899 to supply Vienna with coal gas. Retired in 1984, the shells stood empty until 1999 when Jean Nouvel, Coop Himmelblau, Manfred Wehdorn and Wilhelm Holzbauer were each commissioned to gut and convert one into a live-work-shop complex. The towers appeared in the 1987 James Bond film The Living Daylights.",
+  "_facts": [
+   "Four gasholder houses built 1896-1899; each 70m tall, 60m diameter, 90,000 cubic metre capacity",
+   "Used 1899-1984; retired after Vienna switched from coal gas to natural gas",
+   "Converted 1999-2001; architects: Jean Nouvel, Coop Himmelblau, Wehdorn, Holzbauer",
+   "Featured in 1987 James Bond film The Living Daylights"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Gasometer_(Vienna)"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Freud Museum",
+  "a": "Alsergrund",
+  "c": "museum",
+  "lat": 48.2187,
+  "lng": 16.3631,
+  "s": "The consulting rooms where psychoanalysis was invented",
+  "w": "Sigmund Freud lived and worked at Berggasse 19 from 1891 until the Anschluss forced him to flee to London in June 1938. The apartment preserves his waiting room, study and consulting room - the famous couch was taken to London and remains there, but the original furniture, photographs and personal objects remain. The staircase he climbed daily for 47 years is unchanged. The Gestapo searched the building on 22 March 1938.",
+  "_facts": [
+   "Freud lived at Berggasse 19 from 1891 until June 1938 when Nazis forced his emigration to London",
+   "The psychoanalytic couch was taken to London; remains at the Freud Museum London",
+   "Original furniture, personal objects, photographs and study preserved in situ",
+   "Gestapo searched the building on 22 March 1938, four days after the Anschluss"
+  ],
+  "_sources": [
+   "https://www.freud-museum.at/"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Wien Secession",
+  "a": "Innere Stadt",
+  "c": "artdeco",
+  "lat": 48.2005,
+  "lng": 16.3658,
+  "s": "Golden dome the Viennese call 'the golden cabbage'",
+  "w": "Joseph Maria Olbrich designed this exhibition hall for Klimt, Wagner and the rebel artists who broke from the Vienna Academy in 1897. Its gilded openwork dome of 3,000 laurel leaves is the city's most distinctive skyline element after the Stephansdom spire - the Viennese nicknamed it the 'golden cabbage'. The motto above the entrance reads: 'To every age its art. To art its freedom.' Below the main hall, Klimt's 34-metre Beethoven Frieze, painted 1902, has hung permanently since 1986.",
+  "_facts": [
+   "Designed by Joseph Maria Olbrich; built 1897-1898 as exhibition hall for Vienna Secession",
+   "Founded 3 April 1897 by Klimt, Moser, Hoffmann, Olbrich, Wagner and others",
+   "Dome of 3,000 gilded laurel leaves; Viennese nickname it 'the golden cabbage'",
+   "Motto: 'To every age its art. To art its freedom.' (Der Zeit ihre Kunst. Der Kunst ihre Freiheit.)",
+   "Klimt's Beethoven Frieze (1902, 34m long) permanently housed in basement since 1986"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Vienna_Secession"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Wotrubakirche",
+  "a": "Liesing",
+  "c": "brutalism",
+  "lat": 48.1479,
+  "lng": 16.2538,
+  "s": "152 raw concrete blocks stacked into a church on a Vienna hillside",
+  "w": "Fritz Wotruba, Austria's most important 20th-century sculptor, designed this church as an abstract pile of 152 unfinished concrete blocks, built between 1974 and 1976. Each block is a different size; gaps between them serve as windows, flooding the interior with unexpected light. Set on the Georgenberg hill in Liesing overlooking vineyards, it seats 250 and looks like a geometry lesson that became a ruin. Services still held on Sundays.",
+  "_facts": [
+   "Designed by sculptor Fritz Wotruba; built August 1974 to October 1976 in Liesing",
+   "152 raw concrete blocks of varying sizes; gaps serve as windows",
+   "Formally named Kirche zur Heiligsten Dreifaltigkeit (Church of the Holy Trinity)",
+   "Seats 250; services still held; set on Georgenberg hill"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Wotruba_Church"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Wiener Zentralfriedhof",
+  "a": "Simmering",
+  "c": "death",
+  "lat": 48.1493,
+  "lng": 16.4387,
+  "s": "'Half the size of Zurich, but twice as much fun' - Viennese saying",
+  "w": "Opened on All Saints' Day 1874, the Central Cemetery holds 3 million dead across 2.5 square kilometres - one of the world's largest by number. Beethoven and Schubert were exhumed and moved here in 1888 to share an avenue with Brahms, Strauss II and Schoenberg. Mozart is honoured with a cenotaph; his actual grave is unmarked at St Marx. The Viennese joke that it is 'half the size of Zurich, but twice as much fun'.",
+  "_facts": [
+   "Opened 31 October 1874 in Simmering; 2.5 sq km, approximately 3 million interred",
+   "One of the world's largest cemeteries by number of interred; up to 25 burials daily",
+   "Beethoven and Schubert moved here from Wahring Cemetery in 1888; same avenue as Brahms, Strauss II, Schoenberg",
+   "Mozart's grave is unmarked at St Marx; his Zentralfriedhof memorial is a cenotaph",
+   "Viennese joke: 'halb so gross wie Zurich, aber doppelt so lustig'"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Zentralfriedhof"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Cafe Sperl",
+  "a": "Mariahilf",
+  "c": "coffee",
+  "lat": 48.1998,
+  "lng": 16.3612,
+  "s": "The most intact 1880 coffeehouse interior in Vienna",
+  "w": "Opened in 1880 at Gumpendorfer Strasse 11, Cafe Sperl has barely changed: the original marble tables, gilt mirrors, bentwood coat-hooks and billiard tables remain. It avoided the fate of smarter coffeehouses by catering consistently to artists and students rather than tourists. Listed as a historic monument. Egon Schiele is said to have sketched here; the interiors are often used as Vienna film stand-ins.",
+  "_facts": [
+   "Opened 1880 at Gumpendorfer Strasse 11, Mariahilf (6th district)",
+   "Original marble-topped tables, gilt mirrors, bentwood furniture, billiard tables largely intact",
+   "Listed on the Austrian Register of Historic Places",
+   "Frequented by artists including Egon Schiele; regularly used as a film location"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/api/rest_v1/page/summary/Caf%C3%A9_Sperl"
+  ],
+  "confidence": "solid"
+ },
+ {
+  "n": "Cafe Museum",
+  "a": "Innere Stadt",
+  "c": "coffee",
+  "lat": 48.2014,
+  "lng": 16.3677,
+  "s": "Adolf Loos stripped the coffeehouse bare; Vienna called it Cafe Nihilism",
+  "w": "When Adolf Loos designed this coffeehouse in 1899 at Operngasse 7, he stripped out everything the Viennese expected: no plasterwork, no gilt, no ornament. Bentwood chairs, plain panelling, a coffered ceiling - nothing more. Contemporaries nicknamed it 'Cafe Nihilismus'. It became a favourite of Klimt, Schiele and Kokoschka. The interior was restored in 2010. Still one of the closest things in Vienna to drinking coffee in 1900.",
+  "_facts": [
+   "Opened 19 April 1899; interior designed by Adolf Loos; at Operngasse 7, 1st district",
+   "Radical minimalist design; no ornamentation, plain bentwood chairs and panelling",
+   "Contemporaries nicknamed it 'Cafe Nihilismus' (Cafe Nihilism)",
+   "Frequented by Klimt, Egon Schiele, Oskar Kokoschka and Adolf Loos himself",
+   "Interior altered mid-20th century; restored to original Loos design in 2010"
+  ],
+  "_sources": [
+   "https://de.wikipedia.org/api/rest_v1/page/summary/Café_Museum"
+  ],
+  "confidence": "solid"
  }
 ]
