@@ -604,3 +604,46 @@ create policy "reports ins self" on public.reports for insert with check (auth.u
 ```
 (`notify-social` reads notify_prefs + blocks via the service role, so no extra
 read policies are needed for it.)
+
+---
+
+## 19. Collaborative collections
+
+A published collection (§11) can be co-edited. The owner invites collaborators
+by @username; collaborators can add/remove places in the shared `collections`
+row. Editing is read-modify-write on the `spots` jsonb (last-write-wins; fine at
+this scale). Adding places works by **merging in one of your own published
+collections** (union by spot id) — no catalogue access needed in the cloud
+module. UI: a "Collaborate" sheet (Your collections / Shared with you sections
+in the Profile sheet) — manage collaborators, remove places, merge places in.
+
+Client: `flSocial.collaborators/addCollaborator/removeCollaborator/
+sharedWithMe/collectionSpots/mergeIntoCollection/removeSpotFromCollection`.
+
+### Schema (run once — extends §11)
+```sql
+create table public.collection_collaborators (
+  slug       text not null references public.collections(slug) on delete cascade,
+  user_id    uuid not null references auth.users on delete cascade,
+  added_by   uuid references auth.users on delete set null,
+  created_at timestamptz not null default now(),
+  primary key (slug, user_id)
+);
+alter table public.collection_collaborators enable row level security;
+create policy "cc read" on public.collection_collaborators for select using (true);
+-- only the collection's owner manages its collaborators
+create policy "cc ins owner" on public.collection_collaborators for insert
+  with check (exists (select 1 from public.collections c where c.slug = collection_collaborators.slug and c.owner_id = auth.uid()));
+create policy "cc del owner" on public.collection_collaborators for delete
+  using (exists (select 1 from public.collections c where c.slug = collection_collaborators.slug and c.owner_id = auth.uid()));
+
+-- let collaborators UPDATE the shared collection (in addition to the §11 owner policy)
+create or replace function public.is_collab(p_slug text, p_uid uuid)
+  returns boolean language sql security definer stable as
+$$ select exists (select 1 from public.collection_collaborators where slug = p_slug and user_id = p_uid) $$;
+revoke all on function public.is_collab(text,uuid) from public;
+grant execute on function public.is_collab(text,uuid) to authenticated;
+create policy "collab update" on public.collections for update
+  using (public.is_collab(slug, auth.uid())) with check (public.is_collab(slug, auth.uid()));
+```
+Degrades gracefully if the table/policy/function are absent.
