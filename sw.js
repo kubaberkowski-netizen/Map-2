@@ -1,11 +1,11 @@
 /* Flâneur service worker — offline app shell + tile/asset caching */
-const SHELL = "flaneur-shell-v228";
+const SHELL = "flaneur-shell-v229";
 const TILES = "flaneur-tiles-v2";
 const TILE_MAX = 350;
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
-    caches.open(SHELL).then((c) => c.addAll(["./", "./index.html", "./privacy.html", "./c.html"]))
+    caches.open(SHELL).then((c) => c.addAll(["./", "./index.html", "./privacy.html", "./c.html", "./u.html"]))
       .then(() => self.skipWaiting()).catch(() => {})
   );
 });

@@ -349,3 +349,62 @@ Then, in `src/app.template.html`, set the constant
 `AIFN = "https://<project-ref>.functions.supabase.co/plan-trip"`, add that origin
 to the inline CSP `connect-src`, and `npm run build`. The box appears and routes
 free-text trips into the existing optimiser. Cost is ~1 cheap Haiku call per plan.
+
+---
+
+## 13. Social: public profiles (`@username`) + follow graph
+
+Layer on top of §11 public collections. Identity is a public, no-login-to-view
+profile keyed by a unique `@username`; the social graph is a one-way **follow**.
+Both tables are publicly readable (so profiles/counts render without a session)
+but only the owner/follower can write their own rows. The private synced state
+(`profiles.state`, §3) stays separate — this is *public* identity only.
+
+Client surface (cloud module): `window.flSocial` — `myProfile()`, `getProfile(username)`,
+`saveProfile({username,display_name,bio,city})`, `collectionsOf(uid)`,
+`follow(uid)`/`unfollow(uid)`/`isFollowing(uid)`, `counts(uid)`, `following()`,
+`profileUrl(username)`. The in-app UI is `window.flSocialUI()` (a bottom-sheet,
+opened by the "Profile & friends" button in the You tab). Public profile page:
+`u.html?u=<username>` (mirrors `c.html`, anon read-only).
+
+### Schema (run once in the SQL editor)
+```sql
+-- public identity (separate from the private profiles.state blob in §3)
+create table public.public_profiles (
+  user_id      uuid primary key references auth.users on delete cascade,
+  username     text unique not null,
+  display_name text,
+  bio          text,
+  city         text,
+  updated_at   timestamptz not null default now(),
+  created_at   timestamptz not null default now()
+);
+alter table public.public_profiles enable row level security;
+create policy "pp public read"  on public.public_profiles for select using (true);
+create policy "pp owner insert" on public.public_profiles for insert with check (auth.uid() = user_id);
+create policy "pp owner update" on public.public_profiles for update using (auth.uid() = user_id);
+create policy "pp owner delete" on public.public_profiles for delete using (auth.uid() = user_id);
+-- enforce handle shape + case-insensitive uniqueness
+create unique index public_profiles_username_lower on public.public_profiles (lower(username));
+alter table public.public_profiles add constraint username_shape
+  check (username ~ '^[a-z0-9_]{3,20}$');
+
+-- one-way follow graph
+create table public.follows (
+  follower_id uuid not null references auth.users on delete cascade,
+  followee_id uuid not null references auth.users on delete cascade,
+  created_at  timestamptz not null default now(),
+  primary key (follower_id, followee_id),
+  check (follower_id <> followee_id)
+);
+alter table public.follows enable row level security;
+create policy "follows public read" on public.follows for select using (true);
+create policy "follows self insert" on public.follows for insert with check (auth.uid() = follower_id);
+create policy "follows self delete" on public.follows for delete using (auth.uid() = follower_id);
+```
+
+Notes / next steps: usernames are lowercased + shape-checked client- and
+DB-side; uniqueness is enforced by the lower() index. Moderation is manual for
+now (`delete from public.public_profiles where username='…'`). Natural follow-ups:
+an in-app feed of followed users' newest collections, like/save counts on
+collections, and `#u=<username>` deep-linking from `u.html` into the app.

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: blob:; connect-src 'self' https://*.supabase.co; font-src 'self'; base-uri 'self'; object-src 'none'" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="robots" content="index,follow" />
+<title>A wanderer — Flâneur</title>
+<meta property="og:type" content="profile" />
+<meta property="og:site_name" content="Flâneur" />
+<meta id="og-title" property="og:title" content="A wanderer — Flâneur" />
+<meta id="og-desc" property="og:description" content="A Flâneur profile — hand-picked collections of offbeat, storied places." />
+<meta name="description" id="m-desc" content="A Flâneur profile — hand-picked collections of offbeat, storied places." />
+<meta name="twitter:card" content="summary" />
+<style>
+  :root{--bg:#FAF8F3;--surface:#FFFFFF;--ink:#2C2522;--ink2:#5C524A;--ink3:#736A5E;--line:#E7E0D4;--accent:#C8372D;--tint:#ECE4D4;}
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust:100%;}
+  .wrap{max-width:620px;margin:0 auto;padding:22px 18px calc(40px + env(safe-area-inset-bottom));}
+  .brand{display:flex;align-items:center;gap:8px;font-weight:800;font-size:15px;letter-spacing:.01em;margin-bottom:22px;text-decoration:none;color:var(--ink);}
+  .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--accent);}
+  .phead{display:flex;align-items:center;gap:15px;margin-bottom:6px;}
+  .avatar{width:64px;height:64px;border-radius:50%;background:var(--tint);display:flex;align-items:center;justify-content:center;font-family:Georgia,serif;font-weight:700;font-size:28px;color:var(--ink);flex:none;}
+  .pname{font-family:Georgia,"Times New Roman",serif;font-weight:700;font-size:26px;line-height:1.15;margin:0;}
+  .puser{font-size:14px;color:var(--ink3);margin-top:2px;}
+  .bio{font-family:Georgia,serif;font-style:italic;font-size:16px;color:var(--ink2);margin:14px 0 0;line-height:1.5;}
+  .stats{display:flex;gap:22px;margin:18px 0 6px;}
+  .stat .n{font-family:Georgia,serif;font-weight:700;font-size:20px;}
+  .stat .l{font-size:12px;color:var(--ink3);}
+  .seclbl{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:24px 0 10px;}
+  a.col{display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:9px;text-decoration:none;color:var(--ink);}
+  .col .ce{width:40px;height:40px;border-radius:11px;background:var(--tint);display:flex;align-items:center;justify-content:center;font-size:20px;flex:none;}
+  .col .cb{flex:1;min-width:0;}
+  .col .cn{font-size:15.5px;font-weight:700;}
+  .col .cm{font-size:12.5px;color:var(--ink3);margin-top:1px;}
+  .col .chev{color:var(--ink3);flex:none;}
+  .cta{display:block;text-align:center;background:var(--accent);color:#fff;text-decoration:none;border-radius:13px;padding:14px;font-weight:700;font-size:15px;margin:24px 0 8px;}
+  .sub{text-align:center;font-size:12.5px;color:var(--ink3);}
+  .state{text-align:center;color:var(--ink3);padding:60px 16px;font-size:15px;}
+  .foot{margin-top:30px;font-size:12px;color:var(--ink3);text-align:center;}
+  .foot a{color:var(--ink3);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="brand" href="./"><span class="dot"></span>Flâneur</a>
+  <div id="app"><div class="state">Loading…</div></div>
+  <div class="foot"><a href="./">Flâneur</a> — a personal guide to offbeat, storied places. · <a href="./privacy.html">Privacy</a></div>
+</div>
+<script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+<script>
+(function(){
+  var SB_URL="https://fpngxchltuovtsyzigul.supabase.co";
+  var SB_ANON="sb_publishable_At343ximg1anAi2TkHyCXw_82vw4wMB";
+  var app=document.getElementById("app");
+  function esc(t){return String(t==null?"":t).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
+  function state(msg){app.innerHTML='<div class="state">'+esc(msg)+'</div>';}
+  function uParam(){try{return (new URLSearchParams(location.search).get("u")||"").toLowerCase().replace(/[^a-z0-9_]/g,"");}catch(e){return null;}}
+  function setMeta(title,desc){
+    document.title=title;
+    var ot=document.getElementById("og-title");ot&&ot.setAttribute("content",title);
+    var od=document.getElementById("og-desc");od&&od.setAttribute("content",desc);
+    var md=document.getElementById("m-desc");md&&md.setAttribute("content",desc);
+  }
+  function render(p,cols,counts){
+    var name=p.display_name||("@"+p.username);
+    setMeta(name+" — Flâneur", (p.bio||("@"+p.username+" on Flâneur"))+" · "+cols.length+" public collection"+(cols.length===1?"":"s"));
+    var init=(p.display_name||p.username||"?").slice(0,1).toUpperCase();
+    var h='<div class="phead"><div class="avatar">'+esc(init)+'</div><div><h1 class="pname">'+esc(name)+'</h1><div class="puser">@'+esc(p.username)+(p.city?' · '+esc(p.city):'')+'</div></div></div>';
+    if(p.bio)h+='<p class="bio">'+esc(p.bio)+'</p>';
+    h+='<div class="stats">'+
+       '<div class="stat"><div class="n">'+cols.length+'</div><div class="l">collection'+(cols.length===1?'':'s')+'</div></div>'+
+       '<div class="stat"><div class="n">'+counts.followers+'</div><div class="l">followers</div></div>'+
+       '<div class="stat"><div class="n">'+counts.following+'</div><div class="l">following</div></div></div>';
+    if(cols.length){
+      h+='<div class="seclbl">Collections</div>';
+      cols.forEach(function(c){
+        var n=Array.isArray(c.spots)?c.spots.length:0;
+        var itin=Array.isArray(c.spots)&&c.spots.length&&typeof c.spots[0].d==="number";
+        h+='<a class="col" href="./c.html?s='+encodeURIComponent(c.slug)+'">'+
+           '<div class="ce">'+esc(c.emoji||(itin?'🗺':'📍'))+'</div>'+
+           '<div class="cb"><div class="cn">'+esc(c.name||"Collection")+'</div>'+
+           '<div class="cm">'+n+' place'+(n===1?'':'s')+(c.city?' · '+esc(c.city):'')+'</div></div>'+
+           '<div class="chev">›</div></a>';
+      });
+    }else{
+      h+='<div class="state">No public collections yet.</div>';
+    }
+    h+='<a class="cta" href="./">Open Flâneur</a>';
+    h+='<div class="sub">Follow @'+esc(p.username)+' in the app — open Flâneur, then “Profile &amp; friends”.</div>';
+    app.innerHTML=h;
+  }
+  var u=uParam();
+  if(!u){state("No profile specified.");return;}
+  if(!window.supabase){state("Couldn’t load. Please try again.");return;}
+  var sb=window.supabase.createClient(SB_URL,SB_ANON);
+  sb.from("public_profiles").select("*").eq("username",u).maybeSingle().then(function(r){
+    if(r.error||!r.data){state("No wanderer found at @"+u+".");return;}
+    var p=r.data;
+    Promise.all([
+      sb.from("collections").select("slug,name,emoji,city,spots").eq("owner_id",p.user_id).order("updated_at",{ascending:false}),
+      sb.from("follows").select("*",{count:"exact",head:true}).eq("followee_id",p.user_id),
+      sb.from("follows").select("*",{count:"exact",head:true}).eq("follower_id",p.user_id)
+    ]).then(function(a){
+      var cols=(a[0]&&a[0].data)||[];
+      var counts={followers:(a[1]&&a[1].count)||0,following:(a[2]&&a[2].count)||0};
+      render(p,cols,counts);
+    },function(){render(p,[],{followers:0,following:0});});
+  },function(){state("Couldn’t load this profile.");});
+})();
+</script>
+</body>
+</html>
