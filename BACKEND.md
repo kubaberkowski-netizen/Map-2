@@ -527,3 +527,32 @@ supabase secrets set VAPID_PUBLIC=<public> VAPID_PRIVATE=<private>
 The client targets `<supabaseUrl>/functions/v1/notify-social` automatically
 (derived from `CFG.supabaseUrl`); if the function isn't deployed the POST 404s
 and is ignored. Pruning on 404/410 keeps `push_subscriptions` clean.
+
+---
+
+## 17. Richer profiles — avatars + links
+
+Adds a profile photo and a link to §13 public profiles. Avatars are stored in a
+public `avatars` Storage bucket at the deterministic path `avatars/<user_id>`
+(client-resized to 256×256 JPEG before upload); a bump column `avatar_v` on
+public_profiles both signals "has avatar" and cache-busts the URL. A free-text
+`links` column holds one website/social URL. Client: `flSocial.avatarUrl(p)`,
+`uploadAvatar(file)`; `saveProfile` now also takes `links`. Avatars render on
+person cards, comments, activity, friend requests, the profile editor and
+`u.html`; the app/`u.html` CSP `img-src` now allows `*.supabase.co`.
+
+### Schema (run once — extends §13)
+```sql
+alter table public.public_profiles add column if not exists avatar_v bigint;
+alter table public.public_profiles add column if not exists links text;
+
+insert into storage.buckets (id,name,public) values ('avatars','avatars',true)
+  on conflict do nothing;
+create policy "avatars read"   on storage.objects for select using (bucket_id='avatars');
+create policy "avatars write"  on storage.objects for insert
+  with check (bucket_id='avatars' and (storage.foldername(name))[1] is not null and name = auth.uid()::text);
+create policy "avatars update"  on storage.objects for update
+  using (bucket_id='avatars' and name = auth.uid()::text);
+```
+(The object name is exactly the uploader's `user_id`, so the policy ties each
+file to its owner.) Degrades gracefully: no `avatar_v` → initials fallback.

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: blob:; connect-src 'self' https://*.supabase.co; font-src 'self'; base-uri 'self'; object-src 'none'" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: blob: https://*.supabase.co; connect-src 'self' https://*.supabase.co; font-src 'self'; base-uri 'self'; object-src 'none'" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="robots" content="index,follow" />
 <title>A wanderer — Flâneur</title>
@@ -23,6 +23,9 @@
   .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--accent);}
   .phead{display:flex;align-items:center;gap:15px;margin-bottom:6px;}
   .avatar{width:64px;height:64px;border-radius:50%;background:var(--tint);display:flex;align-items:center;justify-content:center;font-family:Georgia,serif;font-weight:700;font-size:28px;color:var(--ink);flex:none;}
+  img.avatar{object-fit:cover;}
+  .plink{display:inline-block;margin-top:10px;font-size:14px;color:var(--accent);text-decoration:none;word-break:break-all;}
+  .plink:hover{text-decoration:underline;}
   .pname{font-family:Georgia,"Times New Roman",serif;font-weight:700;font-size:26px;line-height:1.15;margin:0;}
   .puser{font-size:14px;color:var(--ink3);margin-top:2px;}
   .bio{font-family:Georgia,serif;font-style:italic;font-size:16px;color:var(--ink2);margin:14px 0 0;line-height:1.5;}
@@ -68,10 +71,15 @@
     var name=p.display_name||("@"+p.username);
     setMeta(name+" — Flâneur", (p.bio||("@"+p.username+" on Flâneur"))+" · "+cols.length+" public collection"+(cols.length===1?"":"s"));
     var init=(p.display_name||p.username||"?").slice(0,1).toUpperCase();
-    var h='<div class="phead"><div class="avatar">'+esc(init)+'</div><div><h1 class="pname">'+esc(name)+'</h1><div class="puser">@'+esc(p.username)+(p.city?' · '+esc(p.city):'')+'</div></div></div>';
+    var avurl=p.avatar_v?(SB_URL+"/storage/v1/object/public/avatars/"+encodeURIComponent(p.user_id)+"?v="+p.avatar_v):null;
+    var avhtml=avurl?('<img class="avatar" src="'+avurl+'" alt="">'):('<div class="avatar">'+esc(init)+'</div>');
+    var h='<div class="phead">'+avhtml+'<div><h1 class="pname">'+esc(name)+'</h1><div class="puser">@'+esc(p.username)+(p.city?' · '+esc(p.city):'')+'</div></div></div>';
     if(p.bio)h+='<p class="bio">'+esc(p.bio)+'</p>';
+    if(p.links){var lu=/^https?:\/\//i.test(p.links)?p.links:('https://'+p.links);h+='<a class="plink" href="'+esc(lu)+'" target="_blank" rel="noopener nofollow">🔗 '+esc(p.links.replace(/^https?:\/\//i,''))+'</a>';}
+    var totalPlaces=cols.reduce(function(a,c){return a+(Array.isArray(c.spots)?c.spots.length:0);},0);
     h+='<div class="stats">'+
        '<div class="stat"><div class="n">'+cols.length+'</div><div class="l">collection'+(cols.length===1?'':'s')+'</div></div>'+
+       '<div class="stat"><div class="n">'+totalPlaces+'</div><div class="l">places</div></div>'+
        '<div class="stat"><div class="n">'+counts.followers+'</div><div class="l">followers</div></div>'+
        '<div class="stat"><div class="n">'+counts.following+'</div><div class="l">following</div></div></div>';
     if(cols.length){
