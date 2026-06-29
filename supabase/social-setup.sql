@@ -19,6 +19,15 @@ create table if not exists public.public_profiles (
 alter table public.public_profiles add column if not exists links text;
 alter table public.public_profiles add column if not exists avatar_v bigint;
 alter table public.public_profiles add column if not exists notify_prefs jsonb not null default '{}'::jsonb;
+-- public, opt-in leaderboard stats (written by the owner via flSocial.saveStats; see BACKEND.md §23)
+alter table public.public_profiles add column if not exists checkins int     not null default 0;
+alter table public.public_profiles add column if not exists km       numeric not null default 0;
+alter table public.public_profiles add column if not exists visited  int     not null default 0;
+alter table public.public_profiles add column if not exists worlds   int     not null default 0;
+alter table public.public_profiles add column if not exists streak   int     not null default 0;
+alter table public.public_profiles add column if not exists stats_at timestamptz;
+create index if not exists public_profiles_checkins_idx on public.public_profiles (checkins desc);
+create index if not exists public_profiles_km_idx       on public.public_profiles (km desc);
 create unique index if not exists public_profiles_username_lower on public.public_profiles (lower(username));
 do $$ begin
   alter table public.public_profiles add constraint username_shape check (username ~ '^[a-z0-9_]{3,20}$');

@@ -734,8 +734,11 @@ create index if not exists public_profiles_km_idx       on public.public_profile
 ```
 
 Client surface (cloud module, `window.flSocial`):
-- `saveStats(o?)` — upserts the signed-in user's public stats (`checkins`, `km`,
-  `visited`, `worlds`, `streak`). With no argument it reads `window.__flStats`,
+- `saveStats(o?)` — writes the signed-in user's public stats (`checkins`, `km`,
+  `visited`, `worlds`, `streak`) onto their existing `public_profiles` row (an
+  `update` keyed on `user_id` — a no-op until a `@username` is claimed, and it
+  skips all-zero rows so it can never wipe real stats). With no argument it reads
+  `window.__flStats`,
   which the app keeps current from local progress (verified set size, summed
   walk distance, places visited, Worlds completed, day streak). Called
   automatically (debounced) when those totals change, and again when the
