@@ -708,3 +708,43 @@ self-contained and idempotent, so it can be pasted on its own after the rest.
 - Collaborative-merge spot cap aligned to 200 (matches publish).
 - Re-added author avatars on feed/Discover collection cards (regressed during a
   refactor).
+
+---
+
+## 23. Leaderboards (public stats on `public_profiles`)
+
+A leaderboard ranks **flâneurs who have a public profile** (a `@username`) by
+public stat columns. The private synced state (`profiles.state`, §3) stays
+per-user/RLS-locked — leaderboards only ever read the *opt-in public* numbers a
+user writes to their own `public_profiles` row.
+
+Add the stat columns (idempotent — safe to paste on its own):
+```sql
+alter table public.public_profiles
+  add column if not exists checkins int     not null default 0,
+  add column if not exists km       numeric not null default 0,
+  add column if not exists visited  int     not null default 0,
+  add column if not exists worlds   int     not null default 0,
+  add column if not exists streak   int     not null default 0,
+  add column if not exists stats_at timestamptz;
+-- public read is already granted by the §13 "pp public read" policy; the owner
+-- "pp owner update" policy lets each user write only their own stats.
+create index if not exists public_profiles_checkins_idx on public.public_profiles (checkins desc);
+create index if not exists public_profiles_km_idx       on public.public_profiles (km desc);
+```
+
+Client surface (cloud module, `window.flSocial`):
+- `saveStats(o?)` — upserts the signed-in user's public stats (`checkins`, `km`,
+  `visited`, `worlds`, `streak`). With no argument it reads `window.__flStats`,
+  which the app keeps current from local progress (verified set size, summed
+  walk distance, places visited, Worlds completed, day streak). Called
+  automatically (debounced) when those totals change, and again when the
+  Leaderboard tab is opened. No-op when signed out / no public profile.
+- `leaderboard(metric, limit)` — `metric` ∈ `checkins|km|visited|worlds|streak`;
+  returns the top `limit` public profiles (default 50) ordered by that column,
+  with `username/display_name/avatar_v` for rendering.
+
+UI: the social page (`flSocialUI`, now a **full page**, not a bottom sheet) has a
+**Leaderboard** tab with a metric toggle; the signed-in user's row is
+highlighted. **Until the columns above exist the queries error and are caught —
+the board simply shows "no one yet", nothing breaks.**
