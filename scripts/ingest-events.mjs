@@ -18,19 +18,29 @@ const cities = JSON.parse(
   fs.readFileSync(new URL("../supabase/functions/ingest-events/cities.json", import.meta.url))
 );
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-function category(seg) {
-  const s = (seg || "").toLowerCase();
-  if (s.includes("music")) return "Music";
-  if (s.includes("sport")) return "Sport";
-  if (s.includes("arts") || s.includes("theatre") || s.includes("theater")) return "Arts";
-  if (s.includes("film")) return "Film";
+// Map a Ticketmaster classification to a Flaneur event category. Reads the
+// finer `genre` (not just the broad `segment`) so comedy, theatre, family and
+// talks get their own pin/filter chip instead of all collapsing into "Arts".
+function category(cl) {
+  const seg = (cl && cl.segment && cl.segment.name || "").toLowerCase();
+  const gen = (cl && cl.genre && cl.genre.name || "").toLowerCase();
+  if (seg.includes("music")) return "Music";
+  if (seg.includes("sport")) return "Sport";
+  if (seg.includes("film")) return "Film";
+  if (gen.includes("comedy")) return "Comedy";
+  if (/theat|musical|opera|ballet|dance/.test(gen)) return "Theatre";
+  if (gen.includes("classical")) return "Music";
+  if (/festival|fair/.test(gen)) return "Festival";
+  if (/family|children/.test(gen)) return "Family";
+  if (/lecture|seminar|talk/.test(gen)) return "Talk";
+  if (seg.includes("arts") || seg.includes("theatre") || seg.includes("theater")) return "Arts";
   return "Event";
 }
 
 let upserted = 0, hits = 0;
 for (const c of cities) {
   const u = `https://app.ticketmaster.com/discovery/v2/events.json?apikey=${TM}` +
-    `&latlong=${c.lat},${c.lng}&radius=${RADIUS}&unit=km&size=50&sort=date,asc`;
+    `&latlong=${c.lat},${c.lng}&radius=${RADIUS}&unit=km&size=100&sort=date,asc`;
   let data;
   try { const r = await fetch(u); if (!r.ok) { await sleep(220); continue; } data = await r.json(); }
   catch { await sleep(220); continue; }
@@ -43,7 +53,7 @@ for (const c of cities) {
     return {
       ext_id: "tm:" + e.id,
       name: e.name,
-      category: category(e.classifications?.[0]?.segment?.name),
+      category: category(e.classifications?.[0]),
       venue: v?.name || null,
       lat: v?.location ? +v.location.latitude : null,
       lng: v?.location ? +v.location.longitude : null,
