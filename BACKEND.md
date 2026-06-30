@@ -787,3 +787,30 @@ match") and is just one source among many on the platform.
   unmatched home teams each run); for more leagues/sports later, a paid
   Football-Data plan or a second source (e.g. TheSportsDB for US majors) can
   upsert into the same table with its own `source` tag.
+
+---
+
+## 25. US/Canada major-league fixtures (`ingest-us-sports`)
+
+Extends §24 to NBA / NFL / MLB / NHL via [TheSportsDB](https://www.thesportsdb.com/),
+so the US/Canada cities get the same "check in to the game" hook as football.
+
+- **Source:** TheSportsDB `eventsnextleague.php?id=<league>` (NBA 4387, NFL 4391,
+  MLB 4424, NHL 4380). Free public test key `"3"` by default; set the optional
+  `THESPORTSDB_KEY` secret for a Patreon key (script: `THESPORTSDB_KEY || "3"`).
+- **Venue map:** `scripts/data/us-team-venues.json` — same shape as the football
+  one. TheSportsDB has no usable coords, so each home team maps to its arena;
+  only games at an arena in a covered city are ingested (NYC, LA, Chicago, SF Bay
+  Area, Houston, Nashville, Orlando, San Antonio, Toronto, Montreal). Nicknames
+  shared across leagues (Giants, Rangers, Kings) are **city-qualified** in the
+  aliases so NY Giants (NFL) and SF Giants (MLB) don't collide; same-arena teams
+  (Lakers/Kings, Bulls/Blackhawks, Raptors/Maple Leafs) share coords.
+- **Script:** `scripts/ingest-us-sports.mjs` — next 60 days of fixtures upserted
+  as `{ext_id:"tsd:<id>", category:"Sport", source:"matches",
+  end_at:tip-off+3h}`. Because `source:"matches"`, US games get the **same
+  matchday check-in window** and feed behaviour as football — no app change.
+- **Workflow:** `.github/workflows/ingest-us-sports.yml` — daily 05:45 UTC +
+  manual.
+- **Note:** all live fixtures (football + US) share `category:"Sport"`, so they
+  ride the existing Sport pin/filter. Per-sport categories would need new entries
+  in the app's event category map (`ne`-style) + pin set — a later enhancement.

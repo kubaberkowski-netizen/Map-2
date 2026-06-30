@@ -1,0 +1,27 @@
+name: Ingest US sports
+
+# Fills the Flâneur events feed with NBA / NFL / MLB / NHL fixtures (TheSportsDB)
+# so people can check in to a game in person. Runs daily, plus a manual "Run
+# workflow" button. No terminal needed. Uses TheSportsDB's free key by default;
+# set the optional THESPORTSDB_KEY secret to use a Patreon key. Reuses
+# SUPABASE_SERVICE_ROLE_KEY.
+on:
+  schedule:
+    - cron: "45 5 * * *" # every day at 05:45 UTC (after the other ingests)
+  workflow_dispatch: {} # manual trigger from the Actions tab
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Ingest
+        run: node scripts/ingest-us-sports.mjs
+        env:
+          THESPORTSDB_KEY: ${{ secrets.THESPORTSDB_KEY }}
+          SUPABASE_URL: https://fpngxchltuovtsyzigul.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          INGEST_STATUS: approved

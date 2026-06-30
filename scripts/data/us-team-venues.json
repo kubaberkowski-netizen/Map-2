@@ -1,0 +1,46 @@
+{
+  "_comment": "US/Canada major-league home teams -> arena, for ingest-us-sports.mjs (TheSportsDB). Same idea as team-venues.json: TheSportsDB gives the fixture but no usable coords, so we map each home team to its arena here, and only ingest games whose home arena is in a Flâneur city. `aliases` are matched (accent/suffix-insensitive substring) against the API's strHomeTeam. Nicknames shared across leagues (Giants, Rangers, Kings) are city-qualified to avoid collisions. Same-arena teams intentionally share coords.",
+  "venues": [
+    { "aliases": ["new york knicks", "knicks"], "city": "nyc", "venue": "Madison Square Garden", "lat": 40.7505, "lng": -73.9934, "league": "NBA" },
+    { "aliases": ["brooklyn nets", "nets"], "city": "nyc", "venue": "Barclays Center", "lat": 40.6826, "lng": -73.9754, "league": "NBA" },
+    { "aliases": ["new york rangers"], "city": "nyc", "venue": "Madison Square Garden", "lat": 40.7505, "lng": -73.9934, "league": "NHL" },
+    { "aliases": ["new york islanders", "islanders"], "city": "nyc", "venue": "UBS Arena", "lat": 40.6109, "lng": -73.7290, "league": "NHL" },
+    { "aliases": ["new york yankees", "yankees"], "city": "nyc", "venue": "Yankee Stadium", "lat": 40.8296, "lng": -73.9262, "league": "MLB" },
+    { "aliases": ["new york mets", "mets"], "city": "nyc", "venue": "Citi Field", "lat": 40.7571, "lng": -73.8458, "league": "MLB" },
+    { "aliases": ["new york giants"], "city": "nyc", "venue": "MetLife Stadium", "lat": 40.8135, "lng": -74.0745, "league": "NFL" },
+    { "aliases": ["new york jets", "jets"], "city": "nyc", "venue": "MetLife Stadium", "lat": 40.8135, "lng": -74.0745, "league": "NFL" },
+
+    { "aliases": ["los angeles lakers", "lakers"], "city": "losangeles", "venue": "Crypto.com Arena", "lat": 34.0430, "lng": -118.2673, "league": "NBA" },
+    { "aliases": ["los angeles clippers", "clippers"], "city": "losangeles", "venue": "Intuit Dome", "lat": 33.9450, "lng": -118.3414, "league": "NBA" },
+    { "aliases": ["los angeles kings"], "city": "losangeles", "venue": "Crypto.com Arena", "lat": 34.0430, "lng": -118.2673, "league": "NHL" },
+    { "aliases": ["los angeles dodgers", "dodgers"], "city": "losangeles", "venue": "Dodger Stadium", "lat": 34.0739, "lng": -118.2400, "league": "MLB" },
+    { "aliases": ["los angeles rams", "rams"], "city": "losangeles", "venue": "SoFi Stadium", "lat": 33.9535, "lng": -118.3392, "league": "NFL" },
+    { "aliases": ["los angeles chargers", "chargers"], "city": "losangeles", "venue": "SoFi Stadium", "lat": 33.9535, "lng": -118.3392, "league": "NFL" },
+
+    { "aliases": ["chicago bulls", "bulls"], "city": "chicago", "venue": "United Center", "lat": 41.8807, "lng": -87.6742, "league": "NBA" },
+    { "aliases": ["chicago blackhawks", "blackhawks"], "city": "chicago", "venue": "United Center", "lat": 41.8807, "lng": -87.6742, "league": "NHL" },
+    { "aliases": ["chicago cubs", "cubs"], "city": "chicago", "venue": "Wrigley Field", "lat": 41.9484, "lng": -87.6553, "league": "MLB" },
+    { "aliases": ["chicago white sox", "white sox"], "city": "chicago", "venue": "Rate Field", "lat": 41.8299, "lng": -87.6338, "league": "MLB" },
+    { "aliases": ["chicago bears", "bears"], "city": "chicago", "venue": "Soldier Field", "lat": 41.8623, "lng": -87.6167, "league": "NFL" },
+
+    { "aliases": ["golden state warriors", "warriors"], "city": "sanfrancisco", "venue": "Chase Center", "lat": 37.7680, "lng": -122.3877, "league": "NBA" },
+    { "aliases": ["san francisco giants"], "city": "sanfrancisco", "venue": "Oracle Park", "lat": 37.7786, "lng": -122.3893, "league": "MLB" },
+    { "aliases": ["san francisco 49ers", "49ers"], "city": "sanfrancisco", "venue": "Levi's Stadium", "lat": 37.4030, "lng": -121.9700, "league": "NFL" },
+
+    { "aliases": ["houston rockets", "rockets"], "city": "houston", "venue": "Toyota Center", "lat": 29.7508, "lng": -95.3621, "league": "NBA" },
+    { "aliases": ["houston astros", "astros"], "city": "houston", "venue": "Daikin Park", "lat": 29.7572, "lng": -95.3555, "league": "MLB" },
+    { "aliases": ["houston texans", "texans"], "city": "houston", "venue": "NRG Stadium", "lat": 29.6847, "lng": -95.4107, "league": "NFL" },
+
+    { "aliases": ["nashville predators", "predators"], "city": "nashville", "venue": "Bridgestone Arena", "lat": 36.1593, "lng": -86.7785, "league": "NHL" },
+    { "aliases": ["tennessee titans", "titans"], "city": "nashville", "venue": "Nissan Stadium", "lat": 36.1665, "lng": -86.7713, "league": "NFL" },
+
+    { "aliases": ["orlando magic", "magic"], "city": "orlando", "venue": "Kia Center", "lat": 28.5392, "lng": -81.3839, "league": "NBA" },
+    { "aliases": ["san antonio spurs"], "city": "sanantonio", "venue": "Frost Bank Center", "lat": 29.4270, "lng": -98.4375, "league": "NBA" },
+
+    { "aliases": ["toronto raptors", "raptors"], "city": "toronto", "venue": "Scotiabank Arena", "lat": 43.6435, "lng": -79.3791, "league": "NBA" },
+    { "aliases": ["toronto maple leafs", "maple leafs"], "city": "toronto", "venue": "Scotiabank Arena", "lat": 43.6435, "lng": -79.3791, "league": "NHL" },
+    { "aliases": ["toronto blue jays", "blue jays"], "city": "toronto", "venue": "Rogers Centre", "lat": 43.6414, "lng": -79.3894, "league": "MLB" },
+
+    { "aliases": ["montreal canadiens", "canadiens"], "city": "montreal", "venue": "Bell Centre", "lat": 45.4961, "lng": -73.5693, "league": "NHL" }
+  ]
+}
