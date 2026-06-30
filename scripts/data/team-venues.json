@@ -1,0 +1,76 @@
+{
+  "_comment": "Home club -> stadium for ingest-matches.mjs. Football-Data.org gives kickoff + teams but no coords, so we map each home team to its ground here. Only clubs whose stadium sits in a Flâneur city (a Ci slug) are listed — fixtures for any other club are skipped. `aliases` are matched (accent/suffix-insensitive substring) against the API's homeTeam.name. Same-stadium clubs (e.g. Inter & AC Milan) intentionally share coords. Extend freely; unmatched home teams are logged by the script.",
+  "venues": [
+    { "aliases": ["arsenal"], "city": "london", "venue": "Emirates Stadium", "lat": 51.5549, "lng": -0.1084 },
+    { "aliases": ["chelsea"], "city": "london", "venue": "Stamford Bridge", "lat": 51.4817, "lng": -0.1910 },
+    { "aliases": ["tottenham"], "city": "london", "venue": "Tottenham Hotspur Stadium", "lat": 51.6043, "lng": -0.0664 },
+    { "aliases": ["west ham"], "city": "london", "venue": "London Stadium", "lat": 51.5386, "lng": -0.0166 },
+    { "aliases": ["crystal palace"], "city": "london", "venue": "Selhurst Park", "lat": 51.3983, "lng": -0.0855 },
+    { "aliases": ["fulham"], "city": "london", "venue": "Craven Cottage", "lat": 51.4749, "lng": -0.2217 },
+    { "aliases": ["brentford"], "city": "london", "venue": "Gtech Community Stadium", "lat": 51.4907, "lng": -0.2889 },
+    { "aliases": ["queens park rangers", "qpr"], "city": "london", "venue": "Loftus Road", "lat": 51.5093, "lng": -0.2322 },
+    { "aliases": ["millwall"], "city": "london", "venue": "The Den", "lat": 51.4860, "lng": -0.0507 },
+    { "aliases": ["charlton"], "city": "london", "venue": "The Valley", "lat": 51.4865, "lng": 0.0364 },
+    { "aliases": ["leyton orient"], "city": "london", "venue": "Brisbane Road", "lat": 51.5601, "lng": -0.0125 },
+    { "aliases": ["watford"], "city": "london", "venue": "Vicarage Road", "lat": 51.6499, "lng": -0.4015 },
+
+    { "aliases": ["manchester united", "man united"], "city": "manchester", "venue": "Old Trafford", "lat": 53.4631, "lng": -2.2913 },
+    { "aliases": ["manchester city", "man city"], "city": "manchester", "venue": "Etihad Stadium", "lat": 53.4831, "lng": -2.2004 },
+
+    { "aliases": ["liverpool"], "city": "liverpool", "venue": "Anfield", "lat": 53.4308, "lng": -2.9608 },
+    { "aliases": ["everton"], "city": "liverpool", "venue": "Hill Dickinson Stadium", "lat": 53.3905, "lng": -2.9970 },
+
+    { "aliases": ["aston villa"], "city": "birmingham", "venue": "Villa Park", "lat": 52.5092, "lng": -1.8848 },
+    { "aliases": ["birmingham city"], "city": "birmingham", "venue": "St Andrew's", "lat": 52.4756, "lng": -1.8682 },
+
+    { "aliases": ["leeds"], "city": "leeds", "venue": "Elland Road", "lat": 53.7778, "lng": -1.5722 },
+    { "aliases": ["newcastle"], "city": "newcastle", "venue": "St James' Park", "lat": 54.9756, "lng": -1.6217 },
+    { "aliases": ["sheffield united"], "city": "sheffield", "venue": "Bramall Lane", "lat": 53.3703, "lng": -1.4709 },
+    { "aliases": ["sheffield wednesday"], "city": "sheffield", "venue": "Hillsborough", "lat": 53.4115, "lng": -1.5006 },
+    { "aliases": ["bristol city"], "city": "bristol", "venue": "Ashton Gate", "lat": 51.4400, "lng": -2.6206 },
+    { "aliases": ["brighton"], "city": "brighton", "venue": "Amex Stadium", "lat": 50.8616, "lng": -0.0837 },
+    { "aliases": ["cardiff"], "city": "cardiff", "venue": "Cardiff City Stadium", "lat": 51.4728, "lng": -3.2030 },
+
+    { "aliases": ["real madrid"], "city": "madrid", "venue": "Santiago Bernabéu", "lat": 40.4531, "lng": -3.6883 },
+    { "aliases": ["atletico"], "city": "madrid", "venue": "Riyadh Air Metropolitano", "lat": 40.4362, "lng": -3.5995 },
+    { "aliases": ["rayo vallecano"], "city": "madrid", "venue": "Estadio de Vallecas", "lat": 40.3919, "lng": -3.6589 },
+    { "aliases": ["getafe"], "city": "madrid", "venue": "Coliseum", "lat": 40.3259, "lng": -3.7148 },
+    { "aliases": ["barcelona"], "city": "barcelona", "venue": "Spotify Camp Nou", "lat": 41.3809, "lng": 2.1228 },
+    { "aliases": ["espanyol"], "city": "barcelona", "venue": "RCDE Stadium", "lat": 41.3475, "lng": 2.0761 },
+    { "aliases": ["sevilla"], "city": "seville", "venue": "Ramón Sánchez-Pizjuán", "lat": 37.3841, "lng": -5.9705 },
+    { "aliases": ["betis"], "city": "seville", "venue": "Benito Villamarín", "lat": 37.3564, "lng": -5.9817 },
+    { "aliases": ["valencia"], "city": "valencia", "venue": "Mestalla", "lat": 39.4747, "lng": -0.3583 },
+    { "aliases": ["levante"], "city": "valencia", "venue": "Ciutat de València", "lat": 39.4946, "lng": -0.3637 },
+
+    { "aliases": ["milan", "internazionale", "inter"], "city": "milan", "venue": "San Siro", "lat": 45.4781, "lng": 9.1240 },
+    { "aliases": ["roma", "lazio"], "city": "rome", "venue": "Stadio Olimpico", "lat": 41.9339, "lng": 12.4547 },
+    { "aliases": ["napoli"], "city": "naples", "venue": "Stadio Diego Armando Maradona", "lat": 40.8279, "lng": 14.1931 },
+    { "aliases": ["juventus"], "city": "turin", "venue": "Allianz Stadium", "lat": 45.1096, "lng": 7.6413 },
+    { "aliases": ["torino"], "city": "turin", "venue": "Stadio Olimpico Grande Torino", "lat": 45.0418, "lng": 7.6500 },
+    { "aliases": ["fiorentina"], "city": "florence", "venue": "Stadio Artemio Franchi", "lat": 43.7809, "lng": 11.2820 },
+
+    { "aliases": ["bayern"], "city": "munich", "venue": "Allianz Arena", "lat": 48.2188, "lng": 11.6247 },
+    { "aliases": ["union berlin"], "city": "berlin", "venue": "An der Alten Försterei", "lat": 52.4570, "lng": 13.5680 },
+    { "aliases": ["pauli", "st. pauli"], "city": "hamburg", "venue": "Millerntor-Stadion", "lat": 53.5546, "lng": 9.9678 },
+    { "aliases": ["hamburger", "hamburg"], "city": "hamburg", "venue": "Volksparkstadion", "lat": 53.5872, "lng": 9.8983 },
+
+    { "aliases": ["paris saint", "psg"], "city": "paris", "venue": "Parc des Princes", "lat": 48.8414, "lng": 2.2530 },
+    { "aliases": ["lyon", "olympique lyonnais"], "city": "lyon", "venue": "Groupama Stadium", "lat": 45.7653, "lng": 4.9822 },
+    { "aliases": ["marseille"], "city": "marseille", "venue": "Stade Vélodrome", "lat": 43.2697, "lng": 5.3956 },
+    { "aliases": ["lille"], "city": "lille", "venue": "Stade Pierre-Mauroy", "lat": 50.6119, "lng": 3.1304 },
+    { "aliases": ["nice"], "city": "nice", "venue": "Allianz Riviera", "lat": 43.7050, "lng": 7.1925 },
+    { "aliases": ["nantes"], "city": "nantes", "venue": "Stade de la Beaujoire", "lat": 47.2558, "lng": -1.5249 },
+    { "aliases": ["toulouse"], "city": "toulouse", "venue": "Stadium de Toulouse", "lat": 43.5833, "lng": 1.4342 },
+    { "aliases": ["strasbourg"], "city": "strasbourg", "venue": "Stade de la Meinau", "lat": 48.5601, "lng": 7.7547 },
+    { "aliases": ["bordeaux"], "city": "bordeaux", "venue": "Matmut Atlantique", "lat": 44.8975, "lng": -0.5614 },
+
+    { "aliases": ["ajax"], "city": "amsterdam", "venue": "Johan Cruijff ArenA", "lat": 52.3144, "lng": 4.9419 },
+    { "aliases": ["feyenoord"], "city": "rotterdam", "venue": "De Kuip", "lat": 51.8939, "lng": 4.5231 },
+    { "aliases": ["sparta rotterdam"], "city": "rotterdam", "venue": "Het Kasteel", "lat": 51.9180, "lng": 4.4360 },
+
+    { "aliases": ["benfica"], "city": "lisbon", "venue": "Estádio da Luz", "lat": 38.7527, "lng": -9.1847 },
+    { "aliases": ["sporting cp", "sporting clube"], "city": "lisbon", "venue": "Estádio José Alvalade", "lat": 38.7613, "lng": -9.1610 },
+    { "aliases": ["porto"], "city": "porto", "venue": "Estádio do Dragão", "lat": 41.1617, "lng": -8.5836 },
+    { "aliases": ["boavista"], "city": "porto", "venue": "Estádio do Bessa", "lat": 41.1620, "lng": -8.6360 }
+  ]
+}

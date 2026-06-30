@@ -751,3 +751,39 @@ UI: the social page (`flSocialUI`, now a **full page**, not a bottom sheet) has 
 **Leaderboard** tab with a metric toggle; the signed-in user's row is
 highlighted. **Until the columns above exist the queries error and are caught —
 the board simply shows "no one yet", nothing breaks.**
+
+---
+
+## 24. Match fixtures in the events feed (`ingest-matches`)
+
+Football fixtures are ingested into the same `public.events` table as the other
+sources, so they inherit the What's-on list, map pins, type filters and
+in-person check-in for free. Appeals to a broader user base ("I was at the
+match") and is just one source among many on the platform.
+
+- **Source:** [Football-Data.org](https://www.football-data.org/) free tier.
+  It returns kickoff + teams but **no stadium coordinates**, and the events row
+  needs `lat/lng` + a Flâneur `city` slug. So `scripts/data/team-venues.json`
+  maps each home club to its ground (`{aliases, city, lat, lng, venue}`) and a
+  fixture is ingested **only if its home club's stadium is in a city we cover** —
+  any other club is skipped (and logged so the map can be extended). Same-stadium
+  clubs (Inter/AC Milan, Roma/Lazio) intentionally share coords.
+- **Script:** `scripts/ingest-matches.mjs` — for the free-tier competitions
+  (`PL, ELC, PD, SA, BL1, FL1, DED, PPL, CL`) it pulls `status=SCHEDULED`
+  fixtures within the next 60 days, matches the home team (accent/suffix-tolerant
+  name match), and upserts rows `{ext_id:"fd:<id>", category:"Sport",
+  source:"matches", start_at:kickoff, end_at:kickoff+2h, …}` keyed on `ext_id`.
+  Because the feed query drops events once `end_at < now`, a match naturally
+  leaves the feed ~2h after kickoff.
+- **Workflow:** `.github/workflows/ingest-matches.yml` — daily 05:30 UTC +
+  manual. Add **one repo secret**: `FOOTBALL_DATA_KEY` (free, register at
+  football-data.org → API token); it reuses `SUPABASE_SERVICE_ROLE_KEY`.
+- **Matchday check-in window (app):** `flCheckinBtn` gates `source:"matches"`
+  events to **~2h before kickoff → ~2h after full time** ("⏳ Check in opens on
+  matchday" / "⏱ Match has ended"); outside that it falls through to the normal
+  600 m proximity gate. Non-match events are unaffected. Makes "I was here for
+  the match" feel real and curbs drive-by check-ins.
+- **Extending coverage:** add clubs to `team-venues.json` (the script logs
+  unmatched home teams each run); for more leagues/sports later, a paid
+  Football-Data plan or a second source (e.g. TheSportsDB for US majors) can
+  upsert into the same table with its own `source` tag.

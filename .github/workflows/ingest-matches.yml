@@ -1,0 +1,27 @@
+name: Ingest matches
+
+# Fills the Flâneur events feed with football fixtures (Football-Data.org) so
+# people can check in to a match in person. Runs daily, plus a manual "Run
+# workflow" button. No terminal needed — just add the two repo secrets:
+#   FOOTBALL_DATA_KEY           (football-data.org → register → API token, free)
+#   SUPABASE_SERVICE_ROLE_KEY   (Supabase → Settings → API Keys → secret key)
+on:
+  schedule:
+    - cron: "30 5 * * *" # every day at 05:30 UTC (after the other ingests)
+  workflow_dispatch: {} # manual trigger from the Actions tab
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Ingest
+        run: node scripts/ingest-matches.mjs
+        env:
+          FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
+          SUPABASE_URL: https://fpngxchltuovtsyzigul.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          INGEST_STATUS: approved
