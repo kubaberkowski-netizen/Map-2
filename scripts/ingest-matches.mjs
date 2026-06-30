@@ -68,7 +68,7 @@ for (const code of COMPS) {
     rows.push({
       ext_id: ext,
       name: away ? `${home} v ${away}` : home,
-      category: "Sport",
+      category: "Football",
       venue: v.venue,
       lat: v.lat,
       lng: v.lng,

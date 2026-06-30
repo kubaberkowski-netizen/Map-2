@@ -771,7 +771,7 @@ match") and is just one source among many on the platform.
 - **Script:** `scripts/ingest-matches.mjs` — for the free-tier competitions
   (`PL, ELC, PD, SA, BL1, FL1, DED, PPL, CL`) it pulls `status=SCHEDULED`
   fixtures within the next 60 days, matches the home team (accent/suffix-tolerant
-  name match), and upserts rows `{ext_id:"fd:<id>", category:"Sport",
+  name match), and upserts rows `{ext_id:"fd:<id>", category:"Football",
   source:"matches", start_at:kickoff, end_at:kickoff+2h, …}` keyed on `ext_id`.
   Because the feed query drops events once `end_at < now`, a match naturally
   leaves the feed ~2h after kickoff.
@@ -806,11 +806,14 @@ so the US/Canada cities get the same "check in to the game" hook as football.
   aliases so NY Giants (NFL) and SF Giants (MLB) don't collide; same-arena teams
   (Lakers/Kings, Bulls/Blackhawks, Raptors/Maple Leafs) share coords.
 - **Script:** `scripts/ingest-us-sports.mjs` — next 60 days of fixtures upserted
-  as `{ext_id:"tsd:<id>", category:"Sport", source:"matches",
+  as `{ext_id:"tsd:<id>", category:<sport>, source:"matches",
   end_at:tip-off+3h}`. Because `source:"matches"`, US games get the **same
   matchday check-in window** and feed behaviour as football — no app change.
 - **Workflow:** `.github/workflows/ingest-us-sports.yml` — daily 05:45 UTC +
   manual.
-- **Note:** all live fixtures (football + US) share `category:"Sport"`, so they
-  ride the existing Sport pin/filter. Per-sport categories would need new entries
-  in the app's event category map (`ne`-style) + pin set — a later enhancement.
+- **Per-sport pins/filters:** each feed sets a distinct `category` — `Football`,
+  `Basketball`, `Am. Football`, `Baseball`, `Hockey` — and the app's `flEVI`
+  category->emoji map gains the matching ⚽🏀🏈⚾🏒. Event pins and the
+  (auto-derived) type-filter chips both read `flEVI[category]`, so each sport
+  gets its own pin + chip for free. Legacy Ticketmaster/Skiddle sport events
+  keep the generic `Sport` ⚽.

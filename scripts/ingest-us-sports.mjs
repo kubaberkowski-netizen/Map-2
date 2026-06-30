@@ -21,10 +21,10 @@ if (!SB_KEY) { console.error("Missing SUPABASE_SERVICE_ROLE_KEY."); process.exit
 
 // TheSportsDB league ids → label kept in the event name prefix.
 const LEAGUES = [
-  { id: "4387", name: "NBA" },
-  { id: "4391", name: "NFL" },
-  { id: "4424", name: "MLB" },
-  { id: "4380", name: "NHL" },
+  { id: "4387", name: "NBA", cat: "Basketball" },
+  { id: "4391", name: "NFL", cat: "Am. Football" },
+  { id: "4424", name: "MLB", cat: "Baseball" },
+  { id: "4380", name: "NHL", cat: "Hockey" },
 ];
 
 const { venues } = JSON.parse(fs.readFileSync(new URL("./data/us-team-venues.json", import.meta.url)));
@@ -69,7 +69,7 @@ for (const lg of LEAGUES) {
     rows.push({
       ext_id: ext,
       name: (home && away) ? `${home} v ${away}` : (ev.strEvent || home || "Game"),
-      category: "Sport",
+      category: lg.cat,
       venue: v.venue,
       lat: v.lat,
       lng: v.lng,
