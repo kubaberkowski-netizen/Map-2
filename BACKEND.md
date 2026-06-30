@@ -790,30 +790,36 @@ match") and is just one source among many on the platform.
 
 ---
 
-## 25. US/Canada major-league fixtures (`ingest-us-sports`)
+## 25. More sports via TheSportsDB (`ingest-us-sports`)
 
-Extends §24 to NBA / NFL / MLB / NHL via [TheSportsDB](https://www.thesportsdb.com/),
-so the US/Canada cities get the same "check in to the game" hook as football.
+Extends §24 to many more leagues via [TheSportsDB](https://www.thesportsdb.com/):
+US/Canada majors (NBA 4387, NFL 4391, MLB 4424, NHL 4380, WNBA 4516), plus
+Scottish football (SPFL 4330), MLS 4346, NWSL 4521, club rugby (English Prem
+4414, French Top 14 4430) and county cricket (Championship 4458/4459, T20 Blast
+4463). One script, one daily workflow.
 
-- **Source:** TheSportsDB `eventsnextleague.php?id=<league>` (NBA 4387, NFL 4391,
-  MLB 4424, NHL 4380). Free public test key `"3"` by default; set the optional
+- **Source:** TheSportsDB `eventsnextleague.php?id=<league>`. Free public test
+  key `"3"` by default (verified to return live schedules); set the optional
   `THESPORTSDB_KEY` secret for a Patreon key (script: `THESPORTSDB_KEY || "3"`).
-- **Venue map:** `scripts/data/us-team-venues.json` — same shape as the football
-  one. TheSportsDB has no usable coords, so each home team maps to its arena;
-  only games at an arena in a covered city are ingested (NYC, LA, Chicago, SF Bay
-  Area, Houston, Nashville, Orlando, San Antonio, Toronto, Montreal). Nicknames
-  shared across leagues (Giants, Rangers, Kings) are **city-qualified** in the
-  aliases so NY Giants (NFL) and SF Giants (MLB) don't collide; same-arena teams
-  (Lakers/Kings, Bulls/Blackhawks, Raptors/Maple Leafs) share coords.
+- **Venue maps:** `us-team-venues.json` (US majors) + `tsdb-intl-venues.json`
+  (Scottish/MLS/WNBA/NWSL/cricket/rugby), merged at runtime. TheSportsDB has no
+  usable coords, so each home team maps to its ground; only games at a ground in
+  a covered city are ingested. **Matching is scoped by sport** — every venue has
+  a sport (US entries derive it from their `league`) and a home team only matches
+  grounds of the league's sport, so bare nicknames can't collide across sports
+  (cricket *Birmingham Bears* ≠ NFL *Bears*; Glasgow *Rangers* ≠ a Texas Rangers
+  MLB game). City-qualified aliases handle same-sport clashes (NY vs SF Giants);
+  same-ground teams share coords.
 - **Script:** `scripts/ingest-us-sports.mjs` — next 60 days of fixtures upserted
-  as `{ext_id:"tsd:<id>", category:<sport>, source:"matches",
-  end_at:tip-off+3h}`. Because `source:"matches"`, US games get the **same
-  matchday check-in window** and feed behaviour as football — no app change.
-- **Workflow:** `.github/workflows/ingest-us-sports.yml` — daily 05:45 UTC +
-  manual.
+  as `{ext_id:"tsd:<id>", category:<per-sport>, source:"matches",
+  end_at:start+<sport duration>}` (cricket gets a longer window than basketball).
+  Because `source:"matches"`, every sport gets the **same matchday check-in
+  window** and feed behaviour as football — no app change.
+- **Workflow:** `.github/workflows/ingest-us-sports.yml` ("Ingest sports
+  (TheSportsDB)") — daily 05:45 UTC + manual.
 - **Per-sport pins/filters:** each feed sets a distinct `category` — `Football`,
-  `Basketball`, `Am. Football`, `Baseball`, `Hockey` — and the app's `flEVI`
-  category->emoji map gains the matching ⚽🏀🏈⚾🏒. Event pins and the
+  `Basketball`, `Am. Football`, `Baseball`, `Hockey`, `Cricket`, `Rugby` — and
+  the app's `flEVI` category->emoji map gains ⚽🏀🏈⚾🏒🏏🏉. Event pins and the
   (auto-derived) type-filter chips both read `flEVI[category]`, so each sport
   gets its own pin + chip for free. Legacy Ticketmaster/Skiddle sport events
   keep the generic `Sport` ⚽.

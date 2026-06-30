@@ -1,9 +1,10 @@
-name: Ingest US sports
+name: Ingest sports (TheSportsDB)
 
-# Fills the Flâneur events feed with NBA / NFL / MLB / NHL fixtures (TheSportsDB)
-# so people can check in to a game in person. Runs daily, plus a manual "Run
-# workflow" button. No terminal needed. Uses TheSportsDB's free key by default;
-# set the optional THESPORTSDB_KEY secret to use a Patreon key. Reuses
+# Fills the Flâneur events feed with fixtures from TheSportsDB — US/Canada majors
+# (NBA/NFL/MLB/NHL) plus Scottish football, MLS/WNBA/NWSL, county cricket and
+# club rugby — so people can check in to a game in person. Runs daily, plus a
+# manual "Run workflow" button. No terminal needed. Uses TheSportsDB's free key
+# by default; set the optional THESPORTSDB_KEY secret for a Patreon key. Reuses
 # SUPABASE_SERVICE_ROLE_KEY.
 on:
   schedule:

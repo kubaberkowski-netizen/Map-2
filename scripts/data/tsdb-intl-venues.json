@@ -1,0 +1,48 @@
+{
+  "_comment": "International / non-US-majors home teams for ingest-us-sports.mjs (TheSportsDB). Merged with us-team-venues.json at runtime. Same shape plus a `sport` field: matching is scoped to the league's sport, so a bare nickname (e.g. cricket 'Birmingham Bears' vs NFL 'Bears', or Glasgow 'Rangers' vs a Texas Rangers MLB game) can't collide across sports. aliases are matched (accent/suffix-insensitive substring) against strHomeTeam; only teams whose ground is in a Flâneur city are listed. category comes from the LEAGUE in the script.",
+  "venues": [
+    { "aliases": ["celtic"], "sport": "soccer", "city": "glasgow", "venue": "Celtic Park", "lat": 55.8497, "lng": -4.2055 },
+    { "aliases": ["rangers"], "sport": "soccer", "city": "glasgow", "venue": "Ibrox Stadium", "lat": 55.8533, "lng": -4.3092 },
+    { "aliases": ["heart of midlothian", "hearts"], "sport": "soccer", "city": "edinburgh", "venue": "Tynecastle Park", "lat": 55.9390, "lng": -3.2360 },
+    { "aliases": ["hibernian"], "sport": "soccer", "city": "edinburgh", "venue": "Easter Road", "lat": 55.9618, "lng": -3.1656 },
+
+    { "aliases": ["la galaxy", "los angeles galaxy"], "sport": "soccer", "city": "losangeles", "venue": "Dignity Health Sports Park", "lat": 33.8644, "lng": -118.2611 },
+    { "aliases": ["los angeles fc", "lafc"], "sport": "soccer", "city": "losangeles", "venue": "BMO Stadium", "lat": 34.0128, "lng": -118.2848 },
+    { "aliases": ["new york city fc", "nycfc"], "sport": "soccer", "city": "nyc", "venue": "Yankee Stadium", "lat": 40.8296, "lng": -73.9262 },
+    { "aliases": ["new york red bulls", "red bull"], "sport": "soccer", "city": "nyc", "venue": "Red Bull Arena", "lat": 40.7369, "lng": -74.1503 },
+    { "aliases": ["chicago fire"], "sport": "soccer", "city": "chicago", "venue": "Soldier Field", "lat": 41.8623, "lng": -87.6167 },
+    { "aliases": ["toronto fc"], "sport": "soccer", "city": "toronto", "venue": "BMO Field", "lat": 43.6332, "lng": -79.4185 },
+    { "aliases": ["montreal", "montréal"], "sport": "soccer", "city": "montreal", "venue": "Stade Saputo", "lat": 45.5626, "lng": -73.5527 },
+    { "aliases": ["houston dynamo"], "sport": "soccer", "city": "houston", "venue": "Shell Energy Stadium", "lat": 29.7522, "lng": -95.3520 },
+    { "aliases": ["nashville sc"], "sport": "soccer", "city": "nashville", "venue": "Geodis Park", "lat": 36.1306, "lng": -86.7664 },
+
+    { "aliases": ["angel city"], "sport": "soccer", "city": "losangeles", "venue": "BMO Stadium", "lat": 34.0128, "lng": -118.2848 },
+    { "aliases": ["gotham"], "sport": "soccer", "city": "nyc", "venue": "Sports Illustrated Stadium", "lat": 40.7369, "lng": -74.1503 },
+    { "aliases": ["chicago stars", "chicago red stars"], "sport": "soccer", "city": "chicago", "venue": "SeatGeek Stadium", "lat": 41.7064, "lng": -87.9540 },
+    { "aliases": ["houston dash"], "sport": "soccer", "city": "houston", "venue": "Shell Energy Stadium", "lat": 29.7522, "lng": -95.3520 },
+
+    { "aliases": ["los angeles sparks", "la sparks", "sparks"], "sport": "basketball", "city": "losangeles", "venue": "Crypto.com Arena", "lat": 34.0430, "lng": -118.2673 },
+    { "aliases": ["new york liberty", "liberty"], "sport": "basketball", "city": "nyc", "venue": "Barclays Center", "lat": 40.6826, "lng": -73.9754 },
+    { "aliases": ["chicago sky"], "sport": "basketball", "city": "chicago", "venue": "Wintrust Arena", "lat": 41.8531, "lng": -87.6267 },
+
+    { "aliases": ["surrey"], "sport": "cricket", "city": "london", "venue": "The Kia Oval", "lat": 51.4837, "lng": -0.1153 },
+    { "aliases": ["middlesex"], "sport": "cricket", "city": "london", "venue": "Lord's", "lat": 51.5294, "lng": -0.1727 },
+    { "aliases": ["warwickshire", "birmingham bears"], "sport": "cricket", "city": "birmingham", "venue": "Edgbaston", "lat": 52.4558, "lng": -1.9027 },
+    { "aliases": ["lancashire"], "sport": "cricket", "city": "manchester", "venue": "Emirates Old Trafford", "lat": 53.4568, "lng": -2.2873 },
+    { "aliases": ["yorkshire"], "sport": "cricket", "city": "leeds", "venue": "Headingley", "lat": 53.8175, "lng": -1.5825 },
+    { "aliases": ["glamorgan"], "sport": "cricket", "city": "cardiff", "venue": "Sophia Gardens", "lat": 51.4869, "lng": -3.1897 },
+    { "aliases": ["gloucestershire"], "sport": "cricket", "city": "bristol", "venue": "Bristol County Ground", "lat": 51.4775, "lng": -2.6003 },
+
+    { "aliases": ["harlequins"], "sport": "rugby", "city": "london", "venue": "Twickenham Stoop", "lat": 51.4476, "lng": -0.3414 },
+    { "aliases": ["saracens"], "sport": "rugby", "city": "london", "venue": "StoneX Stadium", "lat": 51.6028, "lng": -0.2367 },
+    { "aliases": ["bristol bears"], "sport": "rugby", "city": "bristol", "venue": "Ashton Gate", "lat": 51.4400, "lng": -2.6206 },
+    { "aliases": ["sale sharks"], "sport": "rugby", "city": "manchester", "venue": "Salford Community Stadium", "lat": 53.4869, "lng": -2.3279 },
+    { "aliases": ["newcastle falcons"], "sport": "rugby", "city": "newcastle", "venue": "Kingston Park", "lat": 55.0197, "lng": -1.6647 },
+
+    { "aliases": ["stade francais", "stade français"], "sport": "rugby", "city": "paris", "venue": "Stade Jean-Bouin", "lat": 48.8431, "lng": 2.2530 },
+    { "aliases": ["racing 92"], "sport": "rugby", "city": "paris", "venue": "Paris La Défense Arena", "lat": 48.8957, "lng": 2.2293 },
+    { "aliases": ["lyon", "lou rugby"], "sport": "rugby", "city": "lyon", "venue": "Matmut Stadium de Gerland", "lat": 45.7244, "lng": 4.8320 },
+    { "aliases": ["toulouse"], "sport": "rugby", "city": "toulouse", "venue": "Stade Ernest-Wallon", "lat": 43.6207, "lng": 1.4044 },
+    { "aliases": ["bordeaux"], "sport": "rugby", "city": "bordeaux", "venue": "Stade Chaban-Delmas", "lat": 44.8300, "lng": -0.6000 }
+  ]
+}
