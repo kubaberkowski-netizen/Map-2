@@ -46,15 +46,16 @@ function zonedToUTC(y, m, d, hh, mm, tz) {
 function startHour(tz) {
   return /^Australia\/|^Pacific\/|Johannesburg|Los_Angeles|New_York|Chicago|Singapore|Sao_Paulo|Argentina|Mexico_City/.test(tz) ? 8 : 9;
 }
-// Dates (Y,M,D in the city's local tz) of the next WEEKS Saturdays, today included.
-function nextSaturdays(tz) {
+// Dates (Y,M,D in the city's local tz) of the next WEEKS occurrences of weekday
+// `dow` (0=Sun … 6=Sat), today included.
+function nextDates(tz, dow) {
   const now = new Date();
   const loc = new Intl.DateTimeFormat("en-US", { timeZone: tz, weekday: "short", year: "numeric", month: "2-digit", day: "2-digit" })
     .formatToParts(now).reduce((a, x) => (a[x.type] = x.value, a), {});
   const wd = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 }[loc.weekday];
   const base = Date.UTC(+loc.year, +loc.month - 1, +loc.day); // local calendar date as a UTC midnight anchor
   const out = [];
-  let add = (6 - wd + 7) % 7; // days until Saturday (0 if today is Saturday)
+  let add = (dow - wd + 7) % 7; // days until the target weekday (0 if today)
   for (let i = 0; i < WEEKS; i++) {
     const dt = new Date(base + (add + i * 7) * 864e5);
     out.push([dt.getUTCFullYear(), dt.getUTCMonth(), dt.getUTCDate()]);
@@ -75,7 +76,9 @@ const seen = new Set();
 let courses = 0;
 for (const f of feats) {
   const p = f.properties || {}, g = f.geometry || {};
-  if (p.seriesid && +p.seriesid !== 1) continue; // 1 = Saturday 5k (skip junior 2k)
+  const sid = +p.seriesid || 1;          // 1 = Saturday 5k, 2 = junior 2k (Sunday)
+  if (sid !== 1 && sid !== 2) continue;
+  const dow = sid === 2 ? 0 : 6;         // Sunday for junior, Saturday for 5k
   const co = g.coordinates || [];
   const lng = +co[0], lat = +co[1];
   if (!isFinite(lat) || !isFinite(lng)) continue;
@@ -86,7 +89,7 @@ for (const f of feats) {
   const name = p.EventLongName || (p.EventShortName ? p.EventShortName + " parkrun" : "parkrun");
   const venue = p.EventShortName || p.EventLongName || "parkrun";
   const hh = startHour(tz);
-  for (const [y, m, d] of nextSaturdays(tz)) {
+  for (const [y, m, d] of nextDates(tz, dow)) {
     const start = zonedToUTC(y, m, d, hh, 0, tz);
     const iso = new Date(Date.UTC(y, m, d)).toISOString().slice(0, 10);
     const ext = "pr:" + (p.eventname || p.id) + ":" + iso;

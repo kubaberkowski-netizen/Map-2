@@ -832,10 +832,11 @@ Adds parkrun courses to the events feed so people can check in at their Saturday
 5k. No API key — parkrun publishes every course worldwide as a public GeoJSON.
 
 - **Source:** `https://images.parkrun.com/events.json` (all courses; coords +
-  name, `seriesid` 1 = Saturday 5k, which is all we keep).
+  name, `seriesid` 1 = Saturday 5k and 2 = junior 2k on Sundays — both kept).
 - **No per-week times, so we generate them.** parkrun is recurring, so the
   script keeps only courses within 25 km of a Flâneur city (assigned to the
-  *nearest* covered city), then emits the next 3 Saturday occurrences at ~9am
+  *nearest* covered city), then emits the next 3 occurrences — Saturday for the
+  5k, Sunday for junior — at ~9am
   **local** — converted to the correct UTC instant DST-aware via the city's IANA
   timezone (`scripts/data/city-tz.json`, one zone per Ci slug). A few regions
   that start earlier (AU/NZ/ZA/US/Singapore/…) use 8am; the ±2 h check-in window
@@ -847,5 +848,6 @@ Adds parkrun courses to the events feed so people can check in at their Saturday
   ext_id includes the date, so re-runs are idempotent per week.
 - **Workflow:** `.github/workflows/ingest-parkrun.yml` — daily 06:00 UTC + manual
   (daily keeps the rolling 3-Saturday window fresh).
-- **Later:** junior parkruns (`seriesid` 2, Sunday 2k) are skipped for now; add
-  by allowing seriesid 2 with a Sunday generator.
+- **Junior parkruns** (`seriesid` 2) are included too, generated on Sundays via
+  the same weekday-parametrised date generator; the event name ("… junior
+  parkrun") distinguishes them and they share the `Parkrun` 🏃 pin.
