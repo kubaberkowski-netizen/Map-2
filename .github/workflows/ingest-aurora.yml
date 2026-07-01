@@ -1,0 +1,25 @@
+name: Ingest aurora
+
+# Creates an "aurora watch" event for northern Flâneur cities when NOAA's Kp
+# forecast makes the northern lights plausible tonight. No API key. Runs each
+# afternoon (so "tonight" is fresh) plus a manual button. On quiet nights it
+# upserts nothing. Reuses SUPABASE_SERVICE_ROLE_KEY.
+on:
+  schedule:
+    - cron: "0 17 * * *" # 17:00 UTC daily
+  workflow_dispatch: {}
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Ingest
+        run: node scripts/ingest-aurora.mjs
+        env:
+          SUPABASE_URL: https://fpngxchltuovtsyzigul.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          INGEST_STATUS: approved

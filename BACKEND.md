@@ -871,3 +871,27 @@ fields, but runs in GitHub Actions with no terminal, like the other ingests.
   is `true` — a footgun).
 - **Workflow:** `.github/workflows/ingest-seatgeek.yml` — daily 05:15 UTC + manual.
 - Complements Ticketmaster/Skiddle; deduped by `ext_id` across sources.
+
+---
+
+## 28. Golden hour + aurora ("sky today")
+
+Two free, on-brand "sky" additions for a walking/photography app — no keys.
+
+### Golden hour / sunset (app)
+The current-city weather fetch already hits open-meteo; it now also requests
+`daily=sunrise,sunset`, computes **golden hour** (sunset − 40 min) and stores it
+on the weather object (`v.gold`), appending "🌇 golden hour HH:MM" to the weather
+note. The **Cities** view's batched per-city weather (`cityWx`) does the same and
+shows a 🌇 chip next to each city's temperature. No new API, no CSP change.
+
+### Aurora watch (`ingest-aurora`)
+- **Source:** NOAA SWPC `planetary-k-index-forecast.json` (public, no key).
+- Takes the peak forecast Kp in the next ~30 h; for each city whose latitude
+  makes that Kp plausibly visible (rough thresholds: |lat|≥62→Kp3, ≥58→4, ≥54→5,
+  ≥50→6, ≥46→7), upserts one **Aurora watch** event at 22:00 local (DST-correct
+  via `city-tz.json`), `end_at` +4 h, linking NOAA's 30-minute aurora forecast.
+  On quiet nights it upserts nothing.
+- `{ext_id:"aurora:<slug>:<date>", category:"Aurora", source:"matches"}` — gets
+  the evening check-in window; `flEVI` gains `Aurora` 🌌 for its pin/chip.
+- **Workflow:** `.github/workflows/ingest-aurora.yml` — daily 17:00 UTC + manual.
