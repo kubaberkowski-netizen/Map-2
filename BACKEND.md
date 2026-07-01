@@ -960,3 +960,25 @@ data, no key.
   `uv_index` (forecast) and grass/birch/ragweed pollen (air-quality); when high
   it appends "☀️ UV N" / "🌾 high pollen" to the weather note (alongside golden
   hour). No new API/key — reuses the existing open-meteo calls.
+
+---
+
+## 33. Mapillary street-level fallback (app)
+
+Many obscure curated spots have no Wikipedia photo, so their card/hero/map-popup
+thumbnail falls back to the category emoji. Mapillary fills that gap with a
+crowdsourced **street-level** image of the actual spot.
+
+- **Where:** inside `flThumb` (the shared thumbnail resolver used by cards, the
+  hero tile via `vw`, and map popups). If the Wikipedia geosearch finds no photo
+  **and** `MAPKEY` is set, it queries `graph.mapillary.com/images` for the
+  nearest image in a small bbox and uses its `thumb_1024_url`. One change,
+  benefits every thumbnail surface.
+- **Config:** a `MAPKEY` constant sits inline next to `MTKEY`/`GAKEY` (empty by
+  default → feature off, zero behaviour change). Paste a **free** Mapillary
+  client/access token (mapillary.com → dashboard → developers) to enable. Like
+  the other client keys, Mapillary read tokens are public by design.
+- **CSP:** `connect-src` += `graph.mapillary.com`; `img-src` += Mapillary image
+  hosts (`*.mapillary.com`, `*.fbcdn.net`).
+- Thumbnail cache key bumped (`flaneur-thumbs3` → `4`) so spots that cached a
+  "no photo" null before now refetch once a key is set.
