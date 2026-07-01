@@ -911,3 +911,22 @@ computed from the synodic month.
 - `{ext_id:"astro:<slug>:<kind>:<date>", category:"Astronomy", source:"matches"}`
   → evening check-in window; `flEVI` gains `Astronomy` 🌠 for its pin/chip.
 - **Workflow:** `.github/workflows/ingest-astronomy.yml` — daily 06:30 UTC + manual.
+
+---
+
+## 30. iNaturalist "nature nearby" (client-side)
+
+Recent wildlife/plant sightings near the current city, shown in the Near view's
+**Nearby finds** list. No key — iNaturalist's API is open for reads (~1 req/s).
+Unlike the ingests, this is **client-side** (sightings are recent-past, not
+future events, so they don't belong in the events feed).
+
+- `window.fliNat.list(lat,lng)` — queries `api.inaturalist.org/v1/observations`
+  (research-grade, has-photo, non-captive, 25 km, birds/mammals/reptiles/
+  amphibians/plants/fungi/butterflies), dedupes by species, returns up to 12
+  `{name, lat, lng, img, uri}`.
+- A `natData` state fetches on city change (using the current city's coords) and
+  its items are pushed into the existing `_fl` finds list with a 🦊 icon; tapping
+  one opens the iNaturalist observation. Degrades to the emoji if a photo is
+  blocked; empty/ errors are swallowed.
+- CSP: `connect-src` += `api.inaturalist.org`; `img-src` += iNat photo hosts.
