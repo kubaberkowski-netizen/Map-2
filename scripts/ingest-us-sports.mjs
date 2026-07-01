@@ -12,6 +12,7 @@
 // source:"matches", so it inherits the What's-on list, map pin, type filter and
 // matchday-gated in-person check-in for free.
 import fs from "node:fs";
+import { reportRun } from "./report-run.mjs";
 
 const KEY = process.env.THESPORTSDB_KEY || "3"; // free public test key
 const SB_URL = process.env.SUPABASE_URL || "https://fpngxchltuovtsyzigul.supabase.co";
@@ -123,4 +124,5 @@ for (let i = 0; i < rows.length; i += 200) {
   if (res.ok) upserted += batch.length;
   else console.error(`upsert ${i}: ${res.status} ${await res.text()}`);
 }
+await reportRun("us-sports", upserted);
 console.log(`Done: upserted ${upserted} US games across ${new Set(rows.map((r) => r.city)).size} cities.`);

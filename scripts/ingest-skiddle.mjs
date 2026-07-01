@@ -2,6 +2,7 @@
 // on a schedule — see .github/workflows/ingest-skiddle.yml. No terminal needed.
 // Env: SKIDDLE_KEY, SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, [INGEST_STATUS]
 import fs from "node:fs";
+import { reportRun } from "./report-run.mjs";
 
 const KEY = process.env.SKIDDLE_KEY;
 const SB_URL = process.env.SUPABASE_URL || "https://fpngxchltuovtsyzigul.supabase.co";
@@ -67,4 +68,5 @@ for (const c of cities) {
   }
   await sleep(300);
 }
+await reportRun("skiddle", upserted);
 console.log(`Skiddle: upserted ${upserted} events across ${hits} cities.`);

@@ -5,6 +5,7 @@
 // Env: SEATGEEK_CLIENT_ID, [SEATGEEK_CLIENT_SECRET], SUPABASE_URL,
 //      SUPABASE_SERVICE_ROLE_KEY, [INGEST_STATUS]
 import fs from "node:fs";
+import { reportRun } from "./report-run.mjs";
 
 const CLIENT_ID = process.env.SEATGEEK_CLIENT_ID;
 const CLIENT_SECRET = process.env.SEATGEEK_CLIENT_SECRET || "";
@@ -90,4 +91,5 @@ for (const c of cities) {
   }
   await sleep(150); // be polite to the SeatGeek API
 }
+await reportRun("seatgeek", upserted);
 console.log(`Done: upserted ${upserted} SeatGeek events across ${hits} cities.`);

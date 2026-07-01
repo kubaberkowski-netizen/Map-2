@@ -3,6 +3,7 @@
 // Runs in GitHub Actions — see .github/workflows/ingest-wikidata.yml.
 // Env: SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, [INGEST_STATUS]
 import fs from "node:fs";
+import { reportRun } from "./report-run.mjs";
 
 const SB_URL = process.env.SUPABASE_URL || "https://fpngxchltuovtsyzigul.supabase.co";
 const SB_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -84,4 +85,5 @@ for (const c of cities) {
   }
   await sleep(1200); // be gentle with the Wikidata Query Service
 }
+await reportRun("wikidata", upserted);
 console.log(`Wikidata: upserted ${upserted} storied places across ${hits} cities.`);

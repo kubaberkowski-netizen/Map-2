@@ -10,6 +10,7 @@
 // occurrence is an event tagged source:"matches", so it inherits the What's-on
 // list, map pin, type filter and matchday-gated check-in for free.
 import fs from "node:fs";
+import { reportRun } from "./report-run.mjs";
 
 const SB_URL = process.env.SUPABASE_URL || "https://fpngxchltuovtsyzigul.supabase.co";
 const SB_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -129,4 +130,5 @@ for (let i = 0; i < rows.length; i += 200) {
   else console.error(`upsert ${i}: ${res.status} ${await res.text()}`);
   await sleep(150);
 }
+await reportRun("parkrun", upserted);
 console.log(`Done: upserted ${upserted} parkrun events across ${new Set(rows.map((r) => r.city)).size} cities.`);

@@ -2,6 +2,7 @@
 // schedule (no terminal needed) — see .github/workflows/ingest-events.yml.
 // Env: TICKETMASTER_KEY, SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, [INGEST_STATUS]
 import fs from "node:fs";
+import { reportRun } from "./report-run.mjs";
 
 const TM = process.env.TICKETMASTER_KEY;
 const SB_URL = process.env.SUPABASE_URL || "https://fpngxchltuovtsyzigul.supabase.co";
@@ -83,4 +84,5 @@ for (const c of cities) {
   }
   await sleep(220); // stay under Ticketmaster's rate limit
 }
+await reportRun("events", upserted);
 console.log(`Done: upserted ${upserted} events across ${hits} cities.`);

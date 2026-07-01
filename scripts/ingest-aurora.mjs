@@ -6,6 +6,7 @@
 // On quiet nights this upserts nothing (the feed stays clean). It only creates
 // events for cities whose latitude makes the forecast Kp plausibly visible.
 import fs from "node:fs";
+import { reportRun } from "./report-run.mjs";
 
 const SB_URL = process.env.SUPABASE_URL || "https://fpngxchltuovtsyzigul.supabase.co";
 const SB_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -82,6 +83,7 @@ if (peakKp >= 3) {
   }
 }
 
+await reportRun("aurora", out.length);
 if (!out.length) { console.log("No aurora-likely cities tonight — nothing to upsert."); process.exit(0); }
 
 const res = await fetch(`${SB_URL}/rest/v1/events?on_conflict=ext_id`, {

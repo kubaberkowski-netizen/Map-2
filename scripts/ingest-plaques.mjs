@@ -10,6 +10,7 @@
 // same `places` table Foursquare/Wikidata write to — so they inherit the
 // "Storied" finds list and map pins for free.
 import fs from "node:fs";
+import { reportRun } from "./report-run.mjs";
 
 const SNAPSHOT = "https://openplaques.s3.eu-west-2.amazonaws.com/open-plaques-all-2025-12-15.json";
 const SB_URL = process.env.SUPABASE_URL || "https://fpngxchltuovtsyzigul.supabase.co";
@@ -84,4 +85,5 @@ for (let i = 0; i < rows.length; i += 200) {
   else console.error(`upsert ${i}: ${res.status} ${await res.text()}`);
   await sleep(120);
 }
+await reportRun("plaques", upserted);
 console.log(`Done: upserted ${upserted} plaques.`);

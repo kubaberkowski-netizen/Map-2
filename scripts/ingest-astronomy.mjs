@@ -4,6 +4,7 @@
 // computed. Runs in GitHub Actions on a schedule.
 // Env: SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, [INGEST_STATUS]
 import fs from "node:fs";
+import { reportRun } from "./report-run.mjs";
 
 const SB_URL = process.env.SUPABASE_URL || "https://fpngxchltuovtsyzigul.supabase.co";
 const SB_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -95,4 +96,5 @@ for (let i = 0; i < rows.length; i += 200) {
   if (res.ok) upserted += batch.length;
   else console.error(`upsert ${i}: ${res.status} ${await res.text()}`);
 }
+await reportRun("astronomy", upserted);
 console.log(`Done: upserted ${upserted} astronomy events (${dates.length} dates × ${cities.length} cities).`);

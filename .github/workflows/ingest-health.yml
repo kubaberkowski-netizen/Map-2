@@ -1,0 +1,25 @@
+name: Ingest health
+
+# Dead-man's switch for the scheduled ingests (audit P1.4). Reads
+# public.ingest_runs (which every ingest upserts on a successful run) and fails
+# the job if any source has gone stale or last reported ok=false — a failed job
+# emails the repo owner, so a silently-broken ingest can't rot the feed unnoticed.
+# Runs late in the day, after the daily ingests have had their chance to report.
+on:
+  schedule:
+    - cron: "0 12 * * *" # every day at 12:00 UTC (after the morning ingests)
+  workflow_dispatch: {} # manual trigger from the Actions tab
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Check ingest freshness
+        run: node scripts/ingest-health.mjs
+        env:
+          SUPABASE_URL: https://fpngxchltuovtsyzigul.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}

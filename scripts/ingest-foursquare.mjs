@@ -3,6 +3,7 @@
 // Env: FOURSQUARE_KEY, SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, [INGEST_STATUS]
 // Foursquare's API is mid-migration, so we probe auth combos and use what works.
 import fs from "node:fs";
+import { reportRun } from "./report-run.mjs";
 
 const KEY = process.env.FOURSQUARE_KEY;
 const SB_URL = process.env.SUPABASE_URL || "https://fpngxchltuovtsyzigul.supabase.co";
@@ -116,4 +117,5 @@ for (const c of cities) {
   }
   await sleep(250);
 }
+await reportRun("foursquare", upserted);
 console.log(`Foursquare (${chosen.label}): upserted ${upserted} places across ${hits} cities.`);

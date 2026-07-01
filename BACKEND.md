@@ -1012,3 +1012,32 @@ supabase functions deploy parse-link    # NOT --no-verify-jwt
 Then set a **hard monthly spend cap + alert** in the Anthropic console. If your
 project uses the new `sb_publishable_…` key format (not a JWT), you can leave
 `verify_jwt` off and rely on the in-code guards (origin + rate limit + spend cap).
+
+## 35. Ingest health / dead-man's switch (audit P1.4)
+
+The 11 scheduled ingests could silently stop (revoked key, upstream API change,
+disabled cron) and nobody would notice until the feed rotted. Now each ingest
+**reports its own run**, and a separate watchdog job **fails loudly** if any
+source goes quiet.
+
+- **`public.ingest_runs`** (migration `supabase/migrations/2026_ingest_runs.sql`)
+  — one row per `source` (`source` PK, `ran_at`, `upserted`, `ok`), RLS on / no
+  anon policy (service-role only).
+- **`scripts/report-run.mjs`** — `reportRun(source, upserted, ok=true)` upserts
+  that row. Every `scripts/ingest-*.mjs` calls it just before its final log line;
+  it swallows all errors so instrumentation can never break an ingest. (aurora
+  reports even on quiet nights, so its silence is always meaningful.)
+- **`scripts/ingest-health.mjs`** + **`.github/workflows/ingest-health.yml`**
+  (daily 12:00 UTC + manual) — reads `ingest_runs` and `process.exit(1)` if any
+  expected source is missing, `ok=false`, or stale beyond its threshold: **48h**
+  for the daily crons, **192h (8d)** for the three weekly Monday crons
+  (foursquare/plaques/wikidata). A failed job is the notification — GitHub emails
+  the owner. Unknown sources are logged, not failed (so adding an ingest is safe).
+
+**⚠️ Owner action (required):** run the migration once so the table exists —
+```
+supabase db execute -f supabase/migrations/2026_ingest_runs.sql   # or paste in SQL editor
+```
+Until then the ingests just no-op their `reportRun` (no key check needed — the
+scripts already have the service-role key) and the health job will report every
+source as "NEVER reported". Nothing else breaks.
