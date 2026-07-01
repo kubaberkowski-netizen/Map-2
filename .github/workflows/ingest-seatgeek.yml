@@ -1,0 +1,29 @@
+name: Ingest SeatGeek
+
+# Fills the Flâneur events feed from SeatGeek (concerts, comedy, theatre, sports)
+# so more shows surface, especially in US cities. Runs daily, plus a manual "Run
+# workflow" button. No terminal needed — add the repo secret:
+#   SEATGEEK_CLIENT_ID          (seatgeek.com/account/develop → free client ID)
+#   SEATGEEK_CLIENT_SECRET      (optional, higher rate limits)
+#   SUPABASE_SERVICE_ROLE_KEY   (already set for the other ingests)
+on:
+  schedule:
+    - cron: "15 5 * * *" # every day at 05:15 UTC
+  workflow_dispatch: {} # manual trigger from the Actions tab
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Ingest
+        run: node scripts/ingest-seatgeek.mjs
+        env:
+          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
+          SEATGEEK_CLIENT_SECRET: ${{ secrets.SEATGEEK_CLIENT_SECRET }}
+          SUPABASE_URL: https://fpngxchltuovtsyzigul.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          INGEST_STATUS: approved

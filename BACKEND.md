@@ -851,3 +851,23 @@ Adds parkrun courses to the events feed so people can check in at their Saturday
 - **Junior parkruns** (`seriesid` 2) are included too, generated on Sundays via
   the same weekday-parametrised date generator; the event name ("… junior
   parkrun") distinguishes them and they share the `Parkrun` 🏃 pin.
+
+---
+
+## 27. SeatGeek events (`ingest-seatgeek` script)
+
+Scheduled Node counterpart to the dormant `supabase/functions/ingest-seatgeek`
+edge function (which needed a manual dashboard deploy). Same taxonomy mapping and
+fields, but runs in GitHub Actions with no terminal, like the other ingests.
+
+- **Source:** `api.seatgeek.com/2/events` — one geo-query per city (15 km). Needs
+  a **free** `SEATGEEK_CLIENT_ID` repo secret (optional `SEATGEEK_CLIENT_SECRET`
+  for higher limits); reuses `SUPABASE_SERVICE_ROLE_KEY`.
+- **Rows:** `{ext_id:"sg:<id>", source:"seatgeek", …}` upserted into `events`.
+  `type`/taxonomy → the app's categories (Music/Comedy/Theatre/Arts/Family/
+  Festival/Sport), so events land on the right pin/chip; headliner image + the
+  support lineup ("With …") are carried through. Coordinate guard uses
+  `Number.isFinite` so venues with no location are dropped (plain `isFinite(null)`
+  is `true` — a footgun).
+- **Workflow:** `.github/workflows/ingest-seatgeek.yml` — daily 05:15 UTC + manual.
+- Complements Ticketmaster/Skiddle; deduped by `ext_id` across sources.
