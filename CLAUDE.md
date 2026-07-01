@@ -25,6 +25,15 @@ fully before touching anything.
   precached by the service worker. Linked from the app's footer ("Privacy"). Its two
   placeholders are now filled (effective date + contact email); revise it if accounts /
   payments / ads / analytics are ever added.
+- **`manifest.webmanifest`** is a standalone static PWA manifest at the repo root (real
+  file, no longer a `data:` URI). It is **not processed by `build.js`**, is precached by
+  the service worker, and is referenced by `<link rel="manifest" href="./manifest.webmanifest">`
+  in the template. `start_url`/`scope`/`id` are all relative `./` (so it works under the
+  `/Map-2/` Pages base), icons point to the real `icon-512.png` (`any` + `maskable`), and
+  two `shortcuts` deep-link into the app via `./#tab=plan` / `./#tab=events` — handled by a
+  `tab=(near|plan|events|cities)` branch in the app's hash router. Bump the SW cache name
+  if you edit it. Follow-up: add a proper multi-size / safe-zone maskable icon set (only a
+  single 512×512 icon exists today).
 - The footer also exposes optional **"Suggest a place"** and **"Support Flâneur"** links,
   rendered **only when** the `FORM_URL` / `DONATE_URL` constants (inline in the template,
   next to `MTKEY`/`GAKEY`) are set to a real URL — empty by default, so no broken links

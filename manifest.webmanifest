@@ -1,0 +1,31 @@
+{
+  "id": "./",
+  "name": "Flâneur",
+  "short_name": "Flâneur",
+  "description": "Niche, storied detours, sorted by how far they are from your feet.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAF8F3",
+  "theme_color": "#C8372D",
+  "categories": ["travel", "lifestyle", "navigation"],
+  "icons": [
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Plan a walk",
+      "short_name": "Plan",
+      "description": "Build a walking route from nearby detours",
+      "url": "./#tab=plan"
+    },
+    {
+      "name": "What's on",
+      "short_name": "Events",
+      "description": "Events and matches happening near you",
+      "url": "./#tab=events"
+    }
+  ]
+}
