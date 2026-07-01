@@ -123,7 +123,7 @@ fully before touching anything.
 ## Validation recipe — run before EVERY commit, no exceptions
 1. Extract the inline `<script>` body to a temp `.js` and run `node --check` on it.
 2. Confirm counts via grep on the HTML:
-   - **entries** — `id:"…",n:"` → should be **7,213** (keep in sync with `build.js`'s `BASELINE`)
+   - **entries** — `id:"…",n:"` → should be **9,866** (keep in sync with `build.js`'s `BASELINE`)
      `grep -oE 'id:"[^"]*",n:"' index.html | wc -l`
    - **Worlds** — `match:\s*e\s*=>` → should be **80** (do NOT count `osm:`)
      `grep -oE 'match:[[:space:]]*e[[:space:]]*=>' index.html | wc -l`

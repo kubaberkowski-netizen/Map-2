@@ -1,5 +1,8 @@
 # Flâneur — Functionality Review & Feature Roadmap
 
+> **Correction (2026-07):** the live catalogue is **9,866 spots / 115 cities / 43 categories / 80 Worlds**. Some figures below (e.g. 15,322 spots / 70 cities / 45 Worlds) are from an earlier plan and are stale — trust CLAUDE.md + `build.js` `BASELINE` for current counts.
+
+
 _Prepared from a deep read of `index.html` / `src/app.template.html`, `data/spots.json`,
 `build.js`, `sw.js`, `privacy.html` and the `tools/` enrichment pipeline._
 _Date: 2026-06-19._

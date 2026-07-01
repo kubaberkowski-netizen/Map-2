@@ -378,7 +378,7 @@ function parseNeMeta(src) {
 }
 
 function genSeo() {
-  const SITE = (process.env.SITE_URL || "https://kubaberkowski-netizen.github.io/map-2").replace(/\/+$/, "");
+  const SITE = (process.env.SITE_URL || "https://kubaberkowski-netizen.github.io/Map-2").replace(/\/+$/, "");
   const ciMeta = parseObjArrayMeta(scriptBody, "Ci", ["name", "label", "blurb", "e"]);
   const neMeta = parseNeMeta(scriptBody);
   const esc = (t) => String(t == null ? "" : t).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
