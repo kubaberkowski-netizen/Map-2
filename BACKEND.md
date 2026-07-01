@@ -982,3 +982,33 @@ crowdsourced **street-level** image of the actual spot.
   hosts (`*.mapillary.com`, `*.fbcdn.net`).
 - Thumbnail cache key bumped (`flaneur-thumbs3` → `4`) so spots that cached a
   "no photo" null before now refetch once a key is set.
+
+---
+
+## 34. Edge-function hardening (audit P0.3 / P0.4)
+
+`plan-trip` (spends the owner's Anthropic credits) and `parse-link` (fetches
+arbitrary URLs) were protected only by a forgeable Origin header / nothing.
+Hardened via `supabase/functions/_shared/guard.ts`:
+
+- **plan-trip:** origin-lock + required `Authorization: Bearer` + per-IP (15/h) &
+  per-user (30/h) rate limit + 64KB body cap + spots capped to 150 server-side.
+  The client now sends `apikey` + `Authorization` (publishable key). The rate
+  limit + a hard Anthropic spend cap are the real protection (Origin is forgeable).
+- **parse-link:** required bearer + origin allowlist, **https-only**, DNS-resolve
+  and **reject private/loopback/link-local/metadata IPs re-checked on every
+  redirect hop** (kills the SSRF/open-proxy), 10s timeout, streamed 600KB read
+  cap. Client already sends auth via `sb.functions.invoke`.
+- **Rate limiter:** `public.api_rate` rolling-window table (migration
+  `supabase/migrations/2026_api_rate.sql`); the functions read/write it via the
+  service role; fails **open** so a limiter outage never breaks the app.
+
+**⚠️ Owner deploy (required — repo code does not auto-deploy to Supabase):**
+```
+supabase db execute -f supabase/migrations/2026_api_rate.sql   # or paste in SQL editor
+supabase functions deploy plan-trip     # NOT --no-verify-jwt
+supabase functions deploy parse-link    # NOT --no-verify-jwt
+```
+Then set a **hard monthly spend cap + alert** in the Anthropic console. If your
+project uses the new `sb_publishable_…` key format (not a JWT), you can leave
+`verify_jwt` off and rely on the in-code guards (origin + rate limit + spend cap).

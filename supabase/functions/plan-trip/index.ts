@@ -1,56 +1,59 @@
 // Flâneur — natural-language trip planner (Supabase Edge Function)
 //
-// Deploy:
-//   supabase functions deploy plan-trip --no-verify-jwt
+// Deploy (HARDENED — audit P0.3): verify_jwt ON, so callers must send a valid
+// Supabase token (the client already has the publishable/anon key):
+//   supabase functions deploy plan-trip          # (NOT --no-verify-jwt)
 //   supabase secrets set ANTHROPIC_API_KEY=sk-ant-...
-//   # optional — override the origin allowlist if the site moves:
+//   # optional origin allowlist override:
 //   supabase secrets set ALLOWED_ORIGINS="https://your.site,http://localhost:8080"
-// Then in src/app.template.html set  AIFN = "https://<project>.functions.supabase.co/plan-trip"
-//   and add that origin to the CSP connect-src, then `npm run build`.
+//   # run supabase/migrations/2026_api_rate.sql for the rate-limit table
+//   # set a HARD monthly spend cap + alert in the Anthropic console
+// Client (src/app.template.html): send `Authorization: Bearer <supabase session
+// or anon key>` with the POST.
 //
-// Request  (POST JSON): { city, days, prompt, spots:[{id,n,c}] }
-// Response (JSON):      { ids:[spotId,...], note:"one sentence" }   // ids are a subset of the input
+// Request  (POST JSON): { city, days, prompt, spots:[{id,n,c,a}] }
+// Response (JSON):      { ids:[spotId,...], note:"one sentence" }
 //
-// NOTE: this function spends the OWNER's Anthropic credits, so it is locked to
-// the app's own origin(s) (see ALLOWED below). A browser fetch from the site
-// sends an Origin header we check; calls without an allowed Origin get 403.
-// This stops casual abuse from other sites / naive scripts, but Origin can be
-// forged by a non-browser client — for stronger guarantees add Supabase
-// rate-limiting or a per-user auth token.
+// Guards: origin-lock + required bearer + per-IP & per-user rate limit + 64KB
+// body cap + <=150 spots server-side. The Origin header alone is forgeable, so
+// the rate limit + spend cap are the real protection against credit abuse.
+import { corsFor, json, rateLimited, bearerSub, clientIp, ALLOWED_ORIGINS } from "../_shared/guard.ts";
 
 const KEY = Deno.env.get("ANTHROPIC_API_KEY");
 const MODEL = Deno.env.get("ANTHROPIC_MODEL") || "claude-haiku-4-5";
-const ALLOWED = (Deno.env.get("ALLOWED_ORIGINS") ||
-  "https://kubaberkowski-netizen.github.io,http://localhost:8080,http://localhost:3000,http://127.0.0.1:8080")
-  .split(",").map((s) => s.trim()).filter(Boolean);
-
-function corsFor(origin: string | null) {
-  const allow = origin && ALLOWED.includes(origin) ? origin : ALLOWED[0];
-  return {
-    "Access-Control-Allow-Origin": allow,
-    "Access-Control-Allow-Headers": "content-type",
-    "Access-Control-Allow-Methods": "POST,OPTIONS",
-    "Vary": "Origin",
-  };
-}
-function json(o: unknown, status = 200, origin: string | null = null) {
-  return new Response(JSON.stringify(o), { status, headers: { ...corsFor(origin), "content-type": "application/json" } });
-}
+const MAX_BODY = 64 * 1024;
+const IP_LIMIT = 15;    // requests / hour / IP
+const USER_LIMIT = 30;  // requests / hour / signed-in user
 
 Deno.serve(async (req) => {
   const origin = req.headers.get("origin");
   if (req.method === "OPTIONS") return new Response("ok", { headers: corsFor(origin) });
   if (req.method !== "POST") return json({ error: "POST only", ids: [] }, 405, origin);
-  // Origin-lock: only the app's own pages may spend the owner's API credits.
-  if (!origin || !ALLOWED.includes(origin)) return json({ error: "forbidden", ids: [] }, 403, origin);
+  if (!origin || !ALLOWED_ORIGINS.includes(origin)) return json({ error: "forbidden", ids: [] }, 403, origin);
+  // Require a bearer token (the Supabase gateway verifies its signature when the
+  // function is deployed without --no-verify-jwt). No token → no spend.
+  if (!(req.headers.get("authorization") || "").toLowerCase().startsWith("bearer "))
+    return json({ error: "unauthorized", ids: [] }, 401, origin);
+
+  const clen = +(req.headers.get("content-length") || "0");
+  if (clen > MAX_BODY) return json({ error: "payload too large", ids: [] }, 413, origin);
+
+  // Rate limit: per IP and per user (rolling hour). 429 on excess.
+  const ip = clientIp(req), sub = bearerSub(req);
+  if (await rateLimited("plan-trip", "ip:" + ip, IP_LIMIT)) return json({ error: "rate limited", ids: [] }, 429, origin);
+  if (sub && await rateLimited("plan-trip", "u:" + sub, USER_LIMIT)) return json({ error: "rate limited", ids: [] }, 429, origin);
+
   try {
     if (!KEY) return json({ error: "ANTHROPIC_API_KEY not set", ids: [] }, 500, origin);
-    const { city, days, prompt, spots } = await req.json();
+    const raw = await req.text();
+    if (raw.length > MAX_BODY) return json({ error: "payload too large", ids: [] }, 413, origin);
+    const { city, days, prompt, spots } = JSON.parse(raw || "{}");
     if (!Array.isArray(spots) || !spots.length) return json({ ids: [] }, 200, origin);
-    const valid = new Set(spots.map((s: any) => s.id));
+    const capped = spots.slice(0, 150);                         // was 300 — cap server-side
+    const valid = new Set(capped.map((s: any) => s.id));
     const perDay = 5;
     const target = Math.min(perDay * (days || 2), 14);
-    const list = spots.slice(0, 300).map((s: any) => `${s.id}\t${s.n}\t${s.c}\t${s.a || ""}`).join("\n");
+    const list = capped.map((s: any) => `${s.id}\t${s.n}\t${s.c}\t${s.a || ""}`).join("\n");
     const system =
       `You are a concierge for Flâneur, a guide to offbeat, storied places. ` +
       `From the PLACES list ONLY, choose places matching the traveller's request. RULES: ` +
@@ -68,8 +71,6 @@ Deno.serve(async (req) => {
       body: JSON.stringify({ model: MODEL, max_tokens: 1024, system, messages: [{ role: "user", content: user }] }),
     });
     const d = await r.json();
-    // Surface upstream Anthropic failures instead of silently returning empty —
-    // e.g. "credit balance is too low", invalid key, unknown model.
     if (!r.ok || d?.type === "error") {
       const msg = d?.error?.message || `Anthropic HTTP ${r.status}`;
       return json({ ids: [], error: msg }, 502, origin);
