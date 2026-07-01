@@ -1,0 +1,23 @@
+name: Ingest plaques
+
+# Adds Open Plaques (public-domain commemorative markers) to the storied places
+# layer. Weekly is plenty — plaques are historical. No API key. Reuses
+# SUPABASE_SERVICE_ROLE_KEY.
+on:
+  schedule:
+    - cron: "0 4 * * 1" # Mondays 04:00 UTC
+  workflow_dispatch: {}
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Ingest
+        run: node scripts/ingest-plaques.mjs
+        env:
+          SUPABASE_URL: https://fpngxchltuovtsyzigul.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          INGEST_STATUS: approved

@@ -930,3 +930,33 @@ future events, so they don't belong in the events feed).
   one opens the iNaturalist observation. Degrades to the emoji if a photo is
   blocked; empty/ errors are swallowed.
 - CSP: `connect-src` += `api.inaturalist.org`; `img-src` += iNat photo hosts.
+
+---
+
+## 31. Open Plaques (`ingest-plaques`) — storied markers
+
+Commemorative "blue plaque" markers ("X lived here") added to the **places**
+table, so they ride the existing Storied finds list + map pins. Public-domain
+data, no key.
+
+- **Source:** Open Plaques worldwide snapshot (a pinned dated S3 JSON — there's
+  no "latest" URL, but plaques are historical so a pinned snapshot is fine).
+- **Script:** `scripts/ingest-plaques.mjs` — keeps plaques within 25 km of a
+  covered city (nearest-city), caps `PER_CITY` (150, photo'd first), and upserts
+  `{ext_id:"op:<id>", category:"Plaque", source:"openplaques", …}` into `places`
+  (skips removed/uncoordinated ones). No app change — the app already renders
+  non-Foursquare places as 🏛 Storied.
+- **Workflow:** `.github/workflows/ingest-plaques.yml` — weekly (Mon 04:00 UTC).
+
+## 32. Refuge Restrooms + UV/pollen ("on-foot utility")
+
+- **Refuge Restrooms (client-side):** accessible & gender-neutral toilets near
+  the current city, shown as 🚻 rows in the Near view's Nearby finds (mirrors the
+  iNaturalist layer). `window.flLoo.list(lat,lng)` hits
+  `refugerestrooms.org/api/v1/restrooms/by_location` (no key), tags unisex/
+  accessible, caps 4; tapping opens Google Maps directions. CSP `connect-src` +=
+  refugerestrooms.org. Degrades to nothing on error/CORS block.
+- **UV + pollen (app):** the current-city weather call now also requests
+  `uv_index` (forecast) and grass/birch/ragweed pollen (air-quality); when high
+  it appends "☀️ UV N" / "🌾 high pollen" to the weather note (alongside golden
+  hour). No new API/key — reuses the existing open-meteo calls.
