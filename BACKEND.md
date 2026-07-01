@@ -895,3 +895,19 @@ shows a 🌇 chip next to each city's temperature. No new API, no CSP change.
 - `{ext_id:"aurora:<slug>:<date>", category:"Aurora", source:"matches"}` — gets
   the evening check-in window; `flEVI` gains `Aurora` 🌌 for its pin/chip.
 - **Workflow:** `.github/workflows/ingest-aurora.yml` — daily 17:00 UTC + manual.
+
+---
+
+## 29. Astronomy events (`ingest-astronomy`)
+
+"Look up tonight" nudges in the feed — meteor-shower peaks and full moons — for
+every city. No API key: peaks are a fixed annual calendar and full moons are
+computed from the synodic month.
+
+- **Script:** `scripts/ingest-astronomy.mjs` — for the next 45 days it collects
+  full-moon instants (reference new moon + 14.7653 d × cycles) and the 9 major
+  meteor showers (Quadrantids…Geminids), then upserts one event **per city** at
+  ~21:00 (moon) / 22:00 (shower) local, DST-correct via `city-tz.json`.
+- `{ext_id:"astro:<slug>:<kind>:<date>", category:"Astronomy", source:"matches"}`
+  → evening check-in window; `flEVI` gains `Astronomy` 🌠 for its pin/chip.
+- **Workflow:** `.github/workflows/ingest-astronomy.yml` — daily 06:30 UTC + manual.
