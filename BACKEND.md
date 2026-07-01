@@ -823,3 +823,29 @@ Scottish football (SPFL 4330), MLS 4346, NWSL 4521, club rugby (English Prem
   (auto-derived) type-filter chips both read `flEVI[category]`, so each sport
   gets its own pin + chip for free. Legacy Ticketmaster/Skiddle sport events
   keep the generic `Sport` ⚽.
+
+---
+
+## 26. parkrun (free weekly 5k) — `ingest-parkrun`
+
+Adds parkrun courses to the events feed so people can check in at their Saturday
+5k. No API key — parkrun publishes every course worldwide as a public GeoJSON.
+
+- **Source:** `https://images.parkrun.com/events.json` (all courses; coords +
+  name, `seriesid` 1 = Saturday 5k, which is all we keep).
+- **No per-week times, so we generate them.** parkrun is recurring, so the
+  script keeps only courses within 25 km of a Flâneur city (assigned to the
+  *nearest* covered city), then emits the next 3 Saturday occurrences at ~9am
+  **local** — converted to the correct UTC instant DST-aware via the city's IANA
+  timezone (`scripts/data/city-tz.json`, one zone per Ci slug). A few regions
+  that start earlier (AU/NZ/ZA/US/Singapore/…) use 8am; the ±2 h check-in window
+  absorbs any per-course slack.
+- **Rows:** `{ext_id:"pr:<course>:<YYYY-MM-DD>", category:"Parkrun",
+  source:"matches", end_at:start+90m}`. `source:"matches"` gives it the matchday
+  check-in window (only checkable ~Saturday morning) and the auto-drop-after-end
+  feed behaviour; `flEVI` gains `Parkrun` 🏃 so it gets its own pin + filter chip.
+  ext_id includes the date, so re-runs are idempotent per week.
+- **Workflow:** `.github/workflows/ingest-parkrun.yml` — daily 06:00 UTC + manual
+  (daily keeps the rolling 3-Saturday window fresh).
+- **Later:** junior parkruns (`seriesid` 2, Sunday 2k) are skipped for now; add
+  by allowing seriesid 2 with a Sunday generator.
