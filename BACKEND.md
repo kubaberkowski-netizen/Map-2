@@ -1052,3 +1052,20 @@ This complements the §34 server-side hardening — it's a fast client kill swit
 (flip via `?ff=ai:0`, persisted to `localStorage`) if spend spikes, while §34's
 rate limits + the Anthropic spend cap remain the authoritative controls. Set
 `FLAGS.ai=0` in the template + rebuild to disable it for everyone by default.
+
+## 37. Daily push names a specific detour (UX review Task D)
+
+`scripts/send-reminders.mjs` (18:00 UTC cron) used to send a generic "missions are
+live" ping. It now names a **specific "detour of the day"** — a date-seeded pick
+(same for everyone each day, Wordle-style) from London's *quality* writeups
+(authored/verified or Wikipedia/Wikidata-notable, per `data/quality.json`), with
+the writeup hook as the body and a `./#spot=<id>` deep-link. The catalogue is read
+straight from the checked-out repo (`data/spots.json`), so no new infra. Falls back
+to the old generic body if the pick fails.
+
+**Follow-up (needs schema + client change, not done):** true per-user
+personalisation — city-aware detour + the live streak day-number in an afternoon
+nudge — requires storing `city`/`streak` on `push_subscriptions` (client writes it
+on subscribe) so the script can pick per subscriber. Today's version is
+London-default because the dominant city is London and the table carries only
+`endpoint`/`subscription`.
