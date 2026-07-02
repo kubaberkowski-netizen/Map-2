@@ -39,6 +39,17 @@ fully before touching anything.
   next to `MTKEY`/`GAKEY`) are set to a real URL — empty by default, so no broken links
   ship. (Note: a tip/donation link inside an iOS wrapper can fall foul of App Store IAP
   rules — confirm framing before an App Store build.)
+- **Feature flags:** `window.FLAGS` (an object literal defined at the `AIFN` /
+  `window.flAIPlan` setup line in the template, near the analytics loader) holds
+  per-feature on/off defaults — currently `{ai, social, events, donate, suggest}`, all
+  `1`. Read them via `window.flag("<name>")`, which returns the `FLAGS` default unless
+  overridden by a `?ff=ai:0,social:1` query param (a `0`/`false` value = off), which it
+  persists to `localStorage["flrfff"]` so testers/the owner can toggle features at
+  runtime **without a rebuild**. Today `flag("ai")` gates the paid AI trip planner
+  (`window.flAIPlan` becomes `null` when off, so its wizard hides) — the strongest
+  cost-control lever. To gate another feature, wrap its render/entry in
+  `window.flag("<name>")` and add the default to `FLAGS`. Bump the SW cache name after
+  editing FLAGS defaults (it changes the bundle).
 - There is now a **source + build split** (added so the catalogue is editable as
   clean JSON without touching minified code). The boot sequence is **unchanged and
   fully synchronous** — the app does NOT fetch JSON at runtime; the catalogue is

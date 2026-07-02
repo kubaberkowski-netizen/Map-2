@@ -748,7 +748,7 @@ var CFG={
   supabaseAnon:"sb_publishable_At343ximg1anAi2TkHyCXw_82vw4wMB",
   vapidPublic:"BKkW_wex2A88yNBlhBcTyDoyk2zX_jqUkQgID4dwY5phmuiOTUsiZNlcBf-T5eBHjhR2GE2jf6xWINQ4IoayWzU"          /* Web Push VAPID public key (base64url). See BACKEND.md §10. */
 };
-var AIFN="https://fpngxchltuovtsyzigul.supabase.co/functions/v1/plan-trip";try{window.flAIPlan=AIFN?function(p){return fetch(AIFN,{method:"POST",headers:{"content-type":"application/json","apikey":CFG.supabaseAnon,"Authorization":"Bearer "+CFG.supabaseAnon},body:JSON.stringify(p)}).then(function(r){return r.json()})}:null;}catch(e){}
+window.FLAGS=window.FLAGS||{ai:1,social:1,events:1,donate:1,suggest:1};window.flag=window.flag||function(k){try{var q=(typeof location<"u")&&new URLSearchParams(location.search).get("ff");if(q){var o={};q.split(",").forEach(function(p){var a=p.split(":");if(a[0])o[a[0].trim()]=a[1]!=="0"&&a[1]!=="false";});try{localStorage.setItem("flrfff",JSON.stringify(o));}catch(e){}}}catch(e){}try{var s=JSON.parse(localStorage.getItem("flrfff")||"{}");if(k in s)return!!s[k];}catch(e){}return!!(window.FLAGS&&window.FLAGS[k]);};var AIFN="https://fpngxchltuovtsyzigul.supabase.co/functions/v1/plan-trip";try{window.flAIPlan=(AIFN&&window.flag("ai"))?function(p){return fetch(AIFN,{method:"POST",headers:{"content-type":"application/json","apikey":CFG.supabaseAnon,"Authorization":"Bearer "+CFG.supabaseAnon},body:JSON.stringify(p)}).then(function(r){return r.json()})}:null;}catch(e){}
 window.flTrack=function(){(window.__flq=window.__flq||[]).push([].slice.call(arguments));};
 if(!CFG.posthogKey&&!CFG.supabaseUrl)return;
 

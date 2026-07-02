@@ -1041,3 +1041,14 @@ supabase db execute -f supabase/migrations/2026_ingest_runs.sql   # or paste in 
 Until then the ingests just no-op their `reportRun` (no key check needed — the
 scripts already have the service-role key) and the health job will report every
 source as "NEVER reported". Nothing else breaks.
+
+## 36. Feature flags — AI-planner kill switch (audit P3)
+
+Client-side `window.FLAGS` + `window.flag("<name>")` (see CLAUDE.md) gate features
+without a rebuild. The one live gate today is `flag("ai")` over the paid AI trip
+planner: with it off, `window.flAIPlan` is `null` and the planner wizard never
+renders, so **no `plan-trip` calls are made** and no Anthropic credits are spent.
+This complements the §34 server-side hardening — it's a fast client kill switch
+(flip via `?ff=ai:0`, persisted to `localStorage`) if spend spikes, while §34's
+rate limits + the Anthropic spend cap remain the authoritative controls. Set
+`FLAGS.ai=0` in the template + rebuild to disable it for everyone by default.
