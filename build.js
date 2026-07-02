@@ -287,58 +287,93 @@ const literal =
     .join(",") +
   "]";
 
-// --- inject at the placeholder (must appear exactly once) --------------------
-const occ = template.split(PLACEHOLDER).length - 1;
-if (occ !== 1) die(`expected exactly 1 placeholder in template, found ${occ}`);
-const output = template.replace(PLACEHOLDER, literal);
+// --- split the catalogue into a content-hashed sidecar -----------------------
+// The catalogue is ~95% of the bundle and changes far less often than the app
+// code, so we ship it as a separate immutable file `spots.<hash>.js` (defines
+// window.__FLZ) that the shell loads via a classic <script> BEFORE the main
+// bundle (so boot stays fully synchronous — window.__FLZ is set before the app
+// reads Z). Because the filename is content-hashed it is cache-forever: code-only
+// deploys keep the same catalogue URL, so the SW/browser never re-downloads the
+// 4.6 MB catalogue for an app-code change. See sw.js (DATA cache) + CLAUDE.md.
+const crypto = require("crypto");
+const hash = crypto.createHash("sha1").update(literal).digest("hex").slice(0, 10);
+const SPOTS_NAME = `spots.${hash}.js`;
+const spotsJs = `window.__FLZ=${literal};\n`;
+const SRC_MARKER = "<!--__FLANEUR_SPOTS_SRC__-->";
 
-// --- validate the GENERATED html IN MEMORY before writing --------------------
-function check(out) {
+// --- inject into the shell (each marker must appear exactly once) -------------
+const occ = template.split(PLACEHOLDER).length - 1;
+if (occ !== 1) die(`expected exactly 1 spots placeholder in template, found ${occ}`);
+const srcOcc = template.split(SRC_MARKER).length - 1;
+if (srcOcc !== 1) die(`expected exactly 1 spots-src marker in template, found ${srcOcc}`);
+const output = template
+  .replace(PLACEHOLDER, "[]") // Z=window.__FLZ||[]  (catalogue arrives via the sidecar)
+  .replace(SRC_MARKER, `<script src="./${SPOTS_NAME}"></script>`);
+
+// --- validate index.html shell (catalogue-free) BEFORE writing ---------------
+function checkShell(out) {
+  // node --check the MAIN inline bundle (first bare <script>, not the loader/analytics)
   const o = out.indexOf("<script>");
   const c = out.indexOf("</script>", o + 8);
   const body = out.slice(o + 8, c);
-
-  // node --check (CLAUDE.md recipe) on a temp file
-  const tmp = path.join(require("os").tmpdir(), "flaneur-build-check.js");
+  const tmp = path.join(require("os").tmpdir(), "flaneur-shell-check.js");
   fs.writeFileSync(tmp, body);
   try {
     execFileSync(process.execPath, ["--check", tmp], { stdio: "pipe" });
   } catch (e) {
     fs.unlinkSync(tmp);
-    die("generated <script> failed `node --check`:\n" + (e.stderr || e).toString());
+    die("generated shell <script> failed `node --check`:\n" + (e.stderr || e).toString());
   }
   fs.unlinkSync(tmp);
-
-  const entries = (out.match(/id:"[^"]*",n:"/g) || []).length;
   const worlds = (out.match(/match:\s*e\s*=>/g) || []).length;
   const categories = (out.match(/[A-Za-z0-9_]+:\{l:"/g) || []).length;
-  if (entries !== BASELINE.entries) die(`generated entry count ${entries} ≠ ${BASELINE.entries}`);
   if (worlds !== BASELINE.worlds) die(`generated Worlds count ${worlds} ≠ ${BASELINE.worlds}`);
   if (categories !== BASELINE.categories) die(`generated category count ${categories} ≠ ${BASELINE.categories}`);
-
-  // confirm Z really has the right number of elements via a real parse
-  const ast = acorn.parse(body, { ecmaVersion: "latest" });
+  // the catalogue must NOT leak back into the shell
+  const stray = (out.match(/id:"[^"]*",n:"/g) || []).length;
+  if (stray !== 0) die(`shell unexpectedly contains ${stray} inline spot entries (split failed)`);
+  if (out.indexOf(SPOTS_NAME) < 0) die("shell is missing the spots <script src> loader");
+  return { worlds, categories };
+}
+// --- validate the spots sidecar (the data) -----------------------------------
+function checkData(js) {
+  const tmp = path.join(require("os").tmpdir(), "flaneur-spots-check.js");
+  fs.writeFileSync(tmp, js);
+  try {
+    execFileSync(process.execPath, ["--check", tmp], { stdio: "pipe" });
+  } catch (e) {
+    fs.unlinkSync(tmp);
+    die(`generated ${SPOTS_NAME} failed \`node --check\`:\n` + (e.stderr || e).toString());
+  }
+  fs.unlinkSync(tmp);
+  const entries = (js.match(/id:"[^"]*",n:"/g) || []).length;
+  if (entries !== BASELINE.entries) die(`sidecar entry count ${entries} ≠ ${BASELINE.entries}`);
+  // confirm the injected array really has the right length via a real parse
+  const ast = acorn.parse(js, { ecmaVersion: "latest" });
   let zlen = -1;
   (function walk(n) {
     if (!n || typeof n.type !== "string") return;
-    if (n.type === "VariableDeclarator" && n.id && n.id.name === "Z" &&
-        n.init && n.init.type === "ArrayExpression") zlen = n.init.elements.length;
+    if (zlen < 0 && n.type === "ArrayExpression" && n.elements.length > 100) zlen = n.elements.length;
     for (const k in n) {
       const v = n[k];
       if (Array.isArray(v)) v.forEach((x) => x && typeof x.type === "string" && walk(x));
       else if (v && typeof v.type === "string") walk(v);
     }
   })(ast);
-  if (zlen !== spots.length) die(`parsed Z has ${zlen} elements, expected ${spots.length}`);
-  return { entries, worlds, categories };
+  if (zlen !== spots.length) die(`parsed sidecar array has ${zlen} elements, expected ${spots.length}`);
+  return entries;
 }
-const counts = check(output);
+const counts = checkShell(output);
+const entryCount = checkData(spotsJs);
 
-// --- all green: write -------------------------------------------------------
+// --- all green: remove stale sidecars, then write the pair -------------------
+for (const f of fs.readdirSync(ROOT))
+  if (/^spots\.[0-9a-f]+\.js$/.test(f)) fs.unlinkSync(path.join(ROOT, f));
+fs.writeFileSync(path.join(ROOT, SPOTS_NAME), spotsJs);
 fs.writeFileSync(OUTPUT, output);
 console.log(
-  `✓ wrote ${path.relative(ROOT, OUTPUT)} — ` +
-    `${spots.length} spots / ${counts.worlds} Worlds / ${counts.categories} categories, ` +
+  `✓ wrote ${path.relative(ROOT, OUTPUT)} shell + ${SPOTS_NAME} (${(spotsJs.length / 1048576).toFixed(2)} MB) — ` +
+    `${entryCount} spots / ${counts.worlds} Worlds / ${counts.categories} categories, ` +
     `${withHours} with opening hours, ${withWq} with a wq provenance flag, node --check OK`
 );
 

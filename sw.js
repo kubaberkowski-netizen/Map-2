@@ -1,6 +1,7 @@
 /* Flâneur service worker — offline app shell + tile/asset caching */
-const SHELL = "flaneur-shell-v297";
+const SHELL = "flaneur-shell-v298";
 const TILES = "flaneur-tiles-v2";
+const DATA = "flaneur-data-v1"; // immutable content-hashed catalogue (spots.<hash>.js) — survives SHELL bumps
 const TILE_MAX = 350;
 
 self.addEventListener("install", (e) => {
@@ -12,7 +13,7 @@ self.addEventListener("install", (e) => {
 self.addEventListener("activate", (e) => {
   e.waitUntil(
     caches.keys().then((ks) =>
-      Promise.all(ks.map((k) => (k === SHELL || k === TILES ? null : caches.delete(k))))
+      Promise.all(ks.map((k) => (k === SHELL || k === TILES || k === DATA ? null : caches.delete(k))))
     ).then(() => self.clients.claim())
   );
 });
@@ -87,6 +88,28 @@ self.addEventListener("fetch", (e) => {
       if (hit) return hit;
       try { const res = await fetch(req); if (res && (res.ok || res.type === "opaque")) c.put(req, res.clone()); return res; }
       catch (_) { return hit || Response.error(); }
+    }));
+    return;
+  }
+  // Content-hashed catalogue (spots.<hash>.js): cache-first & immutable, in its
+  // OWN cache that survives SHELL bumps — so an app-code deploy never re-downloads
+  // the 4.6 MB catalogue. A data change ships a NEW hash (new URL) → cache miss →
+  // fetched once; we prune older spots.*.js so the cache holds only the current one.
+  if (url.origin === self.location.origin && /\/spots\.[0-9a-f]+\.js$/.test(url.pathname)) {
+    e.respondWith(caches.open(DATA).then(async (c) => {
+      const hit = await c.match(req);
+      if (hit) return hit;
+      try {
+        const res = await fetch(req);
+        if (res && res.ok) {
+          const olds = await c.keys();
+          await Promise.all(olds.map((k) => (/\/spots\.[0-9a-f]+\.js$/.test(new URL(k.url).pathname) ? c.delete(k) : null)));
+          c.put(req, res.clone());
+        }
+        return res;
+      } catch (_) {
+        return (await caches.match(req)) || Response.error();
+      }
     }));
     return;
   }
