@@ -911,6 +911,135 @@ lucide-react/dist/esm/lucide-react.js:
   try{ if(D.readyState==="complete")setTimeout(toast,3400); else W.addEventListener("load",function(){setTimeout(toast,3400);}); }catch(e){}
 })();
 </script>
+<script>
+/* Time Capsule (feature-ext Tier 2, Task 9, v1) — "one year ago you stood here".
+   A Timehop/Swarm-style memory resurfacer, built as a standalone overlay fully
+   decoupled from the React app (reads window.__FLZ + localStorage + the
+   flaneur-mem IndexedDB, appends its own DOM, every entry try/catch-guarded).
+   Surfaces a past check-in — its date, your note, your photo — with true "on
+   this day" anniversaries ranked first and a graceful "earliest memory" fallback
+   so it's alive from the first fortnight of use, not dead until next year.
+   Opens via a once-a-day launcher toast, #capsule, or window.flCapsule(). */
+(function(){
+  var D=document, W=window, DAY=864e5;
+  function tKey(){var d=new Date();return d.getFullYear()+"-"+(d.getMonth()+1)+"-"+d.getDate();}
+  function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+  var MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  function fdate(t){return t.getDate()+" "+MON[t.getMonth()]+" "+t.getFullYear();}
+  function ago(ageDays){
+    var yrs=Math.floor(ageDays/365);
+    if(yrs>=1)return yrs+" year"+(yrs>1?"s":"")+" ago";
+    var mos=Math.round(ageDays/30.4);
+    if(mos>=1)return mos+" month"+(mos>1?"s":"")+" ago";
+    var wks=Math.floor(ageDays/7);
+    if(wks>=2)return wks+" weeks ago";
+    return ageDays+" days ago";
+  }
+  function memories(){
+    try{
+      var v2=JSON.parse(W.localStorage.getItem("flaneur-v2")||"{}");
+      var ck=v2.checkinAt||{};
+      var notes={}; try{notes=JSON.parse(W.localStorage.getItem("flnotes")||"{}");}catch(e){}
+      var Z=W.__FLZ||[]; if(!Z.length)return [];
+      var by={}; for(var i=0;i<Z.length;i++)by[Z[i].id]=Z[i];
+      var now=new Date(), todayMD=now.getMonth()*100+now.getDate(), list=[];
+      for(var id in ck){
+        if(!Object.prototype.hasOwnProperty.call(ck,id))continue;
+        var sp=by[id]; if(!sp||!sp.n)continue;
+        var t=new Date(ck[id]); if(isNaN(t.getTime()))continue;
+        var ageDays=Math.floor((now-t)/DAY); if(ageDays<10)continue;   // not yet a "memory"
+        var md=t.getMonth()*100+t.getDate();
+        var anniv=(md===todayMD && ageDays>=25);
+        var note="";
+        try{note=(notes[id]||W.localStorage.getItem("flnote_"+id)||"").trim();}catch(e){}
+        list.push({id:String(id), sp:sp, t:t, ageDays:ageDays, anniv:anniv, note:note});
+      }
+      // rank: on-this-day first, then richer (has note), then older
+      list.sort(function(a,b){return (b.anniv-a.anniv)||((b.note?1:0)-(a.note?1:0))||(b.ageDays-a.ageDays);});
+      return list;
+    }catch(e){return [];}
+  }
+  // Best-effort async photo lookup (IndexedDB "flaneur-mem" store "kv", key flaneur-mem-<id>;
+  // localStorage fallback). Never blocks the card; fills the <img> if/when it resolves.
+  function photoFor(id, cb){
+    try{
+      var raw=W.localStorage.getItem("flaneur-mem-"+id);
+      if(raw){var m=JSON.parse(raw); var p=(m&&m.photos)||[]; if(p.length)return cb(p[0]);}
+    }catch(e){}
+    try{
+      var rq=indexedDB.open("flaneur-mem");           // no version → never triggers an upgrade
+      rq.onerror=function(){cb(null);};
+      rq.onsuccess=function(){
+        try{
+          var db=rq.result;
+          if(!db.objectStoreNames.contains("kv"))return cb(null);
+          var g=db.transaction("kv","readonly").objectStore("kv").get("flaneur-mem-"+id);
+          g.onsuccess=function(){var m=g.result; var p=(m&&m.photos)||[]; cb(p.length?p[0]:null);};
+          g.onerror=function(){cb(null);};
+        }catch(e){cb(null);}
+      };
+    }catch(e){cb(null);}
+  }
+  function open(force){
+   try{
+    if(D.getElementById("flcapbd"))return;
+    var mems=memories(); if(!mems.length)return;
+    var pk=tKey();
+    // rotate the pick a little day-to-day so a returning user sees variety
+    var seed=Math.floor(Date.now()/DAY);
+    var ann=mems.filter(function(m){return m.anniv;});
+    var pool=ann.length?ann:mems;
+    var m=pool[seed%pool.length];
+    var bd=D.createElement("div"); bd.id="flcapbd";
+    bd.setAttribute("style","position:fixed;inset:0;z-index:99998;background:rgba(20,16,12,.74);display:flex;align-items:center;justify-content:center;padding:20px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif");
+    function close(){try{D.body.removeChild(bd);}catch(e){}}
+    bd.addEventListener("click",function(e){if(e.target===bd)close();});
+    var card=D.createElement("div");
+    card.setAttribute("style","background:#FBF8F1;border-radius:20px;max-width:400px;width:100%;padding:22px 22px 18px;box-shadow:0 30px 70px -30px rgba(40,25,10,.6);position:relative;max-height:90vh;overflow:auto");
+    var kicker=m.anniv?"On this day":"A memory resurfaced";
+    card.innerHTML=''
+      +'<div style="display:flex;justify-content:space-between;align-items:baseline"><div style="font-family:monospace;font-size:10.5px;letter-spacing:.2em;color:#C8372D">TIME CAPSULE</div><div id="flcapx" style="font-size:20px;color:#8A8073;cursor:pointer;line-height:1">×</div></div>'
+      +'<div style="font-size:12px;color:#8A8073;margin:2px 0 12px">'+esc(kicker)+'</div>'
+      +'<div style="font-family:Georgia,serif;font-size:13px;color:#C8372D;font-weight:700">'+esc(ago(m.ageDays))+'</div>'
+      +'<div style="font-size:11.5px;color:#8A8073;margin-bottom:10px">'+esc(fdate(m.t))+'</div>'
+      +'<div id="flcapimg"></div>'
+      +'<div style="font-family:Georgia,serif;font-size:21px;color:#211C16;line-height:1.25">'+esc(m.sp.n)+'</div>'
+      +'<div style="font-size:13px;color:#8A8073;margin-top:2px">'+esc(m.sp.a||"")+(m.sp.city&&m.sp.city!=="london"?' · '+esc(m.sp.city.charAt(0).toUpperCase()+m.sp.city.slice(1)):'')+'</div>'
+      +(m.note?'<div style="margin-top:12px;font-family:Georgia,serif;font-style:italic;font-size:15px;line-height:1.5;color:#211C16;background:#F1E7D2;border-radius:10px;padding:12px 14px">“'+esc(m.note)+'”</div>':'')
+      +'<a href="./#spot='+encodeURIComponent(m.id)+'" id="flcapsee" style="display:block;text-align:center;margin-top:16px;background:#211C16;color:#F3ECDC;border-radius:12px;padding:11px;font-size:14px;font-weight:700;text-decoration:none">Revisit in Flâneur →</a>';
+    card.querySelector("#flcapx").onclick=close;
+    card.querySelector("#flcapsee").onclick=function(){try{W.flTrack&&W.flTrack("capsule_revisit");}catch(e){} close();};
+    bd.appendChild(card); D.body.appendChild(bd);
+    try{W.flTrack&&W.flTrack("capsule_open");}catch(e){}
+    // fill the photo asynchronously (top of card) if one exists
+    photoFor(m.id,function(src){
+      try{ if(!src)return; var h=D.getElementById("flcapimg"); if(!h)return;
+        h.innerHTML='<img src="'+src+'" alt="" style="width:100%;max-height:220px;object-fit:cover;border-radius:12px;margin-bottom:12px">';
+      }catch(e){}
+    });
+   }catch(e){}
+  }
+  W.flCapsule=open;
+  try{if((location.hash||"").indexOf("capsule")>=0)setTimeout(function(){open(true);},1600);}catch(e){}
+  function toast(){
+    try{
+      if(W.localStorage.getItem("flcapsule_"+tKey()))return;   // shown already today
+      if(!(W.__FLZ&&W.__FLZ.length))return;
+      if(!memories().length)return;                             // nothing aged into a memory yet
+      if(D.getElementById("flcaptoast"))return;
+      try{W.localStorage.setItem("flcapsule_"+tKey(),"1");}catch(e){}
+      var t=D.createElement("div"); t.id="flcaptoast";
+      t.setAttribute("style","position:fixed;left:50%;transform:translateX(-50%);bottom:calc(72px + env(safe-area-inset-bottom,0px));z-index:9990;background:#211C16;color:#F3ECDC;border-radius:999px;padding:10px 16px;font:600 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;box-shadow:0 12px 30px -12px rgba(0,0,0,.5);cursor:pointer;display:flex;align-items:center;gap:8px");
+      t.innerHTML='📷 A memory resurfaced <span style="opacity:.6">✕</span>';
+      t.onclick=function(){try{D.body.removeChild(t);}catch(e){} open(true);};
+      var x=t.querySelector('span'); if(x)x.onclick=function(ev){ev.stopPropagation();try{D.body.removeChild(t);}catch(e){}};
+      D.body.appendChild(t);
+      setTimeout(function(){try{if(D.body.contains(t))D.body.removeChild(t);}catch(e){}},12000);
+    }catch(e){}
+  }
+  try{ if(D.readyState==="complete")setTimeout(toast,4200); else W.addEventListener("load",function(){setTimeout(toast,4200);}); }catch(e){}
+})();
+</script>
 <script>if("serviceWorker"in navigator){addEventListener("load",function(){navigator.serviceWorker.register("./sw.js",{updateViaCache:"none"}).then(function(reg){if(reg){reg.update();setInterval(function(){reg.update()},6e4)}}).catch(function(){});var _rf=!1;navigator.serviceWorker.addEventListener("controllerchange",function(){if(_rf)return;_rf=!0;location.reload()})})}</script>
 <script>
 /* Flâneur cloud — analytics (PostHog) + accounts/sync (Supabase) + push.
