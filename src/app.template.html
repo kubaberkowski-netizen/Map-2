@@ -800,6 +800,117 @@ lucide-react/dist/esm/lucide-react.js:
   try{ if(document.readyState==="complete")setTimeout(run,2600); else window.addEventListener("load",function(){setTimeout(run,2600);}); }catch(e){}
 })();
 </script>
+<script>
+/* Daily Plaque (feature-ext Task N, v1) — a Wordle-style guess-the-place puzzle,
+   built as a standalone overlay decoupled from the React app (reads window.__FLZ
+   + localStorage, appends its own DOM, fully try/catch-guarded). Same puzzle for
+   everyone in a city on a given day; spoiler-free share grid; a win links into
+   the real spot card. Auto-adding to Saved needs React sync, so v1 offers the
+   deep-link instead. Opens via a once-a-day launcher toast, #plaque, or
+   window.flPlaque(). */
+(function(){
+  var D=document, W=window;
+  function num(){return Math.floor(Date.now()/864e5);}
+  function tKey(){var d=new Date();return d.getFullYear()+"-"+(d.getMonth()+1)+"-"+d.getDate();}
+  function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+  function norm(s){return String(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");}
+  function cityOf(){
+    try{var v2=JSON.parse(W.localStorage.getItem("flaneur-v2")||"{}");var ck=v2.checkinAt||{};var Z=W.__FLZ||[];var by={};for(var i=0;i<Z.length;i++)by[Z[i].id]=Z[i];var c={};for(var k in ck){var s=by[k];if(s&&s.city)c[s.city]=(c[s.city]||0)+1;}var best="london",n=0;for(var x in c){if(c[x]>n){n=c[x];best=x;}}return best;}catch(e){return "london";}
+  }
+  function daily(city){
+    var Z=W.__FLZ||[]; if(!Z.length)return null;
+    var pool=Z.filter(function(z){return z.city===city&&(z.w||"").length>140&&z.n&&z.a;});
+    if(pool.length<15)pool=Z.filter(function(z){return z.city===city&&(z.w||"").length>80&&z.n;});
+    if(pool.length<8)return null;
+    pool.sort(function(a,b){return String(a.id).localeCompare(String(b.id));});
+    var seed=num(); // rotate hash a little by city length so cities differ
+    return {spot:pool[(seed+city.length*7)%pool.length], poolSize:pool.length, city:city, all:Z.filter(function(z){return z.city===city&&z.n;})};
+  }
+  function redact(w,name){
+    var out=String(w||"");
+    try{
+      var parts=String(name||"").split(/\s+/).filter(function(x){return x.length>2;});
+      parts.push(name);
+      parts.sort(function(a,b){return b.length-a.length;});
+      parts.forEach(function(p){var re=new RegExp(p.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi");out=out.replace(re,"███");});
+    }catch(e){}
+    return out;
+  }
+  function grid(guesses,won){
+    var g="";for(var i=0;i<guesses.length;i++)g+=(won&&i===guesses.length-1)?"🟩":"⬛";
+    return g;
+  }
+  function open(force){
+   try{
+    if(D.getElementById("flplaqbd"))return;
+    var pk=tKey(), done=null; try{done=JSON.parse(W.localStorage.getItem("flplaque_"+pk)||"null");}catch(e){}
+    var dd=daily(cityOf()); if(!dd){return;}
+    var ans=dd.spot, tries=[], MAX=3, over=!!done, won=done&&done.won;
+    var bd=D.createElement("div"); bd.id="flplaqbd";
+    bd.setAttribute("style","position:fixed;inset:0;z-index:99998;background:rgba(20,16,12,.74);display:flex;align-items:center;justify-content:center;padding:20px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif");
+    function close(){try{D.body.removeChild(bd);}catch(e){}}
+    bd.addEventListener("click",function(e){if(e.target===bd)close();});
+    var card=D.createElement("div");
+    card.setAttribute("style","background:#FBF8F1;border-radius:20px;max-width:400px;width:100%;padding:22px 22px 18px;box-shadow:0 30px 70px -30px rgba(40,25,10,.6);position:relative;max-height:90vh;overflow:auto");
+    var cityLabel=dd.city.charAt(0).toUpperCase()+dd.city.slice(1);
+    var hints=[ans.a?("Area · "+ans.a):null, ans.pc?("Postcode · "+ans.pc):null, ("Starts with “"+String(ans.n)[0]+"”")].filter(Boolean);
+    function render(){
+      var revealed=over;
+      var clue=redact(ans.w,ans.n).slice(0,240);
+      var shownHints=hints.slice(0,Math.min(hints.length,tries.length));
+      card.innerHTML=''
+        +'<div style="display:flex;justify-content:space-between;align-items:baseline"><div style="font-family:monospace;font-size:10.5px;letter-spacing:.2em;color:#C8372D">DAILY PLAQUE #'+num()+'</div><div id="flpqx" style="font-size:20px;color:#8A8073;cursor:pointer;line-height:1">×</div></div>'
+        +'<div style="font-size:12px;color:#8A8073;margin:2px 0 12px">'+esc(cityLabel)+' · guess the place from its story</div>'
+        +'<div style="font-family:Georgia,serif;font-size:15px;line-height:1.5;color:#211C16;background:#F1E7D2;border-radius:10px;padding:12px 14px">“'+esc(clue)+'…”</div>'
+        +(shownHints.length?'<div style="margin-top:10px;font-size:12.5px;color:#5C524A">'+shownHints.map(function(h){return '💡 '+esc(h);}).join('<br>')+'</div>':'')
+        +(tries.length?'<div style="margin-top:10px">'+tries.map(function(t){return '<div style="font-size:13px;color:#B0403A">✗ '+esc(t)+'</div>';}).join('')+'</div>':'')
+        +(revealed
+          ?'<div style="margin-top:14px;text-align:center"><div style="font-size:30px">'+(won?'🎉':'📍')+'</div><div style="font-family:Georgia,serif;font-size:20px;color:#211C16;margin-top:4px">'+esc(ans.n)+'</div><div style="font-size:13px;color:#8A8073">'+esc(ans.a||"")+(won?' — solved in '+(done?done.tries:tries.length)+'/'+MAX:' — better luck tomorrow')+'</div>'
+            +'<a href="./#spot='+encodeURIComponent(ans.id)+'" id="flpqsee" style="display:inline-block;margin-top:12px;color:#C8372D;font-weight:700;font-size:14px;text-decoration:none">See it in Flâneur →</a>'
+            +'<button id="flpqshare" style="display:block;width:100%;background:#211C16;color:#F3ECDC;border:0;border-radius:12px;padding:11px;font-size:14px;font-weight:700;cursor:pointer;margin-top:12px">Share your grid</button></div>'
+          :'<div style="margin-top:14px;position:relative"><input id="flpqin" placeholder="Guess the place…" autocomplete="off" style="width:100%;box-sizing:border-box;border:1px solid #E7E0D4;border-radius:10px;padding:11px 12px;font-size:15px;font-family:inherit;background:#fff;color:#211C16"><div id="flpqac" style="position:absolute;left:0;right:0;top:46px;background:#fff;border:1px solid #E7E0D4;border-radius:10px;overflow:hidden;z-index:5"></div></div><div style="font-size:11.5px;color:#8A8073;margin-top:8px;text-align:center">'+(MAX-tries.length)+' guess'+((MAX-tries.length)===1?'':'es')+' left</div>');
+      D.getElementById("flpqx").onclick=close;
+      if(revealed){
+        var sb=D.getElementById("flpqshare"); if(sb)sb.onclick=function(){var txt="Daily Plaque #"+num()+" "+grid(won?tries.concat([1]):tries,won)+" "+(won?(done?done.tries:tries.length)+"/"+MAX:"X/"+MAX);try{if(navigator.share)navigator.share({title:"Daily Plaque",text:txt,url:location.origin+location.pathname}).catch(function(){});else if(navigator.clipboard)navigator.clipboard.writeText(txt+" "+location.href).catch(function(){});}catch(e){}};
+      } else {
+        var inp=D.getElementById("flpqin"), ac=D.getElementById("flpqac");
+        function submit(sp){
+          if(sp.id===ans.id){ over=true; won=true; try{W.localStorage.setItem("flplaque_"+pk,JSON.stringify({won:true,tries:tries.length+1}));}catch(e){} try{W.flTrack&&W.flTrack("plaque_win");}catch(e){} render(); return; }
+          tries.push(sp.n);
+          if(tries.length>=MAX){ over=true; won=false; try{W.localStorage.setItem("flplaque_"+pk,JSON.stringify({won:false,tries:MAX}));}catch(e){} try{W.flTrack&&W.flTrack("plaque_lose");}catch(e){} }
+          render();
+        }
+        inp.oninput=function(){
+          var q=norm(inp.value); ac.innerHTML="";
+          if(q.length<2)return;
+          var m=dd.all.filter(function(z){return norm(z.n).indexOf(q)>=0;}).slice(0,6);
+          m.forEach(function(z){var row=D.createElement("div");row.setAttribute("style","padding:9px 12px;font-size:14px;color:#211C16;cursor:pointer;border-top:1px solid #F1EADB");row.textContent=z.n+(z.a?"  · "+z.a:"");row.onclick=function(){ac.innerHTML="";inp.value="";submit(z);};ac.appendChild(row);});
+        };
+        try{inp.focus();}catch(e){}
+      }
+    }
+    bd.appendChild(card); D.body.appendChild(bd); render();
+   }catch(e){}
+  }
+  W.flPlaque=open;
+  try{if((location.hash||"").indexOf("plaque")>=0)setTimeout(function(){open(true);},1600);}catch(e){}
+  function toast(){
+    try{
+      if(W.localStorage.getItem("flplaque_"+tKey()))return; // already played today
+      if(!(W.__FLZ&&W.__FLZ.length))return;
+      if(D.getElementById("flplaqtoast"))return;
+      var t=D.createElement("div"); t.id="flplaqtoast";
+      t.setAttribute("style","position:fixed;left:50%;transform:translateX(-50%);bottom:calc(72px + env(safe-area-inset-bottom,0px));z-index:9990;background:#211C16;color:#F3ECDC;border-radius:999px;padding:10px 16px;font:600 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;box-shadow:0 12px 30px -12px rgba(0,0,0,.5);cursor:pointer;display:flex;align-items:center;gap:8px");
+      t.innerHTML='📜 Today’s Daily Plaque <span style="opacity:.6">✕</span>';
+      t.onclick=function(){ try{D.body.removeChild(t);}catch(e){} open(true); };
+      var x=t.querySelector('span'); if(x)x.onclick=function(ev){ev.stopPropagation();try{D.body.removeChild(t);}catch(e){}};
+      D.body.appendChild(t);
+      setTimeout(function(){try{if(D.body.contains(t))D.body.removeChild(t);}catch(e){}},12000);
+    }catch(e){}
+  }
+  try{ if(D.readyState==="complete")setTimeout(toast,3400); else W.addEventListener("load",function(){setTimeout(toast,3400);}); }catch(e){}
+})();
+</script>
 <script>if("serviceWorker"in navigator){addEventListener("load",function(){navigator.serviceWorker.register("./sw.js",{updateViaCache:"none"}).then(function(reg){if(reg){reg.update();setInterval(function(){reg.update()},6e4)}}).catch(function(){});var _rf=!1;navigator.serviceWorker.addEventListener("controllerchange",function(){if(_rf)return;_rf=!0;location.reload()})})}</script>
 <script>
 /* Flâneur cloud — analytics (PostHog) + accounts/sync (Supabase) + push.
