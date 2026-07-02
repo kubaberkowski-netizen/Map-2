@@ -1,12 +1,12 @@
 /* Flâneur service worker — offline app shell + tile/asset caching */
-const SHELL = "flaneur-shell-v298";
+const SHELL = "flaneur-shell-v299";
 const TILES = "flaneur-tiles-v2";
 const DATA = "flaneur-data-v1"; // immutable content-hashed catalogue (spots.<hash>.js) — survives SHELL bumps
 const TILE_MAX = 350;
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
-    caches.open(SHELL).then((c) => c.addAll(["./", "./index.html", "./privacy.html", "./c.html", "./u.html", "./discover.html", "./manifest.webmanifest", "./icon-512.png"]))
+    caches.open(SHELL).then((c) => c.addAll(["./", "./index.html", "./privacy.html", "./c.html", "./u.html", "./discover.html", "./manifest.webmanifest", "./icon-512.png", "./icon-192.png", "./icon-180.png", "./icon-192-maskable.png", "./icon-512-maskable.png"]))
       .then(() => self.skipWaiting()).catch(() => {})
   );
 });

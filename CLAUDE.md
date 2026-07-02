@@ -53,8 +53,15 @@ fully before touching anything.
   `/Map-2/` Pages base), icons point to the real `icon-512.png` (`any` + `maskable`), and
   two `shortcuts` deep-link into the app via `./#tab=plan` / `./#tab=events` — handled by a
   `tab=(near|plan|events|cities)` branch in the app's hash router. Bump the SW cache name
-  if you edit it. Follow-up: add a proper multi-size / safe-zone maskable icon set (only a
-  single 512×512 icon exists today).
+  if you edit it.
+- **Icon set:** `icon-192.png` + `icon-512.png` (`any` purpose — the red squircle with
+  transparent corners) and `icon-192-maskable.png` + `icon-512-maskable.png` (`maskable` —
+  full-bleed `#C8372D` with the mark inside the 80% safe zone, so the OS mask never clips
+  transparent corners), plus `icon-180.png` for `apple-touch-icon`. All are precached by
+  the SW and referenced by `manifest.webmanifest`. They are **generated from
+  `icon-512.png`** via a Chromium-canvas script (no ImageMagick/PIL in the repo) — if the
+  brand icon changes, regenerate the set (fill red + draw the source at full-bleed for
+  maskable; downscale for the others) and bump the SW cache name.
 - The footer also exposes optional **"Suggest a place"** and **"Support Flâneur"** links,
   rendered **only when** the `FORM_URL` / `DONATE_URL` constants (inline in the template,
   next to `MTKEY`/`GAKEY`) are set to a real URL — empty by default, so no broken links
