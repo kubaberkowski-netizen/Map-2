@@ -735,7 +735,72 @@ lucide-react/dist/esm/lucide-react.js:
 */
 
 </script>
-<script>/* Cloudflare Web Analytics (cookieless). Paste your beacon token between the quotes to enable; leave empty to disable. */(function(){var CFTOKEN="";if(!CFTOKEN)return;try{var s=document.createElement("script");s.defer=true;s.src="https://static.cloudflareinsights.com/beacon.min.js";s.setAttribute("data-cf-beacon",JSON.stringify({token:CFTOKEN}));document.head.appendChild(s)}catch(e){}})();</script><script>if("serviceWorker"in navigator){addEventListener("load",function(){navigator.serviceWorker.register("./sw.js",{updateViaCache:"none"}).then(function(reg){if(reg){reg.update();setInterval(function(){reg.update()},6e4)}}).catch(function(){});var _rf=!1;navigator.serviceWorker.addEventListener("controllerchange",function(){if(_rf)return;_rf=!0;location.reload()})})}</script>
+<script>/* Cloudflare Web Analytics (cookieless). Paste your beacon token between the quotes to enable; leave empty to disable. */(function(){var CFTOKEN="";if(!CFTOKEN)return;try{var s=document.createElement("script");s.defer=true;s.src="https://static.cloudflareinsights.com/beacon.min.js";s.setAttribute("data-cf-beacon",JSON.stringify({token:CFTOKEN}));document.head.appendChild(s)}catch(e){}})();</script><script>
+/* Monthly Wrapped (feature-ext Task M, v1) — a once-per-month recap of last
+   month, computed from local state, rendered as a standalone overlay decoupled
+   from the React app (so it can never affect boot). Shares via navigator.share.
+   The swipeable canvas deck is a v2 follow-up; this is the stats + share core. */
+(function(){
+  function money(n){return n.toLocaleString("en");}
+  function cap(s){s=String(s||"");return s.charAt(0).toUpperCase()+s.slice(1);}
+  function top(map){var k=null,n=0;for(var x in map){if(map[x]>n){n=map[x];k=x;}}return k?{k:k,n:n}:null;}
+  function run(){
+    try{
+      if(typeof localStorage==="undefined")return;
+      var v2={};try{v2=JSON.parse(localStorage.getItem("flaneur-v2")||"{}");}catch(e){return;}
+      var ck=v2.checkinAt||{}; var ids=Object.keys(ck); if(ids.length<3)return;
+      var now=new Date(); var pm=now.getMonth()-1, py=now.getFullYear(); if(pm<0){pm=11;py--;}
+      var flag="flwrapped_"+py+"-"+(pm+1);
+      if(localStorage.getItem(flag))return;                 // already shown this month
+      var Z=(window.__FLZ||[]); var byId={}; for(var i=0;i<Z.length;i++)byId[Z[i].id]=Z[i];
+      var monthN=0, areas={}, cities={};
+      for(var j=0;j<ids.length;j++){
+        var d=new Date(ck[ids[j]]); if(isNaN(d.getTime()))continue;
+        if(d.getFullYear()===py&&d.getMonth()===pm){
+          monthN++; var sp=byId[ids[j]]; if(sp){ if(sp.a)areas[sp.a]=(areas[sp.a]||0)+1; if(sp.city)cities[sp.city]=(cities[sp.city]||0)+1; }
+        }
+      }
+      if(monthN<3){localStorage.setItem(flag,"skip");return;} // quiet month — don't nag
+      var mName=["January","February","March","April","May","June","July","August","September","October","November","December"][pm];
+      var totalLit=((v2.verified&&v2.verified.length)||(v2.visited&&v2.visited.length)||0);
+      var streak=0;try{streak=parseInt(JSON.parse(localStorage.getItem("flaneur-streak")||"0"),10)||0;}catch(e){}
+      var ta=top(areas), tc=top(cities); var cityName=tc?cap(tc.k):"";
+      localStorage.setItem(flag,"1");
+      // ---- overlay ----
+      var bd=document.createElement("div");
+      bd.setAttribute("style","position:fixed;inset:0;z-index:99999;background:rgba(20,16,12,.72);display:flex;align-items:center;justify-content:center;padding:22px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif");
+      function close(){try{document.body.removeChild(bd);}catch(e){}}
+      bd.addEventListener("click",function(e){if(e.target===bd)close();});
+      var stat=function(big,small){return '<div style="margin:14px 0"><div style="font-family:Georgia,\'Times New Roman\',serif;font-size:34px;line-height:1;color:#C8372D">'+big+'</div><div style="font-size:13px;color:#5C524A;margin-top:5px">'+small+'</div></div>';};
+      var lines="";
+      lines+=stat(money(monthN)+" new places", "you walked to and checked in on foot"+(cityName?" in "+cityName:""));
+      if(ta)lines+=stat(cap(ta.k), "your corner this month — "+ta.n+(ta.n===1?" find":" finds"));
+      if(streak>0)lines+=stat(streak+"-day", "longest streak kept alive");
+      lines+=stat(money(totalLit)+" lit", "places on your map, all-time");
+      var card=document.createElement("div");
+      card.setAttribute("style","background:#FBF8F1;border-radius:20px;max-width:380px;width:100%;padding:30px 28px 24px;box-shadow:0 30px 70px -30px rgba(40,25,10,.6);text-align:center;position:relative");
+      card.innerHTML=''
+        +'<div style="font-family:monospace;font-size:10.5px;letter-spacing:.22em;color:#C8372D">FLÂNEUR</div>'
+        +'<div style="font-family:Georgia,serif;font-size:26px;color:#211C16;margin:8px 0 2px">Your '+mName+'</div>'
+        +'<div style="font-size:13px;color:#8A8073;margin-bottom:6px">a month of wandering</div>'
+        +lines
+        +'<button id="flwshare" style="background:#C8372D;color:#fff;border:0;border-radius:12px;padding:12px 20px;font-size:15px;font-weight:700;cursor:pointer;margin:14px 0 4px;width:100%">Share your month</button>'
+        +'<div id="flwclose" style="font-size:13px;color:#8A8073;padding:10px;cursor:pointer">Close</div>';
+      bd.appendChild(card); document.body.appendChild(bd);
+      document.getElementById("flwclose").addEventListener("click",close);
+      document.getElementById("flwshare").addEventListener("click",function(){
+        try{
+          var txt="My "+mName+" on Flâneur: "+monthN+" new places"+(cityName?" across "+cityName:"")+(streak>0?" · "+streak+"-day streak":"")+".";
+          if(navigator.share){navigator.share({title:"My "+mName+" on Flâneur",text:txt,url:location.origin+location.pathname}).catch(function(){});}
+          else if(navigator.clipboard){navigator.clipboard.writeText(txt+" "+location.href).catch(function(){});}
+        }catch(e){}
+      });
+    }catch(e){}
+  }
+  try{ if(document.readyState==="complete")setTimeout(run,2600); else window.addEventListener("load",function(){setTimeout(run,2600);}); }catch(e){}
+})();
+</script>
+<script>if("serviceWorker"in navigator){addEventListener("load",function(){navigator.serviceWorker.register("./sw.js",{updateViaCache:"none"}).then(function(reg){if(reg){reg.update();setInterval(function(){reg.update()},6e4)}}).catch(function(){});var _rf=!1;navigator.serviceWorker.addEventListener("controllerchange",function(){if(_rf)return;_rf=!0;location.reload()})})}</script>
 <script>
 /* Flâneur cloud — analytics (PostHog) + accounts/sync (Supabase) + push.
    DORMANT until the CFG keys below are filled in. See BACKEND.md.
