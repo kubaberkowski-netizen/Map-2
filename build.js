@@ -234,12 +234,43 @@ if (fs.existsSync(HOURS)) {
     if (!seen.has(id)) console.warn(`⚠ data/hours.json has hours for unknown spot id ${JSON.stringify(id)}`);
 }
 
+// --- writeup provenance flag (data/quality.json → per-spot `wq`) --------------
+// The durable authored-vs-machine classification lives in data/quality.json
+// (see tools/quality.js). We surface it onto each spot as a compact `wq`:
+//   "a" = authored / verified — the owner's voice (flag a or v)
+//   "r" = reference — a machine writeup with Wikipedia/Wikidata backing (notable)
+//   (absent) = a thin machine stub
+// Additive, like `oh` — it never changes the id:"…",n:" entry-count signature.
+const QUALITY = path.join(ROOT, "data", "quality.json");
+let wqById = {};
+if (fs.existsSync(QUALITY)) {
+  let qj;
+  try {
+    qj = JSON.parse(fs.readFileSync(QUALITY, "utf8"));
+  } catch (e) {
+    die("data/quality.json is not valid JSON — " + e.message);
+  }
+  const flags = (qj && qj.flags) || {};
+  const notable = new Set((qj && qj.notable) || []);
+  let miss = 0;
+  for (const e of spots) {
+    const fl = flags[e.id];
+    if (fl === "a" || fl === "v") wqById[e.id] = "a";
+    else if (notable.has(e.id)) wqById[e.id] = "r";
+    if (!(e.id in flags)) miss++;
+  }
+  if (miss)
+    console.warn(`⚠ data/quality.json is missing a flag for ${miss}/${spots.length} spots — run: node tools/quality.js`);
+} else {
+  console.warn("⚠ data/quality.json not found — spots ship without a writeup-provenance (wq) flag");
+}
+
 // --- serialise back to the ORIGINAL compact JS object-literal style ----------
 // (unquoted keys in the original field order; string values via JSON.stringify;
 //  numbers raw) so the deployed file matches the minified bundle's shape and the
 //  CLAUDE.md `id:"…",n:"` count check keeps working.
 const num = (v) => (typeof v === "number" ? String(v) : JSON.stringify(v));
-let withHours = 0;
+let withHours = 0, withWq = 0;
 const literal =
   "[" +
   spots
@@ -249,7 +280,9 @@ const literal =
       ).join(",");
       const oh = hoursById[e.id] && hoursById[e.id].h;
       if (oh) withHours++;
-      return "{" + base + (oh ? `,oh:${JSON.stringify(oh)}` : "") + "}";
+      const wq = wqById[e.id];
+      if (wq) withWq++;
+      return "{" + base + (oh ? `,oh:${JSON.stringify(oh)}` : "") + (wq ? `,wq:${JSON.stringify(wq)}` : "") + "}";
     })
     .join(",") +
   "]";
@@ -306,7 +339,7 @@ fs.writeFileSync(OUTPUT, output);
 console.log(
   `✓ wrote ${path.relative(ROOT, OUTPUT)} — ` +
     `${spots.length} spots / ${counts.worlds} Worlds / ${counts.categories} categories, ` +
-    `${withHours} with opening hours, node --check OK`
+    `${withHours} with opening hours, ${withWq} with a wq provenance flag, node --check OK`
 );
 
 // --- SEO: static, crawlable landing pages (portable — pure data → HTML) ------

@@ -77,6 +77,12 @@ fully before touching anything.
 - Entries live in an array `Z = [{id, n, a, pc, lat, lng, c, s, q, w, city}, ...]`
   - `n` = name, `a` = area, `pc` = postcode, `c` = category slug, `s` = short hook,
     `q` = Google query, `w` = writeup, `city` = city slug.
+  - Two **additive** fields are injected by `build.js` (NOT stored in `spots.json`):
+    `oh` (opening hours, from `data/hours.json`) and **`wq`** (writeup provenance,
+    from `data/quality.json`): `"a"` = authored/verified (the owner's voice), `"r"` =
+    reference (a machine writeup with Wikipedia/Wikidata backing), absent = thin
+    machine stub. Both are optional per spot and never change the `id:"…",n:"`
+    entry-count signature. The focused-spot card shows a small `.wqtag` line from `wq`.
 - `c` **MUST** be one of exactly **43 valid category slugs**. The code reads
   `ne[entry.c]` **unguarded**, so any unknown slug = **instant white-screen**.
 - `city` **MUST** be a slug defined in the **`Ci` cities registry**. `build.js`
@@ -125,6 +131,14 @@ fully before touching anything.
   overwrite them); the machine stubs are fair game to enrich/replace when asked. If you
   add a feature that distinguishes the two, prefer a quality flag over guessing from
   length. See `ROADMAP.md` for the strategy discussion.
+- **That quality flag now exists and is durable:** `tools/quality.js` maintains
+  `data/quality.json` (`flags`: `a`=authored/approved, `v`=verified-sourced, `d`=machine
+  draft pending review, `m`=thin machine stub; plus a `notable` id list with WP/WD
+  backing). It is committed, hand-correctable, and **monotonic** (regeneration never
+  downgrades an `a`/`v` back to `m`). `build.js` reads it to inject the per-spot `wq`
+  field (see Data model). To reclassify a spot, edit `data/quality.json` (or run
+  `node tools/quality.js`), then `npm run build`. Use this flag — never re-guess authored
+  vs machine from writeup length (the enrichment pipeline has since made `w` fields long).
 - `ne` (43 categories) and `Xr` (80 Worlds, which contain live `match: e=>…`
   functions and are **not serialisable**) **stay inline in `src/app.template.html`** —
   only `Z` was extracted to JSON.
