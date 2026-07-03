@@ -1,19 +1,70 @@
 [
  {
-  "n": "National Library of Latvia",
+  "n": "Freedom Monument",
   "a": "",
-  "c": "archive",
-  "lat": 56.94134,
-  "lng": 24.09664,
-  "w": "They call it the Castle of Light — a landmark designed in 1989 by Gunnar Birkerts, a Latvian architect who'd emigrated to America and built his career there. The library itself dates to 1919, founded under Jānis Misiņš, who established Latvian scientific bibliography; the building didn't open until 2014, a quarter-century after it was drawn.",
-  "s": "Latvia's library, the Castle of Light",
+  "c": "history",
+  "lat": 56.95156,
+  "lng": 24.11322,
+  "w": "Funded by private donations and unveiled in 1935, this 42-metre granite-and-copper column honours soldiers of the 1918-1920 War of Independence, Liberty lifting three gilded stars at its top. Soviet occupiers marked it for demolition after 1940 - the story goes sculptor Vera Mukhina helped save it instead.",
+  "s": "42 metres of granite the Soviets meant to tear down",
   "_facts": [
-   "Known as the Castle of Light (Gaismas pils)",
-   "Formed in 1919 after Latvian independence; first supervisor was Jānis Misiņš",
-   "Current building designed in 1989 by Latvian-American architect Gunnar Birkerts",
-   "Building opened in 2014"
+   "Unveiled in 1935, financed by private donations, honours soldiers of the 1918-1920 Latvian War of Independence",
+   "42-metre monument of granite, travertine and copper; Liberty figure lifts three gilded stars atop a 19-metre travertine column",
+   "Thirteen sculpted groups depict Latvian culture and history",
+   "After the 1940 Soviet occupation it was considered for demolition but survived, sometimes credited to Soviet sculptor Vera Mukhina"
   ],
-  "_sources": ["https://en.wikipedia.org/wiki/National_Library_of_Latvia"],
+  "_sources": ["https://en.wikipedia.org/wiki/Freedom_Monument"],
+  "confidence": "high"
+ },
+ {
+  "n": "Riga Castle",
+  "a": "",
+  "c": "medieval",
+  "lat": 56.95095,
+  "lng": 24.10064,
+  "w": "Founded on the Daugava in 1330, this fortress has been rebuilt by nearly every power that held Riga - overhauled in 1497-1515, expanded by the conquering Swedes in 1641, remodelled through the 17th-19th centuries. Declared the government's seat in 1938, it is now the President's residence and home to several museums.",
+  "s": "A 1330 fortress rebuilt by every power that took Riga",
+  "_facts": [
+   "Founded in 1330 on the banks of the River Daugava",
+   "Rebuilt 1497-1515; Swedes seized it and added annexes in 1641; further reconstruction through the 17th-19th centuries",
+   "Declared the Latvian government's residence in 1938",
+   "Today the official residence of the President of Latvia and home to several museums"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Riga_Castle"],
+  "confidence": "high"
+ },
+ {
+  "n": "Riga Central Market",
+  "a": "",
+  "c": "food",
+  "lat": 56.944,
+  "lng": 24.116,
+  "w": "Billed as Europe's largest market, its five soaring pavilions rose in 1924-1930 by recycling German Zeppelin hangars into Neoclassical and Art Deco halls. Over 3,000 stalls trade across 72,300 square metres, and the complex has shared UNESCO World Heritage status with Old Riga since 1998.",
+  "s": "Zeppelin hangars turned into Europe's biggest market",
+  "_facts": [
+   "Billed as Europe's largest market and bazaar; planned from 1922, built 1924-1930",
+   "Five pavilions built by reusing old German Zeppelin hangars, in Neoclassicism and Art Deco styles",
+   "72,300 square metres wide with more than 3,000 trade stands",
+   "Included on the UNESCO World Heritage list together with Old Riga since 1998"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Riga_Central_Market"],
+  "confidence": "high"
+ },
+ {
+  "n": "Nativity Cathedral, Riga",
+  "a": "",
+  "c": "faith",
+  "lat": 56.95391,
+  "lng": 24.11555,
+  "w": "Built in Neo-Byzantine style in 1876-1883 with the Tsar's blessing, this became the Baltic provinces' largest Orthodox cathedral, its icons said to include work by painter Vasili Vereshchagin. Soviet authorities closed it in the 1960s and installed a planetarium inside; it has served as a cathedral again since 1991.",
+  "s": "A cathedral the Soviets turned into a planetarium",
+  "_facts": [
+   "Built 1876-1883 in Neo-Byzantine style by Nikolai Chagin and Robert Pflug, with the blessing of Tsar Alexander II",
+   "Largest Orthodox cathedral in the Baltic provinces; icons include work attributed to Vasili Vereshchagin",
+   "German occupiers converted it to a Lutheran church in WWI; it returned to Orthodox use in 1921",
+   "Soviet authorities closed it in the early 1960s and converted it into a planetarium; restored as a cathedral since 1991, with the bell tower and dome gilded in 2010"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Cathedral_of_the_Nativity_of_Christ,_Riga"],
   "confidence": "high"
  }
 ]

@@ -1,19 +1,53 @@
 [
  {
-  "n": "Vilnius Cathedral",
-  "a": "Vilnius Old Town, off Cathedral Square",
-  "c": "faith",
-  "lat": 54.68589,
-  "lng": 25.28788,
-  "w": "Lithuanian monarchs were once crowned here with Gediminas' Cap, and the tradition never quite died: the cathedral still hosts a mass for every newly elected president, timed to their inauguration and oath to the Nation at the Seimas Palace next door.",
-  "s": "Where monarchs were crowned, presidents still get their mass",
+  "n": "Presidential Palace of Lithuania",
+  "a": "Old Town",
+  "c": "history",
+  "lat": 54.68316,
+  "lng": 25.28587,
+  "w": "Tucked in Vilnius Old Town, this palace began in the 14th century as the Bishop of Vilnius residence, later hosting Commonwealth monarchs, a King of France, even Russian emperors. Reshaped over the centuries by architects including Laurynas Gucevicius and Vasily Stasov, it became the president's official seat in 1997.",
+  "s": "A bishop's house that became a president's palace",
   "_facts": [
-   "Full name: Cathedral Basilica of St Stanislaus and St Ladislaus of Vilnius; the main Catholic cathedral in Lithuania",
-   "Situated in Vilnius Old Town, just off Cathedral Square",
-   "Previously used for inauguration ceremonies of Lithuanian monarchs with Gediminas' Cap",
-   "In modern times, a venue for masses dedicated to elected Presidents after their inauguration and oath to the Nation at the Seimas Palace"
+   "Dates to the 14th century, first used as the residence of the Bishop of Vilnius, located in Vilnius Old Town",
+   "Reconstructed over the centuries by architects including Laurynas Gucevicius and Vasily Stasov",
+   "Historically housed monarchs of the Polish-Lithuanian Commonwealth, Kings/Emperors of France and Emperors of Russia",
+   "Became the official seat of the President of Lithuania in 1997"
   ],
-  "_sources": ["https://en.wikipedia.org/wiki/Vilnius_Cathedral"],
+  "_sources": ["https://en.wikipedia.org/wiki/Presidential_Palace,_Vilnius"],
+  "confidence": "high"
+ },
+ {
+  "n": "Three Crosses",
+  "a": "Kalnai Park",
+  "c": "history",
+  "lat": 54.68674,
+  "lng": 25.29755,
+  "w": "Legend holds seven Franciscan friars were beheaded on this hilltop, and wooden crosses have marked the spot since the early 1600s. A 1916 concrete monument was torn down by Soviet order in 1950 and left unrebuilt until 1989. Once pictured on the 50 litas banknote, it now looks over Old Town from an observation deck.",
+  "s": "Legend of beheaded friars, torn down by Soviets, rebuilt",
+  "_facts": [
+   "Legend holds seven Franciscan friars were beheaded on the hill; wooden crosses have stood there since the early 17th century",
+   "1916 concrete monument designed by Antoni Wiwulski, demolished in 1950 by Soviet order, rebuilt in 1989",
+   "Depicted on the 50 litas banknote",
+   "Small observation deck at the base offers a panorama of Vilnius Old Town"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Three_Crosses"],
+  "confidence": "high"
+ },
+ {
+  "n": "Europa Tower",
+  "a": "Snipiskes",
+  "c": "view",
+  "lat": 54.696,
+  "lng": 25.278,
+  "w": "The Baltic states' tallest building opened on 1 May 2004, timed to Lithuania's EU entry, and promptly divided opinion by muscling into the historic skyline across the river from Old Town. Now generally accepted as a landmark, its open-air roof terrace at 114 metres gives one of the best views over Vilnius.",
+  "s": "The Baltics' tallest tower, opened for EU accession day",
+  "_facts": [
+   "Tallest building in the Baltic states, 153 metres, located on Konstitucijos Avenue in Snipiskes",
+   "Completed and opened 1 May 2004, part of Lithuania's EU accession celebrations",
+   "Caused controversy for interfering with the historic Old Town skyline; now regarded as a modern landmark",
+   "Observation deck on the open roof terrace at 114 metres"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Europa_Tower"],
   "confidence": "high"
  }
 ]

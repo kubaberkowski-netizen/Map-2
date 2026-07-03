@@ -1,87 +1,148 @@
 [
  {
-  "n": "St. Mark's Church",
-  "a": "Upper Town",
-  "c": "medieval",
-  "lat": 45.81611,
-  "lng": 15.97389,
-  "w": "Zagreb's skyline signature is this church's roof — a mosaic of coloured tiles laying out the coats of arms of Croatia, Dalmatia, Slavonia and the city itself. Its origins reach back to the thirteenth century, blending Gothic and Romanesque work into one of the oldest monuments still standing in the Upper Town.",
-  "s": "The tiled roof that's Zagreb's calling card",
+  "n": "Zagreb Hippodrome",
+  "a": "Kajzerica",
+  "c": "history",
+  "lat": 45.78529,
+  "lng": 15.97237,
+  "w": "Built between 1947 and 1950 on the model of Paris's Longchamp Racecourse, this 47-hectare track by the Sava has hosted the June Tournament every year since 1955 and stables around 160 horses. Its strangest chapter: in 1994, Pope John Paul II said mass here to a crowd of a million - Pope Benedict XVI followed in 2011.",
+  "s": "Croatia's Longchamp, and once a papal altar",
   "_facts": [
-   "Parish church of old Zagreb, located in St Mark's Square in the Upper Town (Gradec)",
-   "Roof tiles depict the coats of arms of Croatia, Dalmatia, Slavonia and the city of Zagreb",
-   "Origins date back to the 13th century",
-   "Registered under Cultural Goods of Croatia"
+   "Built 1947-1950, design based on Longchamp Racecourse in Paris",
+   "Covers 47 hectares in Kajzerica, near Bundek lake",
+   "Annual International June Tournament held since 1955; stables hold around 160 horses",
+   "Pope John Paul II celebrated mass here in 1994 attended by a million people; Pope Benedict XVI in 2011"
   ],
-  "_sources": ["https://en.wikipedia.org/wiki/St._Mark's_Church,_Zagreb"],
+  "_sources": ["https://en.wikipedia.org/wiki/Zagreb_Hippodrome"],
   "confidence": "high"
  },
  {
-  "n": "National and University Library in Zagreb",
-  "a": "",
-  "c": "archive",
-  "lat": 45.79693,
-  "lng": 15.97751,
-  "w": "Croatia's written heritage lives inside a cube — a purpose-built modernist block that has housed the national library since 1995. The institution itself dates back to 1607, and its three million items now sit behind a facade about as far from a traditional reading room as it gets.",
-  "s": "Croatia's national library, inside a cube",
-  "_facts": [
-   "Established in 1607",
-   "National library of Croatia and central library of the University of Zagreb",
-   "Holds around 3 million items",
-   "Located since 1995 in a purpose-built cubical building"
-  ],
-  "_sources": ["https://en.wikipedia.org/wiki/National_and_University_Library_in_Zagreb"],
-  "confidence": "high"
- },
- {
-  "n": "Meštrović Pavilion",
+  "n": "Croatian Academy of Sciences and Arts",
   "a": "",
   "c": "history",
-  "lat": 45.80995,
-  "lng": 15.98718,
-  "w": "Built in 1938 as an art gallery, this Ivan Meštrović-designed hall has lived several lives — turned into a mosque under the wartime Independent State of Croatia (locals still call it 'the Mosque'), then recast as the Museum of the Revolution. Returned to Croatian artists in 1990, it's shown exhibitions again since 2006.",
-  "s": "Art gallery, mosque, then Museum of the Revolution",
+  "lat": 45.80917,
+  "lng": 15.97861,
+  "w": "Founded in 1866 under Bishop Josip Juraj Strossmayer's patronage, this started life as the Yugoslav Academy of Sciences and Arts - its founder wanted a central scientific and artistic hub for all South Slavs. It began with 16 full members; today it counts around 160, across nine classes from mathematics to fine arts.",
+  "s": "Croatia's national academy, founded by a bishop",
   "_facts": [
-   "Designed by Ivan Meštrović, built 1938 as an art gallery",
-   "Converted into a mosque under the Independent State of Croatia (NDH); still colloquially called 'the Mosque'",
-   "Became the Museum of the Revolution in post-war Yugoslavia",
-   "Returned to the Croatian Association of Artists in 1990; exhibition space again since a 2006 renovation"
+   "Founded 1866 under patronage of Bishop Josip Juraj Strossmayer as the Yugoslav Academy of Sciences and Arts",
+   "Started with 16 full members, grown to about 160 today",
+   "Divided into nine classes covering social sciences through fine and musical arts"
   ],
-  "_sources": ["https://en.wikipedia.org/wiki/Meštrović_Pavilion"],
+  "_sources": ["https://en.wikipedia.org/wiki/Croatian_Academy_of_Sciences_and_Arts"],
   "confidence": "high"
  },
  {
-  "n": "Mimara Museum",
+  "n": "Esplanade Zagreb Hotel",
+  "a": "Starčević Square",
+  "c": "history",
+  "lat": 45.80532,
+  "lng": 15.97584,
+  "w": "Croatia's first luxury hotel opened in 1925 for one specific clientele: passengers stepping off the Orient Express on its run between Paris and Istanbul. It's stood on Starcevic Square ever since, one of Zagreb's defining landmarks and a rare surviving thread to the golden age of continental rail travel.",
+  "s": "Built in 1925 for Orient Express passengers",
+  "_facts": [
+   "Built in 1925 to accommodate Orient Express passengers",
+   "First luxury hotel in Croatia",
+   "Located on Starcevic Square; one of Zagreb's main landmarks"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Esplanade_Zagreb_Hotel"],
+  "confidence": "high"
+ },
+ {
+  "n": "Art Pavilion in Zagreb",
+  "a": "Lower Town",
+  "c": "museum",
+  "lat": 45.80722,
+  "lng": 15.97861,
+  "w": "Established in 1898 on the Lenuci Horseshoe, this is the oldest gallery in Southeast Europe and the only one in Zagreb built specifically to host large-scale exhibitions. It sits at the edge of King Tomislav Square, facing the central station, still doing exactly the job it was built for well over a century ago.",
+  "s": "Southeast Europe's oldest purpose-built gallery",
+  "_facts": [
+   "Established 1898; art gallery on the Lenuci Horseshoe in Zagreb's Lower Town",
+   "Oldest gallery in Southeast Europe",
+   "Only purpose-built gallery in Zagreb designed specifically for large-scale exhibitions"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Art_Pavilion,_Zagreb"],
+  "confidence": "high"
+ },
+ {
+  "n": "Ethnographic Museum of Zagreb",
   "a": "",
   "c": "museum",
-  "lat": 45.80833,
-  "lng": 15.96694,
-  "w": "A private collector's haul fills a former gymnasium here — Ante Topić Mimara and his wife Wiltrud amassed everything from Ptolemaic glassware to Qing-dynasty jade, then left paintings by Rubens, Goya, Velázquez and Degas to fill the museum that opened in 1987. At nearly 9,500 square metres, it ranks among the largest art museums anywhere.",
-  "s": "One collector's haul: Rubens to Qing-dynasty jade",
+  "lat": 45.80835,
+  "lng": 15.969,
+  "w": "Founded in 1919, this sits inside a 1903 Secession building once the Trades Hall, facade decorated by sculptor Rudolf Valdec, dome frescoed by Oton Ivekovic. The 80,000-item collection spans Croatia's Pannonian, Dinaric and Adriatic zones, with reconstructed farmhouses and rooms built around birth, life and death.",
+  "s": "80,000 objects of Croatian folk life, in a Secession shell",
   "_facts": [
-   "Opened 17 July 1987, housing the collection of founders Ante Topić Mimara and his wife Wiltrud",
-   "Over 3,750 objects across roughly 9,454 square metres",
-   "Collection spans Ptolemaic Alexandrian glassware, Qing-dynasty jade and ivory, and paintings by Rubens, Velázquez, Goya, Renoir and Degas",
-   "Building originally served as a gymnasium before its 19th-century Beaux-Arts conversion"
+   "Founded 1919 by Salamon Berger",
+   "Housed in a 1903 Secession building, formerly a Trades Hall, designed by Vjekoslav Bastl",
+   "Facade statues by Rudolf Valdec; dome frescoes by Oton Ivekovic",
+   "Holdings of about 80,000 items covering Pannonian, Dinaric and Adriatic cultural zones; about 2,800 on display"
   ],
-  "_sources": ["https://en.wikipedia.org/wiki/Mimara_Museum"],
+  "_sources": ["https://en.wikipedia.org/wiki/Ethnographic_Museum,_Zagreb"],
   "confidence": "high"
  },
  {
-  "n": "St. Mark's Square",
-  "a": "Upper Town",
-  "c": "history",
-  "lat": 45.81639,
-  "lng": 15.97389,
-  "w": "Croatia's government, parliament and constitutional court all cluster around this one square in the Upper Town, alongside the Old City Hall and the deliciously odd Museum of Broken Relationships. St Mark's Church sits at its centre, tiled roof and all — the country's institutional heart packed into one small space.",
-  "s": "Croatia's government crammed into one square",
+  "n": "Basilica of the Heart of Jesus",
+  "a": "Palmotićeva",
+  "c": "faith",
+  "lat": 45.80889,
+  "lng": 15.98241,
+  "w": "Designed by Croatian architect Janko Holjac in neo-Baroque style and dedicated to the Sacred Heart, this is Zagreb's second-largest church after the cathedral itself. The Jesuits have run it ever since it went up on Palmoticeva street, a quieter counterpart to the city's more famous spires.",
+  "s": "Zagreb's second-largest church, run by the Jesuits",
   "_facts": [
-   "Located in the Upper Town (Gradec/Gornji grad)",
-   "Home to Banski dvori (Government seat), Sabor Palace (Parliament) and the Constitutional Court",
-   "Old City Hall, where Zagreb City Council held its sessions, sits on the corner",
-   "Surrounded by museums including the Museum of Broken Relationships and Croatian History Museum"
+   "Roman Catholic basilica on Palmoticeva street, designed by Janko Holjac in neo-Baroque style",
+   "Dedicated to the Sacred Heart",
+   "Second largest church in Zagreb after Zagreb Cathedral; run by the Jesuits"
   ],
-  "_sources": ["https://en.wikipedia.org/wiki/St._Mark's_Square,_Zagreb"],
+  "_sources": ["https://en.wikipedia.org/wiki/Basilica_of_the_Heart_of_Jesus,_Zagreb"],
   "confidence": "high"
+ },
+ {
+  "n": "Gavella Drama Theatre",
+  "a": "Frankopanska",
+  "c": "history",
+  "lat": 45.81212,
+  "lng": 15.96883,
+  "w": "This theatre opened on Frankopanska street on 30 October 1954, taking over from the 'Helios' cinema that industrialist Adolf Muller had founded and financed there. One venue's screen became another's stage - a small but telling swap in Zagreb's cultural map.",
+  "s": "A theatre that grew out of a vanished cinema",
+  "_facts": [
+   "Opened 30 October 1954 in Frankopanska Street",
+   "Successor to the 'Helios' cinema, founded and financed by Croatian industrialist Adolf Muller"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Gavella_Drama_Theatre"],
+  "confidence": "thin"
+ },
+ {
+  "n": "Kallina House",
+  "a": "Masarykova / Gundulićeva",
+  "c": "oddity",
+  "lat": 45.81028,
+  "lng": 15.97194,
+  "w": "Built in 1903-04 for industrialist Josip Kallina, this corner house is wrapped floor to roof in decorative ceramic tiles - all made by Kallina's own ceramics factory, turning his home into a giant advertisement. Architect Vjekoslav Bastl, trained under Otto Wagner in Vienna, added Art Nouveau florals and a bat motif.",
+  "s": "A house wallpapered in its own owner's ceramic tiles",
+  "_facts": [
+   "Built 1903-1904 for industrialist Josip Kallina, designed by Vjekoslav Bastl for Honigsberg & Deutsch",
+   "Entire facade covered in decorative ceramic tiles produced by Kallina's own ceramics factory",
+   "Bastl studied under Otto Wagner in Vienna; design influenced by the Majolika Haus",
+   "Features decorative iron balconies and a bat-shaped patterned motif"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Kallina_House"],
+  "confidence": "high"
+ },
+ {
+  "n": "Tomb of the People's Heroes",
+  "a": "Mirogoj",
+  "c": "death",
+  "lat": 45.8355,
+  "lng": 15.9887,
+  "w": "Sculptor Đuro Kavuric built this tomb in Zagreb's Mirogoj cemetery in 1968 to hold the recipients of the Order of the People's Hero alongside notable workers'-movement figures. In 2001, unknown vandals detonated an explosive in front of it - officials condemned the attack, and the damage was later repaired.",
+  "s": "A war memorial that was once bombed by vandals",
+  "_facts": [
+   "Located in Mirogoj cemetery, Zagreb; designed by sculptor Đuro Kavuric, built 1968",
+   "Holds recipients of the Order of the People's Hero and notable workers'-movement activists",
+   "On 1 February 2001, an explosive device damaged the tomb in an act of vandalism; later repaired"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Tomb_of_the_People%27s_Heroes,_Zagreb"],
+  "confidence": "medium"
  }
 ]
