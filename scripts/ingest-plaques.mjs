@@ -34,6 +34,20 @@ function nearestCity(lat, lng) {
   return bd <= RADIUS_KM ? best : null;
 }
 
+// The public snapshot carries only id/lat/lng/inscription (no people/title), so
+// derive a human label from the inscription: a person's name when one clearly
+// leads it, otherwise a short leading snippet — anything but a bare "Plaque".
+function nameFromInscription(ins) {
+  if (!ins) return null;
+  const s = String(ins).replace(/\s+/g, " ").replace(/^["'“]/, "").trim();
+  const m = s.match(/^((?:[A-Z][A-Za-z'’.\-]+\s+){0,4}[A-Z][A-Za-z'’.\-]+)\s*(?:\(?\d{4}[\-–]|\(\d{4}\)|,?\s*(?:born|lived|died|resided|worked|had his|had her|was born|painter|poet|writer|novelist|actor|actress|composer|scientist|engineer|architect))/i);
+  if (m) { const n = m[1].replace(/[,\-–—:]+$/, "").trim(); if (n.length >= 3 && n.length <= 44 && n.split(" ").length <= 5) return n; }
+  let snip = s.split(/(?<=[a-z])\.\s|·|—|–|\s{2,}|\d{4}/)[0].trim().replace(/[,\-–—:]+$/, "");
+  const w = snip.split(" "); if (w.length > 8) snip = w.slice(0, 8).join(" ") + "…";
+  snip = snip.slice(0, 80).trim();
+  return snip.length >= 3 ? snip : null;
+}
+
 let data;
 try {
   const res = await fetch(SNAPSHOT);
@@ -50,7 +64,8 @@ for (const p of list) {
   const c = nearestCity(lat, lng);
   if (!c) continue;
   const person = p.people && p.people[0] && (p.people[0].name || p.people[0].full_name);
-  const name = person || (p.title ? String(p.title).replace(/\s+(blue|green|grey|gray|brown|black|white|red|bronze)?\s*plaque$/i, "") : null) || "Plaque";
+  const titleName = p.title ? String(p.title).replace(/\s+(blue|green|grey|gray|brown|black|white|red|bronze)?\s*plaque$/i, "") : null;
+  const name = person || titleName || nameFromInscription(p.inscription) || "Plaque";
   byCity[c.slug] = byCity[c.slug] || [];
   byCity[c.slug].push({
     ext_id: "op:" + p.id,
