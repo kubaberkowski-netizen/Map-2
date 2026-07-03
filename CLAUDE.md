@@ -83,7 +83,7 @@ fully before touching anything.
   does NOT `fetch()` JSON at runtime; the catalogue arrives as a classic `<script>`
   (`window.__FLZ`) that executes **before** the main bundle, so `Z` is populated
   synchronously exactly as when it was inline.
-  - `data/spots.json` — the **9,901 spots** as pretty JSON. **Source of truth for `Z`.**
+  - `data/spots.json` — the **9,919 spots** as pretty JSON. **Source of truth for `Z`.**
   - `src/app.template.html` — the full app shell. The catalogue array is the placeholder
     `[]/*__FLANEUR_SPOTS__*/` (consumed as `Z=window.__FLZ||[]/*…*/`) and the loader
     marker `<!--__FLANEUR_SPOTS_SRC__-->` sits just before the main `<script>`.
@@ -113,7 +113,7 @@ fully before touching anything.
   the template, not hand-typed), any coordinate is non-finite/zero, or any coordinate
   lands **outside its city's `Ci` bbox** (±0.1° margin — catches wrong-city / sign-flip /
   transposed-digit typos). It **warns** (non-fatal) if the entry count differs from the
-  baseline (9,901; see `BASELINE` in `build.js`), if two spots share a name within a
+  baseline (9,919; see `BASELINE` in `build.js`), if two spots share a name within a
   city (likely duplicate spots), or
   if any writeups are empty (with a per-city count). It then re-runs the CLAUDE.md checks
   below on the generated HTML and fails loudly on any miss.
@@ -171,7 +171,7 @@ fully before touching anything.
   they are the owner's voice. **NEVER rewrite, "improve," or invent writeup text.**
   Add sourced facts only when explicitly asked. Writeups are now edited in
   `data/spots.json` (the `w` field of each entry), then `npm run build`.
-- **Reality check (post-scale-up):** with the catalogue at 9,901 spots, the **majority
+- **Reality check (post-scale-up):** with the catalogue at 9,919 spots, the **majority
   of `w` fields are now short machine-generated stubs** from the `tools/` enrichment
   pipeline (OSM / Wikidata / Wikipedia) — median length ~41 chars, ~80% under 80 chars,
   ~150 empty. The "owner's voice" rule still applies to the **authored** writeups (do not
@@ -195,7 +195,7 @@ fully before touching anything.
 manual cross-check. Note the catalogue now lives in `spots.<hash>.js`, not `index.html`.)
 1. `node --check` the app shell's largest inline `<script>` **and** `node --check spots.*.js`.
 2. Confirm counts via grep:
-   - **entries** — `id:"…",n:"` → should be **9,901** — now counted in the **sidecar**:
+   - **entries** — `id:"…",n:"` → should be **9,919** — now counted in the **sidecar**:
      `grep -oE 'id:"[^"]*",n:"' spots.*.js | wc -l` (and `… index.html` must be **0** —
      the catalogue must not leak back into the shell)
    - **Worlds** — `match:\s*e\s*=>` → should be **80** (do NOT count `osm:`), in the shell:
