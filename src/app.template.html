@@ -1131,6 +1131,7 @@ lucide-react/dist/esm/lucide-react.js:
       else if(h<21) kind="dusk";
       else          kind="night";
       if(opts.wx&&!opts.forceKind){ if(opts.wx.snow) kind="snow"; else if(opts.wx.wet) kind="rain"; }
+      if(!opts.forceKind){ try{ var _fs=29.53058867,_fr=19747.7458333,_fx=(((now.getTime()/86400000-_fr)%_fs)+_fs)%_fs; if(Math.min(_fx,_fs-_fx)<=1) kind="fullmoon"; }catch(e){} }
       // gilded roll: forced, or ~1/25 with a pity ceiling at 40 (unless a kind is forced for testing)
       var gild=false;
       if(opts.forceGild) gild=true;else if((function(){try{if(localStorage.getItem("flaneur-gildnext")==="1"){localStorage.removeItem("flaneur-gildnext");return true;}}catch(e){}return false;})()) gild=true;
