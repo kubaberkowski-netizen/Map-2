@@ -1,19 +1,86 @@
 [
  {
-  "n": "Bournville",
+  "n": "Alpha Tower",
   "a": "",
+  "c": "brutalism",
+  "lat": 52.4786,
+  "lng": -1.90639,
+  "w": "A 100-metre concrete slab by Birmingham-born architect George Marsh for Richard Seifert's practice, built as headquarters for ATV's television studios. ATV went off air in 1982 and the tower became plain offices, Grade II listed almost by default, standing over a companion tower that was planned and never built.",
+  "s": "ATV's old tower, Grade II listed almost by accident",
+  "_facts": ["Grade II listed office skyscraper designed by George Marsh of Richard Seifert & Partners, headquarters of ATV (Associated Television)", "Part of the ATV Centre production studio complex; an adjacent shorter tower was planned but never built", "ATV closed in 1982, after which the building became offices", "100 m tall, eighth-tallest building in Birmingham as of 2023"],
+  "_sources": ["https://en.wikipedia.org/wiki/Alpha_Tower"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Castle Bromwich Hall",
+  "a": "Solihull",
   "c": "history",
-  "lat": 52.4299,
-  "lng": -1.9355,
-  "w": "The Cadbury family built an entire village around their chocolate factory and banned pubs from it -- a Quaker experiment in a 'garden village' where alcohol was never sold. A century on, the Joseph Rowntree Foundation called it one of the nicest places to live in Britain.",
-  "s": "A dry Quaker village built around a chocolate factory",
-  "_facts": [
-   "19th-century model village founded by the Quaker Cadbury family for factory employees",
-   "Designed as a 'garden'/'model' village where the sale of alcohol was forbidden",
-   "Home to the Cadbury's chocolate factory and the Bournville Centre for Visual Arts",
-   "A 2003 Joseph Rowntree Foundation study called it one of the nicest places to live in Britain"
-  ],
-  "_sources": ["https://en.wikipedia.org/wiki/Bournville"],
+  "lat": 52.5055,
+  "lng": -1.79115,
+  "w": "A Jacobean mansion in Castle Bromwich, Grade I listed - the highest protection England hands out, reserved for buildings of exceptional interest. The details on record are scarce, but the grading alone tells you what officialdom decided about it long ago.",
+  "s": "A Jacobean mansion, Grade I and understated",
+  "_facts": ["Jacobean mansion in the Castle Bromwich area of Solihull, England", "Grade I listed building"],
+  "_sources": ["https://en.wikipedia.org/wiki/Castle_Bromwich_Hall"],
+  "confidence": "thin"
+ },
+ {
+  "n": "Great Barr Hall",
+  "a": "Pheasey",
+  "c": "history",
+  "lat": 52.55628,
+  "lng": -1.92096,
+  "w": "An 18th-century mansion with real Enlightenment credentials - once tied to the Lunar Society, the Birmingham circle of scientists and industrialists. Grade II listed but crumbling, it has spent years on the Buildings at Risk Register: a once-great house nobody has managed to save.",
+  "s": "Lunar Society mansion, left on the at-risk register",
+  "_facts": ["18th-century mansion in Great Barr (Pheasey), historically Staffordshire, now part of Walsall, West Midlands", "Associations with the Lunar Society", "Grade II listed but in very poor state of repair, on the Buildings at Risk Register"],
+  "_sources": ["https://en.wikipedia.org/wiki/Great_Barr_Hall"],
+  "confidence": "medium"
+ },
+ {
+  "n": "St Mary's College, Oscott",
+  "a": "New Oscott",
+  "c": "faith",
+  "lat": 52.54556,
+  "lng": -1.85528,
+  "w": "One of only two Roman Catholic seminaries left in England and Wales - the other is Allen Hall in London, with just two more anywhere, both in Rome. Priests for the Archdiocese of Birmingham are still trained inside these walls in New Oscott, a quietly serious institution well off the tourist track.",
+  "s": "One of England's last two Catholic seminaries",
+  "_facts": ["Roman Catholic seminary of the Archdiocese of Birmingham, in New Oscott", "One of only two seminaries of the Catholic Church in England and Wales, the other being Allen Hall Seminary in London", "Two further seminaries are in Rome: the Venerable English College and the Pontifical Beda College"],
+  "_sources": ["https://en.wikipedia.org/wiki/St_Mary%27s_College,_Oscott"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Pype Hayes Hall",
+  "a": "Erdington",
+  "c": "history",
+  "lat": 52.52697,
+  "lng": -1.80795,
+  "w": "A former mansion house in Erdington whose grounds are now simply Pype Hayes Park - the house survives, Grade II listed, while the land around it went public. It crossed from Warwickshire into the newly created West Midlands in 1974 without moving an inch, a reminder of how often county lines shift under old houses.",
+  "s": "The mansion that gave Erdington its park",
+  "_facts": ["Former mansion house in the Pype Hayes area of Erdington, Birmingham; grounds now form Pype Hayes Park", "Formerly in the historic county of Warwickshire, transferred to the West Midlands in 1974", "Grade II listed status"],
+  "_sources": ["https://en.wikipedia.org/wiki/Pype_Hayes_Hall"],
+  "confidence": "medium"
+ },
+ {
+  "n": "St Alphege's Church",
+  "a": "Solihull",
+  "c": "medieval",
+  "lat": 52.4106,
+  "lng": -1.77583,
+  "w": "Solihull's medieval parish church - a plain description hiding centuries of continuous worship on the same spot. It has quietly outlasted every architectural fashion since the Middle Ages; no elaborate backstory needed, the age does the talking.",
+  "s": "Solihull's medieval parish church, still standing",
+  "_facts": ["Medieval parish church in the Church of England, in Solihull, West Midlands"],
+  "_sources": ["https://en.wikipedia.org/wiki/St_Alphege_Church,_Solihull"],
+  "confidence": "thin"
+ },
+ {
+  "n": "St. Thomas' Peace Garden",
+  "a": "",
+  "c": "green",
+  "lat": 52.4734,
+  "lng": -1.906,
+  "w": "Built around the bombed-out tower and porticos of St Thomas's Church, half-destroyed in the Birmingham Blitz and never rebuilt - the ruin became a peace memorial instead. Laid out in 1955 for the Coronation, redone in 1995 for VE Day's fiftieth, and in 1998 the G8 leaders each planted a tree from their own country.",
+  "s": "A Blitz ruin turned peace garden, one tree per G8 leader",
+  "_facts": ["Small public park designed around the tower and west porticos of St Thomas's Church, Bath Row, half demolished in the Birmingham Blitz in 1940 and never restored", "Grounds laid out in 1955 to commemorate the coronation of Queen Elizabeth II, redesigned in 1995 for the 50th anniversary of the end of WWII", "In 1998 world leaders at the Birmingham G8 summit each planted a tree representing their country"],
+  "_sources": ["https://en.wikipedia.org/wiki/St_Thomas%27_Peace_Garden"],
   "confidence": "high"
  }
 ]

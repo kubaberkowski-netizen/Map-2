@@ -1,19 +1,173 @@
 [
  {
-  "n": "Titanic Belfast",
+  "n": "Milltown Cemetery",
+  "a": "Ballymurphy",
+  "c": "death",
+  "lat": 54.5825,
+  "lng": -5.97361,
+  "w": "West Belfast's Milltown Cemetery sits boxed in by the Falls Road on one side and the M1 motorway on the other, in the townland of Ballymurphy -- ground given over entirely to the dead, wedged between two of the city's busiest arteries.",
+  "s": "A cemetery hemmed in by the Falls Road and the M1",
+  "_facts": [
+   "A cemetery in west Belfast, Northern Ireland",
+   "Lies within the townland of Ballymurphy",
+   "Located between the Falls Road and the M1 motorway"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Milltown_Cemetery"],
+  "confidence": "thin"
+ },
+ {
+  "n": "Stormont Castle",
+  "a": "Stormont",
+  "c": "history",
+  "lat": 54.602,
+  "lng": -5.83016,
+  "w": "A Grade A listed manor house tucked into the Stormont Estate in east Belfast, this is where the Northern Ireland Executive and the Executive Office actually sit -- devolved government run out of a nineteenth-century country house rather than some glass ministry block.",
+  "s": "The manor house that runs Northern Ireland",
+  "_facts": [
+   "A manor house on the Stormont Estate in east Belfast",
+   "Home to the Northern Ireland Executive and the Executive Office",
+   "A Grade A listed building"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Stormont_Castle"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Belfast City Hall",
+  "a": "Donegall Square",
+  "c": "history",
+  "lat": 54.5965,
+  "lng": -5.93005,
+  "w": "Belfast City Council's grand Grade A listed seat fills Donegall Square, facing north and effectively splitting the city centre in two between its commercial and business quarters -- the civic anchor everything else in central Belfast orbits.",
+  "s": "The Grade A listed pile splitting Belfast's centre in two",
+  "_facts": [
+   "The civic building of Belfast City Council, located in Donegall Square",
+   "Faces north and effectively divides the commercial and business areas of the city centre",
+   "A Grade A listed building"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Belfast_City_Hall"],
+  "confidence": "medium"
+ },
+ {
+  "n": "St Peter's Cathedral",
+  "a": "Falls Road",
+  "c": "faith",
+  "lat": 54.599,
+  "lng": -5.94448,
+  "w": "Construction began on this Falls Road church in the 1860s, but it took until 29 June 1986 -- when Bishop Cahal Daly said Mass here -- for St Peter's to be formally designated the seat of the Diocese of Down and Connor. Grade A listed, with three choirs still singing.",
+  "s": "A cathedral that waited over a century for its title",
+  "_facts": [
+   "The Catholic cathedral church for the Diocese of Down and Connor, in the Divis Street area of the Falls Road",
+   "Construction began in the 1860s",
+   "Designated the diocesan cathedral by Bishop Cahal Daly, who celebrated Mass here on 29 June 1986",
+   "Has three choirs: the Cathedral Choir, the Down & Connor Schola Cantorum, and the Cathedral Girls' Choir",
+   "A Grade A listed building"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/St_Peter%27s_Cathedral,_Belfast"],
+  "confidence": "high"
+ },
+ {
+  "n": "Cavehill",
+  "a": "",
+  "c": "view",
+  "lat": 54.647,
+  "lng": -5.951,
+  "w": "Basalt cliffs above Belfast rear up into 'Napoleon's Nose', with the ruins of McArt's Fort perched at the 368-metre summit. On a clear day the view runs to Scotland and the Isle of Man, and Jonathan Swift is said to have found his sleeping giant here for Gulliver's Travels.",
+  "s": "The hill said to have inspired Gulliver's Travels",
+  "_facts": [
+   "A rocky hill overlooking Belfast, 368 metres high, marked by basalt cliffs and caves",
+   "'Napoleon's Nose' is a cliff fancifully said to resemble the emperor's profile",
+   "The ruins of the ancient promontory fort McArt's Fort sit at its highest point",
+   "All of Belfast can be seen from the peak, and on clear days the Isle of Man and Scotland",
+   "Thought to be the inspiration for Jonathan Swift's Gulliver's Travels, its silhouette resembling a sleeping giant"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Cavehill"],
+  "confidence": "high"
+ },
+ {
+  "n": "HMS Caroline",
   "a": "Titanic Quarter",
   "c": "maritime",
-  "lat": 54.6083,
-  "lng": -5.90975,
-  "w": "Built on the patch of the former Harland & Wolff yard where the Titanic herself took shape, this steel-clad visitor centre opened in 2012 as Belfast's monument to its own maritime past. Over 12,000 square metres of galleries trace the ship's construction and 1912 sinking, alongside sister liners Olympic and Britannic.",
-  "s": "Built on the very slipway where the Titanic was born",
+  "lat": 54.61306,
+  "lng": -5.90278,
+  "w": "Completed in 1914 and blooded at Jutland, HMS Caroline served on -- WWII admin centre, then RNR training ship -- until 2011, by then the Royal Navy's second-oldest ship after HMS Victory. Restored at Harland & Wolff, reopened as a museum ship at Alexandra Dock in 2017: the last Jutland-era light cruiser still afloat.",
+  "s": "The last Jutland-era light cruiser still afloat",
   "_facts": [
-   "Visitor attraction opened in 2012 on the site of the former Harland & Wolff shipyard in Titanic Quarter",
-   "A monument to Belfast's maritime heritage where the RMS Titanic was built",
-   "Tells the stories of the Titanic and her sister ships RMS Olympic and HMHS Britannic",
-   "More than 12,000 square metres of floor space, mostly galleries and function rooms"
+   "A C-class light cruiser completed in 1914, saw combat in the First World War including the Battle of Jutland",
+   "Served as an administrative centre in WWII and later as a training ship for the Royal Naval Reserve",
+   "At her 2011 decommissioning she was the second-oldest ship in Royal Navy service after HMS Victory",
+   "Repaired at Harland and Wolff from October 2016 and opened to the public 1 July 2017 at Alexandra Dock, Titanic Quarter",
+   "The last surviving British WWI light cruiser and the last survivor of the Battle of Jutland still afloat"
   ],
-  "_sources": ["https://en.wikipedia.org/wiki/Titanic_Belfast"],
+  "_sources": ["https://en.wikipedia.org/wiki/HMS_Caroline_(1914)"],
+  "confidence": "high"
+ },
+ {
+  "n": "Ulster Museum",
+  "a": "Botanic Gardens",
+  "c": "museum",
+  "lat": 54.582,
+  "lng": -5.935,
+  "w": "Northern Ireland's largest museum, set inside Botanic Gardens with some 8,000 square metres of galleries running from fine and applied art to archaeology and treasures salvaged from the Spanish Armada. Local history, numismatics, botany, zoology, geology -- one roof, one of National Museums NI's flagship sites.",
+  "s": "Spanish Armada treasure under one Belfast roof",
+  "_facts": [
+   "Located in the Botanic Gardens, around 8,000 square metres of public display space",
+   "Collections include fine art, applied art, archaeology, ethnography, treasures from the Spanish Armada, local history, numismatics, industrial archaeology, botany, zoology and geology",
+   "The largest museum in Northern Ireland, part of National Museums Northern Ireland"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Ulster_Museum"],
+  "confidence": "high"
+ },
+ {
+  "n": "Giant's Ring",
+  "a": "Ballynahatty",
+  "c": "history",
+  "lat": 54.51667,
+  "lng": -5.95,
+  "w": "A circular earthwork bank 3.5 metres high rings this 180-metre henge at Ballynahatty, enclosing a small passage tomb near its centre -- Belfast's own neolithic monument, protected since 1837 behind a wall built on the orders of Viscount Dungannon. Now a State Care monument and a Site of Special Scientific Interest.",
+  "s": "A neolithic henge nearly 200 metres across",
+  "_facts": [
+   "A henge monument at Ballynahatty, near Shaw's Bridge, Belfast",
+   "A State Care Historic Monument and Site of Special Scientific Interest",
+   "Circular enclosure 180 metres in diameter surrounded by an earthwork bank 3.5 metres high",
+   "A small passage tomb sits east of centre, with a vestigial passage facing west",
+   "A protective wall was built around the site in 1837 under landowner Arthur Hill-Trevor, 3rd Viscount Dungannon"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Giant%27s_Ring"],
+  "confidence": "high"
+ },
+ {
+  "n": "Divis",
+  "a": "",
+  "c": "green",
+  "lat": 54.6075,
+  "lng": -6.00944,
+  "w": "At 478 metres, Divis is the highest of the Belfast Hills, moorland fused to neighbouring Black Mountain and capped by a transmitting station. The Ministry of Defence held it until 2004, when the National Trust took over and laid out four walking trails across ground that used to be off limits.",
+  "s": "Belfast's highest hill, MoD land until 2004",
+  "_facts": [
+   "A hill and area of moorland northwest of Belfast, 478 metres high, the highest of the Belfast Hills",
+   "Joined with neighbouring Black Mountain, with a transmitting station on the summit",
+   "Held by the Ministry of Defence from 1953 until handed to the National Trust in 2004",
+   "Four walking trails have since been developed: the Lough, Summit, Heath and Ridge trails"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Divis"],
+  "confidence": "high"
+ },
+ {
+  "n": "Belfast Zoo",
+  "a": "Cavehill",
+  "c": "oddity",
+  "lat": 54.656,
+  "lng": -5.942,
+  "w": "Opened in 1934 on Cavehill's wooded slope, Belfast Zoo is Ireland's second-oldest after Dublin's, and one of Northern Ireland's biggest paying attractions at 300,000-plus visitors a year. Most of its 1,200-odd animals across 140 species are endangered in the wild; the zoo runs over 90 breeding programmes.",
+  "s": "Ireland's second-oldest zoo, on Cavehill's slope",
+  "_facts": [
+   "Opened in 1934, the second-oldest zoo in Ireland after Dublin Zoo (1831)",
+   "Located on the northeastern slope of Cavehill overlooking the Antrim Road",
+   "One of the top fee-paying visitor attractions in Northern Ireland, over 300,000 visitors a year",
+   "A 55-acre site home to more than 1,200 animals and 140 species, most endangered in the wild",
+   "Takes part in over 90 European and international breeding programmes"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Belfast_Zoo"],
   "confidence": "high"
  }
 ]

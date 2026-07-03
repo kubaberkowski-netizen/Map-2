@@ -1,1 +1,79 @@
-[]
+[
+ {
+  "n": "Walker Art Gallery",
+  "a": "",
+  "c": "museum",
+  "lat": 53.41007,
+  "lng": -2.97967,
+  "w": "Grade II* listed and holding one of the largest art collections in England outside London, the Walker is the grand dame of National Museums Liverpool - proof this port city's wealth bought more than warehouses. No single blockbuster draws the crowds; the depth of the permanent collection is the real hook.",
+  "s": "One of England's biggest art collections outside London",
+  "_facts": [
+   "Grade II* listed art gallery in Liverpool",
+   "Houses one of the largest art collections in England outside London",
+   "Part of the National Museums Liverpool group"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Walker_Art_Gallery"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "n": "Ullet Road Unitarian Church",
+  "a": "Sefton Park",
+  "c": "faith",
+  "lat": 53.3898,
+  "lng": -2.9381,
+  "w": "Grade I listed twice over - church and hall both - this Sefton Park Unitarian chapel quietly made history as the first UK place of worship to register a civil partnership for a same-sex couple. A radical footnote hiding behind solid Victorian stonework.",
+  "s": "First UK church to register a same-sex civil partnership",
+  "_facts": [
+   "Unitarian church at 57 Ullet Road, Sefton Park, Liverpool",
+   "Church and attached hall are both separately Grade I listed",
+   "First place of worship in the UK to register a civil partnership for a same-sex couple",
+   "Member of the General Assembly of Unitarian and Free Christian Churches"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Ullet_Road_Unitarian_Church"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "St John the Baptist's Church",
+  "a": "Tuebrook",
+  "c": "faith",
+  "lat": 53.4248,
+  "lng": -2.9301,
+  "w": "George Frederick Bodley's Grade I masterpiece at Tuebrook is exceptional enough on its own - the vicarage and mortuary house he also designed are both Grade II listed too - but the real pull is Brockman Memorial Hall next door, one of the Beatles' earliest venues.",
+  "s": "Grade I Bodley church with an early Beatles venue next door",
+  "_facts": [
+   "Active Anglican parish church in the Diocese of Liverpool, Tuebrook",
+   "Built in the 1860s, designed by George Frederick Bodley",
+   "Grade I listed as a building of exceptional architectural interest",
+   "Vicarage and mortuary house on site, also by Bodley, both Grade II listed",
+   "Site of the Brockman Memorial Hall, an early venue of the Beatles"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/St_John_the_Baptist%27s_Church,_Liverpool"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "n": "U-534",
+  "a": "Birkenhead",
+  "c": "maritime",
+  "lat": 53.3951,
+  "lng": -3.00933,
+  "w": "One of only four WWII German U-boats preserved anywhere in the world - and the only one cut into sections for display. U-534 sank no ships in her short training career before an RAF bomber caught her in the Kattegat in 1945; salvaged in 1993, she resurfaced at Birkenhead's Woodside Ferry as the 'U-Boat Story.'",
+  "s": "One of only four preserved WWII German U-boats",
+  "_facts": [
+   "Type IXC/40 U-boat of Nazi Germany's Kriegsmarine, built 1942",
+   "One of only four preserved WWII German submarines in the world, and the only one cut into sections",
+   "Used mainly for training; sank no ships during her service",
+   "Sunk by an RAF bomber on 5 May 1945 in the Kattegat near Anholt, Denmark",
+   "Salvaged in 1993 and moved to Woodside Ferry, Birkenhead, forming the 'U-Boat Story' museum (opened 2009, closed 2020)"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/German_submarine_U-534"
+  ],
+  "confidence": "medium"
+ }
+]

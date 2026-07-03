@@ -1,70 +1,86 @@
 [
  {
-  "n": "Turbinia",
+  "n": "Baltic Centre for Contemporary Art",
+  "a": "Gateshead",
+  "c": "museum",
+  "lat": 54.96917,
+  "lng": -1.59778,
+  "w": "A 1950s flour mill on the Tyne, gutted and rebuilt in 2002 into one of Britain's biggest contemporary art spaces - no permanent collection, just a rotating churn of exhibitions. The rooftop restaurant and viewing platforms look across at the Millennium Bridge and the Sage, both born from the same 1990s push.",
+  "s": "A flour mill turned into Gateshead's art powerhouse",
+  "_facts": ["Contemporary art centre on the south bank of the Tyne in Gateshead, no permanent exhibition, frequently changing shows", "Opened July 2002 in a converted flour mill that had operated 1950-1984", "Design by Dominic Williams of Ellis Williams Architects, who won a 1994 competition", "Conceived in the 1990s alongside the Sage and Gateshead Millennium Bridge; over 8 million visitors by January 2022"],
+  "_sources": ["https://en.wikipedia.org/wiki/Baltic_Centre_for_Contemporary_Art"],
+  "confidence": "high"
+ },
+ {
+  "n": "Newcastle City Hall",
   "a": "",
-  "c": "maritime",
-  "lat": 54.96914,
-  "lng": -1.6245,
-  "w": "Built in 1894 as pure experiment, this vessel became the fastest ship afloat and proved it at the 1897 Spithead Navy Review, outrunning the fleet. Turbine power was standard across steamships within years. She's dry-docked at the Discovery Museum now -- her engine shipped south to London's Science Museum.",
-  "s": "The first turbine ship, briefly the world's fastest",
-  "_facts": [
-   "First steam turbine-powered steamship, built 1894 by Charles Algernon Parsons",
-   "Easily the fastest ship in the world at the time",
-   "Demonstrated dramatically at the 1897 Spithead Navy Review, setting the standard for the next generation of steamships",
-   "Now at the Discovery Museum, Newcastle; original powerplant at the Science Museum, London"
-  ],
-  "_sources": ["https://en.wikipedia.org/wiki/Turbinia"],
-  "confidence": "solid"
+  "c": "music",
+  "lat": 54.9774,
+  "lng": -1.61,
+  "w": "Grade II listed and still doing exactly what it was built for - decades of touring musicians, classical programmes and standup comedy have passed through under whatever sponsor's name gets bolted on this year. Currently branded O2 City Hall; the building outlasts the branding every time.",
+  "s": "Grade II listed, outlasting every sponsor's name",
+  "_facts": ["Concert hall in Newcastle upon Tyne, currently known as O2 City Hall Newcastle for sponsorship reasons", "Has hosted popular music, classical artists, standup and comedy acts over the years", "Operated by Academy Music Group, part-owned by Live Nation", "Grade II listed building"],
+  "_sources": ["https://en.wikipedia.org/wiki/Newcastle_City_Hall"],
+  "confidence": "medium"
  },
  {
-  "n": "Gateshead Millennium Bridge",
-  "a": "Quayside",
-  "c": "oddity",
-  "lat": 54.96944,
-  "lng": -1.59972,
-  "w": "The world's first tilting bridge, and it pivots slowly enough to watch, letting river traffic pass beneath. Opened in 2001 to link Gateshead's arts quarter with Newcastle's Quayside, the shape earned it a nickname -- the Blinking Eye, or the Winking Eye, depending who's telling it.",
-  "s": "The world's first tilting bridge, the 'Blinking Eye'",
-  "_facts": [
-   "First tilting bridge ever constructed; opened 2001",
-   "Pedestrian and cyclist bridge linking Gateshead arts quarter with Newcastle's Quayside",
-   "Designed by WilkinsonEyre and Gifford",
-   "Nicknamed the 'Blinking Eye' or 'Winking Eye' Bridge for its shape and tilting method"
-  ],
-  "_sources": ["https://en.wikipedia.org/wiki/Gateshead_Millennium_Bridge"],
-  "confidence": "solid"
- },
- {
-  "n": "Newcastle Castle",
+  "n": "High Level Bridge",
   "a": "",
-  "c": "medieval",
-  "lat": 54.96883,
-  "lng": -1.61036,
-  "w": "The castle that gave Newcastle its name -- literally. Robert Curthose, the Conqueror's eldest son, built a wooden fort here in 1080 fresh from fighting the Scots, and called it the 'New Castle.' Henry II rebuilt it in stone; Henry III added the Black Gate. The railway now runs through the 75-foot gap between the two.",
-  "s": "The castle that gave Newcastle its name",
-  "_facts": [
-   "Built on the site of a Roman fort and settlement, Pons Aelius, guarding a Tyne bridge",
-   "Robert Curthose (William the Conqueror's eldest son) built a wooden motte-and-bailey castle here in 1080, the 'New Castle upon Tyne'",
-   "Henry II built the stone Castle Keep 1172-1177; Henry III added the Black Gate 1247-1250",
-   "A 75-foot gap between the Keep and the Black Gate is almost entirely filled by the railway"
-  ],
-  "_sources": ["https://en.wikipedia.org/wiki/The_Castle,_Newcastle"],
-  "confidence": "solid"
+  "c": "history",
+  "lat": 54.9667,
+  "lng": -1.60822,
+  "w": "Robert Stephenson's rail link toward Scotland, forged from 5,050 tons of iron and opened by Queen Victoria in 1849 - the same year the Mayor of Gateshead drove in its last key. A road deck was bolted on purely for extra revenue, and both still work: trains overhead, cars below under a weight limit, Grade I listed.",
+  "s": "Stephenson's iron bridge, still carrying trains and cars",
+  "_facts": ["Road and railway bridge over the Tyne between Newcastle and Gateshead, built from 5,050 tons of iron by the Hawks family", "George Hawks, Mayor of Gateshead, drove in the last key on 7 June 1849; opened by Queen Victoria later that year", "Designed by Robert Stephenson to form a rail link to Scotland; a carriageway for road vehicles/pedestrians added for extra revenue", "Still carries rail traffic and a weight-restricted road; Grade I listed structure"],
+  "_sources": ["https://en.wikipedia.org/wiki/High_Level_Bridge,_River_Tyne"],
+  "confidence": "high"
  },
  {
-  "n": "Segedunum",
-  "a": "Wallsend",
-  "c": "roman",
-  "lat": 54.98791,
-  "lng": -1.53231,
-  "w": "The easternmost fort on Hadrian's Wall, garrisoned for close to 300 years guarding the point where the Wall met the Tyne. Modern Wallsend grew up on top of it, but Segedunum is now the most thoroughly excavated fort along the whole Wall, its baths and foundations laid bare as part of the World Heritage Site.",
-  "s": "Hadrian's Wall's most fully excavated Roman fort",
-  "_facts": [
-   "Roman fort at the eastern end of Hadrian's Wall, near the River Tyne at Wallsend",
-   "In use for around 300 years, roughly 122 to 400 AD",
-   "The most thoroughly excavated fort along the whole of Hadrian's Wall",
-   "Part of the Hadrian's Wall UNESCO World Heritage Site"
-  ],
-  "_sources": ["https://en.wikipedia.org/wiki/Segedunum"],
-  "confidence": "solid"
+  "n": "St Mary's Cathedral",
+  "a": "",
+  "c": "faith",
+  "lat": 54.969,
+  "lng": -1.62,
+  "w": "Augustus Welby Pugin's Gothic Revival cathedral, raised in just two years from 1842 and still the sixth-tallest structure in the city. Out front, the Monument Garden holds a memorial to Cardinal Basil Hume, opened by the Queen herself in 2002 - Pugin's spire watching over it, Grade I listed throughout.",
+  "s": "Pugin's Gothic cathedral, built in just two years",
+  "_facts": ["Catholic cathedral, mother church of the Diocese of Hexham and Newcastle, on Clayton Street", "Designed by Augustus Welby Pugin, built 1842-1844, Grade I listed, Gothic Revival style", "Monument Garden outside holds a memorial to Cardinal Basil Hume, opened by Queen Elizabeth II in 2002", "Sixth tallest structure in the city"],
+  "_sources": ["https://en.wikipedia.org/wiki/St_Mary%27s_Cathedral,_Newcastle_upon_Tyne"],
+  "confidence": "high"
+ },
+ {
+  "n": "Byker Wall",
+  "a": "Byker",
+  "c": "brutalism",
+  "lat": 54.975,
+  "lng": -1.578,
+  "w": "620 maisonettes fused into one unbroken block, designed by Ralph Erskine and built through the 1970s - one of British social housing's most recognisable silhouettes. The Wall itself is only the visible edge; the wider estate behind it sprawls across 200 acres of Byker.",
+  "s": "Erskine's 620-maisonette wall of housing",
+  "_facts": ["Long unbroken block of 620 maisonettes in the Byker district, designed by Ralph Erskine, constructed in the 1970s", "The Wall is part of a wider estate covering 200 acres in total"],
+  "_sources": ["https://en.wikipedia.org/wiki/Byker_Wall"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Theatre Royal, Newcastle",
+  "a": "Grey Street",
+  "c": "history",
+  "lat": 54.9728,
+  "lng": -1.61194,
+  "w": "Grade I listed and sitting on Grey Street in the heart of the city - a historic theatre whose designation alone signals how much weight it carries architecturally. The facts on record are sparse, but the protection status speaks for itself.",
+  "s": "Grade I listed theatre on Grey Street",
+  "_facts": ["Historic theatre, Grade I listed building, situated on Grey Street in Newcastle upon Tyne"],
+  "_sources": ["https://en.wikipedia.org/wiki/Theatre_Royal,_Newcastle"],
+  "confidence": "thin"
+ },
+ {
+  "n": "Laing Art Gallery",
+  "a": "",
+  "c": "museum",
+  "lat": 54.975,
+  "lng": -1.609,
+  "w": "Opened in 1904 on money from a local wine merchant, Alexander Laing, in a Baroque building with Art Nouveau flourishes - and stacked with heavyweights: Turner watercolours, Holman Hunt's 'Isabella and the Pot of Basil,' Burne-Jones's 'Laus Veneris,' even John Martin's apocalyptic 'Destruction of Sodom and Gomorrah.'",
+  "s": "A wine merchant's gallery, stacked with Turners",
+  "_facts": ["Art gallery on New Bridge Street West, designed in Baroque style with Art Nouveau elements by Cackett & Burns Dick, Grade II listed", "Opened 1904, financed by a gift from local wine merchant Alexander Laing", "Collection includes John Martin's The Destruction of Sodom and Gomorrah, Joshua Reynolds, Edward Burne-Jones's Laus Veneris, William Holman Hunt's Isabella and the Pot of Basil (1868), Ben Nicholson", "Also holds 18th/19th-century watercolours by J.M.W. Turner and John Sell Cotman, plus Newcastle silver and Maling pottery"],
+  "_sources": ["https://en.wikipedia.org/wiki/Laing_Art_Gallery"],
+  "confidence": "high"
  }
 ]
