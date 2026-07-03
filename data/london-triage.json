@@ -1,0 +1,1869 @@
+{
+ "generated_note": "London launch triage — regenerate with node scripts/london-triage.mjs",
+ "counts": {
+  "ship": 918,
+  "polish": 127,
+  "hide": 102
+ },
+ "polish": [
+  {
+   "id": "girothedogsgrave",
+   "n": "Giro the Dog's Grave",
+   "a": "St James's / Carlton House Terrace",
+   "pc": "",
+   "c": "death",
+   "len": 329,
+   "prom": 18.8
+  },
+  {
+   "id": "strandlaneromanbath",
+   "n": "Strand Lane 'Roman' Bath",
+   "a": "Strand / Aldwych",
+   "pc": "",
+   "c": "roman",
+   "len": 328,
+   "prom": 18
+  },
+  {
+   "id": "theoldcuriosityshop",
+   "n": "The Old Curiosity Shop",
+   "a": "Holborn / Clare Market",
+   "pc": "",
+   "c": "literary",
+   "len": 330,
+   "prom": 18
+  },
+  {
+   "id": "55broadway",
+   "n": "55 Broadway",
+   "a": "St James's Park, Westminster",
+   "pc": "",
+   "c": "artdeco",
+   "len": 277,
+   "prom": 18
+  },
+  {
+   "id": "lcornelissenandson",
+   "n": "L. Cornelissen & Son",
+   "a": "Bloomsbury",
+   "pc": "",
+   "c": "history",
+   "len": 339,
+   "prom": 17.9
+  },
+  {
+   "id": "stgeorgesbloomsbury",
+   "n": "St George's Bloomsbury",
+   "a": "Bloomsbury Way",
+   "pc": "",
+   "c": "follies",
+   "len": 266,
+   "prom": 17.8
+  },
+  {
+   "id": "oxotowerwharf",
+   "n": "OXO Tower Wharf",
+   "a": "South Bank",
+   "pc": "",
+   "c": "ghostsign",
+   "len": 277,
+   "prom": 17.6
+  },
+  {
+   "id": "londonsilvervaults",
+   "n": "London Silver Vaults",
+   "a": "Chancery Lane, City of London",
+   "pc": "",
+   "c": "history",
+   "len": 292,
+   "prom": 17.5
+  },
+  {
+   "id": "stapleinn",
+   "n": "Staple Inn",
+   "a": "High Holborn",
+   "pc": "",
+   "c": "medieval",
+   "len": 292,
+   "prom": 17.4
+  },
+  {
+   "id": "dailyexpressbuilding2",
+   "n": "Daily Express Building",
+   "a": "Fleet Street, City",
+   "pc": "",
+   "c": "artdeco",
+   "len": 318,
+   "prom": 17.3
+  },
+  {
+   "id": "thepanyerboy",
+   "n": "The Panyer Boy",
+   "a": "St Paul's, City of London",
+   "pc": "",
+   "c": "history",
+   "len": 306,
+   "prom": 16.8
+  },
+  {
+   "id": "graysinngardens",
+   "n": "Gray's Inn Gardens",
+   "a": "Holborn, Camden",
+   "pc": "",
+   "c": "history",
+   "len": 292,
+   "prom": 16.8
+  },
+  {
+   "id": "londoncharterhouse",
+   "n": "London Charterhouse",
+   "a": "Clerkenwell, Islington",
+   "pc": "",
+   "c": "history",
+   "len": 300,
+   "prom": 16.5
+  },
+  {
+   "id": "goldenlaneestate",
+   "n": "Golden Lane Estate",
+   "a": "Barbican, City of London",
+   "pc": "",
+   "c": "brutalism",
+   "len": 286,
+   "prom": 16.2
+  },
+  {
+   "id": "spagreenestate",
+   "n": "Spa Green Estate",
+   "a": "Clerkenwell, Islington",
+   "pc": "",
+   "c": "brutalism",
+   "len": 290,
+   "prom": 16.2
+  },
+  {
+   "id": "bevincourt",
+   "n": "Bevin Court",
+   "a": "Finsbury, Islington",
+   "pc": "",
+   "c": "brutalism",
+   "len": 288,
+   "prom": 16.2
+  },
+  {
+   "id": "stmaryathill",
+   "n": "St Mary-at-Hill",
+   "a": "City",
+   "pc": "",
+   "c": "medieval",
+   "len": 320,
+   "prom": 15.9
+  },
+  {
+   "id": "islingtontunnel",
+   "n": "Islington Tunnel",
+   "a": "Regent's Canal, Islington",
+   "pc": "",
+   "c": "canals",
+   "len": 289,
+   "prom": 15.8
+  },
+  {
+   "id": "gasholderpark",
+   "n": "Gasholder Park",
+   "a": "King's Cross",
+   "pc": "",
+   "c": "canals",
+   "len": 305,
+   "prom": 15.7
+  },
+  {
+   "id": "56artillerylane",
+   "n": "56 Artillery Lane",
+   "a": "Spitalfields",
+   "pc": "",
+   "c": "history",
+   "len": 313,
+   "prom": 15.3
+  },
+  {
+   "id": "elderstreet",
+   "n": "Elder Street",
+   "a": "Spitalfields",
+   "pc": "",
+   "c": "history",
+   "len": 298,
+   "prom": 15.1
+  },
+  {
+   "id": "macclesfieldbridge",
+   "n": "Macclesfield Bridge",
+   "a": "Regent's Park",
+   "pc": "",
+   "c": "canals",
+   "len": 292,
+   "prom": 15.1
+  },
+  {
+   "id": "tobaccodock",
+   "n": "Tobacco Dock",
+   "a": "Wapping Lane, Wapping",
+   "pc": "",
+   "c": "maritime",
+   "len": 302,
+   "prom": 14.3
+  },
+  {
+   "id": "bradystreetcemetery",
+   "n": "Brady Street Cemetery",
+   "a": "Whitechapel, Tower Hamlets",
+   "pc": "",
+   "c": "death",
+   "len": 282,
+   "prom": 14.1
+  },
+  {
+   "id": "highburyfields",
+   "n": "Highbury Fields",
+   "a": "Highbury",
+   "pc": "",
+   "c": "history",
+   "len": 285,
+   "prom": 13.8
+  },
+  {
+   "id": "olympialondon",
+   "n": "Olympia London",
+   "a": "Hammersmith Road, West Kensington, W14",
+   "pc": "",
+   "c": "history",
+   "len": 331,
+   "prom": 13.2
+  },
+  {
+   "id": "thedimcobuildings",
+   "n": "The Dimco Buildings",
+   "a": "Wood Lane, White City, W12",
+   "pc": "",
+   "c": "history",
+   "len": 337,
+   "prom": 12.4
+  },
+  {
+   "id": "bushtheatreoldpassmoreed",
+   "n": "Bush Theatre (old Passmore Edwards Library)",
+   "a": "Uxbridge Road, Shepherd's Bush, W12",
+   "pc": "",
+   "c": "literary",
+   "len": 318,
+   "prom": 12.2
+  },
+  {
+   "id": "poeplaquestokenewington",
+   "n": "Poe Plaque, Stoke Newington",
+   "a": "Stoke Newington, Hackney",
+   "pc": "",
+   "c": "literary",
+   "len": 284,
+   "prom": 12.2
+  },
+  {
+   "id": "eventimapollohammersmith",
+   "n": "Eventim Apollo (Hammersmith Odeon)",
+   "a": "Queen Caroline Street, Hammersmith",
+   "pc": "",
+   "c": "artdeco",
+   "len": 331,
+   "prom": 12.1
+  },
+  {
+   "id": "lyrichammersmith",
+   "n": "Lyric Hammersmith",
+   "a": "Lyric Square, King Street, Hammersmith",
+   "pc": "",
+   "c": "history",
+   "len": 334,
+   "prom": 12
+  },
+  {
+   "id": "phonicarecords",
+   "n": "Phonica Records",
+   "a": "Poland Street, Soho",
+   "pc": "",
+   "c": "vinyl",
+   "len": 303,
+   "prom": 12
+  },
+  {
+   "id": "marshallstreetleisurecen",
+   "n": "Marshall Street Leisure Centre",
+   "a": "Soho",
+   "pc": "",
+   "c": "lido",
+   "len": 317,
+   "prom": 12
+  },
+  {
+   "id": "fitzroytavern",
+   "n": "Fitzroy Tavern",
+   "a": "Fitzrovia, Camden",
+   "pc": "",
+   "c": "pub",
+   "len": 288,
+   "prom": 11.7
+  },
+  {
+   "id": "stdunstaninthewestclock",
+   "n": "St Dunstan-in-the-West Clock",
+   "a": "Fleet Street",
+   "pc": "",
+   "c": "oddity",
+   "len": 326,
+   "prom": 11.6
+  },
+  {
+   "id": "limehousecut",
+   "n": "Limehouse Cut",
+   "a": "Limehouse",
+   "pc": "",
+   "c": "canals",
+   "len": 288,
+   "prom": 11.6
+  },
+  {
+   "id": "shaperorarebooks",
+   "n": "Shapero Rare Books",
+   "a": "New Bond Street, Mayfair",
+   "pc": "",
+   "c": "bookshops",
+   "len": 316,
+   "prom": 11.5
+  },
+  {
+   "id": "wienerlibrary",
+   "n": "Wiener Library",
+   "a": "Bloomsbury",
+   "pc": "",
+   "c": "archive",
+   "len": 300,
+   "prom": 11.4
+  },
+  {
+   "id": "thehorsehospital",
+   "n": "The Horse Hospital",
+   "a": "Bloomsbury",
+   "pc": "",
+   "c": "oddity",
+   "len": 265,
+   "prom": 11.3
+  },
+  {
+   "id": "stbridelibrary",
+   "n": "St Bride Library",
+   "a": "Fleet Street",
+   "pc": "",
+   "c": "archive",
+   "len": 294,
+   "prom": 11.3
+  },
+  {
+   "id": "hmprisonwormwoodscrubs",
+   "n": "HM Prison Wormwood Scrubs",
+   "a": "Du Cane Road, East Acton, W12",
+   "pc": "",
+   "c": "history",
+   "len": 330,
+   "prom": 11.1
+  },
+  {
+   "id": "skoobbooks",
+   "n": "Skoob Books",
+   "a": "Brunswick Centre, Bloomsbury",
+   "pc": "",
+   "c": "bookshops",
+   "len": 310,
+   "prom": 11.1
+  },
+  {
+   "id": "bleedingheartyard",
+   "n": "Bleeding Heart Yard",
+   "a": "Holborn",
+   "pc": "",
+   "c": "alley",
+   "len": 285,
+   "prom": 11
+  },
+  {
+   "id": "stationershall",
+   "n": "Stationers' Hall",
+   "a": "Blackfriars, City of London",
+   "pc": "",
+   "c": "livery",
+   "len": 279,
+   "prom": 11
+  },
+  {
+   "id": "cutlershall",
+   "n": "Cutlers' Hall",
+   "a": "City",
+   "pc": "",
+   "c": "livery",
+   "len": 305,
+   "prom": 10.9
+  },
+  {
+   "id": "bromleyhall",
+   "n": "Bromley Hall",
+   "a": "Bromley-by-Bow, Tower Hamlets",
+   "pc": "",
+   "c": "medieval",
+   "len": 281,
+   "prom": 10.7
+  },
+  {
+   "id": "vintnershall",
+   "n": "Vintners' Hall",
+   "a": "Upper Thames Street, City",
+   "pc": "",
+   "c": "livery",
+   "len": 273,
+   "prom": 10.6
+  },
+  {
+   "id": "londonmetropolitanarchiv",
+   "n": "London Metropolitan Archives",
+   "a": "Northampton Road, Clerkenwell",
+   "pc": "",
+   "c": "archive",
+   "len": 302,
+   "prom": 10.6
+  },
+  {
+   "id": "clothfair",
+   "n": "Cloth Fair",
+   "a": "West Smithfield, City",
+   "pc": "",
+   "c": "alley",
+   "len": 291,
+   "prom": 10.6
+  },
+  {
+   "id": "dnapierandsonworkssite",
+   "n": "D. Napier & Son works site",
+   "a": "Acton Vale / The Vale, W3",
+   "pc": "",
+   "c": "history",
+   "len": 335,
+   "prom": 10.5
+  },
+  {
+   "id": "skinnershall",
+   "n": "Skinners' Hall",
+   "a": "Dowgate Hill, City",
+   "pc": "",
+   "c": "livery",
+   "len": 297,
+   "prom": 10.5
+  },
+  {
+   "id": "tallowchandlershall",
+   "n": "Tallow Chandlers' Hall",
+   "a": "Dowgate Hill, City",
+   "pc": "",
+   "c": "livery",
+   "len": 310,
+   "prom": 10.4
+  },
+  {
+   "id": "oldewineshades",
+   "n": "Olde Wine Shades",
+   "a": "City",
+   "pc": "",
+   "c": "wine",
+   "len": 260,
+   "prom": 10.2
+  },
+  {
+   "id": "fishmongershall",
+   "n": "Fishmongers' Hall",
+   "a": "City",
+   "pc": "",
+   "c": "livery",
+   "len": 311,
+   "prom": 10.2
+  },
+  {
+   "id": "willesdenjewishcemetery",
+   "n": "Willesden Jewish Cemetery",
+   "a": "Willesden Green, Brent",
+   "pc": "",
+   "c": "death",
+   "len": 281,
+   "prom": 10.1
+  },
+  {
+   "id": "charteredaccountantshall",
+   "n": "Chartered Accountants' Hall",
+   "a": "Moorgate Place, City",
+   "pc": "",
+   "c": "finance",
+   "len": 302,
+   "prom": 10.1
+  },
+  {
+   "id": "royalexchange",
+   "n": "Royal Exchange",
+   "a": "Cornhill, City",
+   "pc": "",
+   "c": "finance",
+   "len": 283,
+   "prom": 10.1
+  },
+  {
+   "id": "goldsmithsalmshouses",
+   "n": "Goldsmiths' Almshouses",
+   "a": "East Churchfield Road, Acton, W3",
+   "pc": "",
+   "c": "almshouses",
+   "len": 328,
+   "prom": 9.9
+  },
+  {
+   "id": "ironmongerrowbaths",
+   "n": "Ironmonger Row Baths",
+   "a": "Norman Street, Islington",
+   "pc": "",
+   "c": "lido",
+   "len": 278,
+   "prom": 9.9
+  },
+  {
+   "id": "dutchchurchaustinfriars",
+   "n": "Dutch Church Austin Friars",
+   "a": "City",
+   "pc": "",
+   "c": "faith",
+   "len": 317,
+   "prom": 9.9
+  },
+  {
+   "id": "stantholinsspire",
+   "n": "St Antholin's Spire",
+   "a": "Sydenham",
+   "pc": "",
+   "c": "follies",
+   "len": 320,
+   "prom": 9.7
+  },
+  {
+   "id": "anchortap",
+   "n": "Anchor Tap",
+   "a": "Bermondsey",
+   "pc": "",
+   "c": "pub",
+   "len": 289,
+   "prom": 9.4
+  },
+  {
+   "id": "soapsudsislandsouthacton",
+   "n": "Soapsuds Island (South Acton)",
+   "a": "South Acton, W3",
+   "pc": "",
+   "c": "history",
+   "len": 325,
+   "prom": 8.9
+  },
+  {
+   "id": "whitechapelgallery",
+   "n": "Whitechapel Gallery",
+   "a": "Whitechapel",
+   "pc": "",
+   "c": "museum",
+   "len": 289,
+   "prom": 8.9
+  },
+  {
+   "id": "hoxtonstreetmonstersuppl",
+   "n": "Hoxton Street Monster Supplies",
+   "a": "Hoxton",
+   "pc": "",
+   "c": "oddity",
+   "len": 323,
+   "prom": 8.8
+  },
+  {
+   "id": "caledonianparkclocktower",
+   "n": "Caledonian Park Clock Tower",
+   "a": "Barnsbury / Holloway",
+   "pc": "",
+   "c": "view",
+   "len": 312,
+   "prom": 8.6
+  },
+  {
+   "id": "actontownstation",
+   "n": "Acton Town station",
+   "a": "Gunnersbury Lane, Acton Town, W3",
+   "pc": "",
+   "c": "artdeco",
+   "len": 335,
+   "prom": 8.5
+  },
+  {
+   "id": "twyfordabbey",
+   "n": "Twyford Abbey",
+   "a": "Park Royal, NW10",
+   "pc": "",
+   "c": "follies",
+   "len": 337,
+   "prom": 7.7
+  },
+  {
+   "id": "supertonerecords",
+   "n": "Supertone Records",
+   "a": "Brixton",
+   "pc": "",
+   "c": "vinyl",
+   "len": 297,
+   "prom": 7.7
+  },
+  {
+   "id": "arnosgrovestation",
+   "n": "Arnos Grove Station",
+   "a": "Arnos Grove, Enfield",
+   "pc": "",
+   "c": "history",
+   "len": 301,
+   "prom": 7.3
+  },
+  {
+   "id": "syonhouse",
+   "n": "Syon House",
+   "a": "Syon Park, Brentford / Isleworth",
+   "pc": "",
+   "c": "history",
+   "len": 322,
+   "prom": 7
+  },
+  {
+   "id": "thegreatconservatorysyon",
+   "n": "The Great Conservatory, Syon Park",
+   "a": "Syon Park, Brentford",
+   "pc": "",
+   "c": "follies",
+   "len": 340,
+   "prom": 7
+  },
+  {
+   "id": "lotsait",
+   "n": "Lot's Ait",
+   "a": "Brentford, River Thames",
+   "pc": "",
+   "c": "maritime",
+   "len": 316,
+   "prom": 7
+  },
+  {
+   "id": "thebrentfordmonument",
+   "n": "The Brentford Monument",
+   "a": "High Street, Brentford",
+   "pc": "",
+   "c": "history",
+   "len": 324,
+   "prom": 7
+  },
+  {
+   "id": "thameslockbrentford",
+   "n": "Thames Lock, Brentford",
+   "a": "Brentford Dock, Grand Union Canal",
+   "pc": "",
+   "c": "canals",
+   "len": 327,
+   "prom": 7
+  },
+  {
+   "id": "marblehillhouse",
+   "n": "Marble Hill House",
+   "a": "Marble Hill, Twickenham",
+   "pc": "",
+   "c": "history",
+   "len": 324,
+   "prom": 7
+  },
+  {
+   "id": "richmondpalacegatehouseo",
+   "n": "Richmond Palace Gate House (Old Palace)",
+   "a": "Old Palace Yard, Richmond Green",
+   "pc": "",
+   "c": "history",
+   "len": 340,
+   "prom": 7
+  },
+  {
+   "id": "richmondtheatre",
+   "n": "Richmond Theatre",
+   "a": "Little Green, Richmond",
+   "pc": "",
+   "c": "history",
+   "len": 313,
+   "prom": 7
+  },
+  {
+   "id": "royalstarandgarterhome",
+   "n": "Royal Star and Garter Home",
+   "a": "Richmond Hill",
+   "pc": "",
+   "c": "history",
+   "len": 336,
+   "prom": 7
+  },
+  {
+   "id": "thegreatpagodakew",
+   "n": "The Great Pagoda, Kew",
+   "a": "Royal Botanic Gardens, Kew",
+   "pc": "",
+   "c": "follies",
+   "len": 324,
+   "prom": 7
+  },
+  {
+   "id": "dollisbrookviaduct",
+   "n": "Dollis Brook Viaduct",
+   "a": "West Finchley, Barnet",
+   "pc": "",
+   "c": "history",
+   "len": 290,
+   "prom": 7
+  },
+  {
+   "id": "croftonromanvilla",
+   "n": "Crofton Roman Villa",
+   "a": "Orpington",
+   "pc": "",
+   "c": "roman",
+   "len": 314,
+   "prom": 7
+  },
+  {
+   "id": "redhouse",
+   "n": "Red House",
+   "a": "Bexleyheath",
+   "pc": "",
+   "c": "history",
+   "len": 297,
+   "prom": 7
+  },
+  {
+   "id": "wellhallpleasaunce",
+   "n": "Well Hall Pleasaunce",
+   "a": "Eltham",
+   "pc": "",
+   "c": "history",
+   "len": 319,
+   "prom": 7
+  },
+  {
+   "id": "harmondsworthgreatbarn",
+   "n": "Harmondsworth Great Barn",
+   "a": "Harmondsworth, Hillingdon",
+   "pc": "",
+   "c": "medieval",
+   "len": 270,
+   "prom": 7
+  },
+  {
+   "id": "downhouse",
+   "n": "Down House",
+   "a": "Downe, Bromley",
+   "pc": "",
+   "c": "history",
+   "len": 238,
+   "prom": 7
+  },
+  {
+   "id": "oldpalaceofcroydon",
+   "n": "Old Palace of Croydon",
+   "a": "Old Town, Croydon",
+   "pc": "",
+   "c": "medieval",
+   "len": 228,
+   "prom": 7
+  },
+  {
+   "id": "carshaltonwatertower",
+   "n": "Carshalton Water Tower",
+   "a": "Carshalton, Sutton",
+   "pc": "",
+   "c": "follies",
+   "len": 279,
+   "prom": 7
+  },
+  {
+   "id": "surbitonstation",
+   "n": "Surbiton Station",
+   "a": "Surbiton, Kingston upon Thames",
+   "pc": "",
+   "c": "artdeco",
+   "len": 277,
+   "prom": 7
+  },
+  {
+   "id": "hallplace",
+   "n": "Hall Place",
+   "a": "Bexley",
+   "pc": "",
+   "c": "history",
+   "len": 304,
+   "prom": 7
+  },
+  {
+   "id": "rainhamhall",
+   "n": "Rainham Hall",
+   "a": "Rainham, Havering",
+   "pc": "",
+   "c": "history",
+   "len": 281,
+   "prom": 7
+  },
+  {
+   "id": "walthamforesttownhall",
+   "n": "Waltham Forest Town Hall",
+   "a": "Walthamstow",
+   "pc": "",
+   "c": "artdeco",
+   "len": 283,
+   "prom": 7
+  },
+  {
+   "id": "manorfarmruislip",
+   "n": "Manor Farm, Ruislip",
+   "a": "Ruislip, Hillingdon",
+   "pc": "",
+   "c": "medieval",
+   "len": 261,
+   "prom": 7
+  },
+  {
+   "id": "haveringattebower",
+   "n": "Havering-atte-Bower",
+   "a": "Havering-atte-Bower, Havering",
+   "pc": "",
+   "c": "history",
+   "len": 283,
+   "prom": 7
+  },
+  {
+   "id": "gillespieparknaturereser",
+   "n": "Gillespie Park Nature Reserve",
+   "a": "Highbury",
+   "pc": "",
+   "c": "green",
+   "len": 316,
+   "prom": 6.9
+  },
+  {
+   "id": "hollyvillage",
+   "n": "Holly Village",
+   "a": "Highgate",
+   "pc": "",
+   "c": "oddity",
+   "len": 311,
+   "prom": 6.7
+  },
+  {
+   "id": "stpaulsgirlsschool",
+   "n": "St Paul's Girls' School",
+   "a": "Brook Green, Hammersmith, W6",
+   "pc": "",
+   "c": "music",
+   "len": 324,
+   "prom": 6.6
+  },
+  {
+   "id": "brookgreen",
+   "n": "Brook Green",
+   "a": "Brook Green, Hammersmith, W6",
+   "pc": "",
+   "c": "green",
+   "len": 324,
+   "prom": 6.6
+  },
+  {
+   "id": "fentonhouse",
+   "n": "Fenton House",
+   "a": "Hampstead, Camden",
+   "pc": "",
+   "c": "museum",
+   "len": 283,
+   "prom": 6.2
+  },
+  {
+   "id": "stpaulschurchhammersmith",
+   "n": "St Paul's Church, Hammersmith",
+   "a": "Queen Caroline Street, Hammersmith",
+   "pc": "",
+   "c": "faith",
+   "len": 337,
+   "prom": 6
+  },
+  {
+   "id": "bushhall",
+   "n": "Bush Hall",
+   "a": "Uxbridge Road, Shepherd's Bush, W12",
+   "pc": "",
+   "c": "music",
+   "len": 282,
+   "prom": 5.8
+  },
+  {
+   "id": "riversidestudios",
+   "n": "Riverside Studios",
+   "a": "Crisp Road, Hammersmith",
+   "pc": "",
+   "c": "film",
+   "len": 338,
+   "prom": 5.7
+  },
+  {
+   "id": "goldsmithscentreforconte",
+   "n": "Goldsmiths Centre for Contemporary Art",
+   "a": "New Cross",
+   "pc": "",
+   "c": "museum",
+   "len": 313,
+   "prom": 5.7
+  },
+  {
+   "id": "theblueanchor",
+   "n": "The Blue Anchor",
+   "a": "13 Lower Mall, Hammersmith",
+   "pc": "",
+   "c": "pub",
+   "len": 332,
+   "prom": 5.6
+  },
+  {
+   "id": "furnivalgardens",
+   "n": "Furnival Gardens",
+   "a": "Lower Mall, Hammersmith",
+   "pc": "",
+   "c": "green",
+   "len": 339,
+   "prom": 5.5
+  },
+  {
+   "id": "crossrailplaceroofgarden",
+   "n": "Crossrail Place Roof Garden",
+   "a": "Canary Wharf, Tower Hamlets",
+   "pc": "",
+   "c": "green",
+   "len": 289,
+   "prom": 5.4
+  },
+  {
+   "id": "emerywalkershouse",
+   "n": "Emery Walker's House",
+   "a": "7 Hammersmith Terrace, Hammersmith",
+   "pc": "",
+   "c": "museum",
+   "len": 333,
+   "prom": 4.8
+  },
+  {
+   "id": "highgatewood",
+   "n": "Highgate Wood",
+   "a": "Muswell Hill, Haringey",
+   "pc": "",
+   "c": "green",
+   "len": 278,
+   "prom": 4.5
+  },
+  {
+   "id": "middlesexfilterbeds",
+   "n": "Middlesex Filter Beds",
+   "a": "Clapton",
+   "pc": "",
+   "c": "green",
+   "len": 284,
+   "prom": 4.5
+  },
+  {
+   "id": "londontransportmuseumdep",
+   "n": "London Transport Museum Depot",
+   "a": "Gunnersbury Lane, Acton Town, W3",
+   "pc": "",
+   "c": "museum",
+   "len": 328,
+   "prom": 2.5
+  },
+  {
+   "id": "actoncountygrammarschool",
+   "n": "Acton County Grammar School site (The Who)",
+   "a": "Gunnersbury Lane, Acton, W3",
+   "pc": "",
+   "c": "music",
+   "len": 335,
+   "prom": 2.4
+  },
+  {
+   "id": "thebullsheadstrandontheg",
+   "n": "The Bull's Head, Strand-on-the-Green",
+   "a": "Strand-on-the-Green, Chiswick",
+   "pc": "",
+   "c": "pub",
+   "len": 323,
+   "prom": 2.3
+  },
+  {
+   "id": "thecitybarge",
+   "n": "The City Barge",
+   "a": "Strand-on-the-Green, Chiswick",
+   "pc": "",
+   "c": "pub",
+   "len": 318,
+   "prom": 2.2
+  },
+  {
+   "id": "gunnersburyparkandmuseum",
+   "n": "Gunnersbury Park & Museum",
+   "a": "Popes Lane, Gunnersbury / Acton",
+   "pc": "",
+   "c": "museum",
+   "len": 336,
+   "prom": 1.9
+  },
+  {
+   "id": "stanneschurchkewgreen",
+   "n": "St Anne's Church, Kew Green",
+   "a": "Kew Green, Kew",
+   "pc": "",
+   "c": "faith",
+   "len": 319,
+   "prom": 1.6
+  },
+  {
+   "id": "theoriginalmaidsofhonour",
+   "n": "The Original Maids of Honour",
+   "a": "288 Kew Road, Kew",
+   "pc": "",
+   "c": "bakery",
+   "len": 319,
+   "prom": 1.5
+  },
+  {
+   "id": "thehivekew",
+   "n": "The Hive, Kew",
+   "a": "Royal Botanic Gardens, Kew",
+   "pc": "",
+   "c": "oddity",
+   "len": 334,
+   "prom": 1.4
+  },
+  {
+   "id": "williammorrisgallery",
+   "n": "William Morris Gallery",
+   "a": "Walthamstow",
+   "pc": "",
+   "c": "museum",
+   "len": 314,
+   "prom": 1.1
+  },
+  {
+   "id": "watermanspark",
+   "n": "Watermans Park",
+   "a": "High Street, Brentford",
+   "pc": "",
+   "c": "green",
+   "len": 315,
+   "prom": 1
+  },
+  {
+   "id": "stlawrenceschurchformer",
+   "n": "St Lawrence's Church (former)",
+   "a": "High Street, New Brentford",
+   "pc": "",
+   "c": "faith",
+   "len": 324,
+   "prom": 1
+  },
+  {
+   "id": "theviewfromrichmondhill",
+   "n": "The View from Richmond Hill",
+   "a": "Richmond Hill / Terrace Walk",
+   "pc": "",
+   "c": "view",
+   "len": 333,
+   "prom": 1
+  },
+  {
+   "id": "thewhitecross",
+   "n": "The White Cross",
+   "a": "Riverside, off Water Lane, Richmond",
+   "pc": "",
+   "c": "pub",
+   "len": 336,
+   "prom": 1
+  },
+  {
+   "id": "petershamnurseries",
+   "n": "Petersham Nurseries",
+   "a": "Church Lane, Petersham",
+   "pc": "",
+   "c": "green",
+   "len": 326,
+   "prom": 1
+  },
+  {
+   "id": "thelondonapprentice",
+   "n": "The London Apprentice",
+   "a": "Church Street, Old Isleworth",
+   "pc": "",
+   "c": "pub",
+   "len": 326,
+   "prom": 1
+  },
+  {
+   "id": "beckenhamplaceparklake",
+   "n": "Beckenham Place Park Lake",
+   "a": "Beckenham, Lewisham",
+   "pc": "",
+   "c": "lido",
+   "len": 279,
+   "prom": 1
+  },
+  {
+   "id": "charltonlido",
+   "n": "Charlton Lido",
+   "a": "Shooters Hill Road, Charlton",
+   "pc": "",
+   "c": "lido",
+   "len": 296,
+   "prom": 1
+  },
+  {
+   "id": "bethlemmuseumofthemind",
+   "n": "Bethlem Museum of the Mind",
+   "a": "Monks Orchard, Bromley",
+   "pc": "",
+   "c": "museum",
+   "len": 294,
+   "prom": 1
+  }
+ ],
+ "hide": [
+  {
+   "id": "frenchhouse",
+   "n": "The French House",
+   "a": "Dean Street",
+   "c": "history",
+   "len": 285
+  },
+  {
+   "id": "jjfox",
+   "n": "James J. Fox, Cigar Merchant",
+   "a": "St James's",
+   "c": "history",
+   "len": 447
+  },
+  {
+   "id": "aldwych-station",
+   "n": "Aldwych Underground Station",
+   "a": "Strand",
+   "c": "history",
+   "len": 356
+  },
+  {
+   "id": "thegurkhasoldier",
+   "n": "The Gurkha Soldier",
+   "a": "",
+   "c": "history",
+   "len": 313
+  },
+  {
+   "id": "leconfield",
+   "n": "Leconfield House (old MI5 HQ)",
+   "a": "Mayfair",
+   "c": "history",
+   "len": 469
+  },
+  {
+   "id": "giltwatch",
+   "n": "The Watch House, Giltspur Street",
+   "a": "Smithfield",
+   "c": "death",
+   "len": 408
+  },
+  {
+   "id": "doggettrace",
+   "n": "Doggett's Coat & Badge Race",
+   "a": "London Bridge",
+   "c": "history",
+   "len": 415
+  },
+  {
+   "id": "towersubway",
+   "n": "Tower Subway",
+   "a": "Tower Hill",
+   "c": "history",
+   "len": 488
+  },
+  {
+   "id": "stleonards",
+   "n": "St Leonard's Shoreditch",
+   "a": "Shoreditch",
+   "c": "history",
+   "len": 299
+  },
+  {
+   "id": "boundaryestate",
+   "n": "Boundary Estate & Arnold Circus",
+   "a": "Shoreditch",
+   "c": "history",
+   "len": 287
+  },
+  {
+   "id": "peterpanstatue",
+   "n": "Peter Pan Statue",
+   "a": "",
+   "c": "streetart",
+   "len": 96
+  },
+  {
+   "id": "electricavenue",
+   "n": "Electric Avenue",
+   "a": "Brixton",
+   "c": "history",
+   "len": 385
+  },
+  {
+   "id": "hippodrome",
+   "n": "St John's & the lost racecourse",
+   "a": "Ladbroke Grove",
+   "c": "history",
+   "len": 283
+  },
+  {
+   "id": "linastores",
+   "n": "Lina Stores",
+   "a": "Brewer Street",
+   "c": "food",
+   "len": 229
+  },
+  {
+   "id": "xingfutang",
+   "n": "Xing Fu Tang",
+   "a": "Frith Street",
+   "c": "boba",
+   "len": 214
+  },
+  {
+   "id": "machimachi",
+   "n": "Machi Machi",
+   "a": "Wardour Street",
+   "c": "boba",
+   "len": 201
+  },
+  {
+   "id": "monmouth",
+   "n": "Monmouth Coffee",
+   "a": "Covent Garden",
+   "c": "coffee",
+   "len": 295
+  },
+  {
+   "id": "quovadis",
+   "n": "Quo Vadis / Marx's garret",
+   "a": "28 Dean Street",
+   "c": "food",
+   "len": 279
+  },
+  {
+   "id": "berwick",
+   "n": "Berwick Street",
+   "a": "Soho",
+   "c": "pop",
+   "len": 253
+  },
+  {
+   "id": "denmark",
+   "n": "Denmark Street",
+   "a": "St Giles",
+   "c": "music",
+   "len": 259
+  },
+  {
+   "id": "dishoom",
+   "n": "Dishoom Carnaby",
+   "a": "Kingly Street",
+   "c": "brunch",
+   "len": 222
+  },
+  {
+   "id": "hunterian",
+   "n": "Hunterian Museum",
+   "a": "Holborn",
+   "c": "oddity",
+   "len": 358
+  },
+  {
+   "id": "regency-cafe-westminster",
+   "n": "Regency Café",
+   "a": "Westminster",
+   "c": "caff",
+   "len": 227
+  },
+  {
+   "id": "bryantmay",
+   "n": "Bryant & May / Bow Quarter",
+   "a": "Bow",
+   "c": "history",
+   "len": 308
+  },
+  {
+   "id": "fleetgrating",
+   "n": "The Fleet Beneath Ray Street",
+   "a": "Clerkenwell",
+   "c": "oddity",
+   "len": 308
+  },
+  {
+   "id": "stjohn",
+   "n": "St. JOHN Smithfield",
+   "a": "St John Street",
+   "c": "food",
+   "len": 284
+  },
+  {
+   "id": "globe-tavern-bridget",
+   "n": "The Globe Tavern",
+   "a": "Borough Market, SE1",
+   "c": "film",
+   "len": 220
+  },
+  {
+   "id": "rosslyn",
+   "n": "Rosslyn Coffee",
+   "a": "The City",
+   "c": "coffee",
+   "len": 218
+  },
+  {
+   "id": "barbicancons",
+   "n": "Barbican Conservatory",
+   "a": "Barbican",
+   "c": "green",
+   "len": 293
+  },
+  {
+   "id": "sadlerswells",
+   "n": "Sadler's Wells",
+   "a": "Clerkenwell",
+   "c": "music",
+   "len": 306
+  },
+  {
+   "id": "tulip-stairs",
+   "n": "The Tulip Stairs",
+   "a": "Queen's House, Greenwich",
+   "c": "history",
+   "len": 332
+  },
+  {
+   "id": "watermenshall",
+   "n": "Watermen’s Hall",
+   "a": "City of London",
+   "c": "livery",
+   "len": 356
+  },
+  {
+   "id": "arments-walworth",
+   "n": "Arment's Pie & Mash",
+   "a": "Walworth",
+   "c": "pieandmash",
+   "len": 207
+  },
+  {
+   "id": "littleportugal",
+   "n": "Little Portugal, South Lambeth Road",
+   "a": "Stockwell",
+   "c": "diaspora",
+   "len": 399
+  },
+  {
+   "id": "oddonos-south-ken",
+   "n": "Oddono's",
+   "a": "South Kensington",
+   "c": "bakery",
+   "len": 229
+  },
+  {
+   "id": "brat",
+   "n": "Brat",
+   "a": "Shoreditch",
+   "c": "food",
+   "len": 221
+  },
+  {
+   "id": "rochellecanteen",
+   "n": "Rochelle Canteen",
+   "a": "Shoreditch",
+   "c": "food",
+   "len": 292
+  },
+  {
+   "id": "beigel",
+   "n": "Beigel Bake",
+   "a": "Brick Lane",
+   "c": "food",
+   "len": 311
+  },
+  {
+   "id": "abbeyroad",
+   "n": "Abbey Road Crossing",
+   "a": "St John's Wood",
+   "c": "music",
+   "len": 290
+  },
+  {
+   "id": "beam",
+   "n": "Beam",
+   "a": "Notting Hill",
+   "c": "brunch",
+   "len": 217
+  },
+  {
+   "id": "stlukes",
+   "n": "St Luke's Mews",
+   "a": "Notting Hill",
+   "c": "pop",
+   "len": 236
+  },
+  {
+   "id": "thebayswaterarms",
+   "n": "The Bayswater Arms",
+   "a": "",
+   "c": "pub",
+   "len": 143
+  },
+  {
+   "id": "strummer",
+   "n": "Joe Strummer mural, Portobello Green",
+   "a": "Under the Westway",
+   "c": "music",
+   "len": 276
+  },
+  {
+   "id": "dustyknuckle",
+   "n": "The Dusty Knuckle",
+   "a": "Dalston",
+   "c": "brunch",
+   "len": 302
+  },
+  {
+   "id": "mangal1",
+   "n": "Mangal 1 (Ocakbaşı)",
+   "a": "Dalston",
+   "c": "food",
+   "len": 294
+  },
+  {
+   "id": "highburysq",
+   "n": "Highbury Square (Arsenal Stadium)",
+   "a": "Highbury",
+   "c": "stadium",
+   "len": 352
+  },
+  {
+   "id": "carewmanor",
+   "n": "Carew Manor & Dovecote",
+   "a": "Beddington",
+   "c": "follies",
+   "len": 439
+  },
+  {
+   "id": "mertonpriorychapterhouse",
+   "n": "Merton Priory Chapter House",
+   "a": "",
+   "c": "history",
+   "len": 273
+  },
+  {
+   "id": "boldcafe",
+   "n": "Bold Cafe (Fleabag's Cafe)",
+   "a": "Dartmouth Park",
+   "c": "film",
+   "len": 340
+  },
+  {
+   "id": "alleywc",
+   "n": "The Alley — White City",
+   "a": "Westfield London",
+   "c": "boba",
+   "len": 264
+  },
+  {
+   "id": "raggedschool",
+   "n": "Ragged School Museum",
+   "a": "Mile End",
+   "c": "museum",
+   "len": 329
+  },
+  {
+   "id": "thesassoongallery",
+   "n": "The Sassoon Gallery",
+   "a": "",
+   "c": "museum",
+   "len": 95
+  },
+  {
+   "id": "dianafountain",
+   "n": "Diana Fountain",
+   "a": "",
+   "c": "streetart",
+   "len": 275
+  },
+  {
+   "id": "ruinedarch",
+   "n": "Ruined Arch",
+   "a": "",
+   "c": "follies",
+   "len": 101
+  },
+  {
+   "id": "walterdelamare",
+   "n": "Walter de la Mare",
+   "a": "",
+   "c": "plaque",
+   "len": 101
+  },
+  {
+   "id": "lullingstoneromanvilla",
+   "n": "Lullingstone Roman Villa",
+   "a": "",
+   "c": "roman",
+   "len": 284
+  },
+  {
+   "id": "spitfirepilotmemorial",
+   "n": "Spitfire Pilot Memorial",
+   "a": "",
+   "c": "history",
+   "len": 28
+  },
+  {
+   "id": "romanvilla",
+   "n": "Roman Villa",
+   "a": "",
+   "c": "roman",
+   "len": 24
+  },
+  {
+   "id": "saintanneswell",
+   "n": "Saint Anne's Well",
+   "a": "",
+   "c": "history",
+   "len": 145
+  },
+  {
+   "id": "muslimburialgroundhorsel",
+   "n": "Muslim Burial Ground, Horsell Common",
+   "a": "",
+   "c": "death",
+   "len": 302
+  },
+  {
+   "id": "greatfosters",
+   "n": "Great Fosters",
+   "a": "",
+   "c": "history",
+   "len": 235
+  },
+  {
+   "id": "bellbarrowanddiscbarrowo",
+   "n": "Bell barrow and disc barrow on Horsell Common",
+   "a": "",
+   "c": "history",
+   "len": 63
+  },
+  {
+   "id": "bellbarrowonhorsellcommo",
+   "n": "Bell barrow on Horsell Common immediately east of Monument Road",
+   "a": "",
+   "c": "history",
+   "len": 63
+  },
+  {
+   "id": "memorialstoneforsiteofro",
+   "n": "Memorial Stone For Site Of Roman Road",
+   "a": "",
+   "c": "history",
+   "len": 69
+  },
+  {
+   "id": "ashwood",
+   "n": "Ashwood",
+   "a": "",
+   "c": "history",
+   "len": 73
+  },
+  {
+   "id": "mollondocklands",
+   "n": "Museum of London Docklands",
+   "a": "West India Quay",
+   "c": "museum",
+   "len": 337
+  },
+  {
+   "id": "bishops",
+   "n": "Bishop's Park & Fulham Palace",
+   "a": "Fulham",
+   "c": "green",
+   "len": 256
+  },
+  {
+   "id": "posk",
+   "n": "POSK — Polish Social & Cultural Centre",
+   "a": "Hammersmith",
+   "c": "diaspora",
+   "len": 292
+  },
+  {
+   "id": "greenwich-foot-tunnel",
+   "n": "Greenwich Foot Tunnel",
+   "a": "Cutty Sark Gardens",
+   "c": "oddity",
+   "len": 344
+  },
+  {
+   "id": "tooting-bec-lido",
+   "n": "Tooting Bec Lido",
+   "a": "Tooting",
+   "c": "lido",
+   "len": 235
+  },
+  {
+   "id": "no8sevensisters",
+   "n": "No.8 Seven Sisters",
+   "a": "",
+   "c": "pub",
+   "len": 127
+  },
+  {
+   "id": "rangers-house-bridgerton",
+   "n": "Ranger's House",
+   "a": "Greenwich, SE10",
+   "c": "film",
+   "len": 259
+  },
+  {
+   "id": "watersteammuseum",
+   "n": "London Museum of Water & Steam",
+   "a": "Brentford",
+   "c": "museum",
+   "len": 361
+  },
+  {
+   "id": "tudorbarn",
+   "n": "Tudor Barn Eltham",
+   "a": "Eltham",
+   "c": "pub",
+   "len": 418
+  },
+  {
+   "id": "totteridgeyew",
+   "n": "The Totteridge Yew",
+   "a": "Totteridge",
+   "c": "green",
+   "len": 447
+  },
+  {
+   "id": "princes-head-ted-lasso",
+   "n": "The Prince's Head",
+   "a": "Richmond Green, TW9",
+   "c": "film",
+   "len": 207
+  },
+  {
+   "id": "cahchi",
+   "n": "Cah Chi",
+   "a": "New Malden",
+   "c": "food",
+   "len": 383
+  },
+  {
+   "id": "myddeltonhouse",
+   "n": "Myddelton House Gardens",
+   "a": "Enfield",
+   "c": "green",
+   "len": 389
+  },
+  {
+   "id": "concretebarges",
+   "n": "The Concrete Barges",
+   "a": "Rainham",
+   "c": "oddity",
+   "len": 326
+  },
+  {
+   "id": "stpaulscentre",
+   "n": "St Paul's Centre",
+   "a": "",
+   "c": "faith",
+   "len": 17
+  },
+  {
+   "id": "harlingtonbaptistchurch",
+   "n": "Harlington Baptist Church",
+   "a": "",
+   "c": "faith",
+   "len": 88
+  },
+  {
+   "id": "shahjahanmosque",
+   "n": "Shah Jahan Mosque",
+   "a": "",
+   "c": "faith",
+   "len": 243
+  },
+  {
+   "id": "horsellcommon",
+   "n": "Horsell Common",
+   "a": "",
+   "c": "oddity",
+   "len": 305
+  },
+  {
+   "id": "mclarentechnologycentre",
+   "n": "McLaren Technology Centre",
+   "a": "",
+   "c": "oddity",
+   "len": 163
+  },
+  {
+   "id": "wokinghundred",
+   "n": "Woking Hundred",
+   "a": "",
+   "c": "oddity",
+   "len": 173
+  },
+  {
+   "id": "stdunstanschurchwoking",
+   "n": "St Dunstan's Church, Woking",
+   "a": "",
+   "c": "faith",
+   "len": 287
+  },
+  {
+   "id": "hoeplace",
+   "n": "Hoe Place",
+   "a": "",
+   "c": "oddity",
+   "len": 67
+  },
+  {
+   "id": "royaldramaticcollege",
+   "n": "Royal Dramatic College",
+   "a": "",
+   "c": "oddity",
+   "len": 193
+  },
+  {
+   "id": "hoestream",
+   "n": "Hoe Stream",
+   "a": "",
+   "c": "oddity",
+   "len": 34
+  },
+  {
+   "id": "westendfarm",
+   "n": "West End Farm",
+   "a": "",
+   "c": "oddity",
+   "len": 69
+  },
+  {
+   "id": "sendholme",
+   "n": "Sendholme",
+   "a": "",
+   "c": "oddity",
+   "len": 75
+  },
+  {
+   "id": "hazlewood",
+   "n": "Hazlewood",
+   "a": "",
+   "c": "oddity",
+   "len": 69
+  },
+  {
+   "id": "greenways",
+   "n": "Greenways",
+   "a": "",
+   "c": "oddity",
+   "len": 66
+  },
+  {
+   "id": "thorpeinterchange",
+   "n": "Thorpe Interchange",
+   "a": "",
+   "c": "oddity",
+   "len": 124
+  },
+  {
+   "id": "whiteroselane",
+   "n": "White Rose Lane",
+   "a": "",
+   "c": "green",
+   "len": 305
+  },
+  {
+   "id": "thetallyho",
+   "n": "The Tally Ho",
+   "a": "",
+   "c": "pub",
+   "len": 286
+  },
+  {
+   "id": "xcelleisurecentre",
+   "n": "Xcel Leisure Centre",
+   "a": "",
+   "c": "oddity",
+   "len": 28
+  },
+  {
+   "id": "thecrown",
+   "n": "The Crown",
+   "a": "",
+   "c": "pub",
+   "len": 107
+  },
+  {
+   "id": "queenshead",
+   "n": "Queen's Head",
+   "a": "",
+   "c": "pub",
+   "len": 170
+  },
+  {
+   "id": "theshanakee",
+   "n": "The Shanakee",
+   "a": "",
+   "c": "pub",
+   "len": 159
+  },
+  {
+   "id": "thelordpalmerston",
+   "n": "The Lord Palmerston",
+   "a": "",
+   "c": "pub",
+   "len": 159
+  },
+  {
+   "id": "thekingharold",
+   "n": "The King Harold",
+   "a": "",
+   "c": "pub",
+   "len": 133
+  }
+ ]
+}
