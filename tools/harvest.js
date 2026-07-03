@@ -115,6 +115,26 @@ async function main() {
   const c = model.cityById.get(city);
   if (!c) { console.error(`unknown city "${city}"`); process.exit(1); }
 
+  // --from-lake: skip SPARQL/pageviews, build dossiers from the existing lake only
+  if (process.argv.includes("--from-lake")) {
+    const lakePath = path.join(LAKE, city + ".json");
+    if (!fs.existsSync(lakePath)) { console.error(`no lake for ${city} — run harvest first`); process.exit(1); }
+    const lake = JSON.parse(fs.readFileSync(lakePath, "utf8"));
+    const top = lake.slice(0, +argVal("--dossiers", 30));
+    console.error(`dossiers from lake · ${city} · top ${top.length}`);
+    const dos = await mapLimit(top, 3, (x) => dossierFor(x));
+    const bundle = top.map((x, i) => ({
+      qid: x.qid, n: x.n, lat: x.lat, lng: x.lng, article: x.article,
+      pageviews: x.pageviews, sitelinks: x.sitelinks, types: (x.types || []).slice(0, 4),
+      description: dos[i]?.description || "", extract: (dos[i]?.extract || "").slice(0, 1500),
+    })).filter((x) => x.extract.length > 80);
+    const dpath = path.join(__dirname, "..", "research", "dossiers", city + ".json");
+    fs.mkdirSync(path.dirname(dpath), { recursive: true });
+    fs.writeFileSync(dpath, JSON.stringify(bundle, null, 1));
+    console.error(`  → ${bundle.length} dossiers`);
+    return;
+  }
+
   const Z = require("../data/spots.json");
   const inCity = Z.filter((z) => z.city === city);
   const names = new Set(inCity.map((z) => norm(z.n)));
