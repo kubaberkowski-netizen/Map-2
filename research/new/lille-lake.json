@@ -1,51 +1,38 @@
 [
  {
-  "n": "Zénith de Lille",
-  "a": "Lille Grand Palais",
-  "c": "music",
-  "lat": 50.6336,
-  "lng": 3.07763,
-  "w": "Rem Koolhaas doesn't design many concert venues, but Lille got one in 1994 when the Dutch architect turned to a 7,000-seat arena inside the new Lille Grand Palais complex. Acoustics, scenography and engineering were all farmed out to specialists - a starchitect's arena built by committee, and it still packs them in.",
-  "s": "A Rem Koolhaas-designed arena inside Lille Grand Palais",
-  "_facts": [
-   "Multi-purpose indoor arena seating up to 7,000, part of the Lille Grand Palais complex",
-   "Designed by architect Rem Koolhaas with Cecil Balmond, inaugurated in 1994",
-   "Acoustics by Renz van Luxemburg, scenography by dUCKS scéno, engineering by Arup Group"
-  ],
-  "_sources": ["https://en.wikipedia.org/wiki/Zénith_de_Lille"],
-  "confidence": "high"
+  "n": "Synagogue de Lille",
+  "a": "Rue Auguste Angellie",
+  "c": "faith",
+  "lat": 50.62845,
+  "lng": 3.06543,
+  "w": "A working Ashkenazi synagogue on a quiet residential street a short walk from Lille's old town - modest from the outside, and easy to walk past unless you already know rue Auguste Angellie by name.",
+  "s": "Lille's Ashkenazi synagogue, hiding in plain sight",
+  "_facts": ["Jewish congregation and synagogue at 5 rue Auguste Angellie, Lille", "Congregation worships in the Ashkenazi rite"],
+  "_sources": ["https://en.wikipedia.org/wiki/Lille Synagogue"],
+  "confidence": "thin"
  },
  {
-  "n": "Furet du Nord",
-  "a": "Grand Place",
-  "c": "bookshops",
-  "lat": 50.633,
-  "lng": 3.05,
-  "w": "A fur shop on Rue de la Vieille-Comédie turned into a bookstore in 1936 and kept its name anyway - 'Furet' means ferret, a nod to rabbit-hunting with them. The flagship on the Grand Place, opened in 1959, was the largest bookshop on Earth from 1992 to 1999, and it's still one of the biggest in France.",
-  "s": "The bookshop named after a rabbit-hunting ferret",
-  "_facts": [
-   "Chain of bookstores in the Nord department, tracing back to 1936 when a fur store became a bookshop",
-   "Name refers to the local tradition of rabbit hunting with ferrets ('furet')",
-   "Flagship store on Lille's Grand Place, established 1959",
-   "Was the largest bookstore in the world from 1992 to 1999"
-  ],
-  "_sources": ["https://en.wikipedia.org/wiki/Furet_du_Nord"],
-  "confidence": "high"
+  "n": "Eglise Saint-Etienne",
+  "a": "Rue de l'Hopital Militaire",
+  "c": "faith",
+  "lat": 50.63516,
+  "lng": 3.05979,
+  "w": "One of the largest Jesuit churches in all of France, tucked onto a street named for the military hospital that once stood nearby. It's been a monument historique since 1987, but still gets overshadowed by Lille's bigger-name basilicas and belfries.",
+  "s": "One of France's largest Jesuit churches",
+  "_facts": ["Roman Catholic church on Rue de l'Hopital Militaire in Lille", "Classified monument historique since 1987; one of the largest Jesuit churches in France, dedicated to Saint Stephen"],
+  "_sources": ["https://en.wikipedia.org/wiki/Church of Saint-Etienne, Lille"],
+  "confidence": "medium"
  },
  {
-  "n": "Musée d'Histoire Naturelle de Lille",
-  "a": "Rue de Bruxelles",
-  "c": "museum",
-  "lat": 50.62662,
-  "lng": 3.0667,
-  "w": "Founded in 1822, Lille's natural history museum has spent two centuries quietly absorbing other institutions' orphaned collections - ethnographic pieces from the old Musée Moillet, industrial artifacts from the city's defunct Musée Industriel et Commercial. A cabinet of curiosities built one merger at a time.",
-  "s": "A natural history museum built from other museums' leftovers",
-  "_facts": [
-   "Founded in 1822, houses zoological and geological collections",
-   "Holdings enhanced with ethnographic specimens from the Musée Moillet",
-   "Also absorbed industrial objects from the old Musée Industriel et Commercial de Lille"
-  ],
-  "_sources": ["https://en.wikipedia.org/wiki/Musée_d'Histoire_Naturelle_de_Lille"],
+  "n": "Jardin des Plantes de Lille",
+  "a": "",
+  "c": "green",
+  "lat": 50.6149,
+  "lng": 3.0682,
+  "w": "Eleven hectares built in 1948 to inherit a botanical tradition going back to 1596, packed with an orangery of Mediterranean mimosa and oleander, a tropical greenhouse holding 12,000 plants - bananas, coffee, ginger, tree ferns - plus a dahlia collection and the city's own astronomical observatory.",
+  "s": "Bananas and coffee plants growing under Lille's sky",
+  "_facts": ["11-hectare municipal botanical garden established 1948, successor to city gardens dating from 1596", "Orangery (1952) with Mediterranean plants; tropical greenhouse (1970) with about 12,000 plants; rose garden, dahlia collection and an astronomical observatory"],
+  "_sources": ["https://en.wikipedia.org/wiki/Jardin des plantes de Lille"],
   "confidence": "high"
  }
 ]
