@@ -1,188 +1,93 @@
 [
  {
-  "n": "Saint Sophia Church",
-  "a": "",
-  "c": "history",
-  "lat": 42.69651,
-  "lng": 23.33152,
-  "w": "Sofia takes its name from this church — in 1329 the town of Serdica was renamed after it. Built in the fourth century, the building survived conversion into a mosque under Ottoman rule before being restored as a basilica, and remains one of the oldest churches standing in the city.",
-  "s": "The church that gave Sofia its name",
-  "_facts": [
-   "Built as a church in the fourth century CE",
-   "Converted into a mosque in the 16th century, restored as a basilica in the 19th-20th centuries",
-   "One of the oldest churches in Sofia",
-   "In 1329 CE the town of Serdica was renamed Sofia after this church"
-  ],
-  "_sources": ["https://en.wikipedia.org/wiki/Saint_Sophia_Church,_Sofia"],
-  "confidence": "high"
- },
- {
-  "n": "National Archaeological Museum",
-  "a": "",
-  "c": "museum",
-  "lat": 42.69633,
-  "lng": 23.32456,
-  "w": "Sofia's archaeology collection lives inside a fifteenth-century mosque — construction began in 1451 under grand vizier Veli Mahmud Pasha, finishing in 1494. The building later housed the National Library before the museum moved in, officially opening in 1905 under its old Ottoman dome.",
-  "s": "Bulgaria's antiquities, under an Ottoman dome",
-  "_facts": [
-   "Occupies the building of the largest and oldest former Ottoman mosque in the city (Koca Mahmut Pasa Camii)",
-   "Construction started in 1451 under grand vizier Veli Mahmud Pasha, completed 1494",
-   "Established as a separate museum entity in 1893, officially opened 1905",
-   "Previously housed the National Library between 1880 and 1893"
-  ],
-  "_sources": ["https://en.wikipedia.org/wiki/National_Archaeological_Museum,_Bulgaria"],
-  "confidence": "high"
- },
- {
-  "n": "Central Synagogue of Sofia",
+  "n": "Alexander Nevsky Cathedral",
   "a": "",
   "c": "faith",
-  "lat": 42.70028,
-  "lng": 23.32101,
-  "w": "Completed in 1909, this is the largest synagogue in southeastern Europe and the third largest on the continent — built for a Jewish community that has since largely emigrated to Israel. Only fifty or sixty worshippers now gather beneath its dome, one of just two active synagogues left in the country.",
-  "s": "SE Europe's largest synagogue, built in 1909",
+  "lat": 42.69584,
+  "lng": 23.33297,
+  "w": "Neo-Byzantine domes rise over 3,170 square metres of floor space here — room for 5,000 worshippers, and until the year 2000 the largest finished Orthodox cathedral anywhere. As seat of the Patriarch of Bulgaria and the city's default postcard image, it is Sofia distilled into one building.",
+  "s": "Sofia's postcard cathedral, once world's largest Orthodox",
   "_facts": [
-   "Completed in 1909",
-   "Largest synagogue in Southeastern Europe, third-largest in Europe",
-   "One of only two active synagogues remaining in Bulgaria",
-   "Regular services draw only 50-60 worshippers due to Jewish emigration to Israel"
+   "Bulgarian Orthodox cathedral, Neo-Byzantine style",
+   "Cathedral church of the Patriarch of Bulgaria",
+   "One of the largest Christian church buildings by volume in the world; occupies 3,170 sq m, holds 5,000 worshippers",
+   "Believed to have been the largest finished Orthodox cathedral until the year 2000"
   ],
-  "_sources": ["https://en.wikipedia.org/wiki/Sofia_Synagogue"],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Saint_Alexander_Nevsky_Cathedral,_Sofia"
+  ],
   "confidence": "high"
  },
  {
-  "n": "Saint George Rotunda Church",
+  "n": "Serdica",
   "a": "",
   "c": "roman",
-  "lat": 42.69686,
-  "lng": 23.32286,
-  "w": "Built as Roman baths in the early fourth century, this red-brick rotunda is the oldest building still standing in Sofia, later folded into a church inside ancient Serdica's walls. Frescoes hide under its dome, the earliest from the tenth century — painted over under Ottoman rule and only uncovered again in the twentieth century.",
-  "s": "Sofia's oldest building, Roman baths turned church",
+  "lat": 42.698,
+  "lng": 23.322,
+  "w": "Long before it was Sofia, this ground was Serdica, the Roman city whose name never quite left. It survives today both in the Serdica Fortress ruins at the city centre and in Serdika, the district built over the old Roman footprint — history layered right under the modern pavement.",
+  "s": "Roman Sofia, buried under its own name",
   "_facts": [
-   "Built as Roman baths in the early 4th century CE",
-   "Considered the oldest building in modern Sofia",
-   "Three layers of frescoes discovered, earliest dating from the 10th century, including 22 prophets over 2m tall",
-   "Used as a mosque during the Ottoman era; frescoes uncovered and restored in the 20th century"
+   "Serdica (or Sardica) was the historical Roman city on the site of today's Sofia",
+   "Its name survives in the Serdica Fortress in the city centre",
+   "Also the source of the name of the modern Serdika administrative district"
   ],
-  "_sources": ["https://en.wikipedia.org/wiki/Church_of_Saint_George,_Sofia"],
-  "confidence": "high"
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Serdica"
+  ],
+  "confidence": "thin"
  },
  {
-  "n": "Lions' Bridge",
-  "a": "",
-  "c": "history",
-  "lat": 42.705,
-  "lng": 23.32389,
-  "w": "A Czech dynasty built Sofia's two grand river bridges — Václav Prošek, his brother Jozef, and cousins Bohdan and Jiří raised this one over the Vladaya River between 1889 and 1891, linking the new Central Station to the city centre and marking its northern edge ever since.",
-  "s": "Czech-built 1891 bridge into the city centre",
-  "_facts": [
-   "Built 1889-1891 by Czech architect Václav Prošek with his brother Jozef and cousins Bohdan and Jiří",
-   "Gives its name to the junction connecting Central Railway Station with the city centre",
-   "Marks the northern border of central Sofia"
-  ],
-  "_sources": ["https://en.wikipedia.org/wiki/Lions'_Bridge,_Sofia"],
-  "confidence": "high"
- },
- {
-  "n": "National Palace of Culture",
-  "a": "",
-  "c": "brutalism",
-  "lat": 42.68472,
-  "lng": 23.31889,
-  "w": "Opened in 1981 to mark 1,300 years of the Bulgarian state, this congress centre was pushed through by Lyudmila Zhivkova, daughter of communist leader Todor Zhivkov. Murals, mosaics and metalwork by Bulgarian artists coat its dark-toned halls — work that won it the title of world's best congress centre in 2005.",
-  "s": "Communist-era palace, once world's best congress hall",
-  "_facts": [
-   "Opened 31 March 1981 to celebrate the 1300th anniversary of the Bulgarian state",
-   "Initiated at the suggestion of Lyudmila Zhivkova, daughter of Todor Zhivkov",
-   "Interior features murals, mosaics, sculptures, woodcarvings and metalwork by Bulgarian artists",
-   "Proclaimed best congress centre in the world for 2005 by the International Association of Congress Centres"
-  ],
-  "_sources": ["https://en.wikipedia.org/wiki/National_Palace_of_Culture"],
-  "confidence": "high"
- },
- {
-  "n": "Eagles' Bridge",
-  "a": "",
-  "c": "history",
-  "lat": 42.69056,
-  "lng": 23.3375,
-  "w": "Four bronze eagles guard this bridge over the Perlovska River, built in 1891 by the same Czech family who raised the Lions' Bridge two years before. One of its eagle-topped columns appears on the Bulgarian 20-lev banknote, and the square around it has long drawn protesters, notably the 2012 ecological demonstrations.",
-  "s": "Bronze eagles on a protest-magnet bridge",
-  "_facts": [
-   "Built 1891 by Czech architect Václav Prošek, his brother Jozef and cousins Bohdan and Jiří",
-   "Named for four eagle statues on the bridge",
-   "One of its columns and bronze eagles appear on the Bulgarian 20 lev banknote (1999, 2007 issues)",
-   "The square has been a frequent site of protests, notably the 2012 ecological protests"
-  ],
-  "_sources": ["https://en.wikipedia.org/wiki/Eagles'_Bridge,_Sofia"],
-  "confidence": "high"
- },
- {
-  "n": "Cathedral of St Joseph",
+  "n": "Russian Church, Sofia",
   "a": "",
   "c": "faith",
-  "lat": 42.69861,
-  "lng": 23.31972,
-  "w": "Allied bombs levelled the original cathedral here during the Second World War. Its replacement rose on the same spot with the foundation stone laid personally by Pope John Paul II on his 2002 visit to Bulgaria, and the finished building was inaugurated in 2006 before the Vatican's Cardinal Secretary of State.",
-  "s": "Rebuilt cathedral, foundation stone laid by a pope",
+  "lat": 42.6957,
+  "lng": 23.3291,
+  "w": "Everyone in Sofia calls it simply the Russian Church, though its full name honours St Nicholas the Miracle-Worker. Standing on Tsar Osvoboditel Boulevard, it belongs to the Russian Orthodox Church rather than the Bulgarian one — foreign ground planted in the middle of the capital's central boulevard.",
+  "s": "A slice of Russian Orthodoxy on Sofia's high street",
   "_facts": [
-   "Destroyed by Allied bombing raids during WWII, rebuilt at the same location",
-   "Foundation stone laid personally by Pope John Paul II during his 2002 visit to Bulgaria",
-   "Inaugurated 21 May 2006 in the presence of Cardinal Secretary of State Angelo Sodano",
-   "Co-cathedral of the Latin Diocese of Sofia and Plovdiv"
+   "Officially the Church of St Nicholas the Miracle-Maker",
+   "Russian Orthodox church in central Sofia",
+   "Situated on Tsar Osvoboditel Boulevard"
   ],
-  "_sources": ["https://en.wikipedia.org/wiki/Cathedral_of_St_Joseph,_Sofia"],
-  "confidence": "high"
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Russian_Church,_Sofia"
+  ],
+  "confidence": "medium"
  },
  {
-  "n": "Vrana Palace",
+  "n": "Sofia Public Mineral Baths",
   "a": "",
   "c": "history",
-  "lat": 42.6403,
-  "lng": 23.4328,
-  "w": "While the Royal Palace downtown handled ceremony and Euxinograd on the coast served as the summer retreat, Vrana was where Bulgaria's royal family actually lived. It remains the official residence of the former royal house, standing on the grounds of the old Chardakli farm, whose bridge featured in the liberation of Sofia.",
-  "s": "Where Bulgaria's royal family actually lived",
+  "lat": 42.69937,
+  "lng": 23.32368,
+  "w": "Built in the early twentieth century over natural mineral springs — and replacing an older Turkish bath on the same spot — this landmark served as Sofia's public bathhouse until 1986. It still stands downtown, testament to a capital that was, quite literally, built on hot water.",
+  "s": "A bathhouse landmark over Sofia's hot springs",
   "_facts": [
-   "Today the official residence of the former royal family of Bulgaria",
-   "Where the royal family spent most of their time, unlike the ceremonial Royal Palace or summer Euxinograd Palace",
-   "Situated at an elevation of 571 metres, on the outskirts of Sofia",
-   "Includes the site of Chardakli farm, whose bridge featured in the liberation of Sofia"
+   "Landmark building in the city centre, near Sofia's mineral springs",
+   "Built in the early 20th century, near a former Turkish bath (since destroyed)",
+   "Used as the city's public baths until 1986"
   ],
-  "_sources": ["https://en.wikipedia.org/wiki/Vrana_Palace"],
-  "confidence": "high"
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Sofia_Central_Mineral_Baths"
+  ],
+  "confidence": "medium"
  },
  {
-  "n": "Sofia Zoo",
+  "n": "Saint Petka of the Saddlemakers Church",
   "a": "",
-  "c": "green",
-  "lat": 42.65806,
-  "lng": 23.33194,
-  "w": "Founded by royal decree in 1888, this is the oldest and largest zoological garden in southeastern Europe — 36 hectares that once held nearly 5,000 animals across 840 species. Numbers have thinned since, but several thousand creatures across hundreds of species still call its grounds home today.",
-  "s": "SE Europe's oldest zoo, founded by royal decree",
+  "c": "oddity",
+  "lat": 42.69783,
+  "lng": 23.32214,
+  "w": "One of the odder church commutes in Europe: this medieval Bulgarian Orthodox chapel sits half-sunk below street level, reachable only by cutting through a shopping mall and down into the Serdika metro station concourse. Faith and consumer traffic, sharing the same stairwell.",
+  "s": "Medieval church buried inside a metro mall",
   "_facts": [
-   "Founded by royal decree on 1 May 1888",
-   "Oldest and largest zoological garden in Southeast Europe",
-   "Covers 36 hectares; housed 4,850 animals across 840 species in 2006",
-   "Today hosts around 2,000 animals from 280 species"
+   "Medieval Bulgarian Orthodox church in central Sofia",
+   "Located in a semi-submerged shopping mall",
+   "Accessed via the Serdika metro station"
   ],
-  "_sources": ["https://en.wikipedia.org/wiki/Sofia_Zoo"],
-  "confidence": "high"
- },
- {
-  "n": "National Museum of Military History",
-  "a": "",
-  "c": "museum",
-  "lat": 42.6884,
-  "lng": 23.35071,
-  "w": "Bulgaria's military history museum has existed in one form or another since 1914, its collection now sprawling across 5,000 square metres indoors and a full 40,000 square metres of outdoor ground — room enough for the tanks and artillery that never fit inside.",
-  "s": "Tanks and artillery, indoors and out, since 1914",
-  "_facts": [
-   "Existed under various names since 1 August 1914 (in practice since 1916)",
-   "A structure of the Ministry of Defence",
-   "5,000 sq m of indoor exhibition space plus 40,000 sq m outdoors",
-   "Includes a library and computer centre"
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Church_of_St_Petka_of_the_Saddlers"
   ],
-  "_sources": ["https://en.wikipedia.org/wiki/National_Museum_of_Military_History,_Bulgaria"],
-  "confidence": "high"
+  "confidence": "medium"
  }
 ]
