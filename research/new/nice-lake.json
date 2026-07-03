@@ -1,0 +1,214 @@
+[
+ {
+  "n": "Notre-Dame de Nice",
+  "a": "Avenue Jean Médecin",
+  "c": "faith",
+  "lat": 43.70319,
+  "lng": 7.26579,
+  "w": "Built between 1864 and 1868, Notre-Dame de Nice is the city's largest church but not its cathedral - a deliberate flex of French Gothic architecture after Nice was annexed from Sardinia, modelled on Angers Cathedral with twin 65-metre towers and a vast rose window. In October 2020 it became the site of a fatal terror attack, now woven into its history.",
+  "s": "Nice's biggest church, built to plant a French flag in stone",
+  "_facts": [
+   "Built 1864-1868, designed by Louis Lenormand in Neo-Gothic style inspired by Angers Cathedral",
+   "Largest church in Nice, though not the city's cathedral",
+   "Twin towers stand 65 metres tall, with a rose window depicting the Assumption of Mary",
+   "Site of a fatal terrorist attack on 29 October 2020"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Notre-Dame_de_Nice"],
+  "confidence": "high"
+ },
+ {
+  "n": "Sainte Jeanne d'Arc Church",
+  "a": "",
+  "c": "oddity",
+  "lat": 43.71341,
+  "lng": 7.2626,
+  "w": "Nicknamed 'the Meringue' by locals who can't decide whether they love or loathe it, this parish church dedicated to Joan of Arc has split opinion across Nice since it went up. Its swooping white curves look more patisserie than parish - a reputation the church has never quite shaken, and probably never will.",
+  "s": "The Nice church locals nicknamed 'the Meringue'",
+  "_facts": [
+   "Roman Catholic parish church dedicated to Joan of Arc",
+   "Architecture is controversial locally - judged ugly by some residents",
+   "Nicknamed 'the Meringue' for its white colour"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Sainte_Jeanne_d'Arc_Church,_Nice"],
+  "confidence": "high"
+ },
+ {
+  "n": "Cimetière du Château",
+  "a": "",
+  "c": "death",
+  "lat": 43.69806,
+  "lng": 7.28056,
+  "w": "Nice's grandest cemetery sits inside the walls of a demolished 16th-century citadel, once one of the most secure fortresses in France. Founded in 1783 and now home to some 2,800 graves, it draws almost as many visitors for the panoramic sea views over the old town as for the dead resting beneath the old ramparts.",
+  "s": "A cemetery inside the walls of Nice's demolished citadel",
+  "_facts": [
+   "Stands on the site of Nice's 16th-century citadel, of which some wall sections survive",
+   "Founded in 1783 and now holds around 2,800 graves",
+   "Popular for its panoramic views over Nice as well as its history"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Cimetière_du_Château"],
+  "confidence": "high"
+ },
+ {
+  "n": "Villa Beau Site",
+  "a": "",
+  "c": "history",
+  "lat": 43.6896,
+  "lng": 7.29578,
+  "w": "This 1880s mansion briefly sheltered Czech composer Bohuslav Martinů when he returned to Europe from the United States in 1954, one stop in an exile that carried him from Paris to New York and back again. Designed by Sébastien-Marcel Biasini and a listed national monument since 1987, it's a quiet footnote to a much larger story of displacement.",
+  "s": "The Nice mansion that briefly housed an exiled composer",
+  "_facts": [
+   "Built 1885-1890, designed by architect Sébastien-Marcel Biasini",
+   "Temporary home of Czech composer Bohuslav Martinů after his 1954 return to Europe from the US",
+   "Listed as an official national monument since 27 July 1987"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Villa_Beau_Site"],
+  "confidence": "high"
+ },
+ {
+  "n": "Abbey of Saint-Pons",
+  "a": "",
+  "c": "faith",
+  "lat": 43.72504,
+  "lng": 7.28354,
+  "w": "One of the oldest monasteries on the Riviera, Saint-Pons was founded by Benedictines around 774, sacked by Saracens in 890, and rebuilt in Baroque style in 1724 - only to be dissolved, sold to the city for 60,000 francs, and folded into a hospital. A thousand years of monastic history, now doing time as a hospital annex.",
+  "s": "A 1,200-year-old abbey now serving as a hospital annex",
+  "_facts": [
+   "Founded 774-800, one of the oldest monasteries on the French Riviera alongside Lérins Abbey",
+   "Destroyed by Saracens in 890, later rebuilt in Baroque style in 1724",
+   "Sold to the city of Nice in 1860 and eventually absorbed into Pasteur Hospital",
+   "Classified a historical monument of national importance in 1913"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Abbey_of_Saint-Pons_de_Nice"],
+  "confidence": "high"
+ },
+ {
+  "n": "Promenade des Anglais",
+  "a": "",
+  "c": "view",
+  "lat": 43.69111,
+  "lng": 7.2475,
+  "w": "'Walkway of the English' is the literal translation, and la Promenade des Anglais lives up to the name - a seven-kilometre curve of seafront running from Nice's airport to the edge of the old town. Officially it's just a stretch of the road to Toulon and Menton; unofficially, it's the most walked, watched and photographed strip of pavement on the Riviera.",
+  "s": "The Riviera's most famous seafront walk",
+  "_facts": [
+   "Name translates as 'Walkway of the English'",
+   "Runs roughly 7 kilometres along the Mediterranean from Nice Côte d'Azur Airport to the old town",
+   "Forms part of Route nationale 98 between Toulon and Menton"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Promenade_des_Anglais"],
+  "confidence": "high"
+ },
+ {
+  "n": "Hotel Negresco",
+  "a": "Promenade des Anglais",
+  "c": "history",
+  "lat": 43.69449,
+  "lng": 7.25838,
+  "w": "Opened in 1912, this palatial hotel on the Promenade des Anglais was built and named by Henri Negresco, who bet everything on turning a stretch of Riviera seafront into the grandest address in Nice. More than a century on, it's still standing, still bearing his name, and still home to the restaurant Le Chantecler.",
+  "s": "The Riviera hotel that made its founder's name a landmark",
+  "_facts": [
+   "Luxury hotel on the Promenade des Anglais overlooking the Baie des Anges",
+   "Built and opened in 1912 by hotelier Henri Negresco (1868-1920)",
+   "Home to the restaurant Le Chantecler"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Hotel_Negresco"],
+  "confidence": "high"
+ },
+ {
+  "n": "Musée des Beaux-Arts Jules Chéret",
+  "a": "Avenue des Baumettes",
+  "c": "museum",
+  "lat": 43.69454,
+  "lng": 7.24886,
+  "w": "Housed in a private mansion built in 1878 for the Russian Princess Elizaveta Kochubey, Nice's fine arts museum was renamed for Jules Chéret - the poster artist who spent his final years working in the city - when it opened as the Palais des Arts Jules Chéret in January 1928. A Belle Epoque palace turned gallery.",
+  "s": "A Russian princess's mansion turned Nice's fine arts museum",
+  "_facts": [
+   "Housed in a mansion built in 1878 for Russian Princess Elizaveta Vasilievna Kochubey",
+   "Named for poster artist Jules Chéret, who lived and worked in Nice in his final years",
+   "Opened as the Palais des Arts Jules Chéret on 7 January 1928"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Musée_des_Beaux-Arts_de_Nice"],
+  "confidence": "high"
+ },
+ {
+  "n": "Terra Amata",
+  "a": "Mont Boron",
+  "c": "oddity",
+  "lat": 43.6978,
+  "lng": 7.28944,
+  "w": "Four hundred thousand years ago, someone lit a fire on a beach on the slopes of Mont Boron - one of the earliest traces of controlled fire found anywhere in Europe. Discovered and excavated in 1966, the Terra Amata site now sits beneath an apartment block, its Lower Paleolithic tools and hearths on display in the small prehistory museum built over the dig.",
+  "s": "Where Europe's earliest campfires were lit, 400,000 years ago",
+  "_facts": [
+   "Open-air archaeological site on the slopes of Mont Boron, discovered and excavated in 1966 by Henry de Lumley",
+   "Lower Paleolithic tools dated to about 400,000 BCE, plus some of the earliest evidence of domesticated fire in Europe",
+   "The site now lies beneath an apartment building and a museum of prehistoric Nice"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Terra_Amata_(archaeological_site)"],
+  "confidence": "high"
+ },
+ {
+  "n": "Nice Synagogue",
+  "a": "Rue Gustave Deloye",
+  "c": "faith",
+  "lat": 43.69981,
+  "lng": 7.26934,
+  "w": "Nice's Great Synagogue has stood on rue Gustave Deloye since 1885, designed by Paul Martin for a congregation that still worships in the Ashkenazi rite. It took until 2004 for France to formally list the building as a historic monument - quiet recognition of nearly a century and a half of continuous Jewish life in the city centre.",
+  "s": "Nice's Great Synagogue, standing since 1885",
+  "_facts": [
+   "Orthodox Jewish congregation and synagogue at 7 rue Gustave Deloye, designed by Paul Martin",
+   "Built in 1885 and dedicated in 1886",
+   "Congregation worships in the Ashkenazi rite",
+   "Listed as a monument historique on 17 April 2004"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Nice_Synagogue"],
+  "confidence": "high"
+ },
+ {
+  "n": "Grotte du Lazaret",
+  "a": "",
+  "c": "oddity",
+  "lat": 43.69073,
+  "lng": 7.29479,
+  "w": "Two hundred thousand years ago, something not quite human yet sheltered in this cave above the Mediterranean. Excavations turned up the cranial fragments of a nine-year-old - possibly Homo heidelbergensis, possibly an early Neanderthal - alongside more than 20,000 fossilized animal bones and evidence of shelters built during the Lower Paleolithic.",
+  "s": "A cave that sheltered Nice's oldest known residents",
+  "_facts": [
+   "Archaeological cave site of prehistoric human occupation overlooking the Mediterranean",
+   "More than 20,000 fossilized faunal bone fragments unearthed",
+   "200,000-year-old cranial fragments of a nine-year-old juvenile, suggesting Homo heidelbergensis or an early Neanderthal",
+   "Evidence of shelters built by humans during the Lower Paleolithic"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Grotte_du_Lazaret"],
+  "confidence": "high"
+ },
+ {
+  "n": "Place Masséna",
+  "a": "",
+  "c": "view",
+  "lat": 43.6973,
+  "lng": 7.27014,
+  "w": "Nice's grand central square used to be split in two by the Paillon river, with the Pont-Neuf as the only crossing between old town and new. Laid out in 1843, it lost its stiff, roundabout feel when the Masséna Casino was demolished in 1979 and the trams gave the space back to pedestrians. Now it's palm trees, red-ochre facades, and every carnival the city throws.",
+  "s": "Nice's grand square, once split in two by a river",
+  "_facts": [
+   "Named for André Masséna, laid out by Joseph Vernier in 1843-44",
+   "Before the Paillon river was covered, the Pont-Neuf was the only route between the old and new town",
+   "Demolition of the Masséna Casino in 1979 opened up the square",
+   "Hosts the Corso carnavalesque, Bastille Day processions and concerts"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Place_Masséna"],
+  "confidence": "high"
+ },
+ {
+  "n": "Monument aux morts de Rauba-Capeù",
+  "a": "Quai Rauba-Capeù",
+  "c": "oddity",
+  "lat": 43.6937,
+  "lng": 7.28103,
+  "w": "The quay beneath this war memorial is named Rauba-Capeù - 'cap stealer' in the local Niçois dialect - after a wind so relentless along this stretch of seafront that it would snatch the hats right off passersby. A grim monument to the dead, with one of the cheekiest addresses in Nice.",
+  "s": "A war memorial on the quay named 'cap stealer'",
+  "_facts": [
+   "War memorial on the quay Rauba-Capeù, along the Seaside Road in Nice",
+   "Quay name means 'steal one's cap' in the Niçois dialect, for the wind's strength there"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Monument_to_the_Dead_of_Rauba-Capeu"],
+  "confidence": "medium"
+ }
+]
