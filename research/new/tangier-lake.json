@@ -1,56 +1,111 @@
 [
  {
-  "id": "lallaablamosque",
-  "n": "Lalla Abla Mosque",
-  "a": "Port area",
-  "pc": "",
-  "lat": 35.78946,
-  "lng": -5.807,
+  "n": "Grand Mosque of Tangier",
+  "a": "Medina",
   "c": "faith",
-  "s": "A royal mosque named for a queen, facing the fishing port",
-  "q": "Lalla Abla Mosque tangier",
-  "w": "Completed in 2017 and dedicated by King Mohammed VI the next year, this mosque on Tangier's fishing port is named for his grandmother, Lalla Abla bint Tahar, echoing the Mohammed V Mosque, dedicated to her husband 35 years earlier. Spread across 5,712 square metres, it holds over 1,900 worshippers, replacing a smaller Port Mosque nearby.",
-  "city": "tangier",
-  "_facts": [],
+  "lat": 35.7662,
+  "lng": -5.82365,
+  "s": "The medina's Friday mosque, sacred ground since antiquity",
+  "w": "The historic Friday mosque at the heart of Tangier's old medina, its present form dating to the early 19th century under the Alaouite sultans. The ground beneath it has carried a succession of religious buildings since antiquity, one structure quietly replacing another for longer than anyone's kept precise count.",
+  "_facts": [
+   "Historic main mosque (Friday mosque) of Tangier, located in the city's old medina",
+   "Current design dates from the early 19th century, Alaouite period",
+   "Site has been occupied by a succession of religious buildings since antiquity"
+  ],
   "_sources": [
-   "https://en.wikipedia.org/wiki/Lalla_Abla_Mosque"
+   "https://en.wikipedia.org/wiki/Grand_Mosque_of_Tangier"
   ],
   "confidence": "medium"
  },
  {
-  "id": "tangiercathedral",
-  "n": "Tangier Cathedral",
+  "n": "Tangier bullring",
   "a": "",
-  "pc": "",
-  "lat": 35.78181,
-  "lng": -5.81778,
-  "c": "faith",
-  "s": "The 'Spanish Cathedral' seat of Tangier's archdiocese",
-  "q": "Tangier Cathedral tangier",
-  "w": "Tangier's Catholics know it simply as the Spanish Cathedral, though its official name is the Cathedral of the Immaculate Conception and the Holy Spirit. It serves as the seat of the Roman Catholic Archdiocese of Tangier, proof that this port city's religious landscape runs well beyond its mosques and synagogues.",
-  "city": "tangier",
-  "_facts": [],
+  "c": "oddity",
+  "lat": 35.76469,
+  "lng": -5.79619,
+  "s": "Abandoned 1950s bullring built for 13,000 spectators",
+  "w": "Tangier's only bullring, raised by the Spanish in 1950 with room for over 13,000 spectators. Abandoned for years now, its terraces stand empty where crowds once roared for the corrida; locals still count it among the city's important pieces of historical heritage, even deep into its decline.",
+  "_facts": [
+   "Also known as Plaza de Toros or place des arenes; the only bullring in Tangier",
+   "Inaugurated in 1950 by the Spanish, capacity of 13,013 seats",
+   "Abandoned for several years; remains an important piece of historical heritage tangerois"
+  ],
   "_sources": [
-   "https://en.wikipedia.org/wiki/Roman_Catholic_Cathedral_of_Tangier"
+   "https://en.wikipedia.org/wiki/Plaza_de_Toros_Tangier"
   ],
   "confidence": "medium"
  },
  {
-  "id": "mohammedvmosque",
-  "n": "Mohammed V Mosque",
-  "a": "Place du Koweit",
-  "pc": "",
-  "lat": 35.781,
-  "lng": -5.8197,
+  "n": "French Church of Tangier",
+  "a": "",
   "c": "faith",
-  "s": "Built (so the story goes) to out-tower the cathedral",
-  "q": "Mohammed V Mosque tangier",
-  "w": "Completed in 1983 for the future Mohammed VI and named after his grandfather, who gave a landmark 1947 address here, this mosque was funded by Kuwait, and the square out front is still Place du Koweit. Local lore says a Kuwaiti sheikh, needled that the cathedral's bell tower dominated the skyline, paid up so a minaret would out-top it.",
-  "city": "tangier",
-  "_facts": [],
-  "_sources": [
-   "https://en.wikipedia.org/wiki/Mohammed_V_Mosque,_Tangier"
+  "lat": 35.7747,
+  "lng": -5.8071,
+  "s": "The 'Church of the Sands' for Tangier's French community",
+  "w": "Built between 1949 and 1953 to serve Tangier's French community during the years of the International Zone, this parish church carries nearly as many names as parishioners: Notre-Dame-de-l'Assomption, Sainte-Jeanne-d'Arc, or simply Eglise des Sables, the Church of the Sands.",
+  "_facts": [
+   "Formal name: Church of Our Lady of the Assumption and of Saint Joan of Arc",
+   "Also known as Sainte-Marie-Sainte-Jeanne-d'Arc or Eglise des Sables ('Sands Church')",
+   "Parish church built 1949-1953 for the French community during the Tangier International Zone"
   ],
-  "confidence": "medium"
+  "_sources": [
+   "https://en.wikipedia.org/wiki/French_Church_of_Tangier"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Museum of Contemporary Art, Tangier",
+  "a": "",
+  "c": "museum",
+  "lat": 35.78222,
+  "lng": -5.815,
+  "s": "Former British consulate, now a contemporary art gallery",
+  "w": "Housed in Tangier's former British consulate near St. Andrew's Church, this gallery opened as the city's Museum of Contemporary Art in 1986. A 2006 redevelopment brought a new name and a 2007 reopening as the Galerie d'Art Contemporain Mohamed Drissi, a diplomatic address turned artistic second act.",
+  "_facts": [
+   "Housed in the building of the former British consulate near the Church of St. Andrew",
+   "Opened as the Museum of Contemporary Art in 1986",
+   "Redeveloped in 2006, renamed and reopened April 12, 2007 as Galerie d'Art Contemporain Mohamed Drissi",
+   "Shows mainly traveling exhibitions"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Museum_of_Contemporary_Art_(Tangier)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Colline du Charf",
+  "a": "Charf",
+  "c": "view",
+  "lat": 35.7658,
+  "lng": -5.78944,
+  "s": "93m hilltop where the Mediterranean meets the Atlantic",
+  "w": "Rising 93 metres above the city, this hill is one of the few spots in Tangier where the geography that defines the place becomes visible at a glance: the Mediterranean on one side, the Atlantic on the other, the two seas meeting close to where you're standing.",
+  "_facts": [
+   "Hill in Tangier, elevation 93 metres above sea level",
+   "Overlooks the city between the Mediterranean and the Atlantic"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Charf_Hill"
+  ],
+  "confidence": "thin"
+ },
+ {
+  "n": "Abdelhafid Palace",
+  "a": "Hasnouna",
+  "c": "history",
+  "lat": 35.78557,
+  "lng": -5.82153,
+  "s": "A sultan's unused palace, later Italy's Casa d'Italia",
+  "w": "Built in 1912-13 as the intended retirement residence of Sultan Abdelhafid after his forced abdication, never actually used for that purpose. Italy bought it in 1927, renamed it Palazzo Littorio, then Casa d'Italia in 1943, running schools and a hospital there. Idle since a renovation in the early 2000s.",
+  "_facts": [
+   "Historic structure at 23 Rue Mohammed Ben Abdelouhab, Hasnouna neighbourhood, Tangier",
+   "Built 1912-1913 as intended residence of former Sultan Abdelhafid following his abdication, never used for that purpose",
+   "Purchased by Italy in 1927, renamed Palazzo Littorio; hosted schools and a hospital",
+   "1943 Badoglio government renamed it Casa d'Italia; renovated in early 2000s; long underutilized"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Abdelhafid_Palace"
+  ],
+  "confidence": "high"
  }
 ]
