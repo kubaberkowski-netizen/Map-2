@@ -1,5 +1,5 @@
 /* Flâneur service worker — offline app shell + tile/asset caching */
-const SHELL = "flaneur-shell-v321";
+const SHELL = "flaneur-shell-v322";
 const TILES = "flaneur-tiles-v2";
 const DATA = "flaneur-data-v1"; // immutable content-hashed catalogue (spots.<hash>.js) — survives SHELL bumps
 const TILE_MAX = 350;
