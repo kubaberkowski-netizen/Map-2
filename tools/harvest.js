@@ -23,7 +23,9 @@ const M = require("./model");
 
 const UA = "FlaneurHarvest/1.0 (map-2 catalogue research; contact via repo)";
 const LAKE = path.join(__dirname, "..", "research", "lake");
+const EXTRACT_CACHE = path.join(__dirname, "..", "research", ".extract-cache.json");
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 function argVal(flag, def) { const i = process.argv.indexOf(flag); return i >= 0 ? process.argv[i + 1] : def; }
 
 function norm(s) { return String(s).toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]/g, ""); }
@@ -45,6 +47,14 @@ async function sparql(query) {
 // type matches this; it catches buildings/parks/landmarks and drops events,
 // empires, battles, treaties, airlines, organisations, people, languages, etc.
 const PLACE_RE = /build|structure|museum|church|cathedral|basilica|chapel|synagogue|mosque|temple|shrine|palace|castle|tower|bridge|square|house|villa|theat|cinema|opera|station|cemeter|graveyard|garden|park|\bhall\b|gate|fountain|statue|monument|memorial|market|librar|galler|archive|universit|college|\bschool\b|hospital|prison|barrack|factory|brewer|mill|arena|stadium|pool|bath|lido|\bzoo\b|observator|lighthouse|pier|dock|canal|reservoir|lake|pond|\bhill\b|mountain|\bcave\b|ruin|\bsite\b|district|neighbo|quarter|street|avenue|boulevard|arcade|passage|courtyard|estate|mansion|manor|abbey|priory|convent|monaster|\btomb\b|mausoleum|column|\barch\b|\bwall\b|\bfort|citadel|bunker|works|exchange|\bbank\b|hotel|restaurant|cafe|\bbar\b|\bpub\b|\bshop|store|bakery|\bclub\b|venue|centre|center|institut|academ|conservator|greenhouse|aquarium|planetarium|winery|distiller|cellar|reserve|monument|plaza|promenade|embankment|island/i;
+
+// Types the composer ALWAYS skips (universities, hospitals, stations, stadiums,
+// pure admin/settlement units, banks/broadcasters). These outrank the storied core
+// on sitelinks/pageviews, so dropping them here keeps the top-N dossiers all-keepable
+// — the fix for the "Boston=Harvard, York=parishes" first-pass skew. High precision.
+const SKIP_RE = /universit|\bcollege\b|\bschool\b|\bfaculty\b|\bcampus\b|hospital|\bclinic\b|infirmary|railway station|railroad station|metro station|underground station|rapid transit|subway station|bus station|tram stop|coach station|\bairport\b|human settlement|civil parish|\bvillage\b|\bhamlet\b|municipalit|\bborough\b|electoral ward|\bward\b|central bank|\bbank\b|financial (institution|services)|insurance company|broadcaster|television (channel|network|station)|radio station|record label|political part|government agency/i;
+// ...but never drop something that is ALSO a genuine heritage/visitor site.
+const KEEP_RE = /museum|galler|memorial|\bmonument|heritage|historic|cathedral|basilica|abbey|minster|\bpalace|\bcastle\b|\bfort|\btomb|mausoleum|observator|\bpark\b|\bgarden|cemeter/i;
 
 function boxQuery(bbox, minSitelinks) {
   const [wLng, sLat, eLng, nLat] = bbox;
@@ -86,22 +96,38 @@ async function mapLimit(items, n, fn) {
   return out;
 }
 
-// LAYER 2 — for a candidate, fetch+cache the Wikipedia intro extract (the clean,
-// attributed fact bundle the writer reads instead of crawling the web). ~zero LLM.
+// LAYER 2 — for a candidate, fetch the Wikipedia intro extract (the clean, attributed
+// fact bundle the writer reads instead of crawling the web). ~zero LLM.
+// Successful extracts are cached to disk keyed by article title, so a --from-lake
+// rerun re-hits ONLY the misses — the rate-limit retries now self-heal instead of
+// needing manual re-runs. 429s back off long; a persistent cache survives kills.
+let _cache = null;
+function cacheLoad() {
+  if (_cache) return _cache;
+  try { _cache = JSON.parse(fs.readFileSync(EXTRACT_CACHE, "utf8")); } catch { _cache = {}; }
+  return _cache;
+}
+function cacheSave() { try { fs.writeFileSync(EXTRACT_CACHE, JSON.stringify(_cache)); } catch {} }
+
 async function dossierFor(cand) {
+  const cache = cacheLoad();
+  const key = cand.article;
+  if (key && cache[key] && cache[key].extract) return cache[key]; // hit — free
   const title = encodeURIComponent(cand.article.replace(/ /g, "_"));
   const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro=1&explaintext=1&redirects=1&titles=${title}`;
-  for (let attempt = 0; attempt < 3; attempt++) {
+  for (let attempt = 0; attempt < 4; attempt++) {
     try {
       const r = await fetch(url, { headers: { "User-Agent": UA } });
+      if (r.status === 429 || r.status === 503) { await sleep(1600 * (attempt + 1) + Math.random() * 600); continue; }
       if (r.ok) {
         const pages = (await r.json())?.query?.pages || {};
         const p = Object.values(pages)[0] || {};
         const extract = (p.extract || "").replace(/\s+/g, " ").trim();
-        if (extract) return { extract, description: p.description || "" };
+        if (extract) { const v = { extract, description: p.description || "" }; if (key) { cache[key] = v; cacheSave(); } return v; }
+        return null; // article exists but no intro extract — not a transient failure
       }
     } catch {}
-    await new Promise((res) => setTimeout(res, 400 * (attempt + 1)));
+    await sleep(500 * (attempt + 1) + Math.random() * 400);
   }
   return null;
 }
@@ -120,7 +146,7 @@ async function main() {
     const lakePath = path.join(LAKE, city + ".json");
     if (!fs.existsSync(lakePath)) { console.error(`no lake for ${city} — run harvest first`); process.exit(1); }
     const lake = JSON.parse(fs.readFileSync(lakePath, "utf8"));
-    const top = lake.slice(0, +argVal("--dossiers", 30));
+    const top = lake.slice(0, +argVal("--dossiers", 40));
     console.error(`dossiers from lake · ${city} · top ${top.length}`);
     const dos = await mapLimit(top, 3, (x) => dossierFor(x));
     const bundle = top.map((x, i) => ({
@@ -165,6 +191,15 @@ async function main() {
   cands = cands.filter((x) => x.types.some((t) => PLACE_RE.test(t)));
   console.error(`  place-type filter: ${preType} → ${cands.length} (dropped events/orgs/people)`);
 
+  // Drop always-skipped institution/settlement types so the top-N dossiers are all
+  // keepable. Pass --keep-institutions for university-towns (Oxford/Cambridge) where
+  // the colleges ARE the storied sites and must not be filtered out.
+  if (!process.argv.includes("--keep-institutions")) {
+    const preInst = cands.length;
+    cands = cands.filter((x) => { const t = x.types.join(" | "); return !SKIP_RE.test(t) || KEEP_RE.test(t); });
+    console.error(`  institution filter: ${preInst} → ${cands.length} (dropped universities/stations/parishes/orgs)`);
+  }
+
   const before = cands.length;
   cands = cands.filter((x) => !names.has(norm(x.n)) && !inCity.some((z) => haversine(x.lat, x.lng, z.lat, z.lng) < 120));
   console.error(`  dedupe vs the ${inCity.length} live ${city} spots: ${before} → ${cands.length} genuinely new`);
@@ -188,7 +223,7 @@ async function main() {
   if (topN > 0) {
     const top = cands.slice(0, topN);
     console.error(`\n  Layer 2 · building dossiers (Wikipedia extracts) for top ${top.length}…`);
-    const dos = await mapLimit(top, 4, (x) => dossierFor(x));
+    const dos = await mapLimit(top, 3, (x) => dossierFor(x));
     const bundle = top.map((x, i) => ({
       qid: x.qid, n: x.n, lat: x.lat, lng: x.lng, article: x.article,
       pageviews: x.pageviews, sitelinks: x.sitelinks, types: x.types.slice(0, 4),
