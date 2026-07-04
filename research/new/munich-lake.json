@@ -1,0 +1,115 @@
+[
+ {
+  "n": "Ehrentempel",
+  "a": "",
+  "c": "history",
+  "lat": 48.1453,
+  "lng": 11.5669,
+  "w": "Two Nazi shrines built in 1935 to house the sarcophagi of the 'blood witnesses' killed in the failed Beer Hall Putsch. The regime staged its cult of martyrs here until 9 January 1947, when the US Army tore down the temples' main architectural features - an act of denazification, leaving only bare platforms.",
+  "s": "A Nazi martyrs' shrine the US Army tore down in 1947",
+  "_facts": [
+   "Two structures erected by the Nazi Party in 1935",
+   "Housed sarcophagi of the sixteen 'Blutzeugen' (blood witnesses) killed in the 1923 Beer Hall Putsch",
+   "US Army destroyed the main architectural features on 9 January 1947 as denazification"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Ehrentempel"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Circus Krone",
+  "a": "",
+  "c": "oddity",
+  "lat": 48.145,
+  "lng": 11.55,
+  "w": "One of Europe's biggest circuses, and one of only a handful in Western Europe with its own permanent building - a rarity shared with Paris's Cirque d'hiver, its Amiens cousin and Brussels's Cirque Royal. Munich's answer to a travelling big top: this one never has to strike the tent.",
+  "s": "A circus that never has to strike the tent",
+  "_facts": [
+   "One of the largest circuses in Europe",
+   "One of the few in Western Europe to occupy its own permanent building, alongside Cirque d'hiver de Paris, Cirque d'hiver d'Amiens and Cirque Royal in Brussels"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Circus_Krone"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Propylaea",
+  "a": "Königsplatz",
+  "c": "history",
+  "lat": 48.14611,
+  "lng": 11.56417,
+  "w": "A triumphal city gate anchoring the west side of Königsplatz. No fanfare, no ticket booth - just a stone threshold that most visitors to Munich's grand neoclassical square walk straight through without ever looking up.",
+  "s": "The gate at Königsplatz nobody stops to read",
+  "_facts": [
+   "A city gate built as a triumphal arch",
+   "Stands at the west side of Königsplatz"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Propylaea_(Munich)"],
+  "confidence": "thin"
+ },
+ {
+  "n": "Ludwigstraße",
+  "a": "",
+  "c": "history",
+  "lat": 48.1456,
+  "lng": 11.5789,
+  "w": "One of Munich's four royal avenues, laid out at the request of King Ludwig I as a boulevard 'worthy the kingdom' - and it still reads that way, its architectural uniformity unbroken since. State parades and funeral processions have marched its length; tourists mostly just stroll it.",
+  "s": "The boulevard built to be worthy of a kingdom",
+  "_facts": [
+   "One of Munich's four royal avenues, with Brienner Straße, Maximilianstraße and Prinzregentenstraße",
+   "Named after King Ludwig I of Bavaria, commissioned as a street 'worthy the kingdom'",
+   "Maintains architectural uniformity; has served for state parades and funeral processions"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Ludwigstra%C3%9Fe"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Fürstenried Palace",
+  "a": "Fürstenried",
+  "c": "history",
+  "lat": 48.09436,
+  "lng": 11.48567,
+  "w": "A Baroque hunting lodge built in 1715-17 for Elector Maximilian II Emanuel, made for stag-chasing rather than statecraft. It has since traded muskets for vestments: the archdiocese now runs it as a spiritual house and pastoral centre - a pleasure palace repurposed for quiet reflection.",
+  "s": "A prince's hunting lodge, now a retreat for the archdiocese",
+  "_facts": [
+   "Baroque maison de plaisance/hunting lodge built 1715-1717 for Elector Maximilian II Emanuel",
+   "Today serves as the archdiocese's spiritual house and pastoral centre"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/F%C3%BCrstenried_Palace"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Bavarian State Collection of Zoology",
+  "a": "",
+  "c": "museum",
+  "lat": 48.16467,
+  "lng": 11.48217,
+  "w": "Twenty million zoological specimens, filed under Entomology, Invertebrates and Vertebrates - one of the largest natural history collections on Earth, and a working research institution rather than a visitor hall. Its first curator, Johann Baptist von Spix, set the tone for two centuries of cataloguing.",
+  "s": "Twenty million specimens, one very serious filing system",
+  "_facts": [
+   "Over 20 million zoological specimens",
+   "One of the largest natural history collections in the world",
+   "Sections: Entomology, Invertebrates, Vertebrates",
+   "First curator of zoology was Johann Baptist von Spix"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Bavarian_State_Collection_of_Zoology"],
+  "confidence": "medium"
+ },
+ {
+  "n": "St. Boniface's Abbey",
+  "a": "Maxvorstadt",
+  "c": "faith",
+  "lat": 48.14389,
+  "lng": 11.56417,
+  "w": "A Benedictine monastery King Ludwig I built in 1835 to revive Bavaria's monastic life after secularisation stripped it bare - unusually, right in a city. Wrecked in WWII and only partly rebuilt, it still holds the tombs of Ludwig I and his queen, Therese, and once quietly acquired Andechs Abbey to fund itself.",
+  "s": "A city-centre monastery holding a king's tomb",
+  "_facts": [
+   "Founded 1835 by King Ludwig I to restore Bavaria's monastic life after secularisation",
+   "Byzantine-style church dedicated in 1850",
+   "Destroyed in WWII, only partly restored",
+   "Contains the tombs of King Ludwig I and Queen Therese of Saxe-Hildburghausen",
+   "Unusual for a Benedictine monastery to be located within a city",
+   "Ludwig gave it the former Andechs Abbey (secularised 1803) as a supporting priory"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/St._Boniface%27s_Abbey"],
+  "confidence": "high"
+ }
+]
