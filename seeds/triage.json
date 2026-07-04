@@ -1,0 +1,4369 @@
+{
+ "NEW": [
+  {
+   "n": "H.R. Higgins",
+   "area": "Mayfair",
+   "est": "1942",
+   "hook": "coffee merchant by royal warrant; wood-panelled tasting room below the shop",
+   "tags": [
+    "coffee"
+   ],
+   "cat": "coffee",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5130973,
+    "lng": -0.1506616,
+    "type": "cafe",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "H.R. Higgins, 79, Duke Street, East Marylebone, Mayfair, City of Westminster, Gr"
+   },
+   "id_preview": "h-r-higgins"
+  },
+  {
+   "n": "Camden Coffee Shop",
+   "area": "Delancey St",
+   "est": "c. 1970s",
+   "hook": "one man, one vintage drum roaster, smoke out the door on roasting days",
+   "tags": [
+    "coffee",
+    "interior"
+   ],
+   "cat": "coffee",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5368196,
+    "lng": -0.1420937,
+    "type": "coffee",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Camden Coffee Shop, 11, Delancey Street, Chalk Farm, London Borough of Camden, G"
+   },
+   "id_preview": "camden-coffee-shop"
+  },
+  {
+   "n": "W. Martyn",
+   "area": "Muswell Hill",
+   "est": "1897",
+   "hook": "tea-and-coffee grocer with original fittings; the smell reaches the street",
+   "tags": [
+    "coffee",
+    "shopfront",
+    "victorian"
+   ],
+   "cat": "coffee",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5906292,
+    "lng": -0.1434574,
+    "type": "deli",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "W. Martyn, 135, Muswell Hill Broadway, Muswell Hill, London Borough of Haringey,"
+   },
+   "id_preview": "w-martyn"
+  },
+  {
+   "n": "Chin Chin Labs",
+   "area": "Camden",
+   "est": "2010",
+   "hook": "liquid-nitrogen ice cream theatre; Europe's first, made to order in clouds of vapour",
+   "tags": [
+    "gelato",
+    "eccentric"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.541403,
+    "lng": -0.1463108,
+    "type": "ice_cream",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Chin Chin Labs, 49–50, Camden Lock Place, Maitland Park, Chalk Farm, London Boro"
+   },
+   "id_preview": "chin-chin-labs"
+  },
+  {
+   "n": "La Gelatiera",
+   "area": "Covent Garden",
+   "est": "c. 2012",
+   "hook": "micro-batch counter behind the piazza; basil-and-chilli as a house classic",
+   "tags": [
+    "gelato"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5110987,
+    "lng": -0.1267738,
+    "type": "ice_cream",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "La Gelatiera, 27, New Row, East Marylebone, Covent Garden, City of Westminster, "
+   },
+   "id_preview": "la-gelatiera"
+  },
+  {
+   "n": "Marine Ices",
+   "area": "Chalk Farm",
+   "est": "1931",
+   "hook": "the Mansi family's Italian ice dynasty by the Roundhouse; complicated succession, glorious history",
+   "tags": [
+    "gelato",
+    "interwar"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "successor operation; verify current form/ownership",
+   "src": "food",
+   "geo": {
+    "lat": 51.5432852,
+    "lng": -0.1500874,
+    "type": "ice_cream",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Marine Ices, 61, Chalk Farm Road, Steele's Village, Primrose Hill, Chalk Farm, L"
+   },
+   "id_preview": "marine-ices"
+  },
+  {
+   "n": "Rinkoff's",
+   "area": "Whitechapel",
+   "est": "1911",
+   "hook": "fourth-generation East End Jewish bakery; invented the crodough before the cronut crossed the Atlantic (they'd say)",
+   "tags": [
+    "bakery",
+    "jewish"
+   ],
+   "cat": "bakery",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5219864,
+    "lng": -0.064528,
+    "type": "bakery",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Rinkoff's, 79, Vallance Road, Spitalfields, Whitechapel, London Borough of Tower"
+   },
+   "id_preview": "rinkoff-s"
+  },
+  {
+   "n": "Konditor",
+   "area": "Waterloo",
+   "est": "1993",
+   "hook": "the Curly Whirly cake; a neighbourhood bakery that became a London noun",
+   "tags": [
+    "bakery"
+   ],
+   "cat": "bakery",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5041621,
+    "lng": -0.1102825,
+    "type": "bakery",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Konditor, 22, Cornwall Road, South Bank, Waterloo, London Borough of Lambeth, Gr"
+   },
+   "id_preview": "konditor"
+  },
+  {
+   "n": "Rock & Sole Plaice",
+   "area": "Covent Garden",
+   "est": "1871",
+   "hook": "bills itself London's oldest chippy",
+   "tags": [
+    "food",
+    "victorian"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify claim",
+   "src": "food",
+   "geo": {
+    "lat": 51.5148047,
+    "lng": -0.1251805,
+    "type": "fast_food",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "query": "Rock & Sole Plaice London",
+    "ambig_m": 0,
+    "display": "The Rock & Sole Plaice, 47, Endell Street, Seven Dials, Bloomsbury, London Borou"
+   },
+   "id_preview": "rock-sole-plaice"
+  },
+  {
+   "n": "Lemonia",
+   "area": "Primrose Hill",
+   "est": "1979",
+   "hook": "the Greek-Cypriot taverna as neighbourhood institution",
+   "tags": [
+    "food",
+    "immigrant"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5416421,
+    "lng": -0.1570131,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Lemonia, Regent's Park Road, Primrose Hill, Chalk Farm, London Borough of Camden"
+   },
+   "id_preview": "lemonia"
+  },
+  {
+   "n": "Steve Hatt",
+   "area": "Essex Rd",
+   "est": "1895",
+   "hook": "fourth-generation fishmonger; ice, marble, and no nonsense",
+   "tags": [
+    "deli",
+    "victorian"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5385041,
+    "lng": -0.0988905,
+    "type": "seafood",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Steve Hatt, 88, Essex Road, Angel, Islington, London Borough of Islington, Great"
+   },
+   "id_preview": "steve-hatt"
+  },
+  {
+   "n": "Taj Stores",
+   "area": "Brick Lane",
+   "est": "1936",
+   "hook": "the Bengali grocery that provisioned the East End's transformation",
+   "tags": [
+    "deli",
+    "immigrant"
+   ],
+   "cat": "food",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5199606,
+    "lng": -0.0716844,
+    "type": "supermarket",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Taj Stores, 112, Brick Lane, Spitalfields, Whitechapel, London Borough of Tower "
+   },
+   "id_preview": "taj-stores"
+  },
+  {
+   "n": "Loon Fung",
+   "area": "Chinatown",
+   "est": "c. 1970s",
+   "hook": "among the first Chinese supermarkets in Britain",
+   "tags": [
+    "deli",
+    "immigrant"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify original site status",
+   "src": "food",
+   "geo": {
+    "lat": 51.5118919,
+    "lng": -0.1303279,
+    "type": "supermarket",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 2,
+    "ambig_m": 8,
+    "display": "Loon Fung Supermarket, 42-44, Gerrard Street, Chinatown, City of Westminster, Gr"
+   },
+   "id_preview": "loon-fung"
+  },
+  {
+   "n": "Brindisa",
+   "area": "Borough",
+   "est": "1988",
+   "hook": "the counter that introduced Britain to proper jamon",
+   "tags": [
+    "deli"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify retail form",
+   "src": "food",
+   "geo": {
+    "lat": 51.5050785,
+    "lng": -0.090443,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Brindisa, 18-20, Southwark Street, Borough Market, Bankside, The Borough, London"
+   },
+   "id_preview": "brindisa"
+  },
+  {
+   "n": "Japan Centre",
+   "area": "Piccadilly",
+   "est": "1976",
+   "hook": "from a bookshop to the Japanese pantry of London",
+   "tags": [
+    "deli",
+    "immigrant"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify site",
+   "src": "food",
+   "geo": {
+    "lat": 51.509714,
+    "lng": -0.1315194,
+    "type": "supermarket",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "query": "Japan Centre London",
+    "ambig_m": 0,
+    "display": "Japan Centre, 35b, Panton Street, St. James's, East Marylebone, Covent Garden, C"
+   },
+   "id_preview": "japan-centre"
+  },
+  {
+   "n": "Prima / Parade",
+   "area": "Hammersmith/Ealing",
+   "est": "c. 1960s-80s",
+   "hook": "the emigracja's pantry belt (two Polish delis in W London)",
+   "tags": [
+    "deli",
+    "polish"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify names/liveness",
+   "src": "food",
+   "geo": {
+    "lat": 51.5395762,
+    "lng": 0.0806292,
+    "type": "cafe",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "query": "Prima / Parade London",
+    "ambig_m": 0,
+    "display": "Prima Stella Cafe, Station Parade, Thames View, Barking, Greater London, England"
+   },
+   "id_preview": "prima-parade"
+  },
+  {
+   "n": "Chalcot Crescent",
+   "area": "Primrose Hill",
+   "hook": "the pastel terrace that played Windsor Gardens in Paddington",
+   "tags": [
+    "cinematic"
+   ],
+   "cat": "film",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify which house to use for the street shot",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5400053,
+    "lng": -0.1563687,
+    "type": "residential",
+    "cls": "highway",
+    "importance": 0.053426412603952055,
+    "n_results": 2,
+    "ambig_m": 82,
+    "display": "Chalcot Crescent, Primrose Hill, Chalk Farm, London Borough of Camden, Greater L"
+   },
+   "id_preview": "chalcot-crescent"
+  },
+  {
+   "n": "Australia House",
+   "area": "Strand",
+   "hook": "Gringotts' interior; the real marble hall glimpsed through the doors (exterior only)",
+   "tags": [
+    "cinematic",
+    "interwar"
+   ],
+   "cat": "film",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify viewability",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5128728,
+    "lng": -0.1155892,
+    "type": "diplomatic",
+    "cls": "office",
+    "importance": 0.35557074529832616,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Australian High Commission, Strand, St Clement Danes, Covent Garden, City of Wes"
+   },
+   "id_preview": "australia-house"
+  },
+  {
+   "n": "Millennium Bridge",
+   "area": "",
+   "hook": "the bridge the Death Eaters folded in Half-Blood Prince; also the Guardians of the Galaxy bridge",
+   "tags": [
+    "cinematic"
+   ],
+   "cat": "film",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5098883,
+    "lng": -0.0985076,
+    "type": "bridge",
+    "cls": "man_made",
+    "importance": 0.48300944035823506,
+    "n_results": 3,
+    "ambig_m": 7,
+    "display": "Millennium Bridge, Bankside, Southwark, London Borough of Southwark, Greater Lon"
+   },
+   "id_preview": "millennium-bridge"
+  },
+  {
+   "n": "St Katharine Docks",
+   "area": "Tower",
+   "hook": "the yacht world of The Long Good Friday's ending",
+   "tags": [
+    "maritime",
+    "cinematic"
+   ],
+   "cat": "maritime",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5065406,
+    "lng": -0.0716502,
+    "type": "attraction",
+    "cls": "tourism",
+    "importance": 0.38382602028473783,
+    "n_results": 3,
+    "ambig_m": 180,
+    "display": "St. Katharine Docks, East Smithfield, Tower Hill, Wapping, London Borough of Tow"
+   },
+   "id_preview": "st-katharine-docks"
+  },
+  {
+   "n": "Grosvenor Chapel",
+   "area": "Mayfair",
+   "hook": "Love Actually wedding",
+   "tags": [
+    "faith",
+    "cinematic"
+   ],
+   "cat": "faith",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5090453,
+    "lng": -0.1512052,
+    "type": "place_of_worship",
+    "cls": "amenity",
+    "importance": 0.34731627116286135,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Grosvenor Chapel, 24, South Audley Street, Mayfair, City of Westminster, Greater"
+   },
+   "id_preview": "grosvenor-chapel"
+  },
+  {
+   "n": "40 Stansfield Road",
+   "area": "Brixton",
+   "hook": "Bowie's birthplace; pair with the Tunstall Road mural shrine",
+   "tags": [
+    "musical",
+    "plaque"
+   ],
+   "cat": "music",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.4659353,
+    "lng": -0.1181174,
+    "type": "residential",
+    "cls": "highway",
+    "importance": 0.053426412603952055,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Stansfield Road, Stockwell Park, Stockwell, London Borough of Lambeth, Greater L"
+   },
+   "id_preview": "40-stansfield-road"
+  },
+  {
+   "n": "Ministry of Sound",
+   "area": "Elephant and Castle",
+   "hook": "1991, the club that institutionalised UK club culture",
+   "tags": [
+    "musical",
+    "late"
+   ],
+   "cat": "music",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.4977677,
+    "lng": -0.0994957,
+    "type": "nightclub",
+    "cls": "amenity",
+    "importance": 0.5027363594524359,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Ministry of Sound, 103, Gaunt Street, Elephant and Castle, London Borough of Sou"
+   },
+   "id_preview": "ministry-of-sound"
+  },
+  {
+   "n": "Point Hill",
+   "area": "Greenwich",
+   "hook": "the local's alternative to the tourist summit",
+   "tags": [
+    "view"
+   ],
+   "cat": "view",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.4745343,
+    "lng": -0.0098614,
+    "type": "residential",
+    "cls": "highway",
+    "importance": 0.053426412603952055,
+    "n_results": 3,
+    "ambig_m": 95,
+    "display": "Point Hill, Greenwich Town Centre, East Greenwich, Royal Borough of Greenwich, G"
+   },
+   "id_preview": "point-hill"
+  },
+  {
+   "n": "Blythe Hill Fields",
+   "area": "Catford",
+   "hook": "borders the SE sleeper panorama",
+   "tags": [
+    "view"
+   ],
+   "cat": "view",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.4470631,
+    "lng": -0.0356011,
+    "type": "park",
+    "cls": "leisure",
+    "importance": 0.25352702198722055,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Blythe Hill Fields, Honor Oak, London Borough of Lewisham, Greater London, Engla"
+   },
+   "id_preview": "blythe-hill-fields"
+  }
+ ],
+ "DEDUPE": [
+  {
+   "n": "Algerian Coffee Stores",
+   "area": "Soho",
+   "est": "1887",
+   "hook": "a roaster's shopfront essentially unchanged for a century; espresso at the counter for pennies while Soho gentrified around it",
+   "tags": [
+    "coffee",
+    "victorian"
+   ],
+   "cat": "coffee",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.512913,
+    "lng": -0.1321933,
+    "type": "coffee",
+    "cls": "shop",
+    "importance": 0.04539457909600718,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Algerian Coffee Stores, 52, Old Compton Street, Soho, City of Westminster, Great"
+   },
+   "existing": {
+    "id": "algerian",
+    "n": "Algerian Coffee Stores",
+    "c": "food",
+    "sim": 1,
+    "dist": 40
+   }
+  },
+  {
+   "n": "Bar Italia",
+   "area": "Soho",
+   "est": "1949",
+   "hook": "run by the same family since opening; upstairs at 22 Frith St is where Baird first demonstrated television in 1926",
+   "tags": [
+    "coffee",
+    "interior",
+    "scientific"
+   ],
+   "cat": "coffee",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.513421,
+    "lng": -0.1312352,
+    "type": "cafe",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Bar Italia, 22, Frith Street, Soho, City of Westminster, Greater London, England"
+   },
+   "existing": {
+    "id": "baritalia",
+    "n": "Bar Italia & the Baird plaque",
+    "c": "food",
+    "sim": 1,
+    "dist": 25
+   }
+  },
+  {
+   "n": "Monmouth Coffee",
+   "area": "Covent Garden",
+   "est": "1978",
+   "hook": "the shop that taught London single-origin decades before \"third wave\" had a name",
+   "tags": [
+    "coffee"
+   ],
+   "cat": "coffee",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5055145,
+    "lng": -0.0914602,
+    "type": "cafe",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 4,
+    "query": "Monmouth Coffee London",
+    "ambig_m": 1989,
+    "display": "Monmouth Coffee Company, 2, Park Street, Borough Market, Bankside, The Borough, "
+   },
+   "existing": {
+    "id": "monmouth",
+    "n": "Monmouth Coffee",
+    "c": "coffee",
+    "sim": 1,
+    "dist": 2625
+   }
+  },
+  {
+   "n": "Prufrock Coffee",
+   "area": "Leather Lane",
+   "est": "2009",
+   "hook": "opened by a World Barista Champion; the room where a generation of London baristas trained",
+   "tags": [
+    "coffee"
+   ],
+   "cat": "coffee",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5199496,
+    "lng": -0.1095201,
+    "type": "cafe",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Prufrock Coffee, 23-25, Leather Lane, Hatton Garden, Holborn, London Borough of "
+   },
+   "existing": {
+    "id": "prufrock",
+    "n": "Prufrock Coffee",
+    "c": "coffee",
+    "sim": 1,
+    "dist": 79
+   }
+  },
+  {
+   "n": "Kaffeine",
+   "area": "Fitzrovia",
+   "est": "2009",
+   "hook": "the Antipodean beachhead that rewired London's idea of a flat white",
+   "tags": [
+    "coffee"
+   ],
+   "cat": "coffee",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5184547,
+    "lng": -0.1403447,
+    "type": "retail",
+    "cls": "building",
+    "importance": 0.00009307927061870783,
+    "n_results": 3,
+    "query": "Kaffeine London",
+    "ambig_m": 0,
+    "display": "Kaffeine, 66, Great Titchfield Street, East Marylebone, Mayfair, City of Westmin"
+   },
+   "existing": {
+    "id": "kaffeine",
+    "n": "Kaffeine",
+    "c": "coffee",
+    "sim": 1,
+    "dist": 50
+   }
+  },
+  {
+   "n": "Climpson & Sons",
+   "area": "Broadway Market",
+   "est": "c. 2005",
+   "hook": "East London's market-street roaster before the market's revival was a story",
+   "tags": [
+    "coffee"
+   ],
+   "cat": "coffee",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5374627,
+    "lng": -0.0613128,
+    "type": "cafe",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Climpson & Sons, 67, Broadway Market, Haggerston, London Borough of Hackney, Gre"
+   },
+   "existing": {
+    "id": "climpsons",
+    "n": "Climpson & Sons",
+    "c": "coffee",
+    "sim": 1,
+    "dist": 52
+   }
+  },
+  {
+   "n": "Gelupo",
+   "area": "Soho",
+   "est": "2010",
+   "hook": "a chef's gelateria (Bocca di Lupo's across the road); blood-orange granita as serious cooking",
+   "tags": [
+    "gelato"
+   ],
+   "cat": "food",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5115864,
+    "lng": -0.1337003,
+    "type": "ice_cream",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Gelupo, 7, Archer Street, Soho, City of Westminster, Greater London, England, W1"
+   },
+   "existing": {
+    "id": "gelupo-soho",
+    "n": "Gelupo",
+    "c": "bakery",
+    "sim": 1,
+    "dist": 196
+   }
+  },
+  {
+   "n": "Oddono's",
+   "area": "South Kensington",
+   "est": "2004",
+   "hook": "Italian family recipe pitched at the museum quarter; a two-decade survivor in a churn trade",
+   "tags": [
+    "gelato"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.4562725,
+    "lng": -0.0758301,
+    "type": "ice_cream",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 5,
+    "query": "Oddono's London",
+    "ambig_m": 9706,
+    "display": "Oddono's gelati, 147, Lordship Lane, Denmark Hill, East Dulwich, London Borough "
+   },
+   "existing": {
+    "id": "oddonos-south-ken",
+    "n": "Oddono's",
+    "c": "bakery",
+    "sim": 1,
+    "dist": 7989
+   }
+  },
+  {
+   "n": "Maison Bertaux",
+   "area": "Greek St, Soho",
+   "est": "1871",
+   "hook": "London's oldest patisserie, founded by a Communard exile; cakes in the window through every Soho era",
+   "tags": [
+    "bakery",
+    "victorian",
+    "interior"
+   ],
+   "cat": "bakery",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5133153,
+    "lng": -0.1301989,
+    "type": "cafe",
+    "cls": "amenity",
+    "importance": 0.11734328469919902,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Maison Bertaux, 28, Greek Street, Soho, City of Westminster, Greater London, Eng"
+   },
+   "existing": {
+    "id": "maisonbertaux",
+    "n": "Maison Bertaux",
+    "c": "food",
+    "sim": 1,
+    "dist": 56
+   }
+  },
+  {
+   "n": "Beigel Bake",
+   "area": "Brick Lane",
+   "est": "1974",
+   "hook": "24-hour beigels; cabbies, clubbers and salt beef at 4 a.m.",
+   "tags": [
+    "bakery",
+    "jewish",
+    "late"
+   ],
+   "cat": "bakery",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5245116,
+    "lng": -0.0717527,
+    "type": "bakery",
+    "cls": "shop",
+    "importance": 0.10540294855860563,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Beigel Bake, 159, Brick Lane, Spitalfields, Whitechapel, London Borough of Tower"
+   },
+   "existing": {
+    "id": "beigel",
+    "n": "Beigel Bake",
+    "c": "food",
+    "sim": 1,
+    "dist": 10
+   }
+  },
+  {
+   "n": "Beigel Shop",
+   "area": "Brick Lane",
+   "est": "1855",
+   "hook": "the yellow one; the older, feistier sibling in London's longest bagel rivalry",
+   "tags": [
+    "bakery",
+    "jewish"
+   ],
+   "cat": "bakery",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify claim, not liveness",
+   "src": "food",
+   "geo": {
+    "lat": 51.5243653,
+    "lng": -0.0717264,
+    "type": "fast_food",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Beigel Shop, 155, Brick Lane, Spitalfields, Whitechapel, London Borough of Tower"
+   },
+   "existing": {
+    "id": "beigel",
+    "n": "Beigel Bake",
+    "c": "food",
+    "sim": 1,
+    "dist": 26
+   }
+  },
+  {
+   "n": "Lisboa Patisserie",
+   "area": "Golborne Rd",
+   "est": "c. 1970s",
+   "hook": "pastel de nata for the Portuguese community decades before the pastry went viral",
+   "tags": [
+    "bakery",
+    "immigrant"
+   ],
+   "cat": "bakery",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5223632,
+    "lng": -0.2075096,
+    "type": "cafe",
+    "cls": "amenity",
+    "importance": 0.04539457909600718,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Lisboa Patisserie, 57, Golborne Road, North Kensington, Royal Borough of Kensing"
+   },
+   "existing": {
+    "id": "lisboa-patisserie",
+    "n": "Lisboa Patisserie",
+    "c": "bakery",
+    "sim": 1,
+    "dist": 7581
+   }
+  },
+  {
+   "n": "Dusty Knuckle",
+   "area": "Dalston",
+   "est": "c. 2014",
+   "hook": "sourdough bakery training ex-offenders; the sandwich queue as social enterprise",
+   "tags": [
+    "bakery"
+   ],
+   "cat": "bakery",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5471197,
+    "lng": -0.0739135,
+    "type": "bakery",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "The Dusty Knuckle, Abbot Street, De Beauvoir Town, Dalston, London Borough of Ha"
+   },
+   "existing": {
+    "id": "dustyknuckle",
+    "n": "The Dusty Knuckle",
+    "c": "brunch",
+    "sim": 1,
+    "dist": 84
+   }
+  },
+  {
+   "n": "E5 Bakehouse",
+   "area": "London Fields",
+   "est": "2011",
+   "hook": "railway-arch mill-and-bake pioneer",
+   "tags": [
+    "bakery"
+   ],
+   "cat": "bakery",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5412439,
+    "lng": -0.0575155,
+    "type": "bakery",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "query": "E5 Bakehouse London",
+    "ambig_m": 0,
+    "display": "E5 Bakehouse, 395, Mentmore Terrace, Hackney, London Borough of Hackney, Greater"
+   },
+   "existing": {
+    "id": "e5-bakehouse",
+    "n": "E5 Bakehouse",
+    "c": "bakery",
+    "sim": 1,
+    "dist": 243
+   }
+  },
+  {
+   "n": "St. John Bakery",
+   "area": "Borough/Neal's Yard",
+   "est": "",
+   "hook": "the doughnut of record, from the nose-to-tail house",
+   "tags": [
+    "bakery"
+   ],
+   "cat": "bakery",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify location",
+   "src": "food",
+   "geo": {
+    "lat": 51.5016576,
+    "lng": -0.0930343,
+    "type": "bakery",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "query": "St. John Bakery London",
+    "ambig_m": 0,
+    "display": "St John Bakery, Borough High Street, Borough Market, Bankside, The Borough, Lond"
+   },
+   "existing": {
+    "id": "st-john-bakery",
+    "n": "St. John Bakery",
+    "c": "bakery",
+    "sim": 1,
+    "dist": 1915
+   }
+  },
+  {
+   "n": "Ambala",
+   "area": "Drummond St",
+   "est": "1965",
+   "hook": "mithai institution of the \"Little India\" block that fed generations off Euston",
+   "tags": [
+    "bakery",
+    "immigrant"
+   ],
+   "cat": "bakery",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5756486,
+    "lng": -0.0138059,
+    "type": "confectionery",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 5,
+    "query": "Ambala London",
+    "ambig_m": 10071,
+    "display": "Ambala, 490, Hoe Street, Leyton, Walthamstow, Greater London, England, E17 9AH, "
+   },
+   "existing": {
+    "id": "ambalasweet",
+    "n": "Ambala Sweet Centre",
+    "c": "food",
+    "sim": 1,
+    "dist": 26205
+   }
+  },
+  {
+   "n": "Antepliler",
+   "area": "Green Lanes",
+   "est": "c. 1990s",
+   "hook": "Gaziantep baklava on the Harringay strip; pistachio green as a shop identity",
+   "tags": [
+    "bakery",
+    "immigrant"
+   ],
+   "cat": "bakery",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5792241,
+    "lng": -0.0992942,
+    "type": "bakery",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 3,
+    "ambig_m": 26,
+    "display": "Antepliler Kunefe, 441, Green Lanes, Harringay, London Borough of Haringey, Grea"
+   },
+   "existing": {
+    "id": "antepliler",
+    "n": "Antepliler",
+    "c": "food",
+    "sim": 1,
+    "dist": 312
+   }
+  },
+  {
+   "n": "Golden Gate Cake Shop",
+   "area": "Chinatown",
+   "est": "c. 1980s",
+   "hook": "old-school Hong Kong bakery; egg tarts and lotus buns against the redevelopment tide",
+   "tags": [
+    "bakery",
+    "immigrant"
+   ],
+   "cat": "bakery",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5119625,
+    "lng": -0.1311575,
+    "type": "confectionery",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "金門餅家 Golden Gate Cake Shop, 13, Macclesfield Street, Chinatown, City of Westmins"
+   },
+   "existing": {
+    "id": "goldendragon",
+    "n": "Golden Dragon",
+    "c": "dumpling",
+    "sim": 0.5,
+    "dist": 35
+   }
+  },
+  {
+   "n": "E. Pellicci",
+   "area": "Bethnal Green",
+   "est": "1900",
+   "hook": "Grade II-listed marquetry interior; the Kray twins' breakfast room, now the friendliest room in London",
+   "tags": [
+    "caff",
+    "interior",
+    "crime"
+   ],
+   "cat": "caff",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5264955,
+    "lng": -0.0633785,
+    "type": "cafe",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "E. Pellicci, 332, Bethnal Green Road, Spitalfields, Bethnal Green, London Boroug"
+   },
+   "existing": {
+    "id": "e-pellicci-bethnal-green",
+    "n": "E. Pellicci",
+    "c": "caff",
+    "sim": 1,
+    "dist": 514
+   }
+  },
+  {
+   "n": "Regency Cafe",
+   "area": "Pimlico",
+   "est": "1946",
+   "hook": "art-deco tiled survivor; the shouted order numbers made it a film location (Layer Cake)",
+   "tags": [
+    "caff",
+    "cinematic",
+    "interwar"
+   ],
+   "cat": "caff",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.494002,
+    "lng": -0.1320948,
+    "type": "cafe",
+    "cls": "amenity",
+    "importance": 0.3411720307708333,
+    "n_results": 1,
+    "query": "Regency Cafe London",
+    "ambig_m": 0,
+    "display": "Regency Cafe, 17-19, Regency Street, Westminster, Millbank, City of Westminster,"
+   },
+   "existing": {
+    "id": "regency-cafe-westminster",
+    "n": "Regency Café",
+    "c": "caff",
+    "sim": 1,
+    "dist": 132
+   }
+  },
+  {
+   "n": "Terry's Cafe",
+   "area": "Borough",
+   "est": "1982",
+   "hook": "bowler hats and Union Jacks; a self-curated museum of working London",
+   "tags": [
+    "caff",
+    "interior"
+   ],
+   "cat": "caff",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5006383,
+    "lng": -0.0983707,
+    "type": "cafe",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Terry's Cafe, 156;156,158, Great Suffolk Street, Bankside, The Borough, London B"
+   },
+   "existing": {
+    "id": "terrys-cafe-borough",
+    "n": "Terry's Café",
+    "c": "caff",
+    "sim": 1,
+    "dist": 154
+   }
+  },
+  {
+   "n": "Andrew's",
+   "area": "Gray's Inn Rd",
+   "est": "c. 1950s",
+   "hook": "barristers and builders side by side; unchanged menu board",
+   "tags": [
+    "caff"
+   ],
+   "cat": "caff",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.6059596,
+    "lng": -0.208054,
+    "type": "hairdresser",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 3,
+    "query": "Andrew's London",
+    "ambig_m": 9476,
+    "display": "Andrew's, 13, Bittacy Hill, West Finchley, London Borough of Barnet, Greater Lon"
+   },
+   "existing": {
+    "id": "standrewsunitedreformedc",
+    "n": "St Andrew's United Reformed Church",
+    "c": "faith",
+    "sim": 1,
+    "dist": 28806
+   }
+  },
+  {
+   "n": "Rules",
+   "area": "Covent Garden",
+   "est": "1798",
+   "hook": "London's oldest restaurant; game from its own estate, Graham Greene's corner table",
+   "tags": [
+    "food",
+    "georgian",
+    "literary"
+   ],
+   "cat": "food",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5108285,
+    "lng": -0.1231906,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.3523323513289129,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Rules, 34-35, Maiden Lane, St Clement Danes, Covent Garden, City of Westminster,"
+   },
+   "existing": {
+    "id": "rules",
+    "n": "Rules",
+    "c": "food",
+    "sim": 1,
+    "dist": 85
+   }
+  },
+  {
+   "n": "Wiltons",
+   "area": "Jermyn St",
+   "est": "1742",
+   "hook": "oysters since the Georgians; possibly the longest continuous kitchen in the city",
+   "tags": [
+    "food",
+    "georgian"
+   ],
+   "cat": "food",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5076994,
+    "lng": -0.1392041,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Wiltons Restaurant, 55, Jermyn Street, St. James's, Westminster, Mayfair, City o"
+   },
+   "existing": {
+    "id": "wiltons",
+    "n": "Wiltons",
+    "c": "food",
+    "sim": 1,
+    "dist": 104
+   }
+  },
+  {
+   "n": "Sweetings",
+   "area": "City",
+   "est": "1889",
+   "hook": "fish lunch only, weekdays only, no reservations, no coffee; a Victorian rulebook still enforced",
+   "tags": [
+    "food",
+    "victorian",
+    "interior"
+   ],
+   "cat": "food",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.512397,
+    "lng": -0.0927667,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.3415289282979405,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Sweetings, 39, Queen Victoria Street, St Paul's, City of London, Greater London,"
+   },
+   "existing": {
+    "id": "sweetings",
+    "n": "Sweetings",
+    "c": "finance",
+    "sim": 1,
+    "dist": 68
+   }
+  },
+  {
+   "n": "The Quality Chop House",
+   "area": "Farringdon",
+   "est": "1869",
+   "hook": "\"Progressive Working Class Caterer\" etched in the glass; bench seats to prove it",
+   "tags": [
+    "food",
+    "victorian",
+    "interior"
+   ],
+   "cat": "food",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5247032,
+    "lng": -0.1099605,
+    "type": "butcher",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "query": "The Quality Chop House",
+    "ambig_m": 0,
+    "display": "The Quality Chop House Shop, 88-94, Farringdon Road, Little Italy, Angel, Isling"
+   },
+   "existing": {
+    "id": "qualitychop",
+    "n": "Quality Chop House",
+    "c": "food",
+    "sim": 1,
+    "dist": 175
+   }
+  },
+  {
+   "n": "George & Vulture",
+   "area": "City",
+   "est": "1748",
+   "hook": "Dickens's haunt, thrice in Pickwick; chop-house theatre down an alley",
+   "tags": [
+    "food",
+    "georgian",
+    "literary"
+   ],
+   "cat": "food",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5129153,
+    "lng": -0.0857705,
+    "type": "pub",
+    "cls": "amenity",
+    "importance": 0.39965982201271655,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "George and Vulture, 2-3, Castle Court, Leadenhall Market, Bank, City of London, "
+   },
+   "existing": {
+    "id": "georgevulture",
+    "n": "The George & Vulture",
+    "c": "history",
+    "sim": 1,
+    "dist": 20
+   }
+  },
+  {
+   "n": "Simpson's Tavern",
+   "area": "Cornhill",
+   "est": "1757",
+   "hook": "London's oldest chophouse, evicted 2022 amid public outcry; status unclear, a story either way",
+   "tags": [
+    "food",
+    "georgian"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify may be gone/closed",
+   "src": "food",
+   "geo": {
+    "lat": 51.5130283,
+    "lng": -0.0859508,
+    "type": "pub",
+    "cls": "amenity",
+    "importance": 0.39447880025774196,
+    "n_results": 1,
+    "query": "Simpson's Tavern London",
+    "ambig_m": 0,
+    "display": "Simpson's Tavern, 38 1/2, Ball Court, Leadenhall Market, Bank, City of London, G"
+   },
+   "existing": {
+    "id": "cloth",
+    "n": "Cloth Cornhill (ex-Simpson's Tavern)",
+    "c": "food",
+    "sim": 1,
+    "dist": 19
+   }
+  },
+  {
+   "n": "Veeraswamy",
+   "area": "Regent St",
+   "est": "1926",
+   "hook": "the UK's oldest Indian restaurant; a century of curry above Regent Street",
+   "tags": [
+    "food",
+    "immigrant",
+    "interwar"
+   ],
+   "cat": "food",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5098955,
+    "lng": -0.1379192,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.3572718937775532,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Veeraswamy, 99-101, Regent Street, St. James's, East Marylebone, Mayfair, City o"
+   },
+   "existing": {
+    "id": "veeraswamy",
+    "n": "Veeraswamy",
+    "c": "food",
+    "sim": 1,
+    "dist": 1
+   }
+  },
+  {
+   "n": "Tayyabs",
+   "area": "Whitechapel",
+   "est": "1972",
+   "hook": "the lamb-chop queue that outlasted every trend",
+   "tags": [
+    "food",
+    "immigrant"
+   ],
+   "cat": "food",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5172654,
+    "lng": -0.0634614,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Tayyabs, 83-89, Fieldgate Street, St. George in the East, Whitechapel, London Bo"
+   },
+   "existing": {
+    "id": "tayyabs",
+    "n": "Tayyabs",
+    "c": "food",
+    "sim": 1,
+    "dist": 10
+   }
+  },
+  {
+   "n": "Lahore Kebab House",
+   "area": "Aldgate",
+   "est": "c. 1972",
+   "hook": "the other half of the great East End karahi rivalry",
+   "tags": [
+    "food",
+    "immigrant"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5144723,
+    "lng": -0.0631409,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "query": "Lahore Kebab House London",
+    "ambig_m": 0,
+    "display": "Lahore Kebab House, 2-4, Umberston Street, St. George in the East, Whitechapel, "
+   },
+   "existing": {
+    "id": "lahorekebabhouse",
+    "n": "Lahore Kebab House",
+    "c": "food",
+    "sim": 1,
+    "dist": 0
+   }
+  },
+  {
+   "n": "Daquise",
+   "area": "South Kensington",
+   "est": "1947",
+   "hook": "London's oldest Polish restaurant; emigre generals, then Polanski, then everyone's grandmother",
+   "tags": [
+    "food",
+    "immigrant",
+    "polish"
+   ],
+   "cat": "food",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.4944325,
+    "lng": -0.1734277,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Daquise, 20, Thurloe Street, Brompton, Royal Borough of Kensington and Chelsea, "
+   },
+   "existing": {
+    "id": "daquise",
+    "n": "Daquise",
+    "c": "diaspora",
+    "sim": 1,
+    "dist": 47
+   }
+  },
+  {
+   "n": "Ognisko",
+   "area": "South Kensington",
+   "est": "1940",
+   "hook": "the Polish Hearth Club's dining room; wartime exile government's living room",
+   "tags": [
+    "food",
+    "immigrant",
+    "polish",
+    "interior"
+   ],
+   "cat": "food",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.4990874,
+    "lng": -0.1740456,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Ognisko Restaurant, 55, Exhibition Road, Brompton, City of Westminster, Greater "
+   },
+   "existing": {
+    "id": "ognisko",
+    "n": "Ognisko Polskie",
+    "c": "diaspora",
+    "sim": 1,
+    "dist": 188
+   }
+  },
+  {
+   "n": "L'Escargot",
+   "area": "Soho",
+   "est": "1927",
+   "hook": "snails farmed in the basement, once; Soho's grand French survivor",
+   "tags": [
+    "food",
+    "interwar"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5139693,
+    "lng": -0.1309607,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.3501849283177136,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "L'Escargot, 48, Greek Street, Soho, City of Westminster, Greater London, England"
+   },
+   "existing": {
+    "id": "lescargot2",
+    "n": "L'Escargot",
+    "c": "food",
+    "sim": 1,
+    "dist": 0
+   }
+  },
+  {
+   "n": "Mon Plaisir",
+   "area": "Covent Garden",
+   "est": "c. 1940s",
+   "hook": "claims London's oldest French restaurant; Resistance-poster decor",
+   "tags": [
+    "food"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify claim/liveness",
+   "src": "food",
+   "geo": {
+    "lat": 51.5145048,
+    "lng": -0.1267802,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.34081317763107843,
+    "n_results": 1,
+    "query": "Mon Plaisir London",
+    "ambig_m": 0,
+    "display": "Mon Plaisir, 21, Monmouth Street, Seven Dials, Bloomsbury, London Borough of Cam"
+   },
+   "existing": {
+    "id": "monplaisir",
+    "n": "Mon Plaisir",
+    "c": "food",
+    "sim": 1,
+    "dist": 16
+   }
+  },
+  {
+   "n": "Wong Kei",
+   "area": "Chinatown",
+   "est": "c. 1985",
+   "hook": "once famous for the rudest service in London (affectionately); four floors of speed",
+   "tags": [
+    "food",
+    "immigrant"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.511455,
+    "lng": -0.1324588,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.34223694096820295,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "旺記 Wong Kei, 41-43, Wardour Street, Chinatown, City of Westminster, Greater Lond"
+   },
+   "existing": {
+    "id": "wongkei",
+    "n": "Wong Kei",
+    "c": "dumpling",
+    "sim": 1,
+    "dist": 1
+   }
+  },
+  {
+   "n": "Golden Hind",
+   "area": "Marylebone",
+   "est": "1914",
+   "hook": "chippy with a century of continuity behind a modest facade",
+   "tags": [
+    "food",
+    "interwar"
+   ],
+   "cat": "food",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5179888,
+    "lng": -0.1509597,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "The Golden Hind, 73, Marylebone Lane, East Marylebone, Marylebone, City of Westm"
+   },
+   "existing": {
+    "id": "thegoldenhind",
+    "n": "The Golden Hind",
+    "c": "food",
+    "sim": 1,
+    "dist": 0
+   }
+  },
+  {
+   "n": "Song Que",
+   "area": "Kingsland Rd",
+   "est": "c. 2002",
+   "hook": "anchor of the Pho Mile; the Vietnamese community's canteen",
+   "tags": [
+    "food",
+    "immigrant"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5307958,
+    "lng": -0.0769436,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Sông Quê café, 134, Kingsland Road, Shoreditch, London Borough of Hackney, Great"
+   },
+   "existing": {
+    "id": "song-que-pho",
+    "n": "Sông Quê Café",
+    "c": "food",
+    "sim": 1,
+    "dist": 23
+   }
+  },
+  {
+   "n": "Terroni of Clerkenwell",
+   "area": "Clerkenwell",
+   "est": "1878",
+   "hook": "Britain's oldest Italian deli, attached to St Peter's Italian Church",
+   "tags": [
+    "deli",
+    "victorian",
+    "immigrant"
+   ],
+   "cat": "food",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5221529,
+    "lng": -0.1093297,
+    "type": "deli",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Terroni of Clerkenwell, 138-140, Clerkenwell Road, Hatton Garden, Holborn, Londo"
+   },
+   "existing": {
+    "id": "terroni-clerkenwell",
+    "n": "Terroni of Clerkenwell",
+    "c": "diaspora",
+    "sim": 1,
+    "dist": 136
+   }
+  },
+  {
+   "n": "Lina Stores",
+   "area": "Soho",
+   "est": "1944",
+   "hook": "the green-tiled pasta shop that seeded a small empire; the original still smells right",
+   "tags": [
+    "deli",
+    "immigrant",
+    "shopfront"
+   ],
+   "cat": "food",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.512308,
+    "lng": -0.134198,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 2,
+    "ambig_m": 296,
+    "display": "Lina Stores, 18, Brewer Street, Soho, City of Westminster, Greater London, Engla"
+   },
+   "existing": {
+    "id": "linastores",
+    "n": "Lina Stores",
+    "c": "food",
+    "sim": 1,
+    "dist": 53
+   }
+  },
+  {
+   "n": "Panzer's",
+   "area": "St John's Wood",
+   "est": "1944",
+   "hook": "the Jewish deli of NW8; bagels and gossip",
+   "tags": [
+    "deli",
+    "jewish"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.533457,
+    "lng": -0.1722834,
+    "type": "supermarket",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Panzer's Delicatessen, 13-19, Circus Road, St. John's Wood, City of Westminster,"
+   },
+   "existing": {
+    "id": "panzers-deli",
+    "n": "Panzer's Deli",
+    "c": "bakery",
+    "sim": 1,
+    "dist": 78
+   }
+  },
+  {
+   "n": "Neal's Yard Dairy",
+   "area": "Covent Garden/Borough",
+   "est": "1979",
+   "hook": "the shop that saved British farmhouse cheese",
+   "tags": [
+    "deli"
+   ],
+   "cat": "food",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.505449,
+    "lng": -0.091633,
+    "type": "cheese",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 5,
+    "query": "Neal's Yard Dairy London",
+    "ambig_m": 2587,
+    "display": "Neal's Yard Dairy, 8, Park Street, Borough Market, Bankside, The Borough, London"
+   },
+   "existing": {
+    "id": "nealsyard",
+    "n": "Neal's Yard",
+    "c": "pop",
+    "sim": 1,
+    "dist": 2619
+   }
+  },
+  {
+   "n": "Paxton & Whitfield",
+   "area": "Jermyn St",
+   "est": "1797",
+   "hook": "cheesemonger by royal warrant across four centuries",
+   "tags": [
+    "deli",
+    "georgian"
+   ],
+   "cat": "food",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.5082719,
+    "lng": -0.1369018,
+    "type": "cheese",
+    "cls": "shop",
+    "importance": 0.14389741120638372,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Paxton & Whitfield, Jermyn Street, St. James's, Westminster, Mayfair, City of We"
+   },
+   "existing": {
+    "id": "paxtoncheese",
+    "n": "Paxton & Whitfield",
+    "c": "history",
+    "sim": 1,
+    "dist": 80
+   }
+  },
+  {
+   "n": "Persepolis",
+   "area": "Peckham",
+   "est": "c. 2001",
+   "hook": "Iranian corner shop-cafe run by a cookbook author; saffron and wit",
+   "tags": [
+    "deli",
+    "immigrant",
+    "eccentric"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.4733238,
+    "lng": -0.0718263,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Persepolis, 30, Peckham High Street, Clifton Estate, Peckham, London Borough of "
+   },
+   "existing": {
+    "id": "persepolis",
+    "n": "Persepolis",
+    "c": "food",
+    "sim": 1,
+    "dist": 270
+   }
+  },
+  {
+   "n": "Maryon Park",
+   "area": "Charlton",
+   "hook": "where Antonioni shot Blow-Up (1966); the tennis court of the mimed match is still there, eerily unchanged",
+   "tags": [
+    "green",
+    "cinematic"
+   ],
+   "cat": "green",
+   "verify": false,
+   "kind": "venue",
+   "note": "tag order lists 'green' before 'cinematic' in source; cat set to green by first-tag rule though filed under Film & TV",
+   "src": "culture",
+   "geo": {
+    "lat": 51.4893014,
+    "lng": 0.0425366,
+    "type": "park",
+    "cls": "leisure",
+    "importance": 0.3459998341921779,
+    "n_results": 2,
+    "ambig_m": 504,
+    "display": "Maryon Park, Charlton Riverside, Royal Borough of Greenwich, Greater London, Eng"
+   },
+   "existing": {
+    "id": "maryonpark",
+    "n": "Maryon Park (where Blow-Up was shot)",
+    "c": "film",
+    "sim": 1,
+    "dist": 128
+   }
+  },
+  {
+   "n": "Regency Cafe",
+   "area": "Pimlico",
+   "hook": "already in the catalogue; add the Layer Cake tag cross-link, don't duplicate",
+   "tags": [
+    "cinematic"
+   ],
+   "cat": "film",
+   "verify": false,
+   "kind": "dedupe-likely",
+   "note": "already in the catalogue per source (confirmed: present in london-food.json as a caff); add Layer Cake cross-link tag, do not create a duplicate entry",
+   "src": "culture",
+   "geo": {
+    "lat": 51.494002,
+    "lng": -0.1320948,
+    "type": "cafe",
+    "cls": "amenity",
+    "importance": 0.3411720307708333,
+    "n_results": 1,
+    "query": "Regency Cafe London",
+    "ambig_m": 0,
+    "display": "Regency Cafe, 17-19, Regency Street, Westminster, Millbank, City of Westminster,"
+   },
+   "existing": {
+    "id": "regency-cafe-westminster",
+    "n": "Regency Café",
+    "c": "caff",
+    "sim": 1,
+    "dist": 132
+   }
+  },
+  {
+   "n": "Speedy's Cafe",
+   "area": "187 North Gower St, Euston",
+   "hook": "Sherlock's Baker Street; the sandwich bar leaned into it",
+   "tags": [
+    "cinematic",
+    "caff"
+   ],
+   "cat": "film",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.52619,
+    "lng": -0.1369017,
+    "type": "cafe",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "query": "Speedy's Cafe London",
+    "ambig_m": 0,
+    "display": "Speedy's, 187, North Gower Street, Fitzrovia, London Borough of Camden, Greater "
+   },
+   "existing": {
+    "id": "north-gower-sherlock",
+    "n": "Speedy's & North Gower Street",
+    "c": "film",
+    "sim": 1,
+    "dist": 126
+   }
+  },
+  {
+   "n": "Platform 9 3/4",
+   "area": "King's Cross",
+   "hook": "the half-vanished trolley; unashamedly a photo-op, honestly framed as one",
+   "tags": [
+    "cinematic"
+   ],
+   "cat": "film",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5321868,
+    "lng": -0.1239137,
+    "type": "attraction",
+    "cls": "tourism",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Platform 9¾, Battle Bridge Place, King's Cross, London Borough of Camden, Greate"
+   },
+   "existing": {
+    "id": "platform-nine-three-quarters",
+    "n": "Platform 9 3/4",
+    "c": "film",
+    "sim": 1,
+    "dist": 32
+   }
+  },
+  {
+   "n": "Cecil Court",
+   "area": "Covent Garden",
+   "hook": "the gas-lit booksellers' alley widely claimed as Diagon Alley's inspiration",
+   "tags": [
+    "alley",
+    "bookshops",
+    "cinematic"
+   ],
+   "cat": "alley",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5107273,
+    "lng": -0.1276572,
+    "type": "pedestrian",
+    "cls": "highway",
+    "importance": 0.2024340213354661,
+    "n_results": 3,
+    "ambig_m": 48,
+    "display": "Cecil Court, East Marylebone, Covent Garden, City of Westminster, Greater London"
+   },
+   "existing": {
+    "id": "cecilcourt",
+    "n": "Cecil Court",
+    "c": "bookshops",
+    "sim": 1,
+    "dist": 32
+   }
+  },
+  {
+   "n": "SIS Building",
+   "area": "Vauxhall",
+   "hook": "Bond's HQ, blown up on screen more often than any real building deserves",
+   "tags": [
+    "cinematic"
+   ],
+   "cat": "film",
+   "verify": false,
+   "kind": "venue",
+   "note": "trailing tag text garbled in OCR ('finance?no hightech'); treated as cinematic only pending clarification",
+   "src": "culture",
+   "geo": {
+    "lat": 51.4872644,
+    "lng": -0.1243541,
+    "type": "government",
+    "cls": "office",
+    "importance": 0.6058845184629753,
+    "n_results": 2,
+    "ambig_m": 4,
+    "display": "Secret Intelligence Service, 85, Albert Embankment, Vauxhall, London Borough of "
+   },
+   "existing": {
+    "id": "sis-building-mi6",
+    "n": "The SIS Building (MI6)",
+    "c": "film",
+    "sim": 1,
+    "dist": 24
+   }
+  },
+  {
+   "n": "Trellick Tower",
+   "area": "North Kensington",
+   "hook": "Goldfinger's tower, screen shorthand for dystopia from Orange-era to grime videos",
+   "tags": [
+    "brutalism",
+    "cinematic",
+    "musical"
+   ],
+   "cat": "brutalism",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5236197,
+    "lng": -0.2054097,
+    "type": "apartments",
+    "cls": "building",
+    "importance": 0.00009307927061870783,
+    "n_results": 3,
+    "ambig_m": 38,
+    "display": "Trellick Tower, Golborne Road, North Kensington, Royal Borough of Kensington and"
+   },
+   "existing": {
+    "id": "towerhouse",
+    "n": "The Tower House",
+    "c": "oddity",
+    "sim": 1,
+    "dist": 2740
+   }
+  },
+  {
+   "n": "Abbey Road Crossing",
+   "area": "St John's Wood",
+   "hook": "the zebra with its own webcam and Grade II listing",
+   "tags": [
+    "musical"
+   ],
+   "cat": "music",
+   "verify": false,
+   "kind": "dedupe-likely",
+   "note": "dedupe: likely already present in the catalogue",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5320574,
+    "lng": -0.1773285,
+    "type": "attraction",
+    "cls": "tourism",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Abbey Road Crossing, Abbey Road, St. John's Wood, City of Westminster, Greater L"
+   },
+   "existing": {
+    "id": "abbeyroad",
+    "n": "Abbey Road Crossing",
+    "c": "music",
+    "sim": 1,
+    "dist": 13
+   }
+  },
+  {
+   "n": "Heddon Street",
+   "area": "off Regent Street",
+   "hook": "the Ziggy Stardust cover doorway, plaque at K. West",
+   "tags": [
+    "musical",
+    "alley"
+   ],
+   "cat": "music",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5108635,
+    "lng": -0.1394041,
+    "type": "pedestrian",
+    "cls": "highway",
+    "importance": 0.053426412603952055,
+    "n_results": 5,
+    "query": "Heddon Street London",
+    "ambig_m": 8,
+    "display": "Heddon Street, St. James's, East Marylebone, Mayfair, City of Westminster, Great"
+   },
+   "existing": {
+    "id": "ziggy",
+    "n": "Heddon Street — Ziggy plaque",
+    "c": "music",
+    "sim": 1,
+    "dist": 98
+   }
+  },
+  {
+   "n": "Denmark Street",
+   "area": "Tin Pan Alley",
+   "hook": "Bowie slept in a van here, the Pistols lived at No. 6 (their graffiti is listed)",
+   "tags": [
+    "musical",
+    "shopfront"
+   ],
+   "cat": "music",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify post-redevelopment state",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5152478,
+    "lng": -0.129496,
+    "type": "tertiary",
+    "cls": "highway",
+    "importance": 0.4238774159986079,
+    "n_results": 5,
+    "query": "Denmark Street London",
+    "ambig_m": 54,
+    "display": "Denmark Street, St Giles, Bloomsbury, London Borough of Camden, Greater London, "
+   },
+   "existing": {
+    "id": "denmark",
+    "n": "Denmark Street",
+    "c": "music",
+    "sim": 1,
+    "dist": 21
+   }
+  },
+  {
+   "n": "100 Club",
+   "area": "Oxford Street",
+   "hook": "jazz since 1942, punk's 1976 festival; still open, still a basement",
+   "tags": [
+    "musical",
+    "late"
+   ],
+   "cat": "music",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5161082,
+    "lng": -0.1353568,
+    "type": "nightclub",
+    "cls": "amenity",
+    "importance": 0.3891971053939251,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "100 Club, 100, Oxford Street, East Marylebone, Mayfair, City of Westminster, Gre"
+   },
+   "existing": {
+    "id": "the100club",
+    "n": "The 100 Club",
+    "c": "music",
+    "sim": 1,
+    "dist": 96
+   }
+  },
+  {
+   "n": "Ronnie Scott's",
+   "area": "Frith Street",
+   "hook": "the jazz room where Hendrix played his last public notes",
+   "tags": [
+    "musical",
+    "late"
+   ],
+   "cat": "music",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5134283,
+    "lng": -0.1315652,
+    "type": "nightclub",
+    "cls": "amenity",
+    "importance": 0.422548132356114,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Ronnie Scott's Jazz Club, 47, Frith Street, Soho, City of Westminster, Greater L"
+   },
+   "existing": {
+    "id": "ronniescotts",
+    "n": "Ronnie Scott’s",
+    "c": "music",
+    "sim": 1,
+    "dist": 32
+   }
+  },
+  {
+   "n": "430 King's Road (World's End)",
+   "area": "Chelsea",
+   "hook": "SEX, Westwood & McLaren's shop; the Pistols' birthplace, clock still spinning backwards",
+   "tags": [
+    "musical",
+    "shopfront"
+   ],
+   "cat": "music",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify current tenant",
+   "src": "culture",
+   "geo": {
+    "lat": 51.4832662,
+    "lng": -0.1775234,
+    "type": "yes",
+    "cls": "building",
+    "importance": 0.00009307927061870783,
+    "n_results": 2,
+    "ambig_m": 6,
+    "display": "430, King's Road, World's End, Lot's Village, Brompton, Royal Borough of Kensing"
+   },
+   "existing": {
+    "id": "worldsend430kingsroad",
+    "n": "World's End (430 King's Road)",
+    "c": "history",
+    "sim": 1,
+    "dist": 483
+   }
+  },
+  {
+   "n": "Berwick Street",
+   "area": "Soho",
+   "hook": "the (What's the Story) Morning Glory? cover; record shops still holding the line",
+   "tags": [
+    "musical",
+    "vinyl",
+    "market"
+   ],
+   "cat": "music",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5133202,
+    "lng": -0.1346621,
+    "type": "pedestrian",
+    "cls": "highway",
+    "importance": 0.053426412603952055,
+    "n_results": 3,
+    "ambig_m": 120,
+    "display": "Berwick Street, Soho, City of Westminster, Greater London, England, W1F 0DW, Uni"
+   },
+   "existing": {
+    "id": "berwick",
+    "n": "Berwick Street",
+    "c": "pop",
+    "sim": 1,
+    "dist": 74
+   }
+  },
+  {
+   "n": "The Dublin Castle",
+   "area": "Camden",
+   "hook": "Madness's front room; the pub-backroom circuit incarnate",
+   "tags": [
+    "pub",
+    "musical"
+   ],
+   "cat": "pub",
+   "verify": false,
+   "kind": "venue",
+   "note": "tag order lists 'pub' before 'musical'; cat set to pub by first-tag rule",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5375102,
+    "lng": -0.1457031,
+    "type": "pub",
+    "cls": "amenity",
+    "importance": 0.39817807251303894,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "The Dublin Castle, 94, Parkway, Primrose Hill, Chalk Farm, London Borough of Cam"
+   },
+   "existing": {
+    "id": "dublincastle",
+    "n": "The Dublin Castle",
+    "c": "music",
+    "sim": 1,
+    "dist": 146
+   }
+  },
+  {
+   "n": "Roundhouse",
+   "area": "Chalk Farm",
+   "hook": "Victorian engine shed turned psychedelic temple (Pink Floyd's UFO nights)",
+   "tags": [
+    "musical",
+    "victorian"
+   ],
+   "cat": "music",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5432505,
+    "lng": -0.1519761,
+    "type": "theatre",
+    "cls": "amenity",
+    "importance": 0.45821640790347434,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Roundhouse, Chalk Farm Road, Steele's Village, Primrose Hill, Chalk Farm, London"
+   },
+   "existing": {
+    "id": "roundhouse",
+    "n": "The Roundhouse",
+    "c": "music",
+    "sim": 1,
+    "dist": 63
+   }
+  },
+  {
+   "n": "Fabric",
+   "area": "Farringdon",
+   "hook": "the meat-cellar club that survived its own closure",
+   "tags": [
+    "musical",
+    "late"
+   ],
+   "cat": "music",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5196111,
+    "lng": -0.1024955,
+    "type": "nightclub",
+    "cls": "amenity",
+    "importance": 0.3971205322578132,
+    "n_results": 1,
+    "query": "Fabric London",
+    "ambig_m": 0,
+    "display": "Fabric, 77a, Charterhouse Street, West Smithfield, Blackfriars, City of London, "
+   },
+   "existing": {
+    "id": "fabric",
+    "n": "Fabric",
+    "c": "music",
+    "sim": 1,
+    "dist": 40
+   }
+  },
+  {
+   "n": "Amy Winehouse Statue",
+   "area": "Stables Market, Camden",
+   "hook": "the neighbourhood keeping its own",
+   "tags": [
+    "musical"
+   ],
+   "cat": "music",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5423755,
+    "lng": -0.1478161,
+    "type": "artwork",
+    "cls": "tourism",
+    "importance": 0.4101932977803121,
+    "n_results": 1,
+    "query": "Amy Winehouse Statue London",
+    "ambig_m": 0,
+    "display": "Amy Winehouse Statue, 407, Chalk Farm Road, Maitland Park, Chalk Farm, London Bo"
+   },
+   "existing": {
+    "id": "amywinehousestatue",
+    "n": "Amy Winehouse Statue",
+    "c": "music",
+    "sim": 1,
+    "dist": 81
+   }
+  },
+  {
+   "n": "King Henry's Mound",
+   "area": "Richmond Park",
+   "hook": "the protected keyhole vista to St Paul's, ten miles through a hedge",
+   "tags": [
+    "view",
+    "green"
+   ],
+   "cat": "view",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.4449229,
+    "lng": -0.2947744,
+    "type": "viewpoint",
+    "cls": "tourism",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "query": "King Henry's Mound",
+    "ambig_m": 0,
+    "display": "King Henry VIII's Mound, Terrace Walk, Petersham, London Borough of Richmond upo"
+   },
+   "existing": {
+    "id": "henrysmound",
+    "n": "King Henry's Mound",
+    "c": "view",
+    "sim": 1,
+    "dist": 1510
+   }
+  },
+  {
+   "n": "Parliament Hill",
+   "area": "Hampstead Heath",
+   "hook": "the classic protected skyline panorama",
+   "tags": [
+    "view",
+    "green"
+   ],
+   "cat": "view",
+   "verify": false,
+   "kind": "dedupe-likely",
+   "note": "dedupe likely",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5585977,
+    "lng": -0.161562,
+    "type": "house",
+    "cls": "place",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "query": "Parliament Hill, Hampstead Heath",
+    "ambig_m": 0,
+    "display": "Heath View, 70, Parliament Hill, South End Green, Maitland Park, Belsize Park, L"
+   },
+   "existing": {
+    "id": "parliament-hill",
+    "n": "Parliament Hill",
+    "c": "view",
+    "sim": 1,
+    "dist": 387
+   }
+  },
+  {
+   "n": "Severndroog Castle",
+   "area": "Shooter's Hill",
+   "hook": "a folly tower with a seven-county claim and a tearoom",
+   "tags": [
+    "follies",
+    "view"
+   ],
+   "cat": "follies",
+   "verify": true,
+   "kind": "venue",
+   "note": "tag order lists 'follies' before 'view'; cat set to follies by first-tag rule; verify open days",
+   "src": "culture",
+   "geo": {
+    "lat": 51.4666281,
+    "lng": 0.0600528,
+    "type": "attraction",
+    "cls": "tourism",
+    "importance": 0.00009307927061870783,
+    "n_results": 2,
+    "query": "Severndroog Castle London",
+    "ambig_m": 2,
+    "display": "Severndroog Castle, Castle Wood, Royal Borough of Greenwich, Greater London, Eng"
+   },
+   "existing": {
+    "id": "severndroog-castle",
+    "n": "Severndroog Castle",
+    "c": "follies",
+    "sim": 1,
+    "dist": 400
+   }
+  },
+  {
+   "n": "One Tree Hill",
+   "area": "Honor Oak",
+   "hook": "Elizabeth I's oak legend and a quiet City panorama",
+   "tags": [
+    "view",
+    "green"
+   ],
+   "cat": "view",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.45129,
+    "lng": -0.05128,
+    "type": "tree",
+    "cls": "natural",
+    "importance": 0.34397419227863374,
+    "n_results": 1,
+    "query": "One Tree Hill, Honor Oak",
+    "ambig_m": 0,
+    "display": "Honor Oak, One Tree Hill, Nunhead, London Borough of Southwark, Greater London, "
+   },
+   "existing": {
+    "id": "onetreehill",
+    "n": "One Tree Hill",
+    "c": "view",
+    "sim": 1,
+    "dist": 445
+   }
+  },
+  {
+   "n": "Stave Hill",
+   "area": "Rotherhithe",
+   "hook": "an artificial 1980s mound with a bronze relief map on top",
+   "tags": [
+    "view",
+    "eccentric"
+   ],
+   "cat": "view",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5010897,
+    "lng": -0.0404578,
+    "type": "viewpoint",
+    "cls": "tourism",
+    "importance": 0.24782860043147328,
+    "n_results": 3,
+    "ambig_m": 84,
+    "display": "Stave Hill, Surrey Quays, Rotherhithe, London Borough of Southwark, Greater Lond"
+   },
+   "existing": {
+    "id": "stavehill",
+    "n": "Stave Hill",
+    "c": "view",
+    "sim": 1,
+    "dist": 0
+   }
+  },
+  {
+   "n": "Alexandra Palace Terrace",
+   "area": "Alexandra Palace",
+   "hook": "the whole city from the world's first TV mast",
+   "tags": [
+    "view",
+    "scientific"
+   ],
+   "cat": "view",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5943495,
+    "lng": -0.1306402,
+    "type": "exhibition_centre",
+    "cls": "amenity",
+    "importance": 0.5121384649642472,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Alexandra Palace, Alexandra Palace Way, Muswell Hill, London Borough of Haringey"
+   },
+   "existing": {
+    "id": "allypally",
+    "n": "Alexandra Palace",
+    "c": "pop",
+    "sim": 1,
+    "dist": 47
+   }
+  },
+  {
+   "n": "The Garden at 120 Fenchurch Street",
+   "area": "City",
+   "hook": "free, unbooked rooftop garden the tourists haven't found",
+   "tags": [
+    "view",
+    "rooftop"
+   ],
+   "cat": "view",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify access policy",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5121424,
+    "lng": -0.0807811,
+    "type": "viewpoint",
+    "cls": "tourism",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "The Garden at 120, 120, Fenchurch Street, Leadenhall Market, Monument, City of L"
+   },
+   "existing": {
+    "id": "garden-at-120",
+    "n": "The Garden at 120",
+    "c": "view",
+    "sim": 1,
+    "dist": 86
+   }
+  },
+  {
+   "n": "Horizon 22",
+   "area": "Bishopsgate",
+   "hook": "the free high-rise view that undercuts the paid decks",
+   "tags": [
+    "view",
+    "rooftop"
+   ],
+   "cat": "view",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify booking requirement",
+   "src": "culture",
+   "geo": {
+    "lat": 51.514367,
+    "lng": -0.083149,
+    "type": "viewpoint",
+    "cls": "tourism",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Horizon 22, Bishopsgate, Leadenhall Market, Bishopsgate, City of London, Greater"
+   },
+   "existing": {
+    "id": "horizon-22",
+    "n": "Horizon 22",
+    "c": "view",
+    "sim": 1,
+    "dist": 106
+   }
+  },
+  {
+   "n": "Sky Garden",
+   "area": "Walkie-Talkie, Fenchurch Street",
+   "hook": "the booked \"public\" garden in the Walkie-Talkie's crown",
+   "tags": [
+    "view",
+    "rooftop"
+   ],
+   "cat": "view",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.51127,
+    "lng": -0.0835396,
+    "type": "company",
+    "cls": "office",
+    "importance": 0.44372234432369284,
+    "n_results": 2,
+    "query": "Sky Garden London",
+    "ambig_m": 20,
+    "display": "Sky Garden, 20, Fenchurch Street, Leadenhall Market, Monument, City of London, G"
+   },
+   "existing": {
+    "id": "sky-garden",
+    "n": "Sky Garden",
+    "c": "view",
+    "sim": 1,
+    "dist": 48
+   }
+  },
+  {
+   "n": "The Monument",
+   "area": "City",
+   "hook": "311 steps and a certificate; the original viewing platform, 1677",
+   "tags": [
+    "view",
+    "history"
+   ],
+   "cat": "view",
+   "verify": false,
+   "kind": "dedupe-likely",
+   "note": "dedupe likely",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5101415,
+    "lng": -0.0859491,
+    "type": "tower",
+    "cls": "man_made",
+    "importance": 0.4858599227164451,
+    "n_results": 2,
+    "ambig_m": 24,
+    "display": "The Monument to the Great Fire of London, Fish Street Hill, Leadenhall Market, M"
+   },
+   "existing": {
+    "id": "monument",
+    "n": "The Monument",
+    "c": "history",
+    "sim": 1,
+    "dist": 7
+   }
+  },
+  {
+   "n": "Frank's Cafe",
+   "area": "Peckham car park",
+   "hook": "the seasonal rooftop that made multi-storey sunsets a genre",
+   "tags": [
+    "view",
+    "rooftop",
+    "eccentric"
+   ],
+   "cat": "view",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify season/operation",
+   "src": "culture",
+   "geo": {
+    "lat": 51.6159758,
+    "lng": -0.1435306,
+    "type": "cafe",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 5,
+    "query": "Frank's Cafe London",
+    "ambig_m": 12519,
+    "display": "Frank's Cafe, 39, Friern Barnet Road, Brunswick Park, London Borough of Barnet, "
+   },
+   "existing": {
+    "id": "frankscafe",
+    "n": "Frank's Cafe & Bold Tendencies",
+    "c": "pop",
+    "sim": 1,
+    "dist": 16929
+   }
+  },
+  {
+   "n": "London Mithraeum",
+   "area": "Bloomberg SPACE, City",
+   "hook": "the Roman temple returned to its own darkness, free, theatrical",
+   "tags": [
+    "roman",
+    "subterranean",
+    "museum"
+   ],
+   "cat": "roman",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5123791,
+    "lng": -0.0906755,
+    "type": "ruins",
+    "cls": "historic",
+    "importance": 0.33359242145229745,
+    "n_results": 1,
+    "query": "London Mithraeum London",
+    "ambig_m": 0,
+    "display": "London Mithraeum, 12, Walbrook, Leadenhall Market, Bank, City of London, Greater"
+   },
+   "existing": {
+    "id": "mithraeum",
+    "n": "London Mithraeum",
+    "c": "history",
+    "sim": 1,
+    "dist": 25
+   }
+  },
+  {
+   "n": "Guildhall Amphitheatre",
+   "area": "City",
+   "hook": "the arena's outline in the art-gallery basement, marked in black on the yard above",
+   "tags": [
+    "roman",
+    "subterranean",
+    "museum"
+   ],
+   "cat": "roman",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5155921,
+    "lng": -0.0916964,
+    "type": "archaeological_site",
+    "cls": "historic",
+    "importance": 0.3307177672703685,
+    "n_results": 1,
+    "query": "Guildhall Amphitheatre",
+    "ambig_m": 0,
+    "display": "Amphitheatre, Guildhall Yard, Bank, City of London, Greater London, England, EC2"
+   },
+   "existing": {
+    "id": "amphitheatre",
+    "n": "Guildhall Roman Amphitheatre",
+    "c": "roman",
+    "sim": 1,
+    "dist": 34
+   }
+  },
+  {
+   "n": "Greenwich Foot Tunnel",
+   "area": "Greenwich",
+   "hook": "1902, tiled, faintly dripping, gloriously public",
+   "tags": [
+    "subterranean",
+    "victorian"
+   ],
+   "cat": "history",
+   "verify": false,
+   "kind": "venue",
+   "note": "no mapped non-subterranean tag ('victorian' is unmapped); defaulted cat to history",
+   "src": "culture",
+   "geo": {
+    "lat": 51.4849398,
+    "lng": -0.0097426,
+    "type": "tunnel",
+    "cls": "man_made",
+    "importance": 0.36134093730963446,
+    "n_results": 3,
+    "ambig_m": 93,
+    "display": "Greenwich Foot Tunnel, Greenwich Town Centre, Greenwich Peninsula, Royal Borough"
+   },
+   "existing": {
+    "id": "greenwich-foot-tunnel",
+    "n": "Greenwich Foot Tunnel",
+    "c": "oddity",
+    "sim": 1,
+    "dist": 242
+   }
+  },
+  {
+   "n": "Woolwich Foot Tunnel",
+   "area": "Woolwich",
+   "hook": "the lonelier sibling",
+   "tags": [
+    "subterranean"
+   ],
+   "cat": "history",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify lift status; subterranean is the only tag, cat defaulted to history per rule",
+   "src": "culture",
+   "geo": {
+    "lat": 51.4965473,
+    "lng": 0.0622633,
+    "type": "footway",
+    "cls": "highway",
+    "importance": 0.3212490653681812,
+    "n_results": 3,
+    "ambig_m": 250,
+    "display": "Woolwich Foot Tunnel, Callis Yard, Charlton Riverside, Royal Borough of Greenwic"
+   },
+   "existing": {
+    "id": "woolwichfoottunnel",
+    "n": "Woolwich Foot Tunnel",
+    "c": "maritime",
+    "sim": 1,
+    "dist": 266
+   }
+  },
+  {
+   "n": "Mail Rail",
+   "area": "Postal Museum",
+   "hook": "riding the GPO's secret miniature railway",
+   "tags": [
+    "subterranean",
+    "museum",
+    "interwar"
+   ],
+   "cat": "museum",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5251101,
+    "lng": -0.112429,
+    "type": "narrow_gauge",
+    "cls": "railway",
+    "importance": 0.39416088441914005,
+    "n_results": 5,
+    "query": "Mail Rail London",
+    "ambig_m": 107,
+    "display": "Post Office Railway, Farringdon Road, Clerkenwell Green, Angel, Clerkenwell, Lon"
+   },
+   "existing": {
+    "id": "mailrail",
+    "n": "Mail Rail, The Postal Museum",
+    "c": "history",
+    "sim": 1,
+    "dist": 158
+   }
+  },
+  {
+   "n": "Churchill War Rooms",
+   "area": "Westminster",
+   "hook": "the bunker left as the lights were switched off in 1945",
+   "tags": [
+    "subterranean",
+    "museum"
+   ],
+   "cat": "museum",
+   "verify": false,
+   "kind": "dedupe-likely",
+   "note": "dedupe likely",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5022101,
+    "lng": -0.129252,
+    "type": "museum",
+    "cls": "tourism",
+    "importance": 0.44213324126810927,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Churchill War Rooms, King Charles Street, Westminster, Millbank, City of Westmin"
+   },
+   "existing": {
+    "id": "churchillwarrooms",
+    "n": "Churchill War Rooms",
+    "c": "history",
+    "sim": 1,
+    "dist": 21
+   }
+  },
+  {
+   "n": "St Martin-in-the-Fields Crypt",
+   "area": "Trafalgar Square",
+   "hook": "cafe lunch on ledger stones",
+   "tags": [
+    "faith",
+    "subterranean",
+    "caff"
+   ],
+   "cat": "faith",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5090415,
+    "lng": -0.1267323,
+    "type": "gift",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 2,
+    "query": "St Martin-in-the-Fields Crypt",
+    "ambig_m": 15,
+    "display": "Crypt - St Martin-in-the-Fields, St. Martin-in-the-Fields Church Path, Westminst"
+   },
+   "existing": {
+    "id": "cafeinthecrypt",
+    "n": "Café in the Crypt",
+    "c": "oddity",
+    "sim": 1,
+    "dist": 40
+   }
+  },
+  {
+   "n": "Crystal Palace Subway",
+   "area": "Crystal Palace",
+   "hook": "the Byzantine-vaulted survivor of the vanished palace; open days",
+   "tags": [
+    "subterranean",
+    "victorian",
+    "follies"
+   ],
+   "cat": "follies",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify opening pattern",
+   "src": "culture",
+   "geo": {
+    "lat": 51.4220538,
+    "lng": -0.0772253,
+    "type": "attraction",
+    "cls": "tourism",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Crystal Palace Subway, Crystal Palace High Level Station Subway, Crystal Palace,"
+   },
+   "existing": {
+    "id": "crystalpalacesubway",
+    "n": "Crystal Palace Subway",
+    "c": "follies",
+    "sim": 1,
+    "dist": 583
+   }
+  },
+  {
+   "n": "Leake Street Tunnel",
+   "area": "Waterloo",
+   "hook": "the sanctioned graffiti tunnel Banksy started",
+   "tags": [
+    "streetart",
+    "subterranean"
+   ],
+   "cat": "streetart",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5013532,
+    "lng": -0.1147409,
+    "type": "pedestrian",
+    "cls": "highway",
+    "importance": 0.2844781372993679,
+    "n_results": 2,
+    "ambig_m": 89,
+    "display": "Leake Street, South Bank, Waterloo, London Borough of Lambeth, Greater London, E"
+   },
+   "existing": {
+    "id": "leakest",
+    "n": "Leake Street Arches",
+    "c": "pop",
+    "sim": 0.67,
+    "dist": 115
+   }
+  },
+  {
+   "n": "London Silver Vaults",
+   "area": "Chancery Lane",
+   "hook": "a subterranean street of silver dealers in a Victorian safe-deposit",
+   "tags": [
+    "subterranean",
+    "shopfront",
+    "victorian"
+   ],
+   "cat": "history",
+   "verify": true,
+   "kind": "venue",
+   "note": "no mapped non-subterranean tag ('shopfront'/'victorian' both unmapped); defaulted cat to history",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5172003,
+    "lng": -0.1125776,
+    "type": "antiques",
+    "cls": "shop",
+    "importance": 0.00009307927061870783,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "The London Silver Vaults, 53-64, Chancery Lane, Blackfriars, City of London, Gre"
+   },
+   "existing": {
+    "id": "londonsilvervaults",
+    "n": "London Silver Vaults",
+    "c": "history",
+    "sim": 1,
+    "dist": 2
+   }
+  }
+ ],
+ "MARKET_HOLD": [
+  {
+   "n": "Leadenhall Market",
+   "area": "City",
+   "hook": "Diagon Alley's entrance in Philosopher's Stone, atop the Roman forum -- a double hook",
+   "tags": [
+    "market",
+    "cinematic",
+    "roman"
+   ],
+   "cat": "MARKET_HOLD",
+   "verify": false,
+   "kind": "venue",
+   "note": "double hook with roman; also cross-referenced by the Markets-section Leadenhall entry (one physical spot, two tag sets); market slug doesn't exist yet, flagged not guessed",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5127276,
+    "lng": -0.0833953,
+    "type": "marketplace",
+    "cls": "amenity",
+    "importance": 0.4076496563503252,
+    "n_results": 3,
+    "ambig_m": 12,
+    "display": "Leadenhall Market, Gracechurch Street, Leadenhall Market, Monument, City of Lond"
+   }
+  },
+  {
+   "n": "Borough Market / Park Street corner",
+   "area": "Borough",
+   "hook": "the Bridget Jones flat above The Globe pub",
+   "tags": [
+    "market",
+    "cinematic"
+   ],
+   "cat": "MARKET_HOLD",
+   "verify": false,
+   "kind": "venue",
+   "note": "tag order lists 'market' before 'cinematic'; market slug doesn't exist yet, flagged not guessed",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Electric Avenue",
+   "area": "Brixton",
+   "hook": "first market street lit by electricity; Eddy Grant made it a chorus",
+   "tags": [
+    "market",
+    "musical",
+    "victorian"
+   ],
+   "cat": "MARKET_HOLD",
+   "verify": false,
+   "kind": "venue",
+   "note": "tag order lists 'market' before 'musical'; market slug doesn't exist yet, flagged not guessed",
+   "src": "culture",
+   "geo": {
+    "lat": 51.4621954,
+    "lng": -0.1140026,
+    "type": "pedestrian",
+    "cls": "highway",
+    "importance": 0.19619210675062,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Electric Avenue, Stockwell Park, Brixton, London Borough of Lambeth, Greater Lon"
+   }
+  },
+  {
+   "n": "Borough Market",
+   "area": "Borough",
+   "hook": "trading by charter claim since 1014; the cathedral of the food revival",
+   "tags": [
+    "market"
+   ],
+   "cat": "MARKET_HOLD",
+   "verify": false,
+   "kind": "dedupe-likely",
+   "note": "dedupe likely",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5055815,
+    "lng": -0.0901984,
+    "type": "marketplace",
+    "cls": "amenity",
+    "importance": 0.4454924665156093,
+    "n_results": 2,
+    "ambig_m": 18,
+    "display": "Borough Market, Winchester Walk, Borough Market, Bankside, The Borough, London B"
+   }
+  },
+  {
+   "n": "Leadenhall",
+   "area": "City",
+   "hook": "see the Film-section Leadenhall Market entry -- one entry, two tags",
+   "tags": [
+    "market"
+   ],
+   "cat": "MARKET_HOLD",
+   "verify": false,
+   "kind": "dedupe-likely",
+   "note": "same physical entry as the Film & TV section's Leadenhall Market (Diagon Alley) entry; do not create a twin listing, attach the market tag to that spot instead",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5138118,
+    "lng": -0.0822948,
+    "type": "commercial",
+    "cls": "building",
+    "importance": 0.42488189173487034,
+    "n_results": 3,
+    "ambig_m": 143,
+    "display": "The Leadenhall Building, 122, Leadenhall Street, Leadenhall Market, Bishopsgate,"
+   }
+  },
+  {
+   "n": "Smithfield",
+   "area": "City",
+   "hook": "800+ years of meat, now in its final act before the Museum of London takes the halls -- see it while it's true",
+   "tags": [
+    "market",
+    "victorian"
+   ],
+   "cat": "MARKET_HOLD",
+   "verify": true,
+   "kind": "venue",
+   "note": "Smithfield's status must be resolved with a dated note before the hook is written; the hook depends on current closure status, verify",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5178275,
+    "lng": -0.1021753,
+    "type": "neighbourhood",
+    "cls": "place",
+    "importance": 0.4516019431702966,
+    "n_results": 3,
+    "ambig_m": 146,
+    "display": "West Smithfield, Blackfriars, City of London, Greater London, England, EC1A 9LQ,"
+   }
+  },
+  {
+   "n": "Columbia Road Flower Market",
+   "area": "Bethnal Green",
+   "hook": "Sunday's shouted auctions in a Victorian shopping street",
+   "tags": [
+    "market",
+    "victorian"
+   ],
+   "cat": "MARKET_HOLD",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5292185,
+    "lng": -0.0696196,
+    "type": "marketplace",
+    "cls": "amenity",
+    "importance": 0.31353539144981896,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "Columbia Road Flower Market, Columbia Road, Whitechapel, London Borough of Tower"
+   }
+  },
+  {
+   "n": "Petticoat Lane",
+   "area": "City / Spitalfields",
+   "hook": "the Sunday institution that predates its own respectability",
+   "tags": [
+    "market"
+   ],
+   "cat": "MARKET_HOLD",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5167811,
+    "lng": -0.0749006,
+    "type": "marketplace",
+    "cls": "amenity",
+    "importance": 0.39951314662297394,
+    "n_results": 3,
+    "query": "Petticoat Lane London",
+    "ambig_m": 313,
+    "display": "Wentworth Street Market, Old Castle Street, Spitalfields, Whitechapel, London Bo"
+   }
+  },
+  {
+   "n": "Broadway Market",
+   "area": "Hackney",
+   "hook": "the Victorian street revived by its own traders' campaign",
+   "tags": [
+    "market"
+   ],
+   "cat": "MARKET_HOLD",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5368433,
+    "lng": -0.061636,
+    "type": "pedestrian",
+    "cls": "highway",
+    "importance": 0.30723887866744215,
+    "n_results": 3,
+    "ambig_m": 125,
+    "display": "Broadway Market, Haggerston, London Borough of Hackney, Greater London, England,"
+   }
+  },
+  {
+   "n": "Maltby Street / Ropewalk",
+   "area": "Bermondsey",
+   "hook": "railway-arch insurgent to Borough's establishment",
+   "tags": [
+    "market"
+   ],
+   "cat": "MARKET_HOLD",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.4996238,
+    "lng": -0.0761088,
+    "type": "bar",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 2,
+    "ambig_m": 53,
+    "display": "40 Maltby Street, Ropewalk, St John's Estate, Bermondsey Village, Old Kent Road,"
+   }
+  },
+  {
+   "n": "Portobello Road",
+   "area": "Notting Hill",
+   "hook": "antiques mile",
+   "tags": [
+    "market"
+   ],
+   "cat": "MARKET_HOLD",
+   "verify": false,
+   "kind": "dedupe-likely",
+   "note": "dedupe likely; no explicit tag word given in source, 'market' inferred from section",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5163362,
+    "lng": -0.20532,
+    "type": "residential",
+    "cls": "highway",
+    "importance": 0.45080164155167013,
+    "n_results": 3,
+    "ambig_m": 198,
+    "display": "Portobello Road, Notting Hill, Royal Borough of Kensington and Chelsea, Greater "
+   }
+  },
+  {
+   "n": "Chapel Market",
+   "area": "Islington",
+   "hook": "the unreconstructed everyday market",
+   "tags": [
+    "market",
+    "caff-adjacent"
+   ],
+   "cat": "MARKET_HOLD",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5334904,
+    "lng": -0.1087947,
+    "type": "marketplace",
+    "cls": "amenity",
+    "importance": 0.3015950553092256,
+    "n_results": 3,
+    "ambig_m": 51,
+    "display": "Chapel Market, Baron Street, Pentonville, Angel, Barnsbury, London Borough of Is"
+   }
+  },
+  {
+   "n": "Ridley Road",
+   "area": "Dalston",
+   "hook": "the Afro-Caribbean market that fought off redevelopment",
+   "tags": [
+    "market",
+    "immigrant"
+   ],
+   "cat": "MARKET_HOLD",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify status",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5481632,
+    "lng": -0.0731327,
+    "type": "pedestrian",
+    "cls": "highway",
+    "importance": 0.053426412603952055,
+    "n_results": 2,
+    "ambig_m": 234,
+    "display": "Ridley Road, De Beauvoir Town, Shacklewell, London Borough of Hackney, Greater L"
+   }
+  },
+  {
+   "n": "Brixton Village and Market Row",
+   "area": "Brixton",
+   "hook": "covered arcades from Windrush groceries to small-plates boom, contested all the way",
+   "tags": [
+    "market",
+    "immigrant",
+    "interwar"
+   ],
+   "cat": "MARKET_HOLD",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Walthamstow Market",
+   "area": "Walthamstow",
+   "hook": "the km-long street market, Europe's-longest claim",
+   "tags": [
+    "market"
+   ],
+   "cat": "MARKET_HOLD",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify the 'Europe's longest' claim",
+   "src": "culture",
+   "geo": {
+    "lat": 51.5822077,
+    "lng": -0.0305726,
+    "type": "marketplace",
+    "cls": "amenity",
+    "importance": 0.2901765588551152,
+    "n_results": 3,
+    "ambig_m": 249,
+    "display": "Walthamstow Market, High Street, Leyton, London Borough of Waltham Forest, Great"
+   }
+  },
+  {
+   "n": "New Covent Garden Flower Market",
+   "area": "Nine Elms",
+   "hook": "the 4 a.m. wholesale flower world, publicly enterable",
+   "tags": [
+    "market"
+   ],
+   "cat": "MARKET_HOLD",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify public access hours",
+   "src": "culture",
+   "geo": {
+    "lat": 51.4799868,
+    "lng": -0.1382894,
+    "type": "commercial",
+    "cls": "landuse",
+    "importance": 0.08009307927061872,
+    "n_results": 1,
+    "ambig_m": 0,
+    "display": "New Covent Garden Flower Market, Nine Elms, London Borough of Wandsworth, Greate"
+   }
+  },
+  {
+   "n": "East Street Market",
+   "area": "Walworth",
+   "hook": "Only Fools title-sequence territory and a proper south London institution",
+   "tags": [
+    "market",
+    "cinematic"
+   ],
+   "cat": "MARKET_HOLD",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "lat": 51.4883348,
+    "lng": -0.0935081,
+    "type": "marketplace",
+    "cls": "amenity",
+    "importance": 0.29892160108322774,
+    "n_results": 3,
+    "ambig_m": 28,
+    "display": "East Street Market, Date Street, Browning Estate, Walworth, London Borough of So"
+   }
+  }
+ ],
+ "UNRESOLVED": [
+  {
+   "n": "Site of the Moka Bar",
+   "area": "Soho (29 Frith St)",
+   "est": "1953",
+   "hook": "Britain's first Gaggia espresso bar, opened by Gina Lollobrigida; gone, but the address started everything",
+   "tags": [
+    "history",
+    "coffee",
+    "plaque"
+   ],
+   "cat": "history",
+   "verify": false,
+   "kind": "site-of",
+   "note": "catalogue as storied site, not a cafe",
+   "src": "food",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "The Parlour at Fortnum's",
+   "area": "Piccadilly",
+   "est": "",
+   "hook": "knickerbocker glories under a 300-year-old grocer's roof",
+   "tags": [
+    "gelato",
+    "interior"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Grodzinski",
+   "area": "Golders Green",
+   "est": "1888",
+   "hook": "one of the oldest kosher bakery names in Britain",
+   "tags": [
+    "bakery",
+    "jewish"
+   ],
+   "cat": "bakery",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify current branches",
+   "src": "food",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Alpino",
+   "area": "Chapel Market",
+   "est": "c. 1959",
+   "hook": "Formica and booths on one of London's last proper market streets",
+   "tags": [
+    "caff",
+    "interior"
+   ],
+   "cat": "caff",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Mangal 2",
+   "area": "Dalston",
+   "est": "c. 1990s",
+   "hook": "Gilbert & George dined here nightly for decades; ocakbasi as performance art audience",
+   "tags": [
+    "food",
+    "immigrant",
+    "eccentric"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify the G&G venue is Mangal 2, and current form",
+   "src": "food",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Sea Shell of Lisson Grove",
+   "area": "Marylebone",
+   "est": "1964",
+   "hook": "cabbies' fish-and-chips of record",
+   "tags": [
+    "food"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "I. Camisa & Son",
+   "area": "Soho",
+   "est": "c. 1929",
+   "hook": "the other Soho Italian; salami forest above the counter",
+   "tags": [
+    "deli",
+    "immigrant"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Gazzano's",
+   "area": "Farringdon",
+   "est": "1901",
+   "hook": "Little Italy's surviving grocer on the old processional route",
+   "tags": [
+    "deli",
+    "immigrant"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify liveness",
+   "src": "food",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Paul Rothe & Son",
+   "area": "Marylebone",
+   "est": "1900",
+   "hook": "jam jars to the ceiling; sandwiches made by Rothes for 125 years",
+   "tags": [
+    "deli",
+    "interior"
+   ],
+   "cat": "food",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "The Blue Door, 280 Westbourne Park Road",
+   "area": "Notting Hill",
+   "hook": "the door from Notting Hill; the original was auctioned, the replica gets photographed daily",
+   "tags": [
+    "cinematic"
+   ],
+   "cat": "film",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "The Notting Hill Bookshop Site",
+   "area": "Blenheim Crescent",
+   "hook": "the travel bookshop that played itself",
+   "tags": [
+    "cinematic",
+    "bookshops"
+   ],
+   "cat": "film",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify current form of the shopfront",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "National Gallery, Room 34",
+   "area": "Trafalgar Square",
+   "hook": "the Skyfall bench scene before Turner's Fighting Temeraire",
+   "tags": [
+    "museum",
+    "cinematic"
+   ],
+   "cat": "museum",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Southmere Lake and Binsey Walk",
+   "area": "Thamesmead",
+   "hook": "A Clockwork Orange's marina walk; the estate is mid-regeneration, the lake endures",
+   "tags": [
+    "brutalism",
+    "cinematic"
+   ],
+   "cat": "brutalism",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify what survives of the estate",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Apollo/Croydon Underpass Cluster",
+   "area": "Croydon",
+   "hook": "Peep Show's deadpan backdrop; the least glamorous pilgrimage in London",
+   "tags": [
+    "cinematic",
+    "brutalism"
+   ],
+   "cat": "film",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify specific spots",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "The Prince's Head and Richmond Green",
+   "area": "Richmond",
+   "hook": "Ted Lasso's Crown & Anchor and the green outside; a current-decade pull",
+   "tags": [
+    "pub",
+    "cinematic"
+   ],
+   "cat": "pub",
+   "verify": true,
+   "kind": "venue",
+   "note": "tag order lists 'pub' before 'cinematic'; cat set to pub by first-tag rule",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "King's Cross Gasholders and Granary",
+   "area": "King's Cross",
+   "hook": "the Harry Potter-adjacent, High Fidelity claim dropped; the gasholder park stands on its own with the relocation story",
+   "tags": [
+    "hightech",
+    "victorian"
+   ],
+   "cat": "history",
+   "verify": false,
+   "kind": "venue",
+   "note": "move to architecture if the film tag doesn't verify; neither 'hightech' nor 'victorian' maps to a listed category, defaulted to history",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Kingsman Tailor Shop (Huntsman, 11 Savile Row)",
+   "area": "Savile Row",
+   "hook": "the real tailor behind the film's shopfront",
+   "tags": [
+    "shopfront",
+    "cinematic"
+   ],
+   "cat": "film",
+   "verify": true,
+   "kind": "venue",
+   "note": "'shopfront' has no mapped category; defaulted to film via the cinematic tag",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "23 and 25 Brook Street",
+   "area": "Mayfair",
+   "hook": "Handel and Hendrix, neighbours across two centuries, one museum",
+   "tags": [
+    "musical",
+    "museum",
+    "georgian"
+   ],
+   "cat": "music",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "3 Savile Row Rooftop",
+   "area": "Savile Row",
+   "hook": "the Beatles' last concert, 30 January 1969, played to the chimneys",
+   "tags": [
+    "musical"
+   ],
+   "cat": "music",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Site of the 2i's Coffee Bar",
+   "area": "Old Compton Street",
+   "hook": "the basement where British rock'n'roll was born; plaque",
+   "tags": [
+    "musical",
+    "coffee",
+    "plaque"
+   ],
+   "cat": "music",
+   "verify": false,
+   "kind": "site-of",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Trident Studios Site",
+   "area": "St Anne's Court",
+   "hook": "Hey Jude, Ziggy, Transformer cut in a Soho alley",
+   "tags": [
+    "musical",
+    "alley"
+   ],
+   "cat": "music",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify plaque/current state",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Eel Pie Island and Eel Pie Museum",
+   "area": "Twickenham",
+   "hook": "the Stones' island residency; private now, best told from the bridge and the tiny museum",
+   "tags": [
+    "musical",
+    "museum",
+    "island"
+   ],
+   "cat": "music",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify museum hours; viewed from the Twickenham bank",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Freddie Mercury's Garden Lodge Door",
+   "area": "Logan Place, Kensington",
+   "hook": "the graffitied pilgrimage wall",
+   "tags": [
+    "musical"
+   ],
+   "cat": "music",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify current wall policy",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Site of the Blitz Club",
+   "area": "Great Queen Street",
+   "hook": "where the New Romantics auditioned at the door",
+   "tags": [
+    "musical",
+    "plaque"
+   ],
+   "cat": "music",
+   "verify": true,
+   "kind": "site-of",
+   "note": "verify marker; tag rendered as 'plaque?' in source (uncertain)",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "The Clash's Westway Stretch",
+   "area": "Ladbroke Grove",
+   "hook": "the flyover as band biography",
+   "tags": [
+    "musical",
+    "brutalism"
+   ],
+   "cat": "music",
+   "verify": true,
+   "kind": "venue",
+   "note": "frame as view/walk; verify vantage point",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Primrose Hill Summit",
+   "area": "Primrose Hill",
+   "hook": "the inscription, the dawn crowd",
+   "tags": [
+    "view"
+   ],
+   "cat": "view",
+   "verify": false,
+   "kind": "dedupe-likely",
+   "note": "dedupe likely; no explicit tags given in source, 'view' inferred from section",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Nunhead Cemetery Vista",
+   "area": "Nunhead",
+   "hook": "the framed St Paul's view down the tree avenue",
+   "tags": [
+    "death",
+    "view"
+   ],
+   "cat": "death",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Westminster Cathedral Campanile",
+   "area": "Westminster",
+   "hook": "the underrated lift-served tower nobody queues for",
+   "tags": [
+    "view",
+    "faith"
+   ],
+   "cat": "view",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Greenwich Foot-Tunnel South Dome and Island Gardens",
+   "area": "Greenwich",
+   "hook": "Canaletto's framed view of the Old Royal Naval College",
+   "tags": [
+    "view",
+    "subterranean"
+   ],
+   "cat": "view",
+   "verify": false,
+   "kind": "venue",
+   "note": "distinct entry from the Subterranean-section Greenwich Foot Tunnel (the tunnel itself); this one is the framed view from the south dome/Island Gardens",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Billingsgate Roman House and Baths",
+   "area": "Lower Thames Street",
+   "hook": "a Roman bathhouse in an office basement, open-day access",
+   "tags": [
+    "roman",
+    "subterranean"
+   ],
+   "cat": "roman",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify access",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "London Wall Car Park, Bay 52-ish",
+   "area": "City",
+   "hook": "a chunk of Roman wall between parking bays -- bathos as attraction",
+   "tags": [
+    "roman",
+    "subterranean",
+    "eccentric"
+   ],
+   "cat": "roman",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify access",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Brunel's Thames Tunnel and Museum",
+   "area": "Rotherhithe",
+   "hook": "the world's first under-river tunnel; the shaft is now a concert hall",
+   "tags": [
+    "subterranean",
+    "museum",
+    "victorian",
+    "maritime"
+   ],
+   "cat": "museum",
+   "verify": false,
+   "kind": "venue",
+   "note": "multiple valid other tags (museum, maritime); defaulted to museum since the venue is formally the Brunel Museum",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Aldwych Disused Station",
+   "area": "Strand",
+   "hook": "the poster-lined ghost station; occasional ticketed tours only -- frame honestly",
+   "tags": [
+    "subterranean",
+    "interwar"
+   ],
+   "cat": "history",
+   "verify": true,
+   "kind": "venue",
+   "note": "no mapped non-subterranean tag ('interwar' is unmapped); defaulted cat to history; verify tour programme",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Down Street Station",
+   "area": "Mayfair",
+   "hook": "Churchill's bunker-station behind an ox-blood facade; exterior is the everyday sight",
+   "tags": [
+    "subterranean",
+    "plaque"
+   ],
+   "cat": "plaque",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "St Bride's Crypt",
+   "area": "Fleet Street",
+   "hook": "2,000 years of layers under the journalists' church, including the wedding-cake spire story",
+   "tags": [
+    "faith",
+    "subterranean"
+   ],
+   "cat": "faith",
+   "verify": false,
+   "kind": "venue",
+   "note": "",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  },
+  {
+   "n": "Kingsway Tram Tunnel Portal",
+   "area": "Southampton Row",
+   "hook": "the ramp to a ghost tram network, viewable from the pavement",
+   "tags": [
+    "subterranean",
+    "interwar"
+   ],
+   "cat": "history",
+   "verify": false,
+   "kind": "venue",
+   "note": "no mapped non-subterranean tag ('interwar' is unmapped); defaulted cat to history",
+   "src": "culture",
+   "geo": {
+    "none": true
+   }
+  }
+ ],
+ "TRAP": [],
+ "AMBIGUOUS": [
+  {
+   "n": "Punjab",
+   "area": "Covent Garden",
+   "est": "1946",
+   "hook": "claims oldest North Indian in the UK; four generations of one family",
+   "tags": [
+    "food",
+    "immigrant"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "verify claim",
+   "src": "food",
+   "geo": {
+    "lat": 51.515138,
+    "lng": -0.1265622,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 3,
+    "query": "Punjab London",
+    "ambig_m": 16395,
+    "display": "Punjab, 80, Neal Street, Seven Dials, Bloomsbury, London Borough of Camden, Grea"
+   }
+  },
+  {
+   "n": "805",
+   "area": "Old Kent Rd",
+   "est": "c. 2001",
+   "hook": "Nigerian institution that made the OKR a destination",
+   "tags": [
+    "food",
+    "immigrant"
+   ],
+   "cat": "food",
+   "verify": true,
+   "kind": "venue",
+   "note": "",
+   "src": "food",
+   "geo": {
+    "lat": 51.4798829,
+    "lng": -0.0568256,
+    "type": "restaurant",
+    "cls": "amenity",
+    "importance": 0.00009307927061870783,
+    "n_results": 3,
+    "ambig_m": 2301,
+    "display": "805, 805-809, Old Kent Road, South Bermondsey, Old Kent Road, London Borough of "
+   }
+  }
+ ]
+}
