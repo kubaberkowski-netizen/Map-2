@@ -1688,7 +1688,7 @@ lucide-react/dist/esm/lucide-react.js:
             +'<button id="fltx" style="border:none;background:#EDEAE3;color:#5C524A;width:30px;height:30px;border-radius:50%;font-size:15px;cursor:pointer;flex:none">✕</button></div>'
           +'<div style="font-size:14px;line-height:1.55;color:#463F38;margin:12px 0 14px">'+esc(redact((ans.w||"").slice(0,340)))+'</div>'
           +(revealed
-            ?'<div style="text-align:center"><div style="font-size:26px">'+(Math.abs(diff)<=8?"🎯":"⏳")+'</div>'
+            ?'<div style="text-align:center"><div id="flttpic"></div><div style="font-size:26px">'+(Math.abs(diff)<=8?"🎯":"⏳")+'</div>'
               +'<div style="font-family:Georgia,serif;font-size:20px;margin-top:2px">'+esc(ans.n)+'</div>'
               +'<div style="font-size:13px;color:#8A8073;margin:3px 0 2px">'+esc(ans.a||"")+(ans.city?", "+esc(ans.city.charAt(0).toUpperCase()+ans.city.slice(1)):"")+'</div>'
               +'<div style="font-size:15px;margin-top:8px">You said <b>'+done.guess+'</b> · it dates from <b style="color:#C8372D">'+year+'</b></div>'
@@ -1702,7 +1702,7 @@ lucide-react/dist/esm/lucide-react.js:
               +'<button id="fltgo" style="display:block;width:100%;background:#C8372D;color:#fff;border:0;border-radius:12px;padding:13px;font-size:15px;font-weight:700;cursor:pointer;margin-top:12px">Lock it in</button></div>');
         D.getElementById("fltx").onclick=close;
         if(revealed){
-          var se=D.getElementById("fltsee"); if(se)se.onclick=function(ev){try{ev.preventDefault();}catch(e){}close();try{location.hash="#spot="+encodeURIComponent(ans.id);}catch(e){}};
+          try{W.flGamePic&&W.flGamePic("flttpic",ans.lat,ans.lng,ans.n);}catch(e){}var se=D.getElementById("fltsee"); if(se)se.onclick=function(ev){try{ev.preventDefault();}catch(e){}close();try{location.hash="#spot="+encodeURIComponent(ans.id);}catch(e){}};
           var sh=D.getElementById("fltshare"); if(sh)sh.onclick=function(){var txt="Time Traveller "+grid(done.score)+" "+done.score+" pts ("+Math.abs(done.guess-year)+" yrs off)";try{if(W.navigator.share)W.navigator.share({title:"Time Traveller",text:txt,url:location.origin+location.pathname}).catch(function(){});else if(W.navigator.clipboard){W.navigator.clipboard.writeText(txt+" "+location.href).then(function(){var o=sh.textContent;sh.textContent="Copied ✓";setTimeout(function(){sh.textContent=o;},1500);}).catch(function(){});}}catch(e){}};
           var ag=D.getElementById("fltagain"); if(ag)ag.onclick=again;
         } else {
@@ -1802,14 +1802,14 @@ lucide-react/dist/esm/lucide-react.js:
         wire();}
       function renderFound(){done=true;var mins=Math.max(1,Math.round((((saved&&saved.foundAt)||Date.now())-start)/60000));
         card.innerHTML=head()
-          +'<div style="font-size:52px;margin:10px 0 2px">🎉</div>'
+          +'<div id="flwpic"></div><div style="font-size:52px;margin:10px 0 2px">🎉</div>'
           +'<div style="font-family:Georgia,serif;font-size:23px;font-weight:600">'+esc(target.n)+'</div>'
           +'<div style="font-size:13px;color:#8A8073;margin:2px 0 10px">'+esc(target.a||"")+' · found in '+mins+' min</div>'
           +'<div style="font-size:14px;line-height:1.55;color:#463F38;text-align:left;background:#F1E7D2;border-radius:12px;padding:12px 14px">'+esc((target.w||"").slice(0,260))+'</div>'
           +'<a href="#" id="flwsee" style="display:inline-block;margin-top:14px;color:#C8372D;font-weight:700;font-size:14px;text-decoration:none">See it in Flâneur →</a>'
           +'<button id="flwshare" style="display:block;width:100%;background:#211C16;color:#F3ECDC;border:0;border-radius:12px;padding:11px;font-size:14px;font-weight:700;cursor:pointer;margin-top:10px">Share your find</button>'
           +'<button id="flwagain" style="display:block;width:100%;background:#EDE7DA;color:#211C16;border:0;border-radius:12px;padding:11px;font-size:14px;font-weight:700;cursor:pointer;margin-top:8px">New hunt →</button>';
-        wire();}
+        wire();try{W.flGamePic&&W.flGamePic("flwpic",target.lat,target.lng,target.n);}catch(e){}}
 
       if(done&&target){renderFound();return;}
       renderSeeking();
@@ -2056,7 +2056,7 @@ lucide-react/dist/esm/lucide-react.js:
             var bg=isA?"#E7F0DC":(isC?"#F6E2DE":"#F3EEE3"),bd2=isA?"#7FA650":(isC?"#C8372D":"#E2DACB");
             h+='<div style="border:1.5px solid '+bd2+';background:'+bg+';border-radius:12px;padding:10px;font-size:14px;font-weight:600;text-align:center">'+c.e+' '+esc(c.name)+(isA?' ✓':(isC?' ✕':''))+'</div>';});
           h+='</div>';
-          h+='<div style="text-align:center;margin-top:14px">'
+          h+='<div style="text-align:center;margin-top:14px"><div id="flpcpic"></div>'
             +'<div style="font-size:26px">'+(right?"🎯":km<400?"🡒":"🌍")+'</div>'
             +'<div style="font-family:Georgia,serif;font-size:19px;margin-top:2px">'+A.e+' '+esc(A.name)+'</div>'
             +(ans.a?'<div style="font-size:13px;color:#8A8073">'+esc(ans.a)+'</div>':'')
@@ -2070,7 +2070,7 @@ lucide-react/dist/esm/lucide-react.js:
         if(!revealed){
           Array.prototype.forEach.call(card.querySelectorAll(".flpcopt"),function(b){b.onclick=function(){commit(b.getAttribute("data-c"));};});
         } else {
-          var se=D.getElementById("flpcsee"); if(se)se.onclick=function(ev){try{ev.preventDefault();}catch(e){}close();try{location.hash="#spot="+encodeURIComponent(ans.id);}catch(e){}};
+          try{W.flGamePic&&W.flGamePic("flpcpic",ans.lat,ans.lng,ans.n);}catch(e){}var se=D.getElementById("flpcsee"); if(se)se.onclick=function(ev){try{ev.preventDefault();}catch(e){}close();try{location.hash="#spot="+encodeURIComponent(ans.id);}catch(e){}};
           var ag=D.getElementById("flpcagain"); if(ag)ag.onclick=again;
           var sh=D.getElementById("flpcshare"); if(sh)sh.onclick=function(){var txt="Placed "+grid(done.score)+" "+done.score+" pts — named the city from its story";try{if(W.navigator.share)W.navigator.share({title:"Placed",text:txt,url:location.origin+location.pathname}).catch(function(){});else if(W.navigator.clipboard){W.navigator.clipboard.writeText(txt+" "+location.href).then(function(){var o=sh.textContent;sh.textContent="Copied ✓";setTimeout(function(){sh.textContent=o;},1500);}).catch(function(){});}}catch(e){}};
         }
@@ -2091,6 +2091,9 @@ lucide-react/dist/esm/lucide-react.js:
   W.flPlaced=function(f){return open(f);};
 })();
 
+</script>
+<script>
+(function(){var D=document,W=window;W.flGamePic=function(id,lat,lng,name){try{var host=D.getElementById(id);if(!host)return;if(typeof W.flThumb!=="function"||typeof lat!=="number"||typeof lng!=="number")return;W.flThumb(lat,lng,name).then(function(u){var h=D.getElementById(id);if(!u||!h)return;h.innerHTML='<img alt="" src="'+String(u).replace(/"/g,"&quot;")+'" style="width:100%;height:158px;object-fit:cover;border-radius:12px;display:block;background:#ECE6D9;margin:0 0 12px">';},function(){});}catch(e){}};})();
 </script>
 <script>if("serviceWorker"in navigator){addEventListener("load",function(){navigator.serviceWorker.register("./sw.js",{updateViaCache:"none"}).then(function(reg){if(reg){reg.update();setInterval(function(){reg.update()},6e4)}}).catch(function(){});var _rf=!1;navigator.serviceWorker.addEventListener("controllerchange",function(){if(_rf)return;_rf=!0;location.reload()})})}</script>
 <script>
