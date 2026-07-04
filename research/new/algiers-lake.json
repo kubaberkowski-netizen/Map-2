@@ -1,0 +1,122 @@
+[
+ {
+  "n": "Ben Farès Mosque",
+  "a": "Casbah",
+  "c": "faith",
+  "lat": 36.78407,
+  "lng": 3.05917,
+  "w": "Napoleon III had this building raised as a synagogue in 1865 - the Great Synagogue of Algiers, right in the heart of the Casbah. Algiers' Jewish community left in 1962 at independence, and the building didn't sit empty long: it has served as a mosque, Djamaa Ben Fares, ever since.",
+  "s": "Napoleon III's synagogue, now a mosque",
+  "_facts": ["Built 1865 by Napoleon III as the Great Synagogue of Algiers", "Abandoned by the Jewish community in 1962 at independence", "Repurposed as a mosque, also known as Djamaa Lihoud ('Jewish Mosque')", "Located on Place Randon in the Casbah of Algiers, a UNESCO World Heritage Site"],
+  "_sources": ["https://en.wikipedia.org/wiki/Ben_Farès_Mosque"],
+  "confidence": "high"
+ },
+ {
+  "n": "Ali Bitchin Mosque",
+  "a": "Casbah",
+  "c": "faith",
+  "lat": 36.78703,
+  "lng": 3.06191,
+  "w": "A former corsair captain named Ali Bitchin ordered this mosque built in 1622, tucked into the Casbah of Algiers at the crossing between Bab El Oued and the lower medina. Four centuries on, the UNESCO-listed alleyways around it still funnel straight past its door.",
+  "s": "1622 mosque built by a corsair captain",
+  "_facts": ["Built 1622 CE, commissioned by Ali Bitchin", "Sunni mosque", "Located inside the Casbah of Algiers, a UNESCO World Heritage Site", "Sits at the crosspoint between Bab El Oued and the lower Casbah"],
+  "_sources": ["https://en.wikipedia.org/wiki/Ali_Bitchin_Mosque"],
+  "confidence": "medium"
+ },
+ {
+  "n": "National Museum of Antiquities and Islamic Art",
+  "a": "",
+  "c": "museum",
+  "lat": 36.7614,
+  "lng": 3.04611,
+  "w": "Algiers' museum for antiquities and Islamic art, a quiet counterpoint to the noise of the Casbah just down the hill - centuries of the country's material history filed under one roof.",
+  "s": "Antiquities and Islamic art museum",
+  "_facts": ["Art museum in Algiers dedicated to antiquities and Islamic art"],
+  "_sources": ["https://en.wikipedia.org/wiki/National_Museum_of_Antiquities_and_Islamic_Art"],
+  "confidence": "thin"
+ },
+ {
+  "n": "Palace of the Dey",
+  "a": "Casbah",
+  "c": "history",
+  "lat": 36.78444,
+  "lng": 3.055,
+  "w": "Completed in the 16th century and settled by a long line of Ottoman deys, this was once the second-largest palace in the entire Ottoman Empire - beaten only by Topkapi in Istanbul. It still stands inside the Casbah of Algiers, known as much by its nickname, Algiers Castle, as by its official title.",
+  "s": "Ottoman palace, second only to Topkapi",
+  "_facts": ["Completed in the 16th century", "Settled by successive deys of Algiers", "Once the second-largest palace in the Ottoman Empire after Topkapi Palace", "Also known as Algiers Castle; situated inside the Casbah of Algiers"],
+  "_sources": ["https://en.wikipedia.org/wiki/Palace_of_the_Dey"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Dar Aziza",
+  "a": "Casbah",
+  "c": "history",
+  "lat": 36.78504,
+  "lng": 3.06154,
+  "w": "Arguably the most iconic surviving building of Ottoman-era Algiers, this 16th-century Moorish palace once anchored the Janina Palace complex that stood here before the Turkish corsairs arrived. Today it houses the national agency for archaeology and historic monuments - fittingly, the record-keepers of its own past.",
+  "s": "Iconic 16th-century Moorish palace",
+  "_facts": ["16th-century Moorish palace in the Casbah of Algiers", "Part of the former Janina Palace governmental compound, predating the Turkish corsairs", "Now houses Algeria's National Agency of Archaeology and Protection of Historic Sites and Monuments"],
+  "_sources": ["https://en.wikipedia.org/wiki/Dar_Aziza"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Narbonne Flour Mill",
+  "a": "Hussein Dey",
+  "c": "oddity",
+  "lat": 36.74449,
+  "lng": 3.09498,
+  "w": "Louis-Gonzague Narbonne raised this flour mill on Tripoli Street in 1864, grinding grain in what's now the Hussein Dey district. A relic of Algiers' industrial 19th century, still standing where the city's bakers' supply chain once began.",
+  "s": "1864 flour mill in Hussein Dey",
+  "_facts": ["Founded 1864 by Louis-Gonzague Narbonne", "Flour mill on Tripoli Street, Hussein Dey commune, Algiers"],
+  "_sources": ["https://en.wikipedia.org/wiki/Narbonne_Flour_Mill"],
+  "confidence": "thin"
+ },
+ {
+  "n": "Casbah of Algiers",
+  "a": "",
+  "c": "history",
+  "lat": 36.78333,
+  "lng": 3.06028,
+  "w": "Founded in 944 by the Zirids on a site inhabited since the Neolithic, Algiers' old medina passed through Phoenician, Berber and Roman hands before becoming seat of the Ottoman Regency. The French sidelined it after 1830; the FLN made its alleys a stronghold in the war of independence. UNESCO-listed since 1992.",
+  "s": "944 medina, UNESCO since 1992",
+  "_facts": ["Old town/medina of Algiers, founded 944 by the Zirids", "UNESCO World Heritage Site since 1992", "Passed through Phoenician, Berber, Roman and Ottoman control; seat of the Regency of Algiers", "Marginalised after French colonization in 1830; a stronghold for FLN fighters during the Algerian War"],
+  "_sources": ["https://en.wikipedia.org/wiki/Casbah_of_Algiers"],
+  "confidence": "high"
+ },
+ {
+  "n": "National Library of Algeria",
+  "a": "Hamma",
+  "c": "archive",
+  "lat": 36.74833,
+  "lng": 3.07194,
+  "w": "France's colonial government founded this library in 1835 in the Hamma district; at independence in 1962 it became Algeria's national library outright. Nearly two centuries of continuous shelving, through one complete change of flag.",
+  "s": "1835 colonial library, still national",
+  "_facts": ["Founded 1835 by the French colonial government", "Became Algeria's national library at independence in 1962", "Located in the Hamma district of Algiers"],
+  "_sources": ["https://en.wikipedia.org/wiki/National_Library_of_Algeria"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Center of Research in Astronomy, Astrophysics and Geophysics",
+  "a": "Bouzareah",
+  "c": "oddity",
+  "lat": 36.7979,
+  "lng": 3.0322,
+  "w": "Built in the late 19th century above Algiers in Bouzareah, this observatory exposed 1,260 photographic plates for the international Astrographic Catalogue project between 1891 and 1911, mapping the southern sky one glass plate at a time. It still runs today, retooled to also track the region's earthquakes.",
+  "s": "1890s observatory mapped the southern sky",
+  "_facts": ["Built late 19th century in Bouzareah, Algiers", "Participated in the Astrographic Catalogue project, exposing 1,260 plates 1891-1911", "Director at project's end was Francois Gonnessiat", "Now CRAAG, combining astronomy, astrophysics and earthquake monitoring"],
+  "_sources": ["https://en.wikipedia.org/wiki/Center_of_Research_in_Astronomy,_Astrophysics,_and_Geophysics"],
+  "confidence": "medium"
+ },
+ {
+  "n": "El Barani Mosque",
+  "a": "Casbah",
+  "c": "faith",
+  "lat": 36.78447,
+  "lng": 3.05575,
+  "w": "Tucked into the Casbah of Algiers on Bab Jadid Street, this mosque lines up exactly with the entrance to the old Dar al-Sultan palace next door - a small, precise piece of the medina's Ottoman-era street plan, still legible underfoot.",
+  "s": "Casbah mosque aligned to a sultan's gate",
+  "_facts": ["Mosque in the Casbah of Algiers, a UNESCO World Heritage Site", "Located on Bab Jadid Street", "Aligns with the entrance of Dar al-Sultan palace"],
+  "_sources": ["https://en.wikipedia.org/wiki/El_Barani_Mosque"],
+  "confidence": "thin"
+ }
+]
