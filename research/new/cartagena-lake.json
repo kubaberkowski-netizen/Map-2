@@ -1,0 +1,62 @@
+[
+ {
+  "n": "Castillo San Felipe de Barajas",
+  "a": "San Lázaro Hill",
+  "c": "history",
+  "lat": 10.42222,
+  "lng": -75.53806,
+  "w": "Built in 1639 by enslaved African labor under Spanish command, this hilltop fortress dominated every approach to Cartagena by land or sea. Originally named for San Lazaro, it weathered repeated sieges by rival European powers through the late 17th and early 19th centuries.",
+  "s": "A fortress built by enslaved hands to keep empires out.",
+  "_facts": ["fortress built 1639 on the Hill of San Lázaro", "built by African slave labor under Spanish supervision", "originally known as the Castillo de San Lázaro", "involved in several battles between European powers, late 17th to early 19th centuries"],
+  "_sources": ["https://en.wikipedia.org/wiki/Castillo_San_Felipe_de_Barajas"],
+  "confidence": "high"
+ },
+ {
+  "n": "Palace of the Inquisition",
+  "a": "",
+  "c": "museum",
+  "lat": 10.42317,
+  "lng": -75.55158,
+  "w": "Completed in 1770 as the seat of the Holy Office in Cartagena, this palace now displays what it calls Inquisition torture devices -- except historians say most, the 'iron maiden' included, are 19th-century inventions built for sensational exhibitions, with scant evidence any tribunal here used them.",
+  "s": "The Inquisition's palace, its torture devices mostly props.",
+  "_facts": ["18th-century seat of the Holy Office of the Inquisition, completed 1770", "now houses the Museo Histórico de Cartagena", "displays alleged Inquisition torture devices, but many appear to be modern replicas or generic reconstructions with little evidence of genuine use here", "devices like the 'iron maiden' are now considered 19th-century inventions for sensational exhibitions rather than authentic Inquisition tools"],
+  "_sources": ["https://en.wikipedia.org/wiki/Palace_of_the_Inquisition_(Cartagena,_Colombia)"],
+  "confidence": "high"
+ },
+ {
+  "n": "Iglesia de San Pedro Claver",
+  "a": "",
+  "c": "faith",
+  "lat": 10.4217,
+  "lng": -75.551,
+  "w": "Built across seven decades from 1580, this colonial church has worn three names -- San Juan de Dios, then San Ignacio de Loyola, now San Pedro Claver, after the saint whose remains it keeps. Its original dome was swapped out in 1921; in 2022 a donor-funded mausoleum was dedicated behind his resting place.",
+  "s": "A church that renamed itself after the saint inside it.",
+  "_facts": ["built 1580-1654 in Spanish Colonial style", "originally the church of San Juan de Dios, then San Ignacio de Loyola from 1622, now San Pedro Claver", "dome removed and replaced in 1921", "new two-story mausoleum formally dedicated 7 May 2022, donor-funded"],
+  "_sources": ["https://en.wikipedia.org/wiki/Iglesia_de_San_Pedro_Claver,_Cartagena"],
+  "confidence": "high"
+ },
+ {
+  "n": "Puerta del Reloj",
+  "a": "Historic Center",
+  "c": "history",
+  "lat": 10.4231,
+  "lng": -75.54926,
+  "w": "The only way into walled Cartagena once ran through this gate, its drawbridge raised at the first sign of pirates to cut it off from Getsemani across the channel. Crowned with a clock in the early 1700s, it's been called Boca del Puente, 'mouth of the bridge', ever since, though the bridge itself is long gone.",
+  "s": "The gate pirates couldn't get past -- drawbridge and all.",
+  "_facts": ["main city gate and original entrance to the fortified historic center", "drawbridge at the foot of the San Anastasio channel linked the walled city to Getsemaní, raised against buccaneers and pirates", "crowned with a clock at the start of the 18th century, giving it the name Puerta del Reloj", "also known as Boca del Puente"],
+  "_sources": ["https://en.wikipedia.org/wiki/Puerta_del_Reloj"],
+  "confidence": "high"
+ },
+ {
+  "n": "Rosario and San Bernardo Corals National Natural Park",
+  "a": "",
+  "c": "green",
+  "lat": 9.979,
+  "lng": -75.792,
+  "w": "Forty-five kilometers offshore, this park is mostly underwater -- a stretch of Caribbean coral reef that in 2009 drew more visitors than any other national park in Colombia. Reefs here run from just below the surface down to 30 metres, a whole ecosystem hiding beneath the waves off Cartagena's bay.",
+  "s": "Colombia's most-visited park, and it's mostly underwater.",
+  "_facts": ["natural park on the Caribbean coast, 45 km from the Bay of Cartagena", "most visited national park in Colombia in 2009, with 318,473 visitors", "mostly underwater, protects marine ecosystems including coral reefs at depths of 1 to 30 metres"],
+  "_sources": ["https://en.wikipedia.org/wiki/Rosario_and_San_Bernardo_Corals_National_Natural_Park"],
+  "confidence": "medium"
+ }
+]
