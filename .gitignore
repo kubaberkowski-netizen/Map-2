@@ -15,3 +15,4 @@ undefined/
 # harvest.js caches (candidate lake + dossiers) — regenerable, live outside the repo
 research/lake/
 research/dossiers/
+research/.extract-cache.json
