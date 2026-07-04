@@ -1380,6 +1380,133 @@ lucide-react/dist/esm/lucide-react.js:
 })();
 </script>
 <script>(function(){var F={"United Kingdom":"\uD83C\uDDEC\uD83C\uDDE7","Ireland":"\uD83C\uDDEE\uD83C\uDDEA","France":"\uD83C\uDDEB\uD83C\uDDF7","Germany":"\uD83C\uDDE9\uD83C\uDDEA","Spain":"\uD83C\uDDEA\uD83C\uDDF8","Portugal":"\uD83C\uDDF5\uD83C\uDDF9","Netherlands":"\uD83C\uDDF3\uD83C\uDDF1","Belgium":"\uD83C\uDDE7\uD83C\uDDEA","Italy":"\uD83C\uDDEE\uD83C\uDDF9","Greece":"\uD83C\uDDEC\uD83C\uDDF7","Austria":"\uD83C\uDDE6\uD83C\uDDF9","Switzerland":"\uD83C\uDDE8\uD83C\uDDED","Czechia":"\uD83C\uDDE8\uD83C\uDDFF","Hungary":"\uD83C\uDDED\uD83C\uDDFA","Poland":"\uD83C\uDDF5\uD83C\uDDF1","Denmark":"\uD83C\uDDE9\uD83C\uDDF0","Sweden":"\uD83C\uDDF8\uD83C\uDDEA","Norway":"\uD83C\uDDF3\uD83C\uDDF4","Finland":"\uD83C\uDDEB\uD83C\uDDEE","Estonia":"\uD83C\uDDEA\uD83C\uDDEA","Latvia":"\uD83C\uDDF1\uD83C\uDDFB","Lithuania":"\uD83C\uDDF1\uD83C\uDDF9","Slovenia":"\uD83C\uDDF8\uD83C\uDDEE","Croatia":"\uD83C\uDDED\uD83C\uDDF7","Serbia":"\uD83C\uDDF7\uD83C\uDDF8","Romania":"\uD83C\uDDF7\uD83C\uDDF4","Bulgaria":"\uD83C\uDDE7\uD83C\uDDEC","Turkey":"\uD83C\uDDF9\uD83C\uDDF7","United States":"\uD83C\uDDFA\uD83C\uDDF8","Canada":"\uD83C\uDDE8\uD83C\uDDE6","Mexico":"\uD83C\uDDF2\uD83C\uDDFD","Argentina":"\uD83C\uDDE6\uD83C\uDDF7","Japan":"\uD83C\uDDEF\uD83C\uDDF5","South Korea":"\uD83C\uDDF0\uD83C\uDDF7","Singapore":"\uD83C\uDDF8\uD83C\uDDEC","Hong Kong":"\uD83C\uDDED\uD83C\uDDF0","Australia":"\uD83C\uDDE6\uD83C\uDDFA","New Zealand":"\uD83C\uDDF3\uD83C\uDDFF","South Africa":"\uD83C\uDDFF\uD83C\uDDE6","Senegal":"\uD83C\uDDF8\uD83C\uDDF3","Morocco":"\uD83C\uDDF2\uD83C\uDDE6","Egypt":"\uD83C\uDDEA\uD83C\uDDEC","Thailand":"\uD83C\uDDF9\uD83C\uDDED","Vietnam":"\uD83C\uDDFB\uD83C\uDDF3","India":"\uD83C\uDDEE\uD83C\uDDF3"};window.flCountryFlag=function(n){return F[n]||"";};})();</script>
+<script>
+/* Place the Pin (daily map minigame) — read a place's story, drop a pin on the
+   map, score by distance. Standalone overlay decoupled from React (reads
+   window.__FLZ + Leaflet + localStorage, appends its own DOM, try/catch-guarded).
+   Opens via a once-a-day launcher toast, #geoguess, or window.flGeoGuess(). */
+(function(){
+  var D=document, W=window;
+  function tKey(){var d=new Date();return d.getFullYear()+"-"+(d.getMonth()+1)+"-"+d.getDate();}
+  function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+  function bestCity(){try{var Z=W.__FLZ||[],ck=JSON.parse(W.localStorage.getItem("flaneur-v2")||"{}").checkinAt||{};var by={};for(var i=0;i<Z.length;i++)by[Z[i].id]=Z[i];var c={};for(var k in ck){var s=by[k];if(s&&s.city)c[s.city]=(c[s.city]||0)+1;}var best="london",n=0;for(var x in c){if(c[x]>n){n=c[x];best=x;}}return best;}catch(e){return "london";}}
+  function daily(city){
+    var Z=W.__FLZ||[]; if(!Z.length)return null;
+    var ok=function(z,min){return z.city===city&&(z.w||"").length>min&&z.n&&typeof z.lat==="number"&&typeof z.lng==="number";};
+    var pool=Z.filter(function(z){return ok(z,120);});
+    if(pool.length<12)pool=Z.filter(function(z){return ok(z,60);});
+    if(!pool.length)return null;
+    var seed=Math.floor(Date.now()/864e5);
+    return pool[(seed*13+city.length*5)%pool.length];
+  }
+  function bounds(city){var Z=W.__FLZ||[],la=[],ln=[];Z.forEach(function(z){if(z.city===city&&typeof z.lat==="number"){la.push(z.lat);ln.push(z.lng);}});if(la.length<2)return null;return [[Math.min.apply(null,la),Math.min.apply(null,ln)],[Math.max.apply(null,la),Math.max.apply(null,ln)]];}
+  function fmtD(m){return m>=1000?(m/1000).toFixed(m>=10000?0:1)+" km":Math.round(m)+" m";}
+  function score(m){return Math.max(0,Math.round(1000*Math.exp(-m/1500)));}
+  function grid(sc){return sc>=900?"🟩🟩🟩🟩🟩":sc>=700?"🟩🟩🟩🟩⬜":sc>=450?"🟩🟩🟩⬜⬜":sc>=250?"🟩🟩⬜⬜⬜":sc>=80?"🟩⬜⬜⬜⬜":"⬜⬜⬜⬜⬜";}
+
+  function open(force){
+    try{
+      if(!W.L){return;}
+      var city=bestCity(), ans=daily(city), bb=bounds(city);
+      if(!ans||!bb)return;
+      var cityLabel=city.charAt(0).toUpperCase()+city.slice(1);
+      var pk="flgeo_"+tKey(), done=null; try{done=JSON.parse(W.localStorage.getItem(pk)||"null");}catch(e){}
+      var revealed=!!done, guessLL=null, gm=null, am=null, line=null, map=null;
+
+      var bd=D.createElement("div"); bd.id="flgeobd";
+      bd.setAttribute("style","position:fixed;inset:0;z-index:9992;background:rgba(20,17,14,.55);display:flex;align-items:center;justify-content:center;padding:16px;");
+      var card=D.createElement("div");
+      card.setAttribute("style","background:#FAF8F3;color:#211C16;width:100%;max-width:440px;max-height:92vh;overflow:auto;border-radius:20px;box-shadow:0 26px 64px -20px rgba(0,0,0,.5);padding:18px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;");
+      bd.appendChild(card);
+      function close(){try{D.body.removeChild(bd);}catch(e){}try{if(map)map.remove();}catch(e){}}
+      bd.addEventListener("click",function(e){if(e.target===bd)close();});
+
+      function render(){
+        card.innerHTML=''
+          +'<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px">'
+            +'<div><div style="font:700 11px monospace;letter-spacing:.14em;text-transform:uppercase;color:#8A8073">Place the Pin</div>'
+            +'<div style="font-family:Georgia,serif;font-size:19px;margin-top:2px">Where in '+esc(cityLabel)+'?</div></div>'
+            +'<button id="flgeox" style="border:none;background:#EDEAE3;color:#5C524A;width:30px;height:30px;border-radius:50%;font-size:15px;cursor:pointer;flex:none">✕</button></div>'
+          +'<div style="font-size:14px;line-height:1.5;color:#463F38;margin:10px 0 12px">'+esc((ans.w||"").slice(0,320))+'</div>'
+          +'<div id="flgeomap" style="width:100%;height:300px;border-radius:14px;overflow:hidden;border:1px solid #E7E0D4;background:#e9e4d8"></div>'
+          +(revealed
+            ?'<div style="text-align:center;margin-top:12px"><div style="font-size:26px">'+(done.score>=450?"🎯":"📍")+'</div>'
+              +'<div style="font-family:Georgia,serif;font-size:20px;margin-top:2px">'+esc(ans.n)+'</div>'
+              +'<div style="font-size:13px;color:#8A8073">'+esc(ans.a||"")+' · '+fmtD(done.dist)+' off · <b style="color:#211C16">'+done.score+'</b> pts</div>'
+              +'<a href="#" id="flgeosee" style="display:inline-block;margin-top:12px;color:#C8372D;font-weight:700;font-size:14px;text-decoration:none">See it in Flâneur →</a>'
+              +'<button id="flgeoshare" style="display:block;width:100%;background:#211C16;color:#F3ECDC;border:0;border-radius:12px;padding:11px;font-size:14px;font-weight:700;cursor:pointer;margin-top:12px">Share your score</button></div>'
+            :'<div id="flgeohint" style="font-size:12.5px;color:#8A8073;text-align:center;margin:10px 0 8px">Tap the map to drop your pin</div>'
+              +'<button id="flgeogo" style="display:block;width:100%;background:#C8372D;color:#fff;border:0;border-radius:12px;padding:13px;font-size:15px;font-weight:700;cursor:pointer;opacity:.5" disabled>Drop a pin first</button>');
+        D.getElementById("flgeox").onclick=close;
+        setTimeout(initMap,30);
+        if(revealed){
+          var se=D.getElementById("flgeosee"); if(se)se.onclick=function(ev){try{ev.preventDefault();}catch(e){}close();try{location.hash="#spot="+encodeURIComponent(ans.id);}catch(e){}};
+          var sh=D.getElementById("flgeoshare"); if(sh)sh.onclick=function(){var txt="Place the Pin — "+esc(cityLabel)+" "+grid(done.score)+" "+done.score+" pts ("+fmtD(done.dist)+" off)";try{if(W.navigator.share)W.navigator.share({title:"Place the Pin",text:txt,url:location.origin+location.pathname}).catch(function(){});else if(W.navigator.clipboard){W.navigator.clipboard.writeText(txt+" "+location.href).then(function(){var o=sh.textContent;sh.textContent="Copied ✓";setTimeout(function(){sh.textContent=o;},1500);}).catch(function(){});}}catch(e){}};
+        }
+      }
+      function initMap(){
+        try{
+          var el=D.getElementById("flgeomap"); if(!el||map)return;
+          map=W.L.map(el,{zoomControl:false,attributionControl:false});
+          W.L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",{maxZoom:19,subdomains:"abcd"}).addTo(map);
+          map.fitBounds(bb,{padding:[18,18]});
+          setTimeout(function(){try{map.invalidateSize();}catch(e){}},60);
+          if(revealed){ showResult(done.guess); }
+          else {
+            map.on("click",function(e){
+              guessLL=e.latlng;
+              if(gm)gm.setLatLng(e.latlng); else gm=W.L.marker(e.latlng).addTo(map);
+              var b=D.getElementById("flgeogo"); if(b){b.disabled=false;b.style.opacity="1";b.textContent="Guess";}
+            });
+            var b=D.getElementById("flgeogo"); if(b)b.onclick=commit;
+          }
+        }catch(e){}
+      }
+      function showResult(guess){
+        try{
+          var aLL=W.L.latLng(ans.lat,ans.lng);
+          am=W.L.circleMarker(aLL,{radius:8,color:"#fff",weight:2,fillColor:"#C8372D",fillOpacity:1}).addTo(map);
+          if(guess){ if(!gm)gm=W.L.marker(W.L.latLng(guess[0],guess[1])).addTo(map);
+            line=W.L.polyline([[guess[0],guess[1]],[ans.lat,ans.lng]],{color:"#211C16",weight:2,dashArray:"4 6",opacity:.7}).addTo(map);
+            map.fitBounds(line.getBounds(),{padding:[40,40],maxZoom:16}); }
+          else map.setView(aLL,15);
+        }catch(e){}
+      }
+      function commit(){
+        if(!guessLL)return;
+        var aLL=W.L.latLng(ans.lat,ans.lng), dist=map.distance(guessLL,aLL), sc=score(dist);
+        done={score:sc,dist:Math.round(dist),guess:[guessLL.lat,guessLL.lng]};
+        try{W.localStorage.setItem(pk,JSON.stringify(done));}catch(e){}
+        try{W.localStorage.setItem("flaneur-mxp",String((+(W.localStorage.getItem("flaneur-mxp"))||0)+Math.round(sc/50)));}catch(e){}
+        try{W.flTrack&&W.flTrack("geoguess",{score:sc});}catch(e){}
+        revealed=true; render();
+      }
+      D.body.appendChild(bd); render();
+    }catch(e){}
+  }
+  W.flGeoGuess=open;
+  try{ if((location.hash||"").indexOf("geoguess")>=0) setTimeout(function(){open(true);},900); }catch(e){}
+
+  // once-a-day launcher toast (sits above the plaque toast slot)
+  try{
+    if(!W.localStorage.getItem("flgeo_"+tKey())){
+      setTimeout(function(){
+        try{
+          if(D.getElementById("flgeotoast")||!W.__FLZ||!W.__FLZ.length)return;
+          var t=D.createElement("div"); t.id="flgeotoast";
+          t.setAttribute("style","position:fixed;left:50%;transform:translateX(-50%);bottom:calc(120px + env(safe-area-inset-bottom,0px));z-index:9990;background:#C8372D;color:#fff;border-radius:999px;padding:10px 16px;font:600 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;box-shadow:0 12px 30px -12px rgba(0,0,0,.5);cursor:pointer;display:flex;align-items:center;gap:8px");
+          t.innerHTML='🗺️ Place today’s Pin <span style="opacity:.7">✕</span>';
+          t.onclick=function(){try{D.body.removeChild(t);}catch(e){}open(true);};
+          var x=t.querySelector("span"); if(x)x.onclick=function(ev){ev.stopPropagation();try{D.body.removeChild(t);}catch(e){}};
+          D.body.appendChild(t);
+          setTimeout(function(){try{if(D.body.contains(t))D.body.removeChild(t);}catch(e){}},12000);
+        }catch(e){}
+      },6000);
+    }
+  }catch(e){}
+})();
+
+</script>
 <script>if("serviceWorker"in navigator){addEventListener("load",function(){navigator.serviceWorker.register("./sw.js",{updateViaCache:"none"}).then(function(reg){if(reg){reg.update();setInterval(function(){reg.update()},6e4)}}).catch(function(){});var _rf=!1;navigator.serviceWorker.addEventListener("controllerchange",function(){if(_rf)return;_rf=!0;location.reload()})})}</script>
 <script>
 /* Flâneur cloud — analytics (PostHog) + accounts/sync (Supabase) + push.
