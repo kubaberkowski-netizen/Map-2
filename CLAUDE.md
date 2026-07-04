@@ -145,6 +145,16 @@ fully before touching anything.
   (inline in the template). Adding a city = append a `Ci` entry + spots tagged with
   its `city` slug. A "Cities" overview tab (map + cards) summarises spots/visited per
   city; picking one sets `cityId` and recentres the reference location on it.
+- **Regions (going beyond cities):** a `Ci` entry may carry `region:1` and a large
+  `bbox` to represent a wide area rather than a metro (e.g. `highlands` — the Scottish
+  Highlands, covering the mainland north + Skye + Lewis). This is the first step toward
+  "discover anywhere": scattered, interstitial spots between towns live under a region
+  slug instead of being rejected for falling outside a tight city bbox. `build.js`
+  reads the `region` flag and validates a region's spots against a **generous
+  `REGION_MARGIN` (±1.0°)** instead of the tight city typo-guard (±0.1°). A region is
+  otherwise a normal `Ci` entry — discovery (`Zc`), `cyo`, LIVE detection and SEO all
+  work unchanged. (Full "explore around me" distance-first discovery — ignoring the
+  city partition entirely — is the planned next step; see the architecture notes.)
 - **Discovery is filtered by `cityId`** via `Zc = useMemo(Z.filter(z=>z.city===cityId))`.
   The browse list, walk candidates, radar, map markers, Worlds counts and add-stop
   search all read `Zc` (spread pools `[...Zc,...J]`, `[...Zc.filter(Me.match)…]`).

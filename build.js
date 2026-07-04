@@ -27,7 +27,7 @@ const SPOTS = path.join(ROOT, "data", "spots.json");
 const OUTPUT = path.join(ROOT, "index.html");
 const PLACEHOLDER = "[]/*__FLANEUR_SPOTS__*/";
 const REQUIRED = ["id", "n", "a", "pc", "lat", "lng", "c", "s", "q", "w", "city"];
-const BASELINE = { entries: 10749, worlds: 80, categories: 44 };
+const BASELINE = { entries: 10755, worlds: 80, categories: 44 };
 
 function die(msg) {
   console.error("✗ build aborted (nothing written): " + msg);
@@ -123,6 +123,7 @@ function parseCiBboxes(src) {
     return null;
   };
   const out = new Map();
+  const regions = new Set();
   (function walk(n) {
     if (!n || typeof n.type !== "string") return;
     if (
@@ -133,11 +134,15 @@ function parseCiBboxes(src) {
         if (!el || el.type !== "ObjectExpression") continue;
         const get = (name) =>
           el.properties.find((p) => p.type === "Property" && (p.key.name === name || p.key.value === name));
-        const idp = get("id"), bbp = get("bbox");
+        const idp = get("id"), bbp = get("bbox"), rgp = get("region");
         if (idp && idp.value && bbp && bbp.value && bbp.value.type === "ArrayExpression") {
           const bb = bbp.value.elements.map(numOf);
           if (bb.length === 4 && bb.every((x) => x != null)) out.set(idp.value.value, bb);
         }
+        // region entries (big-bbox areas) get a generous coord margin so scattered
+        // "anywhere" spots between towns pass without a pixel-perfect bbox.
+        if (idp && idp.value && rgp && rgp.value && !(rgp.value.type === "Literal" && !rgp.value.value))
+          regions.add(idp.value.value);
       }
       return;
     }
@@ -147,9 +152,15 @@ function parseCiBboxes(src) {
       else if (v && typeof v.type === "string") walk(v);
     }
   })(ast);
+  out._regions = regions;
   return out;
 }
 const cityBboxes = parseCiBboxes(scriptBody);
+const ciRegions = cityBboxes._regions || new Set();
+// regions (national parks, coastlines, whole countries) intentionally span a wide
+// area, so their spots validate against a generous margin rather than the tight
+// ~11 km city-typo guard — this is what lets "anywhere" spots live between towns.
+const REGION_MARGIN = 1.0;
 // gross-typo guard only: a generous margin (~11 km) tolerates legitimate
 // metro-edge spots while still catching wrong-city / sign-flip / transposed coords.
 const BBOX_MARGIN = 0.1;
@@ -180,12 +191,14 @@ spots.forEach((e, i) => {
   if (!Number.isFinite(e.lat) || !Number.isFinite(e.lng) || e.lat === 0 || e.lng === 0)
     die(`entry ${JSON.stringify(e.id)} has a non-finite or zero coordinate (lat ${JSON.stringify(e.lat)}, lng ${JSON.stringify(e.lng)})`);
   const bb = cityBboxes.get(e.city);
+  const isRegion = ciRegions.has(e.city);
+  const mrg = isRegion ? REGION_MARGIN : BBOX_MARGIN;
   if (bb && !(
-    e.lng >= bb[0] - BBOX_MARGIN && e.lng <= bb[2] + BBOX_MARGIN &&
-    e.lat >= bb[1] - BBOX_MARGIN && e.lat <= bb[3] + BBOX_MARGIN
+    e.lng >= bb[0] - mrg && e.lng <= bb[2] + mrg &&
+    e.lat >= bb[1] - mrg && e.lat <= bb[3] + mrg
   ))
-    die(`entry ${JSON.stringify(e.id)} coord (lat ${e.lat}, lng ${e.lng}) is outside its city ` +
-        `"${e.city}" bbox [${bb.join(",")}] (±${BBOX_MARGIN}°) — almost certainly a coordinate typo`);
+    die(`entry ${JSON.stringify(e.id)} coord (lat ${e.lat}, lng ${e.lng}) is outside its ${isRegion ? "region" : "city"} ` +
+        `"${e.city}" bbox [${bb.join(",")}] (±${mrg}°) — almost certainly a coordinate typo`);
 });
 if (spots.length !== BASELINE.entries)
   console.warn(`⚠ entry count is ${spots.length} (baseline ${BASELINE.entries}) — confirm this is intended`);
