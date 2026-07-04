@@ -83,7 +83,7 @@ fully before touching anything.
   does NOT `fetch()` JSON at runtime; the catalogue arrives as a classic `<script>`
   (`window.__FLZ`) that executes **before** the main bundle, so `Z` is populated
   synchronously exactly as when it was inline.
-  - `data/spots.json` — the **10,044 spots** as pretty JSON. **Source of truth for `Z`.**
+  - `data/spots.json` — the **10,142 spots** as pretty JSON. **Source of truth for `Z`.**
   - `src/app.template.html` — the full app shell. The catalogue array is the placeholder
     `[]/*__FLANEUR_SPOTS__*/` (consumed as `Z=window.__FLZ||[]/*…*/`) and the loader
     marker `<!--__FLANEUR_SPOTS_SRC__-->` sits just before the main `<script>`.
@@ -113,7 +113,7 @@ fully before touching anything.
   the template, not hand-typed), any coordinate is non-finite/zero, or any coordinate
   lands **outside its city's `Ci` bbox** (±0.1° margin — catches wrong-city / sign-flip /
   transposed-digit typos). It **warns** (non-fatal) if the entry count differs from the
-  baseline (10,044; see `BASELINE` in `build.js`), if two spots share a name within a
+  baseline (10,142; see `BASELINE` in `build.js`), if two spots share a name within a
   city (likely duplicate spots), or
   if any writeups are empty (with a per-city count). It then re-runs the CLAUDE.md checks
   below on the generated HTML and fails loudly on any miss.
@@ -130,7 +130,7 @@ fully before touching anything.
     reference (a machine writeup with Wikipedia/Wikidata backing), absent = thin
     machine stub. Both are optional per spot and never change the `id:"…",n:"`
     entry-count signature. The focused-spot card shows a small `.wqtag` line from `wq`.
-- `c` **MUST** be one of exactly **43 valid category slugs**. The code reads
+- `c` **MUST** be one of exactly **44 valid category slugs**. The code reads
   `ne[entry.c]` **unguarded**, so any unknown slug = **instant white-screen**.
 - `city` **MUST** be a slug defined in the **`Ci` cities registry**. `build.js`
   rejects unknown city slugs. There are **115 cities** today, spanning the UK, Europe,
@@ -171,7 +171,7 @@ fully before touching anything.
   they are the owner's voice. **NEVER rewrite, "improve," or invent writeup text.**
   Add sourced facts only when explicitly asked. Writeups are now edited in
   `data/spots.json` (the `w` field of each entry), then `npm run build`.
-- **Reality check (post-scale-up):** with the catalogue at 10,044 spots, the **majority
+- **Reality check (post-scale-up):** with the catalogue at 10,142 spots, the **majority
   of `w` fields are now short machine-generated stubs** from the `tools/` enrichment
   pipeline (OSM / Wikidata / Wikipedia) — median length ~41 chars, ~80% under 80 chars,
   ~150 empty. The "owner's voice" rule still applies to the **authored** writeups (do not
@@ -186,7 +186,7 @@ fully before touching anything.
   field (see Data model). To reclassify a spot, edit `data/quality.json` (or run
   `node tools/quality.js`), then `npm run build`. Use this flag — never re-guess authored
   vs machine from writeup length (the enrichment pipeline has since made `w` fields long).
-- `ne` (43 categories) and `Xr` (80 Worlds, which contain live `match: e=>…`
+- `ne` (44 categories) and `Xr` (80 Worlds, which contain live `match: e=>…`
   functions and are **not serialisable**) **stay inline in `src/app.template.html`** —
   only `Z` was extracted to JSON.
 
@@ -195,12 +195,12 @@ fully before touching anything.
 manual cross-check. Note the catalogue now lives in `spots.<hash>.js`, not `index.html`.)
 1. `node --check` the app shell's largest inline `<script>` **and** `node --check spots.*.js`.
 2. Confirm counts via grep:
-   - **entries** — `id:"…",n:"` → should be **10,044** — now counted in the **sidecar**:
+   - **entries** — `id:"…",n:"` → should be **10,142** — now counted in the **sidecar**:
      `grep -oE 'id:"[^"]*",n:"' spots.*.js | wc -l` (and `… index.html` must be **0** —
      the catalogue must not leak back into the shell)
    - **Worlds** — `match:\s*e\s*=>` → should be **80** (do NOT count `osm:`), in the shell:
      `grep -oE 'match:[[:space:]]*e[[:space:]]*=>' index.html | wc -l`
-   - **categories** — `(\w+):\{l:"` inside the `ne={…}` block → should be **43**, in the shell:
+   - **categories** — `(\w+):\{l:"` inside the `ne={…}` block → should be **44**, in the shell:
      `grep -oE '[A-Za-z0-9_]+:\{l:"' index.html | wc -l`
 3. Confirm the shell references the sidecar exactly once:
    `grep -oE '<script src="./spots\.[0-9a-f]+\.js"></script>' index.html`

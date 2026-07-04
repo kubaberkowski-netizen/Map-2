@@ -127,11 +127,8 @@ function normDrop(name) { return name.toLowerCase().replace(/[^a-z0-9]/g, ""); }
   for (const s of seeds) {
     // trap / do-not-add
     if (s.kind === "trap" || dnaSet.has(normDrop(s.n))) { buckets.TRAP.push({ ...s }); continue; }
-    // market has no category slug yet -> quarantine for owner decision
-    if (s.cat === "MARKET_HOLD" || s.cat === "market") {
-      const g = await geocode(s.n, s.area);
-      buckets.MARKET_HOLD.push({ ...s, geo: g }); continue;
-    }
+    // 'market' is now a real category slug -> process like any other
+    if (s.cat === "MARKET_HOLD" || s.cat === "market") s.cat = "market";
     const g = await geocode(s.n, s.area);
     if (!g || g.none || !Number.isFinite(g.lat)) { buckets.UNRESOLVED.push({ ...s, geo: g || null }); continue; }
     if (!inBbox(g.lat, g.lng)) { buckets.UNRESOLVED.push({ ...s, geo: g, why: "outside-bbox" }); continue; }
