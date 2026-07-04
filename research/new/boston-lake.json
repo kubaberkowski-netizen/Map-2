@@ -1,0 +1,222 @@
+[
+ {
+  "n": "USS Constitution",
+  "a": "Charlestown Navy Yard",
+  "c": "maritime",
+  "lat": 42.3721,
+  "lng": -71.0556,
+  "w": "Old Ironsides earned her nickname in 1812, when British cannonballs are said to have bounced off her oak hull as she took HMS Guerriere. Launched in 1797 at a North End shipyard, she's the world's oldest commissioned warship still afloat, once circling the globe - still crewed, still hers.",
+  "s": "The frigate cannonballs couldn't sink.",
+  "_facts": [
+   "Launched 1797, one of six original US Navy frigates authorized 1794",
+   "Built at Edmund Hartt's shipyard in the North End of Boston",
+   "Captured HMS Guerriere in the War of 1812, earning the nickname 'Old Ironsides'",
+   "World's oldest commissioned warship still afloat"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/USS_Constitution"],
+  "confidence": "high"
+ },
+ {
+  "n": "Fenway Park",
+  "a": "Fenway-Kenmore",
+  "c": "stadium",
+  "lat": 42.34639,
+  "lng": -71.0975,
+  "w": "Baseball's oldest ballpark still in use, wedged so tightly into the Fenway street grid since 1912 that its cramped dimensions turned into legend: the Green Monster in left field, Pesky's foul pole, the odd little nook called the Triangle. Former pitcher Bill Lee called it simply 'a shrine.'",
+  "s": "America's oldest ballpark, still where it started.",
+  "_facts": [
+   "Home of the Red Sox since 1912; oldest active MLB ballpark",
+   "Rebuilt in 1934; quirks include the Green Monster, Pesky's Pole, the Triangle",
+   "Added to the National Register of Historic Places in 2012",
+   "Pitcher Bill Lee called it 'a shrine'"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Fenway_Park"],
+  "confidence": "high"
+ },
+ {
+  "n": "Museum of Fine Arts, Boston",
+  "a": "Fenway",
+  "c": "museum",
+  "lat": 42.33944,
+  "lng": -71.09417,
+  "w": "One of the largest art collections in the Americas, holding more than 450,000 works and 8,161 paintings. Founded in Copley Square in 1870, it outgrew that building within a generation and moved to its Fenway home in 1909, where it now draws over a million visitors a year - the 20th-largest art museum on Earth.",
+  "s": "450,000 works, one Fenway address.",
+  "_facts": [
+   "Founded 1870 in Copley Square; moved to current Fenway location 1909",
+   "Holds 8,161 paintings and more than 450,000 works of art",
+   "20th-largest art museum in the world by gallery area",
+   "Over 1.2 million visitors a year"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Museum_of_Fine_Arts,_Boston"],
+  "confidence": "high"
+ },
+ {
+  "n": "Museum of Bad Art",
+  "a": "",
+  "c": "oddity",
+  "lat": 42.32194,
+  "lng": -71.0625,
+  "w": "Founded in 1993 after an antiques dealer fished a painting from the trash and showed friends, MOBA now holds over 700 works 'too bad to be ignored.' Co-founder Jerry Reilly put it best: every city has a museum for the best art - this is the only one for the worst. Curators still insist on sincerity, no deliberate kitsch.",
+  "s": "The world's only museum for art gone gloriously wrong.",
+  "_facts": [
+   "Founded 1993 by Scott Wilson after recovering a painting from the trash",
+   "Permanent collection of 700+ pieces, 25-35 on display at a time",
+   "Originally in a Dedham theater basement, now in Boston",
+   "Requires original, sincere works with real (not deliberate) flaws"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Museum_of_Bad_Art"],
+  "confidence": "high"
+ },
+ {
+  "n": "Old North Church",
+  "a": "North End",
+  "c": "faith",
+  "lat": 42.36639,
+  "lng": -71.05444,
+  "w": "'One if by land, two if by sea' - the two lanterns hung in this steeple on April 18, 1775 warned Patriots that British troops were crossing the Charles by boat, setting Paul Revere's ride in motion. Built in 1723, it's Boston's oldest standing church and the Freedom Trail's most-visited stop, still holding services.",
+  "s": "Two lanterns, one steeple, one revolution.",
+  "_facts": [
+   "Built 1723; oldest standing church in Boston",
+   "Two lanterns lit in its steeple April 18, 1775 signaled Paul Revere's ride",
+   "National Historic Landmark, key stop on the Freedom Trail",
+   "Congregation still holds services there today"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Old_North_Church"],
+  "confidence": "high"
+ },
+ {
+  "n": "Mount Auburn Cemetery",
+  "a": "Cambridge",
+  "c": "death",
+  "lat": 42.37056,
+  "lng": -71.14583,
+  "w": "Dedicated in 1831, this was the first 'garden cemetery' in America - a break from grim colonial burying grounds, laid out with rolling lawns and classical monuments instead of bare headstones. The idea proved so influential it's counted a design ancestor of Central Park; its 174 acres hold generations of Boston Brahmins.",
+  "s": "The cemetery that invented the garden cemetery.",
+  "_facts": [
+   "Dedicated 1831; first rural/garden cemetery in the United States",
+   "National Historic Landmark; burial site of many Boston Brahmins",
+   "174 acres, spanning Cambridge and Watertown",
+   "Considered a landscape-design link to Central Park"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Mount_Auburn_Cemetery"],
+  "confidence": "high"
+ },
+ {
+  "n": "Copley Square",
+  "a": "Back Bay",
+  "c": "history",
+  "lat": 42.35,
+  "lng": -71.076,
+  "w": "Named for painter John Singleton Copley, this Back Bay square went by 'Art Square' before 1883, ringed even then by the cultural institutions that still define it today. A quiet civic crossroads named, fittingly, after the city's own Colonial-era portraitist.",
+  "s": "A Colonial painter's name on Back Bay's civic heart.",
+  "_facts": [
+   "Named for painter John Singleton Copley",
+   "Known as 'Art Square' before 1883 for its cultural institutions",
+   "Bounded by Boylston, Clarendon, St. James Ave, and Dartmouth Streets"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Copley_Square"],
+  "confidence": "thin"
+ },
+ {
+  "n": "Symphony Hall",
+  "a": "",
+  "c": "music",
+  "lat": 42.34259,
+  "lng": -71.08581,
+  "w": "Boston Symphony Orchestra founder Henry Lee Higginson commissioned this hall, and acousticians have argued over why it works so well ever since. Alongside Amsterdam's Concertgebouw and Vienna's Musikverein, it's routinely ranked among the three best-sounding concert halls on Earth - home to the BSO and the Boston Pops.",
+  "s": "One of the three best-sounding rooms on Earth.",
+  "_facts": [
+   "Commissioned by BSO founder Henry Lee Higginson; designed by McKim, Mead and White",
+   "Seats 2,625; National Historic Landmark since 1999",
+   "Often ranked among the world's top three acoustically, with the Concertgebouw and Musikverein",
+   "Also home to the Boston Pops and Handel and Haydn Society concerts"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Symphony_Hall_(Boston)"],
+  "confidence": "high"
+ },
+ {
+  "n": "Museum of Comparative Zoology",
+  "a": "Cambridge",
+  "c": "museum",
+  "lat": 42.3785,
+  "lng": -71.1156,
+  "w": "Twenty-one million specimens deep, this Harvard museum's cases hold unlikely provenance: a fossil sand dollar Darwin pried loose in 1834, a mamo bird bagged by Captain Cook, pheasants once kept by George Washington. Officially the Agassiz Museum, its vaults stay shut - the galleries are pure cabinet-of-curiosities.",
+  "s": "Darwin's fossil, Cook's bird, Washington's pheasants.",
+  "_facts": [
+   "Formally the Agassiz Museum of Comparative Zoology, part of Harvard",
+   "Collections of roughly 21 million specimens",
+   "Exhibits include a fossil sand dollar collected by Darwin in 1834 and pheasants once owned by George Washington",
+   "Public face is the Harvard Museum of Natural History"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Museum_of_Comparative_Zoology"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Longfellow Bridge",
+  "a": "Beacon Hill",
+  "c": "history",
+  "lat": 42.36167,
+  "lng": -71.07528,
+  "w": "Locals call it the 'Salt-and-Pepper Bridge' for its small castellated stone towers, standing over the Charles like giant shakers. Built as the Cambridge Bridge to replace the old West Boston Bridge, it now carries the Red Line, Route 3, and tens of thousands of daily commuters between Beacon Hill and Kendall Square.",
+  "s": "Salt, pepper, and 90,000 commuters a day.",
+  "_facts": [
+   "Steel rib arch bridge over the Charles River, connecting Beacon Hill to Kendall Square",
+   "Nicknamed the 'Salt-and-Pepper Bridge' for its central towers",
+   "Originally known as the Cambridge Bridge, replacing the West Boston Bridge",
+   "Carries about 28,600 cars and 90,000 transit riders daily"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Longfellow_Bridge"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Boston National Historical Park",
+  "a": "",
+  "c": "history",
+  "lat": 42.36,
+  "lng": -71.0564,
+  "w": "A national park unlike most others: eight scattered sites, all National Historic Landmarks, mostly threaded together by the Freedom Trail's brick line through downtown Boston. Designated in 1974, it doesn't own most of what it protects, instead partnering with the churches and societies already holding these Revolutionary sites.",
+  "s": "One national park, stitched from eight Revolutionary sites.",
+  "_facts": [
+   "Designated a national park October 1, 1974",
+   "Seven of eight sites connected by the Freedom Trail; all are National Historic Landmarks",
+   "Five of the eight sites are run through cooperative agreements, not owned by NPS",
+   "NPS visitor centers at Faneuil Hall and the Charlestown Navy Yard"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Boston_National_Historical_Park"],
+  "confidence": "medium"
+ },
+ {
+  "n": "African Meeting House",
+  "a": "Beacon Hill",
+  "c": "faith",
+  "lat": 42.35998,
+  "lng": -71.06548,
+  "w": "Built in 1806 by a Baptist congregation under Reverend Thomas Paul, this is the oldest Black church building still standing in America - and it doubled as a school, holding classes in its basement. It later served as a synagogue for decades before joining the Museum of African American History, on Beacon Hill.",
+  "s": "America's oldest standing Black church, still teaching.",
+  "_facts": [
+   "Built 1806; oldest Black church edifice still standing in the US",
+   "Founded by Rev. Thomas Paul's Baptist congregation; also housed a school",
+   "Served as a synagogue until 1972, then joined the Museum of African American History",
+   "National Historic Landmark, on Beacon Hill next to the Abiel Smith School"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/African_Meeting_House"],
+  "confidence": "high"
+ },
+ {
+  "n": "Cathedral of St. George Historic District",
+  "a": "South Boston",
+  "c": "faith",
+  "lat": 42.33531,
+  "lng": -71.04356,
+  "w": "A polychrome Gothic Revival church built in 1872 for a Unitarian congregation, then handed in 1949 to the Albanian Orthodox Archdiocese - one immigrant community inheriting another's outgrown meetinghouse. The South Boston complex, flanked by two matching brick houses, has worn the St. George name ever since.",
+  "s": "A Unitarian church became Boston's Albanian cathedral.",
+  "_facts": [
+   "Built 1872, designed by Samuel J. F. Thayer, originally Unitarian",
+   "Acquired 1949 by the Albanian Orthodox Archdiocese in the Orthodox Church in America",
+   "Complex includes two brick houses from the same period",
+   "Listed on the National Register of Historic Places in 1998"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Cathedral_of_St._George_Historic_District"],
+  "confidence": "medium"
+ }
+]

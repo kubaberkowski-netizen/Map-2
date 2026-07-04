@@ -1,0 +1,238 @@
+[
+ {
+  "n": "French Quarter",
+  "a": "French Quarter",
+  "c": "history",
+  "lat": 29.9586,
+  "lng": -90.065,
+  "w": "Laid out in 1718 around the old Vieux Carre square, this is the oldest slice of New Orleans - most of its balconied buildings actually date from Spanish rule and the years just after the Louisiana Purchase. A National Historic Landmark, and one of the few districts Katrina's floodwaters mostly spared.",
+  "s": "New Orleans' 300-year-old heart.",
+  "_facts": [
+   "Oldest neighborhood in New Orleans, founded 1718 around the Vieux Carre",
+   "Most extant buildings date from Spanish rule (late 1700s) or after the 1803 Louisiana Purchase",
+   "Designated a National Historic Landmark",
+   "Suffered relatively light flood damage in Hurricane Katrina (2005) due to distance from levee breaches"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/French_Quarter"],
+  "confidence": "high"
+ },
+ {
+  "n": "St. Louis Cathedral",
+  "a": "French Quarter",
+  "c": "faith",
+  "lat": 29.95786,
+  "lng": -90.0635,
+  "w": "Three churches have stood on this spot since 1718 - the first two burned, most recently in the Great Fire of 1788. What went up after was raised to cathedral rank in 1793 and rebuilt again in the 1850s, making it the oldest cathedral in continuous use in the country. It still faces Jackson Square and the river beyond.",
+  "s": "Rebuilt twice, oldest cathedral in use.",
+  "_facts": [
+   "First church on the site built 1718; burned in the Great Fire of 1788",
+   "Third church built 1789, raised to cathedral rank 1793, largely rebuilt in the 1850s",
+   "Oldest cathedral in continuous use in the US (tied with Monterey's Royal Presidio Chapel)",
+   "Sits on Jackson Square, facing the Mississippi River"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/St._Louis_Cathedral_(New_Orleans)"],
+  "confidence": "high"
+ },
+ {
+  "n": "Bourbon Street",
+  "a": "French Quarter",
+  "c": "history",
+  "lat": 29.9589,
+  "lng": -90.0655,
+  "w": "Twelve blocks of bars and strip clubs running from Canal Street to Esplanade Avenue, named for the French royal house rather than the whiskey. Hurricane Katrina emptied it out in 2005, but the crowds - and the noise - came back within a decade, and now millions pour through every year.",
+  "s": "Named for royals, famous for everything else.",
+  "_facts": [
+   "Twelve blocks, from Canal Street to Esplanade Avenue",
+   "Named for the French royal House of Bourbon",
+   "Visitor numbers dropped after Hurricane Katrina (2005), recovered over the following decade",
+   "Receives millions of visitors each year"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Bourbon_Street"],
+  "confidence": "high"
+ },
+ {
+  "n": "Storyville",
+  "a": "Treme",
+  "c": "music",
+  "lat": 29.95908,
+  "lng": -90.07381,
+  "w": "For twenty years the city legally corralled prostitution into a few blocks of Treme, naming it after the alderman who wrote the ordinance. Its brothels became an unlikely jazz incubator, giving a young Louis Armstrong his start. Almost nothing survives now; public housing covers the ground.",
+  "s": "The red-light district that helped birth jazz.",
+  "_facts": [
+   "New Orleans' legal red-light district, 1897-1917, regulated by municipal ordinance",
+   "Named after alderman Sidney Story, author of the ordinance, against his wishes",
+   "Home to jazz musicians, notably a young Louis Armstrong",
+   "Land mostly repurposed for public housing; few remnants visible today"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Storyville,_New_Orleans"],
+  "confidence": "high"
+ },
+ {
+  "n": "Congo Square",
+  "a": "Treme",
+  "c": "music",
+  "lat": 29.96083,
+  "lng": -90.06833,
+  "w": "Enslaved Bakongo people gathered here on Sundays to drum, dance and trade, in one of the only spaces the city let them keep African traditions alive. Musicologists trace jazz's rhythmic roots straight back to this square. It now sits inside Louis Armstrong Park, just across Rampart Street from the French Quarter.",
+  "s": "Where enslaved drummers helped seed jazz.",
+  "_facts": [
+   "Open space now within Louis Armstrong Park, Treme neighborhood",
+   "Named for enslaved Bakongo people whose gatherings shaped its cultural influence",
+   "Famous for its influence on African American music, especially jazz",
+   "Sits just across Rampart Street from the French Quarter"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Congo_Square"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Jackson Square",
+  "a": "French Quarter",
+  "c": "history",
+  "lat": 29.9575,
+  "lng": -90.06306,
+  "w": "Louisiana officially became American soil on this square in 1803, when France handed the territory to the US under the Louisiana Purchase. It later took the name of Andrew Jackson, fresh off his 1815 victory at the Battle of New Orleans. Declared a National Historic Landmark in 1960.",
+  "s": "Where Louisiana became American soil.",
+  "_facts": [
+   "Formerly Place d'Armes / Plaza de Armas",
+   "Site of the 1803 transfer of Louisiana to the United States under the Louisiana Purchase",
+   "Renamed for Andrew Jackson, victor of the 1815 Battle of New Orleans",
+   "Declared a National Historic Landmark in 1960; named a 'Great Public Space' in 2012"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Jackson_Square_(New_Orleans)"],
+  "confidence": "high"
+ },
+ {
+  "n": "Saint Louis Cemetery",
+  "a": "Treme",
+  "c": "death",
+  "lat": 29.96082,
+  "lng": -90.07533,
+  "w": "New Orleans buries its dead above ground here, in rows of whitewashed stone vaults dating to the 1700s and 1800s - the water table makes traditional burial nearly impossible. Two of the three St. Louis cemeteries made the National Register of Historic Places and the Louisiana African American Heritage Trail.",
+  "s": "Above-ground graves, below sea level.",
+  "_facts": [
+   "Name shared by three Catholic cemeteries in New Orleans",
+   "Most graves are above-ground vaults built in the 18th and 19th centuries",
+   "Cemeteries No. 1 and No. 2 are on the National Register of Historic Places",
+   "Also part of the Louisiana African American Heritage Trail"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Saint_Louis_Cemetery"],
+  "confidence": "medium"
+ },
+ {
+  "n": "The Cabildo",
+  "a": "French Quarter",
+  "c": "museum",
+  "lat": 29.95722,
+  "lng": -90.06417,
+  "w": "Built as the seat of Spanish colonial government under the name Casa Capitular, the Cabildo watched Louisiana change hands from Spain to France to the United States within weeks in 1803. It's now a wing of the Louisiana State Museum, standing on Jackson Square right beside St. Louis Cathedral.",
+  "s": "Watched Louisiana change flags three times.",
+  "_facts": [
+   "Originally called Casa Capitular, seat of Spanish colonial city hall",
+   "Now part of the Louisiana State Museum",
+   "Located on Jackson Square, adjacent to St. Louis Cathedral"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/The_Cabildo"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Canal Street",
+  "a": "Central Business District",
+  "c": "history",
+  "lat": 29.9554,
+  "lng": -90.0721,
+  "w": "A canal was planned to separate the old Creole city from the new American district pouring in after the Louisiana Purchase. It was never dug, but the strip where it would have run got a name that stuck: neutral ground - now used for every median in New Orleans.",
+  "s": "The unbuilt canal that named every median.",
+  "_facts": [
+   "Historic dividing line between the colonial French Quarter and the American Sector (CBD)",
+   "A planned canal along the divide was never built; its median became known as 'neutral ground'",
+   "That name is now used for every street median in New Orleans",
+   "Terminates at the Mississippi River, where the Canal Street Ferry runs to Algiers Point"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Canal_Street,_New_Orleans"],
+  "confidence": "high"
+ },
+ {
+  "n": "Cafe du Monde",
+  "a": "French Quarter",
+  "c": "food",
+  "lat": 29.9575,
+  "lng": -90.0618,
+  "w": "An open-air coffee stand on Decatur Street doing exactly two things since it opened - cafe au lait and beignets, buried in powdered sugar - and doing them well enough to become a New Orleans institution in its own right, no reservations, no menu surprises, just the queue out front.",
+  "s": "Beignets and chicory since forever.",
+  "_facts": [
+   "Open-air coffee shop on Decatur Street in the French Quarter",
+   "Known for cafe au lait and beignets",
+   "A New Orleans landmark and major tourist destination"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Caf%C3%A9_du_Monde"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Six Flags New Orleans",
+  "a": "New Orleans East",
+  "c": "oddity",
+  "lat": 30.05111,
+  "lng": -89.93442,
+  "w": "A theme park called Jazzland reopened as Six Flags in 2003, then drowned under Hurricane Katrina two years later and was written off as a total loss. Two decades on, the rusting rides stand behind fences, patrolled against trespassers and filmed by urban explorers, waiting on redevelopment plans that stall.",
+  "s": "Katrina's most photographed ruin.",
+  "_facts": [
+   "Opened as Jazzland in 2000; became Six Flags New Orleans in 2003 after $20 million in upgrades",
+   "Flooded and severely damaged by Hurricane Katrina in 2005; declared a total loss in 2006",
+   "Lease terminated 2009; abandoned site has become an urban-exploration attraction",
+   "City has explored demolition; redevelopment plans approved in 2023"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Six_Flags_New_Orleans"],
+  "confidence": "high"
+ },
+ {
+  "n": "UpStairs Lounge arson attack",
+  "a": "French Quarter",
+  "c": "death",
+  "lat": 29.9535,
+  "lng": -90.0675,
+  "w": "On June 24, 1973, someone set fire to the stairwell of a gay bar on Iberville Street, trapping the crowd inside; 32 people died. No one was ever charged, though investigators suspected a man thrown out of the bar hours earlier. For decades it stood as the deadliest attack on LGBTQ Americans on record, until Pulse.",
+  "s": "The deadliest anti-gay attack, until Pulse.",
+  "_facts": [
+   "Arson attack on the UpStairs Lounge gay bar, June 24, 1973",
+   "32 people died, 15 injured; official cause remains 'undetermined origin'",
+   "Prime suspect Roger Dale Nunez was never charged; died by suicide in 1974",
+   "Deadliest attack on LGBTQ people in US history until the 2016 Pulse nightclub shooting"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/UpStairs_Lounge_arson_attack"],
+  "confidence": "high"
+ },
+ {
+  "n": "National World War II Museum",
+  "a": "Central Business District",
+  "c": "museum",
+  "lat": 29.9431,
+  "lng": -90.0704,
+  "w": "Opened in 2000 as a museum about a single day - D-Day - and expanded until Congress made it America's official National WWII Museum in 2003. Now a Smithsonian affiliate drawing hundreds of thousands a year to the Central Business District, telling the full story of the American war effort from Higgins boats to VJ Day.",
+  "s": "Started as a museum about one single day.",
+  "_facts": [
+   "Founded 2000 as the National D-Day Museum",
+   "Designated by Congress as America's official National WWII Museum in 2003",
+   "Affiliated museum of the Smithsonian Institution",
+   "Nearly 700,000 visitors in fiscal year 2016"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/The_National_WWII_Museum"],
+  "confidence": "high"
+ },
+ {
+  "n": "French Market",
+  "a": "French Quarter",
+  "c": "market",
+  "lat": 29.959,
+  "lng": -90.0603,
+  "w": "Six blocks of stalls that trace back to a Native American trading post here, long before Europeans arrived - the oldest market of its kind in the country. It started on the spot where Cafe du Monde now serves coffee, rebuilt so often over three centuries that little remains but the footprint.",
+  "s": "America's oldest market, six blocks long.",
+  "_facts": [
+   "Spans six blocks of the French Quarter",
+   "Began as a Native American trading post predating European colonization",
+   "Oldest market of its kind in the United States",
+   "Started where Cafe du Monde now stands; on the Louisiana African American Heritage Trail"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/French_Market"],
+  "confidence": "medium"
+ }
+]

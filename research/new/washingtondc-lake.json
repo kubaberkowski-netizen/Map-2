@@ -1,0 +1,98 @@
+[
+ {
+  "n": "White House",
+  "a": "",
+  "c": "history",
+  "lat": 38.89778,
+  "lng": -77.03667,
+  "w": "Designed by James Hoban after Dublin's Leinster House, this mansion has housed every US president since John Adams in 1800. British troops burned it in the War of 1812, gutting the interior; Monroe moved into the rebuilt residence three years later. The West Wing arrived in 1901, purely to ease overcrowding.",
+  "s": "Burned by the British, rebuilt, still the president's house",
+  "_facts": ["Official residence of the US president since John Adams in 1800", "Designed by James Hoban, modelled on Leinster House in Dublin", "Burned by British forces in 1814 during the War of 1812, then rebuilt", "West Wing added in 1901 under Theodore Roosevelt to relieve overcrowding"],
+  "_sources": ["https://en.wikipedia.org/wiki/White_House"],
+  "confidence": "high"
+ },
+ {
+  "n": "National Museum of Natural History",
+  "a": "National Mall",
+  "c": "museum",
+  "lat": 38.8913,
+  "lng": -77.0259,
+  "w": "Opened in 1910 as one of the first Smithsonian buildings purpose-built for its collections, this museum now holds more than 148 million specimens - plants, fossils, minerals, meteorites and human artifacts - the largest natural history collection on Earth. Free, open 364 days a year, it drew 3.3 million visits in 2025.",
+  "s": "148 million specimens, free every day but one",
+  "_facts": ["Opened in 1910 on the National Mall", "Holds over 148 million specimens, the largest natural history collection in the world", "Free admission, open 364 days a year", "Received 3.3 million visits in 2025"],
+  "_sources": ["https://en.wikipedia.org/wiki/National_Museum_of_Natural_History"],
+  "confidence": "high"
+ },
+ {
+  "n": "United States Holocaust Memorial Museum",
+  "a": "",
+  "c": "museum",
+  "lat": 38.88667,
+  "lng": -77.0325,
+  "w": "Opened in 1993 as the country's official memorial to the Holocaust, the museum works through permanent and travelling exhibitions, survivor testimony and archival collections. Its stated purpose is blunt: help leaders and citizens confront hatred, prevent genocide, and defend human dignity and democracy.",
+  "s": "America's official reckoning with the Holocaust",
+  "_facts": ["The United States' official memorial and museum for the Holocaust", "Opened in Washington, D.C. in 1993", "Combines permanent exhibitions, survivor testimonies and archival collections"],
+  "_sources": ["https://en.wikipedia.org/wiki/United_States_Holocaust_Memorial_Museum"],
+  "confidence": "high"
+ },
+ {
+  "n": "Library of Congress",
+  "a": "Capitol Hill",
+  "c": "archive",
+  "lat": 38.88861,
+  "lng": -77.00472,
+  "w": "Founded in 1800 as the oldest federal cultural institution, the library lost most of its original collection when the British burned Washington in 1814. Congress rebuilt it around Thomas Jefferson's own 6,487-volume library, bought from the ex-president. It now holds some 173 million items in 470-plus languages.",
+  "s": "173 million items, seeded by Thomas Jefferson's own shelves",
+  "_facts": ["Founded in 1800, the oldest federal cultural institution in the US", "Original collection largely destroyed in the 1814 burning of Washington", "Rebuilt around Thomas Jefferson's personal library of 6,487 books", "Now holds approximately 173 million items in more than 470 languages"],
+  "_sources": ["https://en.wikipedia.org/wiki/Library_of_Congress"],
+  "confidence": "high"
+ },
+ {
+  "n": "The Pentagon",
+  "a": "Arlington, Virginia",
+  "c": "history",
+  "lat": 38.87083,
+  "lng": -77.055,
+  "w": "Ground broke on 11 September 1941 and the Pentagon was dedicated sixteen months later - a wartime build across the Potomac. Five sides and 17.5 miles of corridor make it the world's second-largest office. On 11 September 2001, sixty years to the day after groundbreaking, hijackers struck its western face.",
+  "s": "The world's second-largest office, built in 16 months flat",
+  "_facts": ["Headquarters of the US Department of Defense, in Arlington, Virginia", "Built on an accelerated wartime schedule; ground broken 11 September 1941, dedicated 15 January 1943", "World's second-largest office building, about 6.5 million square feet", "Struck by American Airlines Flight 77 during the September 11, 2001 attacks"],
+  "_sources": ["https://en.wikipedia.org/wiki/The_Pentagon"],
+  "confidence": "high"
+ },
+ {
+  "n": "United States Capitol",
+  "a": "Capitol Hill",
+  "c": "history",
+  "lat": 38.88972,
+  "lng": -77.00917,
+  "w": "Central sections were finished for Congress to convene here in November 1800, the year the capital moved from Philadelphia. British forces gutted it in 1814; restored within five years, then expanded as new states swelled Congress. Its dome, finished after the Civil War, marks the centre of the street-numbering system.",
+  "s": "Burned in 1814, restored, still the city's zero-mile marker",
+  "_facts": ["Seat of the United States Congress, located on Capitol Hill", "Central sections completed in 1800, the year Congress moved from Philadelphia", "Partly destroyed by British forces in the 1814 burning of Washington, restored within five years", "Origin point for the district's street-numbering system and its four quadrants"],
+  "_sources": ["https://en.wikipedia.org/wiki/United_States_Capitol"],
+  "confidence": "high"
+ },
+ {
+  "n": "Lincoln Memorial",
+  "a": "National Mall",
+  "c": "history",
+  "lat": 38.88928,
+  "lng": -77.05014,
+  "w": "Henry Bacon's neoclassical temple to Lincoln opened in 1922, its statue carved by the Piccirilli brothers from Daniel Chester French's design. The Gettysburg Address is cut into the walls, but the memorial is just as famous for what happened on its steps: Martin Luther King Jr.'s 'I Have a Dream' speech, 1963.",
+  "s": "Where Martin Luther King Jr. had a dream, in marble",
+  "_facts": ["National memorial to Abraham Lincoln on the National Mall, dedicated 1922", "Designed by Henry Bacon; interior statue by Daniel Chester French, carved by the Piccirilli brothers", "Inscriptions include the Gettysburg Address and Lincoln's second inaugural address", "Site of Martin Luther King Jr.'s 'I Have a Dream' speech during the 1963 March on Washington"],
+  "_sources": ["https://en.wikipedia.org/wiki/Lincoln_Memorial"],
+  "confidence": "high"
+ },
+ {
+  "n": "National Mall",
+  "a": "",
+  "c": "green",
+  "lat": 38.88944,
+  "lng": -77.02306,
+  "w": "Pierre L'Enfant planned this stretch as a democratic answer to palace gardens like Versailles - public space paid for by the people, reserved for no privileged few. It runs from the Capitol grounds to the Washington Monument, lined with Smithsonian museums, drawing roughly 24 million visitors a year.",
+  "s": "A 'Grand Avenue' designed to be nobody's private garden",
+  "_facts": ["Landscaped park in Washington, D.C., designed by Pierre L'Enfant", "Extends from the US Capitol grounds to the Washington Monument", "Lined with Smithsonian museums and bordered by national memorials", "Receives approximately 24 million visitors per year"],
+  "_sources": ["https://en.wikipedia.org/wiki/National_Mall"],
+  "confidence": "high"
+ }
+]
