@@ -1,0 +1,104 @@
+[
+ {
+  "n": "Teatro Real",
+  "a": "Plaza de Oriente",
+  "c": "music",
+  "lat": 40.41824,
+  "lng": -3.71037,
+  "w": "Ground broken in 1818 under Ferdinand VII, opened by his daughter Isabella II in 1850, shut for damage in 1925, resurrected as a concert hall in 1966, and not reopened as an opera house proper until 1997 after a six-year overhaul. Along the way it's hosted Eurovision, the Goya Awards and Spain's Christmas lottery draw.",
+  "s": "An opera house that took 179 years to finish opening",
+  "_facts": [
+   "Groundbreaking 23 April 1818 under Ferdinand VII; opened by Queen Isabella II on 19 November 1850",
+   "Closed 1925 due to building damage; reopened 1966 as a symphonic concert venue",
+   "Major refurbishment from 1991; reopened as an opera house 11 October 1997",
+   "Hosted the 1969 Eurovision Song Contest and the 2011 Goya Awards; hosts the Christmas Loteria Nacional draw since 2012"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Teatro_Real"],
+  "confidence": "high"
+ },
+ {
+  "n": "Palace of Moncloa",
+  "a": "Moncloa-Aravaca",
+  "c": "history",
+  "lat": 40.44361,
+  "lng": -3.73694,
+  "w": "Spain's answer to Downing Street: the Prime Minister's official residence and workplace since 1977, when Adolfo Suarez moved in from the old Palace of Villamejor. It's really a compound - sixteen buildings, a hospital and a bunker - and the name alone now stands in for the whole central government.",
+  "s": "The palace that became shorthand for the government",
+  "_facts": [
+   "Official residence/workplace of the Prime Minister of Spain since 1977, relocated from the Palace of Villamejor by Adolfo Suarez",
+   "Part of the Moncloa Complex: 16 buildings, a bunker and a hospital",
+   "Houses the Ministry of the Presidency, Deputy PM's Office, Cabinet Office, Chief of Staff's Office and Press Office; weekly Council of Ministers meets there",
+   "'Moncloa' is used as a metonym for the Spanish central government"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Palace_of_Moncloa"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Plaza de España",
+  "a": "",
+  "c": "history",
+  "lat": 40.42339,
+  "lng": -3.71223,
+  "w": "Anchoring the western end of the Gran Via, this square pairs a monument to Cervantes with two of Madrid's tallest skyscrapers looming over it. It spent two and a half years fenced off for renovation before reopening to pedestrians only, in November 2021.",
+  "s": "Cervantes, skyscrapers and a two-year renovation",
+  "_facts": [
+   "Large square at the western end of the Gran Via",
+   "Features a monument to Miguel de Cervantes Saavedra",
+   "Adjacent to two of Madrid's most prominent skyscrapers; the Royal Palace is a short walk south",
+   "Reopened for pedestrians 22 November 2021 after 2.5 years of renovation"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Plaza_de_Espa%C3%B1a,_Madrid"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Gran Vía",
+  "a": "",
+  "c": "history",
+  "lat": 40.42,
+  "lng": -3.70361,
+  "w": "Nicknamed the 'Spanish Broadway', this stretch from Calle de Alcala to Plaza de Espana reads like a catalogue of early-1900s revival styles - Vienna Secession jostling Plateresque and Neo-Mudejar facades. Its grand old cinemas have mostly been evicted for shopping centres since the late 2000s.",
+  "s": "Madrid's Broadway, a museum of facades",
+  "_facts": [
+   "Runs from Calle de Alcala (near Plaza de Cibeles) to Plaza de Espana",
+   "Nicknamed the 'Spanish Broadway'; major shopping street with hotels and large cinemas",
+   "Showcases early 20th-century revival architecture: Vienna Secession, Plateresque, Neo-Mudejar, Art Deco",
+   "Since the late 2000s many cinemas have been replaced by shopping centres"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Gran_V%C3%ADa,_Madrid"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Palace of Zarzuela",
+  "a": "",
+  "c": "history",
+  "lat": 40.48278,
+  "lng": -3.80143,
+  "w": "King Felipe VI's working palace, though the family's true official residence is the grander Royal Palace across town. Juan Carlos I lived here from 1962 until 2020, when allegations of financial impropriety sent him abroad - Queen Sofia stayed behind, and the king now lives next door in the Pabellon del Principe.",
+  "s": "The palace a king left in disgrace",
+  "_facts": [
+   "Working residence/office of King Felipe VI; the family's official residence is the Royal Palace of Madrid",
+   "Owned by the Spanish state, administered by Patrimonio Nacional",
+   "Home of King Juan Carlos I from May 1962 until he left Spain in August 2020 amid allegations of financial impropriety",
+   "Queen Sofia remained; Felipe VI has his office there but lives in the adjacent Pabellon del Principe"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Palace_of_Zarzuela"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Gate of Europe",
+  "a": "Plaza de Castilla",
+  "c": "oddity",
+  "lat": 40.46639,
+  "lng": -3.68778,
+  "w": "Leaning fifteen degrees off vertical, these twin towers were the first inclined skyscrapers built anywhere in the world - designed by Philip Johnson for the Kuwait Investment Office, hence the old nickname 'Torres KIO'. One rooftop helipad is outlined in blue, the other in red, like a mismatched pair.",
+  "s": "The world's first skyscrapers built off-kilter",
+  "_facts": [
+   "Twin office towers near Plaza de Castilla, 114m/26 floors, built 1989-1996",
+   "Each tower inclines 15 degrees - the first inclined skyscrapers in the world",
+   "Designed by Philip Johnson and John Burgee; originally commissioned by the Kuwait Investment Office (nicknamed 'Torres KIO')",
+   "West tower's helipad is outlined in blue, the east tower's in red"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Gate_of_Europe"],
+  "confidence": "medium"
+ }
+]

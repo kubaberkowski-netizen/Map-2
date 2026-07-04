@@ -1,1 +1,36 @@
-[]
+[
+ {
+  "n": "Como Cathedral",
+  "a": "",
+  "c": "faith",
+  "lat": 45.8118,
+  "lng": 9.08366,
+  "w": "Its full name is Cattedrale di Santa Maria Assunta, though everyone just says Duomo di Como - the Catholic cathedral of Como, Lombardy, and seat of the city's Bishop. It's dedicated to the Assumption of the Blessed Virgin Mary, plain and simple: a diocese's home church with no fuss attached.",
+  "s": "Como's Duomo: seat of the Bishop, no fuss attached",
+  "_facts": [
+   "Full name Cattedrale di Santa Maria Assunta, also called Duomo di Como",
+   "Catholic cathedral of the city of Como, Lombardy, Italy",
+   "Seat of the Bishop of Como",
+   "Dedicated to the Assumption of the Blessed Virgin Mary"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Como_Cathedral"],
+  "confidence": "thin"
+ },
+ {
+  "n": "Monte San Giorgio",
+  "a": "",
+  "c": "view",
+  "lat": 45.91667,
+  "lng": 8.95,
+  "w": "A wooded pyramid of rock rising 1,097 metres over Lake Lugano, Monte San Giorgio doesn't look like much - until you learn what's inside it. Its slopes hold one of the best fossil records of Middle Triassic marine life anywhere on earth, enough to earn UNESCO status in 2003, extended into Italy in 2010.",
+  "s": "A mountain built on the best Triassic fossils on earth",
+  "_facts": [
+   "Swiss mountain and UNESCO World Heritage Site near the Switzerland-Italy border, part of the Lugano Prealps",
+   "Wooded, pyramidal shape, rises 1,097 m above sea level, overlooks Lake Lugano",
+   "Renowned for one of the best-known fossil records of Middle Triassic marine life",
+   "Swiss side (Brusino Arsizio, Riva San Vitale, Meride) listed as World Heritage in 2003; Italian extension near Porto Ceresio added 2010"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Monte_San_Giorgio"],
+  "confidence": "medium"
+ }
+]
