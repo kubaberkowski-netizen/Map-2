@@ -1,0 +1,86 @@
+[
+ {
+  "n": "Santa Fe Plaza",
+  "a": "Downtown Santa Fe",
+  "c": "history",
+  "lat": 35.6875,
+  "lng": -105.93806,
+  "w": "Laid out as the civic heart of a Spanish colonial capital, the Plaza has anchored Santa Fe since its earliest days and still hosts the Indian Market, Spanish Market, and summer Bandstand concerts. Come Christmas, farolitos and luminarias line its paths - still doing exactly what a plaza is for.",
+  "s": "The colonial heart Santa Fe still gathers around",
+  "_facts": ["National Historic Landmark in downtown Santa Fe", "Built in the style of traditional Spanish-American colonial cities", "Hosts Fiestas de Santa Fe, Spanish Market, Santa Fe Bandstand, Santa Fe Indian Market", "Decorated with farolitos, luminarias, and lights at Christmas"],
+  "_sources": ["https://en.wikipedia.org/wiki/Santa_Fe_Plaza"],
+  "confidence": "high"
+ },
+ {
+  "n": "Cristo Rey Church",
+  "a": "Canyon Road",
+  "c": "faith",
+  "lat": 35.67886,
+  "lng": -105.91734,
+  "w": "Designed by Santa Fe architect John Gaw Meem and dedicated in 1940, Cristo Rey is claimed by some to be the largest adobe structure in the US. Inside, the real treasure predates the building itself: a carved 1761 altar screen rescued from a demolished military chapel and installed as its centerpiece.",
+  "s": "Possibly the largest adobe building in America",
+  "_facts": ["Roman Catholic parish church on Canyon Road, designed by John Gaw Meem", "Claimed by some sources to be the largest adobe building in the US", "Houses the Reredos of Our Lady of Light, carved 1761, originally from La Castrense military chapel", "Dedicated 1940"],
+  "_sources": ["https://en.wikipedia.org/wiki/Cristo_Rey_Church_(Santa_Fe,_New_Mexico)"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Loretto Chapel",
+  "a": "Downtown Santa Fe",
+  "c": "oddity",
+  "lat": 35.6856,
+  "lng": -105.938,
+  "w": "This former convent chapel is famous for one thing: a helix spiral staircase that climbs two stories with no central support pole - built, so the story goes, by a mysterious carpenter the Sisters of Loretto credited to Saint Joseph himself. Miracle or master joinery, the \"Miraculous Stair\" still draws the crowds.",
+  "s": "A staircase with no visible means of support",
+  "_facts": ["Former Roman Catholic chapel, now a museum and wedding venue", "Famous for its helix-shaped spiral staircase, the \"Miraculous Stair\"", "Legend credits its construction to a mysterious builder, attributed by the Sisters of Loretto to Saint Joseph"],
+  "_sources": ["https://en.wikipedia.org/wiki/Loretto_Chapel"],
+  "confidence": "medium"
+ },
+ {
+  "n": "San Miguel Mission",
+  "a": "Barrio De Analco",
+  "c": "faith",
+  "lat": 35.6834,
+  "lng": -105.938,
+  "w": "Built around 1610 and rebuilt twice since - once after the Pueblo Revolt drove Spanish settlers out in the 1680s - San Miguel is often called the oldest church building in the continental US. Its wooden reredos includes a statue of Saint Michael dating to at least 1709; Mass is still said here monthly.",
+  "s": "Often called the oldest church in the country",
+  "_facts": ["Spanish colonial mission church, originally built c.1610", "Rebuilt in the late 17th century and again in 1710 after the Pueblo Revolt", "Often called the oldest church building in the continental US", "Wooden reredos with a statue of Saint Michael dating to at least 1709; contributing property of a National Historic Landmark district"],
+  "_sources": ["https://en.wikipedia.org/wiki/San_Miguel_Mission"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Palace of the Governors",
+  "a": "Downtown Santa Fe",
+  "c": "history",
+  "lat": 35.68785,
+  "lng": -105.9382,
+  "w": "Built in the Pueblo-style Territorial architecture that defines Santa Fe, this adobe palace served as the seat of government for Nuevo Mexico from 1610 until 1901 - nearly three centuries under Spanish, Mexican, and American flags in turn. One of the oldest continuously used public buildings in the country.",
+  "s": "New Mexico's seat of power since 1610",
+  "_facts": ["Adobe structure in Territorial Style of Pueblo architecture on Palace Avenue", "Established as the capitol building of Nuevo Mexico in 1610", "Served as New Mexico's seat of government until 1901", "Located within the Santa Fe Historic District along the Plaza"],
+  "_sources": ["https://en.wikipedia.org/wiki/Palace_of_the_Governors"],
+  "confidence": "high"
+ },
+ {
+  "n": "Georgia O'Keeffe Museum",
+  "a": "Downtown Santa Fe",
+  "c": "museum",
+  "lat": 35.68916,
+  "lng": -105.94133,
+  "w": "Opened in 1997, more than a decade after Georgia O'Keeffe's death, this museum is devoted entirely to her legacy and the American modernism she helped define. Beyond the Santa Fe galleries, the O'Keeffe holdings stretch to her actual home and studio in Abiquiu, and the Ghost Ranch land that filled her canvases.",
+  "s": "A whole museum for one artist's New Mexico",
+  "_facts": ["Opened July 17, 1997, eleven years after O'Keeffe's death", "Dedicated to O'Keeffe's artistic legacy and American modernism", "Includes her historic Abiquiu home and studio and assets at Ghost Ranch", "Multiple sites across Santa Fe and Abiquiu"],
+  "_sources": ["https://en.wikipedia.org/wiki/Georgia_O%27Keeffe_Museum"],
+  "confidence": "high"
+ },
+ {
+  "n": "Museum of International Folk Art",
+  "a": "Museum Hill",
+  "c": "museum",
+  "lat": 35.6641,
+  "lng": -105.926,
+  "w": "Run by the New Mexico Department of Cultural Affairs, this museum holds more than 130,000 objects gathered from over a hundred countries - widely described as the largest collection of international folk art anywhere. Toys, textiles, masks, and craft turned into one sprawling celebration of ordinary hands.",
+  "s": "The world's largest folk art collection, by most counts",
+  "_facts": ["State-run institution under the New Mexico Department of Cultural Affairs", "Holdings exceed 130,000 objects from more than 100 countries", "Widely described as the world's largest collection of international folk art"],
+  "_sources": ["https://en.wikipedia.org/wiki/Museum_of_International_Folk_Art"],
+  "confidence": "high"
+ }
+]
