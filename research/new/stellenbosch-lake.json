@@ -1,0 +1,83 @@
+[
+ {
+  "n": "Dornier Wines",
+  "a": "Stellenbosch Mountains",
+  "c": "wine",
+  "lat": -33.99278,
+  "lng": 18.87028,
+  "w": "Named for German artist Christoph Dornier, son of aircraft designer Claude Dornier, this winery started in 1995 with a single farm and has grown past 800 hectares across five properties. Its 2007 Bodega Restaurant occupies one of the town's oldest buildings, and its wines have won international wine and design awards.",
+  "s": "Winery named for an aircraft designer's artist son",
+  "_facts": [
+   "Founded 1995, named after artist Christoph Dornier",
+   "Grown from one farm to over 800 hectares across five properties",
+   "2007 Bodega Restaurant sits in one of Stellenbosch's oldest buildings",
+   "Member of the Biodiversity and Wine Initiative since 2006"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Dornier_Wines"],
+  "confidence": "high"
+ },
+ {
+  "n": "Oom Samie se Winkel",
+  "a": "Dorp Street",
+  "c": "oddity",
+  "lat": -33.93954,
+  "lng": 18.85581,
+  "w": "Founded in 1904 by Samuel Volsteedt, known locally as Oom Samie, this Dorp Street general dealer still trades almost as it did in Victorian times. Shelves hold bokkoms, sour fig jam, honey, offal, sheep heads and rooibos tea. One of Stellenbosch's oldest surviving shops, now more tourist stop than corner store.",
+  "s": "1904 general dealer still trading Victorian-style",
+  "_facts": [
+   "Established 1904 by Samuel (Johannes) Volsteedt, 'Oom Samie'",
+   "One of the oldest surviving shops in Stellenbosch",
+   "Still sells traditional goods: bokkoms, sour fig jam, offal, rooibos tea"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Oom_Samie_se_Winkel"],
+  "confidence": "high"
+ },
+ {
+  "n": "Stellenbosch University Botanical Garden",
+  "a": "historical centre",
+  "c": "green",
+  "lat": -33.9361,
+  "lng": 18.8653,
+  "w": "Tucked into Stellenbosch's historic centre, this is the oldest university botanical garden in South Africa. Modest in size but dense in variety, it holds an unusually wide mix of indigenous and introduced plant species, and stays open to the public rather than reserved for staff and students.",
+  "s": "South Africa's oldest university botanical garden",
+  "_facts": [
+   "Oldest university botanical garden in South Africa",
+   "Small footprint, wide diversity of indigenous and introduced species",
+   "Open to the public"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Stellenbosch_University_Botanical_Garden"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Stellenbosch Museum",
+  "a": "town centre",
+  "c": "museum",
+  "lat": -33.9374,
+  "lng": 18.8629,
+  "w": "Proclaimed a museum on 23 March 1962 and backed by the Western Cape provincial government, Stellenbosch Museum links four period houses tracing shifts in local architectural style over the centuries. The complex also holds a historical powder magazine and a toy museum alongside the domestic story next door.",
+  "s": "Four period houses plus a powder magazine and toy museum",
+  "_facts": [
+   "Proclaimed a museum 23 March 1962",
+   "Province-aided, supported by the Western Cape government",
+   "Comprises four period houses (the Village Museum), a powder magazine and a toy museum"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Stellenbosch_Museum"],
+  "confidence": "high"
+ },
+ {
+  "n": "Coetzenburg",
+  "a": "foot of Stellenbosch Mountain",
+  "c": "history",
+  "lat": -33.94023,
+  "lng": 18.87004,
+  "w": "One of South Africa's oldest wine estates, Coetzenburg was established in 1682 by Dirk Coetsee on land granted by Cape Governor Simon van der Stel. The Coetsee family held it for generations; the estate is closed to visitors, but its north-western corner became Stellenbosch University's Coetzenburg Sports Grounds.",
+  "s": "1682 estate that gave its name to the sports grounds",
+  "_facts": [
+   "Established 1682 by Dirk Coetsee after a grant from Simon van der Stel",
+   "One of the oldest estates in South Africa",
+   "Not open to the public; its NW portion became Coetzenburg Sports Grounds"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Coetsenburg"],
+  "confidence": "medium"
+ }
+]
