@@ -1,0 +1,87 @@
+[
+ {
+  "n": "Biltmore Estate",
+  "a": "",
+  "c": "history",
+  "lat": 35.54,
+  "lng": -82.55194,
+  "w": "George Washington Vanderbilt II built this Chateauesque mansion between 1889 and 1895; at nearly 179,000 square feet of floor space it remains the largest privately owned house in the United States. Still held by Vanderbilt's descendants, it stands as one of the country's most prominent Gilded Age mansions.",
+  "s": "America's largest private house, still a Vanderbilt's",
+  "_facts": [
+   "Built 1889-1895 for George Washington Vanderbilt II",
+   "178,926 sq ft floor space, largest private house in the US",
+   "Chateauesque style",
+   "Still owned by Vanderbilt's descendants"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Biltmore_Estate"],
+  "confidence": "high"
+ },
+ {
+  "n": "The Omni Grove Park Inn",
+  "a": "Sunset Mountain",
+  "c": "history",
+  "lat": 35.62056,
+  "lng": -82.54222,
+  "w": "Built in the Arts and Crafts style on the slope of Sunset Mountain, this resort has been visited by various US presidents and sits on the National Register of Historic Places. Its 140 acres now hold 513 guest rooms, ten restaurants, a subterranean spa and an 18-hole golf course.",
+  "s": "An Arts and Crafts resort that's hosted US presidents",
+  "_facts": [
+   "Arts and Crafts style, on the slope of Sunset Mountain",
+   "Visited by various US presidents",
+   "On the National Register of Historic Places",
+   "140 acres, 513 rooms, an 18-hole golf course"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/The_Omni_Grove_Park_Inn"],
+  "confidence": "high"
+ },
+ {
+  "n": "Folk Art Center",
+  "a": "Blue Ridge Parkway",
+  "c": "museum",
+  "lat": 35.5924,
+  "lng": -82.4821,
+  "w": "Run by the Southern Highland Craft Guild with the National Park Service and the Appalachian Regional Commission, this milepost-382 museum has been the single most popular stop on the Blue Ridge Parkway since opening here in 1980 -- a quarter million visitors a year for Appalachian folk art and craft, free of charge.",
+  "s": "The Blue Ridge Parkway's single busiest stop",
+  "_facts": [
+   "Museum of Appalachian folk art and craft, milepost 382",
+   "Most popular attraction on the Blue Ridge Parkway",
+   "About 250,000 visitors a year",
+   "Opened at this site in 1980; free admission"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Folk_Art_Center"],
+  "confidence": "high"
+ },
+ {
+  "n": "Asheville Art Museum",
+  "a": "Pack Square",
+  "c": "museum",
+  "lat": 35.5944,
+  "lng": -82.551,
+  "w": "On downtown Asheville's central square, this museum builds its collection around 20th- and 21st-century American art, with particular depth in Studio Craft and in work tied to Black Mountain College and Cherokee artists -- strands of Western North Carolina's cultural heritage under one accredited roof.",
+  "s": "Downtown art rooted in Black Mountain College",
+  "_facts": [
+   "Located at 2 South Pack Square, Pack Place",
+   "Collection centers on 20th/21st-century American art",
+   "Strong Studio Craft, Black Mountain College, and Cherokee holdings",
+   "Accredited by the American Alliance of Museums"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Asheville_Art_Museum"],
+  "confidence": "high"
+ },
+ {
+  "n": "North Carolina Arboretum",
+  "a": "Bent Creek",
+  "c": "green",
+  "lat": 35.4976,
+  "lng": -82.609,
+  "w": "Frederick Law Olmsted floated the idea of an arboretum here in 1898, envisioned as part of the Biltmore Estate he was landscaping nearby. It took until 1986 to become reality, a UNC facility inside the Pisgah National Forest. Its 1950-planted Metasequoia trees are now said to be the tallest in the South.",
+  "s": "An Olmsted idea, a century in the making",
+  "_facts": [
+   "Idea dates to Frederick Law Olmsted, 1898, tied to Biltmore",
+   "Established 1986 as a University of North Carolina facility",
+   "434 acres within the Pisgah National Forest",
+   "Metasequoias planted 1950, reputedly the tallest in the South"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/North_Carolina_Arboretum"],
+  "confidence": "high"
+ }
+]

@@ -1,0 +1,74 @@
+[
+ {
+  "n": "Seelbach Hotel",
+  "a": "Downtown",
+  "c": "literary",
+  "lat": 38.2508,
+  "lng": -85.7581,
+  "w": "Bavarian-born brothers Louis and Otto Seelbach opened this French Renaissance hotel in 1905. F. Scott Fitzgerald stayed here and drew on it for a hotel scene in The Great Gatsby. Now flying the Hilton flag, its lobby and ballrooms still carry the Beaux-Arts swagger that once drew Gilded Age travelers downtown.",
+  "s": "The hotel that inspired The Great Gatsby",
+  "_facts": ["Opened 1905, founded by brothers Louis and Otto Seelbach", "Built in French Renaissance style", "F. Scott Fitzgerald stayed here, an inspiration for a Great Gatsby hotel", "Now part of the Hilton Hotels & Resorts chain"],
+  "_sources": ["https://en.wikipedia.org/wiki/Seelbach_Hotel"],
+  "confidence": "high"
+ },
+ {
+  "n": "Cathedral of the Assumption",
+  "a": "Downtown",
+  "c": "faith",
+  "lat": 38.25184,
+  "lng": -85.75851,
+  "w": "The mother church of the Archdiocese of Louisville sits amid downtown's office towers and skywalk. As of 2025, Archbishop Shelton J. Fabre holds the cathedra, with the Very Reverend Frederick W. Klotter as rector, in the West Main district.",
+  "s": "Downtown's Catholic cathedral amid the skywalks",
+  "_facts": ["Mother church of the Archdiocese of Louisville", "Seat of Archbishop Shelton J. Fabre as of 2025", "Rector: Very Reverend Frederick W. Klotter", "Located in downtown's West Main District"],
+  "_sources": ["https://en.wikipedia.org/wiki/Cathedral_of_the_Assumption_(Louisville,_Kentucky)"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Zachary Taylor National Cemetery",
+  "a": "",
+  "c": "death",
+  "lat": 38.27806,
+  "lng": -85.64306,
+  "w": "More than 14,000 burials fan out from one presidential grave: Zachary Taylor, the 12th president, rests here with his wife Margaret. What began as the Taylor family plot grew into a national cemetery holding veterans of six wars. Listed on the National Register since 1983.",
+  "s": "14,000 graves fan out from a president's tomb",
+  "_facts": ["Burial site of President Zachary Taylor and wife Margaret", "Began as the Taylor family cemetery", "Over 14,000 interments, veterans of six wars", "Listed on the National Register of Historic Places, 1983"],
+  "_sources": ["https://en.wikipedia.org/wiki/Zachary_Taylor_National_Cemetery"],
+  "confidence": "high"
+ },
+ {
+  "n": "Heaven Hill",
+  "a": "",
+  "c": "wine",
+  "lat": 38.2448,
+  "lng": -85.7815,
+  "w": "Founded in 1935, this family-owned distillery now holds the world's second-largest inventory of aging bourbon. Its Bernheim facility in Louisville produces Heaven Hill bourbon and ten other spirit brands. It remains the last big family-run distillery headquartered in Kentucky, unlike Brown-Forman or Sazerac.",
+  "s": "The world's 2nd-largest bourbon stockpile",
+  "_facts": ["Founded 1935, family-owned and operated", "Second-largest holder of bourbon whiskey inventory in the world", "Bernheim distillery facility located in Louisville", "Only remaining large family-owned distillery headquartered in Kentucky"],
+  "_sources": ["https://en.wikipedia.org/wiki/Heaven_Hill"],
+  "confidence": "high"
+ },
+ {
+  "n": "Lewis and Clark Bridge",
+  "a": "East End",
+  "c": "oddity",
+  "lat": 38.3427,
+  "lng": -85.6433,
+  "w": "For thirty years, this cable-stayed span over the Ohio River was called the East End Bridge; Indiana officials renamed it the day it opened, December 18, 2016. It honors William Clark of the Lewis and Clark Expedition, distinct from downtown's Clark Memorial Bridge, named for brother George Rogers Clark.",
+  "s": "Two Louisville bridges, two different Clarks",
+  "_facts": ["Cable-stayed bridge over the Ohio River, part of I-265", "Known as the East End Bridge for 30 years, renamed December 18, 2016", "Named for William Clark, distinct from George Rogers Clark's namesake bridge downtown", "Open to pedestrians and cyclists; tolled for vehicles since Dec 30, 2016"],
+  "_sources": ["https://en.wikipedia.org/wiki/Lewis_and_Clark_Bridge_(Ohio_River)"],
+  "confidence": "high"
+ },
+ {
+  "n": "Muhammad Ali Center",
+  "a": "West Main District",
+  "c": "museum",
+  "lat": 38.2582,
+  "lng": -85.7601,
+  "w": "Louisville's own son gave the city a six-story, 96,750-square-foot museum: boxer Muhammad Ali and wife Lonnie founded this center in 2005, opening November 19 at a cost of $80 million. A 2013 pedestrian bridge now links its plaza to the Belvedere and the Waterfront downtown.",
+  "s": "Ali's hometown museum, six stories tall",
+  "_facts": ["Founded 2005 by Muhammad Ali and wife Lonnie Ali", "Six-story, 96,750 sq ft museum, opened Nov 19 2005, cost $80 million", "Includes a 40,000 sq ft amphitheater and plaza", "2013 pedestrian bridge links the plaza to the Belvedere and Waterfront"],
+  "_sources": ["https://en.wikipedia.org/wiki/Muhammad_Ali_Center"],
+  "confidence": "high"
+ }
+]

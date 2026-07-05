@@ -1,0 +1,62 @@
+[
+ {
+  "n": "Gaslamp Quarter",
+  "a": "Downtown",
+  "c": "history",
+  "lat": 32.71194,
+  "lng": -117.16028,
+  "w": "Over 90 Victorian-era buildings between Fourth and Sixth Avenue form a single National Register historic district, most now restaurants, shops and clubs. It runs from Broadway to Harbor Drive, a block from Petco Park, and hosts Mardi Gras, the Taste of Gaslamp and a St Patrick's Day bash called ShamROCK each year.",
+  "s": "90-plus Victorian buildings, one historic district",
+  "_facts": ["over 90 historic buildings, mostly Victorian era, listed as the Gaslamp Quarter Historic District on the NRHP", "extends from Broadway to Harbor Drive, Fourth to Sixth Avenue", "hosts Mardi Gras in the Gaslamp, Taste of Gaslamp, and ShamROCK", "Petco Park is one block away"],
+  "_sources": ["https://en.wikipedia.org/wiki/Gaslamp_Quarter,_San_Diego"],
+  "confidence": "high"
+ },
+ {
+  "n": "USS Dolphin",
+  "a": "Embarcadero",
+  "c": "maritime",
+  "lat": 32.72108,
+  "lng": -117.17376,
+  "w": "Commissioned in 1968 and not decommissioned until 2007, this diesel-electric research submarine logged the longest career of any US Navy submarine to that point: 38 years. She was also the Navy's last operational conventionally powered submarine before the fleet went all-nuclear.",
+  "s": "Navy's deepest-diving sub, last non-nuclear one",
+  "_facts": ["diesel-electric deep-diving research and development submarine", "commissioned 1968, decommissioned 2007, a 38-year career, the longest for a US Navy submarine to that point", "the Navy's last operational conventionally powered submarine"],
+  "_sources": ["https://en.wikipedia.org/wiki/USS_Dolphin_(AGSS-555)"],
+  "confidence": "high"
+ },
+ {
+  "n": "Beth Sarim",
+  "a": "",
+  "c": "oddity",
+  "lat": 32.7712,
+  "lng": -117.099,
+  "w": "Built in 1929, this ten-bedroom mansion had one job: house resurrected Old Testament patriarchs -- Abraham, Moses, David, Isaiah, Samuel -- expected back any day by Jehovah's Witnesses leadership. The Watch Tower Society used it as a winter home and office for president Joseph Rutherford instead, until it sold in 1948.",
+  "s": "House built in 1929 to await resurrected prophets",
+  "_facts": ["ten-bedroom mansion built in 1929 for expected resurrected biblical patriarchs", "maintained by the Watch Tower Society, used as a winter home and office for president Joseph Rutherford", "sold to a private owner in 1948", "name means House of the Princes in Hebrew"],
+  "_sources": ["https://en.wikipedia.org/wiki/Beth_Sarim"],
+  "confidence": "high"
+ },
+ {
+  "n": "Star of India",
+  "a": "Embarcadero",
+  "c": "maritime",
+  "lat": 32.72042,
+  "lng": -117.17353,
+  "w": "Iron-hulled and built in 1863 on the Isle of Man as the full-rigged Euterpe, she sailed Britain to India before becoming an Alaska salmon hauler on the California run. Retired in 1926 and restored seaworthy by 1963, she's now the oldest ship still sailing regularly and afloat.",
+  "s": "1863 iron ship, oldest still sailing regularly",
+  "_facts": ["iron-hulled ship built 1863 in Ramsey, Isle of Man, originally named Euterpe", "later renamed and re-rigged as a barque, hauled salmon Alaska to California", "restored as a seaworthy museum ship 1962-63, home-ported at the Maritime Museum of San Diego", "oldest ship still sailing regularly and oldest iron-hulled merchant ship still afloat"],
+  "_sources": ["https://en.wikipedia.org/wiki/Star_of_India_(ship)"],
+  "confidence": "high"
+ },
+ {
+  "n": "St. Joseph Cathedral",
+  "a": "Cortez Hill",
+  "c": "faith",
+  "lat": 32.7217,
+  "lng": -117.162,
+  "w": "The first St Joseph's opened in 1875, was replaced by a bigger church in 1894, and was elevated to cathedral status in 1936 -- only to burn down within a year. The building standing today, dedicated in 1941, has served as seat of the Diocese of San Diego ever since: three churches deep on the same Cortez Hill site.",
+  "s": "Cathedral burned down a year after its dedication",
+  "_facts": ["first St Joseph's Church dedicated 1875, replaced by larger church 1894", "dedicated as cathedral in 1936, destroyed by fire in 1937", "current cathedral dedicated 1941, seat of the Diocese of San Diego"],
+  "_sources": ["https://en.wikipedia.org/wiki/St._Joseph_Cathedral_(San_Diego,_California)"],
+  "confidence": "medium"
+ }
+]
