@@ -11,6 +11,16 @@
 // ingested. Each game becomes an event (per-sport category) tagged
 // source:"matches", so it inherits the What's-on list, map pin, type filter and
 // matchday-gated in-person check-in for free.
+//
+// Two passes:
+//  1. Upcoming fixtures (eventsnextleague) → the fixtures feed.
+//  2. Recently FINISHED games (eventspastleague, last DAYS_BACK days) → the SAME
+//     ext_id rows are re-upserted with a final `result` ("104-98"), backfilling
+//     the score for a game you checked in to so the Matchday log shows it.
+//     (TheSportsDB's free tier has no reliable per-goal scorer feed, so only the
+//     score is captured here; football scorers come from ingest-matches.)
+//     Requires the nullable `result` column from sql/match_results.sql; if it is
+//     absent the upsert degrades gracefully (retries without it).
 import fs from "node:fs";
 import { reportRun } from "./report-run.mjs";
 
@@ -19,6 +29,7 @@ const SB_URL = process.env.SUPABASE_URL || "https://fpngxchltuovtsyzigul.supabas
 const SB_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 const STATUS = process.env.INGEST_STATUS || "approved";
 const DAYS_AHEAD = 60;        // only ingest games within this horizon
+const DAYS_BACK = 12;         // backfill results for finished games this recent
 const GAME_MINUTES = 180;     // default end_at = start + 3h (feed drops it after)
 if (!SB_KEY) { console.error("Missing SUPABASE_SERVICE_ROLE_KEY."); process.exit(1); }
 
@@ -52,7 +63,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 function norm(s) {
   return String(s || "")
-    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .normalize("NFD").replace(/[̀-ͯ]/g, "")
     .toLowerCase().replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim();
 }
 function venueFor(teamName, sport) {
@@ -64,54 +75,85 @@ function venueFor(teamName, sport) {
   }
   return null;
 }
+function tsOf(ev) {
+  return ev.strTimestamp ? Date.parse(ev.strTimestamp.replace(" ", "T"))
+    : (ev.dateEvent ? Date.parse(ev.dateEvent + "T" + (ev.strTime || "00:00:00") + "Z") : NaN);
+}
+
 const now = Date.now();
 const horizon = now + DAYS_AHEAD * 864e5;
-const rows = [];
-const seen = new Set();
+const backFloor = now - DAYS_BACK * 864e5;
+const rows = new Map();          // ext_id -> row (finished pass enriches scheduled)
 const unmatched = new Set();
 
+function baseRow(ev, lg, v, ts) {
+  const home = ev.strHomeTeam, away = ev.strAwayTeam;
+  return {
+    ext_id: "tsd:" + ev.idEvent,
+    name: (home && away) ? `${home} v ${away}` : (ev.strEvent || home || "Game"),
+    category: lg.cat,
+    venue: v.venue,
+    lat: v.lat,
+    lng: v.lng,
+    city: v.city,
+    start_at: new Date(ts).toISOString(),
+    end_at: new Date(ts + (lg.dur || GAME_MINUTES) * 6e4).toISOString(),
+    url: null,
+    image: null,
+    source: "matches",
+    status: STATUS,
+  };
+}
+
+async function tsdGet(path) {
+  const res = await fetch(`https://www.thesportsdb.com/api/v1/json/${KEY}/${path}`);
+  if (!res.ok) throw new Error(`${res.status} ${(await res.text().catch(() => "")).slice(0, 120)}`);
+  return res.json();
+}
+
+// ── Pass 1: upcoming fixtures ────────────────────────────────────────────────
 for (const lg of LEAGUES) {
   let data;
-  try {
-    const res = await fetch(`https://www.thesportsdb.com/api/v1/json/${KEY}/eventsnextleague.php?id=${lg.id}`);
-    if (!res.ok) { console.error(`${lg.name}: ${res.status} ${await res.text()}`); await sleep(1500); continue; }
-    data = await res.json();
-  } catch (e) { console.error(`${lg.name}: ${e.message}`); await sleep(1500); continue; }
-
+  try { data = await tsdGet(`eventsnextleague.php?id=${lg.id}`); }
+  catch (e) { console.error(`${lg.name} next: ${e.message}`); await sleep(1500); continue; }
   for (const ev of (data && data.events) || []) {
-    const ts = ev.strTimestamp ? Date.parse(ev.strTimestamp.replace(" ", "T"))
-      : (ev.dateEvent ? Date.parse(ev.dateEvent + "T" + (ev.strTime || "00:00:00") + "Z") : NaN);
+    const ts = tsOf(ev);
     if (!isFinite(ts) || ts < now || ts > horizon) continue;
     const v = venueFor(ev.strHomeTeam, lg.sport);
     if (!v) { if (ev.strHomeTeam) unmatched.add(ev.strHomeTeam); continue; }
-    const ext = "tsd:" + ev.idEvent;
-    if (seen.has(ext)) continue; seen.add(ext);
-    const home = ev.strHomeTeam, away = ev.strAwayTeam;
-    rows.push({
-      ext_id: ext,
-      name: (home && away) ? `${home} v ${away}` : (ev.strEvent || home || "Game"),
-      category: lg.cat,
-      venue: v.venue,
-      lat: v.lat,
-      lng: v.lng,
-      city: v.city,
-      start_at: new Date(ts).toISOString(),
-      end_at: new Date(ts + (lg.dur || GAME_MINUTES) * 6e4).toISOString(),
-      url: null,
-      image: null,
-      source: "matches",
-      status: STATUS,
-    });
+    rows.set("tsd:" + ev.idEvent, baseRow(ev, lg, v, ts));
   }
   await sleep(1500); // be polite to the free API
 }
 
-if (unmatched.size) console.log(`Skipped ${unmatched.size} teams with no venue mapping: ${[...unmatched].sort().join(", ")}`);
+// ── Pass 2: recently finished games → backfill final score ───────────────────
+let finished = 0;
+for (const lg of LEAGUES) {
+  let data;
+  try { data = await tsdGet(`eventspastleague.php?id=${lg.id}`); }
+  catch (e) { console.error(`${lg.name} past: ${e.message}`); await sleep(1500); continue; }
+  for (const ev of (data && data.events) || []) {
+    const ts = tsOf(ev);
+    if (!isFinite(ts) || ts < backFloor || ts > now) continue;
+    if (ev.intHomeScore == null || ev.intAwayScore == null || ev.intHomeScore === "" || ev.intAwayScore === "") continue;
+    const v = venueFor(ev.strHomeTeam, lg.sport);
+    if (!v) continue;
+    const row = baseRow(ev, lg, v, ts);
+    row.result = `${ev.intHomeScore}-${ev.intAwayScore}`;
+    rows.set(row.ext_id, row);
+    finished++;
+  }
+  await sleep(1500);
+}
 
+if (unmatched.size) console.log(`Skipped ${unmatched.size} teams with no venue mapping: ${[...unmatched].sort().join(", ")}`);
+console.log(`${finished} finished games at covered grounds got a final score.`);
+
+const all = [...rows.values()];
 let upserted = 0;
-for (let i = 0; i < rows.length; i += 200) {
-  const batch = rows.slice(i, i + 200);
-  const res = await fetch(`${SB_URL}/rest/v1/events?on_conflict=ext_id`, {
+
+async function upsert(batch) {
+  return fetch(`${SB_URL}/rest/v1/events?on_conflict=ext_id`, {
     method: "POST",
     headers: {
       apikey: SB_KEY,
@@ -121,8 +163,20 @@ for (let i = 0; i < rows.length; i += 200) {
     },
     body: JSON.stringify(batch),
   });
-  if (res.ok) upserted += batch.length;
-  else console.error(`upsert ${i}: ${res.status} ${await res.text()}`);
+}
+
+for (let i = 0; i < all.length; i += 200) {
+  const batch = all.slice(i, i + 200);
+  let res = await upsert(batch);
+  if (!res.ok) {
+    const body = await res.text().catch(() => "");
+    if (/\bresult\b/.test(body) && batch.some((r) => "result" in r)) {
+      console.error(`upsert ${i}: result column missing — retrying without it. Run sql/match_results.sql to enable.`);
+      res = await upsert(batch.map((r) => { const { result, ...rest } = r; return rest; }));
+    }
+    if (!res.ok) { console.error(`upsert ${i}: ${res.status} ${await res.text().catch(() => "")}`); continue; }
+  }
+  upserted += batch.length;
 }
 await reportRun("us-sports", upserted);
-console.log(`Done: upserted ${upserted} US games across ${new Set(rows.map((r) => r.city)).size} cities.`);
+console.log(`Done: upserted ${upserted} US games across ${new Set(all.map((r) => r.city)).size} cities.`);
