@@ -1,0 +1,98 @@
+[
+ {
+  "n": "Chester Zoo",
+  "a": "Upton-by-Chester",
+  "c": "green",
+  "lat": 53.22667,
+  "lng": -2.88417,
+  "w": "Opened in 1931 by George Mottershead, this 51-hectare zoo draws more than two million visitors a year, making it Britain's most-visited wildlife attraction. Run since 1934 by a charity taking no government funding, it was ranked the world's third-best zoo by TripAdvisor in 2024.",
+  "s": "Britain's most-visited zoo, funded on ticket sales alone",
+  "_facts": ["Opened 1931 by George Mottershead", "51 hectares (130 acres); ~400 acres including surrounding land", "Run by a charity (founded 1934) with no government funding", "Most-visited wildlife attraction in Britain, 2m+ visitors in 2019"],
+  "_sources": ["https://en.wikipedia.org/wiki/Chester_Zoo"],
+  "confidence": "high"
+ },
+ {
+  "n": "Eaton Hall",
+  "a": "Eccleston",
+  "c": "history",
+  "lat": 53.1403,
+  "lng": -2.8775,
+  "w": "Seat of the Duke of Westminster for over 300 years, Eaton Hall has been rebuilt again and again: a Georgian house, then Alfred Waterhouse's vast Victorian pile finished in 1882, demolished in 1960 and replaced by a house later re-cased as a French chateau. Its 17th-century gardens survive; the house opens three days a year for charity.",
+  "s": "The Duke of Westminster's home, torn down and rebuilt thrice",
+  "_facts": ["Country house of the Duke of Westminster, a mile south of Eccleston", "Waterhouse's Victorian house built 1870-82, demolished around 1960", "Estate covers about 10,872 acres", "Gardens open only three days a year for charity"],
+  "_sources": ["https://en.wikipedia.org/wiki/Eaton_Hall,_Cheshire"],
+  "confidence": "high"
+ },
+ {
+  "n": "Deva Victrix",
+  "a": "Chester city centre",
+  "c": "roman",
+  "lat": 53.1914,
+  "lng": -2.89278,
+  "w": "Founded in the 70s AD by the Legio II Adiutrix and rebuilt in stone by the Legio XX Valeria Victrix, this legionary fortress laid down Chester's Roman street plan. Its amphitheatre, southeast of the fortress, is the largest known military amphitheatre in Britain, and a shrine to Minerva at Handbridge is the only in-situ rock-cut Roman shrine in the country.",
+  "s": "The Roman fortress buried under modern Chester",
+  "_facts": ["Built 70s AD by Legio II Adiutrix; rebuilt by Legio XX Valeria Victrix", "Amphitheatre is the largest known military amphitheatre in Britain", "Minerva's Shrine at Handbridge: only in-situ rock-cut Roman shrine in Britain", "Occupied until the late 4th or early 5th century"],
+  "_sources": ["https://en.wikipedia.org/wiki/Deva_Victrix"],
+  "confidence": "high"
+ },
+ {
+  "n": "Chester Castle",
+  "a": "Chester city centre",
+  "c": "medieval",
+  "lat": 53.1853,
+  "lng": -2.8923,
+  "w": "At the southwest corner of the city walls, overlooking the Dee, Chester Castle pairs surviving medieval remains with the neoclassical courts and barracks Thomas Harrison designed between 1788 and 1813. Part of the complex still serves as Crown Court today; the rest houses a military museum open to visitors.",
+  "s": "A medieval castle wrapped in Georgian neoclassical stone",
+  "_facts": ["Medieval castle remains plus Thomas Harrison's 1788-1813 neoclassical buildings", "At the southwest extremity of the city walls, above the River Dee", "Used today by Crown Court and a military museum"],
+  "_sources": ["https://en.wikipedia.org/wiki/Chester_Castle"],
+  "confidence": "high"
+ },
+ {
+  "n": "St Peter's Church, Chester",
+  "a": "Chester Cross, Eastgate Street",
+  "c": "faith",
+  "lat": 53.1904,
+  "lng": -2.8918,
+  "w": "Standing right at Chester Cross on Eastgate Street, this Grade I listed church marks the meeting point of the city's old Roman-plan streets. It remains an active Church of England parish church, and the ancient city walls still trace the boundary of its parish.",
+  "s": "The parish church sitting on Chester's Roman crossroads",
+  "_facts": ["Grade I listed, immediately north of Chester Cross", "Active Church of England parish church", "Parish boundary follows the ancient city walls"],
+  "_sources": ["https://en.wikipedia.org/wiki/St_Peter%27s_Church,_Chester"],
+  "confidence": "high"
+ },
+ {
+  "n": "Holt Castle",
+  "a": "Holt, near Chester",
+  "c": "medieval",
+  "lat": 53.0779,
+  "lng": -2.88023,
+  "w": "Begun in the 13th century on the banks of the Dee, this five-towered border fortress was once known as Castrum Leonis - Castle Lyons - for the carved lion above its main gate. Almost all its stonework was stripped away in the 17th century; only the sandstone foundations and scraps of masonry survive today.",
+  "s": "The lion-gated castle stripped bare for its stone",
+  "_facts": ["Construction began 13th century during the Welsh Wars", "Known as Castrum Leonis / Castle Lyons for a carved lion gate motif", "Almost all stonework removed in the 17th century"],
+  "_sources": ["https://en.wikipedia.org/wiki/Holt_Castle"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Caergwrle Castle",
+  "a": "Caergwrle, Flintshire",
+  "c": "medieval",
+  "lat": 53.10774,
+  "lng": -3.03664,
+  "w": "Built by the Welsh leader Dafydd ap Gruffydd for Edward I, this hilltop castle was sabotaged by its own builder in 1282 when he rebelled against the English. Rebuilt and given to Eleanor of Castile, a planned town below it was abandoned after an 1283 fire. In 1823 a workman nearby unearthed the Bronze Age Caergwrle Bowl.",
+  "s": "The castle sabotaged by its own builder",
+  "_facts": ["Built by Dafydd ap Gruffydd in service to Edward I", "Sabotaged by Dafydd when he rebelled in 1282", "Given to Eleanor of Castile; planned town abandoned after a 1283 fire", "Bronze Age Caergwrle Bowl found nearby in 1823"],
+  "_sources": ["https://en.wikipedia.org/wiki/Caergwrle_Castle"],
+  "confidence": "high"
+ },
+ {
+  "n": "All Saints' Church, Gresford",
+  "a": "Gresford, Wrexham",
+  "c": "faith",
+  "lat": 53.088,
+  "lng": -2.97724,
+  "w": "Called the finest parish church in Wales, this late-15th-century sandstone church holds the country's largest surviving collection of medieval stained glass. Its peal of bells is one of the traditional Seven Wonders of Wales, commemorated in an old rhyme alongside Snowdon and Llangollen Bridge. It was Grade I listed in 1963.",
+  "s": "A parish church ranked among the Seven Wonders of Wales",
+  "_facts": ["Late 15th-century church, called the finest parish church in Wales", "Largest surviving medieval stained glass of any Welsh church", "Bells are one of the Seven Wonders of Wales", "Grade I listed in 1963"],
+  "_sources": ["https://en.wikipedia.org/wiki/All_Saints%27_Church,_Gresford"],
+  "confidence": "high"
+ }
+]

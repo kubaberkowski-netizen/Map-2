@@ -1,0 +1,90 @@
+[
+ {
+  "n": "Winchester Cathedral",
+  "a": "",
+  "c": "faith",
+  "lat": 51.06072,
+  "lng": -1.31333,
+  "w": "Built from 1079 to 1532, dedicated to St Swithun, this is the longest medieval cathedral in the world at 558 feet, with a vast Perpendicular nave, Norman transepts and tower, and an Early English retroquire. It draws over 350,000 visitors a year and ranks sixth-largest UK cathedral by area.",
+  "s": "The longest medieval cathedral in the world",
+  "_facts": [
+   "Built 1079-1532, dedicated to St Swithun",
+   "558 ft long, longest medieval cathedral in the world",
+   "Norman transepts and tower, Early English retroquire",
+   "365,000 visitors in 2019"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Winchester_Cathedral"],
+  "confidence": "high"
+ },
+ {
+  "n": "Winchester Castle",
+  "a": "",
+  "c": "medieval",
+  "lat": 51.0618,
+  "lng": -1.32026,
+  "w": "Founded in 1067 by William the Conqueror as a royal seat, little survives but the Great Hall - one of England's finest medieval halls, now a museum - and the Westgate, its old defensive gateway. The Great Hall holds the famous Round Table, a giant oak tabletop linked to the Arthurian legend since medieval times.",
+  "s": "Home to the Great Hall's Arthurian Round Table",
+  "_facts": [
+   "Founded 1067 by William the Conqueror",
+   "Great Hall is one of the finest surviving medieval halls in England",
+   "Holds the Round Table, linked to Arthurian legend",
+   "Westgate survives as the old fortified gateway"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Winchester_Castle"],
+  "confidence": "high"
+ },
+ {
+  "n": "Wolvesey Castle",
+  "a": "",
+  "c": "medieval",
+  "lat": 51.05917,
+  "lng": -1.31,
+  "w": "The ruined medieval palace of the Bishops of Winchester, built mostly by Henry of Blois in the 12th century. Fortified during the civil-war chaos of the Anarchy, it was more residence than fortress. Only its 15th-century chapel survives intact, folded into the bishop's current home, Wolvesey Palace, next door.",
+  "s": "Ruined bishop's palace fortified during the Anarchy",
+  "_facts": [
+   "Built mostly by Henry of Blois in the 12th century",
+   "Main residence of the Bishop of Winchester in the Middle Ages",
+   "Fortified because of the Anarchy",
+   "15th-century chapel survives as part of Wolvesey Palace"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Wolvesey_Castle"],
+  "confidence": "high"
+ },
+ {
+  "n": "Old Minster",
+  "a": "",
+  "c": "history",
+  "lat": 51.061,
+  "lng": -1.314,
+  "w": "Winchester's Anglo-Saxon cathedral, standing immediately north of, and partly beneath, its successor from 660 until 1093. St Swithun was buried here in 862; by the 10th century it was rebuilt on a vast scale, briefly the largest church in Europe, its bells said to ring hopelessly tangled with the New Minster next door.",
+  "s": "Winchester's vanished Anglo-Saxon cathedral",
+  "_facts": [
+   "Anglo-Saxon cathedral of Wessex and Winchester, 660-1093",
+   "St Swithun buried here in 862",
+   "Rebuilt on a vast scale in the 970s, briefly Europe's largest church",
+   "Stood so close to the New Minster the two choirs' singing intermingled"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Old_Minster,_Winchester"],
+  "confidence": "high"
+ },
+ {
+  "n": "King's House, Winchester",
+  "a": "",
+  "c": "history",
+  "lat": 51.062,
+  "lng": -1.321,
+  "w": "Christopher Wren's abandoned palace for Charles II, begun in 1683 and modelled on Versailles. Wren promised it in a year; Charles died before it was finished. Gutted by fire in 1894, its salvaged masonry was built into the Peninsula Barracks, which now house Winchester's Military Museums.",
+  "s": "Wren's unfinished Versailles-style palace",
+  "_facts": [
+   "Built for Charles II by Christopher Wren, 1683-1685",
+   "Modelled on the Palace of Versailles",
+   "Project abandoned after Charles II's death in 1685",
+   "Gutted by fire 1894; masonry reused in Peninsula Barracks, now Winchester's Military Museums"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/King%27s_House,_Winchester",
+   "https://en.wikipedia.org/wiki/Peninsula_Barracks"
+  ],
+  "confidence": "high"
+ }
+]

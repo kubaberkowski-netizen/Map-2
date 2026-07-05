@@ -1,0 +1,102 @@
+[
+ {
+  "n": "Lincoln Cathedral",
+  "a": "Uphill",
+  "c": "faith",
+  "lat": 53.23444,
+  "lng": -0.53611,
+  "w": "Bishop Remigius moved his seat here in 1072; the cathedral was finished by 1092, only for an earthquake in 1185 to bring much of it down. What rose afterward, in Gothic phases, is the fourth-largest cathedral in Britain by floor area - and drew Ruskin's verdict it was worth any two other English cathedrals.",
+  "s": "Rebuilt after 1185 quake into Britain's 4th-largest cathedral",
+  "_facts": [
+   "Seat moved from Dorchester-on-Thames in 1072, completed 1092",
+   "Severely damaged in the 1185 earthquake, rebuilt in Gothic phases",
+   "Fourth largest cathedral in the UK by floor area",
+   "John Ruskin called it worth any two other English cathedrals"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Lincoln_Cathedral"],
+  "confidence": "high"
+ },
+ {
+  "n": "Lincoln Castle",
+  "a": "Uphill",
+  "c": "medieval",
+  "lat": 53.2349,
+  "lng": -0.5409,
+  "w": "One of only two castles in England built with two mottes (the other at Lewes), raised by William the Conqueror on the ruins of a Roman fortress. Its courts sat here for centuries, and its walls can still be walked for views over the cathedral. Inside, a vault holds one of four surviving originals of the 1215 Magna Carta.",
+  "s": "Twin-motte castle guarding an original 1215 Magna Carta",
+  "_facts": [
+   "Built late 11th century by William the Conqueror on a Roman fortress site",
+   "One of only two English castles with two mottes (the other at Lewes)",
+   "Used as a prison and law court into modern times",
+   "Displays one of four surviving 1215 Magna Carta originals"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Lincoln_Castle"],
+  "confidence": "high"
+ },
+ {
+  "n": "Lindum Colonia",
+  "a": "Uphill",
+  "c": "roman",
+  "lat": 53.2339,
+  "lng": -0.53806,
+  "w": "Modern Lincoln sits on a Roman legionary fortress founded under Nero, garrisoned first by the Ninth Legion Hispana, then the Second Adiutrix. After the soldiers retired it became a colonia with its own forum, baths and temples, walled in two stages through the 2nd and 3rd centuries.",
+  "s": "The Roman fortress buried beneath uphill Lincoln",
+  "_facts": [
+   "Founded as a legionary fortress under Nero, 1st century AD",
+   "Garrisoned by the Ninth Legion Hispana, then the Second Adiutrix",
+   "Became a colonia for retired soldiers after c.86 AD, with forum, baths and temples",
+   "A Lincoln bishop is recorded at the Council of Arles in 314 AD"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Lindum_Colonia"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Norman House",
+  "a": "Steep Hill",
+  "c": "medieval",
+  "lat": 53.2337,
+  "lng": -0.5387,
+  "w": "Dated to between 1170 and 1180, this is a rare surviving example of Norman domestic architecture on Steep Hill. For generations it was known as 'Aaron the Jew's House', supposedly the home of financier Aaron of Lincoln, though historians now doubt the link. It has traded as a shop for years, and today houses a tea importer.",
+  "s": "Norman house wrongly tied to financier Aaron of Lincoln",
+  "_facts": [
+   "Norman domestic architecture dated to 1170-1180",
+   "Long known as 'Aaron the Jew's House', now considered a mistaken attribution",
+   "Grade I listed, at 46-47 Steep Hill",
+   "Currently occupied by a tea importer"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Norman_House"],
+  "confidence": "high"
+ },
+ {
+  "n": "Steep Hill",
+  "a": "Lincoln",
+  "c": "history",
+  "lat": 53.23268,
+  "lng": -0.53844,
+  "w": "A one-in-seven gradient runs from Well Lane at the bottom straight up to Lincoln Cathedral's entrance at the top - steep enough that the street was simply named for the climb. Independent shops, tea rooms and pubs line the cobbles the whole way, making the ascent, or the excuse for a stop, part of the point.",
+  "s": "A 14% gradient climbing straight to the cathedral door",
+  "_facts": [
+   "One-in-seven (14%) gradient",
+   "Runs from Well Lane up to Lincoln Cathedral's entrance",
+   "Lined with independent shops, tea rooms and pubs"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Steep_Hill"],
+  "confidence": "high"
+ },
+ {
+  "n": "Usher Gallery",
+  "a": "Lincoln",
+  "c": "museum",
+  "lat": 53.2321,
+  "lng": -0.53656,
+  "w": "Established in 1927, this art museum holds works by J.M.W. Turner and L.S. Lowry among its collection - a surprising cache of major British painters tucked into a Lincolnshire gallery. It now operates as part of the wider Lincoln Museum.",
+  "s": "Turner and Lowry paintings inside a 1927 Lincoln gallery",
+  "_facts": [
+   "Established in 1927",
+   "Collection includes works by J.M.W. Turner and L.S. Lowry",
+   "Now run as part of Lincoln Museum"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Usher_Gallery"],
+  "confidence": "medium"
+ }
+]

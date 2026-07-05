@@ -1,56 +1,145 @@
 [
  {
-  "n": "Karlskirche",
-  "a": "Wieden",
-  "c": "faith",
-  "lat": 48.19828,
-  "lng": 16.37188,
-  "s": "Baroque anchor on Vienna's skyline, named for a reformer",
-  "w": "A Baroque set piece straddling the line between Wieden and the Innere Stadt, dedicated to Saint Charles Borromeo, one of the Counter-Reformation's leading figures. Close enough to Vienna's centre that it's impossible to miss on the skyline, even if the man it honours needs more of an introduction.",
-  "_facts": [
-   "Baroque church in the Karlsplatz, Vienna, Austria",
-   "Dedicated to Saint Charles Borromeo, a leading figure of the Counter-Reformation",
-   "Located on the border of Wieden and the Innere Stadt, the city centre"
-  ],
-  "_sources": [
-   "https://en.wikipedia.org/wiki/Karlskirche"
-  ],
-  "confidence": "thin"
- },
- {
-  "n": "Musikverein",
+  "n": "Kleines Café",
   "a": "Innere Stadt",
-  "c": "music",
-  "lat": 48.20049,
-  "lng": 16.37274,
-  "s": "Home turf of the Vienna Philharmonic since 1870",
-  "w": "Built on land Emperor Franz Joseph I granted to the Society of Friends of Music during 1863 construction of the Ringstrasse, this Theophil Hansen hall has housed the Vienna Philharmonic since opening in 1870. Its Great Hall's acoustics rank with Amsterdam's Concertgebouw and Boston's Symphony Hall.",
-  "_facts": [
-   "Concert hall in the Innere Stadt district, Vienna",
-   "Land granted to the Society of Friends of Music by Franz Joseph I during 1863 Ringstrasse construction",
-   "Designed by Theophil Hansen; has housed the Vienna Philharmonic since opening in 1870",
-   "Great Hall's acoustics ranked alongside Concertgebouw (Amsterdam) and Symphony Hall (Boston)"
-  ],
-  "_sources": [
-   "https://en.wikipedia.org/wiki/Musikverein"
-  ],
-  "confidence": "high"
+  "c": "coffee",
+  "lat": 48.20658,
+  "lng": 16.37436,
+  "w": "Aptly named the \"Small Café,\" this microscopic spot on picturesque Franziskanerplatz feels like a genuine hidden gem. Its unrestored facade conceals a pint-sized interior full of laidback Viennese character, locals lingering over coffee, beer or a sausage. A quirky refuge that rewards those who notice the unassuming entrance and step into its cosy, counterculture calm.",
+  "s": "Microscopic hidden gem on a picturesque square with counterculture soul",
+  "q": "Kleines Café Vienna Franziskanerplatz",
+  "_facts": [],
+  "_sources": [],
+  "confidence": "authored"
  },
  {
-  "n": "Prater",
-  "a": "Leopoldstadt",
-  "c": "green",
-  "lat": 48.21611,
-  "lng": 16.39556,
-  "s": "One name, two places: parkland and a fairground inside it",
-  "w": "Six square kilometres of public parkland fill Leopoldstadt, Vienna's 2nd district, though say 'the Prater' to a local and they'll likely picture just one corner of it: the Wurstelprater, the amusement park tucked inside the wider green sprawl. Everybody defaults to the fairground over the trees.",
-  "_facts": [
-   "6 km2 public park in Vienna's 2nd district, Leopoldstadt",
-   "The name Prater is often used to refer to the Wurstelprater, an amusement park within the area"
-  ],
-  "_sources": [
-   "https://en.wikipedia.org/wiki/Prater"
-  ],
-  "confidence": "thin"
+  "n": "Café Korb",
+  "a": "Innere Stadt",
+  "c": "oddity",
+  "lat": 48.21005,
+  "lng": 16.37072,
+  "w": "An artsy, nonconformist hub with original 1960s decor, a basement bowling alley and rotating art displays. Long a gathering place for artists and creatives, it is cool, vibrant and a little different from the more historical coffee houses. A characterful space full of creative energy that rewards those seeking something beyond the classic Viennese template.",
+  "s": "Artsy 1960s cafe with a basement bowling alley and rotating art",
+  "q": "Café Korb Vienna",
+  "_facts": [],
+  "_sources": [],
+  "confidence": "authored"
+ },
+ {
+  "n": "Café Pavillon",
+  "a": "Hietzing",
+  "c": "coffee",
+  "lat": 48.18306,
+  "lng": 16.31685,
+  "w": "A hidden local secret behind the trees close to the palace. The peaceful setting offers excellent coffee as an escape from the crowds, a gentle story-rich pause full of imperial heritage and neighbourhood calm for those who find the path through the greenery.",
+  "s": "A hidden local secret behind the trees near Schönbrunn",
+  "q": "Café Pavillon Schönbrunn Vienna",
+  "_facts": [],
+  "_sources": [],
+  "confidence": "authored"
+ },
+ {
+  "n": "Café Morgenstern",
+  "a": "Neubau",
+  "c": "coffee",
+  "lat": 48.20504,
+  "lng": 16.3527,
+  "w": "A determinedly grungy and alternative spot hidden off the street on a curiously underpopulated square. The fetchingly shabby Gothic interior and an illuminated red star lend an immense sense of place, best felt on the terrace over a coffee or a Schladminger BioZwickl amid regulars and post-communist retro-chic.",
+  "s": "Grungy Gothic cafe with a red star and a terrace of regulars",
+  "q": "Café Morgenstern Vienna",
+  "_facts": [],
+  "_sources": [],
+  "confidence": "authored"
+ },
+ {
+  "n": "Café Vollpension",
+  "a": "Freihausviertel",
+  "c": "coffee",
+  "lat": 48.19757,
+  "lng": 16.36508,
+  "w": "A warmhearted multigenerational cafe where Omas and Opas in bright aprons serve as maitre ds and cake-makers. Devour jam-filled Buchteln with vanilla sauce amid lively banter in a space that feels like visiting a grandparents home. It started as a pop-up and is now a beloved full cafe, capturing Viennas evolving yet deeply rooted coffee culture.",
+  "s": "A multigenerational grandmas living room staffed by Omas and Opas",
+  "q": "Café Vollpension Vienna",
+  "_facts": [],
+  "_sources": [],
+  "confidence": "authored"
+ },
+ {
+  "n": "Café Goldegg",
+  "a": "Wieden",
+  "c": "coffee",
+  "lat": 48.1897,
+  "lng": 16.37613,
+  "w": "A jewel away from the centre with original Jugendstil decor from 1910. The historical interior feels oblivious to trends and the passing of time, offering excellent coffee in a space full of quiet Viennese character. A proper flaneur discovery that rewards those who wander beyond the obvious tourist corridors.",
+  "s": "A Jugendstil jewel of 1910 away from the tourist centre",
+  "q": "Café Goldegg Vienna",
+  "_facts": [],
+  "_sources": [],
+  "confidence": "authored"
+ },
+ {
+  "n": "Café Jelinek",
+  "a": "Mariahilf",
+  "c": "coffee",
+  "lat": 48.19505,
+  "lng": 16.34953,
+  "w": "Slightly off the beaten track and less likely to be packed with tourists, this spot is full of Viennese locals lingering in a room that seems oblivious to trends and the passing of time. Excellent coffee in a timeless interior of worn wood and warm light, full of genuine local character.",
+  "s": "Off-the-beaten-track local favourite, timeless and unpackaged",
+  "q": "Café Jelinek Vienna",
+  "_facts": [],
+  "_sources": [],
+  "confidence": "authored"
+ },
+ {
+  "n": "phil",
+  "a": "Mariahilf",
+  "c": "bookshops",
+  "lat": 48.20057,
+  "lng": 16.36146,
+  "w": "A self-confident alternative to the traditional Viennese cafe, with books, music, furniture and terrible puns on the menu, all of it for sale. The cultural cool and relaxed atmosphere create a gentle, story-rich pause full of intellectual neighbourhood warmth, a place to read, drink and linger without hurry.",
+  "s": "A bookstore linger-spot with cultural cool and terrible puns",
+  "q": "phil bookshop cafe Vienna",
+  "_facts": [],
+  "_sources": [],
+  "confidence": "authored"
+ },
+ {
+  "n": "Café Engländer",
+  "a": "Innere Stadt",
+  "c": "oddity",
+  "lat": 48.20809,
+  "lng": 16.37869,
+  "w": "An unremarkable exterior conceals a gem of cool 1950s design. It carries a creative, nonconformist reputation as an artists hangout while blending traditional Viennese cafe service with alternative energy. Excellent coffee and good food in a space full of vibrant character and quiet self-assurance.",
+  "s": "Cool 1950s design and a creative nonconformist crowd",
+  "q": "Café Engländer Vienna",
+  "_facts": [],
+  "_sources": [],
+  "confidence": "authored"
+ },
+ {
+  "n": "Café Malipop",
+  "a": "Landstraße",
+  "c": "oddity",
+  "lat": 48.20347,
+  "lng": 16.3862,
+  "w": "A cult Vienna cafe with exceptional vinyl music and a deep patina of ages. It feels like a refuge from the outside world, student-intellectual and utterly different from the grand coffee houses. Excellent coffee in a dim, characterful room full of local depth and the crackle of records.",
+  "s": "A cult refuge of exceptional vinyl and a deep patina of ages",
+  "q": "Café Malipop Vienna",
+  "_facts": [],
+  "_sources": [],
+  "confidence": "authored"
+ },
+ {
+  "n": "Justizcafé",
+  "a": "Innere Stadt",
+  "c": "coffee",
+  "lat": 48.20644,
+  "lng": 16.35722,
+  "w": "A little-known cafe on the roof of the Justizpalast, reached through the courthouse and up in a lift. The elevated terrace looks out over the rooftops with imperial grandeur, and the strudel (the prized end Scherzl) makes a story-rich pause full of cultural layers and a sudden, secret view.",
+  "s": "A secret rooftop cafe atop the Justizpalast, with strudel and views",
+  "q": "Justizcafé Justizpalast Vienna",
+  "_facts": [],
+  "_sources": [],
+  "confidence": "authored"
  }
 ]

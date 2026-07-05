@@ -1,0 +1,103 @@
+[
+ {
+  "n": "Shakespeare's Birthplace",
+  "a": "Henley Street",
+  "c": "literary",
+  "lat": 52.1939,
+  "lng": -1.708,
+  "w": "Restored 16th-century half-timbered house on Henley Street where William Shakespeare was born in 1564 and spent his childhood. Grade I listed since 25 October 1951, it is now a small museum run by the Shakespeare Birthplace Trust, drawing visitors into the rooms where England's most famous playwright grew up.",
+  "s": "Half-timbered house where Shakespeare was born, 1564",
+  "_facts": [
+   "16th-century half-timbered house on Henley Street",
+   "Believed birthplace of William Shakespeare, 1564",
+   "Grade I listed since 25 October 1951",
+   "Run as a museum by the Shakespeare Birthplace Trust"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Shakespeare's_Birthplace"],
+  "confidence": "high"
+ },
+ {
+  "n": "Swan Theatre",
+  "a": "",
+  "c": "music",
+  "lat": 52.1904,
+  "lng": -1.7044,
+  "w": "Built onto the side of the Royal Shakespeare Theatre on the site of the Victorian Shakespeare Memorial Theatre, destroyed by fire in 1926. Designed by Michael Reardon with a deep thrust stage seating around 450, it opened in 1986 with The Two Noble Kinsmen, and the Queen attended its official opening that November.",
+  "s": "Thrust-stage RSC theatre opened by the Queen in 1986",
+  "_facts": [
+   "Built onto the Royal Shakespeare Theatre, opened 1986",
+   "Deep thrust stage seating around 450",
+   "Opening production: The Two Noble Kinsmen, directed by Barry Kyle",
+   "Queen Elizabeth II opened it on 13 November 1986"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Swan_Theatre,_Stratford-upon-Avon"],
+  "confidence": "high"
+ },
+ {
+  "n": "Hall's Croft",
+  "a": "",
+  "c": "literary",
+  "lat": 52.1886,
+  "lng": -1.70866,
+  "w": "Grade I-listed house owned by William Shakespeare's daughter Susanna and her husband Dr John Hall, who married in 1607. It holds a collection of 16th- and 17th-century paintings and furniture, an exhibition on Hall's medical practice, and a walled garden of plants he may have used in treatments before the couple moved to New Place.",
+  "s": "Shakespeare's daughter and her doctor husband's house",
+  "_facts": [
+   "Owned by Susanna Hall (Shakespeare's daughter) and Dr John Hall, married 1607",
+   "Grade I listed",
+   "Exhibition on John Hall's medical practice",
+   "Walled garden of period medicinal plants"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Hall's_Croft"],
+  "confidence": "high"
+ },
+ {
+  "n": "Clopton Bridge",
+  "a": "",
+  "c": "medieval",
+  "lat": 52.1915,
+  "lng": -1.70028,
+  "w": "Late medieval masonry bridge with 14 pointed arches spanning the River Avon at the ford that gave Stratford its name. Built around 1484 and funded by Hugh Clopton, later Lord Mayor of London, it replaced a timber crossing first recorded in 1235; an arch was destroyed in 1642 to block Cromwell's army, and it still carries the A3400 today.",
+  "s": "1484 stone bridge still carrying traffic over the Avon",
+  "_facts": [
+   "Built c.1484, funded by Hugh Clopton, future Lord Mayor of London",
+   "14 pointed stone arches, replacing a timber bridge recorded from 1235",
+   "An arch was destroyed in 1642 to block Cromwell's army",
+   "Grade I listed and a scheduled monument"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Clopton_Bridge"],
+  "confidence": "high"
+ },
+ {
+  "n": "Nash's House",
+  "a": "Chapel Street",
+  "c": "literary",
+  "lat": 52.1908,
+  "lng": -1.7075,
+  "w": "Chapel Street house standing next door to the ruins and gardens of New Place, the site of William Shakespeare's final residence in Stratford. New Place itself is gone, but Nash's House survives alongside its garden remains, marking the spot where the playwright's own house once stood in the heart of town.",
+  "s": "House by the ruins of Shakespeare's own final home",
+  "_facts": [
+   "On Chapel Street, Stratford-upon-Avon",
+   "Stands next to the ruins and gardens of New Place",
+   "New Place was Shakespeare's final residence"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Nash's_House"],
+  "confidence": "thin"
+ },
+ {
+  "n": "Mary Arden's Farm",
+  "a": "Wilmcote",
+  "c": "literary",
+  "lat": 52.2208,
+  "lng": -1.7617,
+  "w": "Farmhouse tied to Mary Arden, mother of William Shakespeare, in the village of Wilmcote three miles from Stratford. Confusion over which building Mary actually lived in led a nearby farm to be preserved in the 20th century under her name, though it was later renamed Palmer's Farm; both houses are Grade I listed and open to visitors.",
+  "s": "Farmhouse tied to Shakespeare's mother, Mary Arden",
+  "_facts": [
+   "Wilmcote, about three miles from Stratford-upon-Avon",
+   "Named for Mary Arden, mother of William Shakespeare",
+   "The historically correct house was later identified as Palmer's Farm",
+   "Both farmhouses are Grade I listed"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Mary_Arden's_Farm"],
+  "confidence": "high"
+ }
+]
