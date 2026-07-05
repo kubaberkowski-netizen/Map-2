@@ -2426,11 +2426,11 @@ lucide-react/dist/esm/lucide-react.js:
   }
 
   function fetchEvents(){
-    var nowISO=new Date().toISOString();
+    var nowISO=new Date().toISOString();var cats=Object.keys(SPORTCATS);
     if(window.flSB&&window.flSB.from){
-      return window.flSB.from("events").select("*").eq("status","approved").or("end_at.is.null,end_at.gte."+nowISO).order("start_at",{ascending:true}).limit(300).then(function(r){return (r&&r.data)||[];});
+      return window.flSB.from("events").select("*").eq("status","approved").in("category",cats).or("end_at.is.null,end_at.gte."+nowISO).order("start_at",{ascending:true}).limit(80).then(function(r){return (r&&r.data)||[];});
     }
-    return fetch(SUPA_URL+"/rest/v1/events?select=*&status=eq.approved&or=(end_at.is.null,end_at.gte."+encodeURIComponent(nowISO)+")&order=start_at.asc&limit=300",{headers:{apikey:SUPA_ANON,Authorization:"Bearer "+SUPA_ANON}}).then(function(r){return r.json();}).then(function(d){return d||[];});
+    var inlist="("+cats.map(function(c){return /[ .]/.test(c)?(String.fromCharCode(34)+c+String.fromCharCode(34)):c;}).join(",")+")";return fetch(SUPA_URL+"/rest/v1/events?select=*&status=eq.approved&category=in."+encodeURIComponent(inlist)+"&or=(end_at.is.null,end_at.gte."+encodeURIComponent(nowISO)+")&order=start_at.asc&limit=80",{headers:{apikey:SUPA_ANON,Authorization:"Bearer "+SUPA_ANON}}).then(function(r){return r.json();}).then(function(d){return d||[];});
   }
 
   function reconcile(ov){
