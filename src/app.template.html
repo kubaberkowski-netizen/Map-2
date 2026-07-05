@@ -2228,6 +2228,7 @@ lucide-react/dist/esm/lucide-react.js:
   var SUPA_URL="https://fpngxchltuovtsyzigul.supabase.co";
   var SUPA_ANON="sb_publishable_At343ximg1anAi2TkHyCXw_82vw4wMB";
   var SPORTCATS={Football:"⚽",Basketball:"🏀","Am. Football":"🏈",Baseball:"⚾",Hockey:"🏒",Cricket:"🏏",Rugby:"🏉",Sport:"🏟️"};
+  var METRIC={Football:"Goals witnessed",Basketball:"Points seen",Baseball:"Runs seen",Hockey:"Goals seen","Am. Football":"Points seen",Rugby:"Points seen",Cricket:"Runs seen",Sport:"Points seen"};
   function extMap(){try{return JSON.parse(localStorage.getItem("flaneur-ext")||"{}")||{};}catch(e){return {};}}
   function saveExt(m){try{localStorage.setItem("flaneur-ext",JSON.stringify(m));}catch(e){}}
   function isMatch(e){if(!e)return false;if(e.type&&e.type!=="event")return false;if(e.src==="fd"||e.src==="tsd")return true;return !!(e.cat&&SPORTCATS[e.cat]);}
@@ -2296,38 +2297,58 @@ lucide-react/dist/esm/lucide-react.js:
     var body=ov.querySelector(".mdscroll");if(!body)return;
     body.innerHTML="";
     var m=extMap();
-    var rows=[];
-    for(var k in m){var e=m[k];if(!isMatch(e))continue;e.id=k;rows.push(e);}
-    rows.sort(function(a,b){return (b.when?new Date(b.when):new Date(b.t||0))-(a.when?new Date(a.when):new Date(a.t||0));});
+    var allRows=[];
+    for(var k in m){var e=m[k];if(!isMatch(e))continue;e.id=k;allRows.push(e);}
+    allRows.sort(function(a,b){return (b.when?new Date(b.when):new Date(b.t||0))-(a.when?new Date(a.when):new Date(a.t||0));});
 
-    // headline stats
-    var goals=0,grounds={},scorerTally={},withResult=0;
-    rows.forEach(function(r){if(r.cat==="Football")goals+=goalsOf(r);if(r.result)withResult++;if(r.venue)grounds[r.venue]=(grounds[r.venue]||0)+1;(r.scorers||[]).forEach(function(g){if(g&&g.p)scorerTally[g.p]=(scorerTally[g.p]||0)+1;});});
-    var topScorer=null,topN=0;for(var p in scorerTally){if(scorerTally[p]>topN){topN=scorerTally[p];topScorer=p;}}
-    var groundKeys=Object.keys(grounds);
+    var dcount={};allRows.forEach(function(r){var c=r.cat||"Sport";dcount[c]=(dcount[c]||0)+1;});
+    var disciplines=Object.keys(dcount).map(function(c){return {cat:c,n:dcount[c]};}).sort(function(a,b){return b.n-a.n;});
+    var sel=ov._sel||"all";
+    if(sel!=="all"&&!dcount[sel]){sel="all";ov._sel="all";}
+    var rows=sel==="all"?allRows:allRows.filter(function(r){return (r.cat||"Sport")===sel;});
 
-    var stats=el("div","","");stats.className="mdstats";
-    // build stat tiles explicitly (clearer than helper)
-    function tile(n,l,hi){var d=el("div");d.className="mdstat"+(hi?" hi":"");var a=el("div",null,esc(String(n)));a.className="n";var b=el("div",null,esc(l));b.className="l";d.appendChild(a);d.appendChild(b);return d;}
-    stats.appendChild(tile(rows.length,"Matches seen"));
-    stats.appendChild(tile(goals,"Goals witnessed",true));
-    stats.appendChild(tile(groundKeys.length,"Grounds"));
-    stats.appendChild(tile(topScorer?topN:"—",topScorer?("Top: "+topScorer.split(" ").slice(-1)[0]):"Top scorer"));
-    body.appendChild(stats);
-
-    if(!rows.length){
+    if(!allRows.length){
       var emp=el("div");emp.className="mdempty";
-      emp.innerHTML='<b>No matches logged yet.</b><br>Check in at a game in person — GPS-verified on a matchday — and it lands here with the score and scorers you saw.';
+      emp.innerHTML='<b>No matches logged yet.</b><br>Check in at a game in person \u2014 GPS-verified on a matchday \u2014 and it lands here with the score (and scorers, for football) you saw.';
       body.appendChild(emp);
-      addUpcoming(ov,body);
+      addUpcoming(ov,body,sel);
       return;
     }
 
-    body.appendChild(secLabel("⚽ Your matches"));
+    if(disciplines.length>1){
+      var sw=el("div");sw.style.cssText="display:flex;gap:7px;overflow-x:auto;margin:-2px 0 16px;padding-bottom:3px;-webkit-overflow-scrolling:touch;";
+      var mkchip=function(key,label,active){var c=el("button",null,esc(label));c.style.cssText="flex:none;border:1px solid "+(active?"#5BE08A":"rgba(255,255,255,.14)")+";background:"+(active?"rgba(91,224,138,.16)":"transparent")+";color:"+(active?"#5BE08A":"#DCEBDD")+";border-radius:999px;padding:7px 13px;font:700 12.5px var(--font-sans);cursor:pointer;white-space:nowrap;";c.onclick=function(){ov._sel=key;render(ov);};return c;};
+      sw.appendChild(mkchip("all","All \u00b7 "+allRows.length,sel==="all"));
+      disciplines.forEach(function(d){sw.appendChild(mkchip(d.cat,(SPORTCATS[d.cat]||"")+" "+d.cat+" \u00b7 "+d.n,sel===d.cat));});
+      body.appendChild(sw);
+    }
+
+    var pts=0,grounds={},teamsSet={},scorerTally={};
+    rows.forEach(function(r){pts+=goalsOf(r);if(r.venue)grounds[r.venue]=(grounds[r.venue]||0)+1;var tt=teams(r.name);if(tt.h)teamsSet[tt.h]=1;if(tt.a)teamsSet[tt.a]=1;(r.scorers||[]).forEach(function(g){if(g&&g.p)scorerTally[g.p]=(scorerTally[g.p]||0)+1;});});
+    var topScorer=null,topN=0;for(var pk in scorerTally){if(scorerTally[pk]>topN){topN=scorerTally[pk];topScorer=pk;}}
+    var groundKeys=Object.keys(grounds),teamKeys=Object.keys(teamsSet);
+
+    var stats=el("div");stats.className="mdstats";
+    function tile(n,l,hi){var d=el("div");d.className="mdstat"+(hi?" hi":"");var a=el("div",null,esc(String(n)));a.className="n";var b=el("div",null,esc(l));b.className="l";d.appendChild(a);d.appendChild(b);return d;}
+    stats.appendChild(tile(rows.length,"Matches seen"));
+    if(sel==="all"){
+      stats.appendChild(tile(disciplines.length,"Sports"));
+      stats.appendChild(tile(groundKeys.length,"Grounds"));
+      stats.appendChild(tile(teamKeys.length,"Teams seen"));
+    }else{
+      stats.appendChild(tile(pts,METRIC[sel]||"Points seen",true));
+      stats.appendChild(tile(groundKeys.length,"Grounds"));
+      if(sel==="Football")stats.appendChild(tile(topScorer?topN:"\u2014",topScorer?("Top: "+topScorer.split(" ").slice(-1)[0]):"Top scorer"));
+      else stats.appendChild(tile(teamKeys.length,"Teams seen"));
+    }
+    body.appendChild(stats);
+
+    var selEmoji=sel==="all"?"\ud83c\udfdf\ufe0f":(SPORTCATS[sel]||"\u26bd");
+    body.appendChild(secLabel(selEmoji+" Your matches"));
     rows.forEach(function(r){ body.appendChild(matchCard(ov,r)); });
 
     if(groundKeys.length){
-      body.appendChild(secLabel("🏟️ Grounds ticked"));
+      body.appendChild(secLabel("\ud83c\udfdf\ufe0f Grounds ticked"));
       var gc=el("div");gc.className="mdcard";gc.style.padding="4px 14px";
       groundKeys.sort(function(a,b){return grounds[b]-grounds[a];}).forEach(function(v){
         var row=el("div");row.className="mdground";
@@ -2338,9 +2359,8 @@ lucide-react/dist/esm/lucide-react.js:
       var last=gc.querySelector(".mdground:last-child");if(last)last.style.borderBottom="none";
       body.appendChild(gc);
     }
-    addUpcoming(ov,body);
+    addUpcoming(ov,body,sel);
   }
-
   function secLabel(txt){var d=el("div",null,esc(txt));d.className="mdsec";return d;}
 
   function matchCard(ov,r){
@@ -2400,7 +2420,7 @@ lucide-react/dist/esm/lucide-react.js:
     };
   }
 
-  function addUpcoming(ov,body){
+  function addUpcoming(ov,body,sel){
     var wrap=el("div");wrap.className="mdcard";wrap.style.padding="4px 14px";
     var lbl=secLabel("📅 Upcoming matches near you");
     body.appendChild(lbl);body.appendChild(wrap);
@@ -2409,7 +2429,7 @@ lucide-react/dist/esm/lucide-react.js:
     fetchEvents().then(function(evs){
       wrap.innerHTML="";
       var p=pos();
-      var up=(evs||[]).filter(function(e){return e&&cats.indexOf(e.category)>=0&&typeof e.lat==="number";});
+      var up=(evs||[]).filter(function(e){return e&&cats.indexOf(e.category)>=0&&typeof e.lat==="number"&&(!sel||sel==="all"||e.category===sel);});
       if(p)up.forEach(function(e){e._d=haversine(p.lat,p.lng,e.lat,e.lng);});
       up.sort(function(a,b){if(p&&a._d!=null&&b._d!=null)return a._d-b._d;return new Date(a.start_at||0)-new Date(b.start_at||0);});
       up=up.slice(0,6);
@@ -2458,7 +2478,7 @@ lucide-react/dist/esm/lucide-react.js:
       var top=el("div");top.className="mdtop";
       var ht=el("div");
       var tt=el("div",null,"Matchday");tt.className="mdtitle";
-      var ss=el("div",null,"Your football record");ss.className="mdsub";
+      var ss=el("div",null,"Your matchday record");ss.className="mdsub";
       ht.appendChild(tt);ht.appendChild(ss);
       var xb=el("button",null,"✕");xb.className="mdx";xb.setAttribute("aria-label","Close");
       xb.onclick=function(){try{document.body.removeChild(ov);}catch(e){}};
