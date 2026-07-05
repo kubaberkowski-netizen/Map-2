@@ -1,0 +1,79 @@
+[
+  {
+    "n": "The Cobbled Roastery",
+    "a": "New Town",
+    "c": "coffee",
+    "lat": 55.9539,
+    "lng": -3.1991,
+    "s": "a tiny New Town roastery with daily-roasted batches and chess tables",
+    "w": "A small independent roastery on a quiet New Town side street, roasting its own beans in daily small batches and pulling espresso and flat whites that let the origin do the talking. Two tiny tables sometimes host a game of chess -- a calm, unassuming find easy to walk straight past.",
+    "_facts": [
+      "Located at 48 Thistle Street, Edinburgh EH2 1EN, New Town",
+      "Independent coffee roastery roasting in-house, daily small batches",
+      "Small space with limited seating (two tables)"
+    ],
+    "_sources": [
+      "https://cobbledroaster.co.uk/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "n": "Fortitude Coffee",
+    "a": "Stockbridge",
+    "c": "coffee",
+    "lat": 55.9592,
+    "lng": -3.2071,
+    "s": "a decade-plus specialty coffee anchor in village-like Stockbridge",
+    "w": "A specialty coffee bar on Hamilton Place in Stockbridge -- the neighbourhood that still carries its own village rhythm inside the city -- built around careful sourcing and a sleek Modbar setup. Over a decade in, it's become exactly the kind of daily anchor that turns a wander through Edinburgh's quieter streets into a proper stop.",
+    "_facts": [
+      "Located at 66 Hamilton Place, Edinburgh EH3 5AZ, Stockbridge",
+      "Specialty coffee bar, part of the Fortitude Coffee group (also has an Abbeyhill location)",
+      "Uses a Modbar under-counter espresso system",
+      "Marked over a decade of operation as of 2026"
+    ],
+    "_sources": [
+      "https://www.fortitudecoffee.com/",
+      "https://theedinburghreporter.co.uk/2026/01/fortitude-a-decade-of-excellence-and-evolution-in-edinburgh-coffee/"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Black Medicine Coffee Co",
+    "a": "Old Town / Southside",
+    "c": "coffee",
+    "lat": 55.9471,
+    "lng": -3.1858,
+    "s": "a cosy Old Town café that began upstairs as J.K. Rowling's brother-in-law's Nicolson Café",
+    "w": "A relaxed café on Nicolson Street that started life upstairs as the Nicolson Café, run by J.K. Rowling's then brother-in-law, before moving down to street level, rebranding and expanding into the basement. Good hot chocolate and a genuinely lived-in atmosphere, with a quiet footnote of literary Edinburgh lore behind the current name.",
+    "_facts": [
+      "Located at 2 Nicolson Street, Edinburgh EH8 9DH, Old Town/Southside, near the University",
+      "Originally operated upstairs at this address as the Nicolson Café",
+      "The Nicolson Café was run by J.K. Rowling's then brother-in-law",
+      "Later rebranded as Black Medicine Coffee Co and expanded to ground floor and basement"
+    ],
+    "_sources": [
+      "https://www.blackmedicine.co.uk/",
+      "https://curiositiescastlesandcoffeeshops.com/black-medicine-coffee-co/"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Artisan Roast",
+    "a": "Broughton Street",
+    "c": "coffee",
+    "lat": 55.9579,
+    "lng": -3.1889,
+    "s": "a 2007 third-wave original with a cheeky, Rowling-annotated sign",
+    "w": "One of Edinburgh's original third-wave cafés, roasting since 2007 and still supplying beans to other cafés around the city. A sign on the wall once read \"J.K. Rowling never wrote here\" -- until Rowling herself added, in 2016, \"and I never will... just to spite them,\" a bit of wry graffiti that sums up the place's unpretentious, very Edinburgh sense of humour.",
+    "_facts": [
+      "Located at 57 Broughton Street, Edinburgh EH1 3RJ",
+      "Opened in 2007, among Edinburgh's first third-wave specialty coffee roasters",
+      "Roasts its own beans, supplying other Edinburgh cafés",
+      "Known for a wall sign joking about J.K. Rowling, to which Rowling herself added a reply in 2016"
+    ],
+    "_sources": [
+      "https://artisanroast.co.uk/"
+    ],
+    "confidence": "solid"
+  }
+]
