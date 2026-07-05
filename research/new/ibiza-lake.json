@@ -1,0 +1,50 @@
+[
+ {
+  "n": "Ibiza Cathedral",
+  "a": "Dalt Vila",
+  "c": "faith",
+  "lat": 38.90667,
+  "lng": 1.43667,
+  "w": "Crowning Dalt Vila, Ibiza's fortified old town, the Cathedral of the Virgin of the Snows has served as the seat of the Roman Catholic Diocese of Ibiza since 1817. Its Catalan name, Catedral de la Verge de les Neus, marks it as the spiritual anchor of the historic walled hilltop it sits atop.",
+  "s": "Dalt Vila's cathedral, seat of the diocese since 1817",
+  "_facts": [
+   "Roman Catholic cathedral in Dalt Vila, Ibiza Town's historic centre",
+   "Dedicated to the Virgin of the Snows",
+   "Seat of the Diocese of Ibiza since 1817"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Ibiza_Cathedral"],
+  "confidence": "high"
+ },
+ {
+  "n": "Puig des Molins",
+  "a": "",
+  "c": "death",
+  "lat": 38.9072,
+  "lng": 1.42951,
+  "w": "This hill on the edge of Ibiza Town holds the Punic Necropolis of Puig des Molins, a burial ground tied to the island's Phoenician and Carthaginian settlers. An on-site archaeological museum, opened in 1966, displays material recovered from the necropolis's tombs alongside the site itself.",
+  "s": "Phoenician burial hill with its own archaeological museum",
+  "_facts": [
+   "Hill containing the Punic Necropolis of Puig des Molins",
+   "Necropolis linked to Ibiza's Phoenician and Carthaginian settlement",
+   "On-site archaeological museum opened in 1966"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Puig_des_Molins"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Museo Arqueologico de Ibiza y Formentera",
+  "a": "Dalt Vila",
+  "c": "museum",
+  "lat": 38.90695,
+  "lng": 1.43654,
+  "w": "Spread across two sites near Ibiza's old town, the Dalt Vila museum and the Puig des Molins Monographic Museum, this collection traces three thousand years of Pytiusic island history, from first settlement to the Catalan conquest of 1235, grown from a 1907 donation by the Archaeological Society of Ibiza.",
+  "s": "Two-site museum spanning 3,000 years of island history",
+  "_facts": [
+   "Housed across two campuses: the Dalt Vila museum and the Puig des Molins Monographic Museum",
+   "Collection spans three millennia, from first settlement to the 1235 Catalan conquest",
+   "Founded 1907 from a donation by the Archaeological Society of Ibiza (founded 1903)"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Ibiza_and_Formentera's_Archaeological_Museum"],
+  "confidence": "high"
+ }
+]
