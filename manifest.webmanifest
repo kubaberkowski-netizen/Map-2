@@ -1,7 +1,7 @@
 {
   "id": "./",
-  "name": "Flâneur",
-  "short_name": "Flâneur",
+  "name": "Fl\u00e2neur",
+  "short_name": "Fl\u00e2neur",
   "description": "Niche, storied detours, sorted by how far they are from your feet.",
   "start_url": "./",
   "scope": "./",
@@ -9,12 +9,36 @@
   "orientation": "portrait",
   "background_color": "#FAF8F3",
   "theme_color": "#C8372D",
-  "categories": ["travel", "lifestyle", "navigation"],
+  "categories": [
+    "travel",
+    "lifestyle",
+    "navigation"
+  ],
   "icons": [
-    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "./icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
-    { "src": "./icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ],
   "shortcuts": [
     {
@@ -28,6 +52,12 @@
       "short_name": "Events",
       "description": "Events and matches happening near you",
       "url": "./#tab=events"
+    },
+    {
+      "name": "Daily games",
+      "short_name": "Play",
+      "description": "Today's boards \u2014 Place the Pin, Daily Plaque, Connections and more",
+      "url": "./#tab=games"
     }
   ]
 }
