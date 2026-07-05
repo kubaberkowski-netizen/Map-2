@@ -1,0 +1,75 @@
+[
+  {
+    "n": "Faraday",
+    "a": "Chueca",
+    "c": "coffee",
+    "lat": 40.4238,
+    "lng": -3.6963,
+    "s": "vinyl, single-origin coffee and quirky décor in a Chueca corner",
+    "w": "A small Chueca café-slash-concept-store where bicycles on the walls and skull graffiti sit alongside racks of vinyl and vintage objects, jazz playing over careful single-origin coffee. Playful rather than precious, and a genuine local hangout a block off Chueca's busier drag.",
+    "_facts": [
+      "Located at Calle de San Lucas 9, 28004 Madrid, Chueca",
+      "Combines a specialty coffee bar with a vinyl records and vintage-object concept store",
+      "Known for eclectic, quirky interior decor"
+    ],
+    "_sources": [
+      "https://europeancoffeetrip.com/cafe/faraday-madrid/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "n": "HanSo Café",
+    "a": "Malasaña",
+    "c": "coffee",
+    "lat": 40.4231,
+    "lng": -3.7029,
+    "s": "a communal, living-room-style café at the heart of Malasaña",
+    "w": "A relaxed, sociable café on Corredera Baja de San Pablo, in the middle of Malasaña, built around simple good things -- solid coffee, avocado toast, easy plates -- and a living-room feel that keeps neighbours and creatives lingering rather than just passing through.",
+    "_facts": [
+      "Located at Corredera Baja de San Pablo 51, 28004 Madrid, Malasaña",
+      "Known for a cosy, communal atmosphere and simple, well-made food (avocado toast, brunch plates)",
+      "A long-standing specialty coffee anchor of the Malasaña neighbourhood"
+    ],
+    "_sources": [
+      "https://hansocafe.es/"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Mercado de San Fernando",
+    "a": "Lavapiés",
+    "c": "market",
+    "lat": 40.4077,
+    "lng": -3.7037,
+    "s": "the market that captures Lavapiés's messy, multicultural, creative energy",
+    "w": "A municipal market that has grown well past groceries into the fullest expression of Lavapiés itself -- traditional Spanish stalls beside international food counters, secondhand books sold by weight, a Japanese multi-use space, handmade jewellery stands and community events. Chaotic in the best sense, and entirely local rather than curated for visitors.",
+    "_facts": [
+      "Located at Calle Embajadores 41, 28012 Madrid, Lavapiés",
+      "Municipal market building with additional entrances on Calle del Sombrerete and Calle de Tribulete",
+      "Mixes traditional grocery stalls with international food vendors, a secondhand bookshop and cultural/event spaces",
+      "Reachable via Embajadores or Lavapiés metro stations (Line 3)"
+    ],
+    "_sources": [
+      "https://mercadodesanfernando.es/"
+    ],
+    "confidence": "solid"
+  },
+  {
+    "n": "Mercado de Antón Martín",
+    "a": "Lavapiés / Centro",
+    "c": "market",
+    "lat": 40.4115,
+    "lng": -3.6986,
+    "s": "a gritty, global crossroads market with a flamenco school upstairs",
+    "w": "A loud, unpolished market on the border of Lavapiés and Centro where traditional butchers and fishmongers trade beside sushi, tacos, arepas and ramen counters, while the rhythms of a flamenco school upstairs filter down through the stalls. Everyday Madrid rather than a curated food-hall experience.",
+    "_facts": [
+      "Located at Calle de Santa Isabel 5, 28012 Madrid, on the Lavapiés/Centro border",
+      "Traditional municipal market mixing Spanish butchers/fishmongers with international food stalls",
+      "Houses a flamenco academy on an upper floor"
+    ],
+    "_sources": [
+      "https://www.esmadrid.com/en/portal-turistico/mercado-de-anton-martin"
+    ],
+    "confidence": "medium"
+  }
+]
