@@ -1,0 +1,64 @@
+[
+ {
+  "n": "City Park",
+  "a": "",
+  "c": "green",
+  "lat": -41.4325,
+  "lng": 147.143,
+  "w": "Established in the 1820s by the Launceston Horticultural Society, this heritage park was handed over to the Launceston City Council in 1863. Nearly two centuries on, it remains an important part of the city's cultural life, not just a stretch of lawn and trees but a working civic space at the centre of town.",
+  "s": "1820s heritage park at the city's centre",
+  "_facts": [
+   "Established in the 1820s by the Launceston Horticultural Society",
+   "Handed to Launceston City Council in 1863",
+   "Remains an important part of Launceston's cultural life today"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/City_Park,_Launceston"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Queen Victoria Museum & Art Gallery",
+  "a": "",
+  "c": "museum",
+  "lat": -41.4378,
+  "lng": 147.134,
+  "w": "QVMAG carries a claim that's easy to miss for a museum in a city this size: it's the largest museum in the whole of Australia that isn't located in a capital city, a scale of collection you wouldn't expect to find outside Sydney or Melbourne.",
+  "s": "Australia's largest museum outside a capital city",
+  "_facts": [
+   "Largest museum in Australia not located in a capital city"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Queen_Victoria_Museum_%26_Art_Gallery"],
+  "confidence": "thin"
+ },
+ {
+  "n": "Hotel Grand Chancellor, Launceston",
+  "a": "CBD",
+  "c": "history",
+  "lat": -41.43214,
+  "lng": 147.14017,
+  "w": "Completed in August 1989 for 44 million dollars, with up to 130 men on site and 20,000 locals touring it on open day before it opened. Developer Robert Hosken called its facade classic Georgian in a grand European style - though many residents felt the design was foreign to the city's nineteenth-century streets.",
+  "s": "1989 hotel many locals thought didn't belong",
+  "_facts": [
+   "Completed August 1989, cost 44 million dollars",
+   "20,000 locals visited on its open day before opening",
+   "Developer called the design Georgian in a grand European style; residents thought it foreign to the historic streetscape"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Hotel_Grand_Chancellor,_Launceston"],
+  "confidence": "medium"
+ },
+ {
+  "n": "King's Bridge",
+  "a": "Cataract Gorge",
+  "c": "history",
+  "lat": -41.44026,
+  "lng": 147.12707,
+  "w": "A wrought-iron bridge across the South Esk River at the mouth of Cataract Gorge, built from 1864 as the Cataract or South Esk Bridge. Its span was made in Manchester and shipped out for assembly here - the only way to drive across the river for decades. A second, near-identical span was added in 1904, built locally.",
+  "s": "1864 bridge at the mouth of Cataract Gorge",
+  "_facts": [
+   "Built from 1864 across the South Esk River at Cataract Gorge",
+   "Original span fabricated in Manchester, England, then assembled in Launceston",
+   "Second parallel span added in 1904, built locally"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/King%27s_Bridge_(Launceston)"],
+  "confidence": "high"
+ }
+]

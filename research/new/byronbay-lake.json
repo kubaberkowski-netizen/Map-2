@@ -1,0 +1,38 @@
+[
+ {
+  "n": "Arakwal National Park",
+  "a": "Byron Bay",
+  "c": "green",
+  "lat": -28.6603,
+  "lng": 153.621,
+  "w": "Wallum heath and three kilometres of sandy beach run south from Cape Byron to Tallow Beach, habitat for the vulnerable wallum froglet and wallum sedge frog. Proclaimed in 2001 after a land use agreement between the Arakwal people and the state, who now co-manage the park. Whale watching, bird watching, swimming, fishing.",
+  "s": "Wallum heath and beach south of Cape Byron",
+  "_facts": ["Proclaimed 2001", "Arakwal people co-manage the park", "Habitat for the vulnerable wallum froglet and sedge frog", "3km of sandy beach"],
+  "_sources": ["https://en.wikipedia.org/wiki/Arakwal_National_Park"],
+  "confidence": "medium"
+ },
+ {
+  "n": "Cape Byron Light",
+  "a": "Cape Byron",
+  "c": "maritime",
+  "lat": -28.6386,
+  "lng": 153.6363,
+  "w": "Built 1899 to 1901 on the most easterly point of mainland Australia, its light throws 2,200,000 candelas, making it the country's most powerful lighthouse. Designed by Charles Harding and Cecil W. Darley and built by Mitchell and King, it now doubles as an interpretive centre and maritime museum three kilometres from Byron Bay's town centre.",
+  "s": "Australia's most powerful lighthouse",
+  "_facts": ["Built 1899-1901", "2,200,000 candela light", "Designed by Harding and Darley", "3km from Byron Bay town centre"],
+  "_sources": ["https://en.wikipedia.org/wiki/Cape_Byron_Light"],
+  "confidence": "high"
+ },
+ {
+  "n": "Nguthungulli Julian Rocks Nature Reserve",
+  "a": "Julian Rocks",
+  "c": "green",
+  "lat": -28.6114,
+  "lng": 153.629,
+  "w": "Two small islands break the Tasman Sea 2.5 kilometres off Byron Bay, together protected as the 4,047-hectare Nguthungulli Julian Rocks Nature Reserve. The reserve sits in the Northern Rivers region of New South Wales, part of the same stretch of coast as Cape Byron, mainland Australia's easternmost point.",
+  "s": "Twin islands reserve off Byron Bay",
+  "_facts": ["4,047-hectare reserve", "Two islands 2.5km offshore", "Northern Rivers region"],
+  "_sources": ["https://en.wikipedia.org/wiki/Nguthungulli_Julian_Rocks_Nature_Reserve"],
+  "confidence": "thin"
+ }
+]

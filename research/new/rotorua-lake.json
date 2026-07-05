@@ -1,0 +1,86 @@
+[
+ {
+  "n": "Mokoia Island",
+  "a": "Lake Rotorua",
+  "c": "history",
+  "lat": -38.08,
+  "lng": 176.287,
+  "w": "A rhyolite lava dome rising 180m from Lake Rotorua, formed when magma pushed up through cracks left by the collapsed Rotorua caldera. Local Māori grew kumara in its rich volcanic soil, protected by the stone statue Matuatonga, which tohunga touched with seed kumara before planting. Geothermal springs feed the shoreline Hinemoa pool, known locally as Waikimihia, and the uninhabited island is now a bird sanctuary for kōkako, kiwi and saddleback.",
+  "s": "A volcanic island where kumara crops were guarded by a stone statue",
+  "_facts": [
+   "Rhyolite lava dome, 180m above the lake surface, in Lake Rotorua",
+   "Rich volcanic soil once used to grow kumara, protected by the stone statue Matuatonga",
+   "Geothermal Hinemoa pool (locally Waikimihia) on the shore",
+   "Now an uninhabited bird sanctuary: North Island kōkako, kiwi, saddleback"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Mokoia_Island"],
+  "confidence": "high"
+ },
+ {
+  "n": "Government Gardens",
+  "a": "",
+  "c": "green",
+  "lat": -38.1358,
+  "lng": 176.258,
+  "w": "Laid out beside Lake Rotorua by the New Zealand government, purpose-built as a tourism drawcard rather than growing up organically like most city parks. More than a century later it remains one of the country's major tourist destinations, anchoring central Rotorua's cluster of lakeside sights.",
+  "s": "A park built from scratch as a tourist drawcard",
+  "_facts": [
+   "Public park beside Lake Rotorua in central Rotorua",
+   "Built by the New Zealand government specifically as a tourism attraction",
+   "Remains a major national tourist destination"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Government_Gardens"],
+  "confidence": "thin"
+ },
+ {
+  "n": "Lake Rotorua",
+  "a": "",
+  "c": "green",
+  "lat": -38.08333,
+  "lng": 176.26944,
+  "w": "The second-largest lake in New Zealand's North Island by surface area, covering 79.8 square kilometres inside the Rotorua Caldera. Despite its size it averages just 10 metres deep, giving it a far smaller volume of water than nearby Lake Tarawera -- a wide, shallow crater lake around which the whole city is built.",
+  "s": "A wide, shallow crater lake -- just 10m deep on average",
+  "_facts": [
+   "Second-largest lake in the North Island by surface area: 79.8 sq km",
+   "Mean depth just 10 metres",
+   "Sits within the Rotorua Caldera",
+   "Smaller water volume than nearby Lake Tarawera despite its larger surface area"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Lake_Rotorua"],
+  "confidence": "high"
+ },
+ {
+  "n": "Rotorua Museum",
+  "a": "Government Gardens",
+  "c": "museum",
+  "lat": -38.1356,
+  "lng": 176.259,
+  "w": "Te Whare Taonga o Te Arawa, housed in the Government Gardens, holds more than 2,000 Māori taonga alongside its art and heritage collections. A Category 1 Historic Place since 1985, it has stood closed to the public since 2016, damaged by the Kaikoura earthquake, and remains under long-term strengthening and restoration.",
+  "s": "A Māori taonga museum shut since the 2016 quake",
+  "_facts": [
+   "Māori name Te Whare Taonga o Te Arawa",
+   "Located in Government Gardens, central Rotorua",
+   "Holds over 2,000 Māori taonga",
+   "Heritage New Zealand Category 1 since 1985; closed since 2016 Kaikoura earthquake damage"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/Rotorua_Museum"],
+  "confidence": "high"
+ },
+ {
+  "n": "New Zealand Māori Arts and Crafts Institute",
+  "a": "Whakarewarewa",
+  "c": "history",
+  "lat": -38.164,
+  "lng": 176.25,
+  "w": "Founded in 1963 as successor to Sir Apirana Ngata's 1926 national woodcarving school, set up to stop traditional Māori arts and crafts from being lost. Based at Whakarewarewa, it runs the country's national schools for major Māori art forms and has stayed financially independent for most of its history by tapping directly into the Whakarewarewa tourist trade, now organised under Te Puia.",
+  "s": "NZ's national school for traditional Māori craft, since 1963",
+  "_facts": [
+   "Founded 1963, successor to Sir Apirana Ngata's 1926 woodcarving school",
+   "Runs the national schools for major Māori art forms",
+   "Based at Whakarewarewa; financially independent via the tourist trade",
+   "Now operates under the Te Puia umbrella"
+  ],
+  "_sources": ["https://en.wikipedia.org/wiki/New_Zealand_M%C4%81ori_Arts_and_Crafts_Institute"],
+  "confidence": "high"
+ }
+]
