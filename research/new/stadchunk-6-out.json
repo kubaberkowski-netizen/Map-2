@@ -1,0 +1,807 @@
+[
+ {
+  "n": "Wembley Stadium",
+  "a": "",
+  "c": "stadium",
+  "city": "london",
+  "lat": 51.55556,
+  "lng": -0.27944,
+  "w": "Home of the England national football team and the FA Cup Final since it opened in 2007, on the site of the 1923-2000 original. Owned by the Football Association, with 90,000 seats it is the UK's largest stadium and Europe's second-largest after Camp Nou. Its 134m Wembley Arch supports over 75% of the roof load.",
+  "s": "England's national stadium, 90,000 seats",
+  "q": "Wembley Stadium",
+  "_facts": [
+   "90,000 seats",
+   "opened 2007",
+   "home of England national team and FA Cup Final",
+   "134m Wembley Arch supports 75% of roof"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Wembley_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "St James’ Park",
+  "a": "",
+  "c": "stadium",
+  "city": "northumberland",
+  "lat": 54.97556,
+  "lng": -1.62167,
+  "w": "Home of Newcastle United since 1892; football has been played on the site since 1880. Seats 52,264, the 9th-largest ground in England, with an asymmetrical layout from decades of expansion battles with local residents. Also hosted 2012 Olympics football and rugby league's Magic Weekend.",
+  "s": "Newcastle United's ground since 1892",
+  "q": "St James' Park",
+  "_facts": [
+   "capacity 52,264",
+   "home of Newcastle United since 1892",
+   "9th-largest ground in England",
+   "hosted 2012 Olympics football"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/St_James'_Park"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Juventus Stadium",
+  "a": "",
+  "c": "stadium",
+  "city": "turin",
+  "lat": 45.10959,
+  "lng": 7.64125,
+  "w": "Home of Juventus since 2011, built on the site of the former Stadio delle Alpi. Italy's first club-owned modern stadium, holding 41,689 and rated UEFA Category 4, one of only four Italian grounds at that level. Opened with a friendly against Notts County; Juventus lost just three of their first 100 league matches here.",
+  "s": "Juventus' own ground since 2011",
+  "q": "Juventus Stadium",
+  "_facts": [
+   "capacity 41,689",
+   "opened 2011",
+   "UEFA Category 4",
+   "Italy's first club-owned modern stadium"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Juventus_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Ramón Sánchez Pizjuán Stadium",
+  "a": "",
+  "c": "stadium",
+  "city": "seville",
+  "lat": 37.38388,
+  "lng": -5.97047,
+  "w": "Home of Sevilla FC, named for the club's former president Ramon Sanchez-Pizjuan (1900-1956). Hosted the 1986 European Cup final between Steaua Bucuresti and Barcelona, a 1982 World Cup semi-final between West Germany and France, and the 2022 Europa League final. Capacity 42,714, the ninth-largest stadium in Spain.",
+  "s": "Sevilla FC's ground, host to three finals",
+  "q": "Ramon Sanchez Pizjuan Stadium",
+  "_facts": [
+   "capacity 42,714",
+   "home of Sevilla FC",
+   "hosted 1986 European Cup final",
+   "hosted 2022 Europa League final"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Ramón_Sánchez-Pizjuán_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Stadion Wankdorf",
+  "a": "",
+  "c": "stadium",
+  "city": "bern",
+  "lat": 46.96278,
+  "lng": 7.465,
+  "w": "Home of BSC Young Boys and Switzerland's second-largest all-seater football stadium. Built in 2005 on the site of the original Wankdorf Stadium, host to the 1954 World Cup final. Has also served as a venue for UEFA Euro 2008 and UEFA Women's Euro 2025.",
+  "s": "BSC Young Boys' ground since 2005",
+  "q": "Stadion Wankdorf",
+  "_facts": [
+   "home of BSC Young Boys",
+   "Switzerland's 2nd-largest all-seater stadium",
+   "built 2005 on old Wankdorf site",
+   "venue for Euro 2008 and Women's Euro 2025"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Stadion_Wankdorf"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Stadio Luigi Ferraris",
+  "a": "",
+  "c": "stadium",
+  "city": "genoa",
+  "lat": 44.41643,
+  "lng": 8.95243,
+  "w": "Home to both Genoa CFC and UC Sampdoria, opened in 1911 as the oldest stadium still used for football in Italy. Known locally as the Marassi, after its neighbourhood. Named for Luigi Ferraris (1887-1915), an Italian footballer, engineer and soldier killed in World War I. Also hosts Italian national rugby fixtures.",
+  "s": "Shared home of Genoa and Sampdoria since 1911",
+  "q": "Stadio Luigi Ferraris",
+  "_facts": [
+   "opened 1911",
+   "oldest football stadium still in use in Italy",
+   "shared by Genoa CFC and UC Sampdoria",
+   "named for Luigi Ferraris, killed in WWI"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Stadio_Luigi_Ferraris"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Stadio Artemio Franchi",
+  "a": "",
+  "c": "stadium",
+  "city": "florence",
+  "lat": 43.78082,
+  "lng": 11.28226,
+  "w": "Home of ACF Fiorentina, opened 13 September 1931 as the Stadio Giovanni Berta and renamed in 1991 for former FIGC president Artemio Franchi. Designed by Pier Luigi Nervi, its 70m Tower of Marathon is a Florence landmark. Hosted 1934 World Cup matches and three 1990 World Cup group games.",
+  "s": "Fiorentina's Nervi-designed ground",
+  "q": "Stadio Artemio Franchi",
+  "_facts": [
+   "opened 1931",
+   "designed by Pier Luigi Nervi",
+   "70m Tower of Marathon",
+   "hosted 1934 and 1990 World Cup matches"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Stadio_Artemio_Franchi"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "A. Le Coq Arena",
+  "a": "",
+  "c": "stadium",
+  "city": "tallinn",
+  "lat": 59.42129,
+  "lng": 24.73205,
+  "w": "Officially the Lillekula Stadium, home ground of football clubs Flora and Levadia and of the Estonia national team. Opened in 2001 and expanded in 2018, it is Estonia's largest stadium at 14,336 capacity. Hosted the 2018 UEFA Super Cup and the 2012 UEFA European Under-19 Championship.",
+  "s": "Estonia's national stadium, 14,336 seats",
+  "q": "A. Le Coq Arena",
+  "_facts": [
+   "capacity 14,336, largest in Estonia",
+   "home of Flora, Levadia and Estonia national team",
+   "opened 2001, expanded 2018",
+   "hosted 2018 UEFA Super Cup"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Lilleküla_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Strawberry Arena",
+  "a": "",
+  "c": "stadium",
+  "city": "stockholm",
+  "lat": 59.3725,
+  "lng": 18,
+  "w": "Officially Nationalarenan, Sweden's national football stadium and the largest arena in Scandinavia, sited by Lake Rastasjon in Solna. Home to the men's national team and Allsvenskan club AIK, both relocated from the former Rasunda Stadium. Roof retracts; holds up to 65,000 for concerts, 50,000 seated for football.",
+  "s": "Sweden's national stadium in Solna",
+  "q": "Strawberry Arena",
+  "_facts": [
+   "Sweden's national football stadium",
+   "largest arena in Scandinavia",
+   "home of AIK and Sweden men's national team",
+   "up to 65,000 for concerts, 50,000 seated for football"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Nationalarenan"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Vicarage Road",
+  "a": "",
+  "c": "stadium",
+  "city": "london",
+  "lat": 51.64993,
+  "lng": -0.40161,
+  "w": "Vicarage Road is a football stadium in the town of Watford, England. It serves as the home stadium of Championship club Watford Football Club. An all-seater ground, Vicarage Road currently holds a capacity of 22,200 seated spectators for home league matches.",
+  "s": "Watford FC's ground",
+  "q": "Vicarage Road",
+  "_facts": [
+   "home of Watford FC",
+   "all-seater capacity 22,200"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Vicarage_Road"
+  ],
+  "confidence": "thin"
+ },
+ {
+  "n": "Manchester Arena",
+  "a": "",
+  "c": "stadium",
+  "city": "manchester",
+  "lat": 53.48806,
+  "lng": -2.24389,
+  "w": "Indoor arena immediately north of Manchester city centre, built partly above Manchester Victoria railway station. With a 23,000 capacity it is the UK's second-largest indoor arena, after Co-op Live. Site of a 22 May 2017 terrorist bombing after an Ariana Grande concert, killing 22.",
+  "s": "UK's 2nd-largest indoor arena",
+  "q": "Manchester Arena",
+  "_facts": [
+   "capacity 23,000",
+   "UK's 2nd-largest indoor arena",
+   "used for 2002 Commonwealth Games",
+   "site of 22 May 2017 terrorist bombing"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Manchester_Arena"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "San Mamés Stadium",
+  "a": "",
+  "c": "stadium",
+  "city": "bilbao",
+  "lat": 43.2642,
+  "lng": -2.94937,
+  "w": "Former home of Athletic Bilbao, known as La Catedral and, locally, San Mames, after a nearby church dedicated to the Christian martyr Mammes, thrown to the lions in AD 259 - the source of the club's nickname, Los Leones. Replaced by a new stadium of the same name, inaugurated on 16 September 2013.",
+  "s": "Athletic Bilbao's old ground, La Catedral",
+  "q": "San Mames Stadium",
+  "_facts": [
+   "former home of Athletic Bilbao",
+   "known as La Catedral",
+   "source of the club's Los Leones nickname",
+   "replaced by new stadium in 2013"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/San_Mamés_Stadium_(1913)"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "n": "Estadio Coliseum",
+  "a": "",
+  "c": "stadium",
+  "city": "madrid",
+  "lat": 40.32556,
+  "lng": -3.71472,
+  "w": "Estadio Coliseum is a municipally owned football stadium in Getafe, Spain. It is the home ground of Getafe CF, serving as the club's stadium for home matches, owned and maintained by the local municipality rather than the football club itself.",
+  "s": "Getafe CF's municipal ground",
+  "q": "Estadio Coliseum",
+  "_facts": [
+   "home of Getafe CF",
+   "municipally owned"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Estadio_Coliseum"
+  ],
+  "confidence": "thin"
+ },
+ {
+  "n": "The Den",
+  "a": "",
+  "c": "stadium",
+  "city": "london",
+  "lat": 51.48583,
+  "lng": -0.05083,
+  "w": "Home of Millwall FC in New Cross Gate, south-east London, opened 30 September 1993 to replace the Old Den a quarter-mile away. All-seated capacity is 20,146, though attendance is capped near 18,100 for fan segregation and safety. It is the sixth ground occupied by the club since its 1885 founding on the Isle of Dogs.",
+  "s": "Millwall FC's ground since 1993",
+  "q": "The Den",
+  "_facts": [
+   "capacity 20,146",
+   "opened 1993",
+   "home of Millwall FC",
+   "sixth ground since club's 1885 founding"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/The_Den"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Forum di Milano",
+  "a": "",
+  "c": "stadium",
+  "city": "milan",
+  "lat": 45.40111,
+  "lng": 9.14222,
+  "w": "Indoor arena in Assago outside Milan, home of EuroLeague and Serie A basketball club Olimpia Milano. Officially seats 12,800, expanding to 15,800 with standing room, and also hosts ice hockey, tennis and concerts. Formerly the FilaForum, DatchForum and Mediolanum Forum before Unipol took over naming rights in 2024.",
+  "s": "Home of EuroLeague club Olimpia Milano",
+  "q": "Forum di Milano",
+  "_facts": [
+   "capacity 12,800 seated, 15,800 with standing",
+   "home of Olimpia Milano basketball",
+   "hosts ice hockey, tennis, concerts",
+   "renamed Unipol Forum in 2024"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Forum_di_Milano"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Camp de Les Corts",
+  "a": "",
+  "c": "stadium",
+  "city": "barcelona",
+  "lat": 41.38583,
+  "lng": 2.13556,
+  "w": "Camp de Les Corts, commonly known as Les Corts, was a sports stadium in Barcelona, Catalonia, Spain. It served as the home ground of FC Barcelona until the club relocated to the newly built Camp Nou in 1957. The ground was also home to CD Condal for that club's entire history.",
+  "s": "Barcelona's ground before Camp Nou",
+  "q": "Camp de Les Corts",
+  "_facts": [
+   "former home of FC Barcelona until 1957",
+   "home of CD Condal"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Camp_de_Les_Corts"
+  ],
+  "confidence": "thin"
+ },
+ {
+  "n": "Wankdorf Stadium",
+  "a": "",
+  "c": "stadium",
+  "city": "bern",
+  "lat": 46.96278,
+  "lng": 7.465,
+  "w": "Original Wankdorf Stadium in Bern, home of BSC Young Boys, built in 1925. Hosted the 1954 FIFA World Cup final, the 1960-61 European Cup final, and the 1988-89 European Cup Winners' Cup final. Demolished in 2001 and replaced in 2005 by the Stadion Wankdorf on the same site.",
+  "s": "Bern's ground that hosted the 1954 World Cup final",
+  "q": "Wankdorf Stadium",
+  "_facts": [
+   "built 1925",
+   "hosted 1954 World Cup final",
+   "hosted 1960-61 European Cup final",
+   "demolished 2001"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Wankdorf_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Dreisamstadion",
+  "a": "",
+  "c": "stadium",
+  "city": "blackforest",
+  "lat": 47.98889,
+  "lng": 7.89306,
+  "w": "Former home of Bundesliga club SC Freiburg from 1954 until 2021, when the club moved to the new Europa-Park Stadion. Built in 1953 near the Dreisam river, it held 24,000 spectators and carried sponsor names including Badenova-Stadion and Schwarzwald-Stadion. A 2015 referendum backed a 34,700-capacity replacement.",
+  "s": "SC Freiburg's old ground, 1954-2021",
+  "q": "Dreisamstadion",
+  "_facts": [
+   "home of SC Freiburg 1954-2021",
+   "built 1953",
+   "capacity 24,000",
+   "replaced by Europa-Park Stadion in 2021"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Dreisamstadion"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Twinsbet Arena",
+  "a": "",
+  "c": "stadium",
+  "city": "vilnius",
+  "lat": 54.71633,
+  "lng": 25.27994,
+  "w": "Largest arena in Vilnius and second-largest in Lithuania, opened 30 October 2004. Home to basketball club Rytas Vilnius since opening and to BC Wolves since the 2023-24 season. Sponsor-named Siemens Arena until 2020, then Avia Solutions Group Arena, Twinsbet Arena from 2024, and Arena Vilnius from April 2026.",
+  "s": "Vilnius' largest arena, home of BC Rytas",
+  "q": "Twinsbet Arena",
+  "_facts": [
+   "largest arena in Vilnius",
+   "opened 2004",
+   "home of BC Rytas Vilnius",
+   "renamed several times for sponsors"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Arena_Vilnius"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Ashton Gate Stadium",
+  "a": "",
+  "c": "stadium",
+  "city": "bristol",
+  "lat": 51.44,
+  "lng": -2.62028,
+  "w": "Multi-use stadium in Ashton Gate, Bristol, home to both the Bristol Bears rugby union team and Bristol City FC. Sited just south of the River Avon in the city's south-west, with an all-seated capacity of 27,000.",
+  "s": "Shared home of Bristol City and Bristol Bears",
+  "q": "Ashton Gate Stadium",
+  "_facts": [
+   "capacity 27,000",
+   "home of Bristol City FC",
+   "home of Bristol Bears rugby"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Ashton_Gate_(stadium)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Stadion An der Alten Försterei",
+  "a": "",
+  "c": "stadium",
+  "city": "berlin",
+  "lat": 52.45722,
+  "lng": 13.56806,
+  "w": "Home of 1. FC Union Berlin since 1920, in the Kopenick district - Berlin's largest single-purpose football stadium. Capacity last redeveloped in 2009 and expanded in 2013, partly by volunteering Union supporters; league capacity is 22,012, mostly standing terraces.",
+  "s": "Union Berlin's ground, built by fan volunteers",
+  "q": "Stadion An der Alten Forsterei",
+  "_facts": [
+   "home of 1. FC Union Berlin since 1920",
+   "Berlin's largest single-purpose football stadium",
+   "capacity 22,012",
+   "expanded partly by volunteer supporters"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Stadion_An_der_Alten_Försterei"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Generali Arena",
+  "a": "",
+  "c": "stadium",
+  "city": "vienna",
+  "lat": 48.16231,
+  "lng": 16.38669,
+  "w": "Officially the Franz Horr Stadium, home ground of FK Austria Wien since 1973, in southern Vienna. Known as Viola Park for international matches and as Generali Arena under its current sponsorship deal.",
+  "s": "FK Austria Wien's ground since 1973",
+  "q": "Generali Arena",
+  "_facts": [
+   "home of FK Austria Wien since 1973",
+   "known as Viola Park internationally"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Franz_Horr_Stadium"
+  ],
+  "confidence": "thin"
+ },
+ {
+  "n": "Echo Arena Liverpool",
+  "a": "",
+  "c": "stadium",
+  "city": "liverpool",
+  "lat": 53.39756,
+  "lng": -2.99164,
+  "w": "Multi-purpose indoor arena in Liverpool city centre, part of the ACC Liverpool event campus alongside an exhibition and convention centre. Hosts live music, comedy and sporting events, serving a regional population of 2.5 million people. Sponsor-named M&S Bank Arena, formerly the Echo Arena.",
+  "s": "Liverpool's indoor arena on the waterfront",
+  "q": "Echo Arena Liverpool",
+  "_facts": [
+   "part of ACC Liverpool event campus",
+   "serves 2.5 million regional population",
+   "hosts music, comedy, sport",
+   "formerly named Echo Arena"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Liverpool_Arena"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Stade 5 Juillet 1962",
+  "a": "",
+  "c": "stadium",
+  "city": "algiers",
+  "lat": 36.75989,
+  "lng": 2.99519,
+  "w": "Football and athletics stadium in Algiers named for Algeria's 1962 independence day, inaugurated in 1972 at 80,000 capacity, later reduced to 64,200 for safety. Hosted the 1990 Africa Cup of Nations final, Algeria beating Nigeria 1-0 before 105,302 fans. A 2010 friendly against Serbia drew a record 110,000.",
+  "s": "Algiers' stadium, host of the 1990 AFCON final",
+  "q": "Stade 5 Juillet 1962",
+  "_facts": [
+   "inaugurated 1972 at 80,000 capacity",
+   "hosted 1990 AFCON final, Algeria 1-0 Nigeria",
+   "record attendance 110,000 vs Serbia 2010",
+   "hosted 2000 African Championships in Athletics"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Stade_du_5_Juillet"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Stade Gaston Gérard",
+  "a": "",
+  "c": "stadium",
+  "city": "dijon",
+  "lat": 47.32616,
+  "lng": 5.06757,
+  "w": "Home ground of Dijon FCO, holding 15,459 people. A renovation begun in 2016 aimed to raise capacity to 20,000 seats, designed by architect Jean Guervilly at a cost of around 19 million euros, expected to finish in summer 2017.",
+  "s": "Dijon FCO's ground",
+  "q": "Stade Gaston Gerard",
+  "_facts": [
+   "home of Dijon FCO",
+   "capacity 15,459",
+   "2016 renovation targeted 20,000 seats"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Stade_Gaston_Gérard"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "n": "Europa-Park-Stadion",
+  "a": "",
+  "c": "stadium",
+  "city": "blackforest",
+  "lat": 48.02154,
+  "lng": 7.83001,
+  "w": "Opened in 2021 as the new home of SC Freiburg, replacing the Dreisamstadion, in the Bruhl district just west of Freiburg Airport. Also known locally as the Mooswald-Stadion and, in UEFA competitions, as the Stadion am Wolfswinkel.",
+  "s": "SC Freiburg's ground since 2021",
+  "q": "Europa-Park-Stadion",
+  "_facts": [
+   "opened 2021",
+   "home of SC Freiburg",
+   "replaced the Dreisamstadion",
+   "also called Stadion am Wolfswinkel in UEFA play"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Europa-Park_Stadion"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "n": "Henryk Reyman Municipal Stadium",
+  "a": "",
+  "c": "stadium",
+  "city": "malopolska",
+  "lat": 50.06361,
+  "lng": 19.91194,
+  "w": "Home ground of Wisla Krakow, originally built in 1953 and fully reconstructed from 2003 to 2011 with four new stands and a media pavilion. Named in 2008 for club legend Henryk Tomasz Reyman, it seats 33,326, is all-seated and fully roofed, and meets UEFA Category 4 criteria. Sponsor-named Synerise Arena.",
+  "s": "Wisla Krakow's fully-roofed ground",
+  "q": "Henryk Reyman Municipal Stadium",
+  "_facts": [
+   "home of Wisla Krakow",
+   "capacity 33,326",
+   "UEFA Category 4",
+   "reconstructed 2003-2011"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Henryk_Reyman_Municipal_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Royal Arena",
+  "a": "",
+  "c": "stadium",
+  "city": "copenhagen",
+  "lat": 55.6252,
+  "lng": 12.5736,
+  "w": "Multi-use indoor arena in the Orestad South area of Copenhagen, with construction begun on 26 June 2013 and opening in February 2017. Capacity is 12,500 for sporting events and up to 17,000, seated or standing, for concerts.",
+  "s": "Copenhagen's multi-use indoor arena",
+  "q": "Royal Arena",
+  "_facts": [
+   "opened February 2017",
+   "capacity 12,500 for sport",
+   "up to 17,000 for concerts"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Royal_Arena"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "n": "Tangier Grand Stadium",
+  "a": "",
+  "c": "stadium",
+  "city": "tangier",
+  "lat": 35.74121,
+  "lng": -5.85811,
+  "w": "Commonly known as Ibn Batouta Stadium, used mainly for football and major ceremonies and concerts in Tangier, Morocco. Renovated to a legal capacity of 75,500 ahead of hosting the 2025 Africa Cup of Nations, becoming the new home of IR Tangier and replacing the former Stade de Marchan.",
+  "s": "Tangier's stadium, host of 2025 AFCON",
+  "q": "Tangier Grand Stadium",
+  "_facts": [
+   "capacity 75,500",
+   "renovated for 2025 AFCON",
+   "home of IR Tangier",
+   "also known as Ibn Batouta Stadium"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Tangier_Grand_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "North Road",
+  "a": "",
+  "c": "stadium",
+  "city": "manchester",
+  "lat": 53.50361,
+  "lng": -2.19889,
+  "w": "First home of Manchester United, from the club's 1878 founding as Newton Heath Lancashire and Yorkshire Railway FC until 1893, when it moved to Bank Street, Clayton. Initially just a pitch holding around 12,000 spectators, capacity rose to about 15,000 after stands were added in 1891.",
+  "s": "Manchester United's first ground, 1878-1893",
+  "q": "North Road",
+  "_facts": [
+   "Manchester United's first ground, 1878-1893",
+   "capacity rose to ~15,000 after 1891 stands",
+   "club evicted after losing railway company backing"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/North_Road,_Manchester"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Hallenstadion",
+  "a": "",
+  "c": "stadium",
+  "city": "zurich",
+  "lat": 47.41139,
+  "lng": 8.55167,
+  "w": "Multi-purpose venue in the Oerlikon quarter of northern Zurich, designed by Bruno Giacometti, opened 4 November 1939 and renovated in 2004-05. Seats 11,200 and was home to ice hockey club ZSC Lions from 1950 until 2022, when they moved to the new 12,000-seat Swiss Life Arena in Altstetten.",
+  "s": "Zurich's arena, ZSC Lions' home 1950-2022",
+  "q": "Hallenstadion",
+  "_facts": [
+   "opened 1939",
+   "capacity 11,200",
+   "home of ZSC Lions 1950-2022",
+   "designed by Bruno Giacometti"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Hallenstadion"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Stade Charléty",
+  "a": "",
+  "c": "stadium",
+  "city": "paris",
+  "lat": 48.81716,
+  "lng": 2.34511,
+  "w": "Multi-purpose, state-owned venue in the 13th arrondissement of Paris, combining a running track and football pitch, with 20,000 seats. Current home ground of the Paris Universite Club rugby union team, which operates the venue.",
+  "s": "Paris' athletics and rugby stadium",
+  "q": "Stade Charlety",
+  "_facts": [
+   "20,000 seats",
+   "combines running track and football pitch",
+   "home of Paris Universite Club rugby"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Stade_Sébastien_Charléty"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "n": "Marshal Józef Piłsudski Stadium",
+  "a": "",
+  "c": "stadium",
+  "city": "malopolska",
+  "lat": 50.05806,
+  "lng": 19.91972,
+  "w": "Home ground of Cracovia in Krakow, named for Polish Chief of State Marshal Jozef Pilsudski. The original 1912 stadium was demolished in 2009 and rebuilt on roughly the same site by late 2010, reopening at 15,114 capacity and meeting UEFA Category 3 criteria.",
+  "s": "Cracovia's ground, rebuilt 2009-2010",
+  "q": "Marshal Jozef Pilsudski Stadium",
+  "_facts": [
+   "home of Cracovia",
+   "capacity 15,114",
+   "rebuilt 2009-2010",
+   "UEFA Category 3"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Józef_Piłsudski_Cracovia_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Victoria Park",
+  "a": "",
+  "c": "stadium",
+  "city": "highlands",
+  "lat": 57.5959,
+  "lng": -4.41891,
+  "w": "Victoria Park, known as the Global Energy Stadium for sponsorship reasons, is an all-seater football stadium in the town of Dingwall, in Highland, Scotland. It serves as the home ground of Ross County Football Club, who currently play their home league fixtures here in the Scottish League One.",
+  "s": "Ross County FC's ground in Dingwall",
+  "q": "Victoria Park",
+  "_facts": [
+   "home of Ross County FC",
+   "all-seater",
+   "sponsor-named Global Energy Stadium"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Victoria_Park,_Dingwall"
+  ],
+  "confidence": "thin"
+ },
+ {
+  "n": "Solitude",
+  "a": "",
+  "c": "stadium",
+  "city": "belfast",
+  "lat": 54.61952,
+  "lng": -5.94727,
+  "w": "Home of Cliftonville, Ireland's oldest football club, and the oldest football stadium in the country, built in 1890 in north Belfast. Full capacity is 6,224 but currently restricted to 2,530 under safety rules with the old main stand closed. A 3G synthetic pitch replaced grass in 2010.",
+  "s": "Ireland's oldest football stadium",
+  "q": "Solitude",
+  "_facts": [
+   "built 1890",
+   "oldest football stadium in Ireland",
+   "home of Cliftonville",
+   "capacity restricted to 2,530"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Solitude_(football_ground)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Arena Civica",
+  "a": "",
+  "c": "stadium",
+  "city": "milan",
+  "lat": 45.47546,
+  "lng": 9.17854,
+  "w": "Multi-purpose stadium in Milan opened 18 August 1807, officially the Arena Gianni Brera and a leading example of the city's neoclassical architecture. Holds 10,000 to 30,000 spectators; was home to Inter Milan from 1930 to 1947 and to Inter Women since 2023. Hosts the annual Notturna di Milano athletics meeting.",
+  "s": "Milan's neoclassical stadium, opened 1807",
+  "q": "Arena Civica",
+  "_facts": [
+   "opened 1807",
+   "capacity 10,000-30,000",
+   "former home of Inter Milan 1930-1947",
+   "hosts Notturna di Milano athletics meeting"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Arena_Civica"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Tolka Park",
+  "a": "",
+  "c": "stadium",
+  "city": "dublin",
+  "lat": 53.36751,
+  "lng": -6.25198,
+  "w": "Home ground of League of Ireland club Shelbourne, in the Drumcondra suburb on the River Tolka, known in Irish as Pairc na Tulchann. Capacity was scaled down from 9,680 to 6,450 for safety reasons. Hosted Champions League and UEFA Cup qualifiers plus the 1994 European Under-16 Championship.",
+  "s": "Shelbourne FC's ground on the River Tolka",
+  "q": "Tolka Park",
+  "_facts": [
+   "home of Shelbourne FC",
+   "capacity scaled down to 6,450",
+   "hosted Champions League qualifiers",
+   "250-year lease agreed October 2025"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Tolka_Park"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Nea Smyrni Stadium",
+  "a": "",
+  "c": "stadium",
+  "city": "athens",
+  "lat": 37.94303,
+  "lng": 23.70922,
+  "w": "Home stadium of Panionios in Nea Smyrni, Greece, built in 1939. All-seated capacity is 11,700, down from close to 19,000 before full seating was installed in 1998 for the club's UEFA Cup Winners' Cup run. Eligible to host UEFA Europa League matches, with pitch dimensions of about 105 by 72 metres.",
+  "s": "Panionios' ground, built 1939",
+  "q": "Nea Smyrni Stadium",
+  "_facts": [
+   "home of Panionios",
+   "built 1939",
+   "capacity 11,700",
+   "eligible for UEFA Europa League matches"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Nea_Smyrni_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Stadion Polonii Warszawa",
+  "a": "",
+  "c": "stadium",
+  "city": "warsaw",
+  "lat": 52.25552,
+  "lng": 21.00132,
+  "w": "Officially the General Kazimierz Sosnkowski Municipal Stadium, known locally as K6, home ground of Polonia Warsaw, originally built in 1928. The East stand was modernized in 2004 and the ground served as a training venue for UEFA Euro 2012. Current capacity is 6,852 seats.",
+  "s": "Polonia Warsaw's ground, known as K6",
+  "q": "Stadion Polonii Warszawa",
+  "_facts": [
+   "home of Polonia Warsaw",
+   "built 1928",
+   "training venue for Euro 2012",
+   "capacity 6,852"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/General_Kazimierz_Sosnkowski_Municipal_Stadium"
+  ],
+  "confidence": "high"
+ }
+]

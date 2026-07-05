@@ -1,0 +1,794 @@
+[
+ {
+  "n": "Emirates Stadium",
+  "a": "",
+  "c": "stadium",
+  "city": "london",
+  "lat": 51.555,
+  "lng": -0.10833,
+  "w": "Home of Arsenal FC since 2006, built on an industrial and waste-disposal site in Ashburton Grove after the club left Highbury. Seats about 60,700, one of England's largest football grounds, and cost GBP 390 million. Renowned pitch quality has earned it the nickname 'the Carpet' among fans and press.",
+  "s": "Arsenal's home since 2006, seats 60,700",
+  "q": "Emirates Stadium",
+  "_facts": [
+   "Home of Arsenal FC since 2006",
+   "Capacity approx 60,700",
+   "Cost GBP 390 million",
+   "Built on former Ashburton Grove industrial site"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Emirates_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Hampden Park",
+  "a": "Mount Florida",
+  "c": "stadium",
+  "city": "glasgow",
+  "lat": 55.82586,
+  "lng": -4.252,
+  "w": "Scotland's national football stadium, in Mount Florida, owned by the Scottish FA. Opened 1903, it was the world's largest stadium until 1950 and hosted the 1960 European Cup final between Real Madrid and Eintracht Frankfurt before a record 127,621 fans, still the highest attendance ever at a European Cup final.",
+  "s": "Scotland's national stadium since 1903",
+  "q": "Hampden Park",
+  "_facts": [
+   "Home of Scotland national football team",
+   "Capacity 51,866",
+   "1960 European Cup final crowd of 127,621",
+   "Hosted 2014 Commonwealth Games closing ceremony"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Hampden_Park"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "RheinEnergie Stadion",
+  "a": "Mungersdorf",
+  "c": "stadium",
+  "city": "cologne",
+  "lat": 50.93361,
+  "lng": 6.875,
+  "w": "Home ground of 1.FC Koln, built on the site of two earlier Mungersdorfer stadiums. Hosted matches at UEFA Euro 1988, the 2006 FIFA World Cup, the 2020 UEFA Europa League final played behind closed doors, and UEFA Euro 2024. Local utility RheinEnergie holds the naming rights.",
+  "s": "Cologne's Bundesliga ground, Euro 2024 host",
+  "q": "RheinEnergie Stadion",
+  "_facts": [
+   "Home of 1. FC Koln",
+   "Capacity 46,195",
+   "Hosted 2006 World Cup and Euro 2024 matches",
+   "2020 Europa League final played here behind closed doors"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/RheinEnergieStadion"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Estádio da Luz",
+  "a": "",
+  "c": "stadium",
+  "city": "lisbon",
+  "lat": 38.75278,
+  "lng": -9.18472,
+  "w": "Home of Benfica since it opened on 25 October 2003, replacing an earlier stadium of the same name. Seats 68,100, the largest capacity in Portugal, designed by HOK Sport at a cost of EUR 160 million. Hosted the Euro 2004 final and the 2014 and 2020 UEFA Champions League finals.",
+  "s": "Benfica's home since 2003, Portugal's biggest",
+  "q": "Estadio da Luz",
+  "_facts": [
+   "Home of Benfica since 2003",
+   "Capacity 68,100, largest in Portugal",
+   "Hosted Euro 2004 final",
+   "Hosted 2014 and 2020 Champions League finals"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Estádio_da_Luz"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Aviva Stadium",
+  "a": "Lansdowne Road",
+  "c": "stadium",
+  "city": "dublin",
+  "lat": 53.33496,
+  "lng": -6.22825,
+  "w": "Built on the site of the demolished Lansdowne Road Stadium and opened 14 May 2010, seating 51,711. Home to the Ireland rugby union team and the Republic of Ireland football team, jointly run by the IRFU and FAI. Hosted the 2011 and 2024 UEFA Europa League finals as Ireland's first UEFA Category 4 stadium.",
+  "s": "Ireland's rugby and football home since 2010",
+  "q": "Aviva Stadium",
+  "_facts": [
+   "Home of Ireland rugby and football teams",
+   "Capacity 51,711, all seated",
+   "Built on former Lansdowne Road site, opened 2010",
+   "Hosted 2011 and 2024 Europa League finals"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Aviva_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Atatürk Olympic Stadium",
+  "a": "Basaksehir",
+  "c": "stadium",
+  "city": "istanbul",
+  "lat": 41.07447,
+  "lng": 28.7657,
+  "w": "Built 1999-2002 for Turkey's failed bid to host the 2008 Olympics, at a cost of about USD 140 million. Seats 77,563 and holds UEFA's top 5-star rating and IAAF track and field certification. Staged the 2005 Champions League final between Milan and Liverpool, one of the greatest comebacks in the competition's history.",
+  "s": "Turkey's Olympic-bid stadium, 2005 final host",
+  "q": "Ataturk Olympic Stadium",
+  "_facts": [
+   "Capacity 77,563, all-seater",
+   "Built 1999-2002 for a failed Olympic bid",
+   "Hosted 2005 Champions League final, Milan vs Liverpool",
+   "UEFA 5-star and IAAF-certified venue"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Atatürk_Olympic_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Helsinki Olympic Stadium",
+  "a": "Toolo",
+  "c": "stadium",
+  "city": "helsinki",
+  "lat": 60.18689,
+  "lng": 24.92606,
+  "w": "Centrepiece of the 1952 Summer Olympics, hosting athletics, show jumping and the football finals, and Finland's largest stadium, in the Toolo district. Also staged the 1983 and 2005 World Athletics Championships and the 1957 Bandy World Championship. Reopened August 2020 after a four-year renovation.",
+  "s": "1952 Olympics centrepiece, reopened 2020",
+  "q": "Helsinki Olympic Stadium",
+  "_facts": [
+   "Main venue of the 1952 Summer Olympics",
+   "Finland's largest stadium",
+   "Hosted 1983 and 2005 World Athletics Championships",
+   "Reopened 2020 after four-year renovation"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Helsinki_Olympic_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "King Baudouin Stadium",
+  "a": "Heysel",
+  "c": "stadium",
+  "city": "brussels",
+  "lat": 50.89571,
+  "lng": 4.33408,
+  "w": "Built for the 1935 Brussels International Exposition on the Heysel plateau and inaugurated 23 August 1930 before a crowd of 70,000, with Crown Prince Leopold opening it. Renamed for King Baudouin after his 1993 death. Sits beside the Atomium and Mini-Europe park, near the Heysel metro station.",
+  "s": "Brussels' Heysel plateau stadium since 1930",
+  "q": "King Baudouin Stadium",
+  "_facts": [
+   "Opened 23 August 1930 on the Heysel plateau",
+   "Originally held 70,000 spectators",
+   "Named after King Baudouin after his 1993 death",
+   "Located beside the Atomium"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/King_Baudouin_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Brighton Community Stadium",
+  "a": "Falmer",
+  "c": "stadium",
+  "city": "brighton",
+  "lat": 50.86182,
+  "lng": -0.08328,
+  "w": "Known as the Amex, home of Brighton and Hove Albion since the club took possession on 31 May 2011. Seats 31,876, the second-largest ground in South East England. Hosted 2015 Rugby World Cup and UEFA Women's Euro 2022 matches, plus Brighton's first European tie in 2023 against AEK Athens in the Europa League.",
+  "s": "Brighton's Amex ground, home since 2011",
+  "q": "Brighton Community Stadium",
+  "_facts": [
+   "Home of Brighton and Hove Albion since 2011",
+   "Capacity 31,876",
+   "Hosted 2015 Rugby World Cup matches",
+   "Hosted UEFA Women's Euro 2022 fixtures"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Falmer_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Boleyn Ground",
+  "a": "Upton Park",
+  "c": "stadium",
+  "city": "london",
+  "lat": 51.53194,
+  "lng": 0.03944,
+  "w": "Also known as Upton Park, this was West Ham United's home from 1904 to 2016, closing capacity 35,016. Charlton Athletic briefly groundshared here in the early 1990s. The final match, 10 May 2016, was a 3-2 win over Manchester United; West Ham then moved to London Stadium and the ground was demolished.",
+  "s": "West Ham's Upton Park home, 1904-2016",
+  "q": "Boleyn Ground",
+  "_facts": [
+   "Home of West Ham United, 1904 to 2016",
+   "Closing capacity 35,016",
+   "Last match 10 May 2016 v Manchester United",
+   "Demolished 2016 for redevelopment"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Boleyn_Ground"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Olympic Stadium",
+  "a": "",
+  "c": "stadium",
+  "city": "amsterdam",
+  "lat": 52.34342,
+  "lng": 4.85419,
+  "w": "Main stadium of the 1928 Summer Olympics, originally holding 31,600 and later expanded to 64,000 after Rotterdam's De Kuip stadium opened in 1937. Ajax played internationals here until 1996. A later renovation stripped the added tier, cutting capacity to 22,288 and restoring it for track and field.",
+  "s": "1928 Olympics stadium, later Ajax's ground",
+  "q": "Olympic Stadium",
+  "_facts": [
+   "Main venue of the 1928 Summer Olympics",
+   "Capacity reduced to 22,288 after 1990s renovation",
+   "Ajax's home for internationals until 1996",
+   "National monument since 1987"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Olympic_Stadium_(Amsterdam)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Groupama Arena",
+  "a": "Ferencvaros",
+  "c": "stadium",
+  "city": "budapest",
+  "lat": 47.47528,
+  "lng": 19.09611,
+  "w": "Home of Ferencvarosi TC, built on the site of the demolished Florian Albert Stadium, known commercially as the Groupama Arena. Holds 22,000, briefly Hungary's largest stadium between the 2017 demolition of the Ferenc Puskas Stadium and the 2019 Puskas Arena opening. Sponsor naming is barred at FIFA/UEFA games.",
+  "s": "Ferencvaros' home, briefly Hungary's biggest",
+  "q": "Groupama Arena",
+  "_facts": [
+   "Home of Ferencvarosi TC",
+   "Capacity 22,000",
+   "Built on the site of the former Florian Albert Stadium",
+   "Briefly Hungary's largest stadium, 2017-2019"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Ferencváros_Stadion"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Alfredo di Stéfano Stadium",
+  "a": "Valdebebas",
+  "c": "stadium",
+  "city": "madrid",
+  "lat": 40.47667,
+  "lng": -3.61417,
+  "w": "Named after Real Madrid legend Alfredo di Stefano (1926-2014), a forward who starred in the club's early European Cup dynasty. The stadium is used by Real Madrid Femenino and Real Madrid Castilla, the club's women's and reserve teams, at the Valdebebas training complex.",
+  "s": "Named for Real Madrid great di Stefano",
+  "q": "Alfredo di Stefano Stadium",
+  "_facts": [
+   "Named after Real Madrid player Alfredo di Stefano",
+   "Used by Real Madrid Femenino and Castilla",
+   "Capacity around 6,000"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Alfredo_Di_Stéfano_Stadium"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "n": "Brentford Community Stadium",
+  "a": "Brentford",
+  "c": "stadium",
+  "city": "london",
+  "lat": 51.49083,
+  "lng": -0.2887,
+  "w": "Known as the Gtech Community Stadium, home of Premier League club Brentford since it opened in 2020. Seats 17,250 and is designed for both football and rugby union. Built as the centrepiece of a wider regeneration of the surrounding area, it also hosted matches during UEFA Women's Euro 2022.",
+  "s": "Brentford's home ground since 2020",
+  "q": "Brentford Community Stadium",
+  "_facts": [
+   "Home of Brentford FC since 2020",
+   "Capacity 17,250",
+   "Hosted UEFA Women's Euro 2022 matches",
+   "Suitable for football and rugby union"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Brentford_Community_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Estadi Mallorca Son Moix",
+  "a": "Can Valero",
+  "c": "stadium",
+  "city": "palma",
+  "lat": 39.59,
+  "lng": 2.63,
+  "w": "Home of Real Club Deportivo Mallorca, built for the 1999 Summer Universiade in the Can Valero industrial zone. Seats 25,736, the largest stadium in the Balearic Islands, and replaced the club's old Lluis Sitjar ground under a 50-year agreement signed in 1999. Its bowl design leaves room for expansion to over 40,000.",
+  "s": "Real Mallorca's home, biggest in the Balearics",
+  "q": "Estadi Mallorca Son Moix",
+  "_facts": [
+   "Home of Real Club Deportivo Mallorca",
+   "Capacity 25,736, largest in the Balearic Islands",
+   "Built for the 1999 Summer Universiade",
+   "Club holds a 50-year agreement signed in 1999"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Estadi_Mallorca_Son_Moix"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Murrayfield Stadium",
+  "a": "Murrayfield",
+  "c": "stadium",
+  "city": "edinburgh",
+  "lat": 55.94223,
+  "lng": -3.24092,
+  "w": "Headquarters of the Scottish Rugby Union and national stadium of the Scotland rugby team, seating 67,144, the largest ground in Scotland and fifth-largest in the UK. Opened 21 March 1925 with a Scotland win over England that completed a Grand Slam. Has also hosted American football, rugby league and football matches.",
+  "s": "Scotland's rugby HQ, opened 1925",
+  "q": "Murrayfield Stadium",
+  "_facts": [
+   "Home of Scotland national rugby union team",
+   "Capacity 67,144, largest in Scotland",
+   "Opened 21 March 1925 with a Scotland Grand Slam win",
+   "Owned by the Scottish Rugby Union"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Murrayfield_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Stade de la Meinau",
+  "a": "Meinau",
+  "c": "stadium",
+  "city": "blackforest",
+  "lat": 48.55942,
+  "lng": 7.75738,
+  "w": "Home ground of RC Strasbourg, commonly called 'la Meinau', owned by the Strasbourg municipality and rented to the club. Hosted a 1938 World Cup match, two Euro 1984 games and the 1988 Cup Winners' Cup final. Pope John Paul II celebrated Mass here in 1988, and the ground has also staged concerts.",
+  "s": "RC Strasbourg's home, 1988 Cup Winners' Cup final",
+  "q": "Stade de la Meinau",
+  "_facts": [
+   "Home of RC Strasbourg",
+   "Capacity 26,109",
+   "Hosted the 1988 Cup Winners' Cup final",
+   "Hosted a 1938 World Cup match"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Stade_de_la_Meinau"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Silesian Stadium",
+  "a": "Chorzow",
+  "c": "stadium",
+  "city": "katowice",
+  "lat": 50.28833,
+  "lng": 18.97306,
+  "w": "Sits in Silesian Park in Chorzow and was Poland's national football stadium for decades before Warsaw's National Stadium opened. Closed for reconstruction 2009-2017, reopened with a fully covered capacity of 54,378. Hosts the Kamila Skolimowska Memorial Diamond League meeting and staged 2023 European Games athletics.",
+  "s": "Poland's former national stadium, rebuilt 2017",
+  "q": "Silesian Stadium",
+  "_facts": [
+   "Capacity 54,378, fully covered",
+   "Poland's national football stadium for decades",
+   "Closed for reconstruction 2009-2017",
+   "Hosts the Kamila Skolimowska Memorial Diamond League meeting"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Silesian_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Bloomfield Road",
+  "a": "",
+  "c": "stadium",
+  "city": "blackpool",
+  "lat": 53.80472,
+  "lng": -3.04806,
+  "w": "Home of Blackpool FC since 1901, the club's third ground after Raikes Hall Gardens and the Athletic Grounds. Its three stands are named for club legends Stan Mortensen, Jimmy Armfield and Stanley Matthews. Record attendance of 38,098 came against Wolves on 17 September 1955; it also hosted 2005 Women's Euro matches.",
+  "s": "Blackpool FC's home ground since 1901",
+  "q": "Bloomfield Road",
+  "_facts": [
+   "Home of Blackpool FC since 1901",
+   "Record attendance 38,098, set in 1955",
+   "Stands named for Mortensen, Armfield and Matthews",
+   "Hosted 2005 UEFA Women's Championship matches"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Bloomfield_Road"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Rudolf-Harbig-Stadion",
+  "a": "",
+  "c": "stadium",
+  "city": "dresden",
+  "lat": 51.04028,
+  "lng": 13.74778,
+  "w": "Current home of Dynamo Dresden, named after German middle-distance runner Rudolf Harbig. Sports facilities have stood on the site, the Guntzwiesen, since 1874, and the ground has irregularly hosted German national team fixtures since 1911.",
+  "s": "Dynamo Dresden's home, sports site since 1874",
+  "q": "Rudolf-Harbig-Stadion",
+  "_facts": [
+   "Home of Dynamo Dresden",
+   "Capacity 32,085",
+   "Named after runner Rudolf Harbig",
+   "Site used for sport since 1874"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Rudolf-Harbig-Stadion"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "n": "Stadio Angelo Massimino",
+  "a": "Cibali",
+  "c": "stadium",
+  "city": "catania",
+  "lat": 37.51583,
+  "lng": 15.07139,
+  "w": "Home of Calcio Catania in the Cibali district, still commonly called the Cibali stadium locally. Built in 1935 by architect Raffaele Leone, it holds 23,266 and was renamed in 2002 for former club chairman Angelo Massimino. Also hosted Jolly Componibili Catania, the women's side that won the 1978 Scudetto.",
+  "s": "Catania's ground, built 1935, renamed 2002",
+  "q": "Stadio Angelo Massimino",
+  "_facts": [
+   "Home of Calcio Catania",
+   "Capacity 23,266",
+   "Built in 1935 by architect Raffaele Leone",
+   "Renamed for chairman Angelo Massimino in 2002"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Stadio_Angelo_Massimino"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Estadi Comunal d'Aixovall",
+  "a": "Sant Julia de Loria",
+  "c": "stadium",
+  "city": "andorra",
+  "lat": 42.47639,
+  "lng": 1.48767,
+  "w": "Former football stadium in Aixovall, in the parish of Sant Julia de Loria near Andorra la Vella, commercially named DEVK-Arena. Held 1,000 seated spectators. Together with the Estadi Comunal d'Andorra la Vella it staged all matches of Andorra's top two football divisions, the Primera and Segona Divisio.",
+  "s": "Small ground hosting Andorra's top leagues",
+  "q": "Estadi Comunal d'Aixovall",
+  "_facts": [
+   "Capacity 1,000, all seated",
+   "Hosted matches of Andorra's Primera and Segona Divisio",
+   "Located in Sant Julia de Loria parish"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Camp_d'Esports_d'Aixovall"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "n": "Griffin Park",
+  "a": "Brentford",
+  "c": "stadium",
+  "city": "london",
+  "lat": 51.48817,
+  "lng": -0.30264,
+  "w": "Home of Brentford FC from its opening in September 1904 until August 2020, in a residential part of the London Borough of Hounslow. Famous as the only English league ground with a pub on each of its four corners. Its name refers to the griffin in the logo of Fuller's Brewery, once owner of the orchard it was built on.",
+  "s": "Brentford's old ground, a pub on each corner",
+  "q": "Griffin Park",
+  "_facts": [
+   "Home of Brentford FC, 1904 to 2020",
+   "Only English league ground with a pub on each corner",
+   "Named for the griffin in Fuller's Brewery logo"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Griffin_Park"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Lansdowne Road",
+  "a": "Ballsbridge",
+  "c": "stadium",
+  "city": "dublin",
+  "lat": 53.33501,
+  "lng": -6.2292,
+  "w": "Owned by the Irish Rugby Football Union, this Dublin stadium was primarily used for rugby union and football internationals before being demolished in 2007 to make way for the Aviva Stadium, which opened on the same site in 2010. It took its name from the adjacent street in Ballsbridge.",
+  "s": "Dublin's rugby ground, replaced by the Aviva",
+  "q": "Lansdowne Road",
+  "_facts": [
+   "Owned by the Irish Rugby Football Union",
+   "Demolished 2007, replaced by the Aviva Stadium in 2010",
+   "Named after the adjacent Lansdowne Road"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Lansdowne_Road"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "n": "Charmilles Stadium",
+  "a": "",
+  "c": "stadium",
+  "city": "geneva",
+  "lat": 46.2091,
+  "lng": 6.1182,
+  "w": "Former home of Servette FC, built in 1930 for that year's Coupe des Nations tournament and holding 9,250. Hosted four matches of the 1954 FIFA World Cup, one of the tournament's host venues in Switzerland. Closed in 2002 when Servette moved to the newly built Stade de Geneve.",
+  "s": "Servette's old ground, 1954 World Cup venue",
+  "q": "Charmilles Stadium",
+  "_facts": [
+   "Home of Servette FC until 2002",
+   "Capacity 9,250",
+   "Hosted four matches of the 1954 FIFA World Cup",
+   "Built in 1930 for the Coupe des Nations"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Charmilles_Stadium"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Stadion Kantrida",
+  "a": "Kantrida",
+  "c": "stadium",
+  "city": "opatija",
+  "lat": 45.3392,
+  "lng": 14.38096,
+  "w": "Home of HNK Rijeka football club for most years since 1918, wedged between steep cliffs of an old quarry and the Adriatic shore. Croatia's national team has never lost here since first playing at Kantrida in 1990. Seats around 10,600 and is slated for reconstruction with a new stadium planned on the same site.",
+  "s": "Rijeka's cliffside ground, Croatia's unbeaten venue",
+  "q": "Stadion Kantrida",
+  "_facts": [
+   "Home of HNK Rijeka since around 1918",
+   "Croatia national team unbeaten here since 1990",
+   "Seating capacity about 10,600",
+   "Site squeezed between sea cliffs and the Adriatic"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Stadion_Kantrida"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Estadio Nuevo Arcángel",
+  "a": "",
+  "c": "stadium",
+  "city": "cordoba",
+  "lat": 37.87229,
+  "lng": -4.76464,
+  "w": "Home of Cordoba CF on a 50-year lease, originally an oval 15,425-seat ground with an athletics track before a 2004 remodelling made it football-only, with rebuilt two-tiered stands. On 25 April 2001 it hosted Spain's national team in a 1-0 win over Japan. Naming rights sold to Bahrain Victorious in 2025.",
+  "s": "Cordoba CF's ground, remodelled from 2004",
+  "q": "Estadio Nuevo Arcangel",
+  "_facts": [
+   "Home of Cordoba CF on a 50-year lease",
+   "Originally 15,425 seats with an athletics track",
+   "Hosted Spain 1-0 Japan on 25 April 2001",
+   "Naming rights sold to Bahrain Victorious in 2025"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Estadio_Nuevo_Arcángel"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Stade du Fort Carré",
+  "a": "",
+  "c": "stadium",
+  "city": "antibes",
+  "lat": 43.59221,
+  "lng": 7.12603,
+  "w": "Home ground of FC Antibes, named after the neighbouring Fort Carre, and also used by the town's local athletics club. A modest multi-use venue with a capacity of around 4,000, it serves mainly football fixtures in this stretch of the French Riviera.",
+  "s": "FC Antibes' ground, named for Fort Carre",
+  "q": "Stade du Fort Carre",
+  "_facts": [
+   "Home of FC Antibes",
+   "Capacity around 4,000",
+   "Named after the adjacent Fort Carre",
+   "Also used by the local athletics club"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Stade_du_Fort_Carré"
+  ],
+  "confidence": "thin"
+ },
+ {
+  "n": "Boundary Park",
+  "a": "Oldham",
+  "c": "stadium",
+  "city": "manchester",
+  "lat": 53.55528,
+  "lng": -2.12861,
+  "w": "Home of Oldham Athletic since Pine Villa took over the ground in 1899, originally opened in 1896 as the Athletic Ground for Oldham County. Sits at the northwestern edge of Oldham. Oldham RLFC has also played home matches here since leaving Watersheddings in 1997, and it briefly hosted American football in the 1980s.",
+  "s": "Oldham Athletic's home since 1899",
+  "q": "Boundary Park",
+  "_facts": [
+   "Home of Oldham Athletic since 1899",
+   "Opened in 1896 as the Athletic Ground",
+   "Also home to Oldham RLFC rugby league",
+   "Briefly hosted American football in the 1980s"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Boundary_Park"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "De Meer Stadion",
+  "a": "",
+  "c": "stadium",
+  "city": "amsterdam",
+  "lat": 52.34444,
+  "lng": 4.95,
+  "w": "Former home of Ajax, opened 1934 to replace the club's earlier Het Houten Stadion. Held up to 29,500 at peak but only 19,500 by its 1996 closure. The Netherlands team won all five internationals played here, 1973-1992. Ajax then moved to the new Amsterdam Arena, now Johan Cruyff Arena, and De Meer was demolished.",
+  "s": "Ajax's old ground, demolished for housing",
+  "q": "De Meer Stadion",
+  "_facts": [
+   "Home of Ajax from 1934 to 1996",
+   "Netherlands won all five internationals played here",
+   "Ajax moved to Amsterdam Arena in 1996",
+   "Site later redeveloped into housing"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/De_Meer_Stadion"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Georgi Asparuhov Stadium",
+  "a": "Suhata reka",
+  "c": "stadium",
+  "city": "sofia",
+  "lat": 42.70547,
+  "lng": 23.3632,
+  "w": "Home of Levski Sofia since it opened in 1963, in the Suhata reka neighbourhood, and nicknamed Gerena, meaning 'the flood plain'. Named after Bulgarian footballer Georgi Asparuhov (1943-1971), a Levski legend who died young in a car crash.",
+  "s": "Levski Sofia's 'Gerena', open since 1963",
+  "q": "Georgi Asparuhov Stadium",
+  "_facts": [
+   "Home of Levski Sofia since 1963",
+   "Capacity 29,200",
+   "Named after footballer Georgi Asparuhov, 1943-1971",
+   "Nicknamed Gerena, 'the flood plain'"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Stadion_Georgi_Asparuhov"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "n": "Spotland Stadium",
+  "a": "Spotland",
+  "c": "stadium",
+  "city": "manchester",
+  "lat": 53.62083,
+  "lng": -2.18,
+  "w": "Known as the Crown Oil Arena, this multi-purpose ground in the Spotland district of Rochdale is shared by Rochdale AFC and the Rochdale Hornets rugby league club. Seats 10,249, serving both codes for the Greater Manchester town.",
+  "s": "Shared home of Rochdale AFC and Hornets RL",
+  "q": "Spotland Stadium",
+  "_facts": [
+   "Home of Rochdale AFC and Rochdale Hornets RLFC",
+   "Capacity 10,249",
+   "Located in the Spotland district of Rochdale"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Spotland_Stadium"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "n": "Estádio do Restelo",
+  "a": "Belem",
+  "c": "stadium",
+  "city": "lisbon",
+  "lat": 38.70278,
+  "lng": -9.20778,
+  "w": "Built in 1956 in an old stone quarry behind the Jeronimos Monastery in Belem, home to second-division club Os Belenenses. Seats 19,856. The inaugural match was a 2-1 win over Sporting CP, and Pope John Paul II celebrated a Mass here attended by more than 100,000 people. Also used for concerts.",
+  "s": "Belenenses' quarry-set ground since 1956",
+  "q": "Estadio do Restelo",
+  "_facts": [
+   "Home of Clube de Futebol Os Belenenses",
+   "Capacity 19,856",
+   "Built in 1956 in a former stone quarry",
+   "Pope John Paul II held Mass here for over 100,000"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Estádio_do_Restelo"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Omladinski stadion",
+  "a": "",
+  "c": "stadium",
+  "city": "belgrade",
+  "lat": 44.81546,
+  "lng": 20.49405,
+  "w": "Home of OFK Beograd, meaning 'Youth Stadium' in Serbian, built by the firm Sportprojekt under architect Karlo Kacl. Nominal capacity of 19,100 but only 10,600 actual seats, and by 2012 it could hold only around a third of its intended crowd due to deteriorating condition.",
+  "s": "OFK Beograd's ageing 'Youth Stadium'",
+  "q": "Omladinski stadion",
+  "_facts": [
+   "Home of OFK Beograd",
+   "Nominal capacity 19,100, only 10,600 seats",
+   "Built by firm Sportprojekt, architect Karlo Kacl",
+   "In deteriorating condition as of 2012"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Omladinski_Stadium"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "n": "Arena 8888 Sofia",
+  "a": "",
+  "c": "stadium",
+  "city": "sofia",
+  "lat": 42.67111,
+  "lng": 23.36917,
+  "w": "Multi-purpose indoor arena in Sofia opened in July 2011, seating 12,373 for sport and up to 17,906 for concerts. Designed to host around 30 sports including basketball, volleyball, handball, boxing and gymnastics. Sponsorship has passed from Armeets insurance to the 8888.bg gambling platform since September 2024.",
+  "s": "Sofia's indoor arena, opened 2011",
+  "q": "Arena 8888 Sofia",
+  "_facts": [
+   "Opened July 2011",
+   "Seats 12,373 for sport, up to 17,906 for concerts",
+   "Hosts around 30 different sports",
+   "Currently sponsored by online platform 8888.bg"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Arena_Sofia"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "n": "Rambergsvallen",
+  "a": "Hisingen",
+  "c": "stadium",
+  "city": "gothenburg",
+  "lat": 57.71889,
+  "lng": 11.93083,
+  "w": "Former multi-use stadium on Hisingen, an island within Gothenburg, opened on 18 August 1935. Served as the home ground of BK Hacken, hosting the club's football matches at a modest capacity of 7,000 spectators before the venue was eventually retired.",
+  "s": "BK Hacken's old Hisingen ground",
+  "q": "Rambergsvallen",
+  "_facts": [
+   "Home of BK Hacken",
+   "Capacity 7,000",
+   "Opened 18 August 1935 on Hisingen island"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Rambergsvallen"
+  ],
+  "confidence": "thin"
+ },
+ {
+  "n": "Unipol Arena",
+  "a": "Casalecchio di Reno",
+  "c": "stadium",
+  "city": "bologna",
+  "lat": 44.48584,
+  "lng": 11.24813,
+  "w": "Indoor arena in Casalecchio di Reno, metropolitan Bologna, opened December 1993 and previously known as PalaMalaguti. Seats 11,000 for basketball, up to 20,000 for concerts. Home of the Virtus Bologna basketball team, 1996-2017, and served by its own Casalecchio Palasport rail station.",
+  "s": "Bologna-area arena, Virtus' old home",
+  "q": "Unipol Arena",
+  "_facts": [
+   "Home of Virtus Bologna basketball, 1996-2017",
+   "Capacity 11,000 for basketball, 20,000 for concerts",
+   "Opened December 1993",
+   "Served by Casalecchio Palasport railway station"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Unipol_Arena"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Olympic Stadium  in Wrocław",
+  "a": "",
+  "c": "stadium",
+  "city": "wroclaw",
+  "lat": 51.11944,
+  "lng": 17.09667,
+  "w": "Multi-purpose stadium in Wroclaw, home to speedway team Sparta Wroclaw and American football side Panthers Wroclaw. Now holding around 11,000, it was originally slated to be a Euro 2012 venue before the newly built Stadion Miejski was used instead.",
+  "s": "Wroclaw's speedway and gridiron ground",
+  "q": "Olympic Stadium  in Wroclaw",
+  "_facts": [
+   "Home of speedway team Sparta Wroclaw",
+   "Home of American football team Panthers Wroclaw",
+   "Capacity around 11,000",
+   "Originally proposed as a Euro 2012 venue"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Olympic_Stadium_(Wrocław)"
+  ],
+  "confidence": "medium"
+ }
+]
