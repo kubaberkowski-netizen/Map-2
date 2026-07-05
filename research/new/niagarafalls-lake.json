@@ -1,0 +1,290 @@
+[
+ {
+  "n": "Goat Island",
+  "a": "Niagara Falls State Park",
+  "c": "green",
+  "lat": 43.08056,
+  "lng": -79.06667,
+  "w": "Once called Iris Island, this wooded strip of land sits wedged between Bridal Veil Falls and Horseshoe Falls, with no residents and a network of foot trails leading to viewpoints like Terrapin Point. A pedestrian bridge connects it to tiny Luna Island; an elevator from the Cave of the Winds tour drops straight down to the base of the falls from here.",
+  "s": "Wooded island wedged between two of the falls",
+  "_facts": [
+   "previously called Iris Island; sits between Bridal Veil and Horseshoe Falls",
+   "wooded, laced with foot trails and viewpoints including Terrapin Point",
+   "Cave of the Winds tour elevator descends from here to the foot of the falls"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Goat_Island_(New_York)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Cave of the Winds",
+  "a": "Goat Island",
+  "c": "view",
+  "lat": 43.0834,
+  "lng": -79.071,
+  "w": "Discovered in 1834 and first dubbed Aeolus's Cave, this 130-foot cavern behind Bridal Veil Falls drew guided tours from 1841, with visitors descending a staircase to stand behind the curtain of water in winds that could reach 68 mph. A rockfall shut the tour in 1920; when it reopened in 1924, visitors stayed in front of the falls instead. A 1954 rockfall, finished off by dynamite, destroyed the cave outright.",
+  "s": "A cave behind the falls, blown up after it collapsed",
+  "_facts": [
+   "natural cave behind Bridal Veil Falls, discovered 1834",
+   "guided tours from 1841 through 1920, reopened 1924 in front of the falls instead",
+   "obliterated in a 1954 rockfall and follow-up dynamiting"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Cave_of_the_Winds_(New_York)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Niagara Falls Suspension Bridge",
+  "a": "",
+  "c": "history",
+  "lat": 43.10917,
+  "lng": -79.05833,
+  "w": "An engineer strung the first line across the gorge by flying a kite in 1848. That stunt, by Charles Ellet Jr., led to the world's first working railway suspension bridge, finished by John Augustus Roebling and opened to a fully loaded passenger train on March 18, 1855. Trains ran the upper deck, carriages and pedestrians the lower, for over forty years before it was replaced in 1897.",
+  "s": "Built via kite-flown line; world's first rail suspension bridge",
+  "_facts": [
+   "world's first working railway suspension bridge, 1855-1897",
+   "engineered by Charles Ellet Jr. then completed by John A. Roebling",
+   "opened to a passenger train March 18, 1855"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Niagara_Falls_Suspension_Bridge"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Navy Island",
+  "a": "Ontario",
+  "c": "history",
+  "lat": 43.05688,
+  "lng": -79.01167,
+  "w": "This uninhabited island upstream of Horseshoe Falls was briefly the seat of the self-declared 'Republic of Canada,' and before that, a Niagara shipyard. Designated a National Historic Site in 1921, it is the only island in the entire Niagara River that lies in Canadian territory, and the river's second-largest island. Today it is closed to the public, with no facilities and no camping allowed.",
+  "s": "Uninhabited island that once housed a rebel republic",
+  "_facts": [
+   "site of the short-lived 'Republic of Canada'",
+   "designated a National Historic Site of Canada in 1921 for its shipbuilding role",
+   "only island in the Niagara River within Canadian territory; closed to the public"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Navy_Island"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Niagara Falls State Park",
+  "a": "",
+  "c": "green",
+  "lat": 43.08,
+  "lng": -79.07,
+  "w": "Niagara Falls State Park is the oldest state park in the United States, and it holds the star attractions the whole region is named for: the American Falls, the Bridal Veil Falls, and a share of the Horseshoe Falls, also known as the Canadian Falls, straddling the international border within its own grounds.",
+  "s": "America's oldest state park, and home to the falls",
+  "_facts": [
+   "oldest state park in the United States",
+   "contains the American Falls and Bridal Veil Falls",
+   "contains a portion of the Horseshoe Falls, also called the Canadian Falls"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Niagara_Falls_State_Park"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "n": "Konica Minolta Tower Centre",
+  "a": "Fallsview",
+  "c": "view",
+  "lat": 43.0789,
+  "lng": -79.0821,
+  "w": "Opened in 1962, this was the first observation tower built near the brink of Niagara Falls: 99 meters above street level, or 160 meters once you count the height above the falls themselves. It has carried several names since; after Minolta sponsored it the longest, locals still call it the Minolta Tower even though a 2010 renovation made 'Tower Hotel' its official name.",
+  "s": "First observation tower built at the brink of the falls",
+  "_facts": [
+   "opened 1962, first contemporary observation tower near the falls",
+   "99m above street level, 160m above the falls",
+   "renamed Tower Hotel in 2010 after Minolta's long sponsorship"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Tower_Hotel_(Niagara_Falls)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Whirlpool State Park",
+  "a": "Niagara Gorge",
+  "c": "view",
+  "lat": 43.117,
+  "lng": -79.061,
+  "w": "Whirlpool State Park covers a modest 109 acres in Niagara County, just north of the city of Niagara Falls. Its whole reason for being is the view down onto the Niagara Whirlpool, the churning bend in the river within the lower Niagara Gorge -- a smaller, quieter park built entirely around one dramatic overlook rather than any building or attraction.",
+  "s": "109 acres built around one view of the whirlpool",
+  "_facts": [
+   "109-acre state park in Niagara County, north of the city",
+   "overlooks the Niagara Whirlpool",
+   "overlooks the lower Niagara Gorge"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Whirlpool_State_Park"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "n": "Aquarium of Niagara",
+  "a": "",
+  "c": "museum",
+  "lat": 43.09432,
+  "lng": -79.06014,
+  "w": "It opened in 1965 as a test site for a groundbreaking artificial seawater formula, the first inland aquarium in the world built entirely around the new chemistry. The original Main Building still houses rescued seals, sea lions and Humboldt penguins; a second building, Great Lakes 360, opened in July 2024 with sixteen exhibits tracing the fish, reptiles and amphibians of the Great Lakes themselves.",
+  "s": "First inland aquarium built for artificial seawater",
+  "_facts": [
+   "opened 1965 as a test site for a new artificial seawater formula",
+   "first inland aquarium built exclusively around that technology",
+   "Great Lakes 360 building opened 2024 with 16 Great Lakes exhibits"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Aquarium_of_Niagara"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Niagara Parks Butterfly Conservatory",
+  "a": "",
+  "c": "green",
+  "lat": 43.1373,
+  "lng": -79.0555,
+  "w": "Because captive butterflies live only two to four weeks, this greenhouse imports up to 3,000 fresh ones a month from farms in Costa Rica, El Salvador, the Philippines and Australia to keep its glass dome stocked with over 2,000 tropical specimens across 45-plus species. Opened in 1996 on the grounds of the Niagara Parks School of Horticulture, it can hold 300 visitors an hour moving through 180 meters of greenhouse paths.",
+  "s": "A dome restocked with 3,000 tropical butterflies monthly",
+  "_facts": [
+   "opened December 1996; over 2,000 tropical butterflies, 45+ species",
+   "imports up to 3,000 butterflies a month since captive lifespan is 2-4 weeks",
+   "glass dome with 180m of paths, capacity 300 visitors/hour"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Niagara_Parks_Butterfly_Conservatory"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Niagara Clifton Bridge",
+  "a": "",
+  "c": "history",
+  "lat": 43.08853,
+  "lng": -79.06982,
+  "w": "For fourteen years this was the longest suspension bridge on Earth: 384 meters, designed by Samuel Keefer and opened to traffic in January 1869, until the Brooklyn Bridge overtook it in 1883. It did not last much longer itself -- a storm tore the bridge apart on the night of January 9, 1889, almost exactly twenty years after it first opened.",
+  "s": "World's longest suspension bridge, destroyed by a storm",
+  "_facts": [
+   "designed by Samuel Keefer, opened January 1869",
+   "world's longest suspension bridge 1869-1883, until the Brooklyn Bridge",
+   "destroyed in a storm on the night of January 9, 1889"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Niagara_Clifton_Bridge"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Lewiston Pump Generating Plant",
+  "a": "Lewiston",
+  "c": "history",
+  "lat": 43.14272,
+  "lng": -79.02181,
+  "w": "Thirteen generators here divert water from above Niagara Falls and return it near Lake Ontario, drawing on 2,525 megawatts of installed capacity -- built after the nearby Schoellkopf Power Station simply collapsed in 1956. Named for city planner Robert Moses, it faces Ontario's Sir Adam Beck stations across the river, part of the hydroelectric machinery working behind the tourist view of the falls.",
+  "s": "Hydro plant built after its predecessor collapsed",
+  "_facts": [
+   "Robert Moses Niagara Hydroelectric Power Station, 13 generators, 2,525 MW capacity",
+   "built to replace the Schoellkopf Power Station, which collapsed in 1956",
+   "faces Ontario's Sir Adam Beck stations across the river"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Lewiston_Pump-Generating_Plant"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "St. Peter's Episcopal Church",
+  "a": "",
+  "c": "faith",
+  "lat": 43.08464,
+  "lng": -79.06066,
+  "w": "The land came from the estate of General Peter Buell Porter, whose son Colonel Peter A. Porter was buried out of the first church built here, in 1847-49 by George Holley. That building was replaced in 1873-80 by the current one, designed by architect Henry Dudley, standing today as a quieter downtown counterpoint to the falls a mile or so away.",
+  "s": "Downtown church built on land from General Porter's estate",
+  "_facts": [
+   "first church built 1847-49 by George Holley, on land from Peter Buell Porter's estate",
+   "hosted funeral services for Col. Peter A. Porter and family",
+   "present church built 1873-80, architect Henry Dudley"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/St._Peter's_Episcopal_Church_(Niagara_Falls,_New_York)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Whirlpool Rapids Bridge",
+  "a": "",
+  "c": "history",
+  "lat": 43.1092,
+  "lng": -79.0583,
+  "w": "Two decks split its traffic: the Amtrak-Via Rail Maple Leaf train rides the top, while the bottom carries a roadway open only to NEXUS trusted-traveler members. Known as the Lower Steel Arch Bridge until 1937, it sits about two kilometers from the Falls and has carried cross-border traffic since well before the Niagara Falls Bridge Commission acquired it in January 1959.",
+  "s": "A bridge with a train deck and a NEXUS-only road deck",
+  "_facts": [
+   "carries Amtrak-Via Rail's Maple Leaf service on its upper deck",
+   "lower deck is a roadway restricted to NEXUS members",
+   "known as the Lower Steel Arch Bridge before 1937; acquired by the Bridge Commission in 1959"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Whirlpool_Rapids_Bridge"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Bird Kingdom",
+  "a": "",
+  "c": "oddity",
+  "lat": 43.0925,
+  "lng": -79.06833,
+  "w": "More than 350 birds fly loose through 45,000 square feet of indoor space here, most of them shipped in from Australia, South America and Africa -- making it, since it opened in 2003, the largest free-flying indoor aviary anywhere in the world. TripAdvisor inducted it into its Hall of Fame in 2016 after years as a top-ranked family attraction.",
+  "s": "World's largest free-flying indoor aviary",
+  "_facts": [
+   "opened May 2003; largest free-flying indoor aviary in the world",
+   "houses over 350 birds, mostly from Australia, South America and Africa",
+   "inducted into TripAdvisor's Hall of Fame in 2016"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Bird_Kingdom"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Criminals Hall of Fame",
+  "a": "Clifton Hill",
+  "c": "oddity",
+  "lat": 43.0919,
+  "lng": -79.0765,
+  "w": "Forty wax mobsters and serial killers stood here from 1977 until the museum closed in 2014, drawing reviews that read like dares: 'a cheesy little monument to brutality,' sniffed the Pittsburgh Post-Gazette; the Boston Herald just called it 'tacky.' Roadsideamerica.com was kinder, praising it for having 'more gore than most horror wax museums and better lighting, too.'",
+  "s": "A wax museum of mobsters, mocked by critics for decades",
+  "_facts": [
+   "wax museum with 40 statues of notorious criminals, open 1977-2014",
+   "at the top of Clifton Hill",
+   "drew scathing reviews from the Pittsburgh Post-Gazette and Boston Herald"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Criminals_Hall_of_Fame"
+  ],
+  "confidence": "high"
+ },
+ {
+  "n": "Three Sisters Islands",
+  "a": "Goat Island",
+  "c": "oddity",
+  "lat": 43.0781,
+  "lng": -79.066,
+  "w": "Iroquois shamans once left food and gifts on these three small islands to commune with He-No, the Mighty Thunderer said to dwell in a mist-shrouded cave at the base of the falls; some visitors still claim to hear voices here. The islands are named for the daughters of General Parkhurst Whitney, who ran the nearby Cataract House Hotel and whose girls are said to have been the first settlers to reach them, one bridge at a time, above the rapids.",
+  "s": "Islands named for settlers, haunted by an older spirit",
+  "_facts": [
+   "named for the daughters of General Parkhurst Whitney",
+   "Iroquois shamans made offerings here to the spirit He-No before European settlement",
+   "connected to Goat Island and each other by bridges"
+  ],
+  "_sources": [
+   "https://en.wikipedia.org/wiki/Three_Sisters_Islands_(New_York)"
+  ],
+  "confidence": "high"
+ }
+]
