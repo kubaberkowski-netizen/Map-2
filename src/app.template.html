@@ -469,13 +469,7 @@ function osrmFoot(pts,cb){try{if(!pts||pts.length<2){cb(null);return}var key=pts
         .freshbanner span{flex:1;}
         .freshbanner b{color:var(--ink);}
         .freshbanner button{flex:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 11px;font-size:11.5px;font-weight:600;color:var(--ink2);cursor:pointer;font-family:inherit;}
-        .dailystrip{display:flex;align-items:center;gap:11px;width:100%;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:9px 12px;margin:0 0 12px;cursor:pointer;font-family:inherit;text-align:left;}
-        .dailystrip .dchip{flex:none;font-size:17px;line-height:1;}
-        .dailystrip .dtxt{flex:1;min-width:0;}
-        .dailystrip .dtxt i{display:block;font-style:normal;font-size:9px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--ink3);}
-        .dailystrip .dtxt b{display:block;font-family:var(--font-serif);font-size:14.5px;font-weight:600;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.2;margin-top:1px;}
-        .dailystrip .ddist{flex:none;font-size:12px;font-weight:700;color:#C8372D;}
-        .dailystrip .dchev{color:var(--ink3);flex:none;}
+        
         .detour{margin:0 0 16px;position:relative;}
         .detsealed{border:1px solid var(--line);background:linear-gradient(180deg,var(--line),#FBF6EC);border-radius:18px;padding:22px 18px 18px;text-align:center;box-shadow:0 2px 16px rgba(120,90,40,.06);}
         .detseal{width:62px;height:62px;margin:0 auto 12px;border-radius:50%;border:2px solid #fff;background:radial-gradient(circle at 50% 36%,#E5594E,#C8372D);display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(200,55,45,.30);}
@@ -3077,10 +3071,10 @@ article.ec:first-of-type .ec-d{color:var(--red,#C8372D);}
 .wizaibtn:disabled{opacity:.45;}
 /* A map container that failed to boot should never render as an empty box */
 /* Daily strip (product pass) */
-.dailystrip{margin:2px 0 10px;padding-right:38px;}
+.dailystrip{display:block;margin:2px 0 10px;padding-right:38px;}
 .dstriprow{display:flex;gap:7px;overflow-x:auto;align-items:center;padding:2px 0;scrollbar-width:none;}
 .dstriprow::-webkit-scrollbar{display:none;}
-.dstriprow.recs{margin-top:2px;}
+.dstriprow.recs{margin-top:7px;padding-top:7px;border-top:1px solid var(--line);}.dstriprow.recs .dstripchip{background:var(--bg);border-color:transparent;color:var(--ink3);}
 .dstriplab{flex:none;font:700 10.5px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);padding-right:2px;}
 .dstripchip{flex:none;display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);background:var(--surface);color:var(--ink2);border-radius:99px;padding:6px 11px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit;white-space:nowrap;}
 .dstripchip.inst{border-color:#C8372D;color:#C8372D;}
