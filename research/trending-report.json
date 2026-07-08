@@ -1,6 +1,166 @@
 {
- "accepted": 198,
+ "accepted": 88,
  "dropped": [
+  {
+   "n": "Limbo Museum",
+   "city": "accra",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "dot.ateliers",
+   "city": "accra",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "HeiBai Coffee",
+   "city": "marrakech",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "16 on Lerotholi",
+   "city": "capetown",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Cera Cerni Art Hub",
+   "city": "lagos",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "SAMOCA at JAX District",
+   "city": "riyadh",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Zayed National Museum",
+   "city": "abudhabi",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Natural History Museum Abu Dhabi",
+   "city": "abudhabi",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Lawh Wa Qalam: M. F. Husain Museum",
+   "city": "doha",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Ethiopian Science Museum AI Wing",
+   "city": "addisababa",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Galerie36",
+   "city": "dakar",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Gihanga Institute of Contemporary Art",
+   "city": "kigali",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Lookout",
+   "city": "telaviv",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Casamaya",
+   "city": "telaviv",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Books@cafe",
+   "city": "amman",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Dukanah Cafe",
+   "city": "muscat",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Studio Samara at Cinema Radio",
+   "city": "giza",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Wild Coffee Bar",
+   "city": "kampala",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Mazeej Balad Rooftop",
+   "city": "giza",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Stashh",
+   "city": "beirut",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Lucas Museum of Narrative Art",
+   "city": "losangeles",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Ciel Dubai Marina",
+   "city": "dubai",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Ismaili Center, Houston",
+   "city": "houston",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Fondation Cartier pour l'Art Contemporain",
+   "city": "paris",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Shenzhen Science & Technology Museum",
+   "city": "shenzhen",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "teamLab Biovortex Kyoto",
+   "city": "kyoto",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "teamLab Phenomena Abu Dhabi",
+   "city": "abudhabi",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Grand Canal Gateway Bridge",
+   "city": "hangzhou",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Kruunuvuori Bridge",
+   "city": "helsinki",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Royal Mansour Casablanca Spa",
+   "city": "casablanca",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Almaty Museum of Arts",
+   "city": "almaty",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Naoshima New Museum of Art",
+   "city": "naoshima",
+   "why": "dup name-in-city"
+  },
   {
    "n": "V&A East Storehouse",
    "city": "london",
@@ -9,7 +169,167 @@
   {
    "n": "Limbo Museum",
    "city": "accra",
-   "why": "dup in-batch"
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "SMVIT Library",
+   "city": "bangalore",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Orchid Glass House",
+   "city": "tokyo",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Nakano Onsen Tenjinyu",
+   "city": "tokyo",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Umekita Onsen REN Wellbeing Park",
+   "city": "osaka",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Photography Seoul Museum of Art",
+   "city": "seoul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Audeum",
+   "city": "seoul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Cafe Pokpo",
+   "city": "seoul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Nudake Haus Dosan",
+   "city": "seoul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Mail Room Sindang",
+   "city": "seoul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Overdeep",
+   "city": "seoul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Fangsuo Bookstore",
+   "city": "chengdu",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Zhongshuge Bookstore Chongqing",
+   "city": "chongqing",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Sinan Books Poetry Store",
+   "city": "shanghai",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Kantima Salon and Cafe",
+   "city": "bangkok",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Capybara Coffee Ekkamai",
+   "city": "bangkok",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Hanoi Train Street cafes",
+   "city": "hanoi",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "43 Factory Coffee Roaster",
+   "city": "danang",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Papakape at the National Museum",
+   "city": "manila",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Rose Oud Cafe",
+   "city": "colombo",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Cafe Apa Katya / Gorelnik Visit Center",
+   "city": "almaty",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Sun N Moon Rooftop Cafe",
+   "city": "udaipur",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Fenix Museum of Migration",
+   "city": "rotterdam",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Drift Museum",
+   "city": "amsterdam",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Cavafy Archive",
+   "city": "athens",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Kotsanas Museum of Ancient Greek Technology",
+   "city": "athens",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Highline Warsaw",
+   "city": "warsaw",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Lukiskes Prison 2.0",
+   "city": "vilnius",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Loftas",
+   "city": "vilnius",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "The Floating Sauna (Platform CPH)",
+   "city": "copenhagen",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Bunkers del Carmel",
+   "city": "barcelona",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Gota Coffee Experts",
+   "city": "vienna",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Sphere Tim Raue",
+   "city": "berlin",
+   "why": "dup name-in-city"
   },
   {
    "n": "Perlan Volcano Show",
@@ -17,9 +337,59 @@
    "why": "dup proximity"
   },
   {
+   "n": "MICAS - Malta International Contemporary Art Space",
+   "city": "valletta",
+   "why": "dup name-in-city"
+  },
+  {
    "n": "Vytopna",
    "city": "prague",
    "why": "dup proximity"
+  },
+  {
+   "n": "Archaologisches Fenster Sechselautenplatz",
+   "city": "zurich",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Koch-Park",
+   "city": "zurich",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "MINA Sofia",
+   "city": "sofia",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Warm Hearts Sauna",
+   "city": "amsterdam",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "MACAM - Museu de Arte Contemporanea Armando Martins",
+   "city": "lisbon",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Fortress House",
+   "city": "gibraltar",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Gala Panaderia",
+   "city": "mexicocity",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Bar Leone",
+   "city": "shenzhen",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Schmuck",
+   "city": "nyc",
+   "why": "dup name-in-city"
   },
   {
    "n": "Jan",
@@ -27,13 +397,223 @@
    "why": "dup name-in-city"
   },
   {
+   "n": "Merito",
+   "city": "lima",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Celele",
+   "city": "cartagena",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Ugly Bakery",
+   "city": "seoul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Andersen & Maillard",
+   "city": "copenhagen",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Juno the Bakery",
+   "city": "copenhagen",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Emeri Matcha Bar",
+   "city": "vancouver",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Project Matcha",
+   "city": "portland",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Mischu",
+   "city": "capetown",
+   "why": "dup name-in-city"
+  },
+  {
    "n": "HeiBai Coffee",
    "city": "marrakech",
-   "why": "dup in-batch"
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Ngam Cafe",
+   "city": "hochiminh",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "House of Wheat",
+   "city": "kualalumpur",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Sundays",
+   "city": "sydney",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Pantry Story",
+   "city": "sydney",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Butter Days Bakery",
+   "city": "melbourne",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Masa 105",
+   "city": "bogota",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Maison Louvard",
+   "city": "paris",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Yuen Kee Dumpling",
+   "city": "singapore",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Ruru Cafe",
+   "city": "tokyo",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Anticonquista Cafe",
+   "city": "chicago",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Rough & Round",
+   "city": "bangkok",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Beau",
+   "city": "dubai",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Museo Casa Kahlo (Casa Roja)",
+   "city": "mexicocity",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Handshake Speakeasy",
+   "city": "mexicocity",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Third Born",
+   "city": "mexicocity",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Museo Yancuic",
+   "city": "mexicocity",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "La Casa Grande",
+   "city": "oaxaca",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Quiote Mezcaleria",
+   "city": "oaxaca",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Victor Audio Bar",
+   "city": "buenosaires",
+   "why": "dup name-in-city"
   },
   {
    "n": "Cementerio de la Chacarita",
    "city": "buenosaires",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "MASP - Pietro Maria Bardi Building",
+   "city": "saopaulo",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Container Cafe",
+   "city": "lima",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Mirador del Paraiso (TransMiCable)",
+   "city": "bogota",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Palacio de Sal",
+   "city": "uyuni",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Mirador Likan-Antay",
+   "city": "sanpedroatacama",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Lagunas Escondidas de Baltinache",
+   "city": "sanpedroatacama",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Ephedra",
+   "city": "sanpedroatacama",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Museo Miraflores",
+   "city": "guatemalacity",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "DANTE",
+   "city": "sanjuanpr",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "DLE Cafe",
+   "city": "kingstonjm",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Cafe Quindio (Provenza)",
+   "city": "medellin",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Paseo 21 de Mayo",
+   "city": "valparaiso",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Nome Chocolate",
+   "city": "panamacity",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Grand Egyptian Museum",
+   "city": "giza",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Fenix",
+   "city": "rotterdam",
    "why": "dup name-in-city"
   },
   {
@@ -44,42 +624,107 @@
   {
    "n": "Naoshima New Museum of Art",
    "city": "naoshima",
-   "why": "dup in-batch"
+   "why": "dup name-in-city"
   },
   {
    "n": "Fondation Cartier pour l'art contemporain",
    "city": "paris",
-   "why": "dup in-batch"
+   "why": "dup name-in-city"
   },
   {
    "n": "Almaty Museum of Arts",
    "city": "almaty",
-   "why": "dup in-batch"
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Dib Bangkok",
+   "city": "bangkok",
+   "why": "dup name-in-city"
   },
   {
    "n": "Zayed National Museum",
    "city": "abudhabi",
-   "why": "dup in-batch"
+   "why": "dup name-in-city"
   },
   {
    "n": "Natural History Museum Abu Dhabi",
    "city": "abudhabi",
-   "why": "dup in-batch"
+   "why": "dup name-in-city"
   },
   {
    "n": "teamLab Phenomena Abu Dhabi",
    "city": "abudhabi",
-   "why": "dup in-batch"
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Studio Museum in Harlem",
+   "city": "nyc",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "New Museum",
+   "city": "nyc",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Dataland",
+   "city": "losangeles",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Museum of BBQ",
+   "city": "kansascity",
+   "why": "dup name-in-city"
   },
   {
    "n": "Highline Warsaw",
    "city": "warsaw",
-   "why": "dup in-batch"
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Istanbul Modern",
+   "city": "istanbul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Black Gold Museum",
+   "city": "riyadh",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Centre Pompidou Hanwha",
+   "city": "seoul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Museo Casa Kahlo",
+   "city": "mexicocity",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Australian Museum of Performing Arts",
+   "city": "melbourne",
+   "why": "dup name-in-city"
   },
   {
    "n": "Gihanga Institute of Contemporary Art",
    "city": "kigali",
-   "why": "dup in-batch"
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Mercer Labs Museum of Art and Technology",
+   "city": "nyc",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Arte Museum New York",
+   "city": "nyc",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "The American Story Discovery Center",
+   "city": "washingtondc",
+   "why": "dup name-in-city"
   },
   {
    "n": "Intuit Art Museum",
@@ -89,7 +734,17 @@
   {
    "n": "Emeri Matcha Bar",
    "city": "vancouver",
-   "why": "dup in-batch"
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Museum of Christian and Gospel Music",
+   "city": "nashville",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Prohibition",
+   "city": "stlouis",
+   "why": "dup name-in-city"
   },
   {
    "n": "The Arcade",
@@ -99,7 +754,22 @@
   {
    "n": "DATALAND",
    "city": "losangeles",
-   "why": "dup in-batch"
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "In Plain Sight",
+   "city": "austin",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Centre 360",
+   "city": "nyc",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Skylift",
+   "city": "nyc",
+   "why": "dup name-in-city"
   },
   {
    "n": "Portland Art Museum Rothko Pavilion",
@@ -107,8 +777,218 @@
    "why": "dup proximity"
   },
   {
+   "n": "Forget Me Not Cafe",
+   "city": "toronto",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Bar Leonor",
+   "city": "montreal",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "The Ink Drinker",
+   "city": "seattle",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "MoCADA at Culture Lab II",
+   "city": "nyc",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Saffron Cafe",
+   "city": "philadelphia",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Corlears Hook Bridge and East River Park",
+   "city": "nyc",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Saturn Coffee",
+   "city": "detroit",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Schoolyard Beer Garden and Cafe",
+   "city": "denver",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Balloon Museum: Pop Air",
+   "city": "miami",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "So What Stereo",
+   "city": "brisbane",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Speed Dial",
+   "city": "brisbane",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Semi Semi",
+   "city": "brisbane",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Time & Temp",
+   "city": "brisbane",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "LB's Record Bar",
+   "city": "melbourne",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Deadwax",
+   "city": "sydney",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Groove",
+   "city": "melbourne",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Cha-no-wa",
+   "city": "adelaide",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Soak Bathhouse South Yarra",
+   "city": "melbourne",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Mechanics Institute",
+   "city": "perth",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Museum of Illusions Sydney",
+   "city": "sydney",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Level Up",
+   "city": "adelaide",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Parable House",
+   "city": "auckland",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Pink Neon Sign",
+   "city": "auckland",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Rook",
+   "city": "christchurch",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Renegade Brewing Co",
+   "city": "christchurch",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Hei",
+   "city": "wellington",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Zeta Bar Secret Garden",
+   "city": "sydney",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Baku Museum of Miniature Books",
+   "city": "baku",
+   "why": "dup name-in-city"
+  },
+  {
    "n": "MUJAM Antique Toy Museum",
    "city": "mexicocity",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Snake Pagoda (Hmwe Paya)",
+   "city": "mandalay",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Kane Kwei Carpentry Workshop",
+   "city": "accra",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Hanoi Zoological Museum",
+   "city": "hanoi",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Old Jewish Cemetery of Bukhara",
+   "city": "bukhara",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Isseido Booksellers",
+   "city": "tokyo",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Le Monte-en-l'Air",
+   "city": "paris",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Vidya Bookstore",
+   "city": "accra",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Red Brick Market, Custard Factory",
+   "city": "birmingham",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Pioneer Works",
+   "city": "nyc",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "La Casa de Carlota",
+   "city": "medellin",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Objectifs Centre for Photography and Film",
+   "city": "singapore",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Museo del Transporte",
+   "city": "mexicocity",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "homework gallery",
+   "city": "miami",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Mendes Wood DM",
+   "city": "saopaulo",
    "why": "dup name-in-city"
   },
   {
@@ -117,957 +997,147 @@
    "why": "dup proximity"
   },
   {
+   "n": "Base-Alpha Gallery",
+   "city": "antwerp",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Bric-a-Brac Records & Collectibles",
+   "city": "chicago",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Almost Ready Records",
+   "city": "nyc",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Qra Foods",
+   "city": "kualalumpur",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Toko Kopi Tuku, Kemang",
+   "city": "jakarta",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Global Fork Food Hall",
+   "city": "sandiego",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Gather Food Hall",
+   "city": "philadelphia",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "The Whippet Coffee, Linden",
+   "city": "johannesburg",
+   "why": "dup name-in-city"
+  },
+  {
    "n": "Vallon des Auffes",
    "city": "marseille",
    "why": "dup name-in-city"
+  },
+  {
+   "n": "Largo Maradona mural",
+   "city": "naples",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Reggae Lane mural",
+   "city": "toronto",
+   "why": "dup name-in-city"
   }
  ],
- "unmapped": [
-  {
-   "n": "MACAAL",
-   "city": "Marrakech",
-   "country": "Morocco",
-   "lat": 31.577,
-   "lng": -7.995,
-   "c": "museum",
-   "w": "The Lazraq family's private collection of African contemporary art fills an earth-toned former administrative building on the Al Maaden golf estate; closed for structural reinforcement after the 2023 earthquake, it reopened in February 2025 with expanded galleries and a courtyard cafe facing the Atlas.",
-   "s": "African contemporary art museum, reopened 2025",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Holy Redeemer Church and Community Centre",
-   "city": "La Laguna",
-   "country": "Spain",
-   "lat": 28.4636,
-   "lng": -16.3013,
-   "c": "faith",
-   "w": "Fernando Menis carved this raw concrete cluster from a neglected 1970s neighbourhood, fusing a church, community centre and square into rugged monolithic blocks pierced by coloured glass. Fifteen years in the making, it won the 2025 World Building of the Year for turning sacred architecture into a social anchor.",
-   "s": "Rugged concrete church named world's best building",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Green Agora",
-   "city": "Ralsko",
-   "country": "Czech Republic",
-   "lat": 50.618,
-   "lng": 14.741,
-   "c": "green",
-   "w": "Sixteen 3D-printed concrete columns, up to twelve feet tall, rise in a clearing in a former Soviet military zone deep in Bohemian forest, part of an effort to revive one of seventeen villages abandoned after the Cold War. Atelier Partero set raw high-performance concrete inside a genuinely wild, overgrown clearing.",
-   "s": "3D-printed concrete totems in a Cold War forest",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Crossroads II",
-   "city": "Fishtail",
-   "country": "USA",
-   "lat": 45.545,
-   "lng": -109.755,
-   "c": "oddity",
-   "w": "One of Richard Serra's late outdoor works stands on a 12,000-acre working ranch below the Beartooth Mountains: colossal steel plates leaning into each other across open range, rusted to the colour of the surrounding grasses. Reachable only by guided tour, it turns raw industrial sculpture into a Montana pilgrimage.",
-   "s": "Serra's rusted steel plates on a Montana ranch",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Konzertsaal Kieler Schloss",
-   "city": "Kiel",
-   "country": "Germany",
-   "lat": 54.3235,
-   "lng": 10.1389,
-   "c": "music",
-   "w": "gmp Architects and bbp: architekten spent six years rebuilding the postwar concert hall inside Kiel Castle, renewing its acoustics while preserving the 1960s modernist shell overlooking the Kiel Fjord. Completed in 2025, it gives the Kiel Philharmonic a technically modern home inside a mid-century landmark.",
-   "s": "A 1960s modernist hall reborn on the Kiel Fjord",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Józef Świder State Music School Concert Hall",
-   "city": "Jastrzębie-Zdrój",
-   "country": "Poland",
-   "lat": 49.947,
-   "lng": 18.5757,
-   "c": "music",
-   "w": "A corrugated, mirror-bright steel skin wraps this cube-shaped extension to a traditional Silesian music school, by local studio SLAS Architekci. Completed in 2025, its 362-seat hall gives young musicians a professional stage while the reflective facade dissolves the building into the sky and rooftops around it.",
-   "s": "A mirror-steel cube for a Silesian music school",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Mamluki Lancet Mosque",
-   "city": "Al-Masayel",
-   "country": "Kuwait",
-   "lat": 29.2385,
-   "lng": 48.0861,
-   "c": "faith",
-   "w": "Five twisted cuboid volumes, one per Pillar of Islam, stack and rotate around the prayer hall until they form an eight-pointed star seen from above. Kuwait-based Babnimnim Design Studio completed this neighbourhood mosque with lancet-cut facades borrowed from Mamluk-era Cairo, reworked in raw contemporary concrete.",
-   "s": "Five twisted volumes forming a star from above",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "One&Only Kéa Island",
-   "city": "Kea",
-   "country": "Greece",
-   "lat": 37.592,
-   "lng": 24.287,
-   "c": "oddity",
-   "w": "Local stone and organic curves fold into the cliffs above Vroskopos Bay on the closest Cycladic island to Athens, in a spa resort blending indoor and outdoor treatment spaces with uninterrupted Aegean views. Recently opened, it won World's Best New Resort Spa 2025 for its minimalist reading of the island landscape.",
-   "s": "Cliffside spa on the closest Cycladic isle",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "JOALI BEING",
-   "city": "Bodufushi",
-   "country": "Maldives",
-   "lat": 5.6167,
-   "lng": 72.9333,
-   "c": "green",
-   "w": "Floating treatment pods and coral-mimicking pavilions rise from a private lagoon in the Maldives' Raa Atoll, built from sustainable materials as a wellness-first resort rather than a conventional beach hotel. It was named World's Best Spa Design 2025 for architecture that treats the reef itself as the design brief.",
-   "s": "A resort built to mimic a living coral reef",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Yellamundie Library",
-   "city": "Liverpool",
-   "country": "Australia",
-   "lat": -33.921,
-   "lng": 150.9236,
-   "c": "archive",
-   "w": "Named after the Dharug word for storyteller, this curved oval library breaks from the rigid street grid of Western Sydney, its rounded form and green roof inspired by the nearby Georges River. Opened as anchor of Liverpool's new Civic Place, it holds two kilometres of shelving behind a round-windowed facade.",
-   "s": "An oval, round-windowed 'storyteller' library",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Anthony Timberlands Center for Design and Materials Innovation",
-   "city": "Fayetteville",
-   "country": "USA",
-   "lat": 36.0672,
-   "lng": -94.1719,
-   "c": "green",
-   "w": "Grafton Architects' first US building centres an 11,000-square-foot double-height timber workshop, with a lecture hall suspended directly above so students watch fabrication in progress through the floor. Dedicated August 2025, the mass-timber structure doubles as a research lab for Arkansas's wood-products industry.",
-   "s": "A lecture hall suspended over a working timber shop",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Taichung Green Museumbrary",
-   "city": "Taichung",
-   "country": "Taiwan",
-   "lat": 24.165,
-   "lng": 120.642,
-   "c": "museum",
-   "w": "SANAA's largest cultural project to date fuses the Taichung Art Museum and Taichung Public Library into one free, glass-walled complex on the edge of Central Park. Opened 13 December 2025, its cloud-like canopy roof is billed as Taiwan's first public building combining a library and museum.",
-   "s": "SANAA's library-museum hybrid opened Dec 2025",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Dujiangyan Zhongshuge Bookstore",
-   "city": "Chengdu",
-   "country": "China",
-   "lat": 30.991,
-   "lng": 103.6203,
-   "c": "bookshops",
-   "w": "On the edge of Chengdu, a mall bookstore built its staircases and mirrored ceiling to echo the swirling channels of the nearby 2,200-year-old Dujiangyan irrigation system. The illusion of infinite curving shelves has made it one of the most photographed bookshops on the Chinese internet.",
-   "s": "Mirrored bookstore that mimics an irrigation system",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "747 Cafe",
-   "city": "Bangkok",
-   "country": "Thailand",
-   "lat": 13.7226,
-   "lng": 100.7548,
-   "c": "oddity",
-   "w": "A retired Orient Thai Airlines Boeing 747-400, dismantled near Suvarnabhumi Airport in 2020, was rebuilt as a walk-through cafe in Lat Krabang. Visitors sit in the original cockpit and cabin seats over 120-baht coffee, a scrapyard fuselage given a second life instead of demolition.",
-   "s": "Decommissioned Boeing 747 turned into a cafe",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Seargao Seaview Cafe",
-   "city": "Cebu",
-   "country": "Philippines",
-   "lat": 9.8791,
-   "lng": 123.6069,
-   "c": "view",
-   "w": "A thatched-roof cafe on the coast road south of Cebu City takes its pun-name from Siargao while looking out over Argao's mangrove flats instead. Elevated wooden decks and a viewing platform over the water made it one of southern Cebu's most-photographed roadside stops after opening.",
-   "s": "Cogon-roofed cafe overlooking Argao's mangroves",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Hin Bus Depot",
-   "city": "Penang",
-   "country": "Malaysia",
-   "lat": 5.411992,
-   "lng": 100.327545,
-   "c": "streetart",
-   "w": "George Town's rare art-deco bus terminal, disused since the 1990s, was reopened as a gallery and event space with a rotating outdoor mural and an artisan cafe inside the old repair sheds. Its curved roofline and industrial bones make it a counterpoint to the city's better-known heritage shophouses.",
-   "s": "1947 art-deco bus terminal turned art hub",
-   "how": "geo~prov"
-  },
-  {
-   "n": "Littletalks Ubud",
-   "city": "Ubud",
-   "country": "Indonesia",
-   "lat": -8.512764,
-   "lng": 115.258244,
-   "c": "bookshops",
-   "w": "A book-lined cafe on Jalan Bisma stacks secondhand novels floor to ceiling around low reading tables facing straight out into jungle and rice terrace, with Gunung Lebah Temple visible across the valley. The menu doubles as a reading list; regulars come to read as much as to eat.",
-   "s": "Library cafe with rice-terrace and temple views",
-   "how": "geo~prov"
-  },
-  {
-   "n": "Gandikota Fort viewpoint",
-   "city": "Kadapa",
-   "country": "India",
-   "lat": 14.82209,
-   "lng": 78.281715,
-   "c": "view",
-   "w": "A 13th-century fort on the Penna River's edge looks straight down into a gorge where red sandstone cliffs squeeze the river to a narrow channel -- earning the nickname 'India's Grand Canyon' as photos of the sunset viewpoint spread across Instagram and Indian travel forums.",
-   "s": "Fort-top canyon view nicknamed India's Grand Canyon",
-   "how": "geo~prov"
-  },
-  {
-   "n": "Laugaras Lagoon",
-   "city": "Selfoss",
-   "country": "Iceland",
-   "lat": 64.1286,
-   "lng": -20.4185,
-   "c": "lido",
-   "w": "A two-tier geothermal lagoon on the Hvita river, one pool spilling into the next over a small waterfall, with a lava-rock grotto, two saunas and a swim-up bar built into the hillside. Opened October 2025 on the Golden Circle route between Geysir and Gullfoss. Iceland's newest hot-spring spa.",
-   "s": "cascading geothermal pools, opened Oct 2025",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Hilma af Klint's Atelje",
-   "city": "Stockholm",
-   "country": "Sweden",
-   "lat": 59.3378,
-   "lng": 17.5677,
-   "c": "museum",
-   "w": "Hilma af Klint painted abstractly before Kandinsky, kept it secret, and ordered the work unseen for twenty years after her death. The world's first visitor centre dedicated to her opened June 2025 on Adelso, a quiet island in Lake Malaren an hour from Stockholm, in the studio landscape she actually worked in.",
-   "s": "the mystic painter's own island studio",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Cenote Yaxbacaltun",
-   "city": "Homun",
-   "country": "Mexico",
-   "lat": 20.732215,
-   "lng": -89.271922,
-   "c": "lido",
-   "w": "Down a dirt road outside the cenote-riddled village of Homun, a semi-open cavern pool with a rope swing, tangled tree roots and fish darting through turquoise water. Far quieter than the Riviera Maya circuit, it draws travelers chasing the Yucatan's rawer, more local side of cenote-hopping.",
-   "s": "Rope-swing cenote in a village of a hundred cenotes",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Purunchi Koredor",
-   "city": "Willemstad",
-   "country": "Curacao",
-   "lat": 12.113,
-   "lng": -68.965,
-   "c": "food",
-   "w": "An open-air fish shack behind the island's water plant where the day's catch, not a menu, decides what's for lunch. Walk through the kitchen to a handful of waterside tables for grilled or stewed fish done the old Curacaoan way, a world away from the cruise-port restaurants of downtown Willemstad.",
-   "s": "No menu, just whatever fish came in that morning",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Bunt Cafe-Brewtique",
-   "city": "Barranquilla",
-   "country": "Colombia",
-   "lat": 10.9908,
-   "lng": -74.8064,
-   "c": "coffee",
-   "w": "A shaded courtyard cafe under mango trees in Barranquilla, mixing serious local coffee with live poetry readings and small music nights. Vegan hayacas and healthy plates round out a menu built for lingering, and it has become the reference point locals send visitors to when the coffee chains feel too generic.",
-   "s": "Coffee, poetry nights and vegan hayacas under mango trees",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Kvernufoss",
-   "city": "Skogar",
-   "country": "Iceland",
-   "lat": 63.5289,
-   "lng": -19.4814,
-   "c": "view",
-   "w": "Tucked behind a fold of cliff a short walk from Skogafoss, this 30m cascade lets visitors step behind the curtain of falling water into a mossy amphitheatre. Skips the tour-bus crowds of its famous neighbour while delivering the same walk-behind spectacle, a favourite stop for photographers chasing an emptier frame.",
-   "s": "Walk behind Iceland's quieter twin waterfall",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Cijevna Waterfall",
-   "city": "Podgorica",
-   "country": "Montenegro",
-   "lat": 42.3836,
-   "lng": 19.2792,
-   "c": "view",
-   "w": "A broad curtain of whitewater tumbles over limestone ledges on the Cijevna river just outside Podgorica, earning the nickname Montenegro's Niagara. The narrow canyon upstream squeezes to under a metre wide in places, drawing canyoners and swimmers in spring before the flow thins by late summer.",
-   "s": "Montenegro's own mini Niagara, minutes from town",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Nevidio Canyon",
-   "city": "Savnik",
-   "country": "Montenegro",
-   "lat": 42.95,
-   "lng": 19.15,
-   "c": "view",
-   "w": "Named 'the unseen' because the Komarnica river vanishes into it without warning, this slot canyon in Durmitor's shadow stayed unconquered until 1965. Guided groups now wade, swim and rappel between 450m limestone walls that pinch to under a metre wide, one of Europe's most technical canyoning routes.",
-   "s": "Europe's last-discovered canyon, walls a metre apart",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Skakavac Waterfall",
-   "city": "Sarajevo",
-   "country": "Bosnia and Herzegovina",
-   "lat": 43.95,
-   "lng": 18.45,
-   "c": "view",
-   "w": "A vertical limestone face above the village of Nahorevo carries a tributary of the Bosna over a 98m drop, one of the tallest falls in the Balkans. A forested two-hour trail from Sarajevo's edge reaches the base, where spray cools hikers standing in a natural monument protected since 2002.",
-   "s": "98m curtain falls a two-hour walk from Sarajevo",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Blue Eye of Theth",
-   "city": "Theth",
-   "country": "Albania",
-   "lat": 42.3643,
-   "lng": 19.7462,
-   "c": "lido",
-   "w": "A limestone pool along the Kaprreja river glows turquoise to near-black at its deepest point, fed by a cold spring cascading down in the heart of the Albanian Alps. Reached by an hour's walk from Nderlysaj near Theth village, it draws a fraction of the crowds at Albania's more famous coastal Blue Eye near Saranda.",
-   "s": "Albania's Alps hide a second, quieter Blue Eye",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "God's Bridge, Akchour",
-   "city": "Chefchaouen",
-   "country": "Morocco",
-   "lat": 35.278,
-   "lng": -5.17,
-   "c": "view",
-   "w": "A natural rock arch spans a Rif Mountain gorge 30m above the water, carved over millennia by the Farda river north of Chefchaouen. The trail splits toward the arch or a two-hour push further to the Grand Cascade, with Barbary macaques often spotted leaping through riverside trees along the way.",
-   "s": "A stone bridge carved by a river in the Rif",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Vani Sulfur Pool",
-   "city": "Vani",
-   "country": "Georgia",
-   "lat": 42.1044,
-   "lng": 42.5871,
-   "c": "oddity",
-   "w": "A near-perfectly round sulfur pool bubbles up from flat farmland outside the village of Dikhashkho, its warm mineral water ringed by nothing but grass. No infrastructure, no entry fee, just a geothermal vent that has become western Georgia's most photographed swimming hole since images spread online.",
-   "s": "A perfectly round hot spring erupting from a field",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Yumbilla Falls",
-   "city": "Cuispes",
-   "country": "Peru",
-   "lat": -5.9186,
-   "lng": -77.9007,
-   "c": "view",
-   "w": "Dropping 895m in five tiers through Amazonas cloud forest, this ranks among the tallest waterfalls on earth yet stayed off maps until the early 2000s. A muddy two-hour trail from Cuispes village reaches a misty viewing platform, with far fewer visitors than Peru's better-known Gocta Falls nearby.",
-   "s": "A five-tier cascade taller than most skyscrapers",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Campo de Piedra Pomez",
-   "city": "Antofagasta de la Sierra",
-   "country": "Argentina",
-   "lat": -26.6597,
-   "lng": -67.5142,
-   "c": "oddity",
-   "w": "Ash from a colossal volcanic eruption cooled into a rippling white plain of pumice and obsidian in Catamarca's high puna, riddled with wind-blasted spires and gas-bubble holes. Walking its 40 sq km feels closer to a moon landing than Argentina, with almost no shade and near-total silence at 3,300m.",
-   "s": "A white sea of wind-carved pumice at 3,300m",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Sutherland Falls",
-   "city": "Milford Sound",
-   "country": "New Zealand",
-   "lat": -44.8003,
-   "lng": 167.7303,
-   "c": "view",
-   "w": "Three tiers drop 580m from Lake Quill, a tarn cupped in a hanging valley above the Arthur River, making this one of the highest waterfalls in the world. Reaching it means several days on the Milford Track, rewarding trampers with a thundering finale rarely seen by day-trippers to Milford Sound.",
-   "s": "New Zealand's tallest falls, fed by a hidden tarn",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Gunlom Falls",
-   "city": "Kakadu",
-   "country": "Australia",
-   "lat": -13.4313,
-   "lng": 132.4178,
-   "c": "lido",
-   "w": "A steep climb beside the falls leads to rockhole pools sitting right on the escarpment edge, where the water appears to spill straight off the plateau into the valley below. Ranked Australia's top hidden natural attraction in a 2025 data study that filtered out the country's big-name parks.",
-   "s": "An infinity pool on top of a Kakadu escarpment",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Mount Ninderry Lookout",
-   "city": "Yandina",
-   "country": "Australia",
-   "lat": -26.5606,
-   "lng": 152.9611,
-   "c": "view",
-   "w": "Twin viewing platforms atop this hinterland peak look east to the coast and west across a patchwork of farmland now protected as Queensland's first International Dark Sky Reserve, certified in 2026. Clear nights bring out the Milky Way over silhouetted hills within an hour of the Sunshine Coast beaches.",
-   "s": "New dark-sky reserve lookout over the hinterland",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Odaru Falls Onsen",
-   "city": "Kawazu",
-   "country": "Japan",
-   "lat": 34.85,
-   "lng": 138.97,
-   "c": "lido",
-   "w": "The largest of the Kawazu Seven Waterfalls drops 30m past a riverside ryokan that has opened a mixed bathing pool right at its base, letting soakers watch the cascade from the water. Part of a forested trail linking seven falls through the Izu Peninsula's hills south of Tokyo.",
-   "s": "Soak in a hot spring at the foot of a waterfall",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Nagano Falls",
-   "city": "Satsumasendai",
-   "country": "Japan",
-   "lat": 31.8,
-   "lng": 130.22,
-   "c": "view",
-   "w": "Water threads between craggy, moss-covered rock before dropping 13m into an open cave along a rural stretch of Satsumasendai, marked only by small hand-lettered signs past rice paddies and farmhouses. Little-known even within Kyushu, it rewards anyone patient enough to find the unmarked turnoff.",
-   "s": "A moss-walled waterfall twisting into a hidden cave",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Redfish Lake",
-   "city": "Stanley",
-   "country": "United States",
-   "lat": 44.1169,
-   "lng": -114.9314,
-   "c": "view",
-   "w": "Glacier-carved and startlingly clear, this lake mirrors the serrated Sawtooth Mountains above the tiny town of Stanley. Salmon once turned its water red on their spawning run upriver from the Pacific, giving the lake its name; paddleboarders and campers now fill its shoreline through short Idaho summers.",
-   "s": "Alpine lake below the jagged Sawtooths, TikTok-famous",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Grinnell Lake",
-   "city": "West Glacier",
-   "country": "United States",
-   "lat": 48.7746,
-   "lng": -113.7085,
-   "c": "view",
-   "w": "Meltwater from the retreating Grinnell Glacier feeds this milky turquoise lake, reached by a trail that skirts cliffs above Lake Josephine before dropping to the shore. An overlook partway up the Grinnell Glacier Trail frames the full colour gradient of rock flour suspended in glacial water.",
-   "s": "Milky turquoise water below a shrinking glacier",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Lower Calf Creek Falls",
-   "city": "Escalante",
-   "country": "United States",
-   "lat": 37.8293,
-   "lng": -111.4203,
-   "c": "view",
-   "w": "A 5.6-mile round trip through Grand Staircase-Escalante's red-rock canyon passes ancient granaries and pictograph panels before opening onto a 130ft waterfall plunging into a cottonwood-shaded pool. The contrast of desert heat and cold spray makes it one of Utah's most rewarding day hikes.",
-   "s": "A 130ft desert waterfall at the end of a sandy canyon",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Laguna Grande Bio Bay",
-   "city": "Fajardo",
-   "country": "Puerto Rico",
-   "lat": 18.3634,
-   "lng": -65.6255,
-   "c": "maritime",
-   "w": "Mangrove-lined channels open onto a lagoon where dinoflagellates light up electric blue at every paddle stroke and fish trail glowing wakes beneath night kayaks. Part of the Cabezas de San Juan Nature Reserve, it is Puerto Rico's most accessible of three bioluminescent bays, an hour from San Juan.",
-   "s": "Paddle through water that glows blue with every stroke",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Waimarang Waterfall",
-   "city": "Melolo",
-   "country": "Indonesia",
-   "lat": -9.9,
-   "lng": 120.55,
-   "c": "lido",
-   "w": "A narrow gap in a limestone canyon wall opens onto a startlingly turquoise pool fed by a cascading waterfall, tucked inland from Sumba's south coast near Melolo. Reaching it means two hours by motorbike from Waingapu followed by a short scramble, well off the routes most Bali-bound travellers take.",
-   "s": "A turquoise plunge pool hidden inside a Sumba canyon",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Degtayan Falls",
-   "city": "Busuanga",
-   "country": "Philippines",
-   "lat": 12.2524,
-   "lng": 119.892,
-   "c": "lido",
-   "w": "Hidden in forest above the Buluang area of Busuanga island, this multi-tiered falls sits well inland from the dive boats and lagoons that draw most visitors to Coron. A short jungle trek past farms reaches a cold plunge pool, still largely unmarked outside local tour operators' maps.",
-   "s": "A secret jungle waterfall behind Coron's dive boats",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Binalayan Falls",
-   "city": "Samboan",
-   "country": "Philippines",
-   "lat": 9.6,
-   "lng": 123.35,
-   "c": "lido",
-   "w": "Also called Hidden Falls, this three-tier cascade drops into a deep, cold pool ringed by jungle in the barangay of Bonbon, far from Cebu City's crowds. A short trek down a forested ravine reaches the base, where locals still outnumber tourists on most weekdays.",
-   "s": "A three-tier jungle cascade in Cebu's quiet south",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Secret Lagoon, Miniloc Island",
-   "city": "El Nido",
-   "country": "Philippines",
-   "lat": 11.1926,
-   "lng": 119.3978,
-   "c": "maritime",
-   "w": "A narrow gap at the base of a limestone cliff on Miniloc Island opens into an enclosed lagoon walled in on all sides by towering karst, reachable only by crawling or swimming through the opening at low tide. One of El Nido's quieter lagoons compared to the more crowded Big and Small Lagoons nearby.",
-   "s": "Crawl through a cliff crack into an emerald lagoon",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Du Gia Waterfall",
-   "city": "Ha Giang",
-   "country": "Vietnam",
-   "lat": 23.1947,
-   "lng": 105.2783,
-   "c": "lido",
-   "w": "A cascading pool tucked into forest near Du Gia village offers motorbikers on the winding Ha Giang Loop a cold-water break after days on mountain switchbacks. Less crowded than the loop's famous viewpoints, it has become a favourite overnight stop for riders threading Vietnam's far north.",
-   "s": "A jungle swimming hole on the wild Ha Giang Loop",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Galebijana Cave",
-   "city": "Pula",
-   "country": "Croatia",
-   "lat": 44.833,
-   "lng": 13.825,
-   "c": "maritime",
-   "w": "A protected sea cave burrows 50m into the cliffs of the Muzil peninsula south of Pula, its partly submerged interior hiding a small pebble beach reachable only by swimming or paddling in. Once a haul-out for Mediterranean monk seals, its glowing turquoise water now draws snorkellers instead.",
-   "s": "A 50m sea cave with its own hidden pebble beach",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Cascata da Fervenca",
-   "city": "Sabugueiro",
-   "country": "Portugal",
-   "lat": 40.35,
-   "lng": -7.62,
-   "c": "view",
-   "w": "The Fervenca stream tumbles roughly 30m over granite slabs above Sabugueiro, mainland Portugal's highest village at 1,512m, framed by a view back down over the settlement's slate roofs. A circular trail from the village links this fall with the Covao do Urso stream through Serra da Estrela's granite highlands.",
-   "s": "A 30m granite cascade above Portugal's highest village",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Cascata da Gruta",
-   "city": "Nordeste",
-   "country": "Portugal",
-   "lat": 37.84,
-   "lng": -25.2,
-   "c": "view",
-   "w": "The final stop on a forested loop trail from Lomba de Sao Pedro, this cascade drops behind a huge overhanging rock face on Sao Miguel's quiet northeast coast. Passing the ruined Moinho do Felix watermill en route, the trail sees a fraction of the visitors drawn to the Azores' better-known crater lakes.",
-   "s": "A waterfall tumbling behind a giant rock overhang",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "EXP Rosemont",
-   "city": "Rosemont",
-   "country": "USA",
-   "lat": 41.988,
-   "lng": -87.8697,
-   "c": "oddity",
-   "w": "Opened September 2025 as a 26,000-square-foot immersive venue outside Chicago, built by Montreal's PHI Studio with the Village of Rosemont. Launch expeditions Horizon of Khufu and Life Chronicles use motion, scent and VR to walk visitors through ancient Egypt and 4 billion years of evolution.",
-   "s": "Immersive VR journeys through deep time",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Vadnagar Archaeological Experiential Museum",
-   "city": "Vadnagar",
-   "country": "India",
-   "lat": 23.7833,
-   "lng": 72.6386,
-   "c": "history",
-   "w": "Opened February 2025 above a live excavation site in Gujarat, India's first fully experiential archaeology museum. More than 5,000 artefacts from seven continuous occupation layers spanning 2,500 years, including Buddhist monastery remains and Indo-Greek coins, are shown beside the dig itself.",
-   "s": "India's first experiential archaeology museum",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Hainan Science and Technology Museum",
-   "city": "Haikou",
-   "country": "China",
-   "lat": 20.041,
-   "lng": 110.355,
-   "c": "museum",
-   "w": "Opened April 2026 on Haikou's west coast, Ma Yansong's spiralling, cloud-white volume appears to float above a public plaza. Inside, a planetarium and giant-screen theatre sit alongside exhibits on tropical ecology and space science, anchoring Hainan's push to become a free-trade science hub.",
-   "s": "MAD Architects' floating science museum",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Edelman Fossil Park and Museum",
-   "city": "Mantua Township",
-   "country": "USA",
-   "lat": 39.748,
-   "lng": -75.131,
-   "c": "oddity",
-   "w": "A working dig site built into a 65-acre former marl quarry around a six-inch-thick bone bed dating to the asteroid strike that killed the dinosaurs. Opened March 2025 under Rowan University, visitors can hunt for real Cretaceous shark teeth and shells alongside a Zumthor-adjacent museum wing of mounted skeletons.",
-   "s": "Dig for 66-million-year-old fossils yourself",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "The Big Picture Fest murals",
-   "city": "Melbourne",
-   "country": "Australia",
-   "lat": -38.1418,
-   "lng": 145.1215,
-   "c": "streetart",
-   "w": "Once-quiet Bayside car parks and laneways around Station Street and Gallery Lane now carry over 70 large-scale murals from an annual international street art festival, turning a commuter town an hour from the CBD into an open-air gallery. Self-guided trails start at Frankston Library.",
-   "s": "Seventy-plus murals turned a car park into a gallery",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Epping Night Market",
-   "city": "Sydney",
-   "country": "Australia",
-   "lat": -33.7726,
-   "lng": 151.0817,
-   "c": "market",
-   "w": "Boronia Park's first-ever night market, launched April 2026 on the last Friday of each month, with more than thirty stalls of street food and handmade goods, roving performers and local musicians filling a suburban park not previously known for nightlife or weekday crowds.",
-   "s": "A suburban park's first-ever monthly night market",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Phaya Khan Khak (Toad Museum)",
-   "city": "Yasothon",
-   "country": "Thailand",
-   "lat": 15.801,
-   "lng": 104.146,
-   "c": "oddity",
-   "w": "A four-storey concrete toad rises beside Yasothon's Lam Thuan reservoir, its open mouth doubling as an observation deck reached by elevator. Built to honor the Bun Bang Fai rocket festival's toad legend, exhibits inside trace the tale of a drought god appeased by amphibian tribute.",
-   "s": "A giant concrete toad you ride an elevator into",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Momotaro Shrine",
-   "city": "Inuyama",
-   "country": "Japan",
-   "lat": 35.418,
-   "lng": 136.944,
-   "c": "streetart",
-   "w": "Concrete statues by self-taught sculptor Shoun Asano crowd a riverside shrine north of Inuyama, illustrating the Peach Boy folktale in lurid, lumpy detail: monkeys, dogs, a pheasant, demons mid-battle. The naive, slightly unsettling figures have stood on the Kiso River bank since the 1930s.",
-   "s": "A folk-tale army of homemade concrete statues",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Beket-Ata Underground Mosque",
-   "city": "Zhanaozen",
-   "country": "Kazakhstan",
-   "lat": 43.6,
-   "lng": 54.07,
-   "c": "faith",
-   "w": "Four rounded chambers are carved into a chalk cliff deep in the Mangystau steppe, reached by a steep descent into the gorge where the 18th-century Sufi Beket-Ata is buried. Pilgrims still sleep beside his tomb; sheep are slaughtered outside and camel caravans once marked the route here.",
-   "s": "A Sufi saint's tomb carved into a desert cliff",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Kuklica Stone Dolls",
-   "city": "Kratovo",
-   "country": "North Macedonia",
-   "lat": 42.081,
-   "lng": 22.098,
-   "c": "oddity",
-   "w": "Over a hundred eroded volcanic pillars stand on a hillside near Kratovo, weathered into shapes locals swear resemble a wedding party turned to stone by a jilted bride's curse. Geologists blame differential erosion; the effect at dusk, ranks of silent humanoid rocks, needs no legend to unsettle.",
-   "s": "A hillside of rock pillars locals call a cursed wedding",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Cimetiere de Morne-a-l'Eau",
-   "city": "Morne-a-l'Eau",
-   "country": "Guadeloupe",
-   "lat": 16.328656,
-   "lng": -61.460313,
-   "c": "death",
-   "w": "Roughly 1,800 tombs climb an amphitheater-shaped hillside in black-and-white checkerboard tile, a Creole funerary style unique to this corner of Guadeloupe. At night during Toussaint, families light candles across the terraces, turning the whole slope into a flickering optical grid.",
-   "s": "1,800 checkerboard-tiled tombs on a hillside",
-   "how": "geo~prov"
-  },
-  {
-   "n": "D'Bone Collector Museum",
-   "city": "Davao City",
-   "country": "Philippines",
-   "lat": 7.061065,
-   "lng": 125.61261,
-   "c": "oddity",
-   "w": "Over seven hundred cleaned and articulated skeletons, from whale jaws to a two-headed turtle, fill a modest building in Davao's Bucana district. Founder Darrell Blatchley's team recovers many specimens from stranded or netted marine animals, using the museum to campaign against ocean plastic.",
-   "s": "Hundreds of animal skeletons in a Davao backstreet",
-   "how": "geo~prov"
-  },
-  {
-   "n": "San La Muerte Sanctuary",
-   "city": "Empedrado",
-   "country": "Argentina",
-   "lat": -27.96,
-   "lng": -58.81,
-   "c": "faith",
-   "w": "A roadside shrine along Route 12 near Empedrado draws devotees of San La Muerte, a skeletal folk saint venerated across Argentina's Guarani-influenced northeast despite Church condemnation. Statuettes, cigarettes and whisky bottles pile up as offerings from a cult still largely local and unwritten.",
-   "s": "A skeleton-saint shrine piled with whisky offerings",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "China Watermelon Museum",
-   "city": "Beijing",
-   "country": "China",
-   "lat": 39.633299,
-   "lng": 116.317143,
-   "c": "oddity",
-   "w": "A museum shaped like its subject sits amid the melon fields of Daxing district, tracing four thousand years of watermelon cultivation through waxworks, paintings and seed specimens, despite, famously, not displaying a single real watermelon inside. Visitors can tour adjoining farms during summer harvest.",
-   "s": "A watermelon-shaped museum with no real watermelons",
-   "how": "geo~prov"
-  },
-  {
-   "n": "Pig Museum (P.Atteul)",
-   "city": "Icheon",
-   "country": "South Korea",
-   "lat": 37.232319,
-   "lng": 127.337228,
-   "c": "oddity",
-   "w": "Thousands of pig figurines, from lucky charms to cartoon mascots, fill this Icheon farm-museum devoted entirely to swine culture, alongside live pigs visitors can feed and a petting barn. It doubles as an agricultural promotion project for a region built partly on pig farming.",
-   "s": "A working farm-museum stuffed with pig figurines",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "World's Largest Perogy",
-   "city": "Glendon",
-   "country": "Canada",
-   "lat": 54.2527,
-   "lng": -111.1541,
-   "c": "oddity",
-   "w": "A 27-foot stainless perogy skewered on a giant fork stands in a roadside park in Glendon, a village of a few hundred people that calls itself the world's Pyrogy Capital in tribute to its Ukrainian-settler roots. It has anchored the town's identity, and an annual festival, since 1991.",
-   "s": "A 27-foot steel dumpling on a giant fork",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Moonbeam UFO Monument",
-   "city": "Moonbeam",
-   "country": "Canada",
-   "lat": 49.38,
-   "lng": -82.16,
-   "c": "oddity",
-   "w": "A silver flying saucer perches on stilts beside the highway through Moonbeam, a small francophone town that leaned into a wave of 1990s UFO sightings by erecting this monument in 1991. The tourist office beside it, shaped like a landed spacecraft, still sells alien-themed souvenirs to passing truckers.",
-   "s": "A UFO monument marking a town's alleged sightings",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Igreja Matriz de Valega",
-   "city": "Ovar",
-   "country": "Portugal",
-   "lat": 40.833652,
-   "lng": -8.580166,
-   "c": "faith",
-   "w": "Every exterior wall of this small parish church near Ovar is sheathed in hand-painted azulejo tiles laid in the 1960s, depicting saints, biblical scenes and floral motifs across the facade, towers and side walls. Locals call it Portugal's most beautiful church despite its unassuming village setting.",
-   "s": "A village church wrapped floor to roof in painted tiles",
-   "how": "geo~prov"
-  },
-  {
-   "n": "Vojna Memorial",
-   "city": "Pribram",
-   "country": "Czech Republic",
-   "lat": 49.641186,
-   "lng": 14.001044,
-   "c": "history",
-   "w": "Watchtowers and barbed-wire compounds survive intact at this former uranium-mine labor camp near Pribram, where political prisoners of communist Czechoslovakia were worked, sometimes to death, between 1949 and 1961. Preserved barracks and mining tools now form the only intact camp of its kind in Central Europe.",
-   "s": "An intact Cold War uranium-mine prison camp",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Little Istanbul (Lilla Istanbul)",
-   "city": "Sala",
-   "country": "Sweden",
-   "lat": 59.9,
-   "lng": 16.6,
-   "c": "oddity",
-   "w": "Roughly twenty scale-model Istanbul landmarks, the Blue Mosque, Topkapi Palace, Dolmabahce, rise from a modest garden outside Sala, all built from scavenged dump and recycling-bin materials by outsider artist Jan-Erik Svennberg, who has never visited Turkey but fell for the city through one stopover.",
-   "s": "A Swedish garden rebuilt as miniature Istanbul",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Aukrust Center",
-   "city": "Alvdal",
-   "country": "Norway",
-   "lat": 62.1667,
-   "lng": 10.6333,
-   "c": "history",
-   "w": "Architect Sverre Fehn's award-winning building in the valley village of Alvdal houses the sketches, paintings and invented machines of illustrator Kjell Aukrust, whose absurdist cartoon world inspired the animated film Flaklypa Grand Prix. The center sits where Aukrust grew up, among the farms he drew.",
-   "s": "A cartoonist's absurdist inventions, museumified",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Icelandic Sea Monster Museum",
-   "city": "Bildudalur",
-   "country": "Iceland",
-   "lat": 65.6892,
-   "lng": -23.5975,
-   "c": "oddity",
-   "w": "Eyewitness accounts of lake and fjord monsters going back centuries fill this small waterfront museum in a Westfjords fishing village on Arnarfjordur, a fjord locals still consider a sighting hotspot. Exhibits mix folklore, taxidermied guesses at what people saw, and a working coffee shop.",
-   "s": "A fjord-monster archive in a fishing village",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Atis Rezistans",
-   "city": "Port-au-Prince",
-   "country": "Haiti",
-   "lat": 18.539853,
-   "lng": -72.344866,
-   "c": "streetart",
-   "w": "Down an alley off Port-au-Prince's Grand Rue, sculptors weld car parts, skulls and machine scrap into startling Vodou-spirit figures, a junkyard art collective founded by Andre Eugene and collaborators in the 1990s. Their open-air workshop-gallery has drawn international curators despite the neighborhood's reputation.",
-   "s": "Vodou spirits welded from scrap metal and skulls",
-   "how": "geo~prov"
-  },
-  {
-   "n": "Gnomesville",
-   "city": "Dardanup",
-   "country": "Australia",
-   "lat": -33.4651,
-   "lng": 115.9103,
-   "c": "oddity",
-   "w": "Thousands of garden gnomes, left by visitors since a single pair appeared during a land dispute in the early 1990s, now colonize a patch of forest at a Ferguson Valley road junction. New arrivals keep multiplying the crowd; nobody manages it, and locals treat its origins as genuinely disputed.",
-   "s": "A forest colonized by thousands of garden gnomes",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "Grande Hotel Beira",
-   "city": "Beira",
-   "country": "Mozambique",
-   "lat": -19.847147,
-   "lng": 34.840873,
-   "c": "history",
-   "w": "Marble staircases and a vast dry swimming pool sit gutted and open to the sky in this 1950s luxury hotel, once the grandest on the Indian Ocean coast, now home to thousands of squatters who have built lives inside its ruined ballrooms and corridors since Mozambique's civil war.",
-   "s": "A ruined luxury hotel now home to thousands",
-   "how": "geo~prov"
-  },
-  {
-   "n": "Steampunk HQ",
-   "city": "Oamaru",
-   "country": "New Zealand",
-   "lat": -45.0975,
-   "lng": 170.9708,
-   "c": "oddity",
-   "w": "A full-size steam locomotive bursts through the facade of a former grain elevator in Oamaru, anchoring a gallery of kinetic sculpture, ray guns and a fog-filled portal room built by local artists. The town leaned into its Victorian architecture to declare itself steampunk's unofficial world capital.",
-   "s": "A steam train bursting from an old grain silo",
-   "how": "prov(nogeo)"
-  },
-  {
-   "n": "MAC Lima",
-   "city": "Lima",
-   "country": "Peru",
-   "lat": 12.1428,
-   "lng": -77.0219,
-   "c": "museum",
-   "w": "A concrete contemporary art museum on Avenida Grau showing Peruvian and Latin American painting, sculpture and video in changing exhibitions, with a sculpture garden facing the district's bohemian streets. Barranco, Lima's old bathing resort turned artists' quarter, made Time Out's 2025 coolest-neighbourhoods list.",
-   "s": "Contemporary art anchor of Lima's bohemian seaside quarter",
-   "how": "prov(nogeo)"
-  }
- ],
+ "unmapped": [],
  "byCity": {
-  "accra": 4,
-  "casablanca": 2,
+  "casablanca": 1,
   "marrakech": 2,
-  "capetown": 2,
-  "lagos": 1,
-  "riyadh": 2,
-  "abudhabi": 3,
-  "doha": 2,
-  "addisababa": 1,
-  "dakar": 1,
-  "kigali": 1,
-  "telaviv": 2,
-  "amman": 1,
-  "muscat": 1,
-  "giza": 3,
-  "kampala": 1,
-  "beirut": 1,
-  "losangeles": 2,
-  "dubai": 2,
-  "houston": 1,
-  "paris": 3,
-  "shenzhen": 2,
-  "kyoto": 1,
-  "hangzhou": 1,
-  "helsinki": 1,
-  "almaty": 2,
-  "naoshima": 1,
-  "bangalore": 1,
-  "tokyo": 4,
-  "osaka": 1,
-  "seoul": 9,
+  "lalaguna": 1,
+  "ralsko": 1,
+  "fishtail": 1,
+  "kiel": 1,
+  "jastrzebiezdroj": 1,
+  "doha": 1,
+  "almasayel": 1,
+  "kea": 1,
+  "bodufushi": 1,
+  "liverpoolau": 1,
+  "fayetteville": 1,
+  "taichung": 1,
   "chengdu": 1,
-  "chongqing": 1,
-  "shanghai": 1,
-  "bangkok": 5,
-  "hanoi": 2,
-  "danang": 1,
-  "manila": 1,
-  "colombo": 1,
-  "udaipur": 1,
-  "rotterdam": 2,
-  "amsterdam": 2,
-  "athens": 2,
-  "warsaw": 3,
-  "vilnius": 2,
-  "copenhagen": 3,
-  "barcelona": 1,
-  "vienna": 1,
-  "berlin": 1,
-  "valletta": 1,
-  "zurich": 2,
-  "sofia": 1,
-  "lisbon": 1,
-  "gibraltar": 1,
-  "mexicocity": 7,
-  "nyc": 11,
-  "lima": 2,
-  "cartagena": 1,
-  "vancouver": 1,
-  "portland": 1,
-  "hochiminh": 1,
-  "kualalumpur": 2,
-  "sydney": 5,
-  "melbourne": 5,
-  "buenosaires": 2,
-  "bogota": 2,
-  "singapore": 2,
-  "chicago": 2,
-  "oaxaca": 2,
-  "saopaulo": 3,
-  "uyuni": 1,
-  "sanpedroatacama": 3,
-  "guatemalacity": 1,
-  "sanjuanpr": 1,
-  "kingstonjm": 1,
-  "medellin": 2,
-  "valparaiso": 1,
-  "panamacity": 1,
-  "kansascity": 1,
-  "istanbul": 1,
-  "washingtondc": 1,
-  "nashville": 1,
-  "stlouis": 1,
-  "austin": 1,
+  "bangkok": 2,
+  "cebu": 1,
+  "penang": 1,
+  "ubud": 1,
+  "kadapa": 1,
+  "warsaw": 2,
+  "selfoss": 1,
+  "stockholm": 1,
+  "seoul": 1,
+  "buenosaires": 1,
+  "homun": 1,
+  "willemstad": 1,
+  "barranquilla": 1,
+  "skogar": 1,
+  "podgorica": 1,
+  "savnik": 1,
+  "sarajevo": 1,
+  "theth": 1,
+  "chefchaouen": 1,
+  "vani": 1,
+  "cuispes": 1,
+  "antofagastadelasierra": 1,
+  "milfordsound": 1,
+  "kakadu": 1,
+  "yandina": 1,
+  "kawazu": 1,
+  "satsumasendai": 1,
+  "stanley": 1,
+  "westglacier": 1,
+  "escalante": 1,
+  "fajardo": 1,
+  "melolo": 1,
+  "busuanga": 1,
+  "samboan": 1,
+  "elnido": 1,
+  "hagiang": 1,
+  "pula": 1,
+  "sabugueiro": 1,
+  "nordeste": 1,
+  "rosemont": 1,
+  "saopaulo": 1,
+  "vadnagar": 1,
+  "haikou": 1,
+  "mantuatownship": 1,
   "neworleans": 1,
-  "toronto": 2,
-  "montreal": 2,
-  "seattle": 1,
-  "philadelphia": 2,
-  "detroit": 1,
-  "denver": 1,
-  "miami": 2,
-  "brisbane": 4,
-  "adelaide": 2,
-  "perth": 1,
-  "auckland": 2,
-  "christchurch": 2,
-  "wellington": 1,
-  "baku": 1,
-  "mandalay": 1,
+  "melbourne": 1,
+  "sydney": 1,
+  "yasothon": 1,
+  "inuyama": 1,
+  "zhanaozen": 1,
+  "kratovo": 1,
+  "mornealeau": 1,
+  "davaocity": 1,
+  "empedrado": 1,
+  "beijing": 1,
+  "icheon": 1,
+  "glendon": 1,
+  "moonbeam": 1,
+  "ovar": 1,
+  "pribram": 1,
+  "sala": 1,
+  "alvdal": 1,
   "kotor": 1,
-  "bukhara": 1,
-  "birmingham": 1,
-  "antwerp": 1,
-  "jakarta": 1,
-  "sandiego": 1,
-  "johannesburg": 1,
-  "naples": 1
+  "bildudalur": 1,
+  "portauprince": 1,
+  "dardanup": 1,
+  "beira": 1,
+  "oamaru": 1,
+  "montreal": 1,
+  "limape": 1
  }
 }
