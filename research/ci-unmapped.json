@@ -1,1762 +1,1234 @@
 [
  {
-  "slug": "menzies",
-  "name": "Menzies",
-  "e": "🇦🇺",
-  "lat": -29.3667,
-  "lng": 120.9833,
+  "slug": "abuja",
+  "name": "Abuja",
+  "e": "🇳🇬",
+  "lat": 9.0765,
+  "lng": 7.4951,
   "bbox": [
-   120.853,
-   -29.497,
-   121.113,
-   -29.237
+   7.365,
+   8.946,
+   7.625,
+   9.207
   ],
-  "blurb": "51 iron figures scattered across a dry salt lake",
+  "blurb": "Abuja's best-kept cafe-slash-private-collection secret",
   "region": 1,
-  "_country": "Australia"
+  "_country": "Nigeria"
  },
  {
-  "slug": "gardenvalley",
-  "name": "Garden Valley",
-  "e": "🇺🇸",
-  "lat": 38.0309,
-  "lng": -115.4361,
-  "bbox": [
-   -115.566,
-   37.901,
-   -115.306,
-   38.161
-  ],
-  "blurb": "A mile-long earthwork, 50 years in the making",
-  "region": 1,
-  "_country": "United States"
- },
- {
-  "slug": "rhyolite",
-  "name": "Rhyolite",
-  "e": "🇺🇸",
-  "lat": 36.8994,
-  "lng": -116.8228,
-  "bbox": [
-   -116.953,
-   36.769,
-   -116.693,
-   37.029
-  ],
-  "blurb": "Ghost-town sculpture garden on the Death Valley edge",
-  "region": 1,
-  "_country": "United States"
- },
- {
-  "slug": "changchun",
-  "name": "Changchun",
-  "e": "🇨🇳",
-  "lat": 43.8168,
-  "lng": 125.2831,
-  "bbox": [
-   125.153,
-   43.687,
-   125.413,
-   43.947
-  ],
-  "blurb": "340-plus sculptures from 130 countries in one park",
-  "region": 1,
-  "_country": "China"
- },
- {
-  "slug": "alula",
-  "name": "AlUla",
-  "e": "🇸🇦",
-  "lat": 26.633,
-  "lng": 37.87,
-  "bbox": [
-   37.74,
-   26.503,
-   38,
-   26.763
-  ],
-  "blurb": "The world's largest mirrored building, in a desert canyon",
-  "region": 1,
-  "_country": "Saudi Arabia"
- },
- {
-  "slug": "tirana",
-  "name": "Tirana",
-  "e": "🇦🇱",
-  "lat": 41.342,
-  "lng": 19.8487,
-  "bbox": [
-   19.693,
-   41.198,
-   20.005,
-   41.486
-  ],
-  "blurb": "Albania's first-ever World's 50 Best bar",
-  "region": 1,
-  "_country": "Albania"
- },
- {
-  "slug": "guangzhou",
-  "name": "Guangzhou",
-  "e": "🇨🇳",
-  "lat": 23.1346,
-  "lng": 113.2936,
-  "bbox": [
-   113.164,
-   23.005,
-   113.424,
-   23.265
-  ],
-  "blurb": "Cantonese cocktails behind a grocery-shop facade",
-  "region": 1,
-  "_country": "China"
- },
- {
-  "slug": "freeport",
-  "name": "Freeport",
-  "e": "🇺🇸",
-  "lat": 43.8203,
-  "lng": -70.1028,
-  "bbox": [
-   -70.233,
-   43.69,
-   -69.973,
-   43.95
-  ],
-  "blurb": "Cult IPA brewery, Lunch and Dinner pilgrimage site",
-  "region": 1,
-  "_country": "United States"
- },
- {
-  "slug": "semboku",
-  "name": "Semboku",
-  "e": "🇯🇵",
-  "lat": 39.897,
-  "lng": 140.817,
-  "bbox": [
-   140.687,
-   39.767,
-   140.947,
-   40.027
-  ],
-  "blurb": "Edo-era ryokan with milky mountain baths",
-  "region": 1,
-  "_country": "Japan"
- },
- {
-  "slug": "matsuyama",
-  "name": "Matsuyama",
-  "e": "🇯🇵",
-  "lat": 33.8523,
-  "lng": 132.7864,
-  "bbox": [
-   132.656,
-   33.722,
-   132.916,
-   33.982
-  ],
-  "blurb": "Japan's storied 1894 bathhouse, oldest spring",
-  "region": 1,
-  "_country": "Japan"
- },
- {
-  "slug": "kusatsu",
-  "name": "Kusatsu",
-  "e": "🇯🇵",
-  "lat": 36.6228,
-  "lng": 138.5958,
-  "bbox": [
-   138.466,
-   36.493,
-   138.726,
-   36.753
-  ],
-  "blurb": "Japan's perennial top-ranked onsen town",
-  "region": 1,
-  "_country": "Japan"
- },
- {
-  "slug": "beppu",
-  "name": "Beppu",
-  "e": "🇯🇵",
-  "lat": 33.298,
-  "lng": 131.499,
-  "bbox": [
-   131.369,
-   33.168,
-   131.629,
-   33.428
-  ],
-  "blurb": "Boiling 'hell' pools, too hot to enter",
-  "region": 1,
-  "_country": "Japan"
- },
- {
-  "slug": "hveragerdi",
-  "name": "Hveragerdi",
-  "e": "🇮🇸",
-  "lat": 63.9975,
-  "lng": -21.2167,
-  "bbox": [
-   -21.347,
-   63.867,
-   -21.087,
-   64.127
-  ],
-  "blurb": "Free wild river, warm enough to swim in",
-  "region": 1,
-  "_country": "Iceland"
- },
- {
-  "slug": "conaripe",
-  "name": "Coñaripe",
-  "e": "🇨🇱",
-  "lat": -39.6081,
-  "lng": -71.8686,
-  "bbox": [
-   -71.999,
-   -39.738,
-   -71.739,
-   -39.478
-  ],
-  "blurb": "20 slate pools threaded through a ravine",
-  "region": 1,
-  "_country": "Chile"
- },
- {
-  "slug": "puyuhuapi",
-  "name": "Puyuhuapi",
-  "e": "🇨🇱",
-  "lat": -44.314,
-  "lng": -72.579,
-  "bbox": [
-   -72.709,
-   -44.444,
-   -72.449,
-   -44.184
-  ],
-  "blurb": "Fjord-side pools reached only by boat",
-  "region": 1,
-  "_country": "Chile"
- },
- {
-  "slug": "bagaces",
-  "name": "Bagaces",
-  "e": "🇨🇷",
-  "lat": 10.618,
-  "lng": -85.166,
-  "bbox": [
-   -85.296,
-   10.488,
-   -85.036,
-   10.748
-  ],
-  "blurb": "A mile of self-mixing volcanic hot river",
-  "region": 1,
-  "_country": "Costa Rica"
- },
- {
-  "slug": "cardonal",
-  "name": "Cardonal",
-  "e": "🇲🇽",
-  "lat": 20.8144,
-  "lng": -98.9797,
-  "bbox": [
-   -99.11,
-   20.684,
-   -98.85,
-   20.944
-  ],
-  "blurb": "Milky-blue river pouring from a hot cave",
-  "region": 1,
-  "_country": "Mexico"
- },
- {
-  "slug": "manikaran",
-  "name": "Manikaran",
+  "slug": "chandigarh",
+  "name": "Chandigarh",
   "e": "🇮🇳",
-  "lat": 32.031,
-  "lng": 77.348,
+  "lat": 30.7601,
+  "lng": 76.8065,
   "bbox": [
-   77.218,
-   31.901,
-   77.478,
-   32.161
+   76.677,
+   30.63,
+   76.936,
+   30.89
   ],
-  "blurb": "Sacred spring that cooks pilgrims' meals",
+  "blurb": "A concrete parliament with a cooling-tower roof",
   "region": 1,
   "_country": "India"
  },
  {
-  "slug": "tampere",
-  "name": "Tampere",
-  "e": "🇫🇮",
-  "lat": 61.4915,
-  "lng": 23.7357,
+  "slug": "dhaka",
+  "name": "Dhaka",
+  "e": "🇧🇩",
+  "lat": 23.7623,
+  "lng": 90.3785,
   "bbox": [
-   23.606,
-   61.361,
-   23.866,
-   61.622
+   90.249,
+   23.632,
+   90.509,
+   23.892
   ],
-  "blurb": "Finland's oldest wood-fired public sauna",
+  "blurb": "Louis Kahn's lakeside concrete parliament fortress",
   "region": 1,
-  "_country": "Finland"
+  "_country": "Bangladesh"
  },
  {
-  "slug": "moscow",
-  "name": "Moscow",
-  "e": "🇷🇺",
-  "lat": 55.7644,
-  "lng": 37.6236,
-  "bbox": [
-   37.494,
-   55.634,
-   37.754,
-   55.894
-  ],
-  "blurb": "1896 marble banya loved by Tolstoy, Pushkin",
-  "region": 1,
-  "_country": "Russia"
- },
- {
-  "slug": "sanquiricodorcia",
-  "name": "San Quirico d'Orcia",
-  "e": "🇮🇹",
-  "lat": 43.0339,
-  "lng": 11.6172,
-  "bbox": [
-   11.487,
-   42.904,
-   11.747,
-   43.164
-  ],
-  "blurb": "A whole village square filled with hot water",
-  "region": 1,
-  "_country": "Italy"
- },
- {
-  "slug": "fingal",
-  "name": "Fingal",
-  "e": "🇦🇺",
-  "lat": -38.4149,
-  "lng": 144.9491,
-  "bbox": [
-   144.819,
-   -38.545,
-   145.079,
-   -38.285
-  ],
-  "blurb": "Terraced bore-water pools above Port Phillip",
-  "region": 1,
-  "_country": "Australia"
- },
- {
-  "slug": "permet",
-  "name": "Permet",
-  "e": "🇦🇱",
-  "lat": 40.2069,
-  "lng": 20.4442,
-  "bbox": [
-   20.314,
-   40.077,
-   20.574,
-   40.337
-  ],
-  "blurb": "Sulfur pools by an Ottoman stone bridge",
-  "region": 1,
-  "_country": "Albania"
- },
- {
-  "slug": "saparevabanya",
-  "name": "Sapareva Banya",
+  "slug": "kazanlak",
+  "name": "Kazanlak",
   "e": "🇧🇬",
-  "lat": 42.2833,
-  "lng": 23.2667,
+  "lat": 42.735,
+  "lng": 25.3833,
   "bbox": [
-   23.137,
-   42.153,
-   23.397,
-   42.413
+   25.253,
+   42.605,
+   25.513,
+   42.865
   ],
-  "blurb": "The Balkans' only true erupting geyser",
+  "blurb": "A gutted concrete flying saucer on a Balkan peak",
   "region": 1,
   "_country": "Bulgaria"
  },
  {
-  "slug": "whitianga",
-  "name": "Whitianga",
-  "e": "🇳🇿",
-  "lat": -36.8833,
-  "lng": 175.8139,
-  "bbox": [
-   175.684,
-   -37.013,
-   175.944,
-   -36.753
-  ],
-  "blurb": "Dig your own hot pool in the sand",
-  "region": 1,
-  "_country": "New Zealand"
- },
- {
-  "slug": "estacada",
-  "name": "Estacada",
-  "e": "🇺🇸",
-  "lat": 44.9828,
-  "lng": -122.1689,
-  "bbox": [
-   -122.299,
-   44.853,
-   -122.039,
-   45.113
-  ],
-  "blurb": "Cedar tubs, a forest hike from the road",
-  "region": 1,
-  "_country": "USA"
- },
- {
-  "slug": "aspen",
-  "name": "Aspen",
-  "e": "🇺🇸",
-  "lat": 39.0161,
-  "lng": -106.9313,
-  "bbox": [
-   -107.061,
-   38.886,
-   -106.801,
-   39.146
-  ],
-  "blurb": "Alpine soak at 11,200ft below 14ers",
-  "region": 1,
-  "_country": "USA"
- },
- {
-  "slug": "fairbanks",
-  "name": "Fairbanks",
-  "e": "🇺🇸",
-  "lat": 65.0556,
-  "lng": -146.0692,
-  "bbox": [
-   -146.199,
-   64.926,
-   -145.939,
-   65.186
-  ],
-  "blurb": "Geothermal lake under the northern lights",
-  "region": 1,
-  "_country": "USA"
- },
- {
-  "slug": "ojocaliente",
-  "name": "Ojo Caliente",
-  "e": "🇺🇸",
-  "lat": 36.3153,
-  "lng": -106.0508,
-  "bbox": [
-   -106.181,
-   36.185,
-   -105.921,
-   36.445
-  ],
-  "blurb": "Four unique mineral waters, no sulfur smell",
-  "region": 1,
-  "_country": "USA"
- },
- {
-  "slug": "jikha",
-  "name": "Jikha",
-  "e": "🇬🇪",
-  "lat": 42.302,
-  "lng": 42.118,
-  "bbox": [
-   41.988,
-   42.172,
-   42.248,
-   42.432
-  ],
-  "blurb": "Wild sulfur falls by an ancient hillfort",
-  "region": 1,
-  "_country": "Georgia"
- },
- {
-  "slug": "sansalvador",
-  "name": "San Salvador",
-  "e": "🇸🇻",
-  "lat": 13.6975,
-  "lng": -89.2278,
-  "bbox": [
-   -89.358,
-   13.567,
-   -89.098,
-   13.828
-  ],
-  "blurb": "Salvadoran coffee lab ranked No.3 in the world",
-  "region": 1,
-  "_country": "El Salvador"
- },
- {
-  "slug": "yerevan",
-  "name": "Yerevan",
-  "e": "🇦🇲",
-  "lat": 40.1836,
-  "lng": 44.5116,
-  "bbox": [
-   44.382,
-   40.054,
-   44.642,
-   40.314
-  ],
-  "blurb": "Armenia's first specialty coffee roastery",
-  "region": 1,
-  "_country": "Armenia"
- },
- {
-  "slug": "calgary",
-  "name": "Calgary",
-  "e": "🇨🇦",
-  "lat": 51.0125,
-  "lng": -114.0865,
-  "bbox": [
-   -114.216,
-   50.883,
-   -113.957,
-   51.143
-  ],
-  "blurb": "Flagship roastery of a six-time barista champion",
-  "region": 1,
-  "_country": "Canada"
- },
- {
-  "slug": "rogers",
-  "name": "Rogers",
-  "e": "🇺🇸",
-  "lat": 36.3322,
-  "lng": -94.1185,
-  "bbox": [
-   -94.248,
-   36.202,
-   -93.989,
-   36.462
-  ],
-  "blurb": "Named the world's best coffee shop in 2026",
-  "region": 1,
-  "_country": "United States"
- },
- {
-  "slug": "xilitla",
-  "name": "Xilitla",
-  "e": "🇲🇽",
-  "lat": 21.3973,
-  "lng": -98.9968,
-  "bbox": [
-   -99.127,
-   21.267,
-   -98.867,
-   21.527
-  ],
-  "blurb": "Surrealist concrete ruins swallowed by jungle",
-  "region": 1,
-  "_country": "Mexico"
- },
- {
-  "slug": "bomarzo",
-  "name": "Bomarzo",
-  "e": "🇮🇹",
-  "lat": 42.5978,
-  "lng": 12.2867,
-  "bbox": [
-   12.157,
-   42.468,
-   12.417,
-   42.728
-  ],
-  "blurb": "16th-century garden of giant stone monsters",
-  "region": 1,
-  "_country": "Italy"
- },
- {
-  "slug": "capalbio",
-  "name": "Capalbio",
-  "e": "🇮🇹",
-  "lat": 42.4172,
-  "lng": 11.4667,
-  "bbox": [
-   11.337,
-   42.287,
-   11.597,
-   42.547
-  ],
-  "blurb": "Walk-in mosaic giants, one per tarot card",
-  "region": 1,
-  "_country": "Italy"
- },
- {
-  "slug": "parikkala",
-  "name": "Parikkala",
-  "e": "🇫🇮",
-  "lat": 61.549,
-  "lng": 29.501,
-  "bbox": [
-   29.371,
-   61.419,
-   29.631,
-   61.679
-  ],
-  "blurb": "500 self-taught concrete figures in a pine forest",
-  "region": 1,
-  "_country": "Finland"
- },
- {
-  "slug": "lee",
-  "name": "Lee",
-  "e": "🇺🇸",
-  "lat": 43.0958,
-  "lng": -71.0422,
-  "bbox": [
-   -71.172,
-   42.966,
-   -70.912,
-   43.226
-  ],
-  "blurb": "Kinetic scrap-metal sculptures on an old dairy farm",
-  "region": 1,
-  "_country": "USA"
- },
- {
-  "slug": "guatiza",
-  "name": "Guatiza",
-  "e": "🇪🇸",
-  "lat": 29.1467,
-  "lng": -13.4386,
-  "bbox": [
-   -13.569,
-   29.017,
-   -13.309,
-   29.277
-  ],
-  "blurb": "A cactus garden carved into a collapsed lava tube",
-  "region": 1,
-  "_country": "Spain"
- },
- {
-  "slug": "menglun",
-  "name": "Menglun",
-  "e": "🇨🇳",
-  "lat": 21.9167,
-  "lng": 101.2667,
-  "bbox": [
-   101.137,
-   21.787,
-   101.397,
-   22.047
-  ],
-  "blurb": "13,000 tropical species around a river bend",
-  "region": 1,
-  "_country": "China"
- },
- {
-  "slug": "makarau",
-  "name": "Makarau",
-  "e": "🇳🇿",
-  "lat": -36.5198,
-  "lng": 174.4486,
-  "bbox": [
-   174.319,
-   -36.65,
-   174.579,
-   -36.39
-  ],
-  "blurb": "Giant abstract sculptures grazed by farm animals",
-  "region": 1,
-  "_country": "New Zealand"
- },
- {
-  "slug": "hamilton",
-  "name": "Hamilton",
-  "e": "🇳🇿",
-  "lat": -37.7853,
-  "lng": 175.3,
-  "bbox": [
-   175.17,
-   -37.915,
-   175.43,
-   -37.655
-  ],
-  "blurb": "Garden rooms spanning 4,000 years of design",
-  "region": 1,
-  "_country": "New Zealand"
- },
- {
-  "slug": "ashgabat",
-  "name": "Ashgabat",
-  "e": "🇹🇲",
-  "lat": 37.9529,
-  "lng": 58.3466,
-  "bbox": [
-   58.217,
-   37.823,
-   58.477,
-   38.083
-  ],
-  "blurb": "Central Asia's oldest garden, in a closed capital",
-  "region": 1,
-  "_country": "Turkmenistan"
- },
- {
-  "slug": "grandmetis",
-  "name": "Grand-Metis",
-  "e": "🇨🇦",
-  "lat": 48.6672,
-  "lng": -68.1494,
-  "bbox": [
-   -68.279,
-   48.537,
-   -68.019,
-   48.797
-  ],
-  "blurb": "The northernmost great garden in eastern North America",
-  "region": 1,
-  "_country": "Canada"
- },
- {
-  "slug": "waghai",
-  "name": "Waghai",
-  "e": "🇮🇳",
-  "lat": 20.7667,
-  "lng": 73.5,
-  "bbox": [
-   73.37,
-   20.637,
-   73.63,
-   20.897
-  ],
-  "blurb": "A biodiversity park recreating Gujarat's forest types",
-  "region": 1,
-  "_country": "India"
- },
- {
-  "slug": "ibague",
-  "name": "Ibague",
-  "e": "🇨🇴",
-  "lat": 4.4498,
-  "lng": -75.223,
-  "bbox": [
-   -75.353,
-   4.32,
-   -75.093,
-   4.58
-  ],
-  "blurb": "A forest garden that keeps discovering new plants",
-  "region": 1,
-  "_country": "Colombia"
- },
- {
-  "slug": "worcester",
-  "name": "Worcester",
-  "e": "🇿🇦",
-  "lat": -33.6127,
-  "lng": 19.4507,
-  "bbox": [
-   19.321,
-   -33.743,
-   19.581,
-   -33.483
-  ],
-  "blurb": "Nearly 3,000 succulent species at the Karoo's edge",
-  "region": 1,
-  "_country": "South Africa"
- },
- {
-  "slug": "pattaya",
-  "name": "Pattaya",
-  "e": "🇹🇭",
-  "lat": 12.7326,
-  "lng": 100.9354,
-  "bbox": [
-   100.805,
-   12.603,
-   101.065,
-   12.863
-  ],
-  "blurb": "500 acres and one of the world's largest cycad banks",
-  "region": 1,
-  "_country": "Thailand"
- },
- {
-  "slug": "luso",
-  "name": "Luso",
-  "e": "🇵🇹",
-  "lat": 40.37,
-  "lng": -8.3644,
-  "bbox": [
-   -8.494,
-   40.24,
-   -8.234,
-   40.5
-  ],
-  "blurb": "A walled 17th-century forest guarded by papal decree",
-  "region": 1,
-  "_country": "Portugal"
- },
- {
-  "slug": "inlelake",
-  "name": "Inle Lake",
-  "e": "🇲🇲",
-  "lat": 20.5667,
-  "lng": 96.9167,
-  "bbox": [
-   96.787,
-   20.437,
-   97.047,
-   20.697
-  ],
-  "blurb": "Tomato farms rooted to woven mats that float",
-  "region": 1,
-  "_country": "Myanmar"
- },
- {
-  "slug": "luderitz",
-  "name": "Luderitz",
-  "e": "🇳🇦",
-  "lat": -26.7041,
-  "lng": 15.2324,
-  "bbox": [
-   15.102,
-   -26.834,
-   15.362,
-   -26.574
-  ],
-  "blurb": "Diamond boomtown swallowed whole by desert sand",
-  "region": 1,
-  "_country": "Namibia"
- },
- {
-  "slug": "iquique",
-  "name": "Iquique",
-  "e": "🇨🇱",
-  "lat": -20.209,
-  "lng": -69.805,
-  "bbox": [
-   -69.935,
-   -20.339,
-   -69.675,
-   -20.079
-  ],
-  "blurb": "Nitrate boomtown left whole in the Atacama",
-  "region": 1,
-  "_country": "Chile"
- },
- {
-  "slug": "hachimantai",
-  "name": "Hachimantai",
-  "e": "🇯🇵",
-  "lat": 39.9381,
-  "lng": 140.9377,
-  "bbox": [
-   140.808,
-   39.808,
-   141.068,
-   40.068
-  ],
-  "blurb": "Sulphur ghost town wrapped in permanent mist",
-  "region": 1,
-  "_country": "Japan"
- },
- {
-  "slug": "leonora",
-  "name": "Leonora",
-  "e": "🇦🇺",
-  "lat": -29.1251,
-  "lng": 121.4112,
-  "bbox": [
-   121.2,
-   -29.467,
-   121.622,
-   -28.783
-  ],
-  "blurb": "Gold camp a young Herbert Hoover once ran",
-  "region": 1,
-  "_country": "Australia"
- },
- {
-  "slug": "tzaneen",
-  "name": "Tzaneen",
-  "e": "🇿🇦",
-  "lat": -23.995,
-  "lng": 30.521,
-  "bbox": [
-   30.391,
-   -24.125,
-   30.651,
-   -23.865
-  ],
-  "blurb": "Malarial gold-rush town abandoned within a decade",
-  "region": 1,
-  "_country": "South Africa"
- },
- {
-  "slug": "kargil",
-  "name": "Kargil",
-  "e": "🇮🇳",
-  "lat": 34.4702,
-  "lng": 76.5102,
-  "bbox": [
-   76.38,
-   34.34,
-   76.64,
-   34.6
-  ],
-  "blurb": "Ladakhi fortress with a legendary spinning room",
-  "region": 1,
-  "_country": "India"
- },
- {
-  "slug": "shymkent",
-  "name": "Shymkent",
-  "e": "🇰🇿",
-  "lat": 43.1677,
-  "lng": 69.9147,
-  "bbox": [
-   69.785,
-   43.038,
-   70.045,
-   43.298
-  ],
-  "blurb": "Soviet lead-mining town left to the Karatau wind",
-  "region": 1,
-  "_country": "Kazakhstan"
- },
- {
-  "slug": "kutaisi",
-  "name": "Kutaisi",
-  "e": "🇬🇪",
-  "lat": 42.3264,
-  "lng": 42.6006,
-  "bbox": [
-   42.471,
-   42.196,
-   42.731,
-   42.456
-  ],
-  "blurb": "Stalin-era marble spa town, now half refugee shelter",
-  "region": 1,
-  "_country": "Georgia"
- },
- {
-  "slug": "cerrodepasco",
-  "name": "Cerro de Pasco",
-  "e": "🇵🇪",
-  "lat": -10.669,
-  "lng": -76.252,
-  "bbox": [
-   -76.382,
-   -10.799,
-   -76.122,
-   -10.539
-  ],
-  "blurb": "Viewpoint over a city being eaten by its own mine",
-  "region": 1,
-  "_country": "Peru"
- },
- {
-  "slug": "alandroal",
-  "name": "Alandroal",
-  "e": "🇵🇹",
-  "lat": 38.7381,
-  "lng": -7.2398,
-  "bbox": [
-   -7.37,
-   38.608,
-   -7.11,
-   38.868
-  ],
-  "blurb": "Star-fort ruin staring across the Spanish border",
-  "region": 1,
-  "_country": "Portugal"
- },
- {
-  "slug": "valdessources",
-  "name": "Val-des-Sources",
-  "e": "🇨🇦",
-  "lat": 45.767,
-  "lng": -71.933,
-  "bbox": [
-   -72.063,
-   45.637,
-   -71.803,
-   45.897
-  ],
-  "blurb": "Two-kilometre asbestos pit swallowing its own town",
-  "region": 1,
-  "_country": "Canada"
- },
- {
-  "slug": "sanluisdelapaz",
-  "name": "San Luis de la Paz",
-  "e": "🇲🇽",
-  "lat": 21.2233,
-  "lng": -100.4939,
-  "bbox": [
-   -100.624,
-   21.093,
-   -100.364,
-   21.353
-  ],
-  "blurb": "Silver mining town abandoned to cactus and quiet",
-  "region": 1,
-  "_country": "Mexico"
- },
- {
-  "slug": "reefton",
-  "name": "Reefton",
-  "e": "🇳🇿",
-  "lat": -42.2928,
-  "lng": 171.8183,
-  "bbox": [
-   171.688,
-   -42.423,
-   171.948,
-   -42.163
-  ],
-  "blurb": "Gold town abandoned within months of a shaft collapse",
-  "region": 1,
-  "_country": "New Zealand"
- },
- {
-  "slug": "cavitecity",
-  "name": "Cavite City",
-  "e": "🇵🇭",
-  "lat": 14.305,
-  "lng": 120.6306,
-  "bbox": [
-   120.501,
-   14.175,
-   120.761,
-   14.435
-  ],
-  "blurb": "The concrete battleship guarding Manila Bay",
-  "region": 1,
-  "_country": "Philippines"
- },
- {
-  "slug": "falun",
-  "name": "Falun",
-  "e": "🇸🇪",
-  "lat": 60.5989,
-  "lng": 15.6122,
-  "bbox": [
-   15.482,
-   60.469,
-   15.742,
-   60.729
-  ],
-  "blurb": "Thousand-year copper pit that funded an empire",
-  "region": 1,
-  "_country": "Sweden"
- },
- {
-  "slug": "gyumri",
-  "name": "Gyumri",
-  "e": "🇦🇲",
-  "lat": 40.7822,
-  "lng": 43.8253,
-  "bbox": [
-   43.695,
-   40.652,
-   43.955,
-   40.912
-  ],
-  "blurb": "Tsarist fortress abandoned above a border city",
-  "region": 1,
-  "_country": "Armenia"
- },
- {
-  "slug": "reykjarfjordur",
-  "name": "Reykjarfjordur",
-  "e": "🇮🇸",
-  "lat": 65.95,
-  "lng": -21.567,
-  "bbox": [
-   -21.697,
-   65.82,
-   -21.437,
-   66.08
-  ],
-  "blurb": "Iceland's largest concrete building, left to rust",
-  "region": 1,
-  "_country": "Iceland"
- },
- {
-  "slug": "carhue",
-  "name": "Carhue",
-  "e": "🇦🇷",
-  "lat": -37.1308,
-  "lng": -62.8075,
-  "bbox": [
-   -62.938,
-   -37.261,
-   -62.677,
-   -37.001
-  ],
-  "blurb": "Resort town that spent 25 years underwater",
-  "region": 1,
-  "_country": "Argentina"
- },
- {
-  "slug": "ouarzazate",
-  "name": "Ouarzazate",
-  "e": "🇲🇦",
-  "lat": 31.2883,
-  "lng": -7.2411,
-  "bbox": [
-   -7.371,
-   31.158,
-   -7.111,
-   31.418
-  ],
-  "blurb": "Warlord's palace abandoned after independence",
-  "region": 1,
-  "_country": "Morocco"
- },
- {
-  "slug": "melitodiportosalvo",
-  "name": "Melito di Porto Salvo",
-  "e": "🇮🇹",
-  "lat": 37.9542,
-  "lng": 15.7611,
-  "bbox": [
-   15.631,
-   37.824,
-   15.891,
-   38.084
-  ],
-  "blurb": "Five-fingered clifftop village emptied by earthquake",
-  "region": 1,
-  "_country": "Italy"
- },
- {
-  "slug": "cabrera",
-  "name": "Cabrera",
-  "e": "🇩🇴",
-  "lat": 19.5639,
-  "lng": -69.9077,
-  "bbox": [
-   -70.038,
-   19.434,
-   -69.778,
-   19.694
-  ],
-  "blurb": "Freshwater sinkhole lagoon locals swim and dive in",
-  "region": 1,
-  "_country": "Dominican Republic"
- },
- {
-  "slug": "nenton",
-  "name": "Nenton",
-  "e": "🇬🇹",
-  "lat": 15.9446,
-  "lng": -91.801,
-  "bbox": [
-   -91.931,
-   15.815,
-   -91.671,
-   16.075
-  ],
-  "blurb": "Turquoise cenotes near the Mexican border",
-  "region": 1,
-  "_country": "Guatemala"
- },
- {
-  "slug": "izumo",
-  "name": "Izumo",
-  "e": "🇯🇵",
-  "lat": 35.4015,
-  "lng": 132.6868,
-  "bbox": [
-   132.557,
-   35.271,
-   132.817,
-   35.532
-  ],
-  "blurb": "Bean-to-bar chocolate steps from Izumo Taisha",
-  "region": 1,
-  "_country": "Japan"
- },
- {
-  "slug": "matsue",
-  "name": "Matsue",
-  "e": "🇯🇵",
-  "lat": 35.4745,
-  "lng": 133.0512,
-  "bbox": [
-   132.921,
-   35.344,
-   133.181,
-   35.605
-  ],
-  "blurb": "Matcha teahouse borrowing Matsue Castle's keep",
-  "region": 1,
-  "_country": "Japan"
- },
- {
-  "slug": "hiroshima",
-  "name": "Hiroshima",
-  "e": "🇯🇵",
-  "lat": 34.3937,
-  "lng": 132.4589,
-  "bbox": [
-   132.329,
-   34.264,
-   132.589,
-   34.524
-  ],
-  "blurb": "1950 siphon-coffee kissaten in Ebisucho",
-  "region": 1,
-  "_country": "Japan"
- },
- {
-  "slug": "gunsan",
-  "name": "Gunsan",
-  "e": "🇰🇷",
-  "lat": 35.9727,
-  "lng": 126.7105,
-  "bbox": [
-   126.58,
-   35.837,
-   126.841,
-   36.109
-  ],
-  "blurb": "Colonial-era merchant mansion frozen in the 1930s",
-  "region": 1,
-  "_country": "South Korea"
- },
- {
-  "slug": "wanli",
-  "name": "Wanli",
-  "e": "🇹🇼",
-  "lat": 25.2036,
-  "lng": 121.6763,
-  "bbox": [
-   121.546,
-   25.074,
-   121.806,
-   25.334
-  ],
-  "blurb": "Cafe on a former restricted military outpost",
-  "region": 1,
-  "_country": "Taiwan"
- },
- {
-  "slug": "tainan",
-  "name": "Tainan",
-  "e": "🇹🇼",
-  "lat": 22.9915,
-  "lng": 120.2038,
-  "bbox": [
-   120.074,
-   22.861,
-   120.334,
-   23.121
-  ],
-  "blurb": "Cafe reached through a 38cm-wide gap",
-  "region": 1,
-  "_country": "Taiwan"
- },
- {
-  "slug": "nanchang",
-  "name": "Nanchang",
-  "e": "🇨🇳",
-  "lat": 28.77,
-  "lng": 115.75,
-  "bbox": [
-   115.62,
-   28.64,
-   115.88,
-   28.9
-  ],
-  "blurb": "A village cowshed reborn as a book cafe",
-  "region": 1,
-  "_country": "China"
- },
- {
-  "slug": "kandy",
-  "name": "Kandy",
-  "e": "🇱🇰",
-  "lat": 7.293,
-  "lng": 80.636,
-  "bbox": [
-   80.506,
-   7.163,
-   80.766,
-   7.423
-  ],
-  "blurb": "Fewer than ten tables down a Kandy alleyway",
-  "region": 1,
-  "_country": "Sri Lanka"
- },
- {
-  "slug": "madulsima",
-  "name": "Madulsima",
-  "e": "🇱🇰",
-  "lat": 7.1102,
-  "lng": 81.1592,
-  "bbox": [
-   81.029,
-   6.98,
-   81.289,
-   7.24
-  ],
-  "blurb": "A misty cliff-edge viewpoint above Uva's tea hills",
-  "region": 1,
-  "_country": "Sri Lanka"
- },
- {
-  "slug": "pokhara",
-  "name": "Pokhara",
-  "e": "🇳🇵",
-  "lat": 28.2386,
-  "lng": 84.0128,
-  "bbox": [
-   83.883,
-   28.109,
-   84.143,
-   28.369
-  ],
-  "blurb": "Local sunrise hilltop over the Annapurnas, no crowds",
-  "region": 1,
-  "_country": "Nepal"
- },
- {
-  "slug": "kathmandu",
-  "name": "Kathmandu",
-  "e": "🇳🇵",
-  "lat": 27.7397,
-  "lng": 85.3623,
-  "bbox": [
-   85.232,
-   27.61,
-   85.492,
-   27.87
-  ],
-  "blurb": "Hilltop monastery running walk-in meditation courses",
-  "region": 1,
-  "_country": "Nepal"
- },
- {
-  "slug": "calangute",
-  "name": "Calangute",
-  "e": "🇮🇳",
-  "lat": 15.549,
-  "lng": 73.763,
-  "bbox": [
-   73.633,
-   15.419,
-   73.893,
-   15.679
-  ],
-  "blurb": "A used-book haven in a century-old Goan bungalow",
-  "region": 1,
-  "_country": "India"
- },
- {
-  "slug": "yogyakarta",
-  "name": "Yogyakarta",
-  "e": "🇮🇩",
-  "lat": -7.8239,
-  "lng": 110.395,
-  "bbox": [
-   110.265,
-   -7.954,
-   110.525,
-   -7.694
-  ],
-  "blurb": "Cafe, bookstore and museum inside an 1857 mansion",
-  "region": 1,
-  "_country": "Indonesia"
- },
- {
-  "slug": "bandung",
-  "name": "Bandung",
-  "e": "🇮🇩",
-  "lat": -6.893,
-  "lng": 107.614,
-  "bbox": [
-   107.484,
-   -7.023,
-   107.744,
-   -6.763
-  ],
-  "blurb": "Japanese-style cafe hidden behind a Dago hotel",
-  "region": 1,
-  "_country": "Indonesia"
- },
- {
-  "slug": "tagaytay",
-  "name": "Tagaytay",
-  "e": "🇵🇭",
-  "lat": 14.128,
-  "lng": 120.935,
-  "bbox": [
-   120.805,
-   13.998,
-   121.065,
-   14.258
-  ],
-  "blurb": "Japanese-themed ramen farm-resort near Tagaytay",
-  "region": 1,
-  "_country": "Philippines"
- },
- {
-  "slug": "ipoh",
-  "name": "Ipoh",
-  "e": "🇲🇾",
-  "lat": 4.61,
-  "lng": 101.09,
-  "bbox": [
-   100.96,
-   4.48,
-   101.22,
-   4.74
-  ],
-  "blurb": "An upstairs Ipoh cafe named literally 'secret'",
-  "region": 1,
-  "_country": "Malaysia"
- },
- {
-  "slug": "hum",
-  "name": "Hum",
+  "slug": "vojnic",
+  "name": "Vojnic",
   "e": "🇭🇷",
-  "lat": 45.4066,
-  "lng": 13.9219,
+  "lat": 45.2306,
+  "lng": 15.6667,
   "bbox": [
-   13.792,
-   45.277,
-   14.052,
-   45.537
+   15.537,
+   45.101,
+   15.797,
+   45.361
   ],
-  "blurb": "Stone sculpture trail to the world's smallest town",
+  "blurb": "A stripped steel-hulled memorial hidden in the forest",
   "region": 1,
   "_country": "Croatia"
  },
  {
-  "slug": "koprivshtitsa",
-  "name": "Koprivshtitsa",
-  "e": "🇧🇬",
-  "lat": 42.6401,
-  "lng": 24.3583,
+  "slug": "caracas",
+  "name": "Caracas",
+  "e": "🇻🇪",
+  "lat": 10.5386,
+  "lng": -66.9236,
   "bbox": [
-   24.228,
-   42.51,
-   24.488,
-   42.77
+   -67.054,
+   10.409,
+   -66.794,
+   10.669
   ],
-  "blurb": "1837 schoolhouse in a National Revival time capsule",
+  "blurb": "A cylindrical 1956 hotel on a cable-car summit",
   "region": 1,
-  "_country": "Bulgaria"
+  "_country": "Venezuela"
  },
  {
-  "slug": "gourdon",
-  "name": "Gourdon",
-  "e": "🇫🇷",
-  "lat": 43.7206,
-  "lng": 6.9789,
+  "slug": "skopje",
+  "name": "Skopje",
+  "e": "🇲🇰",
+  "lat": 41.9982,
+  "lng": 21.4346,
   "bbox": [
-   6.849,
-   43.591,
-   7.109,
-   43.851
+   21.301,
+   41.866,
+   21.569,
+   42.131
   ],
-  "blurb": "Unmarked clifftop terrace above Grasse",
+  "blurb": "A concrete lotus rebuilt after Skopje's 1963 quake",
   "region": 1,
-  "_country": "France"
+  "_country": "North Macedonia"
  },
  {
-  "slug": "narni",
-  "name": "Narni",
+  "slug": "miamibeach",
+  "name": "Miami Beach",
+  "e": "🇺🇸",
+  "lat": 25.7775,
+  "lng": -80.1316,
+  "bbox": [
+   -80.262,
+   25.647,
+   -80.002,
+   25.907
+  ],
+  "blurb": "A neon-signed streamline hotel on Ocean Drive",
+  "region": 1,
+  "_country": "United States"
+ },
+ {
+  "slug": "trieste",
+  "name": "Trieste",
   "e": "🇮🇹",
-  "lat": 42.5178,
-  "lng": 12.515,
+  "lat": 45.6516,
+  "lng": 13.7746,
   "bbox": [
-   12.385,
-   42.388,
-   12.645,
-   42.648
+   13.639,
+   45.52,
+   13.91,
+   45.783
   ],
-  "blurb": "Inquisition torture room found by cavers in 1979",
+  "blurb": "Joyce and Svevo's Secession-style cafe",
   "region": 1,
   "_country": "Italy"
  },
  {
-  "slug": "fanzara",
-  "name": "Fanzara",
-  "e": "🇪🇸",
-  "lat": 40.0151,
-  "lng": -0.3131,
+  "slug": "tehran",
+  "name": "Tehran",
+  "e": "🇮🇷",
+  "lat": 35.6944,
+  "lng": 51.4117,
   "bbox": [
-   -0.443,
-   39.885,
-   -0.183,
-   40.145
+   51.282,
+   35.564,
+   51.542,
+   35.824
   ],
-  "blurb": "Dying village turned wall-to-wall open gallery",
+  "blurb": "Tehran's writers' cafeteria since 1927",
   "region": 1,
-  "_country": "Spain"
+  "_country": "Iran"
  },
  {
-  "slug": "sincaveche",
-  "name": "Sinca Veche",
-  "e": "🇷🇴",
-  "lat": 45.65,
-  "lng": 25.2333,
+  "slug": "leipzig",
+  "name": "Leipzig",
+  "e": "🇩🇪",
+  "lat": 51.3411,
+  "lng": 12.3729,
   "bbox": [
-   25.103,
-   45.52,
-   25.363,
-   45.78
+   12.243,
+   51.211,
+   12.503,
+   51.471
   ],
-  "blurb": "Cave chapel with a hole cut for a skylight",
+  "blurb": "Coffee poured here since 1711",
+  "region": 1,
+  "_country": "Germany"
+ },
+ {
+  "slug": "hallstatt",
+  "name": "Hallstatt",
+  "e": "🇦🇹",
+  "lat": 47.5622,
+  "lng": 13.6493,
+  "bbox": [
+   13.519,
+   47.432,
+   13.779,
+   47.692
+  ],
+  "blurb": "1,200 skulls, hundreds hand-painted with flowers",
+  "region": 1,
+  "_country": "Austria"
+ },
+ {
+  "slug": "evora",
+  "name": "Evora",
+  "e": "🇵🇹",
+  "lat": 38.5701,
+  "lng": -7.9053,
+  "bbox": [
+   -8.035,
+   38.44,
+   -7.775,
+   38.7
+  ],
+  "blurb": "Chapel of Bones warns: we await your bones too",
+  "region": 1,
+  "_country": "Portugal"
+ },
+ {
+  "slug": "sapanta",
+  "name": "Sapanta",
+  "e": "🇷🇴",
+  "lat": 47.9714,
+  "lng": 23.6947,
+  "bbox": [
+   23.565,
+   47.841,
+   23.825,
+   48.101
+  ],
+  "blurb": "Blue crosses joke about how each villager died",
   "region": 1,
   "_country": "Romania"
  },
  {
-  "slug": "cork",
-  "name": "Cork",
-  "e": "🇮🇪",
-  "lat": 51.9037,
-  "lng": -8.4796,
+  "slug": "verdun",
+  "name": "Verdun",
+  "e": "🇫🇷",
+  "lat": 49.2083,
+  "lng": 5.4237,
   "bbox": [
-   -8.61,
-   51.774,
-   -8.35,
-   52.034
+   5.294,
+   49.078,
+   5.554,
+   49.338
   ],
-  "blurb": "Craft brewery on a Franciscan burial ground",
+  "blurb": "130,000 unidentified soldiers visible in windows",
   "region": 1,
-  "_country": "Ireland"
+  "_country": "France"
  },
  {
-  "slug": "vaxholm",
-  "name": "Vaxholm",
-  "e": "🇸🇪",
-  "lat": 59.4025,
-  "lng": 18.355,
+  "slug": "thatta",
+  "name": "Thatta",
+  "e": "🇵🇰",
+  "lat": 24.7433,
+  "lng": 67.8909,
   "bbox": [
-   18.225,
-   59.273,
-   18.485,
-   59.533
+   67.761,
+   24.613,
+   68.021,
+   24.873
   ],
-  "blurb": "Floating wood-fired sauna in the archipelago",
+  "blurb": "Up to a million graves across ten square km",
   "region": 1,
-  "_country": "Sweden"
+  "_country": "Pakistan"
  },
  {
-  "slug": "lier",
-  "name": "Lier",
-  "e": "🇧🇪",
-  "lat": 51.1291,
-  "lng": 4.5705,
+  "slug": "koyasan",
+  "name": "Koyasan",
+  "e": "🇯🇵",
+  "lat": 34.2136,
+  "lng": 135.6039,
   "bbox": [
-   4.441,
-   50.999,
-   4.7,
-   51.259
+   135.474,
+   34.084,
+   135.734,
+   34.344
   ],
-  "blurb": "Thirteen-dial astronomical clock on a medieval keep",
+  "blurb": "200,000 graves lead to a monk in eternal meditation",
   "region": 1,
-  "_country": "Belgium"
+  "_country": "Japan"
  },
  {
-  "slug": "bielbienne",
-  "name": "Biel/Bienne",
+  "slug": "sagada",
+  "name": "Sagada",
+  "e": "🇵🇭",
+  "lat": 17.08,
+  "lng": 120.902,
+  "bbox": [
+   120.772,
+   16.95,
+   121.032,
+   17.21
+  ],
+  "blurb": "Coffins nailed and lashed to a limestone cliff",
+  "region": 1,
+  "_country": "Philippines"
+ },
+ {
+  "slug": "rantepao",
+  "name": "Rantepao",
+  "e": "🇮🇩",
+  "lat": -3.0301,
+  "lng": 119.8928,
+  "bbox": [
+   119.756,
+   -3.198,
+   120.03,
+   -2.862
+  ],
+  "blurb": "Carved effigies guard graves cut into a cliff",
+  "region": 1,
+  "_country": "Indonesia"
+ },
+ {
+  "slug": "kabayan",
+  "name": "Kabayan",
+  "e": "🇵🇭",
+  "lat": 16.64,
+  "lng": 120.78,
+  "bbox": [
+   120.65,
+   16.51,
+   120.91,
+   16.77
+  ],
+  "blurb": "Ibaloi fire mummies smoked before death",
+  "region": 1,
+  "_country": "Philippines"
+ },
+ {
+  "slug": "phnompenh",
+  "name": "Phnom Penh",
+  "e": "🇰🇭",
+  "lat": 11.5268,
+  "lng": 104.9117,
+  "bbox": [
+   104.772,
+   11.354,
+   105.051,
+   11.7
+  ],
+  "blurb": "A stupa holds 5,000 skulls from mass graves",
+  "region": 1,
+  "_country": "Cambodia"
+ },
+ {
+  "slug": "nazca",
+  "name": "Nazca",
+  "e": "🇵🇪",
+  "lat": -14.7442,
+  "lng": -74.9328,
+  "bbox": [
+   -75.063,
+   -14.874,
+   -74.803,
+   -14.614
+  ],
+  "blurb": "Nazca-era mummies still seated in desert tombs",
+  "region": 1,
+  "_country": "Peru"
+ },
+ {
+  "slug": "chiatura",
+  "name": "Chiatura",
+  "e": "🇬🇪",
+  "lat": 42.2464,
+  "lng": 43.2214,
+  "bbox": [
+   43.091,
+   42.116,
+   43.351,
+   42.376
+  ],
+  "blurb": "A hermit's church atop a sheer stone pillar",
+  "region": 1,
+  "_country": "Georgia"
+ },
+ {
+  "slug": "mostar",
+  "name": "Mostar",
+  "e": "🇧🇦",
+  "lat": 43.2545,
+  "lng": 17.8944,
+  "bbox": [
+   17.764,
+   43.124,
+   18.024,
+   43.385
+  ],
+  "blurb": "A Sufi lodge built into a roaring spring cliff",
+  "region": 1,
+  "_country": "Bosnia and Herzegovina"
+ },
+ {
+  "slug": "terezin",
+  "name": "Terezin",
+  "e": "🇨🇿",
+  "lat": 50.5122,
+  "lng": 14.1517,
+  "bbox": [
+   14.022,
+   50.382,
+   14.282,
+   50.642
+  ],
+  "blurb": "A prayer room hidden in a Nazi ghetto barracks",
+  "region": 1,
+  "_country": "Czech Republic"
+ },
+ {
+  "slug": "orhei",
+  "name": "Orhei",
+  "e": "🇲🇩",
+  "lat": 47.3653,
+  "lng": 28.9439,
+  "bbox": [
+   28.814,
+   47.235,
+   29.074,
+   47.495
+  ],
+  "blurb": "A cliffside monastery hollowed from limestone",
+  "region": 1,
+  "_country": "Moldova"
+ },
+ {
+  "slug": "kazan",
+  "name": "Kazan",
+  "e": "🇷🇺",
+  "lat": 55.8006,
+  "lng": 48.975,
+  "bbox": [
+   48.845,
+   55.671,
+   49.105,
+   55.931
+  ],
+  "blurb": "One roof for a dozen clashing faiths' domes",
+  "region": 1,
+  "_country": "Russia"
+ },
+ {
+  "slug": "djenne",
+  "name": "Djenne",
+  "e": "🇲🇱",
+  "lat": 13.9051,
+  "lng": -4.5553,
+  "bbox": [
+   -4.685,
+   13.775,
+   -4.425,
+   14.035
+  ],
+  "blurb": "The world's largest mud-brick mosque",
+  "region": 1,
+  "_country": "Mali"
+ },
+ {
+  "slug": "alkifl",
+  "name": "Al-Kifl",
+  "e": "🇮🇶",
+  "lat": 32.2305,
+  "lng": 44.3816,
+  "bbox": [
+   44.252,
+   32.1,
+   44.512,
+   32.361
+  ],
+  "blurb": "A tomb shared for centuries by Jews and Muslims",
+  "region": 1,
+  "_country": "Iraq"
+ },
+ {
+  "slug": "mosul",
+  "name": "Mosul",
+  "e": "🇮🇶",
+  "lat": 36.1383,
+  "lng": 43.4055,
+  "bbox": [
+   43.276,
+   36.008,
+   43.536,
+   36.268
+  ],
+  "blurb": "A martyr's shrine dynamited, then rebuilt by hand",
+  "region": 1,
+  "_country": "Iraq"
+ },
+ {
+  "slug": "termez",
+  "name": "Termez",
+  "e": "🇺🇿",
+  "lat": 37.2659,
+  "lng": 67.1892,
+  "bbox": [
+   67.059,
+   37.136,
+   67.319,
+   37.396
+  ],
+  "blurb": "A Sufi tomb built over old Buddhist chambers",
+  "region": 1,
+  "_country": "Uzbekistan"
+ },
+ {
+  "slug": "gwalior",
+  "name": "Gwalior",
+  "e": "🇮🇳",
+  "lat": 26.2856,
+  "lng": 78.1875,
+  "bbox": [
+   78.058,
+   26.156,
+   78.317,
+   26.416
+  ],
+  "blurb": "A roofless ring of 64 goddess shrines",
+  "region": 1,
+  "_country": "India"
+ },
+ {
+  "slug": "toyokawa",
+  "name": "Toyokawa",
+  "e": "🇯🇵",
+  "lat": 34.8258,
+  "lng": 137.3923,
+  "bbox": [
+   137.262,
+   34.696,
+   137.522,
+   34.956
+  ],
+  "blurb": "A Buddhist temple guarded by a thousand foxes",
+  "region": 1,
+  "_country": "Japan"
+ },
+ {
+  "slug": "fujiyoshida",
+  "name": "Fujiyoshida",
+  "e": "🇯🇵",
+  "lat": 35.5005,
+  "lng": 138.7668,
+  "bbox": [
+   138.637,
+   35.37,
+   138.897,
+   35.631
+  ],
+  "blurb": "A lava-tube cave shaped like a body's inside",
+  "region": 1,
+  "_country": "Japan"
+ },
+ {
+  "slug": "quanzhou",
+  "name": "Quanzhou",
+  "e": "🇨🇳",
+  "lat": 24.7736,
+  "lng": 118.5817,
+  "bbox": [
+   118.452,
+   24.644,
+   118.712,
+   24.904
+  ],
+  "blurb": "The world's last Manichaean temple, disguised",
+  "region": 1,
+  "_country": "China"
+ },
+ {
+  "slug": "bacolor",
+  "name": "Bacolor",
+  "e": "🇵🇭",
+  "lat": 14.9903,
+  "lng": 120.6502,
+  "bbox": [
+   120.52,
+   14.86,
+   120.78,
+   15.12
+  ],
+  "blurb": "A church buried by lahar up to its roofline",
+  "region": 1,
+  "_country": "Philippines"
+ },
+ {
+  "slug": "zipaquira",
+  "name": "Zipaquira",
+  "e": "🇨🇴",
+  "lat": 5.0192,
+  "lng": -74.0003,
+  "bbox": [
+   -74.13,
+   4.889,
+   -73.87,
+   5.149
+  ],
+  "blurb": "A cathedral carved entirely from underground salt",
+  "region": 1,
+  "_country": "Colombia"
+ },
+ {
+  "slug": "santiagoatitlan",
+  "name": "Santiago Atitlan",
+  "e": "🇬🇹",
+  "lat": 14.6382,
+  "lng": -91.229,
+  "bbox": [
+   -91.359,
+   14.508,
+   -91.099,
+   14.768
+  ],
+  "blurb": "A cigar-smoking folk saint moved house yearly",
+  "region": 1,
+  "_country": "Guatemala"
+ },
+ {
+  "slug": "kinggeorgeisland",
+  "name": "King George Island",
+  "e": "🇦🇶",
+  "lat": -62.1997,
+  "lng": -58.9631,
+  "bbox": [
+   -59.093,
+   -62.33,
+   -58.833,
+   -62.07
+  ],
+  "blurb": "The southernmost Orthodox church on Earth",
+  "region": 1,
+  "_country": "Antarctica"
+ },
+ {
+  "slug": "tulum",
+  "name": "Tulum",
+  "e": "🇲🇽",
+  "lat": 20.1848,
+  "lng": -87.4602,
+  "bbox": [
+   -87.59,
+   20.055,
+   -87.33,
+   20.315
+  ],
+  "blurb": "Open-fire jungle kitchen off the Boca Paila road",
+  "region": 1,
+  "_country": "Mexico"
+ },
+ {
+  "slug": "admont",
+  "name": "Admont",
+  "e": "🇦🇹",
+  "lat": 47.5765,
+  "lng": 14.4592,
+  "bbox": [
+   14.329,
+   47.447,
+   14.589,
+   47.707
+  ],
+  "blurb": "70-metre Baroque hall, largest monastic library on Earth",
+  "region": 1,
+  "_country": "Austria"
+ },
+ {
+  "slug": "stgallen",
+  "name": "St. Gallen",
   "e": "🇨🇭",
-  "lat": 47.1385,
-  "lng": 7.247,
+  "lat": 47.4239,
+  "lng": 9.3767,
   "bbox": [
-   7.117,
-   47.008,
-   7.377,
-   47.269
+   9.247,
+   47.294,
+   9.507,
+   47.554
   ],
-  "blurb": "Farmers' market in a bilingual city tourists skip",
+  "blurb": "Rococo hall of gilded shelves, 1,200 years of texts",
   "region": 1,
   "_country": "Switzerland"
  },
  {
-  "slug": "aurland",
-  "name": "Aurland",
-  "e": "🇳🇴",
-  "lat": 60.9086,
-  "lng": 7.2118,
+  "slug": "melk",
+  "name": "Melk",
+  "e": "🇦🇹",
+  "lat": 48.2283,
+  "lng": 15.3286,
   "bbox": [
-   7.082,
-   60.779,
-   7.342,
-   61.039
+   15.199,
+   48.098,
+   15.459,
+   48.358
   ],
-  "blurb": "Railless glass-edged platform above the fjord",
+  "blurb": "Golden Baroque library on a cliff over the Danube",
+  "region": 1,
+  "_country": "Austria"
+ },
+ {
+  "slug": "sanlorenzodeelescorial",
+  "name": "San Lorenzo de El Escorial",
+  "e": "🇪🇸",
+  "lat": 40.5896,
+  "lng": -4.1483,
+  "bbox": [
+   -4.278,
+   40.46,
+   -4.018,
+   40.72
+  ],
+  "blurb": "Philip II's library, spines shelved facing inward",
+  "region": 1,
+  "_country": "Spain"
+ },
+ {
+  "slug": "tianjin",
+  "name": "Tianjin",
+  "e": "🇨🇳",
+  "lat": 39.016,
+  "lng": 117.6812,
+  "bbox": [
+   117.551,
+   38.886,
+   117.811,
+   39.146
+  ],
+  "blurb": "The Eye, terraced shelves ringing a glowing sphere",
+  "region": 1,
+  "_country": "China"
+ },
+ {
+  "slug": "thanjavur",
+  "name": "Thanjavur",
+  "e": "🇮🇳",
+  "lat": 10.7862,
+  "lng": 79.1348,
+  "bbox": [
+   79.005,
+   10.656,
+   79.265,
+   10.916
+  ],
+  "blurb": "Nayak-era palm-leaf manuscripts inside a Maratha palace",
+  "region": 1,
+  "_country": "India"
+ },
+ {
+  "slug": "rampur",
+  "name": "Rampur",
+  "e": "🇮🇳",
+  "lat": 28.8121,
+  "lng": 79.0226,
+  "bbox": [
+   78.893,
+   28.682,
+   79.153,
+   28.942
+  ],
+  "blurb": "A nawab's palace library of Mughal manuscripts and art",
+  "region": 1,
+  "_country": "India"
+ },
+ {
+  "slug": "stuttgart",
+  "name": "Stuttgart",
+  "e": "🇩🇪",
+  "lat": 48.7841,
+  "lng": 9.1934,
+  "bbox": [
+   9.063,
+   48.654,
+   9.323,
+   48.914
+  ],
+  "blurb": "A concrete cube with a glowing blue heart inside",
+  "region": 1,
+  "_country": "Germany"
+ },
+ {
+  "slug": "vennesla",
+  "name": "Vennesla",
+  "e": "🇳🇴",
+  "lat": 58.2761,
+  "lng": 7.9808,
+  "bbox": [
+   7.851,
+   58.146,
+   8.111,
+   58.406
+  ],
+  "blurb": "27 glue-laminated timber ribs shaped like a whale",
   "region": 1,
   "_country": "Norway"
  },
  {
-  "slug": "yokohama",
-  "name": "Yokohama",
-  "e": "🇯🇵",
-  "lat": 35.4488,
-  "lng": 139.6299,
+  "slug": "timbuktu",
+  "name": "Timbuktu",
+  "e": "🇲🇱",
+  "lat": 16.7735,
+  "lng": -3.0074,
   "bbox": [
-   139.5,
-   35.319,
-   139.76,
-   35.579
+   -3.137,
+   16.643,
+   -2.877,
+   16.903
   ],
-  "blurb": "Japan's oldest jazz cafe, revived twice since 1933",
+  "blurb": "22,000 desert manuscripts smuggled out ahead of militants",
+  "region": 1,
+  "_country": "Mali"
+ },
+ {
+  "slug": "longyearbyen",
+  "name": "Longyearbyen",
+  "e": "🇳🇴",
+  "lat": 78.2383,
+  "lng": 15.4471,
+  "bbox": [
+   15.317,
+   78.108,
+   15.577,
+   78.368
+  ],
+  "blurb": "A 500-year data vault buried in a frozen coal mine",
+  "region": 1,
+  "_country": "Norway"
+ },
+ {
+  "slug": "akita",
+  "name": "Akita",
+  "e": "🇯🇵",
+  "lat": 39.6264,
+  "lng": 140.1992,
+  "bbox": [
+   140.069,
+   39.496,
+   140.329,
+   39.756
+  ],
+  "blurb": "A cedar amphitheatre library open 24 hours, year-round",
   "region": 1,
   "_country": "Japan"
  },
  {
-  "slug": "ichinoseki",
-  "name": "Ichinoseki",
-  "e": "🇯🇵",
-  "lat": 38.9316,
-  "lng": 141.1237,
-  "bbox": [
-   140.994,
-   38.802,
-   141.254,
-   39.062
-  ],
-  "blurb": "Remote jazz kissa Count Basie himself once visited",
-  "region": 1,
-  "_country": "Japan"
- },
- {
-  "slug": "middleton",
-  "name": "Middleton",
+  "slug": "muscleshoals",
+  "name": "Muscle Shoals",
   "e": "🇺🇸",
-  "lat": 43.0953,
-  "lng": -89.5112,
+  "lat": 34.7735,
+  "lng": -87.6862,
   "bbox": [
-   -89.641,
-   42.965,
-   -89.381,
-   43.225
+   -87.816,
+   34.643,
+   -87.556,
+   34.904
   ],
-  "blurb": "6,000 jars of mustard, free tastings included",
+  "blurb": "The Swampers cut soul in small-town Alabama",
   "region": 1,
   "_country": "United States"
  },
  {
-  "slug": "southport",
-  "name": "Southport",
-  "e": "🇬🇧",
-  "lat": 53.6391,
-  "lng": -3.0055,
+  "slug": "mosfellsbaer",
+  "name": "Mosfellsbaer",
+  "e": "🇮🇸",
+  "lat": 64.1668,
+  "lng": -21.6785,
   "bbox": [
-   -3.135,
-   53.509,
-   -2.875,
-   53.769
+   -21.809,
+   64.037,
+   -21.549,
+   64.297
   ],
-  "blurb": "Two centuries of lawnmowers, including royal ones",
+  "blurb": "Sigur Ros recorded inside a derelict pool",
+  "region": 1,
+  "_country": "Iceland"
+ },
+ {
+  "slug": "nimbin",
+  "name": "Nimbin",
+  "e": "🇦🇺",
+  "lat": -28.5961,
+  "lng": 153.223,
+  "bbox": [
+   153.093,
+   -28.726,
+   153.353,
+   -28.466
+  ],
+  "blurb": "Australia's self-declared hippie capital",
+  "region": 1,
+  "_country": "Australia"
+ },
+ {
+  "slug": "chiangmai",
+  "name": "Chiang Mai",
+  "e": "🇹🇭",
+  "lat": 18.7902,
+  "lng": 99.0005,
+  "bbox": [
+   98.871,
+   18.66,
+   99.131,
+   18.92
+  ],
+  "blurb": "1910 market on the old royal cremation ground",
+  "region": 1,
+  "_country": "Thailand"
+ },
+ {
+  "slug": "malacca",
+  "name": "Malacca",
+  "e": "🇲🇾",
+  "lat": 2.1964,
+  "lng": 102.2469,
+  "bbox": [
+   102.117,
+   2.066,
+   102.377,
+   2.326
+  ],
+  "blurb": "Peranakan trading street turned weekend night market",
+  "region": 1,
+  "_country": "Malaysia"
+ },
+ {
+  "slug": "luangprabang",
+  "name": "Luang Prabang",
+  "e": "🇱🇦",
+  "lat": 19.8856,
+  "lng": 102.1347,
+  "bbox": [
+   102.005,
+   19.756,
+   102.265,
+   20.016
+  ],
+  "blurb": "Six centuries of monks' dawn alms procession",
+  "region": 1,
+  "_country": "Laos"
+ },
+ {
+  "slug": "yangon",
+  "name": "Yangon",
+  "e": "🇲🇲",
+  "lat": 16.7708,
+  "lng": 96.1583,
+  "bbox": [
+   96.028,
+   16.641,
+   96.288,
+   16.901
+  ],
+  "blurb": "Colonial-era rail loop through daily Yangon life",
+  "region": 1,
+  "_country": "Myanmar"
+ },
+ {
+  "slug": "suva",
+  "name": "Suva",
+  "e": "🇫🇯",
+  "lat": -18.1424,
+  "lng": 178.4419,
+  "bbox": [
+   178.312,
+   -18.272,
+   178.572,
+   -18.012
+  ],
+  "blurb": "Two-storey market, upstairs devoted entirely to kava",
+  "region": 1,
+  "_country": "Fiji"
+ },
+ {
+  "slug": "portmoresby",
+  "name": "Port Moresby",
+  "e": "🇵🇬",
+  "lat": -9.4844,
+  "lng": 147.1699,
+  "bbox": [
+   147.04,
+   -9.614,
+   147.3,
+   -9.354
+  ],
+  "blurb": "Monthly craft market on PNG's old Hiri trade beach",
+  "region": 1,
+  "_country": "Papua New Guinea"
+ },
+ {
+  "slug": "dessau",
+  "name": "Dessau",
+  "e": "🇩🇪",
+  "lat": 51.8467,
+  "lng": 12.4001,
+  "bbox": [
+   12.27,
+   51.717,
+   12.53,
+   51.977
+  ],
+  "blurb": "A fake Vesuvius, built to erupt for guests since 1794",
+  "region": 1,
+  "_country": "Germany"
+ },
+ {
+  "slug": "stavanger",
+  "name": "Stavanger",
+  "e": "🇳🇴",
+  "lat": 58.97,
+  "lng": 5.7331,
+  "bbox": [
+   5.603,
+   58.84,
+   5.863,
+   59.1
+  ],
+  "blurb": "A rainbow street feeding Norway's oldest art festival",
+  "region": 1,
+  "_country": "Norway"
+ },
+ {
+  "slug": "erriadh",
+  "name": "Erriadh",
+  "e": "🇹🇳",
+  "lat": 33.8206,
+  "lng": 10.854,
+  "bbox": [
+   10.724,
+   33.691,
+   10.984,
+   33.951
+  ],
+  "blurb": "150 artists painted an entire whitewashed village",
+  "region": 1,
+  "_country": "Tunisia"
+ },
+ {
+  "slug": "penzance",
+  "name": "Penzance",
+  "e": "🇬🇧",
+  "lat": 50.1152,
+  "lng": -5.5322,
+  "bbox": [
+   -5.662,
+   49.985,
+   -5.402,
+   50.245
+  ],
+  "blurb": "Art Deco seawater triangle carved into the coast",
   "region": 1,
   "_country": "United Kingdom"
  },
  {
-  "slug": "avanos",
-  "name": "Avanos",
-  "e": "🇹🇷",
-  "lat": 38.7146,
-  "lng": 34.8484,
+  "slug": "macduff",
+  "name": "Macduff",
+  "e": "🇬🇧",
+  "lat": 57.6704,
+  "lng": -2.4711,
   "bbox": [
-   34.718,
-   38.585,
-   34.978,
-   38.845
+   -2.601,
+   57.54,
+   -2.341,
+   57.8
   ],
-  "blurb": "16,000 women's hair locks pinned to cave walls",
+  "blurb": "Art Deco lido stacked into an Aberdeenshire sea cliff",
   "region": 1,
-  "_country": "Turkey"
+  "_country": "United Kingdom"
  },
  {
-  "slug": "austinus",
-  "name": "Austin",
-  "e": "🇺🇸",
-  "lat": 43.6695,
-  "lng": -92.9744,
-  "bbox": [
-   -93.104,
-   43.539,
-   -92.844,
-   43.799
-  ],
-  "blurb": "Canned-meat history, with a can-packing race game",
-  "region": 1,
-  "_country": "United States"
- },
- {
-  "slug": "gignese",
-  "name": "Gignese",
+  "slug": "tricase",
+  "name": "Tricase",
   "e": "🇮🇹",
-  "lat": 45.838,
-  "lng": 8.581,
+  "lat": 39.9119,
+  "lng": 18.3936,
   "bbox": [
-   8.451,
-   45.708,
-   8.711,
-   45.968
+   18.264,
+   39.782,
+   18.524,
+   40.042
   ],
-  "blurb": "1,500 umbrellas in a building shaped like three of them",
+  "blurb": "A pocket of Adriatic sea walled into a stone font",
   "region": 1,
   "_country": "Italy"
  },
  {
-  "slug": "lacrosse",
-  "name": "La Crosse",
-  "e": "🇺🇸",
-  "lat": 38.5247,
-  "lng": -99.3112,
+  "slug": "velaluka",
+  "name": "Vela Luka",
+  "e": "🇭🇷",
+  "lat": 42.955,
+  "lng": 16.63,
   "bbox": [
-   -99.441,
-   38.395,
-   -99.181,
-   38.655
+   16.5,
+   42.825,
+   16.76,
+   43.085
   ],
-  "blurb": "2,000+ barbed wire patterns that fenced the prairie",
+  "blurb": "An uninhabited islet's slabs slide into turquoise sea",
   "region": 1,
-  "_country": "United States"
+  "_country": "Croatia"
  },
  {
-  "slug": "suwon",
-  "name": "Suwon",
-  "e": "🇰🇷",
-  "lat": 37.3191,
-  "lng": 126.978,
+  "slug": "cantho",
+  "name": "Can Tho",
+  "e": "🇻🇳",
+  "lat": 9.9937,
+  "lng": 105.6677,
   "bbox": [
-   126.848,
-   37.189,
-   127.108,
-   37.449
+   105.538,
+   9.864,
+   105.798,
+   10.124
   ],
-  "blurb": "A house shaped like a toilet, built by 'Mr. Toilet'",
+  "blurb": "Mekong traders hang their wares from bamboo poles",
   "region": 1,
-  "_country": "South Korea"
+  "_country": "Vietnam"
  },
  {
-  "slug": "guanajuato",
-  "name": "Guanajuato",
+  "slug": "hita",
+  "name": "Hita",
+  "e": "🇯🇵",
+  "lat": 33.339,
+  "lng": 130.975,
+  "bbox": [
+   130.845,
+   33.209,
+   131.105,
+   33.469
+  ],
+  "blurb": "River-edge hot baths bathing since the 1600s",
+  "region": 1,
+  "_country": "Japan"
+ },
+ {
+  "slug": "jodhpur",
+  "name": "Jodhpur",
+  "e": "🇮🇳",
+  "lat": 26.2965,
+  "lng": 73.0287,
+  "bbox": [
+   72.899,
+   26.167,
+   73.159,
+   26.427
+  ],
+  "blurb": "An 18th-century stepwell reborn as a diving spot",
+  "region": 1,
+  "_country": "India"
+ },
+ {
+  "slug": "denizli",
+  "name": "Denizli",
+  "e": "🇹🇷",
+  "lat": 37.9245,
+  "lng": 29.119,
+  "bbox": [
+   28.989,
+   37.794,
+   29.249,
+   38.054
+  ],
+  "blurb": "Cascading white terraces of mineral-warm bathing pools",
+  "region": 1,
+  "_country": "Turkey"
+ },
+ {
+  "slug": "bermagui",
+  "name": "Bermagui",
+  "e": "🇦🇺",
+  "lat": -36.4295,
+  "lng": 150.0842,
+  "bbox": [
+   149.954,
+   -36.56,
+   150.214,
+   -36.3
+  ],
+  "blurb": "A cliff-foot ocean pool with a lonely, wave-battered feel",
+  "region": 1,
+  "_country": "Australia"
+ },
+ {
+  "slug": "wollongong",
+  "name": "Wollongong",
+  "e": "🇦🇺",
+  "lat": -34.2919,
+  "lng": 150.9467,
+  "bbox": [
+   150.817,
+   -34.422,
+   151.077,
+   -34.162
+  ],
+  "blurb": "A secluded rock-platform pool below the escarpment",
+  "region": 1,
+  "_country": "Australia"
+ },
+ {
+  "slug": "yallingup",
+  "name": "Yallingup",
+  "e": "🇦🇺",
+  "lat": -33.7345,
+  "lng": 115.0075,
+  "bbox": [
+   114.877,
+   -33.864,
+   115.137,
+   -33.604
+  ],
+  "blurb": "Indian Ocean swell foams through a granite jacuzzi",
+  "region": 1,
+  "_country": "Australia"
+ },
+ {
+  "slug": "ekbalam",
+  "name": "Ek Balam",
   "e": "🇲🇽",
-  "lat": 21.0247,
-  "lng": -101.2652,
+  "lat": 20.8975,
+  "lng": -88.1444,
   "bbox": [
-   -101.395,
-   20.895,
-   -101.135,
-   21.155
+   -88.274,
+   20.768,
+   -88.014,
+   21.027
   ],
-  "blurb": "100+ naturally mummified bodies from unpaid graves",
+  "blurb": "A jungle sinkhole beside forgotten Mayan pyramids",
   "region": 1,
   "_country": "Mexico"
+ },
+ {
+  "slug": "novaredencao",
+  "name": "Nova Redencao",
+  "e": "🇧🇷",
+  "lat": -12.75,
+  "lng": -41.34,
+  "bbox": [
+   -41.47,
+   -12.88,
+   -41.21,
+   -12.62
+  ],
+  "blurb": "Sunbeams turn a cave sinkhole electric blue at noon",
+  "region": 1,
+  "_country": "Brazil"
  }
 ]
