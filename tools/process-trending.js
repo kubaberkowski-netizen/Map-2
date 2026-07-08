@@ -33,7 +33,7 @@ async function geocode(q){
   const pts=Z.map(z=>({lat:z.lat,lng:z.lng,n:norm(z.n)}));
 
   // load candidates
-  const dir=path.join(ROOT,"research/trending");
+  const dir=path.join(ROOT, process.argv[2]||"research/trending");
   const files=fs.readdirSync(dir).filter(f=>/\.json$/.test(f)&&!/-geocache/.test(f));
   let cands=[];
   for(const f of files){ try{ const arr=JSON.parse(fs.readFileSync(path.join(dir,f),"utf8")); if(Array.isArray(arr)) arr.forEach(c=>cands.push({...c,_src:f})); }catch(e){ console.error("bad file",f); } }
