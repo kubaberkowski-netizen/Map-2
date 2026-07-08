@@ -18,6 +18,15 @@ const ISO = {
  "Azerbaijan":"AZ","Morocco":"MA","Bosnia and Herzegovina":"BA","Uzbekistan":"UZ","Myanmar":"MM","Gibraltar":"GI",
  "United Arab Emirates":"AE","UAE":"AE","Qatar":"QA","Saudi Arabia":"SA","Oman":"OM","Sri Lanka":"LK","Panama":"PA",
  "Guatemala":"GT","Jamaica":"JM","Bolivia":"BO","Egypt":"EG",
+ "Armenia":"AM","Belgium":"BE","Bulgaria":"BG","Chile":"CL","Costa Rica":"CR","Dominican Republic":"DO",
+ "El Salvador":"SV","Finland":"FI","France":"FR","Ireland":"IE","Italy":"IT","Namibia":"NA","Nepal":"NP",
+ "Nigeria":"NG","Romania":"RO","Russia":"RU","South Africa":"ZA","Switzerland":"CH","Turkey":"TR",
+ "Turkmenistan":"TM","United Kingdom":"GB","UK":"GB","Ukraine":"UA","Netherlands":"NL","Austria":"AT",
+ "Denmark":"DK","Estonia":"EE","Latvia":"LV","Lithuania":"LT","Slovenia":"SI","Slovakia":"SK","Hungary":"HU",
+ "Serbia":"RS","Cyprus":"CY","Malta":"MT","Luxembourg":"LU","Tunisia":"TN","Kenya":"KE","Ethiopia":"ET",
+ "Ghana":"GH","Senegal":"SN","Ecuador":"EC","Uruguay":"UY","Paraguay":"PY","Venezuela":"VE","Cuba":"CU",
+ "Honduras":"HN","Nicaragua":"NI","Cambodia":"KH","Laos":"LA","Bangladesh":"BD","Pakistan":"PK","Mongolia":"MN",
+ "Kyrgyzstan":"KG","Tajikistan":"TJ","Jordan":"JO","Lebanon":"LB","Israel":"IL","Bahrain":"BH","Iran":"IR",
 };
 const flag = c => { const i=ISO[c]; if(!i) return "🏳"; return String.fromCodePoint(...[...i].map(ch=>0x1F1E6+ch.charCodeAt(0)-65)); };
 const slugify = s => String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9]+/g,"").slice(0,24);

@@ -1,509 +1,109 @@
 {
- "accepted": 88,
+ "accepted": 120,
  "dropped": [
-  {
-   "n": "Limbo Museum",
-   "city": "accra",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "dot.ateliers",
-   "city": "accra",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "HeiBai Coffee",
-   "city": "marrakech",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "16 on Lerotholi",
-   "city": "capetown",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Cera Cerni Art Hub",
-   "city": "lagos",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "SAMOCA at JAX District",
-   "city": "riyadh",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Zayed National Museum",
-   "city": "abudhabi",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Natural History Museum Abu Dhabi",
-   "city": "abudhabi",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Lawh Wa Qalam: M. F. Husain Museum",
-   "city": "doha",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Ethiopian Science Museum AI Wing",
-   "city": "addisababa",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Galerie36",
-   "city": "dakar",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Gihanga Institute of Contemporary Art",
-   "city": "kigali",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Lookout",
-   "city": "telaviv",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Casamaya",
-   "city": "telaviv",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Books@cafe",
-   "city": "amman",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Dukanah Cafe",
-   "city": "muscat",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Studio Samara at Cinema Radio",
-   "city": "giza",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Wild Coffee Bar",
-   "city": "kampala",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Mazeej Balad Rooftop",
-   "city": "giza",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Stashh",
-   "city": "beirut",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Lucas Museum of Narrative Art",
-   "city": "losangeles",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Ciel Dubai Marina",
-   "city": "dubai",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Ismaili Center, Houston",
-   "city": "houston",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Fondation Cartier pour l'Art Contemporain",
-   "city": "paris",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Shenzhen Science & Technology Museum",
-   "city": "shenzhen",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "teamLab Biovortex Kyoto",
-   "city": "kyoto",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "teamLab Phenomena Abu Dhabi",
-   "city": "abudhabi",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Grand Canal Gateway Bridge",
-   "city": "hangzhou",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Kruunuvuori Bridge",
-   "city": "helsinki",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Royal Mansour Casablanca Spa",
-   "city": "casablanca",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Almaty Museum of Arts",
-   "city": "almaty",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Naoshima New Museum of Art",
-   "city": "naoshima",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "V&A East Storehouse",
-   "city": "london",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Limbo Museum",
-   "city": "accra",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "SMVIT Library",
-   "city": "bangalore",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Orchid Glass House",
-   "city": "tokyo",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Nakano Onsen Tenjinyu",
-   "city": "tokyo",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Umekita Onsen REN Wellbeing Park",
-   "city": "osaka",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Photography Seoul Museum of Art",
-   "city": "seoul",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Audeum",
-   "city": "seoul",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Cafe Pokpo",
-   "city": "seoul",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Nudake Haus Dosan",
-   "city": "seoul",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Mail Room Sindang",
-   "city": "seoul",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Overdeep",
-   "city": "seoul",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Fangsuo Bookstore",
-   "city": "chengdu",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Zhongshuge Bookstore Chongqing",
-   "city": "chongqing",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Sinan Books Poetry Store",
-   "city": "shanghai",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Kantima Salon and Cafe",
-   "city": "bangkok",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Capybara Coffee Ekkamai",
-   "city": "bangkok",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Hanoi Train Street cafes",
-   "city": "hanoi",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "43 Factory Coffee Roaster",
-   "city": "danang",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Papakape at the National Museum",
-   "city": "manila",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Rose Oud Cafe",
-   "city": "colombo",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Cafe Apa Katya / Gorelnik Visit Center",
-   "city": "almaty",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Sun N Moon Rooftop Cafe",
-   "city": "udaipur",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Fenix Museum of Migration",
-   "city": "rotterdam",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Drift Museum",
-   "city": "amsterdam",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Cavafy Archive",
-   "city": "athens",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Kotsanas Museum of Ancient Greek Technology",
-   "city": "athens",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Highline Warsaw",
-   "city": "warsaw",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Lukiskes Prison 2.0",
-   "city": "vilnius",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Loftas",
-   "city": "vilnius",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "The Floating Sauna (Platform CPH)",
-   "city": "copenhagen",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Bunkers del Carmel",
-   "city": "barcelona",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Gota Coffee Experts",
-   "city": "vienna",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Sphere Tim Raue",
-   "city": "berlin",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Perlan Volcano Show",
-   "city": "reykjavik",
-   "why": "dup proximity"
-  },
   {
    "n": "MICAS - Malta International Contemporary Art Space",
    "city": "valletta",
    "why": "dup name-in-city"
   },
   {
-   "n": "Vytopna",
+   "n": "Palazzo Citterio",
+   "city": "milan",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Kunsthalle Praha",
    "city": "prague",
-   "why": "dup proximity"
-  },
-  {
-   "n": "Archaologisches Fenster Sechselautenplatz",
-   "city": "zurich",
    "why": "dup name-in-city"
   },
   {
-   "n": "Koch-Park",
-   "city": "zurich",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "MINA Sofia",
-   "city": "sofia",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Warm Hearts Sauna",
-   "city": "amsterdam",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "MACAM - Museu de Arte Contemporanea Armando Martins",
-   "city": "lisbon",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Fortress House",
-   "city": "gibraltar",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Gala Panaderia",
-   "city": "mexicocity",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Bar Leone",
-   "city": "shenzhen",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Schmuck",
-   "city": "nyc",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Jan",
-   "city": "munich",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Merito",
-   "city": "lima",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Celele",
-   "city": "cartagena",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Ugly Bakery",
-   "city": "seoul",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Andersen & Maillard",
-   "city": "copenhagen",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Juno the Bakery",
-   "city": "copenhagen",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Emeri Matcha Bar",
-   "city": "vancouver",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Project Matcha",
-   "city": "portland",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Mischu",
-   "city": "capetown",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "HeiBai Coffee",
+   "n": "MACAAL - Museum of African Contemporary Art Al Maaden",
    "city": "marrakech",
    "why": "dup name-in-city"
   },
   {
-   "n": "Ngam Cafe",
-   "city": "hochiminh",
+   "n": "Ekeberg Sculpture Park",
+   "city": "oslo",
    "why": "dup name-in-city"
   },
   {
-   "n": "House of Wheat",
-   "city": "kualalumpur",
+   "n": "Aurora Borealis Star Dome (Cristina Iglesias)",
+   "city": "stockholm",
    "why": "dup name-in-city"
   },
   {
-   "n": "Sundays",
-   "city": "sydney",
+   "n": "The Sculpture Park at Madhavendra Palace",
+   "city": "jaipur",
    "why": "dup name-in-city"
   },
   {
-   "n": "Pantry Story",
-   "city": "sydney",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Butter Days Bakery",
-   "city": "melbourne",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Masa 105",
-   "city": "bogota",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Maison Louvard",
-   "city": "paris",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Yuen Kee Dumpling",
-   "city": "singapore",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Ruru Cafe",
+   "n": "CON_",
    "city": "tokyo",
    "why": "dup name-in-city"
   },
   {
-   "n": "Anticonquista Cafe",
-   "city": "chicago",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Rough & Round",
+   "n": "Charoen AArt",
    "city": "bangkok",
    "why": "dup name-in-city"
   },
   {
-   "n": "Beau",
-   "city": "dubai",
+   "n": "Piotrkowska Street murals",
+   "city": "lodz",
    "why": "dup name-in-city"
   },
   {
-   "n": "Museo Casa Kahlo (Casa Roja)",
-   "city": "mexicocity",
+   "n": "Museum of Modern Art Warsaw (MSN)",
+   "city": "warsaw",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Escat Gallery",
+   "city": "barcelona",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "African Artists' Foundation",
+   "city": "lagos",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "RAW Material Company",
+   "city": "dakar",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Comuna 13 street art",
+   "city": "medellin",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "The Factory Contemporary Arts Centre",
+   "city": "hochiminh",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Parque de las Esculturas",
+   "city": "santiago",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Parque del Amor and El Beso",
+   "city": "lima",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Bassam Freiha Art Foundation",
+   "city": "abudhabi",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Scratching the Surface (Vhils)",
+   "city": "lisbon",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Circle Art Gallery",
+   "city": "nairobi",
    "why": "dup name-in-city"
   },
   {
@@ -512,632 +112,1027 @@
    "why": "dup name-in-city"
   },
   {
-   "n": "Third Born",
-   "city": "mexicocity",
+   "n": "Mirror Bar",
+   "city": "bratislava",
    "why": "dup name-in-city"
   },
   {
-   "n": "Museo Yancuic",
-   "city": "mexicocity",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "La Casa Grande",
-   "city": "oaxaca",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Quiote Mezcaleria",
-   "city": "oaxaca",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Victor Audio Bar",
-   "city": "buenosaires",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Cementerio de la Chacarita",
-   "city": "buenosaires",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "MASP - Pietro Maria Bardi Building",
-   "city": "saopaulo",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Container Cafe",
-   "city": "lima",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Mirador del Paraiso (TransMiCable)",
-   "city": "bogota",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Palacio de Sal",
-   "city": "uyuni",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Mirador Likan-Antay",
-   "city": "sanpedroatacama",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Lagunas Escondidas de Baltinache",
-   "city": "sanpedroatacama",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Ephedra",
-   "city": "sanpedroatacama",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Museo Miraflores",
-   "city": "guatemalacity",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "DANTE",
-   "city": "sanjuanpr",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "DLE Cafe",
-   "city": "kingstonjm",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Cafe Quindio (Provenza)",
-   "city": "medellin",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Paseo 21 de Mayo",
-   "city": "valparaiso",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Nome Chocolate",
-   "city": "panamacity",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Grand Egyptian Museum",
-   "city": "giza",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Fenix",
-   "city": "rotterdam",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "V&A East Storehouse",
-   "city": "london",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Naoshima New Museum of Art",
-   "city": "naoshima",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Fondation Cartier pour l'art contemporain",
-   "city": "paris",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Almaty Museum of Arts",
-   "city": "almaty",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Dib Bangkok",
-   "city": "bangkok",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Zayed National Museum",
-   "city": "abudhabi",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Natural History Museum Abu Dhabi",
-   "city": "abudhabi",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "teamLab Phenomena Abu Dhabi",
-   "city": "abudhabi",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Studio Museum in Harlem",
-   "city": "nyc",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "New Museum",
-   "city": "nyc",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Dataland",
-   "city": "losangeles",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Museum of BBQ",
-   "city": "kansascity",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Highline Warsaw",
-   "city": "warsaw",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Istanbul Modern",
-   "city": "istanbul",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Black Gold Museum",
-   "city": "riyadh",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Centre Pompidou Hanwha",
-   "city": "seoul",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Museo Casa Kahlo",
-   "city": "mexicocity",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Australian Museum of Performing Arts",
-   "city": "melbourne",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Gihanga Institute of Contemporary Art",
-   "city": "kigali",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Mercer Labs Museum of Art and Technology",
-   "city": "nyc",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Arte Museum New York",
-   "city": "nyc",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "The American Story Discovery Center",
-   "city": "washingtondc",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Intuit Art Museum",
-   "city": "chicago",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Emeri Matcha Bar",
-   "city": "vancouver",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Museum of Christian and Gospel Music",
-   "city": "nashville",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Prohibition",
-   "city": "stlouis",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "The Arcade",
-   "city": "nashville",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "DATALAND",
-   "city": "losangeles",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "In Plain Sight",
-   "city": "austin",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Centre 360",
-   "city": "nyc",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Skylift",
-   "city": "nyc",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Portland Art Museum Rothko Pavilion",
-   "city": "portland",
-   "why": "dup proximity"
-  },
-  {
-   "n": "Forget Me Not Cafe",
-   "city": "toronto",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Bar Leonor",
-   "city": "montreal",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "The Ink Drinker",
-   "city": "seattle",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "MoCADA at Culture Lab II",
-   "city": "nyc",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Saffron Cafe",
-   "city": "philadelphia",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Corlears Hook Bridge and East River Park",
-   "city": "nyc",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Saturn Coffee",
-   "city": "detroit",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Schoolyard Beer Garden and Cafe",
-   "city": "denver",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Balloon Museum: Pop Air",
-   "city": "miami",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "So What Stereo",
-   "city": "brisbane",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Speed Dial",
-   "city": "brisbane",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Semi Semi",
-   "city": "brisbane",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Time & Temp",
-   "city": "brisbane",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "LB's Record Bar",
-   "city": "melbourne",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Deadwax",
-   "city": "sydney",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Groove",
-   "city": "melbourne",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Cha-no-wa",
-   "city": "adelaide",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Soak Bathhouse South Yarra",
-   "city": "melbourne",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Mechanics Institute",
-   "city": "perth",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Museum of Illusions Sydney",
-   "city": "sydney",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Level Up",
-   "city": "adelaide",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Parable House",
-   "city": "auckland",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Pink Neon Sign",
-   "city": "auckland",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Rook",
-   "city": "christchurch",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Renegade Brewing Co",
-   "city": "christchurch",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Hei",
-   "city": "wellington",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Zeta Bar Secret Garden",
-   "city": "sydney",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Baku Museum of Miniature Books",
-   "city": "baku",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "MUJAM Antique Toy Museum",
-   "city": "mexicocity",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Snake Pagoda (Hmwe Paya)",
-   "city": "mandalay",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Kane Kwei Carpentry Workshop",
-   "city": "accra",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Hanoi Zoological Museum",
-   "city": "hanoi",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Old Jewish Cemetery of Bukhara",
-   "city": "bukhara",
-   "why": "dup name-in-city"
-  },
-  {
-   "n": "Isseido Booksellers",
+   "n": "The Bellwood",
    "city": "tokyo",
    "why": "dup name-in-city"
   },
   {
-   "n": "Le Monte-en-l'Air",
+   "n": "Line",
+   "city": "athens",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Baba au Rum",
+   "city": "athens",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Lady Bee",
+   "city": "lima",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Vender",
+   "city": "taichung",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Alice Cheongdam",
+   "city": "seoul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Cantillon Brewery",
+   "city": "brussels",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Vino Underground",
+   "city": "tbilisi",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "U Fleku",
+   "city": "prague",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Eau de Vie",
+   "city": "melbourne",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Floreria Atlantico",
+   "city": "buenosaires",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Bascule Bar",
+   "city": "capetown",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "La Buvette",
    "city": "paris",
    "why": "dup name-in-city"
   },
   {
-   "n": "Vidya Bookstore",
-   "city": "accra",
+   "n": "Ved Stranden 10",
+   "city": "copenhagen",
    "why": "dup name-in-city"
   },
   {
-   "n": "Red Brick Market, Custard Factory",
-   "city": "birmingham",
+   "n": "Heuriger Mayer am Pfarrplatz",
+   "city": "vienna",
    "why": "dup name-in-city"
   },
   {
-   "n": "Pioneer Works",
-   "city": "nyc",
+   "n": "Davy Byrnes",
+   "city": "dublin",
    "why": "dup name-in-city"
   },
   {
-   "n": "La Casa de Carlota",
+   "n": "Mamba Negra",
    "city": "medellin",
    "why": "dup name-in-city"
   },
   {
-   "n": "Objectifs Centre for Photography and Film",
-   "city": "singapore",
+   "n": "La Bodeguita del Medio",
+   "city": "havana",
    "why": "dup name-in-city"
   },
   {
-   "n": "Museo del Transporte",
-   "city": "mexicocity",
+   "n": "Bar Us",
+   "city": "bangkok",
    "why": "dup name-in-city"
   },
   {
-   "n": "homework gallery",
-   "city": "miami",
+   "n": "Lair",
+   "city": "delhi",
    "why": "dup name-in-city"
   },
   {
-   "n": "Mendes Wood DM",
-   "city": "saopaulo",
+   "n": "Imperial Craft Cocktail Bar",
+   "city": "telaviv",
    "why": "dup name-in-city"
   },
   {
-   "n": "Mullae Art Village",
-   "city": "seoul",
-   "why": "dup proximity"
-  },
-  {
-   "n": "Base-Alpha Gallery",
-   "city": "antwerp",
+   "n": "Barometre",
+   "city": "marrakech",
    "why": "dup name-in-city"
   },
   {
-   "n": "Bric-a-Brac Records & Collectibles",
-   "city": "chicago",
+   "n": "Seljavallalaug",
+   "city": "skogar",
    "why": "dup name-in-city"
   },
   {
-   "n": "Almost Ready Records",
-   "city": "nyc",
+   "n": "Beitou Thermal Valley",
+   "city": "taipei",
    "why": "dup name-in-city"
   },
   {
-   "n": "Qra Foods",
-   "city": "kualalumpur",
+   "n": "Abanotubani Sulfur Baths",
+   "city": "tbilisi",
    "why": "dup name-in-city"
   },
   {
-   "n": "Toko Kopi Tuku, Kemang",
-   "city": "jakarta",
+   "n": "Kilic Ali Pasa Hamam",
+   "city": "istanbul",
    "why": "dup name-in-city"
   },
   {
-   "n": "Global Fork Food Hall",
-   "city": "sandiego",
+   "n": "Tinside Lido",
+   "city": "plymouth",
    "why": "dup name-in-city"
   },
   {
-   "n": "Gather Food Hall",
-   "city": "philadelphia",
+   "n": "Hammam Dar el-Bacha",
+   "city": "marrakech",
    "why": "dup name-in-city"
   },
   {
-   "n": "The Whippet Coffee, Linden",
+   "n": "Boekhandel Dominicanen",
+   "city": "maastricht",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "The Jazzhole",
+   "city": "lagos",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Real Vinyl Guru",
+   "city": "nairobi",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Collectors Treasury",
    "city": "johannesburg",
    "why": "dup name-in-city"
   },
   {
-   "n": "Vallon des Auffes",
-   "city": "marseille",
+   "n": "Hard Wax",
+   "city": "berlin",
    "why": "dup name-in-city"
   },
   {
-   "n": "Largo Maradona mural",
-   "city": "naples",
+   "n": "Rakk & Ralls",
+   "city": "oslo",
    "why": "dup name-in-city"
   },
   {
-   "n": "Reggae Lane mural",
-   "city": "toronto",
+   "n": "Oedo Antique Market",
+   "city": "tokyo",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Dongmyo Flea Market",
+   "city": "seoul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Haji Ebrahim Gramophone House",
+   "city": "mumbai",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Azbakeya Wall Book Market",
+   "city": "giza",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Librairie Antoine",
+   "city": "beirut",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Ferikoy Antique Market",
+   "city": "istanbul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Atlantisz Konyvsziget",
+   "city": "budapest",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Antykwariat Kwadryga",
+   "city": "warsaw",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Podzemni Antikvariat",
+   "city": "prague",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Livraria Zaccara",
+   "city": "saopaulo",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Eureka Records",
+   "city": "buenosaires",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Halper's Books",
+   "city": "telaviv",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "12 Tonar",
+   "city": "reykjavik",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Libreria Lerner",
+   "city": "bogota",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "El Desastre",
+   "city": "mexicocity",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Chatuchak Weekend Market",
+   "city": "bangkok",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Eslite Spectrum Songyan",
+   "city": "taipei",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Utrecht",
+   "city": "tokyo",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Veronica Effect",
+   "city": "seoul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Bab El Khemis Flea Market",
+   "city": "marrakech",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Hoang Hoa Tham Antique Market",
+   "city": "hanoi",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Tim Wendelboe",
+   "city": "oslo",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Coffee Collective",
+   "city": "copenhagen",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Apartment Coffee",
+   "city": "singapore",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "OKRO Coffee Roastery",
+   "city": "tbilisi",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Kalve Coffee Roasters",
+   "city": "riga",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Crooked Nose & Coffee Stories",
+   "city": "vilnius",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "BOB Coffee Lab",
+   "city": "bucharest",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Lokal Coffee Roasters",
+   "city": "belgrade",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Stow Coffee Roasters",
+   "city": "ljubljana",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "The Espresso Lab",
+   "city": "dubai",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Dimitri's Coffee",
+   "city": "amman",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Spring Valley Coffee",
+   "city": "nairobi",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Question Coffee",
+   "city": "kigali",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Libertario Coffee Roasters",
+   "city": "bogota",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Buna Cafe Rico",
+   "city": "mexicocity",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Tostaduria Bisetti",
+   "city": "lima",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Coffee Lab",
+   "city": "saopaulo",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Factory Coffee",
+   "city": "bangkok",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "VULAB Specialty Coffee",
+   "city": "hanoi",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Hoff Coffee Brewers",
+   "city": "hochiminh",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Fritz Coffee Company",
+   "city": "seoul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Giyanti Coffee Roastery",
+   "city": "jakarta",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Fonzie Abbott",
+   "city": "brisbane",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Fika Fika Cafe",
+   "city": "taipei",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Rosetta Roastery",
+   "city": "capetown",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Taf Coffee",
+   "city": "athens",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Jardin Majorelle",
+   "city": "marrakech",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Fairy Lake Botanical Garden",
+   "city": "shenzhen",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "National Arboretum Canberra",
+   "city": "canberra",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Meguro Sky Garden",
+   "city": "tokyo",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Nezahat Gokyigit Botanic Garden",
+   "city": "istanbul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Dubai Miracle Garden",
+   "city": "dubai",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Gibbs Farm",
+   "city": "makarau",
+   "why": "dup in-batch"
+  },
+  {
+   "n": "Royal Greenhouses of Laeken",
+   "city": "brussels",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Seoul Botanic Park",
+   "city": "seoul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Botanic Garden Ubud",
+   "city": "ubud",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Donabo Gardens",
+   "city": "tangier",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Nan Lian Garden",
+   "city": "shenzhen",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Pulacayo",
+   "city": "uyuni",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Cwmorthin",
+   "city": "snowdonia",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Tunnel of Hope (Sarajevo War Tunnel)",
+   "city": "sarajevo",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Santa's Pub",
+   "city": "nashville",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "The Centennial",
+   "city": "nashville",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "The Lost Well",
+   "city": "austin",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Ms. Mae's",
+   "city": "neworleans",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Bar La Remise",
+   "city": "montreal",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Grand Union Hotel Pub",
+   "city": "vancouver",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Casa Franca",
+   "city": "mexicocity",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Huerto Roma Verde",
+   "city": "mexicocity",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Pizzeria Pin Pun",
+   "city": "buenosaires",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Las Violetas",
+   "city": "buenosaires",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Calle Lanin",
+   "city": "buenosaires",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Pasaje Phillips",
+   "city": "santiago",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "La Casa de los Diez",
+   "city": "santiago",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Quiebra Canto",
+   "city": "cartagena",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Parque Itchimbia",
+   "city": "quito",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Mirante das Canoas",
+   "city": "rio",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Calle Cerra",
+   "city": "sanjuanpr",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Mercado de Surquillo",
+   "city": "lima",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Ca Phe Do Phu",
+   "city": "hochiminh",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Hidden Sips",
+   "city": "hochiminh",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Cafe Slow",
+   "city": "danang",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "wow! Coffee",
+   "city": "chengdu",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Cafe Story",
+   "city": "kolkata",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "The Coffee Cup",
+   "city": "hyderabad",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "VISMA Coffee, Art & Co",
+   "city": "surabaya",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Potters Place",
+   "city": "penang",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Veli Bej Bath",
+   "city": "budapest",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Colette & Co",
+   "city": "thehague",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Tanini Agapi Mou",
+   "city": "athens",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Da Capo Schallplatten",
+   "city": "berlin",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Tabato Records",
+   "city": "lisbon",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Secret Garden Bar, Hotel Galleria",
+   "city": "ljubljana",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Bar Mleczny Rusalka",
+   "city": "warsaw",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "U Vsech Svatych",
+   "city": "brno",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Einsiedelei Bachwinkl",
+   "city": "berchtesgaden",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Sompasauna",
+   "city": "helsinki",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Tops",
+   "city": "tallinn",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Hidden Uzupis viewpoint",
+   "city": "vilnius",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Kratovo stone bridges",
+   "city": "kratovo",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Dragor old town lanes",
+   "city": "copenhagen",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Kino Pionier 1909",
+   "city": "szczecin",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Filmcasino",
+   "city": "vienna",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Le Bal Blomet",
+   "city": "paris",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Quasimodo",
+   "city": "berlin",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Hot Clube de Portugal",
+   "city": "lisbon",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "La Catedral Club",
+   "city": "buenosaires",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Kino Lucerna",
+   "city": "prague",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "MusicHall Beirut",
+   "city": "beirut",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Sala Chalermkrung Royal Theatre",
+   "city": "bangkok",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Zita",
+   "city": "stockholm",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Maxim",
+   "city": "helsinki",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Fortune of War",
+   "city": "sydney",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Barwon Club Hotel",
+   "city": "geelong",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Grand Teatret",
+   "city": "copenhagen",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Wally's Cafe Jazz Club",
+   "city": "boston",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "All That Jazz",
+   "city": "seoul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Cabaret Tropicana",
+   "city": "havana",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Rio Scenarium",
+   "city": "rio",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Atlas Sinemasi",
+   "city": "istanbul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Cinematheque de Tanger (Cinema Rif)",
+   "city": "tangier",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Royal Opera House Mumbai",
+   "city": "mumbai",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Grand Cinema",
+   "city": "shanghai",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Cine Dore",
+   "city": "madrid",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Cinema Metro",
+   "city": "giza",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Cine Paris",
+   "city": "athens",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "CupNoodles Museum Osaka Ikeda",
+   "city": "osaka",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Meguro Parasitological Museum",
+   "city": "tokyo",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "German Spy Museum",
+   "city": "berlin",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Museum of Counterfeit Goods",
+   "city": "bangkok",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Icelandic Phallological Museum",
+   "city": "reykjavik",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Cats Museum",
+   "city": "kotor",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Paris Sewer Museum",
+   "city": "paris",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Funeral Museum",
+   "city": "vienna",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Dog Collar Museum",
+   "city": "kent",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Museum of Witchcraft and Magic",
+   "city": "cornwall",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Vent Haven Museum",
+   "city": "cincinnati",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Torture Museum",
+   "city": "amsterdam",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Museo de la Coca",
+   "city": "lapaz",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Fito Museum",
+   "city": "hochiminh",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Museum of Human Disease",
+   "city": "sydney",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Museum of Innocence",
+   "city": "istanbul",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Sex Machines Museum",
+   "city": "prague",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "Mummification Museum",
+   "city": "luxor",
+   "why": "dup name-in-city"
+  },
+  {
+   "n": "SAS Assegaai Submarine Museum",
+   "city": "capetown",
    "why": "dup name-in-city"
   }
  ],
  "unmapped": [],
  "byCity": {
-  "casablanca": 1,
-  "marrakech": 2,
-  "lalaguna": 1,
-  "ralsko": 1,
-  "fishtail": 1,
-  "kiel": 1,
-  "jastrzebiezdroj": 1,
-  "doha": 1,
-  "almasayel": 1,
-  "kea": 1,
-  "bodufushi": 1,
-  "liverpoolau": 1,
-  "fayetteville": 1,
-  "taichung": 1,
-  "chengdu": 1,
-  "bangkok": 2,
-  "cebu": 1,
-  "penang": 1,
-  "ubud": 1,
-  "kadapa": 1,
-  "warsaw": 2,
-  "selfoss": 1,
-  "stockholm": 1,
-  "seoul": 1,
-  "buenosaires": 1,
-  "homun": 1,
-  "willemstad": 1,
-  "barranquilla": 1,
-  "skogar": 1,
-  "podgorica": 1,
-  "savnik": 1,
-  "sarajevo": 1,
-  "theth": 1,
-  "chefchaouen": 1,
-  "vani": 1,
-  "cuispes": 1,
-  "antofagastadelasierra": 1,
-  "milfordsound": 1,
-  "kakadu": 1,
-  "yandina": 1,
-  "kawazu": 1,
-  "satsumasendai": 1,
-  "stanley": 1,
-  "westglacier": 1,
-  "escalante": 1,
-  "fajardo": 1,
-  "melolo": 1,
-  "busuanga": 1,
-  "samboan": 1,
-  "elnido": 1,
-  "hagiang": 1,
-  "pula": 1,
-  "sabugueiro": 1,
-  "nordeste": 1,
-  "rosemont": 1,
-  "saopaulo": 1,
-  "vadnagar": 1,
-  "haikou": 1,
-  "mantuatownship": 1,
-  "neworleans": 1,
-  "melbourne": 1,
-  "sydney": 1,
-  "yasothon": 1,
-  "inuyama": 1,
-  "zhanaozen": 1,
-  "kratovo": 1,
-  "mornealeau": 1,
-  "davaocity": 1,
-  "empedrado": 1,
-  "beijing": 1,
-  "icheon": 1,
-  "glendon": 1,
-  "moonbeam": 1,
-  "ovar": 1,
-  "pribram": 1,
-  "sala": 1,
-  "alvdal": 1,
-  "kotor": 1,
-  "bildudalur": 1,
-  "portauprince": 1,
-  "dardanup": 1,
-  "beira": 1,
-  "oamaru": 1,
-  "montreal": 1,
-  "limape": 1
+  "menzies": 1,
+  "makarau": 1,
+  "gardenvalley": 1,
+  "rhyolite": 1,
+  "changchun": 1,
+  "alula": 1,
+  "tirana": 2,
+  "guangzhou": 1,
+  "freeport": 1,
+  "semboku": 2,
+  "matsuyama": 1,
+  "kusatsu": 1,
+  "beppu": 1,
+  "hveragerdi": 1,
+  "conaripe": 1,
+  "puyuhuapi": 1,
+  "bagaces": 1,
+  "cardonal": 1,
+  "manikaran": 1,
+  "tampere": 1,
+  "moscow": 1,
+  "sanquiricodorcia": 1,
+  "fingal": 1,
+  "permet": 1,
+  "saparevabanya": 1,
+  "rotorua": 1,
+  "whitianga": 1,
+  "estacada": 1,
+  "aspen": 1,
+  "fairbanks": 1,
+  "ojocaliente": 1,
+  "jikha": 1,
+  "sansalvador": 1,
+  "yerevan": 1,
+  "calgary": 1,
+  "rogers": 1,
+  "xilitla": 1,
+  "bomarzo": 1,
+  "capalbio": 1,
+  "parikkala": 1,
+  "lee": 1,
+  "guatiza": 1,
+  "menglun": 1,
+  "hamilton": 1,
+  "ashgabat": 1,
+  "grandmetis": 1,
+  "waghai": 1,
+  "ibague": 1,
+  "worcester": 1,
+  "pattaya": 1,
+  "luso": 1,
+  "inlelake": 1,
+  "luderitz": 1,
+  "iquique": 1,
+  "leonora": 2,
+  "tzaneen": 1,
+  "kargil": 1,
+  "shymkent": 1,
+  "kutaisi": 1,
+  "cerrodepasco": 1,
+  "alandroal": 1,
+  "valdessources": 1,
+  "sanluisdelapaz": 1,
+  "reefton": 1,
+  "cavitecity": 1,
+  "falun": 1,
+  "gyumri": 1,
+  "reykjarfjordur": 1,
+  "carhue": 1,
+  "ouarzazate": 1,
+  "melitodiportosalvo": 1,
+  "lima": 2,
+  "cartagena": 1,
+  "cabrera": 1,
+  "nenton": 1,
+  "izumo": 1,
+  "matsue": 1,
+  "hiroshima": 1,
+  "gunsan": 2,
+  "wanli": 1,
+  "tainan": 1,
+  "nanchang": 1,
+  "kandy": 1,
+  "madulsima": 1,
+  "pokhara": 1,
+  "kathmandu": 1,
+  "calangute": 1,
+  "yogyakarta": 1,
+  "bandung": 1,
+  "tagaytay": 1,
+  "ipoh": 1,
+  "hum": 1,
+  "koprivshtitsa": 1,
+  "gourdon": 1,
+  "narni": 1,
+  "fanzara": 1,
+  "sincaveche": 1,
+  "cork": 1,
+  "vaxholm": 1,
+  "lier": 1,
+  "bielbienne": 1,
+  "aurland": 1,
+  "lagos": 1,
+  "yokohama": 1,
+  "ichinoseki": 1,
+  "zagreb": 1,
+  "middleton": 1,
+  "southport": 1,
+  "delhi": 1,
+  "avanos": 1,
+  "austinus": 1,
+  "gignese": 1,
+  "lacrosse": 1,
+  "suwon": 1,
+  "guanajuato": 1
  }
 }
