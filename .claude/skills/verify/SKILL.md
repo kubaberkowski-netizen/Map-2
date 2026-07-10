@@ -28,6 +28,12 @@ Static app — no dev server. Recipe that works in the remote sandbox:
   `click()`, for elements near center).
 - Grant geolocation in the context (e.g. `{latitude: 51.5138, longitude: -0.0984}`)
   to get a deterministic London boot.
+- To open a marker popup, find a `.mk` whose `getBoundingClientRect()` centre is
+  inside the map area and `page.mouse.click(x, y)` it — `dispatchEvent('click')` on
+  the first `.mk` in DOM order does not reliably reach Leaflet's delegated handler.
+- To prove marker diffing/no-rebuild, don't tag DOM elements (markercluster's
+  `removeOutsideVisibleBounds` recreates them on pan) — monkey-patch `window.L.marker`
+  with a counter and assert on creations instead.
 - Zooming: main map has no zoom control; use `page.mouse.wheel(0, ±400)` over the map.
   Current zoom is readable from tile img URLs only when tiles load (they usually don't
   here — count `.cluspin`/`.mk` at each step instead).
