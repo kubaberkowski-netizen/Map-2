@@ -34,6 +34,11 @@ Static app — no dev server. Recipe that works in the remote sandbox:
 - To prove marker diffing/no-rebuild, don't tag DOM elements (markercluster's
   `removeOutsideVisibleBounds` recreates them on pan) — monkey-patch `window.L.marker`
   with a counter and assert on creations instead.
+- The full spot card is a modal that intercepts wheel/click; close it (or order the
+  card probe last) before any subsequent map zoom/pan gestures, or they silently no-op.
+- Start the static server from the REPO ROOT — a server started elsewhere serves a
+  directory listing and the app "mysteriously" stops booting. And don't `pkill -f` a
+  pattern that appears in your own command line.
 - Zooming: main map has no zoom control; use `page.mouse.wheel(0, ±400)` over the map.
   Current zoom is readable from tile img URLs only when tiles load (they usually don't
   here — count `.cluspin`/`.mk` at each step instead).
