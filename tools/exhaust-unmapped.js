@@ -33,6 +33,8 @@ const ISO = {
  "Yemen":"YE","Afghanistan":"AF","Bhutan":"BT","Brunei":"BN","Timor-Leste":"TL","Mongolia":"MN","Belarus":"BY",
  "Greenland":"GL","Faroe Islands":"FO","Andorra":"AD","Monaco":"MC","San Marino":"SM","Liechtenstein":"LI",
  "Trinidad and Tobago":"TT","Barbados":"BB","Bahamas":"BS","Belize":"BZ","Suriname":"SR","Guyana":"GY",
+ "Mauritania":"MR","Macau":"MO","Martinique":"MQ","Reunion":"RE","Cape Verde":"CV","Malawi":"MW","Benin":"BJ",
+ "Togo":"TG","Burkina Faso":"BF","Ivory Coast":"CI","Cameroon":"CM","Gabon":"GA","Eritrea":"ER","Djibouti":"DJ",
 };
 const flag = c => { const i=ISO[c]; if(!i) return "🏳"; return String.fromCodePoint(...[...i].map(ch=>0x1F1E6+ch.charCodeAt(0)-65)); };
 const slugify = s => String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9]+/g,"").slice(0,24);
@@ -42,9 +44,15 @@ const model = M.loadModel();
 const existing = new Map([...model.cityById.entries()]);
 const r = JSON.parse(fs.readFileSync(path.join(ROOT,"research/trending-report.json"),"utf8"));
 
-// group unmapped by city+country
+// group unmapped by city+country AND a coarse 1-degree geo cell, so homonym
+// towns that share a name but sit far apart (e.g. Rye NY vs Rye CO) do NOT
+// merge into one giant-bbox city that then shadows real cities on the re-map pass.
 const groups = {};
-for (const u of r.unmapped) { const k=(u.city||"?").trim()+"||"+(u.country||"?").trim(); (groups[k]=groups[k]||[]).push(u); }
+for (const u of r.unmapped) {
+  const cell = Math.round(u.lat) + "," + Math.round(u.lng);
+  const k = (u.city||"?").trim() + "||" + (u.country||"?").trim() + "||" + cell;
+  (groups[k]=groups[k]||[]).push(u);
+}
 
 let t = fs.readFileSync(path.join(ROOT,"src/app.template.html"),"utf8");
 const anchor = `blurb:"Niche, storied detours across the capital."},`;
