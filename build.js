@@ -278,27 +278,51 @@ if (fs.existsSync(QUALITY)) {
   console.warn("⚠ data/quality.json not found — spots ship without a writeup-provenance (wq) flag");
 }
 
+// --- photos (data/photos.json → per-spot `ph`) --------------------------------
+// Free Wikipedia/Commons thumbnails resolved by tools/enrich-photos.js
+// (title-matched geosearch, free licenses only). Additive like `oh`/`wq`.
+const PHOTOS = path.join(ROOT, "data", "photos.json");
+let phById = {};
+if (fs.existsSync(PHOTOS)) {
+  try {
+    phById = (JSON.parse(fs.readFileSync(PHOTOS, "utf8")) || {}).photos || {};
+  } catch (e) {
+    die("data/photos.json is not valid JSON — " + e.message);
+  }
+  for (const id of Object.keys(phById))
+    if (!seen.has(id)) console.warn(`⚠ data/photos.json has a photo for unknown spot id ${JSON.stringify(id)}`);
+}
+
 // --- serialise back to the ORIGINAL compact JS object-literal style ----------
 // (unquoted keys in the original field order; string values via JSON.stringify;
 //  numbers raw) so the deployed file matches the minified bundle's shape and the
 //  CLAUDE.md `id:"…",n:"` count check keeps working.
 const num = (v) => (typeof v === "number" ? String(v) : JSON.stringify(v));
-let withHours = 0, withWq = 0;
-const literal =
-  "[" +
-  spots
-    .map((e) => {
-      const base = REQUIRED.map((k) =>
-        k === "lat" || k === "lng" ? `${k}:${num(e[k])}` : `${k}:${JSON.stringify(e[k])}`
-      ).join(",");
-      const oh = hoursById[e.id] && hoursById[e.id].h;
-      if (oh) withHours++;
-      const wq = wqById[e.id];
-      if (wq) withWq++;
-      return "{" + base + (oh ? `,oh:${JSON.stringify(oh)}` : "") + (wq ? `,wq:${JSON.stringify(wq)}` : "") + "}";
-    })
-    .join(",") +
-  "]";
+let withHours = 0, withWq = 0, withPh = 0;
+const entryStrs = spots.map((e) => {
+  const base = REQUIRED.map((k) =>
+    k === "lat" || k === "lng" ? `${k}:${num(e[k])}` : `${k}:${JSON.stringify(e[k])}`
+  ).join(",");
+  const oh = hoursById[e.id] && hoursById[e.id].h;
+  if (oh) withHours++;
+  const wq = wqById[e.id];
+  if (wq) withWq++;
+  const ph = phById[e.id];
+  if (ph) withPh++;
+  return {
+    city: e.city,
+    s: "{" + base + (oh ? `,oh:${JSON.stringify(oh)}` : "") + (wq ? `,wq:${JSON.stringify(wq)}` : "") + (ph ? `,ph:${JSON.stringify(ph)}` : "") + "}",
+  };
+});
+// Core/rest split: the app always boots with cityId "london", so the core file
+// carries London and everything else arrives asynchronously after window.load
+// (spots.rest pushes into window.__FLZ and fires "flzmore"; the app bumps a zv
+// state so city/radius memos re-derive). Cold start ships ~1/10th of the data.
+const CORE_CITIES = new Set(["london"]);
+const coreEntries = entryStrs.filter((x) => CORE_CITIES.has(x.city));
+const restEntries = entryStrs.filter((x) => !CORE_CITIES.has(x.city));
+const coreLiteral = "[" + coreEntries.map((x) => x.s).join(",") + "]";
+const restLiteral = "[" + restEntries.map((x) => x.s).join(",") + "]";
 
 // --- split the catalogue into a content-hashed sidecar -----------------------
 // The catalogue is ~95% of the bundle and changes far less often than the app
@@ -309,9 +333,20 @@ const literal =
 // deploys keep the same catalogue URL, so the SW/browser never re-downloads the
 // 4.6 MB catalogue for an app-code change. See sw.js (DATA cache) + CLAUDE.md.
 const crypto = require("crypto");
-const hash = crypto.createHash("sha1").update(literal).digest("hex").slice(0, 10);
-const SPOTS_NAME = `spots.${hash}.js`;
-const spotsJs = `window.__FLZ=${literal};\n`;
+const h10 = (x) => crypto.createHash("sha1").update(x).digest("hex").slice(0, 10);
+const CORE_NAME = `spots.core.${h10(coreLiteral)}.js`;
+const REST_NAME = `spots.rest.${h10(restLiteral)}.js`;
+const coreJs = `window.__FLZ=${coreLiteral};\n`;
+const restJs =
+  `(function(){var A=${restLiteral};var z=window.__FLZ=window.__FLZ||[];` +
+  `for(var i=0;i<A.length;i++)z.push(A[i]);window.__FLZR=1;` +
+  `try{window.dispatchEvent(new CustomEvent("flzmore",{detail:A.length}))}catch(e){}})();\n`;
+const LOADER =
+  `<script src="./${CORE_NAME}"></script>\n` +
+  `<script>(function(){var s=document.createElement("script");s.src="./${REST_NAME}";s.async=true;var f=0;` +
+  `function go(){if(f)return;f=1;document.head.appendChild(s)}` +
+  `if(document.readyState==="complete")setTimeout(go,50);else window.addEventListener("load",function(){setTimeout(go,50)});` +
+  `window.addEventListener("pointerdown",go,{once:true,passive:true});window.addEventListener("keydown",go,{once:true});})();</script>`;
 const SRC_MARKER = "<!--__FLANEUR_SPOTS_SRC__-->";
 
 // --- inject into the shell (each marker must appear exactly once) -------------
@@ -321,7 +356,7 @@ const srcOcc = template.split(SRC_MARKER).length - 1;
 if (srcOcc !== 1) die(`expected exactly 1 spots-src marker in template, found ${srcOcc}`);
 const output = template
   .replace(PLACEHOLDER, "[]") // Z=window.__FLZ||[]  (catalogue arrives via the sidecar)
-  .replace(SRC_MARKER, `<script src="./${SPOTS_NAME}"></script>`);
+  .replace(SRC_MARKER, LOADER);
 
 // --- validate index.html shell (catalogue-free) BEFORE writing ---------------
 function checkShell(out) {
@@ -345,22 +380,23 @@ function checkShell(out) {
   // the catalogue must NOT leak back into the shell
   const stray = (out.match(/id:"[^"]*",n:"/g) || []).length;
   if (stray !== 0) die(`shell unexpectedly contains ${stray} inline spot entries (split failed)`);
-  if (out.indexOf(SPOTS_NAME) < 0) die("shell is missing the spots <script src> loader");
+  if (out.indexOf(CORE_NAME) < 0) die("shell is missing the spots.core <script src> loader");
+  if (out.indexOf(REST_NAME) < 0) die("shell is missing the spots.rest async loader");
   return { worlds, categories };
 }
 // --- validate the spots sidecar (the data) -----------------------------------
-function checkData(js) {
+function checkData(js, name, expected) {
   const tmp = path.join(require("os").tmpdir(), "flaneur-spots-check.js");
   fs.writeFileSync(tmp, js);
   try {
     execFileSync(process.execPath, ["--check", tmp], { stdio: "pipe" });
   } catch (e) {
     fs.unlinkSync(tmp);
-    die(`generated ${SPOTS_NAME} failed \`node --check\`:\n` + (e.stderr || e).toString());
+    die(`generated ${name} failed \`node --check\`:\n` + (e.stderr || e).toString());
   }
   fs.unlinkSync(tmp);
   const entries = (js.match(/id:"[^"]*",n:"/g) || []).length;
-  if (entries !== BASELINE.entries) die(`sidecar entry count ${entries} ≠ ${BASELINE.entries}`);
+  if (entries !== expected) die(`${name} entry count ${entries} ≠ ${expected}`);
   // confirm the injected array really has the right length via a real parse
   const ast = acorn.parse(js, { ecmaVersion: "latest" });
   let zlen = -1;
@@ -373,21 +409,24 @@ function checkData(js) {
       else if (v && typeof v.type === "string") walk(v);
     }
   })(ast);
-  if (zlen !== spots.length) die(`parsed sidecar array has ${zlen} elements, expected ${spots.length}`);
+  if (zlen !== expected) die(`parsed ${name} array has ${zlen} elements, expected ${expected}`);
   return entries;
 }
 const counts = checkShell(output);
-const entryCount = checkData(spotsJs);
+const entryCount = checkData(coreJs, CORE_NAME, coreEntries.length) + checkData(restJs, REST_NAME, restEntries.length);
+if (entryCount !== BASELINE.entries) die(`total sidecar entries ${entryCount} ≠ ${BASELINE.entries}`);
 
 // --- all green: remove stale sidecars, then write the pair -------------------
 for (const f of fs.readdirSync(ROOT))
-  if (/^spots\.[0-9a-f]+\.js$/.test(f)) fs.unlinkSync(path.join(ROOT, f));
-fs.writeFileSync(path.join(ROOT, SPOTS_NAME), spotsJs);
+  if (/^spots\.(?:[a-z]+\.)?[0-9a-f]+\.js$/.test(f)) fs.unlinkSync(path.join(ROOT, f));
+fs.writeFileSync(path.join(ROOT, CORE_NAME), coreJs);
+fs.writeFileSync(path.join(ROOT, REST_NAME), restJs);
 fs.writeFileSync(OUTPUT, output);
 console.log(
-  `✓ wrote ${path.relative(ROOT, OUTPUT)} shell + ${SPOTS_NAME} (${(spotsJs.length / 1048576).toFixed(2)} MB) — ` +
+  `✓ wrote ${path.relative(ROOT, OUTPUT)} shell + ${CORE_NAME} (${(coreJs.length / 1048576).toFixed(2)} MB core) + ` +
+    `${REST_NAME} (${(restJs.length / 1048576).toFixed(2)} MB async) — ` +
     `${entryCount} spots / ${counts.worlds} Worlds / ${counts.categories} categories, ` +
-    `${withHours} with opening hours, ${withWq} with a wq provenance flag, node --check OK`
+    `${withHours} with opening hours, ${withWq} with wq, ${withPh} with photos, node --check OK`
 );
 
 // --- SEO: static, crawlable landing pages (portable — pure data → HTML) ------
