@@ -872,7 +872,7 @@ lucide-react/dist/esm/lucide-react.js:
           :'<div style="margin-top:14px;position:relative"><input id="flpqin" placeholder="Guess the place…" autocomplete="off" style="width:100%;box-sizing:border-box;border:1px solid #E7E0D4;border-radius:10px;padding:11px 12px;font-size:15px;font-family:inherit;background:#fff;color:#211C16"><div id="flpqac" style="position:absolute;left:0;right:0;top:46px;background:#fff;border:1px solid #E7E0D4;border-radius:10px;overflow:hidden;z-index:5"></div></div><div style="font-size:11.5px;color:#8A8073;margin-top:8px;text-align:center">'+(MAX-tries.length)+' guess'+((MAX-tries.length)===1?'':'es')+' left</div>');
       D.getElementById("flpqx").onclick=close;var _se=D.getElementById("flpqsee");if(_se)_se.onclick=function(ev){try{if(ev&&ev.preventDefault)ev.preventDefault();}catch(e){}try{close();}catch(e){}try{location.hash="#spot="+encodeURIComponent(ans.id);}catch(e){}};
       if(revealed){
-        var _pa=D.getElementById("flpqagain");if(_pa)_pa.onclick=function(){try{_pmode=_isW?"world":"local";_ppractice=true;close();setTimeout(function(){open(true);},30);}catch(e){}};var sb=D.getElementById("flpqshare"); if(sb)sb.onclick=function(){var txt="Daily Plaque #"+num()+" "+grid(won?tries.concat([1]):tries,won)+" "+(won?(done?done.tries:tries.length)+"/"+MAX:"X/"+MAX)+(tries.length?" "+Array(Math.min(tries.length,3)+1).join("💡"):"");try{if(navigator.share)navigator.share({title:"Daily Plaque",text:txt,url:location.origin+location.pathname}).catch(function(){});else if(navigator.clipboard){navigator.clipboard.writeText(txt+" "+location.href).then(function(){try{var _o=sb.textContent;sb.textContent="Copied \u2713";setTimeout(function(){sb.textContent=_o;},1500);}catch(e){}}).catch(function(){});}}catch(e){}};
+        var _pa=D.getElementById("flpqagain");if(_pa)_pa.onclick=function(){try{_pmode=_isW?"world":"local";_ppractice=true;close();setTimeout(function(){open(true);},30);}catch(e){}};var sb=D.getElementById("flpqshare"); if(sb)sb.onclick=function(){var txt="Daily Plaque #"+num()+" "+grid(won?tries.concat([1]):tries,won)+" "+(won?(done?done.tries:tries.length)+"/"+MAX:"X/"+MAX)+(tries.length?" "+Array(Math.min(tries.length,3)+1).join("💡"):"");W.flShareCard({kicker:"Daily Plaque #"+num(),title:cityLabel,big:(won?(done?done.tries:tries.length)+"/"+MAX:"X/"+MAX),grid:grid(won?tries.concat([1]):tries,won)},txt,sb);};
       } else {
         var inp=D.getElementById("flpqin"), ac=D.getElementById("flpqac");
         function submit(sp){
@@ -1503,7 +1503,7 @@ lucide-react/dist/esm/lucide-react.js:
         } else {
           var sh=D.getElementById("flgeoshare"); if(sh)sh.onclick=function(){
             var t2=total(),txt="Place the Pin — "+cityLabel+" "+st.rounds.map(function(r){return sq(r.s/rmax);}).join('')+" "+t2+"/"+tmax;
-            try{if(W.navigator.share)W.navigator.share({title:"Place the Pin",text:txt,url:location.origin+location.pathname}).catch(function(){});else if(W.navigator.clipboard){W.navigator.clipboard.writeText(txt+" "+location.href).then(function(){var o=sh.textContent;sh.textContent="Copied ✓";setTimeout(function(){sh.textContent=o;},1500);}).catch(function(){});}}catch(e){}};
+            W.flShareCard({kicker:"Place the Pin",title:cityLabel,big:t2+" / "+tmax,grid:st.rounds.map(function(r){return sq(r.s/rmax);}).join("")},txt,sh);};
           var ag=D.getElementById("flgeoagain"); if(ag)ag.onclick=function(){try{_mode=isW?"world":"local";_practice=true;close();setTimeout(function(){open(true);},30);}catch(e){}};
         }
       }
@@ -1702,7 +1702,7 @@ lucide-react/dist/esm/lucide-react.js:
             puz.groups.forEach(function(g){if(solvedCats.indexOf(g.cat)<0)solvedCats.push(g.cat);}); solvedCats=puz.groups.map(function(g){return g.cat;}); mistakes=4; }
           persist(); render(); if(top===3)msg("So close — one away!"); }
       }
-      function doShare(){var txt=shareText();try{if(W.navigator.share)W.navigator.share({title:"Flâneur Connections",text:txt}).catch(function(){});else if(W.navigator.clipboard){W.navigator.clipboard.writeText(txt).then(function(){var b=D.getElementById("flcshare");if(b){var o=b.textContent;b.textContent="Copied ✓";setTimeout(function(){b.textContent=o;},1500);}}).catch(function(){});}}catch(e){}}
+      function doShare(){var txt=shareText();var _sq={};_sq[COLORS[0]]="🟨";_sq[COLORS[1]]="🟩";_sq[COLORS[2]]="🟦";_sq[COLORS[3]]="🟪";W.flShareCard({kicker:"Connections",title:cityLabel,big:(solvedCats.length===4?"Solved!":"🙅"),sub:mistakes+" mistake"+(mistakes===1?"":"s"),gridLines:hist.map(function(r){return r.map(function(c){return _sq[c]||"⬜";}).join("");})},txt,D.getElementById("flcshare"));}
 
       // if 4 mistakes were saved, remaining already revealed via solvedCats
       if(mistakes>=4&&solvedCats.length<4){solvedCats=puz.groups.map(function(g){return g.cat;});}
@@ -1777,7 +1777,7 @@ lucide-react/dist/esm/lucide-react.js:
         D.getElementById("fltx").onclick=close;
         if(revealed){
           try{W.flGamePic&&W.flGamePic("flttpic",ans.lat,ans.lng,ans.n);}catch(e){}var se=D.getElementById("fltsee"); if(se)se.onclick=function(ev){try{ev.preventDefault();}catch(e){}close();try{location.hash="#spot="+encodeURIComponent(ans.id);}catch(e){}};
-          var sh=D.getElementById("fltshare"); if(sh)sh.onclick=function(){var txt="Time Traveller "+grid(done.score)+" "+done.score+" pts ("+Math.abs(done.guess-year)+" yrs off)";try{if(W.navigator.share)W.navigator.share({title:"Time Traveller",text:txt,url:location.origin+location.pathname}).catch(function(){});else if(W.navigator.clipboard){W.navigator.clipboard.writeText(txt+" "+location.href).then(function(){var o=sh.textContent;sh.textContent="Copied ✓";setTimeout(function(){sh.textContent=o;},1500);}).catch(function(){});}}catch(e){}};
+          var sh=D.getElementById("fltshare"); if(sh)sh.onclick=function(){var txt="Time Traveller "+grid(done.score)+" "+done.score+" pts ("+Math.abs(done.guess-year)+" yrs off)";W.flShareCard({kicker:"Time Traveller",title:Math.abs(done.guess-year)+" years off",big:done.score+" pts",grid:grid(done.score)},txt,sh);};
           var ag=D.getElementById("fltagain"); if(ag)ag.onclick=again;
         } else {
           var rg=D.getElementById("fltrange"), yr=D.getElementById("fltyr");
@@ -2152,7 +2152,7 @@ lucide-react/dist/esm/lucide-react.js:
         } else {
           try{W.flGamePic&&W.flGamePic("flpcpic",ans.lat,ans.lng,ans.n);}catch(e){}var se=D.getElementById("flpcsee"); if(se)se.onclick=function(ev){try{ev.preventDefault();}catch(e){}close();try{location.hash="#spot="+encodeURIComponent(ans.id);}catch(e){}};
           var ag=D.getElementById("flpcagain"); if(ag)ag.onclick=again;
-          var sh=D.getElementById("flpcshare"); if(sh)sh.onclick=function(){var txt="Placed "+grid(done.score)+" "+done.score+" pts — named the city from its story";try{if(W.navigator.share)W.navigator.share({title:"Placed",text:txt,url:location.origin+location.pathname}).catch(function(){});else if(W.navigator.clipboard){W.navigator.clipboard.writeText(txt+" "+location.href).then(function(){var o=sh.textContent;sh.textContent="Copied ✓";setTimeout(function(){sh.textContent=o;},1500);}).catch(function(){});}}catch(e){}};
+          var sh=D.getElementById("flpcshare"); if(sh)sh.onclick=function(){var txt="Placed "+grid(done.score)+" "+done.score+" pts — named the city from its story";W.flShareCard({kicker:"Placed",title:"Named the city from its story",big:done.score+" pts",grid:grid(done.score)},txt,sh);};
         }
       }
       function commit(cid){
@@ -2267,7 +2267,7 @@ lucide-react/dist/esm/lucide-react.js:
         } else {
           var sh=D.getElementById("flchshare"); if(sh)sh.onclick=function(){
             var txt="Chronologle "+(done.pairs===6?"🟩🟩🟩🟩🟩🟩":Array(done.pairs+1).join("🟩")+Array(6-done.pairs+1).join("⬜"))+" "+done.score+" pts";
-            try{if(W.navigator.share)W.navigator.share({title:"Chronologle",text:txt,url:location.origin+location.pathname}).catch(function(){});else if(W.navigator.clipboard){W.navigator.clipboard.writeText(txt+" "+location.href).then(function(){var o=sh.textContent;sh.textContent="Copied ✓";setTimeout(function(){sh.textContent=o;},1500);}).catch(function(){});}}catch(e){}};
+            W.flShareCard({kicker:"Chronologle",title:done.pairs+" of 6 pairs in order",big:done.score+" pts",grid:(done.pairs===6?"🟩🟩🟩🟩🟩🟩":Array(done.pairs+1).join("🟩")+Array(6-done.pairs+1).join("⬜"))},txt,sh);};
           var ag=D.getElementById("flchagain"); if(ag)ag.onclick=function(){_pr=true;close();setTimeout(function(){open(true);},30);};
         }
       }
@@ -2358,7 +2358,7 @@ lucide-react/dist/esm/lucide-react.js:
         } else {
           var sh=D.getElementById("flooshare"); if(sh)sh.onclick=function(){
             var txt="Odd One Out — "+cityLabel+" "+(done.won?"🎯 spotted the impostor":"🃏 fooled me");
-            try{if(W.navigator.share)W.navigator.share({title:"Odd One Out",text:txt,url:location.origin+location.pathname}).catch(function(){});else if(W.navigator.clipboard){W.navigator.clipboard.writeText(txt+" "+location.href).then(function(){var o=sh.textContent;sh.textContent="Copied ✓";setTimeout(function(){sh.textContent=o;},1500);}).catch(function(){});}}catch(e){}};
+            W.flShareCard({kicker:"Odd One Out",title:cityLabel,big:done.won?"🎯":"🃏",sub:done.won?"Spotted the impostor":"It fooled me"},txt,sh);};
           var ag=D.getElementById("flooagain"); if(ag)ag.onclick=function(){_pr=true;close();setTimeout(function(){open(true);},30);};
         }
       }
@@ -2443,7 +2443,7 @@ lucide-react/dist/esm/lucide-react.js:
         } else {
           var sh=D.getElementById("flskshare"); if(sh)sh.onclick=function(){
             var txt="Flâneur Streak — "+cityLabel+" 🔥 "+streak+" in a row";
-            try{if(W.navigator.share)W.navigator.share({title:"Streak",text:txt,url:location.origin+location.pathname}).catch(function(){});else if(W.navigator.clipboard){W.navigator.clipboard.writeText(txt+" "+location.href).then(function(){var o=sh.textContent;sh.textContent="Copied ✓";setTimeout(function(){sh.textContent=o;},1500);}).catch(function(){});}}catch(e){}};
+            W.flShareCard({kicker:"Streak · "+cityLabel,title:streak+" in a row",big:"🔥 "+streak},txt,sh);};
           var ag=D.getElementById("flskagain"); if(ag)ag.onclick=function(){streak=0;over=false;lastMiss=null;pair=nextPair(pl.p);render();};
         }
       }
@@ -2545,7 +2545,7 @@ lucide-react/dist/esm/lucide-react.js:
         } else {
           var sh=D.getElementById("flwlshare"); if(sh)sh.onclick=function(){
             var txt="Walk the Line — "+cityLabel+" "+grid(done.score)+" "+done.score+" pts";
-            try{if(W.navigator.share)W.navigator.share({title:"Walk the Line",text:txt,url:location.origin+location.pathname}).catch(function(){});else if(W.navigator.clipboard){W.navigator.clipboard.writeText(txt+" "+location.href).then(function(){var o=sh.textContent;sh.textContent="Copied ✓";setTimeout(function(){sh.textContent=o;},1500);}).catch(function(){});}}catch(e){}};
+            W.flShareCard({kicker:"Walk the Line",title:cityLabel,big:done.score+" pts",grid:grid(done.score)},txt,sh);};
           var ag=D.getElementById("flwlagain"); if(ag)ag.onclick=function(){_pr=true;close();setTimeout(function(){open(true);},30);};
         }
       }
@@ -2604,6 +2604,67 @@ function show(z,dist){
   try{W.flTrack&&W.flTrack("hero_shown",{id:z.id,d:Math.round(dist)});}catch(e){}
   }catch(e){}
 }
+})();
+
+</script>
+<script>
+/* flShareCard — branded canvas share images for game results.
+   Draws a 1080×1350 postcard (cream, serif, accent red), then shares it as an
+   image file where Web Share Level 2 is available; otherwise falls back to the
+   classic text share / clipboard copy. Standalone, try/catch-guarded. */
+(function(){var W=window;
+function wrapTxt(g,txt,x,y,maxW,lh,maxLines){
+  var words=String(txt||"").split(/\s+/),line="",lines=[];
+  for(var i=0;i<words.length;i++){var t=line?line+" "+words[i]:words[i];
+    if(g.measureText(t).width>maxW&&line){lines.push(line);line=words[i];}else line=t;}
+  if(line)lines.push(line);
+  lines=lines.slice(0,maxLines||3);
+  lines.forEach(function(l,j){g.fillText(l,x,y+j*lh);});
+  return y+(lines.length-1)*lh;
+}
+W.flShareCard=function(o,txt,btn){
+  function fallback(){
+    try{
+      if(navigator.share){navigator.share({title:"Flâneur",text:txt,url:location.origin+location.pathname}).catch(function(){});}
+      else if(navigator.clipboard){navigator.clipboard.writeText(txt+" "+location.href).then(function(){try{if(btn){var o2=btn.textContent;btn.textContent="Copied ✓";setTimeout(function(){btn.textContent=o2;},1500);}}catch(e){}}).catch(function(){});}
+    }catch(e){}
+  }
+  try{
+    o=o||{};
+    var CW=1080,CH=1350,cv=document.createElement("canvas");cv.width=CW;cv.height=CH;
+    var g=cv.getContext("2d");if(!g){fallback();return;}
+    g.fillStyle="#FAF8F3";g.fillRect(0,0,CW,CH);
+    g.strokeStyle="#E7E0D4";g.lineWidth=6;g.strokeRect(42,42,CW-84,CH-84);
+    g.fillStyle="#C8372D";g.fillRect(42,42,CW-84,14);
+    g.textAlign="center";g.textBaseline="alphabetic";
+    g.fillStyle="#C8372D";g.font="700 36px Menlo, monospace";
+    g.fillText(String(o.kicker||"Flâneur").toUpperCase(),CW/2,196);
+    g.fillStyle="#211C16";g.font="700 84px Georgia, serif";
+    var ty=wrapTxt(g,o.title||"",CW/2,330,CW-220,96,2);
+    var y=ty+150;
+    if(o.big){g.fillStyle="#C8372D";g.font="800 140px Georgia, serif";g.fillText(String(o.big),CW/2,y);y+=120;}
+    var gl=o.gridLines||(o.grid?[String(o.grid)]:[]);
+    if(gl.length){g.font="80px serif";g.fillStyle="#211C16";
+      gl.slice(0,6).forEach(function(l){g.fillText(l,CW/2,y);y+=96;});}
+    if(o.sub){g.fillStyle="#8A8073";g.font="500 42px Georgia, serif";wrapTxt(g,o.sub,CW/2,y+20,CW-240,54,2);}
+    g.fillStyle="#211C16";g.font="700 52px Georgia, serif";g.fillText("Flâneur",CW/2,CH-176);
+    g.fillStyle="#8A8073";g.font="500 34px -apple-system, Helvetica, sans-serif";
+    g.fillText((location.host+location.pathname).replace(/\/$/,""),CW/2,CH-116);
+    cv.toBlob(function(blob){
+      try{
+        if(blob&&typeof File!=="undefined"&&navigator.canShare){
+          var f=new File([blob],"flaneur-score.png",{type:"image/png"});
+          if(navigator.canShare({files:[f]})){
+            navigator.share({files:[f],title:"Flâneur",text:txt}).catch(function(){});
+            try{W.flTrack&&W.flTrack("sharecard",{k:o.kicker||""});}catch(e){}
+            return;
+          }
+        }
+      }catch(e){}
+      fallback();
+    },"image/png");
+  }catch(e){fallback();}
+};
 })();
 
 </script>
