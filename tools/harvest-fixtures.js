@@ -114,6 +114,53 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
     console.error(`  ${f.slug}: ${rows.length} fixtures, ${kept} upcoming matched to grounds`);
     await sleep(600);
   }
+  // --- openfootball adapter: League One/Two (venue = home club's ground, ----
+  // via data/grounds92.json from tools/add-92.js). Files 404 until each
+  // season is published — the weekly Action adopts them automatically.
+  let g92 = null;
+  try { g92 = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "grounds92.json"), "utf8")).clubs; } catch (e) {}
+  const cnorm = (x) => String(x || "").toLowerCase().replace(/\b(a\.?f\.?c\.?|f\.?c\.?)\b/g, "").replace(/&/g, "and").replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim();
+  const MONTHS = { Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5, Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11 };
+  const lastSun = (yy, m) => { const dt = new Date(Date.UTC(yy, m + 1, 0)); return dt.getUTCDate() - dt.getUTCDay(); };
+  const ukToUTC = (y2, mon, d, hh, mm) => { // Europe/London DST window
+    const t = Date.UTC(y2, mon, d, hh, mm);
+    const b0 = Date.UTC(y2, 2, lastSun(y2, 2), 1), b1 = Date.UTC(y2, 9, lastSun(y2, 9), 1);
+    return t - ((t >= b0 && t < b1) ? 36e5 : 0);
+  };
+  for (const of_ of [{ file: "3-league1.txt", lg: "League One", tag: "l1" }, { file: "4-league2.txt", lg: "League Two", tag: "l2" }]) {
+    if (!g92) break;
+    let txt = null, seasonTag = null;
+    for (const season of [`${Y}-${String(Y + 1).slice(2)}`, `${Y - 1}-${String(Y).slice(2)}`]) {
+      try {
+        const r = await fetch(`https://raw.githubusercontent.com/openfootball/england/master/${season}/${of_.file}`, { headers: { "User-Agent": "flaneur-fixtures/1.0" } });
+        if (r.ok) { txt = await r.text(); seasonTag = season; break; }
+      } catch (e) { /* try next */ }
+    }
+    if (!txt) { console.error(`  \u00b7 openfootball ${of_.file}: not published yet \u2014 skipped`); continue; }
+    const startYear = +seasonTag.slice(0, 4);
+    let curY = startYear, curMon = null, curD = null, curT = "15:00", idx = 0, kept = 0, resCnt = 0;
+    for (const raw of txt.split(/\r?\n/)) {
+      const dm = raw.match(/^\s+(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+([A-Z][a-z]{2})\s+(\d{1,2})(?:\s+(\d{4}))?\s*$/);
+      if (dm) { curMon = MONTHS[dm[1]]; curD = +dm[2]; curY = dm[3] ? +dm[3] : (curMon >= 6 ? startYear : startYear + 1); continue; }
+      const fm = raw.match(/^\s+(?:(\d{1,2})[.:](\d{2})\s+)?(.+?)\s+v\s+(.+?)\s*$/);
+      if (!fm || curMon == null) continue;
+      idx++;
+      if (fm[1]) curT = fm[1].padStart(2, "0") + ":" + fm[2];
+      let away = fm[4], score = null;
+      const rm = fm[4].match(/^(.*?)\s{2,}(\d+)-(\d+)/);
+      if (rm) { away = rm[1]; score = rm[2] + "-" + rm[3]; }
+      const g = g92[cnorm(fm[3])];
+      if (!g || !g.spotId) continue;
+      const ts = ukToUTC(curY, curMon, curD, +curT.slice(0, 2), +curT.slice(3, 5));
+      const id = `ofb:${of_.tag}-${seasonTag}:${idx}`;
+      if (ts < now - 864e5) { if (score && ts > now - 120 * 864e5) { res[id] = score; resCnt++; } continue; }
+      total++; matched++; kept++;
+      (byId[g.spotId] = byId[g.spotId] || []).push({ id, n: `${fm[3].trim()} v ${away.trim()}`, t: new Date(ts).toISOString().replace(/\.\d{3}Z$/, "Z"), lg: of_.lg, sp: "Football" });
+    }
+    console.error(`  openfootball ${seasonTag}/${of_.file}: ${kept} upcoming matched, ${resCnt} recent results`);
+    await sleep(400);
+  }
+
   for (const k of Object.keys(byId)) {
     byId[k].sort((a, b) => (a.t < b.t ? -1 : 1));
     byId[k] = byId[k].slice(0, 40);
