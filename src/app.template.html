@@ -3627,17 +3627,54 @@ window.flSocialUI=function(openUser){
     card.appendChild(el("div","font:700 17px var(--font-serif);margin-bottom:4px;",ttl||"Sync across devices"));
     card.appendChild(el("div","color:#666;font-size:13px;margin-bottom:12px;",sub||"Enter your email and we'll send a one-tap sign-in link — no password."));
     var ip=el("input","width:100%;box-sizing:border-box;padding:10px;border:1px solid #ddd;border-radius:10px;font:inherit;");ip.type="email";ip.placeholder="you@email.com";
+    // Social sign-in (zero email quota) — buttons appear only for providers
+    // actually enabled in Supabase (public /auth/v1/settings), so flipping
+    // Apple/Google on in the dashboard lights these up with no code change.
+    var oa=el("div","margin:0 0 4px;");
+    card.appendChild(oa);
     var go=el("button","width:100%;border:none;border-radius:10px;padding:11px;margin-top:10px;background:#E8584D;color:#fff;font:700 14px var(--font-sans);cursor:pointer;","Send magic link");
     var cancel=el("button","width:100%;border:none;background:none;color:#888;padding:9px;margin-top:4px;font:600 13px var(--font-sans);cursor:pointer;","Cancel");
     var msg=el("div","font-size:12px;color:#666;margin-top:8px;min-height:16px;","");
     card.appendChild(ip);card.appendChild(go);card.appendChild(msg);card.appendChild(cancel);ov.appendChild(card);document.body.appendChild(ov);ip.focus();
-    function close(){ov.remove();}
+    var cd=null;
+    function close(){if(cd)clearInterval(cd);ov.remove();}
     cancel.onclick=close;ov.onclick=function(e){if(e.target===ov)close();};
-    go.onclick=function(){var em=(ip.value||"").trim();if(!/.+@.+\..+/.test(em)){msg.textContent="Enter a valid email.";return;}go.disabled=true;msg.textContent="Sending…";
-      sb.auth.signInWithOtp({email:em,options:{emailRedirectTo:location.origin+location.pathname}}).then(function(r){
-        if(r.error){msg.textContent="Error: "+r.error.message;go.disabled=false;}
-        else{msg.style.color="#1a7f37";msg.textContent="Check your email for the sign-in link.";go.textContent="Link sent ✓";}
-      },function(){msg.textContent="Network error — try again.";go.disabled=false;});
+    function nice(m){m=String(m||"");
+      if(/rate limit|too many/i.test(m))return "Too many sign-in emails right now \u2014 wait a few minutes, then try once more. Your streaks and saves are safe on this phone meanwhile.";
+      if(/invalid|malformed/i.test(m))return "That email doesn\u2019t look right \u2014 check for typos.";
+      if(/network|fetch|failed/i.test(m))return "No connection \u2014 check your signal and try again.";
+      return "Couldn\u2019t send the link ("+m.slice(0,90)+"). Try again in a moment.";}
+    function cooldown(){
+      var last=+(localStorage.getItem("flotp-last")||0),left=Math.ceil((6e4-(Date.now()-last))/1e3);
+      if(left<=0){if(cd){clearInterval(cd);cd=null;}go.disabled=false;if(/Wait/.test(go.textContent))go.textContent="Send magic link";return;}
+      go.disabled=true;go.textContent="Wait "+left+"s \u2014 link on its way";
+      if(!cd)cd=setInterval(cooldown,1000);}
+    cooldown();
+    try{
+      var ext=window.__flAuthExt;
+      var paint=function(x){try{
+        if(!x)return;var any=false;
+        var mk=function(prov,label,bg,fg,border){var b=el("button","width:100%;border:"+(border||"none")+";border-radius:10px;padding:11px;margin-top:8px;background:"+bg+";color:"+fg+";font:700 14px var(--font-sans);cursor:pointer;",label);
+          b.onclick=function(){b.disabled=true;msg.textContent="Opening "+prov.charAt(0).toUpperCase()+prov.slice(1)+"\u2026";
+            try{sb.auth.signInWithOAuth({provider:prov,options:{redirectTo:location.origin+location.pathname}}).then(function(r){if(r&&r.error){msg.textContent=nice(r.error.message);b.disabled=false;}},function(){msg.textContent=nice("network");b.disabled=false;});}catch(e){msg.textContent=nice("network");b.disabled=false;}};
+          oa.appendChild(b);any=true;};
+        if(x.apple)mk("apple","Continue with Apple","#111","#fff");
+        if(x.google)mk("google","Continue with Google","#fff","#1a1a1a","1px solid #ddd");
+        if(any)oa.appendChild(el("div","text-align:center;color:#aaa;font-size:11px;margin:10px 0 2px;","\u2014 or by email \u2014"));
+      }catch(e){}};
+      if(ext!==undefined)paint(ext);
+      else fetch(CFG.supabaseUrl+"/auth/v1/settings",{headers:{apikey:CFG.supabaseAnon}}).then(function(r){return r.json();}).then(function(j){window.__flAuthExt=(j&&j.external)||null;paint(window.__flAuthExt);}).catch(function(){window.__flAuthExt=null;});
+    }catch(e){}
+    go.onclick=function(){var em=(ip.value||"").trim();if(!/.+@.+\..+/.test(em)){msg.textContent="Enter a valid email.";return;}go.disabled=true;msg.textContent="Sending\u2026";
+      var fail=function(m){msg.style.color="#B0403A";msg.textContent=nice(m);go.disabled=false;go.textContent="Send magic link";};
+      try{
+        sb.auth.signInWithOtp({email:em,options:{emailRedirectTo:location.origin+location.pathname}}).then(function(r){
+          if(r.error){fail(r.error.message);}
+          else{try{localStorage.setItem("flotp-last",String(Date.now()));}catch(e){}
+            msg.style.color="#1a7f37";msg.textContent="\u2709\uFE0F Check your inbox \u2014 the link works for an hour. Nothing there? Check spam.";
+            go.textContent="Link sent \u2713";cooldown();}
+        },function(){fail("network");});
+      }catch(e){fail("network");}
     };
   }
 
