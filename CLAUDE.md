@@ -6,7 +6,7 @@ from your live location. It began as a London guide and has since grown into a
 fully before touching anything.
 
 ## Architecture
-- The deployed app is **THREE files** (as of the core/rest split): `index.html` — the
+- The deployed app is **THREE files** (plus an optional fourth: **`fixtures.<hash>.js`** — season sports fixtures matched to stadium spots via `tools/harvest-fixtures.js` → `data/fixtures.json`; loaded async by the same loader as spots.rest, sets `window.__FLFX`, cached in the SW DATA cache; re-run the tool + rebuild weekly/monthly to refresh). Core three (as of the core/rest split): `index.html` — the
   **app shell** at the repo root, an inline **MINIFIED React bundle** (~780 KB / ~220 KB
   gzipped, code only) — plus **two content-hashed catalogue sidecars**:
   **`spots.core.<hash>.js`** (~0.6 MB raw — London, the boot city; defines
