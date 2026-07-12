@@ -149,6 +149,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
       let away = fm[4], score = null;
       const rm = fm[4].match(/^(.*?)\s{2,}(\d+)-(\d+)/);
       if (rm) { away = rm[1]; score = rm[2] + "-" + rm[3]; }
+      away = away.replace(/\s{2,}\[.*$/, "");
       const g = g92[cnorm(fm[3])];
       if (!g || !g.spotId) continue;
       const ts = ukToUTC(curY, curMon, curD, +curT.slice(0, 2), +curT.slice(3, 5));

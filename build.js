@@ -27,7 +27,7 @@ const SPOTS = path.join(ROOT, "data", "spots.json");
 const OUTPUT = path.join(ROOT, "index.html");
 const PLACEHOLDER = "[]/*__FLANEUR_SPOTS__*/";
 const REQUIRED = ["id", "n", "a", "pc", "lat", "lng", "c", "s", "q", "w", "city"];
-const BASELINE = { entries: 15063, worlds: 80, categories: 44 };
+const BASELINE = { entries: 15068, worlds: 80, categories: 44 };
 
 function die(msg) {
   console.error("✗ build aborted (nothing written): " + msg);
@@ -258,6 +258,15 @@ if (fs.existsSync(HOURS)) {
 // Season schedules matched to catalogue stadium spots (tools/harvest-fixtures.js).
 // Shipped as its own content-hashed sidecar (window.__FLFX), loaded async by the
 // same loader as spots.rest — never blocks boot, cache-forever like the catalogue.
+const QUESTS = path.join(ROOT, "data", "quests.json");
+let questData = null;
+if (fs.existsSync(QUESTS)) {
+  try { questData = JSON.parse(fs.readFileSync(QUESTS, "utf8")); }
+  catch (e) { die("data/quests.json is not valid JSON — " + e.message); }
+  for (const q of (questData && questData.quests) || [])
+    for (const id of q.ids || [])
+      if (!seen.has(id)) console.warn(`⚠ quest ${q.id} references unknown spot id ${JSON.stringify(id)}`);
+}
 const FIXT = path.join(ROOT, "data", "fixtures.json");
 let fxData = null;
 if (fs.existsSync(FIXT)) {
@@ -349,7 +358,7 @@ const crypto = require("crypto");
 const h10 = (x) => crypto.createHash("sha1").update(x).digest("hex").slice(0, 10);
 const CORE_NAME = `spots.core.${h10(coreLiteral)}.js`;
 const REST_NAME = `spots.rest.${h10(restLiteral)}.js`;
-const fxJs = fxData ? `window.__FLFX={gen:${JSON.stringify(fxData._generated || "")},byId:${JSON.stringify(fxData.byId || {})},res:${JSON.stringify(fxData.res || {})}};try{window.dispatchEvent(new CustomEvent("flfx"))}catch(e){}\n` : null;
+const fxJs = fxData ? `window.__FLFX={gen:${JSON.stringify(fxData._generated || "")},byId:${JSON.stringify(fxData.byId || {})},res:${JSON.stringify(fxData.res || {})},quests:${JSON.stringify((questData && questData.quests) || [])}};try{window.dispatchEvent(new CustomEvent("flfx"))}catch(e){}\n` : null;
 const FIXT_NAME = fxJs ? `fixtures.${h10(fxJs)}.js` : null;
 const coreJs = `window.__FLZ=${coreLiteral};\n`;
 const restJs =
