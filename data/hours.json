@@ -1,5 +1,5 @@
 {
- "_generated": "2026-07-12T03:25:44.071Z",
+ "_generated": "2026-07-12T03:51:56.004Z",
  "_source": "OpenStreetMap opening_hours via Overpass (ODbL)",
  "hours": {
   "192books": {
@@ -8,6 +8,20 @@
    "name": "192 Books",
    "match": "name",
    "dist": 0
+  },
+  "1altitudeviewinggallery": {
+   "h": "Mo-Su 08:30-17:30",
+   "osm": "node/3324020268",
+   "name": "1-Altitude Viewing Gallery",
+   "match": "name",
+   "dist": 0
+  },
+  "8barbikesberlinshowroom": {
+   "h": "Tu-Fr 12:00-18:00; Sa 10:00-16:00; PH off",
+   "osm": "node/4960259887",
+   "name": "8bar bikes",
+   "match": "contains",
+   "dist": 1
   },
   "ablikle": {
    "h": "Mo-Su 10:00-20:00",
@@ -30,12 +44,47 @@
    "match": "token",
    "dist": 9
   },
+  "albertina": {
+   "h": "PH,Th,Sa-Tu 10:00-18:00; We,Fr 10:00-21:00",
+   "osm": "node/60438337",
+   "name": "Albertina",
+   "match": "name",
+   "dist": 0
+  },
+  "alchemist": {
+   "h": "18:00+; Mo off",
+   "osm": "node/6689617066",
+   "name": "Alchemist",
+   "match": "name",
+   "dist": 15
+  },
   "algerian": {
    "h": "Mo-We 10:00-18:00; Th-Sa 10:00-19:00",
    "osm": "node/692190694",
    "name": "Algerian Coffee Stores",
    "match": "name",
    "dist": 40
+  },
+  "allatorvostortenetigyujt": {
+   "h": "Mo-Th 09:00-16:00",
+   "osm": "node/276952483",
+   "name": "Állatorvos-történeti Gyűjtemény",
+   "match": "name",
+   "dist": 0
+  },
+  "altesmuseum": {
+   "h": "Mo off; Tu-Fr 10:00-17:00; Sa-Su 10:00-18:00; PH 10:00-18:00; Dec 24 off; Dec 31 off",
+   "osm": "relation/3619",
+   "name": "Altes Museum",
+   "match": "name",
+   "dist": 7
+  },
+  "alteutting": {
+   "h": "Mo off; Th-We 16:00-24:00; Th 16:00-01:00; Fr 16:00-02:00, Sa 14:00-02:00, Su 11:00-22:00",
+   "osm": "way/538083551",
+   "name": "Alte Utting",
+   "match": "name",
+   "dist": 3
   },
   "amoebamusic": {
    "h": "Mo-Su 11:00-19:00",
@@ -44,12 +93,75 @@
    "match": "name",
    "dist": 6
   },
+  "amuseumofcontemporaryart": {
+   "h": "We-Su 12:00-19:00; Mo,Tu,PH off",
+   "osm": "node/390909981",
+   "name": "A Museum of contemporary art",
+   "match": "name",
+   "dist": 0
+  },
+  "andenceroestaciondechamb": {
+   "h": "Fr 16:00-20:00; Sa 10:00-14:00,16:00-20:00; Su 10:00-14:00",
+   "osm": "node/936505939",
+   "name": "Andén Cero - Estación de Chamberí",
+   "match": "name",
+   "dist": 0
+  },
+  "andersenandmaillard": {
+   "h": "Mo-Fr 07:00-18:00; Sa,Su,PH 08:00-18:00",
+   "osm": "node/5418412773",
+   "name": "Andersen og Maillard",
+   "match": "token",
+   "dist": 1
+  },
   "andrewedmunds": {
    "h": "Mo-Fr 12:00-15:30, 17:30-22:45; Sa 12:30-15:30, 17:30-22:45; Su 13:00-16:00, 18:00-22:30",
    "osm": "way/273697611",
    "name": "Andrew Edmunds",
    "match": "name",
    "dist": 90
+  },
+  "angyalfoldihelytorteneti": {
+   "h": "Tu-Fr 09:00-17:00",
+   "osm": "node/835887332",
+   "name": "Angyalföldi Helytörténeti Gyűjtemény",
+   "match": "name",
+   "dist": 1
+  },
+  "annaruohonen": {
+   "h": "Tu-Fr 11:00-18:00; Sa 11:00-16:00; PH off",
+   "osm": "node/319810654",
+   "name": "Anna Ruohonen",
+   "match": "name",
+   "dist": 0
+  },
+  "apartmentcoffee": {
+   "h": "Sa-Th 10:00-18:00",
+   "osm": "node/10208839168",
+   "name": "Apartment",
+   "match": "contains",
+   "dist": 100
+  },
+  "arakataka": {
+   "h": "Mo-Th 16:00-22:00; Fr-Sa 16:00-23:00; Su 16:00-21:00",
+   "osm": "node/2463407381",
+   "name": "Arakataka",
+   "match": "name",
+   "dist": 115
+  },
+  "aranysaspatikamuzeum": {
+   "h": "Mar 01-Oct 30 Tu-Fr 10:00-18:00; Nov 01-Feb 29 Tu-Fr 10:00-16:00; Sa-Su 10:00-18:00; PH off",
+   "osm": "node/527016465",
+   "name": "Arany Sas Patikamúzeum",
+   "match": "name",
+   "dist": 1
+  },
+  "architekturzentrumwien": {
+   "h": "Mo-Su 10:00-19:00",
+   "osm": "node/316524224",
+   "name": "Architekturzentrum Wien",
+   "match": "name",
+   "dist": 0
   },
   "argosybookstore": {
    "h": "Mo-Sa 11:00-18:00",
@@ -65,6 +177,20 @@
    "match": "name",
    "dist": 172
   },
+  "arpege": {
+   "h": "Mo-Fr 12:00-14:30, 19:30-22:30",
+   "osm": "node/11817329876",
+   "name": "L'Arpège",
+   "match": "contains",
+   "dist": 125
+  },
+  "artisanroast": {
+   "h": "Mo-Fr 08:00-18:30; Sa-Su 09:00-18:00",
+   "osm": "node/2081456442",
+   "name": "Artisan Roast",
+   "match": "name",
+   "dist": 2
+  },
   "askerimuze": {
    "h": "We-Su 9:00-17:00",
    "osm": "node/1346157990",
@@ -79,12 +205,96 @@
    "match": "name",
    "dist": 15
   },
+  "atlantiszkonyvsziget": {
+   "h": "Mo-Fr 10:00-18:00; Sa 10:00-14:00",
+   "osm": "node/2679085073",
+   "name": "Atlantisz",
+   "match": "contains",
+   "dist": 163
+  },
+  "aucheval": {
+   "h": "10:00-23:15",
+   "osm": "way/1504730667",
+   "name": "Au Cheval",
+   "match": "name",
+   "dist": 6
+  },
+  "auditoriumparcodellamusi": {
+   "h": "Oct-Mar: Mo-Sa 11:00-18:00, Su,PH 10:00-18:00; Apr-Oct: Mo-Sa 11:00-20:00, Su,PH 10:00-20:00",
+   "osm": "way/1466703738",
+   "name": "Auditorium Parco della Musica Ennio Morricone",
+   "match": "name",
+   "dist": 17
+  },
+  "aulapinagile": {
+   "h": "Tu,Th-Sa 21:00-01:00",
+   "osm": "way/316800538",
+   "name": "Au Lapin Agile",
+   "match": "name",
+   "dist": 45
+  },
+  "aupetitversaillesdumarai": {
+   "h": "Mo-Sa 08:00-20:00",
+   "osm": "node/2465870492",
+   "name": "Au petit Versailles du Marais",
+   "match": "name",
+   "dist": 7
+  },
+  "aurora": {
+   "h": "Mo-Tu 12:00-24:00, We 12:00-02:00, Th-Sa 12:00-04:00, Su 14:00-18:00",
+   "osm": "way/260718866",
+   "name": "Auróra",
+   "match": "name",
+   "dist": 0
+  },
+  "avaugirard": {
+   "h": "Mo-Sa 07:30-20:30; Su 08:00-20:00",
+   "osm": "node/4147065849",
+   "name": "Urban Bakery Vaugirard",
+   "match": "contains",
+   "dist": 70
+  },
+  "babylon": {
+   "h": "Mo-Fr 17:00+; Sa,Su \"eine halbe Stunde vor der ersten Vorstellung\"",
+   "osm": "node/256754256",
+   "name": "Babylon",
+   "match": "name",
+   "dist": 0
+  },
+  "bahnwarterthiel": {
+   "h": "Mo-Su 08:00-22:00",
+   "osm": "way/1188082132",
+   "name": "Bahnwärter Thiel",
+   "match": "name",
+   "dist": 31
+  },
+  "bajorgiziszineszmuzeum": {
+   "h": "We-Su 14:00-18:00",
+   "osm": "node/871115864",
+   "name": "Bajor Gizi Színészmúzeum",
+   "match": "name",
+   "dist": 0
+  },
+  "bankaustriakunstforum": {
+   "h": "Sa-Th 10:00-19:00; Fr 10:00-21:00",
+   "osm": "node/288513134",
+   "name": "Bank Austria Kunstforum",
+   "match": "name",
+   "dist": 0
+  },
   "baritalia": {
    "h": "24/7",
    "osm": "node/372519553",
    "name": "Bar Italia",
    "match": "contains",
    "dist": 25
+  },
+  "barjabroni": {
+   "h": "Tu-Sa 17:00-23:00",
+   "osm": "node/647656739",
+   "name": "Bar Jabroni",
+   "match": "name",
+   "dist": 9
   },
   "barmlecznybambino": {
    "h": "Mo-Fr 08:00-20:00; Sa-Su 09:00-18:00",
@@ -107,12 +317,75 @@
    "match": "contains",
    "dist": 72
   },
+  "bartokbelaemlekhaz": {
+   "h": "Tu-Su 10:00-17:00",
+   "osm": "node/4356708646",
+   "name": "Bartók Béla Emlékház",
+   "match": "name",
+   "dist": 3
+  },
+  "battleboxvisitorcentre": {
+   "h": "We-Su,PH 10:00-18:00",
+   "osm": "node/4362541394",
+   "name": "Battlebox Visitor Centre",
+   "match": "name",
+   "dist": 1
+  },
+  "bavaria": {
+   "h": "Apr 01-Oct 15: Mo-Su,PH 09:00-18:00; 09:00-20:00 \"während Oktoberfest\"",
+   "osm": "node/50840808",
+   "name": "Bavaria",
+   "match": "name",
+   "dist": 0
+  },
+  "bayerischesnationalmuseu": {
+   "h": "Tu-Su 10:00-17:00; Th 10:00-20:00",
+   "osm": "node/305581866",
+   "name": "Bayerisches Nationalmuseum",
+   "match": "name",
+   "dist": 1
+  },
   "beigel": {
    "h": "24/7",
    "osm": "way/271641402",
    "name": "Beigel Bake",
    "match": "name",
    "dist": 10
+  },
+  "belyegmuzeum": {
+   "h": "Tu-Su 10:00-18:00",
+   "osm": "node/276965238",
+   "name": "Bélyegmúzeum",
+   "match": "name",
+   "dist": 0
+  },
+  "berghain": {
+   "h": "Fr-Mo 22:00-06:00",
+   "osm": "node/10247772536",
+   "name": "Berghain",
+   "match": "name",
+   "dist": 94
+  },
+  "bewleysgraftonstreet": {
+   "h": "Mo-We 08:00-22:00; Th-Sa 08:00-23:00; Su 09:00-20:00",
+   "osm": "way/249263083",
+   "name": "Bewley's Café",
+   "match": "contains",
+   "dist": 0
+  },
+  "bezirksmuseumhernals": {
+   "h": "Mo 16:00-20:00; Su[1,3] 10:00-12:00; Jul-Aug off; PH off",
+   "osm": "node/331418208",
+   "name": "Bezirksmuseum Hernals",
+   "match": "name",
+   "dist": 0
+  },
+  "bierundoktoberfestmuseum": {
+   "h": "Tu-Sa 13:00-19:00",
+   "osm": "node/656253064",
+   "name": "Bier- und Oktoberfestmuseum",
+   "match": "name",
+   "dist": 7
   },
   "binbirdireksarnc": {
    "h": "24/7",
@@ -121,12 +394,47 @@
    "match": "name",
    "dist": 58
   },
+  "bislettstadion": {
+   "h": "Mo-Th 16:00-22:30; Fr 16:00-22:00; Sa 09:00-18:00; Su 10:00-20:00; PH off",
+   "osm": "node/13812182993",
+   "name": "Bislett stadion BYM LHL",
+   "match": "contains",
+   "dist": 98
+  },
+  "bitzingerwurstelstandalb": {
+   "h": "PH,Th,Sa-Tu 10:00-18:00; We,Fr 10:00-21:00",
+   "osm": "node/60438337",
+   "name": "Albertina",
+   "match": "contains",
+   "dist": 24
+  },
+  "blackmedicinecoffeeco": {
+   "h": "Mo-Sa 08:00-19:00; Su 10:00-19:00",
+   "osm": "node/366191581",
+   "name": "Black Medicine Coffee Co",
+   "match": "name",
+   "dist": 4
+  },
+  "bloodshotrecords": {
+   "h": "Mo-Fr 10:00-18:00",
+   "osm": "node/4666490092",
+   "name": "Bloodshot Records",
+   "match": "name",
+   "dist": 0
+  },
   "booksforcooks": {
    "h": "Tu-Sa 10:00-18:00; \"3 weeks August\" off; \"10 days Christmas\" off; PH off",
    "osm": "node/7205392587",
    "name": "Books for Cooks",
    "match": "name",
    "dist": 24
+  },
+  "bootcafe": {
+   "h": "Mo-Su 10:00-18:00",
+   "osm": "node/4682209804",
+   "name": "Boot Café",
+   "match": "name",
+   "dist": 4
   },
   "borderlandsbooks": {
    "h": "11:00-18:00",
@@ -135,12 +443,33 @@
    "match": "name",
    "dist": 0
   },
+  "bouillonchartier": {
+   "h": "Mo-Su 11:30-00:00",
+   "osm": "node/10804882603",
+   "name": "Bouillon Chartier",
+   "match": "name",
+   "dist": 47
+  },
   "bowbells": {
    "h": "We 07:30-18:00; Th 07:30-18:30; Fr 07:30-16:00",
    "osm": "way/90244113",
    "name": "St. Mary-Le-Bow",
    "match": "contains",
    "dist": 7
+  },
+  "brehonpub": {
+   "h": "Su-Fr 11:00-02:00; Sa 11:00-03:00",
+   "osm": "node/1724444319",
+   "name": "Brehon Pub",
+   "match": "name",
+   "dist": 0
+  },
+  "britanniapanopticon": {
+   "h": "Th-Sa 12:00-16:30",
+   "osm": "node/1524846544",
+   "name": "Britannia Panopticon",
+   "match": "name",
+   "dist": 107
   },
   "broadwaymarket": {
    "h": "Sa 09:00-17:00; Su 10:00-16:00; PH off",
@@ -170,6 +499,20 @@
    "match": "name",
    "dist": 1
   },
+  "burrellcollection": {
+   "h": "Mo-Th 10:00-17:00; Fr 11:00-17:00; Sa 10:00-17:00; Su 11:00-17:00",
+   "osm": "way/24242323",
+   "name": "The Burrell Collection",
+   "match": "name",
+   "dist": 8
+  },
+  "bymuseet": {
+   "h": "Tu-Su 11:00-16:00",
+   "osm": "node/330082033",
+   "name": "Bymuseet",
+   "match": "name",
+   "dist": 0
+  },
   "cafebristol": {
    "h": "09:00-19:00",
    "osm": "node/4551462797",
@@ -177,12 +520,110 @@
    "match": "name",
    "dist": 0
   },
+  "cafedeflore": {
+   "h": "Mo-Su 07:30-01:30",
+   "osm": "node/251699776",
+   "name": "Café de Flore",
+   "match": "name",
+   "dist": 11
+  },
+  "cafedelambre": {
+   "h": "Mo-Sa 12:00-22:00; Su 12:00-19:00",
+   "osm": "node/4367486089",
+   "name": "Cafe de l'ambre",
+   "match": "name",
+   "dist": 1
+  },
+  "cafedeljardinmuseodelrom": {
+   "h": "May 02-Oct 31: Tu-Sa 09:30-20:30; May 02-Oct 31: Su,PH 10:00-15:00; Nov 01-Apr 30: Tu-Sa 09:30-18:00; Nov 01-Apr 30: Su,PH 10:00-15:00; Mo off; Jan 01,06,May 01,15,Dec 24,25,31: off",
+   "osm": "relation/19258933",
+   "name": "Museo del Romanticismo",
+   "match": "contains",
+   "dist": 22
+  },
+  "cafegansamwasser": {
+   "h": "Jun-Aug Mo-Sa 10:00-00:00; Jun-Aug Su,PH 10:00-22:00; Nov-Dec 10:00-18:00; May,Sep Mo-Sa 10:00-22:00; May,Sep Su,PH 10:00-21:00; Jan-Feb 10:00-18:00; Apr,Oct Mo-Sa 10:00-20:00; Apr,Oct Su,PH 10:00-19:00; Mar 10:00-19:00",
+   "osm": "node/4427242389",
+   "name": "Café Gans am Wasser",
+   "match": "name",
+   "dist": 0
+  },
+  "cafegoldegg": {
+   "h": "Mo-Fr 08:00-20:00; Sa,Su 09:00-20:00",
+   "osm": "node/1711057804",
+   "name": "Café Goldegg",
+   "match": "name",
+   "dist": 1
+  },
+  "cafehawelka": {
+   "h": "Mo-Th 09:00-24:00; Fr,Sa 09:00-01:00; Su 10:00-20:00",
+   "osm": "node/11003228558",
+   "name": "Hawelka",
+   "match": "name",
+   "dist": 21
+  },
+  "cafejelinek": {
+   "h": "Mo-Su 09:00-22:00",
+   "osm": "node/1570780361",
+   "name": "Café Jelinek",
+   "match": "name",
+   "dist": 18
+  },
+  "cafemorgenstern": {
+   "h": "Mo 16:00-02:00; Tu-Sa 13:00-02:00; Su 16:00-23:00",
+   "osm": "node/767358656",
+   "name": "Morgenstern",
+   "match": "name",
+   "dist": 1
+  },
+  "cafemuseum": {
+   "h": "Mo-Su 08:00-21:00",
+   "osm": "node/13671865604",
+   "name": "Café Museum",
+   "match": "name",
+   "dist": 5
+  },
+  "cafepavillon": {
+   "h": "Mo-Su 10:00-17:00",
+   "osm": "way/138920810",
+   "name": "Café Pavillon",
+   "match": "name",
+   "dist": 0
+  },
+  "cafesperl": {
+   "h": "Mo-Sa 07:00-22:00; Su 10:00-20:00",
+   "osm": "node/317815743",
+   "name": "Café Sperl",
+   "match": "name",
+   "dist": 5
+  },
+  "cafevollpension": {
+   "h": "Mo-Su 08:00-22:00",
+   "osm": "node/696546391",
+   "name": "Vollpension Generationencafé",
+   "match": "contains",
+   "dist": 11
+  },
+  "caffeconte": {
+   "h": "Mo-Sa 08:00-18:00",
+   "osm": "node/418772000",
+   "name": "Caffe Conte",
+   "match": "name",
+   "dist": 4
+  },
   "caffetrieste": {
    "h": "Mo-Su 07:00-22:00",
    "osm": "node/331389010",
    "name": "Caffe Trieste",
    "match": "name",
    "dist": 3
+  },
+  "carette": {
+   "h": "Mo-Su 07:30-24:00",
+   "osm": "node/932276881",
+   "name": "Carette",
+   "match": "name",
+   "dist": 5
   },
   "carlosbakeshop": {
    "h": "Su-Th 07:00-21:00; Fr-Sa 07:00-22:00",
@@ -205,6 +646,13 @@
    "match": "name",
    "dist": 130
   },
+  "centralemontemartini": {
+   "h": "Tu-Su 09:00-19:00; Dec 24,31 09:00-14:00; Mo off; Jan 01 off; May 01 off; Dec 25 off",
+   "osm": "way/130039228",
+   "name": "Centrale Montemartini",
+   "match": "name",
+   "dist": 8
+  },
   "charlottechlebiwino": {
    "h": "Mo-Th 07:00-24:00, Fr 07:00-01:00, Sa 08:00-01:00, Su 08:00-22:00",
    "osm": "node/1769531354",
@@ -219,12 +667,40 @@
    "match": "name",
    "dist": 37
   },
+  "chicago-stadium-wrigleyfield": {
+   "h": "\"during events\"",
+   "osm": "node/6297198431",
+   "name": "Hot Doug’s Wrigley Field",
+   "match": "contains",
+   "dist": 80
+  },
+  "chiostrodelbramante": {
+   "h": "Mo-Fr 10:00-19:00; Sa-Su 10:00-20:00",
+   "osm": "node/5739931623",
+   "name": "Caffetteria del Chiostro del Bramante",
+   "match": "contains",
+   "dist": 22
+  },
+  "chompchompfoodcentre": {
+   "h": "Mo-Su 10:30-23:30",
+   "osm": "way/159148706",
+   "name": "Chomp Chomp Food Centre",
+   "match": "name",
+   "dist": 7
+  },
   "churchillarms": {
    "h": "Mo-Sa 11:00-23:00; Su 12:00-22:30",
    "osm": "way/192794336",
    "name": "The Churchill Arms",
    "match": "name",
    "dist": 49
+  },
+  "citedessciencesetdelindu": {
+   "h": "Tu-Sa 10:00-18:00; Su 10:00-19:00",
+   "osm": "node/253065826",
+   "name": "Cité des Sciences et de l'Industrie",
+   "match": "name",
+   "dist": 0
   },
   "citylightsbooksellers": {
    "h": "Mo-Su 12:00-20:00",
@@ -239,6 +715,13 @@
    "name": "The City Reliquary",
    "match": "name",
    "dist": 0
+  },
+  "clarchensballhaus": {
+   "h": "Tu-Fr 17:00-23:00; Sa-Su 14:00-23:00",
+   "osm": "node/4558350909",
+   "name": "Clärchens Ballhaus",
+   "match": "name",
+   "dist": 39
   },
   "climpsons": {
    "h": "Mo-Fr 07:00-17:00; Sa 08:30-17:00; Su 09:00-17:00",
@@ -268,6 +751,27 @@
    "match": "name",
    "dist": 4
   },
+  "cotogna": {
+   "h": "Mo-Th 11:30-23:00; Fr-Sa 11:30-0:00; Su 17:00-21:00",
+   "osm": "node/1355379951",
+   "name": "Cotogna",
+   "match": "name",
+   "dist": 4
+  },
+  "creepies": {
+   "h": "Mo-Tu off; We-Su 11:00-14:00,17:00-22:00",
+   "osm": "node/13731089939",
+   "name": "Creepies",
+   "match": "name",
+   "dist": 2
+  },
+  "cryptabalbi": {
+   "h": "Mo-Su 09:00-19:45; Mo off; Jan 1 off; May 1 off; Dec 25 off",
+   "osm": "way/125241600",
+   "name": "Museo Nazionale Romano - Crypta Balbi",
+   "match": "contains",
+   "dist": 45
+  },
   "cukiernialukullus": {
    "h": "Mo-Sa 08:00-19:00; Su 09:00-19:00",
    "osm": "node/7133310885",
@@ -282,12 +786,68 @@
    "match": "contains",
    "dist": 0
   },
+  "curry36": {
+   "h": "Mo-Su,PH 09:00-05:00",
+   "osm": "node/30022140",
+   "name": "Curry 36",
+   "match": "name",
+   "dist": 0
+  },
+  "danskjdiskmuseum": {
+   "h": "We-Su 11:00-17:00",
+   "osm": "node/738986844",
+   "name": "Dansk Jødisk Museum",
+   "match": "name",
+   "dist": 1
+  },
+  "danubearena": {
+   "h": "Mo-Sa 10:00-18:00; Su 09:00-17:00",
+   "osm": "node/11847569942",
+   "name": "Arena",
+   "match": "contains",
+   "dist": 78
+  },
+  "dasmuseumderdomanedahlem": {
+   "h": "Mo-Su 10:00-18:00; Th off",
+   "osm": "node/268591806",
+   "name": "Das Museum der Domäne Dahlem",
+   "match": "name",
+   "dist": 0
+  },
   "dauntbooks": {
    "h": "Mo-Sa 09:00-19:30; Su 11:00-18:00",
    "osm": "way/148887992",
    "name": "Daunt Books",
    "match": "contains",
    "dist": 149
+  },
+  "davidssamling": {
+   "h": "Mo off; Tu,Th-Su 10:00-17:00; We 10:00-21:00",
+   "osm": "node/1291394245",
+   "name": "Davids Samling",
+   "match": "name",
+   "dist": 0
+  },
+  "denvandrette": {
+   "h": "17:00-23:00; Su-Mo off",
+   "osm": "node/4018484845",
+   "name": "Den Vandrette Vinbar",
+   "match": "contains",
+   "dist": 6
+  },
+  "deutschesjagdundfischere": {
+   "h": "Mo-Su 09:30-17:00; Th 09:30-21:00",
+   "osm": "node/307738674",
+   "name": "Deutsches Jagd- und Fischereimuseum",
+   "match": "name",
+   "dist": 0
+  },
+  "deutschestheatermuseum": {
+   "h": "Tu-Su 11:00-17:00",
+   "osm": "node/307729970",
+   "name": "Deutsches Theatermuseum",
+   "match": "name",
+   "dist": 0
   },
   "difarapizza": {
    "h": "Tu-Su 12:00-20:00",
@@ -310,6 +870,20 @@
    "match": "contains",
    "dist": 58
   },
+  "diverxo": {
+   "h": "13:30-16:00, 21:00-23:30",
+   "osm": "node/3415801021",
+   "name": "DiverXO",
+   "match": "name",
+   "dist": 107
+  },
+  "dokumentationszentrumflu": {
+   "h": "Tu-Su 10:00-19:00; Mo off",
+   "osm": "node/84644782",
+   "name": "Dokumentationszentrum Flucht, Vertreibung, Versöhnung",
+   "match": "name",
+   "dist": 0
+  },
   "doms-subs-hackney": {
    "h": "Tu-Fr 12:00-23:00; Sa-Su 12:00-23:30",
    "osm": "way/587954391",
@@ -317,12 +891,40 @@
    "match": "contains",
    "dist": 8
   },
+  "douglashydegallery": {
+   "h": "Mo-Fr 11:00-18:00;Th 11:00-19:00;Sa 11:00-16:45",
+   "osm": "node/878517402",
+   "name": "Douglas Hyde Gallery",
+   "match": "name",
+   "dist": 0
+  },
+  "dovecotgallery": {
+   "h": "Mo-Sa 10:00-17:00; Su off",
+   "osm": "node/499991519",
+   "name": "Dovecot Gallery",
+   "match": "name",
+   "dist": 0
+  },
   "dumplings-legend-chinatown": {
    "h": "Mo-Sa 11:30-03:00, Su 11:30-23:00",
    "osm": "node/13547039539",
    "name": "小籠皇 Dumplings' Legend",
    "match": "name",
    "dist": 88
+  },
+  "dupainetdesidees": {
+   "h": "Mo-Fr 06:45-20:00; Jul 14 off; Jul 22-Aug 22 off",
+   "osm": "node/324294628",
+   "name": "Du Pain et des Idées",
+   "match": "name",
+   "dist": 5
+  },
+  "dusableblackhistorymuseu": {
+   "h": "We-Su 11:00-16:00",
+   "osm": "way/33769411",
+   "name": "DuSable Black History Museum and Education Center",
+   "match": "name",
+   "dist": 25
   },
   "dustyknuckle": {
    "h": "Mo-Su 08:00-15:30",
@@ -345,6 +947,34 @@
    "match": "contains",
    "dist": 181
   },
+  "eisbachwelle": {
+   "h": "05:30-22:00",
+   "osm": "node/292913056",
+   "name": "Eisbachwelle",
+   "match": "name",
+   "dist": 3
+  },
+  "ekely": {
+   "h": "Tu-Fr 11:00-18:00, Sa 11:00-16:00",
+   "osm": "node/736564693",
+   "name": "Ekely",
+   "match": "name",
+   "dist": 0
+  },
+  "emanuelvigelandsmuseum": {
+   "h": "Su 12:00-16:00",
+   "osm": "node/974731248",
+   "name": "Emanuel Vigelands museum",
+   "match": "name",
+   "dist": 0
+  },
+  "ernstfuchsmuseum": {
+   "h": "Tu-Su 10:00-16:00",
+   "osm": "node/291151851",
+   "name": "Ernst Fuchs Museum",
+   "match": "name",
+   "dist": 0
+  },
   "esarn": {
    "h": "Mo-Fr 12:00-15:00, 18:00-22:30; Sa 18:00-22:30",
    "osm": "way/931326064",
@@ -352,12 +982,47 @@
    "match": "name",
    "dist": 64
   },
+  "espacedali": {
+   "h": "Mo-Su 10:00-18:00",
+   "osm": "node/252970813",
+   "name": "Espace Dali",
+   "match": "name",
+   "dist": 0
+  },
+  "espoometroareena": {
+   "h": "24/7",
+   "osm": "node/11886749774",
+   "name": "PostNord Lähiboksi Espoo Metro Areena",
+   "match": "contains",
+   "dist": 102
+  },
+  "fairfieldheritagecentre": {
+   "h": "Mo-Fr 14:00-17:00",
+   "osm": "node/3791239455",
+   "name": "Fairfield Heritage Centre",
+   "match": "name",
+   "dist": 0
+  },
   "farmgirl": {
    "h": "Mo-Fr 08:30-16:30; Sa 09:00-17:00; Su 09:00-16:00",
    "osm": "node/731087846",
    "name": "Farm Girl",
    "match": "name",
    "dist": 106
+  },
+  "fenstercafe": {
+   "h": "Mo-Su 08:00-20:00",
+   "osm": "node/5046474137",
+   "name": "Fenstercafé",
+   "match": "contains",
+   "dist": 9
+  },
+  "filmcasino": {
+   "h": "\"Die Kinokassa öffnet 30 Minuten vor der ersten Vorstellung\"",
+   "osm": "node/417751941",
+   "name": "Filmcasino",
+   "match": "name",
+   "dist": 1
   },
   "filtrycafe": {
    "h": "Mo-Fr 08:00-20:00; Sa 09:00-20:00; Su 10:00-20:00",
@@ -373,6 +1038,34 @@
    "match": "contains",
    "dist": 132
   },
+  "flaucher": {
+   "h": "\"Betrieb im Sommer und bei schönen Wetter\"",
+   "osm": "way/23462952",
+   "name": "Zum Flaucher - Biergarten",
+   "match": "contains",
+   "dist": 115
+  },
+  "flourwater": {
+   "h": "17:00-20:30",
+   "osm": "node/2131700907",
+   "name": "Flour + Water",
+   "match": "name",
+   "dist": 4
+  },
+  "foldalattivasutimuzeum": {
+   "h": "Tu-Su 10:00-17:00",
+   "osm": "node/276951329",
+   "name": "Földalatti Vasúti Múzeum",
+   "match": "name",
+   "dist": 1
+  },
+  "fondationcartierpourlart": {
+   "h": "Mo off; Tu 11:00-22:00; We-Su 11:00-20:00; May 01 off",
+   "osm": "node/13260353506",
+   "name": "Fondation Cartier pour l'art contemporain",
+   "match": "name",
+   "dist": 0
+  },
   "fortitude": {
    "h": "Mo-Fr 07:30-15:00; Sa-Su 08:30-14:30",
    "osm": "node/5456244922",
@@ -380,10 +1073,73 @@
    "match": "contains",
    "dist": 127
   },
+  "fortitudecoffee": {
+   "h": "Mo-Fr 08:30-16:00; Sa,Su 09:00-16:00",
+   "osm": "node/1432513818",
+   "name": "Fortitude",
+   "match": "contains",
+   "dist": 4
+  },
   "fotoplastikonwarszawski": {
    "h": "We-Mo 10:00-18:00; Tu off",
    "osm": "node/587282867",
    "name": "Fotoplastikon Warszawski",
+   "match": "name",
+   "dist": 0
+  },
+  "fratellifigurato": {
+   "h": "Mo-Th 13:30-16:30, 20:00-23:30; Fr-Su 13:30-17:00, 20:00-23:30",
+   "osm": "node/6131891485",
+   "name": "Pizzeria Fratelli Figurato",
+   "match": "contains",
+   "dist": 11
+  },
+  "frauleingruneis": {
+   "h": "Mo-Fr 08:00-18:00; Sa,Su 10:00-18:00",
+   "osm": "node/10570665583",
+   "name": "Fräulein Grüneis",
+   "match": "name",
+   "dist": 5
+  },
+  "frederiknblerdfamilyaffa": {
+   "h": "Tu-Fr 11:00-17:00; Sa 11:00-16:00",
+   "osm": "node/1497169194",
+   "name": "Frederik Næblerød Family Affair",
+   "match": "name",
+   "dist": 0
+  },
+  "freudmuseum": {
+   "h": "We-Mo,PH 10:00-18:00",
+   "osm": "node/928953625",
+   "name": "Sigmund Freud Museum",
+   "match": "contains",
+   "dist": 6
+  },
+  "galerieandreasbinder": {
+   "h": "Tu-Fr 11:00-18:00; Sa 11:00-15:00",
+   "osm": "node/305750714",
+   "name": "Galerie Andreas Binder",
+   "match": "name",
+   "dist": 0
+  },
+  "galgebergcorner": {
+   "h": "Mo-We 12:00-24:00, Th-Su 12:00-01:00",
+   "osm": "node/1258380821",
+   "name": "Galgeberg Corner",
+   "match": "name",
+   "dist": 0
+  },
+  "galleriaborghese": {
+   "h": "Tu-Su 09:00-19:00",
+   "osm": "node/1440405490",
+   "name": "Galleria Borghese",
+   "match": "name",
+   "dist": 1
+  },
+  "galleriaspada": {
+   "h": "We-Mo 08:30-19:30; Tu off; May 1 off; Dec 25 off",
+   "osm": "node/656532697",
+   "name": "Galleria Spada",
    "match": "name",
    "dist": 0
   },
@@ -394,12 +1150,26 @@
    "match": "name",
    "dist": 21
   },
+  "gasolinegrill": {
+   "h": "Mo-Su 11:00-22:00",
+   "osm": "node/4234711695",
+   "name": "Gasoline Grill",
+   "match": "name",
+   "dist": 1
+  },
   "gaystheword": {
    "h": "Mo-Sa 10:00-18:30;Su 14:00-18:00",
    "osm": "way/290459102",
    "name": "Gay's The Word",
    "match": "name",
    "dist": 25
+  },
+  "gedenkstattedeutscherwid": {
+   "h": "Mo-Fr 09:00-18:00; Sa,Su,PH 10:00-18:00",
+   "osm": "node/73696610",
+   "name": "Gedenkstätte Deutscher Widerstand",
+   "match": "name",
+   "dist": 1
   },
   "gelupo-soho": {
    "h": "Mo-Th 11:00-23:00; Fr-Sa 11:00-24:00; Su 12:00-23:00",
@@ -408,12 +1178,47 @@
    "match": "name",
    "dist": 196
   },
+  "geologischesmuseum": {
+   "h": "Mo-Th 08:00-16:00; Fr 08:00-14:00",
+   "osm": "node/307734040",
+   "name": "Geologisches Museum",
+   "match": "name",
+   "dist": 0
+  },
   "georgeinn": {
    "h": "Mo-Th 11:00-23:00; Fr-Sa 11:00-00:00; Su 12:00-22:30",
    "osm": "way/90830736",
    "name": "George Inn",
    "match": "name",
    "dist": 35
+  },
+  "georgianhousemuseum": {
+   "h": "Tu-Sa 10:00-17:00; Su 12:00-17:00",
+   "osm": "node/915546257",
+   "name": "Georgian House Museum",
+   "match": "name",
+   "dist": 0
+  },
+  "gerharthauptmannmuseum": {
+   "h": "Mo-Su 11:00-17:00",
+   "osm": "node/262987906",
+   "name": "Gerhart-Hauptmann-Museum",
+   "match": "name",
+   "dist": 0
+  },
+  "glasgowpolicemuseum": {
+   "h": "Mo-Sa 10:00 - 16:30; Su 12:00 - 16:30; Nov-Mar Mo off; Nov-Mar We-Sa off",
+   "osm": "node/5053329722",
+   "name": "Glasgow Police Museum",
+   "match": "name",
+   "dist": 1
+  },
+  "gmoakeller": {
+   "h": "Mo-Sa 11:00-00:00",
+   "osm": "node/913963143",
+   "name": "Gmoakeller",
+   "match": "name",
+   "dist": 5
   },
   "goddards-greenwich": {
    "h": "Su-Th 10:00-19:30; Fr-Sa 10:00-20:00",
@@ -428,6 +1233,20 @@
    "name": "Gordon's Wine Bar",
    "match": "name",
    "dist": 33
+  },
+  "gramaphonerecords": {
+   "h": "Th-Su 12:00-18:00",
+   "osm": "node/5435635523",
+   "name": "Gramaphone Records",
+   "match": "name",
+   "dist": 0
+  },
+  "grandearche": {
+   "h": "Jan 02-Mar 31,Oct 01-Dec 31 10:00-19:00; Apr 01-Sep 30 10:00-23:00",
+   "osm": "way/19441489",
+   "name": "Grande Arche de la Défense",
+   "match": "contains",
+   "dist": 1
   },
   "granjamviader": {
    "h": "Mo-Sa 09:00-13:15, 17:00-21:15",
@@ -450,12 +1269,33 @@
    "match": "name",
    "dist": 0
   },
+  "griechenbeisl": {
+   "h": "Mo-Su 12:00-23:00",
+   "osm": "node/418134093",
+   "name": "Griechenbeisl",
+   "match": "name",
+   "dist": 6
+  },
   "haascoffeevinyl": {
    "h": "Mo-Fr 08:30-17:00; Sa-Su 9:30-17:00",
    "osm": "node/7134094287",
    "name": "Hałas Vinyl + Coffee",
    "match": "token",
    "dist": 4
+  },
+  "hallesaintpierre": {
+   "h": "Mo-Fr 11:00-18:00; Sa 11:00-19:00; Su 12:00-18:00",
+   "osm": "way/45073393",
+   "name": "Halle Saint-Pierre",
+   "match": "name",
+   "dist": 15
+  },
+  "hamburgerbahnhof": {
+   "h": "Tu-We,Fr 10:00-18:00; Th 10:00-20:00; Sa-Su 11:00-18:00",
+   "osm": "node/1860480265",
+   "name": "Hamburger Bahnhof - Nationalgalerie der Gegenwart",
+   "match": "contains",
+   "dist": 24
   },
   "hatchards": {
    "h": "Su-Fr 09:30-20:00; Sa 12:00-18:00",
@@ -464,12 +1304,68 @@
    "match": "name",
    "dist": 66
   },
+  "hausderkunst": {
+   "h": "Mo-Su 10:00-20:00; Th 10:00-22:00",
+   "osm": "way/150797531",
+   "name": "Haus der Kunst",
+   "match": "name",
+   "dist": 4
+  },
+  "hawkerchanliaofanhongkon": {
+   "h": "Th-Tu 10:00-20:00",
+   "osm": "node/4770642567",
+   "name": "Hawker Chan",
+   "match": "contains",
+   "dist": 3
+  },
+  "heeresgeschichtlichesmus": {
+   "h": "Mo-Su 09:00-17:00",
+   "osm": "relation/4465113",
+   "name": "Heeresgeschichtliches Museum",
+   "match": "name",
+   "dist": 62
+  },
+  "heimatmuseum": {
+   "h": "Su[2,4] 13:30-16:30",
+   "osm": "node/250887769",
+   "name": "Heimatmuseum",
+   "match": "name",
+   "dist": 0
+  },
+  "heirloomcafe": {
+   "h": "Mo,Su off; Tu-Sa 17:45-21:30",
+   "osm": "node/2131713351",
+   "name": "Heirloom Cafe",
+   "match": "name",
+   "dist": 136
+  },
+  "hexagonecafe": {
+   "h": "Mo-Fr 08:30-16:30, Sa-Su 09:30-17:30",
+   "osm": "node/4091101539",
+   "name": "Hexagone",
+   "match": "name",
+   "dist": 6
+  },
   "highlinewarsaw": {
    "h": "Mo-Su 10:00-22:00",
    "osm": "node/13135172937",
    "name": "Highline Warsaw",
    "match": "name",
    "dist": 0
+  },
+  "hillstreettaihwaporknood": {
+   "h": "Mo-Su 09:30-21:00",
+   "osm": "node/4483153150",
+   "name": "Tai Hwa Pork Noodle #01-12",
+   "match": "token",
+   "dist": 5
+  },
+  "hogohuone": {
+   "h": "Mo off; Tu-Th 17:00-24:00; Fr-Sa 17:00-02:00; Su 17:00-23:00",
+   "osm": "node/1823286849",
+   "name": "HogoHuone",
+   "match": "name",
+   "dist": 19
   },
   "hoopandgrapes": {
    "h": "Su-Fr 12:00-23:30; Sa 11:00-18:00",
@@ -478,10 +1374,31 @@
    "match": "name",
    "dist": 196
   },
+  "hoosiermamapiecompany": {
+   "h": "Tu-Fr 08:00-19:00; Sa 09:00-17:00; Su 10:00-16:00",
+   "osm": "node/2365034037",
+   "name": "Hoosier Mama Pie Company",
+   "match": "name",
+   "dist": 0
+  },
+  "hopleafbar": {
+   "h": "Mo-Th 12:00-23:00; Fr-Sa 12:00-00:00; Su 12:00-22:00",
+   "osm": "node/1370062308",
+   "name": "Hopleaf Bar",
+   "match": "name",
+   "dist": 0
+  },
   "housingworksbookstorecaf": {
    "h": "Mo-Sa 11:00-19:00; Su 11:00-17:00",
    "osm": "node/2501562611",
    "name": "Housing Works Bookstore Cafe",
+   "match": "name",
+   "dist": 0
+  },
+  "hunterianmuseum": {
+   "h": "Mo off; Tu-Su 10:00-17:00",
+   "osm": "node/600576868",
+   "name": "Hunterian Museum",
    "match": "name",
    "dist": 0
   },
@@ -499,12 +1416,54 @@
    "match": "name",
    "dist": 0
   },
+  "jajaweinbar": {
+   "h": "Tu-Su 18:00-24:00",
+   "osm": "node/2860066610",
+   "name": "Jaja",
+   "match": "contains",
+   "dist": 15
+  },
+  "jan": {
+   "h": "Tu 18:30-19:00; We 12:00-12:30,19:00-19:30; Th 19:00-19:30; Fr 12:00-12:30,19:00-19:30",
+   "osm": "node/3912947502",
+   "name": "Jan Hartwig",
+   "match": "token",
+   "dist": 0
+  },
   "joespizza": {
    "h": "Mo-Th, Su 10:00-04:00; Fr, Sa 10:00-05:00",
    "osm": "node/931799207",
    "name": "Joe's Pizza",
    "match": "name",
    "dist": 5
+  },
+  "johnrylandslibrary": {
+   "h": "We-Sa 10:00-17:00",
+   "osm": "way/29460499",
+   "name": "John Rylands Library",
+   "match": "name",
+   "dist": 31
+  },
+  "judischesmuseumwien": {
+   "h": "Mo-Fr, Su 10:00-18:00",
+   "osm": "node/319734181",
+   "name": "Jüdisches Museum Wien",
+   "match": "name",
+   "dist": 0
+  },
+  "jules": {
+   "h": "Tu-Th 17:00-21:00; Fr-Sa 17:00-22:00",
+   "osm": "node/3883601143",
+   "name": "Jules",
+   "match": "name",
+   "dist": 15
+  },
+  "junothebakery": {
+   "h": "Tu-Sa 07:30-18:00; Su 07:30-16:00; Mo off",
+   "osm": "node/5251686148",
+   "name": "Juno the Bakery",
+   "match": "name",
+   "dist": 0
   },
   "kabawa": {
    "h": "Tu-Sa 17:30-20:00",
@@ -513,12 +1472,26 @@
    "match": "name",
    "dist": 8
   },
+  "kadeau": {
+   "h": "Tu-We 18:00+; Th-Sa 12:00-13:30,18:00+",
+   "osm": "node/2713759585",
+   "name": "Kadeau København",
+   "match": "contains",
+   "dist": 9
+  },
   "kaffeine": {
    "h": "Mo-Fr 07:30-17:00; Sa 08:30-17:00; Su 09:00-17:00",
    "osm": "node/13664659101",
    "name": "Kaffeine",
    "match": "name",
    "dist": 50
+  },
+  "kallmannmuseum": {
+   "h": "Tu-Sa 14:30-17:00; Su 13:00-17:00",
+   "osm": "node/251071848",
+   "name": "Kallmann-Museum",
+   "match": "name",
+   "dist": 0
   },
   "katzsdelicatessen": {
    "h": "Mo-Th 08:00-22:15; Fr 08:00-24:00; Sa 00:00-24:00; Su 00:00-22:15",
@@ -555,6 +1528,13 @@
    "match": "name",
    "dist": 0
   },
+  "kelvingroveartgalleryand": {
+   "h": "Mo-Th 10:00-17:00; Fr 11:00-17:00; Sa 10:00-17:00; Su 11:00-17:00",
+   "osm": "way/26605473",
+   "name": "Kelvingrove Art Gallery and Museum",
+   "match": "name",
+   "dist": 3
+  },
   "kiln": {
    "h": "Mo-Sa 12:00-14:30, 17:00-22:30; Su 13:00-20:00",
    "osm": "node/466926237",
@@ -562,9 +1542,30 @@
    "match": "name",
    "dist": 35
   },
+  "kindlzentrumfurzeitgenos": {
+   "h": "We 12:00-20:00; Th-Su 12:00-18:00",
+   "osm": "node/5306246621",
+   "name": "Kindl - Zentrum für zeitgenössische Kunst",
+   "match": "name",
+   "dist": 1
+  },
+  "kinointernational": {
+   "h": "\"30 minutes before first screening\"",
+   "osm": "way/24240975",
+   "name": "Kino International",
+   "match": "name",
+   "dist": 6
+  },
   "kinokuniya2": {
    "h": "Mo-Sa 10:00-20:00; Su 11:00-19:30",
    "osm": "node/2501550492",
+   "name": "Kinokuniya",
+   "match": "name",
+   "dist": 0
+  },
+  "kinokuniya3": {
+   "h": "Mo-Su 10:00-21:30",
+   "osm": "node/3561043147",
    "name": "Kinokuniya",
    "match": "name",
    "dist": 0
@@ -576,12 +1577,61 @@
    "match": "name",
    "dist": 114
   },
+  "kleinescafe": {
+   "h": "Mo-Su 10:00-02:00",
+   "osm": "node/530867127",
+   "name": "Kleines Cafe",
+   "match": "name",
+   "dist": 0
+  },
+  "kodalyzoltanemlekmuzeume": {
+   "h": "We,Th,Fr 10:00-12:00,14:00-16:30; Sa 11:00-14:00 || \"by appointment\"",
+   "osm": "node/276836017",
+   "name": "Kodály Zoltán Emlékmúzeum és Archívum",
+   "match": "name",
+   "dist": 0
+  },
+  "konnopkesimbi": {
+   "h": "Tu-Fr 11:00-18:00; Sa 12:00-19:00; PH off",
+   "osm": "node/149607221",
+   "name": "Konnopke’s Imbiß",
+   "match": "name",
+   "dist": 3
+  },
+  "kontrast": {
+   "h": "Tu-Sa 18:00-22:00",
+   "osm": "node/6853740535",
+   "name": "Restaurant Kontrast",
+   "match": "contains",
+   "dist": 3
+  },
+  "kotiharjunsauna": {
+   "h": "Tu-Su 14:00-21:30",
+   "osm": "node/611033680",
+   "name": "Kotiharjun sauna",
+   "match": "name",
+   "dist": 0
+  },
   "koya": {
    "h": "10:00-22:00",
    "osm": "way/280997373",
    "name": "Koya",
    "match": "contains",
    "dist": 16
+  },
+  "kozpontivasarcsarnok": {
+   "h": "Mo-Fr 06:00-18:00; Sa 06:00-16:00; Su 10:00-16:00",
+   "osm": "way/24323859",
+   "name": "Központi Vásárcsarnok",
+   "match": "name",
+   "dist": 10
+  },
+  "kreszgezamentomuzeum": {
+   "h": "Mo-Fr 09:00-15:00",
+   "osm": "node/266838745",
+   "name": "Kresz Géza Mentőmúzeum",
+   "match": "name",
+   "dist": 0
   },
   "krolikarniapaacimuzeumrz": {
    "h": "Th,Sa-Su 10:00-18:00; Fr 12:00-20:00",
@@ -590,12 +1640,40 @@
    "match": "contains",
    "dist": 8
   },
+  "kulttuurisauna": {
+   "h": "We-Su 16:00-20:30",
+   "osm": "way/209347034",
+   "name": "Kulttuurisauna",
+   "match": "name",
+   "dist": 10
+  },
   "labalmesina": {
    "h": "Mo 07:30-17:00; Tu-Th 07:30-17:00,19:30-00:30; Fr 07:30-17:00,19:30-01:00; Sa 19:30-01:00",
    "osm": "node/5007434606",
    "name": "La Balmesina",
    "match": "name",
    "dist": 2
+  },
+  "labanchina": {
+   "h": "Su-We 08:00-18:00; Th-Sa 08:00-20:00",
+   "osm": "node/4430760869",
+   "name": "La Banchina",
+   "match": "name",
+   "dist": 0
+  },
+  "labicicletacafe": {
+   "h": "Su-Th 00:00-02:00,10:00-24:00; Fr-Sa 00:00-02:00, 10:00-24:00",
+   "osm": "node/2626943556",
+   "name": "La Bicicleta",
+   "match": "name",
+   "dist": 0
+  },
+  "laboratorioespresso": {
+   "h": "Mo-Fr 08:00-17:30; Sa 09:00-17:30; Su 10:30-17:30",
+   "osm": "node/3229628289",
+   "name": "Laboratorio Espresso",
+   "match": "name",
+   "dist": 0
   },
   "lacovafumada": {
    "h": "Mo-We 09:00-15:15; Th-Fr 09:00-15:15, 18:00-20:15; Sa 09:00-13:00",
@@ -604,12 +1682,54 @@
    "match": "name",
    "dist": 0
   },
+  "lafontainedebelleville": {
+   "h": "We-Sa 08:00-23:00; Su 08:00-22:00",
+   "osm": "node/2742712990",
+   "name": "La Fontaine de Belleville",
+   "match": "name",
+   "dist": 14
+  },
   "landmarktavern": {
    "h": "Mo-Su 11:30-04:00",
    "osm": "node/1873813892",
    "name": "Landmark Tavern",
    "match": "name",
    "dist": 0
+  },
+  "lannanbakery": {
+   "h": "Tu-Su 09:00-16:00",
+   "osm": "node/2298215001",
+   "name": "Lannan Bakery",
+   "match": "name",
+   "dist": 4
+  },
+  "larecyclerie": {
+   "h": "Mo-Th 08:00-24:00; Fr 08:00-02:00; Sa 12:00-02:00; Su 11:00-22:00",
+   "osm": "way/48976803",
+   "name": "La Recyclerie",
+   "match": "name",
+   "dist": 6
+  },
+  "laupasat": {
+   "h": "24/7",
+   "osm": "node/4590711764",
+   "name": "Lau Pa Sat",
+   "match": "name",
+   "dist": 2
+  },
+  "lauraisaza": {
+   "h": "Th-Fr 17:00-20:00; Sa 10:00-16:00",
+   "osm": "node/409497623",
+   "name": "Laura Isaza",
+   "match": "name",
+   "dist": 0
+  },
+  "lavenencia": {
+   "h": "Mo-Su 12:30-15:30,19:30+",
+   "osm": "node/1428141699",
+   "name": "La Venencia",
+   "match": "name",
+   "dist": 2
   },
   "leatherlane": {
    "h": "Mo-Fr 10:00-16:00",
@@ -618,12 +1738,54 @@
    "match": "name",
    "dist": 47
   },
+  "lebalblomet": {
+   "h": "Tu-Fr 12:00-14:00,19:00-23:00, Sa 19:00-23:00, Su 12:00-14:00",
+   "osm": "node/3731959211",
+   "name": "Bal Blomet",
+   "match": "contains",
+   "dist": 101
+  },
   "lecoucou": {
    "h": "Mo-Sa 17:00-23:00; Su 17:00-22:00",
    "osm": "node/5193469080",
    "name": "Le Coucou",
    "match": "name",
    "dist": 6
+  },
+  "legrandvefour": {
+   "h": "Tu-Sa 12:00-13:45,19:00-21:30",
+   "osm": "node/1454687141",
+   "name": "Le Grand Véfour",
+   "match": "name",
+   "dist": 173
+  },
+  "lelongandco": {
+   "h": "Tu-Sa 11:00-19:00",
+   "osm": "node/274258609",
+   "name": "Lelong & Co.",
+   "match": "name",
+   "dist": 0
+  },
+  "lemonteenlair": {
+   "h": "Mo-Sa 10:30-20:00; Su 13:00-20:00",
+   "osm": "node/1692024562",
+   "name": "Le Monte en l’air",
+   "match": "name",
+   "dist": 0
+  },
+  "lesouffle": {
+   "h": "Tu-Sa 19:00-22:00; PH,Su,Mo off, Tu-Sa 12:00-16:00",
+   "osm": "node/4741336025",
+   "name": "Le Soufflé",
+   "match": "name",
+   "dist": 5
+  },
+  "letrainbleu": {
+   "h": "Mo-Su 11:15-14:30, 19:00-22:30",
+   "osm": "way/406429774",
+   "name": "Le Train Bleu",
+   "match": "name",
+   "dist": 20
   },
   "levainbakery2": {
    "h": "Mo-Su 08:00-20:00",
@@ -638,6 +1800,13 @@
    "name": "Lina Stores",
    "match": "name",
    "dist": 53
+  },
+  "lisztferencemlekmuzeumes": {
+   "h": "Mo-Fr 10:00-18:00; Sa 09:00-17:00",
+   "osm": "node/275495799",
+   "name": "Liszt Ferenc Emlékmúzeum és Kutatóközpont",
+   "match": "name",
+   "dist": 1
   },
   "london-fields-lido": {
    "h": "Mo-Su 06:30-21:00",
@@ -660,6 +1829,13 @@
    "match": "name",
    "dist": 2
   },
+  "ludwigmuzeumkortarsmuves": {
+   "h": "Tu-Su 10:00-20:00",
+   "osm": "node/738507413",
+   "name": "Ludwig Múzeum – Kortárs Művészeti Múzeum",
+   "match": "name",
+   "dist": 0
+  },
   "lyles": {
    "h": "Mo-Fr 08:00-23:00; Sa 12:00-23:00",
    "osm": "node/4191192096",
@@ -681,12 +1857,117 @@
    "match": "name",
    "dist": 0
   },
+  "magyarnemzetigaleria": {
+   "h": "Mo-Su 10:00-18:00",
+   "osm": "node/735186601",
+   "name": "Magyar Nemzeti Galéria",
+   "match": "name",
+   "dist": 0
+  },
+  "magyarnemzetimuzeum": {
+   "h": "Tu-Su 10:00-18:00",
+   "osm": "relation/12963",
+   "name": "Magyar Nemzeti Múzeum",
+   "match": "name",
+   "dist": 2
+  },
+  "maisondevictorhugo": {
+   "h": "Tu-Su 10:00-18:00",
+   "osm": "node/254033221",
+   "name": "Maison de Victor Hugo",
+   "match": "name",
+   "dist": 0
+  },
+  "maisoneuropeennedelaphot": {
+   "h": "We-Su 11:00-20:00",
+   "osm": "node/323911913",
+   "name": "Maison européenne de la Photographie",
+   "match": "name",
+   "dist": 0
+  },
+  "maisonlouvard": {
+   "h": "Mo 07:00-21:00, Tu-Su 07:00-24:00",
+   "osm": "node/2564308727",
+   "name": "Maison Louvard",
+   "match": "name",
+   "dist": 1
+  },
+  "makeyourmarkgaragegaller": {
+   "h": "Tu-Fr 12:00-19:00; Sa 11:00-16:00; Su 12:00-16:00",
+   "osm": "node/249664186",
+   "name": "Make Your Mark Garage / Gallery",
+   "match": "name",
+   "dist": 0
+  },
   "maltbystreet": {
    "h": "Sa 10:00-17:00; Su 11:00-16:00",
    "osm": "node/2825011782",
    "name": "Maltby Street Market",
    "match": "name",
    "dist": 169
+  },
+  "manchesterartgallery": {
+   "h": "Tu-Su 10:00-17:00",
+   "osm": "way/30957808",
+   "name": "Manchester Art Gallery",
+   "match": "name",
+   "dist": 4
+  },
+  "manchestercentrallibrary": {
+   "h": "Mo-Th 09:00-20:00; Fr,Sa 09:00-17:00",
+   "osm": "way/570282715",
+   "name": "Manchester Central Library",
+   "match": "name",
+   "dist": 4
+  },
+  "manchesterunitedmuseum": {
+   "h": "Mo-Sa 09:30-17:00; Su 09:30-16:00",
+   "osm": "node/1492440334",
+   "name": "Manchester United Museum",
+   "match": "name",
+   "dist": 0
+  },
+  "mannerheimmuseo": {
+   "h": "Fr-Su 11:00-17:00",
+   "osm": "way/22562853",
+   "name": "Mannerheim-museo",
+   "match": "name",
+   "dist": 2
+  },
+  "marblearchinn": {
+   "h": "Mo, We-Th 12:00-22:00; Fr-Sa 12:00-23:00; Su 12:00-20:00",
+   "osm": "node/307642219",
+   "name": "The Marble Arch Inn",
+   "match": "name",
+   "dist": 31
+  },
+  "marchedesenfantsrouges": {
+   "h": "Tu-Sa 08:30-20:30; Th 08:30-21:30; Su 08:30-17:00",
+   "osm": "way/33134224",
+   "name": "Marché couvert des Enfants Rouges",
+   "match": "token",
+   "dist": 3
+  },
+  "markischesmuseum": {
+   "h": "Tu-Su 10:00-18:00; We 12:00-20:00",
+   "osm": "relation/1652105",
+   "name": "Märkisches Museum",
+   "match": "name",
+   "dist": 6
+  },
+  "marshslibrary": {
+   "h": "Mo 09:30-13:00, 14:00-17:00; We-Fr 09:30-13:00, 14:00-17:00; Sa 10:00-17:00",
+   "osm": "way/229658261",
+   "name": "Marsh's Library",
+   "match": "name",
+   "dist": 11
+  },
+  "maryscoffeeclub": {
+   "h": "Mo-Su,PH 09:00-18:00",
+   "osm": "node/3325072061",
+   "name": "Mary’s Coffee Club",
+   "match": "name",
+   "dist": 6
   },
   "masumiyetmuzesi": {
    "h": "Tu-Su 10:00-18:00",
@@ -699,6 +1980,13 @@
    "h": "We-Su 10:00-17:00",
    "osm": "node/343292162",
    "name": "Mauzoleum Walki i Męczeństwa",
+   "match": "name",
+   "dist": 0
+  },
+  "maxgoelitz": {
+   "h": "Tu-Fr 11:00-19:00;Sa 11:00-16:00 || \"nach Vereinbarung\"",
+   "osm": "node/299100566",
+   "name": "max goelitz",
    "match": "name",
    "dist": 0
   },
@@ -715,6 +2003,13 @@
    "name": "Maybaum Gallery",
    "match": "name",
    "dist": 0
+  },
+  "mayerampfarrplatzbeethov": {
+   "h": "Mo-Fr 16:00-24:00; PH,Sa,Su 12:00-24:00",
+   "osm": "way/329133651",
+   "name": "Mayer am Pfarrplatz",
+   "match": "contains",
+   "dist": 22
   },
   "mayflower": {
    "h": "Mo-Sa 12:00-23:00; Su 12:00-22:00",
@@ -744,6 +2039,20 @@
    "match": "name",
    "dist": 6
   },
+  "mediaspuri": {
+   "h": "Fr-Sa 23:30-05:30",
+   "osm": "node/6172656139",
+   "name": "Medias Puri",
+   "match": "name",
+   "dist": 10
+  },
+  "medicinskmuseion": {
+   "h": "Tu-Su 10:00-17:00",
+   "osm": "node/894315602",
+   "name": "Medicinsk Museion",
+   "match": "name",
+   "dist": 0
+  },
   "mercatdelaconcepcio": {
    "h": "Mo, Sa 08:00-15:00; Tu-Fr 08:00-20:00",
    "osm": "way/176206668",
@@ -765,6 +2074,13 @@
    "match": "name",
    "dist": 60
   },
+  "mermaidcoffeeroastersike": {
+   "h": "Mo-Su 09:00-21:00",
+   "osm": "node/8829169271",
+   "name": "Mermaid Cafe",
+   "match": "contains",
+   "dist": 129
+  },
   "miniaturkackhavamuzesi": {
    "h": "Mo-Su 09:00-19:00",
    "osm": "node/1352425761",
@@ -778,6 +2094,20 @@
    "name": "Ministerstwo Kawy",
    "match": "name",
    "dist": 43
+  },
+  "mintmuseumoftoys": {
+   "h": "Mo off; Tu-Su 09:30-18:30",
+   "osm": "node/2738929707",
+   "name": "Mint Museum of Toys",
+   "match": "name",
+   "dist": 0
+  },
+  "mitchelllibrary": {
+   "h": "Su off; Tu,Th 09:00-20:00; Mo,We,Fr,Sa 09:00-17:00",
+   "osm": "way/4326895",
+   "name": "Mitchell Library",
+   "match": "name",
+   "dist": 4
   },
   "mocadaatculturelabii": {
    "h": "Fr-Sa 12:00-19:30; Su 12:00-16:00",
@@ -800,6 +2130,13 @@
    "match": "contains",
    "dist": 30
   },
+  "monorailmusic": {
+   "h": "Mo-Th 11:00-23:00; Fr-Sa 11:00-01:00",
+   "osm": "node/280205195",
+   "name": "Mono",
+   "match": "contains",
+   "dist": 78
+  },
   "morganlibraryandmuseum": {
    "h": "Tu-Su 10:30-17:00; Fr 10:30-20:00; Mo off; Nov Th[4]; Jan 01, Dec 25 off",
    "osm": "node/4462440249",
@@ -807,10 +2144,101 @@
    "match": "name",
    "dist": 27
   },
+  "motherindiascafe": {
+   "h": "Mo-Th 12:00-21:30; Fr-Sa 12:00-22:00; Su 12:30-21:00",
+   "osm": "node/601719376",
+   "name": "Mother India's Cafe",
+   "match": "name",
+   "dist": 0
+  },
+  "mshed": {
+   "h": "Tu-Su 10:00-17:00",
+   "osm": "way/397358060",
+   "name": "M Shed",
+   "match": "name",
+   "dist": 5
+  },
+  "munich-stadium-allianzarena": {
+   "h": "\"matchdays only\"",
+   "osm": "relation/7115752",
+   "name": "Parkhaus der Allianz-Arena",
+   "match": "contains",
+   "dist": 426
+  },
   "muranow": {
    "h": "Mo-Su 10:00-20:00+",
    "osm": "node/248212391",
    "name": "Muranów",
+   "match": "name",
+   "dist": 0
+  },
+  "museebourdelle": {
+   "h": "Tu-Su 10:00-18:00",
+   "osm": "relation/21041407",
+   "name": "Musée Bourdelle",
+   "match": "name",
+   "dist": 30
+  },
+  "museecernuschi": {
+   "h": "Tu-Su 10:00-18:00",
+   "osm": "way/68353920",
+   "name": "Musée Cernuschi",
+   "match": "name",
+   "dist": 73
+  },
+  "museedelacarteajoueretga": {
+   "h": "We-Fr 11:00-17:00, Su-Sa 14:00-18:00",
+   "osm": "node/257746377",
+   "name": "Musée de la Carte à Jouer et Galerie d'Histoire de la Ville",
+   "match": "name",
+   "dist": 0
+  },
+  "museedelachasseetdelanat": {
+   "h": "Tu,Th-Su 11:00-18:00, We 11:00-21:30",
+   "osm": "way/156973373",
+   "name": "Musée de la chasse et de la nature",
+   "match": "name",
+   "dist": 21
+  },
+  "museedelacontrefacon": {
+   "h": "Tu-Su 14:00-17:30",
+   "osm": "node/1399929421",
+   "name": "Musée de la Contrefaçon",
+   "match": "name",
+   "dist": 34
+  },
+  "museedelarmee": {
+   "h": "Nov-Mar: Mo-Su 10:00-17:00; Apr-Oct: Mo-Su 10:00-18:00; Apr-Sep: Tu 21:00+; Jan 1 off; May 1 off; Dec 25 off",
+   "osm": "node/130102845",
+   "name": "Musée de l'Armée",
+   "match": "name",
+   "dist": 0
+  },
+  "museedelavieromantique": {
+   "h": "Tu-Su 10:00-18:00, Mo off",
+   "osm": "way/84511123",
+   "name": "Musée de la Vie Romantique",
+   "match": "name",
+   "dist": 50
+  },
+  "museedesannees30": {
+   "h": "Tu-Su 11:00-18:00",
+   "osm": "node/802009091",
+   "name": "Musée des Années 30",
+   "match": "name",
+   "dist": 0
+  },
+  "museedesartsetmetiers": {
+   "h": "Tu-Th 10:00-18:00; Fr 10:00-21:00; Sa-Su 10:00-18:00",
+   "osm": "node/247618453",
+   "name": "Musée des Arts et Métiers",
+   "match": "name",
+   "dist": 0
+  },
+  "museeedithpiaf": {
+   "h": "Mo-We 13:00-18:00; Th 10:00-12:00 \"mandatory reservation by phone\"",
+   "osm": "node/252211317",
+   "name": "Musée Edith Piaf",
    "match": "name",
    "dist": 0
   },
@@ -820,6 +2248,104 @@
    "name": "Musée Mécanique",
    "match": "name",
    "dist": 1
+  },
+  "museenissimdecamondo": {
+   "h": "We-Su 10:00-17:30",
+   "osm": "way/68353844",
+   "name": "Musée Nissim de Camondo",
+   "match": "name",
+   "dist": 40
+  },
+  "museezadkine": {
+   "h": "Tu-Su 10:00-18:00",
+   "osm": "way/153776401",
+   "name": "Musée Zadkine",
+   "match": "name",
+   "dist": 12
+  },
+  "museoarqueologiconaciona": {
+   "h": "Mo off; Tu-Sa 09:30-20:00; Su 09:30-15:00; PH 09:30-15:00; Jan 01,06,May 01,Dec 24,25,31 off",
+   "osm": "node/255288522",
+   "name": "Museo Arqueológico Nacional",
+   "match": "name",
+   "dist": 0
+  },
+  "museocasadelamoneda": {
+   "h": "Tu-Fr 10:00-17:30; Sa-Su 10:00-14:00; PH 10:00-14:00; Jan 01,06,Mar 19,Dec 24,25,31 off",
+   "osm": "node/158849464",
+   "name": "Museo Casa de la Moneda",
+   "match": "name",
+   "dist": 0
+  },
+  "museocerralbo": {
+   "h": "Th 09:30-15:00, 17:00-20:00; Tu-We, Fr-Sa 09:30-15:00; Su 10:00-15:00",
+   "osm": "relation/4544509",
+   "name": "Museo Cerralbo",
+   "match": "name",
+   "dist": 13
+  },
+  "museodecoleccionesico": {
+   "h": "Su 10:00-14:00; Tu-Sa 11:00-20:00; PH 10:00-14:00; Mo off; Jan 01,May 01,Dec 25 off; Dec 24,31: 10:00-14:00",
+   "osm": "node/1474148142",
+   "name": "Museo de Colecciones ICO",
+   "match": "name",
+   "dist": 1
+  },
+  "museodelferrocarrildemad": {
+   "h": "Oct 01-May 31: Mo-Th 09:30-15:00; Oct 01-May 31: PH,Fr,Sa,Su 09:30-18:00; Jun 01-Sep 30: Tu-Su 10:00-15:00; Aug 16-31,Jan 01,06,May 01,Dec 25 off",
+   "osm": "node/317911511",
+   "name": "Museo del Ferrocarril de Madrid",
+   "match": "name",
+   "dist": 0
+  },
+  "museodellastronomiaeplan": {
+   "h": "Tu-Fr \"Ore 9:30 e 11:15: Attività per le scuole. Ore 16, 17 e 18\"; Sa-Su \"Ore 10, 11, 12, 16, 17, 18\"; Mo off; May 1, Dec 25, Jan 1 off",
+   "osm": "node/401949921",
+   "name": "Museo dell'Astronomia e Planetario",
+   "match": "name",
+   "dist": 0
+  },
+  "museodeltraje": {
+   "h": "Tu-Sa 09:30-19:00; PH,Su 10:00-15:00; Jul,Aug: Tu 09:30-22:30; Mo off; Jan 01,06,May 01,Nov 09,24,25,Dec 31: off",
+   "osm": "relation/2027964",
+   "name": "Museo del Traje",
+   "match": "name",
+   "dist": 37
+  },
+  "museodiromaintrastevere": {
+   "h": "Tu-Su 10:00-20:00; Dec 24, Dec 31 09:00-14:00; Jan 01 off; May 01 off; Dec 25 off",
+   "osm": "way/203295310",
+   "name": "Museo di Roma in Trastevere",
+   "match": "name",
+   "dist": 21
+  },
+  "museolazarogaldiano": {
+   "h": "Tu-Su 09:30-15:00; PH off",
+   "osm": "way/135087935",
+   "name": "Museo Lázaro Galdiano",
+   "match": "name",
+   "dist": 3
+  },
+  "museonazionaleromano": {
+   "h": "Tu-Su 09:00-19:45",
+   "osm": "node/677476578",
+   "name": "Museo Nazionale Romano",
+   "match": "name",
+   "dist": 0
+  },
+  "museopietrocanonica": {
+   "h": "Oct-May: Tu-Su 10:00-16:00; Dec 24,31 10:00-14:00; Jun-Sep: Tu-Su 13:00-19:00; Jan 01,May 01,Dec 25 off",
+   "osm": "node/1303845491",
+   "name": "Museo Pietro Canonica",
+   "match": "name",
+   "dist": 1
+  },
+  "museosorolla": {
+   "h": "Mo off; Tu-Sa 09:30-20:00; Su 10:00-15:00; Jan 01,06,May 01,Dec 24,25,31 off",
+   "osm": "node/1719813601",
+   "name": "Museo Sorolla",
+   "match": "name",
+   "dist": 0
   },
   "museudelamusica": {
    "h": "Tu-We,Fr 10:00-18:00; Th 10:00-23:15; Sa,Su 10:00-19:00; Dec 24; Dec 31; Jan 05 10:00-15:00; PH,Mo off",
@@ -842,6 +2368,27 @@
    "match": "token",
    "dist": 0
   },
+  "museummenschundnatur": {
+   "h": "Mo off; Tu-Fr 09:00-17:00; Sa,Su,PH 10:00-18:00",
+   "osm": "node/296313563",
+   "name": "Museum Mensch und Natur",
+   "match": "name",
+   "dist": 1
+  },
+  "museummineralogiamunchen": {
+   "h": "Tu-Su,PH 13:00-17:00",
+   "osm": "node/249814994",
+   "name": "Museum Mineralogia München",
+   "match": "name",
+   "dist": 0
+  },
+  "museumofedinburgh": {
+   "h": "Mo-Sa 10:00-17:00; Aug: Su 12:00-17:00",
+   "osm": "way/259067386",
+   "name": "Museum of Edinburgh",
+   "match": "name",
+   "dist": 4
+  },
   "museumofrussianculture": {
    "h": "We/Sa 12:00-17:00",
    "osm": "node/368173975",
@@ -855,6 +2402,13 @@
    "name": "Museu Tàpies",
    "match": "name",
    "dist": 0
+  },
+  "musicalboxmuseum": {
+   "h": "Mo-Sa 10:00-15:00",
+   "osm": "node/3856046951",
+   "name": "Musical Box Museum",
+   "match": "name",
+   "dist": 1
   },
   "muzeumazjiipacyfikuimand": {
    "h": "Tu-Su 10:00-18:00",
@@ -968,6 +2522,34 @@
    "match": "name",
    "dist": 30
   },
+  "mvgmuseum": {
+   "h": "2026 Mar 14, Mar 15, Mar 29, Apr 12, Apr 26, May 10, May 24, Jun 13, Jun 14, Jun 28, Jul 12, Jul 26 11:00-17:00",
+   "osm": "node/260432742",
+   "name": "MVG-Museum",
+   "match": "name",
+   "dist": 0
+  },
+  "myopicbooks": {
+   "h": "Mo-Su 12:00-20:00",
+   "osm": "node/3575354970",
+   "name": "Myopic Books",
+   "match": "name",
+   "dist": 0
+  },
+  "nagytarcsaimuzeumikialli": {
+   "h": "Tu,We 10:00-15:00; Th 10:00-14:00; Apr-Oct Su 14:00-18:00",
+   "osm": "node/1191082944",
+   "name": "Nagytarcsai Múzeumi kiállítóhely",
+   "match": "name",
+   "dist": 0
+  },
+  "napoleonundstadtmuseum": {
+   "h": "Apr-Oct Su 10:00-16:00",
+   "osm": "node/306351281",
+   "name": "Napoleon- und Stadtmuseum",
+   "match": "name",
+   "dist": 0
+  },
   "narodowemuzeumtechniki": {
    "h": "Tu-Su 09:00-18:00",
    "osm": "node/588708759",
@@ -975,12 +2557,61 @@
    "match": "name",
    "dist": 0
   },
+  "nasjonalmuseetarkitektur": {
+   "h": "Tu-We 11:00-17:00; Th 11:00-19:00; Fr 11:00-17:00; Sa-Su 12:00-17:00",
+   "osm": "node/855363455",
+   "name": "Nasjonalmuseet - Arkitektur",
+   "match": "name",
+   "dist": 0
+  },
+  "nationalmuseumofirelandc": {
+   "h": "Tu-Sa 10:00-17:00; Su-Mo 13:00-17:00",
+   "osm": "node/140706284",
+   "name": "National Museum of Ireland, Collins Barracks",
+   "match": "name",
+   "dist": 0
+  },
+  "nationalmuseumofmexicana": {
+   "h": "Tu-Su 10:00-17:00; We[1] 10:00-20:00; PH off",
+   "osm": "way/202372249",
+   "name": "National Museum of Mexican Art",
+   "match": "name",
+   "dist": 7
+  },
+  "neuenationalgalerie": {
+   "h": "Tu,We,Fr-Su 10:00-18:00; Th 10:00-20:00",
+   "osm": "way/25652321",
+   "name": "Neue Nationalgalerie",
+   "match": "name",
+   "dist": 7
+  },
+  "neuesmuseum": {
+   "h": "Mo off; Tu-Su 10:00-18:00; PH 10:00-18:00; Dec 24 off; Dec 31 off",
+   "osm": "way/18578139",
+   "name": "Neues Museum",
+   "match": "name",
+   "dist": 10
+  },
+  "newberrylibrary": {
+   "h": "Tu-Sa 10:00-16:00",
+   "osm": "way/144015996",
+   "name": "The Newberry Library",
+   "match": "name",
+   "dist": 24
+  },
   "newmuseum": {
    "h": "Tu,We,Fr-Su 11:00-18:00; Th 11:00-21:00",
    "osm": "node/13732385972",
    "name": "New Museum",
    "match": "name",
    "dist": 0
+  },
+  "newyorkcafe": {
+   "h": "Mo-Su 08:00-24:00",
+   "osm": "node/2385680010",
+   "name": "New York Café",
+   "match": "name",
+   "dist": 4
   },
   "newyorktransitmuseum": {
    "h": "Th-Su 10:00-16:00",
@@ -1003,6 +2634,34 @@
    "match": "name",
    "dist": 102
   },
+  "noma": {
+   "h": "Tu-Th 17:00-23:00; Fr 12:30-17:30,18:00-23:30; Sa-Mo off",
+   "osm": "node/5416925514",
+   "name": "Noma",
+   "match": "name",
+   "dist": 50
+  },
+  "nordiskfilmbiograferimpe": {
+   "h": "Mo-Su 11:30-21:45",
+   "osm": "node/277363233",
+   "name": "Nordisk Film Biografer Imperial",
+   "match": "name",
+   "dist": 0
+  },
+  "norgeshjemmefrontmuseum": {
+   "h": "Sep-Apr: Mo-Su 10:00-16:00; May-Aug: Mo-Su 10:00-17:00",
+   "osm": "node/270315261",
+   "name": "Norges hjemmefrontmuseum",
+   "match": "name",
+   "dist": 0
+  },
+  "norskmaritimtmuseum": {
+   "h": "Oct-Mar: Tu-Su 11:00-18:00; Apr-Sep: Mo-Su 10:00-17:00",
+   "osm": "node/973793392",
+   "name": "Norsk Maritimt Museum",
+   "match": "name",
+   "dist": 0
+  },
   "novelty-automation": {
    "h": "Tu,We,Fr,Sa 11:00-18:00; Th 12:00-20:00; Su 12:00-18:00",
    "osm": "node/3397886782",
@@ -1016,6 +2675,20 @@
    "name": "Nuta",
    "match": "name",
    "dist": 200
+  },
+  "nycarlsbergglyptotek": {
+   "h": "Tu-We, Fr-Su 10:00-17:00; Th 10:00-21:00",
+   "osm": "relation/1322262",
+   "name": "Ny Carlsberg Glyptotek",
+   "match": "name",
+   "dist": 57
+  },
+  "objectifscentreforphotog": {
+   "h": "Mo-Sa 12:00-19:00; Su 12:00-16:00; Mo,PH off",
+   "osm": "node/6712453286",
+   "name": "Objectifs - Centre for Photography and Film",
+   "match": "name",
+   "dist": 169
   },
   "obserwatoriumastronomicz": {
    "h": "Su-Su 11:00-16:00; PH 11:00-16:00",
@@ -1031,12 +2704,61 @@
    "match": "contains",
    "dist": 159
   },
+  "odette2": {
+   "h": "Mo 19:00-21:30; Tu-Sa 12:00-14:00, 19:00-21:30",
+   "osm": "node/6370355510",
+   "name": "Odette",
+   "match": "name",
+   "dist": 29
+  },
+  "oldjamesondistillery": {
+   "h": "Mo-Su 9:00-17:30",
+   "osm": "node/470326898",
+   "name": "Old Jameson Distillery",
+   "match": "name",
+   "dist": 0
+  },
   "omnivorebooksonfood": {
    "h": "Mo-Sa 11:00-18:00; Su 12:00-17:00",
    "osm": "node/3454181858",
    "name": "Omnivore: Books on Food",
    "match": "name",
    "dist": 0
+  },
+  "onibuscoffeenakameguro": {
+   "h": "Mo-Su 09:00-18:00",
+   "osm": "node/4729979489",
+   "name": "Onibus Coffee",
+   "match": "contains",
+   "dist": 20
+  },
+  "ontodeimuzeum": {
+   "h": "closed",
+   "osm": "node/945682477",
+   "name": "Öntödei Múzeum",
+   "match": "name",
+   "dist": 1
+  },
+  "oohbabyilikeitraw": {
+   "h": "Sa-Su 10:00-18:00; Tu-Fr 09:00-18:00",
+   "osm": "node/3721458926",
+   "name": "Ooh Baby",
+   "match": "contains",
+   "dist": 2
+  },
+  "openbookswestloop": {
+   "h": "We-Th 12:30-18:00; Fr-Su 10:30-18:00",
+   "osm": "node/4196289896",
+   "name": "Open Books West Loop",
+   "match": "name",
+   "dist": 0
+  },
+  "opiskelijakulttuurimuseo": {
+   "h": "\"open by agreement\"",
+   "osm": "node/25038585",
+   "name": "Opiskelijakulttuurimuseo",
+   "match": "name",
+   "dist": 1
   },
   "origincoffee": {
    "h": "Mo-Fr 08:00-17:00; Sa-Su 08:00-16:00",
@@ -1045,12 +2767,68 @@
    "match": "contains",
    "dist": 129
   },
+  "otpbankpenzugytortenetig": {
+   "h": "Mo-We 09:00-16:00; Th 09:00-14:00 \"by appointment\"",
+   "osm": "node/264057019",
+   "name": "OTP Bank Pénzügytörténeti Gyűjtemény",
+   "match": "name",
+   "dist": 0
+  },
+  "ottomancoffeehouse": {
+   "h": "Mo off; Tu-Su 09:00-19:00",
+   "osm": "node/9731046254",
+   "name": "Ottoman Coffeehouse",
+   "match": "name",
+   "dist": 23
+  },
+  "palazzodoriapamphilj": {
+   "h": "Mo-Th 09:00-19:00; Fr-Su 10:00-20:00",
+   "osm": "node/706793341",
+   "name": "Palazzo Doria Pamphilj",
+   "match": "name",
+   "dist": 0
+  },
+  "palmcity": {
+   "h": "Mo-Tu 16:00-22:00; We-Su 12:30-21:00",
+   "osm": "way/277135271",
+   "name": "Palm City",
+   "match": "name",
+   "dist": 2
+  },
+  "paradoxmuseumhelsinki": {
+   "h": "Mo-Fr 11:00-20:00; Sa 10:00-20:00; Su 10:00-19:00",
+   "osm": "node/12740546199",
+   "name": "Paradox Museum Helsinki",
+   "match": "name",
+   "dist": 21
+  },
   "paul-rothe-marylebone": {
    "h": "Mo-Fr 07:30-20:00; Sa,Su 08:00-20:00",
    "osm": "way/148893872",
    "name": "Paul",
    "match": "contains",
    "dist": 57
+  },
+  "pavillondelarsenal": {
+   "h": "Tu-Su 11:00-19:00",
+   "osm": "way/56186898",
+   "name": "Pavillon de l'Arsenal",
+   "match": "name",
+   "dist": 4
+  },
+  "peopleshistorymuseum": {
+   "h": "PH,We-Su 10:00-16:00",
+   "osm": "relation/14016276",
+   "name": "People's History Museum",
+   "match": "name",
+   "dist": 10
+  },
+  "peoplespalace": {
+   "h": "\"closed for refurbishment\"",
+   "osm": "way/101931683",
+   "name": "People's Palace",
+   "match": "name",
+   "dist": 4
   },
   "petestavern": {
    "h": "\"Temporarily closed\"",
@@ -1059,6 +2837,13 @@
    "match": "name",
    "dist": 0
   },
+  "phil": {
+   "h": "Mo 15:00-23:00; Tu-Th 09:00-23:00; Fr-Sa 09:00-00:00; Su 09:00-23:00",
+   "osm": "node/351628384",
+   "name": "phil",
+   "match": "name",
+   "dist": 44
+  },
   "pijalniaczekoladyewedels": {
    "h": "Mo-Sa 09:00-22:00; Su 09:00-21:00",
    "osm": "node/952332411",
@@ -1066,12 +2851,40 @@
    "match": "contains",
    "dist": 11
   },
+  "pikkuvallila": {
+   "h": "Mo-Th 16:00-01:00; Fr 16:00-02:00; Sa 12:30-02:00; Su 12:30-01:00",
+   "osm": "node/471323089",
+   "name": "Pikku-Vallila",
+   "match": "name",
+   "dist": 1
+  },
   "polishvodkamuseumkoneser": {
    "h": "24/7",
    "osm": "node/12704543377",
    "name": "Koneser",
    "match": "contains",
    "dist": 71
+  },
+  "popular2": {
+   "h": "Mo-Fr 11:00-21:00; Sa-Su,PH 10:30-21:30",
+   "osm": "node/4592815852",
+   "name": "Popular",
+   "match": "name",
+   "dist": 0
+  },
+  "potkulcs": {
+   "h": "Mo-Su 17:00-02:00",
+   "osm": "node/2317010724",
+   "name": "Pótkulcs",
+   "match": "name",
+   "dist": 1
+  },
+  "praterbiergarten": {
+   "h": "Apr-Sep: Mo-Su 12:00+",
+   "osm": "way/56919250",
+   "name": "Prater Biergarten",
+   "match": "name",
+   "dist": 4
   },
   "princestreetpizza": {
    "h": "Su-Th 11:30-23:00; Fr-Sa 11:30-04:00",
@@ -1094,6 +2907,13 @@
    "match": "name",
    "dist": 79
   },
+  "prunksaal": {
+   "h": "Tu-Su 10:00 - 18:00; Th 10:00 - 21:00",
+   "osm": "node/1334741420",
+   "name": "Prunksaal der Österreichischen Nationalbibliothek",
+   "match": "contains",
+   "dist": 4
+  },
   "pyzyflakigorace": {
    "h": "Mo-Sa 12:00-22:00; Su 12:00-21:00",
    "osm": "node/5698566221",
@@ -1107,6 +2927,13 @@
    "name": "Quality Chop House",
    "match": "name",
    "dist": 184
+  },
+  "quasimodo": {
+   "h": "We-Su 18:00+",
+   "osm": "node/939084680",
+   "name": "Quasimodo",
+   "match": "name",
+   "dist": 12
   },
   "quimetandquimet": {
    "h": "Mo-Sa 12:00-16:00, 19:00-22:30",
@@ -1129,6 +2956,13 @@
    "match": "name",
    "dist": 117
   },
+  "recklessrecords2": {
+   "h": "10:00-19:00",
+   "osm": "node/3570222098",
+   "name": "Reckless Records",
+   "match": "name",
+   "dist": 1
+  },
   "regency-cafe-westminster": {
    "h": "Mo-Fr 07:00-14:30, 16:00-19:15; Sa 07:00-12:00",
    "osm": "way/100822479",
@@ -1136,10 +2970,38 @@
    "match": "name",
    "dist": 132
   },
+  "rendormuzeum": {
+   "h": "week 01-53/2 Tu-Fr 09:00-17:00; week 02-52/2 Tu-Sa 09:00-17:00",
+   "osm": "node/1219894974",
+   "name": "Rendőrmúzeum",
+   "match": "name",
+   "dist": 0
+  },
+  "residenzmuseumundschatzk": {
+   "h": "Apr 01-Oct 15: 09:00-18:00; Oct 16-Mar 31: 10:00-17:00",
+   "osm": "node/261030708",
+   "name": "Residenzmuseum und Schatzkammer",
+   "match": "name",
+   "dist": 0
+  },
   "restauracjapodsamsonem": {
    "h": "Mo-Su 10:00-23:00",
    "osm": "node/460030415",
    "name": "Pod Samsonem",
+   "match": "contains",
+   "dist": 5
+  },
+  "restaurantebotin": {
+   "h": "Mo-Su 13:00-16:00, 20:00-00:00",
+   "osm": "node/510812824",
+   "name": "Botín",
+   "match": "contains",
+   "dist": 114
+  },
+  "restaurantschnnemann": {
+   "h": "Mo-Su 11:30-17:00",
+   "osm": "node/1628944947",
+   "name": "Schønnemann",
    "match": "contains",
    "dist": 5
   },
@@ -1150,12 +3012,26 @@
    "match": "name",
    "dist": 104
   },
+  "riversidemuseum": {
+   "h": "Mo-Sa 10:00-17:00; Fr,Su 11:00-17:00",
+   "osm": "relation/13348001",
+   "name": "Riverside Museum",
+   "match": "name",
+   "dist": 10
+  },
   "roseandcrown2": {
    "h": "Mo-Sa 12:00-23:00; Su 12:00-22:30",
    "osm": "node/27348824",
    "name": "Rose and Crown",
    "match": "name",
    "dist": 0
+  },
+  "rothmiksaemlekhaz": {
+   "h": "Tu-We 10:00-14:00; Th 13:00-19:00; Fr-Sa 10:00-18:00; Su 12:00-18:00",
+   "osm": "way/257779259",
+   "name": "Róth Miksa Emlékház és Gyűjtemény",
+   "match": "contains",
+   "dist": 5
   },
   "rough-trade-east": {
    "h": "Mo-Sa 10:00-19:00, Su 11:00-17:00",
@@ -1185,6 +3061,13 @@
    "match": "name",
    "dist": 84
   },
+  "rupps": {
+   "h": "Mo,Su,PH off; Tu-Sa 18:00-02:00",
+   "osm": "node/476340834",
+   "name": "Rupps",
+   "match": "name",
+   "dist": 1
+  },
   "sabancuniversitesisakpsa": {
    "h": "Tu, Th, Fr, Su 10:00-18:00; We, Sa 10:00-22:00",
    "osm": "node/554083364",
@@ -1192,12 +3075,40 @@
    "match": "name",
    "dist": 0
   },
+  "sagenebar": {
+   "h": "Mo-Su 12:00-01:00",
+   "osm": "node/2348009453",
+   "name": "Sagene Bar",
+   "match": "name",
+   "dist": 1
+  },
+  "sagenebokogpapir": {
+   "h": "Mo-Fr 10:00-18:00; Th 09:00-19:00; Sa 10:00-17:00",
+   "osm": "node/3471809974",
+   "name": "Sagene Bok og Papir",
+   "match": "name",
+   "dist": 0
+  },
+  "saintpearl": {
+   "h": "Mo-Fr 08:00-19:00; Sa,Su 10:00-18:00",
+   "osm": "node/6243566085",
+   "name": "Saint Pearl",
+   "match": "name",
+   "dist": 4
+  },
   "samworestaurant": {
    "h": "We-Sa 11:00-20:00; Su-Mo 11:00-18:00",
    "osm": "node/1221046206",
    "name": "Sam Wo Restaurant",
    "match": "name",
    "dist": 5
+  },
+  "sanfrancisco-stadium-chasecenter": {
+   "h": "Mo-Fr 09:00-17:00; Sa-Su closed",
+   "osm": "node/6872253565",
+   "name": "Chase",
+   "match": "contains",
+   "dist": 129
   },
   "sanfranciscohistoricalso": {
    "h": "Tu-Sa 10:00-16:00",
@@ -1213,12 +3124,47 @@
    "match": "name",
    "dist": 0
   },
+  "sanktpedersbageri": {
+   "h": "Mo-Fr 07:30-17:00; Sa 08:00-16:00",
+   "osm": "node/3683386025",
+   "name": "Sankt Peders Bageri",
+   "match": "name",
+   "dist": 0
+  },
+  "saorsaartgallery": {
+   "h": "Th-Su 12:00-16:00",
+   "osm": "node/2298043778",
+   "name": "Saorsa Art Gallery",
+   "match": "name",
+   "dist": 0
+  },
+  "schellingsalon": {
+   "h": "Mo 10:00-00:30; Th-Sa 10:00-01:00, Su 10:00-24:00; Jul 17-Sep 03 off \"Sommerpause\"",
+   "osm": "node/329092753",
+   "name": "Schelling-Salon",
+   "match": "name",
+   "dist": 0
+  },
   "schmuck": {
    "h": "Tu-Su 16:00-01:00",
    "osm": "node/12982612201",
    "name": "Schmuck",
    "match": "name",
    "dist": 0
+  },
+  "seminarycoopbookstore": {
+   "h": "Sa-Su 10:00-17:00; Mo-Fr 11:00-19:30",
+   "osm": "node/3503339448",
+   "name": "Seminary Co-op Bookstore",
+   "match": "name",
+   "dist": 0
+  },
+  "septime": {
+   "h": "Mo 19:00-22:30; Tu-Fr 12:15-14:00,19:00-22:30",
+   "osm": "node/3602657896",
+   "name": "Septime",
+   "match": "name",
+   "dist": 48
   },
   "seven-stars-carey-street": {
    "h": "Mo-Sa 11:00-23:00; Su 12:00-22:30",
@@ -1227,6 +3173,27 @@
    "match": "name",
    "dist": 35
   },
+  "shakespeareandcompany": {
+   "h": "Mo-Su 10:00-23:00",
+   "osm": "node/251373380",
+   "name": "Shakespeare and Company",
+   "match": "name",
+   "dist": 3
+  },
+  "sheepheidinn": {
+   "h": "Mo-Th 11:00-23:00, Fr-Sa 11:00-24:00; Su 12:30-11:00",
+   "osm": "node/30452540",
+   "name": "Sheep Heid Inn",
+   "match": "name",
+   "dist": 0
+  },
+  "shugarecords": {
+   "h": "Mo-Su 10:00-19:00",
+   "osm": "node/3570222693",
+   "name": "Shuga Records",
+   "match": "name",
+   "dist": 0
+  },
   "sideone": {
    "h": "Mo-Fr 13:00-19:00; Sa 12:00-16:00",
    "osm": "node/5580372421",
@@ -1234,12 +3201,47 @@
    "match": "name",
    "dist": 30
   },
+  "singaporemaritimegallery": {
+   "h": "Tu-Su 09:00-18:00; Mo off",
+   "osm": "node/1985259385",
+   "name": "Singapore Maritime Gallery",
+   "match": "name",
+   "dist": 0
+  },
+  "sisimuseum": {
+   "h": "Sep-Jun: Mo-Su,PH 09:00-17:30;Jul-Aug: Mo-Su,PH 09:00-18:00",
+   "osm": "node/76531413",
+   "name": "Sisi Museum",
+   "match": "name",
+   "dist": 0
+  },
   "sky-garden": {
    "h": "Mo-Fr 10:00-18:00; Sa-Su,PH 11:00-21:00",
    "osm": "node/3272712570",
    "name": "Sky Garden",
    "match": "name",
    "dist": 43
+  },
+  "smyth": {
+   "h": "Tu-Sa 17:00-22:00",
+   "osm": "node/5460722827",
+   "name": "Smyth",
+   "match": "name",
+   "dist": 0
+  },
+  "so36": {
+   "h": "\"Je nach Programm\"",
+   "osm": "node/4034138645",
+   "name": "SO36",
+   "match": "name",
+   "dist": 13
+  },
+  "sobrinodebotin": {
+   "h": "Mo-Su 13:00-16:00, 20:00-00:00",
+   "osm": "node/510812824",
+   "name": "Botín",
+   "match": "contains",
+   "dist": 3
   },
   "sounds-of-the-universe": {
    "h": "Mo-Sa 10:00-18:30; Su 11:00-17:30",
@@ -1255,12 +3257,68 @@
    "match": "name",
    "dist": 51
   },
+  "spaziosettelibreria": {
+   "h": "Mo-Su 10:30-19:30",
+   "osm": "node/11778270807",
+   "name": "Spazio Sette Libreria",
+   "match": "name",
+   "dist": 4
+  },
+  "spheretimraue": {
+   "h": "09:00-24:00",
+   "osm": "node/4713534381",
+   "name": "Sphere Tim Raue",
+   "match": "name",
+   "dist": 10
+  },
+  "spielzeugmuseum": {
+   "h": "Mo-Su,PH 10:00-17:30",
+   "osm": "node/60013074",
+   "name": "Spielzeugmuseum",
+   "match": "name",
+   "dist": 0
+  },
+  "sporveismuseet": {
+   "h": "Sa-Su 11:00-15:00",
+   "osm": "node/305913819",
+   "name": "Sporveismuseet",
+   "match": "name",
+   "dist": 0
+  },
   "stacjamuzeum": {
    "h": "Oct-Mar 09:00-17:00;Apr-Sep 10:00-18:00",
    "osm": "way/633985900",
    "name": "Stacja Muzeum",
    "match": "name",
    "dist": 46
+  },
+  "statensmuseumforkunst": {
+   "h": "Tu, Th-Su 10:00-18:00; We 10:00-20:00",
+   "osm": "way/25451395",
+   "name": "SMK - Statens Museum for Kunst",
+   "match": "contains",
+   "dist": 22
+  },
+  "steelcyclewearandcoffees": {
+   "h": "Tu-Sa 10:00-19:00",
+   "osm": "node/4509531403",
+   "name": "Steel Cyclewear & Coffeeshop",
+   "match": "name",
+   "dist": 0
+  },
+  "steelvintagebikescafe": {
+   "h": "Mo-Fr 10:00-17:00; Sa-Su 09:00-17:00",
+   "osm": "node/4746867826",
+   "name": "Steel Vintage Bikes Café",
+   "match": "name",
+   "dist": 0
+  },
+  "stgeorgesmarket": {
+   "h": "06:00-00:00",
+   "osm": "node/3689028447",
+   "name": "St George's Market / Cromac Square",
+   "match": "contains",
+   "dist": 130
   },
   "stjohn": {
    "h": "24/7",
@@ -1269,12 +3327,40 @@
    "match": "contains",
    "dist": 115
   },
+  "stmungomuseumofreligious": {
+   "h": "Mo-Th 10:00-17:00; Fr 11:00-17:00; Sa 10:00-17:00; Su 11:00-17:00",
+   "osm": "way/82117067",
+   "name": "St Mungo Museum of Religious Life & Art",
+   "match": "name",
+   "dist": 9
+  },
+  "stonyislandartsbank": {
+   "h": "Su 14:00-19:00",
+   "osm": "way/211174717",
+   "name": "Stony Island Arts Bank",
+   "match": "name",
+   "dist": 11
+  },
   "strandbookstore": {
    "h": "Mo-Su 10:00-21:00",
    "osm": "node/999934639",
    "name": "Strand Bookstore",
    "match": "name",
    "dist": 0
+  },
+  "studiobizio": {
+   "h": "Mo-Sa 10:00-17:30",
+   "osm": "node/727348494",
+   "name": "Studio Bizio",
+   "match": "name",
+   "dist": 0
+  },
+  "sungeiroadlaksa": {
+   "h": "Mo-Tu,Th-Sa 09:30-16:00; We,Su off",
+   "osm": "node/4189579689",
+   "name": "Sungei Road Laksa",
+   "match": "name",
+   "dist": 7
   },
   "sunsetpark": {
    "h": "Mo-Su 06:00-01:00",
@@ -1283,6 +3369,27 @@
    "match": "name",
    "dist": 0
   },
+  "sunyatsennanyangmemorial": {
+   "h": "Tu-Su,PH 10:00-17:00",
+   "osm": "way/271791474",
+   "name": "Sun Yat Sen Nanyang Museum",
+   "match": "token",
+   "dist": 11
+  },
+  "suomenpankinrahamuseo": {
+   "h": "Mo off; Tu-Fr 11:00-17:00; Sa-Su 11:00-16:00",
+   "osm": "node/606949807",
+   "name": "Suomen Pankin rahamuseo",
+   "match": "name",
+   "dist": 0
+  },
+  "surgeonshallmuseums": {
+   "h": "Mo-Su 10:00-17:00",
+   "osm": "node/3072411821",
+   "name": "Surgeons' Hall Museums",
+   "match": "name",
+   "dist": 39
+  },
   "swifthibernianlounge": {
    "h": "Tu-Fr 16:00-23:00; Sa,Su 14:00-23:00",
    "osm": "node/582292401",
@@ -1290,12 +3397,40 @@
    "match": "name",
    "dist": 0
   },
+  "szaboervinlibrary": {
+   "h": "Mo-Fr 10:00-20:00; Sa 10:00-16:00; May 15-Jun 30 Mo-Fr 09:00-21:00; May 15-Jun 30 Sa 10:00-18:00; Jul 01-Aug 03 Mo-Sa off; Aug 04-31 Mo,Th 11:00-19:00; Aug 04-31 Tu,We,Fr 10:00-17:00; Aug 04-31 Sa off; PH off",
+   "osm": "node/8861024565",
+   "name": "Fővárosi Szabó Ervin Könyvtár",
+   "match": "token",
+   "dist": 0
+  },
+  "sziklakorhazatombunkermu": {
+   "h": "10:00-19:00",
+   "osm": "node/737630261",
+   "name": "Sziklakórház Atombunker Múzeum",
+   "match": "name",
+   "dist": 0
+  },
+  "szimplakert": {
+   "h": "Mo-Fr 00:00-04:00,15:00-24:00; Sa 00:00-04:00,12:00-24:00; Su 00:00-04:00,09:00-24:00",
+   "osm": "node/419017259",
+   "name": "Szimpla Kert",
+   "match": "name",
+   "dist": 3
+  },
   "tadichgrill": {
    "h": "Mo-Fr 11:00-21:30; Sa 16:00-21:30",
    "osm": "node/1454042337",
    "name": "Tadich Grill",
    "match": "name",
    "dist": 3
+  },
+  "talbotricegallery": {
+   "h": "Tu-Sa 10:00-17:00",
+   "osm": "node/291214494",
+   "name": "Talbot Rice Gallery",
+   "match": "name",
+   "dist": 0
   },
   "tarihisultanahmetkofteci": {
    "h": "Mo-Su 10:30-23:00",
@@ -1325,6 +3460,20 @@
    "match": "name",
    "dist": 22
   },
+  "terresdecafe": {
+   "h": "Tu-Fr 09:00-19:00; Sa-Su 09:30-19:00",
+   "osm": "node/7647521689",
+   "name": "Terres de Café",
+   "match": "name",
+   "dist": 5
+  },
+  "teurastamo": {
+   "h": "24/7",
+   "osm": "node/4810454574",
+   "name": "Teurastamo",
+   "match": "name",
+   "dist": 35
+  },
   "thaidiner": {
    "h": "Mo-We 08:30-22:30, Th-Fr 08:30-23:30, Sa 10:00-23:30, Su 10:00-22:00",
    "osm": "node/2547246978",
@@ -1346,12 +3495,68 @@
    "match": "name",
    "dist": 143
   },
+  "theateliergallery": {
+   "h": "Mo-Fr 10:00-18:00; Sa-Su 11:00-15:00",
+   "osm": "node/2131101051",
+   "name": "The Atelier Gallery",
+   "match": "name",
+   "dist": 0
+  },
+  "thebarnroastery": {
+   "h": "Mo-Fr 08:00-18:00, Sa 09:00-18:00, Su 10:00-18:00",
+   "osm": "node/3868790051",
+   "name": "The Barn",
+   "match": "contains",
+   "dist": 11
+  },
+  "thebrazenhead": {
+   "h": "Mo-Th 10:30-23:30; Fr-Sa 10:30-00:30; Su 12:30-23:30",
+   "osm": "node/10013398691",
+   "name": "The Brazen Head",
+   "match": "name",
+   "dist": 0
+  },
+  "thebristolian": {
+   "h": "Mo-Su 08:00-18:00",
+   "osm": "way/109189114",
+   "name": "The Bristolian",
+   "match": "name",
+   "dist": 5
+  },
   "thebuenavista": {
    "h": "Mo-Fr 09:00-02:00; Sa-Su 08:00-02:00",
    "osm": "node/388205890",
    "name": "Buena Vista",
    "match": "name",
    "dist": 29
+  },
+  "thecambridgebar": {
+   "h": "Mo-We 12:00-23:00; Th 12:00-00:00; Fr-Sa 12:00-01:00; Su 12:00-23:00",
+   "osm": "node/322777306",
+   "name": "The Cambridge Bar",
+   "match": "name",
+   "dist": 0
+  },
+  "thecobbledroastery": {
+   "h": "Mo-Fr 08:00-16:00; Sa 09:00-16:00",
+   "osm": "node/8594966415",
+   "name": "The Cobbled Roastery",
+   "match": "name",
+   "dist": 2
+  },
+  "thecobblestone": {
+   "h": "Mo-Th 16:00-23:30; Fr-Sa 14:00-00:30; Su 13:00-23:00",
+   "osm": "way/1084218455",
+   "name": "The Cobblestone",
+   "match": "name",
+   "dist": 7
+  },
+  "thecoffeecollectivejgers": {
+   "h": "Mo-Fr 07:00-19:00; Sa 08:00-19:00; Su 08:00-19:00",
+   "osm": "node/335962988",
+   "name": "Coffee Collective",
+   "match": "contains",
+   "dist": 8
   },
   "thecrown": {
    "h": "Mo-Su 12:00-22:00",
@@ -1367,6 +3572,62 @@
    "match": "contains",
    "dist": 99
   },
+  "thegentlejaunt": {
+   "h": "Tu, Fr 15:00-20:00; We, Th \"by appointment\"; week 2-52/2 Sa 10:30-16:00",
+   "osm": "node/951313642",
+   "name": "The Gentle Jaunt",
+   "match": "name",
+   "dist": 0
+  },
+  "thehorseshoebar": {
+   "h": "Mo-Su 09:00-00:00",
+   "osm": "way/117345875",
+   "name": "The Horseshoe Bar",
+   "match": "name",
+   "dist": 4
+  },
+  "theintan": {
+   "h": "\"appointments only\"",
+   "osm": "node/4530892089",
+   "name": "The Intan",
+   "match": "name",
+   "dist": 0
+  },
+  "thelibraryproject": {
+   "h": "Tu-Fr 11:00-18:00; Sa-Su 12:00-18:00; PH closed",
+   "osm": "node/559335987",
+   "name": "The Library Project",
+   "match": "name",
+   "dist": 0
+  },
+  "thelidobristol": {
+   "h": "Mo-Su 12:00-15:00;Mo-Sa 18:30-22:00",
+   "osm": "relation/2395353",
+   "name": "Lido",
+   "match": "contains",
+   "dist": 12
+  },
+  "thelittlemuseumofdublin": {
+   "h": "Mo-We 09:30-17:00, Th 09:30-20:00, Fr-Su 09:30-17:00",
+   "osm": "node/2357100885",
+   "name": "The Little Museum of Dublin",
+   "match": "name",
+   "dist": 0
+  },
+  "thelivingroom": {
+   "h": "Mo 09:00-22:00; Tu-Th 09:00-23:00; Fr-Sa 09:00-01:00; Su 09:00-19:00",
+   "osm": "node/1596737154",
+   "name": "The Living Room",
+   "match": "name",
+   "dist": 3
+  },
+  "thelonghall": {
+   "h": "Mo-Th 12:30-23:30; Fr 12:30-00:30; Sa 12:30-00:30; Su 12:30-23:00",
+   "osm": "way/351409390",
+   "name": "The Long Hall",
+   "match": "name",
+   "dist": 0
+  },
   "themill": {
    "h": "Mo 07:00-21:00, Tu-Su 07:00-19:00",
    "osm": "node/2786939583",
@@ -1381,12 +3642,33 @@
    "match": "name",
    "dist": 20
   },
+  "theoldduke": {
+   "h": "Su-Th 12:00-24:00; Sa-Su 12:00-01:00",
+   "osm": "way/123960466",
+   "name": "The Old Duke",
+   "match": "name",
+   "dist": 3
+  },
+  "thepinnacleduxton": {
+   "h": "09:00-21:00",
+   "osm": "node/1931861592",
+   "name": "The Pinnacle@Duxton",
+   "match": "name",
+   "dist": 0
+  },
   "thesirjulianhuxley": {
    "h": "Mo-Th 08:00-24:00; Fr-Sa 08:00-01:00; Su 08:00-24:00",
    "osm": "node/87355103",
    "name": "The Sir Julian Huxley",
    "match": "name",
    "dist": 0
+  },
+  "thestagshead": {
+   "h": "Mo-Sa 11:00-24:00; Su",
+   "osm": "way/228968680",
+   "name": "The Stag's Head",
+   "match": "name",
+   "dist": 1
   },
   "thestartavern": {
    "h": "Mo-Fr 11:00-23:00; Sa 12:00-23:00; Su 12:00-22:30",
@@ -1395,10 +3677,52 @@
    "match": "name",
    "dist": 0
   },
+  "theviewlounge": {
+   "h": "Mo-Su 16:00-24:00",
+   "osm": "node/1612808193",
+   "name": "The View Lounge",
+   "match": "name",
+   "dist": 1
+  },
+  "thewhitworth": {
+   "h": "Tu,We,Fr-Su 10:00-17:00; Th 10:00-21:00",
+   "osm": "way/79713962",
+   "name": "The Whitworth",
+   "match": "name",
+   "dist": 9
+  },
   "thewonder": {
    "h": "Mo-Th 11:00-23:00; Su 12:00-23:00; Fr,Sa 11:00-24:00",
    "osm": "node/26980235",
    "name": "The Wonder",
+   "match": "name",
+   "dist": 0
+  },
+  "tiantianhainanesechicken": {
+   "h": "Tu-Su 10:00-16:00",
+   "osm": "node/4629107275",
+   "name": "天天海南雞飯 Tian Tian Hainanese Chicken Rice",
+   "match": "name",
+   "dist": 1
+  },
+  "timwendelboe": {
+   "h": "Mo-Fr 08:30-18:00; Sa-Su 11:00-17:00",
+   "osm": "node/499995891",
+   "name": "Tim Wendelboe",
+   "match": "name",
+   "dist": 10
+  },
+  "tiongbahru": {
+   "h": "Mo,We-Fr 09:30-19:00; Tu 09:30-17:00; Sa 09:00-17:00; PH,Su closed",
+   "osm": "node/8460232073",
+   "name": "Tiong Bahru Dental Surgery",
+   "match": "contains",
+   "dist": 104
+  },
+  "tiongbahrubakery": {
+   "h": "Mo-Su 08:00-22:00",
+   "osm": "node/3100404287",
+   "name": "Tiong Bahru Bakery",
    "match": "name",
    "dist": 0
   },
@@ -1409,12 +3733,26 @@
    "match": "name",
    "dist": 79
   },
+  "tonghengconfectionery": {
+   "h": "Mo-Su 09:00-21:00",
+   "osm": "node/3283196361",
+   "name": "Tong Heng Confectionery",
+   "match": "name",
+   "dist": 2
+  },
   "torrisi": {
    "h": "Mo 17:00-23:30; Tu-Sa 11:30-14:00,17:00-23:30",
    "osm": "node/11943260737",
    "name": "Torrisi",
    "match": "name",
    "dist": 13
+  },
+  "trillbyandchadwick": {
+   "h": "Mo-Th 17:00-01:00; Fr-Sa 16:00-02:00",
+   "osm": "node/6583981386",
+   "name": "Trillby & Chadwick",
+   "match": "name",
+   "dist": 19
   },
   "truhlsenmarmormuseumofth": {
    "h": "We-Su 11:00-16:30",
@@ -1430,6 +3768,55 @@
    "match": "name",
    "dist": 84
   },
+  "ullevaalstadion": {
+   "h": "Mo-Fr 09:00-19:00; Sa 09:00-18:00; PH off",
+   "osm": "node/13812242294",
+   "name": "Apotek 1 Ullevaal Stadion",
+   "match": "contains",
+   "dist": 64
+  },
+  "ulstermuseum": {
+   "h": "Tu-Su 10:00-17:00",
+   "osm": "way/10289074",
+   "name": "Ulster Museum",
+   "match": "name",
+   "dist": 41
+  },
+  "universitycafe": {
+   "h": "Mo-Su 10:00-20:00",
+   "osm": "node/601707709",
+   "name": "The University Cafe",
+   "match": "name",
+   "dist": 1
+  },
+  "universityofglasgowhunte": {
+   "h": "Mo-Fr 08:00-17:00; Sa,Su 08:30-16:30",
+   "osm": "node/4385102752",
+   "name": "Kelvin Hall Cafe",
+   "match": "contains",
+   "dist": 28
+  },
+  "vasarelymuzeum": {
+   "h": "Tu-Su 10:00-18:00",
+   "osm": "node/1718094755",
+   "name": "Victor Vasarely Múzeum",
+   "match": "contains",
+   "dist": 4
+  },
+  "vedstranden10": {
+   "h": "Mo-Fr 15:00-22:00; Sa 12:00-22:00; Su off",
+   "osm": "node/4330130939",
+   "name": "Ved Stranden 10",
+   "match": "name",
+   "dist": 144
+  },
+  "velorougecafe": {
+   "h": "Mo-Th 07:00-14:00; Fr-Su 07:00-15:00",
+   "osm": "node/1097231657",
+   "name": "The Velo Rouge Cafe",
+   "match": "name",
+   "dist": 0
+  },
   "viacarota": {
    "h": "Mo-Th 11:00-23:00, Fr-Su 10:00-23:00",
    "osm": "node/2562463952",
@@ -1443,6 +3830,48 @@
    "name": "The Viaduct Tavern",
    "match": "name",
    "dist": 8
+  },
+  "viatoledoenopizzeria": {
+   "h": "Mo-Su 12:00-22:30",
+   "osm": "node/2445634964",
+   "name": "Via Toledo",
+   "match": "contains",
+   "dist": 1
+  },
+  "viktorfranklmuseum": {
+   "h": "Mo 13:00-18:00; Fr 13:00-18:00; Sa 13:00-18:00",
+   "osm": "node/332346748",
+   "name": "Viktor-Frankl-Museum",
+   "match": "name",
+   "dist": 0
+  },
+  "voimalamuseo": {
+   "h": "We-Su 11:00-17:00",
+   "osm": "node/456825580",
+   "name": "Voimalamuseo",
+   "match": "name",
+   "dist": 0
+  },
+  "vollpension": {
+   "h": "Mo-Su 08:00-22:00",
+   "osm": "node/696546391",
+   "name": "Vollpension Generationencafé",
+   "match": "contains",
+   "dist": 7
+  },
+  "voltaireandrousseau": {
+   "h": "Mo-Sa 10:00-18:00",
+   "osm": "node/5053838161",
+   "name": "Voltaire and Rousseau",
+   "match": "name",
+   "dist": 1
+  },
+  "vorfrelserskirkechurchof": {
+   "h": "Mo-Su 11:00-15:30; ",
+   "osm": "way/25607908",
+   "name": "Vor Frelsers Kirke",
+   "match": "contains",
+   "dist": 25
   },
   "wa-cafe-marylebone": {
    "h": "Mo-Su 09:00-18:00",
@@ -1471,6 +3900,13 @@
    "name": "London Museum of Water and Steam",
    "match": "name",
    "dist": 147
+  },
+  "wienerkriminalmuseum": {
+   "h": "We-Su,PH 10:00-17:00",
+   "osm": "node/323060663",
+   "name": "Wiener Kriminalmuseum",
+   "match": "name",
+   "dist": 1
   },
   "wildsidewest": {
    "h": "Mo-Su 14:00-02:00",
@@ -1513,6 +3949,13 @@
    "name": "Word on the Water",
    "match": "name",
    "dist": 198
+  },
+  "wowmuseum": {
+   "h": "Su-Mo, We-Fr 10:00-20:00; Sa 09:00-20:00; Tu off",
+   "osm": "node/314035226",
+   "name": "WOW Museum",
+   "match": "name",
+   "dist": 0
   },
   "yedikulehisarmuzesi": {
    "h": "Mo-Su 08:30-17:00",
