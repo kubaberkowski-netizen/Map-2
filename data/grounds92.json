@@ -1,0 +1,642 @@
+{
+ "_generated": "2026-07-12T21:14:45.849Z",
+ "clubs": {
+  "arsenal": {
+   "club": "Arsenal",
+   "ground": "Emirates Stadium",
+   "spotId": "emirates-stadium",
+   "lat": 51.5549,
+   "lng": -0.1084
+  },
+  "coventry": {
+   "club": "Coventry",
+   "ground": "Coventry Building Society Arena",
+   "spotId": "coventry-building-society-arena",
+   "lat": 52.44806,
+   "lng": -1.49556
+  },
+  "hull": {
+   "club": "Hull",
+   "ground": "MKM Stadium",
+   "spotId": "mkm-stadium",
+   "lat": 53.74611,
+   "lng": -0.36778
+  },
+  "man utd": {
+   "club": "Man Utd",
+   "ground": "Old Trafford",
+   "spotId": "oldtrafford",
+   "lat": 53.46306,
+   "lng": -2.29139
+  },
+  "everton": {
+   "club": "Everton",
+   "ground": "Hill Dickinson Stadium",
+   "spotId": "liverpool-stadium-hilldickinsonstadium",
+   "lat": 53.3905,
+   "lng": -2.997
+  },
+  "crystal palace": {
+   "club": "Crystal Palace",
+   "ground": "Selhurst Park",
+   "spotId": "selhurst-park",
+   "lat": 51.3983,
+   "lng": -0.0855
+  },
+  "ipswich": {
+   "club": "Ipswich",
+   "ground": "Portman Road",
+   "spotId": "portmanroad",
+   "lat": 52.055,
+   "lng": 1.14528
+  },
+  "sunderland": {
+   "club": "Sunderland",
+   "ground": "Stadium of Light",
+   "spotId": "stadium-of-light",
+   "lat": 54.91443,
+   "lng": -1.38817
+  },
+  "nott m forest": {
+   "club": "Nott'm Forest",
+   "ground": "City Ground",
+   "spotId": "cityground",
+   "lat": 52.94,
+   "lng": -1.13278
+  },
+  "leeds": {
+   "club": "Leeds",
+   "ground": "Elland Road",
+   "spotId": "leeds-stadium-ellandroad",
+   "lat": 53.7778,
+   "lng": -1.5722
+  },
+  "brentford": {
+   "club": "Brentford",
+   "ground": "Griffin Park",
+   "spotId": "griffinpark",
+   "lat": 51.48817,
+   "lng": -0.30264
+  },
+  "spurs": {
+   "club": "Spurs",
+   "ground": "Tottenham Hotspur Stadium",
+   "spotId": "spurs-stadium",
+   "lat": 51.6043,
+   "lng": -0.0664
+  },
+  "brighton": {
+   "club": "Brighton",
+   "ground": "Brighton Community Stadium",
+   "spotId": "brighton-stadium-amexstadium",
+   "lat": 50.8616,
+   "lng": -0.0837
+  },
+  "aston villa": {
+   "club": "Aston Villa",
+   "ground": "Villa Park",
+   "spotId": "birmingham-stadium-villapark",
+   "lat": 52.5092,
+   "lng": -1.8848
+  },
+  "man city": {
+   "club": "Man City",
+   "ground": "Etihad Stadium",
+   "spotId": "manchester-stadium-etihadstadium",
+   "lat": 53.4831,
+   "lng": -2.2004
+  },
+  "bournemouth": {
+   "club": "Bournemouth",
+   "ground": "Dean Court",
+   "spotId": "dean-court",
+   "lat": 50.73528,
+   "lng": -1.83833
+  },
+  "newcastle": {
+   "club": "Newcastle",
+   "ground": "St James’ Park",
+   "spotId": "newcastle-stadium-stjamespark",
+   "lat": 54.9756,
+   "lng": -1.6217
+  },
+  "liverpool": {
+   "club": "Liverpool",
+   "ground": "Anfield",
+   "spotId": "anfield",
+   "lat": 53.43083,
+   "lng": -2.96083
+  },
+  "fulham": {
+   "club": "Fulham",
+   "ground": "Craven Cottage",
+   "spotId": "craven-cottage",
+   "lat": 51.475,
+   "lng": -0.22167
+  },
+  "chelsea": {
+   "club": "Chelsea",
+   "ground": "Stamford Bridge",
+   "spotId": "stamford-bridge",
+   "lat": 51.4816,
+   "lng": -0.191
+  },
+  "wolverhampton wanderers": {
+   "club": "Wolverhampton Wanderers",
+   "ground": "Molineux Stadium",
+   "spotId": "molineux-stadium",
+   "lat": 52.59028,
+   "lng": -2.13028
+  },
+  "blackburn rovers": {
+   "club": "Blackburn Rovers",
+   "ground": "Ewood Park",
+   "spotId": "ewood-park",
+   "lat": 53.72861,
+   "lng": -2.48917
+  },
+  "bolton wanderers": {
+   "club": "Bolton Wanderers",
+   "ground": "Toughsheet Community Stadium",
+   "spotId": "toughsheet-community-stadium",
+   "lat": 53.58056,
+   "lng": -2.53556
+  },
+  "preston north end": {
+   "club": "Preston North End",
+   "ground": "Deepdale",
+   "spotId": "deepdale",
+   "lat": 53.77222,
+   "lng": -2.68806
+  },
+  "bristol city": {
+   "club": "Bristol City",
+   "ground": "Ashton Gate Stadium",
+   "spotId": "bristol-stadium-ashtongate",
+   "lat": 51.44,
+   "lng": -2.6206
+  },
+  "millwall": {
+   "club": "Millwall",
+   "ground": "The Den",
+   "spotId": "the-den",
+   "lat": 51.4859,
+   "lng": -0.0507
+  },
+  "charlton athletic": {
+   "club": "Charlton Athletic",
+   "ground": "The Valley",
+   "spotId": "thevalley",
+   "lat": 51.48749,
+   "lng": 0.03563
+  },
+  "derby county": {
+   "club": "Derby County",
+   "ground": "Pride Park Stadium",
+   "spotId": "pride-park-stadium",
+   "lat": 52.915,
+   "lng": -1.44722
+  },
+  "middlesbrough": {
+   "club": "Middlesbrough",
+   "ground": "Riverside Stadium",
+   "spotId": "riverside-stadium",
+   "lat": 54.57833,
+   "lng": -1.21694
+  },
+  "lincoln city": {
+   "club": "Lincoln City",
+   "ground": "Sincil Bank",
+   "spotId": "sincil-bank",
+   "lat": 53.21829,
+   "lng": -0.54081
+  },
+  "norwich city": {
+   "club": "Norwich City",
+   "ground": "Carrow Road",
+   "spotId": "carrowroad",
+   "lat": 52.62222,
+   "lng": 1.30917
+  },
+  "west bromwich albion": {
+   "club": "West Bromwich Albion",
+   "ground": "The Hawthorns",
+   "spotId": "thehawthorns",
+   "lat": 52.50917,
+   "lng": -1.96389
+  },
+  "portsmouth": {
+   "club": "Portsmouth",
+   "ground": "Fratton Park",
+   "spotId": "frattonpark",
+   "lat": 50.79639,
+   "lng": -1.06389
+  },
+  "queens park rangers": {
+   "club": "Queens Park Rangers",
+   "ground": "Kiyan Prince Foundation Stadium",
+   "spotId": "loftus-road",
+   "lat": 51.5093,
+   "lng": -0.2321
+  },
+  "stoke city": {
+   "club": "Stoke City",
+   "ground": "Britannia Stadium",
+   "spotId": "britannia-stadium",
+   "lat": 52.98833,
+   "lng": -2.17556
+  },
+  "swansea city": {
+   "club": "Swansea City",
+   "ground": "Liberty Stadium",
+   "spotId": "liberty-stadium",
+   "lat": 51.6422,
+   "lng": -3.9351
+  },
+  "sheffield united": {
+   "club": "Sheffield United",
+   "ground": "Bramall Lane",
+   "spotId": "sheffield-stadium-bramalllane",
+   "lat": 53.3703,
+   "lng": -1.4709
+  },
+  "birmingham city": {
+   "club": "Birmingham City",
+   "ground": "St Andrew's",
+   "spotId": "birmingham-stadium-standrews",
+   "lat": 52.4756,
+   "lng": -1.8682
+  },
+  "watford": {
+   "club": "Watford",
+   "ground": "Vicarage Road",
+   "spotId": "london-stadium-vicarageroad",
+   "lat": 51.6499,
+   "lng": -0.4015
+  },
+  "southampton": {
+   "club": "Southampton",
+   "ground": "St Mary's Stadium",
+   "spotId": "st-mary-s-stadium",
+   "lat": 50.90583,
+   "lng": -1.39111
+  },
+  "burnley": {
+   "club": "Burnley",
+   "ground": "Turf Moor",
+   "spotId": "turf-moor",
+   "lat": 53.78906,
+   "lng": -2.23022
+  },
+  "west ham united": {
+   "club": "West Ham United",
+   "ground": "London Stadium",
+   "spotId": "london-stadium",
+   "lat": 51.5386,
+   "lng": -0.0166
+  },
+  "cardiff city": {
+   "club": "Cardiff City",
+   "ground": "Cardiff City Stadium",
+   "spotId": "cardiff-stadium-cardiffcitystadium",
+   "lat": 51.4728,
+   "lng": -3.203
+  },
+  "wrexham": {
+   "club": "Wrexham",
+   "ground": "Racecourse Ground",
+   "spotId": "racecourseground",
+   "lat": 53.05194,
+   "lng": -3.00361
+  },
+  "luton town": {
+   "club": "Luton Town",
+   "ground": "Kenilworth Road",
+   "spotId": "kenilworth-road",
+   "lat": 51.88417,
+   "lng": -0.43167
+  },
+  "wimbledon": {
+   "club": "AFC Wimbledon",
+   "ground": "Plough Lane",
+   "spotId": "ploughlane",
+   "lat": 51.43136,
+   "lng": -0.18667
+  },
+  "peterborough united": {
+   "club": "Peterborough United",
+   "ground": "London Road Stadium",
+   "spotId": "london-stadium",
+   "lat": 51.5386,
+   "lng": -0.0166
+  },
+  "blackpool": {
+   "club": "Blackpool FC",
+   "ground": "Bloomfield Road",
+   "spotId": "bloomfieldroad",
+   "lat": 53.80472,
+   "lng": -3.04806
+  },
+  "stevenage": {
+   "club": "Stevenage FC",
+   "ground": "Broadhall Way",
+   "spotId": "broadhall-way",
+   "lat": 51.88984,
+   "lng": -0.19361
+  },
+  "bradford city": {
+   "club": "Bradford City",
+   "ground": "Valley Parade",
+   "spotId": "thevalley",
+   "lat": 51.48749,
+   "lng": 0.03563
+  },
+  "wycombe wanderers": {
+   "club": "Wycombe Wanderers",
+   "ground": "Adams Park",
+   "spotId": "adams-park",
+   "lat": 51.63056,
+   "lng": -0.80028
+  },
+  "burton albion": {
+   "club": "Burton Albion",
+   "ground": "Pirelli Stadium",
+   "spotId": "pirelli-stadium",
+   "lat": 52.82191,
+   "lng": -1.62696
+  },
+  "mansfield town": {
+   "club": "Mansfield Town",
+   "ground": "Field Mill",
+   "spotId": "field-mill",
+   "lat": 53.13806,
+   "lng": -1.20056
+  },
+  "doncaster rovers": {
+   "club": "Doncaster Rovers",
+   "ground": "Keepmoat Stadium",
+   "spotId": "keepmoat-stadium",
+   "lat": 53.50972,
+   "lng": -1.11389
+  },
+  "exeter city": {
+   "club": "Exeter City",
+   "ground": "St James Park",
+   "spotId": "newcastle-stadium-stjamespark",
+   "lat": 54.9756,
+   "lng": -1.6217
+  },
+  "huddersfield town": {
+   "club": "Huddersfield Town",
+   "ground": "Kirklees Stadium",
+   "spotId": "kirklees-stadium",
+   "lat": 53.65417,
+   "lng": -1.76833
+  },
+  "leyton orient": {
+   "club": "Leyton Orient",
+   "ground": "Brisbane Road",
+   "spotId": "london-stadium-brisbaneroad",
+   "lat": 51.5601,
+   "lng": -0.0125
+  },
+  "reading": {
+   "club": "Reading FC",
+   "ground": "Madejski Stadium",
+   "spotId": "madejski-stadium",
+   "lat": 51.42222,
+   "lng": -0.98278
+  },
+  "plymouth argyle": {
+   "club": "Plymouth Argyle",
+   "ground": "Home Park",
+   "spotId": "homepark",
+   "lat": 50.38806,
+   "lng": -4.15083
+  },
+  "barnsley": {
+   "club": "Barnsley FC",
+   "ground": "Oakwell",
+   "spotId": "oakwell",
+   "lat": 53.55222,
+   "lng": -1.4675
+  },
+  "rotherham united": {
+   "club": "Rotherham United",
+   "ground": "New York Stadium",
+   "spotId": "newyorkstadium",
+   "lat": 53.4279,
+   "lng": -1.362
+  },
+  "port vale": {
+   "club": "Port Vale FC",
+   "ground": "Vale Park",
+   "spotId": "vale-park",
+   "lat": 53.04972,
+   "lng": -2.1925
+  },
+  "wigan athletic": {
+   "club": "Wigan Athletic",
+   "ground": "Q494388",
+   "spotId": "q494388",
+   "lat": 53.54778,
+   "lng": -2.65389
+  },
+  "northampton town": {
+   "club": "Northampton Town",
+   "ground": "Sixfields Stadium",
+   "spotId": "sixfields-stadium",
+   "lat": 52.2352,
+   "lng": -0.93345
+  },
+  "stockport county": {
+   "club": "Stockport County",
+   "ground": "Edgeley Park",
+   "spotId": "edgeley-park",
+   "lat": 53.39972,
+   "lng": -2.16639
+  },
+  "barnsley postponed": {
+   "club": "Barnsley FC              [postponed]",
+   "ground": "Oakwell",
+   "spotId": "oakwell-x",
+   "lat": 53.55222,
+   "lng": -1.4675
+  },
+  "cardiff city postponed": {
+   "club": "Cardiff City             [postponed]",
+   "ground": "Cardiff City Stadium",
+   "spotId": "cardiff-stadium-cardiffcitystadium",
+   "lat": 51.4728,
+   "lng": -3.203
+  },
+  "accrington stanley": {
+   "club": "Accrington Stanley",
+   "ground": "Crown Ground",
+   "spotId": "crown-ground",
+   "lat": 53.76536,
+   "lng": -2.37091
+  },
+  "gillingham": {
+   "club": "Gillingham FC",
+   "ground": "Priestfield Stadium",
+   "spotId": "priestfieldstadium",
+   "lat": 51.38417,
+   "lng": 0.56083
+  },
+  "bristol rovers": {
+   "club": "Bristol Rovers",
+   "ground": "Memorial Stadium",
+   "spotId": "bristol-stadium-memorialstadium",
+   "lat": 51.4861,
+   "lng": -2.5833
+  },
+  "harrogate town": {
+   "club": "Harrogate Town",
+   "ground": "Wetherby Road",
+   "spotId": "wetherby-road",
+   "lat": 53.99167,
+   "lng": -1.51444
+  },
+  "cambridge united": {
+   "club": "Cambridge United",
+   "ground": "Abbey Stadium",
+   "spotId": "abbeystadium",
+   "lat": 52.2114,
+   "lng": 0.153
+  },
+  "cheltenham town": {
+   "club": "Cheltenham Town",
+   "ground": "Whaddon Road",
+   "spotId": "whaddon-road",
+   "lat": 51.90616,
+   "lng": -2.06021
+  },
+  "colchester united": {
+   "club": "Colchester United",
+   "ground": "Colchester Community Stadium",
+   "spotId": "colchester-community-stadium",
+   "lat": 51.9234,
+   "lng": 0.8977
+  },
+  "tranmere rovers": {
+   "club": "Tranmere Rovers",
+   "ground": "Prenton Park",
+   "spotId": "prenton-park",
+   "lat": 53.37372,
+   "lng": -3.0325
+  },
+  "barnet": {
+   "club": "Barnet FC",
+   "ground": "The Hive Stadium",
+   "spotId": "thehivestadium",
+   "lat": 51.6026,
+   "lng": -0.29179
+  },
+  "fleetwood town": {
+   "club": "Fleetwood Town",
+   "ground": "Highbury Stadium",
+   "spotId": "highburysq",
+   "lat": 51.5575,
+   "lng": -0.103
+  },
+  "chesterfield": {
+   "club": "Chesterfield FC",
+   "ground": "Proact Stadium",
+   "spotId": "proact-stadium",
+   "lat": 53.25344,
+   "lng": -1.4272
+  },
+  "barrow": {
+   "club": "Barrow AFC",
+   "ground": "Holker Street",
+   "spotId": "holker-street",
+   "lat": 54.12333,
+   "lng": -3.235
+  },
+  "grimsby town": {
+   "club": "Grimsby Town",
+   "ground": "Blundell Park",
+   "spotId": "blundell-park",
+   "lat": 53.57023,
+   "lng": -0.0465
+  },
+  "crawley town": {
+   "club": "Crawley Town",
+   "ground": "The Peoples Pension Stadium",
+   "spotId": "the-peoples-pension-stadium",
+   "lat": 51.09971,
+   "lng": -0.19477
+  },
+  "milton keynes dons": {
+   "club": "Milton Keynes Dons",
+   "ground": "Stadium MK",
+   "spotId": "stadium-mk",
+   "lat": 52.00944,
+   "lng": -0.73333
+  },
+  "oldham athletic": {
+   "club": "Oldham Athletic",
+   "ground": "Boundary Park",
+   "spotId": "boundarypark",
+   "lat": 53.55528,
+   "lng": -2.12861
+  },
+  "newport county": {
+   "club": "Newport County",
+   "ground": "Rodney Parade",
+   "spotId": "rodney-parade",
+   "lat": 51.58833,
+   "lng": -2.98778
+  },
+  "notts county": {
+   "club": "Notts County",
+   "ground": "Meadow Lane",
+   "spotId": "meadowpark",
+   "lat": 51.66194,
+   "lng": -0.27222
+  },
+  "salford city": {
+   "club": "Salford City",
+   "ground": "Moor Lane",
+   "spotId": "moor-lane",
+   "lat": 53.51364,
+   "lng": -2.27678
+  },
+  "crewe alexandra": {
+   "club": "Crewe Alexandra",
+   "ground": "Alexandra Stadium",
+   "spotId": "alexandra-stadium",
+   "lat": 53.08742,
+   "lng": -2.43575
+  },
+  "shrewsbury town": {
+   "club": "Shrewsbury Town",
+   "ground": "New Meadow",
+   "spotId": "meadowpark",
+   "lat": 51.66194,
+   "lng": -0.27222
+  },
+  "bromley": {
+   "club": "Bromley FC",
+   "ground": "Hayes Lane",
+   "spotId": "hayes-lane",
+   "lat": 51.3901,
+   "lng": 0.02108
+  },
+  "walsall": {
+   "club": "Walsall FC",
+   "ground": "Bescot Stadium",
+   "spotId": "bescot-stadium",
+   "lat": 52.56543,
+   "lng": -1.99071
+  },
+  "swindon town": {
+   "club": "Swindon Town",
+   "ground": "County Ground",
+   "spotId": "countyground",
+   "lat": 51.56444,
+   "lng": -1.77056
+  }
+ }
+}
