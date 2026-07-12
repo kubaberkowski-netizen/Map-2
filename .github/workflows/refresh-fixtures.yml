@@ -1,0 +1,37 @@
+# Weekly fixtures refresh — re-harvests season schedules (kick-off times move,
+# new seasons publish), rebuilds the content-hashed sidecars, and commits to
+# main so GitHub Pages redeploys. Manual runs via the Actions tab
+# (workflow_dispatch) — e.g. right after the NBA/NHL schedules drop.
+name: refresh-fixtures
+on:
+  schedule:
+    - cron: "0 5 * * 1" # Mondays 05:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - name: Harvest season fixtures
+        run: node tools/harvest-fixtures.js
+      - name: Rebuild (validates + regenerates sidecars)
+        run: npm run build
+      - name: Commit & push if anything changed
+        run: |
+          git config user.name "flaneur-refresh-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No fixture changes this week."
+          else
+            git commit -m "chore: weekly fixtures refresh ($(date -u +%Y-%m-%d))"
+            git push
+          fi
