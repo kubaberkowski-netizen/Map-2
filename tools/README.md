@@ -145,3 +145,12 @@ settings (this sandbox blocks them by default):
   personal research tool — keep it personal, prefer official APIs, cache results.
 - Treat OSM/Wikidata/Atlas Obscura as the reliable spine; Reddit/TikTok as the
   flavour/discovery layer.
+
+## Review desk (lighthouse-city writeups)
+
+`npm run review` → http://localhost:5177. Pick a city, edit or approve each
+machine writeup (`d`/`m` flags) in your own voice; saving writes `w` to
+data/spots.json and promotes the flag to `a` in data/quality.json. Authored
+(`a`/`v`) spots are never queued and the API refuses to modify them. Both
+files are backed up to data/.review-backup-<ts>/ at server start. After a
+sitting: `npm run build`, review the diff, commit.
