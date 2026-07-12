@@ -41,10 +41,13 @@ function matchGround(name, lat, lng) {
     if (gN === vN) s = 1;
     else if (gN.includes(vN) || vN.includes(gN)) s = Math.min(gN.length, vN.length) >= 5 ? 0.9 : 0;
     else { const j = jac(vT, gTokens(g.n)); s = j >= 0.6 ? j : 0; }
-    // proximity backstop: renamed grounds (sponsor names) within 300 m
-    if (s < 0.6 && typeof lat === "number") {
+    // distance sanity: a name match to a ground >5 km away is a collision
+    // (Exeter's St James Park vs Newcastle's; London Road vs London Stadium),
+    // and a nearby unnamed match is a rename (sponsor names) — within 300 m.
+    if (typeof lat === "number") {
       const d = Math.hypot((g.lat - lat) * 111, (g.lng - lng) * 70);
-      if (d < 0.3) s = 0.75;
+      if (d > 5) s = 0;
+      else if (s < 0.6 && d < 0.3) s = 0.75;
     }
     if (s > bestS) { bestS = s; best = g; }
   }
@@ -98,7 +101,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
     }
     if (!txt) { console.error(`  ! no roster source for ${tier}`); continue; }
     for (const raw of txt.split(/\r?\n/)) {
-      const line = raw.replace(/\s{2,}\d+-\d+.*$/, ""); // strip trailing result
+      const line = raw.replace(/\s{2,}(\d+-\d+|\[).*$/, ""); // strip trailing result / [postponed] notes
       const m = line.match(/^\s+(?:\d{1,2}[.:]\d{2}\s+)?(.+?)\s+v\s+(.+?)\s*$/);
       if (!m) continue;
       for (const t of [m[1], m[2]]) { const k = clubNorm(t.trim()); if (k && !clubs.has(k)) clubs.set(k, { name: t.trim(), tier }); }

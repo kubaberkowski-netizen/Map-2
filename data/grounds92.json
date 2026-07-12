@@ -1,5 +1,5 @@
 {
- "_generated": "2026-07-12T21:14:45.849Z",
+ "_generated": "2026-07-12T21:41:24.878Z",
  "clubs": {
   "arsenal": {
    "club": "Arsenal",
@@ -326,9 +326,9 @@
   "peterborough united": {
    "club": "Peterborough United",
    "ground": "London Road Stadium",
-   "spotId": "london-stadium",
-   "lat": 51.5386,
-   "lng": -0.0166
+   "spotId": "london-road-stadium",
+   "lat": 52.56469,
+   "lng": -0.24039
   },
   "blackpool": {
    "club": "Blackpool FC",
@@ -347,9 +347,9 @@
   "bradford city": {
    "club": "Bradford City",
    "ground": "Valley Parade",
-   "spotId": "thevalley",
-   "lat": 51.48749,
-   "lng": 0.03563
+   "spotId": "valley-parade",
+   "lat": 53.80422,
+   "lng": -1.75902
   },
   "wycombe wanderers": {
    "club": "Wycombe Wanderers",
@@ -382,9 +382,9 @@
   "exeter city": {
    "club": "Exeter City",
    "ground": "St James Park",
-   "spotId": "newcastle-stadium-stjamespark",
-   "lat": 54.9756,
-   "lng": -1.6217
+   "spotId": "st-james-park",
+   "lat": 50.73071,
+   "lng": -3.52115
   },
   "huddersfield town": {
    "club": "Huddersfield Town",
@@ -456,20 +456,6 @@
    "lat": 53.39972,
    "lng": -2.16639
   },
-  "barnsley postponed": {
-   "club": "Barnsley FC              [postponed]",
-   "ground": "Oakwell",
-   "spotId": "oakwell-x",
-   "lat": 53.55222,
-   "lng": -1.4675
-  },
-  "cardiff city postponed": {
-   "club": "Cardiff City             [postponed]",
-   "ground": "Cardiff City Stadium",
-   "spotId": "cardiff-stadium-cardiffcitystadium",
-   "lat": 51.4728,
-   "lng": -3.203
-  },
   "accrington stanley": {
    "club": "Accrington Stanley",
    "ground": "Crown Ground",
@@ -536,9 +522,9 @@
   "fleetwood town": {
    "club": "Fleetwood Town",
    "ground": "Highbury Stadium",
-   "spotId": "highburysq",
-   "lat": 51.5575,
-   "lng": -0.103
+   "spotId": "highbury-stadium",
+   "lat": 53.91651,
+   "lng": -3.02473
   },
   "chesterfield": {
    "club": "Chesterfield FC",
@@ -592,9 +578,9 @@
   "notts county": {
    "club": "Notts County",
    "ground": "Meadow Lane",
-   "spotId": "meadowpark",
-   "lat": 51.66194,
-   "lng": -0.27222
+   "spotId": "meadow-lane",
+   "lat": 52.9425,
+   "lng": -1.13722
   },
   "salford city": {
    "club": "Salford City",
@@ -613,9 +599,9 @@
   "shrewsbury town": {
    "club": "Shrewsbury Town",
    "ground": "New Meadow",
-   "spotId": "meadowpark",
-   "lat": 51.66194,
-   "lng": -0.27222
+   "spotId": "new-meadow",
+   "lat": 52.68863,
+   "lng": -2.74933
   },
   "bromley": {
    "club": "Bromley FC",
