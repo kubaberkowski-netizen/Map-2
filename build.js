@@ -27,7 +27,7 @@ const SPOTS = path.join(ROOT, "data", "spots.json");
 const OUTPUT = path.join(ROOT, "index.html");
 const PLACEHOLDER = "[]/*__FLANEUR_SPOTS__*/";
 const REQUIRED = ["id", "n", "a", "pc", "lat", "lng", "c", "s", "q", "w", "city"];
-const BASELINE = { entries: 15068, worlds: 80, categories: 44 };
+const BASELINE = { entries: 15067, worlds: 80, categories: 44 };
 
 function die(msg) {
   console.error("✗ build aborted (nothing written): " + msg);
@@ -315,6 +315,19 @@ if (fs.existsSync(PHOTOS)) {
     if (!seen.has(id)) console.warn(`⚠ data/photos.json has a photo for unknown spot id ${JSON.stringify(id)}`);
 }
 
+// --- photo colours (data/photocolors.json → per-spot `phc`) -------------------
+// Average thumbnail colour from tools/photo-colors.js; painted behind the
+// image while it loads. Only injected alongside `ph` (meaningless without it).
+const PHCOLORS = path.join(ROOT, "data", "photocolors.json");
+let phcById = {};
+if (fs.existsSync(PHCOLORS)) {
+  try {
+    phcById = (JSON.parse(fs.readFileSync(PHCOLORS, "utf8")) || {}).colors || {};
+  } catch (e) {
+    die("data/photocolors.json is not valid JSON — " + e.message);
+  }
+}
+
 // --- serialise back to the ORIGINAL compact JS object-literal style ----------
 // (unquoted keys in the original field order; string values via JSON.stringify;
 //  numbers raw) so the deployed file matches the minified bundle's shape and the
@@ -331,9 +344,10 @@ const entryStrs = spots.map((e) => {
   if (wq) withWq++;
   const ph = phById[e.id];
   if (ph) withPh++;
+  const phc = ph && phcById[e.id];
   return {
     city: e.city,
-    s: "{" + base + (oh ? `,oh:${JSON.stringify(oh)}` : "") + (wq ? `,wq:${JSON.stringify(wq)}` : "") + (ph ? `,ph:${JSON.stringify(ph)}` : "") + "}",
+    s: "{" + base + (oh ? `,oh:${JSON.stringify(oh)}` : "") + (wq ? `,wq:${JSON.stringify(wq)}` : "") + (ph ? `,ph:${JSON.stringify(ph)}` : "") + (phc ? `,phc:${JSON.stringify(phc)}` : "") + "}",
   };
 });
 // Core/rest split: the app always boots with cityId "london", so the core file
