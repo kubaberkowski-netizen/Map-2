@@ -88,9 +88,14 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 (async () => {
   // --- 1) club rosters ----------------------------------------------------
   const clubs = new Map(); // norm -> {name, tier}
+  const feedVenue = new Map(); // norm -> current season home venue (authoritative)
   for (const [slugF, tier] of [["epl-2026", "Premier League"], ["championship-2026", "EFL Championship"]]) {
     const rows = await (await fetch(`https://fixturedownload.com/feed/json/${slugF}`, UA)).json();
-    for (const m of rows) for (const t of [m.HomeTeam, m.AwayTeam]) { const k = clubNorm(t); if (k && !clubs.has(k)) clubs.set(k, { name: t, tier }); }
+    for (const m of rows) {
+      for (const t of [m.HomeTeam, m.AwayTeam]) { const k = clubNorm(t); if (k && !clubs.has(k)) clubs.set(k, { name: t, tier }); }
+      const hk = clubNorm(m.HomeTeam);
+      if (hk && m.Location && !feedVenue.has(hk)) feedVenue.set(hk, m.Location);
+    }
     await sleep(400);
   }
   for (const [file, tier] of [["3-league1.txt", "League One"], ["4-league2.txt", "League Two"]]) {
@@ -144,9 +149,25 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
     const cands = [...wdMap.keys()].filter((x) => x === k || x.startsWith(k + " ") || k.startsWith(x + " "));
     return cands.length === 1 ? wdMap.get(cands[0]) : null;
   };
+  // strict name-only match (exact or long containment; no fuzz, no distance)
+  const strictByName = (name) => {
+    const vN = gTight(name);
+    if (!vN || vN.length < 8) return null;
+    let hit = null;
+    for (const g of grounds) {
+      const gN = gTight(g.n);
+      if (gN === vN || gN.includes(vN) || vN.includes(gN)) { if (hit) return null; hit = g; }
+    }
+    return hit;
+  };
   for (const [k, c] of clubs) {
     const w = wdFind(k);
     if (!w) { misses.push(c.name); continue; }
+    // this season's feed venue beats Wikidata's (which can lag a stadium move —
+    // e.g. Brentford listed at the demolished Griffin Park)
+    const fv = feedVenue.get(k);
+    const fvHit = fv ? strictByName(fv) : null;
+    if (fvHit) { mapOut[k] = { club: c.name, ground: fvHit.n, spotId: fvHit.id, lat: fvHit.lat, lng: fvHit.lng }; continue; }
     const ex = matchGround(w.ground, w.lat, w.lng);
     if (ex) { mapOut[k] = { club: c.name, ground: w.ground, spotId: ex.id, lat: ex.lat, lng: ex.lng }; continue; }
     let id = slug(w.ground) || slug(c.name) + "-ground";
@@ -171,6 +192,14 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   if (DRY) { console.error("(DRY — nothing written)"); return; }
   fs.writeFileSync(path.join(ROOT, "data", "grounds92.json"),
     JSON.stringify({ _generated: new Date().toISOString(), clubs: mapOut }, null, 1) + "\n");
+  // grand-quest registry: The 92 (build.js ships it via the fixtures sidecar)
+  const qIds = [...new Set(Object.values(mapOut).map((x) => x.spotId))].sort();
+  fs.writeFileSync(path.join(ROOT, "data", "quests.json"), JSON.stringify({
+    _generated: new Date().toISOString(),
+    quests: [{ id: "the92", name: "The 92", e: "\u26bd",
+      blurb: "Every current English league ground, GPS-verified on matchdays. The groundhopper\u2019s life list.",
+      ids: qIds, tiers: [10, 25, 46], goal: qIds.length }],
+  }, null, 1) + "\n");
   fs.writeFileSync(path.join(ROOT, "data", "spots.json"), JSON.stringify(spots.concat(newSpots), null, 1));
   console.error(`→ data/spots.json (+${newSpots.length}) and data/grounds92.json (${Object.keys(mapOut).length} clubs)`);
 })().catch((e) => { console.error(e); process.exit(1); });
