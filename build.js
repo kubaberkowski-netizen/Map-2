@@ -349,7 +349,7 @@ const crypto = require("crypto");
 const h10 = (x) => crypto.createHash("sha1").update(x).digest("hex").slice(0, 10);
 const CORE_NAME = `spots.core.${h10(coreLiteral)}.js`;
 const REST_NAME = `spots.rest.${h10(restLiteral)}.js`;
-const fxJs = fxData ? `window.__FLFX={gen:${JSON.stringify(fxData._generated || "")},byId:${JSON.stringify(fxData.byId || {})}};try{window.dispatchEvent(new CustomEvent("flfx"))}catch(e){}\n` : null;
+const fxJs = fxData ? `window.__FLFX={gen:${JSON.stringify(fxData._generated || "")},byId:${JSON.stringify(fxData.byId || {})},res:${JSON.stringify(fxData.res || {})}};try{window.dispatchEvent(new CustomEvent("flfx"))}catch(e){}\n` : null;
 const FIXT_NAME = fxJs ? `fixtures.${h10(fxJs)}.js` : null;
 const coreJs = `window.__FLZ=${coreLiteral};\n`;
 const restJs =

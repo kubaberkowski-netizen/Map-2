@@ -81,7 +81,7 @@ function matchGround(venue) {
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 (async () => {
   const now = Date.now();
-  const byId = {}; let total = 0, matched = 0; const unmatched = {};
+  const byId = {}; const res = {}; let total = 0, matched = 0; const unmatched = {};
   for (const f of FEEDS) {
     let rows;
     try {
@@ -93,7 +93,13 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
     let kept = 0;
     for (const m of rows) {
       const ts = Date.parse(String(m.DateUtc || "").replace(" ", "T"));
-      if (!isFinite(ts) || ts < now - 864e5) continue;
+      if (!isFinite(ts)) continue;
+      // recent finals -> results map (Matchday backfills checked-in scores)
+      if (ts < now - 864e5) {
+        if (ts > now - 120 * 864e5 && m.HomeTeamScore != null && m.AwayTeamScore != null)
+          res[`fxd:${f.slug}:${m.MatchNumber}`] = `${m.HomeTeamScore}-${m.AwayTeamScore}`;
+        continue;
+      }
       total++;
       const g = m.Location ? matchGround(m.Location) : null;
       if (!g) { if (m.Location) unmatched[m.Location] = (unmatched[m.Location] || 0) + 1; continue; }
@@ -112,8 +118,8 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
     byId[k].sort((a, b) => (a.t < b.t ? -1 : 1));
     byId[k] = byId[k].slice(0, 40);
   }
-  const out = { _generated: new Date().toISOString(), _source: "fixturedownload.com season feeds", byId };
-  console.error(`\n[fixtures] ${total} upcoming fixtures seen, ${matched} matched onto ${Object.keys(byId).length} catalogue grounds`);
+  const out = { _generated: new Date().toISOString(), _source: "fixturedownload.com season feeds", byId, res };
+  console.error(`\n[fixtures] ${total} upcoming fixtures seen, ${matched} matched onto ${Object.keys(byId).length} catalogue grounds, ${Object.keys(res).length} recent results`);
   const miss = Object.entries(unmatched).sort((a, b) => b[1] - a[1]).slice(0, 15);
   console.error("[fixtures] top unmatched venues (add these stadiums to the catalogue to capture them):");
   miss.forEach(([v, n]) => console.error(`   ${String(n).padStart(4)}  ${v}`));
