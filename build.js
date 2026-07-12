@@ -254,6 +254,19 @@ if (fs.existsSync(HOURS)) {
 //   "r" = reference — a machine writeup with Wikipedia/Wikidata backing (notable)
 //   (absent) = a thin machine stub
 // Additive, like `oh` — it never changes the id:"…",n:" entry-count signature.
+// --- optional fixtures sidecar (data/fixtures.json → fixtures.<hash>.js) -----
+// Season schedules matched to catalogue stadium spots (tools/harvest-fixtures.js).
+// Shipped as its own content-hashed sidecar (window.__FLFX), loaded async by the
+// same loader as spots.rest — never blocks boot, cache-forever like the catalogue.
+const FIXT = path.join(ROOT, "data", "fixtures.json");
+let fxData = null;
+if (fs.existsSync(FIXT)) {
+  try { fxData = JSON.parse(fs.readFileSync(FIXT, "utf8")); }
+  catch (e) { die("data/fixtures.json is not valid JSON — " + e.message); }
+  for (const id of Object.keys((fxData && fxData.byId) || {}))
+    if (!seen.has(id)) console.warn(`⚠ data/fixtures.json has fixtures for unknown spot id ${JSON.stringify(id)}`);
+}
+
 const QUALITY = path.join(ROOT, "data", "quality.json");
 let wqById = {};
 if (fs.existsSync(QUALITY)) {
@@ -336,6 +349,8 @@ const crypto = require("crypto");
 const h10 = (x) => crypto.createHash("sha1").update(x).digest("hex").slice(0, 10);
 const CORE_NAME = `spots.core.${h10(coreLiteral)}.js`;
 const REST_NAME = `spots.rest.${h10(restLiteral)}.js`;
+const fxJs = fxData ? `window.__FLFX={gen:${JSON.stringify(fxData._generated || "")},byId:${JSON.stringify(fxData.byId || {})}};try{window.dispatchEvent(new CustomEvent("flfx"))}catch(e){}\n` : null;
+const FIXT_NAME = fxJs ? `fixtures.${h10(fxJs)}.js` : null;
 const coreJs = `window.__FLZ=${coreLiteral};\n`;
 const restJs =
   `(function(){var A=${restLiteral};var z=window.__FLZ=window.__FLZ||[];` +
@@ -344,7 +359,7 @@ const restJs =
 const LOADER =
   `<script src="./${CORE_NAME}"></script>\n` +
   `<script>(function(){var s=document.createElement("script");s.src="./${REST_NAME}";s.async=true;var f=0;` +
-  `function go(){if(f)return;f=1;document.head.appendChild(s)}` +
+  `function go(){if(f)return;f=1;document.head.appendChild(s);${FIXT_NAME ? `var x=document.createElement("script");x.src="./${FIXT_NAME}";x.async=true;document.head.appendChild(x);` : ""}}` +
   `if(document.readyState==="complete")setTimeout(go,50);else window.addEventListener("load",function(){setTimeout(go,50)});` +
   `window.addEventListener("pointerdown",go,{once:true,passive:true});window.addEventListener("keydown",go,{once:true});})();</script>`;
 const SRC_MARKER = "<!--__FLANEUR_SPOTS_SRC__-->";
@@ -382,6 +397,7 @@ function checkShell(out) {
   if (stray !== 0) die(`shell unexpectedly contains ${stray} inline spot entries (split failed)`);
   if (out.indexOf(CORE_NAME) < 0) die("shell is missing the spots.core <script src> loader");
   if (out.indexOf(REST_NAME) < 0) die("shell is missing the spots.rest async loader");
+  if (FIXT_NAME && out.indexOf(FIXT_NAME) < 0) die("shell is missing the fixtures async loader");
   return { worlds, categories };
 }
 // --- validate the spots sidecar (the data) -----------------------------------
@@ -418,15 +434,23 @@ if (entryCount !== BASELINE.entries) die(`total sidecar entries ${entryCount} �
 
 // --- all green: remove stale sidecars, then write the pair -------------------
 for (const f of fs.readdirSync(ROOT))
-  if (/^spots\.(?:[a-z]+\.)?[0-9a-f]+\.js$/.test(f)) fs.unlinkSync(path.join(ROOT, f));
+  if (/^(?:spots|fixtures)\.(?:[a-z]+\.)?[0-9a-f]+\.js$/.test(f)) fs.unlinkSync(path.join(ROOT, f));
 fs.writeFileSync(path.join(ROOT, CORE_NAME), coreJs);
 fs.writeFileSync(path.join(ROOT, REST_NAME), restJs);
+if (FIXT_NAME) {
+  const tmpF = path.join(require("os").tmpdir(), "flaneur-fx-check.js");
+  fs.writeFileSync(tmpF, fxJs);
+  try { execFileSync(process.execPath, ["--check", tmpF], { stdio: "pipe" }); }
+  catch (e) { fs.unlinkSync(tmpF); die("fixtures sidecar failed node --check:\n" + (e.stderr || e)); }
+  fs.unlinkSync(tmpF);
+  fs.writeFileSync(path.join(ROOT, FIXT_NAME), fxJs);
+}
 fs.writeFileSync(OUTPUT, output);
 console.log(
   `✓ wrote ${path.relative(ROOT, OUTPUT)} shell + ${CORE_NAME} (${(coreJs.length / 1048576).toFixed(2)} MB core) + ` +
     `${REST_NAME} (${(restJs.length / 1048576).toFixed(2)} MB async) — ` +
     `${entryCount} spots / ${counts.worlds} Worlds / ${counts.categories} categories, ` +
-    `${withHours} with opening hours, ${withWq} with wq, ${withPh} with photos, node --check OK`
+    `${withHours} with opening hours, ${withWq} with wq, ${withPh} with photos${FIXT_NAME ? `, fixtures ${FIXT_NAME} (${Object.keys(fxData.byId||{}).length} grounds)` : ""}, node --check OK`
 );
 
 // --- SEO: static, crawlable landing pages (portable — pure data → HTML) ------

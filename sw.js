@@ -1,5 +1,5 @@
 /* Flâneur service worker — offline app shell + tile/asset caching */
-const SHELL = "flaneur-shell-v403";
+const SHELL = "flaneur-shell-v404";
 const TILES = "flaneur-tiles-v2";
 const DATA = "flaneur-data-v1"; // immutable content-hashed catalogue (spots.<hash>.js) — survives SHELL bumps
 const TILE_MAX = 350;
@@ -95,7 +95,7 @@ self.addEventListener("fetch", (e) => {
   // OWN cache that survives SHELL bumps — so an app-code deploy never re-downloads
   // the 4.6 MB catalogue. A data change ships a NEW hash (new URL) → cache miss →
   // fetched once; we prune older spots.*.js so the cache holds only the current one.
-  if (url.origin === self.location.origin && /\/spots\.(?:[a-z]+\.)?[0-9a-f]+\.js$/.test(url.pathname)) {
+  if (url.origin === self.location.origin && /\/(?:spots|fixtures)\.(?:[a-z]+\.)?[0-9a-f]+\.js$/.test(url.pathname)) {
     e.respondWith(caches.open(DATA).then(async (c) => {
       const hit = await c.match(req);
       if (hit) return hit;
@@ -104,11 +104,11 @@ self.addEventListener("fetch", (e) => {
         if (res && res.ok) {
           // prune only stale files of the SAME kind (core/rest/legacy) so the
           // core and rest halves of the split catalogue coexist in the cache
-          const kind = (url.pathname.match(/\/spots\.([a-z]*)\.?[0-9a-f]+\.js$/) || [])[1] || "";
+          const kind = (url.pathname.match(/\/(spots|fixtures)\.([a-z]*)\.?[0-9a-f]+\.js$/) || []).slice(1).join(".");
           const olds = await c.keys();
           await Promise.all(olds.map((k) => {
-            const m = new URL(k.url).pathname.match(/\/spots\.([a-z]*)\.?[0-9a-f]+\.js$/);
-            return m && ((m[1] || "") === kind) ? c.delete(k) : null;
+            const m = new URL(k.url).pathname.match(/\/(spots|fixtures)\.([a-z]*)\.?[0-9a-f]+\.js$/);
+            return m && (m.slice(1).join(".") === kind) ? c.delete(k) : null;
           }));
           c.put(req, res.clone());
         }
