@@ -52,10 +52,10 @@ function thumb250(u) {
   const page = await browser.newPage();
 
   let done = 0, fail = 0;
-  const CONC = 4; // Wikimedia throttles bursts — stay polite, retry once
+  const CONC = +(process.env.FL_CONC || 3); // Wikimedia throttles bursts — stay polite, back off on failure
   const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   const grab = async (url) => {
-    for (let a = 0; a < 2; a++) {
+    for (let a = 0; a < 3; a++) {
       try {
         const r = await fetch(thumb250(url), { headers: { "User-Agent": "flaneur-photocolors/1.0 (personal app; kuba.berkowski@gmail.com)" } });
         if (!r.ok) throw new Error("HTTP " + r.status);
@@ -63,7 +63,7 @@ function thumb250(u) {
         const b = Buffer.from(await r.arrayBuffer());
         if (b.length > 400000) throw new Error("too big");
         return `data:${ct};base64,${b.toString("base64")}`;
-      } catch (e) { if (a) throw e; await sleep(1200); }
+      } catch (e) { if (a >= 2) throw e; await sleep(2000 * (a + 1) + Math.random() * 1500); }
     }
   };
   for (let i = 0; i < todo.length; i += 100) {
@@ -73,7 +73,7 @@ function thumb250(u) {
       await Promise.all(slice.slice(j, j + CONC).map(async ([id, url]) => {
         try { fetched.push({ id, d: await grab(url) }); } catch (e) { fail++; }
       }));
-      await sleep(120);
+      await sleep(+(process.env.FL_GAP || 250));
     }
     const got = await page.evaluate(async (items) => {
       const out = {};
