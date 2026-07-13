@@ -47,6 +47,33 @@ const RULES = {
   museum: [
     ["artgallery", /gallery|galerie|kunsthall|kunstmuseum|pinacotec|museum of art|art museum|museo de arte|musée d.art|contemporary art|modern art|art cent(re|er)|sculpture (park|garden)|galleria d.arte/],
   ],
+  // history phase 2. Rule shape: [target, regex, nameOnly?] — nameOnly rules
+  // fire only against the spot NAME (pass 1), never the writeup, for tokens
+  // that are too common in prose ("the bridge", "a statue of", "on the
+  // square"). Order matters: baths/war/industrial before castle so "Fort
+  // Dunlop" (a factory) and hammams with aqueducts land right; square before
+  // monument so "Trafalgar Square" isn't claimed by its column.
+  history: [
+    ["bathhouse", /hammam|\bonsen\b|thermal bath|thermae|turkish bath|\bbanya\b/],
+    ["bathhouse", /\bbaths\b/, 1],
+    ["warmemory", /\bwar memorial\b|war museum|battlefield|\bbattle of\b|air.?raid|concentration camp|holocaust|cenotaph|war grave/],
+    ["warmemory", /bunker|garrison|regiment|artillery|\bblitz\b/, 1],
+    ["industrial", /\bindustrial\b|\bmill\b|factory|warehouse|colliery|gasholder|gas works|ironworks|shipyard|\bkiln\b|\bforge\b|pumping station|power station|railway|viaduct|aqueduct|tramway|locomotive|signal box|\bdocks\b|funicular|chimney/],
+    ["industrial", /\bbridge\b|\btunnel\b|\bcrane\b/, 1],
+    ["ruins", /\bruins?\b|archaeolog|prehistoric|neolithic|bronze age|iron age|stone circle|hillfort|megalith|dolmen|\bcairn\b|standing stone|amphitheatre|excavat/],
+    ["square", /\bsquare\b|(?<!crowne )\bplaza\b(?! (hotel|inn|suites))|\bpiazza\b|\bplatz\b|\bpraça\b|\bplac\b|^place\b/, 1],
+    ["castle", /\bcastle\b|fortress|\bfort\b|citadel|\bpalace\b|ch[âa]teau|schloss|alc[áa]zar|alcazaba|kasbah|\bqila\b|kremlin|\bmanor\b|mansion|stately home/],
+    ["monument", /\bmonument\b|obelisk|\btriumphal arch\b|equestrian/],
+    ["monument", /\bstatue\b|\bcolumn\b|\bfountain\b|memorial\b/, 1],
+  ],
+  oddity: [
+    ["square", /\bsquare\b|(?<!crowne )\bplaza\b(?! (hotel|inn|suites))|\bpiazza\b|\bplatz\b|\bpraça\b|^place\b/, 1],
+    ["bathhouse", /bathhouse|bath house|hammam|\bonsen\b|\bsento\b|thermal bath|thermae|\bbanya\b|turkish bath|russian bath/],
+    ["bathhouse", /\bbaths\b/, 1],
+  ],
+  lido: [
+    ["bathhouse", /hammam|\bonsen\b|\bsento\b|thermal|thermae|\bbanya\b|turkish bath|russian bath|victorian baths/],
+  ],
 };
 
 // The spot's NAME outranks its writeup: "Gloucester Cathedral" whose blurb
@@ -58,8 +85,12 @@ for (const z of spots) {
   if (!rules) continue;
   const nameOnly = z.n.toLowerCase(), full = txt(z);
   let hit = null;
-  for (const t of [nameOnly, full]) {
-    for (const [nc, rx] of rules) if (rx.test(t)) { hit = [nc, (t.match(rx) || [""])[0]]; break; }
+  for (const pass of [0, 1]) {
+    const t = pass === 0 ? nameOnly : full;
+    for (const [nc, rx, nOnly] of rules) {
+      if (pass === 1 && nOnly) continue;
+      if (rx.test(t)) { hit = [nc, (t.match(rx) || [""])[0]]; break; }
+    }
     if (hit) break;
   }
   if (hit) {
