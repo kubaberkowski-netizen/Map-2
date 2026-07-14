@@ -168,8 +168,9 @@ Everything else is wasted if the catalogue reads like a POI dump. Pick a lane:
   mark which spots have real owner writeups vs. machine stubs (e.g. a `wq` quality flag),
   and surface the authored ones first. _(S–M)_
 - **(b) Author-in-the-loop enrichment.** Keep the auto-facts as a _draft_ layer the owner
-  rewrites into voice, city by city, with a simple "needs voice" queue in `tools/`. _(L,
-  ongoing)_
+  rewrites into voice, city by city. _Started:_ `npm run voice-queue -- --city=london --limit=100`
+  now writes `data/voice-queue.json`, a prioritised "needs voice" queue from `data/quality.json`
+  (`m`/`d` first, notable and short/empty writeups boosted). _(L, ongoing)_
 - **(c) Visibly separate the two voices** in the UI — "Author's note" vs. "Reference
   (Wikipedia/OSM)" — so the machine text never masquerades as the author's. _(S)_
 
