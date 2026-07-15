@@ -3378,6 +3378,7 @@ if(D.readyState!=="loading")setTimeout(handle,700);else addEventListener("DOMCon
    DORMANT until the CFG keys below are filled in. See BACKEND.md.
    Loads AFTER the synchronous app boot, so offline-first is preserved.
    Sign-in + reminders UI live in the You tab (React) via window.flAuth / window.flPush. */
+try{document.documentElement.setAttribute("data-flcloud-started","1");}catch(_){}
 (function(){try{
 var CFG={
   posthogKey:"phc_zuBfJrtsWA3uf5UPbNyAQVpsTZkyKBPmL654yfCEWBzn",
@@ -3821,7 +3822,7 @@ window.flSocialUI=function(openUser){
     });
   }).catch(function(){});
 }
-}catch(e){try{console.error("Flâneur cloud init failed",e&&e.stack||e);}catch(_){}}})();
+}catch(e){try{document.documentElement.setAttribute("data-flcloud-error",String(e&&e.message||e).slice(0,160));console.error("Flâneur cloud init failed",e&&e.stack||e);}catch(_){}}})();
 </script>
 <script>
 /* Flâneur product pass (Jul 2026, product review P1-P3):
