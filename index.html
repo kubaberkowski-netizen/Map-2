@@ -3555,7 +3555,7 @@ if(CFG.supabaseUrl&&CFG.supabaseAnon){
   mySlugs:function(){if(!sb||!USER)return Promise.resolve([]);return sb.from("collections").select("slug,name").eq("owner_id",USER.id).then(function(r){return (r&&r.data)||[];},function(){return [];});},
   discover:function(lim){if(!sb)return Promise.resolve([]);return sb.rpc("top_collections",{lim:lim||25}).then(function(r){if(r&&!r.error&&r.data){return r.data.map(function(c){return {slug:c.slug,name:c.name,emoji:c.emoji,city:c.city,owner_id:c.owner_id,places:c.places,likes:c.likes,liked:c.liked,author:c.author_username?{user_id:c.owner_id,username:c.author_username,avatar_v:c.author_avatar_v}:null};}).filter(function(c){return !_blk[c.owner_id];});}return window.flSocial._discoverFallback(lim);},function(){return window.flSocial._discoverFallback(lim);});},
   _discoverFallback:function(lim){if(!sb)return Promise.resolve([]);return Promise.all([sb.from("collections").select("slug,name,emoji,city,spots,updated_at,owner_id").order("updated_at",{ascending:false}).limit(120),sb.from("collection_likes").select("slug,user_id")]).then(function(a){var cols=(a[0]&&a[0].data)||[];var lk=(a[1]&&a[1].data)||[];var cnt={},mine={};lk.forEach(function(x){cnt[x.slug]=(cnt[x.slug]||0)+1;if(USER&&x.user_id===USER.id)mine[x.slug]=1;});if(!cols.length)return [];var oids=cols.map(function(c){return c.owner_id;});return sb.from("public_profiles").select("user_id,username,display_name").in("user_id",oids).then(function(pr){var pm={};((pr&&pr.data)||[]).forEach(function(p){pm[p.user_id]=p;});return cols.map(function(c){return Object.assign({},c,{author:pm[c.owner_id]||null,likes:cnt[c.slug]||0,liked:!!mine[c.slug]});}).filter(function(c){return !_blk[c.owner_id];}).sort(function(x,y){return (y.likes-x.likes)||(x.updated_at<y.updated_at?1:-1);}).slice(0,lim||25);},function(){return cols.map(function(c){return Object.assign({},c,{author:null,likes:cnt[c.slug]||0,liked:!!mine[c.slug]});}).slice(0,lim||25);});},function(){return [];});},
-  suggestedPeople:function(lim){if(!sb)return Promise.resolve([]);return sb.from("public_profiles").select("user_id,username,display_name,bio").order("updated_at",{ascending:false}).limit(40).then(function(r){var list=(r&&r.data)||[];if(!USER)return list.slice(0,lim||12);return sb.from("follows").select("followee_id").eq("follower_id",USER.id).then(function(fr){var f={};((fr&&fr.data)||[]).forEach(function(x){f[x.followee_id]=1;});return list.filter(function(p){return p.user_id!==USER.id&&!f[p.user_id]&&!_blk[p.user_id];}).slice(0,lim||12);},function(){return list.slice(0,lim||12);});},function(){return [];});},
+  suggestedPeople:function(lim){if(!sb)return Promise.resolve([]);return sb.from("public_profiles").select("user_id,username,display_name,bio,avatar_v,checkins,visited,km,worlds,streak").order("updated_at",{ascending:false}).limit(40).then(function(r){var list=(r&&r.data)||[];if(!USER)return list.slice(0,lim||12);return sb.from("follows").select("followee_id").eq("follower_id",USER.id).then(function(fr){var f={};((fr&&fr.data)||[]).forEach(function(x){f[x.followee_id]=1;});return list.filter(function(p){return p.user_id!==USER.id&&!f[p.user_id]&&!_blk[p.user_id];}).slice(0,lim||12);},function(){return list.slice(0,lim||12);});},function(){return [];});},
   activity:function(){if(!sb||!USER)return Promise.resolve([]);return Promise.all([sb.from("collections").select("slug,name").eq("owner_id",USER.id),sb.from("collection_collaborators").select("slug").eq("user_id",USER.id)]).then(function(own){var myc=(own[0]&&own[0].data)||[];var nm={},ownedSlugs=[];myc.forEach(function(c){nm[c.slug]=c.name;ownedSlugs.push(c.slug);});var collabSlugs=((own[1]&&own[1].data)||[]).map(function(x){return x.slug;});var editable=ownedSlugs.concat(collabSlugs);function go(){return Promise.all([sb.from("follows").select("follower_id,created_at").eq("followee_id",USER.id).order("created_at",{ascending:false}).limit(40),ownedSlugs.length?sb.from("collection_likes").select("user_id,slug,created_at").in("slug",ownedSlugs).order("created_at",{ascending:false}).limit(40):Promise.resolve({data:[]}),editable.length?sb.from("collection_events").select("slug,actor_id,created_at").in("slug",editable).neq("actor_id",USER.id).order("created_at",{ascending:false}).limit(40):Promise.resolve({data:[]})]).then(function(a){var fol=(a[0]&&a[0].data)||[],lik=(a[1]&&a[1].data)||[],evs=(a[2]&&a[2].data)||[];var ids={};fol.forEach(function(x){if(x.follower_id!==USER.id)ids[x.follower_id]=1;});lik.forEach(function(x){if(x.user_id!==USER.id)ids[x.user_id]=1;});evs.forEach(function(x){if(x.actor_id!==USER.id)ids[x.actor_id]=1;});var idl=Object.keys(ids);function build(pm){var items=[];fol.forEach(function(x){if(x.follower_id===USER.id)return;items.push({type:"follow",ts:x.created_at,who:pm[x.follower_id]||null});});lik.forEach(function(x){if(x.user_id===USER.id)return;items.push({type:"like",ts:x.created_at,who:pm[x.user_id]||null,slug:x.slug,name:nm[x.slug]||"a collection"});});evs.forEach(function(x){if(x.actor_id===USER.id)return;items.push({type:"collab",ts:x.created_at,who:pm[x.actor_id]||null,slug:x.slug,name:nm[x.slug]||"a collection"});});items.sort(function(p,q){return (p.ts<q.ts)?1:-1;});return items.filter(function(it){return !(it.who&&_blk[it.who.user_id]);}).slice(0,40);}if(!idl.length)return [];return sb.from("public_profiles").select("user_id,username,display_name").in("user_id",idl).then(function(pr){var pm={};((pr&&pr.data)||[]).forEach(function(p){pm[p.user_id]=p;});return build(pm);},function(){return [];});},function(){return [];});}var missing=collabSlugs.filter(function(x){return !nm[x];});if(!missing.length)return go();return sb.from("collections").select("slug,name").in("slug",missing).then(function(cr){((cr&&cr.data)||[]).forEach(function(c){nm[c.slug]=c.name;});return go();},function(){return go();});},function(){return [];});},
   comments:function(slug){if(!sb)return Promise.resolve([]);return sb.from("collection_comments").select("id,user_id,body,created_at").eq("slug",slug).order("created_at",{ascending:true}).limit(200).then(function(r){var rows=(r&&r.data)||[];if(!rows.length)return [];var ids=rows.map(function(x){return x.user_id;});return sb.from("public_profiles").select("user_id,username,display_name").in("user_id",ids).then(function(pr){var pm={};((pr&&pr.data)||[]).forEach(function(p){pm[p.user_id]=p;});return rows.map(function(x){return Object.assign({},x,{author:pm[x.user_id]||null});});},function(){return rows;});},function(){return [];});},
   addComment:function(slug,body){if(!sb||!USER)return Promise.reject({code:"auth"});body=String(body||"").trim().slice(0,500);if(!body)return Promise.reject({code:"empty"});return sb.from("collection_comments").insert({slug:slug,user_id:USER.id,body:body}).then(function(r){if(r&&r.error)return Promise.reject({code:"db",message:r.error.message});try{sb.from("collections").select("owner_id,name").eq("slug",slug).maybeSingle().then(function(rr){if(rr&&rr.data&&rr.data.owner_id)flNotify("comment",rr.data.owner_id,{name:rr.data.name,slug:slug});},function(){});}catch(e){}return true;});},
@@ -3592,47 +3592,54 @@ uploadAvatar:function(file){return new Promise(function(res,rej){if(!sb||!USER){
 window.flSocialUI=function(openUser){
   if(document.getElementById("flsoc"))return;
   var S=window.flSocial;
-  var ov=el("div","position:fixed;inset:0;z-index:3300;background:var(--bg,#F3EEE6);overflow:auto;-webkit-overflow-scrolling:touch;animation:popfade .15s ease;");ov.id="flsoc";
-  var card=el("div","background:var(--bg,#F3EEE6);color:var(--ink,#1a1a1a);width:100%;max-width:680px;min-height:100%;margin:0 auto;animation:popfade .2s ease;");
+  var ov=el("div","position:fixed;inset:0;z-index:3300;background:var(--bg,#F3EEE6);overflow:auto;-webkit-overflow-scrolling:touch;animation:popfade .15s ease;");ov.id="flsoc";ov.className="socialatlas";
+  var card=el("div","background:var(--bg,#F3EEE6);color:var(--ink,#1a1a1a);width:100%;max-width:680px;min-height:100%;margin:0 auto;animation:popfade .2s ease;");card.className="socialatlas-card";
   
-  var pad=el("div","padding:16px 20px 56px;font:500 14px var(--font-sans),sans-serif;");card.appendChild(pad);ov.appendChild(card);document.body.appendChild(ov);
+  var pad=el("div","padding:16px 20px 56px;font:500 14px var(--font-sans),sans-serif;");pad.className="socialatlas-pad";card.appendChild(pad);ov.appendChild(card);flOverlayTheme(ov);ov.setAttribute("role","dialog");ov.setAttribute("aria-modal","true");ov.setAttribute("aria-label","The Field Atlas");document.body.appendChild(ov);
   function close(){ov.remove();}
   ov.onclick=function(e){if(e.target===ov)close();};
-  function h(t){var d=el("div","display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;");d.appendChild(el("div","font:800 20px var(--font-serif);",t));var x=el("button","border:none;background:none;font-size:22px;color:var(--ink3,#888);cursor:pointer;line-height:1;","×");x.onclick=close;d.appendChild(x);return d;}
+  function h(t){var d=el("div","display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;");d.className="socialatlas-top";var brand=el("div","font:800 20px var(--font-serif);",t);brand.className="socialatlas-brand";d.appendChild(brand);var x=el("button","border:none;background:none;font-size:22px;color:var(--ink3,#888);cursor:pointer;line-height:1;","×");x.className="socialatlas-close";x.setAttribute("aria-label","Close field atlas");x.onclick=close;d.appendChild(x);return d;}
   function clr(){pad.innerHTML="";}
-  function note(t,c){return el("div","font-size:13px;color:"+(c||"var(--ink3,#777)")+";margin:6px 0;line-height:1.4;",t);}
-  function btn(label,style){var b=el("button","border:none;border-radius:11px;padding:11px 14px;font:700 14px var(--font-sans);cursor:pointer;"+(style||"background:var(--red,#C8372D);color:#fff;"));b.textContent=label;return b;}
-  function lbl(t){return el("div","font:700 12px var(--font-sans);text-transform:uppercase;letter-spacing:.05em;color:var(--ink3,#888);margin-bottom:8px;",t);}
-  function inp(ph){var e=el("input","width:100%;box-sizing:border-box;padding:10px;border:1px solid var(--line,#ddd);border-radius:10px;font:inherit;background:var(--bg,#fff);color:var(--ink,#000);");e.placeholder=ph;return e;}
+  function note(t,c){var n=el("div","font-size:13px;color:"+(c||"var(--ink3,#777)")+";margin:6px 0;line-height:1.4;",t);n.className="socnote";return n;}
+  function btn(label,style){var b=el("button","border:none;border-radius:11px;padding:11px 14px;font:700 14px var(--font-sans);cursor:pointer;"+(style||"background:var(--red,#C8372D);color:#fff;"));b.className="socbtn";b.textContent=label;return b;}
+  function lbl(t){var l=el("div","font:700 12px var(--font-sans);text-transform:uppercase;letter-spacing:.05em;color:var(--ink3,#888);margin-bottom:8px;",t);l.className="soclabel";return l;}
+  function inp(ph){var e=el("input","width:100%;box-sizing:border-box;padding:10px;border:1px solid var(--line,#ddd);border-radius:10px;font:inherit;background:var(--bg,#fff);color:var(--ink,#000);");e.className="socinput";e.placeholder=ph;return e;}
+  function atlasHero(signedIn){var hero=el("section","");hero.className="socialatlas-hero";var copy=el("div","");copy.className="socialatlas-herocopy";copy.appendChild(el("div","",signedIn?"YOUR FIELD NOTES":"THE PUBLIC ATLAS"));copy.firstChild.className="socialatlas-kicker";copy.appendChild(el("h1","",signedIn?"Follow taste, not friends.":"See the city through another pair of eyes."));copy.appendChild(el("p","",signedIn?"Fresh maps, small discoveries and walking traces from people whose eye you trust.":"Open field maps made by curious walkers, then borrow the route for your own day out."));hero.appendChild(copy);var map=el("div","");map.className="socialatlas-compass";map.setAttribute("aria-hidden","true");map.innerHTML='<span class="sa-ring sa-ring-a"></span><span class="sa-ring sa-ring-b"></span><span class="sa-route"></span><i class="sa-pin sa-pin-a"></i><i class="sa-pin sa-pin-b"></i><b>N</b>';hero.appendChild(map);return hero;}
+  function sectionHead(kicker,title,copy){var d=el("div","");d.className="socsection-head";if(kicker)d.appendChild(el("div","",kicker));if(kicker)d.firstChild.className="socsection-kicker";if(title)d.appendChild(el("h2","",title));if(copy)d.appendChild(el("p","",copy));return d;}
+  function cityLabel(city){return String(city||"Somewhere").replace(/[-_]+/g," ").replace(/\b\w/g,function(x){return x.toUpperCase();});}
   function colUrl(slug){return (location.origin+location.pathname.replace(/[^/]*$/,""))+"c.html?s="+encodeURIComponent(slug);}
   function setFollow(b,following,uid){b.textContent=following?"Following":"Follow";b.style.background=following?"var(--surface2,#eee)":"var(--red,#C8372D)";b.style.color=following?"var(--ink,#211)":"#fff";b.onclick=function(){if(!USER){close();openModal();return;}b.disabled=true;(following?S.unfollow(uid):S.follow(uid)).then(function(){setFollow(b,!following,uid);b.disabled=false;},function(){b.disabled=false;});};}
   function likeBtn(c){
     var b=el("button","display:inline-flex;align-items:center;gap:5px;border:none;background:none;cursor:pointer;font:700 13px var(--font-sans);color:var(--ink3,#888);padding:4px 2px;flex:none;");
+    b.className="socreact soclike";b.setAttribute("aria-label","Like this field map");
     function paint(){b.innerHTML="";b.appendChild(el("span","font-size:16px;line-height:1;color:"+(c.liked?"var(--red,#C8372D)":"var(--ink3,#999)")+";",c.liked?"♥":"♡"));b.appendChild(el("span","",String(c.likes||0)));}
     paint();
     b.onclick=function(e){e.preventDefault();e.stopPropagation();if(!USER){close();openModal();return;}b.disabled=true;var was=c.liked;(was?S.unlike(c.slug):S.like(c.slug)).then(function(){c.liked=!was;c.likes=Math.max(0,(c.likes||0)+(was?-1:1));paint();b.disabled=false;},function(){b.disabled=false;});};
     return b;
   }
   function colCard(c){
-    var card=el("div","display:flex;align-items:center;gap:10px;padding:11px;border:1px solid var(--line,#eee);border-radius:14px;margin-bottom:8px;");
-    var open=el("a","display:flex;align-items:center;gap:11px;flex:1;min-width:0;text-decoration:none;color:var(--ink,#211);");
-    open.href=colUrl(c.slug);open.target="_blank";open.rel="noopener";
-    open.appendChild(el("div","width:40px;height:40px;border-radius:11px;background:var(--tint,#ECE4D4);display:flex;align-items:center;justify-content:center;font-size:19px;flex:none;",c.emoji||"📍"));
-    var mid=el("div","flex:1;min-width:0;");
-    mid.appendChild(el("div","font:700 14.5px var(--font-sans);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;",c.name||"Collection"));
+    var card=el("article","");card.className="socmapcard";
+    var by=el("div","");by.className="socmapby";
+    if(c.author){by.appendChild(avatarEl(c.author,28));var who=el("div","");who.className="socmapwho";who.appendChild(el("strong","","@"+c.author.username));who.appendChild(el("span","",c.updated_at?"Mapped "+ago(c.updated_at):"Public wanderer"));by.appendChild(who);}else{by.appendChild(el("div","","FIELD MAP"));by.firstChild.className="socmapstamp";}
+    by.appendChild(el("span","",cityLabel(c.city)));by.lastChild.className="socmapcity";card.appendChild(by);
+    var open=el("a","");open.className="socmapopen";
+    open.href=colUrl(c.slug);open.target="_blank";open.rel="noopener";open.setAttribute("aria-label","Open "+(c.name||"field map"));
+    var visual=el("div","");visual.className="socmapvisual";var seed=0;String(c.slug||c.name||"").split("").forEach(function(ch){seed=(seed+ch.charCodeAt(0))%97;});visual.style.setProperty("--sa-x",(24+seed%42)+"%");visual.style.setProperty("--sa-y",(25+(seed*3)%45)+"%");visual.innerHTML='<span class="socmap-contour c1"></span><span class="socmap-contour c2"></span><span class="socmap-trail"></span><i class="socmap-dot d1"></i><i class="socmap-dot d2"></i><i class="socmap-dot d3"></i>';
+    var em=el("span","");em.className="socmapemoji";em.appendChild(el("b","",c.emoji||"📍"));visual.appendChild(em);open.appendChild(visual);
+    var mid=el("div","");mid.className="socmapbody";
+    mid.appendChild(el("div","","A MAP FOR WANDERING"));mid.firstChild.className="socmapkicker";
+    mid.appendChild(el("h3","",c.name||"Collection"));
     var _n=(c.places!=null?c.places:(Array.isArray(c.spots)?c.spots.length:null));
-    var subw=el("div","display:flex;align-items:center;gap:5px;font-size:12px;color:var(--ink3,#777);white-space:nowrap;overflow:hidden;");
-    if(c.author)subw.appendChild(avatarEl(c.author,16));
-    subw.appendChild(el("span","overflow:hidden;text-overflow:ellipsis;",(c.author?"@"+c.author.username:"")+(_n!=null?((c.author?" · ":"")+_n+" places"):"")));
+    var subw=el("div","");subw.className="socmapmeta";subw.appendChild(el("span","",_n!=null?_n+" places":"A public collection"));subw.appendChild(el("span","","Open map ↗"));
     mid.appendChild(subw);
-    open.appendChild(mid);card.appendChild(open);var _acts=el("div","display:flex;align-items:center;gap:2px;flex:none;");_acts.appendChild(likeBtn(c));_acts.appendChild(commentBtn(c));card.appendChild(_acts);
+    open.appendChild(mid);card.appendChild(open);var _acts=el("div","");_acts.className="socmapacts";_acts.appendChild(likeBtn(c));_acts.appendChild(commentBtn(c));var view=el("a","","Walk this map");view.className="socmapwalk";view.href=colUrl(c.slug);view.target="_blank";view.rel="noopener";_acts.appendChild(view);card.appendChild(_acts);
     return card;
   }
   function ago(ts){try{var d=(Date.now()-new Date(ts).getTime())/1000;if(d<60)return "just now";if(d<3600)return Math.floor(d/60)+"m";if(d<86400)return Math.floor(d/3600)+"h";if(d<604800)return Math.floor(d/86400)+"d";return Math.floor(d/604800)+"w";}catch(e){return "";}}
-  function actCard(it){var c=el("div","display:flex;align-items:center;gap:11px;padding:10px 2px;border-bottom:1px solid var(--line,#eee);");var who=it.who?("@"+it.who.username):"Someone";c.appendChild(avatarEl(it.who,34));var mid=el("div","flex:1;min-width:0;font-size:13.5px;color:var(--ink,#222);line-height:1.35;");mid.appendChild(el("span","font-weight:700;",who));mid.appendChild(document.createTextNode(it.type==="follow"?" started following you":it.type==="collab"?(" edited “"+(it.name||"a collection")+"”"):(" liked "+(it.name||"your collection"))));c.appendChild(mid);c.appendChild(el("div","font-size:11.5px;color:var(--ink3,#999);flex:none;",ago(it.ts)));if(it.who)c.style.cursor="pointer",c.onclick=function(){window.open(S.profileUrl(it.who.username),"_blank","noopener");};return c;}
-  function discoverSection(){var wrap=el("div","margin-top:16px;border-top:1px solid var(--line,#eee);padding-top:14px;");wrap.appendChild(lbl("Discover"));var list=el("div","");wrap.appendChild(list);list.appendChild(note("Loading…"));S.discover(20).then(function(arr){list.innerHTML="";if(!arr.length){list.appendChild(note("No public collections yet — be the first to publish one."));return;}arr.forEach(function(c){list.appendChild(colCard(c));});},function(){list.innerHTML="";list.appendChild(note("Couldn’t load Discover."));});return wrap;}
-  function activitySection(){var wrap=el("div","margin-top:16px;border-top:1px solid var(--line,#eee);padding-top:14px;");var head=el("div","display:flex;align-items:center;gap:8px;margin-bottom:8px;");head.appendChild(el("div","font:700 12px var(--font-sans);text-transform:uppercase;letter-spacing:.05em;color:var(--ink3,#888);","Activity"));var badge=el("span","display:none;background:var(--red,#C8372D);color:#fff;border-radius:99px;font:800 11px var(--font-sans);padding:1px 7px;");head.appendChild(badge);wrap.appendChild(head);var list=el("div","");wrap.appendChild(list);list.appendChild(note("Loading…"));var seen=0;try{seen=+localStorage.getItem("flaneur-actseen")||0;}catch(e){}S.activity().then(function(arr){list.innerHTML="";if(!arr.length){list.appendChild(note("No activity yet — follows and likes on your collections show up here."));return;}var unread=arr.filter(function(it){return new Date(it.ts).getTime()>seen;}).length;if(unread>0){badge.style.display="inline-block";badge.textContent=unread+" new";}arr.forEach(function(it){list.appendChild(actCard(it));});try{localStorage.setItem("flaneur-actseen",String(Date.now()));window.flSocialUnread=0;window.dispatchEvent(new CustomEvent("flsocialunread",{detail:0}));}catch(e){}},function(){list.innerHTML="";list.appendChild(note("Couldn’t load activity."));});return wrap;}
-  function commentBtn(c){var b=el("button","display:inline-flex;align-items:center;gap:4px;border:none;background:none;cursor:pointer;font:700 13px var(--font-sans);color:var(--ink3,#888);padding:4px 2px;flex:none;");b.appendChild(el("span","font-size:15px;line-height:1;","💬"));var cn=el("span","","");b.appendChild(cn);S.commentCount(c.slug).then(function(n){if(n>0)cn.textContent=String(n);});b.onclick=function(e){e.preventDefault();e.stopPropagation();openComments(c);};return b;}
+  function actCard(it){var c=el("div","display:flex;align-items:center;gap:11px;padding:10px 2px;border-bottom:1px solid var(--line,#eee);");c.className="socactivity-row";var who=it.who?("@"+it.who.username):"Someone";c.appendChild(avatarEl(it.who,34));var mid=el("div","flex:1;min-width:0;font-size:13.5px;color:var(--ink,#222);line-height:1.35;");mid.appendChild(el("span","font-weight:700;",who));mid.appendChild(document.createTextNode(it.type==="follow"?" started following you":it.type==="collab"?(" edited “"+(it.name||"a collection")+"”"):(" liked "+(it.name||"your collection"))));c.appendChild(mid);c.appendChild(el("div","font-size:11.5px;color:var(--ink3,#999);flex:none;",ago(it.ts)));if(it.who)c.style.cursor="pointer",c.onclick=function(){window.open(S.profileUrl(it.who.username),"_blank","noopener");};return c;}
+  function discoverSection(){var wrap=el("section","margin-top:16px;border-top:1px solid var(--line,#eee);padding-top:14px;");wrap.className="socsection socdiscover";wrap.appendChild(sectionHead("CURATED BY WANDERERS","Maps worth walking","Popular public collections, chosen by the people who made them—not an algorithm."));var list=el("div","");list.className="socmapgrid";wrap.appendChild(list);list.appendChild(note("Loading field maps…"));S.discover(20).then(function(arr){list.innerHTML="";if(!arr.length){list.appendChild(note("No public collections yet — be the first to publish one."));return;}arr.forEach(function(c){list.appendChild(colCard(c));});},function(){list.innerHTML="";list.appendChild(note("Couldn’t load the public atlas."));});return wrap;}
+  function activitySection(){var wrap=el("section","margin-top:16px;border-top:1px solid var(--line,#eee);padding-top:14px;");wrap.className="socsection socactivity";var head=sectionHead("SIGNALS","Around your atlas","Likes, follows and shared edits—kept deliberately quiet.");var badge=el("span","display:none;background:var(--red,#C8372D);color:#fff;border-radius:99px;font:800 11px var(--font-sans);padding:1px 7px;");badge.className="socactivity-badge";head.appendChild(badge);wrap.appendChild(head);var list=el("div","");list.className="socactivity-list";wrap.appendChild(list);list.appendChild(note("Loading signals…"));var seen=0;try{seen=+localStorage.getItem("flaneur-actseen")||0;}catch(e){}S.activity().then(function(arr){list.innerHTML="";if(!arr.length){list.appendChild(note("Quiet for now — follows and likes on your maps will appear here."));return;}var unread=arr.filter(function(it){return new Date(it.ts).getTime()>seen;}).length;if(unread>0){badge.style.display="inline-block";badge.textContent=unread+" new";}arr.forEach(function(it){list.appendChild(actCard(it));});try{localStorage.setItem("flaneur-actseen",String(Date.now()));window.flSocialUnread=0;window.dispatchEvent(new CustomEvent("flsocialunread",{detail:0}));}catch(e){}},function(){list.innerHTML="";list.appendChild(note("Couldn’t load activity."));});return wrap;}
+  function commentBtn(c){var b=el("button","display:inline-flex;align-items:center;gap:4px;border:none;background:none;cursor:pointer;font:700 13px var(--font-sans);color:var(--ink3,#888);padding:4px 2px;flex:none;");b.className="socreact soccomment";b.setAttribute("aria-label","Open comments");b.appendChild(el("span","font-size:15px;line-height:1;","↳"));var cn=el("span","","");b.appendChild(cn);S.commentCount(c.slug).then(function(n){if(n>0)cn.textContent=String(n);});b.onclick=function(e){e.preventDefault();e.stopPropagation();openComments(c);};return b;}
   function commentRow(m){var row=el("div","display:flex;gap:10px;padding:11px 0;border-bottom:1px solid var(--line,#eee);");row.appendChild(avatarEl(m.author,32));var mid=el("div","flex:1;min-width:0;");var top=el("div","font-size:12px;color:var(--ink3,#888);margin-bottom:2px;");top.appendChild(el("span","font-weight:700;color:var(--ink,#222);",(m.author?"@"+m.author.username:"someone")));top.appendChild(document.createTextNode(" · "+ago(m.created_at)));mid.appendChild(top);mid.appendChild(el("div","font-size:14px;color:var(--ink,#222);line-height:1.4;word-break:break-word;",m.body));row.appendChild(mid);if(USER&&m.user_id===USER.id){var del=el("button","border:none;background:none;color:var(--ink3,#bbb);cursor:pointer;font-size:16px;flex:none;","×");del.onclick=function(){S.deleteComment(m.id).then(function(){row.remove();});};row.appendChild(del);}return row;}
   function openComments(c){if(document.getElementById("flcom"))return;var ov2=el("div","position:fixed;inset:0;z-index:3400;background:rgba(20,16,12,.55);display:flex;align-items:flex-end;justify-content:center;animation:popfade .15s ease;");ov2.id="flcom";var cd=el("div","background:var(--surface,#fff);color:var(--ink,#1a1a1a);border-radius:18px 18px 0 0;width:100%;max-width:480px;max-height:88vh;display:flex;flex-direction:column;animation:popup .24s cubic-bezier(.2,.8,.3,1);");cd.appendChild(el("div","width:38px;height:4px;border-radius:99px;background:var(--line,#D8D0C2);margin:9px auto 3px;flex:none;"));var hd=el("div","display:flex;align-items:center;justify-content:space-between;padding:4px 18px 8px;flex:none;");hd.appendChild(el("div","font:800 17px var(--font-serif);",(c.name?String(c.name).slice(0,30):"Comments")));var x2=el("button","border:none;background:none;font-size:22px;color:var(--ink3,#888);cursor:pointer;","×");x2.onclick=function(){ov2.remove();};hd.appendChild(x2);cd.appendChild(hd);var listW=el("div","flex:1;overflow:auto;padding:0 18px;");cd.appendChild(listW);var bar=el("div","display:flex;gap:8px;padding:10px 18px calc(14px + env(safe-area-inset-bottom));border-top:1px solid var(--line,#eee);flex:none;");var ci=inp("Add a comment…");ci.style.flex="1";var send=btn("Post");send.style.flex="none";bar.appendChild(ci);bar.appendChild(send);cd.appendChild(bar);ov2.appendChild(cd);document.body.appendChild(ov2);ov2.onclick=function(e){if(e.target===ov2)ov2.remove();};function load(){listW.innerHTML="";listW.appendChild(note("Loading…"));S.comments(c.slug).then(function(arr){listW.innerHTML="";if(!arr.length){listW.appendChild(note("No comments yet — say something."));return;}arr.forEach(function(m){listW.appendChild(commentRow(m));});listW.scrollTop=listW.scrollHeight;},function(){listW.innerHTML="";listW.appendChild(note("Couldn’t load comments."));});}function post(){var t=(ci.value||"").trim();if(!t)return;if(!USER){ov2.remove();close();openModal();return;}send.disabled=true;S.addComment(c.slug,t).then(function(){ci.value="";send.disabled=false;load();},function(){send.disabled=false;});}send.onclick=post;ci.onkeydown=function(e){if(e.key==="Enter")post();};load();}
   function setFriend(b,status,uid){var map={none:["Add friend","var(--surface2,#eee)","var(--ink,#211)"],pending_out:["Requested","var(--surface2,#eee)","var(--ink3,#888)"],pending_in:["Accept","var(--red,#C8372D)","#fff"],friends:["✓ Friends","var(--surface2,#eee)","var(--ink,#211)"]};var m=map[status]||map.none;b.textContent=m[0];b.style.background=m[1];b.style.color=m[2];b.onclick=function(){if(!USER){close();openModal();return;}b.disabled=true;var act;if(status==="none")act=S.sendFriendRequest(uid);else if(status==="pending_out")act=S.cancelFriendRequest(uid);else if(status==="pending_in")act=S.acceptFriendRequest(uid);else act=S.unfriend(uid);act.then(function(){return S.friendStatus(uid);}).then(function(ns){setFriend(b,ns,uid);b.disabled=false;},function(){b.disabled=false;});};}
@@ -3648,12 +3655,15 @@ window.flSocialUI=function(openUser){
   function openCollab(c){if(document.getElementById("flcollab"))return;var ov4=el("div","position:fixed;inset:0;z-index:3400;background:rgba(20,16,12,.55);display:flex;align-items:flex-end;justify-content:center;animation:popfade .15s ease;");ov4.id="flcollab";var cd=el("div","background:var(--surface,#fff);color:var(--ink,#1a1a1a);border-radius:18px 18px 0 0;width:100%;max-width:480px;max-height:90vh;overflow:auto;animation:popup .24s cubic-bezier(.2,.8,.3,1);");cd.appendChild(el("div","width:38px;height:4px;border-radius:99px;background:var(--line,#D8D0C2);margin:9px auto 3px;"));var pd=el("div","padding:6px 18px 26px;font:500 14px var(--font-sans),sans-serif;");cd.appendChild(pd);ov4.appendChild(cd);document.body.appendChild(ov4);ov4.onclick=function(e){if(e.target===ov4)closeCollab();};var hd=el("div","display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;");hd.appendChild(el("div","font:800 19px var(--font-serif);",(c.emoji?c.emoji+" ":"")+(c.name||"Collection")));var xx=el("button","border:none;background:none;font-size:22px;color:var(--ink3,#888);cursor:pointer;","×");xx.onclick=function(){closeCollab();};hd.appendChild(xx);pd.appendChild(hd);var ch=null;function closeCollab(){try{if(ch&&sb&&sb.removeChannel)sb.removeChannel(ch);}catch(e){}ov4.remove();}var presBar=el("div","display:flex;align-items:center;gap:6px;margin-bottom:10px;");presBar.id="flcollabpres";pd.appendChild(presBar);function renderPresence(people){var bar=document.getElementById("flcollabpres");if(!bar)return;var others=people.filter(function(m){return m.user_id!==(USER&&USER.id);});bar.innerHTML="";if(!others.length)return;bar.appendChild(el("span","font-size:12px;color:var(--ok,#1F8A5B);font-weight:700;","● here now"));others.slice(0,6).forEach(function(m){bar.appendChild(avatarEl(m,22));});}function startPresence(mp){try{if(!sb||!sb.channel||!USER)return;ch=sb.channel("collab:"+c.slug,{config:{presence:{key:USER.id}}});ch.on("presence",{event:"sync"},function(){try{var stt=ch.presenceState(),seen={},people=[];Object.keys(stt).forEach(function(k){(stt[k]||[]).forEach(function(mm){if(mm&&mm.user_id&&!seen[mm.user_id]){seen[mm.user_id]=1;people.push(mm);}});});renderPresence(people);}catch(e){}});ch.on("broadcast",{event:"edit"},function(){loadSpots();});ch.subscribe(function(status){if(status==="SUBSCRIBED"){try{ch.track({user_id:USER.id,username:(mp&&mp.username)||"",avatar_v:(mp&&mp.avatar_v)||null});}catch(e){}}});}catch(e){}}S.myProfile().then(function(mp){startPresence(mp);},function(){startPresence(null);});var isOwner=(c.owner_id===(USER&&USER.id));var canEdit=isOwner;pd.appendChild(lbl("Collaborators"));var collabBox=el("div","");pd.appendChild(collabBox);collabBox.appendChild(note("Loading…"));function loadCollabs(){collabBox.innerHTML="";S.collaborators(c.slug).then(function(arr){collabBox.innerHTML="";arr.forEach(function(p){if(USER&&p.user_id===USER.id)canEdit=true;var row=el("div","display:flex;align-items:center;gap:10px;padding:7px 0;");row.appendChild(avatarEl(p,30));var mm=el("div","flex:1;min-width:0;");mm.appendChild(el("div","font:700 13.5px var(--font-sans);","@"+(p.username||"?")+(p.owner?" · owner":"")));row.appendChild(mm);if(isOwner&&!p.owner){var rmb=el("button","border:none;background:none;color:var(--ink3,#bbb);font-size:16px;cursor:pointer;","×");rmb.onclick=function(){S.removeCollaborator(c.slug,p.user_id).then(loadCollabs);};row.appendChild(rmb);}collabBox.appendChild(row);});});}loadCollabs();if(isOwner){var addRow=el("div","display:flex;gap:8px;margin-top:8px;");var ai=inp("@username to invite");ai.style.flex="1";var ab=btn("Add");ab.style.flex="none";addRow.appendChild(ai);addRow.appendChild(ab);pd.appendChild(addRow);var amsg=el("div","font-size:12px;color:var(--ink3,#777);margin-top:5px;min-height:14px;","");pd.appendChild(amsg);ab.onclick=function(){var u=(ai.value||"").replace(/^@/,"").trim().toLowerCase();if(!u)return;ab.disabled=true;amsg.textContent="Adding…";S.getProfile(u).then(function(pp){if(!pp){ab.disabled=false;amsg.textContent="No @"+u+" found.";return;}S.addCollaborator(c.slug,pp.user_id).then(function(){ab.disabled=false;amsg.textContent="Added @"+u+".";ai.value="";loadCollabs();},function(){ab.disabled=false;amsg.textContent="Couldn’t add (are you the owner?).";});});};}var spw=el("div","margin-top:16px;border-top:1px solid var(--line,#eee);padding-top:14px;");pd.appendChild(spw);spw.appendChild(lbl("Places"));var spList=el("div","");spw.appendChild(spList);spList.appendChild(note("Loading…"));function loadSpots(){spList.innerHTML="";S.collectionSpots(c.slug).then(function(sp){spList.innerHTML="";sp=sp||[];if(!sp.length){spList.appendChild(note("No places yet."));return;}sp.forEach(function(z){var row=el("div","display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--line,#eee);");row.appendChild(el("div","width:30px;height:30px;border-radius:8px;background:var(--tint,#ECE4D4);display:flex;align-items:center;justify-content:center;font-size:15px;flex:none;",z.e||"📍"));var mm=el("div","flex:1;min-width:0;");mm.appendChild(el("div","font:600 13.5px var(--font-sans);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;",z.n||"Place"));if(z.a)mm.appendChild(el("div","font-size:11.5px;color:var(--ink3,#888);",z.a));row.appendChild(mm);if(canEdit){var rmb=el("button","border:none;background:none;color:var(--ink3,#bbb);font-size:16px;cursor:pointer;flex:none;","×");rmb.onclick=function(){rmb.disabled=true;S.removeSpotFromCollection(c.slug,z.id).then(function(){loadSpots();try{if(ch)ch.send({type:"broadcast",event:"edit",payload:{}});}catch(e){}});};row.appendChild(rmb);}spList.appendChild(row);});});}loadSpots();var mg=el("div","margin-top:16px;border-top:1px solid var(--line,#eee);padding-top:14px;");pd.appendChild(mg);mg.appendChild(lbl("Add places from your collections"));var mgList=el("div","");mg.appendChild(mgList);mgList.appendChild(note("Loading…"));S.collectionsOf(USER.id).then(function(arr){mgList.innerHTML="";arr=(arr||[]).filter(function(x){return x.slug!==c.slug;});if(!arr.length){mgList.appendChild(note("Publish another collection to merge its places in."));return;}arr.forEach(function(src){var row=el("div","display:flex;align-items:center;gap:10px;padding:8px 0;");var mm=el("div","flex:1;min-width:0;");mm.appendChild(el("div","font:600 13.5px var(--font-sans);",(src.emoji?src.emoji+" ":"")+(src.name||"Collection")));mm.appendChild(el("div","font-size:11.5px;color:var(--ink3,#888);",(Array.isArray(src.spots)?src.spots.length+" places":"")));row.appendChild(mm);var ad=btn("Add","background:var(--surface2,#eee);color:var(--ink,#211);font-size:12px;padding:7px 11px;");ad.style.flex="none";ad.onclick=function(){ad.disabled=true;ad.textContent="Adding…";S.mergeIntoCollection(c.slug,src.slug).then(function(){ad.textContent="Added ✓";loadSpots();try{if(ch)ch.send({type:"broadcast",event:"edit",payload:{}});}catch(e){}},function(){ad.disabled=false;ad.textContent="Add";});};row.appendChild(ad);mgList.appendChild(row);});});}
   function personCard(p){
     var c=el("div","display:flex;align-items:center;gap:11px;padding:11px;border:1px solid var(--line,#eee);border-radius:14px;margin-bottom:8px;");
+    c.className="socperson";
     c.appendChild(avatarEl(p,42));
     var mid=el("div","flex:1;min-width:0;");
-    mid.appendChild(el("div","font:700 15px var(--font-sans);color:var(--ink,#211);","@"+p.username));
-    if(p.display_name)mid.appendChild(el("div","font-size:12.5px;color:var(--ink3,#777);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;",p.display_name));
+    mid.className="socperson-copy";mid.appendChild(el("div","font:700 15px var(--font-sans);color:var(--ink,#211);",p.display_name||("@"+p.username)));mid.firstChild.className="socperson-name";
+    mid.appendChild(el("div","font-size:12.5px;color:var(--ink3,#777);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;","@"+p.username+(p.bio?" · "+p.bio:"")));mid.lastChild.className="socperson-bio";
+    var trail=[];if(p.visited)trail.push(p.visited+" places");if(p.worlds)trail.push(p.worlds+" worlds");if(p.km)trail.push((Math.round(p.km*10)/10)+" km");if(trail.length){mid.appendChild(el("div","",trail.slice(0,2).join(" · ")));mid.lastChild.className="socperson-trail";}
     c.appendChild(mid);
     var act=el("div","display:flex;flex-direction:column;gap:5px;flex:none;");
+    act.className="socperson-actions";
     var view=btn("View","background:var(--surface2,#eee);color:var(--ink,#211);font-size:12px;padding:7px 10px;");
     view.onclick=function(){window.open(S.profileUrl(p.username),"_blank","noopener");};
     act.appendChild(view);
@@ -3662,7 +3672,7 @@ window.flSocialUI=function(openUser){
   }
   function findSection(prefill){
     var wrap=el("div","margin-top:18px;border-top:1px solid var(--line,#eee);padding-top:14px;");
-    wrap.appendChild(lbl("Find people"));
+    wrap.className="socsection socialatlas-find";wrap.appendChild(sectionHead("FIND A FAMILIAR FACE","Search wanderers","Look up someone by name or @username."));
     var row=el("div","display:flex;gap:8px;");
     var ip=inp("Name or @username");ip.style.flex="1";
     var go=btn("Find","background:var(--red,#C8372D);color:#fff;");go.style.flex="none";
@@ -3673,6 +3683,7 @@ window.flSocialUI=function(openUser){
     if(prefill){ip.value="@"+String(prefill).replace(/^@/,"");setTimeout(search,0);}
     return wrap;
   }
+  function peopleSection(){var wrap=el("section","");wrap.className="socsection socpeople";wrap.appendChild(sectionHead("PEOPLE WITH AN EYE","Borrow someone’s perspective","Follow a few thoughtful wanderers and their newest maps will become your field notes."));var list=el("div","");list.className="socpeople-list";list.appendChild(note("Looking for wanderers…"));wrap.appendChild(list);S.suggestedPeople(8).then(function(arr){list.innerHTML="";if(!arr.length){list.appendChild(note("The atlas is still quiet here. Search for someone you know below."));return;}arr.forEach(function(p){list.appendChild(personCard(p));});},function(){list.innerHTML="";list.appendChild(note("Couldn’t load wanderers."));});return wrap;}
   function linkRow(parent,username){
     var ex=document.getElementById("flsoclink");if(ex)ex.remove();var ex2=document.getElementById("flsoclink2");if(ex2)ex2.remove();
     var r=el("div","display:flex;gap:8px;margin-top:10px;");r.id="flsoclink";
@@ -3684,27 +3695,27 @@ window.flSocialUI=function(openUser){
   }
   function stat(n,label){var d=el("div","");d.appendChild(el("div","font:800 18px var(--font-serif);color:var(--ink,#211);",String(n)));d.appendChild(el("div","font-size:11.5px;color:var(--ink3,#888);",label));return d;}
   function feedSection(){
-    var wrap=el("div","margin-top:16px;border-top:1px solid var(--line,#eee);padding-top:14px;");
-    wrap.appendChild(lbl("From people you follow"));
-    var list=el("div","");wrap.appendChild(list);list.appendChild(note("Loading…"));
-    S.feed(30).then(function(arr){list.innerHTML="";arr.forEach(function(c){list.appendChild(colCard(c));});S.following().then(function(fl){var act2=(fl||[]).filter(function(p){return ((p.checkins||0)+(p.visited||0)+(p.km||0))>0;});if(!arr.length&&!act2.length){list.appendChild(note("Nothing here yet — find people in Discover to fill this feed."));return;}if(act2.length){var dg=el("div","margin-top:6px;");dg.appendChild(lbl("Out wandering"));act2.sort(function(a,b){return (a.stats_at||"")<(b.stats_at||"")?1:-1;}).slice(0,8).forEach(function(p){var row=el("div","display:flex;align-items:center;gap:10px;padding:8px 2px;border-bottom:1px solid var(--line,#eee);cursor:pointer;");row.appendChild(avatarEl(p,30));var mid=el("div","flex:1;min-width:0;font-size:13px;color:var(--ink,#222);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;");mid.appendChild(el("span","font-weight:700;","@"+p.username));mid.appendChild(document.createTextNode(" — "+(p.checkins||0)+" check-ins · "+(Math.round((p.km||0)*10)/10)+" km"+((p.streak||0)>1?" · "+p.streak+"🔥":"")));row.appendChild(mid);row.onclick=function(){window.open(S.profileUrl(p.username),"_blank","noopener");};dg.appendChild(row);});list.appendChild(dg);}},function(){if(!arr.length)list.appendChild(note("Nothing here yet — follow people to see their newest collections."));});},function(){list.innerHTML="";list.appendChild(note("Couldn’t load your feed."));});
+    var wrap=el("section","margin-top:16px;border-top:1px solid var(--line,#eee);padding-top:14px;");wrap.className="socsection socfeed";
+    wrap.appendChild(sectionHead("FROM PEOPLE YOU FOLLOW","New field maps","A calm feed of places worth leaving the house for."));
+    var list=el("div","");list.className="socmapgrid";wrap.appendChild(list);list.appendChild(note("Unfolding the latest maps…"));
+    S.feed(30).then(function(arr){list.innerHTML="";arr.forEach(function(c){list.appendChild(colCard(c));});S.following().then(function(fl){var act2=(fl||[]).filter(function(p){return ((p.checkins||0)+(p.visited||0)+(p.km||0))>0;});if(!arr.length&&!act2.length){var empty=el("div","");empty.className="socempty";empty.appendChild(el("div","","Your atlas is waiting for a point of view."));empty.appendChild(el("p","","Explore public maps, follow the people whose taste feels useful, and their next discoveries will land here."));list.appendChild(empty);return;}if(act2.length){var dg=el("div","margin-top:6px;");dg.className="socwandering";dg.appendChild(sectionHead("LIVE TRAILS","Out wandering","A light pulse from people you follow—never a location tracker."));act2.sort(function(a,b){return (a.stats_at||"")<(b.stats_at||"")?1:-1;}).slice(0,8).forEach(function(p){var row=el("div","display:flex;align-items:center;gap:10px;padding:8px 2px;border-bottom:1px solid var(--line,#eee);cursor:pointer;");row.className="socwanderer";row.appendChild(avatarEl(p,30));var mid=el("div","flex:1;min-width:0;font-size:13px;color:var(--ink,#222);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;");mid.appendChild(el("span","font-weight:700;","@"+p.username));mid.appendChild(document.createTextNode(" — "+(p.checkins||0)+" check-ins · "+(Math.round((p.km||0)*10)/10)+" km"+((p.streak||0)>1?" · "+p.streak+"🔥":"")));row.appendChild(mid);row.onclick=function(){window.open(S.profileUrl(p.username),"_blank","noopener");};dg.appendChild(row);});list.appendChild(dg);}},function(){if(!arr.length)list.appendChild(note("Nothing here yet — follow people to see their newest collections."));});},function(){list.innerHTML="";list.appendChild(note("Couldn’t load your field notes."));});
     return wrap;
   }
   function followingSection(){
     var wrap=el("div","margin-top:16px;border-top:1px solid var(--line,#eee);padding-top:14px;");
-    wrap.appendChild(lbl("Following"));
+    wrap.className="socsection socfollowing";wrap.appendChild(sectionHead("YOUR CIRCLE","Following","The people whose maps shape your field notes."));
     var list=el("div","");wrap.appendChild(list);list.appendChild(note("Loading…"));
     S.following().then(function(arr){list.innerHTML="";if(!arr.length){list.appendChild(note("You’re not following anyone yet — find people below."));return;}arr.forEach(function(p){list.appendChild(personCard(p));});});
     return wrap;
   }
-  function renderSignedOut(openUser){clr();pad.appendChild(h("Profile & friends"));pad.appendChild(note("Sign in to claim your @username, publish collections and follow other wanderers."));var b=btn("Sign in");b.style.width="100%";b.style.marginTop="8px";b.onclick=function(){close();openModal("Claim your @username","Sign in with your email to claim a handle, follow friends and appear on leaderboards.");};pad.appendChild(b);pad.appendChild(discoverSection());pad.appendChild(findSection(openUser));}
+  function renderSignedOut(openUser){clr();pad.appendChild(h("The Field Atlas"));pad.appendChild(atlasHero(false));var gate=el("section","");gate.className="socialatlas-gate";gate.appendChild(el("div","","KEEP YOUR OWN FIELD NOTES"));gate.firstChild.className="socialatlas-kicker";gate.appendChild(el("h2","","Collect a city in your own voice."));gate.appendChild(el("p","","Sign in to claim an @username, publish maps and follow other wanderers."));var b=btn("Sign in to begin");b.style.width="100%";b.onclick=function(){close();openModal("Claim your @username","Sign in with your email to claim a handle, publish field maps and follow other wanderers.");};gate.appendChild(b);pad.appendChild(gate);if(openUser)pad.appendChild(findSection(openUser));pad.appendChild(discoverSection());pad.appendChild(peopleSection());if(!openUser)pad.appendChild(findSection());}
   function renderSignedIn(openUser){
-    clr();pad.appendChild(h("Profile & friends"));
-    var tabbar=el("div","display:flex;gap:6px;margin-bottom:14px;");pad.appendChild(tabbar);
-    var paneMe=el("div",""),paneAct=el("div","display:none;"),paneDisc=el("div","display:none;"),paneLb=el("div","display:none;");pad.appendChild(paneMe);pad.appendChild(paneAct);pad.appendChild(paneDisc);pad.appendChild(paneLb);
+    clr();pad.appendChild(h("The Field Atlas"));pad.appendChild(atlasHero(true));
+    var tabbar=el("nav","display:flex;gap:6px;margin-bottom:14px;");tabbar.className="socialatlas-tabs";tabbar.setAttribute("aria-label","Field atlas sections");pad.appendChild(tabbar);
+    var paneMe=el("div",""),paneAct=el("div","display:none;"),paneDisc=el("div","display:none;"),paneLb=el("div","display:none;");paneMe.className="socialatlas-pane socialatlas-profile";paneAct.className="socialatlas-pane socialatlas-notes";paneDisc.className="socialatlas-pane socialatlas-explore";paneLb.className="socialatlas-pane socialatlas-leaders";pad.appendChild(paneMe);pad.appendChild(paneAct);pad.appendChild(paneDisc);pad.appendChild(paneLb);
     var built={},tA=el("button",""),tB=el("button",""),tC=el("button",""),tD=el("button","");
-    function setActive(which){[["me",tA],["act",tB],["disc",tC],["lb",tD]].forEach(function(x){var on=x[0]===which;x[1].style.background=on?"var(--ink,#211)":"var(--surface2,#eee)";x[1].style.color=on?"#fff":"var(--ink2,#555)";});}
-    function buildMe(){var info=paneMe;info.appendChild(note("Loading…"));S.myProfile().then(function(p){info.innerHTML="";      info.appendChild(lbl("Your public profile"));
+    function setActive(which){[["me",tA],["act",tB],["disc",tC],["lb",tD]].forEach(function(x){var on=x[0]===which;x[1].classList.toggle("on",on);x[1].setAttribute("aria-current",on?"page":"false");});}
+    function buildMe(){var info=paneMe;info.appendChild(note("Loading your identity…"));S.myProfile().then(function(p){info.innerHTML="";info.appendChild(sectionHead("YOUR EXPLORATION IDENTITY","Make your atlas recognisably yours","This is the byline that travels with every public map you publish."));info.appendChild(lbl("Your public profile"));
       var unameRow=el("div","display:flex;align-items:center;gap:6px;margin-bottom:8px;");
       unameRow.appendChild(el("div","font:700 16px var(--font-sans);color:var(--ink3,#888);","@"));
       var uname=inp("username");uname.style.flex="1";uname.value=(p&&p.username)||"";unameRow.appendChild(uname);info.appendChild(unameRow);
@@ -3716,13 +3727,13 @@ window.flSocialUI=function(openUser){
       save.onclick=function(){save.disabled=true;smsg.style.color="var(--ink3,#777)";smsg.textContent="Saving…";S.saveProfile({username:uname.value,display_name:dname.value,bio:bio.value,links:links.value}).then(function(np){smsg.style.color="var(--ok,#1F8A5B)";smsg.textContent="Saved — your profile is live.";save.disabled=false;save.textContent="Save profile";linkRow(info,np.username);},function(e){save.disabled=false;smsg.style.color="var(--red,#C8372D)";smsg.textContent=(e&&e.code==="taken")?"That @username is taken.":((e&&e.message)||"Couldn’t save.");});};
       if(p&&p.username)linkRow(info,p.username);
       if(USER)S.counts(USER.id).then(function(cc){var cr=el("div","display:flex;gap:18px;margin:14px 0 2px;");cr.appendChild(stat(cc.followers,"followers"));cr.appendChild(stat(cc.following,"following"));info.appendChild(cr);});info.appendChild(yourCollectionsSection());info.appendChild(sharedSection());info.appendChild(notifPrefsSection());},function(){info.innerHTML="";info.appendChild(note("Couldn’t load your profile — check your connection."));});}
-    function buildLb(){var pane=paneLb;pane.innerHTML="";pane.appendChild(lbl("Leaderboard"));pane.appendChild(note("Top flâneurs with a public profile — set a username on Profile to join."));var metrics=[["checkins","Check-ins"],["km","Km walked"],["visited","Places"],["worlds","Worlds"],["streak","Streak"]];var cur={m:"checkins"};var seg=el("div","display:flex;gap:6px;overflow-x:auto;margin:10px 0 12px;-webkit-overflow-scrolling:touch;");var listWrap=el("div","");pane.appendChild(seg);pane.appendChild(listWrap);function fmt(v,m){if(m==="km")return (Math.round((v||0)*10)/10)+" km";return String(v||0);}function load(){listWrap.innerHTML="";listWrap.appendChild(note("Loading…"));var pre;try{pre=(S.signedIn&&S.signedIn()&&S.saveStats)?(S.saveStats()||Promise.resolve()):Promise.resolve();}catch(e){pre=Promise.resolve();}pre.then(function(){return S.leaderboard(cur.m,50);}).then(function(rows){listWrap.innerHTML="";if(!rows||!rows.length){listWrap.appendChild(note("Be the first on the board — check in to climb."));return;}var meId=(S.me&&S.me())?S.me().id:null;rows.forEach(function(pp,i){var mine=meId&&pp.user_id===meId;var row=el("div","display:flex;align-items:center;gap:11px;padding:10px 11px;border:1px solid "+(mine?"var(--red,#C8372D)":"var(--line,#eee)")+";border-radius:14px;margin-bottom:8px;"+(mine?"background:var(--okbg,#fbf3f2);":""));row.appendChild(el("div","font:800 16px var(--font-serif);width:28px;text-align:center;flex:none;color:"+(i<3?"var(--red,#C8372D)":"var(--ink3,#999)")+";",String(i+1)));row.appendChild(avatarEl(pp,38));var mid=el("div","flex:1;min-width:0;");mid.appendChild(el("div","font:700 14px var(--font-sans);color:var(--ink,#211);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;","@"+pp.username+(mine?" · you":"")));if(pp.display_name)mid.appendChild(el("div","font-size:12px;color:var(--ink3,#888);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;",pp.display_name));row.appendChild(mid);row.appendChild(el("div","font:800 16px var(--font-serif);color:var(--ink,#211);flex:none;",fmt(pp[cur.m],cur.m)));if(!mine){row.style.cursor="pointer";row.onclick=function(){window.open(S.profileUrl(pp.username),"_blank","noopener");};}listWrap.appendChild(row);});},function(){listWrap.innerHTML="";listWrap.appendChild(note("Couldn’t load the leaderboard."));});}metrics.forEach(function(mm){var b=el("button","flex:none;border:1px solid var(--line,#ddd);background:var(--surface,#fff);color:var(--ink2,#555);border-radius:99px;padding:7px 13px;font:700 12.5px var(--font-sans);cursor:pointer;white-space:nowrap;");b.textContent=mm[1];b.onclick=function(){cur.m=mm[0];[].forEach.call(seg.children,function(c){c.style.background="var(--surface,#fff)";c.style.color="var(--ink2,#555)";c.style.borderColor="var(--line,#ddd)";});b.style.background="var(--ink,#211)";b.style.color="#fff";b.style.borderColor="var(--ink,#211)";load();};seg.appendChild(b);});var f0=seg.children[0];f0.style.background="var(--ink,#211)";f0.style.color="#fff";f0.style.borderColor="var(--ink,#211)";load();}
-    function build(which){if(which==="me")buildMe();else if(which==="lb")buildLb();else if(which==="act"){paneAct.appendChild(friendRequestsSection());paneAct.appendChild(activitySection());paneAct.appendChild(feedSection());paneAct.appendChild(friendsSection());paneAct.appendChild(followingSection());}else{paneDisc.appendChild(discoverSection());paneDisc.appendChild(findSection(openUser));}}
+    function buildLb(){var pane=paneLb;pane.innerHTML="";pane.appendChild(sectionHead("THE WALKING COMPASS","Leaders","A playful measure of time spent paying attention—not a popularity contest."));pane.appendChild(note("Choose a trail to see the most active public wanderers."));var metrics=[["checkins","Check-ins"],["km","Km walked"],["visited","Places"],["worlds","Worlds"],["streak","Streak"]];var cur={m:"checkins"};var seg=el("div","display:flex;gap:6px;overflow-x:auto;margin:10px 0 12px;-webkit-overflow-scrolling:touch;");seg.className="socleader-metrics";var listWrap=el("div","");listWrap.className="socleader-list";pane.appendChild(seg);pane.appendChild(listWrap);function fmt(v,m){if(m==="km")return (Math.round((v||0)*10)/10)+" km";return String(v||0);}function load(){listWrap.innerHTML="";listWrap.appendChild(note("Loading…"));var pre;try{pre=(S.signedIn&&S.signedIn()&&S.saveStats)?(S.saveStats()||Promise.resolve()):Promise.resolve();}catch(e){pre=Promise.resolve();}pre.then(function(){return S.leaderboard(cur.m,50);}).then(function(rows){listWrap.innerHTML="";if(!rows||!rows.length){listWrap.appendChild(note("Be the first on the board — check in to climb."));return;}var meId=(S.me&&S.me())?S.me().id:null;rows.forEach(function(pp,i){var mine=meId&&pp.user_id===meId;var row=el("div","display:flex;align-items:center;gap:11px;padding:10px 11px;border:1px solid "+(mine?"var(--red,#C8372D)":"var(--line,#eee)")+";border-radius:14px;margin-bottom:8px;"+(mine?"background:var(--okbg,#fbf3f2);":""));row.className="socleader-row"+(mine?" mine":"");row.appendChild(el("div","font:800 16px var(--font-serif);width:28px;text-align:center;flex:none;color:"+(i<3?"var(--red,#C8372D)":"var(--ink3,#999)")+";",String(i+1)));row.appendChild(avatarEl(pp,38));var mid=el("div","flex:1;min-width:0;");mid.appendChild(el("div","font:700 14px var(--font-sans);color:var(--ink,#211);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;","@"+pp.username+(mine?" · you":"")));if(pp.display_name)mid.appendChild(el("div","font-size:12px;color:var(--ink3,#888);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;",pp.display_name));row.appendChild(mid);row.appendChild(el("div","font:800 16px var(--font-serif);color:var(--ink,#211);flex:none;",fmt(pp[cur.m],cur.m)));if(!mine){row.style.cursor="pointer";row.onclick=function(){window.open(S.profileUrl(pp.username),"_blank","noopener");};}listWrap.appendChild(row);});},function(){listWrap.innerHTML="";listWrap.appendChild(note("Couldn’t load the leaderboard."));});}metrics.forEach(function(mm){var b=el("button","flex:none;border:1px solid var(--line,#ddd);background:var(--surface,#fff);color:var(--ink2,#555);border-radius:99px;padding:7px 13px;font:700 12.5px var(--font-sans);cursor:pointer;white-space:nowrap;");b.textContent=mm[1];b.onclick=function(){cur.m=mm[0];[].forEach.call(seg.children,function(c){c.style.background="var(--surface,#fff)";c.style.color="var(--ink2,#555)";c.style.borderColor="var(--line,#ddd)";});b.style.background="var(--ink,#211)";b.style.color="#fff";b.style.borderColor="var(--ink,#211)";load();};seg.appendChild(b);});var f0=seg.children[0];f0.style.background="var(--ink,#211)";f0.style.color="#fff";f0.style.borderColor="var(--ink,#211)";load();}
+    function build(which){if(which==="me")buildMe();else if(which==="lb")buildLb();else if(which==="act"){paneAct.appendChild(friendRequestsSection());paneAct.appendChild(feedSection());paneAct.appendChild(activitySection());paneAct.appendChild(friendsSection());paneAct.appendChild(followingSection());}else{paneDisc.appendChild(peopleSection());paneDisc.appendChild(discoverSection());paneDisc.appendChild(findSection(openUser));}}
     function show(which){paneMe.style.display=which==="me"?"block":"none";paneAct.style.display=which==="act"?"block":"none";paneDisc.style.display=which==="disc"?"block":"none";paneLb.style.display=which==="lb"?"block":"none";setActive(which);if(!built[which]){built[which]=true;build(which);}}
-    [["Profile",tA,"me"],["Network",tB,"act"],["Discover",tC,"disc"],["Leaders",tD,"lb"]].forEach(function(t){t[1].textContent=t[0];t[1].setAttribute("style","flex:1;border:none;border-radius:10px;padding:9px 4px;font:700 12.5px var(--font-sans);cursor:pointer;white-space:nowrap;");tabbar.appendChild(t[1]);t[1].onclick=function(){show(t[2]);try{window.scrollTo({top:0,behavior:"smooth"});}catch(e){}};});
-    show(openUser?"disc":"me");
+    [["Field notes",tB,"act"],["Explore",tC,"disc"],["You",tA,"me"],["Leaders",tD,"lb"]].forEach(function(t){t[1].textContent=t[0];t[1].setAttribute("style","flex:1;border:none;border-radius:10px;padding:9px 4px;font:700 12.5px var(--font-sans);cursor:pointer;white-space:nowrap;");tabbar.appendChild(t[1]);t[1].onclick=function(){show(t[2]);try{ov.scrollTo({top:0,behavior:"smooth"});}catch(e){}};});
+    show(openUser?"disc":"act");
   }
-  if(!S||!S.configured){clr();pad.appendChild(h("Profile & friends"));pad.appendChild(note("Social features aren’t set up yet."));return;}
+  if(!S||!S.configured){clr();pad.appendChild(h("The Field Atlas"));pad.appendChild(note("The public atlas isn’t set up yet."));return;}
   if(USER)renderSignedIn(openUser);else renderSignedOut(openUser);
 };
 
@@ -4771,5 +4782,247 @@ article.ec:first-of-type .ec-d{color:var(--red,#C8372D);}
   .worldsheetacts{display:grid;grid-template-columns:1fr 1fr;}
   .worldsheetshare{flex-basis:auto;}
 }
+</style>
+<style id="editorial-social-atlas">
+/* Editorial Compass III — a calm social atlas built around maps and taste. */
+.socialatlas{
+  overscroll-behavior:contain;
+  background:
+    radial-gradient(circle at 15% 0,rgba(195,156,111,.14),transparent 28rem),
+    var(--bg,#F3EEE6)!important;
+}
+.socialatlas-card{position:relative;box-shadow:0 0 80px -62px rgba(32,25,18,.65);}
+.socialatlas-pad{padding:0 22px calc(72px + env(safe-area-inset-bottom))!important;}
+.socialatlas-top{
+  position:sticky;
+  top:0;
+  z-index:20;
+  min-height:58px;
+  margin:0 -22px!important;
+  padding:env(safe-area-inset-top) 22px 0;
+  border-bottom:1px solid color-mix(in srgb,var(--line,#ded6c8) 72%,transparent);
+  background:color-mix(in srgb,var(--bg,#F3EEE6) 91%,transparent);
+  backdrop-filter:blur(18px) saturate(1.2);
+}
+.socialatlas-brand{
+  color:var(--ink,#211C16);
+  font:650 14px/1 var(--font-serif)!important;
+  letter-spacing:.025em;
+}
+.socialatlas-brand::before{content:"FLÂNEUR / ";color:var(--red,#C8372D);font:750 9px/1 var(--font-sans);letter-spacing:.13em;}
+.socialatlas-close{
+  display:grid;
+  place-items:center;
+  width:34px;
+  height:34px;
+  padding:0;
+  border:1px solid var(--line,#DED6C8)!important;
+  border-radius:50%;
+  background:var(--surface,#FBF8F1)!important;
+  color:var(--ink2,#5C524A)!important;
+  font-size:19px!important;
+}
+.socialatlas-hero{
+  position:relative;
+  display:flex;
+  min-height:213px;
+  margin:18px 0 14px;
+  padding:27px 25px;
+  overflow:hidden;
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:27px;
+  background:
+    radial-gradient(circle at 83% 17%,rgba(255,255,255,.12),transparent 14rem),
+    linear-gradient(145deg,var(--compass,#315548),var(--compass2,#25453A));
+  color:#FFF9EE;
+  box-sizing:border-box;
+  box-shadow:0 28px 55px -38px rgba(25,48,39,.95);
+}
+.socialatlas-herocopy{position:relative;z-index:2;align-self:flex-end;width:64%;}
+.socialatlas-kicker,.socsection-kicker{
+  color:var(--red,#C8372D);
+  font:800 9.5px/1.2 var(--font-sans);
+  letter-spacing:.17em;
+}
+.socialatlas-hero .socialatlas-kicker{margin-bottom:9px;color:#F2BBAA;}
+.socialatlas-hero h1{
+  max-width:12ch;
+  margin:0;
+  color:#FFF9EE;
+  font:650 35px/.98 var(--font-serif);
+  letter-spacing:-.035em;
+}
+.socialatlas-hero p{
+  max-width:38ch;
+  margin:10px 0 0;
+  color:rgba(255,249,238,.7);
+  font:500 13px/1.45 var(--font-sans);
+}
+.socialatlas-compass{position:absolute;right:-20px;top:18px;width:205px;height:205px;opacity:.92;transform:rotate(-8deg);}
+.socialatlas-compass::before,.socialatlas-compass::after{content:"";position:absolute;inset:50% auto auto 50%;background:rgba(255,255,255,.28);transform-origin:left center;}
+.socialatlas-compass::before{width:82px;height:1px;transform:rotate(21deg);}
+.socialatlas-compass::after{width:1px;height:82px;transform:rotate(17deg);transform-origin:center top;}
+.sa-ring{position:absolute;border:1px solid rgba(255,255,255,.18);border-radius:50%;}
+.sa-ring-a{inset:18px;}
+.sa-ring-b{inset:52px;border-style:dashed;}
+.sa-route{position:absolute;left:46px;top:79px;width:107px;height:57px;border-top:2px solid #F2BBAA;border-radius:50%;transform:rotate(-18deg);}
+.sa-pin{position:absolute;width:10px;height:10px;border:2px solid #FFF9EE;border-radius:50%;background:var(--red,#C8372D);box-shadow:0 0 0 5px rgba(255,255,255,.08);}
+.sa-pin-a{left:44px;top:76px}.sa-pin-b{right:39px;bottom:63px}
+.socialatlas-compass b{position:absolute;top:0;left:50%;color:#F2BBAA;font:800 9px/1 var(--font-sans);letter-spacing:.1em;}
+.socialatlas-gate{
+  margin:0 0 20px;
+  padding:21px;
+  border:1px solid var(--line,#DED6C8);
+  border-radius:20px;
+  background:var(--surface,#FBF8F1);
+  box-shadow:0 18px 38px -33px rgba(35,27,18,.65);
+}
+.socialatlas-gate h2{margin:6px 0 5px;color:var(--ink,#211C16);font:650 23px/1.12 var(--font-serif);letter-spacing:-.02em;}
+.socialatlas-gate p{margin:0 0 15px;color:var(--ink3,#8C8579);font-size:12.5px;line-height:1.45;}
+.socialatlas-gate .socbtn{min-height:46px;border-radius:13px!important;}
+.socialatlas-tabs{
+  position:sticky;
+  top:58px;
+  z-index:19;
+  display:grid!important;
+  grid-template-columns:1.3fr 1fr .75fr 1fr;
+  gap:4px!important;
+  margin:0 -3px 7px!important;
+  padding:8px 3px 9px;
+  background:color-mix(in srgb,var(--bg,#F3EEE6) 91%,transparent);
+  backdrop-filter:blur(18px) saturate(1.2);
+}
+.socialatlas-tabs button{
+  min-width:0;
+  padding:10px 4px!important;
+  border:1px solid transparent!important;
+  border-radius:999px!important;
+  background:transparent!important;
+  color:var(--ink3,#8C8579)!important;
+  font-size:11.5px!important;
+  transition:background .16s ease,color .16s ease,border-color .16s ease;
+}
+.socialatlas-tabs button.on{border-color:var(--line,#DED6C8)!important;background:var(--surface,#FBF8F1)!important;color:var(--ink,#211C16)!important;box-shadow:0 8px 24px -20px rgba(30,20,10,.7);}
+.socialatlas-pane{padding-top:2px;}
+.socsection{margin:28px 0 0!important;padding:0!important;border:0!important;}
+.socialatlas-pane>.socsection:first-child{margin-top:14px!important;}
+.socsection-head{position:relative;margin:0 0 13px;padding-right:54px;}
+.socsection-head h2{margin:5px 0 3px;color:var(--ink,#211C16);font:650 25px/1.05 var(--font-serif);letter-spacing:-.025em;}
+.socsection-head p{max-width:48ch;margin:0;color:var(--ink3,#8C8579);font-size:12px;line-height:1.42;}
+.socactivity-badge{position:absolute;right:0;top:1px;}
+.socmapgrid{display:grid;grid-template-columns:1fr;gap:13px;}
+.socmapcard{
+  position:relative;
+  overflow:hidden;
+  border:1px solid var(--line,#DED6C8);
+  border-radius:22px;
+  background:var(--surface,#FBF8F1);
+  box-shadow:0 17px 42px -35px rgba(31,24,17,.7);
+  transition:transform .16s ease,box-shadow .16s ease;
+}
+.socmapcard:active{transform:scale(.992);}
+.socmapby{display:flex;align-items:center;gap:9px;min-height:48px;padding:9px 13px 8px;border-bottom:1px solid var(--line,#DED6C8);box-sizing:border-box;}
+.socmapwho{display:flex;flex:1;min-width:0;flex-direction:column;}
+.socmapwho strong{overflow:hidden;color:var(--ink,#211C16);font-size:12.5px;line-height:1.2;text-overflow:ellipsis;white-space:nowrap;}
+.socmapwho span{margin-top:2px;color:var(--ink3,#8C8579);font-size:9.5px;}
+.socmapstamp{flex:1;color:var(--ink3,#8C8579);font:800 9px/1 var(--font-sans);letter-spacing:.15em;}
+.socmapcity{flex:none;max-width:38%;overflow:hidden;color:var(--ink3,#8C8579);font:700 9px/1 var(--font-sans);letter-spacing:.11em;text-overflow:ellipsis;text-transform:uppercase;white-space:nowrap;}
+.socmapopen{display:block!important;color:inherit!important;text-decoration:none!important;}
+.socmapvisual{
+  position:relative;
+  height:142px;
+  overflow:hidden;
+  border-bottom:1px solid rgba(84,68,48,.12);
+  background:
+    linear-gradient(123deg,transparent 0 42%,rgba(49,85,72,.08) 42.3% 42.8%,transparent 43.1% 100%),
+    radial-gradient(circle at var(--sa-x,44%) var(--sa-y,48%),rgba(194,59,46,.13),transparent 19%),
+    linear-gradient(145deg,#E8DFC9,#F5EEDF 61%,#DDD7C5);
+}
+.socmapvisual::before,.socmapvisual::after{content:"";position:absolute;inset:auto;border:1px solid rgba(49,85,72,.16);border-radius:48% 52% 43% 57%;transform:rotate(-13deg);}
+.socmapvisual::before{left:-19px;top:20px;width:138px;height:92px;box-shadow:0 0 0 19px rgba(49,85,72,.035),0 0 0 40px rgba(49,85,72,.028);}
+.socmapvisual::after{right:-25px;bottom:-32px;width:160px;height:123px;box-shadow:0 0 0 17px rgba(49,85,72,.035),0 0 0 35px rgba(49,85,72,.025);}
+.socmap-contour{position:absolute;border:1px solid rgba(49,85,72,.12);border-radius:50%;}
+.socmap-contour.c1{left:31%;top:-27px;width:175px;height:101px;transform:rotate(18deg);}
+.socmap-contour.c2{right:24%;bottom:-25px;width:112px;height:82px;transform:rotate(-20deg);}
+.socmap-trail{position:absolute;left:16%;top:54%;width:67%;height:1px;background:var(--red,#C8372D);transform:rotate(-9deg);box-shadow:31px -15px 0 -0.2px var(--red,#C8372D);opacity:.68;}
+.socmap-dot{position:absolute;width:8px;height:8px;border:2px solid #F9F3E8;border-radius:50%;background:var(--red,#C8372D);box-shadow:0 2px 5px rgba(71,42,31,.25);}
+.socmap-dot.d1{left:15%;top:65%}.socmap-dot.d2{left:47%;top:49%}.socmap-dot.d3{right:16%;top:35%}
+.socmapemoji{position:absolute;left:var(--sa-x,44%);top:var(--sa-y,48%);display:grid;place-items:center;width:43px;height:43px;border:1px solid rgba(255,255,255,.7);border-radius:50% 50% 50% 13%;background:var(--compass,#315548);color:#fff;font-size:20px;box-shadow:0 10px 22px -12px rgba(25,42,35,.8);transform:translate(-50%,-50%) rotate(-45deg);}
+.socmapemoji b{display:block;font:inherit;line-height:1;transform:rotate(45deg);}
+.socmapbody{padding:15px 16px 14px;}
+.socmapkicker{margin-bottom:5px;color:var(--red,#C8372D);font:800 8.5px/1 var(--font-sans);letter-spacing:.15em;}
+.socmapbody h3{margin:0;color:var(--ink,#211C16);font:650 22px/1.08 var(--font-serif);letter-spacing:-.022em;}
+.socmapmeta{display:flex;justify-content:space-between;gap:12px;margin-top:9px;color:var(--ink3,#8C8579);font-size:10.5px;}
+.socmapmeta span:last-child{color:var(--compass,#315548);font-weight:750;}
+.socmapacts{display:flex;align-items:center;gap:5px;min-height:43px;padding:0 10px 0 12px;border-top:1px solid var(--line,#DED6C8);}
+.socreact{min-width:39px;min-height:34px;justify-content:center!important;border-radius:999px!important;color:var(--ink3,#8C8579)!important;}
+.socreact:active{background:var(--surface2,#EAE3D2)!important;}
+.socmapwalk{margin-left:auto;color:var(--ink2,#3A352E);font:750 10px/1 var(--font-sans);letter-spacing:.07em;text-decoration:none;text-transform:uppercase;}
+.socpeople-list{display:grid;grid-template-columns:1fr;gap:8px;}
+.socperson{
+  padding:12px!important;
+  border:1px solid var(--line,#DED6C8)!important;
+  border-radius:17px!important;
+  background:var(--surface,#FBF8F1);
+  box-shadow:0 12px 30px -29px rgba(30,22,15,.65);
+}
+.socperson-copy{display:flex;flex-direction:column;gap:1px;}
+.socperson-name{overflow:hidden;font:650 15px/1.2 var(--font-serif)!important;text-overflow:ellipsis;white-space:nowrap;}
+.socperson-bio{font-size:10.5px!important;}
+.socperson-trail{margin-top:4px;color:var(--compass,#315548);font-size:9.5px;font-weight:700;letter-spacing:.02em;}
+.socperson-actions{gap:4px!important;}
+.socperson-actions .socbtn{min-width:62px;padding:7px 9px!important;border-radius:999px!important;font-size:10.5px!important;}
+.socialatlas-find{padding:19px!important;border:1px solid var(--line,#DED6C8)!important;border-radius:19px;background:var(--surface,#FBF8F1);}
+.socialatlas-find .socsection-head{margin-bottom:13px;}
+.socialatlas .socinput,.socialatlas textarea{min-height:43px;border-color:var(--line,#DED6C8)!important;border-radius:12px!important;background:var(--surface,#FBF8F1)!important;color:var(--ink,#211C16)!important;}
+.socialatlas-find .socinput{background:var(--bg,#F3EEE6)!important;}
+.socialatlas .socbtn{transition:transform .12s ease,opacity .12s ease;}
+.socialatlas .socbtn:active{transform:scale(.98);}
+.socempty{padding:27px 22px;border:1px dashed color-mix(in srgb,var(--compass,#315548) 45%,var(--line,#DED6C8));border-radius:20px;background:color-mix(in srgb,var(--compass,#315548) 5%,var(--surface,#FBF8F1));text-align:center;}
+.socempty>div{color:var(--ink,#211C16);font:650 21px/1.12 var(--font-serif);}
+.socempty p{max-width:36ch;margin:7px auto 0;color:var(--ink3,#8C8579);font-size:11.5px;line-height:1.45;}
+.socwandering{grid-column:1/-1;margin-top:15px!important;padding:18px;border:1px solid var(--line,#DED6C8);border-radius:19px;background:var(--surface,#FBF8F1);}
+.socwanderer{padding:10px 0!important;border-color:var(--line,#DED6C8)!important;}
+.socwanderer:last-child{border-bottom:0!important;}
+.socactivity{padding:19px!important;border:1px solid var(--line,#DED6C8)!important;border-radius:19px;background:var(--surface,#FBF8F1);}
+.socactivity-row{padding:11px 0!important;border-color:var(--line,#DED6C8)!important;}
+.socactivity-row:last-child{border-bottom:0!important;}
+.socfollowing,.socialatlas-profile>div:not(.socsection-head),.socialatlas-leaders{max-width:100%;}
+.socialatlas-profile>.socsection-head,.socialatlas-leaders>.socsection-head{margin-top:14px;}
+.socialatlas-profile>.soclabel{margin-top:17px;}
+.socialatlas-profile .socinput{margin-bottom:9px;}
+.socialatlas-profile textarea{padding:11px!important;}
+.socleader-metrics{padding-bottom:4px;scrollbar-width:none;}
+.socleader-metrics::-webkit-scrollbar{display:none;}
+.socleader-row{border-color:var(--line,#DED6C8)!important;background:var(--surface,#FBF8F1);}
+.socleader-row.mine{border-color:var(--red,#C8372D)!important;background:var(--redbg,#FCF4F3);}
+.socialatlas .socnote{color:var(--ink3,#8C8579)!important;}
+
+@media (min-width:620px){
+  .socmapgrid{grid-template-columns:1fr 1fr;}
+  .socpeople-list{grid-template-columns:1fr 1fr;}
+  .socmapvisual{height:126px;}
+  .socialatlas-card{border-left:1px solid var(--line,#DED6C8);border-right:1px solid var(--line,#DED6C8);}
+}
+@media (max-width:560px){
+  .socialatlas-pad{padding-left:15px!important;padding-right:15px!important;}
+  .socialatlas-top{margin-left:-15px!important;margin-right:-15px!important;padding-left:15px;padding-right:15px;}
+  .socialatlas-hero{min-height:227px;margin-top:13px;padding:23px 19px;border-radius:23px;}
+  .socialatlas-herocopy{width:76%;}
+  .socialatlas-hero h1{font-size:31px;}
+  .socialatlas-hero p{font-size:11.5px;}
+  .socialatlas-compass{right:-57px;top:9px;transform:scale(.87) rotate(-8deg);}
+  .socialatlas-tabs{margin-left:-2px!important;margin-right:-2px!important;}
+  .socialatlas-tabs button{font-size:10.5px!important;}
+  .socsection-head{padding-right:20px;}
+  .socsection-head h2{font-size:23px;}
+  .socmapvisual{height:138px;}
+  .socactivity-badge{position:static;display:inline-block;margin-top:8px;}
+}
+@media (prefers-reduced-motion:reduce){
+  .socmapcard,.socialatlas .socbtn,.socialatlas-tabs button{transition:none!important;}
+}
+.socialatlas[data-theme="dark"] .socmapvisual{filter:saturate(.78) brightness(.77);}
+.socialatlas[data-theme="dark"] .socialatlas-top,.socialatlas[data-theme="dark"] .socialatlas-tabs{background:color-mix(in srgb,var(--bg,#1f1d19) 91%,transparent);}
 </style>
 </body></html>
