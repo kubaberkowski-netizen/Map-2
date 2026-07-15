@@ -3596,7 +3596,8 @@ window.flSocialUI=function(openUser){
   var card=el("div","background:var(--bg,#F3EEE6);color:var(--ink,#1a1a1a);width:100%;max-width:680px;min-height:100%;margin:0 auto;animation:popfade .2s ease;");card.className="socialatlas-card";
   
   var pad=el("div","padding:16px 20px 56px;font:500 14px var(--font-sans),sans-serif;");pad.className="socialatlas-pad";card.appendChild(pad);ov.appendChild(card);socialTheme(ov);ov.setAttribute("role","dialog");ov.setAttribute("aria-modal","true");ov.setAttribute("aria-label","The Field Atlas");document.body.appendChild(ov);
-  function close(){ov.remove();}
+  var oldBodyOverflow=document.body.style.overflow;document.body.style.overflow="hidden";
+  function close(){document.body.style.overflow=oldBodyOverflow;ov.remove();}
   ov.onclick=function(e){if(e.target===ov)close();};
   function h(t){var d=el("div","display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;");d.className="socialatlas-top";var brand=el("div","font:800 20px var(--font-serif);",t);brand.className="socialatlas-brand";d.appendChild(brand);var x=el("button","border:none;background:none;font-size:22px;color:var(--ink3,#888);cursor:pointer;line-height:1;","×");x.className="socialatlas-close";x.setAttribute("aria-label","Close field atlas");x.onclick=close;d.appendChild(x);return d;}
   function clr(){pad.innerHTML="";}
