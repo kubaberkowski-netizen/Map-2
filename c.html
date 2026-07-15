@@ -5,6 +5,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: blob: https://*.basemaps.cartocdn.com https://*.tile.openstreetmap.org https://*.supabase.co; connect-src 'self' https://*.supabase.co https://api.open-meteo.com https://air-quality-api.open-meteo.com; font-src 'self'; base-uri 'self'; object-src 'none'" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="robots" content="index,follow" />
+<meta name="theme-color" content="#315548" />
 <title>A collection — Flâneur</title>
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Flâneur" />
@@ -16,177 +17,190 @@
 <meta id="tw-image" name="twitter:image" content="" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
-  :root{--bg:#FAF8F3;--surface:#FFFFFF;--ink:#2C2522;--ink2:#5C524A;--ink3:#736A5E;--line:#E7E0D4;--accent:#C8372D;}
+  @font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:400 800;font-display:swap;src:url(./fonts/hk.woff2) format('woff2');}
+  @font-face{font-family:'Newsreader';font-style:italic;font-weight:400 600;font-display:swap;src:url(./fonts/nr-it.woff2) format('woff2');}
+  @font-face{font-family:'Newsreader';font-style:normal;font-weight:400 700;font-display:swap;src:url(./fonts/nr.woff2) format('woff2');}
+  :root{--paper:#F2EBDD;--surface:#FFFDF8;--surface2:#E9E0D1;--ink:#201B16;--ink2:#4B433A;--muted:#81766A;--line:#DDD1C2;--red:#B83A30;--red2:#9F2F27;--green:#315548;--green2:#25453A;--cream:#FFF9EE;--gold:#E8CE99;--shadow:rgba(36,29,22,.14);}
   *{box-sizing:border-box;}
-  html,body{margin:0;background:var(--bg);color:var(--ink);
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    -webkit-text-size-adjust:100%;}
-  .wrap{max-width:620px;margin:0 auto;padding:22px 18px calc(40px + env(safe-area-inset-bottom));}
-  .brand{display:flex;align-items:center;gap:8px;font-weight:800;font-size:15px;letter-spacing:.01em;margin-bottom:20px;text-decoration:none;color:var(--ink);}
-  .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--accent);}
-  .eyebrow{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:6px;}
-  h1{font-family:Georgia,"Times New Roman",serif;font-weight:700;font-size:30px;line-height:1.15;margin:0 0 6px;}
+  html{background:var(--paper);scroll-behavior:smooth;}
+  body{margin:0;background:radial-gradient(circle at 8% 0,rgba(184,58,48,.075),transparent 28rem),var(--paper);color:var(--ink);font-family:'Hanken Grotesk',-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;}
+  a,button{-webkit-tap-highlight-color:transparent;}
+  button{font:inherit;}
+  .shell{width:min(1040px,100%);margin:0 auto;padding:20px 22px calc(50px + env(safe-area-inset-bottom));}
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:18px;}
+  .brand{display:inline-flex;align-items:center;gap:9px;color:var(--ink);font-size:15px;font-weight:800;letter-spacing:-.01em;text-decoration:none;}
+  .brandmark{position:relative;display:grid;width:25px;height:25px;place-items:center;border-radius:50%;background:var(--green);color:var(--cream);font-family:'Newsreader',serif;font-size:15px;}
+  .brandmark::after{position:absolute;width:5px;height:5px;border:1px solid currentColor;border-radius:50%;content:"";}
+  .navapp{display:inline-flex;align-items:center;gap:6px;padding:9px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(255,253,248,.72);color:var(--ink2);font-size:12px;font-weight:700;text-decoration:none;}
+  .hero{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(285px,.65fr);overflow:hidden;border-radius:29px;background:linear-gradient(145deg,var(--green),var(--green2));color:var(--cream);box-shadow:0 28px 56px -38px rgba(18,43,34,.95);}
+  .heromain{position:relative;isolation:isolate;min-width:0;padding:31px 30px;}
+  .heromain::before{position:absolute;z-index:-1;width:280px;height:280px;left:-180px;bottom:-190px;border:1px solid rgba(255,255,255,.09);border-radius:50%;box-shadow:0 0 0 38px rgba(255,255,255,.023),0 0 0 78px rgba(255,255,255,.016);content:"";}
+  .eyebrow{margin-bottom:11px;color:#F1CCBF;font-size:10px;font-weight:800;letter-spacing:.17em;text-transform:uppercase;}
+  h1{max-width:17ch;margin:0;color:#FFF9EF;font:650 42px/.98 'Newsreader',serif;letter-spacing:-.038em;}
   h1 .e{margin-right:8px;}
-  .meta{font-size:14px;color:var(--ink3);margin-bottom:4px;}
-  .note{font-family:Georgia,serif;font-style:italic;font-size:16px;color:var(--ink2);margin:10px 0 0;line-height:1.5;}
-  #map{height:300px;border-radius:16px;overflow:hidden;border:1px solid var(--line);margin:18px 0;background:var(--surface);}
-  .leaflet-container{font:inherit;background:var(--bg);}
-  .pin{width:26px;height:26px;background:var(--accent);color:#fff;border:2px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font:700 13px/1 system-ui;box-shadow:0 2px 6px rgba(0,0,0,.3);}
+  .metarow{display:flex;flex-wrap:wrap;gap:7px;margin-top:15px;}
+  .metapill{display:inline-flex;align-items:center;min-height:28px;padding:0 9px;border:1px solid rgba(255,255,255,.14);border-radius:999px;background:rgba(255,255,255,.07);color:rgba(255,249,239,.72);font-size:10.5px;font-weight:700;}
+  .note{max-width:660px;margin:18px 0 0;color:rgba(255,249,239,.78);font:italic 18px/1.5 'Newsreader',serif;}
+  .byline{min-height:34px;margin-top:20px;}
+  .byl{display:inline-flex;align-items:center;gap:9px;color:rgba(255,249,239,.76);font-size:12px;font-weight:700;text-decoration:none;}
+  .byl:hover{color:#fff;}
+  .byl img,.byi{display:grid;width:31px;height:31px;place-items:center;border:1px solid rgba(255,255,255,.2);border-radius:10px;background:#F3E5D4;color:var(--green2);font:700 14px 'Newsreader',serif;object-fit:cover;}
+  .copycard{display:flex;flex-direction:column;justify-content:center;padding:27px;border-left:1px solid rgba(255,255,255,.13);background:rgba(8,29,21,.22);backdrop-filter:blur(12px);}
+  .copytag{color:#E8CE99;font-size:9.5px;font-weight:800;letter-spacing:.15em;text-transform:uppercase;}
+  .copycard h2{margin:8px 0 7px;color:#FFF9EF;font:650 24px/1.07 'Newsreader',serif;letter-spacing:-.02em;}
+  .copycard p{margin:0;color:rgba(255,249,239,.62);font-size:11.5px;line-height:1.45;}
+  .copybtn,.sharebtn{display:flex;align-items:center;justify-content:center;min-height:45px;border-radius:12px;font-size:13px;font-weight:800;cursor:pointer;}
+  .copybtn{margin-top:17px;background:var(--cream);color:#70231E;text-decoration:none;}
+  .sharebtn{margin-top:8px;border:1px solid rgba(255,255,255,.24);background:rgba(255,255,255,.08);color:#fff;}
+  .mapframe{overflow:hidden;margin-top:14px;border:1px solid var(--line);border-radius:23px;background:var(--surface);box-shadow:0 20px 43px -34px rgba(31,25,18,.9);}
+  .maptop{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:51px;padding:10px 14px;border-bottom:1px solid var(--line);}
+  .maplabel{display:flex;align-items:center;gap:8px;color:var(--ink2);font-size:11px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;}
+  .mapdot{width:8px;height:8px;border:2px solid var(--green);border-radius:50%;box-shadow:0 0 0 4px rgba(49,85,72,.12);}
+  .wx{color:var(--muted);font-size:10.5px;font-weight:650;text-align:right;}
+  #map{height:430px;background:var(--surface2);}
+  .leaflet-container{font:inherit;background:var(--surface2);}
+  .leaflet-control-attribution{font-size:9px!important;}
+  .pin{display:grid;width:29px;height:29px;place-items:center;border:2px solid var(--cream);border-radius:50%;background:var(--red);color:#fff;font:800 12px/1 'Hanken Grotesk',sans-serif;box-shadow:0 5px 12px rgba(74,27,22,.32);}
+  .mapfoot{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 14px;border-top:1px solid var(--line);color:var(--muted);font-size:10px;}
+  .story{display:grid;grid-template-columns:minmax(0,1.42fr) minmax(250px,.58fr);align-items:start;gap:14px;margin-top:14px;}
+  .panel{border:1px solid var(--line);border-radius:22px;background:var(--surface);box-shadow:0 18px 38px -34px rgba(31,25,18,.9);}
+  .placespanel{padding:21px;}
+  .sectiontag{color:var(--red);font-size:9.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;}
+  .sectionhead{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:16px;}
+  .sectionhead h2{margin:6px 0 0;font:650 27px/1.05 'Newsreader',serif;letter-spacing:-.02em;}
+  .sectioncount{color:var(--muted);font-size:11px;font-weight:700;}
   ol.places{list-style:none;margin:0;padding:0;counter-reset:p;}
-  ol.places li{display:flex;align-items:flex-start;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:13px 14px;margin-bottom:9px;}
-  .num{counter-increment:p;flex:none;width:24px;height:24px;border-radius:50%;background:var(--accent);color:#fff;font:700 12px/24px system-ui;text-align:center;}
-  .num::before{content:counter(p);}
-  .pbody{flex:1;min-width:0;}
-  .pname{font-size:15.5px;font-weight:700;}
-  .pname .e{margin-right:5px;}
-  .pcat{font-size:12.5px;color:var(--ink3);margin-top:1px;}
-  /* day-by-day itinerary */
-  .day{margin:16px 0 4px;}
-  .dayh{font:800 12px/1 system-ui;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:0 0 9px;}
-  .stop{display:flex;align-items:flex-start;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:13px 14px;}
-  .num2{flex:none;width:24px;height:24px;border-radius:50%;background:var(--accent);color:#fff;font:700 12px/24px system-ui;text-align:center;}
-  .parr{font:600 12.5px system-ui;color:var(--ink2);margin-top:3px;}
-  .poh{font:600 12px system-ui;color:var(--ink3);margin-top:3px;}
-  .wx{font:600 13px system-ui;color:var(--ink2);margin:6px 0 0;min-height:1px;}
-  .leg{font:600 12px system-ui;color:var(--ink3);margin:8px 0 8px 12px;}
-  .cta{display:block;text-align:center;background:var(--accent);color:#fff;text-decoration:none;border-radius:13px;padding:14px;font-weight:700;font-size:15px;margin:22px 0 8px;}
-  .sub{text-align:center;font-size:12.5px;color:var(--ink3);}
-  .state{text-align:center;color:var(--ink3);padding:60px 16px;font-size:15px;}
-  .foot{margin-top:30px;font-size:12px;color:var(--ink3);text-align:center;}
-  .foot a{color:var(--ink3);}
-  .byl{display:inline-flex;align-items:center;gap:8px;margin:12px 0 2px;text-decoration:none;color:var(--ink2);font-size:14px;font-weight:600;}
-  .byl img{width:28px;height:28px;border-radius:50%;object-fit:cover;background:var(--tint);}
-  .byl .byi{width:28px;height:28px;border-radius:50%;background:var(--tint);display:flex;align-items:center;justify-content:center;font-family:Georgia,serif;font-weight:700;font-size:13px;color:var(--ink);}
-  .byl:hover{color:var(--accent);}
-  .cmth{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:26px 0 10px;}
-  .cmt{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:11px 13px;margin-bottom:8px;}
-  .cmtwho{font-size:12.5px;font-weight:700;color:var(--ink);}
-  .cmtbody{font-size:14px;color:var(--ink2);margin-top:2px;line-height:1.4;word-break:break-word;}
-  .cmtempty{font-size:13px;color:var(--ink3);}
+  .place,.stop{display:flex;align-items:flex-start;gap:13px;padding:14px 2px;border-top:1px solid var(--line);}
+  ol.places .place:first-child{border-top:0;}
+  .num{display:grid;flex:none;width:29px;height:29px;place-items:center;border-radius:50%;background:var(--surface2);color:var(--red);font-size:11px;font-weight:800;}
+  ol.places .num{counter-increment:p;}
+  ol.places .num::before{content:counter(p);}
+  .pbody{min-width:0;flex:1;}
+  .pname{color:var(--ink);font:650 17px/1.18 'Newsreader',serif;}
+  .pname .e{margin-right:6px;}
+  .pcat{margin-top:4px;color:var(--muted);font-size:11px;line-height:1.4;}
+  .parr,.poh{margin-top:5px;color:var(--ink2);font-size:10.5px;font-weight:650;}
+  .day{margin-top:19px;}
+  .day:first-of-type{margin-top:0;}
+  .dayh{display:flex;align-items:center;gap:9px;margin-bottom:4px;color:var(--green);font:800 10px/1 'Hanken Grotesk',sans-serif;letter-spacing:.12em;text-transform:uppercase;}
+  .dayh::after{height:1px;flex:1;background:var(--line);content:"";}
+  .leg{display:flex;align-items:center;gap:6px;margin:0 0 0 14px;padding:6px 0 6px 27px;border-left:1px dashed var(--line);color:var(--muted);font-size:10px;font-weight:650;}
+  .stop{border-top:0;}
+  .stop .num{background:var(--red);color:#fff;}
+  .side{position:sticky;top:14px;overflow:hidden;}
+  .sidetop{padding:20px;}
+  .sidetop h2{margin:7px 0 6px;font:650 21px/1.08 'Newsreader',serif;}
+  .sidetop p{margin:0;color:var(--muted);font-size:11.5px;line-height:1.45;}
+  .facts{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line);}
+  .fact{padding:15px 17px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .fact:nth-child(2n){border-right:0;}
+  .fact:nth-last-child(-n+2){border-bottom:0;}
+  .fact b{display:block;font:650 19px/1 'Newsreader',serif;}
+  .fact span{display:block;margin-top:5px;color:var(--muted);font-size:8.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;}
+  .sidecopy{display:block;margin:0 15px 15px;padding:12px;border-radius:11px;background:var(--red);color:#fff;font-size:12.5px;font-weight:800;text-align:center;text-decoration:none;}
+  .comments{margin-top:14px;padding:21px;}
+  .commentshead{display:flex;align-items:baseline;justify-content:space-between;gap:14px;margin-bottom:8px;}
+  .commentshead h2{margin:6px 0 0;font:650 24px/1.08 'Newsreader',serif;}
+  .cmt{padding:13px 0;border-top:1px solid var(--line);}
+  .cmtwho{font-size:11px;font-weight:800;color:var(--ink);}
+  .cmtbody{margin-top:4px;color:var(--ink2);font-size:13px;line-height:1.45;word-break:break-word;}
+  .cmtempty{padding:13px 0 2px;color:var(--muted);font:italic 14px 'Newsreader',serif;}
+  .bottomcta{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:22px;margin-top:14px;padding:22px 24px;border-radius:22px;background:linear-gradient(135deg,var(--red),var(--red2));color:#fff;box-shadow:0 22px 40px -32px rgba(112,24,19,.9);}
+  .bottomcta h2{margin:0;font:650 22px/1.1 'Newsreader',serif;}
+  .bottomcta p{margin:5px 0 0;color:rgba(255,255,255,.7);font-size:12px;line-height:1.4;}
+  .bottomctabtn{display:inline-flex;align-items:center;justify-content:center;min-height:45px;padding:0 17px;border-radius:12px;background:var(--cream);color:#70231E;font-size:13px;font-weight:800;text-decoration:none;white-space:nowrap;}
+  .state{padding:90px 24px;color:var(--muted);font:italic 17px 'Newsreader',serif;text-align:center;}
+  .foot{margin-top:30px;color:var(--muted);font-size:11px;line-height:1.6;text-align:center;}
+  .foot a{color:inherit;text-underline-offset:3px;}
+  .toast{position:fixed;left:50%;bottom:calc(22px + env(safe-area-inset-bottom));z-index:1000;transform:translate(-50%,12px);padding:10px 14px;border-radius:999px;background:var(--ink);color:#fff;font-size:12px;font-weight:700;opacity:0;pointer-events:none;transition:opacity .18s ease,transform .18s ease;}
+  .toast.on{transform:translate(-50%,0);opacity:1;}
+  :focus-visible{outline:3px solid rgba(184,58,48,.32);outline-offset:3px;}
+  @media(max-width:780px){
+    .shell{padding-right:16px;padding-left:16px;}
+    .hero{grid-template-columns:1fr;border-radius:25px;}
+    .heromain{padding:25px 21px;}
+    h1{font-size:36px;}
+    .copycard{padding:21px;border-top:1px solid rgba(255,255,255,.13);border-left:0;}
+    .story{grid-template-columns:1fr;}
+    .side{position:static;}
+    #map{height:360px;}
+  }
+  @media(max-width:520px){
+    .navapp{padding:8px 10px;}
+    .hero{border-radius:23px;}
+    .heromain{padding:22px 17px;}
+    h1{font-size:32px;}
+    .note{font-size:16px;}
+    .copycard{padding:19px 17px;}
+    .maptop{display:block;}
+    .wx{margin-top:5px;text-align:left;}
+    #map{height:315px;}
+    .mapfoot{align-items:flex-start;flex-direction:column;}
+    .placespanel,.comments{padding:18px 16px;}
+    .sectionhead{align-items:flex-start;flex-direction:column;gap:4px;}
+    .bottomcta{grid-template-columns:1fr;padding:20px;}
+    .bottomctabtn{width:100%;}
+  }
+  @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;}.toast{transition:none;}}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <a class="brand" href="./"><span class="dot"></span>Flâneur</a>
-  <div id="app"><div class="state">Loading…</div></div>
-  <div class="foot"><a href="./">Flâneur</a> — a personal guide to offbeat, storied places. · <a href="./privacy.html">Privacy</a></div>
-</div>
+<main class="shell">
+  <nav class="nav" aria-label="Flâneur">
+    <a class="brand" href="./"><span class="brandmark" aria-hidden="true">F</span><span>Flâneur</span></a>
+    <a class="navapp" href="./">Explore the map <span aria-hidden="true">↗</span></a>
+  </nav>
+  <div id="app"><div class="state">Unfolding this map…</div></div>
+  <footer class="foot"><a href="./">Flâneur</a> — a personal guide to offbeat, storied places. · <a href="./privacy.html">Privacy</a></footer>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 (function(){
   var SB_URL="https://fpngxchltuovtsyzigul.supabase.co";
   var SB_ANON="sb_publishable_At343ximg1anAi2TkHyCXw_82vw4wMB";
-  var app=document.getElementById("app");
+  var app=document.getElementById("app"),current=null;
   function esc(t){return String(t==null?"":t).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
+  function pretty(v){return String(v||"").replace(/[_-]+/g," ").replace(/\b\w/g,function(x){return x.toUpperCase();});}
   function fmtMin(m){m=Math.round(m);var h=Math.floor(m/60)%24,mm=(m%60+60)%60,ap=h<12?"am":"pm",h12=h%12;if(h12===0)h12=12;return h12+":"+(mm<10?"0":"")+mm+ap;}
   function wxEmoji(c){c=+c;if(c===0)return"☀️";if(c<=3)return"⛅";if(c===45||c===48)return"🌫️";if(c>=51&&c<=67)return"🌧️";if(c>=71&&c<=77)return"❄️";if(c>=80&&c<=82)return"🌦️";if(c>=95)return"⛈️";return"🌥️";}
-  function aqiWord(a){a=+a;return a<=20?" Good":a<=40?" Fair":a<=60?" Moderate":a<=80?" Poor":a<=100?" Very poor":" Extreme";}
+  function aqiWord(a){a=+a;return a<=20?" good":a<=40?" fair":a<=60?" moderate":a<=80?" poor":a<=100?" very poor":" extreme";}
   function state(msg){app.innerHTML='<div class="state">'+esc(msg)+'</div>';}
   function slugParam(){try{return new URLSearchParams(location.search).get("s");}catch(e){return null;}}
-  function setMeta(title,desc){
-    document.title=title;
-    var ot=document.getElementById("og-title");ot&&ot.setAttribute("content",title);
-    var od=document.getElementById("og-desc");od&&od.setAttribute("content",desc);
-    var md=document.getElementById("m-desc");md&&md.setAttribute("content",desc);
-  }
+  function setMeta(title,desc){document.title=title;var ot=document.getElementById("og-title");ot&&ot.setAttribute("content",title);var od=document.getElementById("og-desc");od&&od.setAttribute("content",desc);var md=document.getElementById("m-desc");md&&md.setAttribute("content",desc);}
+  function showToast(msg){var t=document.getElementById("toast");if(!t)return;t.textContent=msg;t.classList.add("on");clearTimeout(showToast._t);showToast._t=setTimeout(function(){t.classList.remove("on");},2200);}
+  function copy(v){if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(v).then(function(){showToast("Map link copied");},function(){legacyCopy(v);});}else legacyCopy(v);}
+  function legacyCopy(v){var ta=document.createElement("textarea");ta.value=v;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();try{document.execCommand("copy");showToast("Map link copied");}catch(e){showToast("Copy the address from your browser");}ta.remove();}
+  function shareCollection(c){var url=location.href,title=(c.name||"A map")+" — Flâneur",data={title:title,text:"A map worth wandering: "+(c.name||"a Flâneur collection")+".",url:url};if(navigator.share){navigator.share(data).catch(function(e){if(!e||e.name!=="AbortError")copy(url);});}else copy(url);}
   function render(c){
-    var spots=Array.isArray(c.spots)?c.spots.filter(function(s){return s&&typeof s.lat==="number"&&typeof s.lng==="number";}):[];
-    var itin=spots.length&&typeof spots[0].d==="number";
-    var ndays=itin?(Math.max.apply(null,spots.map(function(s){return s.d||0;}))+1):0;
-    var twk=0;if(itin){spots.forEach(function(s){twk+=s.wk||0;});twk=Math.round(twk*10)/10;}
-    var metaTitle=(c.name||(itin?"An itinerary":"A collection"))+" — Flâneur";
-    var desc=itin
-      ?(ndays+"-day walking itinerary · "+spots.length+" stops"+(c.city?" in "+c.city:"")+", planned on Flâneur"+(c.note?": "+c.note:"."))
-      :(spots.length+" place"+(spots.length===1?"":"s")+(c.city?" in "+c.city:"")+", hand-picked on Flâneur"+(c.note?": "+c.note:"."));
-    setMeta(metaTitle,desc.slice(0,180));
-    try{var _img=SB_URL+"/storage/v1/object/public/cards/"+encodeURIComponent(c.slug)+".png";["og-image","tw-image"].forEach(function(id){var el=document.getElementById(id);if(el)el.setAttribute("content",_img);});}catch(e){}
-    var h='<div class="eyebrow">A Flâneur '+(itin?'itinerary':'collection')+'</div>';
-    h+='<h1>'+(c.emoji?'<span class="e">'+esc(c.emoji)+'</span>':'')+esc(c.name||(itin?"An itinerary":"A collection"))+'</h1>';
-    h+='<div class="meta">'+(itin
-      ?(ndays+'-day itinerary · '+spots.length+' stops · '+twk+' km walking'+(c.city?' · '+esc(c.city):''))
-      :(spots.length+' place'+(spots.length===1?'':'s')+(c.city?' · '+esc(c.city):'')))+'</div>';
-    h+='<div id="byline"></div>';
-    if(c.note)h+='<p class="note">'+esc(c.note)+'</p>';
-    h+='<div class="wx" id="wx"></div>';
-    h+='<div id="map"></div>';
-    if(itin){
-      var gi=0,cur=-1;
-      spots.forEach(function(s){
-        var nd=s.d||0;
-        if(nd!==cur){if(cur!==-1)h+='</div>';cur=nd;h+='<div class="day"><div class="dayh">Day '+(cur+1)+'</div>';}
-        else if(s.wm||s.wk)h+='<div class="leg">🚶 '+(s.wm||0)+' min walk · '+(Math.round((s.wk||0)*10)/10)+' km</div>';
-        gi++;
-        h+='<div class="stop"><span class="num2">'+gi+'</span><div class="pbody"><div class="pname">'+(s.e?'<span class="e">'+esc(s.e)+'</span>':'')+esc(s.n||"Place")+'</div>'+
-           '<div class="pcat">'+esc([s.cl,s.a].filter(Boolean).join(" · "))+'</div>'+
-           (typeof s.arr==="number"?'<div class="parr">arrive '+fmtMin(s.arr)+(s.stay?' · stay '+s.stay+'m':'')+'</div>':'')+
-           (s.oh?'<div class="poh">🕒 '+esc(s.oh)+'</div>':'')+'</div></div>';
-      });
-      if(cur!==-1)h+='</div>';
-    }else{
-      h+='<ol class="places">';
-      spots.forEach(function(s){
-        h+='<li><span class="num"></span><div class="pbody"><div class="pname">'+(s.e?'<span class="e">'+esc(s.e)+'</span>':'')+esc(s.n||"Place")+'</div>'+
-           '<div class="pcat">'+esc([s.cl,s.a].filter(Boolean).join(" · "))+'</div>'+
-           (s.oh?'<div class="poh">🕒 '+esc(s.oh)+'</div>':'')+'</div></li>';
-      });
-      h+='</ol>';
-    }
-    h+='<a class="cta" href="./#c='+encodeURIComponent(c.slug||"")+'">Open in Flâneur</a>';
-    h+='<div class="sub">'+(itin?'Plan and share your own trips in the app.':'Build and share your own collections in the app.')+'</div>';
-    h+='<div id="cmts"></div>';
+    current=c;var spots=Array.isArray(c.spots)?c.spots.filter(function(s){return s&&isFinite(Number(s.lat))&&isFinite(Number(s.lng));}):[],itin=!!(spots.length&&typeof spots[0].d==="number"),ndays=itin?(Math.max.apply(null,spots.map(function(s){return Number(s.d)||0;}))+1):0,twk=0;if(itin){spots.forEach(function(s){twk+=Number(s.wk)||0;});twk=Math.round(twk*10)/10;}
+    var title=c.name||(itin?"An itinerary":"A collection"),metaTitle=title+" — Flâneur",desc=itin?(ndays+"-day walking itinerary · "+spots.length+" stops"+(c.city?" in "+c.city:"")+", mapped on Flâneur."):(spots.length+" place"+(spots.length===1?"":"s")+(c.city?" in "+c.city:"")+', hand-picked on Flâneur.');if(c.note)desc=c.note+" · "+desc;setMeta(metaTitle,desc.slice(0,180));
+    try{var img=SB_URL+"/storage/v1/object/public/cards/"+encodeURIComponent(c.slug)+".png";["og-image","tw-image"].forEach(function(id){var el=document.getElementById(id);if(el)el.setAttribute("content",img);});}catch(e){}
+    var kind=itin?"Walking itinerary":"Curated collection",city=c.city?pretty(c.city):"Anywhere",distance=itin?(twk+" km"):"—",duration=itin?(ndays+" day"+(ndays===1?"":"s")):"At your pace";
+    var h='<section class="hero"><div class="heromain"><div class="eyebrow">'+kind+' · a Flâneur field note</div><h1>'+(c.emoji?'<span class="e">'+esc(c.emoji)+'</span>':'')+esc(title)+'</h1><div class="metarow"><span class="metapill">'+spots.length+' '+(itin?'stops':'places')+'</span><span class="metapill">'+esc(city)+'</span>'+(itin?'<span class="metapill">'+twk+' km on foot</span>':'')+'<span class="metapill" id="likes">♡ Public map</span></div>'+(c.note?'<p class="note">'+esc(c.note)+'</p>':'')+'<div class="byline" id="byline"><span class="byl">A map by a fellow wanderer</span></div></div>'+
+      '<aside class="copycard"><div class="copytag">Save this atlas</div><h2>Make this map your own.</h2><p>Copy all '+spots.length+' place'+(spots.length===1?'':'s')+' into Flâneur, then edit, reorder, or take it walking.</p><a class="copybtn" href="./#c='+encodeURIComponent(c.slug||"")+'">Copy to my Flâneur →</a><button class="sharebtn" id="share-map" type="button">↗ Share this map</button></aside></section>';
+    h+='<section class="mapframe" id="mapframe"><div class="maptop"><div class="maplabel"><span class="mapdot"></span>Field map · '+spots.length+' plotted</div><div class="wx" id="wx">Live conditions loading…</div></div><div id="map"></div><div class="mapfoot"><span>Numbered in the author’s order'+(itin?' · route shown in green':'')+'</span><span>Drag and zoom to explore</span></div></section>';
+    h+='<div class="story"><section class="panel placespanel"><div class="sectionhead"><div><div class="sectiontag">Inside the map</div><h2>'+(itin?'The route, day by day':'Places worth a detour')+'</h2></div><div class="sectioncount">'+spots.length+' '+(itin?'stops':'entries')+'</div></div>';
+    if(itin){var gi=0,cur=-1;spots.forEach(function(s){var d=Number(s.d)||0;if(d!==cur){if(cur!==-1)h+='</div>';cur=d;h+='<div class="day"><div class="dayh">Day '+(cur+1)+'</div>';}else if(s.wm||s.wk){h+='<div class="leg">Walk '+(s.wm?Math.round(Number(s.wm))+' min':'')+(s.wm&&s.wk?' · ':'')+(s.wk?Math.round(Number(s.wk)*10)/10+' km':'')+'</div>';}gi++;h+='<div class="stop"><span class="num">'+gi+'</span><div class="pbody"><div class="pname">'+(s.e?'<span class="e">'+esc(s.e)+'</span>':'')+esc(s.n||"Place")+'</div><div class="pcat">'+esc([s.cl,s.a].filter(Boolean).join(" · "))+'</div>'+(typeof s.arr==="number"?'<div class="parr">Arrive '+fmtMin(s.arr)+(s.stay?' · stay '+esc(s.stay)+' min':'')+'</div>':'')+(s.oh?'<div class="poh">Open · '+esc(s.oh)+'</div>':'')+'</div></div>';});if(cur!==-1)h+='</div>';
+    }else{h+='<ol class="places">';spots.forEach(function(s){h+='<li class="place"><span class="num"></span><div class="pbody"><div class="pname">'+(s.e?'<span class="e">'+esc(s.e)+'</span>':'')+esc(s.n||"Place")+'</div><div class="pcat">'+esc([s.cl,s.a].filter(Boolean).join(" · "))+'</div>'+(s.oh?'<div class="poh">Open · '+esc(s.oh)+'</div>':'')+'</div></li>';});h+='</ol>';}
+    if(!spots.length)h+='<div class="cmtempty">This map has no public places yet.</div>';
+    h+='</section><aside class="panel side"><div class="sidetop"><div class="sectiontag">At a glance</div><h2>A map to keep, not just view.</h2><p>Open it in Flâneur to preserve the original and shape your own version.</p></div><div class="facts"><div class="fact"><b>'+spots.length+'</b><span>'+(itin?'Stops':'Places')+'</span></div><div class="fact"><b>'+esc(city)+'</b><span>Base</span></div><div class="fact"><b>'+distance+'</b><span>'+(itin?'Walking':'Distance')+'</span></div><div class="fact"><b>'+duration+'</b><span>Pace</span></div></div><a class="sidecopy" href="./#c='+encodeURIComponent(c.slug||"")+'">Copy this map →</a></aside></div>';
+    h+='<section class="panel comments" id="cmts"><div class="commentshead"><div><div class="sectiontag">Field notes</div><h2>Comments</h2></div></div><div class="cmtempty">Loading the conversation…</div></section>';
+    h+='<section class="bottomcta"><div><h2>Your city deserves a point of view.</h2><p>Collect the places you would send a friend, publish the map, and pass it on.</p></div><a class="bottomctabtn" href="./">Build a map in Flâneur →</a></section>';
     app.innerHTML=h;
-    renderComments(c.slug);
-    renderAuthor(c.owner_id);
-    try{sb.from("collection_likes").select("*",{count:"exact",head:true}).eq("slug",c.slug).then(function(lc){var n=(lc&&lc.count)||0;if(n>0){var mEl=document.querySelector(".meta");if(mEl)mEl.insertAdjacentHTML("beforeend"," · \u2665 "+n);}},function(){});}catch(e){}
-    if(window.L&&spots.length){
-      try{
-        var map=L.map("map",{scrollWheelZoom:false,attributionControl:true});
-        L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",{maxZoom:19,subdomains:"abcd",attribution:'© OpenStreetMap, © CARTO'}).addTo(map);
-        var b=[];
-        spots.forEach(function(s,i){
-          var mk=L.marker([s.lat,s.lng],{icon:L.divIcon({html:'<div class="pin">'+(i+1)+'</div>',className:"",iconSize:[26,26],iconAnchor:[13,13]})});
-          mk.addTo(map);b.push([s.lat,s.lng]);
-        });
-        if(b.length===1)map.setView(b[0],14);else map.fitBounds(b,{padding:[36,36],maxZoom:15});
-        setTimeout(function(){try{map.invalidateSize();}catch(e){}},120);
-      }catch(e){var m=document.getElementById("map");if(m)m.style.display="none";}
-    }else{var m=document.getElementById("map");if(m)m.style.display="none";}
-    if(spots.length){var w0=spots[0],wq="latitude="+w0.lat+"&longitude="+w0.lng;Promise.all([
-      fetch("https://api.open-meteo.com/v1/forecast?"+wq+"&current=temperature_2m,apparent_temperature,relative_humidity_2m,wind_speed_10m,weather_code").then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}),
-      fetch("https://air-quality-api.open-meteo.com/v1/air-quality?"+wq+"&current=european_aqi").then(function(r){return r.ok?r.json():null;}).catch(function(){return null;})
-    ]).then(function(a){var j=a[0],aq=a[1];if(!j||!j.current)return;var cu=j.current,parts=[wxEmoji(cu.weather_code)+" Now"+(c.city?" in "+c.city:"")+": "+Math.round(cu.temperature_2m)+"°C"];if(cu.apparent_temperature!=null)parts.push("feels "+Math.round(cu.apparent_temperature)+"°");if(cu.relative_humidity_2m!=null)parts.push("💧"+Math.round(cu.relative_humidity_2m)+"%");if(cu.wind_speed_10m!=null)parts.push("🌬 "+Math.round(cu.wind_speed_10m)+" km/h");if(aq&&aq.current&&aq.current.european_aqi!=null)parts.push("AQI "+Math.round(aq.current.european_aqi)+aqiWord(aq.current.european_aqi));var el=document.getElementById("wx");if(el)el.textContent=parts.join(" · ");}).catch(function(){});}
+    var sh=document.getElementById("share-map");if(sh)sh.onclick=function(){shareCollection(c);};renderComments(c.slug);renderAuthor(c.owner_id);
+    try{sb.from("collection_likes").select("*",{count:"exact",head:true}).eq("slug",c.slug).then(function(lc){var n=(lc&&lc.count)||0,el=document.getElementById("likes");if(el)el.textContent=n?("♥ "+n+" save"+(n===1?"":"s")):"♡ Public map";},function(){});}catch(e){}
+    if(window.L&&spots.length){try{var map=L.map("map",{scrollWheelZoom:false,attributionControl:true,zoomControl:true});L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",{maxZoom:19,subdomains:"abcd",attribution:'© OpenStreetMap, © CARTO'}).addTo(map);var bounds=[];if(itin&&spots.length>1)L.polyline(spots.map(function(s){return[Number(s.lat),Number(s.lng)];}),{color:"#315548",weight:4,opacity:.78,lineCap:"round",lineJoin:"round"}).addTo(map);spots.forEach(function(s,i){var mk=L.marker([Number(s.lat),Number(s.lng)],{icon:L.divIcon({html:'<div class="pin">'+(i+1)+'</div>',className:"",iconSize:[29,29],iconAnchor:[14.5,14.5]})});mk.addTo(map);bounds.push([Number(s.lat),Number(s.lng)]);});if(bounds.length===1)map.setView(bounds[0],14);else map.fitBounds(bounds,{padding:[45,45],maxZoom:15});setTimeout(function(){try{map.invalidateSize();}catch(e){}},120);}catch(e){var mf=document.getElementById("mapframe");if(mf)mf.style.display="none";}}
+    else{var mf=document.getElementById("mapframe");if(mf)mf.style.display="none";}
+    if(spots.length){var w0=spots[0],wq="latitude="+encodeURIComponent(w0.lat)+"&longitude="+encodeURIComponent(w0.lng);Promise.all([fetch("https://api.open-meteo.com/v1/forecast?"+wq+"&current=temperature_2m,apparent_temperature,relative_humidity_2m,wind_speed_10m,weather_code").then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}),fetch("https://air-quality-api.open-meteo.com/v1/air-quality?"+wq+"&current=european_aqi").then(function(r){return r.ok?r.json():null;}).catch(function(){return null;})]).then(function(a){var j=a[0],aq=a[1],el=document.getElementById("wx");if(!el)return;if(!j||!j.current){el.textContent="Conditions unavailable";return;}var cu=j.current,parts=[wxEmoji(cu.weather_code)+" "+Math.round(cu.temperature_2m)+"°C"];
+      if(cu.wind_speed_10m!=null)parts.push("wind "+Math.round(cu.wind_speed_10m)+" km/h");if(aq&&aq.current&&aq.current.european_aqi!=null)parts.push("air "+Math.round(aq.current.european_aqi)+aqiWord(aq.current.european_aqi));el.textContent=parts.join(" · ");}).catch(function(){var el=document.getElementById("wx");if(el)el.textContent="Conditions unavailable";});}
   }
-  function renderAuthor(uid){
-    if(!uid)return;try{sb.from('public_profiles').select('username,display_name,avatar_v,user_id').eq('user_id',uid).maybeSingle().then(function(r){
-      if(!r||!r.data)return;var a=r.data;var bx=document.getElementById('byline');if(!bx)return;
-      var av=a.avatar_v?(SB_URL+'/storage/v1/object/public/avatars/'+encodeURIComponent(a.user_id)+'?v='+a.avatar_v):null;
-      var ic=av?('<img src=\''+av+'\' alt=\'\'>'):('<span class=\'byi\'>'+esc((a.display_name||a.username||'?').slice(0,1).toUpperCase())+'</span>');
-      bx.innerHTML='<a class=\'byl\' href=\'u.html?u='+encodeURIComponent(a.username)+'\'>'+ic+'<span>by @'+esc(a.username)+'</span></a>';
-      var _bi=bx.querySelector('img');if(_bi)_bi.onerror=function(){var sp=document.createElement('span');sp.className='byi';sp.textContent=(a.display_name||a.username||'?').slice(0,1).toUpperCase();_bi.replaceWith(sp);};
-    },function(){});}catch(e){}
+  function renderAuthor(uid){if(!uid)return;try{sb.from("public_profiles").select("username,display_name,avatar_v,user_id").eq("user_id",uid).maybeSingle().then(function(r){if(!r||!r.data)return;var a=r.data,bx=document.getElementById("byline");if(!bx)return;var av=a.avatar_v?(SB_URL+"/storage/v1/object/public/avatars/"+encodeURIComponent(a.user_id)+"?v="+a.avatar_v):null,ic=av?('<img src="'+esc(av)+'" alt="">'):('<span class="byi">'+esc((a.display_name||a.username||"?").slice(0,1).toUpperCase())+'</span>');bx.innerHTML='<a class="byl" href="./u.html?u='+encodeURIComponent(a.username)+'">'+ic+'<span>Mapped by '+esc(a.display_name||("@"+a.username))+' · @'+esc(a.username)+'</span></a>';var im=bx.querySelector("img");if(im)im.onerror=function(){var sp=document.createElement("span");sp.className="byi";sp.textContent=(a.display_name||a.username||"?").slice(0,1).toUpperCase();im.replaceWith(sp);};},function(){});}catch(e){}
   }
-  function renderComments(slug){
-    try{sb.from('collection_comments').select('id,user_id,body,created_at').eq('slug',slug).order('created_at',{ascending:true}).limit(200).then(function(r){
-      var rows=(r&&r.data)||[];var box=document.getElementById('cmts');if(!box)return;
-      if(!rows.length){box.innerHTML='<div class=\'cmth\'>Comments</div><div class=\'cmtempty\'>No comments yet.</div>';return;}
-      var ids=rows.map(function(x){return x.user_id;});
-      sb.from('public_profiles').select('user_id,username,display_name').in('user_id',ids).then(function(pr){
-        var pm={};((pr&&pr.data)||[]).forEach(function(p){pm[p.user_id]=p;});
-        var h='<div class=\'cmth\'>Comments · '+rows.length+'</div>';
-        rows.forEach(function(m){var a=pm[m.user_id];h+='<div class=\'cmt\'><div class=\'cmtwho\'>'+esc(a?('@'+a.username):'someone')+'</div><div class=\'cmtbody\'>'+esc(m.body)+'</div></div>';});
-        box.innerHTML=h;
-      },function(){});
-    },function(){});}catch(e){}
+  function renderComments(slug){try{sb.from("collection_comments").select("id,user_id,body,created_at").eq("slug",slug).order("created_at",{ascending:true}).limit(200).then(function(r){var rows=(r&&r.data)||[],box=document.getElementById("cmts");if(!box)return;if(!rows.length){box.innerHTML='<div class="commentshead"><div><div class="sectiontag">Field notes</div><h2>Comments</h2></div><span class="sectioncount">0 notes</span></div><div class="cmtempty">No comments yet. Open the map in Flâneur to leave the first field note.</div>';return;}var ids=rows.map(function(x){return x.user_id;});sb.from("public_profiles").select("user_id,username,display_name").in("user_id",ids).then(function(pr){var pm={};((pr&&pr.data)||[]).forEach(function(p){pm[p.user_id]=p;});var h='<div class="commentshead"><div><div class="sectiontag">Field notes</div><h2>Comments</h2></div><span class="sectioncount">'+rows.length+' note'+(rows.length===1?'':'s')+'</span></div>';rows.forEach(function(m){var a=pm[m.user_id];h+='<div class="cmt"><div class="cmtwho">'+esc(a?(a.display_name||('@'+a.username)):'A wanderer')+'</div><div class="cmtbody">'+esc(m.body)+'</div></div>';});box.innerHTML=h;},function(){});},function(){});}catch(e){}
   }
-  var slug=slugParam();
-  if(!slug){state("Nothing specified.");return;}
-  if(!window.supabase){state("Couldn’t load. Please try again.");return;}
-  var sb=window.supabase.createClient(SB_URL,SB_ANON);
-  sb.from("collections").select("*").eq("slug",slug).maybeSingle().then(function(r){
-    if(r.error||!r.data){state("This link couldn’t be found — it may have been made private.");return;}
-    render(r.data);
-  },function(){state("Couldn’t load this.");});
+  var slug=slugParam();if(!slug){state("Nothing specified.");return;}if(!window.supabase){state("Couldn’t load this map. Please try again.");return;}var sb=window.supabase.createClient(SB_URL,SB_ANON);sb.from("collections").select("*").eq("slug",slug).maybeSingle().then(function(r){if(r.error||!r.data){state("This map couldn’t be found — it may have been made private.");return;}render(r.data);},function(){state("Couldn’t load this map.");});
 })();
 </script>
 </body>
