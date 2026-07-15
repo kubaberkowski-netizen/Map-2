@@ -3379,7 +3379,6 @@ if(D.readyState!=="loading")setTimeout(handle,700);else addEventListener("DOMCon
    DORMANT until the CFG keys below are filled in. See BACKEND.md.
    Loads AFTER the synchronous app boot, so offline-first is preserved.
    Sign-in + reminders UI live in the You tab (React) via window.flAuth / window.flPush. */
-try{document.documentElement.setAttribute("data-flcloud-started","1");}catch(_){}
 (function(){try{
 var CFG={
   posthogKey:"phc_zuBfJrtsWA3uf5UPbNyAQVpsTZkyKBPmL654yfCEWBzn",
@@ -3593,10 +3592,11 @@ uploadAvatar:function(file){return new Promise(function(res,rej){if(!sb||!USER){
 window.flSocialUI=function(openUser){
   if(document.getElementById("flsoc"))return;
   var S=window.flSocial;
+  function socialTheme(node){try{var root=document.querySelector(".root");if(!root||!node)return;node.dataset.theme=root.dataset.theme||"light";var cs=getComputedStyle(root);["--bg","--surface","--surface2","--ink","--ink2","--ink3","--line","--red","--redb","--redbg","--redline","--ok","--gold","--compass","--compass2","--font-serif","--font-sans"].forEach(function(k){var v=cs.getPropertyValue(k);if(v)node.style.setProperty(k,v);});}catch(e){}}
   var ov=el("div","position:fixed;inset:0;z-index:3300;background:var(--bg,#F3EEE6);overflow:auto;-webkit-overflow-scrolling:touch;animation:popfade .15s ease;");ov.id="flsoc";ov.className="socialatlas";
   var card=el("div","background:var(--bg,#F3EEE6);color:var(--ink,#1a1a1a);width:100%;max-width:680px;min-height:100%;margin:0 auto;animation:popfade .2s ease;");card.className="socialatlas-card";
   
-  var pad=el("div","padding:16px 20px 56px;font:500 14px var(--font-sans),sans-serif;");pad.className="socialatlas-pad";card.appendChild(pad);ov.appendChild(card);flOverlayTheme(ov);ov.setAttribute("role","dialog");ov.setAttribute("aria-modal","true");ov.setAttribute("aria-label","The Field Atlas");document.body.appendChild(ov);
+  var pad=el("div","padding:16px 20px 56px;font:500 14px var(--font-sans),sans-serif;");pad.className="socialatlas-pad";card.appendChild(pad);ov.appendChild(card);socialTheme(ov);ov.setAttribute("role","dialog");ov.setAttribute("aria-modal","true");ov.setAttribute("aria-label","The Field Atlas");document.body.appendChild(ov);
   function close(){ov.remove();}
   ov.onclick=function(e){if(e.target===ov)close();};
   function h(t){var d=el("div","display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;");d.className="socialatlas-top";var brand=el("div","font:800 20px var(--font-serif);",t);brand.className="socialatlas-brand";d.appendChild(brand);var x=el("button","border:none;background:none;font-size:22px;color:var(--ink3,#888);cursor:pointer;line-height:1;","×");x.className="socialatlas-close";x.setAttribute("aria-label","Close field atlas");x.onclick=close;d.appendChild(x);return d;}
@@ -3823,7 +3823,7 @@ window.flSocialUI=function(openUser){
     });
   }).catch(function(){});
 }
-}catch(e){try{document.documentElement.setAttribute("data-flcloud-error",String(e&&e.message||e).slice(0,160));console.error("Flâneur cloud init failed",e&&e.stack||e);}catch(_){}}})();
+}catch(e){}})();
 </script>
 <script>
 /* Flâneur product pass (Jul 2026, product review P1-P3):
