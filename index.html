@@ -3822,7 +3822,7 @@ window.flSocialUI=function(openUser){
     });
   }).catch(function(){});
 }
-}catch(e){}})();
+}catch(e){try{console.error("Flâneur cloud init failed",e&&e.stack||e);}catch(_){}}})();
 </script>
 <script>
 /* Flâneur product pass (Jul 2026, product review P1-P3):
