@@ -923,32 +923,39 @@ lucide-react/dist/esm/lucide-react.js:
    window.flPlaque(). */
 (function(){
   var D=document, W=window;
-  function num(){return Math.floor(Date.now()/864e5);}
-  function tKey(){return "u"+Math.floor(Date.now()/864e5);}
+  W.flGameDay=W.flGameDay||function(game){
+    try{var days=W.__FLGAME_DAYS||{},v=game&&days[game];if(typeof v==="number"&&isFinite(v))return Math.floor(v);}catch(e){}
+    return Math.floor(Date.now()/864e5);
+  };
+  W.flGameRunKey=W.flGameRunKey||function(game,day,normal){
+    try{var r=W.__FLGAME_RUN;if(r&&r.g===game&&+r.day===+day&&r.id)return "flchallenge_"+game+"_"+day+"_"+String(r.id).replace(/[^a-z0-9]/gi,"").slice(0,24);}catch(e){}
+    return normal;
+  };
+  W.flRedactAnswer=W.flRedactAnswer||function(w,names){
+    var out=String(w||""),raw=Array.isArray(names)?names:[names],terms=[],seen={};
+    var stop={the:1,and:1,for:1,with:1,from:1,into:1,over:1,under:1,bar:1,park:1,house:1,hall:1,court:1,street:1,road:1,museum:1,church:1,chapel:1,garden:1,gardens:1,centre:1,center:1,hotel:1,cafe:1};
+    function add(t,whole){t=String(t||"").trim();if(t.length<3)return;var k=t.toLowerCase();if(!whole&&(t.length<4||stop[k]))return;if(!seen[k]){seen[k]=1;terms.push(t);}}
+    raw.forEach(function(n){add(n,true);String(n||"").split(/[\s,;:()\[\]{}]+/).forEach(function(t){add(t,false);});});
+    terms.sort(function(a,b){return b.length-a.length;});
+    terms.forEach(function(t){try{var e=t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),re=new RegExp("(^|[^A-Za-z0-9À-ÖØ-öø-ÿ])"+e+"(?=$|[^A-Za-z0-9À-ÖØ-öø-ÿ])","gi");out=out.replace(re,function(_,lead){return lead+"███";});}catch(e){}});
+    return out;
+  };
+  function num(game){return W.flGameDay(game);}
+  function tKey(){return "u"+num();}
   function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
   function norm(s){return String(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");}
   function cityOf(){
     try{var v2=JSON.parse(W.localStorage.getItem("flaneur-v2")||"{}");var ck=v2.checkinAt||{};var Z=W.__FLZ||[];var by={};for(var i=0;i<Z.length;i++)by[Z[i].id]=Z[i];var c={};for(var k in ck){var s=by[k];if(s&&s.city)c[s.city]=(c[s.city]||0)+1;}var best="london",n=0;for(var x in c){if(c[x]>n){n=c[x];best=x;}}return best;}catch(e){return "london";}
   }
-  function daily(city){
+  function daily(city,seed){
     var Z=W.__FLZ||[]; if(!Z.length)return null;
     var pool=Z.filter(function(z){return z.city===city&&(z.w||"").length>140&&z.n&&z.a;});
     if(pool.length<15)pool=Z.filter(function(z){return z.city===city&&(z.w||"").length>80&&z.n;});
     if(pool.length<8)return null;
     pool.sort(function(a,b){return String(a.id).localeCompare(String(b.id));});
-    var seed=num(); // rotate hash a little by city length so cities differ
     return {spot:pool[(((seed*2654435761)>>>0)+city.length*7)%pool.length], poolSize:pool.length, city:city, all:Z.filter(function(z){return z.city===city&&z.n;})};
   }
-  function worldPD(){var Z=W.__FLZ||[];var pool=Z.filter(function(z){return (z.w||"").length>160&&z.n&&z.a&&(z.wq==="a"||z.wq==="r");});if(pool.length<300)pool=Z.filter(function(z){return (z.w||"").length>160&&z.n&&z.a;});if(pool.length<20)return null;pool.sort(function(a,b){return String(a.id).localeCompare(String(b.id));});var seed=num();return {spot:pool[(seed*7919)%pool.length],poolSize:pool.length,city:"world",all:Z.filter(function(z){return z.n;})};}var _pmode="local";var _ppractice=false;function pRandPick(isW,city){try{var Z=W.__FLZ||[],p;if(isW){p=Z.filter(function(z){return (z.w||"").length>160&&z.n&&z.a;});}else{p=Z.filter(function(z){return z.city===city&&(z.w||"").length>80&&z.n;});}return p.length?p[Math.floor(Math.random()*p.length)]:null;}catch(e){return null;}}function redact(w,name){
-    var out=String(w||"");
-    try{
-      var parts=String(name||"").split(/\s+/).filter(function(x){return x.length>2;});
-      parts.push(name);
-      parts.sort(function(a,b){return b.length-a.length;});
-      parts.forEach(function(p){var re=new RegExp(p.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi");out=out.replace(re,"███");});
-    }catch(e){}
-    return out;
-  }
+  function worldPD(seed){var Z=W.__FLZ||[];var pool=Z.filter(function(z){return (z.w||"").length>160&&z.n&&z.a&&(z.wq==="a"||z.wq==="r");});if(pool.length<300)pool=Z.filter(function(z){return (z.w||"").length>160&&z.n&&z.a;});if(pool.length<20)return null;pool.sort(function(a,b){return String(a.id).localeCompare(String(b.id));});return {spot:pool[(seed*7919)%pool.length],poolSize:pool.length,city:"world",all:Z.filter(function(z){return z.n;})};}var _pmode="local";var _ppractice=false;function pRandPick(isW,city){try{var Z=W.__FLZ||[],p;if(isW){p=Z.filter(function(z){return (z.w||"").length>160&&z.n&&z.a;});}else{p=Z.filter(function(z){return z.city===city&&(z.w||"").length>80&&z.n;});}return p.length?p[Math.floor(Math.random()*p.length)]:null;}catch(e){return null;}}function redact(w,name){return W.flRedactAnswer(w,name);}
   function grid(guesses,won){
     var g="";for(var i=0;i<guesses.length;i++)g+=(won&&i===guesses.length-1)?"🟩":"⬛";
     return g;
@@ -956,9 +963,11 @@ lucide-react/dist/esm/lucide-react.js:
   function open(force){
    try{
     if(D.getElementById("flplaqbd"))return;
-    var _isW=(_pmode==="world");_pmode="local";var _ppr=_ppractice;_ppractice=false;var pk=(_ppr?"prac_"+Math.floor(Math.random()*1e9):tKey()), done=null; if(!_ppr)try{done=JSON.parse(W.localStorage.getItem((_isW?"flplaqueW_":"flplaque_")+pk)||"null");}catch(e){}
-    var dd=_isW?worldPD():daily((W.__FLCITY&&String(W.__FLCITY))||cityOf());if(dd&&_ppr){var _rp=pRandPick(_isW,dd.city);if(_rp)dd={spot:_rp,poolSize:dd.poolSize,city:dd.city,all:dd.all};} if(!dd){return;}
-    var ans=dd.spot, tries=[], MAX=3, over=!!done, won=done&&done.won;try{dd.all.forEach(function(z){if(!z._nn)z._nn=norm(z.n);});}catch(e){}
+    var _isW=(_pmode==="world");_pmode="local";var _ppr=_ppractice;_ppractice=false;
+    var puzzleDay=num(_isW?"plaqueworld":""),normalKey=(_isW?"flplaqueW_":"flplaque_")+(_ppr?"prac_"+Math.floor(Math.random()*1e9):"u"+puzzleDay),saveKey=(!_ppr&&_isW)?W.flGameRunKey("plaqueworld",puzzleDay,normalKey):normalKey,done=null;
+    if(!_ppr)try{done=JSON.parse(W.localStorage.getItem(saveKey)||"null");}catch(e){}
+    var dd=_isW?worldPD(puzzleDay):daily((W.__FLCITY&&String(W.__FLCITY))||cityOf(),puzzleDay);if(dd&&_ppr){var _rp=pRandPick(_isW,dd.city);if(_rp)dd={spot:_rp,poolSize:dd.poolSize,city:dd.city,all:dd.all};} if(!dd){return;}
+    var ans=dd.spot, tries=(done&&Array.isArray(done.guesses))?done.guesses.slice():[], MAX=3, over=!!done, won=done&&done.won;try{dd.all.forEach(function(z){if(!z._nn)z._nn=norm(z.n);});}catch(e){}
     var bd=D.createElement("div"); bd.id="flplaqbd";
     bd.setAttribute("style","position:fixed;inset:0;z-index:99998;background:rgba(20,16,12,.74);display:flex;align-items:center;justify-content:center;padding:20px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif");
     function close(){try{D.body.removeChild(bd);}catch(e){}}
@@ -972,7 +981,7 @@ lucide-react/dist/esm/lucide-react.js:
       var clue=redact(ans.w,ans.n).slice(0,240);
       var shownHints=hints.slice(0,Math.min(hints.length,tries.length));
       card.innerHTML=''
-        +'<div style="display:flex;justify-content:space-between;align-items:baseline"><div style="font-family:monospace;font-size:10.5px;letter-spacing:.2em;color:#C8372D">DAILY PLAQUE #'+num()+'</div><div id="flpqx" style="font-size:20px;color:#8A8073;cursor:pointer;line-height:1">×</div></div>'
+        +'<div style="display:flex;justify-content:space-between;align-items:baseline"><div style="font-family:monospace;font-size:10.5px;letter-spacing:.2em;color:#C8372D">DAILY PLAQUE #'+puzzleDay+'</div><div id="flpqx" style="font-size:20px;color:#8A8073;cursor:pointer;line-height:1">×</div></div>'
         +'<div style="font-size:12px;color:#8A8073;margin:2px 0 12px">'+esc(cityLabel)+' · guess the place from its story</div>'
         +'<div style="font-family:Georgia,serif;font-size:15px;line-height:1.5;color:#211C16;background:#F1E7D2;border-radius:10px;padding:12px 14px">“'+esc(clue)+'…”</div>'
         +(shownHints.length?'<div style="margin-top:10px;font-size:12.5px;color:#5C524A">'+shownHints.map(function(h){return '💡 '+esc(h);}).join('<br>')+'</div>':'')
@@ -984,13 +993,13 @@ lucide-react/dist/esm/lucide-react.js:
           :'<div style="margin-top:14px;position:relative"><input id="flpqin" placeholder="Guess the place…" autocomplete="off" style="width:100%;box-sizing:border-box;border:1px solid #E7E0D4;border-radius:10px;padding:11px 12px;font-size:15px;font-family:inherit;background:#fff;color:#211C16"><div id="flpqac" style="position:absolute;left:0;right:0;top:46px;background:#fff;border:1px solid #E7E0D4;border-radius:10px;overflow:hidden;z-index:5"></div></div><div style="font-size:11.5px;color:#8A8073;margin-top:8px;text-align:center">'+(MAX-tries.length)+' guess'+((MAX-tries.length)===1?'':'es')+' left</div>');
       D.getElementById("flpqx").onclick=close;var _se=D.getElementById("flpqsee");if(_se)_se.onclick=function(ev){try{if(ev&&ev.preventDefault)ev.preventDefault();}catch(e){}try{close();}catch(e){}try{location.hash="#spot="+encodeURIComponent(ans.id);}catch(e){}};
       if(revealed){
-        var _pa=D.getElementById("flpqagain");if(_pa)_pa.onclick=function(){try{_pmode=_isW?"world":"local";_ppractice=true;close();setTimeout(function(){open(true);},30);}catch(e){}};var sb=D.getElementById("flpqshare"); if(sb)sb.onclick=function(){var txt="Daily Plaque #"+num()+" "+grid(won?tries.concat([1]):tries,won)+" "+(won?(done?done.tries:tries.length)+"/"+MAX:"X/"+MAX)+(tries.length?" "+Array(Math.min(tries.length,3)+1).join("💡"):"");W.flShareCard({kicker:"Daily Plaque #"+num(),title:cityLabel,big:(won?(done?done.tries:tries.length)+"/"+MAX:"X/"+MAX),grid:grid(won?tries.concat([1]):tries,won)},txt,sb);};
+        var _pa=D.getElementById("flpqagain");if(_pa)_pa.onclick=function(){try{_pmode=_isW?"world":"local";_ppractice=true;close();setTimeout(function(){open(true);},30);}catch(e){}};var sb=D.getElementById("flpqshare"); if(sb)sb.onclick=function(){var txt="Daily Plaque #"+puzzleDay+" "+grid(won?tries.concat([1]):tries,won)+" "+(won?(done?done.tries:tries.length)+"/"+MAX:"X/"+MAX)+(tries.length?" "+Array(Math.min(tries.length,3)+1).join("💡"):"");var _shareScore=won?((done&&done.score)!=null?done.score:Math.max(100,1000-Math.max(0,(done&&done.tries||1)-1)*150)):0;W.flShareCard({kicker:"Daily Plaque #"+puzzleDay,title:cityLabel,big:(won?(done?done.tries:tries.length)+"/"+MAX:"X/"+MAX),grid:grid(won?tries.concat([1]):tries,won),challenge:(!_ppr&&_isW)?{g:"plaqueworld",s:_shareScore,day:puzzleDay}:null},txt,sb);};
       } else {
         var inp=D.getElementById("flpqin"), ac=D.getElementById("flpqac");
         function submit(sp){
-          if(sp.id===ans.id){ over=true; won=true; try{W.localStorage.setItem((_isW?"flplaqueW_":"flplaque_")+pk,JSON.stringify({won:true,tries:tries.length+1}));}catch(e){} try{W.flTrack&&W.flTrack("plaque_win");}catch(e){}try{W.localStorage.setItem("flaneur-mxp",String((+(W.localStorage.getItem("flaneur-mxp"))||0)+Math.round(Math.max(100,1000-tries.length*150)/50)));}catch(e){}if(!_ppr&&_isW){try{W.flGameScore&&W.flGameScore("plaqueworld",Math.max(100,1000-tries.length*150));}catch(e){}} render(); return; }
+          if(sp.id===ans.id){ over=true; won=true;var _ps=Math.max(100,1000-tries.length*150);done={won:true,tries:tries.length+1,guesses:tries.slice(),score:_ps};try{W.localStorage.setItem(saveKey,JSON.stringify(done));}catch(e){} try{W.flTrack&&W.flTrack("plaque_win");}catch(e){}try{W.localStorage.setItem("flaneur-mxp",String((+(W.localStorage.getItem("flaneur-mxp"))||0)+Math.round(_ps/50)));}catch(e){}if(!_ppr){try{W.flGameComplete&&W.flGameComplete(_isW?"plaqueworld":"plaque",_ps,"won",_isW);}catch(e){}} render(); return; }
           tries.push(sp.n);
-          if(tries.length>=MAX){ over=true; won=false; try{W.localStorage.setItem((_isW?"flplaqueW_":"flplaque_")+pk,JSON.stringify({won:false,tries:MAX}));}catch(e){} try{W.flTrack&&W.flTrack("plaque_lose");}catch(e){} }
+          if(tries.length>=MAX){ over=true; won=false;done={won:false,tries:MAX,guesses:tries.slice(),score:0}; try{W.localStorage.setItem(saveKey,JSON.stringify(done));}catch(e){} try{W.flTrack&&W.flTrack("plaque_lose");}catch(e){}if(!_ppr){try{W.flGameComplete&&W.flGameComplete(_isW?"plaqueworld":"plaque",0,"lost",_isW);}catch(e){}} }
           render();
         }
         inp.oninput=function(){
@@ -1500,9 +1509,10 @@ lucide-react/dist/esm/lucide-react.js:
    Opens via a once-a-day launcher toast, #geoguess, or window.flGeoGuess(). */
 (function(){
   var D=document, W=window;
-  function tKey(){return "u"+Math.floor(Date.now()/864e5);}
+  function gameDay(game){return W.flGameDay?W.flGameDay(game):Math.floor(Date.now()/864e5);}
+  function tKey(){return "u"+gameDay();}
   function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
-  function redact(w,name){var out=String(w||"");try{var parts=String(name||"").split(/\s+/).filter(function(x){return x.length>2;});parts.push(name);parts.sort(function(a,b){return b.length-a.length;});parts.forEach(function(p){var re=new RegExp(p.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi");out=out.replace(re,"███");});}catch(e){}return out;}
+  function redact(w,name){return W.flRedactAnswer?W.flRedactAnswer(w,name):String(w||"");}
   function bestCity(){try{var Z=W.__FLZ||[],ck=JSON.parse(W.localStorage.getItem("flaneur-v2")||"{}").checkinAt||{};var by={};for(var i=0;i<Z.length;i++)by[Z[i].id]=Z[i];var c={};for(var k in ck){var s=by[k];if(s&&s.city)c[s.city]=(c[s.city]||0)+1;}var best="london",n=0;for(var x in c){if(c[x]>n){n=c[x];best=x;}}return best;}catch(e){return "london";}}
   function curCity(){try{return (W.__FLCITY&&String(W.__FLCITY))||bestCity();}catch(e){return bestCity();}}
   function bounds(city){var Z=W.__FLZ||[],la=[],ln=[];Z.forEach(function(z){if(z.city===city&&typeof z.lat==="number"){la.push(z.lat);ln.push(z.lng);}});if(la.length<2)return null;return [[Math.min.apply(null,la),Math.min.apply(null,ln)],[Math.max.apply(null,la),Math.max.apply(null,ln)]];}
@@ -1521,9 +1531,9 @@ lucide-react/dist/esm/lucide-react.js:
     return p;
   }
   var ROUNDS=5;
-  function dailyRun(isW,city){
+  function dailyRun(isW,city,seed){
     var pool=poolOf(isW,city); if(pool.length<ROUNDS)return null;
-    var seed=Math.floor(Date.now()/864e5),out=[],used={},i=0;
+    var out=[],used={},i=0;
     while(out.length<ROUNDS&&i<ROUNDS*60){
       var idx=(((seed+out.length)*(isW?7919:104729))+i*613+(isW?0:city.length*5))%pool.length;
       var z=pool[idx<0?idx+pool.length:idx];
@@ -1546,12 +1556,13 @@ lucide-react/dist/esm/lucide-react.js:
       if(!W.L)return;
       var isW=(_mode==="world");_mode="local";var _pr=_practice;_practice=false;
       var city=isW?"":curCity();
-      var run=_pr?randRun(isW,city):dailyRun(isW,city);
+      var puzzleDay=gameDay(isW?"pinworld":""),run=_pr?randRun(isW,city):dailyRun(isW,city,puzzleDay);
       var bb=isW?[[-55,-160],[72,175]]:bounds(city);
       if(!run||!bb)return;
       var cityLabel=isW?"the World":(city.charAt(0).toUpperCase()+city.slice(1));
       var rmax=isW?5000:1000, tmax=rmax*ROUNDS;
-      var pk=(isW?"flgeoW_":"flgeo_")+(_pr?"prac"+Math.floor(Math.random()*1e9):tKey());
+      var normalKey=(isW?"flgeoW_":"flgeo_")+(_pr?"prac"+Math.floor(Math.random()*1e9):"u"+puzzleDay);
+      var pk=(!_pr&&isW&&W.flGameRunKey)?W.flGameRunKey("pinworld",puzzleDay,normalKey):normalKey;
       var st=null; if(!_pr)try{st=JSON.parse(W.localStorage.getItem(pk)||"null");}catch(e){}
       if(st&&!st.rounds)st=null; // pre-5-round save format
       st=st||{rounds:[],done:false};
@@ -1615,7 +1626,7 @@ lucide-react/dist/esm/lucide-react.js:
         } else {
           var sh=D.getElementById("flgeoshare"); if(sh)sh.onclick=function(){
             var t2=total(),txt="Place the Pin — "+cityLabel+" "+st.rounds.map(function(r){return sq(r.s/rmax);}).join('')+" "+t2+"/"+tmax;
-            W.flShareCard({kicker:"Place the Pin",title:cityLabel,big:t2+" / "+tmax,grid:st.rounds.map(function(r){return sq(r.s/rmax);}).join("")},txt,sh);};
+            W.flShareCard({kicker:"Place the Pin",title:cityLabel,big:t2+" / "+tmax,grid:st.rounds.map(function(r){return sq(r.s/rmax);}).join(""),challenge:(!_pr&&isW)?{g:"pinworld",s:t2,day:puzzleDay}:null},txt,sh);};
           var ag=D.getElementById("flgeoagain"); if(ag)ag.onclick=function(){try{_mode=isW?"world":"local";_practice=true;close();setTimeout(function(){open(true);},30);}catch(e){}};
         }
       }
@@ -1660,7 +1671,7 @@ lucide-react/dist/esm/lucide-react.js:
             var t=total();
             try{W.localStorage.setItem("flaneur-mxp",String((+(W.localStorage.getItem("flaneur-mxp"))||0)+Math.round(t/(isW?1250:250))));}catch(e){}
             try{W.flTrack&&W.flTrack("geoguess",{score:t});}catch(e){}
-            if(isW){try{W.flGameScore&&W.flGameScore("pinworld",t);}catch(e){}}
+            try{W.flGameComplete&&W.flGameComplete(isW?"pinworld":"pin",t,"completed",isW);}catch(e){}
           }
         }
         persist();
@@ -1749,15 +1760,16 @@ lucide-react/dist/esm/lucide-react.js:
       bd.addEventListener("click",function(e){if(e.target===bd)close();});
 
       function persist(){try{W.localStorage.setItem(pk,JSON.stringify({solved:solvedCats,mistakes:mistakes,hist:hist,over:over}));}catch(e){}}
+      function isWon(){return over&&mistakes<4&&solvedCats.length===4;}
       function shareText(){
         var sq={};sq[COLORS[0]]="🟨";sq[COLORS[1]]="🟩";sq[COLORS[2]]="🟦";sq[COLORS[3]]="🟪";
-        var won=solvedCats.length===4;
+        var won=isWon();
         var rows=hist.map(function(r){return r.map(function(c){return sq[c]||"⬜";}).join("");}).join("\n");
         return "Flâneur Connections — "+cityLabel+"\n"+(won?"Solved with "+mistakes+" mistake"+(mistakes===1?"":"s"):"🙅")+"\n"+rows;
       }
 
       function render(){
-        var won=solvedCats.length===4, lost=mistakes>=4;
+        var won=isWon(), lost=mistakes>=4;
         var solvedRows=puz.groups.filter(function(g){return solvedCats.indexOf(g.cat)>=0;})
           .sort(function(a,b){return a.diff-b.diff;});
         var remaining=puz.tiles.filter(function(t){return solvedCats.indexOf(t.cat)<0;});
@@ -1809,12 +1821,12 @@ lucide-react/dist/esm/lucide-react.js:
         var counts={};cats.forEach(function(c){counts[c]=(counts[c]||0)+1;});
         var top=0;for(var c in counts)if(counts[c]>top)top=counts[c];
         hist.push(sel.map(function(id){var t=puz.tiles.filter(function(x){return x.id===id;})[0];return byCat[t.cat].color;}));
-        if(top===4){ solvedCats.push(cats[0]); sel=[]; if(solvedCats.length===4){over=true;if(!_cpr){try{W.flGameScore&&W.flGameScore("connections",Math.max(200,1000-mistakes*200));}catch(e){}try{W.localStorage.setItem("flaneur-mxp",String((+(W.localStorage.getItem("flaneur-mxp"))||0)+Math.round(Math.max(200,1000-mistakes*200)/50)));}catch(e){}}} persist(); render(); }
+        if(top===4){ solvedCats.push(cats[0]); sel=[]; if(solvedCats.length===4){over=true;if(!_cpr){var _cs=Math.max(200,1000-mistakes*200);try{W.flGameComplete&&W.flGameComplete("connections",_cs,"won",true);}catch(e){}try{W.localStorage.setItem("flaneur-mxp",String((+(W.localStorage.getItem("flaneur-mxp"))||0)+Math.round(_cs/50)));}catch(e){}}} persist(); render(); }
         else { mistakes++; sel=[]; if(mistakes>=4){ over=true; // reveal remaining
-            puz.groups.forEach(function(g){if(solvedCats.indexOf(g.cat)<0)solvedCats.push(g.cat);}); solvedCats=puz.groups.map(function(g){return g.cat;}); mistakes=4; }
+            puz.groups.forEach(function(g){if(solvedCats.indexOf(g.cat)<0)solvedCats.push(g.cat);}); solvedCats=puz.groups.map(function(g){return g.cat;}); mistakes=4;if(!_cpr){try{W.flGameComplete&&W.flGameComplete("connections",0,"lost",true);}catch(e){}} }
           persist(); render(); if(top===3)msg("So close — one away!"); }
       }
-      function doShare(){var txt=shareText();var _sq={};_sq[COLORS[0]]="🟨";_sq[COLORS[1]]="🟩";_sq[COLORS[2]]="🟦";_sq[COLORS[3]]="🟪";W.flShareCard({kicker:"Connections",title:cityLabel,big:(solvedCats.length===4?"Solved!":"🙅"),sub:mistakes+" mistake"+(mistakes===1?"":"s"),gridLines:hist.map(function(r){return r.map(function(c){return _sq[c]||"⬜";}).join("");})},txt,D.getElementById("flcshare"));}
+      function doShare(){var txt=shareText();var _sq={};_sq[COLORS[0]]="🟨";_sq[COLORS[1]]="🟩";_sq[COLORS[2]]="🟦";_sq[COLORS[3]]="🟪";W.flShareCard({kicker:"Connections",title:cityLabel,big:(isWon()?"Solved!":"🙅"),sub:mistakes+" mistake"+(mistakes===1?"":"s"),gridLines:hist.map(function(r){return r.map(function(c){return _sq[c]||"⬜";}).join("");})},txt,D.getElementById("flcshare"));}
 
       // if 4 mistakes were saved, remaining already revealed via solvedCats
       if(mistakes>=4&&solvedCats.length<4){solvedCats=puz.groups.map(function(g){return g.cat;});}
@@ -1834,13 +1846,13 @@ lucide-react/dist/esm/lucide-react.js:
   var D=document, W=window;
   var YMIN=1400, YNOW=(function(){try{return new Date().getFullYear();}catch(e){return 2026;}})();
   var _tpractice=false;
-  function tKey(){return "u"+Math.floor(Date.now()/864e5);}
+  function gameDay(){return W.flGameDay?W.flGameDay("time"):Math.floor(Date.now()/864e5);}
   function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
   var YRRE=/\b(1[4-9]\d\d|20[0-2]\d)\b/;
   var YRRG=/\b(1[4-9]\d\d|20[0-2]\d)\b/g;
   function firstYear(w){var m=String(w||"").match(/\b(1[4-9]\d\d|20[0-2]\d)\b/g);if(!m)return null;var y=1/0;for(var i=0;i<m.length;i++){var v=parseInt(m[i],10);if(v<y)y=v;}return y;}
   function pool(){var Z=W.__FLZ||[];var all=Z.filter(function(z){return z.n&&z.a&&(z.w||"").length>90&&firstYear(z.w);});var hi=all.filter(function(z){return z.wq==="a"||z.wq==="r";});return hi.length>=500?hi:all;}
-  function dailyPick(p){var s1=p.filter(function(z){var m=String(z.w||"").match(/\b(1[4-9]\d\d|20[0-2]\d)\b/g);return m&&m.length===1;});if(s1.length>=200)p=s1;var seed=Math.floor(Date.now()/864e5);return p[(seed*6151)%p.length];}
+  function dailyPick(p,seed){var s1=p.filter(function(z){var m=String(z.w||"").match(/\b(1[4-9]\d\d|20[0-2]\d)\b/g);return m&&m.length===1;});if(s1.length>=200)p=s1;return p[(seed*6151)%p.length];}
   function randPick(p){return p[Math.floor(Math.random()*p.length)];}
   function redact(w){return String(w||"").replace(YRRG,"████");}
   function score(diff){return Math.max(0,Math.round(1000*Math.exp(-Math.abs(diff)/50)));}
@@ -1850,9 +1862,9 @@ lucide-react/dist/esm/lucide-react.js:
     try{
       var _pr=_tpractice; _tpractice=false;
       var p=pool(); if(!p||!p.length)return;
-      var ans=_pr?randPick(p):dailyPick(p);
+      var puzzleDay=gameDay(),ans=_pr?randPick(p):dailyPick(p,puzzleDay);
       var year=firstYear(ans.w);
-      var pk="fltime_"+(_pr?"prac"+Math.floor(Math.random()*1e9):tKey()), done=null;
+      var normalKey="fltime_"+(_pr?"prac"+Math.floor(Math.random()*1e9):"u"+puzzleDay),pk=(!_pr&&W.flGameRunKey)?W.flGameRunKey("time",puzzleDay,normalKey):normalKey,done=null;
       try{done=JSON.parse(W.localStorage.getItem(pk)||"null");}catch(e){}
       var revealed=!!done, guess=(done&&done.guess)||Math.round((YMIN+YNOW)/2);
 
@@ -1889,7 +1901,7 @@ lucide-react/dist/esm/lucide-react.js:
         D.getElementById("fltx").onclick=close;
         if(revealed){
           try{W.flGamePic&&W.flGamePic("flttpic",ans.lat,ans.lng,ans.n);}catch(e){}var se=D.getElementById("fltsee"); if(se)se.onclick=function(ev){try{ev.preventDefault();}catch(e){}close();try{location.hash="#spot="+encodeURIComponent(ans.id);}catch(e){}};
-          var sh=D.getElementById("fltshare"); if(sh)sh.onclick=function(){var txt="Time Traveller "+grid(done.score)+" "+done.score+" pts ("+Math.abs(done.guess-year)+" yrs off)";W.flShareCard({kicker:"Time Traveller",title:Math.abs(done.guess-year)+" years off",big:done.score+" pts",grid:grid(done.score)},txt,sh);};
+          var sh=D.getElementById("fltshare"); if(sh)sh.onclick=function(){var txt="Time Traveller "+grid(done.score)+" "+done.score+" pts ("+Math.abs(done.guess-year)+" yrs off)";W.flShareCard({kicker:"Time Traveller",title:Math.abs(done.guess-year)+" years off",big:done.score+" pts",grid:grid(done.score),challenge:!_pr?{g:"time",s:done.score,day:puzzleDay}:null},txt,sh);};
           var ag=D.getElementById("fltagain"); if(ag)ag.onclick=again;
         } else {
           var rg=D.getElementById("fltrange"), yr=D.getElementById("fltyr");
@@ -2058,15 +2070,28 @@ lucide-react/dist/esm/lucide-react.js:
   }
 
   // ---- write today's score --------------------------------------------------
-  W.flGameScore=function(game,score){
+  function markComplete(game,score,outcome){
     try{W.flFlame&&W.flFlame.touch("game");}catch(e){}
-    try{W.__flLastScore={g:game,s:Math.max(0,Math.round(+score||0)),t:Date.now()};}catch(e){}
+    try{W.flTrack&&W.flTrack("game_complete",{game:game||"",outcome:outcome||"completed",score:Math.max(0,Math.round(+score||0))});}catch(e){}
+  }
+  W.flGameComplete=function(game,score,outcome,postScore){
+    markComplete(game,score,outcome);
+    if(postScore&&game)W.flGameScore(game,score,true);
+  };
+  W.flGameScore=function(game,score,_marked){
+    if(!_marked)markComplete(game,score,"scored");
+    try{var _sd=W.flGameDay?W.flGameDay(game):Math.floor(Date.now()/864e5);W.__flLastScore={g:game,s:Math.max(0,Math.round(+score||0)),t:Date.now(),day:_sd,id:rid()};}catch(e){}
+    var _wasChallenge=false;
     try{var _ch=JSON.parse(localStorage.getItem("flchall")||"null");
-      if(_ch&&_ch.g===game&&Date.now()-(_ch.t||0)<36e5){localStorage.removeItem("flchall");
+      var _run=W.__FLGAME_RUN;
+      if(_ch&&_run&&_ch.g===game&&_run.g===game&&_ch.id===_run.id&&Date.now()-(_ch.t||0)<36e5){localStorage.removeItem("flchall");
+        _wasChallenge=true;
         var _w2=(+score||0)>=_ch.s;
         W.__flChallToast&&W.__flChallToast(_w2?"\uD83C\uDFC6 Challenge beaten \u2014 "+Math.round(+score||0)+" vs "+_ch.s+"!":"\uD83D\uDE05 "+Math.round(+score||0)+" vs "+_ch.s+" \u2014 not this time");
-        W.flTrack&&W.flTrack("challenge_result",{won:_w2});}}catch(e){}
+        W.flTrack&&W.flTrack("challenge_result",{won:_w2,game:game});
+        try{if(W.__FLGAME_DAYS)delete W.__FLGAME_DAYS[game];W.__FLGAME_RUN=null;}catch(e){}}}catch(e){}
     try{
+      if(_wasChallenge)return;
       if(!LBL[game])return; score=Math.max(0,Math.round(+score||0));
       var day=today(), pid=getPid(), name=getName(), city=(W.__FLCITY||"");
       // remember locally so the board can highlight "you" instantly
@@ -2187,7 +2212,7 @@ lucide-react/dist/esm/lucide-react.js:
 (function(){
   var D=document, W=window;
   var _wpractice=false;
-  function tKey(){return "u"+Math.floor(Date.now()/864e5);}
+  function gameDay(){return W.flGameDay?W.flGameDay("where"):Math.floor(Date.now()/864e5);}
   function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
   function hav(a,b){var R=6371,p=Math.PI/180,s1=Math.sin((b.lat-a.lat)*p/2),s2=Math.sin((b.lng-a.lng)*p/2),x=s1*s1+Math.cos(a.lat*p)*Math.cos(b.lat*p)*s2*s2;return 2*R*Math.asin(Math.sqrt(x));}
   function ci(){return (W.__CI||[]).filter(function(c){return c&&c.id&&typeof c.lat==="number"&&typeof c.lng==="number";});}
@@ -2195,7 +2220,7 @@ lucide-react/dist/esm/lucide-react.js:
   function pool(){var C=ci(); if(!C.length)return []; var have={};C.forEach(function(c){have[c.id]=1;});
     var _all=(W.__FLZ||[]).filter(function(z){return z.n&&z.city&&have[z.city]&&(z.w||"").length>70;});var _hi=_all.filter(function(z){return z.wq==="a"||z.wq==="r";});return _hi.length>=800?_hi:_all;}
   function score(km){return Math.max(0,Math.round(1000*Math.exp(-km/1200)));}
-  function redact(w,names){var out=String(w||"");names.forEach(function(t){if(!t||t.length<3)return;try{out=out.replace(new RegExp(t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi"),"████");}catch(e){}});return out;}
+  function redact(w,names){return W.flRedactAnswer?W.flRedactAnswer(w,names):String(w||"");}
   function grid(sc){return sc>=990?"🟩🟩🟩🟩🟩":sc>=700?"🟩🟩🟩🟩⬜":sc>=450?"🟩🟩🟩⬜⬜":sc>=200?"🟩🟩⬜⬜⬜":sc>=50?"🟩⬜⬜⬜⬜":"⬜⬜⬜⬜⬜";}
 
   // deterministic distractors: one nearby, one mid-distance, one far — plus the answer
@@ -2219,11 +2244,11 @@ lucide-react/dist/esm/lucide-react.js:
     try{
       var _pr=_wpractice; _wpractice=false;
       var p=pool(); if(!p||!p.length)return;
-      var seed=Math.floor(Date.now()/864e5);
+      var seed=gameDay();
       var ans=_pr?p[Math.floor(Math.random()*p.length)]:p[(seed*6469)%p.length];
       var A=cityOf(ans.city); if(!A)return;
       var opts=options(ans,seed+3,_pr); if(!opts)return;
-      var pk="flplaced_"+(_pr?"prac"+Math.floor(Math.random()*1e9):tKey()), done=null;
+      var normalKey="flplaced_"+(_pr?"prac"+Math.floor(Math.random()*1e9):"u"+seed),pk=(!_pr&&W.flGameRunKey)?W.flGameRunKey("where",seed,normalKey):normalKey,done=null;
       try{done=JSON.parse(W.localStorage.getItem(pk)||"null");}catch(e){}
       var revealed=!!done, chosen=(done&&done.cid)||null;
       var redacted=redact((ans.w||"").slice(0,340),[A.name,A.label,ans.a].concat((ans.a||"").split(/[\s,]+/)));
@@ -2272,7 +2297,7 @@ lucide-react/dist/esm/lucide-react.js:
         } else {
           try{W.flGamePic&&W.flGamePic("flpcpic",ans.lat,ans.lng,ans.n);}catch(e){}var se=D.getElementById("flpcsee"); if(se)se.onclick=function(ev){try{ev.preventDefault();}catch(e){}close();try{location.hash="#spot="+encodeURIComponent(ans.id);}catch(e){}};
           var ag=D.getElementById("flpcagain"); if(ag)ag.onclick=again;
-          var sh=D.getElementById("flpcshare"); if(sh)sh.onclick=function(){var txt="Placed "+grid(done.score)+" "+done.score+" pts — named the city from its story";W.flShareCard({kicker:"Placed",title:"Named the city from its story",big:done.score+" pts",grid:grid(done.score)},txt,sh);};
+          var sh=D.getElementById("flpcshare"); if(sh)sh.onclick=function(){var txt="Placed "+grid(done.score)+" "+done.score+" pts — named the city from its story";W.flShareCard({kicker:"Placed",title:"Named the city from its story",big:done.score+" pts",grid:grid(done.score),challenge:!_pr?{g:"where",s:done.score,day:seed}:null},txt,sh);};
         }
       }
       function commit(cid){
@@ -2298,7 +2323,7 @@ lucide-react/dist/esm/lucide-react.js:
    dailies. Launched from the Play tab via window.flChrono(). */
 (function(){
   var D=document, W=window;
-  function tKey(){return "u"+Math.floor(Date.now()/864e5);}
+  function gameDay(){return W.flGameDay?W.flGameDay("chrono"):Math.floor(Date.now()/864e5);}
   function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
   function years(w){var m=String(w||"").match(/\b(1[4-9]\d\d|20[0-2]\d)\b/g);return m?m.map(Number):null;}
   function rng(seed){var s=seed>>>0||1;return function(){s=(s*1103515245+12345)&0x7fffffff;return s/0x7fffffff;};}
@@ -2309,9 +2334,8 @@ lucide-react/dist/esm/lucide-react.js:
     var hi=all.filter(function(z){return z.wq==="a"||z.wq==="r";});
     return hi.length>=400?hi:all;
   }
-  function pick4(rand){
+  function pick4(rand,seed){
     var p=pool(); if(p.length<40)return null;
-    var seed=Math.floor(Date.now()/864e5);
     var R=rand?Math.random:rng((seed*2654435761)>>>0);
     for(var t=0;t<80;t++){
       var out=[],used={},ys=[];
@@ -2331,9 +2355,9 @@ lucide-react/dist/esm/lucide-react.js:
   function open(force){
     try{
       var pr=_pr;_pr=false;
-      var tiles=pick4(pr); if(!tiles)return;
+      var puzzleDay=gameDay(),tiles=pick4(pr,puzzleDay); if(!tiles)return;
       var byAge=tiles.slice().sort(function(a,b){return a.y-b.y;});
-      var pk="flchrono_"+(pr?"prac"+Math.floor(Math.random()*1e9):tKey()), done=null;
+      var normalKey="flchrono_"+(pr?"prac"+Math.floor(Math.random()*1e9):"u"+puzzleDay),pk=(!pr&&W.flGameRunKey)?W.flGameRunKey("chrono",puzzleDay,normalKey):normalKey,done=null;
       if(!pr)try{done=JSON.parse(W.localStorage.getItem(pk)||"null");}catch(e){}
       var order=[], revealed=!!done;
       var bd=D.createElement("div"); bd.id="flchronobd";
@@ -2387,7 +2411,7 @@ lucide-react/dist/esm/lucide-react.js:
         } else {
           var sh=D.getElementById("flchshare"); if(sh)sh.onclick=function(){
             var txt="Chronologle "+(done.pairs===6?"🟩🟩🟩🟩🟩🟩":Array(done.pairs+1).join("🟩")+Array(6-done.pairs+1).join("⬜"))+" "+done.score+" pts";
-            W.flShareCard({kicker:"Chronologle",title:done.pairs+" of 6 pairs in order",big:done.score+" pts",grid:(done.pairs===6?"🟩🟩🟩🟩🟩🟩":Array(done.pairs+1).join("🟩")+Array(6-done.pairs+1).join("⬜"))},txt,sh);};
+            W.flShareCard({kicker:"Chronologle",title:done.pairs+" of 6 pairs in order",big:done.score+" pts",grid:(done.pairs===6?"🟩🟩🟩🟩🟩🟩":Array(done.pairs+1).join("🟩")+Array(6-done.pairs+1).join("⬜")),challenge:!pr?{g:"chrono",s:done.score,day:puzzleDay}:null},txt,sh);};
           var ag=D.getElementById("flchagain"); if(ag)ag.onclick=function(){_pr=true;close();setTimeout(function(){open(true);},30);};
         }
       }
@@ -2733,7 +2757,7 @@ function show(z,dist){
    Draws a 1080×1350 postcard (cream, serif, accent red), then shares it as an
    image file where Web Share Level 2 is available; otherwise falls back to the
    classic text share / clipboard copy. Standalone, try/catch-guarded. */
-(function(){var W=window;
+(function(){var W=window,CHALLENGEABLE={pinworld:1,plaqueworld:1,chrono:1,where:1,time:1};
 function wrapTxt(g,txt,x,y,maxW,lh,maxLines){
   var words=String(txt||"").split(/\s+/),line="",lines=[];
   for(var i=0;i<words.length;i++){var t=line?line+" "+words[i]:words[i];
@@ -2744,7 +2768,8 @@ function wrapTxt(g,txt,x,y,maxW,lh,maxLines){
   return y+(lines.length-1)*lh;
 }
 W.flShareCard=function(o,txt,btn){
-  try{var _ls=W.__flLastScore;if(_ls&&Date.now()-_ls.t<9e5&&txt&&String(txt).indexOf("#challenge=")<0){txt=String(txt)+" \u2014 beat me: "+location.origin+location.pathname+"#challenge="+_ls.g+":"+_ls.s;}}catch(e){}
+  o=o||{};
+  try{var _ch=o.challenge;if(_ch&&CHALLENGEABLE[_ch.g]&&_ch.day!=null&&txt&&String(txt).indexOf("#challenge=")<0){var _cid=Date.now().toString(36)+Math.random().toString(36).slice(2,8);txt=String(txt)+" \u2014 beat me: "+location.origin+location.pathname+"#challenge="+_ch.g+":"+Math.max(0,Math.round(+_ch.s||0))+":"+Math.floor(+_ch.day)+":"+_cid;}}catch(e){}
   function fallback(){
     try{
       if(navigator.share){navigator.share({title:"Flâneur",text:txt,url:location.origin+location.pathname}).catch(function(){});}
@@ -2752,7 +2777,6 @@ W.flShareCard=function(o,txt,btn){
     }catch(e){}
   }
   try{
-    o=o||{};
     var CW=1080,CH=1350,cv=document.createElement("canvas");cv.width=CW;cv.height=CH;
     var g=cv.getContext("2d");if(!g){fallback();return;}
     g.fillStyle="#FAF8F3";g.fillRect(0,0,CW,CH);
@@ -3274,13 +3298,24 @@ W.flShareCard=function(o,txt,btn){
 
 </script>
 <script>
-/* #challenge=<game>:<score> — friend-challenge deep links. Opens the same
-   daily puzzle with a target toast; flGameScore settles the result. */
+/* #challenge=<game>:<score>:<day>:<run> — friend-challenge deep links. Global
+   games replay the shared puzzle day in an isolated save; flGameScore settles. */
 (function(){var W=window,D=document;
-var OPEN={pinworld:function(){W.flGeoGuess&&W.flGeoGuess(true,"world")},plaqueworld:function(){W.flPlaque&&W.flPlaque(true,"world")},connections:function(){W.flConnections&&W.flConnections(true)},chrono:function(){W.flChrono&&W.flChrono(true)},oddout:function(){W.flOddOut&&W.flOddOut(true)},streak:function(){W.flStreak&&W.flStreak(true)},walkline:function(){W.flWalkLine&&W.flWalkLine(true)},where:function(){W.flPlaced&&W.flPlaced(true)},time:function(){W.flTimeTravel&&W.flTimeTravel(true)},warmer:function(){W.flWarmer&&W.flWarmer(true)}};
+var OPEN={pinworld:function(){W.flGeoGuess&&W.flGeoGuess(true,"world")},plaqueworld:function(){W.flPlaque&&W.flPlaque(true,"world")},chrono:function(){W.flChrono&&W.flChrono(true)},where:function(){W.flPlaced&&W.flPlaced(true)},time:function(){W.flTimeTravel&&W.flTimeTravel(true)}};
 function toast(msg){try{var t=D.createElement("div");t.setAttribute("style","position:fixed;left:50%;transform:translateX(-50%);bottom:calc(96px + env(safe-area-inset-bottom,0px));z-index:99999;background:#211C16;color:#F3ECDC;border-radius:999px;padding:11px 18px;font:600 13px -apple-system,system-ui,sans-serif;box-shadow:0 12px 30px -12px rgba(0,0,0,.5);max-width:86vw;text-align:center");t.textContent=msg;D.body.appendChild(t);setTimeout(function(){try{t.remove()}catch(e){}},4200)}catch(e){}}
 W.__flChallToast=toast;
-function handle(){try{var m=(location.hash||"").match(/^#challenge=([a-z]+):(\d{1,6})/);if(!m)return;var g=m[1],sc=+m[2];if(!OPEN[g])return;try{history.replaceState(null,"",location.pathname+location.search)}catch(e){}localStorage.setItem("flchall",JSON.stringify({g:g,s:sc,t:Date.now()}));setTimeout(function(){toast("\uD83C\uDFAF Challenge: beat "+sc+" \u2014 game on!");try{OPEN[g]()}catch(e){}},900);W.flTrack&&W.flTrack("challenge_open",{g:g})}catch(e){}}
+function handle(){try{
+  var h=location.hash||"";if(h.indexOf("#challenge=")!==0)return;
+  var m=h.match(/^#challenge=([a-z]+):(\d{1,6}):(\d{5,6}):([a-z0-9]{4,24})/);
+  try{history.replaceState(null,"",location.pathname+location.search)}catch(e){}
+  if(!m){toast("This is an older challenge link — ask your friend to share a fresh result.");W.flTrack&&W.flTrack("challenge_invalid",{});return;}
+  var g=m[1],sc=+m[2],day=+m[3],id=m[4];
+  if(!OPEN[g]){toast("That game does not have fair shared challenges yet.");return;}
+  W.__FLGAME_DAYS=W.__FLGAME_DAYS||{};W.__FLGAME_DAYS[g]=day;W.__FLGAME_RUN={g:g,day:day,id:id};
+  localStorage.setItem("flchall",JSON.stringify({g:g,s:sc,day:day,id:id,t:Date.now()}));
+  setTimeout(function(){toast("\uD83C\uDFAF Challenge: beat "+sc+" \u2014 same puzzle, game on!");try{OPEN[g]()}catch(e){}},900);
+  W.flTrack&&W.flTrack("challenge_open",{g:g,day:day});
+}catch(e){}}
 addEventListener("hashchange",handle);
 if(D.readyState!=="loading")setTimeout(handle,700);else addEventListener("DOMContentLoaded",function(){setTimeout(handle,700)});
 })();
