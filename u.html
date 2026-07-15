@@ -5,53 +5,139 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com; img-src 'self' data: blob: https://*.supabase.co; connect-src 'self' https://*.supabase.co; font-src 'self'; base-uri 'self'; object-src 'none'" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="robots" content="index,follow" />
+<meta name="theme-color" content="#315548" />
 <title>A wanderer — Flâneur</title>
 <meta property="og:type" content="profile" />
 <meta property="og:site_name" content="Flâneur" />
 <meta id="og-title" property="og:title" content="A wanderer — Flâneur" />
-<meta id="og-desc" property="og:description" content="A Flâneur profile — hand-picked collections of offbeat, storied places." />
-<meta name="description" id="m-desc" content="A Flâneur profile — hand-picked collections of offbeat, storied places." />
+<meta id="og-desc" property="og:description" content="A Flâneur profile — a personal atlas of storied places." />
+<meta name="description" id="m-desc" content="A Flâneur profile — a personal atlas of storied places." />
 <meta name="twitter:card" content="summary" />
 <style>
-  :root{--bg:#FAF8F3;--surface:#FFFFFF;--ink:#2C2522;--ink2:#5C524A;--ink3:#736A5E;--line:#E7E0D4;--accent:#C8372D;--tint:#ECE4D4;}
+  @font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:400 800;font-display:swap;src:url(./fonts/hk.woff2) format('woff2');}
+  @font-face{font-family:'Newsreader';font-style:italic;font-weight:400 600;font-display:swap;src:url(./fonts/nr-it.woff2) format('woff2');}
+  @font-face{font-family:'Newsreader';font-style:normal;font-weight:400 700;font-display:swap;src:url(./fonts/nr.woff2) format('woff2');}
+  :root{--paper:#F2EBDD;--surface:#FFFDF8;--surface2:#E9E0D1;--ink:#201B16;--ink2:#4B433A;--muted:#81766A;--line:#DDD1C2;--red:#B83A30;--red2:#9F2F27;--green:#315548;--green2:#25453A;--cream:#FFF9EE;--gold:#E8CE99;--shadow:rgba(36,29,22,.14);}
   *{box-sizing:border-box;}
-  html,body{margin:0;background:var(--bg);color:var(--ink);
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    -webkit-text-size-adjust:100%;}
-  .wrap{max-width:620px;margin:0 auto;padding:22px 18px calc(40px + env(safe-area-inset-bottom));}
-  .brand{display:flex;align-items:center;gap:8px;font-weight:800;font-size:15px;letter-spacing:.01em;margin-bottom:22px;text-decoration:none;color:var(--ink);}
-  .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--accent);}
-  .phead{display:flex;align-items:center;gap:15px;margin-bottom:6px;}
-  .avatar{width:64px;height:64px;border-radius:50%;background:var(--tint);display:flex;align-items:center;justify-content:center;font-family:Georgia,serif;font-weight:700;font-size:28px;color:var(--ink);flex:none;}
+  html{background:var(--paper);scroll-behavior:smooth;}
+  body{margin:0;background:radial-gradient(circle at 8% 0,rgba(184,58,48,.075),transparent 28rem),var(--paper);color:var(--ink);font-family:'Hanken Grotesk',-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;}
+  a,button{-webkit-tap-highlight-color:transparent;}
+  button{font:inherit;}
+  .shell{width:min(1040px,100%);margin:0 auto;padding:20px 22px calc(50px + env(safe-area-inset-bottom));}
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:18px;}
+  .brand{display:inline-flex;align-items:center;gap:9px;color:var(--ink);font-size:15px;font-weight:800;letter-spacing:-.01em;text-decoration:none;}
+  .brandmark{position:relative;display:grid;width:25px;height:25px;place-items:center;border-radius:50%;background:var(--green);color:var(--cream);font-family:'Newsreader',serif;font-size:15px;}
+  .brandmark::after{position:absolute;width:5px;height:5px;border:1px solid currentColor;border-radius:50%;content:"";}
+  .navapp{display:inline-flex;align-items:center;gap:6px;padding:9px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(255,253,248,.72);color:var(--ink2);font-size:12px;font-weight:700;text-decoration:none;}
+  .profilehero{position:relative;isolation:isolate;overflow:hidden;padding:30px;border-radius:29px;background:linear-gradient(145deg,var(--green),var(--green2));color:var(--cream);box-shadow:0 28px 56px -38px rgba(18,43,34,.95);}
+  .profilehero::before,.profilehero::after{position:absolute;z-index:-1;border:1px solid rgba(255,255,255,.11);border-radius:50%;content:"";}
+  .profilehero::before{width:270px;height:270px;right:-92px;top:-145px;box-shadow:0 0 0 40px rgba(255,255,255,.025),0 0 0 84px rgba(255,255,255,.018);}
+  .profilehero::after{width:130px;height:130px;right:19%;bottom:-105px;box-shadow:0 0 0 26px rgba(255,255,255,.022);}
+  .heroeyebrow{margin-bottom:19px;color:#F1CCBF;font-size:10px;font-weight:800;letter-spacing:.17em;text-transform:uppercase;}
+  .profiletop{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:18px;}
+  .avatar{display:grid;flex:none;width:78px;height:78px;place-items:center;border:1px solid rgba(255,255,255,.2);border-radius:23px;background:#F3E5D4;color:var(--green2);font-family:'Newsreader',serif;font-size:35px;font-weight:700;box-shadow:0 16px 34px -24px rgba(0,0,0,.8);}
   img.avatar{object-fit:cover;}
-  .plink{display:inline-block;margin-top:10px;font-size:14px;color:var(--accent);text-decoration:none;word-break:break-all;}
-  .plink:hover{text-decoration:underline;}
-  .pname{font-family:Georgia,"Times New Roman",serif;font-weight:700;font-size:26px;line-height:1.15;margin:0;}
-  .puser{font-size:14px;color:var(--ink3);margin-top:2px;}
-  .bio{font-family:Georgia,serif;font-style:italic;font-size:16px;color:var(--ink2);margin:14px 0 0;line-height:1.5;}
-  .stats{display:flex;gap:22px;margin:18px 0 6px;}
-  .stat .n{font-family:Georgia,serif;font-weight:700;font-size:20px;}
-  .stat .l{font-size:12px;color:var(--ink3);}
-  .seclbl{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:24px 0 10px;}
-  a.col{display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:9px;text-decoration:none;color:var(--ink);}
-  .col .ce{width:40px;height:40px;border-radius:11px;background:var(--tint);display:flex;align-items:center;justify-content:center;font-size:20px;flex:none;}
-  .col .cb{flex:1;min-width:0;}
-  .col .cn{font-size:15.5px;font-weight:700;}
-  .col .cm{font-size:12.5px;color:var(--ink3);margin-top:1px;}
-  .col .chev{color:var(--ink3);flex:none;}
-  .cta{display:block;text-align:center;background:var(--accent);color:#fff;text-decoration:none;border-radius:13px;padding:14px;font-weight:700;font-size:15px;margin:24px 0 8px;}
-  .sub{text-align:center;font-size:12.5px;color:var(--ink3);}
-  .state{text-align:center;color:var(--ink3);padding:60px 16px;font-size:15px;}
-  .foot{margin-top:30px;font-size:12px;color:var(--ink3);text-align:center;}
-  .foot a{color:var(--ink3);}
+  .pname{margin:0;color:#FFF9EF;font:650 36px/1.02 'Newsreader',serif;letter-spacing:-.035em;}
+  .handle{margin-top:5px;color:rgba(255,249,239,.68);font-size:13px;font-weight:650;}
+  .location{margin-left:5px;color:#E8CE99;}
+  .share{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:40px;padding:0 13px;border:1px solid rgba(255,255,255,.24);border-radius:12px;background:rgba(255,255,255,.09);color:#fff;font-size:12px;font-weight:750;cursor:pointer;backdrop-filter:blur(10px);}
+  .share:hover{background:rgba(255,255,255,.15);}
+  .bio{max-width:720px;margin:20px 0 0;color:rgba(255,249,239,.8);font:italic 18px/1.48 'Newsreader',serif;}
+  .plink{display:inline-block;margin-top:10px;color:#F0D6AE;font-size:12px;font-weight:650;text-decoration:none;word-break:break-word;}
+  .plink:hover{text-decoration:underline;text-underline-offset:3px;}
+  .herofoot{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(245px,.65fr);gap:11px;margin-top:24px;}
+  .statgrid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));overflow:hidden;border:1px solid rgba(255,255,255,.14);border-radius:17px;background:rgba(255,255,255,.075);backdrop-filter:blur(10px);}
+  .stat{min-width:0;padding:14px 13px;border-right:1px solid rgba(255,255,255,.12);}
+  .stat:last-child{border-right:0;}
+  .statnum{overflow:hidden;color:#FFF9EF;font:650 21px/1 'Newsreader',serif;text-overflow:ellipsis;white-space:nowrap;}
+  .statlabel{margin-top:6px;color:rgba(255,249,239,.58);font-size:9.5px;font-weight:750;letter-spacing:.07em;text-transform:uppercase;}
+  .identity{display:flex;align-items:center;gap:12px;padding:13px 14px;border:1px solid rgba(255,255,255,.14);border-radius:17px;background:rgba(10,30,23,.2);}
+  .identitymark{display:grid;flex:none;width:43px;height:43px;place-items:center;border-radius:50%;background:var(--gold);color:#573F1C;font:700 19px 'Newsreader',serif;}
+  .identitysmall{color:rgba(255,249,239,.56);font-size:9px;font-weight:800;letter-spacing:.11em;text-transform:uppercase;}
+  .identityname{margin-top:3px;color:#FFF9EF;font:650 17px/1.08 'Newsreader',serif;}
+  .identitymeta{margin-top:3px;color:rgba(255,249,239,.58);font-size:10.5px;}
+  .below{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(260px,.55fr);gap:14px;margin-top:14px;}
+  .panel{border:1px solid var(--line);border-radius:22px;background:var(--surface);box-shadow:0 18px 38px -34px rgba(31,25,18,.9);}
+  .taste{padding:21px;}
+  .sectag{color:var(--red);font-size:9.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;}
+  .taste h2{margin:7px 0 5px;font:650 24px/1.08 'Newsreader',serif;letter-spacing:-.02em;}
+  .taste p{max-width:52ch;margin:0;color:var(--muted);font-size:12.5px;line-height:1.48;}
+  .chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px;}
+  .chip{padding:7px 10px;border-radius:999px;background:var(--surface2);color:var(--ink2);font-size:11px;font-weight:700;}
+  .social{display:grid;grid-template-columns:1fr 1fr;overflow:hidden;}
+  .socialstat{display:flex;min-height:100px;flex-direction:column;justify-content:center;padding:18px;border-right:1px solid var(--line);}
+  .socialstat:last-child{border-right:0;}
+  .socialstat b{font:650 26px/1 'Newsreader',serif;}
+  .socialstat span{margin-top:6px;color:var(--muted);font-size:10px;font-weight:750;letter-spacing:.08em;text-transform:uppercase;}
+  .sectionhead{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;margin:31px 2px 13px;}
+  .sectionhead h2{margin:0;font:650 29px/1.05 'Newsreader',serif;letter-spacing:-.025em;}
+  .sectionhead p{max-width:38ch;margin:0;color:var(--muted);font-size:12px;line-height:1.4;text-align:right;}
+  .collections{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
+  .collection{display:grid;grid-template-columns:minmax(0,1fr) 44%;min-height:185px;overflow:hidden;border:1px solid var(--line);border-radius:21px;background:var(--surface);color:var(--ink);text-decoration:none;box-shadow:0 16px 34px -33px rgba(31,25,18,.9);transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease;}
+  .collection:hover{transform:translateY(-2px);border-color:var(--muted);box-shadow:0 20px 38px -31px rgba(31,25,18,.75);}
+  .colcopy{display:flex;min-width:0;flex-direction:column;padding:20px 18px;}
+  .coltype{color:var(--red);font-size:9px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;}
+  .colname{margin:8px 0 5px;font:650 21px/1.08 'Newsreader',serif;letter-spacing:-.015em;}
+  .colmeta{color:var(--muted);font-size:11px;line-height:1.4;}
+  .colopen{display:flex;align-items:center;gap:5px;margin-top:auto;padding-top:16px;color:var(--red);font-size:11.5px;font-weight:750;}
+  .atlas{position:relative;overflow:hidden;border-left:1px solid var(--line);background:linear-gradient(rgba(76,69,58,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(76,69,58,.055) 1px,transparent 1px),var(--surface2);background-size:25px 25px;}
+  .atlas::after{position:absolute;right:9px;bottom:8px;color:rgba(74,65,55,.48);font-size:8px;font-weight:800;letter-spacing:.1em;content:"FIELD MAP";}
+  .atlas svg{width:100%;height:100%;}
+  .atlas path{fill:none;stroke:var(--green);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;opacity:.55;}
+  .atlas circle{fill:var(--red);stroke:var(--surface);stroke-width:2;filter:drop-shadow(0 2px 2px rgba(70,30,25,.17));}
+  .empty{padding:42px 24px;color:var(--muted);text-align:center;}
+  .cta{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:22px;margin-top:14px;padding:22px 24px;border-radius:22px;background:linear-gradient(135deg,var(--red),var(--red2));color:#fff;box-shadow:0 22px 40px -32px rgba(112,24,19,.9);}
+  .cta h2{margin:0;font:650 22px/1.1 'Newsreader',serif;}
+  .cta p{margin:5px 0 0;color:rgba(255,255,255,.7);font-size:12px;line-height:1.4;}
+  .ctabtn{display:inline-flex;align-items:center;justify-content:center;min-height:45px;padding:0 17px;border-radius:12px;background:var(--cream);color:#70231E;font-size:13px;font-weight:800;text-decoration:none;white-space:nowrap;}
+  .state{padding:80px 24px;color:var(--muted);font:italic 17px 'Newsreader',serif;text-align:center;}
+  .foot{margin-top:30px;color:var(--muted);font-size:11px;line-height:1.6;text-align:center;}
+  .foot a{color:inherit;text-underline-offset:3px;}
+  .toast{position:fixed;left:50%;bottom:calc(22px + env(safe-area-inset-bottom));z-index:10;transform:translate(-50%,12px);padding:10px 14px;border-radius:999px;background:var(--ink);color:#fff;font-size:12px;font-weight:700;opacity:0;pointer-events:none;transition:opacity .18s ease,transform .18s ease;}
+  .toast.on{transform:translate(-50%,0);opacity:1;}
+  :focus-visible{outline:3px solid rgba(184,58,48,.32);outline-offset:3px;}
+  @media(max-width:780px){
+    .shell{padding-right:16px;padding-left:16px;}
+    .profilehero{padding:24px 20px;border-radius:25px;}
+    .profiletop{grid-template-columns:auto minmax(0,1fr);}
+    .profiletop .share{grid-column:1/-1;width:100%;}
+    .herofoot{grid-template-columns:1fr;}
+    .below{grid-template-columns:1fr;}
+    .collections{grid-template-columns:1fr;}
+  }
+  @media(max-width:520px){
+    .navapp{padding:8px 10px;}
+    .profilehero{padding:21px 17px;}
+    .heroeyebrow{margin-bottom:15px;}
+    .profiletop{gap:13px;}
+    .avatar{width:62px;height:62px;border-radius:18px;font-size:29px;}
+    .pname{font-size:29px;}
+    .bio{font-size:16px;}
+    .statgrid{grid-template-columns:repeat(3,1fr);}
+    .stat:nth-child(3){border-right:0;}
+    .stat:nth-child(n+4){border-top:1px solid rgba(255,255,255,.12);}
+    .stat:nth-child(4){grid-column:1/2;}
+    .stat:nth-child(5){grid-column:2/4;border-right:0;}
+    .sectionhead{display:block;}
+    .sectionhead p{margin-top:6px;text-align:left;}
+    .collection{grid-template-columns:minmax(0,1fr) 38%;min-height:170px;}
+    .colcopy{padding:17px 15px;}
+    .cta{grid-template-columns:1fr;padding:20px;}
+    .ctabtn{width:100%;}
+  }
+  @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;}.collection,.toast{transition:none;}}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <a class="brand" href="./"><span class="dot"></span>Flâneur</a>
-  <div id="app"><div class="state">Loading…</div></div>
-  <div class="foot"><a href="./">Flâneur</a> — a personal guide to offbeat, storied places. · <a href="./privacy.html">Privacy</a></div>
-</div>
+<main class="shell">
+  <nav class="nav" aria-label="Flâneur">
+    <a class="brand" href="./"><span class="brandmark" aria-hidden="true">F</span><span>Flâneur</span></a>
+    <a class="navapp" href="./">Explore the map <span aria-hidden="true">↗</span></a>
+  </nav>
+  <div id="app"><div class="state">Opening this atlas…</div></div>
+  <footer class="foot"><a href="./">Flâneur</a> — a personal guide to offbeat, storied places. · <a href="./privacy.html">Privacy</a></footer>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
 <script>
 (function(){
@@ -59,65 +145,46 @@
   var SB_ANON="sb_publishable_At343ximg1anAi2TkHyCXw_82vw4wMB";
   var app=document.getElementById("app");
   function esc(t){return String(t==null?"":t).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
+  function num(v){v=Number(v);return isFinite(v)?Math.max(0,v):0;}
+  function compact(v){v=num(v);return v>=1000?(Math.round(v/100)/10+"k"):String(Math.round(v));}
+  function pretty(v){return String(v||"").replace(/[_-]+/g," ").replace(/\b\w/g,function(x){return x.toUpperCase();});}
   function state(msg){app.innerHTML='<div class="state">'+esc(msg)+'</div>';}
-  function uParam(){try{return (new URLSearchParams(location.search).get("u")||"").toLowerCase().replace(/[^a-z0-9_]/g,"");}catch(e){return null;}}
-  function setMeta(title,desc){
-    document.title=title;
-    var ot=document.getElementById("og-title");ot&&ot.setAttribute("content",title);
-    var od=document.getElementById("og-desc");od&&od.setAttribute("content",desc);
-    var md=document.getElementById("m-desc");md&&md.setAttribute("content",desc);
-  }
+  function uParam(){try{return(new URLSearchParams(location.search).get("u")||"").toLowerCase().replace(/[^a-z0-9_]/g,"");}catch(e){return null;}}
+  function setMeta(title,desc){document.title=title;var ot=document.getElementById("og-title");ot&&ot.setAttribute("content",title);var od=document.getElementById("og-desc");od&&od.setAttribute("content",desc);var md=document.getElementById("m-desc");md&&md.setAttribute("content",desc);}
+  function linkValue(v){v=String(v||"").trim();if(!v)return null;return{href:/^https?:\/\//i.test(v)?v:"https://"+v,label:v.replace(/^https?:\/\//i,"").replace(/\/$/,"")};}
+  function tasteName(k){var m={history:"Hidden history",art:"Independent art",music:"Live music",books:"Bookish corners",book:"Bookish corners",food:"Local tables",coffee:"Independent coffee",pubs:"Storied pubs",pub:"Storied pubs",green:"Urban nature",wild:"Urban nature",nature:"Urban nature",museum:"Museums",architecture:"Architecture",design:"Design details",cinema:"Cinema",film:"Film & TV",odd:"Beautiful oddities",oddity:"Beautiful oddities",markets:"Markets",market:"Markets",views:"City views"};var z=String(k||"").toLowerCase().trim();return m[z]||pretty(z);}
+  function tastes(cols){var tally={};cols.forEach(function(c){(Array.isArray(c.spots)?c.spots:[]).forEach(function(s){var k=s&&(s.c||s.cl);if(!k)return;k=tasteName(k);if(k)tally[k]=(tally[k]||0)+1;});});return Object.keys(tally).sort(function(a,b){return tally[b]-tally[a]||a.localeCompare(b);}).slice(0,4);}
+  function explorer(p,places,cols){var score=num(p.visited)+num(p.checkins)+Math.floor(num(p.km)/5)+num(p.worlds)*5+Math.min(cols,10)+Math.floor(places/8);if(score>=120)return{name:"Atlas maker",mark:"V",note:"A generous guide to the city"};if(score>=60)return{name:"Cartographer",mark:"IV",note:"Turning walks into field notes"};if(score>=25)return{name:"Wayfinder",mark:"III",note:"A practiced eye for place"};if(score>=8)return{name:"Wanderer",mark:"II",note:"Building a personal atlas"};return{name:"Observer",mark:"I",note:"The atlas has just begun"};}
+  function mapSvg(spots,itin){var pts=(Array.isArray(spots)?spots:[]).filter(function(s){return s&&isFinite(Number(s.lat))&&isFinite(Number(s.lng));}).slice(0,24);if(!pts.length)return'<svg viewBox="0 0 180 160" aria-hidden="true"><path d="M30 112C58 74 89 122 111 72S151 34 160 52"/><circle cx="91" cy="78" r="5"/></svg>';var las=pts.map(function(s){return Number(s.lat);}),los=pts.map(function(s){return Number(s.lng);}),minLa=Math.min.apply(null,las),maxLa=Math.max.apply(null,las),minLo=Math.min.apply(null,los),maxLo=Math.max.apply(null,los),dla=Math.max(.0005,maxLa-minLa),dlo=Math.max(.0005,maxLo-minLo);var xy=pts.map(function(s){return{x:17+(Number(s.lng)-minLo)/dlo*146,y:17+(maxLa-Number(s.lat))/dla*126};});var h='<svg viewBox="0 0 180 160" aria-hidden="true">';if(itin&&xy.length>1)h+='<path d="M'+xy.map(function(p){return p.x.toFixed(1)+' '+p.y.toFixed(1);}).join(' L')+'"/>';xy.forEach(function(p){h+='<circle cx="'+p.x.toFixed(1)+'" cy="'+p.y.toFixed(1)+'" r="4.6"/>';});return h+'</svg>';}
+  function showToast(msg){var t=document.getElementById("toast");if(!t)return;t.textContent=msg;t.classList.add("on");clearTimeout(showToast._t);showToast._t=setTimeout(function(){t.classList.remove("on");},2200);}
+  function shareProfile(p){var url=location.href,title=(p.display_name||("@"+p.username))+" on Flâneur",data={title:title,text:"Explore @"+p.username+"’s personal atlas on Flâneur.",url:url};if(navigator.share){navigator.share(data).catch(function(e){if(!e||e.name!=="AbortError")copy(url);});}else copy(url);}
+  function copy(v){if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(v).then(function(){showToast("Profile link copied");},function(){legacyCopy(v);});}else legacyCopy(v);}
+  function legacyCopy(v){var ta=document.createElement("textarea");ta.value=v;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();try{document.execCommand("copy");showToast("Profile link copied");}catch(e){showToast("Copy the address from your browser");}ta.remove();}
   function render(p,cols,counts){
-    var name=p.display_name||("@"+p.username);
-    setMeta(name+" — Flâneur", (p.bio||("@"+p.username+" on Flâneur"))+" · "+cols.length+" public collection"+(cols.length===1?"":"s"));
-    var init=(p.display_name||p.username||"?").slice(0,1).toUpperCase();
-    var avurl=p.avatar_v?(SB_URL+"/storage/v1/object/public/avatars/"+encodeURIComponent(p.user_id)+"?v="+p.avatar_v):null;
-    var avhtml=avurl?('<img class="avatar" src="'+avurl+'" alt="">'):('<div class="avatar">'+esc(init)+'</div>');
-    var h='<div class="phead">'+avhtml+'<div><h1 class="pname">'+esc(name)+'</h1><div class="puser">@'+esc(p.username)+(p.city?' · '+esc(p.city):'')+'</div></div></div>';
+    var name=p.display_name||("@"+p.username),totalPlaces=cols.reduce(function(a,c){return a+(Array.isArray(c.spots)?c.spots.length:0);},0),desc=(p.bio||("@"+p.username+"’s personal atlas"))+" · "+cols.length+" public map"+(cols.length===1?"":"s");
+    setMeta(name+" — Flâneur",desc.slice(0,180));
+    var init=(p.display_name||p.username||"?").slice(0,1).toUpperCase(),avurl=p.avatar_v?(SB_URL+"/storage/v1/object/public/avatars/"+encodeURIComponent(p.user_id)+"?v="+p.avatar_v):null,av=avurl?('<img class="avatar" src="'+esc(avurl)+'" alt="">'):('<div class="avatar">'+esc(init)+'</div>'),lnk=linkValue(p.links),ts=tastes(cols),grade=explorer(p,totalPlaces,cols.length);
+    var h='<section class="profilehero"><div class="heroeyebrow">Personal atlas · public profile</div><div class="profiletop">'+av+'<div><h1 class="pname">'+esc(name)+'</h1><div class="handle">@'+esc(p.username)+(p.city?'<span class="location">· '+esc(pretty(p.city))+'</span>':'')+'</div></div><button class="share" id="share-profile" type="button" aria-label="Share this profile">↗ Share atlas</button></div>';
     if(p.bio)h+='<p class="bio">'+esc(p.bio)+'</p>';
-    if(p.links){var lu=/^https?:\/\//i.test(p.links)?p.links:('https://'+p.links);h+='<a class="plink" href="'+esc(lu)+'" target="_blank" rel="noopener nofollow">🔗 '+esc(p.links.replace(/^https?:\/\//i,''))+'</a>';}
-    var totalPlaces=cols.reduce(function(a,c){return a+(Array.isArray(c.spots)?c.spots.length:0);},0);
-    h+='<div class="stats">'+
-       '<div class="stat"><div class="n">'+cols.length+'</div><div class="l">collection'+(cols.length===1?'':'s')+'</div></div>'+
-       '<div class="stat"><div class="n">'+totalPlaces+'</div><div class="l">places</div></div>'+
-       '<div class="stat"><div class="n">'+counts.followers+'</div><div class="l">followers</div></div>'+
-       '<div class="stat"><div class="n">'+counts.following+'</div><div class="l">following</div></div></div>';
-    if(cols.length){
-      h+='<div class="seclbl">Collections</div>';
-      cols.forEach(function(c){
-        var n=Array.isArray(c.spots)?c.spots.length:0;
-        var itin=Array.isArray(c.spots)&&c.spots.length&&typeof c.spots[0].d==="number";
-        h+='<a class="col" href="./c.html?s='+encodeURIComponent(c.slug)+'">'+
-           '<div class="ce">'+esc(c.emoji||(itin?'🗺':'📍'))+'</div>'+
-           '<div class="cb"><div class="cn">'+esc(c.name||"Collection")+'</div>'+
-           '<div class="cm">'+n+' place'+(n===1?'':'s')+(c.city?' · '+esc(c.city):'')+'</div></div>'+
-           '<div class="chev">›</div></a>';
-      });
-    }else{
-      h+='<div class="state">No public collections yet.</div>';
-    }
-    h+='<a class="cta" href="./#u='+encodeURIComponent(p.username)+'">Follow @'+esc(p.username)+' in Flâneur</a>';
-    h+='<div class="sub">Opens the app — sign in to follow and see their newest collections.</div>';
+    if(lnk)h+='<a class="plink" href="'+esc(lnk.href)+'" target="_blank" rel="noopener nofollow">'+esc(lnk.label)+' ↗</a>';
+    h+='<div class="herofoot"><div class="statgrid">'+
+      '<div class="stat"><div class="statnum">'+compact(p.visited)+'</div><div class="statlabel">Places</div></div>'+
+      '<div class="stat"><div class="statnum">'+compact(p.checkins)+'</div><div class="statlabel">On foot</div></div>'+
+      '<div class="stat"><div class="statnum">'+(Math.round(num(p.km)*10)/10)+'</div><div class="statlabel">Km walked</div></div>'+
+      '<div class="stat"><div class="statnum">'+compact(p.worlds)+'</div><div class="statlabel">Worlds</div></div>'+
+      '<div class="stat"><div class="statnum">'+compact(p.streak)+'</div><div class="statlabel">Day streak</div></div></div>'+
+      '<div class="identity"><div class="identitymark">'+grade.mark+'</div><div><div class="identitysmall">Explorer grade</div><div class="identityname">'+grade.name+'</div><div class="identitymeta">'+grade.note+'</div></div></div></div></section>';
+    h+='<div class="below"><section class="panel taste"><div class="sectag">Taste profile</div><h2>'+(ts.length?'Drawn to '+esc(ts.slice(0,2).join(' and ').toLowerCase()):'A point of view, still unfolding')+'</h2><p>'+(ts.length?'Read from the places in this public atlas — a signal of taste, not an algorithmic label.':'Public collections will reveal the places and stories that hold their attention.')+'</p><div class="chips">'+(ts.length?ts.map(function(t){return'<span class="chip">'+esc(t)+'</span>';}).join(''):'<span class="chip">Still unwritten</span>')+'</div></section>'+
+      '<section class="panel social" aria-label="Profile reach"><div class="socialstat"><b>'+compact(counts.followers)+'</b><span>Followers</span></div><div class="socialstat"><b>'+compact(counts.following)+'</b><span>Following</span></div></section></div>';
+    if(cols.length){h+='<div class="sectionhead"><h2>Maps as field notes</h2><p>Open a collection to explore every place, then copy the map into your own Flâneur.</p></div><section class="collections" aria-label="Public collections">';cols.forEach(function(c){var spots=Array.isArray(c.spots)?c.spots:[],n=spots.length,itin=spots.length&&typeof spots[0].d==="number";h+='<a class="collection" href="./c.html?s='+encodeURIComponent(c.slug)+'"><div class="colcopy"><div class="coltype">'+(itin?'Walking itinerary':'Curated collection')+'</div><div class="colname">'+(c.emoji?esc(c.emoji)+' ':'')+esc(c.name||'Untitled map')+'</div><div class="colmeta">'+n+' place'+(n===1?'':'s')+(c.city?' · '+esc(pretty(c.city)):'')+'</div><div class="colopen">Read the map <span aria-hidden="true">→</span></div></div><div class="atlas">'+mapSvg(spots,itin)+'</div></a>';});h+='</section>';}else{h+='<div class="sectionhead"><h2>Maps as field notes</h2></div><div class="panel empty">No public collections yet — this atlas is waiting for its first chapter.</div>';}
+    h+='<section class="cta"><div><h2>Follow taste, not just friends.</h2><p>Open Flâneur to follow @'+esc(p.username)+' and copy the maps that make you want to wander.</p></div><a class="ctabtn" href="./#u='+encodeURIComponent(p.username)+'">Follow in Flâneur →</a></section>';
     app.innerHTML=h;
-    var _av=app.querySelector("img.avatar");if(_av)_av.onerror=function(){var dv=document.createElement("div");dv.className="avatar";dv.textContent=init;_av.replaceWith(dv);};
+    var avimg=app.querySelector('img.avatar');if(avimg)avimg.onerror=function(){var d=document.createElement('div');d.className='avatar';d.textContent=init;avimg.replaceWith(d);};
+    var sbt=document.getElementById('share-profile');if(sbt)sbt.onclick=function(){shareProfile(p);};
   }
-  var u=uParam();
-  if(!u){state("No profile specified.");return;}
-  if(!window.supabase){state("Couldn’t load. Please try again.");return;}
+  var u=uParam();if(!u){state("No profile specified.");return;}if(!window.supabase){state("Couldn’t load this atlas. Please try again.");return;}
   var sb=window.supabase.createClient(SB_URL,SB_ANON);
-  sb.from("public_profiles").select("*").eq("username",u).maybeSingle().then(function(r){
-    if(r.error||!r.data){state("No wanderer found at @"+u+".");return;}
-    var p=r.data;
-    Promise.all([
-      sb.from("collections").select("slug,name,emoji,city,spots").eq("owner_id",p.user_id).order("updated_at",{ascending:false}),
-      sb.from("follows").select("*",{count:"exact",head:true}).eq("followee_id",p.user_id),
-      sb.from("follows").select("*",{count:"exact",head:true}).eq("follower_id",p.user_id)
-    ]).then(function(a){
-      var cols=(a[0]&&a[0].data)||[];
-      var counts={followers:(a[1]&&a[1].count)||0,following:(a[2]&&a[2].count)||0};
-      render(p,cols,counts);
-    },function(){render(p,[],{followers:0,following:0});});
-  },function(){state("Couldn’t load this profile.");});
+  sb.from("public_profiles").select("*").eq("username",u).maybeSingle().then(function(r){if(r.error||!r.data){state("No wanderer found at @"+u+".");return;}var p=r.data;Promise.all([sb.from("collections").select("slug,name,emoji,city,spots").eq("owner_id",p.user_id).order("updated_at",{ascending:false}),sb.from("follows").select("*",{count:"exact",head:true}).eq("followee_id",p.user_id),sb.from("follows").select("*",{count:"exact",head:true}).eq("follower_id",p.user_id)]).then(function(a){render(p,(a[0]&&a[0].data)||[],{followers:(a[1]&&a[1].count)||0,following:(a[2]&&a[2].count)||0});},function(){render(p,[],{followers:0,following:0});});},function(){state("Couldn’t load this profile.");});
 })();
 </script>
 </body>
