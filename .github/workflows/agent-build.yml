@@ -38,12 +38,40 @@ jobs:
           if [ ! -d android ]; then npx cap add android; fi
           npx cap sync
 
+      - name: Normalize changed text files
+        run: |
+          python - <<'PY'
+          import pathlib
+          import re
+          import subprocess
+
+          changed = subprocess.check_output(
+              ["git", "diff", "--name-only", "-z", "origin/main...HEAD"]
+          ).split(b"\0")
+          for raw in changed:
+              if not raw:
+                  continue
+              path = pathlib.Path(raw.decode("utf-8", "surrogateescape"))
+              if not path.is_file():
+                  continue
+              data = path.read_bytes()
+              if b"\0" in data:
+                  continue
+              cleaned = re.sub(rb"[ \t]+(?=\r?\n)", b"", data)
+              cleaned = re.sub(rb"[ \t]+\Z", b"", cleaned)
+              if cleaned != data:
+                  path.write_bytes(cleaned)
+                  print(f"normalized {path}")
+          PY
+          git diff --check origin/main...HEAD
+          git diff --check
+
       - name: Commit generated artifacts
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add package-lock.json index.html 'spots.*.js' 'fixtures.*.js' ios android
+          git add -A
           if ! git diff --cached --quiet; then
-            git commit -m "build: generate native platform projects"
+            git commit -m "build: refresh native app artifacts"
             git push origin HEAD:codex/native-walk-foundation
           fi
