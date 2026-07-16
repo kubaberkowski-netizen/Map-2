@@ -85,13 +85,21 @@ for (const rel of refs) {
 }
 
 // Service workers are useful for the PWA but should not own the Capacitor
-// WebView lifecycle. Remove only the registration block from the native copy.
+// WebView lifecycle. Remove only the known registration block from the native
+// copy, and fail loudly if a future source edit changes that contract.
 const nativeIndex = path.join(OUT, "index.html");
 let nativeHtml = fs.readFileSync(nativeIndex, "utf8");
+const serviceWorkerRegistration = /<script>if\("serviceWorker"in navigator\)[\s\S]*?<\/script>/;
+if (!serviceWorkerRegistration.test(nativeHtml)) {
+  throw new Error("native bundle could not locate the service-worker registration block");
+}
 nativeHtml = nativeHtml.replace(
-  /<script>if\("serviceWorker"in navigator\)[\s\S]*?<\/script>/,
+  serviceWorkerRegistration,
   '<script>window.__FLANEUR_NATIVE__=true;</script>'
 );
+if (!nativeHtml.includes("window.__FLANEUR_NATIVE__=true")) {
+  throw new Error("native runtime marker was not written");
+}
 fs.writeFileSync(nativeIndex, nativeHtml);
 
 const copied = [];
