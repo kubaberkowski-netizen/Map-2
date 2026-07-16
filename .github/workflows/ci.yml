@@ -51,13 +51,19 @@ jobs:
       - name: Build (validate and regenerate)
         run: npm run build
 
+      - name: Assemble and synchronize native projects
+        run: |
+          node tools/build-native.js
+          npx cap sync
+          npm run native:normalize
+
       # A clean tree proves every deterministic build output was committed.
       - name: Committed build is up to date
         run: |
           git diff --check
           DRIFT="$(git status --porcelain)"
           if [ -n "$DRIFT" ]; then
-            echo "::error::npm run build changed the working tree. Commit every generated file and deleted content hash."
+            echo "::error::npm run build or native sync changed the working tree. Commit every generated file and deleted content hash."
             echo "$DRIFT"
             git diff --stat
             exit 1

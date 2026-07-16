@@ -18,3 +18,7 @@ research/lake/
 research/dossiers/
 research/.extract-cache.json
 data/.review-backup-*
+
+# Capacitor's generated web payload. Native source projects (ios/ and android/)
+# are intentionally committed once created.
+native-web/
