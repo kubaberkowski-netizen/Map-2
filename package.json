@@ -7,9 +7,10 @@
     "build": "node build.js && node tools/patch-active-walk.js",
     "review": "node tools/review-server.js",
     "native:bundle": "npm run build && node tools/build-native.js",
-    "native:sync": "npm run native:bundle && npx cap sync",
-    "native:add:ios": "npm run native:bundle && npx cap add ios",
-    "native:add:android": "npm run native:bundle && npx cap add android",
+    "native:normalize": "node tools/normalize-native-text.js",
+    "native:sync": "npm run native:bundle && npx cap sync && npm run native:normalize",
+    "native:add:ios": "npm run native:bundle && npx cap add ios && npm run native:normalize",
+    "native:add:android": "npm run native:bundle && npx cap add android && npm run native:normalize",
     "native:open:ios": "npx cap open ios",
     "native:open:android": "npx cap open android"
   },
