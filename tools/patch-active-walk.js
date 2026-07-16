@@ -55,7 +55,7 @@ replaceOnce(
 replaceOnce(
   "unfinished-walk recovery",
   '(0,r.useEffect)(()=>{(async()=>{try{let i=await Ae.get("flaneur-walks");',
-  `(0,r.useEffect)(()=>{let _alive=!0;(async()=>{try{let _raw=null;try{let _rec=await Ae.get(AWK);_raw=_rec&&_rec.value||null}catch(_){}if(!_raw)try{_raw=localStorage.getItem(AWK)}catch(_){}if(!_raw)return;let _d=JSON.parse(_raw),_age=Date.now()-+(_d.updatedAt||_d.startedAt||0);if(!_d||_d.schema!==1||_d.status!=="recording"||!Array.isArray(_d.points)||!_d.startedAt){awClear();return}if(_age>1296e5){awClear();return}if(!_alive)return;let _pts=_d.points.filter(function(_p){return _p&&isFinite(+_p.lat)&&isFinite(+_p.lng)&&isFinite(+_p.t)}).slice(-6000),_mins=Math.max(1,Math.round((Date.now()-_d.startedAt)/6e4));if(window.confirm("Resume the unfinished walk from "+_mins+" minute"+(_mins===1?"":"s")+" ago?")){ss.current=_pts,ds.current=Math.max(0,+_d.distanceKm||0),dl.current=_pts.length?+_pts[_pts.length-1].t:0,is.current=!0,prz.current=!1,pacc.current=Math.max(0,+_d.pausedMs||0),plRef.current=_d.plannedWalkId||null,awid.current={id:_d.sessionId||("aw"+_d.startedAt),startedAt:+_d.startedAt},awbreak.current=!0,Ic(_pts.slice()),Tc(ds.current),bg(+_d.startedAt),Sc(!0),Po(!0);if(Array.isArray(_d.routeStopIds)&&_d.routeStopIds.length){let _rw=_d.routeStopIds.map(function(_id){return Z.find(function(_z){return _z.id===_id})}).filter(Boolean);_rw.length&&setRunw(_rw)}if(_d.cityId&&Ci.some(function(_c){return _c.id===_d.cityId}))setCityId(_d.cityId);I("walk"),Do("Recovered your unfinished walk"),setTimeout(function(){Do("")},3200)}else if(window.confirm("Discard that unfinished walk?"))awClear()}catch(_){}})();return()=>{_alive=!1}},[]),(0,r.useEffect)(()=>{(async()=>{try{let i=await Ae.get("flaneur-walks");`
+  `(0,r.useEffect)(()=>{let _alive=!0;(async()=>{try{let _raw=null;try{let _rec=await Ae.get(AWK);_raw=_rec&&_rec.value||null}catch(_){}if(!_raw)try{_raw=localStorage.getItem(AWK)}catch(_){}if(!_raw)return;let _d=JSON.parse(_raw),_age=Date.now()-+(_d.updatedAt||_d.startedAt||0);if(!_d||_d.schema!==1||_d.status!=="recording"||!Array.isArray(_d.points)||!_d.startedAt){awClear();return}if(_age>1296e5){awClear();return}if(_d.sessionId){let _doneRaw=null;try{let _doneRec=await Ae.get("flaneur-walks");_doneRaw=_doneRec&&_doneRec.value||null}catch(_){}if(!_doneRaw)try{_doneRaw=localStorage.getItem("flaneur-walks")}catch(_){}if(_doneRaw)try{let _done=JSON.parse(_doneRaw);if(Array.isArray(_done)&&_done.some(function(_w){return _w&&_w.sessionId===_d.sessionId})){awClear();return}}catch(_){}}if(!_alive)return;let _pts=_d.points.filter(function(_p){return _p&&isFinite(+_p.lat)&&isFinite(+_p.lng)&&isFinite(+_p.t)}).slice(-6000),_mins=Math.max(1,Math.round((Date.now()-_d.startedAt)/6e4));if(window.confirm("Resume the unfinished walk from "+_mins+" minute"+(_mins===1?"":"s")+" ago?")){ss.current=_pts,ds.current=Math.max(0,+_d.distanceKm||0),dl.current=_pts.length?+_pts[_pts.length-1].t:0,is.current=!0,prz.current=!1,pacc.current=Math.max(0,+_d.pausedMs||0),plRef.current=_d.plannedWalkId||null,awid.current={id:_d.sessionId||("aw"+_d.startedAt),startedAt:+_d.startedAt},awbreak.current=!0,Ic(_pts.slice()),Tc(ds.current),bg(+_d.startedAt),Sc(!0),Po(!0);if(Array.isArray(_d.routeStopIds)&&_d.routeStopIds.length){let _rw=_d.routeStopIds.map(function(_id){return Z.find(function(_z){return _z.id===_id})}).filter(Boolean);_rw.length&&setRunw(_rw)}if(_d.cityId&&Ci.some(function(_c){return _c.id===_d.cityId}))setCityId(_d.cityId);I("walk"),Do("Recovered your unfinished walk"),setTimeout(function(){Do("")},3200)}else if(window.confirm("Discard that unfinished walk?"))awClear()}catch(_){}})();return()=>{_alive=!1}},[]),(0,r.useEffect)(()=>{(async()=>{try{let i=await Ae.get("flaneur-walks");`
 );
 
 replaceOnce(
@@ -89,9 +89,9 @@ replaceOnce(
 );
 
 replaceExpected(
-  "completed-walk segment field",
+  "completed-walk segment and session fields",
   'path:A,spots:B,sel:',
-  'path:A,segments:S,spots:B,sel:',
+  'sessionId:awid.current&&awid.current.id||null,path:A,segments:S,spots:B,sel:',
   2
 );
 
@@ -104,7 +104,7 @@ replaceOnce(
 replaceOnce(
   "GPS gap segmentation",
   'if(!A||(_d>=_thr&&_spd<=12)){v.push({lat:g.lat,lng:g.lng,t:_now}),ds.current+=_d/1e3,Ic(v.slice()),Tc(ds.current),addCellPt(g.lat,g.lng)}}',
-  'if(!A||(_d>=_thr&&_spd<=12)){let _gap=!!A&&(awbreak.current||_dt>120||_dt>30&&_d>500),_pt={lat:g.lat,lng:g.lng,t:_now};_gap&&(_pt.br=1),v.push(_pt),ds.current+=(_gap?0:_d)/1e3,awbreak.current=!1,Ic(v.slice()),Tc(ds.current),addCellPt(g.lat,g.lng),awSave(!1)}}'
+  'if(!A||(_d>=_thr&&_spd<=12)){let _pause=!!A&&(_dt>120||_dt>30&&_d>500),_gap=!!A&&(awbreak.current||_pause),_pt={lat:g.lat,lng:g.lng,t:_now};_gap&&(_pt.br=1),_pause&&(pacc.current+=Math.max(0,_dt*1e3)),v.push(_pt),ds.current+=(_gap?0:_d)/1e3,awbreak.current=!1,Ic(v.slice()),Tc(ds.current),addCellPt(g.lat,g.lng),awSave(!1)}}'
 );
 
 replaceOnce(
