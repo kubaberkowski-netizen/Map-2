@@ -5605,10 +5605,12 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
 .wizday.on{border-color:var(--red);background:var(--red);color:#fff;box-shadow:0 8px 18px -14px rgba(174,35,29,.9);}
 .wizai{position:relative;margin:18px 0;padding:38px 14px 14px;border:0!important;border-radius:19px;background:linear-gradient(145deg,color-mix(in srgb,var(--compass) 96%,#17231f),var(--compass))!important;box-shadow:0 18px 34px -29px rgba(20,51,40,.95);}
 .wizai::before{content:"WHAT SHOULD THE TRIP FEEL LIKE?";position:absolute;top:16px;left:14px;color:rgba(255,255,255,.72);font:800 9px/1 var(--font-sans);letter-spacing:.14em;}
+.walkai::before{content:"WHAT SHOULD THE WALK FEEL LIKE?";}
 .wizaitext{min-height:78px;padding:12px!important;border:1px solid rgba(255,255,255,.2)!important;border-radius:13px!important;background:rgba(255,255,255,.1)!important;color:#fff!important;line-height:1.45;}
 .wizaitext::placeholder{color:rgba(255,255,255,.57);}
 .wizaitext:focus{outline:2px solid rgba(255,255,255,.42);outline-offset:2px;}
-.wizai .wizaibtn{display:none;}
+.wizai .wizaibtn{display:block;min-height:46px;margin-top:10px;border:1px solid rgba(255,255,255,.24);border-radius:13px;background:var(--red);color:#fff;box-shadow:0 10px 20px -16px rgba(0,0,0,.75);}
+.wizai .wizaibtn:disabled{opacity:.48;box-shadow:none;}
 .wizmap{height:210px;margin:16px 0 9px;border:1px solid color-mix(in srgb,var(--line) 86%,transparent);border-radius:19px;box-shadow:none;}
 .wizmaphint{margin:0 2px 16px;color:var(--ink3);font-size:11.5px;line-height:1.48;}
 .wizintro,.wizsughd{margin:18px 0 10px;color:var(--ink3);font:800 9.5px/1 var(--font-sans);letter-spacing:.15em;text-transform:uppercase;}
