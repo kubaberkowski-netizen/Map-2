@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: native-foundation-regenerate
+  cancel-in-progress: true
+
 jobs:
   regenerate:
     if: github.actor != 'github-actions[bot]'
@@ -29,40 +33,16 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build web and native payloads
-        run: npm run native:bundle
-
-      - name: Generate native platform projects
+      - name: Build and synchronize native projects
         run: |
+          npm run native:bundle
           if [ ! -d ios ]; then npx cap add ios; fi
           if [ ! -d android ]; then npx cap add android; fi
           npx cap sync
+          npm run native:normalize
 
-      - name: Normalize changed text files
+      - name: Verify generated diff formatting
         run: |
-          python - <<'PY'
-          import pathlib
-          import re
-          import subprocess
-
-          changed = subprocess.check_output(
-              ["git", "diff", "--name-only", "-z", "origin/main...HEAD"]
-          ).split(b"\0")
-          for raw in changed:
-              if not raw:
-                  continue
-              path = pathlib.Path(raw.decode("utf-8", "surrogateescape"))
-              if not path.is_file():
-                  continue
-              data = path.read_bytes()
-              if b"\0" in data:
-                  continue
-              cleaned = re.sub(rb"[ \t]+(?=\r?\n)", b"", data)
-              cleaned = re.sub(rb"[ \t]+\Z", b"", cleaned)
-              if cleaned != data:
-                  path.write_bytes(cleaned)
-                  print(f"normalized {path}")
-          PY
           git diff --check origin/main
           git diff --check
 
