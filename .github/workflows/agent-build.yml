@@ -1,4 +1,4 @@
-name: Regenerate app bundle for native walk foundation
+name: Diagnose native foundation branch
 
 on:
   push:
@@ -9,11 +9,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: native-foundation-regenerate
+  group: native-foundation-diagnose
   cancel-in-progress: true
 
 jobs:
-  regenerate:
+  diagnose:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
@@ -27,31 +27,23 @@ jobs:
           node-version: 22
           cache: npm
 
-      - name: Refresh lockfile
-        run: npm install --package-lock-only --ignore-scripts
+      - run: npm ci
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Normalize generated native text
+        run: npm run native:normalize
 
-      - name: Build and synchronize native projects
+      - name: Record remaining diff-check diagnostics
         run: |
-          npm run native:bundle
-          if [ ! -d ios ]; then npx cap add ios; fi
-          if [ ! -d android ]; then npx cap add android; fi
-          npx cap sync
-          npm run native:normalize
+          git diff --check origin/main > .native-foundation-diff-check.txt 2>&1 || true
+          if [ ! -s .native-foundation-diff-check.txt ]; then
+            printf 'clean\n' > .native-foundation-diff-check.txt
+          fi
+          cat .native-foundation-diff-check.txt
 
-      - name: Verify generated diff formatting
-        run: |
-          git diff --check origin/main
-          git diff --check
-
-      - name: Commit generated artifacts
+      - name: Commit normalized files and diagnostics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          if ! git diff --cached --quiet; then
-            git commit -m "build: refresh native app artifacts"
-            git push origin HEAD:codex/native-walk-foundation
-          fi
+          git commit -m "build: normalize native project text" || exit 0
+          git push origin HEAD:codex/native-walk-foundation
