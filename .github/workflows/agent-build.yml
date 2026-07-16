@@ -20,7 +20,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - name: Refresh lockfile
@@ -32,12 +32,18 @@ jobs:
       - name: Build web and native payloads
         run: npm run native:bundle
 
+      - name: Generate native platform projects
+        run: |
+          if [ ! -d ios ]; then npx cap add ios; fi
+          if [ ! -d android ]; then npx cap add android; fi
+          npx cap sync
+
       - name: Commit generated artifacts
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add package-lock.json index.html 'spots.*.js' 'fixtures.*.js'
+          git add package-lock.json index.html 'spots.*.js' 'fixtures.*.js' ios android
           if ! git diff --cached --quiet; then
-            git commit -m "build: regenerate app bundle"
+            git commit -m "build: generate native platform projects"
             git push origin HEAD:codex/native-walk-foundation
           fi
