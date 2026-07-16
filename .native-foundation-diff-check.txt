@@ -1,0 +1,188 @@
+android/gradlew.bat:1: trailing whitespace.
++@rem
+android/gradlew.bat:2: trailing whitespace.
++@rem Copyright 2015 the original author or authors.
+android/gradlew.bat:3: trailing whitespace.
++@rem
+android/gradlew.bat:4: trailing whitespace.
++@rem Licensed under the Apache License, Version 2.0 (the "License");
+android/gradlew.bat:5: trailing whitespace.
++@rem you may not use this file except in compliance with the License.
+android/gradlew.bat:6: trailing whitespace.
++@rem You may obtain a copy of the License at
+android/gradlew.bat:7: trailing whitespace.
++@rem
+android/gradlew.bat:8: trailing whitespace.
++@rem      https://www.apache.org/licenses/LICENSE-2.0
+android/gradlew.bat:9: trailing whitespace.
++@rem
+android/gradlew.bat:10: trailing whitespace.
++@rem Unless required by applicable law or agreed to in writing, software
+android/gradlew.bat:11: trailing whitespace.
++@rem distributed under the License is distributed on an "AS IS" BASIS,
+android/gradlew.bat:12: trailing whitespace.
++@rem WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+android/gradlew.bat:13: trailing whitespace.
++@rem See the License for the specific language governing permissions and
+android/gradlew.bat:14: trailing whitespace.
++@rem limitations under the License.
+android/gradlew.bat:15: trailing whitespace.
++@rem
+android/gradlew.bat:16: trailing whitespace.
++@rem SPDX-License-Identifier: Apache-2.0
+android/gradlew.bat:17: trailing whitespace.
++@rem
+android/gradlew.bat:18: trailing whitespace.
++
+android/gradlew.bat:19: trailing whitespace.
++@if "%DEBUG%"=="" @echo off
+android/gradlew.bat:20: trailing whitespace.
++@rem ##########################################################################
+android/gradlew.bat:21: trailing whitespace.
++@rem
+android/gradlew.bat:22: trailing whitespace.
++@rem  Gradle startup script for Windows
+android/gradlew.bat:23: trailing whitespace.
++@rem
+android/gradlew.bat:24: trailing whitespace.
++@rem ##########################################################################
+android/gradlew.bat:25: trailing whitespace.
++
+android/gradlew.bat:26: trailing whitespace.
++@rem Set local scope for the variables with windows NT shell
+android/gradlew.bat:27: trailing whitespace.
++if "%OS%"=="Windows_NT" setlocal
+android/gradlew.bat:28: trailing whitespace.
++
+android/gradlew.bat:29: trailing whitespace.
++set DIRNAME=%~dp0
+android/gradlew.bat:30: trailing whitespace.
++if "%DIRNAME%"=="" set DIRNAME=.
+android/gradlew.bat:31: trailing whitespace.
++@rem This is normally unused
+android/gradlew.bat:32: trailing whitespace.
++set APP_BASE_NAME=%~n0
+android/gradlew.bat:33: trailing whitespace.
++set APP_HOME=%DIRNAME%
+android/gradlew.bat:34: trailing whitespace.
++
+android/gradlew.bat:35: trailing whitespace.
++@rem Resolve any "." and ".." in APP_HOME to make it shorter.
+android/gradlew.bat:36: trailing whitespace.
++for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi
+android/gradlew.bat:37: trailing whitespace.
++
+android/gradlew.bat:38: trailing whitespace.
++@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
+android/gradlew.bat:39: trailing whitespace.
++set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m"
+android/gradlew.bat:40: trailing whitespace.
++
+android/gradlew.bat:41: trailing whitespace.
++@rem Find java.exe
+android/gradlew.bat:42: trailing whitespace.
++if defined JAVA_HOME goto findJavaFromJavaHome
+android/gradlew.bat:43: trailing whitespace.
++
+android/gradlew.bat:44: trailing whitespace.
++set JAVA_EXE=java.exe
+android/gradlew.bat:45: trailing whitespace.
++%JAVA_EXE% -version >NUL 2>&1
+android/gradlew.bat:46: trailing whitespace.
++if %ERRORLEVEL% equ 0 goto execute
+android/gradlew.bat:47: trailing whitespace.
++
+android/gradlew.bat:48: trailing whitespace.
++echo. 1>&2
+android/gradlew.bat:49: trailing whitespace.
++echo ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH. 1>&2
+android/gradlew.bat:50: trailing whitespace.
++echo. 1>&2
+android/gradlew.bat:51: trailing whitespace.
++echo Please set the JAVA_HOME variable in your environment to match the 1>&2
+android/gradlew.bat:52: trailing whitespace.
++echo location of your Java installation. 1>&2
+android/gradlew.bat:53: trailing whitespace.
++
+android/gradlew.bat:54: trailing whitespace.
++goto fail
+android/gradlew.bat:55: trailing whitespace.
++
+android/gradlew.bat:56: trailing whitespace.
++:findJavaFromJavaHome
+android/gradlew.bat:57: trailing whitespace.
++set JAVA_HOME=%JAVA_HOME:"=%
+android/gradlew.bat:58: trailing whitespace.
++set JAVA_EXE=%JAVA_HOME%/bin/java.exe
+android/gradlew.bat:59: trailing whitespace.
++
+android/gradlew.bat:60: trailing whitespace.
++if exist "%JAVA_EXE%" goto execute
+android/gradlew.bat:61: trailing whitespace.
++
+android/gradlew.bat:62: trailing whitespace.
++echo. 1>&2
+android/gradlew.bat:63: trailing whitespace.
++echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME% 1>&2
+android/gradlew.bat:64: trailing whitespace.
++echo. 1>&2
+android/gradlew.bat:65: trailing whitespace.
++echo Please set the JAVA_HOME variable in your environment to match the 1>&2
+android/gradlew.bat:66: trailing whitespace.
++echo location of your Java installation. 1>&2
+android/gradlew.bat:67: trailing whitespace.
++
+android/gradlew.bat:68: trailing whitespace.
++goto fail
+android/gradlew.bat:69: trailing whitespace.
++
+android/gradlew.bat:70: trailing whitespace.
++:execute
+android/gradlew.bat:71: trailing whitespace.
++@rem Setup the command line
+android/gradlew.bat:72: trailing whitespace.
++
+android/gradlew.bat:73: trailing whitespace.
++set CLASSPATH=
+android/gradlew.bat:74: trailing whitespace.
++
+android/gradlew.bat:75: trailing whitespace.
++
+android/gradlew.bat:76: trailing whitespace.
++@rem Execute Gradle
+android/gradlew.bat:77: trailing whitespace.
++"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% "-Dorg.gradle.appname=%APP_BASE_NAME%" -classpath "%CLASSPATH%" -jar "%APP_HOME%\gradle\wrapper\gradle-wrapper.jar" %*
+android/gradlew.bat:78: trailing whitespace.
++
+android/gradlew.bat:79: trailing whitespace.
++:end
+android/gradlew.bat:80: trailing whitespace.
++@rem End local scope for the variables with windows NT shell
+android/gradlew.bat:81: trailing whitespace.
++if %ERRORLEVEL% equ 0 goto mainEnd
+android/gradlew.bat:82: trailing whitespace.
++
+android/gradlew.bat:83: trailing whitespace.
++:fail
+android/gradlew.bat:84: trailing whitespace.
++rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of
+android/gradlew.bat:85: trailing whitespace.
++rem the _cmd.exe /c_ return code!
+android/gradlew.bat:86: trailing whitespace.
++set EXIT_CODE=%ERRORLEVEL%
+android/gradlew.bat:87: trailing whitespace.
++if %EXIT_CODE% equ 0 set EXIT_CODE=1
+android/gradlew.bat:88: trailing whitespace.
++if not ""=="%GRADLE_EXIT_CONSOLE%" exit %EXIT_CODE%
+android/gradlew.bat:89: trailing whitespace.
++exit /b %EXIT_CODE%
+android/gradlew.bat:90: trailing whitespace.
++
+android/gradlew.bat:91: trailing whitespace.
++:mainEnd
+android/gradlew.bat:92: trailing whitespace.
++if "%OS%"=="Windows_NT" endlocal
+android/gradlew.bat:93: trailing whitespace.
++
+android/gradlew.bat:94: trailing whitespace.
++:omega
