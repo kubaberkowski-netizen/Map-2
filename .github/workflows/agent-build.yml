@@ -63,7 +63,7 @@ jobs:
                   path.write_bytes(cleaned)
                   print(f"normalized {path}")
           PY
-          git diff --check origin/main...HEAD
+          git diff --check origin/main
           git diff --check
 
       - name: Commit generated artifacts
