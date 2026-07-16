@@ -3,10 +3,10 @@
 /**
  * Keep Capacitor-generated native project text deterministic.
  *
- * Capacitor and its platform templates occasionally emit trailing whitespace or
- * extra blank lines. Those differences are harmless to Xcode/Gradle but fail
- * the repository's strict `git diff --check` gate. Normalize text only; binary
- * assets, file permissions, and the native project structure remain untouched.
+ * Capacitor and its platform templates occasionally emit CRLF endings, trailing
+ * whitespace, or extra blank lines. Those differences are harmless to Xcode and
+ * Gradle but fail the repository's strict `git diff --check` gate. Normalize
+ * text only; binary assets, file permissions, and native structure stay intact.
  */
 
 const fs = require("fs");
@@ -43,14 +43,13 @@ function normalizeFile(file) {
   if (!input.length || input.includes(0)) return;
 
   const source = input.toString("utf8");
-  // Preserve CRLF for Windows-oriented generated files such as gradlew.bat.
-  const eol = source.includes("\r\n") ? "\r\n" : "\n";
   const lines = source.split(/\r\n|\n|\r/).map((line) => line.replace(/[ \t]+$/g, ""));
 
-  // Exactly one final line ending avoids `new blank line at EOF` while keeping
-  // POSIX text files well formed.
+  // Use LF everywhere, including gradlew.bat. Git treats the CR in added CRLF
+  // lines as trailing whitespace, while Windows cmd accepts LF batch files.
+  // Exactly one final line ending also avoids `new blank line at EOF`.
   while (lines.length && lines[lines.length - 1] === "") lines.pop();
-  const output = (lines.length ? lines.join(eol) : "") + eol;
+  const output = (lines.length ? lines.join("\n") : "") + "\n";
 
   if (output !== source) {
     fs.writeFileSync(file, output);
