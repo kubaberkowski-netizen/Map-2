@@ -11,6 +11,7 @@ on:
       - "package.json"
       - "package-lock.json"
       - "tools/build-native.js"
+      - "tools/normalize-native-text.js"
       - "tools/patch-active-walk.js"
       - "src/app.template.html"
   workflow_dispatch:
@@ -41,6 +42,7 @@ jobs:
       - run: npm ci
       - run: npm run native:bundle
       - run: npx cap sync android
+      - run: npm run native:normalize
       - name: Compile and test Android
         working-directory: android
         run: ./gradlew test assembleDebug --stacktrace
@@ -58,6 +60,7 @@ jobs:
       - run: npm ci
       - run: npm run native:bundle
       - run: npx cap sync ios
+      - run: npm run native:normalize
       - name: Compile iOS for Simulator
         run: |
           xcodebuild \
