@@ -4,7 +4,8 @@
   "private": true,
   "description": "Flâneur — niche London detours, sorted by distance. Single-file React PWA; the spot catalogue lives in data/spots.json and is built into index.html.",
   "scripts": {
-    "build": "node build.js && node tools/patch-active-walk.js",
+    "build": "node build.js && node tools/patch-mobile-review.js && node tools/patch-active-walk.js",
+    "test:mobile": "node tools/tests/mobile-regressions.test.js",
     "review": "node tools/review-server.js",
     "native:bundle": "npm run build && node tools/build-native.js",
     "native:normalize": "node tools/normalize-native-text.js",
@@ -16,8 +17,12 @@
   },
   "dependencies": {
     "@capacitor/android": "8.4.1",
+    "@capacitor/app": "^8.1.1",
     "@capacitor/core": "8.4.1",
-    "@capacitor/ios": "8.4.1"
+    "@capacitor/haptics": "^8.0.2",
+    "@capacitor/ios": "8.4.1",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3"
   },
   "devDependencies": {
     "@capacitor/cli": "8.4.1",

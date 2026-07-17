@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18725C12930F59A9DF7B1C37 /* WatchLocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA4E6856D998E3FA405D22E /* WatchLocationProvider.swift */; };
+		2CA48F16B12059BA322E1400 /* WatchSessionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBF7F39B447C82556B7F15 /* WatchSessionClient.swift */; };
 		2FAD9763203C412B000D30F8 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2FAD9762203C412B000D30F8 /* config.xml */; };
+		3002ACA41B2B839E0C4C026E /* WatchSessionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33141260B730E70DBD276A4 /* WatchSessionCoordinator.swift */; };
+		40BF58758701DC1538353322 /* WatchWireCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9817F1A1B4B64DB541487328 /* WatchWireCodec.swift */; };
+		4B44CDF761A9DDF79A4C2BEB /* WatchSessionSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA1063EBD55C3C6E8F6ADB /* WatchSessionSnapshot.swift */; };
 		4D22ABE92AF431CB00220026 /* CapApp-SPM in Frameworks */ = {isa = PBXBuildFile; productRef = 4D22ABE82AF431CB00220026 /* CapApp-SPM */; };
 		50379B232058CBB4000EE86E /* capacitor.config.json in Resources */ = {isa = PBXBuildFile; fileRef = 50379B222058CBB4000EE86E /* capacitor.config.json */; };
 		504EC3081FED79650016851F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EC3071FED79650016851F /* AppDelegate.swift */; };
@@ -15,10 +20,75 @@
 		504EC30F1FED79650016851F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504EC30E1FED79650016851F /* Assets.xcassets */; };
 		504EC3121FED79650016851F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504EC3101FED79650016851F /* LaunchScreen.storyboard */; };
 		50B271D11FEDC1A000F3C39B /* public in Resources */ = {isa = PBXBuildFile; fileRef = 50B271D01FEDC1A000F3C39B /* public */; };
+		614DE9061FA0CBB234022D4B /* ActiveWalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EA3A37851DC7633959133E /* ActiveWalkView.swift */; };
+		74EC8848A52D528FAFDA293C /* SessionControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2A30D319582EF3CC838F5 /* SessionControlsView.swift */; };
+		7AEFD9A3C69A9AF7FB0F5C4D /* WatchSessionBridgePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D65B4B1538561BAD6D735A /* WatchSessionBridgePlugin.swift */; };
+		7E197C3D10D7835562E29A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280B85E289099563A0B01A87 /* Assets.xcassets */; };
+		80B4A1EF4CC28DBE39C48D26 /* RadarGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F3692D5ADB9D22C421DB9C /* RadarGeometry.swift */; };
+		8E2BCC8B249156FCCA8F6FC0 /* RadarCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426EB228D3FEFDCB7CA77925 /* RadarCanvasView.swift */; };
+		9AB967BBCD742D20222A5784 /* FlaneurWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54BAAB02814AD7B32055B12 /* FlaneurWatchApp.swift */; };
+		AA19301657CDBD0080F92F3F /* FlaneurWatchStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8504C210D449DB4515BEFCFD /* FlaneurWatchStyle.swift */; };
+		AD9153121EAA7266DDB77BBA /* WatchRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29355CAA5AF41EAE184B457C /* WatchRootView.swift */; };
+		B6F45745E9DA1A11C591DA00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBFC61F8D13A9B93AFFBE31 /* Foundation.framework */; };
+		E65D920D8BDF54579CF6D0BA /* SessionStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD48AD78A8043B380015E2F /* SessionStatsView.swift */; };
+		EEDB4EB24E2A812B4CE7990E /* FlaneurWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 508B21D8B5783C70F574B066 /* FlaneurWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F10000010000000000000001 /* NativeWalkRecorderPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000100000000000000001 /* NativeWalkRecorderPlugin.swift */; };
+		F10000020000000000000002 /* FlaneurBridgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000110000000000000002 /* FlaneurBridgeViewController.swift */; };
+		F10000030000000000000003 /* FlaneurWalkActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000120000000000000003 /* FlaneurWalkActivityAttributes.swift */; };
+		F10000040000000000000004 /* FlaneurWalkActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000120000000000000003 /* FlaneurWalkActivityAttributes.swift */; };
+		F10000050000000000000005 /* FlaneurRadarWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000130000000000000004 /* FlaneurRadarWidget.swift */; };
+		F10000060000000000000006 /* FlaneurRadarWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F10000150000000000000006 /* FlaneurRadarWidget.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8E228F77718A83124C5DC68E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504EC2FC1FED79650016851F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD3FD3C3CCC9F5D26AC07F8;
+			remoteInfo = "Flâneur Watch";
+		};
+		F10000500000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504EC2FC1FED79650016851F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10000400000000000000001;
+			remoteInfo = FlaneurRadarWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5ECC4C39569F59BACC64745 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EEDB4EB24E2A812B4CE7990E /* FlaneurWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10000300000000000000001 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F10000060000000000000006 /* FlaneurRadarWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		10EA3A37851DC7633959133E /* ActiveWalkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActiveWalkView.swift; path = Views/ActiveWalkView.swift; sourceTree = "<group>"; };
+		1CD48AD78A8043B380015E2F /* SessionStatsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionStatsView.swift; path = Views/SessionStatsView.swift; sourceTree = "<group>"; };
+		280B85E289099563A0B01A87 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29355CAA5AF41EAE184B457C /* WatchRootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatchRootView.swift; path = Views/WatchRootView.swift; sourceTree = "<group>"; };
 		2FAD9762203C412B000D30F8 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		426EB228D3FEFDCB7CA77925 /* RadarCanvasView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarCanvasView.swift; path = Views/RadarCanvasView.swift; sourceTree = "<group>"; };
 		50379B222058CBB4000EE86E /* capacitor.config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = capacitor.config.json; sourceTree = "<group>"; };
 		504EC3041FED79650016851F /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		504EC3071FED79650016851F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -26,8 +96,26 @@
 		504EC30E1FED79650016851F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		504EC3111FED79650016851F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		504EC3131FED79650016851F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		508B21D8B5783C70F574B066 /* FlaneurWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlaneurWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B271D01FEDC1A000F3C39B /* public */ = {isa = PBXFileReference; lastKnownFileType = folder; path = public; sourceTree = "<group>"; };
+		58D65B4B1538561BAD6D735A /* WatchSessionBridgePlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchSessionBridgePlugin.swift; sourceTree = "<group>"; };
+		6CBFC61F8D13A9B93AFFBE31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8504C210D449DB4515BEFCFD /* FlaneurWatchStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlaneurWatchStyle.swift; path = Views/FlaneurWatchStyle.swift; sourceTree = "<group>"; };
 		958DCC722DB07C7200EA8C5F /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = debug.xcconfig; path = ../debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		9817F1A1B4B64DB541487328 /* WatchWireCodec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatchWireCodec.swift; path = Connectivity/WatchWireCodec.swift; sourceTree = "<group>"; };
+		A1F3692D5ADB9D22C421DB9C /* RadarGeometry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarGeometry.swift; path = Models/RadarGeometry.swift; sourceTree = "<group>"; };
+		B54BAAB02814AD7B32055B12 /* FlaneurWatchApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlaneurWatchApp.swift; sourceTree = "<group>"; };
+		C2D2A30D319582EF3CC838F5 /* SessionControlsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionControlsView.swift; path = Views/SessionControlsView.swift; sourceTree = "<group>"; };
+		CFDA1063EBD55C3C6E8F6ADB /* WatchSessionSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatchSessionSnapshot.swift; path = Models/WatchSessionSnapshot.swift; sourceTree = "<group>"; };
+		D33141260B730E70DBD276A4 /* WatchSessionCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchSessionCoordinator.swift; sourceTree = "<group>"; };
+		E1BBF7F39B447C82556B7F15 /* WatchSessionClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatchSessionClient.swift; path = Connectivity/WatchSessionClient.swift; sourceTree = "<group>"; };
+		ECA4E6856D998E3FA405D22E /* WatchLocationProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatchLocationProvider.swift; path = Location/WatchLocationProvider.swift; sourceTree = "<group>"; };
+		F10000100000000000000001 /* NativeWalkRecorderPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeWalkRecorderPlugin.swift; sourceTree = "<group>"; };
+		F10000110000000000000002 /* FlaneurBridgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlaneurBridgeViewController.swift; sourceTree = "<group>"; };
+		F10000120000000000000003 /* FlaneurWalkActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlaneurWalkActivityAttributes.swift; sourceTree = "<group>"; };
+		F10000130000000000000004 /* FlaneurRadarWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlaneurRadarWidget.swift; sourceTree = "<group>"; };
+		F10000140000000000000005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10000150000000000000006 /* FlaneurRadarWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FlaneurRadarWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,15 +127,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5441A74B1C0B7CF8A9C4940B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F45745E9DA1A11C591DA00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10000310000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3166C3E46ABDB24B5CBD3DC4 /* FlaneurWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				E1BBF7F39B447C82556B7F15 /* WatchSessionClient.swift */,
+				9817F1A1B4B64DB541487328 /* WatchWireCodec.swift */,
+				B54BAAB02814AD7B32055B12 /* FlaneurWatchApp.swift */,
+				ECA4E6856D998E3FA405D22E /* WatchLocationProvider.swift */,
+				A1F3692D5ADB9D22C421DB9C /* RadarGeometry.swift */,
+				CFDA1063EBD55C3C6E8F6ADB /* WatchSessionSnapshot.swift */,
+				10EA3A37851DC7633959133E /* ActiveWalkView.swift */,
+				8504C210D449DB4515BEFCFD /* FlaneurWatchStyle.swift */,
+				426EB228D3FEFDCB7CA77925 /* RadarCanvasView.swift */,
+				C2D2A30D319582EF3CC838F5 /* SessionControlsView.swift */,
+				1CD48AD78A8043B380015E2F /* SessionStatsView.swift */,
+				29355CAA5AF41EAE184B457C /* WatchRootView.swift */,
+				280B85E289099563A0B01A87 /* Assets.xcassets */,
+			);
+			name = FlaneurWatchApp;
+			path = ../FlaneurWatchApp;
+			sourceTree = "<group>";
+		};
 		504EC2FB1FED79650016851F = {
 			isa = PBXGroup;
 			children = (
 				958DCC722DB07C7200EA8C5F /* debug.xcconfig */,
 				504EC3061FED79650016851F /* App */,
+				F10000200000000000000001 /* FlaneurRadarWidget */,
 				504EC3051FED79650016851F /* Products */,
+				6CC6131B1883B450225A7755 /* Frameworks */,
+				3166C3E46ABDB24B5CBD3DC4 /* FlaneurWatchApp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +182,8 @@
 			isa = PBXGroup;
 			children = (
 				504EC3041FED79650016851F /* App.app */,
+				F10000150000000000000006 /* FlaneurRadarWidget.appex */,
+				508B21D8B5783C70F574B066 /* FlaneurWatch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,14 +193,44 @@
 			children = (
 				50379B222058CBB4000EE86E /* capacitor.config.json */,
 				504EC3071FED79650016851F /* AppDelegate.swift */,
+				F10000110000000000000002 /* FlaneurBridgeViewController.swift */,
+				F10000100000000000000001 /* NativeWalkRecorderPlugin.swift */,
+				F10000120000000000000003 /* FlaneurWalkActivityAttributes.swift */,
 				504EC30B1FED79650016851F /* Main.storyboard */,
 				504EC30E1FED79650016851F /* Assets.xcassets */,
 				504EC3101FED79650016851F /* LaunchScreen.storyboard */,
 				504EC3131FED79650016851F /* Info.plist */,
 				2FAD9762203C412B000D30F8 /* config.xml */,
 				50B271D01FEDC1A000F3C39B /* public */,
+				D33141260B730E70DBD276A4 /* WatchSessionCoordinator.swift */,
+				58D65B4B1538561BAD6D735A /* WatchSessionBridgePlugin.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		6CC6131B1883B450225A7755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D4DB54A720DCDE28A0E5030 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D4DB54A720DCDE28A0E5030 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				6CBFC61F8D13A9B93AFFBE31 /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		F10000200000000000000001 /* FlaneurRadarWidget */ = {
+			isa = PBXGroup;
+			children = (
+				F10000130000000000000004 /* FlaneurRadarWidget.swift */,
+				F10000140000000000000005 /* Info.plist */,
+			);
+			path = FlaneurRadarWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,10 +243,14 @@
 				504EC3001FED79650016851F /* Sources */,
 				504EC3011FED79650016851F /* Frameworks */,
 				504EC3021FED79650016851F /* Resources */,
+				F10000300000000000000001 /* Embed Foundation Extensions */,
+				A5ECC4C39569F59BACC64745 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F10000510000000000000002 /* PBXTargetDependency */,
+				0DE09F2CB39E6843D32809ED /* PBXTargetDependency */,
 			);
 			name = App;
 			packageProductDependencies = (
@@ -97,18 +260,61 @@
 			productReference = 504EC3041FED79650016851F /* App.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CAD3FD3C3CCC9F5D26AC07F8 /* Flâneur Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C724C002CA0266E1C621A4F /* Build configuration list for PBXNativeTarget "Flâneur Watch" */;
+			buildPhases = (
+				8624B5B8D823664E9465EA41 /* Sources */,
+				5441A74B1C0B7CF8A9C4940B /* Frameworks */,
+				F20B49B0FC2D25D980EFC367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flâneur Watch";
+			productName = FlaneurWatch;
+			productReference = 508B21D8B5783C70F574B066 /* FlaneurWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F10000400000000000000001 /* FlaneurRadarWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10000620000000000000003 /* Build configuration list for PBXNativeTarget "FlaneurRadarWidget" */;
+			buildPhases = (
+				F10000320000000000000003 /* Sources */,
+				F10000310000000000000002 /* Frameworks */,
+				F10000330000000000000004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlaneurRadarWidget;
+			productName = FlaneurRadarWidget;
+			productReference = F10000150000000000000006 /* FlaneurRadarWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		504EC2FC1FED79650016851F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 2660;
 				TargetAttributes = {
 					504EC3031FED79650016851F = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1100;
+						ProvisioningStyle = Automatic;
+					};
+					CAD3FD3C3CCC9F5D26AC07F8 = {
+						CreatedOnToolsVersion = 26.0;
+						ProvisioningStyle = Automatic;
+					};
+					F10000400000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -130,6 +336,8 @@
 			projectRoot = "";
 			targets = (
 				504EC3031FED79650016851F /* App */,
+				F10000400000000000000001 /* FlaneurRadarWidget */,
+				CAD3FD3C3CCC9F5D26AC07F8 /* Flâneur Watch */,
 			);
 		};
 /* End PBXProject section */
@@ -148,6 +356,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F10000330000000000000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20B49B0FC2D25D980EFC367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E197C3D10D7835562E29A43 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -156,10 +379,57 @@
 			buildActionMask = 2147483647;
 			files = (
 				504EC3081FED79650016851F /* AppDelegate.swift in Sources */,
+				F10000020000000000000002 /* FlaneurBridgeViewController.swift in Sources */,
+				F10000010000000000000001 /* NativeWalkRecorderPlugin.swift in Sources */,
+				F10000030000000000000003 /* FlaneurWalkActivityAttributes.swift in Sources */,
+				3002ACA41B2B839E0C4C026E /* WatchSessionCoordinator.swift in Sources */,
+				7AEFD9A3C69A9AF7FB0F5C4D /* WatchSessionBridgePlugin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8624B5B8D823664E9465EA41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA48F16B12059BA322E1400 /* WatchSessionClient.swift in Sources */,
+				40BF58758701DC1538353322 /* WatchWireCodec.swift in Sources */,
+				9AB967BBCD742D20222A5784 /* FlaneurWatchApp.swift in Sources */,
+				18725C12930F59A9DF7B1C37 /* WatchLocationProvider.swift in Sources */,
+				80B4A1EF4CC28DBE39C48D26 /* RadarGeometry.swift in Sources */,
+				4B44CDF761A9DDF79A4C2BEB /* WatchSessionSnapshot.swift in Sources */,
+				614DE9061FA0CBB234022D4B /* ActiveWalkView.swift in Sources */,
+				AA19301657CDBD0080F92F3F /* FlaneurWatchStyle.swift in Sources */,
+				8E2BCC8B249156FCCA8F6FC0 /* RadarCanvasView.swift in Sources */,
+				74EC8848A52D528FAFDA293C /* SessionControlsView.swift in Sources */,
+				E65D920D8BDF54579CF6D0BA /* SessionStatsView.swift in Sources */,
+				AD9153121EAA7266DDB77BBA /* WatchRootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10000320000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10000050000000000000005 /* FlaneurRadarWidget.swift in Sources */,
+				F10000040000000000000004 /* FlaneurWalkActivityAttributes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DE09F2CB39E6843D32809ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Flâneur Watch";
+			target = CAD3FD3C3CCC9F5D26AC07F8 /* Flâneur Watch */;
+			targetProxy = 8E228F77718A83124C5DC68E /* PBXContainerItemProxy */;
+		};
+		F10000510000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F10000400000000000000001 /* FlaneurRadarWidget */;
+			targetProxy = F10000500000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		504EC30B1FED79650016851F /* Main.storyboard */ = {
@@ -196,6 +466,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -203,8 +474,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -216,6 +489,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -234,6 +508,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -253,6 +528,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -260,8 +536,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -273,6 +551,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -284,6 +563,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -297,6 +577,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 549J97HQRU;
 				INFOPLIST_FILE = App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,6 +600,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 549J97HQRU;
 				INFOPLIST_FILE = App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,9 +616,132 @@
 			};
 			name = Release;
 		};
+		94871F287EF42EC7F53963F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 549J97HQRU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Flâneur";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Flâneur uses the Watch location to keep the walk radar responsive.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.kubaberkowski.flaneur;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kubaberkowski.flaneur.watchkitapp;
+				PRODUCT_NAME = FlaneurWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		E22727B5B0CCD7FB7385F4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 549J97HQRU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Flâneur";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Flâneur uses the Watch location to keep the walk radar responsive.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.kubaberkowski.flaneur;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kubaberkowski.flaneur.watchkitapp;
+				PRODUCT_NAME = FlaneurWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		F10000600000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 549J97HQRU;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FlaneurRadarWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kubaberkowski.flaneur.FlaneurRadarWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F10000610000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 549J97HQRU;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FlaneurRadarWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kubaberkowski.flaneur.FlaneurRadarWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C724C002CA0266E1C621A4F /* Build configuration list for PBXNativeTarget "Flâneur Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22727B5B0CCD7FB7385F4E7 /* Release */,
+				94871F287EF42EC7F53963F9 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		504EC2FF1FED79650016851F /* Build configuration list for PBXProject "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -351,6 +756,15 @@
 			buildConfigurations = (
 				504EC3171FED79650016851F /* Debug */,
 				504EC3181FED79650016851F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10000620000000000000003 /* Build configuration list for PBXNativeTarget "FlaneurRadarWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10000600000000000000001 /* Debug */,
+				F10000610000000000000002 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

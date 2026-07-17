@@ -4,4 +4,21 @@
     <string name="title_activity_main">Flâneur</string>
     <string name="package_name">com.kubaberkowski.flaneur</string>
     <string name="custom_url_scheme">com.kubaberkowski.flaneur</string>
+    <string name="walk_notification_channel_name">Active walks</string>
+    <string name="walk_notification_channel_description">Keeps an active Flâneur walk recording when the screen is locked.</string>
+    <string name="walk_notification_title">Flâneur walk</string>
+    <string name="walk_notification_paused">Walk paused</string>
+    <string name="walk_notification_public">An active walk is in progress</string>
+    <string name="walk_notification_open">Open Flâneur to view walk details</string>
+    <string name="walk_notification_signal_lost">GPS signal lost — move into open sky. The radar is hidden until a fresh fix arrives.</string>
+    <string name="walk_notification_signal_lost_short">GPS signal lost</string>
+    <string name="walk_notification_finding_fix">Finding a fresh, precise GPS fix…</string>
+    <string name="walk_notification_finding_fix_short">Finding GPS</string>
+    <string name="walk_notification_radar_paused">Radar will update when you resume.</string>
+    <string name="walk_notification_radar_disabled">Lock-screen radar is off.</string>
+    <string name="walk_notification_no_places_in_range">No places within %1$s.</string>
+    <string name="walk_notification_no_nearby_short">No places in range</string>
+    <string name="walk_action_pause">Pause</string>
+    <string name="walk_action_resume">Resume</string>
+    <string name="walk_action_end">End</string>
 </resources>

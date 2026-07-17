@@ -1,12 +1,12 @@
 /* Flâneur service worker — offline app shell + tile/asset caching */
-const SHELL = "flaneur-shell-v406";
+const SHELL = "flaneur-shell-v409";
 const TILES = "flaneur-tiles-v2";
 const DATA = "flaneur-data-v1"; // immutable content-hashed catalogue (spots.<hash>.js) — survives SHELL bumps
 const TILE_MAX = 350;
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
-    caches.open(SHELL).then((c) => c.addAll(["./", "./index.html", "./privacy.html", "./terms.html", "./c.html", "./u.html", "./discover.html", "./manifest.webmanifest", "./fonts/hk.woff2", "./fonts/hk-ext.woff2", "./fonts/nr.woff2", "./fonts/nr-ext.woff2", "./fonts/nr-it.woff2", "./fonts/nr-it-ext.woff2", "./icon-512.png", "./icon-192.png", "./icon-180.png", "./icon-192-maskable.png", "./icon-512-maskable.png"]))
+    caches.open(SHELL).then((c) => c.addAll(["./", "./index.html", "./privacy.html", "./terms.html", "./c.html", "./u.html", "./discover.html", "./manifest.webmanifest", "./fonts/hk.woff2", "./fonts/hk-ext.woff2", "./fonts/nr.woff2", "./fonts/nr-ext.woff2", "./fonts/nr-it.woff2", "./fonts/nr-it-ext.woff2", "./icon-512.png", "./icon-192.png", "./icon-180.png", "./icon-192-maskable.png", "./icon-512-maskable.png", "./vendor/leaflet/leaflet.css", "./vendor/leaflet/leaflet.js", "./vendor/leaflet/images/layers.png", "./vendor/leaflet/images/layers-2x.png", "./vendor/leaflet/images/marker-icon.png", "./vendor/leaflet/images/marker-icon-2x.png", "./vendor/leaflet/images/marker-shadow.png", "./vendor/leaflet-markercluster/MarkerCluster.css", "./vendor/leaflet-markercluster/leaflet.markercluster.js"]))
       .then(() => self.skipWaiting()).catch(() => {})
   );
 });

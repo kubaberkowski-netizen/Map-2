@@ -40,6 +40,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Run mobile regression contracts
+        run: npm run test:mobile
+
       - name: Check pull-request diff
         if: github.event_name == 'pull_request'
         env:
