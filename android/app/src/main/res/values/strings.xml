@@ -4,4 +4,13 @@
     <string name="title_activity_main">Flâneur</string>
     <string name="package_name">com.kubaberkowski.flaneur</string>
     <string name="custom_url_scheme">com.kubaberkowski.flaneur</string>
+    <string name="walk_notification_channel_name">Active walks</string>
+    <string name="walk_notification_channel_description">Keeps an active Flâneur walk recording when the screen is locked.</string>
+    <string name="walk_notification_title">Flâneur walk</string>
+    <string name="walk_notification_paused">Walk paused</string>
+    <string name="walk_notification_public">An active walk is in progress</string>
+    <string name="walk_notification_open">Open Flâneur to view walk details</string>
+    <string name="walk_action_pause">Pause</string>
+    <string name="walk_action_resume">Resume</string>
+    <string name="walk_action_end">End</string>
 </resources>

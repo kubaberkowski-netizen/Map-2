@@ -36,44 +36,51 @@
   <a class="back" href="./">← Back to Flâneur</a>
 
   <h1>Privacy Policy</h1>
-  <p class="meta">Flâneur · Effective date: 24 June 2026</p>
+  <p class="meta">Flâneur · Effective date: 17 July 2026</p>
 
   <p><strong>Flâneur</strong> is a personal guide to offbeat, storied places, sorted by how
   far they are from where you’re standing. This policy explains what the app does — and
   mostly doesn’t do — with your information.</p>
 
   <div class="card">
-    <strong>The short version:</strong> Flâneur has no accounts, no login, and no server of
-    our own that collects your data. Everything you do in the app — saved walks, check-ins,
-    visited places, achievements and preferences — is stored only on your own device. We do
-    not see it, receive it, or sell it.
+    <strong>The short version:</strong> Flâneur does not require an account or login, and has no server
+    of our own that collects your routes. Saved walks, check-ins, visited places, achievements
+    and preferences are stored on your own device unless you separately choose optional account
+    sync. We do not see, receive, or sell a walk recorded only on your device.
   </div>
 
   <h2>Who we are</h2>
-  <p>Flâneur is an independent, single-author project. The app is a self-contained web app
-  served as static files (currently via GitHub Pages). There is no Flâneur account system and
-  no Flâneur application server that stores user data.</p>
+  <p>Flâneur is an independent, single-author project. The main app is served as static files
+  (currently via GitHub Pages), and there is no Flâneur-owned application server that stores
+  routes. Optional account sync is provided by Supabase as described below.</p>
 
   <h2>Information stored on your device</h2>
-  <p>To make the app work, the following is saved locally in your browser/device storage
-  (<code>localStorage</code>) and stays there:</p>
+  <p>To make the app work, the following is saved locally in browser storage or the mobile
+  app's private on-device storage and stays there:</p>
   <ul>
     <li>Saved and recorded walks (including a recorded route, if you track one)</li>
     <li>Check-ins, visited places, streaks and achievements</li>
     <li>Preferences such as your selected city and recent searches</li>
     <li>A short-lived local cache of nearby results and weather, to reduce repeat requests</li>
   </ul>
-  <p>This information never leaves your device through Flâneur. You can erase all of it at any
-  time by clearing this site’s data in your browser settings (or deleting the app if you
-  installed it to your home screen).</p>
+  <p>This information never leaves your device through Flâneur unless you explicitly enable an
+  optional sync feature. You can erase it by clearing this site’s data in your browser settings
+  or deleting the mobile app. An active native walk is kept in private app storage until the
+  finished walk is saved or you discard it.</p>
 
   <h2>Location</h2>
   <p>If you grant permission, the app uses your device’s location to sort places by distance
   and to power the live, radar and walk-tracking features. Your location is processed on your
-  device. It is not stored or transmitted by Flâneur itself. Your coordinates are sent to the
-  third-party services listed below only as needed to fetch nearby information (for example,
-  map tiles, nearby places, or local weather) — and only while you use those features. You can
-  revoke location access at any time in your browser or device settings.</p>
+  device. When you explicitly start recording a walk in the mobile app, recording can continue
+  while the screen is locked; route points are stored in the app’s private on-device storage
+  and are not uploaded by the background recorder. Native route recording requires Precise
+  Location so the app does not silently save an unusable route. A compact walk radar may show the nearest
+  place, direction, elapsed time and distance on your Lock Screen. Your lock-screen privacy
+  settings control whether private detail is revealed.</p>
+  <p>Your coordinates are sent to the third-party services listed below only as needed to fetch
+  nearby information (for example, map tiles, nearby places, or local weather) while you use
+  those online features. You can pause or end a walk from the app (and on supported lock-screen
+  surfaces) and revoke location access at any time in your browser or device settings.</p>
 
   <h2>Third-party services</h2>
   <p>Flâneur calls a small number of third-party services to provide maps and live data. When
@@ -103,8 +110,8 @@
     <li>No cross-site tracking and no session recording. Product analytics (PostHog, EU-hosted)
     and Cloudflare Web Analytics measure feature usage in aggregate; analytics are not linked to
     your identity unless you choose to sign in.</li>
-    <li>No selling or sharing of personal information — there is no personal data collected by
-    us to sell or share.</li>
+    <li>No selling or advertising use of personal information. If you choose optional sync,
+    your email and synced app data are stored with Supabase only to provide that feature.</li>
   </ul>
 
   <h2>Children</h2>
@@ -113,7 +120,8 @@
 
   <h2>Your choices</h2>
   <ul>
-    <li><strong>Location:</strong> grant or revoke at any time in your browser/device settings.</li>
+    <li><strong>Location:</strong> grant or revoke at any time in your browser/device settings.
+    Walk recording starts only after you tap Start and ends when you tap End.</li>
     <li><strong>Stored data:</strong> clear it by removing this site’s data, or by deleting the
     installed app.</li>
     <li><strong>Account &amp; sync:</strong> signing in is optional. To export or delete your
@@ -123,9 +131,9 @@
   </ul>
 
   <h2>Changes to this policy</h2>
-  <p>If the app changes in a way that affects this policy — for example, if accounts, payments,
-  advertising or analytics are ever added — this page will be updated and the effective date
-  above revised.</p>
+  <p>If the app changes in a way that affects this policy — for example, if payments,
+  advertising, analytics or account handling materially changes — this page will be updated
+  and the effective date above revised.</p>
 
   <h2>Contact</h2>
   <p>Questions about privacy? Email <a href="mailto:kuba.berkowski@gmail.com">kuba.berkowski@gmail.com</a>.</p>

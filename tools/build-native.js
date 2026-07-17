@@ -95,7 +95,7 @@ if (!serviceWorkerRegistration.test(nativeHtml)) {
 }
 nativeHtml = nativeHtml.replace(
   serviceWorkerRegistration,
-  '<script>window.__FLANEUR_NATIVE__=true;</script>'
+  '<script>window.flActivateNative?window.flActivateNative():(window.__FLANEUR_NATIVE__=true,document.documentElement.setAttribute("data-fl-native","1"));</script>'
 );
 if (!nativeHtml.includes("window.__FLANEUR_NATIVE__=true")) {
   throw new Error("native runtime marker was not written");
