@@ -49,7 +49,7 @@ function replaceExpected(label, needle, replacement, expected) {
 replaceOnce(
   "active-walk refs",
   "plRef=(0,r.useRef)(null),prz=(0,r.useRef)(!1),pacc=(0,r.useRef)(0),pps=(0,r.useRef)(0),[Eo,Sc]",
-  "plRef=(0,r.useRef)(null),prz=(0,r.useRef)(!1),pacc=(0,r.useRef)(0),pps=(0,r.useRef)(0),awid=(0,r.useRef)(null),awtimer=(0,r.useRef)(null),awbreak=(0,r.useRef)(!1),awnative=(0,r.useRef)(!1),awlistener=(0,r.useRef)(null),awctx=(0,r.useRef)(\"\"),awfin=(0,r.useRef)(!1),awroute=(0,r.useRef)(null),awconsume=(0,r.useRef)(null),[Eo,Sc]"
+  "plRef=(0,r.useRef)(null),prz=(0,r.useRef)(!1),pacc=(0,r.useRef)(0),pps=(0,r.useRef)(0),awid=(0,r.useRef)(null),awtimer=(0,r.useRef)(null),awbreak=(0,r.useRef)(!1),awnative=(0,r.useRef)(!1),awlistener=(0,r.useRef)(null),awctx=(0,r.useRef)(\"\"),awfin=(0,r.useRef)(!1),awroute=(0,r.useRef)(null),awconsume=(0,r.useRef)(null),awelapsed=(0,r.useRef)(null),[Eo,Sc]"
 );
 
 replaceOnce(
@@ -126,6 +126,36 @@ replaceOnce(
 );
 
 replaceOnce(
+  "corridor-complete lock-screen radar catalogue",
+  '_near=(fa||[]).filter(function(_s){return _s&&_s.id&&!_seen.has(_s.id)&&isFinite(+_s.lat)&&isFinite(+_s.lng)}).slice(0,24).map(function(_s){return{id:_s.id,name:_s.n||"Nearby place",latitude:+_s.lat,longitude:+_s.lng,category:_s.c||"",emoji:(ne[_s.c]||{}).e||"•",isRouteStop:!1,isCompleted:O.has(_s.id)||P.has(_s.id)}})',
+  '_pool=(Zc||[]).filter(function(_s){return _s&&_s.id&&!_seen.has(_s.id)&&isFinite(+_s.lat)&&isFinite(+_s.lng)}),_scored=_pool.map(function(_s){let _best=W&&isFinite(+W.lat)&&isFinite(+W.lng)?re(W,_s):1e9;(_rw||[]).forEach(function(_r){isFinite(+_r.lat)&&isFinite(+_r.lng)&&(_best=Math.min(_best,re(_r,_s)))});return{s:_s,score:_best}}),_pick=(_scored.length>2e3?_scored.slice().sort(function(_a,_b){return _a.score-_b.score}).slice(0,2e3):_scored).map(function(_x){return _x.s}).sort(function(_a,_b){return String(_a.id).localeCompare(String(_b.id))}),_near=_pick.map(function(_s){return{id:_s.id,name:_s.n||"Nearby place",latitude:+_s.lat,longitude:+_s.lng,category:_s.c||"",emoji:(ne[_s.c]||{}).e||"•",isRouteStop:!1,isCompleted:O.has(_s.id)||P.has(_s.id)}})'
+);
+
+replaceOnce(
+  "stable radar context signature",
+  '_c.radarCandidates.map(function(_x){return[_x.id,_x.isCompleted]})',
+  '_c.radarCandidates.map(function(_x){return[_x.id,_x.isCompleted]}).sort(function(_a,_b){return String(_a[0]).localeCompare(String(_b[0]))})'
+);
+
+replaceOnce(
+  "authoritative native elapsed snapshot",
+  'let _dm=_s.distanceMeters!=null?+_s.distanceMeters/1e3:+_s.distanceKm||0;awid.current=',
+  'let _dm=_s.distanceMeters!=null?+_s.distanceMeters/1e3:+_s.distanceKm||0,_em=_s.elapsedMs!=null?+_s.elapsedMs:_s.elapsedMilliseconds!=null?+_s.elapsedMilliseconds:_s.elapsedSeconds!=null?+_s.elapsedSeconds*1e3:null;_em!=null&&isFinite(_em)&&(awelapsed.current=Math.max(0,_em));awid.current='
+);
+
+replaceOnce(
+  "recovered native elapsed draft",
+  'dl.current=_pts.length?+_pts[_pts.length-1].t:0,is.current=!0,prz.current=',
+  'dl.current=_pts.length?+_pts[_pts.length-1].t:0,awelapsed.current=_d.elapsedMs==null?null:Math.max(0,+_d.elapsedMs||0),is.current=!0,prz.current='
+);
+
+replaceOnce(
+  "persist native elapsed draft",
+  'distanceKm:Math.max(0,+ds.current||0),pausedMs:',
+  'distanceKm:Math.max(0,+ds.current||0),elapsedMs:awelapsed.current==null?null:Math.max(0,+awelapsed.current||0),pausedMs:'
+);
+
+replaceOnce(
   "draft route ref source",
   'routeStopIds:(runw||[]).filter(function(_s)',
   'routeStopIds:(awroute.current||runw||[]).filter(function(_s)'
@@ -138,6 +168,12 @@ replaceOnce(
 );
 
 replaceOnce(
+  "clear native elapsed ref",
+  'awfin.current=!1,awroute.current=null,localStorage.removeItem(AWK)',
+  'awfin.current=!1,awroute.current=null,awelapsed.current=null,localStorage.removeItem(AWK)'
+);
+
+replaceOnce(
   "resume relies on current-route effect",
   ';_ns&&awApply(_ns);_resume&&awSyncContext()}catch(_){',
   ';_ns&&awApply(_ns)}catch(_){'
@@ -147,6 +183,12 @@ replaceOnce(
   "walk start checkpoint",
   'Tg=()=>{Se||Po(!0),ss.current=[],ds.current=0,dl.current=0,is.current=!0,prz.current=!1,pacc.current=0,setPz(!1),setCfe(!1),Ic([]),Tc(0),bg(Date.now()),Sc(!0);try{',
   'Tg=async()=>{let _awst=Date.now(),_np=awPlugin();Se||Po(!0),ss.current=[],ds.current=0,dl.current=0,is.current=!0,prz.current=!1,pacc.current=0,awnative.current=!!_np,awctx.current="",awid.current={id:"aw"+_awst.toString(36)+"-"+Math.random().toString(36).slice(2,8),startedAt:_awst},awbreak.current=!1,setPz(!1),setCfe(!1),Ic([]),Tc(0),bg(_awst),Sc(!0),awSave(!0);if(_np)try{let _perm=await _np.requestPermissions({});awApply(await _np.start(Object.assign({sessionId:awid.current.id,startedAt:_awst},awContext()))),awSyncContext();let _warn=_perm&&_perm.accuracy==="reduced"?"Precise Location is off — enable it in Settings for a cleaner route":_perm&&_perm.notifications==="denied"?"Recording is on, but notification access is needed for Lock Screen controls":_perm&&_perm.lockScreen==="unavailable"?"Recording is on; Live Activities are disabled in Settings":null;_warn&&(Do(_warn),setTimeout(function(){Do("")},4600))}catch(_e){is.current=!1,Sc(!1),setPz(!1),setCfe(!1);try{await _np.discard({sessionId:awid.current&&awid.current.id})}catch(_){}awClear(),Do(_e&&_e.message?String(_e.message):"Background recording needs location permission"),setTimeout(function(){Do("")},4200);return!1}try{'
+);
+
+replaceOnce(
+  "reset native elapsed at start",
+  'pacc.current=0,awnative.current=!!_np,',
+  'pacc.current=0,awelapsed.current=null,awnative.current=!!_np,'
 );
 
 replaceOnce(
@@ -192,6 +234,12 @@ replaceOnce(
 );
 
 replaceOnce(
+  "walk end authoritative elapsed source",
+  'let c=Math.max(0,+ds.current||0),g=Math.max(0,i[i.length-1].t-i[0].t-pacc.current),k=',
+  'let c=Math.max(0,+ds.current||0),g=awnative.current&&awelapsed.current!=null?Math.max(0,+awelapsed.current||0):Math.max(0,i[i.length-1].t-i[0].t-pacc.current),k='
+);
+
+replaceOnce(
   "walk segment serialization",
   'A=gw(i,90).map(me=>[Math.round(me.lat*1e5)/1e5,Math.round(me.lng*1e5)/1e5]),B=',
   'S=(function(){let _all=[],_cur=[];i.forEach(function(me){me.br&&_cur.length&&(_all.push(_cur),_cur=[]),_cur.push(me)}),_cur.length&&_all.push(_cur);return _all.map(function(_seg){return gw(_seg,90).map(function(me){return[Math.round(me.lat*1e5)/1e5,Math.round(me.lng*1e5)/1e5]})}).filter(function(_seg){return _seg.length})})(),A=[].concat.apply([],S),B='
@@ -232,7 +280,7 @@ replaceOnce(
 replaceOnce(
   "GPS gap segmentation",
   'if(!A||(_d>=_thr&&_spd<=12)){v.push({lat:g.lat,lng:g.lng,t:_now}),ds.current+=_d/1e3,Ic(v.slice()),Tc(ds.current),addCellPt(g.lat,g.lng)}}',
-  'if(!A||(_d>=_thr&&_spd<=12)){if(awnative.current)return;let _pause=!!A&&(_dt>120||_dt>30&&_d>500),_gap=!!A&&(awbreak.current||_pause),_pt={lat:g.lat,lng:g.lng,t:_now};_gap&&(_pt.br=1),_pause&&(pacc.current+=Math.max(0,_dt*1e3)),v.push(_pt),ds.current+=(_gap?0:_d)/1e3,awbreak.current=!1,Ic(v.slice()),Tc(ds.current),addCellPt(g.lat,g.lng),awSave(!1)}}'
+  'if(!A||_d>=_thr){if(awnative.current)return;if(A&&_spd>5){awbreak.current=!0;return}let _pause=!!A&&(_dt>120||_dt>30&&_d>500),_gap=!!A&&(awbreak.current||_pause),_pt={lat:g.lat,lng:g.lng,t:_now};_gap&&(_pt.br=1),_pause&&(pacc.current+=Math.max(0,_dt*1e3)),v.push(_pt),ds.current+=(_gap?0:_d)/1e3,awbreak.current=!1,Ic(v.slice()),Tc(ds.current),addCellPt(g.lat,g.lng),awSave(!1)}}'
 );
 
 replaceOnce(

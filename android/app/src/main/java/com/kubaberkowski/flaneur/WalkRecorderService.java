@@ -25,7 +25,11 @@ import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 import com.getcapacitor.JSObject;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -47,6 +51,8 @@ public class WalkRecorderService extends Service implements LocationListener {
     private static final long UPDATE_INTERVAL_MS = 4_000L;
     private static final float UPDATE_DISTANCE_METERS = 5f;
     private static final long SERVICE_STALE_AFTER_MS = 120_000L;
+    private static final int MAX_CONTEXT_TARGETS = 2_500;
+    private static final int MAX_RENDERED_RADAR_TARGETS = 3;
     private static volatile boolean running;
 
     private final Handler notificationHandler = new Handler(Looper.getMainLooper());
@@ -61,11 +67,13 @@ public class WalkRecorderService extends Service implements LocationListener {
                     pauseForUnavailableLocation();
                     status = store.status();
                 }
-            }
-            if (!WalkRecordingStore.STATUS_IDLE.equals(status) && !WalkRecordingStore.STATUS_STOPPED.equals(status)) {
                 refreshNotification();
-                notificationHandler.postDelayed(this, 15_000L);
-            } else {
+                if (WalkRecordingStore.STATUS_RECORDING.equals(status)) {
+                    notificationHandler.postDelayed(this, 15_000L);
+                }
+                return;
+            }
+            if (WalkRecordingStore.STATUS_IDLE.equals(status) || WalkRecordingStore.STATUS_STOPPED.equals(status)) {
                 finishService();
             }
         }
@@ -186,10 +194,12 @@ public class WalkRecorderService extends Service implements LocationListener {
 
     @Override
     public void onLocationChanged(@NonNull Location location) {
-        if (store.record(location)) {
+        boolean accepted = store.record(location);
+        if (accepted) {
             NativeWalkRecorderPlugin.emitWalkUpdate(this, false);
-            refreshNotification();
         }
+        // Raw-fix freshness changes even when anti-jitter rejects the point.
+        refreshNotification();
     }
 
     @Override
@@ -349,11 +359,39 @@ public class WalkRecorderService extends Service implements LocationListener {
         boolean paused = WalkRecordingStore.STATUS_PAUSED.equals(status);
         long elapsedMs = snapshot.optLong("elapsedMs", 0L);
         double distanceMeters = snapshot.optDouble("distanceMeters", 0d);
-        RadarTarget radar = nearestRadarTarget(store.context(), store.lastPoint());
+        JSONObject context = store.context();
+        RadarSnapshot radar = radarSnapshot(context, store.lastPoint());
+        WalkRecordingPolicy.FixFreshness fixFreshness = WalkRecordingPolicy.fixFreshness(
+            System.currentTimeMillis(),
+            snapshot.optLong("lastRawFixAt", 0L),
+            snapshot.optLong("lastAcceptedFixAt", 0L)
+        );
 
-        String radarLine = radar == null ? "Finding nearby places…" : radar.summary();
         String metrics = formatElapsed(elapsedMs) + " walked · " + formatWalkDistance(distanceMeters) + " recorded";
-        String compact = paused ? metrics : (radar == null ? metrics : radar.compact() + " · " + formatWalkDistance(distanceMeters));
+        String radarLine;
+        String compact;
+        if (paused) {
+            radarLine = getString(R.string.walk_notification_radar_paused);
+            compact = metrics;
+        } else if (!radar.enabled) {
+            radarLine = getString(R.string.walk_notification_radar_disabled);
+            compact = metrics;
+        } else if (fixFreshness == WalkRecordingPolicy.FixFreshness.SIGNAL_LOST) {
+            radarLine = getString(R.string.walk_notification_signal_lost);
+            compact = getString(R.string.walk_notification_signal_lost_short) + " · " + formatWalkDistance(distanceMeters);
+        } else if (fixFreshness == WalkRecordingPolicy.FixFreshness.WAITING) {
+            radarLine = getString(R.string.walk_notification_finding_fix);
+            compact = getString(R.string.walk_notification_finding_fix_short) + " · " + formatWalkDistance(distanceMeters);
+        } else if (!radar.visible.isEmpty()) {
+            radarLine = radar.detail();
+            compact = radar.visible.get(0).compact() + " · " + formatWalkDistance(distanceMeters);
+        } else {
+            radarLine = getString(
+                R.string.walk_notification_no_places_in_range,
+                formatWalkDistance(radar.rangeMeters)
+            );
+            compact = getString(R.string.walk_notification_no_nearby_short) + " · " + formatWalkDistance(distanceMeters);
+        }
         String detail = paused ? "Recording paused\n" + radarLine + "\n" + metrics : radarLine + "\n" + metrics;
 
         PendingIntent openIntent = PendingIntent.getActivity(
@@ -379,10 +417,18 @@ public class WalkRecorderService extends Service implements LocationListener {
             .setSmallIcon(R.drawable.ic_walk_recording)
             .setContentTitle(getString(R.string.walk_notification_title))
             .setContentText(getString(R.string.walk_notification_public))
+            .setContentIntent(openIntent)
             .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
             .setCategory(NotificationCompat.CATEGORY_SERVICE)
             .setOngoing(true)
             .setOnlyAlertOnce(true)
+            .setSilent(true)
+            .addAction(
+                R.drawable.ic_walk_recording,
+                getString(paused ? R.string.walk_action_resume : R.string.walk_action_pause),
+                pauseResumeIntent
+            )
+            .addAction(R.drawable.ic_walk_recording, getString(R.string.walk_action_end), endIntent)
             .build();
 
         return new NotificationCompat.Builder(this, CHANNEL_ID)
@@ -425,7 +471,9 @@ public class WalkRecorderService extends Service implements LocationListener {
 
     private void scheduleNotificationTicks() {
         notificationHandler.removeCallbacks(notificationTicker);
-        notificationHandler.postDelayed(notificationTicker, 15_000L);
+        if (WalkRecordingStore.STATUS_RECORDING.equals(store.status())) {
+            notificationHandler.postDelayed(notificationTicker, 15_000L);
+        }
     }
 
     private void finishService() {
@@ -469,99 +517,120 @@ public class WalkRecorderService extends Service implements LocationListener {
         return String.format(Locale.getDefault(), "%.1f km", meters / 1_000d);
     }
 
-    private static RadarTarget nearestRadarTarget(JSONObject context, WalkRecordingStore.LastPoint origin) {
-        if (!context.optBoolean("lockScreenEnabled", true)) {
-            return null;
-        }
-        if (origin == null) {
-            return explicitRadarTarget(context, null);
+    private static RadarSnapshot radarSnapshot(JSONObject context, WalkRecordingStore.LastPoint origin) {
+        boolean enabled = context.optBoolean("lockScreenEnabled", true);
+        double configuredRange = context.has("rangeM")
+            ? context.optDouble("rangeM", 800d)
+            : context.optDouble("rangeMeters", 800d);
+        double rangeMeters = WalkRecordingPolicy.clampRadarRange(configuredRange);
+        if (!enabled || origin == null) {
+            return new RadarSnapshot(enabled, rangeMeters, null, new ArrayList<>());
         }
 
-        JSONArray routeStops = context.optJSONArray("routeStops");
-        if (routeStops != null) {
-            for (int index = 0; index < Math.min(routeStops.length(), 250); index++) {
-                JSONObject stop = routeStops.optJSONObject(index);
-                if (stop == null || stop.optBoolean("isCompleted", false)) {
-                    continue;
-                }
-                RadarTarget target = targetFromObject(stop, origin);
-                if (target != null) {
-                    return target;
-                }
+        Map<String, WalkRecordingPolicy.RadarCandidate> unique = new LinkedHashMap<>();
+        appendCandidates(unique, context.optJSONArray("routeStops"), true);
+        appendCandidates(unique, context.optJSONArray("radarCandidates"), false);
+        // Older shells used these aliases. Primary arrays are inserted first so their route metadata wins.
+        appendCandidates(unique, context.optJSONArray("candidates"), false);
+        appendCandidates(unique, context.optJSONArray("targets"), false);
+        appendCandidates(unique, context.optJSONArray("radarTargets"), false);
+
+        JSONObject explicit = context.optJSONObject("nearest");
+        if (explicit != null && unique.size() < MAX_CONTEXT_TARGETS) {
+            addCandidate(unique, explicit, explicit.optBoolean("isRouteStop", false));
+        }
+        if (unique.isEmpty()) {
+            String name = firstString(context, "nearestName", "name", "title");
+            double latitude = firstDouble(context, "nearestLatitude", "latitude", "lat");
+            double longitude = firstDouble(context, "nearestLongitude", "longitude", "lng", "lon");
+            if (name != null && WalkRecordingPolicy.validCoordinate(latitude, longitude)) {
+                unique.put(
+                    "explicit|" + name + "|" + latitude + "|" + longitude,
+                    new WalkRecordingPolicy.RadarCandidate(
+                        "explicit",
+                        name,
+                        latitude,
+                        longitude,
+                        false,
+                        0
+                    )
+                );
             }
         }
 
-        RadarTarget nearest = null;
-        String[] candidateKeys = { "radarCandidates", "candidates", "targets", "radarTargets", "routeStops" };
-        for (String key : candidateKeys) {
-            nearest = nearestInArray(context.optJSONArray(key), origin, nearest);
+        List<WalkRecordingPolicy.RadarSelection> selections = WalkRecordingPolicy.nearestCandidates(
+            origin.latitude,
+            origin.longitude,
+            new ArrayList<>(unique.values()),
+            MAX_RENDERED_RADAR_TARGETS
+        );
+        RadarTarget nearest = selections.isEmpty() ? null : new RadarTarget(selections.get(0));
+        List<RadarTarget> visible = new ArrayList<>();
+        for (
+            WalkRecordingPolicy.RadarSelection selection :
+            WalkRecordingPolicy.withinRadarRange(
+                selections,
+                rangeMeters,
+                MAX_RENDERED_RADAR_TARGETS
+            )
+        ) {
+            visible.add(new RadarTarget(selection));
         }
-        return nearest == null ? explicitRadarTarget(context, origin) : nearest;
+        return new RadarSnapshot(enabled, rangeMeters, nearest, visible);
     }
 
-    private static RadarTarget nearestInArray(
+    private static void appendCandidates(
+        Map<String, WalkRecordingPolicy.RadarCandidate> unique,
         JSONArray candidates,
-        WalkRecordingStore.LastPoint origin,
-        RadarTarget currentNearest
+        boolean routeStopSource
     ) {
-        if (candidates == null) {
-            return currentNearest;
+        if (candidates == null || unique.size() >= MAX_CONTEXT_TARGETS) {
+            return;
         }
-        RadarTarget nearest = currentNearest;
-        int count = Math.min(candidates.length(), 250);
-        for (int index = 0; index < count; index++) {
+        int count = Math.min(candidates.length(), MAX_CONTEXT_TARGETS);
+        for (int index = 0; index < count && unique.size() < MAX_CONTEXT_TARGETS; index++) {
             JSONObject candidate = candidates.optJSONObject(index);
-            if (candidate == null || candidate.optBoolean("isCompleted", false)) {
-                continue;
-            }
-            RadarTarget target = targetFromObject(candidate, origin);
-            if (target != null && (nearest == null || target.distanceMeters < nearest.distanceMeters)) {
-                nearest = target;
+            if (candidate != null) {
+                addCandidate(unique, candidate, routeStopSource || candidate.optBoolean("isRouteStop", false));
             }
         }
-        return nearest;
     }
 
-    private static RadarTarget explicitRadarTarget(JSONObject context, WalkRecordingStore.LastPoint origin) {
-        JSONObject nearest = context.optJSONObject("nearest");
-        if (nearest != null) {
-            RadarTarget target = targetFromObject(nearest, origin);
-            if (target != null) {
-                return target;
-            }
+    private static void addCandidate(
+        Map<String, WalkRecordingPolicy.RadarCandidate> unique,
+        JSONObject candidate,
+        boolean routeStop
+    ) {
+        if (candidate.optBoolean("isCompleted", false) || candidate.optBoolean("completed", false)) {
+            return;
         }
-        String name = firstString(context, "nearestName", "name", "title");
-        double latitude = firstDouble(context, "nearestLatitude", "latitude", "lat");
-        double longitude = firstDouble(context, "nearestLongitude", "longitude", "lng", "lon");
-        double distance = context.optDouble("nearestDistanceMeters", Double.NaN);
-        if (name == null) {
-            return null;
-        }
-        if (origin != null && validCoordinate(latitude, longitude)) {
-            distance = WalkRecordingStore.distanceMeters(origin.latitude, origin.longitude, latitude, longitude);
-            double bearing = WalkRecordingStore.bearingDegrees(origin.latitude, origin.longitude, latitude, longitude);
-            return new RadarTarget(name, distance, bearing);
-        }
-        String direction = context.optString("nearestDirection", "");
-        if (Double.isFinite(distance) && !direction.isEmpty()) {
-            return new RadarTarget(name, distance, direction);
-        }
-        return null;
-    }
-
-    private static RadarTarget targetFromObject(JSONObject candidate, WalkRecordingStore.LastPoint origin) {
-        if (candidate == null || origin == null) {
-            return null;
-        }
-        String name = firstString(candidate, "name", "title", "label");
+        String name = firstString(candidate, "name", "n", "title", "label");
         double latitude = firstDouble(candidate, "latitude", "lat");
         double longitude = firstDouble(candidate, "longitude", "lng", "lon");
-        if (name == null || !validCoordinate(latitude, longitude)) {
-            return null;
+        if (name == null || !WalkRecordingPolicy.validCoordinate(latitude, longitude)) {
+            return;
         }
-        double distance = WalkRecordingStore.distanceMeters(origin.latitude, origin.longitude, latitude, longitude);
-        double bearing = WalkRecordingStore.bearingDegrees(origin.latitude, origin.longitude, latitude, longitude);
-        return new RadarTarget(name, distance, bearing);
+        if (name.length() > 80) {
+            name = name.substring(0, 80);
+        }
+        String id = firstString(candidate, "id", "spotId", "key");
+        if (id == null) {
+            id = name + "|" + latitude + "|" + longitude;
+        }
+        if (unique.containsKey(id)) {
+            return;
+        }
+        unique.put(
+            id,
+            new WalkRecordingPolicy.RadarCandidate(
+                id,
+                name,
+                latitude,
+                longitude,
+                routeStop,
+                Math.max(0, candidate.optInt("ordinal", 0))
+            )
+        );
     }
 
     private static String firstString(JSONObject object, String... keys) {
@@ -586,15 +655,6 @@ public class WalkRecorderService extends Service implements LocationListener {
         return Double.NaN;
     }
 
-    private static boolean validCoordinate(double latitude, double longitude) {
-        return (
-            Double.isFinite(latitude) &&
-            Double.isFinite(longitude) &&
-            Math.abs(latitude) <= 90d &&
-            Math.abs(longitude) <= 180d
-        );
-    }
-
     private static String cardinal(double bearing) {
         String[] labels = { "N", "NE", "E", "SE", "S", "SW", "W", "NW" };
         return labels[((int) Math.floor((bearing + 22.5d) / 45d)) % labels.length];
@@ -606,24 +666,22 @@ public class WalkRecorderService extends Service implements LocationListener {
     }
 
     private static final class RadarTarget {
+        final String id;
         final String name;
         final double distanceMeters;
         final String direction;
         final String arrow;
+        final boolean isRouteStop;
+        final int ordinal;
 
-        RadarTarget(String name, double distanceMeters, double bearing) {
-            this(name, distanceMeters, cardinal(bearing), arrow(bearing));
-        }
-
-        RadarTarget(String name, double distanceMeters, String direction) {
-            this(name, distanceMeters, direction, "•");
-        }
-
-        RadarTarget(String name, double distanceMeters, String direction, String arrow) {
-            this.name = name;
-            this.distanceMeters = distanceMeters;
-            this.direction = direction;
-            this.arrow = arrow;
+        RadarTarget(WalkRecordingPolicy.RadarSelection selection) {
+            this.id = selection.candidate.id;
+            this.name = selection.candidate.name;
+            this.distanceMeters = selection.distanceMeters;
+            this.direction = cardinal(selection.bearingDegrees);
+            this.arrow = arrow(selection.bearingDegrees);
+            this.isRouteStop = selection.candidate.isRouteStop;
+            this.ordinal = selection.candidate.ordinal;
         }
 
         String compact() {
@@ -631,7 +689,36 @@ public class WalkRecorderService extends Service implements LocationListener {
         }
 
         String summary() {
-            return compact() + " to " + name;
+            String targetLabel = name;
+            if (isRouteStop) {
+                targetLabel = ordinal > 0 ? "stop " + ordinal + ": " + name : "route stop: " + name;
+            }
+            return compact() + " to " + targetLabel;
+        }
+    }
+
+    private static final class RadarSnapshot {
+        final boolean enabled;
+        final double rangeMeters;
+        final RadarTarget nearest;
+        final List<RadarTarget> visible;
+
+        RadarSnapshot(boolean enabled, double rangeMeters, RadarTarget nearest, List<RadarTarget> visible) {
+            this.enabled = enabled;
+            this.rangeMeters = rangeMeters;
+            this.nearest = nearest;
+            this.visible = visible;
+        }
+
+        String detail() {
+            StringBuilder detail = new StringBuilder();
+            for (RadarTarget target : visible) {
+                if (detail.length() > 0) {
+                    detail.append('\n');
+                }
+                detail.append(target.summary());
+            }
+            return detail.toString();
         }
     }
 }

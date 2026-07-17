@@ -6,8 +6,10 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.location.Location;
+import android.os.SystemClock;
 import com.getcapacitor.JSArray;
 import com.getcapacitor.JSObject;
+import java.util.List;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -23,8 +25,11 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
     static final String STATUS_STOPPED = "stopped";
 
     private static final String DATABASE_NAME = "flaneur-native-walk.db";
-    private static final int DATABASE_VERSION = 2;
+    private static final int DATABASE_VERSION = 3;
     private static WalkRecordingStore instance;
+
+    private final WalkRecordingPolicy.MotionGate motionGate = new WalkRecordingPolicy.MotionGate();
+    private String motionGateSessionId;
 
     static synchronized WalkRecordingStore get(Context context) {
         if (instance == null) {
@@ -47,6 +52,8 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
             "active_started_at INTEGER NOT NULL DEFAULT 0," +
             "active_elapsed_ms INTEGER NOT NULL DEFAULT 0," +
             "heartbeat_at INTEGER NOT NULL DEFAULT 0," +
+            "last_raw_fix_at INTEGER NOT NULL DEFAULT 0," +
+            "last_accepted_fix_at INTEGER NOT NULL DEFAULT 0," +
             "ended_at INTEGER NOT NULL DEFAULT 0," +
             "distance_m REAL NOT NULL DEFAULT 0," +
             "force_segment INTEGER NOT NULL DEFAULT 1," +
@@ -75,6 +82,15 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
                 "WHERE heartbeat_at = 0"
             );
         }
+        if (oldVersion < 3) {
+            db.execSQL("ALTER TABLE session ADD COLUMN last_raw_fix_at INTEGER NOT NULL DEFAULT 0");
+            db.execSQL("ALTER TABLE session ADD COLUMN last_accepted_fix_at INTEGER NOT NULL DEFAULT 0");
+            db.execSQL(
+                "UPDATE session SET last_accepted_fix_at = COALESCE(" +
+                "(SELECT MAX(timestamp) FROM points WHERE points.session_id = session.session_id), 0)"
+            );
+            db.execSQL("UPDATE session SET last_raw_fix_at = last_accepted_fix_at");
+        }
     }
 
     synchronized JSObject start(String sessionId, long startedAt, JSONObject context) {
@@ -84,6 +100,7 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
             Session current = readSession(db);
             if (current != null) {
                 if (current.sessionId.equals(sessionId) && !STATUS_STOPPED.equals(current.status)) {
+                    ensureMotionGate(db, current);
                     db.setTransactionSuccessful();
                     return snapshot(db, true);
                 }
@@ -94,15 +111,18 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
             ContentValues values = new ContentValues();
             values.put("session_id", sessionId);
             values.put("status", STATUS_RECORDING);
-            values.put("started_at", startedAt > 0 ? startedAt : now);
+            values.put("started_at", startedAt > 0 && startedAt <= now ? startedAt : now);
             values.put("active_started_at", now);
             values.put("active_elapsed_ms", 0L);
             values.put("heartbeat_at", now);
+            values.put("last_raw_fix_at", 0L);
+            values.put("last_accepted_fix_at", 0L);
             values.put("ended_at", 0L);
             values.put("distance_m", 0d);
             values.put("force_segment", 1);
             values.put("context_json", context == null ? "{}" : context.toString());
             db.insertOrThrow("session", null, values);
+            resetMotionGate(sessionId, null, true);
             db.setTransactionSuccessful();
             return snapshot(db, true);
         } finally {
@@ -122,6 +142,11 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
             if (STATUS_RECORDING.equals(session.status)) {
                 pauseAt(db, session, System.currentTimeMillis());
             }
+            resetMotionGate(
+                session.sessionId,
+                toMotionPoint(readLastPoint(db, session.sessionId)),
+                true
+            );
             db.setTransactionSuccessful();
             return snapshot(db, true);
         } finally {
@@ -147,6 +172,11 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
                 long heartbeat = session.heartbeatAt > 0 ? session.heartbeatAt : session.activeStartedAt;
                 pauseAt(db, session, Math.min(now, Math.max(session.activeStartedAt, heartbeat)));
             }
+            resetMotionGate(
+                session.sessionId,
+                toMotionPoint(readLastPoint(db, session.sessionId)),
+                true
+            );
             db.setTransactionSuccessful();
             return snapshot(db, true);
         } finally {
@@ -169,9 +199,17 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
                 values.put("status", STATUS_RECORDING);
                 values.put("active_started_at", now);
                 values.put("heartbeat_at", now);
+                values.put("last_raw_fix_at", 0L);
                 values.put("ended_at", 0L);
                 values.put("force_segment", 1);
                 db.update("session", values, "session_id = ?", new String[] { session.sessionId });
+                resetMotionGate(
+                    session.sessionId,
+                    toMotionPoint(readLastPoint(db, session.sessionId)),
+                    true
+                );
+            } else {
+                ensureMotionGate(db, session);
             }
             db.setTransactionSuccessful();
             return snapshot(db, true);
@@ -187,6 +225,8 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
             Session session = readSession(db);
             requireMatchingSession(session, expectedSessionId);
             if (session == null) {
+                clearMotionGate();
+                db.setTransactionSuccessful();
                 return emptySnapshot();
             }
             if (!STATUS_STOPPED.equals(session.status)) {
@@ -199,6 +239,7 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
                 values.put("ended_at", now);
                 db.update("session", values, "session_id = ?", new String[] { session.sessionId });
             }
+            clearMotionGate();
             db.setTransactionSuccessful();
             return snapshot(db, true);
         } finally {
@@ -219,17 +260,14 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
         return snapshot(db, false);
     }
 
-    /** Accepts a location only when it passes the same anti-jitter and walking-speed rules as web. */
+    /** Accepts a current, plausible pedestrian fix and separately persists raw GPS liveness. */
     synchronized boolean record(Location location) {
-        if (location == null || !location.hasAccuracy() || location.getAccuracy() <= 0 || location.getAccuracy() > 65f) {
-            return false;
-        }
-        if (location.hasSpeed() && location.getSpeed() > 12f) {
+        if (location == null) {
             return false;
         }
         double latitude = location.getLatitude();
         double longitude = location.getLongitude();
-        if (!Double.isFinite(latitude) || !Double.isFinite(longitude) || Math.abs(latitude) > 90 || Math.abs(longitude) > 180) {
+        if (!WalkRecordingPolicy.validCoordinate(latitude, longitude)) {
             return false;
         }
 
@@ -240,35 +278,120 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
             if (session == null || !STATUS_RECORDING.equals(session.status)) {
                 return false;
             }
+            ensureMotionGate(db, session);
 
-            long timestamp = location.getTime() > 0 ? location.getTime() : System.currentTimeMillis();
+            long receivedAt = System.currentTimeMillis();
+            long timestamp = location.getTime();
+            long recordingStartedAt = Math.max(session.startedAt, session.activeStartedAt);
+            if (!WalkRecordingPolicy.isFixTimestampUsable(timestamp, recordingStartedAt, receivedAt)) {
+                return false;
+            }
+            long fixElapsedRealtimeNanos = location.getElapsedRealtimeNanos();
+            if (
+                fixElapsedRealtimeNanos > 0L &&
+                !WalkRecordingPolicy.isElapsedRealtimeUsable(
+                    fixElapsedRealtimeNanos,
+                    SystemClock.elapsedRealtimeNanos()
+                )
+            ) {
+                return false;
+            }
             LastPoint last = readLastPoint(db, session.sessionId);
-            boolean startsNewSegment = last == null || session.forceSegment;
-            double stepDistance = 0d;
+            if (last != null && timestamp <= last.timestamp) {
+                return false;
+            }
 
+            ContentValues rawFix = new ContentValues();
+            rawFix.put("last_raw_fix_at", receivedAt);
+            rawFix.put("heartbeat_at", receivedAt);
+            db.update("session", rawFix, "session_id = ?", new String[] { session.sessionId });
+
+            if (
+                !location.hasAccuracy() ||
+                !Float.isFinite(location.getAccuracy()) ||
+                location.getAccuracy() <= 0 ||
+                location.getAccuracy() > 65f
+            ) {
+                db.setTransactionSuccessful();
+                return false;
+            }
+
+            WalkRecordingPolicy.MotionPoint candidate = new WalkRecordingPolicy.MotionPoint(
+                latitude,
+                longitude,
+                timestamp,
+                location.getAccuracy()
+            );
+            Float reportedSpeed = location.hasSpeed() ? location.getSpeed() : null;
+            WalkRecordingPolicy.MotionGateResult gateResult = motionGate.accept(
+                candidate,
+                reportedSpeed
+            );
+
+            boolean inserted = false;
+            if (!gateResult.emissions.isEmpty()) {
+                inserted = persistEmissions(db, session, gateResult.emissions, receivedAt);
+            } else if (gateResult.vehicleMode) {
+                markVehicleMode(db, session.sessionId);
+            }
+            db.setTransactionSuccessful();
+            return inserted;
+        } finally {
+            db.endTransaction();
+        }
+    }
+
+    private static void markVehicleMode(SQLiteDatabase db, String sessionId) {
+        ContentValues update = new ContentValues();
+        update.put("force_segment", 1);
+        update.put("last_accepted_fix_at", 0L);
+        db.update("session", update, "session_id = ?", new String[] { sessionId });
+    }
+
+    private static boolean persistEmissions(
+        SQLiteDatabase db,
+        Session session,
+        List<WalkRecordingPolicy.MotionEmission> emissions,
+        long receivedAt
+    ) {
+        LastPoint last = readLastPoint(db, session.sessionId);
+        double distanceMeters = session.distanceMeters;
+        boolean forceSegment = session.forceSegment;
+        boolean insertedAny = false;
+
+        for (WalkRecordingPolicy.MotionEmission emission : emissions) {
+            WalkRecordingPolicy.MotionPoint candidate = emission.point;
+            if (last != null && candidate.timestamp <= last.timestamp) {
+                continue;
+            }
+
+            double stepDistance = 0d;
+            long gapMs = 0L;
             if (last != null) {
-                long gapMs = timestamp - last.timestamp;
-                if (gapMs <= 0) {
-                    return false;
-                }
-                stepDistance = distanceMeters(last.latitude, last.longitude, latitude, longitude);
-                double movementFloor = Math.max(12d, location.getAccuracy() / 2d);
-                if (stepDistance < movementFloor) {
-                    return false;
-                }
-                double calculatedSpeed = stepDistance / (gapMs / 1000d);
-                if (calculatedSpeed > 12d) {
-                    return false;
-                }
-                startsNewSegment = startsNewSegment || gapMs > 120_000L || (gapMs > 30_000L && stepDistance > 500d);
+                gapMs = candidate.timestamp - last.timestamp;
+                stepDistance = distanceMeters(
+                    last.latitude,
+                    last.longitude,
+                    candidate.latitude,
+                    candidate.longitude
+                );
+            }
+            boolean startsNewSegment = last == null ||
+                forceSegment ||
+                emission.startsNewSegment ||
+                gapMs > 120_000L ||
+                (gapMs > 30_000L && stepDistance > 500d);
+            double movementFloor = Math.max(12d, candidate.accuracy / 2d);
+            if (last != null && !startsNewSegment && stepDistance < movementFloor) {
+                continue;
             }
 
             ContentValues point = new ContentValues();
             point.put("session_id", session.sessionId);
-            point.put("latitude", latitude);
-            point.put("longitude", longitude);
-            point.put("accuracy", location.getAccuracy());
-            point.put("timestamp", timestamp);
+            point.put("latitude", candidate.latitude);
+            point.put("longitude", candidate.longitude);
+            point.put("accuracy", candidate.accuracy);
+            point.put("timestamp", candidate.timestamp);
             point.put("starts_new_segment", startsNewSegment ? 1 : 0);
             long insertedRowId = db.insertOrThrow("points", null, point);
             int deleted = db.delete(
@@ -284,18 +407,28 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
                 );
             }
 
-            ContentValues update = new ContentValues();
-            update.put("force_segment", 0);
-            update.put("heartbeat_at", System.currentTimeMillis());
             if (!startsNewSegment) {
-                update.put("distance_m", session.distanceMeters + stepDistance);
+                distanceMeters += stepDistance;
             }
-            db.update("session", update, "session_id = ?", new String[] { session.sessionId });
-            db.setTransactionSuccessful();
-            return true;
-        } finally {
-            db.endTransaction();
+            last = new LastPoint(
+                candidate.latitude,
+                candidate.longitude,
+                candidate.accuracy,
+                candidate.timestamp,
+                startsNewSegment
+            );
+            forceSegment = false;
+            insertedAny = true;
         }
+
+        ContentValues update = new ContentValues();
+        update.put("force_segment", forceSegment ? 1 : 0);
+        update.put("heartbeat_at", receivedAt);
+        update.put("last_raw_fix_at", receivedAt);
+        update.put("last_accepted_fix_at", receivedAt);
+        update.put("distance_m", distanceMeters);
+        db.update("session", update, "session_id = ?", new String[] { session.sessionId });
+        return insertedAny;
     }
 
     synchronized JSObject snapshot(boolean includePoints) {
@@ -308,6 +441,7 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
         try {
             Session session = readSession(db);
             if (session == null) {
+                clearMotionGate();
                 db.setTransactionSuccessful();
                 return true;
             }
@@ -319,6 +453,7 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
             }
             db.delete("points", "session_id = ?", new String[] { session.sessionId });
             db.delete("session", "session_id = ?", new String[] { session.sessionId });
+            clearMotionGate();
             db.setTransactionSuccessful();
             return true;
         } finally {
@@ -332,11 +467,8 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
     }
 
     synchronized boolean matchesSession(String expectedSessionId) {
-        if (expectedSessionId == null || expectedSessionId.isEmpty()) {
-            return false;
-        }
         Session session = readSession(getReadableDatabase());
-        return session != null && expectedSessionId.equals(session.sessionId);
+        return session != null && WalkRecordingPolicy.sessionMatches(session.sessionId, expectedSessionId);
     }
 
     synchronized long heartbeatAt() {
@@ -384,6 +516,8 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
         result.put("status", session.status);
         result.put("startedAt", session.startedAt);
         result.put("heartbeatAt", session.heartbeatAt);
+        result.put("lastRawFixAt", session.lastRawFixAt);
+        result.put("lastAcceptedFixAt", session.lastAcceptedFixAt);
         result.put("elapsedMs", elapsedAt(session, System.currentTimeMillis()));
         long elapsedAnchor = STATUS_STOPPED.equals(session.status) && session.endedAt > 0
             ? session.endedAt
@@ -462,6 +596,50 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
         db.update("session", values, "session_id = ?", new String[] { session.sessionId });
     }
 
+    /**
+     * A missing in-memory session means the process was recreated. Its unpersisted
+     * buffer is intentionally gone, and the next trustworthy point starts a segment.
+     */
+    private void ensureMotionGate(SQLiteDatabase db, Session session) {
+        if (session.sessionId.equals(motionGateSessionId)) {
+            return;
+        }
+        resetMotionGate(
+            session.sessionId,
+            toMotionPoint(readLastPoint(db, session.sessionId)),
+            true
+        );
+        ContentValues recovery = new ContentValues();
+        recovery.put("force_segment", 1);
+        db.update("session", recovery, "session_id = ?", new String[] { session.sessionId });
+    }
+
+    private void resetMotionGate(
+        String sessionId,
+        WalkRecordingPolicy.MotionPoint trustedReference,
+        boolean startNewSegment
+    ) {
+        motionGate.reset(trustedReference, startNewSegment);
+        motionGateSessionId = sessionId;
+    }
+
+    private void clearMotionGate() {
+        motionGate.reset(null, true);
+        motionGateSessionId = null;
+    }
+
+    private static WalkRecordingPolicy.MotionPoint toMotionPoint(LastPoint point) {
+        if (point == null) {
+            return null;
+        }
+        return new WalkRecordingPolicy.MotionPoint(
+            point.latitude,
+            point.longitude,
+            point.timestamp,
+            point.accuracy
+        );
+    }
+
     private static void requireMatchingSession(Session session, String expectedSessionId) {
         if (
             session != null &&
@@ -484,6 +662,8 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
                     "active_started_at",
                     "active_elapsed_ms",
                     "heartbeat_at",
+                    "last_raw_fix_at",
+                    "last_accepted_fix_at",
                     "ended_at",
                     "distance_m",
                     "force_segment",
@@ -508,9 +688,11 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
                 cursor.getLong(4),
                 cursor.getLong(5),
                 cursor.getLong(6),
-                cursor.getDouble(7),
-                cursor.getInt(8) == 1,
-                cursor.getString(9)
+                cursor.getLong(7),
+                cursor.getLong(8),
+                cursor.getDouble(9),
+                cursor.getInt(10) == 1,
+                cursor.getString(11)
             );
         }
     }
@@ -542,24 +724,11 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
     }
 
     static double distanceMeters(double lat1, double lon1, double lat2, double lon2) {
-        double earthRadius = 6_371_000d;
-        double phi1 = Math.toRadians(lat1);
-        double phi2 = Math.toRadians(lat2);
-        double deltaPhi = Math.toRadians(lat2 - lat1);
-        double deltaLambda = Math.toRadians(lon2 - lon1);
-        double a =
-            Math.sin(deltaPhi / 2d) * Math.sin(deltaPhi / 2d) +
-            Math.cos(phi1) * Math.cos(phi2) * Math.sin(deltaLambda / 2d) * Math.sin(deltaLambda / 2d);
-        return earthRadius * 2d * Math.atan2(Math.sqrt(a), Math.sqrt(1d - a));
+        return WalkRecordingPolicy.distanceMeters(lat1, lon1, lat2, lon2);
     }
 
     static double bearingDegrees(double lat1, double lon1, double lat2, double lon2) {
-        double phi1 = Math.toRadians(lat1);
-        double phi2 = Math.toRadians(lat2);
-        double lambda = Math.toRadians(lon2 - lon1);
-        double y = Math.sin(lambda) * Math.cos(phi2);
-        double x = Math.cos(phi1) * Math.sin(phi2) - Math.sin(phi1) * Math.cos(phi2) * Math.cos(lambda);
-        return (Math.toDegrees(Math.atan2(y, x)) + 360d) % 360d;
+        return WalkRecordingPolicy.bearingDegrees(lat1, lon1, lat2, lon2);
     }
 
     static final class LastPoint {
@@ -585,6 +754,8 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
         final long activeStartedAt;
         final long activeElapsedMs;
         final long heartbeatAt;
+        final long lastRawFixAt;
+        final long lastAcceptedFixAt;
         final long endedAt;
         final double distanceMeters;
         final boolean forceSegment;
@@ -597,6 +768,8 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
             long activeStartedAt,
             long activeElapsedMs,
             long heartbeatAt,
+            long lastRawFixAt,
+            long lastAcceptedFixAt,
             long endedAt,
             double distanceMeters,
             boolean forceSegment,
@@ -608,6 +781,8 @@ final class WalkRecordingStore extends SQLiteOpenHelper {
             this.activeStartedAt = activeStartedAt;
             this.activeElapsedMs = activeElapsedMs;
             this.heartbeatAt = heartbeatAt;
+            this.lastRawFixAt = lastRawFixAt;
+            this.lastAcceptedFixAt = lastAcceptedFixAt;
             this.endedAt = endedAt;
             this.distanceMeters = distanceMeters;
             this.forceSegment = forceSegment;

@@ -14,25 +14,31 @@ struct FlaneurRadarLiveActivity: Widget {
 
     var body: some WidgetConfiguration {
         ActivityConfiguration(for: FlaneurWalkActivityAttributes.self) { context in
-            LockScreenRadarView(state: context.state)
+            PrivacyAwareLockScreenRadarView(state: context.state, isStale: activityIsStale(context))
                 .activityBackgroundTint(Color(red: 0.055, green: 0.052, blue: 0.047))
                 .activitySystemActionForegroundColor(.white)
+                .widgetURL(walkDeepLinkURL)
         } dynamicIsland: { context in
             DynamicIsland {
                 DynamicIslandExpandedRegion(.leading) {
                     VStack(alignment: .leading, spacing: 2) {
-                        Label("Walking", systemImage: "figure.walk")
+                        Label(
+                            activityIsStale(context) ? "Radar stale" : "Walking",
+                            systemImage: activityIsStale(context) ? "exclamationmark.triangle.fill" : "figure.walk"
+                        )
                             .font(.caption.bold())
                             .foregroundStyle(brand)
-                        ElapsedText(state: context.state)
+                        ElapsedText(state: context.state, isStale: activityIsStale(context))
                             .font(.caption2.monospacedDigit())
                             .foregroundStyle(.secondary)
+                            .privacySensitive()
                     }
                 }
                 DynamicIslandExpandedRegion(.trailing) {
                     VStack(alignment: .trailing, spacing: 2) {
-                        Text(distanceLabel(context.state.distanceMeters))
+                        Text(activityIsStale(context) ? "—" : distanceLabel(context.state.distanceMeters))
                             .font(.headline.monospacedDigit())
+                            .privacySensitive()
                         Text("distance")
                             .font(.caption2)
                             .foregroundStyle(.secondary)
@@ -40,36 +46,54 @@ struct FlaneurRadarLiveActivity: Widget {
                 }
                 DynamicIslandExpandedRegion(.bottom) {
                     HStack(spacing: 12) {
-                        RadarPlot(state: context.state)
+                        Group {
+                            if activityIsStale(context) {
+                                StaleRadarView()
+                            } else {
+                                RadarPlot(state: context.state)
+                                    .privacySensitive()
+                            }
+                        }
                             .frame(width: 92, height: 92)
-                        nearestSummary(context.state)
+                        nearestSummary(context.state, isStale: activityIsStale(context))
                     }
                     .padding(.top, 4)
                 }
             } compactLeading: {
-                Image(systemName: "location.north.circle.fill")
+                Image(systemName: activityIsStale(context) ? "exclamationmark.triangle.fill" : "location.north.circle.fill")
                     .foregroundStyle(brand)
             } compactTrailing: {
-                Text(distanceLabel(context.state.distanceMeters))
+                Text(activityIsStale(context) ? "STALE" : distanceLabel(context.state.distanceMeters))
                     .font(.caption2.monospacedDigit().bold())
+                    .privacySensitive()
             } minimal: {
-                Image(systemName: "location.north.fill")
+                Image(systemName: activityIsStale(context) ? "exclamationmark.triangle.fill" : "location.north.fill")
                     .foregroundStyle(brand)
             }
             .keylineTint(brand)
+            .widgetURL(walkDeepLinkURL)
         }
     }
 
     @ViewBuilder
-    private func nearestSummary(_ state: FlaneurWalkActivityAttributes.ContentState) -> some View {
+    private func nearestSummary(
+        _ state: FlaneurWalkActivityAttributes.ContentState,
+        isStale: Bool
+    ) -> some View {
         VStack(alignment: .leading, spacing: 5) {
-            Text(state.nearestName.isEmpty ? "Scanning nearby" : state.nearestName)
+            Text(isStale ? "Radar needs an update" : (state.nearestName.isEmpty ? "Scanning nearby" : state.nearestName))
                 .font(.subheadline.weight(.semibold))
                 .lineLimit(2)
-            if state.nearestDistanceMeters >= 0 {
+                .privacySensitive(!isStale)
+            if isStale {
+                Label("Open Flâneur to refresh", systemImage: "arrow.clockwise")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            } else if state.nearestDistanceMeters >= 0 {
                 Label(distanceLabel(state.nearestDistanceMeters), systemImage: "scope")
                     .font(.caption.monospacedDigit())
                     .foregroundStyle(.secondary)
+                    .privacySensitive()
             } else {
                 Text("Move a little to wake the radar")
                     .font(.caption)
@@ -80,41 +104,94 @@ struct FlaneurRadarLiveActivity: Widget {
     }
 }
 
+private struct PrivacyAwareLockScreenRadarView: View {
+    @Environment(\.redactionReasons) private var redactionReasons
+
+    let state: FlaneurWalkActivityAttributes.ContentState
+    let isStale: Bool
+
+    var body: some View {
+        if redactionReasons.contains(.privacy) {
+            PrivateWalkStateView(status: state.status, isStale: isStale)
+        } else {
+            LockScreenRadarView(state: state, isStale: isStale)
+        }
+    }
+}
+
+private struct PrivateWalkStateView: View {
+    let status: String
+    let isStale: Bool
+
+    var body: some View {
+        HStack(spacing: 12) {
+            Image(systemName: isStale ? "location.slash.circle.fill" : "figure.walk.circle.fill")
+                .font(.system(size: 34))
+                .foregroundStyle(Color(red: 0.92, green: 0.34, blue: 0.27))
+            VStack(alignment: .leading, spacing: 4) {
+                Text(status == "paused" ? "Walk paused" : "Walk in progress")
+                    .font(.headline)
+                Text(isStale ? "Open Flâneur to reconnect" : "Details hidden for privacy · Tap to open")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(16)
+        .foregroundStyle(.white)
+    }
+}
+
 private struct LockScreenRadarView: View {
     let state: FlaneurWalkActivityAttributes.ContentState
+    let isStale: Bool
 
     var body: some View {
         HStack(spacing: 14) {
-            RadarPlot(state: state)
+            Group {
+                if isStale {
+                    StaleRadarView()
+                } else {
+                    RadarPlot(state: state)
+                        .privacySensitive()
+                }
+            }
                 .frame(width: 112, height: 112)
 
             VStack(alignment: .leading, spacing: 7) {
                 HStack(spacing: 5) {
-                    Image(systemName: state.status == "paused" ? "pause.circle.fill" : "figure.walk.circle.fill")
+                    Image(systemName: isStale ? "exclamationmark.triangle.fill" : (state.status == "paused" ? "pause.circle.fill" : "figure.walk.circle.fill"))
                         .foregroundStyle(Color(red: 0.92, green: 0.34, blue: 0.27))
-                    Text(state.status == "paused" ? "Walk paused" : "Recording walk")
+                    Text(isStale ? "Radar stale" : (state.status == "paused" ? "Walk paused" : "Recording walk"))
                         .font(.caption.weight(.semibold))
                         .foregroundStyle(.secondary)
                 }
 
-                Text(state.nearestName.isEmpty ? "Finding nearby places…" : state.nearestName)
+                Text(isStale ? "Open Flâneur to refresh" : (state.nearestName.isEmpty ? "Finding nearby places…" : state.nearestName))
                     .font(.headline)
                     .lineLimit(2)
+                    .privacySensitive(!isStale)
 
-                if state.nearestDistanceMeters >= 0 {
+                if !isStale, state.nearestDistanceMeters >= 0 {
                     Text("\(distanceLabel(state.nearestDistanceMeters)) away")
                         .font(.subheadline.monospacedDigit())
                         .foregroundStyle(.secondary)
+                        .privacySensitive()
                 }
 
                 HStack(spacing: 14) {
                     Label(distanceLabel(state.distanceMeters), systemImage: "point.topleft.down.to.point.bottomright.curvepath")
                     HStack(spacing: 4) {
                         Image(systemName: "timer")
-                        ElapsedText(state: state)
+                        ElapsedText(state: state, isStale: isStale)
                     }
                 }
                 .font(.caption.monospacedDigit().weight(.medium))
+                .privacySensitive()
+
+                Label("Tap for walk controls", systemImage: "hand.tap")
+                    .font(.caption2.weight(.semibold))
+                    .foregroundStyle(.secondary)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
         }
@@ -125,9 +202,10 @@ private struct LockScreenRadarView: View {
 
 private struct ElapsedText: View {
     let state: FlaneurWalkActivityAttributes.ContentState
+    let isStale: Bool
 
     var body: some View {
-        if state.status == "recording" {
+        if state.status == "recording", !isStale {
             Text(Date(timeIntervalSince1970: state.timerAnchorMilliseconds / 1_000), style: .timer)
         } else {
             Text(durationLabel(state.elapsedSeconds))
@@ -163,7 +241,7 @@ private struct RadarPlot: View {
                     .foregroundStyle(Color.white.opacity(0.7))
                     .offset(y: -outerRadius + 3)
 
-                ForEach(Array(state.blips.prefix(6))) { blip in
+                ForEach(Array(state.blips.prefix(3))) { blip in
                     let angle = blip.bearingDegrees * .pi / 180
                     let fraction = min(1, max(0.1, sqrt(blip.distanceMeters / max(1, state.radarRangeMeters))))
                     let radius = outerRadius * fraction
@@ -188,6 +266,34 @@ private struct RadarPlot: View {
         }
     }
 }
+
+private struct StaleRadarView: View {
+    var body: some View {
+        ZStack {
+            Circle()
+                .fill(Color.white.opacity(0.045))
+            Circle()
+                .stroke(Color.white.opacity(0.22), style: StrokeStyle(lineWidth: 1, dash: [3, 4]))
+                .padding(8)
+            Image(systemName: "location.slash.fill")
+                .font(.title2)
+                .foregroundStyle(Color.white.opacity(0.7))
+        }
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("Nearby places radar needs an update")
+    }
+}
+
+private func activityIsStale(
+    _ context: ActivityViewContext<FlaneurWalkActivityAttributes>
+) -> Bool {
+    if #available(iOS 16.2, *) {
+        return context.isStale
+    }
+    return false
+}
+
+private let walkDeepLinkURL = URL(string: "flaneur://walk?source=live-activity")!
 
 private func distanceLabel(_ meters: Double) -> String {
     if meters < 1_000 {

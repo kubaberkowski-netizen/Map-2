@@ -27,7 +27,7 @@ private struct NativeRadarTarget: Codable, Hashable {
     let isRouteStop: Bool
 }
 
-private struct NativeWalkContext: Codable {
+private struct NativeWalkContext: Codable, Equatable {
     var routeStops: [NativeRadarTarget]
     var radarCandidates: [NativeRadarTarget]
     var rangeMeters: Double
@@ -51,6 +51,12 @@ private struct NativeWalkSession: Codable {
     var distanceMeters: Double
     var points: [NativeWalkPoint]
     var context: NativeWalkContext
+    /// Wall-clock receipt time for the last plausible Core Location callback.
+    /// This is deliberately independent from accepted movement: a stationary
+    /// walk still proves that the recorder is alive even when no route point is added.
+    var lastRawFixAt: Double?
+    /// Start/resume time protects the brief interval before the first fresh fix.
+    var recordingActivatedAt: Double?
 }
 
 private struct NativeRadarBlip {
@@ -187,7 +193,9 @@ final class NativeWalkRecorderPlugin: CAPPlugin, CAPBridgedPlugin {
                     sessionId: call.getString("sessionId"),
                     update: Self.parseContext(call.options)
                 )
-                call.resolve(self.engine.payload(for: session))
+                // Context refreshes can be frequent and do not need to echo the
+                // complete route history back across the Capacitor bridge.
+                call.resolve(self.engine.payload(for: session, includePoints: false))
             } catch {
                 self.reject(call, error: error)
             }
@@ -291,15 +299,14 @@ final class NativeWalkRecorderPlugin: CAPPlugin, CAPBridgedPlugin {
             state = "prompt"
         }
 
-        var lockScreenAvailable = false
-        if #available(iOS 16.1, *) {
-            lockScreenAvailable = ActivityAuthorizationInfo().areActivitiesEnabled
-        }
+        let activityKit = engine.activityKitDiagnostics()
+        let lockScreenAvailable = activityKit["enabled"] as? Bool == true
         return [
             "location": state,
             "backgroundRecording": state,
             "lockScreen": lockScreenAvailable ? "granted" : "unavailable",
-            "accuracy": engine.accuracyAuthorization == .fullAccuracy ? "full" : "reduced"
+            "accuracy": engine.accuracyAuthorization == .fullAccuracy ? "full" : "reduced",
+            "activityKit": activityKit
         ]
     }
 
@@ -359,7 +366,9 @@ final class NativeWalkRecorderPlugin: CAPPlugin, CAPBridgedPlugin {
                 longitude: longitude,
                 isRouteStop: routeStop
             ))
-            if targets.count == 160 { break }
+            // The web shell sends a city/corridor pool so radar remains useful
+            // while the WebView is suspended. Keep a defensive, but generous cap.
+            if targets.count == 2_000 { break }
         }
         return targets
     }
@@ -388,6 +397,15 @@ final class NativeWalkRecorderPlugin: CAPPlugin, CAPBridgedPlugin {
 }
 
 private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
+    private static let maximumPointCount = 6_000
+    private static let maximumStartLookbackMilliseconds = 3_600_000.0
+    private static let maximumFixAgeMilliseconds = 120_000.0
+    private static let maximumFutureFixMilliseconds = 10_000.0
+    private static let vehicleEntrySpeedMetersPerSecond = 6.0
+    private static let vehicleExitSpeedMetersPerSecond = 4.5
+    private static let vehicleConfirmationSeconds = 20.0
+    private static let vehicleExitSeconds = 10.0
+
     private let locationManager = CLLocationManager()
     private let storageURL: URL
     private var pendingSegment = false
@@ -395,6 +413,13 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
     private var lastCheckpointAt = Date.distantPast
     private var lastCheckpointDistance = -1.0
     private var lastCheckpointPointCount = -1
+    private var lifecycleObservers: [NSObjectProtocol] = []
+    private var locationAcceptanceFloorMilliseconds = 0.0
+    private var motionReference: CLLocation?
+    private var pendingFastLocations: [CLLocation] = []
+    private var pendingFastStartedAt: Double?
+    private var vehicleMotionDetected = false
+    private var vehicleSlowStartedAt: Double?
 
     var onUpdate: (([String: Any]) -> Void)?
     var onAuthorizationChange: (() -> Void)?
@@ -409,11 +434,14 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
         locationManager.delegate = self
         locationManager.activityType = .fitness
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.distanceFilter = 5
+        // Raw callbacks are the crash-recovery heartbeat even when the user is
+        // stationary; route-point noise is filtered separately in accept(_:into:).
+        locationManager.distanceFilter = kCLDistanceFilterNone
         locationManager.pausesLocationUpdatesAutomatically = false
         locationManager.allowsBackgroundLocationUpdates = true
         locationManager.showsBackgroundLocationIndicator = true
         session = loadSession()
+        installLifecycleObservers()
         if let recovered = session {
             lastCheckpointAt = Date(timeIntervalSince1970: recovered.updatedAt / 1_000)
             lastCheckpointDistance = recovered.distanceMeters
@@ -422,9 +450,13 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
 
         if var recovered = session, recovered.status == .recording {
             let now = Date().timeIntervalSince1970 * 1_000
-            if now - recovered.updatedAt > 120_000 {
+            let lastRecorderProof = max(
+                recovered.lastRawFixAt ?? recovered.updatedAt,
+                recovered.recordingActivatedAt ?? recovered.updatedAt
+            )
+            if now - lastRecorderProof > 120_000 {
                 recovered.status = .paused
-                recovered.pausedAt = max(recovered.startedAt, min(recovered.updatedAt, now))
+                recovered.pausedAt = max(recovered.startedAt, min(lastRecorderProof, now))
                 recovered.updatedAt = now
                 session = recovered
                 pendingSegment = true
@@ -432,13 +464,23 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
             }
         }
 
-        if let session, session.status == .recording, canRecordLocation {
+        if var activeSession = session, activeSession.status == .recording, canRecordLocation {
+            let now = Date().timeIntervalSince1970 * 1_000
+            activeSession.recordingActivatedAt = now
+            activeSession.updatedAt = now
+            session = activeSession
             pendingSegment = true
+            locationAcceptanceFloorMilliseconds = now - 1_000
+            persist(force: true)
             locationManager.startUpdatingLocation()
         }
         if session != nil {
             refreshLiveActivity(force: true)
         }
+    }
+
+    deinit {
+        lifecycleObservers.forEach(NotificationCenter.default.removeObserver)
     }
 
     func requestWhenInUsePermission() {
@@ -456,7 +498,10 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
         }
 
         let now = Date().timeIntervalSince1970 * 1_000
-        let validStart = startedAt.flatMap { $0 > 0 && $0 <= now + 60_000 ? $0 : nil } ?? now
+        let candidateStart = startedAt.flatMap { $0.isFinite && $0 > 0 ? $0 : nil } ?? now
+        // A start tap should be contemporary. Clamp corrupted/future JS values while
+        // retaining a bounded permission-sheet interval, which is excluded below.
+        let validStart = min(now, max(now - Self.maximumStartLookbackMilliseconds, candidateStart))
         let context = NativeWalkContext(
             routeStops: update.routeStops ?? [],
             radarCandidates: update.radarCandidates ?? [],
@@ -476,10 +521,13 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
             pausedMilliseconds: max(0, now - validStart),
             distanceMeters: 0,
             points: [],
-            context: context
+            context: context,
+            lastRawFixAt: nil,
+            recordingActivatedAt: now
         )
         session = newSession
         pendingSegment = false
+        resetMotionFilter(acceptingLocationsAfter: now)
         persist(force: true)
         locationManager.startUpdatingLocation()
         refreshLiveActivity(force: true)
@@ -497,6 +545,7 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
         current.updatedAt = now
         session = current
         pendingSegment = true
+        resetMotionFilter()
         locationManager.stopUpdatingLocation()
         persist(force: true)
         refreshLiveActivity(force: true)
@@ -517,8 +566,10 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
         current.status = .recording
         current.pausedAt = nil
         current.updatedAt = now
+        current.recordingActivatedAt = now
         session = current
         pendingSegment = true
+        resetMotionFilter(acceptingLocationsAfter: now)
         persist(force: true)
         locationManager.startUpdatingLocation()
         refreshLiveActivity(force: true)
@@ -528,13 +579,17 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
 
     func updateContext(sessionId: String?, update: ParsedWalkContext) throws -> NativeWalkSession {
         var current = try matchingSession(sessionId)
+        let oldContext = current.context
         if let routeStops = update.routeStops { current.context.routeStops = routeStops }
         if let radarCandidates = update.radarCandidates { current.context.radarCandidates = radarCandidates }
         if let rangeMeters = update.rangeMeters { current.context.rangeMeters = clampedRange(rangeMeters) }
         if let lockScreenEnabled = update.lockScreenEnabled { current.context.lockScreenEnabled = lockScreenEnabled }
+        guard current.context != oldContext else { return current }
         current.updatedAt = Date().timeIntervalSince1970 * 1_000
         session = current
-        persist(force: true)
+        // Coalesce large city/corridor context snapshots with the normal checkpoint
+        // cadence. Lifecycle transitions force the newest context to disk.
+        persist()
         refreshLiveActivity(force: true)
         emitUpdate()
         return current
@@ -553,6 +608,7 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
         current.updatedAt = now
         session = current
         pendingSegment = false
+        resetMotionFilter()
         locationManager.stopUpdatingLocation()
         persist(force: true)
         refreshLiveActivity(force: true)
@@ -594,6 +650,7 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
             "elapsedSeconds": elapsedSeconds(for: session),
             "pausedMs": pausedMilliseconds(for: session),
             "lockScreenEnabled": session.context.lockScreenEnabled,
+            "activityKit": activityKitDiagnostics(),
             "radar": [
                 "rangeMeters": session.context.rangeMeters,
                 "nearestName": radar.nearest?.target.name ?? NSNull(),
@@ -624,18 +681,49 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
         return result
     }
 
+    func activityKitDiagnostics() -> [String: Any] {
+        guard #available(iOS 16.1, *) else {
+            return [
+                "supported": false,
+                "enabled": false,
+                "state": "unsupported",
+                "error": NSNull()
+            ]
+        }
+        let enabled = ActivityAuthorizationInfo().areActivitiesEnabled
+        if let controller = liveActivityController as? FlaneurLiveActivityController {
+            return controller.diagnostics(authorizationEnabled: enabled)
+        }
+        return [
+            "supported": true,
+            "enabled": enabled,
+            "state": enabled ? "ready" : "disabled",
+            "error": NSNull()
+        ]
+    }
+
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard var current = session, current.status == .recording else { return }
+        let receiptTime = Date().timeIntervalSince1970 * 1_000
+        var receivedPlausibleRawFix = false
         var accepted = false
         for location in locations.sorted(by: { $0.timestamp < $1.timestamp }) {
-            guard accept(location, into: &current) else { continue }
-            accepted = true
+            guard isPlausibleRawFix(location, for: current, receiptTime: receiptTime) else { continue }
+            receivedPlausibleRawFix = true
+            // A coarse callback is valid recorder liveness, but must not become
+            // the reference point for route distance or the motion classifier.
+            guard location.horizontalAccuracy <= 65 else { continue }
+            for candidate in distanceCandidates(for: location) {
+                if accept(candidate, into: &current) { accepted = true }
+            }
         }
-        guard accepted else { return }
+        guard receivedPlausibleRawFix else { return }
+        current.lastRawFixAt = receiptTime
+        current.updatedAt = receiptTime
         session = current
         persist()
         refreshLiveActivity(force: false)
-        emitUpdate()
+        if accepted { emitUpdate() }
     }
 
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
@@ -646,6 +734,7 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
             current.updatedAt = now
             session = current
             pendingSegment = true
+            resetMotionFilter()
             manager.stopUpdatingLocation()
             persist(force: true)
             refreshLiveActivity(force: true)
@@ -656,10 +745,12 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
 
     func locationManagerDidPauseLocationUpdates(_ manager: CLLocationManager) {
         pendingSegment = true
+        resetMotionFilter()
     }
 
     func locationManagerDidResumeLocationUpdates(_ manager: CLLocationManager) {
         pendingSegment = true
+        resetMotionFilter(acceptingLocationsAfter: Date().timeIntervalSince1970 * 1_000)
     }
 
     private var hasLocationPermission: Bool {
@@ -680,7 +771,11 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
         let accuracy = location.horizontalAccuracy
         guard accuracy >= 0, accuracy <= 65 else { return false }
         let timestamp = location.timestamp.timeIntervalSince1970 * 1_000
-        guard timestamp.isFinite, timestamp >= session.startedAt - 10_000 else { return false }
+        let now = Date().timeIntervalSince1970 * 1_000
+        guard timestamp.isFinite,
+              timestamp >= session.startedAt,
+              timestamp >= locationAcceptanceFloorMilliseconds,
+              timestamp <= now + Self.maximumFutureFixMilliseconds else { return false }
 
         let point: NativeWalkPoint
         if let previous = session.points.last {
@@ -711,8 +806,8 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
         }
 
         session.points.append(point)
-        if session.points.count > 6_000 {
-            session.points = Array(session.points.suffix(6_000))
+        if session.points.count > Self.maximumPointCount {
+            session.points = Array(session.points.suffix(Self.maximumPointCount))
             if let first = session.points.first {
                 session.points[0] = NativeWalkPoint(
                     latitude: first.latitude,
@@ -723,9 +818,108 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
                 )
             }
         }
-        session.updatedAt = Date().timeIntervalSince1970 * 1_000
         pendingSegment = false
         return true
+    }
+
+    private func isPlausibleRawFix(
+        _ location: CLLocation,
+        for session: NativeWalkSession,
+        receiptTime: Double
+    ) -> Bool {
+        let coordinate = location.coordinate
+        let timestamp = location.timestamp.timeIntervalSince1970 * 1_000
+        let accuracy = location.horizontalAccuracy
+        return coordinate.latitude.isFinite
+            && coordinate.longitude.isFinite
+            && (-90.0 ... 90.0).contains(coordinate.latitude)
+            && (-180.0 ... 180.0).contains(coordinate.longitude)
+            && accuracy.isFinite
+            && accuracy >= 0
+            && accuracy <= 1_000
+            && timestamp.isFinite
+            && timestamp >= session.startedAt
+            && timestamp >= locationAcceptanceFloorMilliseconds
+            && timestamp >= receiptTime - Self.maximumFixAgeMilliseconds
+            && timestamp <= receiptTime + Self.maximumFutureFixMilliseconds
+    }
+
+    /// Buffers sustained running-edge speeds before deciding they are vehicular.
+    /// Short bursts are replayed into the normal point filter, preserving runners;
+    /// movement above 21.6 km/h for 20 seconds is treated as vehicle contamination.
+    private func distanceCandidates(for location: CLLocation) -> [CLLocation] {
+        guard let reference = motionReference else {
+            motionReference = location
+            return [location]
+        }
+        let deltaSeconds = location.timestamp.timeIntervalSince(reference.timestamp)
+        guard deltaSeconds > 0 else { return [] }
+        let speed = location.distance(from: reference) / deltaSeconds
+        guard speed.isFinite else { return [] }
+
+        // An implausibly fast jump is more likely a GPS outlier than a vehicle.
+        // Keep the last trustworthy motion reference so the next real fix recovers.
+        if speed > 12 {
+            if !pendingFastLocations.isEmpty {
+                pendingFastLocations.removeAll(keepingCapacity: true)
+                pendingFastStartedAt = nil
+                pendingSegment = true
+            }
+            return []
+        }
+
+        motionReference = location
+        if vehicleMotionDetected {
+            if speed <= Self.vehicleExitSpeedMetersPerSecond {
+                let timestamp = location.timestamp.timeIntervalSince1970
+                if vehicleSlowStartedAt == nil { vehicleSlowStartedAt = timestamp }
+                if timestamp - (vehicleSlowStartedAt ?? timestamp) >= Self.vehicleExitSeconds {
+                    vehicleMotionDetected = false
+                    vehicleSlowStartedAt = nil
+                    pendingSegment = true
+                    return [location]
+                }
+            } else {
+                vehicleSlowStartedAt = nil
+            }
+            return []
+        }
+
+        if speed >= Self.vehicleEntrySpeedMetersPerSecond {
+            if pendingFastLocations.isEmpty {
+                pendingFastStartedAt = reference.timestamp.timeIntervalSince1970
+            }
+            pendingFastLocations.append(location)
+            let timestamp = location.timestamp.timeIntervalSince1970
+            if timestamp - (pendingFastStartedAt ?? timestamp) >= Self.vehicleConfirmationSeconds {
+                pendingFastLocations.removeAll(keepingCapacity: true)
+                pendingFastStartedAt = nil
+                vehicleMotionDetected = true
+                vehicleSlowStartedAt = nil
+                pendingSegment = true
+            }
+            return []
+        }
+
+        if !pendingFastLocations.isEmpty {
+            let candidates = pendingFastLocations + [location]
+            pendingFastLocations.removeAll(keepingCapacity: true)
+            pendingFastStartedAt = nil
+            return candidates
+        }
+        return [location]
+    }
+
+    private func resetMotionFilter(acceptingLocationsAfter timestamp: Double? = nil) {
+        motionReference = nil
+        pendingFastLocations.removeAll(keepingCapacity: true)
+        pendingFastStartedAt = nil
+        vehicleMotionDetected = false
+        vehicleSlowStartedAt = nil
+        if let timestamp {
+            // Allow a tiny sampling skew, but never a cached pre-start/pre-resume fix.
+            locationAcceptanceFloorMilliseconds = timestamp - 1_000
+        }
     }
 
     private func elapsedSeconds(for session: NativeWalkSession) -> Int {
@@ -745,22 +939,31 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
             return NativeRadarSnapshot(nearest: nil, blips: [])
         }
         let origin = CLLocationCoordinate2D(latitude: point.latitude, longitude: point.longitude)
-        let measured = session.context.targets.map { target -> NativeRadarBlip in
+        let pointLocation = CLLocation(latitude: point.latitude, longitude: point.longitude)
+        var nearest: NativeRadarBlip?
+        var visible: [NativeRadarBlip] = []
+        for target in session.context.targets {
             let targetLocation = CLLocation(latitude: target.latitude, longitude: target.longitude)
-            let pointLocation = CLLocation(latitude: point.latitude, longitude: point.longitude)
-            return NativeRadarBlip(
+            let blip = NativeRadarBlip(
                 target: target,
                 bearingDegrees: Self.bearing(from: origin, to: targetLocation.coordinate),
                 distanceMeters: pointLocation.distance(from: targetLocation)
             )
-        }.sorted { lhs, rhs in
-            if lhs.distanceMeters == rhs.distanceMeters {
-                return lhs.target.isRouteStop && !rhs.target.isRouteStop
+            if nearest == nil || radarPrecedes(blip, nearest!) { nearest = blip }
+            if blip.distanceMeters <= session.context.rangeMeters {
+                visible.append(blip)
+                visible.sort(by: radarPrecedes)
+                if visible.count > 3 { visible.removeLast() }
             }
-            return lhs.distanceMeters < rhs.distanceMeters
         }
-        let visible = measured.filter { $0.distanceMeters <= session.context.rangeMeters }.prefix(6)
-        return NativeRadarSnapshot(nearest: measured.first, blips: Array(visible))
+        return NativeRadarSnapshot(nearest: nearest, blips: visible)
+    }
+
+    private func radarPrecedes(_ lhs: NativeRadarBlip, _ rhs: NativeRadarBlip) -> Bool {
+        if lhs.distanceMeters == rhs.distanceMeters {
+            return lhs.target.isRouteStop && !rhs.target.isRouteStop
+        }
+        return lhs.distanceMeters < rhs.distanceMeters
     }
 
     private func emitUpdate(includePoints: Bool = false) {
@@ -792,13 +995,77 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
         }
     }
 
+    private func installLifecycleObservers() {
+        let center = NotificationCenter.default
+        let checkpointNames: [Notification.Name] = [
+            UIApplication.didEnterBackgroundNotification,
+            UIApplication.willTerminateNotification,
+            UIApplication.protectedDataWillBecomeUnavailableNotification
+        ]
+        lifecycleObservers = checkpointNames.map { name in
+            center.addObserver(forName: name, object: nil, queue: .main) { [weak self] _ in
+                self?.persist(force: true)
+                self?.refreshLiveActivity(force: true)
+            }
+        }
+    }
+
     private func loadSession() -> NativeWalkSession? {
         do {
             let data = try Data(contentsOf: storageURL)
             var decoded = try JSONDecoder().decode(NativeWalkSession.self, from: data)
             guard decoded.schema == 1 else { return nil }
-            if decoded.points.count > 6_000 {
-                decoded.points = Array(decoded.points.suffix(6_000))
+            let now = Date().timeIntervalSince1970 * 1_000
+            guard decoded.startedAt.isFinite,
+                  decoded.startedAt > 0,
+                  decoded.startedAt <= now + Self.maximumFutureFixMilliseconds else { return nil }
+            decoded.updatedAt = decoded.updatedAt.isFinite
+                ? min(now, max(decoded.startedAt, decoded.updatedAt))
+                : decoded.startedAt
+            if let endedAt = decoded.endedAt {
+                decoded.endedAt = endedAt.isFinite && endedAt >= decoded.startedAt
+                    ? min(now, endedAt)
+                    : nil
+            }
+            if let pausedAt = decoded.pausedAt {
+                decoded.pausedAt = pausedAt.isFinite && pausedAt >= decoded.startedAt
+                    ? min(now, pausedAt)
+                    : nil
+            }
+            let sessionEnd = decoded.endedAt ?? now
+            let maximumPause = max(0, sessionEnd - decoded.startedAt)
+            decoded.pausedMilliseconds = decoded.pausedMilliseconds.isFinite
+                ? min(maximumPause, max(0, decoded.pausedMilliseconds))
+                : 0
+            decoded.distanceMeters = decoded.distanceMeters.isFinite
+                ? max(0, decoded.distanceMeters)
+                : 0
+            decoded.lastRawFixAt = decoded.lastRawFixAt.flatMap { value in
+                value.isFinite && value >= decoded.startedAt && value <= now + Self.maximumFutureFixMilliseconds
+                    ? min(now, value)
+                    : nil
+            }
+            decoded.recordingActivatedAt = decoded.recordingActivatedAt.flatMap { value in
+                value.isFinite && value >= decoded.startedAt && value <= now + Self.maximumFutureFixMilliseconds
+                    ? min(now, value)
+                    : nil
+            }
+
+            var lastTimestamp = decoded.startedAt.nextDown
+            decoded.points = decoded.points.filter { point in
+                let valid = point.latitude.isFinite
+                    && point.longitude.isFinite
+                    && (-90.0 ... 90.0).contains(point.latitude)
+                    && (-180.0 ... 180.0).contains(point.longitude)
+                    && point.timestamp.isFinite
+                    && point.timestamp >= decoded.startedAt
+                    && point.timestamp <= now + Self.maximumFutureFixMilliseconds
+                    && point.timestamp > lastTimestamp
+                if valid { lastTimestamp = point.timestamp }
+                return valid
+            }
+            if decoded.points.count > Self.maximumPointCount {
+                decoded.points = Array(decoded.points.suffix(Self.maximumPointCount))
                 if let first = decoded.points.first {
                     decoded.points[0] = NativeWalkPoint(
                         latitude: first.latitude,
@@ -809,6 +1076,8 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
                     )
                 }
             }
+            decoded.context.routeStops = Array(decoded.context.routeStops.prefix(2_000))
+            decoded.context.radarCandidates = Array(decoded.context.radarCandidates.prefix(2_000))
             return decoded
         } catch CocoaError.fileReadNoSuchFile {
             return nil
@@ -822,6 +1091,7 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
         locationManager.stopUpdatingLocation()
         session = nil
         pendingSegment = false
+        resetMotionFilter()
         try? FileManager.default.removeItem(at: storageURL)
         if #available(iOS 16.1, *), let controller = liveActivityController as? FlaneurLiveActivityController {
             controller.endImmediately()
@@ -841,9 +1111,9 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
             }
             controller.sync(
                 session: session,
-                radar: radarSnapshot(for: session),
                 elapsedSeconds: elapsedSeconds(for: session),
-                force: force
+                force: force,
+                radar: { self.radarSnapshot(for: session) }
             )
         }
     }
@@ -895,41 +1165,87 @@ private final class FlaneurLiveActivityController {
     private var lastUpdate = Date.distantPast
     private var lastDistance = -1.0
     private var lastStatus = ""
+    private var lifecycleState = "idle"
+    private var lastErrorMessage: String?
 
     init() {
         activity = nil
     }
 
+    func diagnostics(authorizationEnabled: Bool) -> [String: Any] {
+        let state: String
+        if let lastErrorMessage, !lastErrorMessage.isEmpty {
+            state = "error"
+        } else if activity != nil {
+            state = "active"
+        } else if !authorizationEnabled {
+            state = "disabled"
+        } else {
+            state = lifecycleState
+        }
+        return [
+            "supported": true,
+            "enabled": authorizationEnabled,
+            "state": state,
+            "error": lastErrorMessage ?? NSNull()
+        ]
+    }
+
     func sync(
         session: NativeWalkSession,
-        radar: NativeRadarSnapshot,
         elapsedSeconds: Int,
-        force: Bool
+        force: Bool,
+        radar: () -> NativeRadarSnapshot
     ) {
         if activity?.attributes.sessionId != session.sessionId {
             activity = Activity<FlaneurWalkActivityAttributes>.activities.first {
                 $0.attributes.sessionId == session.sessionId
             }
+            if activity != nil {
+                lifecycleState = "active"
+                lastErrorMessage = nil
+            }
         }
         guard session.context.lockScreenEnabled, session.status != .stopped else {
-            endImmediately(state: makeState(session: session, radar: radar, elapsedSeconds: elapsedSeconds))
+            lifecycleState = session.status == .stopped ? "ended" : "disabledForWalk"
+            endImmediately(state: makeState(session: session, radar: radar(), elapsedSeconds: elapsedSeconds))
             return
         }
 
-        let state = makeState(session: session, radar: radar, elapsedSeconds: elapsedSeconds)
         if activity == nil {
-            guard UIApplication.shared.applicationState == .active,
-                  ActivityAuthorizationInfo().areActivitiesEnabled else { return }
+            guard UIApplication.shared.applicationState == .active else {
+                lifecycleState = "waitingForForeground"
+                return
+            }
+            guard ActivityAuthorizationInfo().areActivitiesEnabled else {
+                lifecycleState = "disabled"
+                return
+            }
             do {
-                activity = try Activity.request(
-                    attributes: FlaneurWalkActivityAttributes(sessionId: session.sessionId, title: "Walk radar"),
-                    contentState: state,
-                    pushType: nil
-                )
+                let state = makeState(session: session, radar: radar(), elapsedSeconds: elapsedSeconds)
+                let attributes = FlaneurWalkActivityAttributes(sessionId: session.sessionId, title: "Walk radar")
+                if #available(iOS 16.2, *) {
+                    let staleDate = session.status == .paused ? nil : Date().addingTimeInterval(180)
+                    activity = try Activity.request(
+                        attributes: attributes,
+                        content: ActivityContent(state: state, staleDate: staleDate),
+                        pushType: nil
+                    )
+                } else {
+                    activity = try Activity.request(
+                        attributes: attributes,
+                        contentState: state,
+                        pushType: nil
+                    )
+                }
                 lastUpdate = Date()
                 lastDistance = session.distanceMeters
                 lastStatus = session.status.rawValue
+                lifecycleState = "active"
+                lastErrorMessage = nil
             } catch {
+                lifecycleState = "error"
+                lastErrorMessage = error.localizedDescription
                 NSLog("Flaneur Live Activity start failed: %@", error.localizedDescription)
             }
             return
@@ -939,13 +1255,16 @@ private final class FlaneurLiveActivityController {
         let enoughMovement = abs(session.distanceMeters - lastDistance) >= 25
         let statusChanged = session.status.rawValue != lastStatus
         guard force || enoughTime || enoughMovement || statusChanged else { return }
+        let state = makeState(session: session, radar: radar(), elapsedSeconds: elapsedSeconds)
         lastUpdate = Date()
         lastDistance = session.distanceMeters
         lastStatus = session.status.rawValue
+        lifecycleState = "active"
         guard let activity else { return }
         Task {
             if #available(iOS 16.2, *) {
-                await activity.update(ActivityContent(state: state, staleDate: Date().addingTimeInterval(180)))
+                let staleDate = session.status == .paused ? nil : Date().addingTimeInterval(180)
+                await activity.update(ActivityContent(state: state, staleDate: staleDate))
             } else {
                 await activity.update(using: state)
             }
@@ -957,6 +1276,8 @@ private final class FlaneurLiveActivityController {
     }
 
     private func endImmediately(state: FlaneurWalkActivityAttributes.ContentState?) {
+        lifecycleState = "ended"
+        lastErrorMessage = nil
         guard let activity else { return }
         self.activity = nil
         let finalState = state ?? FlaneurWalkActivityAttributes.ContentState(

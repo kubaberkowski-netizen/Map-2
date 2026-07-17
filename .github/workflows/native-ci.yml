@@ -13,7 +13,11 @@ on:
       - "tools/build-native.js"
       - "tools/normalize-native-text.js"
       - "tools/patch-active-walk.js"
+      - "tools/patch-mobile-review.js"
+      - "tools/tests/**"
       - "src/app.template.html"
+      - "vendor/**"
+      - "sw.js"
   workflow_dispatch:
 
 permissions:

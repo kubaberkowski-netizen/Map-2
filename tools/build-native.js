@@ -38,6 +38,32 @@ function copyDir(rel) {
   }
 }
 
+function verifyRelativeCssAssets() {
+  const cssFiles = [];
+  (function findCss(dir) {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const absolute = path.join(dir, entry.name);
+      if (entry.isDirectory()) findCss(absolute);
+      else if (entry.isFile() && entry.name.endsWith(".css")) cssFiles.push(absolute);
+    }
+  })(OUT);
+
+  for (const cssFile of cssFiles) {
+    const css = fs.readFileSync(cssFile, "utf8");
+    const pattern = /url\(\s*["']?([^"')]+)["']?\s*\)/gi;
+    let match;
+    while ((match = pattern.exec(css))) {
+      const reference = match[1].trim().split(/[?#]/, 1)[0];
+      if (!reference || /^(?:https?:|data:|blob:|\/\/|#)/i.test(reference)) continue;
+      const target = path.resolve(path.dirname(cssFile), reference);
+      if (!target.startsWith(`${OUT}${path.sep}`) || !fs.existsSync(target) || !fs.statSync(target).isFile()) {
+        const owner = path.relative(OUT, cssFile);
+        throw new Error(`native CSS asset is missing: ${owner} -> ${reference}`);
+      }
+    }
+  }
+}
+
 fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });
 
@@ -56,6 +82,11 @@ for (const rel of required) {
 
 // Fonts and app icons are referenced by the generated HTML and manifest.
 copyDir("fonts");
+// CSS can reference sibling assets that are not present in index.html. Copy the
+// complete vendored map runtimes so Leaflet's default markers/layers survive
+// Capacitor packaging, then validate every relative CSS URL below.
+copyDir("vendor/leaflet");
+copyDir("vendor/leaflet-markercluster");
 for (const name of fs.readdirSync(ROOT)) {
   if (/^icon-.*\.png$/i.test(name)) copyFile(name);
   if (/^(?:spots|fixtures)(?:\.[a-z]+)?\.[0-9a-f]+\.js$/i.test(name)) copyFile(name);
@@ -101,6 +132,7 @@ if (!nativeHtml.includes("window.__FLANEUR_NATIVE__=true")) {
   throw new Error("native runtime marker was not written");
 }
 fs.writeFileSync(nativeIndex, nativeHtml);
+verifyRelativeCssAssets();
 
 const copied = [];
 (function walk(dir, prefix = "") {
