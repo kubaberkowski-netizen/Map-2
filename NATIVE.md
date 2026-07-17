@@ -252,6 +252,28 @@ quit. Points already committed remain recoverable. A recording recovered after
 more than two minutes without a native update is restored paused so downtime is
 not counted as walking time.
 
+### Apple Watch companion
+
+The `Flâneur Watch` target is a phone-connected watchOS 10 companion. Walks are
+still created and saved by the iPhone; the Watch is the glanceable in-walk
+surface. It shows elapsed time, distance, the next stop, and a compass-oriented
+radar with 150, 300, and 600 metre Digital Crown ranges. A fresh iPhone fix is
+preferred, with Watch GPS and heading used when the phone location becomes
+stale.
+
+The iPhone retains the latest bounded session snapshot through Watch
+Connectivity application context. Pause, Resume, and End are validated against
+the session ID, executed by the native iPhone recorder even when the WebView is
+suspended, explicitly acknowledged, and reconciled into the shared web state.
+Check-in remains phone-authoritative because it needs the current visit,
+distance, and cooldown rules. Controls require a reachable iPhone; a cached
+radar can remain visible while disconnected.
+
+The companion bundle identifier is
+`com.kubaberkowski.flaneur.watchkitapp`, paired with
+`com.kubaberkowski.flaneur`. Device/TestFlight signing must cover the iPhone
+app, Live Activity widget, and Watch app.
+
 ### Android
 
 The recorder is a user-started location foreground service. Its private,
@@ -324,6 +346,10 @@ physical-device builds:
   Island where available, privacy-redacted presentation, three-minute stale
   state, and `flaneur://walk` tap-to-open. Confirm there are no advertised
   no-launch Pause/End controls.
+- [ ] On a paired physical Apple Watch, verify live radar freshness, Digital
+  Crown range changes, phone-disconnected fallback, and acknowledged
+  Pause/Resume, End, and check-in commands while the iPhone is locked and
+  backgrounded.
 - [ ] On Android, test the private and public/redacted notification on a locked
   device, Pause/Resume and End without opening the app, and a stale action from
   an earlier session. The stale action must not alter the current walk.
@@ -333,16 +359,19 @@ physical-device builds:
 
 Google Play also requires the location foreground-service declaration and an
 accurate prominent disclosure. Device/TestFlight signing must include the iOS
-widget extension. Retain device logs for failed cases and do not mark this list
-complete from an unsigned or simulator-only build.
+widget extension and embedded Watch app target. Retain device logs for failed
+cases and do not mark this list complete from an unsigned or simulator-only
+build.
 
 ## Release sequence
 
 1. Validate refresh recovery and Tube segmentation in the PWA.
 2. Validate the iOS recorder and Live Activity on a signed physical iPhone.
-3. Validate the Android foreground service across API 24, 33, 34 and 36.
-4. Add final app icons, privacy manifests, signing and store disclosures.
-5. Ship TestFlight and Play internal-test builds before public distribution.
+3. Validate the companion on a paired physical Apple Watch, including a locked
+   and backgrounded iPhone.
+4. Validate the Android foreground service across API 24, 33, 34 and 36.
+5. Add final app icons, privacy manifests, signing and store disclosures.
+6. Ship TestFlight and Play internal-test builds before public distribution.
 
 The application identifier is currently `com.kubaberkowski.flaneur`. Change it
 before the first store release only if a different permanent bundle identifier

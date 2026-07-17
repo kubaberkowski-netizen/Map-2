@@ -120,13 +120,56 @@ final class NativeWalkRecorderPlugin: CAPPlugin, CAPBridgedPlugin {
         CAPPluginMethod(name: "discard", returnType: CAPPluginReturnPromise)
     ]
 
-    private var engine: NativeWalkEngine!
+    private static let sharedEngine = NativeWalkEngine()
+
+    private var engine: NativeWalkEngine { Self.sharedEngine }
     private var pendingPermissionCalls: [CAPPluginCall] = []
 
+    /// Creates the shared recorder early enough to recover a locked-screen walk
+    /// before Capacitor finishes loading its WebView.
+    static func prepareForLaunch() {
+        _ = sharedEngine
+        if let snapshot = watchSnapshot() {
+            try? WatchSessionCoordinator.shared.publish(snapshot: snapshot)
+        }
+    }
+
+    /// A compact, property-list-safe session for Watch Connectivity. The
+    /// native copy includes its persisted target context so relaunch recovery
+    /// does not depend on the WebView waking first.
+    static func watchSnapshot() -> [String: Any]? {
+        guard let session = sharedEngine.session else { return nil }
+        return sharedEngine.watchPayload(for: session)
+    }
+
+    /// Executes controls that must remain responsive while JavaScript is
+    /// suspended. The web layer still receives the command and performs its
+    /// durable session reconciliation when it next runs.
+    static func executeWatchCommand(
+        _ command: String,
+        sessionId: String
+    ) throws -> [String: Any] {
+        let session: NativeWalkSession
+        switch command {
+        case "pause":
+            session = try sharedEngine.pause(sessionId: sessionId)
+        case "resume":
+            session = try sharedEngine.resume(sessionId: sessionId)
+        case "end":
+            session = try sharedEngine.stop(sessionId: sessionId)
+        default:
+            throw NativeWalkError.noSession
+        }
+        return sharedEngine.payload(for: session, includePoints: false)
+    }
+
     override func load() {
-        engine = NativeWalkEngine()
         engine.onUpdate = { [weak self] payload in
-            self?.notifyListeners("walkUpdate", data: payload)
+            WatchSessionCoordinator.shared.consumeNativeWalkUpdate(
+                payload,
+                nativeSnapshot: Self.watchSnapshot()
+            )
+            self?.notifyListeners("walkUpdate", data: payload, retainUntilConsumed: true)
         }
         engine.onAuthorizationChange = { [weak self] in
             self?.resolvePendingPermissionCalls()
@@ -700,6 +743,48 @@ private final class NativeWalkEngine: NSObject, CLLocationManagerDelegate {
             "state": enabled ? "ready" : "disabled",
             "error": NSNull()
         ]
+    }
+
+    func watchPayload(for session: NativeWalkSession) -> [String: Any] {
+        func targetPayload(_ target: NativeRadarTarget) -> [String: Any] {
+            [
+                "id": target.id,
+                "name": target.name,
+                "emoji": target.emoji,
+                "latitude": target.latitude,
+                "longitude": target.longitude,
+                "isCheckedIn": false,
+                "isVisited": false
+            ]
+        }
+
+        var result: [String: Any] = [
+            "schema": 1,
+            "sessionId": session.sessionId,
+            "state": session.status == .stopped ? "ended" : session.status.rawValue,
+            "startedAt": session.startedAt,
+            "elapsedSeconds": elapsedSeconds(for: session),
+            "distanceMeters": session.distanceMeters,
+            "routeStops": session.context.routeStops.map(targetPayload),
+            "nearbyTargets": session.context.radarCandidates.map(targetPayload),
+            "radarRangeMeters": session.context.rangeMeters,
+            "updatedAt": session.updatedAt
+        ]
+        if let nextStopID = session.context.routeStops.first?.id {
+            result["nextStopId"] = nextStopID
+        }
+        if let latest = session.points.last {
+            var location: [String: Any] = [
+                "latitude": latest.latitude,
+                "longitude": latest.longitude,
+                "timestamp": latest.timestamp
+            ]
+            if let accuracy = latest.accuracy {
+                location["accuracy"] = accuracy
+            }
+            result["currentLocation"] = location
+        }
+        return result
     }
 
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {

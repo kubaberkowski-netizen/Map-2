@@ -7,7 +7,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Activate Watch Connectivity before the web bridge loads so commands
+        // sent while the phone UI is inactive can be retained for delivery.
+        WatchSessionCoordinator.shared.activate()
+        NativeWalkRecorderPlugin.prepareForLaunch()
         return true
     }
 
