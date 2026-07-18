@@ -5973,33 +5973,45 @@ html[data-fl-native="1"] .root[data-tab="near"]:not([data-near-view="map"]) .nea
 html[data-fl-native="1"] .root[data-tab="walk"]>.wrap{overflow:hidden!important;}
 html[data-fl-native="1"] .root[data-tab="walk"] .tabpane{
   position:relative;height:100%;min-height:0;margin:0!important;padding:0!important;overflow-y:auto;
-  overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch;scrollbar-width:none;
+  overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch;scrollbar-width:none;scroll-padding-bottom:72px;
 }
 html[data-fl-native="1"] .root[data-tab="walk"][data-native-stage="walk-home"] .tabpane{
-  display:flex;flex-direction:column;gap:10px;overflow:hidden;
+  display:flex;flex-direction:column;gap:12px;overflow-y:auto;
 }
 html[data-fl-native="1"] .root[data-tab="walk"][data-native-stage="walk-home"] .tabpane>*{display:none!important;}
 html[data-fl-native="1"] .root[data-tab="walk"][data-native-stage="walk-home"] .tabpane>.routeseg{
   display:flex!important;flex:none;margin:0!important;
 }
 html[data-fl-native="1"] .root[data-tab="walk"][data-native-stage="walk-home"] .tabpane>.walkintro{
-  display:flex!important;flex:1;min-height:0;flex-direction:column;margin:0!important;overflow:hidden;
+  display:flex!important;flex:none;min-height:0;flex-direction:column;margin:0!important;overflow:visible;
 }
-html[data-fl-native="1"] .root[data-tab="walk"] .walkintrocopy{flex:none;padding:3px 2px 9px;}
-html[data-fl-native="1"] .root[data-tab="walk"] .walkintro h1{font-size:30px;}
-html[data-fl-native="1"] .root[data-tab="walk"] .walkintrocopy>p{margin-top:6px;font-size:11.5px;}
-html[data-fl-native="1"] .root[data-tab="walk"] .walkdetour{
-  flex:1;min-height:230px;max-height:310px;padding:18px;border-radius:22px;
-}
-html[data-fl-native="1"] .root[data-tab="walk"] .walkdetourmeta{margin-top:20px;}
-html[data-fl-native="1"] .root[data-tab="walk"] .walkdetour h2{font-size:27px;}
+html[data-fl-native="1"] .root[data-tab="walk"] .walkintrocopy{flex:none;padding:8px 3px 10px;}
+html[data-fl-native="1"] .root[data-tab="walk"] .walkintro h1{max-width:12ch;font-size:30px;line-height:1.02;}
+html[data-fl-native="1"] .root[data-tab="walk"] .walkintrocopy>p{max-width:37ch;margin-top:8px;font-size:12.5px;line-height:1.48;}
+html[data-fl-native="1"] .root[data-tab="walk"] .walkdetour,
+html[data-fl-native="1"] .root[data-tab="walk"] .walkdetourempty{display:none!important;}
 html[data-fl-native="1"] .root[data-tab="walk"] .walkquick{
-  flex:none;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin-top:8px;
+  flex:none;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin-top:4px;
 }
 html[data-fl-native="1"] .root[data-tab="walk"] .walkquick button{
-  min-height:56px;padding:9px 10px;border-radius:14px;
+  min-height:72px;padding:12px;border-radius:16px;
 }
-html[data-fl-native="1"] .root[data-tab="walk"] .native-build-walk{grid-column:1/-1;}
+html[data-fl-native="1"] .root[data-tab="walk"] .walkquick button>b{font-size:13.5px;}
+html[data-fl-native="1"] .root[data-tab="walk"] .walkquick button>small{font-size:9.5px;line-height:1.3;}
+html[data-fl-native="1"] .root[data-tab="walk"] .native-curated-walk{order:1;}
+html[data-fl-native="1"] .root[data-tab="walk"] .native-build-walk{order:2;grid-column:auto;}
+html[data-fl-native="1"] .root[data-tab="walk"] .native-track-walk{
+  order:3;grid-column:1/-1;min-height:68px;border-color:color-mix(in srgb,var(--compass) 30%,var(--line));
+  background:color-mix(in srgb,var(--compass) 7%,var(--surface));
+}
+html[data-fl-native="1"] .root[data-tab="walk"] .native-track-walk>small{color:var(--compass);font-weight:700;}
+html[data-fl-native="1"] .root[data-tab="walk"] .native-track-walk[data-recording="1"]{
+  border-color:var(--red);background:var(--redbg);
+}
+html[data-fl-native="1"] .root[data-tab="walk"] .native-walk-track-note{
+  margin:11px 3px 0;color:var(--ink3);font-size:11px;line-height:1.45;
+}
+html[data-fl-native="1"] .root[data-tab="walk"] .native-walk-track-note b{color:var(--ink2);}
 html[data-fl-native="1"] .native-stage-back{
   position:sticky;z-index:90;top:0;display:flex;align-items:center;gap:8px;width:100%;min-height:46px;
   margin:0 0 10px;padding:0 12px;border:1px solid var(--line);border-radius:14px;
@@ -6016,6 +6028,18 @@ html[data-fl-native="1"] .root[data-tab="walk"][data-native-stage]:not([data-nat
   display:none!important;
 }
 html[data-fl-native="1"] .root[data-tab="walk"] .wizgo{bottom:10px!important;}
+html[data-fl-native="1"] .root[data-tab="walk"][data-native-stage="walk-track"] .trackcard:not(.rec){
+  min-height:0!important;padding:20px 18px!important;border-radius:22px;
+}
+html[data-fl-native="1"] .root[data-tab="walk"][data-native-stage="walk-track"] .trackhead>.trackeyebrow{margin-bottom:18px;}
+html[data-fl-native="1"] .root[data-tab="walk"][data-native-stage="walk-track"] .trackhead>b{max-width:14ch;font-size:28px;line-height:1.02;}
+html[data-fl-native="1"] .root[data-tab="walk"][data-native-stage="walk-track"] .trackhead>.tracklede{margin-bottom:16px;font-size:11.5px;}
+html[data-fl-native="1"] .root[data-tab="walk"] .native-track-privacy{
+  margin:10px 4px 0;color:rgba(255,249,238,.62);font-size:9.5px;line-height:1.4;text-align:center;
+}
+html[data-fl-native="1"] .root[data-tab="walk"] .trackcard.rec .trackbtns{
+  bottom:8px!important; /* the native content viewport already ends above the safe-area-aware nav */
+}
 
 /* Plan: three tap-through screens instead of one long web form. */
 html[data-fl-native="1"] .root[data-tab="plan"]>.wrap{overflow:hidden!important;}
@@ -6212,18 +6236,49 @@ function wakeMaps(){setTimeout(function(){try{W.dispatchEvent(new Event("resize"
 function scrollNativeTop(){try{var r=root(),els=r&&r.querySelectorAll(":scope > .wrap,.tabpane,.trophies,.wizlist"),i;for(i=0;els&&i<els.length;i++)els[i].scrollTop=0}catch(e){}}
 function setWalkStage(stage){var r=root(),next=stage||"walk-home";if(!r)return;if(r.getAttribute("data-native-stage")!==next)r.setAttribute("data-native-stage",next);setTimeout(enhanceWalk,0)}
 function ensureButton(cls,label,sub){var b=D.createElement("button");b.type="button";b.className=cls;b.innerHTML='<span aria-hidden="true">⌁</span><b>'+label+'</b><small>'+sub+'</small>';return b}
+function setWalkChoice(button,action,label,sub){
+  if(!button)return;button.setAttribute("data-native-walk-action",action);button.classList.add("native-walk-choice","native-"+action+"-walk");
+  var heading=button.querySelector("b"),detail=button.querySelector("small");if(heading&&heading.textContent!==label)heading.textContent=label;if(detail&&detail.textContent!==sub)detail.textContent=sub;
+  button.setAttribute("aria-label",label+". "+sub);
+}
 function enhanceWalk(){
   var r=root();if(!r||r.getAttribute("data-tab")!=="walk")return;
   if(!r.getAttribute("data-native-stage"))r.setAttribute("data-native-stage","walk-home");
   var pane=r.querySelector(".tabpane"),intro=pane&&pane.querySelector(".walkintro"),quick=intro&&intro.querySelector(".walkquick");
   if(quick&&!quick.querySelector(".native-build-walk")){
-    var build=ensureButton("native-build-walk","Build a walk","Shape a route in a few taps");
+    var build=ensureButton("native-build-walk","Build a walk","Shape a route in a few taps");build.setAttribute("data-native-walk-action","build");
     build.addEventListener("click",function(){var wm=pane.querySelector(".walkmode"),b=findButton(wm,"Build a walk");setWalkStage("walk-build");if(b)b.click()});
     quick.appendChild(build);
+  }
+  if(intro){
+    var title=intro.querySelector(".walkintrocopy h1"),lede=intro.querySelector(".walkintrocopy p");
+    if(title&&title.textContent!=="Choose how you want to walk.")title.textContent="Choose how you want to walk.";
+    if(lede&&lede.textContent!=="Follow a field route, shape your own, or simply head out.")lede.textContent="Follow a field route, shape your own, or simply head out.";
+  }
+  if(quick){
+    var choices=buttons(quick),curated=quick.querySelector('[data-native-walk-action="curated"]'),track=quick.querySelector('[data-native-walk-action="track"]'),i,label;
+    for(i=0;i<choices.length;i++){label=text(choices[i]);if(!curated&&label.indexOf("Curated")>=0)curated=choices[i];if(!track&&(label.indexOf("Record")>=0||label.indexOf("Resume")>=0||label.indexOf("Track a free")>=0))track=choices[i]}
+    var isRecording=!!(track&&text(track).indexOf("Resume")>=0);
+    setWalkChoice(curated,"curated","Curated walks","Follow a field route");
+    setWalkChoice(quick.querySelector(".native-build-walk"),"build","Build a walk","Shape a route in a few taps");
+    setWalkChoice(track,"track",isRecording?"Resume recording":"Track a free walk",isRecording?"Live now · reopen walk controls":"Optional · GPS trace, time and distance");
+    if(track)track.setAttribute("data-recording",isRecording?"1":"0");
+    var note=intro&&intro.querySelector(".native-walk-track-note");if(intro&&!note){note=D.createElement("p");note.className="native-walk-track-note";intro.appendChild(note)}
+    if(note)note.innerHTML=track&&track.getAttribute("data-recording")==="1"?'<b>Your walk is recording.</b> Reopen it to pause, edit or finish.':'<b>Tracking is optional.</b> Nothing is recorded until you tap Start tracking.';
   }
   var stage=r.getAttribute("data-native-stage"),back=pane&&pane.querySelector(".native-stage-back");
   if(stage!=="walk-home"&&pane&&!back){back=D.createElement("button");back.type="button";back.className="native-stage-back";back.setAttribute("aria-label","Back to Walk");back.innerHTML='<span aria-hidden="true">‹</span> Walk home';pane.insertBefore(back,pane.firstChild)}
   if(stage==="walk-home"&&back)back.remove();
+  if(stage==="walk-track"&&pane){
+    var setup=pane.querySelector(".trackcard:not(.rec)");if(setup){
+      var eyebrow=setup.querySelector(".trackeyebrow"),setupTitle=setup.querySelector(".trackhead>b"),setupLede=setup.querySelector(".tracklede"),start=setup.querySelector(".trackstart"),privacy=setup.querySelector(".native-track-privacy"),j;
+      if(eyebrow)eyebrow.textContent=text(eyebrow).replace(/^YOUR OWN LINE/,"OPTIONAL TRACKING");
+      if(setupTitle)setupTitle.textContent="Keep a trace of this walk?";
+      if(setupLede)setupLede.textContent="Start only if you want distance, route and Watch radar.";
+      if(start){start.setAttribute("aria-label","Start tracking this walk");for(j=0;j<start.childNodes.length;j++)if(start.childNodes[j].nodeType===3)start.childNodes[j].nodeValue=" Start tracking"}
+      if(!privacy){privacy=D.createElement("p");privacy.className="native-track-privacy";privacy.textContent="Nothing is recorded until you start. Saved on this device.";setup.appendChild(privacy)}
+    }
+  }
 }
 function tagGames(){
   var r=root();if(!r||r.getAttribute("data-tab")!=="games")return;
@@ -6307,9 +6362,11 @@ function clickHandler(ev){
     else if(t.indexOf("Curated")>=0)setWalkStage("walk-curated");
     else if(t.indexOf("Track")>=0)setWalkStage("walk-track");return;
   }
-  if(b.closest(".walkquick")){
-    if(t.indexOf("Curated")>=0)setWalkStage("walk-curated");
-    else if(t.indexOf("Record")>=0)setWalkStage("walk-track");return;
+  var walkAction=b.getAttribute("data-native-walk-action");
+  if(walkAction){
+    if(walkAction==="build")setWalkStage("walk-build");
+    else if(walkAction==="curated")setWalkStage("walk-curated");
+    else if(walkAction==="track")setWalkStage("walk-track");return;
   }
   if(b.classList.contains("native-more-games")){if(r){if(r.getAttribute("data-native-games")!=="cabinet")r.setAttribute("data-native-games","cabinet");gamesPage=0;tagGames()}return}
   var ga=b.getAttribute("data-native-game");

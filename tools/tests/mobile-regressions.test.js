@@ -73,6 +73,33 @@ test("vendored map styles have every relative image required by native bundles",
   }
 });
 
+test("the generated map loader uses bundled assets without stale CDN integrity", () => {
+  const generated = fs.readFileSync(path.resolve(__dirname, "../../index.html"), "utf8");
+  const start = generated.indexOf('i.href="./vendor/leaflet/leaflet.css"');
+  const end = generated.indexOf("},[]);let qc=", start);
+  assert.ok(start >= 0 && end > start, "the generated Leaflet loader is extractable");
+  const loader = generated.slice(start, end);
+  assert.match(loader, /\.\/vendor\/leaflet\/leaflet\.js/);
+  assert.match(loader, /\.\/vendor\/leaflet-markercluster\/leaflet\.markercluster\.js/);
+  assert.doesNotMatch(loader, /i\.integrity=/, "local CSS must not retain the CDN SRI");
+  assert.doesNotMatch(loader, /c\.integrity=/, "local JS must not retain the CDN SRI");
+});
+
+test("native text normalization cannot mutate Capacitor public payloads", () => {
+  const normalizer = fs.readFileSync(
+    path.resolve(__dirname, "../normalize-native-text.js"),
+    "utf8"
+  );
+  assert.match(normalizer, /SKIP_DIRS[^\n]+"public"/);
+});
+
+test("native walk home and live controls keep the compact layout contract", () => {
+  assert.match(appTemplateSource, /\.walkdetourempty\{display:none!important;\}/);
+  assert.match(appTemplateSource, /\.native-track-walk\{/);
+  assert.match(appTemplateSource, /Tracking is optional\.<\/b> Nothing is recorded until you tap Start tracking\./);
+  assert.match(appTemplateSource, /\.trackcard\.rec \.trackbtns\{\s*bottom:8px!important;/);
+});
+
 test("archive duration trusts native elapsed time, including a legitimate zero", () => {
   const route = [
     { timestamp: 60_000 },

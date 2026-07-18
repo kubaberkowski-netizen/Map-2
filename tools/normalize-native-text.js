@@ -14,7 +14,10 @@ const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
 const TARGETS = ["android", "ios"];
-const SKIP_DIRS = new Set([".gradle", "build", "DerivedData", "Pods"]);
+// Capacitor owns each generated `public/` payload. Normalizing those files after
+// `cap sync` mutates shipped third-party assets (and previously invalidated
+// Leaflet's integrity hash), so only normalize native source/project text.
+const SKIP_DIRS = new Set([".gradle", "build", "DerivedData", "Pods", "public"]);
 const SKIP_EXTENSIONS = new Set([
   ".aab",
   ".aar",
