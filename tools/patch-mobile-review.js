@@ -40,9 +40,20 @@ function replaceExpected(label, needle, replacement, expected) {
 }
 
 // Bundle Leaflet with the app so the first native launch does not depend on a CDN.
-replaceOnce("local Leaflet CSS", 'i.href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"', 'i.href="./vendor/leaflet/leaflet.css"');
+// The CDN integrity metadata must go with the CDN URL: Capacitor's text
+// normalizer and the checked-in LF-normalized CSS do not have the CDN bytes, so
+// retaining that SRI would make WKWebView reject our trusted same-origin files.
+replaceOnce(
+  "local Leaflet CSS without stale CDN SRI",
+  'i.href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",i.integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=",i.crossOrigin="anonymous"',
+  'i.href="./vendor/leaflet/leaflet.css"'
+);
 replaceOnce("local cluster CSS", '_mcl.href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"', '_mcl.href="./vendor/leaflet-markercluster/MarkerCluster.css"');
-replaceOnce("local Leaflet JS", 'c.src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"', 'c.src="./vendor/leaflet/leaflet.js"');
+replaceOnce(
+  "local Leaflet JS without stale CDN SRI",
+  'c.src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",c.integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=",c.crossOrigin="anonymous"',
+  'c.src="./vendor/leaflet/leaflet.js"'
+);
 replaceOnce("local cluster JS", '_mc.src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"', '_mc.src="./vendor/leaflet-markercluster/leaflet.markercluster.js"');
 
 // Weather belongs to the selected city/location, not to whichever city loaded first today.
