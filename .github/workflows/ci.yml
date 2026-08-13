@@ -43,6 +43,18 @@ jobs:
       - name: Run mobile regression contracts
         run: npm run test:mobile
 
+      - name: Run hills research-pipeline contracts
+        run: npm run test:hills
+
+      - name: Run balanced research-category contracts
+        run: npm run test:research-categories
+
+      - name: Run discovery wave 2 import contracts
+        run: npm run test:discovery-wave2
+
+      - name: Run Paris deep-run import contracts
+        run: npm run test:paris
+
       - name: Check pull-request diff
         if: github.event_name == 'pull_request'
         env:
