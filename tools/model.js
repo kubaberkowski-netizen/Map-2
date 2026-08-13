@@ -10,7 +10,8 @@
  * white-screen the app or be rejected at build time.
  *
  * Exposes: loadModel(), loadCatalogue(), slugify(), uniqueId(), haversineM(),
- * cityForPoint(), validateRow(), findDuplicate(), REQUIRED, BBOX_MARGIN.
+ * cityForPoint(), validateRow(), findDuplicate(), REQUIRED, BBOX_MARGIN,
+ * REGION_MARGIN.
  */
 const fs = require("fs");
 const path = require("path");
@@ -23,6 +24,7 @@ const SPOTS = path.join(ROOT, "data", "spots.json");
 // Mirror build.js exactly so "valid here" == "valid at build time".
 const REQUIRED = ["id", "n", "a", "pc", "lat", "lng", "c", "s", "q", "w", "city"];
 const BBOX_MARGIN = 0.1; // same ±0.1° gross-typo guard build.js uses
+const REGION_MARGIN = 1.0; // same generous region guard build.js uses
 
 // --- generic acorn helpers ---------------------------------------------------
 function scriptBodyOf(html) {
@@ -90,11 +92,13 @@ function loadModel() {
           (p) => p.type === "Property" && (p.key.name === name || p.key.value === name)
         );
       const id = get("id"), nm = get("name"), bb = get("bbox");
+      const rg = get("region");
       const bbox = bb && bb.value.type === "ArrayExpression" ? bb.value.elements.map(numOf) : null;
       return {
         id: id && id.value && id.value.value,
         name: nm && nm.value && nm.value.value,
         bbox, // [minLng, minLat, maxLng, maxLat]
+        region: !!(rg && rg.value && !(rg.value.type === "Literal" && !rg.value.value)),
         centre: bbox ? [(bbox[1] + bbox[3]) / 2, (bbox[0] + bbox[2]) / 2] : null, // [lat,lng]
       };
     })
@@ -188,9 +192,10 @@ function validateRow(row, model = loadModel()) {
   const city = model.cityById.get(row.city);
   if (city && Number.isFinite(row.lat) && Number.isFinite(row.lng)) {
     const b = city.bbox;
+    const margin = city.region ? REGION_MARGIN : BBOX_MARGIN;
     const ok =
-      row.lng >= b[0] - BBOX_MARGIN && row.lng <= b[2] + BBOX_MARGIN &&
-      row.lat >= b[1] - BBOX_MARGIN && row.lat <= b[3] + BBOX_MARGIN;
+      row.lng >= b[0] - margin && row.lng <= b[2] + margin &&
+      row.lat >= b[1] - margin && row.lat <= b[3] + margin;
     if (!ok) errors.push(`coord outside city "${row.city}" bbox — likely a geocoding error`);
   }
   return { ok: errors.length === 0, errors };
@@ -215,7 +220,7 @@ function findDuplicate(cand, cat, { proximityM = 120 } = {}) {
 }
 
 module.exports = {
-  REQUIRED, BBOX_MARGIN,
+  REQUIRED, BBOX_MARGIN, REGION_MARGIN,
   loadModel, loadCatalogue,
   slugify, uniqueId, norm,
   haversineM, cityForPoint,

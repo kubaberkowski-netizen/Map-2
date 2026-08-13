@@ -1,0 +1,1720 @@
+{
+  "schema_version": 2,
+  "created_at": "2026-08-09",
+  "title": "Paris culture, faith and commerce — August 2026 strict deep run",
+  "status": "Imported as quality-d drafts; pending human field review and promotion.",
+  "target_included": 50,
+  "included_count": 30,
+  "screened_count": 128,
+  "snapshot": {
+    "catalogue_spots_checked": 17237,
+    "existing_paris_rows_checked": 140,
+    "live_categories_checked": 64,
+    "global_proximity_threshold_m": 120,
+    "presumed_duplicate_threshold_m": 30,
+    "snapshot_commit": "95536dfa",
+    "checked_at": "2026-08-09"
+  },
+  "import": {
+    "state": "imported_as_draft",
+    "draft_only": true,
+    "quality_flag": "d",
+    "editorial_status": "pending_human_field_review_and_promotion",
+    "warning": "Trip-window evidence is for 13–16 August 2026. Recheck same-day notices before field testing."
+  },
+  "import_metadata": {
+    "status": "imported_as_draft",
+    "imported_at": "2026-08-09",
+    "imported_count": 30,
+    "quality_flag": "d",
+    "waves": [25, 5],
+    "proximity_threshold_m": 30,
+    "catalogue_snapshot_before_import": 17237,
+    "catalogue_rows_after_bundle_import": 17328,
+    "paris_rows_after_bundle_import": 231,
+    "editorial_status": "pending_human_field_review_and_promotion",
+    "do_not_reimport": true
+  },
+  "method": {
+    "editorial_contract": "A rare, story-led and physically legible Paris objective that rewards a flâneur without depending on a pre-booked interior.",
+    "scope": "Culture, worship, books, film, music, archives, food and drink, markets, finance, stadiums and specialist retail; every assigned category was audited even where no row survived.",
+    "exclusions": "Chains, generic restaurants or museums, ordinary famous checklist venues, appointment-only retail, event-only worship spaces, places whose special feature is closed during the visit, and rows colliding below 30 metres with the catalogue.",
+    "source_policy": "At least two useful sources per retained row, including a current first-party, municipal, manager or institutional source; dated August closures override generic hours.",
+    "trip_window_policy": "Access was checked specifically for Thursday 13 through Sunday 16 August 2026. A row may remain usable when 15 August is closed if at least one other trip day is explicitly supported.",
+    "coordinate_policy": "Use the named OSM object, surveyed address point, first-party storefront map or official municipal destination marker; never geocode only a neighbourhood.",
+    "dedupe_policy": "Names, aliases, external IDs and coordinates were compared globally against 17,237 rows. Under 30 metres was cut; 30–119 metres required a written distinct-place rationale.",
+    "score_policy": "Minimum 19/25 overall, story and walkability each at least 4/5, and every confidence dimension high. The run stopped below its ceiling rather than padding weak categories."
+  },
+  "validation": {
+    "all_production_fields_present": true,
+    "all_rows_have_two_or_more_sources": true,
+    "all_facts_are_atomic_claims_with_relevant_source_urls": true,
+    "all_coordinate_bases_are_structured_and_directly_inspectable": true,
+    "all_rows_have_current_official_or_first_party_source": true,
+    "all_rows_have_trip_window_access_note": true,
+    "all_scores_at_least_19": true,
+    "all_story_and_walkability_at_least_4": true,
+    "all_confidence_dimensions_high": true,
+    "all_city_values_paris": true,
+    "all_rows_draft_only": true,
+    "exact_catalogue_name_or_alias_matches": 0,
+    "manual_existing_sub_120m_reviews": 4,
+    "manual_internal_sub_120m_reviews": 1,
+    "checked_at": "2026-08-09"
+  },
+  "included": [
+    {
+      "id": "museefrancmaconnerie",
+      "n": "Musée de la Franc-Maçonnerie",
+      "a": "16 Rue Cadet, 9e",
+      "pc": "75009",
+      "lat": 48.8749151,
+      "lng": 2.3431481,
+      "c": "museum",
+      "s": "three centuries of symbols behind the Grand Orient's Cadet Street door",
+      "q": "Musée de la Franc-Maçonnerie 16 Rue Cadet Paris",
+      "w": "A public museum inside the Grand Orient de France traces lodge ritual, objects and civic networks through three centuries. The contrast between an ordinary Cadet Street frontage and rooms full of aprons, seals and ceremonial furniture gives the stop its charge.",
+      "city": "paris",
+      "aliases": ["Musée de la Franc-maçonnerie", "Musée du Grand Orient de France"],
+      "external_ids": {"osm_node": "1336873192", "official_url": "https://museefm.org/"},
+      "facts": [
+        {
+          "claim": "The collection interprets French freemasonry through objects, archives and lodge furnishings.",
+          "source_urls": [
+            "https://www.visitparisregion.com/fr/musee-de-la-franc-maconnerie"
+          ]
+        },
+        {
+          "claim": "The official museum site publishes public visitor information at 16 Rue Cadet.",
+          "source_urls": [
+            "https://museefm.org/actu.htm",
+            "https://www.visitparisregion.com/fr/musee-de-la-franc-maconnerie"
+          ]
+        },
+        {
+          "claim": "The museum is closed on 15 August but supports visits on 13, 14 or 16 August 2026.",
+          "source_urls": [
+            "https://museefm.org/actu.htm"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://museefm.org/actu.htm", "role": "Current first-party visitor, closure and 2026 exhibition status.", "first_party": true},
+        {"url": "https://www.visitparisregion.com/fr/musee-de-la-franc-maconnerie", "role": "Official regional visitor description, collection and address corroboration.", "official": true},
+        {"url": "https://www.openstreetmap.org/node/1336873192", "role": "Named storefront coordinate at the current address.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Walk-in museum; closed 15 August, so use 13, 14 or 16 August at posted hours.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/1336873192",
+        "note": "Named OSM museum node fixed to the public door at 16 Rue Cadet.",
+        "source_url": "https://www.openstreetmap.org/node/1336873192"
+      },
+      "editorial_score": {"story": 5, "walkability": 4, "distinctiveness": 5, "source_quality": 5, "geographic_value": 3, "total": 22},
+      "dedupe": {"nearest_existing": {"id": "maisonlouvard", "n": "Maison Louvard", "distance_m": 207}, "threshold_m": 120, "outcome": "clear", "rationale": "No catalogue alias or identity conflict; the nearest row is an unrelated bakery."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "museedelamusique",
+      "n": "Musée de la Musique",
+      "a": "221 Avenue Jean-Jaurès, 19e",
+      "pc": "75019",
+      "lat": 48.8901928,
+      "lng": 2.393712,
+      "c": "music",
+      "s": "a thousand instruments make music history physically audible",
+      "q": "Musée de la Musique Philharmonie de Paris 221 Avenue Jean Jaurès",
+      "w": "The Philharmonie displays roughly a thousand instruments from a collection of about eight thousand, pairing physical craft with recordings and musicians' stories. It is a museum best read as an enormous playable family tree rather than a generic arts stop.",
+      "city": "paris",
+      "aliases": ["Musée de la musique de la Philharmonie", "Cité de la musique museum"],
+      "external_ids": {"osm_node": "5304864568", "official_url": "https://philharmoniedeparis.fr/fr/musee-de-la-musique"},
+      "facts": [
+        {
+          "claim": "Around one thousand instruments are displayed from a collection of roughly eight thousand.",
+          "source_urls": [
+            "https://philharmoniedeparis.fr/fr/musee-de-la-musique"
+          ]
+        },
+        {
+          "claim": "The official summer programme confirms the museum is active during August 2026.",
+          "source_urls": [
+            "https://philharmoniedeparis.fr/fr/programmation/votre-ete-la-philharmonie"
+          ]
+        },
+        {
+          "claim": "The conservative field-test window is 13, 14 or 16 August; 15 August is omitted because campus holiday pages differ.",
+          "source_urls": [
+            "https://philharmoniedeparis.fr/fr/informations-pratiques/horaires",
+            "https://philharmoniedeparis.fr/fr/programmation/votre-ete-la-philharmonie"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://philharmoniedeparis.fr/fr/musee-de-la-musique", "role": "Current first-party collection, visitor and museum identity.", "first_party": true},
+        {"url": "https://philharmoniedeparis.fr/fr/informations-pratiques/horaires", "role": "Current first-party opening and exceptional-closure information.", "first_party": true},
+        {"url": "https://philharmoniedeparis.fr/fr/programmation/votre-ete-la-philharmonie", "role": "First-party summer 2026 operating programme.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/node/5304864568", "role": "Named museum entrance node at the Philharmonie address.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Ticketed walk-in museum; plan for 13, 14 or 16 August and avoid relying on 15 August.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/5304864568",
+        "note": "Named OSM museum entrance node at the Philharmonie address.",
+        "source_url": "https://www.openstreetmap.org/node/5304864568"
+      },
+      "editorial_score": {"story": 5, "walkability": 4, "distinctiveness": 5, "source_quality": 5, "geographic_value": 3, "total": 22},
+      "dedupe": {"nearest_existing": {"id": "citedessciencesetdelindu", "n": "Cité des Sciences et de l'Industrie", "distance_m": 747}, "threshold_m": 120, "outcome": "clear", "rationale": "No close catalogue neighbour or alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "salleovalebnf",
+      "n": "Salle Ovale de la BnF Richelieu",
+      "a": "5 Rue Vivienne, 2e",
+      "pc": "75002",
+      "lat": 48.8670223,
+      "lng": 2.3389229,
+      "c": "archive",
+      "s": "twenty thousand books beneath an immense oval glass crown",
+      "q": "Salle Ovale BnF Richelieu 5 Rue Vivienne Paris",
+      "w": "The restored Oval Room is a free public reading room rather than a roped-off library set: anyone can walk in, sit beneath the great glazed dome and browse more than twenty thousand volumes. It turns the national library into a usable civic interior.",
+      "city": "paris",
+      "aliases": ["Salle Ovale", "Oval Room BnF", "BnF Richelieu Salle Ovale"],
+      "external_ids": {"osm_node": "687052437", "official_url": "https://www.bnf.fr/fr/la-salle-ovale"},
+      "facts": [
+        {
+          "claim": "The room is free and open to all without a reader card.",
+          "source_urls": [
+            "https://www.bnf.fr/fr/la-salle-ovale"
+          ]
+        },
+        {
+          "claim": "Its open shelves hold more than twenty thousand books and comics.",
+          "source_urls": [
+            "https://www.bnf.fr/fr/la-salle-ovale"
+          ]
+        },
+        {
+          "claim": "Richelieu is closed on 15 August, leaving 13, 14 and 16 August supported.",
+          "source_urls": [
+            "https://www.bnf.fr/fr/richelieu"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.bnf.fr/fr/la-salle-ovale", "role": "Current official identity, free public use and collection facts.", "official": true},
+        {"url": "https://www.bnf.fr/fr/richelieu", "role": "Current official access, hours and August closure information.", "official": true},
+        {"url": "https://www.openstreetmap.org/node/687052437", "role": "Surveyed address point for the 5 Rue Vivienne public entrance.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Free walk-in reading room; closed 15 August, available 13, 14 and 16 August.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/687052437",
+        "note": "Surveyed OSM address node for the BnF's 5 Rue Vivienne public entrance.",
+        "source_url": "https://www.openstreetmap.org/node/687052437"
+      },
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 3, "total": 23},
+      "dedupe": {
+        "nearest_existing": {"id": "galerievivienne", "n": "Galerie Vivienne", "distance_m": 67},
+        "threshold_m": 120,
+        "outcome": "clear-after-manual-review",
+        "rationale": "The BnF reading-room entrance is a distinct national-library destination, not the neighbouring commercial arcade.",
+        "internal_neighbours": [{"id": "librairiejousseaume", "status": "distinct", "rationale": "A free monumental reading room and a private antiquarian bookshop have separate entrances, access rules and experiences."}]
+      },
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "citeco",
+      "n": "Citéco",
+      "a": "1 Place du Général-Catroux, 17e",
+      "pc": "75017",
+      "lat": 48.8818908,
+      "lng": 2.3106965,
+      "c": "finance",
+      "s": "economics experiments inside a neo-Renaissance bank mansion",
+      "q": "Citéco Cité de l'Économie Place du Général Catroux Paris",
+      "w": "France's economics museum occupies the fantastical Hôtel Gaillard, built for a nineteenth-century banker and later converted into a Banque de France branch. Games about markets and money sit inside rooms designed to look like a Loire château, making the institutional story visible before a label is read.",
+      "city": "paris",
+      "aliases": ["Cité de l'Économie", "Cité de l'Economie", "Hôtel Gaillard Citéco"],
+      "external_ids": {"osm_node": "6548929685", "official_url": "https://www.citeco.fr/infos-pratiques"},
+      "facts": [
+        {
+          "claim": "The museum occupies the former Hôtel Gaillard and Banque de France branch.",
+          "source_urls": [
+            "https://www.citeco.fr/"
+          ]
+        },
+        {
+          "claim": "It interprets money and economics through interactive exhibits.",
+          "source_urls": [
+            "https://www.citeco.fr/"
+          ]
+        },
+        {
+          "claim": "Its 2026 maintenance closure begins 17 August, after the user's 13–16 August visit.",
+          "source_urls": [
+            "https://www.citeco.fr/infos-pratiques"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.citeco.fr/infos-pratiques", "role": "Current first-party hours, visitor access and dated 17–30 August 2026 closure.", "first_party": true},
+        {"url": "https://www.citeco.fr/", "role": "Current first-party museum concept and Hôtel Gaillard setting.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/node/6548929685", "role": "Named entrance coordinate at Place du Général-Catroux.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Ticketed walk-in museum operating through 16 August; maintenance closure starts 17 August.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/6548929685",
+        "note": "Named OSM Cité de l'Économie entrance node at the official address.",
+        "source_url": "https://www.openstreetmap.org/node/6548929685"
+      },
+      "editorial_score": {"story": 5, "walkability": 4, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "dedupe": {"nearest_existing": {"id": "museecernuschi", "n": "Musée Cernuschi", "distance_m": 229}, "threshold_m": 120, "outcome": "clear", "rationale": "No close catalogue neighbour or alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "museehistoireimmigration",
+      "n": "Musée national de l'histoire de l'immigration",
+      "a": "293 Avenue Daumesnil, 12e",
+      "pc": "75012",
+      "lat": 48.8351424,
+      "lng": 2.4093613,
+      "c": "diaspora",
+      "s": "migration stories confront the colonial palace that contains them",
+      "q": "Musée national de l'histoire de l'immigration Palais de la Porte Dorée Paris",
+      "w": "France's immigration museum occupies the Palais de la Porte Dorée, a building created for the 1931 Colonial Exhibition. That tension is the point: personal objects, testimony and migration routes are read inside an architecture built to project imperial power.",
+      "city": "paris",
+      "aliases": ["Musée de l'histoire de l'immigration", "MNHI", "Palais de la Porte Dorée immigration museum"],
+      "external_ids": {"osm_node": "4908819676", "official_url": "https://www.histoire-immigration.fr/programmation/expositions/l-exposition-permanente"},
+      "facts": [
+        {
+          "claim": "The permanent galleries tell the history of immigration to France through objects and testimony.",
+          "source_urls": [
+            "https://www.histoire-immigration.fr/programmation/expositions/l-exposition-permanente"
+          ]
+        },
+        {
+          "claim": "The museum occupies the palace built for the 1931 Colonial Exhibition.",
+          "source_urls": [
+            "https://www.histoire-immigration.fr/programmation/expositions/l-exposition-permanente"
+          ]
+        },
+        {
+          "claim": "The current exhibition Aux origines runs through 23 August 2026.",
+          "source_urls": [
+            "https://www.histoire-immigration.fr/programmation/expositions/aux-origines"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.histoire-immigration.fr/programmation/expositions/l-exposition-permanente", "role": "Current official permanent-gallery and visitor identity.", "official": true},
+        {"url": "https://www.histoire-immigration.fr/programmation/expositions/aux-origines", "role": "Official exhibition status through 23 August 2026.", "official": true},
+        {"url": "https://www.histoire-immigration.fr/agenda", "role": "Current official trip-window programme and access corroboration.", "official": true},
+        {"url": "https://www.openstreetmap.org/node/4908819676", "role": "Named museum entrance node at 293 Avenue Daumesnil.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Public museum with current galleries and an exhibition continuing beyond 16 August; recheck 15 August holiday notices same day.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/4908819676",
+        "note": "Named OSM museum entrance node at 293 Avenue Daumesnil.",
+        "source_url": "https://www.openstreetmap.org/node/4908819676"
+      },
+      "editorial_score": {"story": 5, "walkability": 4, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "dedupe": {"nearest_existing": {"id": "velodromedevincennes", "n": "Vélodrome de Vincennes", "distance_m": 1036}, "threshold_m": 120, "outcome": "clear", "rationale": "No close catalogue neighbour or alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "lelouxor",
+      "n": "Le Louxor",
+      "a": "170 Boulevard de Magenta, 10e",
+      "pc": "75010",
+      "lat": 48.8835022,
+      "lng": 2.3500543,
+      "c": "cinema",
+      "s": "a 1921 Egyptian picture palace restored above Barbès",
+      "q": "Le Louxor cinema 170 Boulevard de Magenta Paris",
+      "w": "The Louxor is the rare Paris cinema whose story is legible from across the junction: a blue-and-gold Egyptian Revival façade from 1921. Restored film rooms and a roof bar extend the fantasy without turning it into a static monument.",
+      "city": "paris",
+      "aliases": ["Louxor Palais du Cinéma", "Cinéma Le Louxor"],
+      "external_ids": {"osm_way": "63198697", "official_url": "https://www.cinemalouxor.fr/"},
+      "facts": [
+        {
+          "claim": "The cinema opened in 1921 with an Egyptian-inspired decorative programme.",
+          "source_urls": [
+            "https://www.cinemalouxor.fr/lhistoire-du-louxor/"
+          ]
+        },
+        {
+          "claim": "It was restored and reopened as a working neighbourhood cinema.",
+          "source_urls": [
+            "https://www.cinemalouxor.fr/lhistoire-du-louxor/"
+          ]
+        },
+        {
+          "claim": "The first-party events calendar confirms active August 2026 programming.",
+          "source_urls": [
+            "https://www.cinemalouxor.fr/evenements/"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.cinemalouxor.fr/lhistoire-du-louxor/", "role": "First-party building history and restoration story.", "first_party": true},
+        {"url": "https://www.cinemalouxor.fr/evenements/", "role": "Current first-party event and visitor status around the trip window.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/way/63198697", "role": "Named cinema geometry and frontage coordinate.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Working ticketed cinema with current August events; exact screening times should be reconfirmed on the day.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_way",
+        "object": "way/63198697",
+        "note": "Named OSM cinema geometry on the Boulevard de Magenta public frontage.",
+        "source_url": "https://www.openstreetmap.org/way/63198697"
+      },
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "dedupe": {"nearest_existing": {"id": "hallesaintpierre", "n": "Halle Saint-Pierre", "distance_m": 432}, "threshold_m": 120, "outcome": "clear", "rationale": "No close catalogue cinema or alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "cinemaepeedebois",
+      "n": "Cinéma L'Épée de Bois",
+      "a": "100 Rue Mouffetard, 5e",
+      "pc": "75005",
+      "lat": 48.8412698,
+      "lng": 2.3495453,
+      "c": "cinema",
+      "s": "a tiny Mouffetard repertory cinema staying open through summer nights",
+      "q": "Cinéma L'Épée de Bois 100 Rue Mouffetard Paris",
+      "w": "Two intimate screens keep repertory cinema alive behind a modest Mouffetard doorway. Its summer Permission de minuit programme is unusually practical for this trip: the little cinema explicitly stays active while much independent Paris closes.",
+      "city": "paris",
+      "aliases": ["L'Épée de Bois", "Cinema Epee de Bois"],
+      "external_ids": {"osm_node": "1427838202", "official_url": "https://www.cine-epeedebois.fr/"},
+      "facts": [
+        {
+          "claim": "The independent cinema operates two small public screens on Rue Mouffetard.",
+          "source_urls": [
+            "https://www.cine-epeedebois.fr/location-de-salles/"
+          ]
+        },
+        {
+          "claim": "Its Permission de minuit season runs from 6 through 29 August 2026.",
+          "source_urls": [
+            "https://www.cine-epeedebois.fr/events/72529-permission-de-minuit/"
+          ]
+        },
+        {
+          "claim": "A separate first-party event page states that L'Épée remains open throughout July and August with dedicated programming.",
+          "source_urls": [
+            "https://www.cine-epeedebois.fr/events/19975-croissant-et-cinema/"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.cine-epeedebois.fr/events/72529-permission-de-minuit/", "role": "First-party 6–29 August 2026 Permission de minuit season.", "first_party": true},
+        {"url": "https://www.cine-epeedebois.fr/events/19975-croissant-et-cinema/", "role": "First-party statement that the cinema remains open throughout July and August with dedicated programming.", "first_party": true},
+        {"url": "https://www.cine-epeedebois.fr/location-de-salles/", "role": "First-party two-screen identity, capacities and Rue Mouffetard address.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/node/1427838202", "role": "Named public entrance coordinate.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Ticketed cinema explicitly open through July and August; the dated Permission de minuit season runs 6–29 August and covers 13–16 August.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/1427838202",
+        "note": "Named OSM cinema door on the 100 Rue Mouffetard frontage.",
+        "source_url": "https://www.openstreetmap.org/node/1427838202"
+      },
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 3, "total": 21},
+      "dedupe": {"nearest_existing": {"id": "laclef", "n": "La Clef", "distance_m": 212}, "threshold_m": 120, "outcome": "clear", "rationale": "Separate operating cinema, address and programme; no alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "maxlinderpanorama",
+      "n": "Max Linder Panorama",
+      "a": "24 Boulevard Poissonnière, 9e",
+      "pc": "75009",
+      "lat": 48.8713796,
+      "lng": 2.3448127,
+      "c": "cinema",
+      "s": "one immense black auditorium stacked across three theatrical levels",
+      "q": "Max Linder Panorama 24 Boulevard Poissonnière Paris",
+      "w": "Behind a discreet boulevard front is a single 557-seat black auditorium, a 107-square-metre curved screen and three tiers that feel closer to an opera house than a multiplex. The live schedule makes the architecture testable every day of the visit.",
+      "city": "paris",
+      "aliases": ["Le Max Linder", "Max Linder cinema"],
+      "external_ids": {"osm_node": "1428007260", "official_url": "https://maxlinder.com/"},
+      "facts": [
+        {
+          "claim": "The single auditorium has 557 velvet seats plus 17 folding seats on three levels.",
+          "source_urls": [
+            "https://www.paris.fr/pages/10-anecdotes-qui-font-l-histoire-des-cinemas-independants-a-paris-7916"
+          ]
+        },
+        {
+          "claim": "Its curved screen measures 107 square metres.",
+          "source_urls": [
+            "https://www.paris.fr/pages/10-anecdotes-qui-font-l-histoire-des-cinemas-independants-a-paris-7916"
+          ]
+        },
+        {
+          "claim": "The live schedule lists five daily Undertone screenings on 13, 14, 15 and 16 August 2026.",
+          "source_urls": [
+            "https://maxlinder.com/"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/10-anecdotes-qui-font-l-histoire-des-cinemas-independants-a-paris-7916", "role": "Official municipal history, three-level auditorium and giant-screen corroboration.", "official": true},
+        {"url": "https://maxlinder.com/", "role": "Current first-party trip-date screening and public trading status.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/node/1428007260", "role": "Named cinema entrance coordinate.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Walk-in ticketed cinema with multiple first-party screenings listed on every trip date, 13–16 August.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/1428007260",
+        "note": "Named OSM cinema entrance node on Boulevard Poissonnière.",
+        "source_url": "https://www.openstreetmap.org/node/1428007260"
+      },
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 3, "total": 23},
+      "dedupe": {"nearest_existing": {"id": "bouillonchartier", "n": "Bouillon Chartier", "distance_m": 106}, "threshold_m": 120, "outcome": "clear-after-manual-review", "rationale": "The neighbour is a historic restaurant across the boulevard district; this is a separately entered single-screen cinema."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "librairieulysse",
+      "n": "Librairie Ulysse",
+      "a": "26 Rue Saint-Louis en l'Île, 4e",
+      "pc": "75004",
+      "lat": 48.851513,
+      "lng": 2.3576062,
+      "c": "bookshops",
+      "s": "the kilometre zero of travel books and paper maps",
+      "q": "Librairie Ulysse 26 Rue Saint-Louis en l'Île Paris",
+      "w": "Founded in 1971 by explorer Catherine Domain, Ulysse calls itself the kilometre zero of the world and stocks only travel: guides, narratives, maps and hard-to-find regional material. Even the lack of mobile signal turns browsing paper geography into part of the joke.",
+      "city": "paris",
+      "aliases": ["Ulysse Librairie de voyage", "Ulysse Paris"],
+      "external_ids": {"osm_node": "3259521785", "official_url": "https://ulysse.fr/"},
+      "facts": [
+        {
+          "claim": "Catherine Domain founded the travel-only bookshop in 1971.",
+          "source_urls": [
+            "https://www.ulysse.fr/Histoire-de-la-librairie"
+          ]
+        },
+        {
+          "claim": "It specialises in travel literature, guides and maps, including search help for scarce material.",
+          "source_urls": [
+            "https://www.ulysse.fr/Histoire-de-la-librairie",
+            "https://ulysse.fr/-Recherches-"
+          ]
+        },
+        {
+          "claim": "The current site posts Paris hours Tuesday to Friday, 14:00–20:00.",
+          "source_urls": [
+            "https://ulysse.fr/"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://ulysse.fr/", "role": "Current first-party Paris address, public trading hours and 2026 site status.", "first_party": true},
+        {"url": "https://www.ulysse.fr/Histoire-de-la-librairie", "role": "First-party founding story and specialist identity.", "first_party": true},
+        {"url": "https://ulysse.fr/-Recherches-", "role": "First-party map and rare travel-book search service.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/node/3259521785", "role": "Named shop node at the current Rue Saint-Louis-en-l'Île storefront.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Normal posted Paris hours support Thursday 13 and Friday 14 August; no later first-party closure notice was found. Recheck by phone because the owner also runs a seasonal Hendaye branch.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/3259521785",
+        "note": "Named OSM shop node at the current 26 Rue Saint-Louis en l'Île storefront.",
+        "source_url": "https://www.openstreetmap.org/node/3259521785"
+      },
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 4, "geographic_value": 3, "total": 22},
+      "dedupe": {"nearest_existing": {"id": "museedelamagie", "n": "Musée de la Magie", "distance_m": 316}, "threshold_m": 120, "outcome": "clear", "rationale": "No catalogue bookshop or alias conflict nearby."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "librairiejousseaume",
+      "n": "Librairie Jousseaume",
+      "a": "45 Galerie Vivienne, 2e",
+      "pc": "75002",
+      "lat": 48.8669688,
+      "lng": 2.3399267,
+      "c": "bookshops",
+      "s": "an 1826 antiquarian bookshop embedded in its original arcade",
+      "q": "Librairie Jousseaume Galerie Vivienne Paris",
+      "w": "Jousseaume has sold old books and prints from Galerie Vivienne since 1826. The stock and the arcade belong to the same surviving commercial ecology: browse nineteenth- and twentieth-century volumes beneath the passage's glass roof rather than merely walking through it.",
+      "city": "paris",
+      "aliases": ["Jousseaume Librairie", "Librairie Ancienne Jousseaume"],
+      "external_ids": {"osm_node": "9732529253", "official_url": "https://www.librairiejousseaume.fr/"},
+      "facts": [
+        {
+          "claim": "The shop dates its presence in Galerie Vivienne to 1826.",
+          "source_urls": [
+            "https://www.galerie-vivienne.com/boutiques/culture/librairie-jousseaume"
+          ]
+        },
+        {
+          "claim": "It specialises in old books, prints and nineteenth- and twentieth-century material.",
+          "source_urls": [
+            "https://www.librairiejousseaume.fr/",
+            "https://www.galerie-vivienne.com/boutiques/culture/librairie-jousseaume"
+          ]
+        },
+        {
+          "claim": "The gallery manager posts current public hours Monday to Saturday, 11:00–19:00.",
+          "source_urls": [
+            "https://www.galerie-vivienne.com/boutiques/culture/librairie-jousseaume"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.librairiejousseaume.fr/", "role": "Current first-party inventory, identity and shop contact.", "first_party": true},
+        {"url": "https://www.galerie-vivienne.com/boutiques/culture/librairie-jousseaume", "role": "Official arcade-manager history, address and current trading hours.", "land_manager": true},
+        {"url": "https://www.openstreetmap.org/node/9732529253", "role": "Named shop coordinate inside Galerie Vivienne.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Public shop with manager-posted Monday–Saturday hours; no dated August closure notice was found, so 13 or 14 August is the conservative plan.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/9732529253",
+        "note": "Named OSM shop node inside Galerie Vivienne, not the passage centroid.",
+        "source_url": "https://www.openstreetmap.org/node/9732529253"
+      },
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 3, "total": 22},
+      "dedupe": {"nearest_existing": {"id": "galerievivienne", "n": "Galerie Vivienne", "distance_m": 34}, "threshold_m": 120, "outcome": "clear-after-manual-review", "rationale": "The catalogue row is the public arcade; Jousseaume is a separately named, entered and traded antiquarian shop within it."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "abbeybookshop",
+      "n": "The Abbey Bookshop",
+      "a": "29 Rue de la Parcheminerie, 5e",
+      "pc": "75005",
+      "lat": 48.8517939,
+      "lng": 2.3445289,
+      "c": "bookshops",
+      "s": "English books packed floor to ceiling in a medieval lane",
+      "q": "The Abbey Bookshop 29 Rue de la Parcheminerie Paris",
+      "w": "A Canadian-founded English-language shop has spent more than three decades turning a tiny Latin Quarter room into canyons of new and used books. Boxes, ladders and double-stacked shelves make the act of finding a title feel archaeological.",
+      "city": "paris",
+      "aliases": ["Abbey Bookshop Paris", "The Abbey"],
+      "external_ids": {"official_url": "https://www.abbeybookshop.org/"},
+      "facts": [
+        {
+          "claim": "The independent English-language shop has operated in Paris for more than three decades.",
+          "source_urls": [
+            "https://www.abbeybookshop.org/"
+          ]
+        },
+        {
+          "claim": "It sells both new and used books in a densely stacked storefront.",
+          "source_urls": [
+            "https://www.abbeybookshop.org/"
+          ]
+        },
+        {
+          "claim": "Its current contact page posts daily hours, including Sunday afternoon.",
+          "source_urls": [
+            "https://www.abbeybookshop.org/contact"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.abbeybookshop.org/contact", "role": "Current first-party public hours, address and contact.", "first_party": true},
+        {"url": "https://www.abbeybookshop.org/", "role": "First-party current inventory and independent-shop identity.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/node/708802680", "role": "Surveyed storefront address coordinate.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Walk-in shop with daily posted hours; no August closure notice was present on the first-party site as checked 9 August.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/708802680",
+        "note": "Surveyed OSM address node at the 29 Rue de la Parcheminerie shop door.",
+        "source_url": "https://www.openstreetmap.org/node/708802680"
+      },
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 4, "source_quality": 4, "geographic_value": 3, "total": 20},
+      "dedupe": {"nearest_existing": {"id": "studiogalande", "n": "Studio Galande", "distance_m": 190}, "threshold_m": 120, "outcome": "clear", "rationale": "It is about 208 metres from the existing Shakespeare and Company row and has no alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "violetteandco",
+      "n": "Violette and Co",
+      "a": "52 Rue Jean-Pierre-Timbaud, 11e",
+      "pc": "75011",
+      "lat": 48.8664443,
+      "lng": 2.3729302,
+      "c": "bookshops",
+      "s": "a feminist and LGBTQ bookshop rebuilt as a cooperative commons",
+      "q": "Violette and Co 52 Rue Jean-Pierre Timbaud Paris",
+      "w": "Founded in 2004 and relaunched as a cooperative, Violette and Co combines roughly 7,500 feminist, lesbian and LGBTQ references with a café and event room. It feels less like a themed shelf than a working community institution with books at its core.",
+      "city": "paris",
+      "aliases": ["Violette & Co", "Librairie Violette and Co"],
+      "external_ids": {"osm_node": "3151759572", "official_url": "https://www.violetteandco.com/"},
+      "facts": [
+        {
+          "claim": "The bookshop was founded in 2004 and now operates as a cooperative.",
+          "source_urls": [
+            "https://www.violetteandco.com/"
+          ]
+        },
+        {
+          "claim": "Its catalogue centres feminist, lesbian and LGBTQ writing and includes a café and events.",
+          "source_urls": [
+            "https://www.violetteandco.com/"
+          ]
+        },
+        {
+          "claim": "Current posted hours are Tuesday–Saturday 10:30–19:30 and Sunday 14:00–19:00.",
+          "source_urls": [
+            "https://www.violetteandco.com/scop/informations-pratiques/"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.violetteandco.com/", "role": "Current first-party identity, cooperative model and specialist range.", "first_party": true},
+        {"url": "https://www.violetteandco.com/scop/informations-pratiques/", "role": "Current first-party public trading hours and access.", "first_party": true},
+        {"url": "https://www.violetteandco.com/scop/agenda/", "role": "Dated 2026 activity and address corroboration.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/node/3151759572", "role": "Named storefront node at 52 Rue Jean-Pierre-Timbaud.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Walk-in cooperative bookshop; normal posted hours cover 13, 14 and 16 August, with no later closure notice found.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/3151759572",
+        "note": "Named OSM storefront node at 52 Rue Jean-Pierre-Timbaud.",
+        "source_url": "https://www.openstreetmap.org/node/3151759572"
+      },
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 4, "total": 22},
+      "dedupe": {"nearest_existing": {"id": "steelcyclewearandcoffees", "n": "Steel Cyclewear & Coffeeshop", "distance_m": 195}, "threshold_m": 120, "outcome": "clear", "rationale": "No close catalogue bookshop or alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "baladessonores",
+      "n": "Balades Sonores",
+      "a": "8 Rue Pierre-Picard, 18e",
+      "pc": "75018",
+      "lat": 48.8847592,
+      "lng": 2.3463417,
+      "c": "vinyl",
+      "s": "thirty thousand records in a label-minded Barbès cave",
+      "q": "Balades Sonores 8 Rue Pierre Picard Paris record shop",
+      "w": "Balades Sonores is a record shop, distributor and label ecosystem with more than thirty thousand references rather than a souvenir bin of classics. The narrow Barbès space rewards browsing micro-labels, local releases and staff selections across genres.",
+      "city": "paris",
+      "aliases": ["Les Balades Sonores", "Balades Sonores Paris"],
+      "external_ids": {"osm_node": "12232432862", "official_url": "https://www.baladessonores.com/la-boutique/"},
+      "facts": [
+        {
+          "claim": "The shop states an inventory of more than thirty thousand references.",
+          "source_urls": [
+            "https://www.baladessonores.com/la-boutique/"
+          ]
+        },
+        {
+          "claim": "It combines record retail with distribution and label activity.",
+          "source_urls": [
+            "https://www.baladessonores.com/la-boutique/"
+          ]
+        },
+        {
+          "claim": "The professionally updated 27 July 2026 listing posts Tuesday–Saturday trading, supporting visits on 13, 14 or 15 August.",
+          "source_urls": [
+            "https://www.pagesjaunes.fr/pros/53696107"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.baladessonores.com/la-boutique/", "role": "Current first-party storefront, inventory and public visitor details.", "first_party": true},
+        {"url": "https://www.pagesjaunes.fr/pros/53696107", "role": "Professionally updated 27 July 2026 trading status, Tuesday–Saturday hours and same address.", "official": false},
+        {"url": "https://www.openstreetmap.org/node/12232432862", "role": "Named shop node at 8 Rue Pierre-Picard.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "The current Tuesday–Saturday schedule supports Thursday 13, Friday 14 and Saturday 15 August; Sunday 16 is closed.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/12232432862",
+        "note": "Named OSM shop node at 8 Rue Pierre-Picard.",
+        "source_url": "https://www.openstreetmap.org/node/12232432862"
+      },
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 3, "total": 21},
+      "dedupe": {"nearest_existing": {"id": "hallesaintpierre", "n": "Halle Saint-Pierre", "distance_m": 139}, "threshold_m": 120, "outcome": "clear", "rationale": "Outside the global review radius and no catalogue vinyl alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "soufflecontinu",
+      "n": "Souffle Continu",
+      "a": "20–22 Rue Gerbier, 11e",
+      "pc": "75011",
+      "lat": 48.8589046,
+      "lng": 2.3861906,
+      "c": "vinyl",
+      "s": "experimental sound catalogued in a neighbourhood record room",
+      "q": "Souffle Continu 20 Rue Gerbier Paris disquaire",
+      "w": "Souffle Continu narrows its shelves toward experimental music, improvisation, noise, minimalism and difficult reissues. The pleasure is categorical: a small room where labels and genres normally scattered online become a physical map.",
+      "city": "paris",
+      "aliases": ["Souffle Continu Disquaire", "Souffle Continu Paris"],
+      "external_ids": {"osm_node": "4784209729", "official_url": "https://www.soufflecontinu.com/support/lp/"},
+      "facts": [
+        {
+          "claim": "The shop specialises in experimental, improvised and independent music on LP and CD.",
+          "source_urls": [
+            "https://www.soufflecontinu.com/support/lp/",
+            "https://www.soufflecontinu.com/support/cd/"
+          ]
+        },
+        {
+          "claim": "The current catalogue shows live stock and recent releases.",
+          "source_urls": [
+            "https://www.soufflecontinu.com/support/lp/",
+            "https://www.soufflecontinu.com/support/cd/"
+          ]
+        },
+        {
+          "claim": "The first-party site posts Monday–Friday 11:00–19:00 and Saturday 11:00–20:00.",
+          "source_urls": [
+            "https://www.soufflecontinu.com/support/lp/"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.soufflecontinu.com/support/lp/", "role": "Current first-party vinyl stock, address and public trading hours.", "first_party": true},
+        {"url": "https://www.soufflecontinu.com/support/cd/", "role": "Current first-party specialist inventory and continued trading corroboration.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/node/4784209729", "role": "Named shop coordinate at Rue Gerbier.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Normal first-party hours support 13, 14 and 15 August; no dated summer closure notice was found as of 9 August, so reconfirm day-of.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/4784209729",
+        "note": "Named OSM shop node on the 20–22 Rue Gerbier frontage.",
+        "source_url": "https://www.openstreetmap.org/node/4784209729"
+      },
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 5, "source_quality": 4, "geographic_value": 3, "total": 21},
+      "dedupe": {"nearest_existing": {"id": "perelachaise", "n": "Cimetière du Père-Lachaise", "distance_m": 520}, "threshold_m": 120, "outcome": "clear", "rationale": "No close catalogue record shop or alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "parisjazzcorner",
+      "n": "Paris Jazz Corner",
+      "a": "5 Rue de Navarre, 5e",
+      "pc": "75005",
+      "lat": 48.8443051,
+      "lng": 2.3535002,
+      "c": "vinyl",
+      "s": "jazz history sorted into playable shelves beside the Arènes",
+      "q": "Paris Jazz Corner 5 Rue de Navarre record shop",
+      "w": "This is a jazz-only working archive of LPs, EPs, CDs and photographs, organised by style from bebop to free jazz and Brazilian music. Its Rue de Navarre shop turns a walk past the Roman arena into a dive through recorded twentieth-century lineages.",
+      "city": "paris",
+      "aliases": ["Paris Jazz Corner Records", "Paris Jazz Corner shop"],
+      "external_ids": {"osm_node": "4470669822", "official_url": "https://www.parisjazzcorner.com/"},
+      "facts": [
+        {
+          "claim": "The catalogue is devoted to jazz and adjacent traditions across LP, EP and CD.",
+          "source_urls": [
+            "https://www.parisjazzcorner.com/",
+            "https://www.parisjazzcorner.com/en/"
+          ]
+        },
+        {
+          "claim": "The first-party site displays current individual second-hand stock.",
+          "source_urls": [
+            "https://www.parisjazzcorner.com/"
+          ]
+        },
+        {
+          "claim": "The Paris shop posts Tuesday–Saturday public hours from 12:00 to 20:00.",
+          "source_urls": [
+            "https://www.parisjazzcorner.com/"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.parisjazzcorner.com/", "role": "Current first-party stock, Paris address and public trading hours.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/node/4470669822", "role": "Named storefront coordinate at 5 Rue de Navarre.", "official": false},
+        {"url": "https://www.parisjazzcorner.com/en/", "role": "First-party English catalogue and current visitor corroboration.", "first_party": true}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Normal public hours support 13, 14 and 15 August; no dated summer closure was found, so same-day confirmation is prudent.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/4470669822",
+        "note": "Named OSM shop node at 5 Rue de Navarre.",
+        "source_url": "https://www.openstreetmap.org/node/4470669822"
+      },
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 5, "source_quality": 4, "geographic_value": 3, "total": 21},
+      "dedupe": {"nearest_existing": {"id": "arenesdelutece", "n": "Arènes de Lutèce", "distance_m": 72}, "threshold_m": 120, "outcome": "clear-after-manual-review", "rationale": "The neighbour is an outdoor Roman arena; this is a separately entered jazz-specialist retail shop on Rue de Navarre."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "laflutedepan",
+      "n": "La Flûte de Pan",
+      "a": "49 Rue de Rome, 8e",
+      "pc": "75008",
+      "lat": 48.8785685,
+      "lng": 2.3221995,
+      "c": "music",
+      "s": "a wall-to-wall paper score library on Paris's instrument street",
+      "q": "La Flûte de Pan 49 Rue de Rome Paris partitions",
+      "w": "Rue de Rome's instrument district still has a shop devoted not to instruments but to the written infrastructure of music: scores, methods and specialist editions. Browsing shelves by composer and ensemble makes an abstract repertoire physically legible.",
+      "city": "paris",
+      "aliases": ["La Flute de Pan", "Librairie musicale La Flûte de Pan"],
+      "external_ids": {"osm_node": "3020509921", "official_url": "https://www.laflutedepan.com/"},
+      "facts": [
+        {
+          "claim": "The shop specialises in printed sheet music, methods and musical editions.",
+          "source_urls": [
+            "https://www.laflutedepan.com/"
+          ]
+        },
+        {
+          "claim": "The current visitor page places the physical shop at 49 Rue de Rome.",
+          "source_urls": [
+            "https://www.laflutedepan.com/aide.html"
+          ]
+        },
+        {
+          "claim": "The first-party help page posts Monday–Saturday 10:00–18:30 trading.",
+          "source_urls": [
+            "https://www.laflutedepan.com/aide.html"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.laflutedepan.com/aide.html", "role": "Current first-party Paris address, contact and public trading hours.", "first_party": true},
+        {"url": "https://www.laflutedepan.com/", "role": "Current first-party specialist score inventory and continued trading.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/node/3020509921", "role": "Named shop coordinate at 49 Rue de Rome.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Walk-in music shop under normal hours on 13 and 14 August; closed public-holiday status on 15 should be assumed unless reconfirmed.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/3020509921",
+        "note": "Named OSM shop node at the 49 Rue de Rome storefront.",
+        "source_url": "https://www.openstreetmap.org/node/3020509921"
+      },
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 4, "source_quality": 4, "geographic_value": 3, "total": 20},
+      "dedupe": {"nearest_existing": {"id": "museenissimdecamondo", "n": "Musée Nissim de Camondo", "distance_m": 690}, "threshold_m": 120, "outcome": "clear", "rationale": "No close catalogue music retailer or alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "notredamedutravail",
+      "n": "Notre-Dame-du-Travail",
+      "a": "59 Rue Vercingétorix, 14e",
+      "pc": "75014",
+      "lat": 48.8359383,
+      "lng": 2.3171389,
+      "c": "church",
+      "s": "a parish nave built like an iron railway shed",
+      "q": "Église Notre-Dame-du-Travail 59 Rue Vercingétorix Paris",
+      "w": "From the street it is a sober parish church; inside, recycled iron and exposed trusses turn the nave into a sacred railway hall. Built for Montparnasse labourers around 1900, it makes industrial Paris and devotional Paris occupy the same frame.",
+      "city": "paris",
+      "aliases": ["Église Notre-Dame-du-Travail", "Notre Dame du Travail"],
+      "external_ids": {"osm_way": "79687825", "official_url": "https://www.notredamedutravail.net/"},
+      "facts": [
+        {
+          "claim": "The church was built around 1900 for workers in the Montparnasse district.",
+          "source_urls": [
+            "https://notredamedutravail.net/visites-et-concerts/art-culture-et-foi"
+          ]
+        },
+        {
+          "claim": "Its nave exposes a large metal structural frame associated with exhibition-era ironwork.",
+          "source_urls": [
+            "https://notredamedutravail.net/visites-et-concerts/art-culture-et-foi"
+          ]
+        },
+        {
+          "claim": "The parish publishes daily public opening and a concert on 16 August 2026.",
+          "source_urls": [
+            "https://www.notredamedutravail.net/accueil/informations-pratiques",
+            "https://notredamedutravail.net/visites-et-concerts/concerts"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.notredamedutravail.net/accueil/informations-pratiques", "role": "Current first-party daily public access and address.", "first_party": true},
+        {"url": "https://notredamedutravail.net/visites-et-concerts/art-culture-et-foi", "role": "First-party architecture and visitor story.", "first_party": true},
+        {"url": "https://notredamedutravail.net/visites-et-concerts/concerts", "role": "Dated first-party 16 August 2026 public activity.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/way/79687825", "role": "Named church geometry at the official Rue Vercingétorix entrance address.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Public church open daily, including holidays; a first-party concert is listed for Sunday 16 August. Respect services and quiet areas.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_way",
+        "object": "way/79687825",
+        "note": "Named OSM church geometry at the official 59 Rue Vercingétorix entrance address.",
+        "source_url": "https://www.openstreetmap.org/way/79687825"
+      },
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "dedupe": {"nearest_existing": {"id": "hexagonecafe", "n": "Hexagone Café", "distance_m": 225}, "threshold_m": 120, "outcome": "clear", "rationale": "No close catalogue church or alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "sainteugenesaintececile",
+      "n": "Saint-Eugène–Sainte-Cécile",
+      "a": "4 Rue du Conservatoire, 9e",
+      "pc": "75009",
+      "lat": 48.8735516,
+      "lng": 2.3470066,
+      "c": "church",
+      "s": "France's first iron-framed church hides behind a Gothic mask",
+      "q": "Église Saint-Eugène Sainte-Cécile 4 Rue du Conservatoire Paris",
+      "w": "A compact Gothic-looking façade conceals what the parish describes as France's first church built with a metal frame. Slender cast-iron columns, painted vaults and stained glass produce a space far lighter and stranger than the street promises.",
+      "city": "paris",
+      "aliases": ["Église Saint-Eugène-Sainte-Cécile", "Saint Eugène Paris"],
+      "external_ids": {"official_url": "https://saint-eugene.net/"},
+      "facts": [
+        {
+          "claim": "The parish identifies the building as France's first church constructed with a metal frame.",
+          "source_urls": [
+            "https://saint-eugene.net/leglise/"
+          ]
+        },
+        {
+          "claim": "Cast-iron columns permit a thin, open interior beneath painted vaults.",
+          "source_urls": [
+            "https://saint-eugene.net/leglise/"
+          ]
+        },
+        {
+          "claim": "The current parish site posts daily opening from 07:15 to 21:00 and summer 2026 services.",
+          "source_urls": [
+            "https://saint-eugene.net/"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://saint-eugene.net/", "role": "Current first-party daily public access and summer 2026 service status.", "first_party": true},
+        {"url": "https://saint-eugene.net/leglise/", "role": "First-party architectural history and iron-frame claim.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/node/1242530485", "role": "Surveyed address point at 4 Rue du Conservatoire.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Public daily 07:15–21:00 under the posted summer schedule; visit outside Mass and remain quiet.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/1242530485",
+        "note": "Surveyed OSM address point on the church's Rue du Conservatoire frontage.",
+        "source_url": "https://www.openstreetmap.org/node/1242530485"
+      },
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 3, "total": 23},
+      "dedupe": {"nearest_existing": {"id": "bouillonchartier", "n": "Bouillon Chartier", "distance_m": 342}, "threshold_m": 120, "outcome": "clear", "rationale": "No close catalogue church or alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "templeganeshparis",
+      "n": "Temple Sri Manicka Vinayakar Alayam",
+      "a": "17 Rue Pajol, 18e",
+      "pc": "75018",
+      "lat": 48.8859141,
+      "lng": 2.3607218,
+      "c": "temple",
+      "s": "a daily Tamil Ganesh temple behind a La Chapelle shopfront",
+      "q": "Temple Sri Manicka Vinayakar Alayam Ganesh Rue Pajol Paris",
+      "w": "Paris's best-known Tamil Hindu temple compresses a vivid ritual world into an unassuming La Chapelle frontage. Open doors, flower offerings and three daily ceremonies make it a living diaspora place rather than an occasional festival stage.",
+      "city": "paris",
+      "aliases": ["Temple de Ganesh", "Sri Manicka Vinayakar Alayam", "Temple Ganesh Paris"],
+      "external_ids": {"osm_node": "1044971013", "official_url": "https://www.templeganesh.fr/"},
+      "facts": [
+        {
+          "claim": "The association dates the Paris temple to 1985.",
+          "source_urls": [
+            "https://templeganesh.fr/engli.htm"
+          ]
+        },
+        {
+          "claim": "It serves a Tamil Hindu community and centres worship of Ganesh.",
+          "source_urls": [
+            "https://www.templeganesh.fr/",
+            "https://templeganesh.fr/engli.htm"
+          ]
+        },
+        {
+          "claim": "The official site posts daily opening 08:30–20:00 and three ceremonies, including holidays.",
+          "source_urls": [
+            "https://www.templeganesh.fr/"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.templeganesh.fr/", "role": "Current first-party daily hours, ceremonies and 2026 activity.", "first_party": true},
+        {"url": "https://templeganesh.fr/engli.htm", "role": "First-party history, public visitor information and English identity.", "first_party": true},
+        {"url": "https://parisjetaime.com/eng/culture/temple-sri-manika-vinayakar-alayam-temple-de-ganesh-p980", "role": "Official Paris tourism access and address corroboration.", "official": true},
+        {"url": "https://www.openstreetmap.org/node/1044971013", "role": "Named temple entrance node at 17 Rue Pajol.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Public daily 08:30–20:00 with ceremonies; remove shoes where directed, dress respectfully and avoid obstructing worship.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/1044971013",
+        "note": "Named OSM temple entrance node at 17 Rue Pajol.",
+        "source_url": "https://www.openstreetmap.org/node/1044971013"
+      },
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 25},
+      "dedupe": {"nearest_existing": {"id": "rotondedelavillette", "n": "Rotonde de la Villette", "distance_m": 699}, "threshold_m": 120, "outcome": "clear", "rationale": "No catalogue temple, alias or close physical conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "marchedulivregeorgesbrassens",
+      "n": "Marché du livre ancien et d'occasion Georges-Brassens",
+      "a": "104 Rue Brancion, 15e",
+      "pc": "75015",
+      "lat": 48.83227829269761,
+      "lng": 2.3022570088505745,
+      "c": "market",
+      "s": "weekend booksellers fill the old horse-market hall",
+      "q": "Marché du livre ancien Georges Brassens 104 Rue Brancion Paris",
+      "w": "Every weekend, dealers in old and second-hand books occupy the former horse-market pavilions beside Parc Georges-Brassens. The iron shelter, boxes of ephemera and specialist sellers make it a market to browse by subject and accident.",
+      "city": "paris",
+      "aliases": ["Marché du livre Georges Brassens", "Marché du livre ancien et d'occasion"],
+      "external_ids": {"official_url": "https://www.paris.fr/lieux/marche-du-livre-ancien-et-d-occasion-georges-brassens-6463"},
+      "facts": [
+        {
+          "claim": "The market occupies pavilions associated with the former Vaugirard horse market.",
+          "source_urls": [
+            "https://www.paris.fr/lieux/marche-du-livre-ancien-et-d-occasion-georges-brassens-6463"
+          ]
+        },
+        {
+          "claim": "Professional dealers sell old, rare and second-hand books and paper ephemera.",
+          "source_urls": [
+            "https://marchedulivre.paris/"
+          ]
+        },
+        {
+          "claim": "The City of Paris posts Saturday and Sunday hours from 09:00 to 18:00.",
+          "source_urls": [
+            "https://www.paris.fr/lieux/marche-du-livre-ancien-et-d-occasion-georges-brassens-6463",
+            "https://marchedulivre.paris/"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/lieux/marche-du-livre-ancien-et-d-occasion-georges-brassens-6463", "role": "Current municipal weekend hours, exact destination and public access.", "official": true},
+        {"url": "https://marchedulivre.paris/", "role": "Current first-party market schedule, 2026 activity and specialist identity.", "first_party": true}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Open Saturday 15 and Sunday 16 August, 09:00–18:00 under the municipal schedule.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "official_city_marker",
+        "object": "Ville de Paris marker 48.83227829269761,2.3022570088505745",
+        "note": "Exact City of Paris route marker for the market destination at 104 Rue Brancion.",
+        "source_url": "https://www.paris.fr/lieux/marche-du-livre-ancien-et-d-occasion-georges-brassens-6463"
+      },
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "dedupe": {"nearest_existing": {"id": "fontainewallace2", "n": "Fontaine Wallace", "distance_m": 717}, "threshold_m": 120, "outcome": "clear", "rationale": "The official marker is about 140 metres from the separately proposed Parc Georges-Brassens marker and outside the review radius."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "pucesdevanves",
+      "n": "Marché aux puces de la Porte de Vanves",
+      "a": "Avenues Marc-Sangnier and Georges-Lafenestre, 14e",
+      "pc": "75014",
+      "lat": 48.825218683556734,
+      "lng": 2.3107116669416428,
+      "c": "market",
+      "s": "a weekend flea market unrolls along two southern avenues",
+      "q": "Marché aux puces de la Porte de Vanves Paris",
+      "w": "Vanves is Paris's walkable open-air flea market rather than a warehouse district: hundreds of pitches run along two avenues with small antiques, tools, prints and domestic fragments at eye level. Its linear form makes browsing part of the street walk.",
+      "city": "paris",
+      "aliases": ["Puces de Vanves", "Marché aux puces Porte de Vanves"],
+      "external_ids": {"official_url": "https://www.paris.fr/lieux/marche-aux-puces-de-la-porte-de-vanves-4518"},
+      "facts": [
+        {
+          "claim": "The market occupies Avenue Marc-Sangnier and Avenue Georges-Lafenestre.",
+          "source_urls": [
+            "https://www.paris.fr/lieux/marche-aux-puces-de-la-porte-de-vanves-4518",
+            "https://www.paris.fr/pages/les-marches-parisiens-2428"
+          ]
+        },
+        {
+          "claim": "It specialises in second-hand objects, small antiques, prints and collectibles.",
+          "source_urls": [
+            "https://mairie14.paris.fr/pages/marche-aux-puces-de-la-porte-de-vanves-11218"
+          ]
+        },
+        {
+          "claim": "The City of Paris posts weekend morning hours, with the Georges-Lafenestre section continuing later.",
+          "source_urls": [
+            "https://www.paris.fr/lieux/marche-aux-puces-de-la-porte-de-vanves-4518",
+            "https://www.paris.fr/pages/les-marches-parisiens-2428"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/lieux/marche-aux-puces-de-la-porte-de-vanves-4518", "role": "Current municipal access, hours and exact destination marker.", "official": true},
+        {"url": "https://mairie14.paris.fr/pages/marche-aux-puces-de-la-porte-de-vanves-11218", "role": "Official arrondissement layout, trader character and visitor corroboration.", "official": true},
+        {"url": "https://www.paris.fr/pages/les-marches-parisiens-2428", "role": "Current municipal two-avenue opening details.", "official": true}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Open Saturday 15 and Sunday 16 August; arrive in the morning for the full market.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "official_city_marker",
+        "object": "Ville de Paris marker 48.825218683556734,2.3107116669416428",
+        "note": "Exact City of Paris destination marker at the public market approach.",
+        "source_url": "https://www.paris.fr/lieux/marche-aux-puces-de-la-porte-de-vanves-4518"
+      },
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 4, "total": 22},
+      "dedupe": {"nearest_existing": {"id": "hexagonecafe", "n": "Hexagone Café", "distance_m": 1324}, "threshold_m": 120, "outcome": "clear", "rationale": "No catalogue market or close physical conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "marcheauxtimbresmarigny",
+      "n": "Marché aux timbres du Carré Marigny",
+      "a": "Angle des avenues Marigny et Gabriel, 8e",
+      "pc": "75008",
+      "lat": 48.871499100264,
+      "lng": 2.3138961727427,
+      "c": "market",
+      "s": "stamp dealers still unfold albums beneath the Marigny trees",
+      "q": "Marché aux timbres Carré Marigny Avenue Marigny Paris",
+      "w": "Professional dealers and collectors have turned the Marigny pavement into an open-air exchange for stamps, postcards and phone cards since the nineteenth century. Albums and folding tables make an unusually quiet collecting culture visible beside the Champs-Élysées.",
+      "city": "paris",
+      "aliases": ["Marché aux timbres", "Marché aux timbres Carré Marigny", "Bourse aux timbres de Marigny"],
+      "external_ids": {"official_url": "https://www.paris.fr/lieux/marche-aux-timbres-4508"},
+      "facts": [
+        {
+          "claim": "Dealers and private collectors sell stamps, postcards and telephone cards.",
+          "source_urls": [
+            "https://parisjetaime.com/shopping/marche-aux-timbres-p2219"
+          ]
+        },
+        {
+          "claim": "Historical Paris museum images document the market culture in the early twentieth century.",
+          "source_urls": [
+            "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/av-matignon-marche-aux-timbres"
+          ]
+        },
+        {
+          "claim": "The municipal schedule runs Thursday, Saturday and Sunday from 09:00 to 19:00 through 2032.",
+          "source_urls": [
+            "https://www.paris.fr/lieux/marche-aux-timbres-4508"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/lieux/marche-aux-timbres-4508", "role": "Current municipal trip-window hours, access and exact destination.", "official": true},
+        {"url": "https://parisjetaime.com/shopping/marche-aux-timbres-p2219", "role": "Official tourism description of traders, stock and holiday opening.", "official": true},
+        {"url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/av-matignon-marche-aux-timbres", "role": "Official museum historical evidence for the long-running market culture.", "official": true}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Municipal schedule supports Thursday 13, Saturday 15 and Sunday 16 August, 09:00–19:00.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "official_city_marker",
+        "object": "Ville de Paris marker 48.871499100264,2.3138961727427",
+        "note": "City of Paris route marker for the named market at the Marigny/Gabriel meeting point.",
+        "source_url": "https://www.paris.fr/lieux/marche-aux-timbres-4508"
+      },
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "dedupe": {"nearest_existing": {"id": "lelongandco", "n": "Lelong & Co.", "distance_m": 133}, "threshold_m": 120, "outcome": "clear", "rationale": "Outside the review radius and no catalogue market alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "marchesaintquentin",
+      "n": "Marché couvert Saint-Quentin",
+      "a": "85 bis Boulevard de Magenta, 10e",
+      "pc": "75010",
+      "lat": 48.877356057652,
+      "lng": 2.3545114456374,
+      "c": "market",
+      "s": "a cast-iron food hall holding a small world of diaspora counters",
+      "q": "Marché couvert Saint-Quentin Boulevard de Magenta Paris",
+      "w": "Paris's largest covered market survives as a bright iron-and-glass hall filled with around three dozen traders. African, Portuguese, Italian and Asian counters turn a utilitarian food market into a readable map of the surrounding station district.",
+      "city": "paris",
+      "aliases": ["Marché Saint-Quentin", "Marché couvert Saint Quentin"],
+      "external_ids": {"osm_way": "63201016", "official_url": "https://www.paris.fr/lieux/marche-couvert-saint-quentin-5474"},
+      "facts": [
+        {
+          "claim": "The iron-and-glass covered hall is the largest covered market in Paris.",
+          "source_urls": [
+            "https://www.paris.fr/lieux/marche-couvert-saint-quentin-5474"
+          ]
+        },
+        {
+          "claim": "Roughly thirty-five traders span food retail and several diaspora cuisines.",
+          "source_urls": [
+            "https://www.paris.fr/lieux/marche-couvert-saint-quentin-5474"
+          ]
+        },
+        {
+          "claim": "The City of Paris publishes Tuesday–Sunday hours extending through 2030.",
+          "source_urls": [
+            "https://www.paris.fr/lieux/marche-couvert-saint-quentin-5474",
+            "https://www.paris.fr/pages/les-marches-parisiens-2428"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/lieux/marche-couvert-saint-quentin-5474", "role": "Current municipal public hours, trader count and exact market status.", "official": true},
+        {"url": "https://www.openstreetmap.org/way/63201016", "role": "Named market hall geometry and entrance-address corroboration.", "official": false},
+        {"url": "https://www.paris.fr/pages/les-marches-parisiens-2428", "role": "Current municipal market programme and access corroboration.", "official": true}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Open under the municipal schedule on 13, 14, 15 and Sunday morning 16 August; individual stalls may keep shorter holiday hours.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "official_city_marker",
+        "object": "Ville de Paris marker 48.877356057652,2.3545114456374",
+        "note": "Exact City of Paris destination marker for the named covered market hall.",
+        "source_url": "https://www.paris.fr/lieux/marche-couvert-saint-quentin-5474"
+      },
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 4, "total": 22},
+      "dedupe": {"nearest_existing": {"id": "passagebrady", "n": "Passage Brady", "distance_m": 696}, "threshold_m": 120, "outcome": "clear", "rationale": "No close catalogue market or alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "ultramod",
+      "n": "Ultramod",
+      "a": "4 Rue de Choiseul, 2e",
+      "pc": "75002",
+      "lat": 48.8691489,
+      "lng": 2.336054,
+      "c": "specialistshops",
+      "s": "ribbons, millinery stock and old button drawers in a surviving haberdashery",
+      "q": "Ultramod mercerie 4 Rue de Choiseul Paris",
+      "w": "Ultramod's surviving walk-in shop is at 4 Rue de Choiseul; the former room opposite at number 3 has closed. Ribbons, old buttons, feathers, millinery materials and passementerie still make the active shop a living specialist counter rather than retro decoration.",
+      "city": "paris",
+      "aliases": ["Mercerie Ultramod", "Ultramod Paris"],
+      "external_ids": {"osm_node": "10613800116", "official_url": "https://ultramod.fr/"},
+      "facts": [
+        {
+          "claim": "The active Ultramod retail establishment is at 4 Rue de Choiseul; the former 3 Rue establishment closed in February 2024.",
+          "source_urls": [
+            "https://www.pagesjaunes.fr/pros/09024549",
+            "https://entreprises.lefigaro.fr/acta-75/entreprise-383498466"
+          ]
+        },
+        {
+          "claim": "Its stock centres ribbons, buttons, millinery materials and passementerie.",
+          "source_urls": [
+            "https://ultramod.fr/"
+          ]
+        },
+        {
+          "claim": "The listing updated 10 July 2026 posts public hours at the active 4 Rue shop from Monday through Saturday.",
+          "source_urls": [
+            "https://www.pagesjaunes.fr/pros/09024549"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.pagesjaunes.fr/pros/09024549", "role": "Professionally updated 10 July 2026 active 4 Rue address, public hours and SIRET corroboration.", "official": false},
+        {"url": "https://ultramod.fr/", "role": "Current first-party specialist inventory and active retail identity; its separate visit page retains a stale two-address line and is not used for location.", "first_party": true},
+        {"url": "https://entreprises.lefigaro.fr/acta-75/entreprise-383498466", "role": "January 2026 public-registry-derived ACTA/Ultramod record: active 4 Rue establishment and 3 Rue closure on 14 February 2024.", "official": false},
+        {"url": "https://www.openstreetmap.org/node/10613800116", "role": "Named active-shop coordinate surveyed in December 2025 and tagged to SIRET 38349846600036.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "The listing updated 10 July 2026 supports the active 4 Rue walk-in shop on Thursday 13 or Friday 14 August; no dated summer-closure notice was found, so reconfirm that morning and do not use the former 3 Rue door.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/10613800116",
+        "note": "Named December-2025 OSM shop node for active SIRET 38349846600036 at 4 Rue de Choiseul; the closed 3 Rue room is excluded.",
+        "source_url": "https://www.openstreetmap.org/node/10613800116"
+      },
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 4, "geographic_value": 4, "total": 23},
+      "dedupe": {"nearest_existing": {"id": "couteauxcourty", "n": "Couteaux Courty", "distance_m": 224}, "threshold_m": 120, "outcome": "clear", "rationale": "Separate specialist trade, storefront and identity from the catalogue knife shop."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "galeriefayet",
+      "n": "Galerie Fayet",
+      "a": "34 Passage Jouffroy, 9e",
+      "pc": "75009",
+      "lat": 48.8724555,
+      "lng": 2.3422148,
+      "c": "specialistshops",
+      "s": "walking sticks, secret canes and parasols in a passage cabinet",
+      "q": "Galerie Fayet 34 Passage Jouffroy Paris cannes",
+      "w": "Fayet took over the former Segas cane shop without stripping away its collector's-cabinet atmosphere. Contemporary French-made walking sticks and umbrellas sit beside extraordinary antique canes in horn, silver and stone.",
+      "city": "paris",
+      "aliases": ["Maison Fayet Passage Jouffroy", "Galerie Fayet cannes"],
+      "external_ids": {"official_url": "https://www.galerie-fayet.com/fr/content/14-notre-galerie"},
+      "facts": [
+        {
+          "claim": "Fayet opened its Paris gallery in 2015 in the former Segas antique-cane shop.",
+          "source_urls": [
+            "https://www.galerie-fayet.com/fr/content/14-notre-galerie"
+          ]
+        },
+        {
+          "claim": "The gallery mixes contemporary manufacture with antique collectible canes and prestige umbrellas.",
+          "source_urls": [
+            "https://www.galerie-fayet.com/fr/content/14-notre-galerie",
+            "https://www.galerie-fayet.com/fr/content/16-historique"
+          ]
+        },
+        {
+          "claim": "The first-party page publishes Tuesday–Saturday public hours with a short midday break.",
+          "source_urls": [
+            "https://www.galerie-fayet.com/fr/content/14-notre-galerie"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.galerie-fayet.com/fr/content/14-notre-galerie", "role": "Current first-party public hours, address, stock and succession from Segas.", "first_party": true},
+        {"url": "https://www.galerie-fayet.com/fr/content/16-historique", "role": "First-party manufacture and passage history.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/node/2608252648", "role": "Exact shop node still carrying predecessor Segas; identity reconciled by the first-party succession statement.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Public Tuesday–Saturday showroom under current first-party hours; no August closure notice was found, so use 13 or 14 August and reconfirm same day.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/2608252648",
+        "note": "Exact OSM shop node for predecessor M&G Segas, explicitly documented by Fayet as the same 34 Passage Jouffroy premises.",
+        "source_url": "https://www.openstreetmap.org/node/2608252648"
+      },
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 4, "geographic_value": 3, "total": 22},
+      "dedupe": {"nearest_existing": {"id": "bouillonchartier", "n": "Bouillon Chartier", "distance_m": 129}, "threshold_m": 120, "outcome": "clear", "rationale": "Outside the review radius and no catalogue specialist-shop alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "ledamierdelopera",
+      "n": "Le Damier de l'Opéra",
+      "a": "7 Rue La Fayette, 9e",
+      "pc": "75009",
+      "lat": 48.8735854,
+      "lng": 2.3348054,
+      "c": "specialistshops",
+      "s": "forty-five years of chess sets and a thousand-title chess library",
+      "q": "Le Damier de l'Opéra 7 Rue La Fayette Paris",
+      "w": "The shop's deep speciality is chess: club equipment, electronic boards, decorative sets and a library of more than a thousand French and English titles. It is the sort of narrow inventory that turns a retail stop into a playable taxonomy.",
+      "city": "paris",
+      "aliases": ["Damier de l'Opéra", "Le Damier de l Opera"],
+      "external_ids": {"osm_node": "1232772854", "official_url": "https://damieropera.com/"},
+      "facts": [
+        {
+          "claim": "The shop states more than forty-five years of chess specialism.",
+          "source_urls": [
+            "https://damieropera.com/presentation/"
+          ]
+        },
+        {
+          "claim": "Its chess library holds more than one thousand French- and English-language titles.",
+          "source_urls": [
+            "https://damieropera.com/presentation/"
+          ]
+        },
+        {
+          "claim": "The current homepage explicitly says it is open all summer except 15 August.",
+          "source_urls": [
+            "https://damieropera.com/"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://damieropera.com/", "role": "Current first-party address, public hours and explicit summer 2026 trading notice.", "first_party": true},
+        {"url": "https://damieropera.com/presentation/", "role": "First-party history, chess specialism and thousand-title library.", "first_party": true},
+        {"url": "https://damieropera.com/contact/", "role": "Current first-party walk-in access and contact corroboration.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/node/1232772854", "role": "Surveyed address node at the 7 Rue La Fayette storefront coordinate.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Explicitly open all summer except Saturday 15 August; use 13 or 14 August, 10:30–19:30.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/1232772854",
+        "note": "Surveyed OSM address point at the 7 Rue La Fayette storefront.",
+        "source_url": "https://www.openstreetmap.org/node/1232772854"
+      },
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "dedupe": {"nearest_existing": {"id": "museenationalgustavemore", "n": "Musée national Gustave Moreau", "distance_m": 480}, "threshold_m": 120, "outcome": "clear", "rationale": "No close catalogue specialist shop or alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "mora",
+      "n": "Mora",
+      "a": "13 Rue Montmartre, 1er",
+      "pc": "75001",
+      "lat": 48.8643308,
+      "lng": 2.345213,
+      "c": "specialistshops",
+      "s": "twelve thousand pastry and kitchen tools beside the old Les Halles trade",
+      "q": "Mora 13 Rue Montmartre Paris pastry equipment shop",
+      "w": "Mora is a public-facing professional supply counter with more than twelve thousand references: pastry moulds, obscure utensils, display equipment and tools scaled for working kitchens. Its location beside old Les Halles makes the inventory feel like surviving wholesale infrastructure.",
+      "city": "paris",
+      "aliases": ["Mora Paris", "Mora matériel pâtisserie"],
+      "external_ids": {"osm_node": "3398470372", "official_url": "https://www.mora.fr/static/notre-magasin"},
+      "facts": [
+        {
+          "claim": "The current catalogue advertises more than twelve thousand references.",
+          "source_urls": [
+            "https://www.mora.fr/"
+          ]
+        },
+        {
+          "claim": "The physical shop serves both professional and public pastry and kitchen-tool buyers.",
+          "source_urls": [
+            "https://www.mora.fr/static/notre-magasin",
+            "https://www.mora.fr/"
+          ]
+        },
+        {
+          "claim": "The first-party store page posts weekday and Saturday hours and closure on public holidays.",
+          "source_urls": [
+            "https://www.mora.fr/static/notre-magasin"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.mora.fr/static/notre-magasin", "role": "Current first-party walk-in store address, hours and public-holiday closure.", "first_party": true},
+        {"url": "https://www.mora.fr/", "role": "Current first-party specialist inventory and active retail status.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/node/3398470372", "role": "Named storefront coordinate at 13 Rue Montmartre.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Open under posted hours Thursday 13 and Friday 14 August; closed on the 15 August public holiday.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/3398470372",
+        "note": "Named OSM shop node on the 13 Rue Montmartre storefront.",
+        "source_url": "https://www.openstreetmap.org/node/3398470372"
+      },
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 3, "total": 21},
+      "dedupe": {"nearest_existing": {"id": "tourjeansanspeur", "n": "Tour Jean-sans-Peur", "distance_m": 211}, "threshold_m": 120, "outcome": "clear", "rationale": "The existing E. Dehillerin cookware row is about 228 metres away; Mora is a distinct address and pastry-equipment inventory."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "cafeverlet",
+      "n": "Café Verlet",
+      "a": "256 Rue Saint-Honoré, 1er",
+      "pc": "75001",
+      "lat": 48.864108,
+      "lng": 2.33377,
+      "c": "coffee",
+      "s": "single-origin coffee drawn from wooden drawers in an 1880 house",
+      "q": "Café Verlet 256 Rue Saint-Honoré Paris",
+      "w": "Verlet has roasted coffee since 1880 and claims the Paris first of serving coffees by pure origin. Thirty-plus coffees are stored around a 1920s room of wooden drawers, parquet and mirrors, so ordering a cup doubles as browsing a material archive of coffee trade.",
+      "city": "paris",
+      "aliases": ["Verlet Paris", "Maison Verlet"],
+      "external_ids": {"official_url": "https://verlet.fr/pages/256-saint-honore"},
+      "facts": [
+        {
+          "claim": "The house dates its coffee trade to 1880.",
+          "source_urls": [
+            "https://verlet.fr/pages/256-saint-honore"
+          ]
+        },
+        {
+          "claim": "It offers more than thirty pure-origin coffees and roughly forty tea gardens.",
+          "source_urls": [
+            "https://verlet.fr/pages/256-saint-honore"
+          ]
+        },
+        {
+          "claim": "The current first-party page posts Monday–Saturday hours from 10:00 to 19:00.",
+          "source_urls": [
+            "https://verlet.fr/pages/256-saint-honore"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://verlet.fr/pages/256-saint-honore", "role": "Current first-party history, inventory, address and public trading hours.", "first_party": true},
+        {"url": "https://verlet.fr/", "role": "Current first-party active retail and tasting-room status.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/node/682340085", "role": "Surveyed 256 Rue Saint-Honoré address coordinate; used instead of the first-party page's erroneous map embed.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Walk-in tasting room under posted hours on 13 and 14 August; holiday closure on 15 should be assumed unless first-party confirmation changes.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/682340085",
+        "note": "Surveyed OSM address node at 256 Rue Saint-Honoré; the written first-party address matches, while its embedded route coordinate is visibly erroneous and was rejected.",
+        "source_url": "https://www.openstreetmap.org/node/682340085"
+      },
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 3, "total": 22},
+      "dedupe": {"nearest_existing": {"id": "museedesartsdecoratifs", "n": "Musée des Arts Décoratifs", "distance_m": 120.3}, "threshold_m": 120, "outcome": "clear", "rationale": "Outside the strict 120-metre threshold using the exact storefront node; no catalogue coffee alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "lacafeotheque",
+      "n": "La Caféothèque",
+      "a": "52 Rue de l'Hôtel-de-Ville, 4e",
+      "pc": "75004",
+      "lat": 48.8544379,
+      "lng": 2.3558365,
+      "c": "coffee",
+      "s": "a coffee school, roastery and origin library sharing one old shop",
+      "q": "La Caféothèque 52 Rue de l'Hôtel de Ville Paris",
+      "w": "La Caféothèque treats coffee as a field of study: origin beans, roasting, a public café and a working coffee school occupy the same warren of rooms. The trip dates are unusually well evidenced by 2026 workshops listed on both 15 and 16 August.",
+      "city": "paris",
+      "aliases": ["Caféothèque de Paris", "La Cafeotheque"],
+      "external_ids": {"osm_node": "322681096", "official_url": "https://www.lacafeotheque.com/"},
+      "facts": [
+        {
+          "claim": "The site combines a public coffee shop with roasting and coffee education.",
+          "source_urls": [
+            "https://www.lacafeotheque.com/contact/",
+            "https://lacafeotheque.com/event/atelier-cafeologie-methodes-douces-2h30-03-01-2026-29-08-2026/"
+          ]
+        },
+        {
+          "claim": "Its programme teaches coffee origins and manual brewing methods.",
+          "source_urls": [
+            "https://lacafeotheque.com/event/atelier-cafeologie-methodes-douces-2h30-03-01-2026-29-08-2026/"
+          ]
+        },
+        {
+          "claim": "The first-party 2026 calendar lists workshops on 15 and 16 August.",
+          "source_urls": [
+            "https://lacafeotheque.com/event/atelier-cafeologie-methodes-douces-2h30-03-01-2026-29-08-2026/"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://www.lacafeotheque.com/contact/", "role": "First-party public opening hours, address and current visitor access.", "first_party": true},
+        {"url": "https://lacafeotheque.com/event/atelier-cafeologie-methodes-douces-2h30-03-01-2026-29-08-2026/", "role": "Dated first-party August 2026 activity including 15 and 16 August.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/node/322681096", "role": "Named café entrance coordinate at the current address.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Public café hours are posted daily; first-party workshops on 15 and 16 August independently confirm trip-window operation.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/322681096",
+        "note": "Named OSM café node at 52 Rue de l'Hôtel-de-Ville.",
+        "source_url": "https://www.openstreetmap.org/node/322681096"
+      },
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 4, "total": 22},
+      "dedupe": {"nearest_existing": {"id": "aupetitversaillesdumarai", "n": "Au Petit Versailles du Marais", "distance_m": 193}, "threshold_m": 120, "outcome": "clear", "rationale": "No close catalogue coffee identity or alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    },
+    {
+      "id": "jugetsudoparis",
+      "n": "Jugetsudo Paris",
+      "a": "95 Rue de Seine, 6e",
+      "pc": "75006",
+      "lat": 48.8519165,
+      "lng": 2.3371278,
+      "c": "matcha",
+      "s": "Kengo Kuma's first European interior becomes a bamboo tea clearing",
+      "q": "Jugetsudo Paris 95 Rue de Seine matcha tea house",
+      "w": "Kengo Kuma designed the Paris tea house as a bamboo clearing, his first completed work in Europe: suspended stalks frame a cypress counter, while a stone tea room sits below. Visitors can walk in for Japanese green tea and small sweets without booking a ceremony.",
+      "city": "paris",
+      "aliases": ["Jugetsudō Paris", "Maison de thé Jugetsudo"],
+      "external_ids": {"official_url": "https://jugetsudo.com/pages/jugetsudo-paris"},
+      "facts": [
+        {
+          "claim": "The Paris shop opened in 2008 and was Kengo Kuma's first completed work in Europe.",
+          "source_urls": [
+            "https://jugetsudo.com/pages/maison-de-the-jugetsudo"
+          ]
+        },
+        {
+          "claim": "Its ground floor uses suspended bamboo and a Japanese cypress counter, with a stone tea room below.",
+          "source_urls": [
+            "https://jugetsudo.com/pages/maison-de-the-jugetsudo"
+          ]
+        },
+        {
+          "claim": "The first-party page posts 11:00–19:00 opening, closed Sundays and public holidays.",
+          "source_urls": [
+            "https://jugetsudo.com/pages/jugetsudo-paris"
+          ]
+        }
+      ],
+      "sources": [
+        {"url": "https://jugetsudo.com/pages/jugetsudo-paris", "role": "Current first-party public hours, tea-house identity and walk-in access.", "first_party": true},
+        {"url": "https://jugetsudo.com/pages/maison-de-the-jugetsudo", "role": "First-party Kengo Kuma design, opening date and interior story.", "first_party": true},
+        {"url": "https://www.openstreetmap.org/node/779767830", "role": "Surveyed storefront address coordinate at 95 Rue de Seine.", "official": false}
+      ],
+      "access": {"status": "verified_trip_window", "note": "Walk-in shop and tea counter open 13 and 14 August; closed on public holidays and Sundays, so not 15 or 16 August.", "checked_at": "2026-08-09"},
+      "coordinate_basis": {
+        "type": "osm_node",
+        "object": "node/779767830",
+        "note": "Surveyed OSM address node at the 95 Rue de Seine shop entrance.",
+        "source_url": "https://www.openstreetmap.org/node/779767830"
+      },
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "dedupe": {"nearest_existing": {"id": "courducommercesaintandre", "n": "Cour du Commerce Saint-André", "distance_m": 190}, "threshold_m": 120, "outcome": "clear", "rationale": "More than 500 metres from the existing Saint Pearl matcha row and no alias conflict."},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "trading": "high", "public_visit": "high", "story": "high", "dedupe": "high", "overall": "high"},
+      "draft_only": true
+    }
+  ],
+  "category_coverage": [
+    {"category": "museum", "screened": 26, "included": 1, "outcome": "retained", "note": "Franc-Maçonnerie survives; checklist museums and August-closed or booking-dependent rooms do not."},
+    {"category": "artgallery", "screened": 5, "included": 0, "outcome": "no_strict_addition", "note": "No rare walk-in gallery with independently strong August evidence beat the existing six Paris rows."},
+    {"category": "cinema", "screened": 12, "included": 3, "outcome": "retained", "note": "Louxor, Épée de Bois and Max Linder have room-specific stories and dated summer programmes; Studio 28 is deferred until first-party trip-date screenings appear."},
+    {"category": "film", "screened": 4, "included": 0, "outcome": "no_strict_addition", "note": "The strongest film-history museum is closed for the entire trip; live cinemas stay in cinema."},
+    {"category": "literary", "screened": 4, "included": 0, "outcome": "no_strict_addition", "note": "Literary houses were either checklist museums or weaker than the specific bookshop category."},
+    {"category": "bookshops", "screened": 12, "included": 4, "outcome": "retained", "note": "Travel, antiquarian, English labyrinth and feminist-cooperative specialisms survive."},
+    {"category": "music", "screened": 9, "included": 2, "outcome": "retained", "note": "Musée de la Musique and La Flûte de Pan have distinct physical music taxonomies."},
+    {"category": "pop", "screened": 3, "included": 0, "outcome": "no_strict_addition", "note": "Pop-culture leads were chains, generic merchandising or event-dependent."},
+    {"category": "vinyl", "screened": 10, "included": 3, "outcome": "retained", "note": "Balades Sonores, Souffle Continu and Paris Jazz Corner have deep, legible specialist inventories."},
+    {"category": "archive", "screened": 4, "included": 1, "outcome": "retained", "note": "BnF Salle Ovale is free, public and usable as an archive interior."},
+    {"category": "church", "screened": 10, "included": 2, "outcome": "retained", "note": "Two iron-structure churches survive; Saint-Julien was cut by the under-30m rule."},
+    {"category": "mosque", "screened": 4, "included": 0, "outcome": "already_represented", "note": "Grande Mosquée is already catalogued; no other mosque had equally strong public visitor evidence."},
+    {"category": "synagogue", "screened": 4, "included": 0, "outcome": "no_strict_addition", "note": "Security and booking conditions prevented all-high spontaneous public access."},
+    {"category": "temple", "screened": 4, "included": 1, "outcome": "retained", "note": "The daily public Tamil Ganesh temple survives; the Grande Pagode is event-only."},
+    {"category": "monastery", "screened": 3, "included": 0, "outcome": "no_strict_addition", "note": "Guest or chapel access was private, appointment-based or unclear in August."},
+    {"category": "faith", "screened": 4, "included": 0, "outcome": "specific_category_wins", "note": "Defensible places fit church or temple; no generic faith row was needed."},
+    {"category": "diaspora", "screened": 5, "included": 1, "outcome": "retained", "note": "The immigration museum's colonial-palace tension supports a specific diaspora story."},
+    {"category": "food", "screened": 12, "included": 0, "outcome": "already_well_represented", "note": "Generic restaurants, famous checklist tables and unclear August independents failed the flâneur gate."},
+    {"category": "coffee", "screened": 8, "included": 2, "outcome": "retained", "note": "Verlet and Caféothèque add material coffee histories rather than another good café."},
+    {"category": "brunch", "screened": 3, "included": 0, "outcome": "no_strict_addition", "note": "No non-generic brunch place justified a new walking objective."},
+    {"category": "caff", "screened": 2, "included": 0, "outcome": "no_strict_addition", "note": "No defensible Paris café archetype addition beyond existing Bouillon Chartier."},
+    {"category": "matcha", "screened": 4, "included": 1, "outcome": "retained", "note": "Jugetsudo adds a Kengo Kuma tea interior; Toraya is closed for the trip."},
+    {"category": "boba", "screened": 3, "included": 0, "outcome": "no_strict_addition", "note": "All leads were chains or generic drinks counters."},
+    {"category": "bakery", "screened": 8, "included": 0, "outcome": "already_well_represented", "note": "Chains, uncertain August closures and ordinary famous bakeries did not improve the existing category."},
+    {"category": "wine", "screened": 6, "included": 0, "outcome": "no_strict_addition", "note": "Caves Legrand has a dated restaurant closure and a second international location; other leads lacked August-proof walk-in distinctiveness."},
+    {"category": "pub", "screened": 3, "included": 0, "outcome": "no_strict_addition", "note": "No pub offered a rare physical story beyond the existing row with high August confidence."},
+    {"category": "market", "screened": 9, "included": 4, "outcome": "retained", "note": "Books, fleas, stamps and the Saint-Quentin hall each form a distinct, scheduled browsing experience."},
+    {"category": "specialistshops", "screened": 24, "included": 4, "outcome": "retained", "note": "Haberdashery, canes, chess and pastry equipment pass; chains, professional-only and appointment-only premises do not."},
+    {"category": "dumpling", "screened": 5, "included": 0, "outcome": "no_strict_addition", "note": "Ravioli Nord Est and Momo House now operate multiple branches; other restaurants lacked first-party August evidence."},
+    {"category": "finance", "screened": 4, "included": 1, "outcome": "retained", "note": "Citéco is open through 16 August before its dated maintenance closure."},
+    {"category": "stadium", "screened": 5, "included": 0, "outcome": "already_well_represented", "note": "Paris already has eight stadium rows; remaining grounds require match tickets or offer no spontaneous interior."},
+    {"category": "pieandmash/livery", "screened": 2, "included": 0, "outcome": "inapplicable_or_no_defensible_addition", "note": "No Paris place met either narrow inherited concept; neither was forced into an unrelated category."}
+  ],
+  "deferred": [
+    {"n": "Studio 28", "category": "cinema", "reason": "The first-party August 2026 calendar currently shows no events on 13–16 August and exposes no selectable trip-date screenings; defer until dated operator inventory appears."},
+    {"n": "PHONO Museum", "category": "museum", "reason": "Interesting and public Friday/Sunday hours, but volunteer-operation and August status evidence did not reach the same all-high standard as retained rows."},
+    {"n": "Musée du Fumeur", "category": "museum", "reason": "Current shop hours exist, but independent visitor-story and August evidence remained thin."},
+    {"n": "Musée Curie", "category": "museum", "reason": "Strong subject, but no trip-specific August opening notice was located."},
+    {"n": "Musée Clemenceau", "category": "museum", "reason": "Seasonal access could not be verified to the all-high trip-window gate."},
+    {"n": "Musée de Minéralogie", "category": "museum", "reason": "Visitor status and holiday opening remained ambiguous."},
+    {"n": "Cinéma du Panthéon", "category": "cinema", "reason": "The Deneuve-designed salon—the distinctive feature—is closed 1–23 August."},
+    {"n": "Le Brady", "category": "cinema", "reason": "Working cinema, but no sufficiently rare room story and exact trip programme combination."},
+    {"n": "Les Mots à la Bouche", "category": "bookshops", "reason": "Good regional-official evidence, but Violette and Co had stronger current first-party and cooperative-space evidence."},
+    {"n": "La Dame Blanche", "category": "vinyl", "reason": "No clean current first-party Paris identity could be separated from unrelated namesakes."},
+    {"n": "Carion Minéraux", "category": "specialistshops", "reason": "Current inventory and regular hours exist, but no first-party August closure check was published."},
+    {"n": "L'Écritoire", "category": "specialistshops", "reason": "First-party and 2026 directories conflict on street number and Sunday schedule; August opening was not explicit."},
+    {"n": "Saint-Jean-de-Montmartre", "category": "church", "reason": "Parish warns that vacation hours change, without a stable public-opening schedule for the trip."},
+    {"n": "Saint-Serge-de-Radonège", "category": "church", "reason": "Public sightseeing access outside services was not established."},
+    {"n": "Couvent de l'Annonciation", "category": "monastery", "reason": "No first-party public August visit evidence."},
+    {"n": "Monastère de la Visitation", "category": "monastery", "reason": "Summer guest access and spontaneous chapel entry were unclear."},
+    {"n": "Le Baron Rouge", "category": "wine", "reason": "Strong atmosphere but no robust current first-party August schedule."},
+    {"n": "Caves Legrand", "category": "wine", "reason": "Restaurant closes 9–18 August; the shop remains plausible but its separate international branch and overlap with existing Galerie Vivienne reduce novelty."},
+    {"n": "Boulangerie Bo", "category": "bakery", "reason": "Distinctive façade and French-Japanese baking, but no current first-party August notice."},
+    {"n": "Urfa Dürüm", "category": "food", "reason": "Story-led Kurdish counter but no first-party website or dated August trading proof."},
+    {"n": "Stade Bauer", "category": "stadium", "reason": "Strong community story, but spontaneous public interior access depends on a match or event."}
+  ],
+  "excluded": [
+    {"n": "Musée Méliès / Cinémathèque française", "category": "film", "reason": "Officially closed 27 July–15 September 2026."},
+    {"n": "Musée de la Préfecture de Police", "category": "museum", "reason": "Advance registration required inside a working police station; visitors without booking can be refused."},
+    {"n": "Musée des Plans-Reliefs", "category": "museum", "reason": "Its Invalides public access collides with the existing Musée de l'Armée objective below the guarded 30m threshold."},
+    {"n": "Musée de Montmartre", "category": "museum", "reason": "Open and well evidenced, but an ordinary famous checklist museum under this run's strict brief."},
+    {"n": "Toraya Paris", "category": "matcha", "reason": "First-party notice closes the Paris shop 2–25 August 2026."},
+    {"n": "Maison Poursin", "category": "specialistshops", "reason": "Closed 10 August–2 September; Paris counter is professional-only and appointment-based."},
+    {"n": "Librairie Samuelian", "category": "bookshops", "reason": "Annual August closure."},
+    {"n": "Librairie Scylla", "category": "bookshops", "reason": "Now online-only; click-and-collect is appointment-based and unavailable until October."},
+    {"n": "Cordes et Âme", "category": "music", "reason": "First-party summer closure 26 July–17 August."},
+    {"n": "Saint-Germain-l'Auxerrois", "category": "church", "reason": "Parish summer closure runs through 24 August."},
+    {"n": "Grande Pagode du Bois de Vincennes", "category": "temple", "reason": "Public only for events; no event on 13–16 August."},
+    {"n": "Saint-Julien-le-Pauvre", "category": "church", "reason": "Public door lands about 16m from the existing Square René-Viviani tree objective; under-30m presumed-duplicate rule is hard."},
+    {"n": "Au Ver à Soie", "category": "specialistshops", "reason": "Wholesale and professional customers only."},
+    {"n": "Parasolerie Heurtault", "category": "specialistshops", "reason": "Atelier visits are by personalized appointment."},
+    {"n": "Sennelier", "category": "specialistshops", "reason": "Multi-location retail and already-famous checklist profile."},
+    {"n": "Charvin", "category": "specialistshops", "reason": "Multi-location art retail."},
+    {"n": "Pain d'Épices", "category": "specialistshops", "reason": "Part of a four-store retail group rather than a single rare shop."},
+    {"n": "G. Detou", "category": "food", "reason": "Now operates Paris and Lyon branches; multi-location business excluded from this strict lane."},
+    {"n": "Stohrer", "category": "bakery", "reason": "Now an eight-boutique group and already a famous checklist stop."},
+    {"n": "Ravioli Nord Est", "category": "dumpling", "reason": "Five current Paris branches; chain excluded."},
+    {"n": "Momo House", "category": "dumpling", "reason": "Multiple Paris branches and otherwise a generic restaurant objective."},
+    {"n": "Junku", "category": "bookshops", "reason": "Part of a large Japanese bookselling group; chain excluded."}
+  ],
+  "screened_register": {
+    "retained_names": [
+      "Musée de la Franc-Maçonnerie", "Musée de la Musique", "Salle Ovale de la BnF Richelieu", "Citéco", "Musée national de l'histoire de l'immigration", "Le Louxor", "Cinéma L'Épée de Bois", "Max Linder Panorama", "Librairie Ulysse", "Librairie Jousseaume", "The Abbey Bookshop", "Violette and Co", "Balades Sonores", "Souffle Continu", "Paris Jazz Corner", "La Flûte de Pan", "Notre-Dame-du-Travail", "Saint-Eugène–Sainte-Cécile", "Temple Sri Manicka Vinayakar Alayam", "Marché du livre ancien et d'occasion Georges-Brassens", "Marché aux puces de la Porte de Vanves", "Marché aux timbres du Carré Marigny", "Marché couvert Saint-Quentin", "Ultramod", "Galerie Fayet", "Le Damier de l'Opéra", "Mora", "Café Verlet", "La Caféothèque", "Jugetsudo Paris"
+    ],
+    "deferred_names": [
+      "PHONO Museum", "Musée du Fumeur", "Musée Curie", "Musée Clemenceau", "Musée de Minéralogie", "Musée d'Histoire de la Médecine", "Musée de la Libération de Paris", "Musée de la Poste", "Musée Delacroix", "Fondation Giacometti", "Musée du Parfum Fragonard", "Musée d'Ennery", "Musée des Arts Forains", "Musée des Vampires", "Musée des Moulages", "Studio 28", "Cinéma du Panthéon", "Le Brady", "Le Grand Action", "Filmothèque du Quartier Latin", "Christine Cinéma Club", "Le Desperado", "Les Mots à la Bouche", "La Dame Blanche", "Crocodisc", "Betino's Record Shop", "Monster Melodies", "Superfly Records", "Paris Accordéon", "Carion Minéraux", "L'Écritoire", "Saint-Jean-de-Montmartre", "Saint-Serge-de-Radonège", "Cathédrale Saint-Alexandre-Nevsky", "Cathédrale arménienne Saint-Jean-Baptiste", "Couvent de l'Annonciation", "Monastère de la Visitation", "Le Baron Rouge", "Caves Legrand", "Boulangerie Bo", "Vandermeersch", "Lastre Sans Apostrophe", "Urfa Dürüm", "Chez Momo", "Stade Bauer", "Roland-Garros", "Galerie Dorée"
+    ],
+    "excluded_names": [
+      "Musée Méliès / Cinémathèque française", "Musée de la Préfecture de Police", "Musée des Plans-Reliefs", "Musée de Montmartre", "Toraya Paris", "Maison Poursin", "Librairie Samuelian", "Librairie Scylla", "Cordes et Âme", "Saint-Germain-l'Auxerrois", "Grande Pagode du Bois de Vincennes", "Saint-Julien-le-Pauvre", "Au Ver à Soie", "Parasolerie Heurtault", "Sennelier", "Charvin", "Pain d'Épices", "G. Detou", "Stohrer", "Ravioli Nord Est", "Momo House", "Junku", "Marché des Enfants Rouges", "Musée de l'Éventail", "Musée de la Contrefaçon", "Pavillon de l'Arsenal", "Le Train Bleu", "Le Soufflé", "L'Ambroisie", "Grande Mosquée de Paris", "Shakespeare and Company", "Galerie Vivienne", "La Pagode", "Le Champo", "La Clef", "Studio Galande", "L'Arlequin", "Cinéma des Cinéastes", "E. Dehillerin", "Couteaux Courty", "Saint Pearl", "Boot Café", "Café de Flore", "Maison Louvard", "Du Pain et des Idées", "La Buvette", "Le Bal Blomet", "Parc des Princes", "Stade Jean-Bouin", "Paris La Défense Arena", "Accor Arena"
+    ]
+  }
+}

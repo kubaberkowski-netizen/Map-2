@@ -1,0 +1,1149 @@
+{
+  "schema_version": "1.0",
+  "dossier_id": "paris-built-history-deep-2026-08-09",
+  "created_at": "2026-08-09",
+  "status": "imported_as_draft_pending_human_field_review",
+  "meta": {
+    "catalogue_snapshot_rows": 17237,
+    "existing_paris_rows": 140,
+    "screened_count": 108,
+    "included_count": 32,
+    "deferred_count": 20,
+    "excluded_count": 56,
+    "visit_window": "2026-08-13/2026-08-16",
+    "scope": "Paris built fabric, history and public-realm oddities",
+    "import_authorized": true,
+    "note": "The 32 final strict candidates remain imported as quality-d drafts after combined and independent audits. One initially imported Grand Rocher row was withdrawn when final coordinate QA disproved its feature-level geotag."
+  },
+  "import_metadata": {
+    "status": "imported_as_draft",
+    "imported_at": "2026-08-09",
+    "imported_count": 32,
+    "quality_flag": "d",
+    "initial_import_waves": [25, 8],
+    "withdrawn_after_import": [
+      {
+        "id": "foliesaintjamesetgrandro",
+        "name": "Folie Saint-James et Grand Rocher",
+        "reason": "Final independent QA found that the Commons coordinate was a generic estate geotag copied across unrelated subjects, not an exact Grand Rocher point."
+      }
+    ],
+    "proximity_threshold_m": 30,
+    "catalogue_snapshot_before_import": 17237,
+    "catalogue_rows_after_bundle_import": 17328,
+    "paris_rows_after_bundle_import": 231,
+    "editorial_status": "pending_human_field_review_and_promotion",
+    "do_not_reimport": true
+  },
+  "included_count": 32,
+  "included": [
+    {
+      "id": "rempartphilippeauguste",
+      "n": "Rempart de Philippe Auguste des Jardins Saint-Paul",
+      "a": "Jardins Saint-Paul, 9 rue Charlemagne",
+      "pc": "75004",
+      "lat": 48.853559,
+      "lng": 2.360303,
+      "c": "medieval",
+      "s": "A long surviving curtain of Philippe Auguste's city wall forms the improbable stone edge of an outdoor sports court.",
+      "q": "Rempart de Philippe Auguste des Jardins Saint-Paul Paris 4e",
+      "w": "Look through the Saint-Paul gardens toward the court: medieval defence, schoolyard fencing and basketball hoops occupy one compact urban frame.",
+      "city": "paris",
+      "aliases": ["Enceinte de Philippe Auguste — Jardins Saint-Paul", "Mur Philippe-Auguste rue Charlemagne"],
+      "external_ids": {"osm_way": "124066210", "wikidata": "Q3053741"},
+      "facts": [
+        {"claim": "The visible masonry belongs to the late-12th-century enceinte of Philippe Auguste.", "source_urls": ["https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/terrain-de-sport-des-jardins-saint-paul-chevet-de-l-eglise-saint-paul-saint"]},
+        {"claim": "Ville de Paris currently presents the Saint-Paul court and wall on a public cycling itinerary.", "source_urls": ["https://www.paris.fr/pages/3-itineraires-a-velo-pour-les-sportifs-de-la-rive-droite-27900"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/3-itineraires-a-velo-pour-les-sportifs-de-la-rive-droite-27900", "title": "3 itinéraires à vélo pour les sportifs de la rive droite", "publisher": "Ville de Paris", "role": "official municipal current public route and access evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/terrain-de-sport-des-jardins-saint-paul-chevet-de-l-eglise-saint-paul-saint", "title": "Terrain de sport des Jardins Saint-Paul", "publisher": "Paris Musées / Musée Carnavalet", "role": "official municipal museum identity and historical context", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/124066210", "title": "Enceinte de Philippe-Auguste", "publisher": "OpenStreetMap", "role": "mapped historic city-wall geometry and exact coordinate basis", "checked_at": "2026-08-09"},
+        {"url": "https://www.wikidata.org/wiki/Q3053741", "title": "Enceinte de Philippe Auguste", "publisher": "Wikidata", "role": "named wall identity corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_outdoor_view", "evidence": "Visible from the public Jardins Saint-Paul/court edge; the municipal route is current. Court use may be school-priority, but the wall view does not require entry to a private interior.", "source_url": "https://www.paris.fr/pages/3-itineraires-a-velo-pour-les-sportifs-de-la-rive-droite-27900", "checked_at": "2026-08-09", "user_window": "available subject to garden gates"},
+      "coordinate_basis": {"type": "point on mapped historic city-wall way beside the sports court", "source_url": "https://www.openstreetmap.org/way/124066210", "precision": "wall", "osm_way": "124066210", "wikidata": "Q3053741"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Musée de la Magie", "distance_m": 71}, "rationale": "The candidate is an outdoor medieval wall and court edge; the nearby catalogue row is a separately entered indoor magic museum.", "internal_neighbours": [{"id": "hoteldesensexterior", "status": "distinct", "rationale": "Separate medieval fabric: a surviving city-wall curtain at a sports court versus a late-Gothic civic mansion and garden."}], "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "bastillestoneshenrigalli",
+      "n": "Pierres de la Bastille du square Henri-Galli",
+      "a": "Square Henri-Galli, 9 boulevard Henri-IV",
+      "pc": "75004",
+      "lat": 48.851144,
+      "lng": 2.361885,
+      "c": "ruins",
+      "s": "Foundation blocks from the demolished Bastille sit in a small neighbourhood square after being uncovered during Métro construction.",
+      "q": "Pierres de la Bastille du square Henri-Galli Paris",
+      "w": "The low stones are easy to overlook, which is the appeal: a piece of the fortress survives as casual park furniture-scale archaeology.",
+      "city": "paris",
+      "aliases": ["Vestiges de la Bastille square Henri-Galli", "Tour de la Liberté vestiges"],
+      "external_ids": {
+        "wikidata": "Q3494627",
+        "osm_relation": "2080074"
+      },
+      "facts": [
+        {"claim": "The stones in the square are remains of the Bastille's Liberty Tower found during construction of Métro line 1.", "source_urls": ["https://www.paris.fr/lieux/square-henri-galli-34"]},
+        {"claim": "Musée Carnavalet documents the relocation of the discovered Bastille masonry to the square.", "source_urls": ["https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/vestiges-de-la-bastille-tour-de-la-liberte-decouverte-rue-saint-antoine"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/lieux/square-henri-galli-34", "title": "Square Henri-Galli", "publisher": "Ville de Paris", "role": "official municipal current opening-hours, access and history evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/vestiges-de-la-bastille-tour-de-la-liberte-decouverte-rue-saint-antoine", "title": "Vestiges de la Bastille, tour de la Liberté", "publisher": "Paris Musées / Musée Carnavalet", "role": "official municipal museum provenance evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_park", "evidence": "Free municipal square with published daily hours; see the official page for seasonal gate times.", "source_url": "https://www.paris.fr/lieux/square-henri-galli-34", "checked_at": "2026-08-09", "user_window": "open on ordinary days 13–16 August subject to gates"},
+      "coordinate_basis": {"type": "official municipal venue marker for Square Henri-Galli containing the stones", "source_url": "https://www.paris.fr/lieux/square-henri-galli-34", "precision": "venue"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Pavillon de l'Arsenal", "distance_m": 69}, "rationale": "These are outdoor archaeological blocks in Square Henri-Galli; the nearby catalogue lead is an architecture exhibition centre in a separate building.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "guillotineslabsroquette",
+      "n": "Dalles de la guillotine de la Grande Roquette",
+      "a": "16 rue de la Croix-Faubin",
+      "pc": "75011",
+      "lat": 48.858912,
+      "lng": 2.385361,
+      "c": "history",
+      "s": "Five worn stone slabs in the pavement mark where the Grande Roquette prison's guillotine was repeatedly erected.",
+      "q": "dalles guillotine rue de la Croix Faubin Paris",
+      "w": "A grim institutional history is compressed into five ordinary-looking paving stones outside a residential building.",
+      "city": "paris",
+      "aliases": ["Pierres de la guillotine rue de la Croix-Faubin", "Dalles de la Grande Roquette"],
+      "external_ids": {"commons_file": "Dalle guillotine roquette.jpg"},
+      "facts": [
+        {"claim": "Ville de Paris identifies five slabs preserved from the guillotine site outside the former Grande Roquette prison.", "source_urls": ["https://www.paris.fr/lieux/square-de-la-roquette-1767"]},
+        {"claim": "Street photographs taken in June and August 2021 show the five slabs legible in the public pavement.", "source_urls": ["https://commons.wikimedia.org/wiki/Category:Rue_de_la_Croix-Faubin_(Paris)"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/lieux/square-de-la-roquette-1767", "title": "Square de la Roquette", "publisher": "Ville de Paris", "role": "official municipal historical identity and public-location evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/Category:Rue_de_la_Croix-Faubin_(Paris)", "title": "Rue de la Croix-Faubin", "publisher": "Wikimedia Commons", "role": "dated 2021 street-level visual corroboration", "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:Dalle_guillotine_roquette.jpg", "title": "Dalle guillotine roquette.jpg", "publisher": "Wikimedia Commons", "role": "object-specific geotag and exact coordinate basis", "checked_at": "2026-08-09"},
+        {"url": "https://opendata.paris.fr/explore/dataset/voie/", "title": "Linéaires des Voies", "publisher": "Ville de Paris Open Data", "role": "official municipal current public-street access context", "official_or_land_manager": true, "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement", "evidence": "Flush with the public pavement on rue de la Croix-Faubin; no interior access or booking is involved.", "source_url": "https://opendata.paris.fr/explore/dataset/voie/", "checked_at": "2026-08-09", "user_window": "continuous public-street view"},
+      "coordinate_basis": {"type": "object-specific geotagged photograph of the pavement slab", "source_url": "https://commons.wikimedia.org/wiki/File:Dalle_guillotine_roquette.jpg", "precision": "object", "commons_file": "Dalle guillotine roquette.jpg"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 4, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Père-Lachaise Cemetery", "distance_m": 572}, "rationale": "No existing catalogue point lies inside 120 metres; a cross-lane candidate review is recorded separately.", "internal_neighbours": [{"id": "soufflecontinu", "status": "distinct", "rationale": "Historic execution-site pavement slabs are a different physical objective and experience from the nearby experimental record-shop interior."}], "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases, external IDs and cross-lane candidates"},
+      "draft_only": true
+    },
+    {
+      "id": "metreetalonvaugirard",
+      "n": "Mètre étalon de la rue de Vaugirard",
+      "a": "36 rue de Vaugirard",
+      "pc": "75006",
+      "lat": 48.84931715,
+      "lng": 2.33551495,
+      "c": "streetfurniture",
+      "s": "One of Paris's last public marble metre standards is set into the ministry arcade where citizens once checked the new unit.",
+      "q": "mètre étalon 36 rue de Vaugirard Paris",
+      "w": "A revolutionary measurement system survives as a tiny street-side marble ruler, best found by slowing down beneath the arcade.",
+      "city": "paris",
+      "aliases": ["Mètre-étalon du 36 rue de Vaugirard", "Marble metre standard Vaugirard"],
+      "external_ids": {"commons_file": "Standard metre, rue de Vaugirard, Paris 2025-09-05.jpg"},
+      "facts": [
+        {"claim": "The public standard was installed to familiarise Parisians with the metre after its revolutionary adoption.", "source_urls": ["https://www.lessentiel.fr/paris/notre-ville/2026-02-09/quest-ce-quun-metre-etalon-15685"]},
+        {"claim": "Dated 2025 imagery confirms the marble bar remains visible at 36 rue de Vaugirard.", "source_urls": ["https://commons.wikimedia.org/wiki/Category:M%C3%A8tre_%C3%A9talon,_rue_de_Vaugirard"]}
+      ],
+      "sources": [
+        {"url": "https://www.lessentiel.fr/paris/notre-ville/2026-02-09/quest-ce-quun-metre-etalon-15685", "title": "Qu'est-ce qu'un mètre étalon ?", "publisher": "L'Essentiel Paris", "role": "current 2026 identity and historical explanation", "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/Category:M%C3%A8tre_%C3%A9talon,_rue_de_Vaugirard", "title": "Mètre étalon, rue de Vaugirard", "publisher": "Wikimedia Commons", "role": "dated exterior visibility corroboration including September 2025 imagery", "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:Standard_metre,_rue_de_Vaugirard,_Paris_2025-09-05.jpg", "title": "Standard metre, rue de Vaugirard, Paris 2025-09-05.jpg", "publisher": "Wikimedia Commons", "role": "recent object-specific geotag and exact coordinate basis", "checked_at": "2026-08-09"},
+        {"url": "https://opendata.paris.fr/explore/dataset/voie/", "title": "Linéaires des Voies", "publisher": "Ville de Paris Open Data", "role": "official municipal current public-street access context", "official_or_land_manager": true, "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_view", "evidence": "Mounted at pedestrian level under the public-facing arcade; it is viewable without entering the ministry.", "source_url": "https://commons.wikimedia.org/wiki/Category:M%C3%A8tre_%C3%A9talon,_rue_de_Vaugirard", "checked_at": "2026-08-09", "user_window": "continuous exterior view"},
+      "coordinate_basis": {"type": "object-specific photograph geotagged on 5 September 2025", "source_url": "https://commons.wikimedia.org/wiki/File:Standard_metre,_rue_de_Vaugirard,_Paris_2025-09-05.jpg", "precision": "object", "commons_file": "Standard metre, rue de Vaugirard, Paris 2025-09-05.jpg"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 4, "geographic_value": 3, "total": 22},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Mundolingua", "distance_m": 116}, "rationale": "The pavement-accessible revolutionary marble metre standard is a separate physical object and street experience from the nearby indoor language museum.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "canonmeridienpalaisroyal",
+      "n": "Canon méridien du Palais-Royal",
+      "a": "Jardin du Palais-Royal, 2 place Colette",
+      "pc": "75001",
+      "lat": 48.8643522,
+      "lng": 2.3374683,
+      "c": "streetfurniture",
+      "s": "A tiny bronze noon cannon in the Palais-Royal garden once fired automatically when the sun crossed its meridian.",
+      "q": "canon méridien jardin Palais Royal Paris",
+      "w": "Find the miniature timekeeper in the flowerbeds: it turned concentrated sunlight into a daily gunshot rather than a clock chime.",
+      "city": "paris",
+      "aliases": ["Petit canon du Palais-Royal", "Canon de midi du Palais-Royal"],
+      "external_ids": {"osm_node": "10024435742"},
+      "facts": [
+        {"claim": "The meridian cannon used a lens to ignite a charge at solar noon and regulated Paris time before standardisation.", "source_urls": ["https://www.domaine-palais-royal.fr/decouvrir/le-petit-canon-meridien"]},
+        {"claim": "The Domaine national describes the Palais-Royal garden as freely accessible during published hours.", "source_urls": ["https://www.domaine-palais-royal.fr/en/decouvrir/un-ecrin-de-verdure"]}
+      ],
+      "sources": [
+        {"url": "https://www.domaine-palais-royal.fr/decouvrir/le-petit-canon-meridien", "title": "Le petit canon méridien", "publisher": "Domaine national du Palais-Royal", "role": "official land-manager identity and historical evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.domaine-palais-royal.fr/en/decouvrir/un-ecrin-de-verdure", "title": "A haven of greenery", "publisher": "Domaine national du Palais-Royal", "role": "official land-manager current garden access and hours evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/10024435742", "title": "Petit canon", "publisher": "OpenStreetMap", "role": "named sundial-cannon point and exact coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_garden_object", "evidence": "Visible within the free national-domain garden during its published gate hours; firing occurs only on rare programmed occasions.", "source_url": "https://www.domaine-palais-royal.fr/en/decouvrir/un-ecrin-de-verdure", "checked_at": "2026-08-09", "user_window": "garden hours apply"},
+      "coordinate_basis": {"type": "named sundial-cannon point in the Palais-Royal parterre", "source_url": "https://www.openstreetmap.org/node/10024435742", "precision": "object", "osm_node": "10024435742"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Le Grand Véfour", "distance_m": 42}, "rationale": "The candidate is a small historic solar cannon in the public garden; the nearby catalogue row is a separately addressed restaurant interior.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "miredusud",
+      "n": "Mire du Sud",
+      "a": "Parc Montsouris, 2 rue Gazan",
+      "pc": "75014",
+      "lat": 48.8207,
+      "lng": 2.338161,
+      "c": "streetfurniture",
+      "s": "A stone sighting marker in Parc Montsouris preserves the old Paris meridian used by Observatory astronomers.",
+      "q": "Mire du Sud parc Montsouris Paris",
+      "w": "The plain monument becomes stranger once you realise it is an instrument aligned to a vanished national prime meridian.",
+      "city": "paris",
+      "aliases": ["Mire de l'Observatoire", "Mire du parc Montsouris"],
+      "external_ids": {"wikidata": "Q3315941", "merimee": "PA00086633"},
+      "facts": [
+        {"claim": "The marker was erected on the Paris meridian as the southern sighting point for the Observatory.", "source_urls": ["https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/la-mire-de-l-observatoire-au-parc-montsouris-14eme-arrondissement"]},
+        {"claim": "Ville de Paris lists Parc Montsouris as open from 07:00 to 23:59 on 13–15 August 2026.", "source_urls": ["https://www.paris.fr/lieux/parc-montsouris-1810"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/lieux/parc-montsouris-1810", "title": "Parc Montsouris", "publisher": "Ville de Paris", "role": "official municipal current date-specific opening and public access evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/la-mire-de-l-observatoire-au-parc-montsouris-14eme-arrondissement", "title": "La mire de l'Observatoire au parc Montsouris", "publisher": "Paris Musées / Musée Carnavalet", "role": "official municipal museum identity and history evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/Category:Mire_du_Sud", "title": "Mire du Sud", "publisher": "Wikimedia Commons", "role": "named-object coordinate corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_park", "evidence": "Freely visible beside a park path. The official calendar shows late closing on 13–15 August; recheck 16 August and heat restrictions.", "source_url": "https://www.paris.fr/lieux/parc-montsouris-1810", "checked_at": "2026-08-09", "user_window": "13–15 August 07:00–23:59; recheck 16 August"},
+      "coordinate_basis": {"type": "listed monument point cross-checked against geotagged object imagery", "source_url": "https://commons.wikimedia.org/wiki/Category:Mire_du_Sud", "precision": "object", "wikidata": "Q3315941"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Stade Charléty", "distance_m": 643}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias or identifier collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "espaceniemeyerexterior",
+      "n": "Espace Niemeyer — coupole et façade",
+      "a": "2 place du Colonel-Fabien",
+      "pc": "75019",
+      "lat": 48.877795,
+      "lng": 2.370603,
+      "c": "brutalism",
+      "s": "Oscar Niemeyer's sinuous Communist Party headquarters hides a white underground dome behind its rippling glass façade.",
+      "q": "Espace Niemeyer place du Colonel Fabien Paris",
+      "w": "The public square offers the essential view: a bowed curtain wall, a tiled forecourt and a white dome surfacing like a futuristic shell.",
+      "city": "paris",
+      "aliases": ["Siège du Parti communiste français", "PCF Oscar Niemeyer"],
+      "external_ids": {
+        "wikidata": "Q496060",
+        "osm_relation": "1000472",
+        "merimee": "PA75190004"
+      },
+      "facts": [
+        {"claim": "Oscar Niemeyer designed the headquarters, including its curved glass block and subterranean assembly-hall dome.", "source_urls": ["https://www.paris.fr/pages/1-lieu-3-histoires-la-place-du-colonel-fabien-34145"]},
+        {"claim": "The forecourt landscape works were completed, while indoor access remains tied to the venue's programmed events and visits.", "source_urls": ["https://www.paris.fr/pages/1-lieu-3-histoires-la-place-du-colonel-fabien-34145", "https://espace-niemeyer.fr/pratique/"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/1-lieu-3-histoires-la-place-du-colonel-fabien-34145", "title": "1 lieu, 3 histoires : la place du Colonel-Fabien", "publisher": "Ville de Paris", "role": "official municipal current completed-works, public-realm and architectural evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://espace-niemeyer.fr/pratique/", "title": "Informations pratiques", "publisher": "Espace Niemeyer", "role": "first-party current visitor and event access limitations", "first_party": true, "checked_at": "2026-08-09"},
+        {"url": "https://es.tourisme93.com/espace-niemeyer-paris.html", "title": "Espace Niemeyer", "publisher": "Seine-Saint-Denis Tourisme", "role": "documented building and forecourt entrance coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_exterior_only", "evidence": "The listed objective is the façade, dome and forecourt from place du Colonel-Fabien. Do not imply spontaneous interior access; interiors require a programmed event or visit.", "source_url": "https://espace-niemeyer.fr/pratique/", "checked_at": "2026-08-09", "user_window": "exterior public realm available; interior not assumed"},
+      "coordinate_basis": {"type": "building and forecourt entrance coordinate", "source_url": "https://es.tourisme93.com/espace-niemeyer-paris.html", "precision": "entrance"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Fontaine de Belleville", "distance_m": 270}, "rationale": "No catalogue point lies inside 120 metres and the candidate is scoped to an exterior architectural encounter.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "orguesdeflandre",
+      "n": "Orgues de Flandre",
+      "a": "67–107 avenue de Flandre",
+      "pc": "75019",
+      "lat": 48.88978,
+      "lng": 2.37386,
+      "c": "brutalism",
+      "s": "Four immense residential towers rise from a dense 1970s composition named for organ pipes and preludes.",
+      "q": "Orgues de Flandre tours Paris 19e",
+      "w": "From avenue de Flandre and the signed public approaches, the slab-and-tower ensemble suddenly reads like a monumental concrete instrument.",
+      "city": "paris",
+      "aliases": ["Cité des Orgues de Flandre", "Tours Prélude Fugue Cantate Sonate"],
+      "external_ids": {"merimee": "ACR0000719", "osm_way": "746925189"},
+      "facts": [
+        {"claim": "Martin van Treeck's ensemble is nationally recorded as a notable late-20th-century architectural work.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/ACR0000719"]},
+        {"claim": "A Ville de Paris update of 7 August 2026 records the public-space programme and active works, including an August garden/pedestrian phase and later residential works.", "source_urls": ["https://www.paris.fr/pages/projet-19e-orgues-de-flandre-17141"]}
+      ],
+      "sources": [
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/ACR0000719", "title": "Ensemble des Orgues de Flandre", "publisher": "Ministère de la Culture — POP", "role": "official national heritage-register identity and architecture evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/pages/projet-19e-orgues-de-flandre-17141", "title": "Orgues de Flandre, l'aménagement suit le tempo", "publisher": "Ville de Paris", "role": "official municipal current 7 August 2026 works, public-space and pedestrian access context", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/746925189", "title": "Public playground on Allée des Orgues de Flandre", "publisher": "OpenStreetMap", "role": "mapped public viewing-area geometry and coordinate basis within the ensemble", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_exterior_route_with_active_works", "evidence": "Residential interiors are private. Use avenue de Flandre and whichever signed public approaches are open: the city update of 7 August shows an August 2026 garden/pedestrian delivery and continuing works through 2027, so do not rely on an internal through-route.", "source_url": "https://www.paris.fr/pages/projet-19e-orgues-de-flandre-17141", "checked_at": "2026-08-09", "user_window": "public-street exterior view; obey works diversions"},
+      "coordinate_basis": {"type": "public viewing point in the ensemble garden on Allée des Orgues de Flandre, not a tower-centre claim", "source_url": "https://www.openstreetmap.org/way/746925189", "precision": "viewpoint", "osm_way": "746925189"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Rotonde de la Villette", "distance_m": 787}, "rationale": "No catalogue point lies inside 120 metres and there is no Paris name or identifier collision.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "ilndaniellecasanova",
+      "n": "ILN Danielle-Casanova",
+      "a": "79–81 avenue Danielle-Casanova",
+      "pc": "94200",
+      "lat": 48.81333,
+      "lng": 2.38557,
+      "c": "brutalism",
+      "s": "Jean Renaudie's terraced concrete housing turns 82 different flats, planted terraces and diagonal geometry into a jagged landscape.",
+      "q": "ILN Danielle-Casanova 79 81 avenue architecture Ivry-sur-Seine",
+      "w": "The reward is not one façade but a walk among triangular balconies, planted terraces and sloping passages that reject the ordinary tower block.",
+      "city": "paris",
+      "aliases": ["ILN Casanova", "Immeuble Danielle-Casanova", "Étoiles d'Ivry — ILN Casanova"],
+      "external_ids": {"merimee": "PA94000029"},
+      "facts": [
+        {"claim": "Jean Renaudie designed the 82-apartment ILN at 79–81 avenue Danielle-Casanova between 1970 and 1972, within the Ivry centre coordinated by Renée Gailhoustet.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA94000029"]},
+        {"claim": "Coop'Ivry currently manages and documents the ILN Casanova residential ensemble.", "source_urls": ["https://www.coopivry.fr/patrimoine/iln-casanova/"]}
+      ],
+      "sources": [
+        {"url": "https://www.coopivry.fr/patrimoine/iln-casanova/", "title": "ILN Casanova", "publisher": "Coop'Ivry Habitat", "role": "official current property-manager identity and occupied-status evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA94000029", "title": "Centre-ville d'Ivry-sur-Seine", "publisher": "Ministère de la Culture — POP", "role": "official national heritage-register architectural evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.pss-archi.eu/immeubles/FR-94041-30179.html", "title": "ILN Casanova", "publisher": "PSS-archi", "role": "building-address and coordinate corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_exterior_route", "evidence": "This is an occupied housing estate: stay on signed public streets and passages, respect residents and do not enter blocks or terraces.", "source_url": "https://www.coopivry.fr/patrimoine/iln-casanova/", "checked_at": "2026-08-09", "user_window": "daylight exterior visit only"},
+      "coordinate_basis": {"type": "named Danielle-Casanova building ensemble coordinate", "source_url": "https://www.pss-archi.eu/immeubles/FR-94041-30179.html", "precision": "site", "merimee": "PA94000029"},
+      "editorial_score": {"story": 5, "walkability": 4, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Statue d'Henri IV", "distance_m": 2332}, "rationale": "No catalogue point lies inside 120 metres and no alias or external-ID collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "chouxdecreteil",
+      "n": "Choux de Créteil",
+      "a": "Allée des Choux",
+      "pc": "94000",
+      "lat": 48.78615,
+      "lng": 2.44556,
+      "c": "brutalism",
+      "s": "Gérard Grandval's flower-like concrete balconies wrap ten residential towers in one of Greater Paris's strangest housing landscapes.",
+      "q": "Choux de Créteil architecture allée des Choux",
+      "w": "From the public paths, hundreds of petal balconies turn ordinary homes into giant concrete cabbages.",
+      "city": "paris",
+      "aliases": ["Les Choux", "Tours-choux de Créteil", "Quartier du Palais Créteil"],
+      "external_ids": {"wikidata": "Q3221329", "merimee": "EA94000002"},
+      "facts": [
+        {"claim": "The Ministère de la Culture records Gérard Grandval's Créteil housing ensemble and its distinctive balcony forms.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/EA94000002"]},
+        {"claim": "Val-de-Marne's destination organisation currently presents the Choux as part of an architecture walk shaped around pedestrian routes in the Nouveau Créteil.", "source_urls": ["https://www.tourisme-valdemarne.com/arts-culture/balades-urbaines/balades-historiques-et-architecturales/architecture-des-20e-et-21e-s/"]}
+      ],
+      "sources": [
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/EA94000002", "title": "Les Choux de Créteil", "publisher": "Ministère de la Culture — POP", "role": "official national architecture-register identity and history evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.tourisme-valdemarne.com/arts-culture/balades-urbaines/balades-historiques-et-architecturales/architecture-des-20e-et-21e-s/", "title": "Architecture des XXe et XXIe siècles", "publisher": "Val-de-Marne Tourisme & Loisirs", "role": "official destination-manager current public architecture-walk and pedestrian-route evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.wikidata.org/wiki/Q3221329", "title": "Choux de Créteil", "publisher": "Wikidata", "role": "named-site coordinate corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_exterior_route", "evidence": "The destination manager presents the ensemble as an architecture-walk subject. View from public streets and paths only: the towers are occupied homes, and entrances, balconies and resident-only areas are not visitor space.", "source_url": "https://www.tourisme-valdemarne.com/arts-culture/balades-urbaines/balades-historiques-et-architecturales/architecture-des-20e-et-21e-s/", "checked_at": "2026-08-09", "user_window": "daylight exterior visit recommended"},
+      "coordinate_basis": {"type": "centre of the named tower ensemble", "source_url": "https://www.wikidata.org/wiki/Q3221329", "precision": "site", "wikidata": "Q3221329"},
+      "editorial_score": {"story": 5, "walkability": 4, "distinctiveness": 5, "source_quality": 4, "geographic_value": 5, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Musée Fragonard", "distance_m": 3379}, "rationale": "No catalogue point lies inside 120 metres and no alias or external-ID collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "studiobuilding",
+      "n": "Studio Building",
+      "a": "65 rue Jean-de-La-Fontaine",
+      "pc": "75016",
+      "lat": 48.849306,
+      "lng": 2.267381,
+      "c": "artdeco",
+      "s": "Henri Sauvage's 1920s apartment block pairs an exposed concrete frame with polychrome ceramic infill like a street-sized geometric tapestry.",
+      "q": "Studio Building 65 rue Jean de La Fontaine Paris",
+      "w": "The façade is the whole encounter: blue-green tiles and gridded concrete make a private apartment building unusually rewarding from the pavement.",
+      "city": "paris",
+      "aliases": ["Immeuble Studio", "Studio-building Henri Sauvage"],
+      "external_ids": {"wikidata": "Q3500968", "merimee": "PA00086688"},
+      "facts": [
+        {"claim": "Ville de Paris attributes the Studio Building to Henri Sauvage and highlights its ceramic-clad structural grid.", "source_urls": ["https://www.paris.fr/pages/balade-architecturale-dans-le-triangle-d-or-du-16e-19113"]},
+        {"claim": "The building is protected as a historic monument under notice PA00086688.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086688"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/balade-architecturale-dans-le-triangle-d-or-du-16e-19113", "title": "Balade architecturale dans le 16e", "publisher": "Ville de Paris", "role": "official municipal public walking-route and architecture evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00086688", "title": "Studio Building", "publisher": "Ministère de la Culture — POP", "role": "official heritage-register identity evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.pss-archi.eu/immeubles/FR-75056-1706.html", "title": "Studio Building", "publisher": "PSS-archi", "role": "current address and coordinate corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_exterior_view", "evidence": "Private residences are not open, but the protected façade is fully legible from the public pavement and appears in the municipal walking route.", "source_url": "https://www.paris.fr/pages/balade-architecturale-dans-le-triangle-d-or-du-16e-19113", "checked_at": "2026-08-09", "user_window": "continuous exterior view"},
+      "coordinate_basis": {"type": "building frontage coordinate", "source_url": "https://www.pss-archi.eu/immeubles/FR-75056-1706.html", "precision": "building", "wikidata": "Q3500968"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Statue de la Liberté", "distance_m": 905}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias or identifier collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "26ruevavin",
+      "n": "Immeuble à gradins du 26 rue Vavin",
+      "a": "26 rue Vavin",
+      "pc": "75006",
+      "lat": 48.843661,
+      "lng": 2.329819,
+      "c": "oddity",
+      "s": "Henri Sauvage's stepped apartment façade climbs backward in white ceramic terraces, testing a radical model for light and air.",
+      "q": "Immeuble à gradins du 26 rue Vavin Henri Sauvage Paris",
+      "w": "Stand across the narrow street to read the unusual section: each floor retreats into planted terraces like an urban hillside.",
+      "city": "paris",
+      "aliases": ["Maison à gradins rue Vavin", "Immeuble Henri Sauvage rue Vavin"],
+      "external_ids": {"wikidata": "Q21088680", "merimee": "PA00088645"},
+      "facts": [
+        {"claim": "Ville de Paris identifies the 1912–1913 rue Vavin building as an early stepped design by Henri Sauvage.", "source_urls": ["https://www.paris.fr/pages/5-edifices-remarquables-d-henri-sauvage-architecte-de-la-samaritaine-17993"]},
+        {"claim": "Musée Carnavalet documents its terraced, white-ceramic street elevation.", "source_urls": ["https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/26-et-26-bis-rue-vavin-maison-a-gradins-terrasses-etagees-construite-par"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/5-edifices-remarquables-d-henri-sauvage-architecte-de-la-samaritaine-17993", "title": "5 édifices remarquables d'Henri Sauvage", "publisher": "Ville de Paris", "role": "official municipal current public architecture-walk and identity evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/26-et-26-bis-rue-vavin-maison-a-gradins-terrasses-etagees-construite-par", "title": "26 et 26 bis rue Vavin", "publisher": "Paris Musées / Musée Carnavalet", "role": "official municipal museum architectural evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.pss-archi.eu/immeubles/FR-75056-477.html", "title": "26 rue Vavin", "publisher": "PSS-archi", "role": "building frontage coordinate corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_exterior_view", "evidence": "The residences are private; the stepped façade is the candidate and is visible from the public pavement.", "source_url": "https://www.paris.fr/pages/5-edifices-remarquables-d-henri-sauvage-architecte-de-la-samaritaine-17993", "checked_at": "2026-08-09", "user_window": "continuous exterior view"},
+      "coordinate_basis": {"type": "protected building frontage coordinate", "source_url": "https://www.pss-archi.eu/immeubles/FR-75056-477.html", "precision": "building", "wikidata": "Q21088680"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Musée Zadkine", "distance_m": 294}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias or identifier collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "piscinedesamiraux",
+      "n": "Piscine des Amiraux",
+      "a": "6 rue Hermann-Lachapelle",
+      "pc": "75018",
+      "lat": 48.8943,
+      "lng": 2.35086,
+      "c": "bathhouse",
+      "s": "Henri Sauvage buried a public pool inside his stepped social-housing block, ringed by bright tiers of individual changing cabins.",
+      "q": "Piscine des Amiraux Paris horaires août 2026",
+      "w": "A swim reveals the architecture from within: a luminous central pool, stacked cabin galleries and an unusually complete civic Art Deco interior.",
+      "city": "paris",
+      "aliases": ["Piscine Amiraux", "Piscine Henri Sauvage"],
+      "external_ids": {"wikidata": "Q3149084", "osm_way": "78020880", "merimee": "PA00086742"},
+      "facts": [
+        {"claim": "Henri Sauvage integrated the pool into the Amiraux housing complex, with tiered changing cabins around the basin.", "source_urls": ["https://www.paris.fr/pages/5-edifices-remarquables-d-henri-sauvage-architecte-de-la-samaritaine-17993"]},
+        {"claim": "The current municipal schedule marks the pool closed on Saturday 15 August 2026.", "source_urls": ["https://www.paris.fr/lieux/piscine-des-amiraux-2944"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/lieux/piscine-des-amiraux-2944", "title": "Piscine des Amiraux", "publisher": "Ville de Paris", "role": "official municipal current date-specific opening, admission and closure evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/pages/5-edifices-remarquables-d-henri-sauvage-architecte-de-la-samaritaine-17993", "title": "5 édifices remarquables d'Henri Sauvage", "publisher": "Ville de Paris", "role": "official municipal architecture and history evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:Piscine_Amiraux_-_Paris_XVIII_(FR75)_-_2026-06-14_-_1.jpg", "title": "Piscine Amiraux, 14 June 2026", "publisher": "Wikimedia Commons", "role": "current 2026 exterior and coordinate corroboration", "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/78020880", "title": "Piscine des Amiraux", "publisher": "OpenStreetMap", "role": "named pool-building geometry and entrance coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "ticketed_public_pool", "evidence": "Ordinary public swimming sessions are listed, with pool admission and swimwear rules. It is explicitly CLOSED Saturday 15 August 2026; use another visit day and verify the live timetable.", "source_url": "https://www.paris.fr/lieux/piscine-des-amiraux-2944", "checked_at": "2026-08-09", "user_window": "possible 13, 14 or 16 August at listed sessions; closed 15 August"},
+      "coordinate_basis": {"type": "municipal pool entrance and named building footprint", "source_url": "https://www.openstreetmap.org/way/78020880", "precision": "entrance", "wikidata": "Q3149084"},
+      "editorial_score": {"story": 5, "walkability": 4, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "La Recyclerie", "distance_m": 627}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias or identifier collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "passagecottin",
+      "n": "Escalier du passage Cottin",
+      "a": "Passage Cottin",
+      "pc": "75018",
+      "lat": 48.8877198,
+      "lng": 2.3455568,
+      "c": "steps",
+      "s": "A steep, narrow stair passage drops between Montmartre houses with a compressed view toward Sacré-Cœur.",
+      "q": "escalier passage Cottin Paris Montmartre",
+      "w": "This is a useful anti-postcard Montmartre climb: tight walls, an abrupt gradient and a basilica glimpse framed by ordinary homes.",
+      "city": "paris",
+      "aliases": ["Passage Cottin stairs", "Escaliers du passage Cottin"],
+      "external_ids": {"osm_way": "73051396"},
+      "facts": [
+        {"claim": "Musée Carnavalet records passage Cottin as a steep Montmartre stair passage in historic views.", "source_urls": ["https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/le-passage-cottin-en-1926"]},
+        {"claim": "Passage Cottin remains a named public voie in the current Ville de Paris street dataset.", "source_urls": ["https://opendata.paris.fr/explore/dataset/voie/"]}
+      ],
+      "sources": [
+        {"url": "https://opendata.paris.fr/explore/dataset/voie/", "title": "Linéaires des Voies", "publisher": "Ville de Paris Open Data", "role": "official municipal current named public-street and pedestrian access evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/le-passage-cottin-en-1926", "title": "Le passage Cottin en 1926", "publisher": "Paris Musées / Musée Carnavalet", "role": "official municipal museum identity and historical continuity evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/73051396", "title": "Escalier du passage Cottin", "publisher": "OpenStreetMap", "role": "mapped named 107-step stairway geometry and exact midpoint basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_steps", "evidence": "Named public passage with unrestricted pedestrian use; steep steps make it unsuitable for step-free routing and potentially slippery when wet.", "source_url": "https://opendata.paris.fr/explore/dataset/voie/", "checked_at": "2026-08-09", "user_window": "continuous pedestrian access, subject to temporary street works"},
+      "coordinate_basis": {"type": "midpoint of the mapped named 107-step stairway", "source_url": "https://www.openstreetmap.org/way/73051396", "precision": "stairs", "osm_way": "73051396"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 4, "source_quality": 4, "geographic_value": 4, "total": 21},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Halle Saint-Pierre", "distance_m": 343}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "passerellesimonedebeauvoir",
+      "n": "Passerelle Simone-de-Beauvoir",
+      "a": "Quai de Bercy",
+      "pc": "75012",
+      "lat": 48.835278,
+      "lng": 2.378056,
+      "c": "footbridges",
+      "s": "A lens-shaped pedestrian bridge interlaces two decks so walkers cross the Seine on subtly different rising and falling routes.",
+      "q": "Passerelle Simone de Beauvoir Paris Bercy",
+      "w": "Choose a level and watch the other path weave above or below you before both land between Parc de Bercy and the national library.",
+      "city": "paris",
+      "aliases": ["Pont Simone-de-Beauvoir", "Passerelle Bercy BNF"],
+      "external_ids": {"wikidata": "Q1853517"},
+      "facts": [
+        {"claim": "The pedestrian and cycle bridge connects Parc de Bercy with the Bibliothèque nationale de France side of the Seine.", "source_urls": ["https://www.paris.fr/lieux/parc-de-bercy-grandes-pelouses-5"]},
+        {"claim": "Ville de Paris currently identifies the bridge as an accessible route to the Bercy bathing site.", "source_urls": ["https://www.paris.fr/pages/baignades-en-seine-tout-savoir-sur-l-accessibilite-35596"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/lieux/parc-de-bercy-grandes-pelouses-5", "title": "Parc de Bercy — Grandes pelouses", "publisher": "Ville de Paris", "role": "official municipal current park access and bridge-connection evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/pages/baignades-en-seine-tout-savoir-sur-l-accessibilite-35596", "title": "Baignades en Seine : accessibilité", "publisher": "Ville de Paris", "role": "official municipal current 2026 pedestrian and accessible route evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/webdocs/rives-de-seine", "title": "Parc Rives de Seine", "publisher": "Ville de Paris", "role": "official municipal current Seine walking-network context", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.wikidata.org/wiki/Q1853517", "title": "Passerelle Simone-de-Beauvoir", "publisher": "Wikidata", "role": "named bridge centre coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pedestrian_bridge", "evidence": "Open pedestrian/cycle crossing in the municipal Seine network; separated slopes aid access, though gradients and cycling traffic require care.", "source_url": "https://www.paris.fr/pages/baignades-en-seine-tout-savoir-sur-l-accessibilite-35596", "checked_at": "2026-08-09", "user_window": "continuous crossing subject to emergency river restrictions"},
+      "coordinate_basis": {"type": "named bridge centre point", "source_url": "https://www.wikidata.org/wiki/Q1853517", "precision": "bridge", "wikidata": "Q1853517"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Accor Arena", "distance_m": 438}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "passerellesenghor",
+      "n": "Passerelle Léopold-Sédar-Senghor",
+      "a": "Quai Anatole-France, port de Solférino",
+      "pc": "75007",
+      "lat": 48.861944,
+      "lng": 2.324722,
+      "c": "footbridges",
+      "s": "Marc Mimram's steel pedestrian arch offers both a high Seine crossing and lower bank-level approaches threaded through its structure.",
+      "q": "Passerelle Léopold Sédar Senghor Paris",
+      "w": "The bridge works as a small choice-based promenade: stay low near the quays or rise to the centre for an open river view.",
+      "city": "paris",
+      "aliases": ["Passerelle de Solférino", "Pont Léopold-Sédar-Senghor"],
+      "external_ids": {"wikidata": "Q605912"},
+      "facts": [
+        {"claim": "The Ministry of Culture records Marc Mimram's passerelle as a notable contemporary work.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/ACR0001546"]},
+        {"claim": "The crossing connects the Tuileries side with the Musée d'Orsay and the pedestrian Seine banks.", "source_urls": ["https://www.paris.fr/webdocs/rives-de-seine"]}
+      ],
+      "sources": [
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/ACR0001546", "title": "Passerelle Léopold-Sédar-Senghor", "publisher": "Ministère de la Culture — POP", "role": "official national architecture-register identity evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/webdocs/rives-de-seine", "title": "Parc Rives de Seine", "publisher": "Ville de Paris", "role": "official municipal current pedestrian-bank access and route evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.wikidata.org/wiki/Q605912", "title": "Passerelle Léopold-Sédar-Senghor", "publisher": "Wikidata", "role": "named bridge centre coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pedestrian_bridge", "evidence": "Free pedestrian crossing linked to the public quays. Ramps are present, but surface and riverbank access can change during flooding or security closures.", "source_url": "https://www.paris.fr/webdocs/rives-de-seine", "checked_at": "2026-08-09", "user_window": "continuous crossing subject to river/security notices"},
+      "coordinate_basis": {"type": "centre span of named bridge", "source_url": "https://www.wikidata.org/wiki/Q605912", "precision": "bridge", "wikidata": "Q605912"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Le Soufflé", "distance_m": 516}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias or identifier collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "passerelledebilly",
+      "n": "Passerelle Debilly",
+      "a": "Quai Branly, avenue de New-York",
+      "pc": "75007",
+      "lat": 48.8625,
+      "lng": 2.296944,
+      "c": "footbridges",
+      "s": "A slender steel arch built for the 1900 Exposition Universelle survives as a pedestrian shortcut with an unusually direct Eiffel Tower view.",
+      "q": "Passerelle Debilly Paris accès piéton",
+      "w": "Its industrial truss and low river position produce a compact crossing that feels more intimate than the monumental road bridges nearby.",
+      "city": "paris",
+      "aliases": ["Passerelle de la Manutention", "Pont Debilly"],
+      "external_ids": {"wikidata": "Q2274186", "osm_way": "183944559"},
+      "facts": [
+        {"claim": "The passerelle was built as part of the 1900 Exposition Universelle transport and exhibition landscape.", "source_urls": ["https://www.paris.fr/pages/sur-les-traces-des-expositions-universelles-de-paris-2-2-19671"]},
+        {"claim": "Musée Carnavalet documents the named steel footbridge across the Seine.", "source_urls": ["https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/passerelle-debilly"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/sur-les-traces-des-expositions-universelles-de-paris-2-2-19671", "title": "Sur les traces des Expositions universelles", "publisher": "Ville de Paris", "role": "official municipal current walking-route and history evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/passerelle-debilly", "title": "Passerelle Debilly", "publisher": "Paris Musées / Musée Carnavalet", "role": "official municipal museum identity evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/webdocs/rives-de-seine", "title": "Parc Rives de Seine", "publisher": "Ville de Paris", "role": "official municipal current pedestrian-bank access context", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/183944559", "title": "Passerelle Debilly", "publisher": "OpenStreetMap", "role": "named bridge geometry used for the centre-span coordinate", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pedestrian_bridge", "evidence": "Free pedestrian crossing between public quays. Recheck temporary river, works or security notices before relying on it as a route.", "source_url": "https://www.paris.fr/webdocs/rives-de-seine", "checked_at": "2026-08-09", "user_window": "continuous crossing subject to temporary notices"},
+      "coordinate_basis": {"type": "midpoint of named bridge geometry", "source_url": "https://www.openstreetmap.org/way/183944559", "precision": "bridge", "osm_way": "183944559"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 5, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Statue of George Washington", "distance_m": 334}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias or identifier collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "pontdesarts",
+      "n": "Pont des Arts",
+      "a": "Quai François-Mitterrand, quai de Conti",
+      "pc": "75001",
+      "lat": 48.8584075,
+      "lng": 2.3375477,
+      "c": "footbridges",
+      "s": "The 1984 metal reconstruction of Paris's pioneering pedestrian crossing is again a clean timber-decked river room after 2026 consolidation.",
+      "q": "Pont des Arts Paris travaux terminés 2026",
+      "w": "The best reason to cross is spatial rather than romantic mythology: the bridge becomes a long open terrace between the Louvre and Institut de France.",
+      "city": "paris",
+      "aliases": ["Passerelle des Arts"],
+      "external_ids": {"osm_way": "176396893", "wikidata": "Q1329141"},
+      "facts": [
+        {"claim": "Ville de Paris identifies the present metal passerelle as a 1984 structure on the site of the pioneering 1801 crossing.", "source_urls": ["https://www.paris.fr/pages/le-pont-des-arts-se-refait-une-beaute-23624"]},
+        {"claim": "Ville de Paris reported on 12 June 2026 that the timber deck and 2026 consolidation work had been completed while accessibility was maintained through the works.", "source_urls": ["https://www.paris.fr/pages/le-pont-des-arts-se-refait-une-beaute-23624"]},
+        {"claim": "The bridge functions as a pedestrian crossing in the central Seine walking network.", "source_urls": ["https://www.paris.fr/webdocs/rives-de-seine"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/le-pont-des-arts-se-refait-une-beaute-23624", "title": "Le pont des Arts s'est refait une beauté", "publisher": "Ville de Paris", "role": "official municipal current June 2026 reopening and completed-works evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/webdocs/rives-de-seine", "title": "Parc Rives de Seine", "publisher": "Ville de Paris", "role": "official municipal current pedestrian route and access context", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.ratp.fr/paris-plages", "title": "Paris Plages", "publisher": "RATP", "role": "current 2026 public-transport walking directions referencing the bridge", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/176396893", "title": "Pont des Arts", "publisher": "OpenStreetMap", "role": "named bridge geometry and exact centre coordinate basis", "checked_at": "2026-08-09"},
+        {"url": "https://www.wikidata.org/wiki/Q1329141", "title": "Pont des Arts", "publisher": "Wikidata", "role": "named bridge identity and coordinate corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pedestrian_bridge", "evidence": "The city states restoration was completed in June 2026. Free pedestrian crossing; exceptional security or river events can still alter approaches.", "source_url": "https://www.paris.fr/pages/le-pont-des-arts-se-refait-une-beaute-23624", "checked_at": "2026-08-09", "user_window": "restored and open as of June 2026; recheck same day"},
+      "coordinate_basis": {"type": "centre of named bridge geometry", "source_url": "https://www.openstreetmap.org/way/176396893", "precision": "bridge", "osm_way": "176396893", "wikidata": "Q1329141"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 5, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Square du Vert-Galant", "distance_m": 212}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "defenseurdutemps",
+      "n": "Le Défenseur du Temps",
+      "a": "8 rue Bernard-de-Clairvaux, quartier de l'Horloge",
+      "pc": "75003",
+      "lat": 48.862469,
+      "lng": 2.352606,
+      "c": "oddity",
+      "s": "A restored mechanical figure once again fights a dragon, crab or bird as its giant clock marks the hours above a tucked-away passage.",
+      "q": "Défenseur du Temps quartier de l'Horloge Paris",
+      "w": "Time your detour for the mechanism, but even at rest the armoured figure and three animals feel like a piece of analogue fantasy embedded in housing.",
+      "city": "paris",
+      "aliases": ["Défenseur du temps Horloge", "Automate du quartier de l'Horloge"],
+      "external_ids": {"wikidata": "Q1763620"},
+      "facts": [
+        {"claim": "Jacques Monestier's monumental automaton was restored and returned to operation in the quartier de l'Horloge.", "source_urls": ["https://www.paris.fr/pages/restaure-le-defenseur-du-temps-rythme-a-nouveau-le-quartier-de-l-horloge-23029"]},
+        {"claim": "The restored figure performs scheduled combats against three symbolic animals.", "source_urls": ["https://mairiepariscentre.paris.fr/pages/restaure-le-defenseur-du-temps-rythme-a-nouveau-le-quartier-de-l-horloge-23249"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/restaure-le-defenseur-du-temps-rythme-a-nouveau-le-quartier-de-l-horloge-23029", "title": "Restauré, le Défenseur du Temps rythme à nouveau le quartier", "publisher": "Ville de Paris", "role": "official municipal current restored operating-status and public-location evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://mairiepariscentre.paris.fr/pages/restaure-le-defenseur-du-temps-rythme-a-nouveau-le-quartier-de-l-horloge-23249", "title": "Le Défenseur du Temps", "publisher": "Mairie de Paris Centre", "role": "official borough current access and mechanism evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.wikidata.org/wiki/Q1763620", "title": "Le Défenseur du Temps", "publisher": "Wikidata", "role": "named automaton object coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_passage_view", "evidence": "Mounted above an open pedestrian passage. Mechanical performance timing can change; the object remains visible even if the automaton is not moving.", "source_url": "https://www.paris.fr/pages/restaure-le-defenseur-du-temps-rythme-a-nouveau-le-quartier-de-l-horloge-23029", "checked_at": "2026-08-09", "user_window": "public exterior view; performance not guaranteed"},
+      "coordinate_basis": {"type": "wall-mounted automaton in the documented passage", "source_url": "https://www.wikidata.org/wiki/Q1763620", "precision": "object", "wikidata": "Q1763620"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Maison de Nicolas Flamel", "distance_m": 131}, "rationale": "Nearest catalogue point is outside the 120-metre review radius and there is no alias collision.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "faussefacaderatp",
+      "n": "Fausse façade RATP du 145 rue La Fayette",
+      "a": "145 rue La Fayette",
+      "pc": "75010",
+      "lat": 48.879169,
+      "lng": 2.356139,
+      "c": "oddity",
+      "s": "An apparently ordinary Haussmannian frontage is a ventilation disguise: painted windows conceal infrastructure rather than flats.",
+      "q": "fausse façade RATP 145 rue La Fayette Paris",
+      "w": "The game is visual detection—look for flat painted openings and the absence of domestic detail in a street that otherwise reads as continuous housing.",
+      "city": "paris",
+      "aliases": ["Faux immeuble 145 rue La Fayette", "Façade de ventilation Magenta RATP"],
+      "external_ids": {"wikidata": "Q14760720"},
+      "facts": [
+        {"claim": "The façade conceals a transport ventilation structure rather than a conventional occupied apartment building.", "source_urls": ["https://www.leparisien.fr/paris-75/paris-saurez-vous-reperer-ces-fausses-facades-haussmanniennes-qui-ne-cachent-aucun-logement-03-08-2025-WH32B2YHT5EHTCZI5VZZTVOJWE.php"]},
+        {"claim": "A December 2025 architecture report confirms the trompe-l'œil frontage remains identifiable at 145 rue La Fayette.", "source_urls": ["https://www.admagazine.fr/article/paris-facades-haussmanniennes-faux-immeubles"]}
+      ],
+      "sources": [
+        {"url": "https://www.leparisien.fr/paris-75/paris-saurez-vous-reperer-ces-fausses-facades-haussmanniennes-qui-ne-cachent-aucun-logement-03-08-2025-WH32B2YHT5EHTCZI5VZZTVOJWE.php", "title": "Ces fausses façades haussmanniennes", "publisher": "Le Parisien", "role": "current identity, continued exterior status and infrastructure explanation", "checked_at": "2026-08-09"},
+        {"url": "https://www.admagazine.fr/article/paris-facades-haussmanniennes-faux-immeubles", "title": "À Paris, ces façades cachent de faux immeubles", "publisher": "AD France", "role": "current December 2025 street-visible status corroboration", "checked_at": "2026-08-09"},
+        {"url": "https://opendata.paris.fr/explore/dataset/voie/", "title": "Linéaires des Voies", "publisher": "Ville de Paris Open Data", "role": "official municipal current public-street access context", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.wikidata.org/wiki/Q14760720", "title": "145 rue La Fayette", "publisher": "Wikidata", "role": "documented false-façade coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_view", "evidence": "View from the public pavement only; the infrastructure behind the façade is not visitor-accessible.", "source_url": "https://opendata.paris.fr/explore/dataset/voie/", "checked_at": "2026-08-09", "user_window": "continuous exterior view"},
+      "coordinate_basis": {"type": "documented street-number façade", "source_url": "https://www.wikidata.org/wiki/Q14760720", "precision": "facade", "wikidata": "Q14760720"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 4, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Passage Brady", "distance_m": 897}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias or external-ID collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "39ruechateaudeau",
+      "n": "Maison étroite du 39 rue du Château-d'Eau",
+      "a": "39 rue du Château-d'Eau",
+      "pc": "75010",
+      "lat": 48.871333,
+      "lng": 2.357811,
+      "c": "oddity",
+      "s": "A facade barely wider than its doorway fills a leftover urban sliver and is commonly presented as Paris's narrowest house.",
+      "q": "39 rue du Château d'Eau maison étroite Paris",
+      "w": "It rewards a double take: the two windows, door and upper storeys have been squeezed into a gap that looks too thin to be a building.",
+      "city": "paris",
+      "aliases": ["Plus petite maison de Paris", "Maison la plus étroite de Paris"],
+      "external_ids": {"wikidata": "Q1773904"},
+      "facts": [
+        {"claim": "Musée Carnavalet catalogues the narrow façade as a long-recognised Paris street curiosity.", "source_urls": ["https://www.parismuseescollections.paris.fr/fr/node/1019827"]},
+        {"claim": "A photograph taken on 24 March 2016 records the street-numbered façade at 39 rue du Château-d'Eau.", "source_urls": ["https://commons.wikimedia.org/wiki/Category:39_rue_du_Ch%C3%A2teau-d%27Eau,_Paris"]}
+      ],
+      "sources": [
+        {"url": "https://www.parismuseescollections.paris.fr/fr/node/1019827", "title": "39 rue du Château-d'Eau, une curiosité de Paris", "publisher": "Paris Musées / Musée Carnavalet", "role": "official municipal museum identity and historical evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/Category:39_rue_du_Ch%C3%A2teau-d%27Eau,_Paris", "title": "39 rue du Château-d'Eau", "publisher": "Wikimedia Commons", "role": "dated exterior visual corroboration; newest exterior photograph in the category was taken 24 March 2016", "checked_at": "2026-08-09"},
+        {"url": "https://www.wikidata.org/wiki/Q1773904", "title": "39 rue du Château-d'Eau", "publisher": "Wikidata", "role": "exact named-building coordinate point", "checked_at": "2026-08-09"},
+        {"url": "https://opendata.paris.fr/explore/dataset/voie/", "title": "Linéaires des Voies", "publisher": "Ville de Paris Open Data", "role": "official municipal current public-street access context", "official_or_land_manager": true, "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_view", "evidence": "Private interior; the complete street façade is visible from the public pavement without entry.", "source_url": "https://opendata.paris.fr/explore/dataset/voie/", "checked_at": "2026-08-09", "user_window": "continuous exterior view"},
+      "coordinate_basis": {"type": "Wikidata named-building point", "source_url": "https://www.wikidata.org/wiki/Q1773904", "precision": "facade", "wikidata": "Q1773904"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 5, "source_quality": 4, "geographic_value": 4, "total": 22},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Passage Brady", "distance_m": 187}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias or identifier collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "cadransolairedali",
+      "n": "Cadran solaire de Salvador Dalí",
+      "a": "27 rue Saint-Jacques",
+      "pc": "75005",
+      "lat": 48.851401,
+      "lng": 2.345999,
+      "c": "streetart",
+      "s": "A blue ceramic scallop with a human face projects from a Latin Quarter wall as Salvador Dalí's surreal take on a sundial.",
+      "q": "cadran solaire Salvador Dalí rue Saint Jacques Paris",
+      "w": "Look upward for a public artwork that is both a clock and a joke: its shell-like face turns a narrow medieval street into a surrealist sightline.",
+      "city": "paris",
+      "aliases": ["Le Cadran de Dalí", "Sundial Salvador Dalí rue Saint-Jacques"],
+      "external_ids": {
+        "commons_file": "Le Cadran de Dalí, Rue Saint-Jacques, 2010-07-24.jpg"
+      },
+      "facts": [
+        {"claim": "The wall-mounted ceramic sundial is attributed to Salvador Dalí and depicts a shell-like face.", "source_urls": ["https://www.pariszigzag.fr/insolite/lieux-insolites/une-oeuvre-de-salvador-dali-cachee-au-coeur-du-quartier-latin/"]},
+        {"claim": "A photograph taken on 5 July 2026 and uploaded on 8 July confirms the object remains mounted at the rue Saint-Jacques address.", "source_urls": ["https://commons.wikimedia.org/wiki/Category:Salvador_Dal%C3%AD%27s_sundial_in_Paris"]}
+      ],
+      "sources": [
+        {"url": "https://www.pariszigzag.fr/insolite/lieux-insolites/une-oeuvre-de-salvador-dali-cachee-au-coeur-du-quartier-latin/", "title": "Une œuvre de Salvador Dalí au Quartier latin", "publisher": "Paris ZigZag", "role": "identity, artist and street-location evidence", "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/Category:Salvador_Dal%C3%AD%27s_sundial_in_Paris", "title": "Salvador Dalí's sundial in Paris", "publisher": "Wikimedia Commons", "role": "current 5 July 2026 exterior-status evidence and coordinate corroboration", "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:Le_Cadran_de_Dal%C3%AD,_Rue_Saint-Jacques,_2010-07-24.jpg", "title": "Le Cadran de Dalí, Rue Saint-Jacques, 2010-07-24.jpg", "publisher": "Wikimedia Commons", "role": "object-specific geotag and exact coordinate basis", "checked_at": "2026-08-09"},
+        {"url": "https://opendata.paris.fr/explore/dataset/voie/", "title": "Linéaires des Voies", "publisher": "Ville de Paris Open Data", "role": "official municipal current public-street access context", "official_or_land_manager": true, "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_view", "evidence": "Mounted high on a façade and visible from the public pavement; no building entry is required.", "source_url": "https://opendata.paris.fr/explore/dataset/voie/", "checked_at": "2026-08-09", "user_window": "continuous exterior view"},
+      "coordinate_basis": {"type": "geotagged photograph of wall-mounted object", "source_url": "https://commons.wikimedia.org/wiki/File:Le_Cadran_de_Dal%C3%AD,_Rue_Saint-Jacques,_2010-07-24.jpg", "precision": "object"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 4, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Studio Galande", "distance_m": 85}, "rationale": "The candidate is a wall-mounted ceramic sundial on rue Saint-Jacques; the nearby catalogue row is a separately entered cinema on rue Galande.", "internal_neighbours": [{"id": "abbeybookshop", "status": "distinct", "rationale": "The public wall-mounted sundial is a separate exterior artwork and search objective from the nearby English-language bookshop interior."}], "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases, external IDs and cross-lane candidates"},
+      "draft_only": true
+    },
+    {
+      "id": "fontainestravinsky",
+      "n": "Fontaine Stravinsky",
+      "a": "Place Igor-Stravinsky",
+      "pc": "75004",
+      "lat": 48.859439,
+      "lng": 2.351389,
+      "c": "streetart",
+      "s": "Sixteen vividly coloured kinetic sculptures by Niki de Saint Phalle and Jean Tinguely form a mechanical stage across a shallow public basin.",
+      "q": "Fontaine Stravinsky Paris accès août 2026",
+      "w": "When operating, the figures spin, spray and clank beside IRCAM; even at rest, their forms turn the hard square into a surreal outdoor ensemble while the main Pompidou building is closed.",
+      "city": "paris",
+      "aliases": ["Fontaine des automates", "Fontaines Stravinsky", "Bassin Stravinsky"],
+      "external_ids": {"wikidata": "Q281309", "osm_way": "88301107"},
+      "facts": [
+        {"claim": "The fountain's sixteen sculptures were made by Niki de Saint Phalle and Jean Tinguely and were comprehensively restored.", "source_urls": ["https://www.paris.fr/pages/restauration-d-ampleur-pour-la-fontaine-stravinsky-20903"]},
+        {"claim": "IRCAM explicitly described the restored fountain as a place for visitors and passers-by in February 2026.", "source_urls": ["https://www.ircam.fr/fr/magazine/ircam-circus"]},
+        {"claim": "Centre Pompidou programmed an outdoor event on Place Igor-Stravinsky for 11–14 June 2026, after its main-building closure began.", "source_urls": ["https://www.centrepompidou.fr/fr/programme/agenda/evenement/RN1bhG6"]},
+        {"claim": "Paris entered drought vigilance in June 2026, and the city warns that some decorative fountains may be stopped to conserve water, so movement and spraying are not guaranteed.", "source_urls": ["https://www.paris.fr/pages/vigilance-secheresse-tou-te-s-concerne-e-s-7054"]}
+      ],
+      "sources": [
+        {"url": "https://www.ircam.fr/fr/magazine/ircam-circus", "title": "IRCAM Circus", "publisher": "IRCAM", "role": "first-party current February 2026 public-place and passer-by access evidence", "first_party": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.centrepompidou.fr/fr/programme/agenda/evenement/RN1bhG6", "title": "Événement place Igor-Stravinsky", "publisher": "Centre Pompidou", "role": "official current June 2026 outdoor public-use evidence during Pompidou works", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.centrepompidou.fr/fr/lieu/ircam", "title": "IRCAM", "publisher": "Centre Pompidou", "role": "official current confirmation that IRCAM remains active during renovation", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/pages/restauration-d-ampleur-pour-la-fontaine-stravinsky-20903", "title": "Restauration d'ampleur pour la fontaine Stravinsky", "publisher": "Ville de Paris", "role": "official municipal restoration and artwork identity evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/88301107", "title": "Fontaine Stravinsky", "publisher": "OpenStreetMap", "role": "named fountain-basin geometry and exact centre basis", "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/pages/vigilance-secheresse-tou-te-s-concerne-e-s-7054", "title": "Paris passe en vigilance sécheresse", "publisher": "Ville de Paris", "role": "official current July 2026 warning that some decorative fountains may be stopped", "official_or_land_manager": true, "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_square", "evidence": "Current 2026 IRCAM and Centre Pompidou evidence confirms public activity around the restored fountain despite closure of the main Pompidou building. The square and sculptures remain the objective; construction perimeters can change, and drought guidance means movement or spraying is not guaranteed.", "source_url": "https://www.centrepompidou.fr/fr/programme/agenda/evenement/RN1bhG6", "checked_at": "2026-08-09", "user_window": "public square supported by 2026 evidence; recheck works perimeter and fountain operation same day"},
+      "coordinate_basis": {"type": "centre of named fountain basin", "source_url": "https://www.openstreetmap.org/way/88301107", "precision": "feature", "wikidata": "Q281309"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 25},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Terres de Café Rambuteau", "distance_m": 301}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias or external-ID collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "lemoretti",
+      "n": "Le Moretti",
+      "a": "Terrasse Bellini",
+      "pc": "92800",
+      "lat": 48.889167,
+      "lng": 2.247778,
+      "c": "streetart",
+      "s": "Raymond Moretti wrapped a 32-metre ventilation chimney in hundreds of brightly coloured fibreglass tubes at La Défense.",
+      "q": "Le Moretti Terrasse Bellini La Défense",
+      "w": "The surprise is scale: what first resembles a striped sculpture is a functioning technical shaft disguised as an enormous bundle of colour.",
+      "city": "paris",
+      "aliases": ["Cheminée Moretti", "Le Monstre de Moretti"],
+      "external_ids": {
+        "wikidata": "Q3224771"
+      },
+      "facts": [
+        {"claim": "Paris La Défense identifies the work as Raymond Moretti's transformation of a ventilation chimney using coloured tubes.", "source_urls": ["https://www.parisladefense.com/fr/territoire/oeuvres-art/moretti"]},
+        {"claim": "A 2026 official public-art walk includes works in the open-air La Défense collection, confirming current public-realm use.", "source_urls": ["https://www.parisladefense.com/fr/programme/agenda/extatiques-visite-popline-fichot-juin-2026"]}
+      ],
+      "sources": [
+        {"url": "https://www.parisladefense.com/fr/territoire/oeuvres-art/moretti", "title": "Le Moretti", "publisher": "Paris La Défense", "role": "official site-manager current artwork identity, location and public access evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.parisladefense.com/fr/programme/agenda/extatiques-visite-popline-fichot-juin-2026", "title": "Visite de l'art public, juin 2026", "publisher": "Paris La Défense", "role": "official site-manager current 2026 outdoor art-route evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_exterior_art", "evidence": "Freely visible from Terrasse Bellini in the managed public realm; the ventilation structure itself is not enterable.", "source_url": "https://www.parisladefense.com/fr/territoire/oeuvres-art/moretti", "checked_at": "2026-08-09", "user_window": "continuous exterior view subject to plaza works"},
+      "coordinate_basis": {"type": "centre of the named chimney sculpture", "source_url": "https://www.parisladefense.com/fr/territoire/oeuvres-art/moretti", "precision": "object"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Grande Arche", "distance_m": 947}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "memorialveldhiv",
+      "n": "Monument aux victimes du Vél' d'Hiv",
+      "a": "Promenade du quai de Grenelle",
+      "pc": "75015",
+      "lat": 48.8535791,
+      "lng": 2.2871813,
+      "c": "warmemory",
+      "s": "Walter Spitzer's bronze group on the Seine embankment confronts the 1942 roundup near the vanished winter velodrome.",
+      "q": "monument victimes Vél d'Hiv quai de Grenelle Paris",
+      "w": "The memorial's displaced figures occupy the edge of an everyday riverside promenade, making the missing stadium and the state's role physically present.",
+      "city": "paris",
+      "aliases": ["Monument commémoratif de la rafle du Vélodrome d'Hiver", "Mémorial Vél d'Hiv quai de Grenelle"],
+      "external_ids": {"osm_node": "5588054489"},
+      "facts": [
+        {"claim": "The memorial commemorates victims of the July 1942 Vélodrome d'Hiver roundup.", "source_urls": ["https://www.cheminsdememoire.gouv.fr/fr/ceremonie-de-la-rafle-du-vel-dhiv"]},
+        {"claim": "Ville de Paris places the monument within the publicly accessible Promenade du quai de Grenelle.", "source_urls": ["https://www.paris.fr/lieux/promenade-du-quai-de-grenelle-square-des-martyrs-juifs-2874"]},
+        {"claim": "A 2026 commemoration confirms the memorial remains the active ceremonial site.", "source_urls": ["https://fondationshoah.org/commemorations/ceremonie-de-commemoration-de-la-rafle-du-vel-dhiv-2026"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/lieux/promenade-du-quai-de-grenelle-square-des-martyrs-juifs-2874", "title": "Promenade du quai de Grenelle", "publisher": "Ville de Paris", "role": "official municipal current public-promenade access and location evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.cheminsdememoire.gouv.fr/fr/ceremonie-de-la-rafle-du-vel-dhiv", "title": "Cérémonie de la rafle du Vél' d'Hiv", "publisher": "Ministère des Armées — Chemins de mémoire", "role": "official government memorial identity and historical evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://fondationshoah.org/commemorations/ceremonie-de-commemoration-de-la-rafle-du-vel-dhiv-2026", "title": "Cérémonie de commémoration 2026", "publisher": "Fondation pour la Mémoire de la Shoah", "role": "current 2026 ceremonial-status corroboration", "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/5588054489", "title": "Monument de la rafle du Vel' d'Hiv", "publisher": "OpenStreetMap", "role": "named memorial-stone point and exact coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_promenade", "evidence": "Outdoor memorial on the free municipal promenade; occasional ceremonies can temporarily restrict the immediate apron.", "source_url": "https://www.paris.fr/lieux/promenade-du-quai-de-grenelle-square-des-martyrs-juifs-2874", "checked_at": "2026-08-09", "user_window": "ordinary public access throughout visit window"},
+      "coordinate_basis": {"type": "named memorial-stone point on the promenade", "source_url": "https://www.openstreetmap.org/node/5588054489", "precision": "object", "osm_node": "5588054489"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Maison de Balzac", "distance_m": 497}, "rationale": "No catalogue point lies inside 120 metres; the nearby cross-lane candidate is explicitly reviewed.", "internal_neighbours": [{"id": "baignadegrenelle", "status": "distinct", "rationale": "A fixed bronze Holocaust-roundup memorial on the promenade is physically and experientially distinct from the nearby seasonal supervised Seine swimming site."}], "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases, external IDs and cross-lane candidates"},
+      "draft_only": true
+    },
+    {
+      "id": "memorialdeportation",
+      "n": "Mémorial des Martyrs de la Déportation",
+      "a": "Square de l'Île-de-France, 5 quai de l'Archevêché",
+      "pc": "75004",
+      "lat": 48.851747,
+      "lng": 2.352458,
+      "c": "warmemory",
+      "s": "A narrow descent behind Notre-Dame leads into Georges-Henri Pingusson's severe concrete memorial, isolated at the tip of the Île de la Cité.",
+      "q": "Mémorial Martyrs Déportation Paris horaires août 2026",
+      "w": "The architecture controls the encounter: descend below the city, face a barred slit of river, then enter a corridor of thousands of points of light.",
+      "city": "paris",
+      "aliases": ["Mémorial de la Déportation", "Mémorial des martyrs français de la Déportation"],
+      "external_ids": {"merimee": "PA00125453"},
+      "facts": [
+        {"claim": "The national memorial was designed by Georges-Henri Pingusson and commemorates deportees from France.", "source_urls": ["https://www.cheminsdememoire.gouv.fr/index.php/fr/memorial-des-martyrs-de-la-deportation"]},
+        {"claim": "The official calendar marks the memorial closed on 15 August 2026 while listing free admission on other open days.", "source_urls": ["https://www.cheminsdememoire.gouv.fr/index.php/fr/memorial-des-martyrs-de-la-deportation"]}
+      ],
+      "sources": [
+        {"url": "https://www.cheminsdememoire.gouv.fr/index.php/fr/memorial-des-martyrs-de-la-deportation", "title": "Mémorial des Martyrs de la Déportation", "publisher": "Ministère des Armées — Chemins de mémoire", "role": "official operator current date-specific opening, free visitor access and closure evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00125453", "title": "Mémorial des Martyrs de la Déportation", "publisher": "Ministère de la Culture — POP", "role": "official heritage-register identity and architectural evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "free_timed_memorial", "evidence": "Free public entry during official hours, with a narrow stair descent and security control. Explicitly CLOSED Saturday 15 August 2026; visit 13, 14 or 16 August and recheck.", "source_url": "https://www.cheminsdememoire.gouv.fr/index.php/fr/memorial-des-martyrs-de-la-deportation", "checked_at": "2026-08-09", "user_window": "open on listed hours 13, 14 and 16 August; closed 15 August"},
+      "coordinate_basis": {"type": "memorial entrance at east tip of Île de la Cité", "source_url": "https://www.cheminsdememoire.gouv.fr/index.php/fr/memorial-des-martyrs-de-la-deportation", "precision": "entrance", "merimee": "PA00125453"},
+      "editorial_score": {"story": 5, "walkability": 4, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Point Zéro des Routes de France", "distance_m": 325}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias or identifier collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "lesfrigosexterior",
+      "n": "Les Frigos — façades d'ateliers",
+      "a": "19 rue des Frigos",
+      "pc": "75013",
+      "lat": 48.831122,
+      "lng": 2.378998,
+      "c": "industrial",
+      "s": "A former railway refrigerated warehouse has become a many-layered artists' building whose exterior carries decades of signs, murals and adaptations.",
+      "q": "Les Frigos 19 rue des Frigos Paris extérieur",
+      "w": "Treat it as an exterior industrial palimpsest: loading-bay mass, artist-made surfaces and railway geography remain readable without assuming studio access.",
+      "city": "paris",
+      "aliases": ["Entrepôts frigorifiques de Paris-Ivry", "Frigos de Paris"],
+      "external_ids": {
+        "wikidata": "Q1820520"
+      },
+      "facts": [
+        {"claim": "Musée Carnavalet identifies the building as the former Paris-Ivry refrigerated railway warehouses now occupied by artists.", "source_urls": ["https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/les-frigos-paris-xiii"]},
+        {"claim": "The resident association's current site confirms active workshops and gives appointment or event-specific visitor arrangements.", "source_urls": ["https://www.les-frigos.fr/"]}
+      ],
+      "sources": [
+        {"url": "https://www.les-frigos.fr/", "title": "Les Frigos", "publisher": "Association Les Frigos", "role": "first-party current occupied-status, visitor and appointment access evidence", "first_party": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/les-frigos-paris-xiii", "title": "Les Frigos, Paris XIIIe", "publisher": "Paris Musées / Musée Carnavalet", "role": "official municipal museum industrial identity and history evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.par.is/p/les-frigos", "title": "Les Frigos", "publisher": "PAR.IS", "role": "current June 2026 exterior-status corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_exterior_only", "evidence": "The candidate is the exterior from rue des Frigos. Studios are working premises and must not be presented as drop-in attractions; enter only for a clearly advertised event or appointment.", "source_url": "https://www.les-frigos.fr/", "checked_at": "2026-08-09", "user_window": "exterior public-street view; interiors not assumed"},
+      "coordinate_basis": {"type": "main street-facing warehouse entrance", "source_url": "https://www.les-frigos.fr/", "precision": "entrance"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 25},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Accor Arena", "distance_m": 888}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "pontlevantcrimee",
+      "n": "Pont levant de la rue de Crimée",
+      "a": "Rue de Crimée, quai de la Marne",
+      "pc": "75019",
+      "lat": 48.88837,
+      "lng": 2.37941,
+      "c": "industrial",
+      "s": "Paris's last lift bridge still rises vertically over the Canal de l'Ourcq while a separate footbridge keeps people moving.",
+      "q": "pont levant rue de Crimée Paris canal",
+      "w": "Wait for a boat movement if you are lucky: counterweights, machinery and roadway turn a routine canal crossing into live infrastructure theatre.",
+      "city": "paris",
+      "aliases": ["Pont levant de Crimée", "Pont de Flandre canal de l'Ourcq"],
+      "external_ids": {"osm_way": "218334165", "wikidata": "Q3397562"},
+      "facts": [
+        {"claim": "Musée Carnavalet documents the lift bridge and its long association with the Bassin de la Villette.", "source_urls": ["https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/pont-levant-et-rue-de-la-crimee-bassin-de-la-villette-1900-19eme"]},
+        {"claim": "A 2025 Ville de Paris profile confirms the canal service remains actively operated and monitored.", "source_urls": ["https://www.paris.fr/pages/philippe-eclusier-vigie-du-canal-saint-denis-31385"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/philippe-eclusier-vigie-du-canal-saint-denis-31385", "title": "Philippe, éclusier et vigie du canal", "publisher": "Ville de Paris", "role": "official municipal current canal-operation and active-use evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/pont-levant-et-rue-de-la-crimee-bassin-de-la-villette-1900-19eme", "title": "Pont levant et rue de la Crimée", "publisher": "Paris Musées / Musée Carnavalet", "role": "official municipal museum identity and industrial-history evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/218334165", "title": "Pont levant de la rue de Crimée", "publisher": "OpenStreetMap", "role": "named lift-bridge geometry and exact span-centre coordinate basis", "checked_at": "2026-08-09"},
+        {"url": "https://www.wikidata.org/wiki/Q3397562", "title": "Pont levant de la rue de Crimée", "publisher": "Wikidata", "role": "named bridge identity and coordinate corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_crossing_and_bank_view", "evidence": "The canal banks and adjacent pedestrian crossing are public. Operational lifts temporarily stop the road; obey signals and never enter machinery areas.", "source_url": "https://www.paris.fr/pages/philippe-eclusier-vigie-du-canal-saint-denis-31385", "checked_at": "2026-08-09", "user_window": "ordinary public crossing; short operational interruptions possible"},
+      "coordinate_basis": {"type": "centre of the named lift-bridge geometry at rue de Crimée", "source_url": "https://www.openstreetmap.org/way/218334165", "precision": "bridge", "osm_way": "218334165", "wikidata": "Q3397562"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 4, "geographic_value": 5, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Cité des Sciences", "distance_m": 956}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "hallepajolsolaire",
+      "n": "Halle Pajol et sa toiture solaire",
+      "a": "20 esplanade Nathalie-Sarraute",
+      "pc": "75018",
+      "lat": 48.8885029,
+      "lng": 2.3629597,
+      "c": "industrial",
+      "s": "A long railway freight shed now shelters a public garden and hostel beneath one of central Paris's most conspicuous photovoltaic roofs.",
+      "q": "Halle Pajol toiture solaire Jardin Rosa Luxemburg Paris",
+      "w": "The old steel shed becomes climate infrastructure: walk below its retained frame, then step into the linear garden threaded beside active rail lines.",
+      "city": "paris",
+      "aliases": ["Halle Pajol", "Jardins Rosa-Luxemburg halle Pajol"],
+      "external_ids": {"osm_way": "195265640", "wikidata": "Q108769308"},
+      "facts": [
+        {"claim": "Ville de Paris describes the Rosa-Luxemburg gardens as occupying the Halle Pajol railway site beneath its retained industrial structure.", "source_urls": ["https://www.paris.fr/lieux/jardins-rosa-luxemburg-17580"]},
+        {"claim": "The municipal page publishes current opening hours and identifies the sheltered and open-air garden areas.", "source_urls": ["https://www.paris.fr/lieux/jardins-rosa-luxemburg-17580"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/lieux/jardins-rosa-luxemburg-17580", "title": "Jardins Rosa-Luxemburg", "publisher": "Ville de Paris", "role": "official municipal current opening, public access and industrial-site evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/evenements/gulliver-100783", "title": "Gulliver à la Halle Pajol", "publisher": "Ville de Paris", "role": "official municipal current 2026 active-venue status corroboration", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/195265640", "title": "Halle Pajol", "publisher": "OpenStreetMap", "role": "named solar-roof building geometry and exact centre basis", "checked_at": "2026-08-09"},
+        {"url": "https://www.wikidata.org/wiki/Q108769308", "title": "Halle Pajol", "publisher": "Wikidata", "role": "named building identity and coordinate corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_garden_and_esplanade", "evidence": "The garden and esplanade are free during municipal hours. Commercial or hostel interiors have separate conditions; the industrial frame and solar roof do not require entry.", "source_url": "https://www.paris.fr/lieux/jardins-rosa-luxemburg-17580", "checked_at": "2026-08-09", "user_window": "published municipal garden hours apply"},
+      "coordinate_basis": {"type": "centre of named retained shed and solar-roof geometry beside the municipal garden", "source_url": "https://www.openstreetmap.org/way/195265640", "precision": "building", "osm_way": "195265640", "wikidata": "Q108769308"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Rotonde de la Villette", "distance_m": 745}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "hoteldesensexterior",
+      "n": "Hôtel de Sens — façade et jardin Monica-Vitti",
+      "a": "7 rue des Nonnains-d'Hyères",
+      "pc": "75004",
+      "lat": 48.85353,
+      "lng": 2.35887,
+      "c": "medieval",
+      "s": "A turreted late-Gothic archiepiscopal residence unexpectedly rises above a small public garden in the Marais.",
+      "q": "Hôtel de Sens façade et jardin Monica-Vitti Paris",
+      "w": "The free encounter is unusually complete: pointed entrance, corner turrets, roofline and garden planting can all be read without planning an interior visit.",
+      "city": "paris",
+      "aliases": ["Bibliothèque Forney Hôtel de Sens", "Jardin Monica-Vitti de l'Hôtel de Sens"],
+      "external_ids": {"wikidata": "Q1374604", "osm_way": "55541122", "merimee": "PA00086316"},
+      "facts": [
+        {"claim": "The Hôtel de Sens is a protected late-medieval residence associated with the archbishops of Sens.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086316"]},
+        {"claim": "Ville de Paris publishes current hours for the free Jardin Monica-Vitti beside the building.", "source_urls": ["https://www.paris.fr/lieux/jardin-monica-vitti-de-l-hotel-de-sens-2449"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/lieux/jardin-monica-vitti-de-l-hotel-de-sens-2449", "title": "Jardin Monica-Vitti de l'Hôtel de Sens", "publisher": "Ville de Paris", "role": "official municipal current garden opening and exterior access evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00086316", "title": "Hôtel de Sens", "publisher": "Ministère de la Culture — POP", "role": "official heritage-register identity and chronology evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/55541122", "title": "Hôtel de Sens", "publisher": "OpenStreetMap", "role": "named building-footprint coordinate corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_exterior_and_garden", "evidence": "The façade is visible from public streets; the municipal garden has published gates. Library interiors follow separate Forney rules and are not part of this candidate.", "source_url": "https://www.paris.fr/lieux/jardin-monica-vitti-de-l-hotel-de-sens-2449", "checked_at": "2026-08-09", "user_window": "exterior continuous; garden hours apply"},
+      "coordinate_basis": {"type": "principal building frontage beside named garden", "source_url": "https://www.openstreetmap.org/way/55541122", "precision": "building", "wikidata": "Q1374604"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Musée de la Magie", "distance_m": 175}, "rationale": "No existing catalogue row lies inside 120 metres. A named internal review with the nearby Philippe-Auguste wall is recorded on that row.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and internal candidates"},
+      "draft_only": true
+    },
+    {
+      "id": "maisonsfrancoismiron",
+      "n": "Maisons à pans de bois des 11–13 rue François-Miron",
+      "a": "11–13 rue François-Miron",
+      "pc": "75004",
+      "lat": 48.855794,
+      "lng": 2.356891,
+      "c": "medieval",
+      "s": "Two narrow timber-framed houses expose the crooked structural grid that later Parisian façades were often forced to hide.",
+      "q": "maisons pans de bois 11 13 rue François Miron Paris",
+      "w": "Look past the shops at the upper storeys: visible posts, braces and uneven bays make a rare piece of pre-Haussmann street fabric instantly legible.",
+      "city": "paris",
+      "aliases": ["Maison du Faucheur et maison du Mouton", "11 et 13 rue François-Miron"],
+      "external_ids": {
+        "wikidata": "Q21293191"
+      },
+      "facts": [
+        {"claim": "Ville de Paris includes the timber-framed houses of rue François-Miron in its route through medieval Paris.", "source_urls": ["https://www.paris.fr/pages/sur-les-traces-du-paris-medieval-3584"]},
+        {"claim": "Musée Carnavalet documents the timber-frame façade at 13 rue François-Miron and its corner with rue Cloche-Percé.", "source_urls": ["https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/13-rue-francois-miron-a-l-angle-de-la-rue-cloche-perce-quartier-saint"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/sur-les-traces-du-paris-medieval-3584", "title": "Sur les traces du Paris médiéval", "publisher": "Ville de Paris", "role": "official municipal current public walking-route and identity evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/13-rue-francois-miron-a-l-angle-de-la-rue-cloche-perce-quartier-saint", "title": "13 rue François-Miron", "publisher": "Paris Musées / Musée Carnavalet", "role": "official municipal museum architectural evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://opendata.paris.fr/explore/dataset/voie/", "title": "Linéaires des Voies", "publisher": "Ville de Paris Open Data", "role": "official municipal current public-street access context", "official_or_land_manager": true, "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_view", "evidence": "The upper timber façades are visible from the public pavement; ground-floor businesses and residences have their own access conditions.", "source_url": "https://www.paris.fr/pages/sur-les-traces-du-paris-medieval-3584", "checked_at": "2026-08-09", "user_window": "continuous exterior view"},
+      "coordinate_basis": {"type": "midpoint of the paired documented street façades", "source_url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/13-rue-francois-miron-a-l-angle-de-la-rue-cloche-perce-quartier-saint", "precision": "facade"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Au Petit Versailles du Marais", "distance_m": 61}, "rationale": "The candidate is a paired medieval timber-frame upper façade; the nearby catalogue row is a separately addressed bakery and chocolatier storefront.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    },
+    {
+      "id": "murdesfederes",
+      "n": "Mur des Fédérés",
+      "a": "Cimetière du Père-Lachaise, 16 rue du Repos",
+      "pc": "75020",
+      "lat": 48.8596793,
+      "lng": 2.4000825,
+      "c": "warmemory",
+      "s": "A plain cemetery wall marks the killing and burial of the last Paris Commune fighters after the Bloody Week of 1871.",
+      "q": "Mur des Fédérés Père Lachaise Paris accès",
+      "w": "Unlike a freestanding monument, the surviving wall is the evidence: an ordinary cemetery edge transformed into a long-lived site of political memory.",
+      "city": "paris",
+      "aliases": ["Mur des Communards", "Mur des Fédérés Père-Lachaise"],
+      "external_ids": {"osm_node": "5220080010", "wikidata": "Q910923"},
+      "facts": [
+        {"claim": "Ville de Paris identifies the wall as the place where the last Commune fighters were killed in May 1871.", "source_urls": ["https://www.paris.fr/pages/cimetiere-du-pere-lachaise-un-haut-lieu-de-memoire-17725"]},
+        {"claim": "The city publishes current Père-Lachaise opening hours and free public visitor information.", "source_urls": ["https://www.paris.fr/lieux/cimetiere-du-pere-lachaise-4080"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/lieux/cimetiere-du-pere-lachaise-4080", "title": "Cimetière du Père-Lachaise", "publisher": "Ville de Paris", "role": "official municipal current opening-hours and public visitor access evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/pages/cimetiere-du-pere-lachaise-un-haut-lieu-de-memoire-17725", "title": "Père-Lachaise, un haut lieu de mémoire", "publisher": "Ville de Paris", "role": "official municipal memorial identity and historical evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/le-mur-des-federes-au-pere-lachaise-janvier-1900", "title": "Le mur des Fédérés au Père-Lachaise", "publisher": "Paris Musées / Musée Carnavalet", "role": "official municipal museum historical continuity evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/5220080010", "title": "Mur des Fédérés", "publisher": "OpenStreetMap", "role": "named memorial point and exact coordinate basis", "checked_at": "2026-08-09"},
+        {"url": "https://www.wikidata.org/wiki/Q910923", "title": "Mur des Fédérés", "publisher": "Wikidata", "role": "named memorial identity and coordinate corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_cemetery", "evidence": "Free within cemetery opening hours. The internal walk is long and includes uneven or sloping surfaces; last entry and weather closures can precede the posted closing time.", "source_url": "https://www.paris.fr/lieux/cimetiere-du-pere-lachaise-4080", "checked_at": "2026-08-09", "user_window": "municipal cemetery hours apply; recheck heat/wind notices"},
+      "coordinate_basis": {"type": "named memorial point on the wall inside Père-Lachaise", "source_url": "https://www.openstreetmap.org/node/5220080010", "precision": "feature", "osm_node": "5220080010", "wikidata": "Q910923"},
+      "editorial_score": {"story": 5, "walkability": 4, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"name": "Victor Noir's Tomb", "distance_m": 284}, "rationale": "No catalogue point lies inside 120 metres and no Paris alias collision was found.", "checked_against": "all 17,237 catalogue rows at 120 m plus Paris aliases and external IDs"},
+      "draft_only": true
+    }
+  ],
+  "deferred": [
+    {"n": "Naumachie du parc Monceau", "c": "follies", "reason": "Ville de Paris currently states that the Naumachie play-area zone is secured and inaccessible after storm damage while a specialist restoration feasibility study and subsequent works remain pending.", "source_url": "https://www.paris.fr/lieux/parc-monceau-1804", "checked_at": "2026-08-09", "reopening_requirement": "Require a dated Ville de Paris or park-manager notice confirming that the secured Naumachie zone has reopened after restoration before reconsidering inclusion."},
+    {"n": "Folie Saint-James et Grand Rocher", "c": "follies", "reason": "Final independent coordinate QA found that the Commons latitude/longitude was copied across unrelated estate photographs and is therefore a generic site geotag, not a defensible Grand Rocher or viewing-point coordinate. OSM has no named Grand Rocher geometry; the exact named Folie building is a different objective.", "source_url": "https://commons.wikimedia.org/wiki/File:Parc_de_la_Folie_Saint-James_-_Grand_Rocher_-_01.JPG", "checked_at": "2026-08-09", "promotion_requirement": "Require an independently surveyed Grand Rocher feature or public viewing-point coordinate. Do not substitute the Folie building centroid without reframing and re-researching the candidate."},
+    {"n": "Centre national de la danse, Pantin", "c": "brutalism", "reason": "Three-year façade works and partial closure make the intended architectural encounter unstable for the August 2026 field test."},
+    {"n": "Tours Nuages, Nanterre", "c": "brutalism", "reason": "Active rehabilitation changes paths, façades and resident access; defer until a documented completed phase."},
+    {"n": "Tour Totem", "c": "brutalism", "reason": "Strong form but current public-realm approach and works status were not established to all-high confidence."},
+    {"n": "Le Pouce de César, La Défense", "c": "streetart", "reason": "Potential fit, but a current manager-status and exact-coordinate packet was not finished before the strict cutoff."},
+    {"n": "Passage Lhomme", "c": "alley", "reason": "Compelling workshop passage, but legal drop-in access and August gate status require first-party confirmation."},
+    {"n": "Cité Durmar", "c": "alley", "reason": "Residential lane with uncertain gate convention; avoid directing app users into semi-private space."},
+    {"n": "Villa Santos-Dumont", "c": "alley", "reason": "Public-street status is plausible, but residential privacy impact and a distinct objective beyond streetscape need stronger review."},
+    {"n": "Médaillons Arago — route du méridien", "c": "history", "reason": "Distributed trail rather than one coordinate; requires a route model or a single defensible anchor."},
+    {"n": "Façade du Grand Rex", "c": "artdeco", "reason": "Exterior is public, but novelty against the existing cinema catalogue and independent objective value remain unresolved."},
+    {"n": "Piscine Pontoise", "c": "bathhouse", "reason": "Current swimming access was not verified across the visitor's exact dates to the strict all-high standard."},
+    {"n": "Regard de la Lanterne", "c": "industrial", "reason": "Exterior survives, but current garden/gate access and a clear feature coordinate need a fresh municipal check."},
+    {"n": "Passage des Soupirs", "c": "alley", "reason": "Gate and through-access evidence is inconsistent; defer rather than send a visitor to a locked residential passage."},
+    {"n": "Tour Albert", "c": "brutalism", "reason": "Exterior candidate needs a stronger public-realm story and current works/status check before scoring all high."},
+    {"n": "Piscine Molitor", "c": "bathhouse", "reason": "The architectural pool experience is tied to hotel/club or booked paid access and is poor for random discovery."},
+    {"n": "Colonne de la Bourse de Commerce", "c": "monument", "reason": "Potential exterior oddity, but distinctness from the canonical Bourse site and current access perimeter require review."},
+    {"n": "Passage du Désir", "c": "alley", "reason": "Named public passage, but the surviving fabric did not yet clear the distinctiveness threshold."},
+    {"n": "Pavillon de l'Arsenal", "c": "museum", "reason": "Already present in legacy discovery material and belongs to the culture lane; ownership/dedupe must be resolved there."},
+    {"n": "Rue Berton", "c": "alley", "reason": "Its best anchor is under 30 metres from the existing Maison de Balzac point, so a separate objective is presumed duplicate under the run rule."}
+  ],
+  "excluded": [
+    {"n": "Façade sculptée du Palais de la Porte Dorée", "c": "artdeco", "reason": "Absorbed into the culture lane's Musée national de l'histoire de l'immigration candidate in the same palace; the points were 21 metres apart and under-30 candidate pairs are presumed duplicates. The consolidated museum row preserves the 1931 colonial-palace and exterior-relief context."},
+    {"n": "Arc de Triomphe", "c": "monument", "reason": "Canonical checklist attraction; no surprise-value case for this run."},
+    {"n": "Tour Eiffel", "c": "monument", "reason": "Canonical checklist attraction already adequately represented by the surrounding catalogue."},
+    {"n": "Notre-Dame de Paris", "c": "medieval", "reason": "Canonical attraction and not a new accidental-discovery objective."},
+    {"n": "Panthéon", "c": "monument", "reason": "Canonical ticketed attraction; weaker fit than retained street-scale discoveries."},
+    {"n": "Cour du Louvre", "c": "history", "reason": "Canonical museum complex rather than a novel built-history addition."},
+    {"n": "Basilique du Sacré-Cœur", "c": "monument", "reason": "Canonical attraction and already represented contextually."},
+    {"n": "Catacombes de Paris", "c": "death", "reason": "Planned timed admission and canonical status fail the random-walk brief."},
+    {"n": "Conciergerie", "c": "medieval", "reason": "Ticketed canonical attraction; no need for a duplicate exterior objective."},
+    {"n": "Sainte-Chapelle", "c": "medieval", "reason": "Timed security/ticketed canonical attraction rather than an unplanned stumble."},
+    {"n": "Palais Garnier", "c": "artdeco", "reason": "Wrong category era and canonical attraction; not retained."},
+    {"n": "Centre Pompidou — bâtiment principal", "c": "brutalism", "reason": "Main building is closed for long renovation and its perimeter is in flux."},
+    {"n": "Arènes de Lutèce", "c": "roman", "reason": "Well-known municipal site already sufficiently represented; not a new strict addition."},
+    {"n": "Thermes de Cluny", "c": "roman", "reason": "Museum-linked canonical remains with planned interior access."},
+    {"n": "Tour Jean-sans-Peur", "c": "medieval", "reason": "Interior requires planned opening/ticket; exterior alone scored below retained candidates."},
+    {"n": "Enceinte Philippe-Auguste rue Clovis", "c": "medieval", "reason": "Less legible public objective than the retained Jardins Saint-Paul wall and duplicative story."},
+    {"n": "Fontaine Médicis", "c": "monument", "reason": "Famous garden feature without enough novelty for this deep-run lane."},
+    {"n": "Fontaine Saint-Michel", "c": "monument", "reason": "Canonical meeting landmark; surprise and distinctiveness too low."},
+    {"n": "Mur des Je t'aime", "c": "streetart", "reason": "Canonical social-media attraction rather than an under-discovered objective."},
+    {"n": "Colonnes de Buren", "c": "streetart", "reason": "Canonical art stop; catalogue value is lower than the retained kinetic and infrastructure works."},
+    {"n": "Obélisque de la Concorde", "c": "monument", "reason": "Canonical landmark; no new-category or discovery rationale."},
+    {"n": "Flamme de la Liberté", "c": "monument", "reason": "Canonical memorial stop and weaker than strict retained memorials."},
+    {"n": "Pont Alexandre-III", "c": "footbridges", "reason": "Road bridge and canonical attraction; category contract is weaker than retained pedestrian crossings."},
+    {"n": "Pont Neuf", "c": "footbridges", "reason": "Road bridge and canonical landmark, not a footbridge discovery."},
+    {"n": "Pont de Bir-Hakeim", "c": "industrial", "reason": "Highly canonical photo stop and likely existing catalogue overlap."},
+    {"n": "Pont Rouelle", "c": "industrial", "reason": "Rail infrastructure without a legal pedestrian crossing or close public encounter."},
+    {"n": "Petite Ceinture rue Didot", "c": "industrial", "reason": "Belongs to the outdoor lane and adds no separate built objective here."},
+    {"n": "Petite Ceinture Bel-Air", "c": "industrial", "reason": "Outdoor-route overlap; not retained as a second-lane candidate."},
+    {"n": "Cité Fleurie", "c": "alley", "reason": "Working private artists' enclave; no ordinary public access."},
+    {"n": "Villa Seurat", "c": "alley", "reason": "Residential privacy and limited architectural visibility weaken a directed visitor objective."},
+    {"n": "Cité Napoléon", "c": "industrial", "reason": "Courtyard access is residential and not established for casual visitors."},
+    {"n": "Rotonde de la Villette", "c": "history", "reason": "Already in the catalogue; exact duplicate avoided."},
+    {"n": "Ancienne gare d'Orsay", "c": "industrial", "reason": "Now a canonical museum complex; no separate exterior addition."},
+    {"n": "BNF Richelieu — salle Ovale", "c": "history", "reason": "Culture-lane interior and planned entry, not built-public-realm scope."},
+    {"n": "Samaritaine — façade Sauvage", "c": "artdeco", "reason": "Commercial/canonical complex; less surprising than the two retained Sauvage residential experiments."},
+    {"n": "Piscine du Lutetia", "c": "bathhouse", "reason": "Hotel/private-use interior fails ordinary public access."},
+    {"n": "Piscine de la Butte-aux-Cailles", "c": "bathhouse", "reason": "Already well known and likely catalogue overlap; Amiraux offers a more distinctive strict addition."},
+    {"n": "Ancienne publicité Dubonnet", "c": "ghostsign", "reason": "No candidate retained because inscription identity, survival and exact coordinate did not reach all-high confidence."},
+    {"n": "Ancienne publicité Suze", "c": "ghostsign", "reason": "Recent survival and independent official/manager evidence were insufficient."},
+    {"n": "Mur peint Menier", "c": "ghostsign", "reason": "Potential sign could not clear current-condition and exact-location gates."},
+    {"n": "Castel Béranger", "c": "artdeco", "reason": "Art Nouveau rather than Art Deco and a familiar architecture stop."},
+    {"n": "Immeuble Lavirotte", "c": "artdeco", "reason": "Art Nouveau rather than Art Deco and already a canonical façade objective."},
+    {"n": "59 Rivoli", "c": "streetart", "reason": "Culture-lane venue overlap; exterior alone did not justify a separate candidate."},
+    {"n": "Docks — Cité de la Mode", "c": "industrial", "reason": "Current venue/access identity is commercial and less specific than the retained industrial fabric."},
+    {"n": "Viaduc des Arts", "c": "industrial", "reason": "Canonical linear promenade and outdoor/commerce overlap rather than one discrete new point."},
+    {"n": "Promenade Barbès–La Chapelle", "c": "industrial", "reason": "Linear public-realm project lacks one exact built-history objective."},
+    {"n": "Passage de la Bonne-Graine", "c": "alley", "reason": "Pleasant passage but story and distinctiveness scored below 19."},
+    {"n": "Passage du Chantier", "c": "alley", "reason": "Primarily a furniture-retail street and weak as an independent historic discovery."},
+    {"n": "Rue Crémieux", "c": "alley", "reason": "Residential over-tourism and privacy harm outweigh app value."},
+    {"n": "Cité des Fleurs", "c": "alley", "reason": "Residential privacy and uncertain through-access make directed visitation inappropriate."},
+    {"n": "Square Rapp", "c": "square", "reason": "Tiny semi-private approach and canonical Eiffel framing; access/novelty balance is weak."},
+    {"n": "Impasse Poule", "c": "alley", "reason": "Name curiosity alone does not supply a strong physical or historical objective."},
+    {"n": "Regard Saint-Martin", "c": "industrial", "reason": "The waterworks interior is not ordinarily accessible; exterior legibility is too weak."},
+    {"n": "Aqueduc Médicis — pierre de regard", "c": "industrial", "reason": "Candidate geometry and public approach could not be established to high confidence."},
+    {"n": "Château de Vincennes", "c": "castle", "reason": "Canonical fortress with planned opening/ticketing and outside the surprise-public-realm emphasis."},
+    {"n": "Château de Bagatelle", "c": "castle", "reason": "Park/culture-lane overlap and access conditions do not support a separate castle candidate here."}
+  ],
+  "category_coverage_audit": {
+    "retained": {"medieval": 3, "ruins": 1, "history": 1, "oddity": 4, "brutalism": 4, "artdeco": 1, "bathhouse": 1, "steps": 1, "footbridges": 4, "streetart": 3, "warmemory": 3, "industrial": 3, "streetfurniture": 3},
+    "researched_no_strict_fit": {
+      "roman": "Arènes de Lutèce and the Cluny baths were screened but are canonical/existing or admission-led rather than novel additions.",
+      "square": "Named squares screened were settings rather than discrete, surprising built objectives; their features were categorised more narrowly where retained.",
+      "alley": "Several passages were screened, but privacy, gates or weak distinctiveness prevented an all-high result.",
+      "castle": "Vincennes is canonical and admission-led; Bagatelle overlaps other lanes and lacks a strict castle case for this run.",
+      "ghostsign": "No lead combined recent survival imagery, official/manager corroboration and exact coordinates at all-high confidence.",
+      "monument": "Strong memorials were more accurately classified as warmemory; generic monuments screened were canonical or below the surprise threshold."
+    },
+    "adjacent_existing_or_other_lane": ["museum", "park", "green", "hills", "view", "landmarktrees", "canals", "death", "artgallery", "cinema", "church", "faith", "market", "specialistshops"],
+    "no_fit_note": "Categories outside built fabric/history were audited by the coordinated outdoor and culture/commerce lanes and were not duplicated here."
+  },
+  "visit_window_caveats": [
+    "Piscine des Amiraux is explicitly closed on 15 August 2026; use another listed public session.",
+    "Mémorial des Martyrs de la Déportation is explicitly closed on 15 August 2026; use 13, 14 or 16 August and verify hours.",
+    "Centre Pompidou's main building is closed, but 2026 Centre/IRCAM evidence supports continued public use of Place Igor-Stravinsky around the restored fountain; recheck the works perimeter.",
+    "Pont des Arts restoration was reported complete by Ville de Paris on 12 June 2026.",
+    "The Naumachie play-area zone in Parc Monceau is currently secured and inaccessible after storm damage; it is deferred until a dated municipal reopening notice follows restoration.",
+    "Park, garden, cemetery and riverbank access can change for heat, wind, flooding, ceremonies or security; live same-day notices supersede this research snapshot.",
+    "Residential architecture candidates are exterior-only; private blocks, terraces, studios and courtyards are not implied visitor space."
+  ],
+  "verification": {
+    "catalogue_dedupe_scope": "all 17,237 data/spots.json rows, every Paris name/alias available in the dossier, stable external IDs and 120-metre global proximity",
+    "dense_city_rule": "under 30 m presumed duplicate; 30–119 m retained only with an explicit distinct-place rationale",
+    "cross_lane_checks": [
+      "The deferred Naumachie du parc Monceau is about 153 m from outdoor candidate Platane d'Orient du parc Monceau (48.8785828156, 2.3075597942), outside the named-review band; no retained-row review is required.",
+      "No retained built-history candidate sits inside Jardin d'Agronomie Tropicale René-Dumont or Jardin des Serres d'Auteuil.",
+      "Central architectural footbridges are owned by this lane; park and woodland crossings remain with the outdoor lane."
+    ],
+    "expected_checks": ["JSON parse", "live category/city model validation", "bundle editorial/source/confidence audit", "global catalogue and internal-candidate proximity audit", "screened/count/category consistency audit"],
+    "import_warning": "The 32 retained candidates are live only as quality-d drafts pending human field review. Grand Rocher was withdrawn after import; do not re-import deferred rows without resolving their stated blockers."
+  }
+}

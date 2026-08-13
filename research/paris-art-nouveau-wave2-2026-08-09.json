@@ -1,0 +1,474 @@
+{
+  "schema_version": 1,
+  "dossier_id": "paris-art-nouveau-wave2-2026-08-09",
+  "created_at": "2026-08-09",
+  "status": "imported_as_draft_pending_field_test",
+  "screened_count": 33,
+  "included_count": 11,
+  "import_metadata": {
+    "status": "imported_as_draft",
+    "imported_count": 11,
+    "quality_flag": "d",
+    "imported_at": "2026-08-09",
+    "import_method": "tools/add-spots.js paris --key included --proximity 30",
+    "do_not_reimport": true,
+    "promotion": "pending human field test and editorial review"
+  },
+  "meta": {
+    "city": "paris",
+    "visit_window": "2026-08-13/2026-08-16",
+    "catalogue_snapshot": 17328,
+    "method": "Exterior-first architectural pass. A candidate had to be an individually documented building or facade, have authoritative evidence that the whole street-facing composition belongs to Art Nouveau rather than merely carrying one period detail, remain legible from an ordinary public route during the visit window, and survive exact-coordinate, alias, external-ID and 120-metre global catalogue review.",
+    "quality_policy": "All retained rows are all-high draft candidates. Exterior viewing is the experience; no interior access is promised. Temporary scaffolding is the only same-day condition that cannot be guaranteed remotely and should be field-checked.",
+    "category_decision": "artnouveau is coherent and globally reusable as a strict exterior-architecture lane. It does not absorb living religious buildings, active venues whose exterior is incidental, interiors, isolated decorative fragments, generic Belle Epoque buildings or serial Guimard street furniture.",
+    "strict_stop": "The run stops at 11. Seven source-plausible buildings were deferred and 15 were excluded rather than padding the category with famous defaults, interior-led places or token motifs."
+  },
+  "category_contracts": {
+    "artnouveau": {
+      "label": "Art Nouveau",
+      "definition": "A named or individually documented building whose whole street-facing architectural composition is authoritatively identified as Art Nouveau or a direct regional equivalent, and whose exterior is itself the pavement-visible experience.",
+      "include": [
+        "complete, individually documented Art Nouveau facades and buildings",
+        "regional equivalents such as Jugendstil, Secession, Modernisme and Liberty when the whole exterior composition qualifies",
+        "street-visible organic line, structural expression and integrated ceramic, iron, stone, mosaic or sculptural programmes",
+        "private buildings when the exterior alone supplies a worthwhile public-route encounter"
+      ],
+      "exclude": [
+        "generic Belle Epoque or eclectic facades with one curving door, floral panel or other token motif",
+        "Art Nouveau interiors behind conventional exteriors",
+        "isolated doors, mosaics, stained glass or shop fittings on buildings of another primary style",
+        "repetitive civic objects and Guimard Metro entrances, which belong to streetfurniture",
+        "living religious buildings, where synagogue, church, mosque or another current-use category wins",
+        "active venues where the exterior is incidental to the current-use experience",
+        "district-scale ensembles and serial address padding"
+      ],
+      "global_reuse": [
+        "Brussels and Horta buildings",
+        "Barcelona Modernisme",
+        "Vienna Secession and Jugendstil",
+        "Riga and Nancy Art Nouveau",
+        "Turin and Palermo Liberty",
+        "Glasgow Style and other individually documented regional equivalents"
+      ],
+      "registry_proposal": {
+        "slug": "artnouveau",
+        "label": "Art Nouveau",
+        "emoji": "🌿",
+        "tint": "#DDE8D4",
+        "icon_svg": "<path d=\"M5 21V9a7 7 0 0 1 14 0v12\"/><path d=\"M8 21v-8a4 4 0 0 1 8 0v8\"/><path d=\"M4 13c4 0 4-4 8-4s4 4 8 4\"/>",
+        "exact_category_object_literal": "artnouveau:{l:\"Art Nouveau\",e:\"🌿\",t:\"#DDE8D4\",i:'<path d=\"M5 21V9a7 7 0 0 1 14 0v12\"/><path d=\"M8 21v-8a4 4 0 0 1 8 0v8\"/><path d=\"M4 13c4 0 4-4 8-4s4 4 8 4\"/>'}",
+        "placement": "Built City, adjacent to artdeco and brutalism"
+      },
+      "recommended_existing_retags": [
+        {"id": "maisoncoilliot", "from": "oddity", "to": "artnouveau", "reason": "Guimard's complete green-enamelled-lava facade is the named exterior objective."},
+        {"id": "michelinhouse", "from": "artdeco", "to": "artnouveau", "reason": "The integrated tiled and stained-glass 1911 commercial facade is Art Nouveau, not Art Deco."},
+        {"id": "maisonegyptienne", "from": "oddity", "to": "artnouveau", "reason": "The whole Strasbourg Jugendstil/Egyptianising facade is the street encounter."},
+        {"id": "palaciolongoria", "from": "artdeco", "to": "artnouveau", "reason": "The complete 1902 modernista facade is an exterior-first objective and is currently mislabelled Art Deco."},
+        {"id": "kamienicapodzaglowcemmar", "from": "history", "to": "artnouveau", "reason": "The surviving Warsaw Secession tenement facade is the physical objective; the wartime story remains copy, not category."},
+        {"id": "wiensecession", "from": "artdeco", "to": "artnouveau", "reason": "Olbrich's Secession building is the movement's purpose-built architectural emblem, not Art Deco."},
+        {"id": "municipalhouse", "from": "castle", "to": "artnouveau", "reason": "Prague's complete Art Nouveau civic facade is a stronger primary type than castle."},
+        {"id": "hotelbrion", "from": "monument", "to": "artnouveau", "reason": "The individually protected Strasbourg Art Nouveau townhouse is an exterior architectural objective."},
+        {"id": "villaschutzenberger", "from": "castle", "to": "artnouveau", "reason": "Its complete Strasbourg Art Nouveau villa composition is more specific than castle."},
+        {"id": "stocletpalace", "from": "castle", "to": "artnouveau", "reason": "The private Vienna Secession Gesamtkunstwerk is explicitly an exterior-only architecture stop."},
+        {"id": "kallinahouse", "from": "oddity", "to": "artnouveau", "reason": "The complete tiled Zagreb Secession facade, not a detachable curiosity, is the experience."},
+        {"id": "housewithchimaeras", "from": "oddity", "to": "artnouveau", "reason": "Horodecki's whole Art Nouveau concrete facade is the named building objective."},
+        {"id": "garagemusumeci", "from": "oddity", "to": "artnouveau", "reason": "The intact Catania Liberty commercial facade is the architectural subject."},
+        {"id": "villamajorelle", "from": "artdeco", "to": "artnouveau", "reason": "The purpose-built Nancy Art Nouveau house is currently in the wrong style category."}
+      ],
+      "retag_policy": "These are recommendations for a separate source-and-coordinate audit, not automatic production mutations. Specific living-use categories continue to win when they describe the experience more accurately.",
+      "explicit_non_retags": [
+        {"id": "synagogueagoudashakehilos", "keep": "synagogue", "reason": "It is an active Orthodox congregation. Living religious use is more specific and more respectful than reducing the place to its Guimard facade; Art Nouveau remains a searchable fact."},
+        {"id": "rumbachstreetsynagogue", "keep": "synagogue", "reason": "The same living-use precedence applies even where Secession architecture is central."},
+        {"id": "gellertthermalbaths", "keep": "bathhouse", "reason": "Bathing is the current place experience; Art Nouveau is an architectural facet."},
+        {"id": "strudlhofstiege", "keep": "steps", "reason": "A public stair's climb and route function are more specific than its Jugendstil design."},
+        {"id": "fillgraderstiege", "keep": "steps", "reason": "A public stair remains steps; style belongs in the copy and search terms."},
+        {"id": "zurenborg", "keep": "artdeco", "reason": "Do not move it into the strict contract without restructuring: it is a mixed-style district, not one atomic Art Nouveau facade."}
+      ]
+    }
+  },
+  "included": [
+    {
+      "id": "hotelmezzara",
+      "n": "Hôtel Mezzara",
+      "a": "60–62 rue Jean-de-La-Fontaine",
+      "pc": "75016",
+      "lat": 48.8507,
+      "lng": 2.27075,
+      "c": "artnouveau",
+      "s": "A lace designer gave Guimard a house whose gate and facade behave like one continuous drawn line—years before the planned museum arrives.",
+      "q": "Hôtel Mezzara 60 rue Jean de La Fontaine Paris",
+      "w": "Read the curves from the street grille through the asymmetric openings rather than waiting for an interior visit. The textile commission matters: Guimard designed this 1910–1911 house for Paul Mezzara, a lace-pattern creator, and the building's promised museum will not open until 2028.",
+      "city": "paris",
+      "aliases": ["Ancien hôtel Mezzara", "Hôtel Paul Mezzara"],
+      "external_ids": {"merimee": "PA00086674", "wikidata": "Q3145598"},
+      "facts": [
+        {"claim": "Hector Guimard built the house in 1910–1911 for Paul Mezzara.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086674"]},
+        {"claim": "Paul Mezzara was a textile industrialist and creator of lace patterns.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086674"]},
+        {"claim": "The state announced a Guimard and Art Nouveau museum here for January 2028 after works, so it is not an open museum during the August 2026 visit.", "source_urls": ["https://www.culture.gouv.fr/presse/communiques-de-presse/signature-de-la-promesse-d-un-bail-emphyteotique-de-50-ans-pour-l-hotel-mezzara-une-premiere-etape-vers-la-valorisation-de-ce-chef-d-aeuvre-archit"]}
+      ],
+      "sources": [
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00086674", "title": "Ancien hôtel Mezzara", "publisher": "Ministère de la Culture", "role": "official heritage identity, commission, date, address and protected street grilles", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.culture.gouv.fr/presse/communiques-de-presse/signature-de-la-promesse-d-un-bail-emphyteotique-de-50-ans-pour-l-hotel-mezzara-une-premiere-etape-vers-la-valorisation-de-ce-chef-d-aeuvre-archit", "title": "Signature de la promesse d'un bail pour l'hôtel Mezzara", "publisher": "Ministère de la Culture", "role": "official July 2025 current vacancy status and future-museum timeline", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/Category:H%C3%B4tel_Mezzara", "title": "Hôtel Mezzara", "publisher": "Wikimedia Commons", "role": "named-building object coordinate and exterior visual corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The protected facade and street grilles face rue Jean-de-La-Fontaine. The Ministry says the building was unoccupied and the museum is planned for 2028; this draft promises only the exterior.", "source_url": "https://www.culture.gouv.fr/presse/communiques-de-presse/signature-de-la-promesse-d-un-bail-emphyteotique-de-50-ans-pour-l-hotel-mezzara-une-premiere-etape-vers-la-valorisation-de-ce-chef-d-aeuvre-archit", "checked_at": "2026-08-09", "user_window": "13–16 August 2026 in daylight; exterior only, with no museum or interior entry"},
+      "coordinate_basis": {"type": "named-building object location", "source_url": "https://commons.wikimedia.org/wiki/Category:H%C3%B4tel_Mezzara", "precision": "facade building", "source_coordinate": "48°51′02.52″N, 2°16′14.7″E"},
+      "editorial_score": {"story": 5, "walkability": 4, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"id": "studiobuilding", "name": "Studio Building", "distance_m": 291}, "rationale": "Separate named buildings on different blocks and from different architectural periods.", "checked_against": "all 17,328 catalogue rows plus current Paris wave names, aliases, external IDs and coordinates at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "hotelguimard",
+      "n": "Hôtel Guimard",
+      "a": "122 avenue Mozart",
+      "pc": "75016",
+      "lat": 48.8498,
+      "lng": 2.266519,
+      "c": "artnouveau",
+      "s": "Guimard squeezed his office, home and his wife's studio onto a 90-square-metre triangular plot.",
+      "q": "Hôtel Guimard 122 avenue Mozart Paris",
+      "w": "The irregular windows and swelling bays are the plan made visible: six levels forced onto an awkward wedge. Start at the monumental entrance, then follow the floral stone and ironwork upward to see how Guimard turned constraint into movement.",
+      "city": "paris",
+      "aliases": ["Hôtel Hector Guimard", "Maison Guimard avenue Mozart"],
+      "external_ids": {"merimee": "PA00086680", "wikidata": "Q3145517"},
+      "facts": [
+        {"claim": "Guimard built the house from 1909 to 1912 for himself and Adeline Oppenheim Guimard.", "source_urls": ["https://www.paris.fr/pages/balade-architecturale-dans-le-triangle-d-or-du-16e-19113", "https://pop.culture.gouv.fr/notice/merimee/PA00086680"]},
+        {"claim": "Its original programme combined Guimard's architecture office, the couple's private home and Adeline's studio.", "source_urls": ["https://www.paris.fr/pages/balade-architecturale-dans-le-triangle-d-or-du-16e-19113"]},
+        {"claim": "The triangular plot measured only 90 square metres.", "source_urls": ["https://www.paris.fr/pages/balade-architecturale-dans-le-triangle-d-or-du-16e-19113"]},
+        {"claim": "Guimard used six levels, projecting bays and irregular openings to fit the programme onto the constrained site.", "source_urls": ["https://www.paris.fr/pages/balade-architecturale-dans-le-triangle-d-or-du-16e-19113"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/balade-architecturale-dans-le-triangle-d-or-du-16e-19113", "title": "Balade architecturale dans le triangle d'or du 16e", "publisher": "Ville de Paris", "role": "official city architectural walk, programme, plot and pavement-readable facade detail", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00086680", "title": "Hôtel Guimard", "publisher": "Ministère de la Culture", "role": "official heritage identity, authorship, date and protection", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/Category:H%C3%B4tel_Guimard", "title": "Hôtel Guimard", "publisher": "Wikimedia Commons", "role": "named-building object coordinate and exterior corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The City's current architectural walk is explicitly organised around the avenue Mozart facade. This is private residential property; no interior entry is implied.", "source_url": "https://www.paris.fr/pages/balade-architecturale-dans-le-triangle-d-or-du-16e-19113", "checked_at": "2026-08-09", "user_window": "13–16 August 2026 in daylight; exterior only"},
+      "coordinate_basis": {"type": "named-building object location", "source_url": "https://commons.wikimedia.org/wiki/Category:H%C3%B4tel_Guimard", "precision": "facade building", "source_coordinate": "48°50′59.28″N, 2°15′59.47″E"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "reviewed_30_119m", "nearest_existing": {"id": "studiobuilding", "name": "Studio Building", "distance_m": 83}, "rationale": "The two pins are separate named facades: Guimard's 1909–1912 Art Nouveau home and office at 122 avenue Mozart, and Henri Sauvage's 1926–1928 Art Deco Studio Building at 65 rue La Fontaine. Neither is an alias, component or duplicate of the other.", "current_wave_review": "Studio Building also appears in the current built-history dossier at the same production object; the distinct-building outcome is unchanged.", "checked_against": "all 17,328 catalogue rows plus current Paris wave names, aliases, external IDs and coordinates at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "immeubleleschardons",
+      "n": "Immeuble Les Chardons",
+      "a": "9 rue Claude-Chahu – 2 rue Eugène-Manuel",
+      "pc": "75016",
+      "lat": 48.858881,
+      "lng": 2.282251,
+      "c": "artnouveau",
+      "s": "A 1903 facade-prize winner turns an apartment block into an ochre-and-almond thistle field.",
+      "q": "Immeuble Les Chardons 9 rue Claude Chahu Paris",
+      "w": "The name is a literal looking instruction: trace thistles through the ceramic skin and Dondelinger ironwork. Beneath the botanical surface is Hennebique reinforced concrete, making the facade both structural experiment and total decorative programme.",
+      "city": "paris",
+      "aliases": ["Maison Les Chardons", "9 rue Claude-Chahu"],
+      "external_ids": {"merimee": "PA00086682"},
+      "facts": [
+        {"claim": "Charles Klein built the Art Nouveau apartment building in 1903.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086682"]},
+        {"claim": "Its structure uses the Hennebique reinforced-concrete system.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086682"]},
+        {"claim": "Émile Müller supplied the ochre-yellow and almond-green ceramic facade.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086682"]},
+        {"claim": "The thistle theme is associated with designs by Eugène Grasset.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086682"]},
+        {"claim": "The facade won the City of Paris facade competition in 1903.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086682"]}
+      ],
+      "sources": [
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00086682", "title": "Immeuble Les Chardons", "publisher": "Ministère de la Culture", "role": "official heritage identity, current protected status, structure, ceramic programme, collaborators and facade-prize evidence", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/Category:Immeuble_Les_Chardons", "title": "Immeuble Les Chardons", "publisher": "Wikimedia Commons", "role": "named-building exact object location and exterior-detail corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The protected feature is the full street facade at the documented corner address and is legible from ordinary pavements. The residence itself remains private.", "source_url": "https://pop.culture.gouv.fr/notice/merimee/PA00086682", "checked_at": "2026-08-09", "user_window": "13–16 August 2026 in daylight; exterior only"},
+      "coordinate_basis": {"type": "named-building object location", "source_url": "https://commons.wikimedia.org/wiki/Category:Immeuble_Les_Chardons", "precision": "corner facade building"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"id": "maisondebalzac", "name": "Maison de Balzac", "distance_m": 393}, "rationale": "No catalogue or current-wave name, alias, external-ID or sub-120-metre physical conflict was found.", "checked_against": "all 17,328 catalogue rows plus current Paris wave names, aliases, external IDs and coordinates at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "ceramichotel",
+      "n": "Céramic Hôtel",
+      "a": "34 avenue de Wagram",
+      "pc": "75008",
+      "lat": 48.8768,
+      "lng": 2.297569,
+      "c": "artnouveau",
+      "s": "Alexandre Bigot wrapped a working hotel in flamed stoneware, turning the facade into its own material sample.",
+      "q": "Céramic Hôtel 34 avenue de Wagram Paris",
+      "w": "Stand across avenue de Wagram to let the green and ochre ceramic skin resolve around Lavirotte's concrete frame. The building still works as a hotel, but the protected street facade is a complete five-minute experience without crossing its threshold.",
+      "city": "paris",
+      "aliases": ["Hôtel Élysées Céramic", "Ceramic Hotel Paris"],
+      "external_ids": {"merimee": "PA00088808"},
+      "facts": [
+        {"claim": "Jules Lavirotte built the reinforced-concrete hotel in 1904.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00088808"]},
+        {"claim": "Alexandre Bigot supplied its Art Nouveau flamed-stoneware facade.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00088808"]},
+        {"claim": "The hotel still identifies itself at 34 avenue de Wagram and accepts current bookings.", "source_urls": ["https://ceramic-paris-hotel.com/fr/localisation.html"]}
+      ],
+      "sources": [
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00088808", "title": "Céramic Hôtel", "publisher": "Ministère de la Culture", "role": "official heritage identity, authorship, material, style and protected facade", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://ceramic-paris-hotel.com/fr/localisation.html", "title": "Hôtel Élysées Céramic — Plan et accès", "publisher": "Hôtel Élysées Céramic", "role": "first-party current operation and exact address", "first_party": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/Category:C%C3%A9ramic_H%C3%B4tel", "title": "Céramic Hôtel", "publisher": "Wikimedia Commons", "role": "named-building object coordinate and facade corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The current operator confirms the same address and the Ministry protects the street facade itself. Exterior viewing is independent of hotel entry.", "source_url": "https://ceramic-paris-hotel.com/fr/localisation.html", "checked_at": "2026-08-09", "user_window": "13–16 August 2026 in daylight; exterior view does not depend on hotel access"},
+      "coordinate_basis": {"type": "named-building object location", "source_url": "https://commons.wikimedia.org/wiki/Category:C%C3%A9ramic_H%C3%B4tel", "precision": "facade building", "source_coordinate": "48°52′36.48″N, 2°17′51.25″E"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"id": "maisonloolapagoda", "name": "Maison Loo (La Pagoda)", "distance_m": 745}, "rationale": "No catalogue or current-wave name, alias, external-ID or sub-120-metre physical conflict was found.", "checked_against": "all 17,328 catalogue rows plus current Paris wave names, aliases, external IDs and coordinates at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "immeubleboursault",
+      "n": "Immeubles du 62–64 rue Boursault",
+      "a": "62–64 rue Boursault",
+      "pc": "75017",
+      "lat": 48.885556,
+      "lng": 2.318333,
+      "c": "artnouveau",
+      "s": "Two building phases nine years apart make one Art Nouveau ensemble into a sampler of iron, brick, stone, slate, wood and flamed stoneware.",
+      "q": "Immeuble 62 64 rue Boursault Paris",
+      "w": "Compare the 1900–1901 building with its 1910 continuation instead of reading the address as twins. The broad ensemble remains coherent while revealing how René-Auguste Simonet varied an unusually rich material palette across two campaigns.",
+      "city": "paris",
+      "aliases": ["Immeuble Simonet rue Boursault", "62-64 rue Boursault"],
+      "external_ids": {"merimee": "PA75170004"},
+      "facts": [
+        {"claim": "René-Auguste Simonet realised the Art Nouveau ensemble in two campaigns, 1900–1901 and 1910.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA75170004"]},
+        {"claim": "Its street facade combines flamed stoneware, brick, stone, iron, slate and wood.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA75170004"]},
+        {"claim": "Alexandre Bigot supplied the flamed-stoneware elements.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA75170004"]}
+      ],
+      "sources": [
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA75170004", "title": "Immeuble, 62–64 rue Boursault", "publisher": "Ministère de la Culture", "role": "official heritage identity, current protected status, two-stage construction, Art Nouveau attribution and facade materials", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/Category:62-64_rue_Boursault,_Paris", "title": "62–64 rue Boursault", "publisher": "Wikimedia Commons", "role": "named-building exact object location and full exterior corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The Ministry's protected subject includes both street facades at one exact address. They face the ordinary rue Boursault pavement; residential interiors remain private.", "source_url": "https://pop.culture.gouv.fr/notice/merimee/PA75170004", "checked_at": "2026-08-09", "user_window": "13–16 August 2026 in daylight; exterior only"},
+      "coordinate_basis": {"type": "named-building object location", "source_url": "https://commons.wikimedia.org/wiki/Category:62-64_rue_Boursault,_Paris", "precision": "combined street facade", "source_coordinate": "48°53′08″N, 2°19′06″E"},
+      "editorial_score": {"story": 5, "walkability": 4, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"id": "cinemadescineastes", "name": "Cinéma des Cinéastes", "distance_m": 637}, "rationale": "No catalogue or current-wave name, alias, external-ID or sub-120-metre physical conflict was found.", "checked_against": "all 17,328 catalogue rows plus current Paris wave names, aliases, external IDs and coordinates at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "immeublebocagegambetta",
+      "n": "Immeuble Bocage",
+      "a": "95 avenue Gambetta – 1 rue de la Chine",
+      "pc": "75020",
+      "lat": 48.866514,
+      "lng": 2.3997,
+      "c": "artnouveau",
+      "s": "Peacocks, a salamander, beetles and birds turn an east-Paris apartment facade into an urban wildlife search.",
+      "q": "95 avenue Gambetta 1 rue de la Chine Paris",
+      "w": "Start at the wrought-iron door, where stylised peacocks sit beneath a salamander on a lily pad, then scan the Bigot ceramic bands for smaller creatures. François-Adolphe Bocage owned the 1908 building himself, which may explain why this one became the showpiece among his six nearby blocks.",
+      "city": "paris",
+      "aliases": ["95 avenue Gambetta", "Immeuble François-Adolphe Bocage"],
+      "external_ids": {"pss": "FR-75056-27631"},
+      "facts": [
+        {"claim": "François-Adolphe Bocage built the seven-storey corner building in 1908.", "source_urls": ["https://mairie20.paris.fr/pages/un-joyau-art-nouveau-avenue-gambetta-16783"]},
+        {"claim": "Bocage owned the building himself.", "source_urls": ["https://mairie20.paris.fr/pages/un-joyau-art-nouveau-avenue-gambetta-16783"]},
+        {"claim": "Its Bigot ceramic facade carries lizard, beetle, bird, sunflower and thistle motifs, while the entrance adds peacocks and a salamander on a lily pad.", "source_urls": ["https://mairie20.paris.fr/pages/un-joyau-art-nouveau-avenue-gambetta-16783"]}
+      ],
+      "sources": [
+        {"url": "https://mairie20.paris.fr/pages/un-joyau-art-nouveau-avenue-gambetta-16783", "title": "Un joyau Art nouveau avenue Gambetta", "publisher": "Mairie du 20e / Ville de Paris", "role": "official municipal identity, authorship, current exterior imagery and motif inventory", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.pss-archi.eu/immeubles/FR-75056-27631.html", "title": "95, avenue Gambetta", "publisher": "PSS-Arch Archi", "role": "independent address, exact coordinate, 1908 date and architectural-style corroboration", "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/Category:95_avenue_Gambetta,_Paris", "title": "95 avenue Gambetta", "publisher": "Wikimedia Commons", "role": "named-building object coordinate and facade-detail corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The City presents the corner facade and door as pavement-visible heritage; the building remains residential, so the draft asks for no entry.", "source_url": "https://mairie20.paris.fr/pages/un-joyau-art-nouveau-avenue-gambetta-16783", "checked_at": "2026-08-09", "user_window": "13–16 August 2026 in daylight; exterior only"},
+      "coordinate_basis": {"type": "named-building object location", "source_url": "https://commons.wikimedia.org/wiki/Category:95_avenue_Gambetta,_Paris", "precision": "corner facade building", "source_coordinate": "48°51′59.45″N, 2°23′58.92″E"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 25},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"id": "tombedevictornoir", "name": "Tombe de Victor Noir", "distance_m": 675}, "rationale": "No catalogue or current-wave name, alias, external-ID or sub-120-metre physical conflict was found; it also adds scarce architectural coverage in the 20th arrondissement.", "checked_against": "all 17,328 catalogue rows plus current Paris wave names, aliases, external IDs and coordinates at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "syndicatepiceriefrancaise",
+      "n": "Ancien Syndicat de l'épicerie française",
+      "a": "12–12 bis rue du Renard",
+      "pc": "75004",
+      "lat": 48.858831,
+      "lng": 2.3524,
+      "c": "artnouveau",
+      "s": "Paris grocers carved trade solidarity into their 1901 headquarters; a theatre now works behind the same emphatic facade.",
+      "q": "Ancien Syndicat de l'épicerie française 12 rue du Renard Paris",
+      "w": "Look above the great curved entrances for the guild imagery and the motto “Tous pour un, un pour tous”. Bauhain and Barbaud made a trade association legible in stone; the current Théâtre du Renard occupies only part of the building, leaving the facade as the independent encounter.",
+      "city": "paris",
+      "aliases": ["Syndicat de l'épicerie française", "Théâtre du Renard", "12 rue du Renard"],
+      "external_ids": {"wikidata": "Q108460825", "pss": "FR-75056-11778"},
+      "facts": [
+        {"claim": "Édouard Bauhain and Raymond Barbaud built the former grocery trade-union headquarters at 12 rue du Renard in 1901.", "source_urls": ["https://www.parismuseescollections.paris.fr/fr/musee-jean-moulin/oeuvres/rue-du-renard-juste-avant-la-rue-de-la-verrerie-homme-suspect-emmene-et", "https://www.pss-archi.eu/immeubles/FR-75056-11778.html"]},
+        {"claim": "The Art Nouveau facade carries the grocers' motto “Tous pour un, un pour tous”.", "source_urls": ["https://www.photo12.com/fr/image/gtt09a14_315"]},
+        {"claim": "The building now houses the Théâtre du Renard in part of its lower levels.", "source_urls": ["https://www.parismuseescollections.paris.fr/fr/musee-jean-moulin/oeuvres/rue-du-renard-juste-avant-la-rue-de-la-verrerie-homme-suspect-emmene-et", "https://www.pss-archi.eu/immeubles/FR-75056-11778.html"]}
+      ],
+      "sources": [
+        {"url": "https://www.parismuseescollections.paris.fr/fr/musee-jean-moulin/oeuvres/rue-du-renard-juste-avant-la-rue-de-la-verrerie-homme-suspect-emmene-et", "title": "Rue du Renard, 26 août 1944", "publisher": "Paris Musées", "role": "official municipal identification of the architects, address and current theatre use", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.pss-archi.eu/immeubles/FR-75056-11778.html", "title": "Théâtre du Renard", "publisher": "PSS-Arch Archi", "role": "independent exact address, coordinate, Art Nouveau style, 1901 date and current use", "checked_at": "2026-08-09"},
+        {"url": "https://www.photo12.com/fr/image/gtt09a14_315", "title": "Immeuble 12 rue du Renard à Paris", "publisher": "Photo12 / Gilles Targat", "role": "facade-detail corroboration of the sculpted trade programme and motto", "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/Category:Syndicat_de_l%27%C3%A9picerie_fran%C3%A7aise", "title": "Syndicat de l'épicerie française", "publisher": "Wikimedia Commons", "role": "named-building object coordinate and current facade corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The facade fronts rue du Renard and is independent of theatre opening. This draft does not imply access to the theatre, apartments or former union interiors.", "source_url": "https://www.pss-archi.eu/immeubles/FR-75056-11778.html", "checked_at": "2026-08-09", "user_window": "13–16 August 2026 in daylight; exterior view independent of performance schedules"},
+      "coordinate_basis": {"type": "named-building object location", "source_url": "https://commons.wikimedia.org/wiki/Category:Syndicat_de_l%27%C3%A9picerie_fran%C3%A7aise", "precision": "street facade building", "source_coordinate": "48°51′31.79″N, 2°21′08.64″E"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "reviewed_30_119m", "nearest_existing": {"id": "fontainestravinsky", "name": "Fontaine Stravinsky", "distance_m": 100}, "rationale": "The candidate is a privately occupied 1901 trade-headquarters facade on rue du Renard; Fontaine Stravinsky is a separate public kinetic artwork in the adjacent square. Neither contains, aliases or operationally depends on the other.", "current_wave_review": "The current built-history dossier reuses the same production fountain object; the distinct-object outcome is unchanged.", "checked_against": "all 17,328 catalogue rows plus current Paris wave names, aliases, external IDs and coordinates at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "immeuble14abbeville",
+      "n": "Immeuble du 14 rue d'Abbeville",
+      "a": "14 rue d'Abbeville",
+      "pc": "75010",
+      "lat": 48.879167,
+      "lng": 2.34975,
+      "c": "artnouveau",
+      "s": "Green flamed stoneware seems to grow up a six-storey brick-and-stone facade, carrying animals with it.",
+      "q": "14 rue d'Abbeville Paris Art Nouveau",
+      "w": "The central bay behaves like a ceramic plant climbing toward the loggia. Alexandre and Édouard Autant designed the building; Alexandre Bigot supplied the dark-green animal and vegetal surface that turns it into a singular vertical organism.",
+      "city": "paris",
+      "aliases": ["Immeuble Autant rue d'Abbeville", "14 rue d'Abbeville"],
+      "external_ids": {"merimee": "PA00086503", "pss": "FR-75056-11779"},
+      "facts": [
+        {"claim": "Alexandre Autant and his son Édouard built the six-storey apartment building in 1901.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086503"]},
+        {"claim": "The street facade is built in stone and brick.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086503"]},
+        {"claim": "Alexandre Bigot supplied its abundant green flamed-stoneware animal and vegetal decoration.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086503", "https://www.pss-archi.eu/immeubles/FR-75056-11779.html"]}
+      ],
+      "sources": [
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00086503", "title": "Immeuble, 14 rue d'Abbeville", "publisher": "Ministère de la Culture", "role": "official heritage identity, current protected status, date, architects, ceramic artist and protected exterior", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.pss-archi.eu/immeubles/FR-75056-11779.html", "title": "14, rue d'Abbeville", "publisher": "PSS-Arch Archi", "role": "independent exact coordinate, Art Nouveau style and facade-material corroboration", "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:14,_Rue_d%27Abbeville.jpg", "title": "14, Rue d'Abbeville", "publisher": "Wikimedia Commons", "role": "exact-object coordinate and exterior visual corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The protected feature is the full street facade at the documented address. It is visible from rue d'Abbeville without residential entry.", "source_url": "https://pop.culture.gouv.fr/notice/merimee/PA00086503", "checked_at": "2026-08-09", "user_window": "13–16 August 2026 in daylight; exterior only"},
+      "coordinate_basis": {"type": "named-building object location", "source_url": "https://commons.wikimedia.org/wiki/File:14,_Rue_d%27Abbeville.jpg", "precision": "street facade building", "source_coordinate": "48°52′45″N, 2°20′59.1″E"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"id": "marchecouvertsaintquenti", "name": "Marché couvert Saint-Quentin", "distance_m": 402}, "screened_neighbour": {"name": "16 rue d'Abbeville", "approximate_distance_m": 40, "outcome": "excluded", "reason": "A separate but less strictly Art Nouveau/eclectic facade within the 30–119-metre review band would create serial address padding; no second pin is proposed."}, "rationale": "No existing catalogue or current-wave object lies inside 120 metres, and the adjacent screened facade is deliberately excluded.", "checked_against": "all 17,328 catalogue rows plus current Paris wave names, aliases, external IDs and coordinates at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "hotelmontessuy",
+      "n": "Hôtel de Montessuy",
+      "a": "12 rue Sédillot",
+      "pc": "75007",
+      "lat": 48.858669,
+      "lng": 2.301522,
+      "c": "artnouveau",
+      "s": "Lavirotte's mansion for a countess now gives an Italian state school an exuberant leaf-and-monster facade.",
+      "q": "Hôtel de Montessuy 12 rue Sédillot Paris",
+      "w": "Read the soft curves around the entrance, then follow the foliage, masks and creatures toward the oriel and domed roofline. The contrast is unusually legible: an 1899 private mansion for the Comtesse de Montessuy now serves as a secondary school maintained by the Italian state.",
+      "city": "paris",
+      "aliases": ["Lycée italien Leonardo da Vinci", "Istituto Italiano rue Sédillot", "Ancien hôtel de la Comtesse de Montessuy"],
+      "external_ids": {"merimee": "PA00088785", "osm_way": "69073429"},
+      "facts": [
+        {"claim": "Jules Lavirotte built the mansion in 1899 for the Comtesse de Montessuy.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00088785"]},
+        {"claim": "Dondelinger supplied the ironwork.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00088785"]},
+        {"claim": "The Italian state school currently lists its middle-and-secondary-school campus at 12 rue Sédillot.", "source_urls": ["https://scuolaitaparigi.esteri.it/"]}
+      ],
+      "sources": [
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00088785", "title": "Lycée Italien, 12 rue Sédillot", "publisher": "Ministère de la Culture", "role": "official heritage identity, 1899 commission, Art Nouveau attribution and detailed facade description", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://scuolaitaparigi.esteri.it/", "title": "Istituto Italiano Statale Comprensivo di Parigi", "publisher": "Italian Ministry of Foreign Affairs", "role": "first-party current school identity and exact address", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/Category:Istituto_Statale_Italiano_Leonardo_Da_Vinci", "title": "Istituto Statale Italiano Leonardo Da Vinci", "publisher": "Wikimedia Commons", "role": "named-building object coordinate and street-facade corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The protected street facade fronts rue Sédillot; the current institution is a school. View only from the public pavement, do not enter, linger at the gate or photograph pupils.", "source_url": "https://scuolaitaparigi.esteri.it/", "checked_at": "2026-08-09", "user_window": "13–16 August 2026 in daylight; exterior only and privacy-respecting"},
+      "coordinate_basis": {"type": "named-building object location", "source_url": "https://commons.wikimedia.org/wiki/Category:Istituto_Statale_Italiano_Leonardo_Da_Vinci", "precision": "street facade building", "source_coordinate": "48°51′31.21″N, 2°18′05.48″E"},
+      "editorial_score": {"story": 5, "walkability": 4, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"id": "parissewermuseum", "name": "Paris Sewer Museum", "distance_m": 443}, "rationale": "No catalogue or current-wave name, alias, external-ID or sub-120-metre physical conflict was found.", "checked_against": "all 17,328 catalogue rows plus current Paris wave names, aliases, external IDs and coordinates at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "immeublelesarums",
+      "n": "Immeuble Les Arums",
+      "a": "33 rue du Champ-de-Mars",
+      "pc": "75007",
+      "lat": 48.855839,
+      "lng": 2.30365,
+      "c": "artnouveau",
+      "s": "A private girls' school announced itself through one botanical identity: arum flowers repeated across the street facade.",
+      "q": "Immeuble Les Arums 33 rue du Champ de Mars Paris",
+      "w": "Look for the arum's funnel-shaped flowers rather than treating the ornament as generic foliage. Octave Raquin designed the building around 1900 for the Cours des demoiselles Longuet, giving an educational facade a precise plant name and memory.",
+      "city": "paris",
+      "aliases": ["Les Arums", "Cours des demoiselles Longuet", "33 rue du Champ-de-Mars"],
+      "external_ids": {"merimee": "PA00088768"},
+      "facts": [
+        {"claim": "Octave Raquin built the building around 1900 for the private girls' school Cours des demoiselles Longuet.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00088768"]},
+        {"claim": "The protected street facade's floral sculpture explicitly evokes arum flowers.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00088768"]}
+      ],
+      "sources": [
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00088768", "title": "Immeuble Les Arums", "publisher": "Ministère de la Culture", "role": "official heritage identity, current protected status, commission, date and named floral facade programme", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/Category:Immeuble_Les_Arums", "title": "Immeuble Les Arums", "publisher": "Wikimedia Commons", "role": "named-building exact object coordinate and detailed exterior corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The protected subject includes the street facade, visible from rue du Champ-de-Mars. Do not infer access to the protected hall or any current educational/residential interior.", "source_url": "https://pop.culture.gouv.fr/notice/merimee/PA00088768", "checked_at": "2026-08-09", "user_window": "13–16 August 2026 in daylight; facade only"},
+      "coordinate_basis": {"type": "named-building object location", "source_url": "https://commons.wikimedia.org/wiki/Category:Immeuble_Les_Arums", "precision": "street facade building", "source_coordinate": "48°51′21.02″N, 2°18′13.14″E"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"id": "museedelarmee", "name": "Musée de l'Armée", "distance_m": 617}, "rationale": "No catalogue or current-wave name, alias, external-ID or sub-120-metre physical conflict was found.", "checked_against": "all 17,328 catalogue rows plus current Paris wave names, aliases, external IDs and coordinates at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "palaisdelafemme",
+      "n": "Palais de la Femme",
+      "a": "94 rue de Charonne",
+      "pc": "75011",
+      "lat": 48.853889,
+      "lng": 2.3825,
+      "c": "artnouveau",
+      "s": "Paris's pioneering social hotel for single men became the Palais de la Femme after a national subscription bought it in 1926.",
+      "q": "Palais de la Femme 94 rue de Charonne Paris",
+      "w": "The remarkable Art Nouveau facade belongs to a social building, not a decorative palace: reinforced concrete, light courts and setbacks were designed around hygiene and comfort. The Salvation Army still houses about 400 people here, so the right encounter is brief, exterior and privacy-conscious.",
+      "city": "paris",
+      "aliases": ["Hôtel populaire de la rue de Charonne", "Fondation Armée du Salut Palais de la Femme"],
+      "external_ids": {"merimee": "PA75110004"},
+      "facts": [
+        {"claim": "Auguste Labussière designed the building as a popular hotel for single male workers around 1910–1911.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA75110004", "https://www.paris.fr/pages/1-lieu-3-histoires-le-palais-de-la-femme-34098"]},
+        {"claim": "The original hotel contained 750 rooms.", "source_urls": ["https://www.paris.fr/pages/1-lieu-3-histoires-le-palais-de-la-femme-34098", "https://palaisdelafemme.armeedusalut.fr/lieu-centenaire/"]},
+        {"claim": "A national subscription enabled Blanche and Albin Peyron's Salvation Army project to acquire the building and inaugurate the Palais de la Femme in 1926.", "source_urls": ["https://palaisdelafemme.armeedusalut.fr/lieu-centenaire/"]},
+        {"claim": "The current complex contains 350 lodgings for about 400 people.", "source_urls": ["https://palaisdelafemme.armeedusalut.fr/lieu-centenaire/"]},
+        {"claim": "The building remains permanently occupied.", "source_urls": ["https://palaisdelafemme.armeedusalut.fr/renovation/"]}
+      ],
+      "sources": [
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA75110004", "title": "Palais de la Femme", "publisher": "Ministère de la Culture", "role": "official heritage identity, origin, architect, protected facades and Salvation Army ownership", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/pages/1-lieu-3-histoires-le-palais-de-la-femme-34098", "title": "1 lieu, 3 histoires : le Palais de la Femme", "publisher": "Ville de Paris", "role": "official March 2026 Art Nouveau facade, social-design history and current resident evidence", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://palaisdelafemme.armeedusalut.fr/lieu-centenaire/", "title": "Un lieu centenaire", "publisher": "Fondation de l'Armée du Salut", "role": "first-party current address, subscription story, chronology and resident capacity", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://palaisdelafemme.armeedusalut.fr/renovation/", "title": "Rénover le Palais", "publisher": "Fondation de l'Armée du Salut", "role": "first-party current permanent occupancy and renovation context", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:P1000850_Paris_XI_Rue_Faidherbe_Rue_de_Charonne_Maison_de_la_femme_reductwk.JPG", "title": "Palais de la Femme facade", "publisher": "Wikimedia Commons", "role": "exact-object coordinate and street-facade corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The Art Nouveau facade faces the public corner of rues de Charonne and Faidherbe. The first-party manager says the building is permanently occupied by roughly 400 people; do not enter, photograph residents or treat it as an interior attraction.", "source_url": "https://palaisdelafemme.armeedusalut.fr/renovation/", "checked_at": "2026-08-09", "user_window": "13–16 August 2026 in daylight; brief, privacy-respecting exterior view only"},
+      "coordinate_basis": {"type": "named-building object location", "source_url": "https://commons.wikimedia.org/wiki/File:P1000850_Paris_XI_Rue_Faidherbe_Rue_de_Charonne_Maison_de_la_femme_reductwk.JPG", "precision": "corner facade building", "source_coordinate": "48°51′14″N, 2°22′57″E"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 25},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"id": "septime", "name": "Septime", "distance_m": 122}, "rationale": "The nearest production row lies just outside the 120-metre review radius and is an unrelated restaurant; no current-wave conflict was found.", "checked_against": "all 17,328 catalogue rows plus current Paris wave names, aliases, external IDs and coordinates at 120 m"},
+      "draft_only": true
+    }
+  ],
+  "deferred": [
+    {"n": "6 rue de Hanovre", "proposed_c": "artnouveau", "reason": "Strong period decoration, but the public experience appears dominated by the protected interior stair and hall; current exterior evidence is not sufficient for the strict whole-facade contract."},
+    {"n": "9 rue Chanzy", "proposed_c": "artnouveau", "reason": "Municipal planning evidence describes only lightly curved leaf capitals. That is too close to a token motif for a high-confidence whole-facade classification."},
+    {"n": "185 rue Belliard", "proposed_c": "artnouveau", "reason": "The architect self-portrait and ceramic detail are promising, but no sufficiently strong authoritative building-level source cleared this run."},
+    {"n": "22 rue Trousseau", "proposed_c": "artnouveau", "reason": "Plausible facade but authoritative attribution and exact-object evidence remain weaker than the retained set."},
+    {"n": "18 rue Perrée", "proposed_c": "artnouveau", "reason": "Plausible exterior, but the source bundle did not reach all-high identity, story and novelty confidence."},
+    {"n": "124 rue Réaumur", "proposed_c": "artnouveau", "reason": "The exposed-metal commercial building is significant, but the strict Art Nouveau attribution is less secure than its industrial/rationalist identity."},
+    {"n": "Ancien Félix Potin, 140 bis rue de Rennes", "proposed_c": "historicshopfronts_or_artnouveau", "reason": "The commercial lettering and branded facade risk a category collision with ghostsign or historicshopfronts; defer until a cross-category retag review."}
+  ],
+  "excluded": [
+    {"n": "Castel Béranger", "reason": "Canonical Guimard default already screened out in the prior Paris built-history dossier; this wave is for less obvious deviations."},
+    {"n": "Immeuble Lavirotte, 29 avenue Rapp", "reason": "Canonical facade already screened out in the prior Paris built-history dossier; famousness is not a substitute for wave novelty."},
+    {"n": "Square Rapp", "reason": "The approach is semi-private and the Eiffel framing is canonical; access and novelty do not meet this strict exterior run."},
+    {"n": "Guimard Métro entrances", "reason": "Individual civic objects belong to the current streetfurniture lane; repeating them here would create category and serial-object duplication."},
+    {"n": "Synagogue Agoudas Hakehilos, 10 rue Pavée", "keep_c": "synagogue", "reason": "A living Orthodox congregation is better and more respectfully described by its specific current-use category. Guimard and Art Nouveau remain facts, not the primary spot type."},
+    {"n": "Hôtel Jassedé, 41 rue Chardon-Lagache", "reason": "The City's architectural account places this in Guimard's earlier, pre-Brussels work rather than securely within the mature Art Nouveau contract."},
+    {"n": "7 avenue de la République", "reason": "Authoritative heritage evidence says the exterior ornament has disappeared; surviving Art Nouveau interest is interior-led."},
+    {"n": "37 avenue de Breteuil", "reason": "The street exterior is conventional and the Art Nouveau programme is chiefly inside, failing the pavement-experience rule."},
+    {"n": "7 rue Trétaigne", "reason": "Archival evidence says the low-budget social-housing programme excluded Art Nouveau; only doorway glass and mosaic details qualify, so the whole building fails the category contract."},
+    {"n": "16 rue d'Abbeville", "reason": "Roughly 40 metres from the retained no. 14 and more eclectic/less strictly whole-facade Art Nouveau. Excluded under the 30–119-metre review rather than creating a serial address pair."},
+    {"n": "La Samaritaine", "reason": "Large famous department-store complex with active retail and mixed campaigns; not an atomic lesser-known exterior discovery for this wave."},
+    {"n": "Maxim's", "reason": "The Art Nouveau experience is interior and venue-led, not an independent whole-facade pavement encounter."},
+    {"n": "Bouillon Chartier", "reason": "Already in production as caff and valued for its working dining room; the specific active-use category wins."},
+    {"n": "Bouillon Racine", "reason": "Current restaurant and interior programme dominate; it fails the exterior-first category rule."},
+    {"n": "Maison de l'Art Nouveau Bing, 22 rue de Provence", "reason": "The movement-defining gallery is historically important but no longer survives as a current place object."}
+  ],
+  "verification": {
+    "counts": "33 documented screens = 11 included + 7 deferred + 15 excluded.",
+    "source_rule": "11/11 retained rows have at least two useful sources and at least one official heritage, municipal or current land-manager source. Every factual claim links only to a URL present in that row's source bundle.",
+    "coordinate_rule": "11/11 pins were independently resolved to named-building object locations, not neighbourhood or photographer positions; address and coordinate corroboration were compared source by source.",
+    "access_rule": "11/11 are ordinary public-pavement exterior views for 13–16 August 2026 and do not depend on interior, school, hotel, theatre, worship or public-holiday opening. Temporary scaffolding remains a same-day field check.",
+    "score_rule": "All totals are 23–25; every story and walkability component is at least 4; every confidence dimension is high.",
+    "global_dedupe": "All 17,328 production rows were checked at a 120-metre radius using exact pins, then names, aliases and external IDs were reviewed. Two 30–119-metre cases were retained only after explicit distinct-object review: Hôtel Guimard versus Studio Building at 83 m, and the former grocery syndicate versus Fontaine Stravinsky at 100 m.",
+    "current_wave_dedupe": "All available Paris 2026-08-09 dossiers were checked. The only sub-120-metre current-wave encounters reproduce the same two production objects already reviewed; no candidate duplicates another current-wave addition.",
+    "internal_spacing": "No two retained Art Nouveau candidates are within 120 metres. The closest retained pair is Hôtel Mezzara–Hôtel Guimard at 325 m. The screened 14–16 rue d'Abbeville pair is about 40 m, so no. 16 was excluded.",
+    "category_precedence": "Synagogue Agoudas Hakehilos remains synagogue. Guimard authorship and Art Nouveau style belong in searchable facts, while the specific living congregation category wins primary classification.",
+    "production_state": "The category was registered and the 11 retained rows were imported once as quality-d drafts. Do not reimport or promote them before field testing and editorial review."
+  }
+}

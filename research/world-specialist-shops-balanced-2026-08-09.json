@@ -1,0 +1,3292 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-08-09",
+  "title": "Worldwide specialist shops — balanced strict-gate production research",
+  "status": "Imported into data/spots.json as 49 retained machine-draft rows with quality flag d; all remain pending human editorial review and promotion. Mélodies Graphiques was removed after the independent current-status audit.",
+  "target_included": 50,
+  "included_count": 49,
+  "import": {
+    "state": "imported_as_draft_rows",
+    "quality_flag": "d",
+    "imported_count": 49,
+    "initial_import_waves": [
+      {
+        "offset": 0,
+        "limit": 25,
+        "added": 25
+      },
+      {
+        "offset": 25,
+        "limit": 25,
+        "added": 25
+      }
+    ],
+    "editorial_status": "pending_human_review_and_promotion",
+    "warning": "The research evidence remains useful, but catalogue presence does not mean editorial approval. Do not re-import these rows.",
+    "retained_after_independent_audit": 49,
+    "post_import_audit_removed": [
+      "Mélodies Graphiques"
+    ]
+  },
+  "method": {
+    "editorial_contract": "A currently trading, independently visitable physical shop whose deep narrow inventory or living trade is itself worth a walking detour.",
+    "category_rule": "Existing Map-2 categories win for books, records, food, bakeries and wine; specialistshops is reserved for otherwise-unrepresented trades and collections.",
+    "exclusions": "Chains, malls, department stores, ordinary antiques, appointment-only dealers, museum shops, design-led concept stores and businesses without a verifiable current storefront.",
+    "source_policy": "At least two useful sources per row, led by a current first-party shop/contact page and supported by a first-party history page or authoritative current listing.",
+    "coordinate_policy": "Named OpenStreetMap feature or exact-address point, checked against the current first-party address.",
+    "dedupe_policy": "Normalized names and aliases checked globally against 16,917 live spots. A 120 m proximity flag triggers manual identity/address review rather than automatic rejection in dense shopping streets.",
+    "editorial_gate": "At least 19/25 overall, with story and walkability each at least 4/5; no padding to reach the target.",
+    "import_policy": "All rows remain draft-only and must receive quality flag d. Current hours or access should be rechecked before publication or travel."
+  },
+  "validation": {
+    "catalogue_spots_checked": 16917,
+    "all_city_slugs_live": true,
+    "all_categories_live": true,
+    "all_overall_confidence_high": true,
+    "exact_catalogue_name_matches": 0,
+    "manual_dense_city_proximity_reviews": 15,
+    "checked_at": "2026-08-09",
+    "post_import_current_status_audit": "49 retained all-high rows; Mélodies Graphiques deferred because current physical retail and public access could not be proved."
+  },
+  "included": [
+    {
+      "id": "themaphouse",
+      "n": "The Map House",
+      "a": "54 Beauchamp Place, Knightsbridge",
+      "pc": "SW3 1NY",
+      "lat": 51.49778,
+      "lng": -0.1655,
+      "c": "specialistshops",
+      "city": "london",
+      "country": "United Kingdom",
+      "s": "Five centuries of cartography in a Knightsbridge map room",
+      "q": "The Map House antique maps 54 Beauchamp Place London",
+      "w": "A quiet Knightsbridge gallery holds more than 10,000 original maps, globes and engravings spanning the fifteenth to twentieth centuries. The business moved here in 1973, turning one townhouse into a browseable cabinet of how people once pictured the world.",
+      "aliases": [
+        "Map House London",
+        "Sifton Praed & Company"
+      ],
+      "_facts": [
+        "The current gallery has traded at 54 Beauchamp Place since 1973.",
+        "Its stock exceeds 10,000 antique and vintage maps covering roughly five centuries."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.themaphouse.com/contact/",
+          "role": "current address and public opening hours",
+          "official": true
+        },
+        {
+          "url": "https://www.themaphouse.com/contact/our-gallery/",
+          "role": "history and inventory",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public gallery, Monday to Saturday at posted hours.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Exact-address building point cross-checked to the first-party contact page.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "kgboratory",
+        "nearest_name": "Brompton Oratory KGB Dead-Drop",
+        "distance_m": 249,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "edehillerin",
+      "n": "E. Dehillerin",
+      "a": "18–20 Rue Coquillière",
+      "pc": "75001",
+      "lat": 48.864,
+      "lng": 2.34213,
+      "c": "specialistshops",
+      "city": "paris",
+      "country": "France",
+      "s": "A working maze of copper pans and professional cooks' tools",
+      "q": "E Dehillerin cookware shop Rue Coquilliere Paris",
+      "w": "Copper pans hang above wooden bins in a cooks' supply house that has served Paris since 1820. The stock is practical rather than staged: knives, moulds and obscure utensils make the narrow aisles feel like a living index of French kitchens.",
+      "aliases": [
+        "E.DEHILLERIN",
+        "Dehillerin"
+      ],
+      "_facts": [
+        "The specialist cookware house dates to 1820.",
+        "The first-party page confirms the Rue Coquillière showroom and current six-day opening pattern."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.edehillerin.fr/en/contactez-nous",
+          "role": "current showroom address and hours",
+          "official": true
+        },
+        {
+          "url": "https://www.edehillerin.fr/en/",
+          "role": "current specialist inventory and trading status",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public showroom Monday to Saturday; Sunday and holidays closed.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Exact-address street/building point cross-checked to the first-party showroom address.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "chezgeorges",
+        "nearest_name": "Chez Georges",
+        "distance_m": 272,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "casadediego",
+      "n": "Casa de Diego",
+      "a": "Puerta del Sol 12",
+      "pc": "28013",
+      "lat": 40.41724,
+      "lng": -3.70329,
+      "c": "specialistshops",
+      "city": "madrid",
+      "country": "Spain",
+      "s": "Handmade fans and umbrellas behind Puerta del Sol",
+      "q": "Casa de Diego fans umbrellas Puerta del Sol Madrid",
+      "w": "Fans, parasols, walking sticks and mantillas have been made and repaired by the same family business since 1823. The shop has occupied this Puerta del Sol address since 1858, with almost all of its stock still waiting beyond the tiny sample shown online.",
+      "aliases": [
+        "Casa Diego Madrid"
+      ],
+      "_facts": [
+        "The family shop-workshop began in 1823 and moved to Puerta del Sol 12 in 1858.",
+        "It makes, sells and repairs fans, umbrellas, parasols and walking sticks."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.casadediego.es/home-en",
+          "role": "current shop, address and handmade range",
+          "official": true
+        },
+        {
+          "url": "https://www.esmadrid.com/en/shopping/casa-de-diego",
+          "role": "municipal tourism history and continuing trade",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop in Puerta del Sol; check current first-party hours before travel.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop/address point at Puerta del Sol 12.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "estatuadelamariblanca",
+        "nearest_name": "Estatua de la Mariblanca",
+        "distance_m": 115,
+        "manual_review": true,
+        "outcome": "clear_distinct_shop"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "capassesena",
+      "n": "Capas Seseña",
+      "a": "Calle de la Cruz 23",
+      "pc": "28012",
+      "lat": 40.41534,
+      "lng": -3.70198,
+      "c": "specialistshops",
+      "city": "madrid",
+      "country": "Spain",
+      "s": "Madrid's century-old shop devoted almost entirely to capes",
+      "q": "Capas Sesena cape shop Calle de la Cruz Madrid",
+      "w": "A family atelier founded in 1901 still cuts the dramatic Spanish capa from its Sol-side shop. Seseña abandoned general tailoring to specialise in capes, a single-garment obsession worn by everyone from Picasso and Hemingway to the Spanish royal household.",
+      "aliases": [
+        "Seseña",
+        "Capas Sesena"
+      ],
+      "_facts": [
+        "The family atelier was founded in 1901.",
+        "It has specialised in cape design since the late 1960s and remains open at Calle de la Cruz 23."
+      ],
+      "_sources": [
+        {
+          "url": "http://www.sesena.com/",
+          "role": "current first-party atelier and products",
+          "official": true
+        },
+        {
+          "url": "https://www.esmadrid.com/en/shopping/capas-sesena",
+          "role": "current municipal listing, hours and history",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop Monday to Saturday at the municipal listing's current hours.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop/address point at Calle de la Cruz 23.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "cafecentral",
+        "nearest_name": "Café Central",
+        "distance_m": 127,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "guitarrasramirez",
+      "n": "Guitarras Ramírez",
+      "a": "Calle de la Paz 8",
+      "pc": "28012",
+      "lat": 40.41505,
+      "lng": -3.70436,
+      "c": "specialistshops",
+      "city": "madrid",
+      "country": "Spain",
+      "s": "Five generations of classical-guitar making in central Madrid",
+      "q": "Guitarras Ramirez Calle de la Paz Madrid",
+      "w": "José Ramírez opened his first workshop in 1882; the fifth generation now keeps the classical-guitar line alive behind this small central shopfront. Andrés Segovia's association helped carry the Ramírez sound worldwide, but the place still works as a visitable maker and showroom.",
+      "aliases": [
+        "José Ramírez Guitars",
+        "Guitarras Ramirez"
+      ],
+      "_facts": [
+        "The guitar-making house began in Madrid in 1882.",
+        "Its current Calle de la Paz shop is run by the fifth generation."
+      ],
+      "_sources": [
+        {
+          "url": "https://guitarrasramirez.com/en/contact/",
+          "role": "current address, contact and public shop",
+          "official": true
+        },
+        {
+          "url": "https://www.esmadrid.com/en/shopping/guitarras-ramirez",
+          "role": "municipal tourism history, updated 2026",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public maker's shop/showroom; use current first-party hours.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "First-party mapped shop point at Calle de la Paz 8.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "palaciodesantacruz",
+        "nearest_name": "Palacio de Santa Cruz",
+        "distance_m": 157,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "antiguacasacrespo",
+      "n": "Antigua Casa Crespo",
+      "a": "Calle Divino Pastor 29",
+      "pc": "28004",
+      "lat": 40.42771,
+      "lng": -3.70461,
+      "c": "specialistshops",
+      "city": "madrid",
+      "country": "Spain",
+      "s": "A fifth-generation espadrille shop that still makes its own",
+      "q": "Antigua Casa Crespo espadrilles Madrid",
+      "w": "What began in 1863 as a shop for rope, reeds and black-and-white work shoes became a cult address for handmade espadrilles. The fifth generation still sells the family's own production from the same Malasaña street, now in a riot of colours.",
+      "aliases": [
+        "Casa Crespo"
+      ],
+      "_facts": [
+        "The shop opened on Divino Pastor in 1863.",
+        "The same family still makes its espadrilles by hand in La Rioja and sells them here."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.antiguacasacrespo.com/en/pages/tienda",
+          "role": "current shop address and hours",
+          "official": true
+        },
+        {
+          "url": "https://www.antiguacasacrespo.com/en/pages/about-us",
+          "role": "first-party history and making process",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop Monday to Saturday with a midday closure.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop/address point at Divino Pastor 29.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "museodehistoriademadrid",
+        "nearest_name": "Museo de Historia de Madrid",
+        "distance_m": 386,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "cereriasubira",
+      "n": "Cereria Subirà",
+      "a": "Baixada de la Llibreteria 7",
+      "pc": "08002",
+      "lat": 41.38382,
+      "lng": 2.17804,
+      "c": "specialistshops",
+      "city": "barcelona",
+      "country": "Spain",
+      "s": "A candle shop lit by more than two and a half centuries",
+      "q": "Cereria Subira candle shop Barcelona",
+      "w": "Candles have been sold by this business since 1761, and the narrow Gothic Quarter shop still carries devotional tapers, sculpted wax and household candles. Its painted woodwork and old counters make the trade visible before you buy a thing.",
+      "aliases": [
+        "Cereria Subira",
+        "Cereria Subirà 1761"
+      ],
+      "_facts": [
+        "The candle business dates to 1761.",
+        "The current Baixada de la Llibreteria shop remains an ordinary retail premises."
+      ],
+      "_sources": [
+        {
+          "url": "https://cereriasubira.com/",
+          "role": "current first-party candle shop and products",
+          "official": true
+        },
+        {
+          "url": "https://www.barcelona.cat/en/discoverbcn/pics/atractius/cereria-subira-99400387318",
+          "role": "municipal visitor history and identity",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop; verify current posted hours before travel.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop node at the first-party address.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "museudhistoriadelaciutat",
+        "nearest_name": "Museu d'Història de la Ciutat",
+        "distance_m": 32,
+        "manual_review": true,
+        "outcome": "clear_distinct_shop"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "lamanualalpargatera",
+      "n": "La Manual Alpargatera",
+      "a": "Carrer d'Avinyó 7",
+      "pc": "08002",
+      "lat": 41.38159,
+      "lng": 2.17604,
+      "c": "specialistshops",
+      "city": "barcelona",
+      "country": "Spain",
+      "s": "Barcelona's last traditional espadrille workshop",
+      "q": "La Manual Alpargatera Carrer Avinyo Barcelona",
+      "w": "Shelves built for rope-soled shoes still climb the walls of this 1940s workshop. La Manual helped turn the working espadrille into fashion and continues to make its own pairs in Barcelona, with the production space tucked behind the shop.",
+      "aliases": [
+        "LMA Avinyó",
+        "La Manual"
+      ],
+      "_facts": [
+        "The workshop dates to 1940–41.",
+        "Heritage research identifies it as Barcelona's last traditional espadrille workshop."
+      ],
+      "_sources": [
+        {
+          "url": "https://lamanual.com/en/contact/",
+          "role": "current first-party address, hours and craft",
+          "official": true
+        },
+        {
+          "url": "https://rutadelsemblematics.cat/barcelona-la-manual-alpargatera.html",
+          "role": "current status, heritage and interior",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop seven days at posted hours.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop node at Carrer d'Avinyó 7.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "homenatgealscastellers",
+        "nearest_name": "Homenatge als castellers",
+        "distance_m": 94,
+        "manual_review": true,
+        "outcome": "clear_distinct_shop"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "ganiveteriaroca",
+      "n": "Ganiveteria Roca",
+      "a": "Plaça del Pi 3",
+      "pc": "08002",
+      "lat": 41.38248,
+      "lng": 2.1735,
+      "c": "specialistshops",
+      "city": "barcelona",
+      "country": "Spain",
+      "s": "A 1911 knife shop with sharpening still at its core",
+      "q": "Ganiveteria Roca knife shop Barcelona",
+      "w": "Knives, scissors and razors sit behind a Viennese-style shopfront from 1911. Roca remains a practical cutlery specialist, with sharpening and repairs keeping the place tied to its trade rather than frozen as décor.",
+      "aliases": [
+        "Ganiveteria Roca S.A.",
+        "Cuchillería Roca"
+      ],
+      "_facts": [
+        "The Plaça del Pi knife shop dates to 1911.",
+        "It still offers sharpening and repair services."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.ganiveteriaroca.com/",
+          "role": "current first-party inventory and service",
+          "official": true
+        },
+        {
+          "url": "https://rutadelsemblematics.cat/barcelona-ganiveteria-roca.html",
+          "role": "heritage date, façade and current status",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop with current retail and workshop service.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop node at Plaça del Pi 3.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "placadesantfelipneri",
+        "nearest_name": "Plaça de Sant Felip Neri",
+        "distance_m": 168,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "luvariaulisses",
+      "n": "Luvaria Ulisses",
+      "a": "Rua do Carmo 87-A",
+      "pc": "1200-093",
+      "lat": 38.71234,
+      "lng": -9.13971,
+      "c": "specialistshops",
+      "city": "lisbon",
+      "country": "Portugal",
+      "s": "A tiny 1925 Lisbon shop that sells only gloves",
+      "q": "Luvaria Ulisses glove shop Rua do Carmo Lisbon",
+      "w": "A doorway in the old Carmo wall opens into a shop scarcely wider than its glass counters. Founded in 1925, Ulisses remains devoted to gloves—leather, lace and ceremony—making its tiny art-deco interior feel built to the scale of one human hand.",
+      "aliases": [
+        "Ulisses Glove Shop"
+      ],
+      "_facts": [
+        "The glove shop was founded in 1925 in a newly used section of the Carmo wall.",
+        "The current first-party page confirms six-day public retail at Rua do Carmo 87-A."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.luvariaulisses.com/uk/pagina/3/contactos/",
+          "role": "current first-party address and hours",
+          "official": true
+        },
+        {
+          "url": "https://www.comerciocomhistoria.gov.pt/en/listings/luvaria-ulisses-3276/",
+          "role": "Lisbon City Council history and trade",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop Monday to Saturday, 10:00–19:00; Sunday closed.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop node at Rua do Carmo 87-A.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "conventodocarmoruins",
+        "nearest_name": "Convento do Carmo Ruins",
+        "distance_m": 76,
+        "manual_review": true,
+        "outcome": "clear_distinct_shop"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "cazadasvellasloreto",
+      "n": "Caza das Vellas Loreto",
+      "a": "Rua do Loreto 53–55",
+      "pc": "1200-241",
+      "lat": 38.71065,
+      "lng": -9.14448,
+      "c": "specialistshops",
+      "city": "lisbon",
+      "country": "Portugal",
+      "s": "The same family making candles in the same shop since 1789",
+      "q": "Caza das Vellas Loreto candle shop Lisbon",
+      "w": "This family candle shop has stayed at the same address, making and selling the same product, since 1789. Baptism candles, tapers and decorative wax still line a room whose trade predates electric light by a century.",
+      "aliases": [
+        "Casa das Velas Loreto",
+        "Caza Vellas Loreto"
+      ],
+      "_facts": [
+        "Lisbon's historic-shops programme says it has remained in the same family and premises since 1789.",
+        "The first-party contact page confirms current candle retail and hours."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.cazavellasloreto.com.pt/contactos",
+          "role": "current first-party address and hours",
+          "official": true
+        },
+        {
+          "url": "https://www.comerciocomhistoria.gov.pt/en/listings/caza-das-vellas-loreto-3239/",
+          "role": "municipal history, products and current listing",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public Monday to Saturday; shortened Saturday hours and summer variation.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Exact-address point cross-checked with official Lisbon visitor coordinates.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "livrariabertrand",
+        "nearest_name": "Livraria Bertrand",
+        "distance_m": 174,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "retrosariarosapomar",
+      "n": "Retrosaria Rosa Pomar",
+      "a": "Rua Maria Andrade 50A",
+      "pc": "1170-217",
+      "lat": 38.72354,
+      "lng": -9.13394,
+      "c": "specialistshops",
+      "city": "lisbon",
+      "country": "Portugal",
+      "s": "Portuguese sheep breeds turned into a wall of traceable yarn",
+      "q": "Retrosaria Rosa Pomar native Portuguese wool Lisbon",
+      "w": "This is a yarn shop with a supply chain you can follow back to native Portuguese sheep. Rosa Pomar bought and transformed more than 20 tonnes of native wool in 2025; the Lisbon shelves show how regional fleece becomes distinct local colour and texture.",
+      "aliases": [
+        "Rosa Pomar Retrosaria"
+      ],
+      "_facts": [
+        "The brick-and-mortar shop is open Tuesday to Saturday.",
+        "Its own account says more than 20 tonnes of native Portuguese wool were bought and transformed in 2025."
+      ],
+      "_sources": [
+        {
+          "url": "https://retrosaria.rosapomar.com/pages/about-us",
+          "role": "current first-party address and public hours",
+          "official": true
+        },
+        {
+          "url": "https://retrosaria.rosapomar.com/pages/about-us-1",
+          "role": "first-party wool programme, history and 2025 figure",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop Tuesday to Saturday, 10:00–19:00.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named retail/address point at Rua Maria Andrade 50A.",
+      "editorial_score": {
+        "visual": 4,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 4,
+        "shareability": 4,
+        "total": 22
+      },
+      "dedupe": {
+        "nearest_id": "cervejariaramiro",
+        "nearest_name": "Cervejaria Ramiro",
+        "distance_m": 389,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "zecchicoloribellearti",
+      "n": "Zecchi Colori Belle Arti",
+      "a": "Via dello Studio 19r",
+      "pc": "50122",
+      "lat": 43.77196,
+      "lng": 11.25682,
+      "c": "specialistshops",
+      "city": "florence",
+      "country": "Italy",
+      "s": "Renaissance pigment recipes sold beside Florence's Duomo",
+      "q": "Zecchi Colori Belle Arti pigments Florence",
+      "w": "Powdered earths, mineral colours and old-formula oils crowd a fine-art colour shop beside the Duomo. Zecchi used Cennino Cennini's fourteenth-century treatise to reconstruct materials of pre-Renaissance and Renaissance painting, and still prioritises its walk-in art-school trade.",
+      "aliases": [
+        "Zecchi",
+        "Zecchi Colori"
+      ],
+      "_facts": [
+        "Zecchi took over the colour business in the 1950s.",
+        "It reconstructed historic pigments and materials using Cennino Cennini's Libro dell'Arte."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.zecchi.it/",
+          "role": "current first-party hours, public shop and pigment range",
+          "official": true
+        },
+        {
+          "url": "https://attivitastoriche.destinationflorence.com/en/attivita_storiche/zecchi-colori-belle-arti/",
+          "role": "official local history and address",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop with weekday split hours; summer Saturday/holiday closures vary.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop node at Via dello Studio 19r.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "chiesadisanbenedetto",
+        "nearest_name": "Chiesa di San Benedetto",
+        "distance_m": 37,
+        "manual_review": true,
+        "outcome": "clear_distinct_shop"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "fpettinaroli",
+      "n": "F. Pettinaroli",
+      "a": "Via Brera 4",
+      "pc": "20121",
+      "lat": 45.46968,
+      "lng": 9.1881,
+      "c": "specialistshops",
+      "city": "milan",
+      "country": "Italy",
+      "s": "A fourth-generation printer, binder and map room in Brera",
+      "q": "Pettinaroli stationery printing antique maps Milan",
+      "w": "Pettinaroli began in 1881 as a stationer with its own printing and bookbinding rooms. Four generations later, the Brera shop still combines typography, fine Italian paper and leather goods with an unusually deep cabinet of antique maps and mountain prints.",
+      "aliases": [
+        "Pettinaroli Milano",
+        "Francesco Pettinaroli"
+      ],
+      "_facts": [
+        "The business was founded in 1881 with printing and bookbinding attached.",
+        "It is now fourth-generation and moved to Via Brera in 2017."
+      ],
+      "_sources": [
+        {
+          "url": "https://fpettinaroli.it/en/",
+          "role": "current first-party address, hours and specialist range",
+          "official": true
+        },
+        {
+          "url": "https://fpettinaroli.it/en/storia/",
+          "role": "first-party history and continuing workshop traditions",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop Monday afternoon and Tuesday to Saturday.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop node at Via Brera 4.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "palazzocitterio",
+        "nearest_name": "Palazzo Citterio",
+        "distance_m": 238,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "bonvini1909",
+      "n": "Bonvini 1909",
+      "a": "Via Tagliamento 1",
+      "pc": "20139",
+      "lat": 45.44395,
+      "lng": 9.21546,
+      "c": "specialistshops",
+      "city": "milan",
+      "country": "Italy",
+      "s": "Letterpress machines still turning in a 1909 stationer's shop",
+      "q": "Bonvini 1909 typography letterpress shop Milan",
+      "w": "A restored neighbourhood stationer has kept its lead type, wood letters and early presses working. Bonvini sells paper and writing tools, but the real detour is the living print shop: ink, machinery and workshops gathered inside a 1909 storefront.",
+      "aliases": [
+        "Atelier Bonvini 1909",
+        "Cartoleria Bonvini"
+      ],
+      "_facts": [
+        "The shop dates to 1909.",
+        "Its restored historic presses and type are used for printing and public workshops."
+      ],
+      "_sources": [
+        {
+          "url": "https://bonvini1909.com/informazioni/",
+          "role": "current first-party address, hours and visits",
+          "official": true
+        },
+        {
+          "url": "https://bonvini1909.com/storia/",
+          "role": "first-party history, type and presses",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop/atelier during posted opening hours; workshop events vary.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop point at Via Tagliamento 1.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 4,
+        "shareability": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "monumentoallevittimedelb",
+        "nearest_name": "Monumento alle vittime del bombardamento aereo",
+        "distance_m": 1058,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "deposthumuswinkel",
+      "n": "De Posthumus Winkel",
+      "a": "Sint Luciensteeg 23–25",
+      "pc": "1012 PM",
+      "lat": 52.37066,
+      "lng": 4.89086,
+      "c": "specialistshops",
+      "city": "amsterdam",
+      "country": "Netherlands",
+      "s": "Amsterdam's stamp maker, cutting impressions since 1865",
+      "q": "De Posthumus Winkel rubber stamps Amsterdam",
+      "w": "Drawers of alphabets, animals and archival motifs fill this stamp specialist beside the Amsterdam Museum. Posthumus dates to 1865 and still makes custom stamps in its own workshop, so the shop works as both visual archive and practical maker.",
+      "aliases": [
+        "Posthumus Winkel",
+        "Posthumus Stempels"
+      ],
+      "_facts": [
+        "The company dates to 1865.",
+        "Custom stamps are still produced in its own atelier."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.posthumus.nl/informatie/",
+          "role": "current first-party company, address and service information",
+          "official": true
+        },
+        {
+          "url": "https://www.posthumuswinkel.nl/hobbystempels/",
+          "role": "current first-party retail stamp range",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public retail shop; custom workshop orders may take additional time.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Exact-address point at Sint Luciensteeg 23–25.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "amsterdammuseum",
+        "nearest_name": "Amsterdam Museum",
+        "distance_m": 39,
+        "manual_review": true,
+        "outcome": "clear_distinct_shop"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "stempelbar",
+      "n": "StempelBar",
+      "a": "Weimarer Straße 17",
+      "pc": "10625",
+      "lat": 52.5073,
+      "lng": 13.31097,
+      "c": "specialistshops",
+      "city": "berlin",
+      "country": "Germany",
+      "s": "A Berlin bar of owner-drawn rubber stamps",
+      "q": "StempelBar rubber stamp shop Berlin",
+      "w": "This is not a stationery shop with a few stamps: the walls are built around rubber images, including plates designed by the owner. Since 1997, StempelBar has turned tiny drawings into a browseable visual language for printers, crafters and letter writers.",
+      "aliases": [
+        "Stempel Bar Berlin"
+      ],
+      "_facts": [
+        "StempelBar has specialised in stamps since 1997.",
+        "It sells owner-designed rubber plates alongside a deep stamp inventory."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.stempelbar.de/content/ueber-uns",
+          "role": "first-party history and specialist practice",
+          "official": true
+        },
+        {
+          "url": "https://www.stempelbar.de/",
+          "role": "current first-party products, news and trading status",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop; check the current first-party opening notice before travel.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop point at Weimarer Straße 17.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 4,
+        "shareability": 4,
+        "total": 22
+      },
+      "dedupe": {
+        "nearest_id": "quasimodo",
+        "nearest_name": "Quasimodo",
+        "distance_m": 1187,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "mayrandfessler",
+      "n": "Mayr & Fessler",
+      "a": "Kärntner Straße 37",
+      "pc": "1010",
+      "lat": 48.20496,
+      "lng": 16.37113,
+      "c": "specialistshops",
+      "city": "vienna",
+      "country": "Austria",
+      "s": "Imperial writing culture in a Vienna paper house",
+      "q": "Mayr Fessler stationery Kärntner Strasse Vienna",
+      "w": "Mayr & Fessler has sold fine paper, correspondence sets and writing objects since 1840. Its long history as an imperial and royal purveyor survives in a shop where sealing, engraving and ceremonial stationery still feel like active trades.",
+      "aliases": [
+        "Mayr und Fessler",
+        "Mayr & Fessler Wien"
+      ],
+      "_facts": [
+        "The paper and writing house was founded in 1840.",
+        "It historically held imperial-and-royal purveyor status and remains a current shop."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.mayr-fessler.at/new/about_eng.html",
+          "role": "first-party history and specialist identity",
+          "official": true
+        },
+        {
+          "url": "https://www.mayr-fessler.at/",
+          "role": "current first-party shop, contact and products",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public city-centre shop at current posted hours.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop point at Kärntner Straße 37.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "kaisergruft",
+        "nearest_name": "Kaisergruft",
+        "distance_m": 116,
+        "manual_review": true,
+        "outcome": "clear_distinct_shop"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "zumaltenknopfkonig",
+      "n": "Zum alten Knopfkönig",
+      "a": "Wiedner Hauptstraße 34",
+      "pc": "1040",
+      "lat": 48.19531,
+      "lng": 16.36677,
+      "c": "specialistshops",
+      "city": "vienna",
+      "country": "Austria",
+      "s": "Eight thousand kinds of button in one Vienna shop",
+      "q": "Zum alten Knopfkönig button shop Vienna",
+      "w": "Boxes and cards hold roughly 8,000 kinds of button: horn, glass, metal, mother-of-pearl and stranger survivors. The Button King is a repairer's resource disguised as a tiny visual museum, but it remains a practical walk-in shop.",
+      "aliases": [
+        "Knopfkönig",
+        "Zum alten Knopfkoenig"
+      ],
+      "_facts": [
+        "The specialist advertises roughly 8,000 button types.",
+        "The current district and first-party pages confirm ordinary retail at Wiedner Hauptstraße 34."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.knopfkoenig.at/kontakt/",
+          "role": "current first-party address and contact",
+          "official": true
+        },
+        {
+          "url": "https://www.aufderwieden.wien/diegeschaefte/frimmel/",
+          "role": "district listing and specialist inventory",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public specialist shop; verify current hours before travel.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop point at Wiedner Hauptstraße 34.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "mozartbrunnen",
+        "nearest_name": "Mozart-Brunnen",
+        "distance_m": 109,
+        "manual_review": true,
+        "outcome": "clear_distinct_shop"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "ganterieboon",
+      "n": "Ganterie Boon",
+      "a": "Lombardenvest 2",
+      "pc": "2000",
+      "lat": 51.21768,
+      "lng": 4.40061,
+      "c": "specialistshops",
+      "city": "antwerp",
+      "country": "Belgium",
+      "s": "Four generations of gloves in a 1929 art-deco interior",
+      "q": "Ganterie Boon glove shop Antwerp",
+      "w": "Gloves have been the entire point of this family business since 1884. The fourth generation works inside a remarkably intact 1929 art-deco shop, where drawers, mirrors and fitted cases make choosing a glove feel like entering a purpose-built machine.",
+      "aliases": [
+        "Handschoenwinkel Boon",
+        "Boon Gloves"
+      ],
+      "_facts": [
+        "The glove business began in 1884 and is now fourth-generation.",
+        "Its present shop preserves a purpose-built 1929 art-deco interior."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.ganterieboon.com/en/contact",
+          "role": "current first-party address, hours and contact",
+          "official": true
+        },
+        {
+          "url": "https://www.ganterieboon.com/en/os",
+          "role": "first-party history and surviving interior",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public city-centre glove shop during posted hours.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop node at Lombardenvest 2.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "plantinmoretusmuseum",
+        "nearest_name": "Plantin-Moretus Museum",
+        "distance_m": 173,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "landoltarbenz",
+      "n": "Landolt-Arbenz",
+      "a": "Poststrasse 10",
+      "pc": "8001",
+      "lat": 47.36981,
+      "lng": 8.54011,
+      "c": "specialistshops",
+      "city": "zurich",
+      "country": "Switzerland",
+      "s": "Two floors devoted to the culture of writing",
+      "q": "Landolt Arbenz writing shop Zurich",
+      "w": "Landolt-Arbenz has treated handwriting as a material culture since 1882. Pens, inks, papers, desk tools and engraved objects spread across two floors, giving an everyday act the depth of a specialist collection without turning the shop into a museum.",
+      "aliases": [
+        "Landolt Arbenz",
+        "Landolt-Arbenz Papeterie"
+      ],
+      "_facts": [
+        "The Zurich writing house dates to 1882.",
+        "The current Poststrasse shop presents writing culture across two public floors."
+      ],
+      "_sources": [
+        {
+          "url": "https://landolt-arbenz.ch/en/home",
+          "role": "current first-party shop and range",
+          "official": true
+        },
+        {
+          "url": "https://landolt-arbenz.ch/en/unternehmung/generationen",
+          "role": "first-party multi-generation history",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public two-floor retail shop; check current hours before travel.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop node at Poststrasse 10.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "galeriegmurzynska",
+        "nearest_name": "Galerie Gmurzynska",
+        "distance_m": 96,
+        "manual_review": true,
+        "outcome": "clear_distinct_shop"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "polvereditempo",
+      "n": "Polvere di Tempo",
+      "a": "Via del Moro 59",
+      "pc": "00153",
+      "lat": 41.89025,
+      "lng": 12.47096,
+      "c": "specialistshops",
+      "city": "rome",
+      "country": "Italy",
+      "s": "A Trastevere workshop for measuring time and direction",
+      "q": "Polvere di Tempo sundials hourglasses Rome",
+      "w": "Sundials, hourglasses, compasses and small globes occupy this Trastevere cabinet of time. The objects are not themed souvenirs: the owner designs and makes instruments in the adjoining workshop, turning an old scientific vocabulary into usable things.",
+      "aliases": [
+        "Dust of Time Rome"
+      ],
+      "_facts": [
+        "The shop specialises in sundials, hourglasses, compasses and globes.",
+        "Its first-party site documents an active artisan workshop."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.polvereditempo.it/contatti/",
+          "role": "current first-party address and public contact",
+          "official": true
+        },
+        {
+          "url": "https://www.polvereditempo.it/laboratorio/",
+          "role": "first-party making practice and instruments",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public Trastevere shop; confirm current hours on the first-party site.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Exact-address point at Via del Moro 59.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "fiordiluna",
+        "nearest_name": "Fiordiluna",
+        "distance_m": 157,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "anticacartotecnica",
+      "n": "Antica Cartotecnica",
+      "a": "Piazza dei Caprettari 61",
+      "pc": "00186",
+      "lat": 41.89801,
+      "lng": 12.47565,
+      "c": "specialistshops",
+      "city": "rome",
+      "country": "Italy",
+      "s": "Pens, inkwells and mechanical calculators in a 1930 paper shop",
+      "q": "Antica Cartotecnica pens calculators Rome",
+      "w": "A 1930 cartoleria near Sant'Ivo mixes modern pens with inkwells, desk tools and ranks of mechanical calculators. Repairs and custom leather work keep the collection connected to use: this is where obsolete office objects still have a working afterlife.",
+      "aliases": [
+        "Antica Cartotecnica Roma"
+      ],
+      "_facts": [
+        "The specialist paper-and-writing business dates to 1930.",
+        "It sells and repairs writing instruments and carries vintage office machines."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.anticacartotecnica.it/en/contacts/",
+          "role": "current first-party address and public access",
+          "official": true
+        },
+        {
+          "url": "https://www.anticacartotecnica.it/en/history/",
+          "role": "first-party history, repairs and collection",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop; repair and custom orders may require follow-up.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Exact-address point at Piazza dei Caprettari 61.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "santivoallasapienza",
+        "nearest_name": "Sant'Ivo alla Sapienza",
+        "distance_m": 80,
+        "manual_review": true,
+        "outcome": "clear_distinct_shop"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "uebaesou",
+      "n": "Ueba Esou",
+      "a": "579 Tōrōchō, Shimogyō Ward",
+      "pc": "600-8401",
+      "lat": 34.99954,
+      "lng": 135.76109,
+      "c": "specialistshops",
+      "city": "kyoto",
+      "country": "Japan",
+      "s": "An eleventh-generation shop for traditional Japanese pigments",
+      "q": "Ueba Esou traditional pigments Kyoto",
+      "w": "Small shells of colour hold mineral and botanical pigments used in nihonga painting and Kyoto craft. Ueba Esou was founded in 1751 and the eleventh generation still sells traditional colour materials from the same kind of specialist counter artists have relied on for centuries.",
+      "aliases": [
+        "Ueba-eso",
+        "Ueba-Esou"
+      ],
+      "_facts": [
+        "The colour-materials house was founded in 1751.",
+        "The current company identifies an eleventh-generation continuity and a public Kyoto shop."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.ueba.co.jp/company",
+          "role": "first-party history, company and address",
+          "official": true
+        },
+        {
+          "url": "https://www.ueba.co.jp/",
+          "role": "current first-party products and trading status",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public weekday shop, generally 09:00–17:00; check holidays.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop/address point in Shimogyō Ward.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 4,
+        "shareability": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "nishikitenmangu",
+        "nearest_name": "Nishiki Tenmangu",
+        "distance_m": 754,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "aritsugunishikimarket",
+      "n": "Aritsugu Nishiki Market",
+      "a": "219 Kajiyachō, Nakagyō Ward",
+      "pc": "604-8052",
+      "lat": 35.01444,
+      "lng": 135.76525,
+      "c": "specialistshops",
+      "city": "kyoto",
+      "country": "Japan",
+      "s": "A 1560 blade house still sharpening knives in Nishiki Market",
+      "q": "Aritsugu knife shop Nishiki Market Kyoto",
+      "w": "Aritsugu began as a swordsmith in 1560 and now fits kitchen knives to cooks at a long, bright counter in Nishiki Market. Names can be engraved and blades return for sharpening, giving the purchase a lifetime relationship rather than a souvenir finish.",
+      "aliases": [
+        "Kyoto Aritsugu",
+        "Aritsugu Nishiki"
+      ],
+      "_facts": [
+        "The blade house traces its founding to 1560.",
+        "The Nishiki Market shop sells, engraves and maintains kitchen knives."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.kyoto-nishiki.or.jp/en/stores/aritsugu/",
+          "role": "official market listing, history and current shop",
+          "official": true
+        },
+        {
+          "url": "http://www.aritsugu.co.jp/",
+          "role": "current first-party maker and product information",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public market shop; Nishiki's trading hours and holidays vary.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop node inside Nishiki Market.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "ippodotea",
+        "nearest_name": "Ippodo Tea",
+        "distance_m": 192,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "sakaiichimonjimitsuhide",
+      "n": "Sakai Ichimonji Mitsuhide",
+      "a": "14-8 Namba Sennichimae, Chūō Ward",
+      "pc": "542-0075",
+      "lat": 34.66548,
+      "lng": 135.50384,
+      "c": "specialistshops",
+      "city": "osaka",
+      "country": "Japan",
+      "s": "Two thousand kinds of kitchen knife under one Osaka roof",
+      "q": "Sakai Ichimonji Mitsuhide knife store Osaka",
+      "w": "More than 2,000 knife types turn this Sennichimae shop into a taxonomy of cutting. The company began in 1953 and draws on Sakai's blade-making tradition, with staff matching steel, shape and maintenance to the work a visitor actually does.",
+      "aliases": [
+        "Ichimonji Mitsuhide",
+        "Sakai Ichimonji"
+      ],
+      "_facts": [
+        "The specialist shop was established in 1953.",
+        "Its first-party guide describes more than 2,000 kitchen-knife varieties."
+      ],
+      "_sources": [
+        {
+          "url": "https://global.ichimonji.co.jp/pages/store-guide",
+          "role": "current first-party store address, access and inventory",
+          "official": true
+        },
+        {
+          "url": "https://global.ichimonji.co.jp/pages/about",
+          "role": "first-party company history and Sakai craft context",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop at posted hours; sharpening/custom services may take time.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop node at the first-party Namba Sennichimae address.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "kuromonichibamarket",
+        "nearest_name": "Kuromon Ichiba Market",
+        "distance_m": 235,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "kakimori",
+      "n": "Kakimori",
+      "a": "1-6-2 Misuji, Taitō City",
+      "pc": "111-0055",
+      "lat": 35.70317,
+      "lng": 139.78568,
+      "c": "specialistshops",
+      "city": "tokyo",
+      "country": "Japan",
+      "s": "Build a notebook downstairs, blend an ink upstairs",
+      "q": "Kakimori notebook ink shop Kuramae Tokyo",
+      "w": "Choose paper, covers, rings and fastenings, then watch a notebook bound in the store. Upstairs, Kakimori's ink counter extends the same idea into colour: writing tools become materials to compose rather than products to pick off a shelf.",
+      "aliases": [
+        "Kakimori Kuramae"
+      ],
+      "_facts": [
+        "Customers can configure notebooks that are bound in store.",
+        "The Tokyo flagship includes a specialist ink space upstairs."
+      ],
+      "_sources": [
+        {
+          "url": "https://kakimori.com/en/pages/stores",
+          "role": "current first-party address and public shop information",
+          "official": true
+        },
+        {
+          "url": "https://kakimori.com/en",
+          "role": "first-party notebook and ink services",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public Kuramae shop; service queues and holidays may vary.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop node at 1-6-2 Misuji.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "spot318",
+        "nearest_name": "蔵前水の館",
+        "distance_m": 540,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "pigmenttokyo",
+      "n": "PIGMENT TOKYO",
+      "a": "2-5-5 Higashi-Shinagawa, Shinagawa City",
+      "pc": "140-0002",
+      "lat": 35.62129,
+      "lng": 139.74954,
+      "c": "specialistshops",
+      "city": "tokyo",
+      "country": "Japan",
+      "s": "Thousands of pigments beneath a wave of bamboo",
+      "q": "PIGMENT TOKYO pigments Tennozu Isle",
+      "w": "A long wall grades thousands of powdered pigments into a spectrum beneath a rippling bamboo ceiling. PIGMENT treats colour as a material library—alongside ink sticks, brushes and animal-glue binders—and teaches how those materials behave.",
+      "aliases": [
+        "Pigment Lab Tokyo",
+        "PIGMENT Lab"
+      ],
+      "_facts": [
+        "The specialist describes a collection of thousands of pigments and traditional painting materials.",
+        "It runs a current public store and workshops at Tennozu Isle."
+      ],
+      "_sources": [
+        {
+          "url": "https://pigment.tokyo/en/pages/about",
+          "role": "first-party collection, mission and materials",
+          "official": true
+        },
+        {
+          "url": "https://tokyotouristinfo.com/en/detail/M0590",
+          "role": "official current visitor listing and access",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop/gallery at posted hours; classes require separate booking.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named venue point at the first-party Higashi-Shinagawa address.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 4,
+        "shareability": 5,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "meguroskygarden",
+        "nearest_name": "Meguro Sky Garden",
+        "distance_m": 3405,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "ozuwashi",
+      "n": "Ozu Washi",
+      "a": "3-6-2 Nihonbashi Honchō, Chūō City",
+      "pc": "103-0023",
+      "lat": 35.68864,
+      "lng": 139.77636,
+      "c": "specialistshops",
+      "city": "tokyo",
+      "country": "Japan",
+      "s": "Two thousand kinds of Japanese paper at a 1653 address",
+      "q": "Ozu Washi paper shop Nihonbashi Tokyo",
+      "w": "Ozu began trading paper in Nihonbashi in 1653 and still fills its shop with roughly 2,000 kinds of washi. A working paper studio and small cultural space reveal the fibres and hand movements behind what would otherwise look like a wall of beautiful sheets.",
+      "aliases": [
+        "Ozu Paper",
+        "Ozu Culture School"
+      ],
+      "_facts": [
+        "The paper business dates to 1653 at its Nihonbashi home.",
+        "The current complex combines retail washi with public papermaking and displays."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.ozuwashi.net/en/",
+          "role": "current first-party shop, history and visitor activities",
+          "official": true
+        },
+        {
+          "url": "https://www.timeout.com/tokyo/shopping/ozu-washi",
+          "role": "current range and visitor description",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop; workshop/demo schedules should be checked separately.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop point at 3-6-2 Nihonbashi Honchō.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "kitemuseum",
+        "nearest_name": "Kite Museum",
+        "distance_m": 359,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "misuyabari",
+      "n": "Misuyabari",
+      "a": "26 Ishibashichō, Nakagyō Ward",
+      "pc": "604-8036",
+      "lat": 35.00886,
+      "lng": 135.76815,
+      "c": "specialistshops",
+      "city": "kyoto",
+      "country": "Japan",
+      "s": "A 400-year-old needle shop hidden down a narrow passage",
+      "q": "Misuyabari sewing needle shop Kyoto",
+      "w": "A sign leads off busy Sanjō through a passage to a tiny garden and a shop devoted to sewing needles. Misuyabari's trade reaches back about four centuries; packets of hand-finished needles and pin-shaped novelties make one nearly invisible doorway a precise little destination.",
+      "aliases": [
+        "Misuya-bari",
+        "Misuya Needle Shop"
+      ],
+      "_facts": [
+        "The specialist needle business traces roughly four centuries of continuity.",
+        "The current shop is reached through a passage off Sanjō and keeps ordinary retail hours."
+      ],
+      "_sources": [
+        {
+          "url": "https://misuyabari.com/about",
+          "role": "first-party history, specialist identity and address",
+          "official": true
+        },
+        {
+          "url": "https://misuyabari.com/",
+          "role": "current first-party products and trading status",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop reached through a narrow passage; check posted holidays.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop node inside the signed passage at Ishibashichō 26.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "smartcoffee",
+        "nearest_name": "Smart Coffee",
+        "distance_m": 21,
+        "manual_review": true,
+        "outcome": "clear_distinct_shop_address"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "kamijikakimoto",
+      "n": "Kamiji Kakimoto",
+      "a": "310 Shimohakusan-chō, Nakagyō Ward",
+      "pc": "604-8085",
+      "lat": 35.00939,
+      "lng": 135.76577,
+      "c": "specialistshops",
+      "city": "kyoto",
+      "country": "Japan",
+      "s": "An Edo-period paper specialist with sheets in every texture",
+      "q": "Kamiji Kakimoto washi paper shop Kyoto",
+      "w": "Drawers and hanging sheets turn this quiet shop into a material survey of Japanese paper. Kamiji Kakimoto dates to the late Edo period, around 1845, and remains a serious source for washi chosen by fibre, finish and intended craft.",
+      "aliases": [
+        "Kakimoto Kamiji",
+        "紙司柿本"
+      ],
+      "_facts": [
+        "The paper house dates to the late Edo period, around 1845.",
+        "It remains a current specialist retailer of washi and paper goods."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.kamiji-kakimoto.jp/",
+          "role": "current first-party shop, products and contact",
+          "official": true
+        },
+        {
+          "url": "https://traditionalkyoto.com/shopping/paper-washi/",
+          "role": "specialist history and visit context",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public central-Kyoto shop; verify current holidays before travel.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop node at Shimohakusan-chō 310.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "smartcoffee",
+        "nearest_name": "Smart Coffee",
+        "distance_m": 207,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "manluenchoon",
+      "n": "Man Luen Choon",
+      "a": "2/F, Harvest Building, 29–35 Wing Kut Street, Sheung Wan",
+      "pc": "",
+      "lat": 22.28528,
+      "lng": 114.15426,
+      "c": "specialistshops",
+      "city": "hongkong",
+      "country": "Hong Kong",
+      "s": "A second-floor trove of Chinese calligraphy materials",
+      "q": "Man Luen Choon calligraphy shop Hong Kong",
+      "w": "Ride up to the second floor of an ordinary Sheung Wan building and find brushes, ink stones, seals, paper and pigments laid out for Chinese painting and calligraphy. The hidden setting makes the depth of the working artist-supply room land as a proper discovery.",
+      "aliases": [
+        "Man Luen Choon Chinese Art Supplies",
+        "萬聯莊"
+      ],
+      "_facts": [
+        "The shop specialises in Chinese painting and calligraphy materials.",
+        "The current retailer occupies the second floor of Harvest Building and opens Monday to Saturday."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.manluenchoon.com/",
+          "role": "current first-party products, address and contact",
+          "official": true
+        },
+        {
+          "url": "https://www.discoverhongkong.com/eng/travel-guide/qts/shops-results/shops-details.id3180.man-luen-choon.html",
+          "role": "official tourism quality-shop listing",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public second-floor shop Monday to Saturday; use building lift/stairs.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Harvest Building address point on Wing Kut Street.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "jointpublishing",
+        "nearest_name": "三聯書店 Joint Publishing",
+        "distance_m": 219,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "straitsartco",
+      "n": "Straits Art Co",
+      "a": "420 North Bridge Road",
+      "pc": "188727",
+      "lat": 1.29721,
+      "lng": 103.85494,
+      "c": "specialistshops",
+      "city": "singapore",
+      "country": "Singapore",
+      "s": "Singapore's 1947 art-materials pioneer still at the counter",
+      "q": "Straits Art Co art supplies Singapore",
+      "w": "Straits Art opened in 1947 as Singapore's first dedicated fine-art materials shop, founded by an artist closely tied to NAFA's early years. The present counter still focuses on tools and surfaces for making art, carrying the lineage without becoming a heritage display.",
+      "aliases": [
+        "Straits Art Company"
+      ],
+      "_facts": [
+        "The business was founded in 1947 as an early dedicated fine-art supplier in Singapore.",
+        "Its current first-party pages confirm an ordinary physical shop at 420 North Bridge Road."
+      ],
+      "_sources": [
+        {
+          "url": "https://straitsartco.com.sg/contact-us/",
+          "role": "current first-party address and public retail contact",
+          "official": true
+        },
+        {
+          "url": "https://straitsartco.com.sg/about-us/",
+          "role": "first-party founding history and specialist identity",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public ground-floor shop at posted hours.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named address point at 420 North Bridge Road.",
+      "editorial_score": {
+        "visual": 4,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4,
+        "total": 22
+      },
+      "dedupe": {
+        "nearest_id": "mintmuseumoftoys",
+        "nearest_name": "Mint Museum of Toys",
+        "distance_m": 107,
+        "manual_review": true,
+        "outcome": "clear_distinct_shop"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "fountainpenhospital",
+      "n": "Fountain Pen Hospital",
+      "a": "10 Warren Street, Tribeca",
+      "pc": "10007",
+      "lat": 40.71408,
+      "lng": -74.00727,
+      "c": "specialistshops",
+      "city": "nyc",
+      "country": "United States",
+      "s": "A pen hospital with nearly eighty years of bedside manner",
+      "q": "Fountain Pen Hospital Warren Street New York",
+      "w": "Fountain Pen Hospital has diagnosed nibs, filling systems and leaky barrels since 1946. Dozens of current makers share the Tribeca cases with repairs and vintage knowledge, so the medical name feels less like branding than a job description.",
+      "aliases": [
+        "FPH New York"
+      ],
+      "_facts": [
+        "The specialist pen business was founded in 1946.",
+        "The current Warren Street shop sells many pen brands and provides repair expertise."
+      ],
+      "_sources": [
+        {
+          "url": "https://fountainpenhospital.com/pages/contact",
+          "role": "current first-party address and public contact",
+          "official": true
+        },
+        {
+          "url": "https://fountainpenhospital.com/",
+          "role": "current first-party brands, repairs and trading status",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public Tribeca shop; repair intake and turnaround vary.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop/address point at 10 Warren Street.",
+      "editorial_score": {
+        "visual": 4,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "irtcityhallloop",
+        "nearest_name": "IRT City Hall Loop",
+        "distance_m": 215,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "tannensmagic",
+      "n": "Tannen’s Magic",
+      "a": "45 West 34th Street, 6th floor",
+      "pc": "10001",
+      "lat": 40.74976,
+      "lng": -73.98685,
+      "c": "specialistshops",
+      "city": "nyc",
+      "country": "United States",
+      "s": "New York's last old magic shop, hidden on the sixth floor",
+      "q": "Tannens Magic shop West 34th Street New York",
+      "w": "Take an office-building lift to the sixth floor and the doors open onto cards, coins, apparatus and live demonstrations. Founded in 1925, Tannen's survives as New York's oldest magic shop—a working clubhouse where the trick is often explained by a magician at the counter.",
+      "aliases": [
+        "Tannen's Magic",
+        "Louis Tannen Magic"
+      ],
+      "_facts": [
+        "The magic shop was founded in 1925.",
+        "Its current sixth-floor physical shop remains open to drop-in customers at posted hours."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.tannens.com/pages/about",
+          "role": "first-party history and specialist identity",
+          "official": true
+        },
+        {
+          "url": "https://www.tannens.com/",
+          "role": "current first-party physical shop and inventory",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public sixth-floor shop reached by lift; check current daily hours.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Exact-address building point at 45 West 34th Street.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "morganlibraryandmuseum",
+        "nearest_name": "Morgan Library and Museum",
+        "distance_m": 478,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "caseyrubberstamps",
+      "n": "Casey Rubber Stamps",
+      "a": "322 East 11th Street",
+      "pc": "10003",
+      "lat": 40.72969,
+      "lng": -73.98527,
+      "c": "specialistshops",
+      "city": "nyc",
+      "country": "United States",
+      "s": "Ten thousand hand-drawn images and a working vulcanizer",
+      "q": "Casey Rubber Stamps East 11th Street New York",
+      "w": "More than 10,000 designs crowd the walls and drawers of this East Village stamp maker. John Casey has drawn, cut and vulcanised images here since 1979; custom orders still emerge as red rubber mounted on maple blocks.",
+      "aliases": [
+        "Casey's Rubber Stamps"
+      ],
+      "_facts": [
+        "The shop has operated since 1979.",
+        "Its inventory exceeds 10,000 designs and custom stamps are made with an on-site vulcanizer."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.caseyrubberstamps.com/contact",
+          "role": "current first-party shop address and contact",
+          "official": true
+        },
+        {
+          "url": "https://www.caseyrubberstamps.com/",
+          "role": "first-party history, process and inventory",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public East Village shop; custom work is ordered separately.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop/address point at 322 East 11th Street.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "burpcastle",
+        "nearest_name": "Burp Castle",
+        "distance_m": 323,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "thecompleatsculptor",
+      "n": "The Compleat Sculptor",
+      "a": "110 West 19th Street",
+      "pc": "10011",
+      "lat": 40.74073,
+      "lng": -73.99552,
+      "c": "specialistshops",
+      "city": "nyc",
+      "country": "United States",
+      "s": "A material library for moulding, casting and carving",
+      "q": "The Compleat Sculptor West 19th Street New York",
+      "w": "Silicones, alginates, casting resins, stone, armatures and tools fill a single Chelsea shop devoted to making sculpture. The inventory is technical enough to reward a wanderer: each shelf suggests an unfamiliar way of turning a body, texture or idea into matter.",
+      "aliases": [
+        "Compleat Sculptor"
+      ],
+      "_facts": [
+        "The physical shop specialises in sculpture, mould-making and casting supplies.",
+        "The current first-party page confirms a single public Chelsea store."
+      ],
+      "_sources": [
+        {
+          "url": "https://shop.sculpt.com/pages/contact-and-directions",
+          "role": "current first-party address and visitor directions",
+          "official": true
+        },
+        {
+          "url": "https://thelocavore.com/directory/the-compleat-sculptor",
+          "role": "current independent physical-shop description",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public ground-floor retail shop at posted hours.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop/address point at 110 West 19th Street.",
+      "editorial_score": {
+        "visual": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4,
+        "total": 22
+      },
+      "dedupe": {
+        "nearest_id": "hotelchelsea",
+        "nearest_name": "Hotel Chelsea",
+        "distance_m": 420,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "chessforum",
+      "n": "Chess Forum",
+      "a": "219 Thompson Street",
+      "pc": "10012",
+      "lat": 40.72914,
+      "lng": -73.9992,
+      "c": "specialistshops",
+      "city": "nyc",
+      "country": "United States",
+      "s": "A chess shop that becomes a midnight neighbourhood parlour",
+      "q": "Chess Forum Thompson Street New York",
+      "w": "Sets from tournament plastic to carved wood line the walls, while small tables turn stock into play. Chess Forum is the Village's surviving traditional chess shop and parlour, open late enough for strangers to sit down over a clock long after ordinary retail has stopped.",
+      "aliases": [
+        "Chess Forum New York"
+      ],
+      "_facts": [
+        "The shop combines chess retail with hourly table play.",
+        "The current first-party page lists opening through midnight."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.chessforum.com/pages/about-us",
+          "role": "first-party history, retail and play format",
+          "official": true
+        },
+        {
+          "url": "https://www.chessforum.com/",
+          "role": "current first-party trading status and inventory",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop and chess parlour, generally open to midnight; table fees apply to play.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop/address point at 219 Thompson Street.",
+      "editorial_score": {
+        "visual": 4,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "minettatavern",
+        "nearest_name": "Minetta Tavern",
+        "distance_m": 157,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "atlasstationers",
+      "n": "Atlas Stationers",
+      "a": "227 West Lake Street",
+      "pc": "60606",
+      "lat": 41.88565,
+      "lng": -87.63423,
+      "c": "specialistshops",
+      "city": "chicago",
+      "country": "United States",
+      "s": "Four generations, a thousand pens and a wall of ink",
+      "q": "Atlas Stationers fountain pens Chicago",
+      "w": "Atlas began in 1939 and has reached its fourth family generation without losing the feel of a serious pen counter. More than a thousand pens and roughly 1,500 inks make colour and nib choice a proper browse rather than a quick purchase.",
+      "aliases": [
+        "Atlas Stationery",
+        "Atlas Stationers Chicago"
+      ],
+      "_facts": [
+        "The family business was founded in 1939 and is now fourth-generation.",
+        "Its first-party story describes more than 1,000 pens and 1,500 inks."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.atlasstationers.com/pages/visit-our-store",
+          "role": "current first-party address and public store access",
+          "official": true
+        },
+        {
+          "url": "https://www.atlasstationers.com/pages/the-atlas-story",
+          "role": "first-party family history and inventory scale",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public Loop shop during posted weekday/Saturday hours.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop node at 227 West Lake Street.",
+      "editorial_score": {
+        "visual": 4,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "christkindlmarket",
+        "nearest_name": "Christkindlmarket",
+        "distance_m": 418,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "centralcameracompany",
+      "n": "Central Camera Company",
+      "a": "230 South Wabash Avenue",
+      "pc": "60604",
+      "lat": 41.87859,
+      "lng": -87.62632,
+      "c": "specialistshops",
+      "city": "chicago",
+      "country": "United States",
+      "s": "Chicago's 1899 camera shop, rebuilt after the 2020 fire",
+      "q": "Central Camera Company Wabash Chicago",
+      "w": "Central Camera has sold cameras and darkroom supplies on Wabash since 1899. Fire gutted the shop during unrest in 2020, but the family rebuilt and reopened it, restoring a rare place where film, chemistry, repairs and used equipment still share one counter.",
+      "aliases": [
+        "Central Camera",
+        "Central Camera Co."
+      ],
+      "_facts": [
+        "The family camera business dates to 1899.",
+        "It rebuilt and reopened after a devastating 2020 fire."
+      ],
+      "_sources": [
+        {
+          "url": "https://centralcameraco.bigcartel.com/visit",
+          "role": "current first-party address, hours and physical shop",
+          "official": true
+        },
+        {
+          "url": "https://www.preservationchicago.org/win-central-camera-reopens-after-devastating-fire/",
+          "role": "reopening history and heritage context",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public Loop camera shop; check first-party hours before visiting.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop/address point at 230 South Wabash Avenue.",
+      "editorial_score": {
+        "visual": 4,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "usilq239303",
+        "nearest_name": "Art Institute of Chicago",
+        "distance_m": 223,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "fahrneyspens",
+      "n": "Fahrney’s Pens",
+      "a": "1408 F Street NW",
+      "pc": "20004",
+      "lat": 38.89727,
+      "lng": -77.03223,
+      "c": "specialistshops",
+      "city": "washingtondc",
+      "country": "United States",
+      "s": "Washington's near-century-old pen shop back by the Willard",
+      "q": "Fahrneys Pens F Street Washington DC",
+      "w": "Fahrney's has supplied pens to Washington writers and officials for nearly a century. After a change of ownership it returned beside the Willard in 2025, with fountain pens, inks and repair knowledge concentrated in a small downtown showroom.",
+      "aliases": [
+        "Fahrney's Pens"
+      ],
+      "_facts": [
+        "The specialist business approaches a century of trading.",
+        "A 2025 ownership change returned its physical shop to the Willard-area address."
+      ],
+      "_sources": [
+        {
+          "url": "https://fahrneyspens.com/pages/fahrneys-pens-store",
+          "role": "current first-party physical store and address",
+          "official": true
+        },
+        {
+          "url": "https://fahrneyspens.com/blogs/news/writeside-holdings-acquires-iconic-fahrney-s-pens-in-washington-d-c",
+          "role": "first-party 2025 ownership and reopening status",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public downtown showroom; verify current hours before travel.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop/address point at 1408 F Street NW.",
+      "editorial_score": {
+        "visual": 4,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4,
+        "total": 22
+      },
+      "dedupe": {
+        "nearest_id": "whitehouse",
+        "nearest_name": "White House",
+        "distance_m": 388,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "papierplume",
+      "n": "Papier Plume",
+      "a": "842 Royal Street, French Quarter",
+      "pc": "70116",
+      "lat": 29.95918,
+      "lng": -90.06401,
+      "c": "specialistshops",
+      "city": "neworleans",
+      "country": "United States",
+      "s": "New Orleans bottled as fountain-pen ink",
+      "q": "Papier Plume fountain pen ink Royal Street New Orleans",
+      "w": "Pens and paper fill this French Quarter shop, but its most local objects are bottles of ink mixed in colours inspired by New Orleans. Street names, carnival shades and neighbourhood stories turn handwriting into a portable piece of the city.",
+      "aliases": [
+        "Papier Plume New Orleans"
+      ],
+      "_facts": [
+        "The current physical shop trades at 842 Royal Street.",
+        "It produces its own New Orleans-themed fountain-pen inks."
+      ],
+      "_sources": [
+        {
+          "url": "https://papierplume.com/",
+          "role": "current first-party shop, inventory and house inks",
+          "official": true
+        },
+        {
+          "url": "https://www.corner.inc/place/pTRPyRxz8tci",
+          "role": "recent physical-store status and address",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public French Quarter shop during posted hours.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop/address point at 842 Royal Street.",
+      "editorial_score": {
+        "visual": 4,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "uslaq1573286",
+        "nearest_name": "Madame John's Legacy",
+        "distance_m": 113,
+        "manual_review": true,
+        "outcome": "clear_distinct_shop"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "oblationpapersandpress",
+      "n": "Oblation Papers & Press",
+      "a": "516 NW 12th Avenue",
+      "pc": "97209",
+      "lat": 45.52681,
+      "lng": -122.68311,
+      "c": "specialistshops",
+      "city": "portland",
+      "country": "United States",
+      "s": "Cotton paper and four antique presses working behind the shop",
+      "q": "Oblation Papers Press Portland Oregon",
+      "w": "Oblation makes its own cotton paper and prints on four antique letterpresses visible from the Pearl District shop. Founded in 1989, it combines a stationery counter with the machinery and wet craft that give paper its edge, tooth and impression.",
+      "aliases": [
+        "Oblation Papers and Press",
+        "Oblation Paper & Press"
+      ],
+      "_facts": [
+        "The business was founded in 1989.",
+        "It makes cotton paper and operates four antique presses at the shop."
+      ],
+      "_sources": [
+        {
+          "url": "https://oblationpapers.com/contact",
+          "role": "current first-party address and public access",
+          "official": true
+        },
+        {
+          "url": "https://oblationpapers.com/about-us",
+          "role": "first-party history, papermaking and presses",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop; production visibility depends on the working day.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop node at 516 NW 12th Avenue.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "powellscityofbooks",
+        "nearest_name": "Powell's City of Books",
+        "distance_m": 407,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "dustystrings",
+      "n": "Dusty Strings",
+      "a": "3406 Fremont Avenue North",
+      "pc": "98103",
+      "lat": 47.64979,
+      "lng": -122.34956,
+      "c": "specialistshops",
+      "city": "seattle",
+      "country": "United States",
+      "s": "Harps and hammered dulcimers made and played in Fremont",
+      "q": "Dusty Strings harps dulcimers Seattle store",
+      "w": "Harps and hammered dulcimers give this Fremont music shop its unusual centre of gravity. Dusty Strings began in 1979 and still builds those instruments locally; the physical store adds acoustic instruments, lessons and the chance to hear a niche craft rather than merely see it.",
+      "aliases": [
+        "Dusty Strings Music Store",
+        "Dusty Strings Harps"
+      ],
+      "_facts": [
+        "The company began in 1979.",
+        "It makes harps and hammered dulcimers and operates a current public Fremont store."
+      ],
+      "_sources": [
+        {
+          "url": "https://store.dustystrings.com/pages/contact",
+          "role": "current first-party store address and public contact",
+          "official": true
+        },
+        {
+          "url": "https://store.dustystrings.com/pages/about-us",
+          "role": "first-party history and specialist instrument making",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public Fremont store; lessons and services have separate schedules.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop node at 3406 Fremont Avenue North.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 4,
+        "shareability": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "statueofleninseattle",
+        "nearest_name": "Statue of Lenin, Seattle",
+        "distance_m": 209,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "aupapierjaponais",
+      "n": "Au Papier Japonais",
+      "a": "24 Avenue Fairmount Ouest",
+      "pc": "H2T 2M1",
+      "lat": 45.52341,
+      "lng": -73.59475,
+      "c": "specialistshops",
+      "city": "montreal",
+      "country": "Canada",
+      "s": "Eight hundred kinds of washi in Mile End",
+      "q": "Au Papier Japonais washi Montreal",
+      "w": "Roughly 800 kinds of Japanese paper compress into this Mile End shop: translucent, fibrous, patterned and strong enough for conservation or lamps. Tools and small objects explain what the sheets can become, but the real pleasure is learning how many kinds of paper there are.",
+      "aliases": [
+        "Japanese Paper Place Montreal",
+        "Au Papier Japonais Montréal"
+      ],
+      "_facts": [
+        "The shop carries roughly 800 types of Japanese paper.",
+        "Its current physical store remains open on Avenue Fairmount Ouest."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.aupapierjaponais.com/index.php",
+          "role": "current first-party shop and specialist stock",
+          "official": true
+        },
+        {
+          "url": "https://www.themain.com/montreal/boutique-store/au-papier-japonais",
+          "role": "current independent address and range",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public Mile End shop; verify current hours before travel.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named shop/address point at 24 Avenue Fairmount Ouest.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "fairmountbagel",
+        "nearest_name": "Fairmount Bagel",
+        "distance_m": 69,
+        "manual_review": true,
+        "outcome": "clear_distinct_shop"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "metskermaps",
+      "n": "Metsker Maps",
+      "a": "1511 First Avenue",
+      "pc": "98101",
+      "lat": 47.60913,
+      "lng": -122.34053,
+      "c": "specialistshops",
+      "city": "seattle",
+      "country": "United States",
+      "s": "A map shop where the whole world still comes folded",
+      "q": "Metsker Maps First Avenue Seattle",
+      "w": "Wall maps, raised-relief landscapes, globes and folded sheets make navigation physical again at the edge of Pike Place Market. Metsker is an employee-owned single shop, and its staff can still send a walker to the right drawer for an obscure trail or country.",
+      "aliases": [
+        "Metsker Maps of Seattle",
+        "Metsker's Maps"
+      ],
+      "_facts": [
+        "The current business is employee-owned and operates one downtown Seattle shop.",
+        "Its inventory specialises in maps, globes, travel guides and geographic tools."
+      ],
+      "_sources": [
+        {
+          "url": "https://metskermaps.com/pages/contact",
+          "role": "current first-party address and public shop information",
+          "official": true
+        },
+        {
+          "url": "https://metskermaps.com/pages/about-us",
+          "role": "first-party ownership and specialist history",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public downtown shop near Pike Place Market.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named OSM shop node at 1511 First Avenue.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "pikeplacemarket",
+        "nearest_name": "Pike Place Market",
+        "distance_m": 92,
+        "manual_review": true,
+        "outcome": "clear_distinct_nested_shop"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "fanteskitchenshop",
+      "n": "Fante’s Kitchen Shop",
+      "a": "1006 South 9th Street, Italian Market",
+      "pc": "19147",
+      "lat": 39.93739,
+      "lng": -75.15838,
+      "c": "specialistshops",
+      "city": "philadelphia",
+      "country": "United States",
+      "s": "A century of obscure kitchen tools in the Italian Market",
+      "q": "Fantes Kitchen Shop Italian Market Philadelphia",
+      "w": "Fante's has served cooks in Philadelphia's Italian Market since 1906. Thousands of practical tools—pasta cutters, pizzelle irons, canning gear, knife parts and moulds for jobs you did not know had a tool—turn an ordinary kitchen shop into a taxonomy of making food.",
+      "aliases": [
+        "Fante's Kitchen Shop",
+        "Fantes"
+      ],
+      "_facts": [
+        "The family-owned shop has operated in the Italian Market since 1906.",
+        "The physical store carries thousands of professional and home-cooking tools."
+      ],
+      "_sources": [
+        {
+          "url": "https://fantes.com/contact-us",
+          "role": "current first-party address and physical-store status",
+          "official": true
+        },
+        {
+          "url": "https://fantes.com/about",
+          "role": "first-party history, ownership and specialist inventory",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public Italian Market shop; use the current store-hours page before travel.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named OSM shop building at 1004–08 South 9th Street.",
+      "editorial_score": {
+        "visual": 4,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4,
+        "total": 22
+      },
+      "dedupe": {
+        "nearest_id": "uspaq1190282",
+        "nearest_name": "Independence National Historical Park",
+        "distance_m": 1452,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "mariotalarico",
+      "n": "Mario Talarico",
+      "a": "Via Toledo 329",
+      "pc": "80134",
+      "lat": 40.84208,
+      "lng": 14.24865,
+      "c": "specialistshops",
+      "city": "naples",
+      "country": "Italy",
+      "s": "Handmade umbrellas downstairs, their free museum upstairs",
+      "q": "Mario Talarico umbrellas museum Via Toledo Naples",
+      "w": "The Talarico family has made umbrellas in Naples since 1860, shaping handles and repairing its own work rather than treating rainwear as disposable. In May 2026 it opened a free permanent umbrella museum directly above the Via Toledo shop, adding family tools and famous commissions to the detour.",
+      "aliases": [
+        "Mario Talarico Since 1860",
+        "Talarico Ombrelli"
+      ],
+      "_facts": [
+        "The family umbrella workshop dates to 1860 and still makes and repairs umbrellas.",
+        "A free permanent umbrella museum opened above the shop in May 2026."
+      ],
+      "_sources": [
+        {
+          "url": "https://mariotalarico.it/en/pages/contact",
+          "role": "current first-party shop, museum and workshop addresses",
+          "official": true
+        },
+        {
+          "url": "https://www.ansa.it/campania/notizie/2026/05/22/a-napoli-il-museo-dellombrello-artigianale-da-eduardo-a-re-carlo-iii_555ca021-4ed4-4eb2-8483-d657203e4dc1.html",
+          "role": "2026 museum opening and craft history",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop Monday to Saturday; upstairs museum entry reported free, hours should be rechecked.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named OSM umbrella-shop node at Via Toledo 329.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "gallerieditalia",
+        "nearest_name": "Gallerie d'Italia",
+        "distance_m": 186,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "giuliogianniniefiglio",
+      "n": "Giulio Giannini e Figlio",
+      "a": "Via dei Velluti 1r, beside Piazza Pitti",
+      "pc": "50125",
+      "lat": 43.7666,
+      "lng": 11.25048,
+      "c": "specialistshops",
+      "city": "florence",
+      "country": "Italy",
+      "s": "Six generations of marbled paper and Florentine bookbinding",
+      "q": "Giulio Giannini e Figlio marbled paper Florence",
+      "w": "Hand-marbled sheets dry beside albums and books bound in the Florentine style at a workshop founded in 1856. The sixth generation now works from a small lane beside Piazza Pitti, keeping historic blocks, patterns and paper techniques in active use.",
+      "aliases": [
+        "Giulio Giannini & Figlio",
+        "Giannini Firenze"
+      ],
+      "_facts": [
+        "The artistic bookbinding workshop was founded in 1856 and has reached its sixth generation.",
+        "It hand-marbles and block-prints paper and maintains a current public shop at Via dei Velluti 1r."
+      ],
+      "_sources": [
+        {
+          "url": "https://www.giuliogiannini.com/en/content/contatti.html",
+          "role": "current first-party address and shop opening hours",
+          "official": true
+        },
+        {
+          "url": "https://www.giuliogiannini.com/en/",
+          "role": "first-party founding date, generation and crafts",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop at posted hours; workshops/classes may require booking.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Exact-address OSM point at Via dei Velluti 1.",
+      "editorial_score": {
+        "visual": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "stmarks",
+        "nearest_name": "St Mark's",
+        "distance_m": 141,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    }
+  ],
+  "deferred_or_excluded": [
+    {
+      "name": "Deyrolle",
+      "reason": "Exact existing catalogue place in Paris."
+    },
+    {
+      "name": "El Rei de la Màgia",
+      "reason": "Exact existing catalogue place in Barcelona."
+    },
+    {
+      "name": "Hospital de Bonecas",
+      "reason": "Exact existing catalogue place in Lisbon."
+    },
+    {
+      "name": "McManus & Morgan",
+      "reason": "Current first-party storefront evidence was not strong enough for an all-high import."
+    },
+    {
+      "name": "Buttonmania",
+      "reason": "Current shop verified, but the suburban industrial setting did not clear the walkability >=4 editorial gate."
+    },
+    {
+      "name": "Button Queen",
+      "reason": "Physical retail shop has closed."
+    },
+    {
+      "name": "Ultramod",
+      "reason": "Current retail scope/partial closure remains ambiguous."
+    },
+    {
+      "name": "M&J Trimming",
+      "reason": "New York retail storefront has closed."
+    },
+    {
+      "name": "Charals",
+      "reason": "Vancouver store closed in September 2025."
+    },
+    {
+      "name": "Japanese Paper Place",
+      "reason": "Wholesale/showroom access is appointment-led rather than ordinary drop-in retail."
+    },
+    {
+      "name": "Modulor",
+      "reason": "Self-described department store; too broad for the narrow-trade contract."
+    },
+    {
+      "name": "Casa Serra",
+      "reason": "Mexico City premises remain closed until further notice."
+    },
+    {
+      "name": "Mélodies Graphiques",
+      "city": "paris",
+      "reason": "Deferred after independent current-status audit: the first-party ecommerce site does not establish a currently visitable physical shop, the address-hours evidence is directory-only, and a same-address entity was dissolved at the end of 2025. This does not prove the historic shop closed, but trading and public-visit confidence cannot remain high without direct current storefront evidence.",
+      "checked_at": "2026-08-09",
+      "sources": [
+        "https://annonces-legales.lefigaro.fr/annonces-legales/melodies-graphiques-10-dissolution/",
+        "https://www.pappers.fr/entreprise/melodies-graphiques-10-992752907"
+      ],
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "trading": "medium",
+        "public_visit": "medium",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "medium"
+      }
+    }
+  ]
+}

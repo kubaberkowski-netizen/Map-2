@@ -2,7 +2,7 @@
 /*
  * tools/category-map.js — best-effort OSM-tag → Flâneur category slug guesser.
  *
- * The 44 slugs are an editorial taxonomy, not an OSM ontology, so this only
+ * The live category slugs are an editorial taxonomy, not an OSM ontology, so this only
  * fires when it is fairly confident. When it can't decide it returns null and
  * the candidate is emitted with c:"" and _meta.needs:["c"] — your job (or the
  * LLM extraction pass) is to pick the slug. Never let this auto-assign a wrong
@@ -10,7 +10,8 @@
  *
  * Only categories with a clean physical-tag mapping are covered here. The
  * vibe-driven ones (oddity, history, literary, film, music, diaspora, pop,
- * brunch, view, alley, ghostsign, …) are intentionally left to a human/LLM.
+ * brunch, alley, ghostsign, historicshopfronts, streetfurniture, artnouveau, …) are
+ * intentionally left to a human/LLM.
  */
 
 // ordered: first match wins, so put the specific tags before the generic ones
@@ -31,6 +32,10 @@ const RULES = [
   // shops
   [(t) => t.shop === "books" || t.shop === "bookshop", "bookshops"],
   [(t) => t.shop === "music" || /\bvinyl\b/i.test(t.name || ""), "vinyl"],
+  [
+    (t) => /^(collector|maps|magic|model|typewriter)$/.test(t.shop || ""),
+    "specialistshops",
+  ],
 
   // culture / heritage
   [(t) => t.tourism === "museum" || t.amenity === "museum", "museum"],
@@ -45,12 +50,38 @@ const RULES = [
   // place of worship / faith
   [(t) => t.amenity === "place_of_worship", "faith"],
 
+  // named walk-up landforms. A viewpoint alone remains `view`: access and
+  // route safety still need editorial verification before a candidate ships.
+  [
+    (t) =>
+      t.natural === "tree" &&
+      /^(natural_monument|landmark)$/.test(t.denotation || ""),
+    "landmarktrees",
+  ],
+  [(t) => t.natural === "hill" || t.natural === "peak", "hills"],
+
   // green & water
   [(t) => t.leisure === "park" || t.leisure === "garden" || t.leisure === "nature_reserve", "green"],
   [(t) => t.leisure === "swimming_pool" && /lido|outdoor/i.test(t.name || ""), "lido"],
   [(t) => t.waterway === "canal" || /canal/i.test(t.name || ""), "canals"],
 
   // built form
+  [(t) => t.highway === "steps" && !!t.name, "steps"],
+  [
+    (t) =>
+      !!t.name &&
+      /^(footway|pedestrian)$/.test(t.highway || "") &&
+      (t.covered === "yes" || t.tunnel === "building_passage"),
+    "arcades",
+  ],
+  [
+    (t) =>
+      !!t.name &&
+      /^(footway|pedestrian|path)$/.test(t.highway || "") &&
+      /^(yes|boardwalk|suspension)$/.test(t.bridge || "") &&
+      t.motor_vehicle !== "yes",
+    "footbridges",
+  ],
   [(t) => t.building === "stadium" || t.leisure === "stadium" || t.sport != null && t.building === "grandstand", "stadium"],
   [(t) => /art ?deco/i.test(JSON.stringify(t)), "artdeco"],
   [(t) => t.building === "almshouse" || /almshouse/i.test(t.name || ""), "almshouses"],

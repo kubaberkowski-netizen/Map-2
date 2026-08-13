@@ -88,6 +88,9 @@ the thousands-of-reviews places OSM/Wikidata miss:
 
 ```bash
 node tools/find-spots.js --city rome --source overpass --broad   # on-theme OSM
+node tools/find-spots.js --city rome --source overpass --profile landmarktrees
+node tools/find-spots.js --city rome --source overpass --profile steps
+node tools/find-spots.js --city rome --source overpass --profile footbridges
 node tools/find-spots.js --city rome --source wikidata
 node tools/find-spots.js --city rome --source googlePlaces \
       --query "famous trattoria" --minReviews 2000               # needs GOOGLE_PLACES_KEY
@@ -111,7 +114,7 @@ existing spot. Fill each `c`, leave `w` blank, paste in, `npm run build`. **Bump
 The keyed sources above need network/secrets. When those aren't available, a **discovery
 subagent** is the zero-key alternative — and it's how you capture write-up-worthy places
 the catalogue is simply *missing*. Brief one agent with: the city's existing spot names
-(so it avoids duplicates), the **44 category slugs**, and the city **bbox**. Ask it to
+(so it avoids duplicates), the **live category slugs**, and the city **bbox**. Ask it to
 return ~7 new offbeat/storied places as rows with `{n, a, c, lat, lng, hook, facts,
 sources, confidence}` — real coordinates inside the bbox, cited. It writes
 `research/new/<city>.json`.
@@ -120,8 +123,52 @@ sources, confidence}` — real coordinates inside the bbox, cited. It writes
 node tools/add-spots.js edinburgh --dry   # validate (slug/bbox/coords) + dedupe report
 node tools/add-spots.js edinburgh         # append the valid, non-duplicate rows
 #   → assigns ids, bumps build.js BASELINE.entries, flags each new spot "d"
+
+# Object dossiers can be applied in bounded, restartable waves:
+node tools/add-spots.js london --file research/run.json --key included --offset 0 --limit 25 --dry
+node tools/add-spots.js london --file research/run.json --key included --offset 0 --limit 25
+# then repeat at --offset 25, 50, ... (`--limit` is the wave size)
 npm run build
 ```
+
+For a research run spanning several categories or cities, audit all dossiers as one
+set before registering cities or importing any wave:
+
+```bash
+node tools/audit-research-bundle.js research/run-hills.json research/run-steps.json research/run-shops.json
+```
+
+The bundle audit enforces the 19/25 score and story/walkability floors, all-high
+confidence, two useful sources including an official/manager/first-party source,
+live category and city semantics, query shape, aliases, external IDs, and global
+catalogue plus candidate-to-candidate proximity. Unknown city slugs are reported as
+registry gaps; every other failure is blocking. In dense catalogues, candidate pairs
+under 30 m are presumed duplicates. Pairs from 30–119 m need a named, written
+`dedupe.internal_neighbours` distinction on either row. A raw-in-bbox city assignment
+may override a broader overlapping `region:true` inference with a warning; ordinary
+city/city conflicts and out-of-bbox points remain failures.
+
+When a run proposes a new category, record an explicit include/exclude contract in
+the dossier before registering the slug. The Paris signature pass established three
+reusable object classes:
+
+- `arcades`: named public covered commercial passages whose walk-through route and
+  surviving structure are the experience; exclude malls, ordinary corridors and
+  private/event-only galleries.
+- `streetfurniture`: individually distinctive civic objects with a recurring public
+  function and a first/last/protected/custom provenance; exclude generic serial
+  benches, lamps, kiosks and station interiors.
+- `historicshopfronts`: intact fitted former-trade frontages visible from public
+  pavement; exclude active shops selected for their stock, generic old fronts and
+  painted advertisements (`ghostsign`).
+- `artnouveau`: complete, individually documented street-facing compositions in
+  Art Nouveau or a direct regional equivalent; exclude token motifs, interior-only
+  decoration, serial civic objects and living-use places with a more specific type.
+
+New style, retail or civic-object categories remain editorial by default. Only
+`arcades` has a conservative automatic mapping: a named pedestrian/footway feature
+tagged `covered=yes` or `tunnel=building_passage`. Every candidate still needs the
+normal source, access, coordinate and dedupe review.
 
 `add-spots.js` runs each discovered row through the **same gates build.js enforces** and
 the same dedupe as the finder, so a hallucinated coordinate or a place that already exists
@@ -129,6 +176,29 @@ is rejected, not shipped. New spots can carry a writeup already (write it in Sta
 the same facts) or land with `w:""` and flow through the normal enrichment like any stub.
 **Coordinates from an LLM are the risk** — the bbox check catches gross errors, but
 spot-check the pins on a map before promoting `d`→`a`.
+
+For dossier objects, `--key <name>` selects an array such as `included` or
+`candidates`; omit it for a top-level array. `--offset` is zero-based and `--limit`
+must be a positive integer. The positional city must be live and supplies only the
+fallback city/name for rows that omit `city`; explicit per-row city slugs are kept.
+Always run the exact wave with `--dry` before applying it.
+
+If those rows use new audited city/area slugs, register them first from the QA plan:
+
+```bash
+node tools/add-cities.js research/city-registry-plan.json --dry
+node tools/add-cities.js research/city-registry-plan.json
+```
+
+`add-cities.js` reads
+`recommendation.preserving_dossier_city_semantics.proposed_entries`, refuses any id
+already present in `Ci` or `flCO`, appends the `Ci` entries and country mappings, adds
+optional country flags, and parses the edited main script before writing. A reviewed
+plan may also provide `bbox_updates:[{id,bbox}]` for existing, semantically correct
+city/metro groupings; the tool refuses unknown ids, malformed boxes and attempts to
+update a newly proposed id in the same plan. It changes `src/app.template.html` only;
+follow it with `npm run build`. Use `region:1` only for genuine broad areas, not as a
+shortcut around the normal city bbox gate.
 
 ### Stage 3 — research into dossiers (the fan-out)
 

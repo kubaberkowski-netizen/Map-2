@@ -1,0 +1,115 @@
+{
+  "programme": "Balanced 280 deep-research run",
+  "completed_at": "2026-08-09",
+  "baseline": {
+    "commit": "001e9e83",
+    "catalogue_spots": 16917,
+    "categories": 60
+  },
+  "result": {
+    "leads_fully_dispositioned": 275,
+    "imported_as_drafts": 214,
+    "deferred_excluded_or_known_duplicates": 61,
+    "final_catalogue_spots": 17131,
+    "categories": 63,
+    "quality_flag": "d",
+    "editorial_status": "pending individual human review; never bulk-promote"
+  },
+  "themes": [
+    {
+      "theme": "European hills and mounds",
+      "category": "hills",
+      "dossier": "research/europe-hills-balanced-2026-08-09.json",
+      "reviewed": 70,
+      "imported": 60,
+      "deferred_or_excluded": 10,
+      "countries": 25,
+      "waves": [25, 25, 10]
+    },
+    {
+      "theme": "European remarkable individual trees",
+      "category": "landmarktrees",
+      "dossier": "research/europe-landmark-trees-balanced-2026-08-09.json",
+      "reviewed": 63,
+      "imported": 45,
+      "deferred_or_excluded": 18,
+      "countries": 16,
+      "waves": [25, 20]
+    },
+    {
+      "theme": "European steps and stair streets",
+      "category": "steps",
+      "dossier": "research/europe-steps-balanced-2026-08-09.json",
+      "reviewed": 80,
+      "imported": 60,
+      "deferred": 5,
+      "excluded": 6,
+      "known_catalogue_duplicates": 9,
+      "countries": 23,
+      "waves": [25, 25, 10]
+    },
+    {
+      "theme": "Worldwide specialist shops",
+      "category": "specialistshops",
+      "dossier": "research/world-specialist-shops-balanced-2026-08-09.json",
+      "reviewed": 62,
+      "imported": 49,
+      "deferred_or_excluded": 13,
+      "countries": 15,
+      "waves": [25, 25],
+      "post_import_audit_removed": 1
+    }
+  ],
+  "registry_changes": {
+    "new_categories": ["landmarktrees", "steps", "specialistshops"],
+    "new_city_or_region_slugs": 52,
+    "city_registry_qa": "research/europe-steps-city-registry-qa-2026-08-09.json",
+    "initial_geography_semantics_correction": "research/balanced-280-geography-corrections-2026-08-09.json",
+    "final_geography_semantics_remediation": "research/balanced-280-geography-final-remediation-2026-08-09.json",
+    "final_live_city_count": 1075,
+    "final_unique_city_slugs": 1074,
+    "pre_existing_duplicate_slug": "charleston"
+  },
+  "admission_contract": {
+    "minimum_editorial_score": 19,
+    "minimum_story_score": 4,
+    "minimum_walkability_score": 4,
+    "confidence": "all required dimensions high",
+    "sources": "at least two useful sources per included row, including an official, institutional, land-manager, heritage-register or current first-party source",
+    "dedupe": "global aliases plus live proximity review; 30-120 metres manually adjudicated",
+    "production": "live model/city/bbox validation and exact dossier-to-production parity"
+  },
+  "independent_audit_correction": {
+    "place": "Malminkartano Fitness Stairs",
+    "finding": "A 2021 design notice's 426-step/60-metre figure and an unrelated Taivaskallio decision had been treated as current evidence.",
+    "resolution": "Corrected to the current official 347-step/56-metre record, exact municipal address and current open-service evidence; removed the unrelated source and renewal-work claim.",
+    "current_official_source": "https://www.suomi.fi/palvelut/palvelupiste/malminkartanon-kuntoportaat-helsingin-kaupunki-kaupunkiympariston-toimiala/9b174973-4f1b-4176-8de1-4570c673eaa4"
+  },
+  "additional_independent_audit_corrections": [
+    {
+      "place": "Oak Józef",
+      "finding": "The draft reversed the chronology of the oak's 1934 banknote appearance and its later wartime shelter story, and presented a disputed contest-age claim without attribution.",
+      "resolution": "Corrected the chronology and recorded the competing age estimates in the dossier without using either as an unqualified production fact."
+    },
+    {
+      "place": "The Weeping Beech of Bayeux",
+      "finding": "The first status pass missed a 9 January 2026 municipal notice documenting storm damage to two structural branches.",
+      "resolution": "Retained the living, standing tree but changed its status to managed and storm-damaged, supported by the city notice, a post-storm municipal event and the current municipal gardens page."
+    },
+    {
+      "scope": "Landmark-tree city-page semantics",
+      "finding": "Fifteen technically valid rows would have appeared under misleading city or region pages 44-121 km away.",
+      "resolution": "Added 14 honest municipality/region slugs and retagged all 15 rows before final validation."
+    },
+    {
+      "scope": "Full tree-and-hill city-page semantics",
+      "finding": "A second exhaustive pass found 19 more new rows whose nearby-hub label or margin-only bbox pass was weaker than the all-high admission promise.",
+      "resolution": "Added 15 exact municipality/region slugs, retagged the 19 new rows, moved four pre-existing Wrexham-area rows out of Chester, tightened or expanded 12 audited bboxes, and added a 214/214 retained-row raw-bbox plus city-inference test."
+    },
+    {
+      "place": "Mélodies Graphiques",
+      "finding": "The first-party ecommerce site did not establish a current physical storefront, while directory hours conflicted with a same-address entity's late-2025 dissolution.",
+      "resolution": "Removed the draft from production and deferred it pending direct current physical-shop evidence; the final specialist-shop set is 49 rather than padding back to 50."
+    }
+  ]
+}

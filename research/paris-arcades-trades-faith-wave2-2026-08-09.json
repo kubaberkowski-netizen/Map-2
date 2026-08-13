@@ -1,0 +1,646 @@
+{
+  "schema_version": 1,
+  "dossier_id": "paris-arcades-trades-faith-wave2-2026-08-09",
+  "created_at": "2026-08-09",
+  "status": "imported_as_draft_pending_field_test",
+  "screened_count": 58,
+  "included_count": 18,
+  "import_metadata": {
+    "status": "imported_as_draft",
+    "imported_count": 18,
+    "quality_flag": "d",
+    "imported_at": "2026-08-09",
+    "import_method": "tools/add-spots.js paris --key included --proximity 30",
+    "do_not_reimport": true,
+    "promotion": "pending human field test and editorial review"
+  },
+  "meta": {
+    "city": "paris",
+    "visit_window": "2026-08-13/2026-08-16",
+    "catalogue_snapshot": 17328,
+    "method": "Second Paris depth pass concentrating on previously empty or structurally obscured walking categories. Famousness alone was insufficient; every retained row is an atomic, legible objective with a current public-access basis, exact feature or route coordinate, two useful sources, a memorable street-level story and global catalogue review.",
+    "quality_policy": "all retained rows remain draft_only and require field testing before promotion",
+    "category_decision": "Covered historic commercial passages justify the new globally reusable arcades category. Intact fitted facades for vanished trades justify historicshopfronts and remain distinct from painted ghost signs. Living religious buildings use synagogue or monastery; the quay book trade uses market."
+  },
+  "category_contracts": {
+    "arcades": {
+      "label": "Covered arcades",
+      "definition": "A named, publicly walkable covered passage or arcade whose historic structure and through-walk are themselves the experience.",
+      "include": ["historic covered commercial passages", "publicly traversable glazed arcades", "named passage systems with a distinct architectural or trading story"],
+      "exclude": ["modern indoor shopping centres", "ordinary building corridors", "private or event-only galleries", "an individual shop whose host passage adds no separate walking experience"],
+      "global_reuse": ["Brussels galleries", "Milan and Turin gallerias", "Melbourne arcades", "European and Latin American covered passages"]
+    },
+    "historicshopfronts": {
+      "label": "Historic shopfronts",
+      "definition": "A named or individually documented historic retail or trade frontage whose surviving fitted facade is itself the pavement-visible objective.",
+      "include": ["purpose-built shop frames and glazing", "mosaics, reliefs or trade imagery materially tied to the former business", "protected former-trade facades legible from public pavement"],
+      "exclude": ["active specialist shops where the current stock is the experience", "isolated faded or painted advertisements, which remain ghostsign", "generic old-looking storefronts", "private interiors", "whole buildings better classified by architectural style"],
+      "global_reuse": ["tiled shopfronts in Britain and Ireland", "historic pharmacies and grocers in Brussels, Porto and Lisbon", "fitted trade fronts in Turin, Barcelona, Melbourne and Buenos Aires"]
+    }
+  },
+  "included": [
+    {
+      "id": "galerieverododat",
+      "n": "Galerie Véro-Dodat",
+      "a": "19 rue Jean-Jacques-Rousseau – 2 rue du Bouloi",
+      "pc": "75001",
+      "lat": 48.8628159,
+      "lng": 2.3402173,
+      "c": "arcades",
+      "s": "Two pork butchers opened this black-and-white marble shortcut in 1826 and made perspective part of the sales pitch.",
+      "q": "Galerie Véro-Dodat Paris 1er",
+      "w": "The diagonal marble grid, repeating shopfronts and low glass roof make a short passage look much longer than it is. It is a compact lesson in how Restoration Paris turned walking, display and illusion into one commercial machine.",
+      "city": "paris",
+      "aliases": ["Galerie Vero-Dodat", "Passage Véro-Dodat"],
+      "external_ids": {"osm_way": "1378010583", "merimee": "PA00085995"},
+      "facts": [
+        {"claim": "Véro and Dodat, both pork butchers, opened the gallery in 1826 on a useful route between Les Halles and the Palais-Royal.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00085995"]},
+        {"claim": "Its diagonal black-and-white floor and repeated fronts deliberately amplify the apparent depth of the passage.", "source_urls": ["https://www.paris.fr/pages/decouvrez-la-magie-des-galeries-et-des-passages-18889"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/decouvrez-la-magie-des-galeries-et-des-passages-18889", "title": "Galerie Véro-Dodat", "publisher": "Ville de Paris", "role": "official municipal walking recommendation, entrances and architectural identity", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00085995", "title": "Galerie Véro-Dodat", "publisher": "Ministère de la Culture", "role": "official heritage identity and historical facts", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/1378010583", "title": "Galerie Véro-Dodat mapped passage", "publisher": "OpenStreetMap", "role": "current named covered-footway geometry and coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pedestrian_passage", "evidence": "The City currently recommends exploring it and the live map records a named covered building passage. Use Thursday or Friday daytime during this trip; private gates and Assumption/Sunday hours can vary.", "source_url": "https://www.paris.fr/pages/decouvrez-la-magie-des-galeries-et-des-passages-18889", "checked_at": "2026-08-09", "user_window": "best 13–14 August; recheck gate on arrival"},
+      "coordinate_basis": {"type": "named covered-footway centroid", "source_url": "https://www.openstreetmap.org/way/1378010583", "precision": "passage", "osm_way": "1378010583"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Fondation Cartier pour l'Art Contemporain", "distance_m": 165}, "rationale": "A traversable Restoration arcade is a separate physical experience from the nearby museum and cookware shop.", "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "passagechoiseul",
+      "n": "Passage Choiseul",
+      "a": "40 rue des Petits-Champs – 23 rue Saint-Augustin",
+      "pc": "75002",
+      "lat": 48.8680286,
+      "lng": 2.3355409,
+      "c": "arcades",
+      "s": "One of Paris's longest covered arcades still behaves like a working lane, not a museum set.",
+      "q": "Passage Choiseul Paris 2e",
+      "w": "Walk the long glass-roofed spine past lunch counters, art materials and theatre traffic. Its restraint is the point: a surviving 1820s commercial street that kept earning its shortcut rather than freezing into heritage display.",
+      "city": "paris",
+      "aliases": ["Passage Choiseul et passage Sainte-Anne"],
+      "external_ids": {"osm_way": "135808077", "merimee": "PA00086088"},
+      "facts": [
+        {"claim": "The protected complex was built in 1825–1827 and includes Passage Choiseul and Passage Sainte-Anne.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086088"]},
+        {"claim": "The Ministry record describes it as one of Paris's most animated passages because of nearby theatres and business streets.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086088"]}
+      ],
+      "sources": [
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00086088", "title": "Passage Choiseul et passage Sainte-Anne", "publisher": "Ministère de la Culture", "role": "official heritage identity, dates and current protected status", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/pages/decouvrez-la-magie-des-galeries-et-des-passages-18889", "title": "Passage Choiseul", "publisher": "Ville de Paris", "role": "official municipal current walking recommendation", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/135808077", "title": "Passage Choiseul mapped route", "publisher": "OpenStreetMap", "role": "current named passage geometry and coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_daytime_passage", "evidence": "Current municipal guidance treats it as a walking passage; active passage businesses corroborate weekday use. Prefer Thursday or Friday and expect Sunday/holiday closure.", "source_url": "https://www.paris.fr/pages/decouvrez-la-magie-des-galeries-et-des-passages-18889", "checked_at": "2026-08-09", "user_window": "13–14 August daytime"},
+      "coordinate_basis": {"type": "named passage-way centroid", "source_url": "https://www.openstreetmap.org/way/135808077", "precision": "passage", "osm_way": "135808077"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 5, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Couteaux Courty", "distance_m": 97}, "rationale": "The candidate is the full public through-passage and glass-roofed streetscape; Couteaux Courty is one specialist retail destination nearby, not the arcade itself.", "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "passagebourglabbe",
+      "n": "Passage du Bourg-l'Abbé",
+      "a": "3 rue de Palestro – 120 rue Saint-Denis",
+      "pc": "75002",
+      "lat": 48.8645665,
+      "lng": 2.3506123,
+      "c": "arcades",
+      "s": "Commerce and Industry guard the entrance while a carved beehive turns an arcade key into an economic emblem.",
+      "q": "Passage du Bourg-l'Abbé Paris 2e",
+      "w": "This short neighbour of the Grand-Cerf is quieter and stranger: caryatids named Commerce and Industry, a hive over the arch, workshops beneath a softly curved glass roof. It reads like a miniature temple to making and selling things.",
+      "city": "paris",
+      "aliases": ["Passage Bourg-l'Abbé", "Passage du Bourg l'Abbé"],
+      "external_ids": {"osm_way": "1224620082", "merimee": "PA00086097"},
+      "facts": [
+        {"claim": "Its rue de Palestro entrance is framed by A. Millet's caryatids representing Commerce and Industry.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086097"]},
+        {"claim": "A beehive on the arch key symbolizes economic activity beneath the rebuilt curved glass roof.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086097"]}
+      ],
+      "sources": [
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00086097", "title": "Passage du Bourg-l'Abbé", "publisher": "Ministère de la Culture", "role": "official heritage identity, sculpture and current protected status", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://parisjetaime.com/article/paris-insolite-les-passages-couverts-a1801", "title": "Paris insolite: les passages couverts", "publisher": "Paris je t'aime", "role": "official destination current walking and artisan-passage evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/1224620082", "title": "Passage du Bourg-l'Abbé mapped route", "publisher": "OpenStreetMap", "role": "current named passage geometry and coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_daytime_passage", "evidence": "Paris's official destination site currently recommends the arcade as a walk-through artisan passage. Private gates can close outside business hours; use Thursday or Friday daytime.", "source_url": "https://parisjetaime.com/article/paris-insolite-les-passages-couverts-a1801", "checked_at": "2026-08-09", "user_window": "13–14 August daytime"},
+      "coordinate_basis": {"type": "named covered-passage centroid", "source_url": "https://www.openstreetmap.org/way/1224620082", "precision": "passage", "osm_way": "1224620082"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Passage du Grand-Cerf", "distance_m": 103}, "rationale": "These are separate parallel historic passages with different entrances, structures and stories: Bourg-l'Abbé's sculpted economic allegory versus Grand-Cerf's exceptionally tall iron-and-glass volume.", "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "passageducaire",
+      "n": "Passage du Caire",
+      "a": "2 place du Caire",
+      "pc": "75002",
+      "lat": 48.8675011,
+      "lng": 2.3512351,
+      "c": "arcades",
+      "s": "Cow-eared Hathor heads announce Paris's longest, narrowest covered passage—now a working artery of garment wholesalers.",
+      "q": "Passage du Caire Paris 2e",
+      "w": "Enter beneath the Egyptian-revival faces and the spectacle changes fast: more than 360 metres of tight glass-roofed lanes used by the Sentier clothing trade. This is not polished nostalgia; it is a 1790s arcade still doing wholesale work.",
+      "city": "paris",
+      "aliases": ["Passage du Caire et place du Caire"],
+      "external_ids": {"osm_way": "1381330701", "pop_memoire": "AP80L067081"},
+      "facts": [
+        {"claim": "Built in 1798, the passage takes its name from three cow-eared figures of the goddess Hathor at its entrance.", "source_urls": ["https://parisjetaime.com/culture/passage-du-caire-p1587"]},
+        {"claim": "It is Paris's longest and narrowest covered passage and remains largely occupied by ready-to-wear wholesalers.", "source_urls": ["https://parisjetaime.com/culture/passage-du-caire-p1587"]}
+      ],
+      "sources": [
+        {"url": "https://parisjetaime.com/culture/passage-du-caire-p1587", "title": "Passage du Caire", "publisher": "Paris je t'aime", "role": "official destination current access hours, identity and trade use", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/pages/decouvrez-la-magie-des-galeries-et-des-passages-18889", "title": "Passage du Caire", "publisher": "Ville de Paris", "role": "official municipal history and walking recommendation", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/1381330701", "title": "Passage du Caire mapped route", "publisher": "OpenStreetMap", "role": "current named covered route and coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_weekday_passage", "evidence": "The official destination page gives free access Monday–Friday 07:00–18:30 and closure on weekends.", "source_url": "https://parisjetaime.com/culture/passage-du-caire-p1587", "checked_at": "2026-08-09", "user_window": "13–14 August only"},
+      "coordinate_basis": {"type": "centroid of a named mapped covered segment", "source_url": "https://www.openstreetmap.org/way/1381330701", "precision": "passage segment", "osm_way": "1381330701", "note": "The point locates one central named segment of the larger Passage du Caire network; it does not claim to be a whole-network centroid."},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 25},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Rue des Degrés", "distance_m": 215}, "rationale": "No catalogue name, alias, external-ID or sub-120-metre physical conflict was found.", "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "passageverdeau",
+      "n": "Passage Verdeau",
+      "a": "6 rue de la Grange-Batelière – 31 bis rue du Faubourg-Montmartre",
+      "pc": "75009",
+      "lat": 48.873814,
+      "lng": 2.3425265,
+      "c": "arcades",
+      "s": "A fishbone glass roof turns the last link in a three-passage chain into daylight for old books, cameras and ephemera.",
+      "q": "Passage Verdeau Paris 9e",
+      "w": "Continue north beyond Panoramas and Jouffroy and the crowds thin into a bright 1847 gallery of antiquarians, old photographs and books. The roof is the quiet trick: a high herringbone lantern that makes collecting feel almost outdoors.",
+      "city": "paris",
+      "aliases": ["Passage Verdeau Grange-Batelière"],
+      "external_ids": {"osm_way": "23272393"},
+      "facts": [
+        {"claim": "The 1847 passage continues the Panoramas–Jouffroy chain and is known for antiquarians, old books, postcards and cameras.", "source_urls": ["https://parisjetaime.com/culture/passage-verdeau-p1578"]},
+        {"claim": "Its high fishbone-pattern glass roof supplies the passage's unusually bright interior.", "source_urls": ["https://parisjetaime.com/culture/passage-verdeau-p1578"]}
+      ],
+      "sources": [
+        {"url": "https://parisjetaime.com/culture/passage-verdeau-p1578", "title": "Passage Verdeau", "publisher": "Paris je t'aime", "role": "official destination current hours, public access and identity", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://parisjetaime.com/article/paris-opera-grands-boulevards-a898", "title": "Balade sur les Grands Boulevards", "publisher": "Paris je t'aime", "role": "official destination current walking-route context", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/23272393", "title": "Passage Verdeau mapped route", "publisher": "OpenStreetMap", "role": "named passage geometry and coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_daily_passage", "evidence": "Official destination hours are Monday–Friday 07:30–21:00 and weekends 07:30–20:30; same-day holiday changes remain possible.", "source_url": "https://parisjetaime.com/culture/passage-verdeau-p1578", "checked_at": "2026-08-09", "user_window": "13–16 August, recheck 15 August"},
+      "coordinate_basis": {"type": "named passage-way centroid", "source_url": "https://www.openstreetmap.org/way/23272393", "precision": "passage", "osm_way": "23272393"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 4, "total": 22},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Musée de la Franc-Maçonnerie", "distance_m": 131}, "rationale": "The nearest catalogue place is an indoor museum outside the arcade; no under-120-metre existing conflict exists.", "internal_neighbours": [{"id": "anciennepoissonneriesalina", "status": "distinct", "rationale": "The 52-metre neighbour is one protected fishmonger's mosaic facade on the street; Verdeau is a separate 75-metre walk-through arcade with its own entrances and roof."}], "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "passageduprado",
+      "n": "Passage du Prado",
+      "a": "18 boulevard Saint-Denis – 12 rue du Faubourg-Saint-Denis",
+      "pc": "75010",
+      "lat": 48.8695504,
+      "lng": 2.3535835,
+      "c": "arcades",
+      "s": "An eighteenth-century street became Paris's newest covered passage when an Art Deco glass canopy arrived in 1925.",
+      "q": "Passage du Prado Paris 10e",
+      "w": "The entrance is easy to miss beside Porte Saint-Denis. Inside, the route bends under two differently patterned roof sections—an urban leftover that waited 140 years before becoming a covered arcade.",
+      "city": "paris",
+      "aliases": ["Passage Prado"],
+      "external_ids": {"osm_way_south": "29974870", "osm_way_north": "111656078"},
+      "facts": [
+        {"claim": "The route began as an uncovered street in 1785 and was roofed in 1925, making it the newest of Paris's historic covered passages.", "source_urls": ["https://www.paris.fr/pages/decouvrez-la-magie-des-galeries-et-des-passages-18889"]},
+        {"claim": "The passage association currently lists the private way as open daily and gives its two entrances at 18 boulevard Saint-Denis and 12 rue du Faubourg-Saint-Denis.", "source_urls": ["https://passagesetgaleries.fr/passage-du-prado/"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/decouvrez-la-magie-des-galeries-et-des-passages-18889", "title": "Passage du Prado", "publisher": "Ville de Paris", "role": "official municipal history and public walking identity", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://passagesetgaleries.fr/passage-du-prado/", "title": "Passage du Prado", "publisher": "Association Passages et Galeries", "role": "current practical hours, entrance addresses, private-way status and route history", "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/29974870", "title": "Passage du Prado mapped route", "publisher": "OpenStreetMap", "role": "current named covered route and coordinate basis", "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/111656078", "title": "Passage du Prado northern segment", "publisher": "OpenStreetMap", "role": "current second named segment corroborating the L-shaped through-route", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_daytime_passage", "evidence": "The current passage-association page lists the private way as open daily, while mapped pedestrian geometry confirms the two-part route. Use daytime and recheck its gates on the public holiday.", "source_url": "https://passagesetgaleries.fr/passage-du-prado/", "checked_at": "2026-08-09", "user_window": "13–14 or 16 August daytime; recheck 15 August"},
+      "coordinate_basis": {"type": "south named covered-footway segment centroid", "source_url": "https://www.openstreetmap.org/way/29974870", "precision": "passage segment", "osm_way": "29974870", "note": "The L-shaped public passage continues on separately mapped named way 111656078."},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 4, "source_quality": 4, "geographic_value": 5, "total": 22},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Musée de l'Éventail", "distance_m": 84}, "rationale": "Prado is a public through-route under a 1925 canopy; the nearby Fan Museum is a separate appointment-dependent collection in another building.", "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "galeriedelamadeleine",
+      "n": "Galerie de la Madeleine",
+      "a": "9 place de la Madeleine – 30 rue Boissy-d'Anglas",
+      "pc": "75008",
+      "lat": 48.869701,
+      "lng": 2.3228209,
+      "c": "arcades",
+      "s": "Two stone caryatids open a 53-metre arcade that compresses the Madeleine district's appetite for ceremony into one shortcut.",
+      "q": "Galerie de la Madeleine Paris 8e",
+      "w": "Enter between the monumental figures and look past the luxury counters to the iron ribs and glass above. This 1845 gallery is tiny, but its two mismatched façades make the crossing feel like slipping through the back of a stage set.",
+      "city": "paris",
+      "aliases": ["Passage couvert de la Madeleine"],
+      "external_ids": {"osm_way": "32876070", "merimee": "PA00088815"},
+      "facts": [
+        {"claim": "The gallery was built in 1845 and links place de la Madeleine to rue Boissy-d'Anglas beneath two entrance caryatids.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00088815", "https://parisjetaime.com/culture/galerie-de-la-madeleine-p1589"]},
+        {"claim": "Its monumental form grew out of the nineteenth-century remaking of the square and church surroundings.", "source_urls": ["https://parisjetaime.com/culture/galerie-de-la-madeleine-p1589"]}
+      ],
+      "sources": [
+        {"url": "https://parisjetaime.com/culture/galerie-de-la-madeleine-p1589", "title": "Galerie de la Madeleine", "publisher": "Paris je t'aime", "role": "official destination current hours, free public access, architecture and address", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00088815", "title": "Galerie de la Madeleine", "publisher": "Ministère de la Culture", "role": "official heritage identity, 1845 construction date and protected fabric", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/30-rue-boissy-d-anglas-8eme-arrondissement-paris", "title": "30 rue Boissy-d'Anglas", "publisher": "Paris Musées / Musée Carnavalet", "role": "official municipal museum visual and historical corroboration", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/32876070", "title": "Galerie de la Madeleine mapped route", "publisher": "OpenStreetMap", "role": "current named passage geometry and coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_weekday_and_saturday_passage", "evidence": "Official destination hours are Monday–Saturday 08:00–19:00 and Sunday closed. The page does not resolve Assumption-day exceptions, so Thursday or Friday is the dependable test window.", "source_url": "https://parisjetaime.com/culture/galerie-de-la-madeleine-p1589", "checked_at": "2026-08-09", "user_window": "13–14 August; recheck 15 August and expect Sunday 16 August closure"},
+      "coordinate_basis": {"type": "named passage-way centroid", "source_url": "https://www.openstreetmap.org/way/32876070", "precision": "passage", "osm_way": "32876070"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 4, "total": 22},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Hôtel de la Marine", "distance_m": 325}, "rationale": "No catalogue name, alias, external-ID or sub-120-metre physical conflict was found.", "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "anciennelibrairieroger",
+      "n": "Ancienne librairie du 10 bis rue Roger",
+      "a": "10 bis rue Roger",
+      "pc": "75014",
+      "lat": 48.8356101,
+      "lng": 2.3267061,
+      "c": "historicshopfronts",
+      "s": "A bearded bookseller, two pen nibs and the words “livres manuscrits” survive after the bookshop itself vanished.",
+      "q": "Ancienne librairie 10 bis rue Roger Paris 14e",
+      "w": "On a quiet cobbled street behind Montparnasse Cemetery, the shop has gone but its whole vocabulary remains carved into the frontage. Look for the tiny nibs at the foot of the pediment and the watchful man above the left door.",
+      "city": "paris",
+      "aliases": ["Devanture de l'ancienne librairie rue Roger", "Livres manuscrits rue Roger"],
+      "external_ids": {"osm_node": "929242228", "merimee": "PA00086626"},
+      "facts": [
+        {"claim": "The late-nineteenth-century former bookshop retains a bearded figure, two pen nibs and the inscription “livres manuscrits”.", "source_urls": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568"]},
+        {"claim": "The facade has been protected as a monument historique since 23 May 1984.", "source_urls": ["https://www.pop.culture.gouv.fr/notice/merimee/PA00086626"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568", "title": "Des plumes: 10 bis rue Roger", "publisher": "Ville de Paris", "role": "official municipal exterior-view walking description and facts", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.pop.culture.gouv.fr/notice/merimee/PA00086626", "title": "Ancienne librairie", "publisher": "Ministère de la Culture", "role": "official heritage identity and current protected status", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/929242228", "title": "10 bis rue Roger", "publisher": "OpenStreetMap", "role": "exact address point and coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The protected shopfront is legible from the public street; no entry to the private building is required or implied.", "source_url": "https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568", "checked_at": "2026-08-09", "user_window": "any daylight walk"},
+      "coordinate_basis": {"type": "exact address node", "source_url": "https://www.openstreetmap.org/node/929242228", "precision": "shopfront", "osm_node": "929242228"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Les Catacombes de Paris", "distance_m": 463}, "rationale": "No catalogue name, alias, external-ID or sub-120-metre physical conflict was found.", "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "bacchusmichellecomte",
+      "n": "Têtes de Bacchus du 13 rue Michel-le-Comte",
+      "a": "13 rue Michel-le-Comte",
+      "pc": "75003",
+      "lat": 48.8621784,
+      "lng": 2.3561031,
+      "c": "historicshopfronts",
+      "s": "Grapes, acanthus and cast-iron Bacchus heads still betray the vanished drinks shop behind this restrained wooden front.",
+      "q": "Têtes de Bacchus 13 rue Michel-le-Comte Paris",
+      "w": "At first it is just another dark Marais storefront. Then the capitals resolve into vine fruit and faces of the wine god—a Restoration-era trade signal hiding above modern eye level.",
+      "city": "paris",
+      "aliases": ["Ancien débit de boisson rue Michel-le-Comte", "Devanture Bacchus Michel-le-Comte"],
+      "external_ids": {"osm_node": "708981198", "merimee": "PA00086102"},
+      "facts": [
+        {"claim": "The nineteenth-century Restoration-style wooden frontage uses small arcades and cast-iron capitals of grapes, Bacchus heads and acanthus.", "source_urls": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568"]},
+        {"claim": "The heritage register identifies it as probably belonging to a former drinks shop and records its protection.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086102"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568", "title": "Des têtes de Bacchus", "publisher": "Ville de Paris", "role": "official municipal public-street viewing description and facts", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00086102", "title": "Boutique, 13 rue Michel-le-Comte", "publisher": "Ministère de la Culture", "role": "official heritage identity and current protected status", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/708981198", "title": "13 rue Michel-le-Comte", "publisher": "OpenStreetMap", "role": "exact address point and coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The capitals and frontage are exterior details visible from rue Michel-le-Comte; no private entry is needed.", "source_url": "https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568", "checked_at": "2026-08-09", "user_window": "any daylight walk"},
+      "coordinate_basis": {"type": "exact address node", "source_url": "https://www.openstreetmap.org/node/708981198", "precision": "shopfront", "osm_node": "708981198"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Musée de la Chasse et de la Nature", "distance_m": 219}, "rationale": "No catalogue name, alias, external-ID or sub-120-metre physical conflict was found.", "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "ruchepierrelescot",
+      "n": "Ruche de l'ancienne épicerie Pierre-Lescot",
+      "a": "9 rue Pierre-Lescot",
+      "pc": "75001",
+      "lat": 48.8625821,
+      "lng": 2.3483927,
+      "c": "historicshopfronts",
+      "s": "Stone bees pour from a straw hive above blue 1940 mosaics: the vanished honey trade left two generations of clues.",
+      "q": "Ruche ancienne épicerie 9 rue Pierre-Lescot Paris",
+      "w": "At the Rambuteau corner, look above the shopfront before the Halles crowds carry you past. The nineteenth-century hive and startlingly lifelike bees sit over later blue mosaics, a facade that kept advertising after the grocer disappeared.",
+      "city": "paris",
+      "aliases": ["Enseigne à la ruche rue Pierre-Lescot", "Ancienne épicerie 9 rue Pierre Lescot"],
+      "external_ids": {"osm_node": "9560982779", "merimee": "PA00085803"},
+      "facts": [
+        {"claim": "A carved straw hive and bees survive from the late-nineteenth-century shop sign.", "source_urls": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568"]},
+        {"claim": "The blue ground-floor mosaics are later, dating to about 1940; both sign and shopfront are protected.", "source_urls": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568", "https://www.pop.culture.gouv.fr/notice/merimee/PA00085803"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568", "title": "Des abeilles et des mosaïques", "publisher": "Ville de Paris", "role": "official municipal exterior-view walking description and facts", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.pop.culture.gouv.fr/notice/merimee/PA00085803", "title": "Boutique, 9 rue Pierre-Lescot", "publisher": "Ministère de la Culture", "role": "official heritage identity and current protected status", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/9560982779", "title": "9 rue Pierre-Lescot", "publisher": "OpenStreetMap", "role": "exact address point and coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The hive and mosaics are exterior corner details explicitly presented by the City as a look-up street discovery.", "source_url": "https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568", "checked_at": "2026-08-09", "user_window": "any daylight walk"},
+      "coordinate_basis": {"type": "exact address node", "source_url": "https://www.openstreetmap.org/node/9560982779", "precision": "shopfront", "osm_node": "9560982779"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 25},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Tour Jean-sans-Peur", "distance_m": 190}, "rationale": "No catalogue name, alias, external-ID or sub-120-metre physical conflict was found.", "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "ancienneboulangeriechezjulien",
+      "n": "Ancienne boulangerie Chez Julien",
+      "a": "62 rue de l'Hôtel-de-Ville – 2 rue des Barres",
+      "pc": "75004",
+      "lat": 48.8547153,
+      "lng": 2.3551016,
+      "c": "historicshopfronts",
+      "s": "Wheat, harvesters, a windmill and “pains français viennois” still wrap a restaurant in its Belle Époque bakery skin.",
+      "q": "Ancienne boulangerie Chez Julien Paris rue des Barres",
+      "w": "The present restaurant cannot erase what the glass-painted panels insist: this corner once sold bread. Follow the wheat sheaves around the facade and the old trade becomes more legible than the current sign.",
+      "city": "paris",
+      "aliases": ["Boulangerie 62 rue de l'Hôtel-de-Ville", "Chez Julien ancienne boulangerie"],
+      "external_ids": {"osm_node": "698083717", "merimee": "PA00086243"},
+      "facts": [
+        {"claim": "Gilbert workshop panels show a mill, harvesters, wheat and the wording “pains français viennois”.", "source_urls": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568"]},
+        {"claim": "The protected early-twentieth-century bakery frontage now belongs to the restaurant Chez Julien.", "source_urls": ["https://www.pop.culture.gouv.fr/notice/merimee/PA00086243"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568", "title": "Des épis de blé", "publisher": "Ville de Paris", "role": "official municipal current exterior walking description and facts", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.pop.culture.gouv.fr/notice/merimee/PA00086243", "title": "Ancienne boulangerie", "publisher": "Ministère de la Culture", "role": "official heritage identity and current protected status", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/698083717", "title": "62 rue de l'Hôtel-de-Ville", "publisher": "OpenStreetMap", "role": "exact address point and coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "All retained details are on the exterior corner facade and visible without entering or patronising the restaurant.", "source_url": "https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568", "checked_at": "2026-08-09", "user_window": "any daylight walk"},
+      "coordinate_basis": {"type": "exact corner-address node", "source_url": "https://www.openstreetmap.org/node/698083717", "precision": "shopfront", "osm_node": "698083717"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "La Caféothèque", "distance_m": 62}, "rationale": "The protected Belle Époque bread facade is an exterior heritage object on a different corner; La Caféothèque is a modern coffee destination with a separate entrance and experience. Bras-Marie swimming is also a distinct river facility about 101 metres away.", "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "anciennecharcuterieparrot",
+      "n": "Ancienne charcuterie du 4 bis rue Parrot",
+      "a": "4 bis rue Parrot – 11 rue Émile-Gilbert",
+      "pc": "75012",
+      "lat": 48.846715,
+      "lng": 2.37304,
+      "c": "historicshopfronts",
+      "s": "Boar hunts, game birds and “jambon de Paris” survive beneath the lanterns of the Asian takeaway that replaced the butcher.",
+      "q": "Ancienne charcuterie 4 bis rue Parrot Paris",
+      "w": "The cultural collision is the reward: red lanterns and a modern menu sit inside a 1903 wooden frame painted with hunting scenes and dead game. The old charcuterie is gone, but its appetite still covers the walls.",
+      "city": "paris",
+      "aliases": ["Charcuterie rue Parrot", "Devanture Benoist et Fils rue Parrot"],
+      "external_ids": {"wikidata": "Q22922085", "merimee": "PA00086566"},
+      "facts": [
+        {"claim": "Benoist et Fils painted fixed-under-glass boar and deer hunts, game and flower still lifes on the 1903 wooden frontage.", "source_urls": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568"]},
+        {"claim": "The inscriptions still identify charcuterie, comestibles and jambon de Paris although the premises changed trade.", "source_urls": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568", "https://pop.culture.gouv.fr/notice/merimee/PA00086566"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568", "title": "Des sangliers et des faisans", "publisher": "Ville de Paris", "role": "official municipal exterior-view walking description and facts", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00086566", "title": "Charcuterie, 4 bis rue Parrot", "publisher": "Ministère de la Culture", "role": "official heritage identity and current protected status", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:Shop,_4bis_rue_Parrot,_Paris.jpg", "title": "Shop, 4 bis rue Parrot", "publisher": "Wikimedia Commons", "role": "object-specific facade geotag and coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The painted corner frontage is visible from widened public pavements; no business entry is required.", "source_url": "https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568", "checked_at": "2026-08-09", "user_window": "any daylight walk"},
+      "coordinate_basis": {"type": "object-specific facade photo geotag", "source_url": "https://commons.wikimedia.org/wiki/File:Shop,_4bis_rue_Parrot,_Paris.jpg", "precision": "shopfront", "wikidata": "Q22922085"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 25},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Rue Crémieux", "distance_m": 143}, "rationale": "No catalogue name, alias, external-ID or sub-120-metre physical conflict was found.", "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "anciennepoissonneriesalina",
+      "n": "Ancienne poissonnerie Bernheim–Salina",
+      "a": "24 rue du Faubourg-Montmartre",
+      "pc": "75009",
+      "lat": 48.8734806,
+      "lng": 2.3430215,
+      "c": "historicshopfronts",
+      "s": "A restaurant still wears the mosaic word “poissonnerie” from Bernheim's 1879 fish shop.",
+      "q": "Ancienne poissonnerie Bernheim Salina Paris",
+      "w": "The frontage is small enough to vanish in Grands-Boulevards noise. Slow down for the old mosaic lettering; behind it, Sarreguemines ceramics once turned a fishmonger's interior into a tiled underwater advertisement.",
+      "city": "paris",
+      "aliases": ["Poissonnerie Bernheim", "Restaurant Salina ancienne poissonnerie"],
+      "external_ids": {"osm_node": "2961160024", "merimee": "PA00088998"},
+      "facts": [
+        {"claim": "Bernheim's fish shop was founded in 1879 and its present restaurant frontage retains the mosaic word “poissonnerie”.", "source_urls": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-2-2-8048"]},
+        {"claim": "The frontage and Sarreguemines-made interior ceramic decoration are protected as monuments historiques.", "source_urls": ["https://www.pop.culture.gouv.fr/notice/merimee/PA00088998"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-2-2-8048", "title": "Ancienne poissonnerie Bernheim", "publisher": "Ville de Paris", "role": "official municipal exterior-view walking description and facts", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.pop.culture.gouv.fr/notice/merimee/PA00088998", "title": "Poissonnerie, 24 rue du Faubourg-Montmartre", "publisher": "Ministère de la Culture", "role": "official heritage identity and current protected status", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/2961160024", "title": "Salina", "publisher": "OpenStreetMap", "role": "current named premises and exact coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The mosaic frontage and wording are visible from the public street; the row does not promise access to protected interior ceramics.", "source_url": "https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-2-2-8048", "checked_at": "2026-08-09", "user_window": "any daylight walk"},
+      "coordinate_basis": {"type": "current named-premises node", "source_url": "https://www.openstreetmap.org/node/2961160024", "precision": "shopfront", "osm_node": "2961160024"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Galerie Fayet", "distance_m": 128}, "rationale": "No existing catalogue conflict is within 120 metres.", "internal_neighbours": [{"id": "passageverdeau", "status": "distinct", "rationale": "The fish-shop mosaic is one atomic street facade; the nearby candidate is a separate covered arcade extending north under its own roof."}], "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "auxtortuesfacade",
+      "n": "Façade Aux Tortues",
+      "a": "55 boulevard Haussmann – 35 rue Tronchet",
+      "pc": "75008",
+      "lat": 48.8737004,
+      "lng": 2.3265785,
+      "c": "historicshopfronts",
+      "s": "Bronze elephants and tortoises remember a colonial luxury trade in ivory and shell that is now prohibited.",
+      "q": "Façade Aux Tortues 55 boulevard Haussmann Paris",
+      "w": "The polished Louis-XVI-style marble front looks respectable until its bronze animals explain the name. This was a shop for ivory and tortoiseshell objects—a beautiful advertisement for a trade whose disappearance is the most important part of the story.",
+      "city": "paris",
+      "aliases": ["Magasin Aux Tortues", "Ancien magasin Aux Tortues"],
+      "external_ids": {"osm_node": "841989890", "merimee": "PA00088869"},
+      "facts": [
+        {"claim": "Founded in 1864, Aux Tortues sold colonial-era ivory and tortoiseshell objects, a trade now prohibited.", "source_urls": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-2-2-8048"]},
+        {"claim": "The circa-1910 marble facade carries two bronze elephant heads and two bronze tortoises.", "source_urls": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-2-2-8048", "https://www.pop.culture.gouv.fr/notice/merimee/PA00088869"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-2-2-8048", "title": "Le magasin Aux Tortues", "publisher": "Ville de Paris", "role": "official municipal exterior-view walking description and historical context", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.pop.culture.gouv.fr/notice/merimee/PA00088869", "title": "Magasin Aux Tortues", "publisher": "Ministère de la Culture", "role": "official heritage identity and current protected status", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/841989890", "title": "55 boulevard Haussmann", "publisher": "OpenStreetMap", "role": "exact corner-premises coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The marble and bronze exterior is visible from the Haussmann/Tronchet pavement; no shop entry is required.", "source_url": "https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-2-2-8048", "checked_at": "2026-08-09", "user_window": "any daylight walk"},
+      "coordinate_basis": {"type": "exact corner-premises node", "source_url": "https://www.openstreetmap.org/node/841989890", "precision": "shopfront", "osm_node": "841989890"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Le Damier de l'Opéra", "distance_m": 602}, "rationale": "No catalogue name, alias, external-ID or sub-120-metre physical conflict was found.", "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "ancienneepicerieleflaubert",
+      "n": "Ancienne épicerie fine Le Flaubert",
+      "a": "10 rue Gustave-Flaubert",
+      "pc": "75017",
+      "lat": 48.881423,
+      "lng": 2.2986819,
+      "c": "historicshopfronts",
+      "s": "A chef's bistrot occupies a protected fine-grocer frontage that still shelves the memory of a different appetite.",
+      "q": "Ancienne épicerie fine Le Flaubert Paris 17e",
+      "w": "The name over the door is modern, but the fitted facade belongs to an earlier neighbourhood luxury trade. The whole shopfront survives as evidence of what the present business replaced.",
+      "city": "paris",
+      "aliases": ["Bistrot Le Flaubert ancienne épicerie", "Ancienne épicerie 10 rue Gustave-Flaubert"],
+      "external_ids": {"osm_node": "1549563611", "merimee": "PA00086720"},
+      "facts": [
+        {"claim": "The present bistrot occupies a former fine-grocery frontage whose earlier trade is preserved in the fittings.", "source_urls": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-2-2-8048"]},
+        {"claim": "The shopfront has been protected as a monument historique since 23 May 1984.", "source_urls": ["https://www.pop.culture.gouv.fr/notice/merimee/PA00086720"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-2-2-8048", "title": "Bistrot Le Flaubert, ancienne épicerie fine", "publisher": "Ville de Paris", "role": "official municipal exterior-view walking description and facts", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.pop.culture.gouv.fr/notice/merimee/PA00086720", "title": "Ancienne épicerie fine", "publisher": "Ministère de la Culture", "role": "official heritage identity and current protected status", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/1549563611", "title": "10 rue Gustave-Flaubert", "publisher": "OpenStreetMap", "role": "current named premises and exact coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view", "evidence": "The protected shopfront is visible from rue Gustave-Flaubert; the row does not depend on dining or interior access.", "source_url": "https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-2-2-8048", "checked_at": "2026-08-09", "user_window": "any daylight walk"},
+      "coordinate_basis": {"type": "current named-premises node", "source_url": "https://www.openstreetmap.org/node/1549563611", "precision": "shopfront", "osm_node": "1549563611"},
+      "editorial_score": {"story": 4, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 4, "total": 22},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Platane d’Orient du parc Monceau", "distance_m": 722}, "rationale": "No catalogue name, alias, external-ID or sub-120-metre physical conflict was found.", "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "synagogueagoudashakehilos",
+      "n": "Synagogue Agoudas Hakehilos",
+      "a": "10 rue Pavée",
+      "pc": "75004",
+      "lat": 48.8559722,
+      "lng": 2.3604861,
+      "c": "synagogue",
+      "s": "Hector Guimard squeezed his only religious building into a narrow Marais plot and made the facade rise like an open book.",
+      "q": "Synagogue Agoudas Hakehilos rue Pavée Paris",
+      "w": "The architect of the Métro entrances turned verticality into a solution for an Eastern-European Orthodox community with little street frontage. Treat this as a respectful exterior discovery: the living congregation, not sightseeing, determines any interior access.",
+      "city": "paris",
+      "aliases": ["Synagogue de la rue Pavée", "Synagogue Guimard", "Agudas Hakehilos"],
+      "external_ids": {"merimee": "PA00086477"},
+      "facts": [
+        {"claim": "Guimard built the synagogue in 1913–1914 for Agoudas Hakehilos, an association formed from nine Orthodox communities of Eastern-European origin.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086477"]},
+        {"claim": "It is Guimard's only religious building; he also designed the furnishings, lights, benches and stylised vegetal decoration.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086477"]}
+      ],
+      "sources": [
+        {"url": "https://pavee.fr/", "title": "Synagogue de la rue Pavée", "publisher": "Agoudas Hakehilos", "role": "first-party current living-community identity, address and status", "first_party": true, "checked_at": "2026-08-09"},
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00086477", "title": "Synagogue, 10 rue Pavée", "publisher": "Ministère de la Culture", "role": "official heritage identity, architecture and current protected status", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/Category:Synagogue_de_la_rue_Pav%C3%A9e", "title": "Synagogue de la rue Pavée", "publisher": "Wikimedia Commons", "role": "named-building coordinate corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_exterior_view_only", "evidence": "The Art Nouveau facade is fully legible from rue Pavée. Do not assume tourist entry; observe security instructions and do not photograph worshippers or entrances if asked not to.", "source_url": "https://pavee.fr/", "checked_at": "2026-08-09", "user_window": "exterior during an ordinary daytime walk"},
+      "coordinate_basis": {"type": "named heritage-building coordinate", "source_url": "https://commons.wikimedia.org/wiki/Category:Synagogue_de_la_rue_Pav%C3%A9e", "precision": "building", "merimee": "PA00086477"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 25},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Maison européenne de la Photographie", "distance_m": 146}, "rationale": "No catalogue name, alias, external-ID or sub-120-metre physical conflict was found.", "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "anciencouventdesrecollets",
+      "n": "Ancien couvent des Récollets",
+      "a": "150–154 rue du Faubourg-Saint-Martin",
+      "pc": "75010",
+      "lat": 48.875278,
+      "lng": 2.360556,
+      "c": "monastery",
+      "s": "A Franciscan convent became a military hospital, then a centre for architects, artists and residents.",
+      "q": "Ancien couvent des Récollets Paris 10e",
+      "w": "The cloister survived several changes of purpose without becoming a conventional museum. If the gate and public-facing centre or café areas are open, look for the shaded arcades; reception hours alone do not guarantee courtyard or garden access, and the upper complex remains a working residence.",
+      "city": "paris",
+      "aliases": ["Couvent des Récollets", "Hôpital Villemin", "Centre Les Récollets"],
+      "external_ids": {"osm_way": "167953195", "wikidata": "Q72942", "merimee": "PA00086485"},
+      "facts": [
+        {"claim": "The surviving complex began as a Récollet convent, later served as Hôpital Villemin and is protected for its eighteenth-century fabric and chapel.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086485"]},
+        {"claim": "It is now a City-owned international residence and architecture/cultural centre whose arcades, terraces and green spaces support public-facing activity.", "source_urls": ["https://www.centre-les-recollets.com/qui-sommes-nous/"]}
+      ],
+      "sources": [
+        {"url": "https://www.centre-les-recollets.com/qui-sommes-nous/", "title": "Qui sommes-nous?", "publisher": "Centre Les Récollets / Hénéo", "role": "first-party current use, public-facing spaces and manager status", "first_party": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.centre-les-recollets.com/en/contact-us/", "title": "Contact and access", "publisher": "Centre Les Récollets / Hénéo", "role": "first-party current opening hours and access restrictions", "first_party": true, "checked_at": "2026-08-09"},
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00086485", "title": "Ancien couvent des Récollets ou ancien hôpital Villemin", "publisher": "Ministère de la Culture", "role": "official heritage identity and facts", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/167953195", "title": "Couvent des Récollets mapped building", "publisher": "OpenStreetMap", "role": "named heritage-building geometry and coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "conditional_public_facing_access", "evidence": "The manager publishes reception hours and identifies public-facing café and architecture-centre uses, but does not guarantee that the courtyard or garden is freely walk-in throughout those hours. Stay within areas visibly open to the public and respect residential boundaries.", "source_url": "https://www.centre-les-recollets.com/en/contact-us/", "checked_at": "2026-08-09", "user_window": "Try 13 August or 14 August before 16:30 only if the gate or centre confirms access; August closure is possible"},
+      "coordinate_basis": {"type": "practical point inside the named heritage-complex footprint", "source_url": "https://www.openstreetmap.org/way/167953195", "precision": "complex interior", "osm_way": "167953195", "wikidata": "Q72942", "note": "The pin is inside the mapped Récollets complex, about 17 metres from the polygon centroid; it is not presented as a surveyed building centroid."},
+      "editorial_score": {"story": 5, "walkability": 4, "distinctiveness": 4, "source_quality": 5, "geographic_value": 5, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Baignade estivale du canal Saint-Martin", "distance_m": 242}, "rationale": "No catalogue name, alias, external-ID or sub-120-metre physical conflict was found.", "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    },
+    {
+      "id": "bouquinistesquaideconti",
+      "n": "Bouquinistes du quai de Conti",
+      "a": "Quai de Conti, representative stretch near rue Dauphine",
+      "pc": "75006",
+      "lat": 48.855612,
+      "lng": 2.341499,
+      "c": "market",
+      "s": "The Seine still runs between green boxes holding a centuries-old open-air trade in books, prints and paper curiosities.",
+      "q": "Bouquinistes quai de Conti Paris",
+      "w": "Treat the pin as a representative stretch, not one guaranteed stall. Even with the lids shut, the fitted green boxes form part of the river wall; when traders open, the pavement becomes a long, weather-dependent book market rather than a conventional shop.",
+      "city": "paris",
+      "aliases": ["Bouquinistes des quais de Seine", "Libraires des quais", "Green book boxes Quai de Conti"],
+      "external_ids": {"commons_file": "Paris_75006_Quai_de_Conti_Bouquinistes_20150902.jpg"},
+      "facts": [
+        {"claim": "Paris's current municipal account describes a 475-year quay trade, about 300,000 books and recognised intangible cultural heritage.", "source_urls": ["https://mairie05.paris.fr/pages/conference-les-bouquinistes-de-paris-un-patrimoine-vivant-34030"]},
+        {"claim": "The City treats the bouquinistes as licensed sales on public space rather than ordinary fixed shops.", "source_urls": ["https://www.paris.fr/pages/ventes-sur-l-espace-public-3513"]}
+      ],
+      "sources": [
+        {"url": "https://mairie05.paris.fr/pages/conference-les-bouquinistes-de-paris-un-patrimoine-vivant-34030", "title": "Les Bouquinistes de Paris, un patrimoine vivant", "publisher": "Mairie du 5e / Ville de Paris", "role": "official municipal current-status and living-heritage evidence", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/pages/ventes-sur-l-espace-public-3513", "title": "Ventes sur l'espace public", "publisher": "Ville de Paris", "role": "official municipal current regulatory and public-space access context", "official": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:Paris_75006_Quai_de_Conti_Bouquinistes_20150902.jpg", "title": "Bouquinistes, quai de Conti", "publisher": "Wikimedia Commons", "role": "object-specific representative-stretch geotag and coordinate basis", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_riverside_linear_market", "evidence": "The boxes line a public pavement. Trading is individual, weather-dependent and not guaranteed at a fixed hour; the outdoor linear heritage remains visible when boxes are closed.", "source_url": "https://www.paris.fr/pages/ventes-sur-l-espace-public-3513", "checked_at": "2026-08-09", "user_window": "daylight; best in dry weather, no promise that a particular stall opens"},
+      "coordinate_basis": {"type": "representative geotagged stall stretch", "source_url": "https://commons.wikimedia.org/wiki/File:Paris_75006_Quai_de_Conti_Bouquinistes_20150902.jpg", "precision": "linear-market representative point", "note": "The pin locates a photographed bank of boxes, not the centre of the citywide concession."},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 5, "total": 25},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "clear", "nearest_existing": {"name": "Galerie des Grands Augustins", "distance_m": 160}, "rationale": "No catalogue name or alias collision exists; the linear licensed quay market is distinct from nearby indoor bookshops, galleries and Pont des Arts.", "checked_against": "all 17,328 catalogue rows, aliases and external IDs at 120 m"},
+      "draft_only": true
+    }
+  ],
+  "deferred": [
+    {"n": "Grande Synagogue de la Victoire", "c": "synagogue", "reason": "The current first-party page requires individual visitors to contact a named person before the fixed-time visit. That fails this run's ordinary-walk/no-appointment gate even though Thursday 13 August would otherwise be scheduled."},
+    {"n": "Passage Jouffroy", "c": "arcades", "reason": "Its route centroid is about 28 metres from the already imported Galerie Fayet inside the passage, breaching the strict under-30-metre candidate rule."},
+    {"n": "Galerie Colbert", "c": "arcades", "reason": "Current mapped access is no and ordinary walk-through access could not be established independently of exhibitions or institutional use."},
+    {"n": "Passage des Princes", "c": "arcades", "reason": "The current official destination guide says it is closed for works; require a dated reopening notice."},
+    {"n": "Galerie Ben-Aïad", "c": "arcades", "reason": "A surviving historic passage but public through-access is private/unclear; no all-high ordinary-walk gate."},
+    {"n": "Cour de Rohan", "c": "alley", "reason": "Irregular private gates and no dependable current public access for the visit window."},
+    {"n": "Synagogue Buffault", "c": "synagogue", "reason": "Strong history but no current first-party individual visitor or exterior-specific experience evidence sufficient for all-high inclusion."},
+    {"n": "Synagogue Nazareth", "c": "synagogue", "reason": "Current worship status is clear but individual visit and security terms for next week are not."},
+    {"n": "Monastère de l'Immaculée-Conception", "c": "monastery", "reason": "The protected complex is private and the public-street view does not reveal enough of the monastery to make a strong atomic walking objective."},
+    {"n": "Grand Rocher de la Folie Saint-James", "c": "follies", "reason": "Preserved from the first Paris run: the apparent object geotag was reused across unrelated estate photographs, so high coordinate confidence is unavailable."},
+    {"n": "Pletzl Yiddish street sign", "c": "diaspora", "reason": "The sign was reported stolen in July 2025 and no authoritative replacement/current-presence evidence was found."}
+  ],
+  "excluded": [
+    {"n": "Passage du Havre", "reason": "Rebuilt as a modern shopping centre; fails the arcades category's historic-structure contract."},
+    {"n": "Passage Ponceau", "reason": "Heavily altered and lacks a sufficiently legible story at street level."},
+    {"n": "Passage Vendôme", "reason": "Walkable but weaker distinctiveness and intactness than the retained set."},
+    {"n": "Passage Puteaux", "reason": "A useful cut-through without enough visible or narrative distinctiveness."},
+    {"n": "Passage Alfred-Stevens", "reason": "Very short private passage with insufficient ordinary-walk value."},
+    {"n": "Galerie Argentine", "reason": "Modern retail circulation rather than a historic arcade-first experience."},
+    {"n": "Galeries du Palais-Royal", "reason": "Broad complex overlapping existing Canon méridien and Le Grand Véfour pins; not an honest single new atomic objective."},
+    {"n": "Passage Brady", "reason": "Already in the catalogue and recommended for retagging to arcades, not re-import."},
+    {"n": "Galerie Vivienne", "reason": "Already in the catalogue and recommended for retagging to arcades, not re-import."},
+    {"n": "Passage des Panoramas", "reason": "Already in the catalogue and recommended for retagging to arcades, not re-import."},
+    {"n": "Passage du Grand-Cerf", "reason": "Already in the catalogue and recommended for retagging to arcades, not re-import."},
+    {"n": "Village Saint-Paul", "reason": "A broad shopping/courtyard cluster rather than one atomic objective."},
+    {"n": "Passage Lhomme", "reason": "Residential/workshop lane with uncertain gate status next week."},
+    {"n": "Cité de Trévise", "reason": "Attractive residential square but no sharp enough discovery story without turning residents' space into a sightseeing object."},
+    {"n": "Cour Damoye", "reason": "Current unrestricted public access could not be established."},
+    {"n": "Pavillons de la barrière d'Enfer", "reason": "Same small complex as existing Catacombs and liberation-museum experiences; dense duplication outweighed the toll story."},
+    {"n": "Barrière du Trône", "reason": "Monumental but weak category novelty relative to the two dedicated new contracts."},
+    {"n": "Folies rouges du parc de la Villette", "reason": "A serial design system rather than individually story-rich objectives; one representative pin would be arbitrary."},
+    {"n": "Naumachie du parc Monceau", "reason": "Still inaccessible after storm damage; preserved as deferred in the first Paris dossier."},
+    {"n": "Chapelle de la Médaille Miraculeuse", "reason": "Current access exists but it behaves as a well-known pilgrimage attraction rather than an overlooked category-expanding walking surprise."},
+    {"n": "Pharmacie de la Bourdonnais", "reason": "A living pharmacy whose current business and whole-building architecture outweigh any inherited former-trade-frontage reversal."},
+    {"n": "Ancienne crèmerie rue Danielle-Casanova", "reason": "The current salon keeps the old fabric, but the reversal is less legible from an ordinary pavement walk than retained ghost signs."},
+    {"n": "Pharmacie du 23 avenue Rapp", "reason": "Active historic pharmacy; the current business rather than a vanished fitted trade frontage is the objective."},
+    {"n": "À la Mère de Famille", "reason": "Active historic shop already covered by food/retail semantics; not a ghost sign."},
+    {"n": "Confiserie Tanrade", "reason": "Current physical status and legibility were weaker than the protected retained facade set."},
+    {"n": "Boulangerie du 12 rue des Saussaies", "reason": "Active/changed trade status makes the ghost-sign reversal ambiguous."},
+    {"n": "Rotonde du parc Monceau", "reason": "The park already has several nearby catalogue objectives and the toll-pavilion experience is not separately strong enough."},
+    {"n": "Individual bouquiniste stalls", "reason": "Consolidated into one representative linear-market objective; separate stall pins would be unstable and repetitive."},
+    {"n": "Generic Rue des Rosiers shopfronts", "reason": "Neighbourhood atmosphere without one verified, atomic and category-specific objective."}
+  ],
+  "retag_recommendations": [
+    {"id": "galerievivienne", "from": "history", "to": "arcades", "reason": "The walk-through covered arcade is the experience."},
+    {"id": "passagedespanoramas", "from": "history", "to": "arcades", "reason": "The surviving covered commercial passage is more precise than generic history."},
+    {"id": "passagedugrandcerf", "from": "history", "to": "arcades", "reason": "Its tall iron-and-glass covered route is an exact category fit."},
+    {"id": "passagebrady", "from": "alley", "to": "arcades", "reason": "Its covered commercial passage identity is more precise than hidden alley."}
+  ],
+  "verification": {
+    "checked_at": "2026-08-09",
+    "catalogue_rows_checked": 17328,
+    "global_alias_collisions": 0,
+    "candidate_pairs_under_30m": 0,
+    "candidate_pairs_30_to_119m": 1,
+    "candidate_pairs_30_to_119m_reviewed": 1,
+    "city_registry_gaps": 0,
+    "notes": "Every retained coordinate is raw-inside the live Paris bbox. Eastern Paris may still infer to the overlapping Maisons-Alfort region in the shared nearest-centre helper; this is a known registry overlap rather than a Paris assignment error."
+  }
+}

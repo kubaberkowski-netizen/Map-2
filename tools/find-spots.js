@@ -18,6 +18,11 @@
  *
  * Examples:
  *   node tools/find-spots.js --city london   --source overpass --limit 150
+ *   node tools/find-spots.js --city london   --source overpass --profile hills --limit 150
+ *   node tools/find-spots.js --city paris    --source overpass --profile landmarktrees --limit 150
+ *   node tools/find-spots.js --city lisbon   --source overpass --profile steps --limit 150
+ *   node tools/find-spots.js --city sydney   --source overpass --profile footbridges --limit 150
+ *   node tools/find-spots.js --city tokyo    --source overpass --profile specialistshops --limit 150
  *   node tools/find-spots.js --city paris    --source wikidata
  *   node tools/find-spots.js --city london   --source reddit --sub london --query "hidden OR underrated OR secret"
  *   node tools/find-spots.js --city glasgow  --source pullpush --sub glasgow --query "weird OR oddity"
@@ -67,6 +72,14 @@ function toRow(hit, model, takenIds) {
   const id = M.uniqueId(M.slugify(hit.n), takenIds);
   const needs = [];
   if (!cat) needs.push("c");
+  const profileNeeds = {
+    hills: ["access-review", "route-safety-review"],
+    landmarktrees: ["survival-review", "public-visibility-review", "story-review"],
+    steps: ["public-access-review", "significance-review", "accessibility-review"],
+    footbridges: ["public-access-review", "current-structure-review", "crossing-significance-review", "accessibility-review"],
+    specialistshops: ["current-status-review", "specialism-review", "category-overlap-review"],
+  };
+  if (profileNeeds[hit._meta?.profile]) needs.push(...profileNeeds[hit._meta.profile]);
   needs.push("w"); // always — the writeup is authored by hand
   return {
     id,
@@ -89,7 +102,14 @@ async function gather(args, model) {
   if (!city && !["reddit", "pullpush"].includes(args.source))
     throw new Error(`unknown --city "${args.city}". Known: ${model.cities.map((c) => c.id).join(", ")}`);
 
-  if (args.source === "overpass") return S.overpass(city.bbox, { limit: args.limit, broad: !!args.broad });
+  if (args.source === "overpass") {
+    if (args.profile === true) throw new Error('--profile needs a value (for example, "hills")');
+    return S.overpass(city.bbox, {
+      limit: args.limit,
+      broad: !!args.broad,
+      profile: args.profile || "",
+    });
+  }
   if (args.source === "wikidata") return S.wikidata(city.bbox, { limit: args.limit });
   if (args.source === "googlePlaces") {
     if (!args.query) throw new Error('--source googlePlaces needs --query (e.g. "famous bakery") and optionally --minReviews');

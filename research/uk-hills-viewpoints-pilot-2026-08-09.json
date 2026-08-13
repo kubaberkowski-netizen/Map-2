@@ -1,0 +1,476 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-08-09",
+  "title": "London and South East climbable hills/viewpoints — source-checked pilot",
+  "editorial_status": "Machine research draft. Fifteen selected candidates were imported with draft quality flags; facts and phrasing still require owner review.",
+  "scope": "Publicly accessible hills, artificial mounds, escarpments, hillforts and odd urban elevations in Greater London and nearby South East England, with deliberate Greenford and Box Hill coverage.",
+  "category_recommendation": {
+    "proposed_slug": "hills",
+    "proposed_label": "Hills & mounds",
+    "existing_fallback_slug": "view",
+    "rationale": "These places are defined by the small expedition of getting up them, not only by the view. The set spans natural summits, chalk scarps, wooded hillforts and deliberately built urban mounds, which is coherent enough for a terrain-led category while remaining broader than conventional hiking peaks."
+  },
+  "repo_snapshot": {
+    "git_head": "c6e7bcec",
+    "spots_checked": 16902,
+    "dedupe_method": "Case-folded exact-name scan plus Haversine nearest-neighbour check against data/spots.json; reject threshold 120 metres.",
+    "result": "No candidate has an exact normalized-name match and none lies within 120 metres of an existing spot.",
+    "known_existing_places_excluded": [
+      "Parliament Hill",
+      "Primrose Hill",
+      "One Tree Hill (Honor Oak)",
+      "Telegraph Hill Park",
+      "King Henry's Mound",
+      "Stave Hill",
+      "The View from Richmond Hill",
+      "Alexandra Palace",
+      "Severndroog Castle / Shooters Hill",
+      "Blue Bell Hill"
+    ]
+  },
+  "coordinate_note": "Coordinates identify the summit, signed viewpoint or defining monument rather than a car park wherever a defensible point was available. OS National Grid references were converted to WGS84; 6 decimal places do not imply survey accuracy, and coordinate_basis records the underlying precision.",
+  "candidate_count": 20,
+  "production_selection": {
+    "included_count": 15,
+    "import_file": "research/new/uk-hills-high-points.json",
+    "deferred": [
+      {"name":"Farthing Downs Ridge","reason":"Broad ridge without one unambiguous upper-point destination."},
+      {"name":"Pollards Hill Viewpoint","reason":"Only medium coordinate confidence; retain as a lead."},
+      {"name":"Bedfords Park Visitor Centre Viewpoint","reason":"The documented objective is a near-car-park viewpoint rather than a meaningful ascent."},
+      {"name":"Newlands Corner","reason":"Excellent accessible lookout, but not primarily a climbable hill destination."},
+      {"name":"Devil's Punch Bowl Viewpoint","reason":"A rim lookout over a landform rather than a named hill or mound; deeper routes need stronger difficulty framing."}
+    ]
+  },
+  "candidates": [
+    {
+      "name": "Horsenden Hill",
+      "terrain_type": "natural urban hill / archaeological summit",
+      "lat": 51.546236,
+      "lng": -0.325851,
+      "coordinate_basis": "Summit-area GPS point; cross-checked against OS grid TQ161843 and Ealing's mapped hilltop.",
+      "area": "Greenford, London Borough of Ealing",
+      "postcode": "UB6",
+      "suggested_city_slug": "ealing",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "Ealing's high point, with an Iron Age past above the suburbs",
+      "reference_draft": "Ealing Council identifies Horsenden Hill as the borough's highest point, at about 84 metres, with views from a mix of woodland and meadow. Archaeological evidence on and around the summit includes Neolithic cultivation soil and Iron Age pottery, and the hilltop earthwork is protected as a scheduled monument.",
+      "access_safety": "Public parkland; use established paths, expect muddy or uneven ground after rain, and avoid disturbing the scheduled earthworks.",
+      "sources": [
+        {"url": "https://www.ealing.gov.uk/info/201136/parks_in_the_borough/663/greenford_parks/4", "role": "official height, landscape and public access"},
+        {"url": "https://www.ealing.gov.uk/info/201134/nature_conservation/634/conservation_sites/3", "role": "official archaeology and conservation"},
+        {"url": "https://www.megalithic.co.uk/article.php?sid=7805", "role": "coordinate cross-check"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "Wembley Central Mosque", "nearest_existing_id": "wembleycentralmosque", "distance_m": 1986}
+    },
+    {
+      "name": "Northala Fields Highest Mound",
+      "terrain_type": "artificial urban mound / spiral climb",
+      "lat": 51.540117,
+      "lng": -0.372861,
+      "coordinate_basis": "GPS-tagged point from the top of the highest mound, cross-checked against the council park map.",
+      "area": "Northolt, beside Greenford",
+      "postcode": "UB5 6UR",
+      "suggested_city_slug": "ealing",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "A spiral path up a west-London landform made from construction spoil",
+      "reference_draft": "Northala Fields has four sculpted mounds built using material from major London construction projects. Ealing Council describes a gently sloping spiral path to the tallest, a 360-degree view from the top, and the highest mound as 22 metres tall; that official figure is used in the production draft.",
+      "access_safety": "Open public park with a gradual spiral route, but other mound faces are steep; stay on the formed path and take extra care in ice or heavy rain.",
+      "sources": [
+        {"url": "https://www.ealing.gov.uk/info/201136/parks_in_the_borough/663/greenford_parks/2", "role": "official mound design, view and access"},
+        {"url": "https://www.lda-design.co.uk/wp-content/uploads/Northala_Fields_LDADesign_CaseStudy-1.pdf", "role": "designer case study and construction history"},
+        {"url": "https://commons.wikimedia.org/wiki/File:Northala_fields_northolt_london.jpg", "role": "summit GPS coordinate"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "Northolt Branch Observatories", "nearest_existing_id": "northoltbranchobservator", "distance_m": 1618}
+    },
+    {
+      "name": "Barn Hill (Fryent Country Park)",
+      "terrain_type": "landscaped urban hill / country park",
+      "lat": 51.572847,
+      "lng": -0.279936,
+      "coordinate_basis": "OS grid TQ193874 (100-metre precision), converted to WGS84.",
+      "area": "Wembley and Kingsbury, London Borough of Brent",
+      "postcode": "NW9 9SG",
+      "suggested_city_slug": "london",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "A Repton-shaped hilltop hidden in north-west London's fields",
+      "reference_draft": "Barn Hill rises within the public landscape of Fryent Country Park and is recorded by the London Geodiversity Partnership as a hill in recreational land. Its surviving copses and paths are associated with late-eighteenth-century landscaping attributed to Humphry Repton, making the ascent feel unexpectedly rural for Wembley.",
+      "access_safety": "Public country-park paths can be muddy and uneven; grazing or conservation work may alter informal routes, so follow signs and gates.",
+      "sources": [
+        {"url": "https://londongeopartnership.org.uk/wp/wp-content/uploads/2018/08/GLA63.pdf", "role": "grid reference, geology and public recreational use"},
+        {"url": "https://www.barnhillconservationgroup.org/history-of-fryentcountrypark", "role": "landscape and access history"},
+        {"url": "https://www.brent.gov.uk/media/16417594/the-fryent-country-park-story-part-6-philip-grant.pdf", "role": "local-authority-hosted history"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "Olympic Way", "nearest_existing_id": "olympicway", "distance_m": 1429}
+    },
+    {
+      "name": "Pole Hill Obelisk",
+      "terrain_type": "urban ridge / meridian monument",
+      "lat": 51.636364,
+      "lng": -0.001491,
+      "coordinate_basis": "Published WGS84 coordinate for the publicly accessible 1824 obelisk on Pole Hill.",
+      "area": "Chingford, London Borough of Waltham Forest",
+      "postcode": "E4",
+      "suggested_city_slug": "london",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "A hilltop meridian marker that turned out not to be on the meridian",
+      "reference_draft": "Pole Hill is one of Chingford's high points, with the London skyline appearing behind the Epping Forest canopy. An obelisk was erected here in 1824 to mark the Greenwich Meridian, but later measurements placed it slightly west of the true line, leaving a pleasingly imperfect scientific monument at the top.",
+      "access_safety": "Reached by forest paths from Chingford; surfaces are unsealed and can be muddy, and cyclists and horse riders may share nearby routes.",
+      "sources": [
+        {"url": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/epping-forest/where-to-go-in-epping-forest/pole-hill-and-yardley-hill", "role": "official access, viewpoint and obelisk history"},
+        {"url": "https://www.thegreenwichmeridian.org/tgm/location.php?i_latitude=51.636364", "role": "obelisk coordinate and meridian detail"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "Queen Elizabeth's Hunting Lodge", "nearest_existing_id": "qehuntinglodge", "distance_m": 427}
+    },
+    {
+      "name": "Gladstone Park Hilltop",
+      "terrain_type": "urban park hill / lost-house terrace",
+      "lat": 51.560496,
+      "lng": -0.23539,
+      "coordinate_basis": "OS grid TQ22428610 (10-metre precision), converted to WGS84; point is the Dollis Hill high ground in the park.",
+      "area": "Dollis Hill, London Borough of Brent",
+      "postcode": "NW2",
+      "suggested_city_slug": "london",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "A broad suburban climb to the footprint of a vanished prime-ministerial retreat",
+      "reference_draft": "Gladstone Park occupies the former Dollis Hill Estate and makes deliberate use of its sloping ground for wide London views. The park preserves the footprint of Dollis Hill House, where William Gladstone was a frequent guest, even though the damaged building itself was ultimately demolished.",
+      "access_safety": "A conventional public park with surfaced and grass routes; the steepest lawns can become slippery, while the former house footprint should be treated as a heritage feature rather than climbed.",
+      "sources": [
+        {"url": "https://www.brent.gov.uk/parks-leisure-and-healthy-living/parks-and-open-spaces/park-finder/gladstone-park", "role": "official park history, facilities and hill views"},
+        {"url": "https://gazetteer.org.uk/place/Dollis_Hill,_Middlesex_13275", "role": "precise grid/coordinate cross-check"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "BAPS Shri Swaminarayan Mandir", "nearest_existing_id": "neasdentemple", "distance_m": 1283}
+    },
+    {
+      "name": "Addington Hills Viewpoint",
+      "terrain_type": "wooded escarpment / constructed viewpoint",
+      "lat": 51.362493,
+      "lng": -0.059288,
+      "coordinate_basis": "GPS-tagged coordinate at the formal viewpoint, cross-checked against the Croydon Council site map.",
+      "area": "Shirley, London Borough of Croydon",
+      "postcode": "CR0 5HQ",
+      "suggested_city_slug": "croydon",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "A stone viewing platform at the edge of Croydon's wooded heights",
+      "reference_draft": "Addington Hills is a large public open space of heath and woodland on rising ground above Croydon. Its formal viewpoint opens a long prospect toward central London, creating a sudden reveal after the enclosed woodland approach.",
+      "access_safety": "Open at all times; paths include slopes and rough ground, and cycling is restricted to designated bridleways.",
+      "sources": [
+        {"url": "https://www.croydon.gov.uk/node/3173/addington-hills", "role": "official access, address and viewpoint"},
+        {"url": "https://commons.wikimedia.org/wiki/File:Addington_Hills_viewpoint_-_geograph.org.uk_-_1872374.jpg", "role": "viewpoint GPS coordinate"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "Shirley Windmill", "nearest_existing_id": "shirleywindmill", "distance_m": 283}
+    },
+    {
+      "name": "Farthing Downs Ridge",
+      "terrain_type": "chalk escarpment / archaeological ridge walk",
+      "lat": 51.299747,
+      "lng": -0.133061,
+      "coordinate_basis": "Mapped central ridge point at OS TQ301573, converted/cross-checked to WGS84.",
+      "area": "Coulsdon, London Borough of Croydon",
+      "postcode": "CR5 1DA",
+      "suggested_city_slug": "croydon",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "An ancient chalk track climbing out of London into open downland",
+      "reference_draft": "Farthing Downs is a long chalk ridge within the South London Downs National Nature Reserve. Archaeological evidence ranges from Neolithic pottery and an Iron Age pit to historic trackways and cultivation terraces, while the open crest gives the walk a scale unusual inside Greater London.",
+      "access_safety": "Use the public paths across exposed chalk grassland; slopes can be steep or slick, livestock may be present, and dogs should be controlled around grazing animals.",
+      "sources": [
+        {"url": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/the-coulsdon-commons/farthing-downs/farthing-downs-heritage", "role": "official archaeology and landscape history"},
+        {"url": "https://www.gov.uk/government/news/natural-england-to-declare-a-new-london-national-nature-reserve", "role": "official reserve status and chalk landscape"},
+        {"url": "https://en.wikipedia.org/wiki/Farthing_Downs", "role": "coordinate/grid cross-check"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "Croydon Airport Visitor Centre", "nearest_existing_id": "croydonairportvisitorcen", "distance_m": 6386}
+    },
+    {
+      "name": "Pollards Hill Viewpoint",
+      "terrain_type": "urban hill / neighbourhood panorama",
+      "lat": 51.398774,
+      "lng": -0.130023,
+      "coordinate_basis": "Map-placed point on the signed public viewpoint/high ground; approximately 20-metre confidence.",
+      "area": "Pollards Hill and Norbury, London Borough of Croydon",
+      "postcode": null,
+      "suggested_city_slug": "croydon",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "Norbury's local summit, with a horizon far beyond the rooftops",
+      "reference_draft": "Croydon Council describes Pollards Hill as the highest point in Norbury. The open high ground carries unexpectedly long views, with the council noting landmarks as distant as Windsor Castle in clear conditions.",
+      "access_safety": "Public open space with ordinary grass and path access; the exposed top can be windy and wet grass may be slippery.",
+      "sources": [
+        {"url": "https://www.croydon.gov.uk/node/3173/pollards-hill", "role": "official height context, view and public-open-space status"}
+      ],
+      "confidence": "medium",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "The Rookery, Streatham Common", "nearest_existing_id": "therookerystreathamcommo", "distance_m": 1806}
+    },
+    {
+      "name": "Bedfords Park Visitor Centre Viewpoint",
+      "terrain_type": "natural ridge / parkland panorama",
+      "lat": 51.608142,
+      "lng": 0.192216,
+      "coordinate_basis": "Officially documented visitor-centre grid TQ519922, converted to WGS84; viewpoint is immediately beside it on the ridge.",
+      "area": "Havering-atte-Bower, London Borough of Havering",
+      "postcode": "RM4 1QL",
+      "suggested_city_slug": "london",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "A deer-park ridge where London drops away into Essex",
+      "reference_draft": "Bedfords Park occupies a south-facing section of the Havering Ridge and has a broad panorama from around its visitor centre. The historic parkland also holds a captive red-deer herd, giving the climb a country-estate character at London's eastern edge.",
+      "access_safety": "The park itself has no general access restriction, but the car park closes around dusk; keep clear of fenced deer and expect muddy park paths.",
+      "sources": [
+        {"url": "https://www.havering.gov.uk/parks-1/bedfords-park", "role": "official area, deer, view, address and access"},
+        {"url": "https://www.gigl.org.uk/GiGLFiles/WebDocuments/GLA45.pdf", "role": "ridge geology and precise visitor-centre grid"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "Havering-atte-Bower", "nearest_existing_id": "haveringattebower", "distance_m": 1404}
+    },
+    {
+      "name": "Croham Hurst Summit",
+      "terrain_type": "wooded gravel-capped hill / prehistoric summit",
+      "lat": 51.352124,
+      "lng": -0.079976,
+      "coordinate_basis": "Official site grid TQ338632 (100-metre precision), converted to WGS84; point falls on the summit plateau.",
+      "area": "South Croydon, London Borough of Croydon",
+      "postcode": "CR2 0DW",
+      "suggested_city_slug": "croydon",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "A wooded Croydon summit with a Bronze Age barrow underfoot",
+      "reference_draft": "Croham Hurst is a protected woodland hill whose gravel-capped summit preserves a scheduled round barrow. Archaeological finds include prehistoric flints, while the surviving public bridleway provides the cleanest legal line through the woods to the high ground.",
+      "access_safety": "Use public paths and the bridleway, expect roots and steep muddy sections, and do not climb or dig into the protected barrow; cycling is limited to bridleways.",
+      "sources": [
+        {"url": "https://www.croydon.gov.uk/node/3173/croham-hurst", "role": "official access, address and site status"},
+        {"url": "https://www.croydon.gov.uk/sites/default/files/2021-02/crohamhurstdraft.pdf", "role": "official management plan and grid reference"},
+        {"url": "https://historicengland.org.uk/listing/the-list/list-entry/1002012", "role": "scheduled round barrow"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "St. Paul's United Reformed Church", "nearest_existing_id": "stpaulsunitedreformedchu", "distance_m": 952}
+    },
+    {
+      "name": "Box Hill — Salomons Memorial Viewpoint",
+      "terrain_type": "chalk escarpment / formal viewpoint",
+      "lat": 51.247749,
+      "lng": -0.3111,
+      "coordinate_basis": "GPS-tagged point at Salomons Memorial, cross-checked against National Trust trail mapping.",
+      "area": "Mickleham, near Dorking, Surrey",
+      "postcode": "KT20 7LB",
+      "suggested_city_slug": "england",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "The classic Surrey chalk climb, ending at the escarpment's famous balcony",
+      "reference_draft": "Salomons Memorial is Box Hill's best-known public viewpoint, looking across Dorking and the Weald from the chalk escarpment. The rewarding approach from the Mole and stepping stones uses a long flight of roughly 275 steps, while gentler access is possible from the National Trust car park on top.",
+      "access_safety": "The river-and-steps route is steep and can be slippery; check river conditions, do not swim at the stepping stones, and use the hilltop approach if steps are unsuitable.",
+      "sources": [
+        {"url": "https://www.nationaltrust.org.uk/visit/surrey/box-hill", "role": "official place, address and access"},
+        {"url": "https://www.nationaltrust.org.uk/visit/surrey/box-hill/box-hill-stepping-stones-walk", "role": "official climb and viewpoint route"},
+        {"url": "https://commons.wikimedia.org/wiki/File:Box_Hill_Salomons_Memorial.jpg", "role": "viewpoint GPS coordinate"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "St Andrew's United Reformed Church", "nearest_existing_id": "standrewsunitedreformedc", "distance_m": 13082}
+    },
+    {
+      "name": "Leith Hill Tower",
+      "terrain_type": "wooded summit / climbable tower",
+      "lat": 51.176899,
+      "lng": -0.37276,
+      "coordinate_basis": "National Trust mapped destination at the summit tower.",
+      "area": "Coldharbour, near Dorking, Surrey",
+      "postcode": "RH5 6LU",
+      "suggested_city_slug": "england",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "Surrey's wooded high point, with another 78 steps inside its tower",
+      "reference_draft": "Leith Hill is the highest point in south-east England, and its eighteenth-century tower lifts visitors above the trees for an even wider panorama. The National Trust advises that the tower has 78 steps and currently lists a planned summer 2026 reopening, so tower access should be rechecked before publication.",
+      "access_safety": "Estate paths are steep, uneven and muddy in places; the tower stair is narrow and ticketed/open seasonally, and opening status must be checked before travel.",
+      "sources": [
+        {"url": "https://www.nationaltrust.org.uk/visit/surrey/leith-hill", "role": "official summit, access and coordinate mapping"},
+        {"url": "https://www.nationaltrust.org.uk/visit/surrey/leith-hill/visiting-leith-hill-tower", "role": "official tower steps and reopening status"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "The Peoples Pension Stadium", "nearest_existing_id": "the-peoples-pension-stadium", "distance_m": 15096}
+    },
+    {
+      "name": "Holmbury Hill Fort",
+      "terrain_type": "Greensand summit / Iron Age hillfort",
+      "lat": 51.175582,
+      "lng": -0.422085,
+      "coordinate_basis": "Summit grid TQ104430 (100-metre precision), converted to WGS84.",
+      "area": "Holmbury St Mary, Surrey",
+      "postcode": "RH5",
+      "suggested_city_slug": "england",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "An Iron Age fort whose rampart opens onto the Weald",
+      "reference_draft": "Holmbury Hill is a Greensand Ridge summit crowned by the earthworks of an Iron Age hillfort. The Hurtwood is maintained for public recreation, and the fort's southern edge supplies one of the clearest high views across the Weald.",
+      "access_safety": "Open-access woodland has steep and sometimes eroded paths shared with mountain bikes; keep to paths, listen for riders and avoid damaging the ramparts.",
+      "sources": [
+        {"url": "https://surreyhills.org/places-to-see/holmbury-hill-fort/", "role": "protected-landscape facts, history and view"},
+        {"url": "https://foth.co.uk/hurtwood-location/", "role": "land manager access, routes and shared-use context"},
+        {"url": "https://www.threepeakschallenge.uk/surrey-three-peaks-challenge/holmbury-hill", "role": "summit grid cross-check"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "Woking Hundred", "nearest_existing_id": "wokinghundred", "distance_m": 13769}
+    },
+    {
+      "name": "St Martha's Hill",
+      "terrain_type": "sand-and-chalk hill / isolated summit church",
+      "lat": 51.224654,
+      "lng": -0.529047,
+      "coordinate_basis": "Historic England listing grid TQ0281448302, converted to WGS84 at the summit church.",
+      "area": "Chilworth, near Guildford, Surrey",
+      "postcode": "GU4 8PZ",
+      "suggested_city_slug": "england",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "A solitary church reached only on foot along the old ridgeways",
+      "reference_draft": "St Martha's Church stands alone on the hilltop above Chilworth and has no road access, so every visit ends with a walk. The summit lies on the line of the North Downs Way and the route traditionally called the Pilgrims' Way, with a south-facing panorama from beside the churchyard.",
+      "access_safety": "Approach only by public footpaths or bridleways; sandy slopes can be loose, parking is below the summit, and the churchyard requires respectful behaviour.",
+      "sources": [
+        {"url": "https://www.surreycc.gov.uk/culture-and-leisure/countryside/sites/visitor-information/st-marthas-hill", "role": "official visitor access"},
+        {"url": "https://surreyhills.org/places-to-see/st-marthas-church/", "role": "protected-landscape context and hilltop character"},
+        {"url": "https://historicengland.org.uk/listing/the-list/list-entry/1029553", "role": "precise summit-church grid and heritage"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "Woking Hundred", "nearest_existing_id": "wokinghundred", "distance_m": 5249}
+    },
+    {
+      "name": "Newlands Corner",
+      "terrain_type": "North Downs escarpment / accessible viewpoint",
+      "lat": 51.233337,
+      "lng": -0.506053,
+      "coordinate_basis": "Officially published site grid TQ044493 (100-metre precision), converted to WGS84.",
+      "area": "Albury, near Guildford, Surrey",
+      "postcode": "GU4 8SE",
+      "suggested_city_slug": "england",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "A North Downs balcony with a near-level route to the view",
+      "reference_draft": "Newlands Corner sits high on the North Downs east of Guildford, looking south across the Tillingbourne valley toward the Greensand hills. Surrey County Council provides surfaced easy-access routes from the visitor area, making this one of the batch's most approachable pieces of high ground.",
+      "access_safety": "Some surfaced routes are accessible, but longer woodland and downland paths are uneven; the busy A25 and car-park entrances require care.",
+      "sources": [
+        {"url": "https://www.surreycc.gov.uk/culture-and-leisure/countryside/sites/visitor-information/newlands-corner", "role": "official visitor information, facilities and address"},
+        {"url": "https://www.surreycc.gov.uk/culture-and-leisure/countryside/what-can-you-do/walking/easy-walks/newlands-corner-near-guildford", "role": "official accessible route and views"},
+        {"url": "https://www.surreycc.gov.uk/community/news/categories/hidden-surrey/hidden-surrey-woodlands", "role": "official grid reference"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "Woking Hundred", "nearest_existing_id": "wokinghundred", "distance_m": 5097}
+    },
+    {
+      "name": "Devil's Punch Bowl Viewpoint",
+      "terrain_type": "sandstone escarpment / natural amphitheatre",
+      "lat": 51.11354,
+      "lng": -0.72985,
+      "coordinate_basis": "Visitor-overlook grid SU890357 (100-metre precision), converted to WGS84; not the floor of the bowl.",
+      "area": "Hindhead, Surrey",
+      "postcode": "GU26 6AB",
+      "suggested_city_slug": "england",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "A roadside overlook into a vast natural bowl, with serious descents beyond",
+      "reference_draft": "The Devil's Punch Bowl is a deep natural amphitheatre cut into the Hindhead landscape. A short, relatively easy approach reaches the rim viewpoint, while longer paths descend steeply through the bowl and connect toward Gibbet Hill.",
+      "access_safety": "The rim viewpoint is the low-risk objective; deeper routes are steep, rough and muddy, and require proper footwear, time and attention near exposed edges.",
+      "sources": [
+        {"url": "https://surreyhills.org/places-to-see/the-devils-punchbowl/", "role": "protected-landscape viewpoint and easy-access approach"},
+        {"url": "https://www.nationaltrust.org.uk/visit/surrey/hindhead-commons-and-the-devils-punch-bowl", "role": "official land manager access and conservation"},
+        {"url": "https://www.gov.uk/government/publications/surreys-national-nature-reserves/surreys-national-nature-reserves", "role": "official reserve context"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "Woking Hundred", "nearest_existing_id": "wokinghundred", "distance_m": 21442}
+    },
+    {
+      "name": "One Tree Hill, Sevenoaks",
+      "terrain_type": "wooded escarpment / summit viewpoint",
+      "lat": 51.25662,
+      "lng": 0.23421,
+      "coordinate_basis": "Summit/viewpoint at OS TQ560532 (100-metre precision), converted to WGS84 and cross-checked against the official car-park coordinate at TQ559532.",
+      "area": "Underriver, Sevenoaks, Kent",
+      "postcode": "TN15 0SN",
+      "suggested_city_slug": "kent",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "A woodland ascent that waits until the summit to reveal the Weald",
+      "reference_draft": "Paths wind through the woods of One Tree Hill before reaching a south-facing view over the Weald of Kent. The National Trust notes that the site is both within the Kent Downs National Landscape and designated as a Site of Special Scientific Interest for its uncommon wildlife.",
+      "access_safety": "Free countryside access is listed dawn to dusk; woodland paths are uneven with steep slopes and are not suitable for wheelchairs or buggies.",
+      "sources": [
+        {"url": "https://www.nationaltrust.org.uk/visit/kent/one-tree-hill", "role": "official address, opening, access, viewpoint and car-park coordinate"},
+        {"url": "https://www.kentwildlifetrust.org.uk/sites/default/files/2018-06/one_tree_hill_and_bitchet_common_not_bitchet_green_sssi_designation.pdf", "role": "SSSI boundary and landscape evidence"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "Mereworth Castle", "nearest_existing_id": "mereworthcastle", "distance_m": 10860}
+    },
+    {
+      "name": "Oldbury Hill Fort",
+      "terrain_type": "wooded Greensand hill / Iron Age fort",
+      "lat": 51.283903,
+      "lng": 0.266585,
+      "coordinate_basis": "Historic England scheduled-monument grid TQ5816556303, converted to WGS84 on the fort summit.",
+      "area": "Ightham, Kent",
+      "postcode": "TN15 0ET",
+      "suggested_city_slug": "kent",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "A steep wooded climb into a huge fort and prehistoric rock shelters",
+      "reference_draft": "Oldbury Hill carries one of the largest Iron Age hillforts in Britain, its long ramparts now threaded through woodland. Historic England also records Palaeolithic rock shelters here, while breaks in the trees provide views across the Weald.",
+      "access_safety": "National Trust countryside is listed dawn to dusk; the ascent uses uneven woodland paths and steep steps, and neither the earthworks nor rock shelters should be climbed or disturbed.",
+      "sources": [
+        {"url": "https://www.nationaltrust.org.uk/visit/kent/oldbury-hill", "role": "official address, opening, access, fort and view"},
+        {"url": "https://historicengland.org.uk/listing/the-list/list-entry/1007458", "role": "precise monument coordinate and archaeological significance"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "Mereworth Castle", "nearest_existing_id": "mereworthcastle", "distance_m": 9224}
+    },
+    {
+      "name": "Ditchling Beacon",
+      "terrain_type": "open chalk summit / former hillfort",
+      "lat": 50.901787,
+      "lng": -0.107649,
+      "coordinate_basis": "Summit grid TQ3316113074, converted to WGS84; official National Trust car park lies approximately 180 metres east.",
+      "area": "Ditchling, East Sussex",
+      "postcode": "BN6 8XG",
+      "suggested_city_slug": "england",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "East Sussex's highest point, rising sharply from the Weald",
+      "reference_draft": "At 248 metres, Ditchling Beacon is the highest point in East Sussex and one of the major summits of the South Downs. The open chalk top carries traces of an Iron Age hillfort and gives broad views north across the Weald and south toward the coast.",
+      "access_safety": "The summit is exposed to wind and weather; chalk and grass become slick when wet, livestock graze the reserve, and the small car park can fill quickly.",
+      "sources": [
+        {"url": "https://www.nationaltrust.org.uk/visit/sussex/ditchling-beacon", "role": "official access, landscape and car-park coordinate"},
+        {"url": "https://www.hill-bagging.co.uk/hill-view/?rf=2912", "role": "precise summit grid cross-check"},
+        {"url": "https://en.wikipedia.org/wiki/Ditchling_Beacon", "role": "height and hillfort cross-check"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "Stanmer House", "nearest_existing_id": "stanmerhouse", "distance_m": 3633}
+    },
+    {
+      "name": "Cissbury Ring",
+      "terrain_type": "chalk hillfort / prehistoric mining landscape",
+      "lat": 50.861909,
+      "lng": -0.380703,
+      "coordinate_basis": "Summit/trig grid TQ1405908183, converted to WGS84.",
+      "area": "Findon, West Sussex",
+      "postcode": "BN14 0HT",
+      "suggested_city_slug": "england",
+      "suggested_existing_category": "view",
+      "proposed_category": "hills",
+      "short_hook": "Five thousand years of earthworks wrapped around a wide chalk summit",
+      "reference_draft": "Cissbury Ring is the largest hillfort in Sussex, enclosing roughly 65 acres on a chalk promontory with a history stretching back more than 5,000 years. From the ramparts, clear-weather views can reach the chalk cliffs east of Brighton and the Isle of Wight.",
+      "access_safety": "The nearest listed parking leaves a roughly 20-minute uphill walk; the approach is moderately steep, chalk can be slippery, and visitors should stay off fragile earthworks.",
+      "sources": [
+        {"url": "https://www.nationaltrust.org.uk/visit/sussex/cissbury-ring", "role": "official history, views, access, address and safety"},
+        {"url": "https://www.mudandroutes.com/summit/cissbury-ring/", "role": "summit/trig grid cross-check"}
+      ],
+      "confidence": "high",
+      "repo_dedupe": {"exact_name_match": false, "nearest_existing_name": "Landing Craft", "nearest_existing_id": "landingcraft", "distance_m": 9534}
+    }
+  ]
+}

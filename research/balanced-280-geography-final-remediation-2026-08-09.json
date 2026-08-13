@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-08-09",
+  "status": "applied_and_validated_final_city_semantics_remediation",
+  "application": {
+    "applied_at": "2026-08-09",
+    "city_or_region_entries_added": 15,
+    "bbox_updates_applied": 12,
+    "new_candidate_rows_retagged": 19,
+    "pre_existing_wrexham_area_rows_retagged": 4,
+    "all_214_retained_new_rows_inside_raw_declared_bbox": true,
+    "all_214_retained_new_rows_infer_to_explicit_city_or_region": true,
+    "final_live_city_count": 1075,
+    "final_unique_city_slugs": 1074,
+    "known_pre_existing_duplicate_slug": "charleston"
+  },
+  "finding": "Independent review of all 105 new tree and hill rows found a final set of technically valid but semantically misleading nearby-city assignments and raw bboxes that were too tight. This plan gives those objectives honest browse-page labels and makes raw-bbox containment, rather than the model's typo-tolerance margin, part of the admission gate.",
+  "recommendation": {
+    "preserving_dossier_city_semantics": {
+      "proposed_entries": [
+        {
+          "id": "bochum",
+          "name": "Bochum",
+          "label": "Bochum",
+          "e": "🇩🇪",
+          "lat": 51.482,
+          "lng": 7.216,
+          "bbox": [7.18, 51.46, 7.27, 51.53],
+          "blurb": "A Ruhr city of industrial landscapes, wooded ridges and reclaimed hills.",
+          "country": "Germany"
+        },
+        {
+          "id": "gelsenkirchen",
+          "name": "Gelsenkirchen",
+          "label": "Gelsenkirchen",
+          "e": "🇩🇪",
+          "lat": 51.518,
+          "lng": 7.085,
+          "bbox": [7.0, 51.46, 7.13, 51.59],
+          "blurb": "A Ruhr city where collieries and spoil heaps became public green landmarks.",
+          "country": "Germany"
+        },
+        {
+          "id": "herten",
+          "name": "Herten",
+          "label": "Herten",
+          "e": "🇩🇪",
+          "lat": 51.596,
+          "lng": 7.138,
+          "bbox": [7.13, 51.54, 7.2, 51.62],
+          "blurb": "A northern Ruhr town of colliery landscapes, parks and panoramic heaps.",
+          "country": "Germany"
+        },
+        {
+          "id": "bottrop",
+          "name": "Bottrop",
+          "label": "Bottrop",
+          "e": "🇩🇪",
+          "lat": 51.524,
+          "lng": 6.929,
+          "bbox": [6.9, 51.49, 6.99, 51.61],
+          "blurb": "A Ruhr city of industrial heritage and sculpted spoil-heap skylines.",
+          "country": "Germany"
+        },
+        {
+          "id": "katwijk",
+          "name": "Katwijk",
+          "label": "Katwijk",
+          "e": "🇳🇱",
+          "lat": 52.203,
+          "lng": 4.398,
+          "bbox": [4.34, 52.14, 4.48, 52.24],
+          "blurb": "A North Sea town of dunes, fishing history and high coastal viewpoints.",
+          "country": "Netherlands"
+        },
+        {
+          "id": "massemen",
+          "name": "Massemen",
+          "label": "Massemen",
+          "e": "🇧🇪",
+          "lat": 50.9809,
+          "lng": 3.8736,
+          "bbox": [3.85, 50.965, 3.905, 51.005],
+          "blurb": "A Wetteren village square centred on church, farms and an old lime tree.",
+          "country": "Belgium"
+        },
+        {
+          "id": "bosacavalley",
+          "name": "Bošáca Valley",
+          "label": "Bošáca Valley",
+          "e": "🇸🇰",
+          "lat": 48.85,
+          "lng": 17.833,
+          "bbox": [17.79, 48.815, 17.87, 48.89],
+          "region": true,
+          "blurb": "A White Carpathian orchard valley of scattered hamlets and veteran fruit trees.",
+          "country": "Slovakia"
+        },
+        {
+          "id": "gornjastubica",
+          "name": "Gornja Stubica",
+          "label": "Gornja Stubica",
+          "e": "🇭🇷",
+          "lat": 45.9734,
+          "lng": 16.0135,
+          "bbox": [15.97, 45.94, 16.06, 46.01],
+          "blurb": "A Croatian Zagorje village of peasant-revolt memory, castle grounds and old trees.",
+          "country": "Croatia"
+        },
+        {
+          "id": "navajas",
+          "name": "Navajas",
+          "label": "Navajas",
+          "e": "🇪🇸",
+          "lat": 39.8777,
+          "lng": -0.507,
+          "bbox": [-0.535, 39.855, -0.475, 39.9],
+          "blurb": "An Alto Palancia village of villas, springs and a monumental elm in its square.",
+          "country": "Spain"
+        },
+        {
+          "id": "santalfio",
+          "name": "Sant’Alfio",
+          "label": "Sant’Alfio",
+          "e": "🇮🇹",
+          "lat": 37.744,
+          "lng": 15.141,
+          "bbox": [15.115, 37.72, 15.17, 37.78],
+          "blurb": "An eastern Etna village of lava-soil orchards and an immense ancient chestnut.",
+          "country": "Italy"
+        },
+        {
+          "id": "lozorno",
+          "name": "Lozorno",
+          "label": "Lozorno",
+          "e": "🇸🇰",
+          "lat": 48.333,
+          "lng": 17.043,
+          "bbox": [17.0, 48.29, 17.13, 48.36],
+          "blurb": "A Záhorie village at the wooded foot of the Little Carpathians.",
+          "country": "Slovakia"
+        },
+        {
+          "id": "arraiolos",
+          "name": "Arraiolos",
+          "label": "Arraiolos",
+          "e": "🇵🇹",
+          "lat": 38.743,
+          "lng": -7.906,
+          "bbox": [-8.05, 38.67, -7.78, 38.82],
+          "region": true,
+          "blurb": "An Alentejo municipality of white villages, cork landscapes and old rural tracks.",
+          "country": "Portugal"
+        },
+        {
+          "id": "wrexham",
+          "name": "Wrexham",
+          "label": "Wrexham",
+          "e": "🇬🇧",
+          "lat": 53.046,
+          "lng": -2.993,
+          "bbox": [-3.08, 53.0, -2.85, 53.13],
+          "blurb": "A north-Wales city and borderland of parks, medieval churches and industrial memory.",
+          "country": "United Kingdom"
+        },
+        {
+          "id": "coimbra",
+          "name": "Coimbra",
+          "label": "Coimbra",
+          "e": "🇵🇹",
+          "lat": 40.203,
+          "lng": -8.41,
+          "bbox": [-8.48, 40.16, -8.36, 40.239],
+          "blurb": "A Mondego university city of steep lanes, gardens and layers of Portuguese history.",
+          "country": "Portugal"
+        },
+        {
+          "id": "godollo",
+          "name": "Gödöllő",
+          "label": "Gödöllő",
+          "e": "🇭🇺",
+          "lat": 47.6,
+          "lng": 19.36,
+          "bbox": [19.3, 47.54, 19.44, 47.66],
+          "blurb": "A royal and university town east of Budapest, threaded with parks and old garden trees.",
+          "country": "Hungary"
+        }
+      ],
+      "bbox_updates": [
+        {"id": "paris", "bbox": [2.12, 48.76, 2.47, 48.902]},
+        {"id": "liverpool", "bbox": [-3.05, 53.35, -2.88, 53.46]},
+        {"id": "cachtice", "bbox": [17.72, 48.603, 17.98, 48.81]},
+        {"id": "chester", "bbox": [-3.051, 53.13, -2.731, 53.331]},
+        {"id": "dublin", "bbox": [-6.46, 53.2, -6.04, 53.43]},
+        {"id": "copenhagen", "bbox": [12.34, 55.59, 12.73, 55.77]},
+        {"id": "bern", "bbox": [7.294, 46.9, 7.496, 46.99]},
+        {"id": "belgrade", "bbox": [20.35, 44.67, 20.55, 44.86]},
+        {"id": "istanbul", "bbox": [28.572, 40.91, 29.28, 41.25]},
+        {"id": "ljubljana", "bbox": [14.42, 46.0, 14.6, 46.15]},
+        {"id": "lille", "bbox": [3.0, 50.6, 3.18, 50.66]},
+        {"id": "toulouse", "bbox": [1.38, 43.54, 1.51, 43.65]}
+      ]
+    }
+  },
+  "candidate_retags": {
+    "Tippelsberg": "bochum",
+    "Halde Rungenberg": "gelsenkirchen",
+    "Halde Rheinelbe": "gelsenkirchen",
+    "Halde Hoheward": "herten",
+    "Halde Beckstraße": "bottrop",
+    "Vlaggeduin": "katwijk",
+    "Úlfarsfell": "mosfellsbaer",
+    "The Village Lime Tree of Massemen": "massemen",
+    "Apple Tree from Bošáca": "bosacavalley",
+    "Pear from Bošáca–Zabudišová": "bosacavalley",
+    "Wild Pear from Bošáca": "bosacavalley",
+    "Gubec Linden": "gornjastubica",
+    "Elm of Navajas": "navajas",
+    "Chestnut of the Hundred Horses": "santalfio",
+    "Dragon Oak": "lozorno",
+    "The Big Cork Oak": "arraiolos",
+    "Wrexham’s Acton Park Sweet Chestnut": "wrexham",
+    "The Lovers Banyan Tree": "coimbra",
+    "The Giant Wild Pear of Gödöllő": "godollo"
+  },
+  "existing_catalogue_retags": {
+    "holtcastle": "wrexham",
+    "caergwrlecastle": "wrexham",
+    "allsaintschurchgresford": "wrexham",
+    "racecourseground": "wrexham"
+  },
+  "grouping_conventions": {
+    "flag_map_addition": {}
+  }
+}

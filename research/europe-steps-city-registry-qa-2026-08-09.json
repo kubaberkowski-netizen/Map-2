@@ -1,0 +1,751 @@
+{
+  "schema_version": 1,
+  "report_id": "europe-steps-city-registry-qa-2026-08-09",
+  "created_at": "2026-08-09",
+  "status": "audited_registry_plan_applied_and_validated",
+  "application": {
+    "applied_at": "2026-08-09",
+    "city_entries_added": 23,
+    "country_mappings_added": 23,
+    "country_flags_added": [
+      "Moldova"
+    ],
+    "city_count_immediately_after_this_steps_plan": 1046,
+    "current_live_city_count_after_all_geography_remediation": 1075,
+    "current_unique_city_slug_count_after_all_geography_remediation": 1074,
+    "candidate_validation_after_application": "60/60 passed the live model, bbox and city inference checks before draft import"
+  },
+  "inputs": {
+    "candidate_dossier": "research/europe-steps-balanced-2026-08-09.json",
+    "repository": ".",
+    "git_head": "001e9e8313c93ca373749bb19710d9865e557424",
+    "live_category_count": 63,
+    "live_city_count": 1023,
+    "steps_registered": true,
+    "steps_definition": {
+      "slug": "steps",
+      "label": "Steps & stair streets",
+      "emoji": "🪜",
+      "tint": "#E8E0D8"
+    }
+  },
+  "validation_before": {
+    "included_candidates": 60,
+    "pass_live_model": 35,
+    "fail_unknown_city_only": 25,
+    "other_validation_failures": 0,
+    "missing_city_slugs": 23,
+    "missing_candidate_counts": {
+      "blois": 1,
+      "auch": 1,
+      "bonifacio": 1,
+      "lamego": 1,
+      "teruel": 1,
+      "caltagirone": 1,
+      "heidelberg": 1,
+      "wuppertal": 1,
+      "radebeul": 1,
+      "graz": 1,
+      "lausanne": 1,
+      "fribourg": 2,
+      "liege": 2,
+      "tromso": 1,
+      "mosjoen": 1,
+      "vega": 1,
+      "tahko": 1,
+      "helsingborg": 1,
+      "kaunas": 1,
+      "chisinau": 1,
+      "sighisoara": 1,
+      "rijeka": 1,
+      "maribor": 1
+    }
+  },
+  "recommendation": {
+    "preserving_dossier_city_semantics": {
+      "ci_entries_required": 23,
+      "candidates_unblocked": 25,
+      "proposed_entries": [
+        {
+          "id": "blois",
+          "name": "Blois",
+          "label": "Blois",
+          "e": "🇫🇷",
+          "lat": 47.5861,
+          "lng": 1.3359,
+          "bbox": [
+            1.25,
+            47.52,
+            1.43,
+            47.65
+          ],
+          "country": "France",
+          "region": false,
+          "blurb": "A Loire city of royal stone, steep lanes and river views.",
+          "candidates": [
+            {
+              "id": "escalierdenispapin",
+              "n": "Escalier Denis Papin",
+              "lat": 47.5878444,
+              "lng": 1.333413
+            }
+          ]
+        },
+        {
+          "id": "auch",
+          "name": "Auch",
+          "label": "Auch",
+          "e": "🇫🇷",
+          "lat": 43.6464,
+          "lng": 0.5851,
+          "bbox": [
+            0.5,
+            43.58,
+            0.68,
+            43.71
+          ],
+          "country": "France",
+          "region": false,
+          "blurb": "A hilltop Gascon city of monumental stone and long views.",
+          "candidates": [
+            {
+              "id": "escaliermonumentalauch",
+              "n": "Escalier monumental d’Auch",
+              "lat": 43.6456184,
+              "lng": 0.5870747
+            }
+          ]
+        },
+        {
+          "id": "bonifacio",
+          "name": "Bonifacio",
+          "label": "Bonifacio",
+          "e": "🇫🇷",
+          "lat": 41.3874,
+          "lng": 9.1594,
+          "bbox": [
+            9.1,
+            41.34,
+            9.23,
+            41.45
+          ],
+          "country": "France",
+          "region": false,
+          "blurb": "A Corsican citadel balanced above white limestone cliffs.",
+          "candidates": [
+            {
+              "id": "escaliersroyaragon",
+              "n": "Escalier du Roy d’Aragon",
+              "lat": 41.3864384488,
+              "lng": 9.1566243984
+            }
+          ],
+          "overlap_note": "The current gross-margin inference returns sardinia, which is the wrong country. A Bonifacio entry is required and its nearer centre resolves the overlap."
+        },
+        {
+          "id": "lamego",
+          "name": "Lamego",
+          "label": "Lamego",
+          "e": "🇵🇹",
+          "lat": 41.0974,
+          "lng": -7.8099,
+          "bbox": [
+            -7.9,
+            41.02,
+            -7.73,
+            41.17
+          ],
+          "country": "Portugal",
+          "region": false,
+          "blurb": "A Douro hill town shaped by baroque pilgrimage routes.",
+          "candidates": [
+            {
+              "id": "escadorionossaremedios",
+              "n": "Escadório de Nossa Senhora dos Remédios",
+              "lat": 41.093375,
+              "lng": -7.813402
+            }
+          ]
+        },
+        {
+          "id": "teruel",
+          "name": "Teruel",
+          "label": "Teruel",
+          "e": "🇪🇸",
+          "lat": 40.3456,
+          "lng": -1.1065,
+          "bbox": [
+            -1.2,
+            40.27,
+            -1,
+            40.42
+          ],
+          "country": "Spain",
+          "region": false,
+          "blurb": "A high Aragonese city of Mudéjar brick and grand approaches.",
+          "candidates": [
+            {
+              "id": "escalinatadelovalo",
+              "n": "Escalinata del Óvalo",
+              "lat": 40.341292,
+              "lng": -1.108478
+            }
+          ]
+        },
+        {
+          "id": "caltagirone",
+          "name": "Caltagirone",
+          "label": "Caltagirone",
+          "e": "🇮🇹",
+          "lat": 37.2378,
+          "lng": 14.5153,
+          "bbox": [
+            14.43,
+            37.16,
+            14.6,
+            37.32
+          ],
+          "country": "Italy",
+          "region": false,
+          "blurb": "A Sicilian hill city celebrated for ceramics and baroque streets.",
+          "candidates": [
+            {
+              "id": "scalamariadelmonte",
+              "n": "Scala di Santa Maria del Monte",
+              "lat": 37.2389032,
+              "lng": 14.5120442
+            }
+          ]
+        },
+        {
+          "id": "heidelberg",
+          "name": "Heidelberg",
+          "label": "Heidelberg",
+          "e": "🇩🇪",
+          "lat": 49.3988,
+          "lng": 8.6724,
+          "bbox": [
+            8.57,
+            49.33,
+            8.8,
+            49.47
+          ],
+          "country": "Germany",
+          "region": false,
+          "blurb": "A Neckar university city climbing from old lanes into wooded hills.",
+          "candidates": [
+            {
+              "id": "himmelsleiterheidelberg",
+              "n": "Himmelsleiter",
+              "lat": 49.408097,
+              "lng": 8.7203458
+            }
+          ]
+        },
+        {
+          "id": "wuppertal",
+          "name": "Wuppertal",
+          "label": "Wuppertal",
+          "e": "🇩🇪",
+          "lat": 51.2562,
+          "lng": 7.1508,
+          "bbox": [
+            6.99,
+            51.18,
+            7.33,
+            51.34
+          ],
+          "country": "Germany",
+          "region": false,
+          "blurb": "A steep valley city of suspended trains and neighbourhood stairways.",
+          "candidates": [
+            {
+              "id": "tippentappentoenchen",
+              "n": "Tippen-Tappen-Tönchen",
+              "lat": 51.2578922,
+              "lng": 7.139234
+            }
+          ]
+        },
+        {
+          "id": "radebeul",
+          "name": "Radebeul",
+          "label": "Radebeul",
+          "e": "🇩🇪",
+          "lat": 51.1069,
+          "lng": 13.6603,
+          "bbox": [
+            13.57,
+            51.07,
+            13.76,
+            51.16
+          ],
+          "country": "Germany",
+          "region": false,
+          "blurb": "A vineyard town on Dresden's western edge.",
+          "candidates": [
+            {
+              "id": "spitzhaustreppe",
+              "n": "Spitzhaustreppe",
+              "lat": 51.1124862,
+              "lng": 13.6627533
+            }
+          ],
+          "overlap_note": "The point already validates inside dresden. Preserve radebeul only if product semantics favour the distinct municipality; retagging this one candidate to dresden is the sole reasonable way to reduce the proposal to 22 entries."
+        },
+        {
+          "id": "graz",
+          "name": "Graz",
+          "label": "Graz",
+          "e": "🇦🇹",
+          "lat": 47.0707,
+          "lng": 15.4395,
+          "bbox": [
+            15.29,
+            46.98,
+            15.55,
+            47.17
+          ],
+          "country": "Austria",
+          "region": false,
+          "blurb": "A red-roofed Styrian city wrapped around the Schlossberg.",
+          "candidates": [
+            {
+              "id": "schlossbergsteig",
+              "n": "Schlossbergsteig",
+              "lat": 47.072878,
+              "lng": 15.436086
+            }
+          ]
+        },
+        {
+          "id": "lausanne",
+          "name": "Lausanne",
+          "label": "Lausanne",
+          "e": "🇨🇭",
+          "lat": 46.5197,
+          "lng": 6.6323,
+          "bbox": [
+            6.53,
+            46.49,
+            6.72,
+            46.6
+          ],
+          "country": "Switzerland",
+          "region": false,
+          "blurb": "A steep lakeside city layered above Lake Geneva.",
+          "candidates": [
+            {
+              "id": "escaliersdumarche",
+              "n": "Escaliers du Marché",
+              "lat": 46.5219648,
+              "lng": 6.633716
+            }
+          ]
+        },
+        {
+          "id": "fribourg",
+          "name": "Fribourg",
+          "label": "Fribourg",
+          "e": "🇨🇭",
+          "lat": 46.8065,
+          "lng": 7.162,
+          "bbox": [
+            7.08,
+            46.75,
+            7.24,
+            46.87
+          ],
+          "country": "Switzerland",
+          "region": false,
+          "blurb": "A bilingual medieval city folded around the Sarine gorge.",
+          "candidates": [
+            {
+              "id": "escaliersdustalden",
+              "n": "Escaliers du Stalden",
+              "lat": 46.8043192,
+              "lng": 7.1657232
+            },
+            {
+              "id": "escalierscollege",
+              "n": "Escaliers du Collège Saint-Michel",
+              "lat": 46.8062058,
+              "lng": 7.159448
+            }
+          ]
+        },
+        {
+          "id": "liege",
+          "name": "Liège",
+          "label": "Liège",
+          "e": "🇧🇪",
+          "lat": 50.6451,
+          "lng": 5.5734,
+          "bbox": [
+            5.45,
+            50.55,
+            5.75,
+            50.72
+          ],
+          "country": "Belgium",
+          "region": false,
+          "blurb": "A Meuse city of steep historic quarters and industrial energy.",
+          "candidates": [
+            {
+              "id": "montagnedebueren",
+              "n": "Montagne de Bueren",
+              "lat": 50.6473489,
+              "lng": 5.5782092
+            },
+            {
+              "id": "thierdelafontaine",
+              "n": "Thier de la Fontaine",
+              "lat": 50.643488,
+              "lng": 5.5626701
+            }
+          ],
+          "overlap_note": "Current gross-margin inference returns bassenge, a different municipality. Do not reuse it for Liège."
+        },
+        {
+          "id": "tromso",
+          "name": "Tromsø",
+          "label": "Tromsø",
+          "e": "🇳🇴",
+          "lat": 69.6492,
+          "lng": 18.9553,
+          "bbox": [
+            18.75,
+            69.56,
+            19.15,
+            69.75
+          ],
+          "country": "Norway",
+          "region": false,
+          "blurb": "An Arctic island city facing mountains and fjords.",
+          "candidates": [
+            {
+              "id": "sherpatrappatromso",
+              "n": "Sherpatrappa",
+              "lat": 69.639434,
+              "lng": 18.9987308
+            }
+          ]
+        },
+        {
+          "id": "mosjoen",
+          "name": "Mosjøen",
+          "label": "Mosjøen",
+          "e": "🇳🇴",
+          "lat": 65.836,
+          "lng": 13.1908,
+          "bbox": [
+            13.05,
+            65.74,
+            13.34,
+            65.93
+          ],
+          "country": "Norway",
+          "region": false,
+          "blurb": "A Helgeland town beneath the steep wall of Øyfjellet.",
+          "candidates": [
+            {
+              "id": "helgelandstrappa",
+              "n": "Helgelandstrappa",
+              "lat": 65.8287376,
+              "lng": 13.184465
+            }
+          ]
+        },
+        {
+          "id": "vega",
+          "name": "Vega",
+          "label": "Vega",
+          "e": "🇳🇴",
+          "lat": 65.6759,
+          "lng": 11.962,
+          "bbox": [
+            11.4,
+            65.52,
+            12.25,
+            65.82
+          ],
+          "country": "Norway",
+          "region": true,
+          "blurb": "An island and archipelago landscape on the Helgeland coast.",
+          "candidates": [
+            {
+              "id": "vegatrappa",
+              "n": "Vegatrappa",
+              "lat": 65.6704937,
+              "lng": 11.8088748
+            }
+          ],
+          "region_reason": "Destination area/archipelago rather than a compact city; region:1 is semantically justified."
+        },
+        {
+          "id": "tahko",
+          "name": "Tahko",
+          "label": "Tahko",
+          "e": "🇫🇮",
+          "lat": 63.291,
+          "lng": 28.038,
+          "bbox": [
+            27.85,
+            63.18,
+            28.25,
+            63.42
+          ],
+          "country": "Finland",
+          "region": true,
+          "blurb": "A forest-and-lake resort area in Finland's North Savo.",
+          "candidates": [
+            {
+              "id": "tahkostairs",
+              "n": "Tahko Stairs",
+              "lat": 63.291219,
+              "lng": 28.022098
+            }
+          ],
+          "region_reason": "Resort/destination area rather than an incorporated city; region:1 matches the documented broad-area convention."
+        },
+        {
+          "id": "helsingborg",
+          "name": "Helsingborg",
+          "label": "Helsingborg",
+          "e": "🇸🇪",
+          "lat": 56.0465,
+          "lng": 12.6945,
+          "bbox": [
+            12.6,
+            55.98,
+            12.82,
+            56.13
+          ],
+          "country": "Sweden",
+          "region": false,
+          "blurb": "A compact Öresund city rising from the waterfront.",
+          "candidates": [
+            {
+              "id": "terrasstrapporna",
+              "n": "Terrasstrapporna",
+              "lat": 56.047453,
+              "lng": 12.6966123
+            }
+          ]
+        },
+        {
+          "id": "kaunas",
+          "name": "Kaunas",
+          "label": "Kaunas",
+          "e": "🇱🇹",
+          "lat": 54.8985,
+          "lng": 23.9036,
+          "bbox": [
+            23.7,
+            54.78,
+            24.15,
+            55.05
+          ],
+          "country": "Lithuania",
+          "region": false,
+          "blurb": "A river city of interwar modernism and wooded hills.",
+          "candidates": [
+            {
+              "id": "kaukoliptai",
+              "n": "Kauko Stairs",
+              "lat": 54.9010074,
+              "lng": 23.9255263
+            }
+          ]
+        },
+        {
+          "id": "chisinau",
+          "name": "Chișinău",
+          "label": "Chișinău",
+          "e": "🇲🇩",
+          "lat": 47.0105,
+          "lng": 28.8638,
+          "bbox": [
+            28.65,
+            46.9,
+            29.1,
+            47.15
+          ],
+          "country": "Moldova",
+          "region": false,
+          "blurb": "Moldova's leafy capital of parks, lakes and broad boulevards.",
+          "candidates": [
+            {
+              "id": "cascadestairchisinau",
+              "n": "Cascade Staircase",
+              "lat": 47.0216212,
+              "lng": 28.8157598
+            }
+          ]
+        },
+        {
+          "id": "sighisoara",
+          "name": "Sighișoara",
+          "label": "Sighișoara",
+          "e": "🇷🇴",
+          "lat": 46.2197,
+          "lng": 24.7964,
+          "bbox": [
+            24.7,
+            46.14,
+            24.9,
+            46.31
+          ],
+          "country": "Romania",
+          "region": false,
+          "blurb": "A living Transylvanian citadel of towers and covered passages.",
+          "candidates": [
+            {
+              "id": "scholarsstairssighisoara",
+              "n": "Scholars’ Stairs",
+              "lat": 46.2185152,
+              "lng": 24.7913393
+            }
+          ]
+        },
+        {
+          "id": "rijeka",
+          "name": "Rijeka",
+          "label": "Rijeka",
+          "e": "🇭🇷",
+          "lat": 45.3271,
+          "lng": 14.4422,
+          "bbox": [
+            14.3,
+            45.25,
+            14.6,
+            45.42
+          ],
+          "country": "Croatia",
+          "region": false,
+          "blurb": "A steep Adriatic port city beneath Trsat.",
+          "candidates": [
+            {
+              "id": "petarkruzicstairway",
+              "n": "Petar Kružić Stairway",
+              "lat": 45.3284318,
+              "lng": 14.4509391
+            }
+          ],
+          "overlap_note": "Current gross-margin inference returns opatija, a different city. Rijeka needs its own entry."
+        },
+        {
+          "id": "maribor",
+          "name": "Maribor",
+          "label": "Maribor",
+          "e": "🇸🇮",
+          "lat": 46.5547,
+          "lng": 15.6459,
+          "bbox": [
+            15.5,
+            46.45,
+            15.8,
+            46.68
+          ],
+          "country": "Slovenia",
+          "region": false,
+          "blurb": "A Drava city framed by vineyard hills.",
+          "candidates": [
+            {
+              "id": "kalvarijastairsmaribor",
+              "n": "Kalvarija Stairs",
+              "lat": 46.5702781,
+              "lng": 15.6348193
+            }
+          ]
+        }
+      ]
+    },
+    "optional_single_retag_reduction": {
+      "ci_entries_required": 22,
+      "change": {
+        "candidate_id": "spitzhaustreppe",
+        "from_city": "radebeul",
+        "to_city": "dresden"
+      },
+      "recommendation": "Not preferred unless the product deliberately groups Radebeul into the Dresden metro. The current point already fits Dresden, but Radebeul is a distinct municipality and the staged city field is explicit."
+    }
+  },
+  "grouping_conventions": {
+    "ci_shape": "{id,name,label,e,lat,lng,bbox,blurb,region?}",
+    "slug_rule": "ASCII lowercase identifiers; preserve native diacritics in name and label.",
+    "bbox_order": "[west,south,east,north]",
+    "bbox_policy": "Operational discovery/geocoder extents, not legal boundaries. Every candidate is inside its proposed bbox without relying on validator margin.",
+    "city_policy": "Omit region (or set false) for 21 compact municipalities/cities.",
+    "region_policy": "Use region:1 only for Vega (archipelago/destination area) and Tahko (resort area). Do not use region merely to make validation pass: tools/model.js gives regions a ±1.0° validation margin versus ±0.1° for cities.",
+    "country_policy": "Ci has no explicit country field. The flag emoji e supplies country identity and flCountryName fallback; the trip planner separately uses flCO.",
+    "country_map_required_for_full_ui": "Add the proposed flCO mappings so all new city/area slugs appear in the Plan-a-trip Country/City selectors.",
+    "flCO_additions": {
+      "blois": "France",
+      "auch": "France",
+      "bonifacio": "France",
+      "lamego": "Portugal",
+      "teruel": "Spain",
+      "caltagirone": "Italy",
+      "heidelberg": "Germany",
+      "wuppertal": "Germany",
+      "radebeul": "Germany",
+      "graz": "Austria",
+      "lausanne": "Switzerland",
+      "fribourg": "Switzerland",
+      "liege": "Belgium",
+      "tromso": "Norway",
+      "mosjoen": "Norway",
+      "vega": "Norway",
+      "tahko": "Finland",
+      "helsingborg": "Sweden",
+      "kaunas": "Lithuania",
+      "chisinau": "Moldova",
+      "sighisoara": "Romania",
+      "rijeka": "Croatia",
+      "maribor": "Slovenia"
+    },
+    "flag_map_addition": {
+      "Moldova": "🇲🇩"
+    },
+    "flag_map_note": "Moldova is not in the current flCountryFlag lookup; add it if chisinau is added to flCO so the selector shows a flag. All other proposed country names already exist in that flag map."
+  },
+  "overlap_and_pitfall_review": [
+    {
+      "candidate_city": "bonifacio",
+      "current_cityForPoint": "sardinia",
+      "decision": "add bonifacio",
+      "reason": "Sardinia is in Italy; the match is caused by bbox plus the gross 0.1° inference margin."
+    },
+    {
+      "candidate_city": "radebeul",
+      "current_cityForPoint": "dresden",
+      "decision": "add radebeul by default; optional retag to dresden",
+      "reason": "Only plausible consolidation, but it changes the staged municipality."
+    },
+    {
+      "candidate_city": "liege",
+      "current_cityForPoint": "bassenge",
+      "decision": "add liege",
+      "reason": "Bassenge is a different municipality; its region flag and large margin create the inference overlap."
+    },
+    {
+      "candidate_city": "rijeka",
+      "current_cityForPoint": "opatija",
+      "decision": "add rijeka",
+      "reason": "Opatija is a separate city; the match is only a permissive-margin fallback."
+    }
+  ],
+  "expected_validation_after": {
+    "candidate_count": 60,
+    "expected_pass": 60,
+    "expected_fail": 0,
+    "checks": [
+      "all 23 proposed ids are unique against live Ci",
+      "all 25 affected coordinates lie inside proposed bboxes without margin",
+      "all existing 35 candidates already pass the live model",
+      "steps is present in the live 63-category model"
+    ]
+  },
+  "production_scope_note": "Historical planning report now applied: all 23 Ci entries and flCO mappings, Moldova's flag lookup and the steps category are live. The final build and 60/60 candidate validation passed after the later tree and hill geography remediation."
+}

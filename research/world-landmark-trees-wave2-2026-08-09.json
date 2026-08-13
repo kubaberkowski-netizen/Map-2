@@ -1,0 +1,2499 @@
+{
+  "meta": {
+    "title": "World landmark trees outside Europe — wave two strict-gate research",
+    "generated_at": "2026-08-09",
+    "repo_copy_status": "imported_as_draft_pending_human_editorial_promotion",
+    "proposed_category": "landmarktrees",
+    "target": 40,
+    "included_count": 24,
+    "deferred_or_rejected_count": 6,
+    "import": {
+      "state": "imported_as_draft",
+      "quality_flag": "d",
+      "imported_count": 24,
+      "do_not_reimport": true,
+      "editorial_status": "pending_human_review_and_promotion",
+      "warning": "Draft import is not human editorial approval. Recheck current access before travel; do not re-import these rows."
+    },
+    "decision": "Stopped at 24 rather than pad. Every include is a named living individual outside Europe with a sourced event or cultural story, current standing/access evidence, an exact coordinate basis and all-high confidence.",
+    "production_fields": [
+      "n",
+      "a",
+      "pc",
+      "lat",
+      "lng",
+      "c",
+      "s",
+      "q",
+      "w",
+      "city"
+    ],
+    "score_dimensions": [
+      "story",
+      "walkability",
+      "distinctiveness",
+      "source_quality",
+      "geographic_value"
+    ],
+    "score_contract": "Minimum 19/25; story and walkability each at least 4/5.",
+    "confidence_contract": [
+      "identity",
+      "coordinates",
+      "access",
+      "status",
+      "story",
+      "dedupe",
+      "overall"
+    ],
+    "source_contract": "At least two useful sources per include, with a land manager, government, heritage authority or other first-party authority for the story/status and an exact-point basis.",
+    "access_contract": "Specific living individual only; formal public path, ticketed public garden, managed sacred precinct, public park or safe public visibility. No climbing, barrier crossing or root-zone shortcuts.",
+    "dedupe_contract": "Normalised primary names and listed aliases checked globally against all 17,131 live catalogue rows and the earlier dossiers; global nearest-neighbour and internal candidate distance checked at 120 m.",
+    "geography": {
+      "countries": {
+        "United States": 8,
+        "Mexico": 1,
+        "Brazil": 1,
+        "South Africa": 1,
+        "Sri Lanka": 1,
+        "India": 2,
+        "Indonesia": 1,
+        "Japan": 4,
+        "South Korea": 1,
+        "New Zealand": 1,
+        "Australia": 3
+      },
+      "continents": {
+        "North America": 9,
+        "South America": 1,
+        "Africa": 1,
+        "Asia": 9,
+        "Oceania": 4
+      },
+      "included_countries": 11
+    },
+    "validation": {
+      "catalogue_spots_checked": 17131,
+      "all_categories_live": true,
+      "all_rows_have_two_or_more_sources": true,
+      "all_scores_at_least_19": true,
+      "all_story_and_walkability_at_least_4": true,
+      "all_confidence_dimensions_high": true,
+      "exact_catalogue_name_or_alias_matches": 0,
+      "manual_sub_120m_reviews": 2,
+      "internal_minimum_distance_m": 89757,
+      "internal_minimum_pair": [
+        "Gloucester Tree",
+        "Giant Tingle Tree"
+      ],
+      "current_live_city_rows": 24,
+      "applied_city_registry_additions": 17,
+      "rows_requiring_city_registry_additions": 0,
+      "checked_at": "2026-08-09",
+      "missing_city_requirements": {
+        "rule": "Historical proposal provenance. The 17 required objects and flCO entries were applied through the reviewed discovery-wave-2 city plan before draft import.",
+          "proposed_city_or_region_objects": [
+          {
+            "id": "jacksonville",
+            "name": "Jacksonville",
+            "label": "Jacksonville",
+            "e": "🇺🇸",
+            "lat": 30.317,
+            "lng": -81.6581,
+            "bbox": [
+              -81.8,
+              30.2,
+              -81.52,
+              30.42
+            ],
+            "blurb": "A river city of walkable historic districts, parks and immense live oaks.",
+            "country": "United States"
+          },
+          {
+            "id": "johnsisland",
+            "name": "Johns Island",
+            "label": "Johns Island",
+            "e": "🇺🇸",
+            "lat": 32.717,
+            "lng": -80.0804,
+            "bbox": [
+              -80.14,
+              32.67,
+              -80.02,
+              32.76
+            ],
+            "blurb": "Lowcountry roads and shaded lanes gathered around one monumental live oak.",
+            "region": 1,
+            "country": "United States"
+          },
+          {
+            "id": "santamariadeltule",
+            "name": "Santa María del Tule",
+            "label": "Santa María del Tule",
+            "e": "🇲🇽",
+            "lat": 17.0465,
+            "lng": -96.6362,
+            "bbox": [
+              -96.68,
+              17.02,
+              -96.6,
+              17.08
+            ],
+            "blurb": "An Oaxacan town whose central churchyard is shaped around a vast ahuehuete.",
+            "country": "Mexico"
+          },
+          {
+            "id": "hampton",
+            "name": "Hampton",
+            "label": "Hampton",
+            "e": "🇺🇸",
+            "lat": 37.03,
+            "lng": -76.345,
+            "bbox": [
+              -76.45,
+              36.95,
+              -76.25,
+              37.1
+            ],
+            "blurb": "A Chesapeake Bay city of historic campuses, waterfront paths and emancipation memory.",
+            "country": "United States"
+          },
+          {
+            "id": "mosselbay",
+            "name": "Mossel Bay",
+            "label": "Mossel Bay",
+            "e": "🇿🇦",
+            "lat": -34.1805,
+            "lng": 22.1415,
+            "bbox": [
+              22,
+              -34.25,
+              22.22,
+              -34.1
+            ],
+            "blurb": "A walkable Garden Route harbour layered with maritime history.",
+            "country": "South Africa"
+          },
+          {
+            "id": "anuradhapura",
+            "name": "Anuradhapura",
+            "label": "Anuradhapura",
+            "e": "🇱🇰",
+            "lat": 8.3447,
+            "lng": 80.3972,
+            "bbox": [
+              80.33,
+              8.27,
+              80.48,
+              8.42
+            ],
+            "blurb": "Sri Lanka's sacred ancient capital, threaded by pilgrimage paths.",
+            "country": "Sri Lanka"
+          },
+          {
+            "id": "bodhgaya",
+            "name": "Bodh Gaya",
+            "label": "Bodh Gaya",
+            "e": "🇮🇳",
+            "lat": 24.6959,
+            "lng": 84.9915,
+            "bbox": [
+              84.95,
+              24.65,
+              85.03,
+              24.73
+            ],
+            "blurb": "The pilgrimage town centred on the place of the Buddha's awakening.",
+            "country": "India"
+          },
+          {
+            "id": "jembrana",
+            "name": "Jembrana",
+            "label": "Jembrana",
+            "e": "🇮🇩",
+            "lat": -8.3868,
+            "lng": 114.8735,
+            "bbox": [
+              114.8,
+              -8.46,
+              114.94,
+              -8.31
+            ],
+            "blurb": "Western Bali's quieter regency of sacred groves, villages and coastal roads.",
+            "region": 1,
+            "country": "Indonesia"
+          },
+          {
+            "id": "hokuto",
+            "name": "Hokuto",
+            "label": "Hokuto",
+            "e": "🇯🇵",
+            "lat": 35.7803,
+            "lng": 138.3677,
+            "bbox": [
+              138.25,
+              35.7,
+              138.5,
+              35.9
+            ],
+            "blurb": "Temple lanes and mountain country beneath the Southern Alps of Yamanashi.",
+            "country": "Japan"
+          },
+          {
+            "id": "miharu",
+            "name": "Miharu",
+            "label": "Miharu",
+            "e": "🇯🇵",
+            "lat": 37.4077,
+            "lng": 140.5001,
+            "bbox": [
+              140.42,
+              37.34,
+              140.58,
+              37.47
+            ],
+            "blurb": "A Fukushima castle town whose lanes converge on an ancient weeping cherry.",
+            "country": "Japan"
+          },
+          {
+            "id": "morioka",
+            "name": "Morioka",
+            "label": "Morioka",
+            "e": "🇯🇵",
+            "lat": 39.7038,
+            "lng": 141.1512,
+            "bbox": [
+              141.08,
+              39.64,
+              141.24,
+              39.78
+            ],
+            "blurb": "A northern castle city where granite, waterways and old streets meet.",
+            "country": "Japan"
+          },
+          {
+            "id": "motosu",
+            "name": "Motosu",
+            "label": "Motosu",
+            "e": "🇯🇵",
+            "lat": 35.6322,
+            "lng": 136.6088,
+            "bbox": [
+              136.52,
+              35.55,
+              136.68,
+              35.7
+            ],
+            "blurb": "Rural Gifu paths gathered around one of Japan's great old cherries.",
+            "country": "Japan"
+          },
+          {
+            "id": "yangpyeong",
+            "name": "Yangpyeong",
+            "label": "Yangpyeong",
+            "e": "🇰🇷",
+            "lat": 37.5499,
+            "lng": 127.5713,
+            "bbox": [
+              127.47,
+              37.47,
+              127.66,
+              37.62
+            ],
+            "blurb": "Mountain-temple country east of Seoul, crossed by forest paths.",
+            "region": 1,
+            "country": "South Korea"
+          },
+          {
+            "id": "waipoua",
+            "name": "Waipoua Forest",
+            "label": "Waipoua Forest",
+            "e": "🇳🇿",
+            "lat": -35.601,
+            "lng": 173.5274,
+            "bbox": [
+              173.45,
+              -35.68,
+              173.59,
+              -35.53
+            ],
+            "blurb": "Northland kauri forest approached on carefully protected walking tracks.",
+            "region": 1,
+            "country": "New Zealand"
+          },
+          {
+            "id": "pemberton",
+            "name": "Pemberton",
+            "label": "Pemberton",
+            "e": "🇦🇺",
+            "lat": -34.4477,
+            "lng": 116.0559,
+            "bbox": [
+              115.95,
+              -34.52,
+              116.13,
+              -34.36
+            ],
+            "blurb": "Karri-forest trails and former fire-lookout trees in southwest Australia.",
+            "country": "Australia"
+          },
+          {
+            "id": "walpole",
+            "name": "Walpole",
+            "label": "Walpole",
+            "e": "🇦🇺",
+            "lat": -34.9843,
+            "lng": 116.7895,
+            "bbox": [
+              116.7,
+              -35.08,
+              116.9,
+              -34.92
+            ],
+            "blurb": "Red-tingle forest walks on Western Australia's wild south coast.",
+            "country": "Australia"
+          },
+          {
+            "id": "flindersranges",
+            "name": "Ikara–Flinders Ranges",
+            "label": "Flinders Ranges",
+            "e": "🇦🇺",
+            "lat": -31.5182,
+            "lng": 138.6386,
+            "bbox": [
+              138.52,
+              -31.66,
+              138.72,
+              -31.38
+            ],
+            "blurb": "Arid ranges where walking trails meet Adnyamathanha country and photographic history.",
+            "region": 1,
+            "country": "Australia"
+          }
+        ],
+          "flCO_mapping": {
+          "jacksonville": "United States",
+          "johnsisland": "United States",
+          "santamariadeltule": "Mexico",
+          "hampton": "United States",
+          "mosselbay": "South Africa",
+          "anuradhapura": "Sri Lanka",
+          "bodhgaya": "India",
+          "jembrana": "Indonesia",
+          "hokuto": "Japan",
+          "miharu": "Japan",
+          "morioka": "Japan",
+          "motosu": "Japan",
+          "yangpyeong": "South Korea",
+          "waipoua": "New Zealand",
+          "pemberton": "Australia",
+          "walpole": "Australia",
+          "flindersranges": "Australia"
+        }
+      }
+    }
+  },
+  "import_metadata": {
+    "status": "imported_as_draft",
+    "imported_at": "2026-08-09",
+    "imported_count": 24,
+    "quality_flag": "d",
+    "do_not_reimport": true,
+    "promotion": "pending_human_editorial_review",
+    "city_registry_plan": "research/discovery-wave-2-city-registry-qa-2026-08-09.json"
+  },
+  "included": [
+    {
+      "id": "survivortree911",
+      "n": "9/11 Survivor Tree",
+      "a": "Memorial Plaza, 180 Greenwich Street, New York, NY",
+      "pc": "10007",
+      "lat": 40.711183,
+      "lng": -74.013533,
+      "c": "landmarktrees",
+      "s": "the pear tree carried out of Ground Zero and brought back",
+      "q": "9/11 Survivor Tree New York United States",
+      "w": "Workers found this Callery pear alive but badly burned beneath the World Trade Center wreckage. New York City Parks nursed it back and returned it in 2010; today it stands in the Memorial Plaza as a living witness whose seedlings travel to communities after later tragedies.",
+      "city": "nyc",
+      "country": "United States",
+      "local_aliases": [
+        "Survivor Tree",
+        "World Trade Center Survivor Tree"
+      ],
+      "species": "Callery pear (Pyrus calleryana)",
+      "age_claim": "Planted in the 1970s; recovered after 11 September 2001",
+      "facts": [
+        "Recovery workers found the damaged tree at Ground Zero in October 2001.",
+        "The rehabilitated tree returned to the memorial site in 2010.",
+        "The outdoor Memorial is free and posts daily opening hours."
+      ],
+      "access": {
+        "classification": "public-path",
+        "evidence": "Free outdoor Memorial Plaza during posted daily hours; the tree is beside the South Pool.",
+        "safety_filter": "Stay on the memorial paving and outside the protected bed; do not touch, climb or cross barriers.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.911memorial.org/visit/memorial/survivor-tree",
+          "role": "9/11 Memorial first-party history, rehabilitation, return and descendant-seedling programme.",
+          "official": true
+        },
+        {
+          "url": "https://www.911memorial.org/visit",
+          "role": "Current first-party public access and daily Memorial hours.",
+          "official": true
+        },
+        {
+          "url": "https://www.waymarking.com/waymarks/wmYKWY_Survivior_Tree_New_York_NY",
+          "role": "Published individual-tree coordinates used as an exact-point cross-check.",
+          "official": false
+        }
+      ],
+      "coordinate_basis": "Published individual-tree coordinates cross-checked against the tree bed on the Memorial Plaza map and first-party location description.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "The live 9/11 Memorial tree page and current visitor page both identify the tree in situ."
+      },
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "mercerlabsmuseumofartand",
+          "n": "Mercer Labs Museum of Art and Technology",
+          "city": "nyc",
+          "distance_m": 363
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "oklahomacitysurvivortree",
+      "n": "Oklahoma City Survivor Tree",
+      "a": "620 North Harvey Avenue, Oklahoma City, OK",
+      "pc": "73102",
+      "lat": 35.4732977,
+      "lng": -97.5167179,
+      "c": "landmarktrees",
+      "s": "the elm left standing after the 1995 bombing",
+      "q": "Oklahoma City Survivor Tree Oklahoma United States",
+      "w": "An American elm that shaded the old parking lot survived the blast that destroyed the Murrah building. The Memorial made it a central emblem of endurance: approach across the outdoor grounds and look back from the rescued tree toward the empty chairs.",
+      "city": "oklahomacity",
+      "country": "United States",
+      "local_aliases": [
+        "American Elm Survivor Tree",
+        "Survivor Tree at Oklahoma City National Memorial"
+      ],
+      "species": "American elm (Ulmus americana)",
+      "age_claim": "About 100 years old",
+      "facts": [
+        "The elm was the only tree in the immediate area to survive the 19 April 1995 bombing.",
+        "Investigators nearly removed it while recovering evidence, but it was preserved.",
+        "The tree stands within the freely accessible Outdoor Symbolic Memorial."
+      ],
+      "access": {
+        "classification": "public-path",
+        "evidence": "Reached on the National Park Service self-guided outdoor memorial route.",
+        "safety_filter": "Use the formal paths and protected viewing space; do not enter the root bed or climb.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.nps.gov/okci/index.htm",
+          "role": "Current National Park Service site status and outdoor memorial visitor context.",
+          "official": true
+        },
+        {
+          "url": "https://www.nps.gov/okci/planyourvisit/self-guided-tour.htm",
+          "role": "NPS self-guided route identifying the Survivor Tree and its story.",
+          "official": true
+        },
+        {
+          "url": "https://www.nps.gov/okci/sitefaqs.htm",
+          "role": "NPS access information for the Outdoor Symbolic Memorial.",
+          "official": true
+        }
+      ],
+      "coordinate_basis": "Exact mapped tree point inside the NPS memorial grounds, cross-checked against the self-guided route and first-party street address.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "The current NPS self-guided tour still presents the elm as a living memorial stop."
+      },
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "usokq638272",
+          "n": "Oklahoma City National Memorial",
+          "city": "oklahomacity",
+          "distance_m": 73
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": true,
+        "result": "net-new-manual-distinct",
+        "review_note": "The nearby catalogue row is the whole memorial; this is the named living elm, a separately visitable stop with its own interpretation."
+      },
+      "draft_only": true
+    },
+    {
+      "id": "austintreatyoak",
+      "n": "Austin Treaty Oak",
+      "a": "507 Baylor Street, Austin, TX",
+      "pc": "78703",
+      "lat": 30.2714658,
+      "lng": -97.7554622,
+      "c": "landmarktrees",
+      "s": "the poisoned live oak that Austin refused to lose",
+      "q": "Austin Treaty Oak Texas United States",
+      "w": "This fenced remnant of an old live-oak grove became a city symbol after deliberate Velpar poisoning in 1989. An extraordinary rescue saved part of its crown; a later vandal hacked at it again, yet the surviving oak still makes this tiny park a charged urban detour.",
+      "city": "austin",
+      "country": "United States",
+      "local_aliases": [
+        "Treaty Oak",
+        "Treaty Oak of Austin"
+      ],
+      "species": "Texas live oak (Quercus fusiformis)",
+      "age_claim": "Commonly described as several centuries old",
+      "facts": [
+        "The oak was deliberately poisoned with the herbicide Velpar in 1989.",
+        "Arborists saved roughly one-third of the original tree.",
+        "A further vandalism incident was documented in March 2024."
+      ],
+      "access": {
+        "classification": "public-park",
+        "evidence": "Visible from the small City of Austin park and included in a 2026 public walking outing.",
+        "safety_filter": "Remain outside the protective fence and root zone; no touching or climbing.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.austintexas.gov/parks/locations/park-directory",
+          "role": "City park directory and current public-site context.",
+          "official": true
+        },
+        {
+          "url": "https://www.tshaonline.org/handbook/entries/treaty-oak",
+          "role": "Texas State Historical Association history and 1989 poisoning account.",
+          "official": false
+        },
+        {
+          "url": "https://www.kut.org/austin/2024-03-15/austins-legendary-treaty-oak-vandalized",
+          "role": "Dated local-public-radio report confirming the tree remained standing after the 2024 attack.",
+          "official": false
+        },
+        {
+          "url": "https://www.meetup.com/austin-sierra-club-outings/events/313179206/",
+          "role": "Dated 2026 public walk including the site as current access corroboration.",
+          "official": false
+        }
+      ],
+      "coordinate_basis": "Fenced tree crown in Treaty Oak Park, fixed from the official park address and cross-checked against current mapped imagery.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "The 2024 damage report and a scheduled 2026 public walk both treat the protected oak as standing."
+      },
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 4,
+        "geographic_value": 3,
+        "total": 22
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "juanpelotacafe",
+          "n": "Juan Pelota Cafe",
+          "city": "austin",
+          "distance_m": 428
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "jacksonvilletreatyoak",
+      "n": "Jacksonville Treaty Oak",
+      "a": "Jessie Ball duPont Park, 1123 Prudential Drive, Jacksonville, FL",
+      "pc": "32207",
+      "lat": 30.3169851,
+      "lng": -81.6581206,
+      "c": "landmarktrees",
+      "s": "a park-sized live oak saved by a newspaper legend",
+      "q": "Jacksonville Treaty Oak Florida United States",
+      "w": "Reporter Pat Moran coined the 'Treaty Oak' story in the 1930s to make Jacksonville protect this immense live oak. Philanthropist Jessie Ball duPont then bought and donated the land, leaving a strange case where an invented legend achieved a very real conservation result.",
+      "city": "jacksonville",
+      "country": "United States",
+      "local_aliases": [
+        "Treaty Oak",
+        "Treaty Oak at Jessie Ball duPont Park"
+      ],
+      "species": "Southern live oak (Quercus virginiana)",
+      "age_claim": "City estimates place it at roughly 250 years",
+      "facts": [
+        "The treaty story was created by journalist Pat Moran in the 1930s.",
+        "Jessie Ball duPont acquired and donated the land around the tree in 1964.",
+        "Jacksonville maintains the tree in a public urban park."
+      ],
+      "access": {
+        "classification": "public-park",
+        "evidence": "The City of Jacksonville lists Jessie Ball duPont Park as the public setting for the tree.",
+        "safety_filter": "Use the open lawn and paths but keep off low limbs and the root zone; no climbing.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.jacksonville.gov/departments/parks-and-recreation/jaxparks/all-parks/jessie-ball-dupont-park",
+          "role": "Current City of Jacksonville park page, address, access and tree setting.",
+          "official": true
+        },
+        {
+          "url": "https://www.jacksonville.gov/departments/public-works/urban-forestry/tree-of-the-month/the-treaty-oak",
+          "role": "City urban-forestry account of the named tree, invented legend, age and preservation.",
+          "official": true
+        }
+      ],
+      "coordinate_basis": "Individual crown centre in Jessie Ball duPont Park cross-checked against both municipal pages and the exact park address.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "Two live City of Jacksonville pages identify and manage the standing tree."
+      },
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 3,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "usflq258851",
+          "n": "World Golf Hall of Fame",
+          "city": "us-fl",
+          "distance_m": 40487
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "angeloak",
+      "n": "Angel Oak",
+      "a": "3688 Angel Oak Road, Johns Island, SC",
+      "pc": "29455",
+      "lat": 32.717045,
+      "lng": -80.0804039,
+      "c": "landmarktrees",
+      "s": "a live oak whose limbs make rooms at ground level",
+      "q": "Angel Oak Johns Island South Carolina United States",
+      "w": "The Angel Oak's immense lateral limbs dip and rise like a timber landscape, turning a short park visit into a walk through the architecture of one living tree. Charleston manages the grove as a free public park with posted hours.",
+      "city": "johnsisland",
+      "country": "United States",
+      "local_aliases": [
+        "Angel Oak Tree"
+      ],
+      "species": "Southern live oak (Quercus virginiana)",
+      "age_claim": "City estimate: 300–400 years",
+      "facts": [
+        "Charleston describes the oak as approximately 300 to 400 years old.",
+        "The public park is free and opens seven days a week at posted hours.",
+        "Protective rules prohibit climbing, sitting on limbs and damaging the root area."
+      ],
+      "access": {
+        "classification": "public-park",
+        "evidence": "Free City of Charleston park with current daily hours.",
+        "safety_filter": "Obey the city's no-climbing and no-sitting-on-limbs rules; remain outside roped areas.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.charleston-sc.gov/153/Angel-Oak",
+          "role": "Municipal tree history, dimensions, age estimate and visitor rules.",
+          "official": true
+        },
+        {
+          "url": "https://www.charleston-sc.gov/Facilities/Facility/Details/7",
+          "role": "Current municipal facility listing with address and public hours.",
+          "official": true
+        }
+      ],
+      "coordinate_basis": "Tree crown centre on the municipal Angel Oak Park parcel, cross-checked to the official facility pin and address.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "Charleston's current tree and facility pages list the oak as the park's living centrepiece."
+      },
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 3,
+        "total": 22
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "wentworthmansion",
+          "n": "Wentworth Mansion",
+          "city": "charleston",
+          "distance_m": 14883
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "emancipationoak",
+      "n": "Emancipation Oak",
+      "a": "Hampton University, 100 East Queen Street, Hampton, VA",
+      "pc": "23668",
+      "lat": 37.0231544,
+      "lng": -76.3303786,
+      "c": "landmarktrees",
+      "s": "the campus oak where freedom was taught and proclaimed",
+      "q": "Emancipation Oak Hampton Virginia United States",
+      "w": "Mary Smith Peake taught newly freed people beneath this oak in 1861, before a school building existed. In 1863, local African Americans gathered here for the first Southern reading of the Emancipation Proclamation—a history still rooted near Hampton University's entrance.",
+      "city": "hampton",
+      "country": "United States",
+      "local_aliases": [
+        "Hampton Emancipation Oak"
+      ],
+      "species": "Southern live oak (Quercus virginiana)",
+      "age_claim": "Standing before the Civil War",
+      "facts": [
+        "Mary Smith Peake held classes for freed people beneath the tree in 1861.",
+        "A public reading of the Emancipation Proclamation took place under it in 1863.",
+        "The tree stands on Hampton University's historic campus near the entrance."
+      ],
+      "access": {
+        "classification": "publicly-visible-campus",
+        "evidence": "Visible on Hampton University's visitor route near the campus entrance; campus rules and security directions apply.",
+        "safety_filter": "Stay on campus paths and outside the protected root area; visit only during permitted public access.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://home.hamptonu.edu/about/emancipation-oak/",
+          "role": "Hampton University first-party history and present campus location.",
+          "official": true
+        },
+        {
+          "url": "https://home.hamptonu.edu/visitor/",
+          "role": "Current university visitor guidance and campus access context.",
+          "official": true
+        },
+        {
+          "url": "https://home.hamptonu.edu/about/2025/07/07/the-contrabands-frank-baker-shepard-mallory-james-townsend/",
+          "role": "Dated 2025 university history article corroborating the emancipation setting.",
+          "official": true
+        }
+      ],
+      "coordinate_basis": "Individual oak beside the historic campus entrance, cross-checked against Hampton's campus visitor mapping and first-party description.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "Hampton University's current history and visitor pages continue to identify the tree in situ."
+      },
+      "editorial_score": {
+        "story": 5,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "usvaq2598142",
+          "n": "The Mariners' Museum",
+          "city": "us-va",
+          "distance_m": 14414
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "treethatownsitself",
+      "n": "Tree That Owns Itself",
+      "a": "South Finley Street at Dearing Street, Athens, GA",
+      "pc": "30605",
+      "lat": 33.9550376,
+      "lng": -83.3823765,
+      "c": "landmarktrees",
+      "s": "the heir to a tree supposedly deeded its own land",
+      "q": "Tree That Owns Itself Athens Georgia United States",
+      "w": "Local legend says Colonel William Jackson deeded this oak—and the ground within eight feet of it—to the tree itself. The original fell in 1942; Athenians planted one of its acorns here in 1946, so today's living landmark is both offspring and legal folk tale.",
+      "city": "us-ga",
+      "country": "United States",
+      "local_aliases": [
+        "Son of the Tree That Owns Itself",
+        "Jackson Oak"
+      ],
+      "species": "White oak (Quercus alba)",
+      "age_claim": "Current descendant planted in 1946",
+      "facts": [
+        "The deed story is a local legend rather than a surviving legal instrument.",
+        "The original oak fell in 1942.",
+        "The present tree was grown from one of the original's acorns and planted in 1946."
+      ],
+      "access": {
+        "classification": "public-street-corner",
+        "evidence": "Visible from the pavement at a residential street corner promoted by Athens' official destination service.",
+        "safety_filter": "Remain on the pavement and outside the low enclosure; respect neighbouring homes.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.visitathensga.com/things-to-do/attractions/the-tree-that-owns-itself/",
+          "role": "Official destination history, public location and successor-tree account.",
+          "official": true
+        },
+        {
+          "url": "https://www.visitathensga.com/listing/the-tree-that-owns-itself/234/",
+          "role": "Current official listing and exact street-corner visitor details.",
+          "official": true
+        }
+      ],
+      "coordinate_basis": "Exact enclosed tree point at South Finley and Dearing, cross-checked against the official destination listing map.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "The current Athens destination pages identify the 1946 descendant at the street corner."
+      },
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 4,
+        "geographic_value": 3,
+        "total": 22
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "usgaq5547611",
+          "n": "Georgia Museum of Art",
+          "city": "us-ga",
+          "distance_m": 1911
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "generalgranttree",
+      "n": "General Grant Tree",
+      "a": "General Grant Grove, Kings Canyon National Park, CA",
+      "pc": "93628",
+      "lat": 36.7480556,
+      "lng": -118.9711111,
+      "c": "landmarktrees",
+      "s": "America's living national shrine on an easy forest loop",
+      "q": "General Grant Tree Kings Canyon California United States",
+      "w": "President Coolidge named this giant sequoia the Nation's Christmas Tree in 1926; Congress later made it the country's only living national shrine. A short paved loop lets the political symbolism arrive only after the sheer physical scale.",
+      "city": "us-ca",
+      "country": "United States",
+      "local_aliases": [
+        "Nation's Christmas Tree",
+        "General Grant Sequoia"
+      ],
+      "species": "Giant sequoia (Sequoiadendron giganteum)",
+      "age_claim": "A mature giant sequoia standing for millennia",
+      "facts": [
+        "President Calvin Coolidge designated it the Nation's Christmas Tree in 1926.",
+        "Congress designated it a living national shrine in 1956.",
+        "The National Park Service describes the General Grant Trail as an easy half-mile loop."
+      ],
+      "access": {
+        "classification": "public-national-park-trail",
+        "evidence": "Reached on the signed General Grant Trail; park entrance conditions and winter ice can affect the walk.",
+        "safety_filter": "Stay on the paved/formal trail, never touch or climb the sequoia, and check NPS conditions.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.nps.gov/thingstodo/general-grant-tree.htm",
+          "role": "Current NPS tree facts, titles, trail length, location and safety/access details.",
+          "official": true
+        },
+        {
+          "url": "https://www.nps.gov/seki/learn/news/100th-annual-trek-to-the-nation-s-christmas-tree-scheduled-for-december-14th.htm",
+          "role": "Dated December 2025 NPS release confirming the living tree and centennial public ceremony.",
+          "official": true
+        }
+      ],
+      "coordinate_basis": "NPS place location at the named tree on the General Grant loop, cross-checked to the official trailhead description.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "NPS updated the visitor page in 2025 and held the centennial tree ceremony in December 2025."
+      },
+      "editorial_score": {
+        "story": 5,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "uscaq16995893",
+          "n": "Hospital Rock",
+          "city": "us-ca",
+          "distance_m": 30883
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "arboldeltule",
+      "n": "Árbol del Tule",
+      "a": "Plaza de la Iglesia, Santa María del Tule, Oaxaca",
+      "pc": "68297",
+      "lat": 17.0464679,
+      "lng": -96.6361632,
+      "c": "landmarktrees",
+      "s": "a Montezuma cypress with a trunk like a small square",
+      "q": "Árbol del Tule Santa María del Tule Mexico",
+      "w": "This ancient ahuehuete dominates the churchyard so completely that local guides find animal shapes in its folded trunk. Oaxaca's tourism authority treats the tree—and the town built around visiting it—as a stop in its own right.",
+      "city": "santamariadeltule",
+      "country": "Mexico",
+      "local_aliases": [
+        "El Árbol del Tule",
+        "Tule Tree",
+        "Ahuehuete del Tule"
+      ],
+      "species": "Montezuma cypress (Taxodium mucronatum)",
+      "age_claim": "Official tourism sources describe it as more than two millennia old",
+      "facts": [
+        "The named cypress stands beside the church of Santa María del Tule.",
+        "Its exceptionally broad, folded trunk is the centre of the local visitor experience.",
+        "Oaxaca's tourism authority continued programming events around the tree in 2025."
+      ],
+      "access": {
+        "classification": "public-churchyard-view",
+        "evidence": "Viewed from the central plaza and managed churchyard; local ticketing or viewing controls may apply.",
+        "safety_filter": "Use the visitor path and respect barriers, services and the root-protection area.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.oaxaca.travel/index.php/es/all-destinations-es/santa-maria-del-tule",
+          "role": "Oaxaca tourism authority destination page for the tree, town and visitor story.",
+          "official": true
+        },
+        {
+          "url": "https://www.oaxaca.travel/index.php/es/activities-2/alternate-blog/guelaguetza-del-tule",
+          "role": "Dated official tourism programming corroborating the living landmark's current public role.",
+          "official": true
+        },
+        {
+          "url": "https://www.oaxaca.travel/index.php/es/sitios-de-interes-es/rutas-tursiticas-es/rutas-e-itinerarios/rutas-e-itinerarios/ruta-caminos-del-mezcal-itinerario-1-dia",
+          "role": "Official itinerary and access context.",
+          "official": true
+        }
+      ],
+      "coordinate_basis": "Individual tree centre in the Santa María del Tule churchyard, cross-checked against the official destination map and current mapped imagery.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "The Oaxaca tourism authority continues to market and programme visits around the living tree."
+      },
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "jalatlacostreetart",
+          "n": "Jalatlaco Street Art",
+          "city": "oaxaca",
+          "distance_m": 8473
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "figueiradaslagrimas",
+      "n": "Figueira das Lágrimas",
+      "a": "Estrada das Lágrimas 505, Sacomã, São Paulo",
+      "pc": "04233-060",
+      "lat": -23.6059847,
+      "lng": -46.598589,
+      "c": "landmarktrees",
+      "s": "São Paulo's farewell fig at the old road out of town",
+      "q": "Figueira das Lágrimas São Paulo Brazil",
+      "w": "Travellers once said goodbye beneath this fig on the road toward Santos, giving it the 'Fig Tree of Tears' name. São Paulo restored the small square around its oldest celebrated tree, preserving an emotional threshold inside the modern city.",
+      "city": "saopaulo",
+      "country": "Brazil",
+      "local_aliases": [
+        "Figueira das Lagrimas",
+        "Fig Tree of Tears"
+      ],
+      "species": "Fig (Ficus species)",
+      "age_claim": "Municipal sources describe it as São Paulo's oldest tree",
+      "facts": [
+        "The name recalls farewells made on the historic road toward Santos.",
+        "São Paulo created and restored a public square around the tree.",
+        "A daughter tree was planted for the bicentenary of Brazilian independence."
+      ],
+      "access": {
+        "classification": "public-square",
+        "evidence": "The mature fig is visible from the municipal square and pavement on Estrada das Lágrimas.",
+        "safety_filter": "Use the square and pavement; stay outside protective edging and do not climb.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://prefeitura.sp.gov.br/w/noticia/prefeitura-entrega-praca-onde-vive-a-arvore-mais-antiga-da-cidade-de-sao-paulo",
+          "role": "São Paulo municipality account of the restored public square and oldest-tree claim.",
+          "official": true
+        },
+        {
+          "url": "https://prefeitura.sp.gov.br/w/noticia/nos-200-anos-de-independencia-do-brasil-figueira-das-lagrimas-tem-201cfilha201d-plantada-entre-a-avenida-dom-pedro-i-e-praca-do-monumento",
+          "role": "Municipal history and daughter-tree planting.",
+          "official": true
+        },
+        {
+          "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/02/08/de-quem-eram-as-lagrimas-que-deram-nome-a-famosa-estrada-de-sp.htm",
+          "role": "Dated February 2026 current-status and name-story corroboration.",
+          "official": false
+        }
+      ],
+      "coordinate_basis": "Mature tree crown at the municipal Figueira das Lágrimas square, fixed from the city address and cross-checked against mapped imagery.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A February 2026 local report and live municipal pages still identify the tree at the restored square."
+      },
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 4,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "ipirangamuseum",
+          "n": "Ipiranga Museum",
+          "city": "saopaulo",
+          "distance_m": 2553
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "postofficetree",
+      "n": "Post Office Tree",
+      "a": "Bartolomeu Dias Museum Complex, Market Street, Mossel Bay",
+      "pc": "6500",
+      "lat": -34.1804529,
+      "lng": 22.1414507,
+      "c": "landmarktrees",
+      "s": "the milkwood that became a sailors' post office",
+      "q": "Post Office Tree Mossel Bay South Africa",
+      "w": "In 1501, Pedro de Ataíde reportedly left a letter in a sailor's shoe beneath this milkwood; a later fleet found it, establishing a message drop on the Cape route. The museum garden still pairs the living tree with a boot-shaped post box.",
+      "city": "mosselbay",
+      "country": "South Africa",
+      "local_aliases": [
+        "Mossel Bay Post Office Tree",
+        "Old Milkwood Tree"
+      ],
+      "species": "Milkwood (Sideroxylon inerme)",
+      "age_claim": "Historic mature tree associated with the 1501 message",
+      "facts": [
+        "The museum dates the first recorded letter cache beneath the tree to 1501.",
+        "A boot-shaped post box beside it continues the postal motif.",
+        "The tree is inside the ticketed Bartolomeu Dias Museum Complex gardens."
+      ],
+      "access": {
+        "classification": "ticketed-public-garden",
+        "evidence": "Public during current museum-complex opening hours with admission conditions.",
+        "safety_filter": "Follow museum paths and barriers; do not touch, climb or leave objects at the tree itself.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://diasmuseum.co.za/post-office-tree/",
+          "role": "First-party museum history of the individual tree and 1501 letter.",
+          "official": true
+        },
+        {
+          "url": "https://diasmuseum.co.za/complex/",
+          "role": "Current museum-complex visitor context and public facilities.",
+          "official": true
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/2694265433",
+          "role": "Live named tree object and exact-coordinate corroboration.",
+          "official": false
+        }
+      ],
+      "coordinate_basis": "Live OSM named node 2694265433 cross-checked against the museum's first-party garden description.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "The live museum visitor pages continue to present the living tree as a core outdoor exhibit."
+      },
+      "editorial_score": {
+        "story": 5,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "karoodesertnationalbotan",
+          "n": "Karoo Desert National Botanical Garden",
+          "city": "worcester",
+          "distance_m": 256704
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "jayasrimahabodhi",
+      "n": "Jaya Sri Maha Bodhi",
+      "a": "Mahamewuna Garden, Anuradhapura",
+      "pc": "50000",
+      "lat": 8.3447103,
+      "lng": 80.3972255,
+      "c": "landmarktrees",
+      "s": "a living pilgrimage tree tended through more than two millennia",
+      "q": "Jaya Sri Maha Bodhi Anuradhapura Sri Lanka",
+      "w": "Tradition holds that this sacred fig grew from a branch of the Bodhi tree under which the Buddha awakened, brought to Anuradhapura in the third century BCE. It remains a living focus of ritual inside the ancient city's walkable sacred precinct.",
+      "city": "anuradhapura",
+      "country": "Sri Lanka",
+      "local_aliases": [
+        "Sri Maha Bodhi",
+        "Jaya Sri Maha Bodhiya",
+        "ජය ශ්‍රී මහා බෝධිය"
+      ],
+      "species": "Sacred fig (Ficus religiosa)",
+      "age_claim": "Planted in the third century BCE according to the site's documented tradition",
+      "facts": [
+        "The tree is traditionally traced to a branch brought from Bodh Gaya in the third century BCE.",
+        "It forms part of UNESCO-listed Sacred City of Anuradhapura.",
+        "Sri Lanka's President attended the 2026 National New Rice Festival at the tree precinct."
+      ],
+      "access": {
+        "classification": "public-sacred-precinct",
+        "evidence": "Public pilgrimage precinct subject to temple hours, dress and ritual controls.",
+        "safety_filter": "Dress respectfully, remove footwear where directed, use the pilgrim paths and never touch or cross the tree enclosure.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/200/",
+          "role": "UNESCO context for the Sacred City and its living Bodhi-tree tradition.",
+          "official": true
+        },
+        {
+          "url": "https://ccf.gov.lk/heritage-sites/anuradhapura/",
+          "role": "Sri Lanka Central Cultural Fund visitor and heritage context.",
+          "official": true
+        },
+        {
+          "url": "https://pmd.gov.lk/news/national-new-rice-festival-held-under-presidents-patronage/",
+          "role": "Dated April 2026 official event confirming active public and ritual use.",
+          "official": true
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/3657323592",
+          "role": "Live named individual-tree map object and exact coordinate.",
+          "official": false
+        }
+      ],
+      "coordinate_basis": "Live OSM named node 3657323592 cross-checked against the UNESCO/CCF sacred precinct and official 2026 event location.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "An April 2026 official ceremony was held at the tree precinct, corroborating living status and active access."
+      },
+      "editorial_score": {
+        "story": 5,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "yapahuwarockfortress",
+          "n": "Yapahuwa Rock Fortress",
+          "city": "maho",
+          "distance_m": 57818
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "bodhitreebodhgaya",
+      "n": "Bodhi Tree at Bodh Gaya",
+      "a": "Mahabodhi Temple Complex, Bodh Gaya, Bihar",
+      "pc": "824231",
+      "lat": 24.6959139,
+      "lng": 84.9914694,
+      "c": "landmarktrees",
+      "s": "the living successor at Buddhism's place of awakening",
+      "q": "Bodhi Tree Bodh Gaya India",
+      "w": "The present sacred fig stands at the traditional place where Siddhartha Gautama attained enlightenment. It is a successor in the site's long living lineage, protected within the Mahabodhi Temple complex and approached through one of the world's great pilgrimage landscapes.",
+      "city": "bodhgaya",
+      "country": "India",
+      "local_aliases": [
+        "Mahabodhi Bodhi Tree",
+        "Bodhi Tree of Enlightenment",
+        "बोधि वृक्ष"
+      ],
+      "species": "Sacred fig (Ficus religiosa)",
+      "age_claim": "Present successor in the historic Bodhi-tree lineage",
+      "facts": [
+        "The tree marks the traditional place of the Buddha's enlightenment.",
+        "It stands immediately west of the main Mahabodhi Temple.",
+        "The present tree is a living successor rather than the original ancient trunk."
+      ],
+      "access": {
+        "classification": "public-sacred-complex",
+        "evidence": "Inside the ticketed/controlled Mahabodhi Temple pilgrimage complex during posted access periods.",
+        "safety_filter": "Follow security, dress and footwear rules; stay outside the enclosure and never touch leaves, trunk or roots.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1056",
+          "role": "UNESCO description of the Mahabodhi complex and sacred Bodhi-tree location.",
+          "official": true
+        },
+        {
+          "url": "https://tourism.bihar.gov.in/en/destinations/gaya/mahabodhi-temple",
+          "role": "Current Bihar Tourism page identifying the living Bodhi tree and public destination.",
+          "official": true
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Bodhipuu_Bodh_Gaya_ajaloolise_Buddha_virgumuse_paigas.jpg",
+          "role": "Geotagged on-site image used to cross-check the exact individual-tree point.",
+          "official": false
+        }
+      ],
+      "coordinate_basis": "Geotagged individual-tree imagery cross-checked against UNESCO's plan description and current Bihar Tourism mapping.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "UNESCO and the live 2026 Bihar Tourism destination page identify the living tree within the operating complex."
+      },
+      "editorial_score": {
+        "story": 5,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "jantarmantarvaranasi",
+          "n": "Jantar Mantar Varanasi",
+          "city": "varanasi",
+          "distance_m": 210996
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "greatbanyan",
+      "n": "Great Banyan",
+      "a": "Acharya Jagadish Chandra Bose Indian Botanic Garden, Shibpur, Howrah",
+      "pc": "711103",
+      "lat": 22.560825,
+      "lng": 88.2866641,
+      "c": "landmarktrees",
+      "s": "a banyan that survived the loss of its own main trunk",
+      "q": "Great Banyan Howrah Kolkata India",
+      "w": "Cyclones and decay led gardeners to remove the Great Banyan's main trunk in 1925, yet its ring of prop roots kept expanding into a forest-like organism. Walking the perimeter makes the usual idea of a single tree feel suddenly inadequate.",
+      "city": "kolkata",
+      "country": "India",
+      "local_aliases": [
+        "Great Banyan Tree",
+        "Mahābaṭa"
+      ],
+      "species": "Banyan (Ficus benghalensis)",
+      "age_claim": "Documented in the garden for more than two centuries",
+      "facts": [
+        "The decayed main trunk was removed in 1925.",
+        "Thousands of connected prop roots preserve the living named organism and canopy.",
+        "The Botanical Survey of India operates the public botanic garden and received an official visit at the tree in June 2026."
+      ],
+      "access": {
+        "classification": "ticketed-public-botanic-garden",
+        "evidence": "Reached on public garden paths during the Botanical Survey of India's posted opening hours.",
+        "safety_filter": "Keep to the perimeter road and barriers; do not enter the prop-root colony or touch aerial roots.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.bsi.gov.in/Flora_of_India",
+          "role": "Botanical Survey of India current page recording an official visit to the Great Banyan on 29 June 2026.",
+          "official": true
+        },
+        {
+          "url": "https://bsi.gov.in/garden-page/en?rcu=140%2C27",
+          "role": "Current BSI garden visitor hours and public-access information.",
+          "official": true
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/13915062452",
+          "role": "Live named tree object and exact-coordinate corroboration.",
+          "official": false
+        }
+      ],
+      "coordinate_basis": "Live OSM named node 13915062452, cross-checked against the BSI garden layout and official visit record.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "The Botanical Survey of India documented a visit to the Great Banyan on 29 June 2026."
+      },
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "acharyajagadishchandrabo",
+          "n": "Acharya Jagadish Chandra Bose Indian Botanic Garden",
+          "city": "kolkata",
+          "distance_m": 41
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": true,
+        "result": "net-new-manual-distinct",
+        "review_note": "The 41 m catalogue neighbour is the whole botanic garden; this row is the named living banyan within it."
+      },
+      "draft_only": true
+    },
+    {
+      "id": "bunutbolong",
+      "n": "Bunut Bolong",
+      "a": "Manggissari, Pekutatan, Jembrana, Bali",
+      "pc": "82262",
+      "lat": -8.3867737,
+      "lng": 114.8735337,
+      "c": "landmarktrees",
+      "s": "a sacred fig whose roots form the road tunnel",
+      "q": "Bunut Bolong Jembrana Bali Indonesia",
+      "w": "The road through Manggissari passes directly beneath a natural arch in the roots and trunk of this sacred fig. A small shrine and local taboo turn an everyday road crossing into a living threshold rather than a scenic drive-through curiosity.",
+      "city": "jembrana",
+      "country": "Indonesia",
+      "local_aliases": [
+        "Bunut Bolong Tree",
+        "Pohon Bunut Bolong"
+      ],
+      "species": "Bunut/fig (Ficus species)",
+      "age_claim": "Long-established sacred village tree; no precise age retained",
+      "facts": [
+        "The active local road passes through a natural opening in the living tree.",
+        "A shrine and local ritual tradition are attached to the tree.",
+        "Jembrana's tourism authority continues to list it as a public destination."
+      ],
+      "access": {
+        "classification": "safe-roadside-visibility",
+        "evidence": "Visible from the roadside and shrine area; traffic passes through the arch.",
+        "safety_filter": "Do not stand in the carriageway, touch offerings, enter roots, or climb; use the safest available verge/viewing space.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://pariwisata.jembranakab.go.id/view-dtw/bunut-bolong",
+          "role": "Jembrana tourism authority destination page and cultural story.",
+          "official": true
+        },
+        {
+          "url": "https://pekutatan.jembranakab.go.id/konten/potensi-pariwisata",
+          "role": "Pekutatan government tourism listing and locality corroboration.",
+          "official": true
+        },
+        {
+          "url": "https://disparbud.jembranakab.go.id/berita-view/83",
+          "role": "Dated 2025 local tourism authority update.",
+          "official": true
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/4760876821",
+          "role": "Live named tree/attraction object and exact coordinate.",
+          "official": false
+        }
+      ],
+      "coordinate_basis": "Live OSM named node 4760876821 cross-checked to government destination photography and the road alignment.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "Local government tourism pages and a dated 2025 update continue to treat the living road-arch as visitable."
+      },
+      "editorial_score": {
+        "story": 4,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "botanicgardenubud",
+          "n": "Botanic Garden Ubud",
+          "city": "ubud",
+          "distance_m": 44488
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "yamatakajindaizakura",
+      "n": "Yamataka Jindai Zakura",
+      "a": "Jissō-ji, 2763 Yamataka, Mukawa-cho, Hokuto, Yamanashi",
+      "pc": "408-0306",
+      "lat": 35.78025,
+      "lng": 138.367694,
+      "c": "landmarktrees",
+      "s": "a national-monument cherry held up by centuries of care",
+      "q": "Yamataka Jindai Zakura Hokuto Japan",
+      "w": "This ancient Edohigan cherry stands in the grounds of Jissō-ji, wrapped in legends of the warrior Yamato Takeru and later revival by Nichiren. Supports and careful arboriculture are visible parts of the encounter: survival itself is the spectacle.",
+      "city": "hokuto",
+      "country": "Japan",
+      "local_aliases": [
+        "Jindai-zakura",
+        "Jindai Sakura",
+        "山高神代桜"
+      ],
+      "species": "Edohigan cherry (Prunus pendula f. ascendens)",
+      "age_claim": "Traditionally claimed to be around two millennia old",
+      "facts": [
+        "Japan designated the tree a national Natural Monument.",
+        "Local tradition connects it to Yamato Takeru and Nichiren.",
+        "The tree stands in the publicly visited grounds of Jissō-ji temple."
+      ],
+      "access": {
+        "classification": "public-temple-grounds",
+        "evidence": "Visited from Jissō-ji's formal grounds; blossom-season controls and crowds may apply.",
+        "safety_filter": "Use the marked viewing path, respect worship and never pass supports or root barriers.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/japans-local-treasures/jindai-zakura-2020/",
+          "role": "JNTO history, national designation, temple setting and visitor context.",
+          "official": true
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Jindai-zakura,_Hokuto",
+          "role": "Current geotagged media used for individual-tree identity and coordinate cross-check.",
+          "official": false
+        }
+      ],
+      "coordinate_basis": "Geotagged individual-tree media at Jissō-ji cross-checked against JNTO's named destination and temple address.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "The live JNTO destination and current mapped media show the supported living cherry in place."
+      },
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 4,
+        "geographic_value": 4,
+        "total": 22
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "funatsutainaishrine",
+          "n": "Funatsu Tainai Shrine",
+          "city": "fujiyoshida",
+          "distance_m": 47628
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "miharutakizakura",
+      "n": "Miharu Takizakura",
+      "a": "Sakurakubo, Taki, Miharu, Fukushima",
+      "pc": "963-7714",
+      "lat": 37.4076698,
+      "lng": 140.5000838,
+      "c": "landmarktrees",
+      "s": "a thousand-year waterfall made of weeping cherry blossom",
+      "q": "Miharu Takizakura Fukushima Japan",
+      "w": "The branching crown of this old weeping cherry falls like a blossom waterfall—the origin of the Takizakura name. It is one of Japan's first nationally designated natural monuments and still anchors a purpose-built walking approach each spring.",
+      "city": "miharu",
+      "country": "Japan",
+      "local_aliases": [
+        "Takizakura",
+        "Miharu Waterfall Cherry",
+        "三春滝桜"
+      ],
+      "species": "Weeping higan cherry (Prunus pendula)",
+      "age_claim": "Commonly estimated at more than 1,000 years",
+      "facts": [
+        "The name Takizakura means waterfall cherry.",
+        "It was among the first cherry trees designated a national Natural Monument.",
+        "Miharu maintains a public seasonal viewing route around the individual tree."
+      ],
+      "access": {
+        "classification": "public-seasonal-viewing-site",
+        "evidence": "Public walking approach; blossom season may require a fee, shuttle or timed crowd controls.",
+        "safety_filter": "Use the official route and viewing platforms; stay beyond root barriers and supports.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/spot/1747/",
+          "role": "JNTO tree identity, designation, seasonal visitor access and transport.",
+          "official": true
+        },
+        {
+          "url": "https://www.japan.travel/th/th/newsletter/weeping-sakura-fukushima/",
+          "role": "Dated 2026 JNTO feature confirming the living tree and current blossom visit.",
+          "official": true
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/268543275",
+          "role": "Live named individual-tree object and exact coordinate.",
+          "official": false
+        }
+      ],
+      "coordinate_basis": "Live OSM named node 268543275 cross-checked against JNTO's destination map and seasonal access description.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A 2026 JNTO feature promotes the living tree for the current blossom season."
+      },
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "basie",
+          "n": "Basie",
+          "city": "ichinoseki",
+          "distance_m": 178005
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "ishiwarizakura",
+      "n": "Ishiwarizakura",
+      "a": "9-1 Uchimaru, Morioka, Iwate",
+      "pc": "020-0023",
+      "lat": 39.7037896,
+      "lng": 141.1512335,
+      "c": "landmarktrees",
+      "s": "the cherry that split a granite boulder in two",
+      "q": "Ishiwarizakura Morioka Japan",
+      "w": "A living Edohigan cherry rises from a crack in a monumental granite boulder outside Morioka's courthouse. The impossible-looking union of trunk and stone is accessible from the pavement, with a 2026 tourism listing still timing visits to its brief spring bloom.",
+      "city": "morioka",
+      "country": "Japan",
+      "local_aliases": [
+        "Rock-Splitting Cherry Tree",
+        "Ishi-wari-zakura",
+        "石割桜"
+      ],
+      "species": "Edohigan cherry (Prunus pendula f. ascendens)",
+      "age_claim": "Estimated at roughly 360–400 years",
+      "facts": [
+        "The trunk grows directly from a split in a granite boulder.",
+        "The tree is a nationally designated Natural Monument.",
+        "The individual stands in central Morioka beside the courthouse."
+      ],
+      "access": {
+        "classification": "public-pavement-view",
+        "evidence": "Visible at close range from the public frontage in central Morioka.",
+        "safety_filter": "Stay on the viewing pavement, heed bloom-season crowd controls and do not step onto the rock or roots.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/sg/jbyj-blog/the-rock-splitting-cherry-tree/",
+          "role": "JNTO story, identity and central-Morioka visitor context.",
+          "official": true
+        },
+        {
+          "url": "https://www.japan47go.travel/en/detail/cd7df6a5-4f95-4675-8d05-0c88cf541278",
+          "role": "Japan47Go listing updated 4 February 2026 with current access and bloom details.",
+          "official": true
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/6765472585",
+          "role": "Live named individual-tree object and exact coordinate.",
+          "official": false
+        }
+      ],
+      "coordinate_basis": "Live OSM named node 6765472585 cross-checked against official tourism mapping and the courthouse frontage.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "Japan47Go updated the public attraction listing in February 2026."
+      },
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "matsuominematsuokouzan",
+          "n": "Matsuo Mine (Matsuo Kouzan)",
+          "city": "semboku",
+          "distance_m": 31805
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "neodaniusuzumizakura",
+      "n": "Neodani Usuzumi Zakura",
+      "a": "995 Neoitasho, Motosu, Gifu",
+      "pc": "501-1524",
+      "lat": 35.632222,
+      "lng": 136.608778,
+      "c": "landmarktrees",
+      "s": "the cherry whose petals fade to pale ink before falling",
+      "q": "Neodani Usuzumi Zakura Motosu Gifu Japan",
+      "w": "This ancient cherry's blossom changes from pink to white and then to the pale ink-grey that gives Usuzumi its name. Legend links its planting to Emperor Keitai; modern visitors reach it through a public park approach and see the braces that keep the huge crown alive.",
+      "city": "motosu",
+      "country": "Japan",
+      "local_aliases": [
+        "Usuzumi-zakura",
+        "Usuzumi Sakura",
+        "根尾谷淡墨ザクラ"
+      ],
+      "species": "Edohigan cherry (Prunus pendula f. ascendens)",
+      "age_claim": "Traditionally claimed to be more than 1,500 years old",
+      "facts": [
+        "The name refers to the blossom's pale ink-grey colour before petal fall.",
+        "The tree is a nationally designated Natural Monument.",
+        "A public park and seasonal route provide access to the protected individual."
+      ],
+      "access": {
+        "classification": "public-park",
+        "evidence": "Reached through Usuzumi Park; blossom-season transport, weather and crowd controls may apply.",
+        "safety_filter": "Remain on formal paths and outside all crown-support and root-protection barriers.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/spot/1248/",
+          "role": "JNTO identity, colour-change story, legend and visitor access.",
+          "official": true
+        },
+        {
+          "url": "https://www.japan47go.travel/en/detail/8301148c-cce0-41f7-91ed-2fd3668ab035",
+          "role": "Japan47Go listing updated 10 March 2026 with current attraction status.",
+          "official": true
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Category:Usuzumi_zakura",
+          "role": "Geotagged current media used to cross-check the exact individual-tree point.",
+          "official": false
+        }
+      ],
+      "coordinate_basis": "Published destination coordinate and geotagged individual-tree media cross-checked against JNTO's Usuzumi Park description.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "The national tourism listing was updated in March 2026 and continues to present the living tree."
+      },
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "momotaroshrine",
+          "n": "Momotaro Shrine",
+          "city": "inuyama",
+          "distance_m": 38571
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "yongmunsaginkgo",
+      "n": "Yongmunsa Ginkgo",
+      "a": "782 Yongmunsan-ro, Yongmun-myeon, Yangpyeong-gun",
+      "pc": "12510",
+      "lat": 37.5498777,
+      "lng": 127.571282,
+      "c": "landmarktrees",
+      "s": "a temple ginkgo guarded by royal and wartime legends",
+      "q": "Yongmunsa Ginkgo Yangpyeong South Korea",
+      "w": "An immense ginkgo rises beside Yongmunsa with stories tying it to the last Silla crown prince, a king's staff and a mysterious survival during war. The final approach is a gentle temple walk, letting the tree appear gradually rather than as a roadside specimen.",
+      "city": "yangpyeong",
+      "country": "South Korea",
+      "local_aliases": [
+        "Ginkgo Tree of Yongmunsa Temple",
+        "Yongmunsa Ginkgo Tree",
+        "용문사 은행나무"
+      ],
+      "species": "Ginkgo (Ginkgo biloba)",
+      "age_claim": "Traditionally estimated at more than 1,000 years",
+      "facts": [
+        "South Korea protects the tree as a Natural Monument.",
+        "Multiple recorded legends explain its planting and survival.",
+        "The tree is reached on the public walking approach to Yongmunsa temple."
+      ],
+      "access": {
+        "classification": "public-temple-path",
+        "evidence": "Open year-round according to current visitor listings; temple admission or seasonal controls may apply.",
+        "safety_filter": "Use the signed temple path, observe worship etiquette and stay outside the trunk/root enclosure.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://encykorea.aks.ac.kr/Article/E0039483",
+          "role": "Academy of Korean Studies heritage record for identity, protection and legends.",
+          "official": true
+        },
+        {
+          "url": "https://info.koreacharts.com/tour/3537762/contents.html",
+          "role": "Dated July 2026 visitor listing with current access context.",
+          "official": false
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/7576780299",
+          "role": "Live named individual-tree object and exact coordinate.",
+          "official": false
+        }
+      ],
+      "coordinate_basis": "Live OSM named node 7576780299 cross-checked against the heritage record and Yongmunsa address.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A July 2026 visitor listing and live mapped individual both identify the standing tree."
+      },
+      "editorial_score": {
+        "story": 4,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "spot642",
+          "n": "해양박물관",
+          "city": "seoul",
+          "distance_m": 38539
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "tanemahuta",
+      "n": "Tāne Mahuta",
+      "a": "Waipoua Forest, State Highway 12, Northland",
+      "pc": "0376",
+      "lat": -35.60097,
+      "lng": 173.52743,
+      "c": "landmarktrees",
+      "s": "the forest lord reached by a protected kauri walk",
+      "q": "Tāne Mahuta Waipoua Forest New Zealand",
+      "w": "New Zealand's largest known living kauri carries the name of the Māori forest god and stands as a taonga in Waipoua. The encounter is intentionally controlled: a short boardwalk, hygiene station and daily managed hours protect the tree from kauri dieback.",
+      "city": "waipoua",
+      "country": "New Zealand",
+      "local_aliases": [
+        "Tane Mahuta",
+        "Lord of the Forest"
+      ],
+      "species": "Kauri (Agathis australis)",
+      "age_claim": "Commonly estimated at roughly 1,250–2,500 years",
+      "facts": [
+        "The Department of Conservation identifies Tāne Mahuta as New Zealand's largest known living kauri.",
+        "The track reopened with a blessing in December 2024 after protective work.",
+        "DOC's March 2026 release says Tāne Mahuta remains open while other Waipoua kauri walks close."
+      ],
+      "access": {
+        "classification": "managed-public-boardwalk",
+        "evidence": "DOC's live project page posts daily managed opening hours of 09:00–16:00; conditions can change.",
+        "safety_filter": "Use the cleaning station and boardwalk exactly as directed; never leave the path or touch kauri roots/trunk.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.doc.govt.nz/news/media-releases/2026-media-releases/waipoua-forest-embarks-on-bold-kauri-walks-expansion-to-enhance-visitor-experience-and-protect-trees/",
+          "role": "DOC release of 11 March 2026 explicitly confirming Tāne Mahuta remains open.",
+          "official": true
+        },
+        {
+          "url": "https://www.doc.govt.nz/our-work/rakau-rangatira-project/",
+          "role": "Live DOC project page with daily managed hours and protection rules.",
+          "official": true
+        },
+        {
+          "url": "https://www.doc.govt.nz/news/media-releases/2024-media-releases/tane-mahuta-reopens-with-blessing/",
+          "role": "DOC reopening record and cultural/protection context.",
+          "official": true
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/683216135",
+          "role": "Live named individual-tree object and exact coordinate.",
+          "official": false
+        }
+      ],
+      "coordinate_basis": "Live OSM named node 683216135 cross-checked against DOC's boardwalk description and reopening documents.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "DOC explicitly confirmed on 11 March 2026 that the Tāne Mahuta walk remains open."
+      },
+      "editorial_score": {
+        "story": 5,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "gibbsfarm",
+          "n": "Gibbs Farm",
+          "city": "makarau",
+          "distance_m": 131509
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "gloucestertree",
+      "n": "Gloucester Tree",
+      "a": "Burma Road, Pemberton, WA",
+      "pc": "6260",
+      "lat": -34.4476516,
+      "lng": 116.0558533,
+      "c": "landmarktrees",
+      "s": "a living karri fitted out as a former fire lookout",
+      "q": "Gloucester Tree Pemberton Western Australia",
+      "w": "Foresters once climbed metal pegs spiralling around this giant living karri to watch for bushfires from a platform high above the canopy. Climbing is closed, but the grounded encounter is now more honest: a forest walk to an extraordinary tree carrying the infrastructure of another era.",
+      "city": "pemberton",
+      "country": "Australia",
+      "local_aliases": [
+        "Gloucester Fire Lookout Tree"
+      ],
+      "species": "Karri (Eucalyptus diversicolor)",
+      "age_claim": "Mature karri selected as a lookout in 1947",
+      "facts": [
+        "Foresters selected the tree as a fire lookout in 1947.",
+        "Metal climbing pegs and the high platform remain part of the tree's visible history.",
+        "The land manager currently prohibits climbing while retaining public ground-level access."
+      ],
+      "access": {
+        "classification": "public-forest-site-ground-level",
+        "evidence": "DBCA's current site page provides public trail and facility information; the tree is ground-view only.",
+        "safety_filter": "Do not climb the pegs or cross closures; check DBCA alerts and follow forest-fire restrictions.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://exploreparks.dbca.wa.gov.au/site/gloucester-tree",
+          "role": "Western Australia DBCA current visitor page, history and climbing closure.",
+          "official": true
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/3206440648",
+          "role": "Live named individual-tree object and exact coordinate.",
+          "official": false
+        }
+      ],
+      "coordinate_basis": "Live OSM named node 3206440648 cross-checked against the DBCA site map and Burma Road access.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "DBCA's live site page retains the living tree as a public ground-level destination while climbing is closed."
+      },
+      "editorial_score": {
+        "story": 4,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "gnomesville",
+          "n": "Gnomesville",
+          "city": "dardanup",
+          "distance_m": 110076
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "gianttingletree",
+      "n": "Giant Tingle Tree",
+      "a": "Hilltop Road, Walpole, WA",
+      "pc": "6398",
+      "lat": -34.984273,
+      "lng": 116.7894541,
+      "c": "landmarktrees",
+      "s": "a living red tingle hollowed by centuries of fire",
+      "q": "Giant Tingle Tree Walpole Western Australia",
+      "w": "Fire has hollowed an enormous arch through the base of this living red tingle without killing its outer growth layers. A short forest loop and boardwalk let you read the tree's survival from every angle without repeating the old damage caused by walking through it.",
+      "city": "walpole",
+      "country": "Australia",
+      "local_aliases": [
+        "Giant Red Tingle Tree"
+      ],
+      "species": "Red tingle (Eucalyptus jacksonii)",
+      "age_claim": "Ancient mature red tingle; no precise age retained",
+      "facts": [
+        "Repeated fire hollowed the living trunk while outer growth remained viable.",
+        "DBCA routes visitors around the tree on an 800-metre Class 2 loop.",
+        "The current layout protects the trunk and roots from direct foot traffic."
+      ],
+      "access": {
+        "classification": "public-forest-loop",
+        "evidence": "Reached on DBCA's 800 m Class 2 loop from Hilltop Road.",
+        "safety_filter": "Stay on the boardwalk/formal track, never enter the hollow and check fire or road closures.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://exploreparks.dbca.wa.gov.au/site/giant-tingle-tree",
+          "role": "DBCA current trail length, grading, living-tree story and visitor access.",
+          "official": true
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/2202984257",
+          "role": "Live named individual-tree object and exact coordinate.",
+          "official": false
+        }
+      ],
+      "coordinate_basis": "Live OSM named node 2202984257 cross-checked against DBCA's trail map and site description.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "DBCA's live visitor page describes the living tree and maintained loop."
+      },
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "gnomesville",
+          "n": "Gnomesville",
+          "city": "dardanup",
+          "distance_m": 187264
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "cazneauxtree",
+      "n": "Cazneaux Tree",
+      "a": "Flinders Ranges Way, Ikara–Flinders Ranges National Park, SA",
+      "pc": "5434",
+      "lat": -31.5181942,
+      "lng": 138.6385877,
+      "c": "landmarktrees",
+      "s": "the river red gum photographed as the Spirit of Endurance",
+      "q": "Cazneaux Tree Ikara Flinders Ranges Australia",
+      "w": "Photographer Harold Cazneaux made this river red gum the subject of his 1937 image 'Spirit of Endurance', turning its contorted survival in dry country into an Australian visual emblem. A signed walking trail now reconnects the photograph to the living subject.",
+      "city": "flindersranges",
+      "country": "Australia",
+      "local_aliases": [
+        "Spirit of Endurance Tree",
+        "Tree 239"
+      ],
+      "species": "River red gum (Eucalyptus camaldulensis)",
+      "age_claim": "Mature tree photographed in 1937",
+      "facts": [
+        "Harold Cazneaux photographed the tree in 1937 as Spirit of Endurance.",
+        "South Australia records it as a significant tree in Ikara–Flinders Ranges National Park.",
+        "A Grade 2 return walk leads to the tree from the Wilpena area."
+      ],
+      "access": {
+        "classification": "public-national-park-trail",
+        "evidence": "Reached on the land manager's signed Grade 2 walking route; park entry and seasonal heat conditions apply.",
+        "safety_filter": "Carry water, avoid extreme heat, remain on the trail and never climb or damage the tree.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.environment.sa.gov.au/goodliving/posts/2025/11/ikara-flinders-spirit-of-endurance",
+          "role": "Dated November 2025 South Australian environment article with story, current trail and visitor safety.",
+          "official": true
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/13175158501",
+          "role": "Live named individual-tree object and exact coordinate.",
+          "official": false
+        }
+      ],
+      "coordinate_basis": "Live OSM named node 13175158501 cross-checked against the South Australian land-manager trail description.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "The South Australian environment department promoted the living tree and walk in November 2025."
+      },
+      "editorial_score": {
+        "story": 5,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "langmeilwinery",
+          "n": "Langmeil Winery",
+          "city": "tanunda",
+          "distance_m": 335467
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "result": "net-new"
+      },
+      "draft_only": true
+    }
+  ],
+  "deferred": [
+    {
+      "n": "Te Matua Ngahere",
+      "country": "New Zealand",
+      "reason": "Deferred: DOC says the Four Sisters–Te Matua Ngahere track remains closed during the Kauri Walks project, with reopening expected no earlier than October 2026.",
+      "sources": [
+        {
+          "url": "https://www.doc.govt.nz/news/media-releases/2026-media-releases/waipoua-forest-embarks-on-bold-kauri-walks-expansion-to-enhance-visitor-experience-and-protect-trees/",
+          "role": "DOC closure and projected reopening.",
+          "official": true
+        }
+      ]
+    },
+    {
+      "n": "Samán de Güere",
+      "country": "Venezuela",
+      "reason": "Rejected: the main historic trunk fell in 2000 and the preserved remains fail the living-individual contract.",
+      "sources": []
+    },
+    {
+      "n": "Tree of Life",
+      "country": "Bahrain",
+      "reason": "Deferred: current standing and visitor hours are supported, but the isolated desert approach could not reach the required 4/5 walkability score.",
+      "sources": [
+        {
+          "url": "https://www.bahrain.com/en/tree-of-life",
+          "role": "Current Bahrain destination status and hours.",
+          "official": true
+        }
+      ]
+    },
+    {
+      "n": "Burke and Wills Dig Tree",
+      "country": "Australia",
+      "reason": "Deferred: strong named story but remote unsealed-road access and limited walking context fail the 4/5 walkability gate.",
+      "sources": [
+        {
+          "url": "https://www.queensland.com/au/en/things-to-do/attractions/p-56b25fcdaeeeaaf773cf25f4-burke-and-wills-dig-tree",
+          "role": "Queensland visitor access evidence.",
+          "official": true
+        }
+      ]
+    },
+    {
+      "n": "Sagole Baobab",
+      "country": "South Africa",
+      "reason": "Deferred: important living champion, but recent reporting describes neglect and the research could not establish all-high safe public access.",
+      "sources": [
+        {
+          "url": "https://www.sabcnews.com/sabcnews/limpopo-villages-raise-concerns-over-neglect-of-iconic-baobab-tree/",
+          "role": "Current-condition concerns.",
+          "official": false
+        },
+        {
+          "url": "https://baobabfoundation.co.za/saving-the-big-tree-from-graffiti-monsters/",
+          "role": "Conservation and access-risk context.",
+          "official": false
+        }
+      ]
+    },
+    {
+      "n": "Wonderboom",
+      "country": "South Africa",
+      "reason": "Deferred: the famous canopy is a clonal grove and sources did not resolve a single named living individual to the required identity confidence.",
+      "sources": []
+    }
+  ]
+}

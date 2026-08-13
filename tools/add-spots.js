@@ -12,8 +12,8 @@
  *
  * Input: research/new/<city>.json — an array of discovered rows. Each needs:
  *   { n, a, c, lat, lng, w, [city], [pc], [q], [s], [_facts], [_sources], [confidence] }
- *   - c   : a valid category slug (one of the 44 in `ne`)
- *   - lat/lng inside the city's Ci bbox (±0.1°)
+ *   - c   : a valid category slug from the live `ne` registry
+ *   - lat/lng inside the city's Ci bbox (±0.1°, or ±1.0° for regions)
  *   - w   : the house-voice writeup (written by the Stage-4 writer; may be "")
  *   - city: defaults to the <city> arg
  *   _facts/_sources/confidence are provenance only — ignored in the emitted row.
@@ -26,6 +26,8 @@
  *   node tools/add-spots.js edinburgh --dry             # validate + dedupe report, write nothing
  *   node tools/add-spots.js edinburgh                   # append the valid, non-duplicate rows
  *   node tools/add-spots.js edinburgh --proximity 40    # tighten the proximity dedupe (see below)
+ *   node tools/add-spots.js london --file research/run.json --key included --offset 0 --limit 25
+ *                                                       # import a bounded wave from a dossier
  *   # then: npm run build   (and review the new 'd' spots; quality.js --promote to approve)
  *
  * --proximity <m> (default 120): how close to an EXISTING spot counts as a likely
@@ -57,12 +59,18 @@ function main() {
   const city = args.find((a) => !a.startsWith("--"));
   const dry = args.includes("--dry");
   const proximityM = args.includes("--proximity") ? +args[args.indexOf("--proximity") + 1] : 120;
-  if (!city) { console.error("usage: node tools/add-spots.js <city> [--dry] [--proximity <m>]"); process.exit(1); }
+  if (!city) { console.error("usage: node tools/add-spots.js <city> [--dry] [--proximity <m>] [--file <path> --key <array> --offset <n> --limit <n>]"); process.exit(1); }
 
   // default input research/new/<city>.json; --file <path> for a per-run provenance file
   const fileArg = args.includes("--file") ? args[args.indexOf("--file") + 1] : null;
   const file = fileArg ? path.resolve(ROOT, fileArg) : path.join(NEW_DIR, `${city}.json`);
   if (!fs.existsSync(file)) { console.error(`no ${path.relative(ROOT, file)} — discovery stage writes this.`); process.exit(1); }
+
+  const keyArg = args.includes("--key") ? args[args.indexOf("--key") + 1] : null;
+  const offset = args.includes("--offset") ? Number(args[args.indexOf("--offset") + 1]) : 0;
+  const limit = args.includes("--limit") ? Number(args[args.indexOf("--limit") + 1]) : Infinity;
+  if (!Number.isInteger(offset) || offset < 0) { console.error("--offset must be a non-negative integer"); process.exit(1); }
+  if (!(limit === Infinity || (Number.isInteger(limit) && limit > 0))) { console.error("--limit must be a positive integer"); process.exit(1); }
 
   const model = M.loadModel();
   if (!model.cityById.has(city)) { console.error(`unknown city "${city}"`); process.exit(1); }
@@ -71,7 +79,15 @@ function main() {
   const taken = new Set(cat.ids);
   const cityName = model.cityById.get(city).name;
 
-  const rows = JSON.parse(fs.readFileSync(file, "utf8"));
+  const payload = JSON.parse(fs.readFileSync(file, "utf8"));
+  let sourceRows = payload;
+  if (keyArg) sourceRows = payload && payload[keyArg];
+  if (!Array.isArray(sourceRows)) {
+    console.error(keyArg ? `key "${keyArg}" is not an array in ${path.relative(ROOT, file)}` : `${path.relative(ROOT, file)} must contain a JSON array (or use --key)`);
+    process.exit(1);
+  }
+  const rows = sourceRows.slice(offset, limit === Infinity ? undefined : offset + limit);
+  if (!rows.length) { console.error(`selected wave is empty (source ${sourceRows.length}, offset ${offset}, limit ${limit})`); process.exit(1); }
   const kept = [];
   const stats = { kept: 0, dup: 0, invalid: 0 };
   for (const r of rows) {
@@ -97,7 +113,8 @@ function main() {
     stats.kept++;
   }
 
-  console.log(`\n${city}: ${stats.kept} valid & new, ${stats.dup} duplicate, ${stats.invalid} invalid (of ${rows.length}).`);
+  const wave = offset || limit !== Infinity ? ` [source ${sourceRows.length}, offset ${offset}, limit ${limit}]` : "";
+  console.log(`\n${city}${wave}: ${stats.kept} valid & new, ${stats.dup} duplicate, ${stats.invalid} invalid (of ${rows.length}).`);
   if (dry) { console.log("--dry: nothing written."); return; }
   if (!kept.length) { console.log("nothing to add."); return; }
 
@@ -107,7 +124,7 @@ function main() {
   Q.setFlags(kept.map((r) => r.id), "d");
   console.log(`added ${kept.length} spot(s) → data/spots.json (now ${all.length}); bumped build.js BASELINE.entries to ${newBaseline}; flagged "d".`);
   console.log(`next: npm run build  (then review the new spots; quality.js --promote to approve).`);
-  console.log(`also update the entry count in CLAUDE.md (currently states 15,302).`);
+  console.log(`also update the catalogue entry count in CLAUDE.md.`);
 }
 
 main();

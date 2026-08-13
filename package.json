@@ -5,6 +5,10 @@
   "description": "Flâneur — niche London detours, sorted by distance. Single-file React PWA; the spot catalogue lives in data/spots.json and is built into index.html.",
   "scripts": {
     "build": "node build.js && node tools/patch-mobile-review.js && node tools/patch-active-walk.js",
+    "test:research-categories": "node tools/tests/balanced-categories-pipeline.test.js",
+    "test:discovery-wave2": "node tools/tests/discovery-wave2-pipeline.test.js",
+    "test:paris": "node tools/tests/paris-deep-run-pipeline.test.js && node tools/tests/paris-signatures-wave2-pipeline.test.js",
+    "test:hills": "node tools/tests/hills-pipeline.test.js",
     "test:mobile": "node tools/tests/mobile-regressions.test.js",
     "review": "node tools/review-server.js",
     "native:bundle": "npm run build && node tools/build-native.js",

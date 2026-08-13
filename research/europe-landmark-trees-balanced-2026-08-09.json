@@ -1,0 +1,3534 @@
+{
+  "meta": {
+    "title": "Europe — remarkable individual trees for accidental walking discovery",
+    "generated_at": "2026-08-09",
+    "repo_copy_status": "imported_as_draft_rows_pending_editorial_promotion",
+    "proposed_category": "landmarktrees",
+    "target": 70,
+    "included_count": 45,
+    "import": {
+      "state": "imported_as_draft_rows",
+      "quality_flag": "d",
+      "imported_count": 45,
+      "waves": [
+        {
+          "offset": 0,
+          "limit": 25,
+          "added": 25
+        },
+        {
+          "offset": 25,
+          "limit": 20,
+          "added": 20
+        }
+      ],
+      "editorial_status": "pending_human_review_and_promotion",
+      "warning": "The research evidence remains useful, but catalogue presence does not mean editorial approval. Do not re-import these rows."
+    },
+    "deferred_or_rejected_count": 18,
+    "decision": "Stopped below target rather than pad. Every included row passed the named living individual, public access/visibility, current status, exact coordinate, story and 19/25 score gates.",
+    "production_fields": [
+      "n",
+      "a",
+      "pc",
+      "lat",
+      "lng",
+      "c",
+      "s",
+      "q",
+      "w",
+      "city"
+    ],
+    "score_dimensions": [
+      "story",
+      "walkability",
+      "evidence",
+      "distinctiveness",
+      "geographic_balance"
+    ],
+    "score_contract": "Minimum 19/25; story and walkability each at least 4/5.",
+    "confidence_contract": [
+      "identity",
+      "coordinates",
+      "access",
+      "status",
+      "story"
+    ],
+    "source_contract": "Each include has European/national champion evidence plus a live map object, with a current land-manager source where map evidence alone was insufficient.",
+    "access_contract": "Specific individual only; public path, ticketed public garden, or safe public visibility. No school-only, private-garden-only, illegal reservoir-zone or unverified estate access.",
+    "dedupe_contract": "Normalised global aliases and global nearest-neighbour distance checked against live Map-2/data/spots.json at 120 m; internal candidates also checked at 120 m.",
+    "geography": {
+      "countries": {
+        "Czech Republic": 4,
+        "France": 3,
+        "Northern Ireland": 1,
+        "Belgium": 2,
+        "Slovakia": 6,
+        "Croatia": 5,
+        "Spain": 2,
+        "England": 2,
+        "Ireland": 1,
+        "Italy": 4,
+        "Portugal": 4,
+        "Poland": 6,
+        "Netherlands": 1,
+        "Hungary": 2,
+        "Wales": 1,
+        "Scotland": 1
+      },
+      "cities": {
+        "sudetes": 3,
+        "paris": 2,
+        "belfast": 1,
+        "massemen": 1,
+        "bosacavalley": 3,
+        "dubrovnik": 1,
+        "gornjastubica": 1,
+        "navajas": 1,
+        "liverpool": 1,
+        "cork": 1,
+        "tricase": 1,
+        "curinga": 1,
+        "portalegre": 1,
+        "podkarpackie": 2,
+        "pula": 1,
+        "bialowieza": 1,
+        "santalfio": 1,
+        "teleci": 1,
+        "lodz": 1,
+        "lozorno": 1,
+        "arraiolos": 1,
+        "satao": 1,
+        "palermo": 1,
+        "utrecht": 1,
+        "england": 1,
+        "bayeux": 1,
+        "budapest": 1,
+        "coripe": 1,
+        "wrexham": 1,
+        "krka": 1,
+        "malacky": 1,
+        "dalkowskiehills": 1,
+        "coimbra": 1,
+        "lukavice": 1,
+        "rab": 1,
+        "liernu": 1,
+        "highlands": 1,
+        "zilina": 1,
+        "godollo": 1
+      }
+    },
+    "research_notes": [
+      "Historic contest coordinates were not silently trusted: when a live named tree object disagreed, the dossier retains and explains the stronger current coordinate.",
+      "Major Oak was removed after a June 2026 death confirmation; upright deadwood is not a living category member.",
+      "Luras and Monte Barbeiro were removed because the available story was chiefly great age/size, explicitly outside this category contract.",
+      "An OSM object is a present-map corroboration, not the heritage authority; the Tree of the Year national organiser, municipal manager, museum, arboretum or other land manager supplies the authority signal."
+    ],
+    "geography_review": {
+      "status": "completed",
+      "checked_at": "2026-08-09",
+      "corrected_tree_candidates": 27,
+      "new_tree_city_or_region_entries": 24,
+      "rule": "Every retained tree now uses an honest municipality, metropolitan grouping or explicit physical region, lies inside the raw declared bbox and infers back to that same registry entry.",
+      "phases": [
+        {
+          "plan": "research/balanced-280-geography-corrections-2026-08-09.json",
+          "tree_candidates_retagged": 15,
+          "tree_city_or_region_entries_added": 14
+        },
+        {
+          "plan": "research/balanced-280-geography-final-remediation-2026-08-09.json",
+          "tree_candidates_retagged": 12,
+          "tree_city_or_region_entries_added": 10,
+          "all_category_candidates_retagged": 19,
+          "all_category_city_or_region_entries_added": 15,
+          "bbox_updates_applied": 12
+        }
+      ],
+      "validation": "45/45 retained tree rows are inside their raw declared bbox and infer to their explicit city or region."
+    }
+  },
+  "included": [
+    {
+      "n": "The Guardian Oak of Višňová",
+      "a": "0353, Víska, Višňová",
+      "pc": "464 01",
+      "lat": 50.938917,
+      "lng": 15.02725,
+      "c": "landmarktrees",
+      "s": "the flood oak that held a house in place",
+      "q": "The Guardian Oak of Višňová Dub ochránce ve Višňové 0353, Víska, Višňová Czech Republic",
+      "w": "During the 2010 floods, this oak braced a half-timbered house long enough for a couple and their dog to escape onto its roof. Scarred but still standing beside the village road, it turns an ordinary walk through Víska into a close encounter with a piece of living civil defence.",
+      "city": "sudetes",
+      "local_aliases": [
+        "Dub ochránce ve Višňové"
+      ],
+      "country": "Czech Republic",
+      "species": "Pedunculate oak (Quercus robur)",
+      "age_claim": "about 150 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public roadside visibility in Víska; stay on the village road and outside the root zone.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2014/Dub-ochrance-ve-Visnove",
+          "role": "European Tree of the Year 2014 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/12803768951",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 12803768951; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 3,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "stadionunisy",
+          "n": "Stadion u Nisy",
+          "city": "sudetes",
+          "distance_m": 18162
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "The Thousand Year Old Lime",
+      "a": "283, Tatobity",
+      "pc": "512 53",
+      "lat": 50.5681958,
+      "lng": 15.2746506,
+      "c": "landmarktrees",
+      "s": "a village emblem held together after a storm",
+      "q": "The Thousand Year Old Lime Tatobitská tisíciletá lípa 283, Tatobity Czech Republic",
+      "w": "Tatobity put this hollow lime on its coat of arms. After a storm split it in the 1950s, a local craftsman bound the survivor with metal bands; the village still treats its wood with near-sacred respect. A public interpretation board makes the repair story legible from the lane.",
+      "city": "sudetes",
+      "local_aliases": [
+        "Tatobitská tisíciletá lípa"
+      ],
+      "country": "Czech Republic",
+      "species": "Large-leaved lime (Tilia platyphyllos)",
+      "age_claim": "about 650 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public village lane and interpretation point; view without entering the hollow.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2016/Tatobitska-tisicileta-lipa",
+          "role": "European Tree of the Year 2016 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/4235728681",
+          "role": "Live OSM on-site feature used for exact site, address and public-approach corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 4235728681; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live on-site mapped feature was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 3,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "stadionunisy",
+          "n": "Stadion u Nisy",
+          "city": "sudetes",
+          "distance_m": 28030
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "Weeping Blue Cedar of Vallée-aux-Loups",
+      "a": "Arboretum de la Vallée-aux-Loups, Rue de Chateaubriand",
+      "pc": "92290",
+      "lat": 48.7711684,
+      "lng": 2.2711642,
+      "c": "landmarktrees",
+      "s": "the mother tree of the world's weeping blue cedars",
+      "q": "Weeping Blue Cedar of Vallée-aux-Loups Cèdre bleu pleureur de l’Atlas Arboretum de la Vallée-aux-Loups, Rue de Chateaubriand France",
+      "w": "A chance mutation gave this Atlas cedar its cascading habit; the cultivated weeping blue cedars planted elsewhere descend from cuttings or grafts taken here. Its low canopy forms an outdoor room in the public arboretum, a botanical origin story you can literally walk beneath.",
+      "city": "paris",
+      "local_aliases": [
+        "Cèdre bleu pleureur de l’Atlas"
+      ],
+      "country": "France",
+      "species": "Weeping Atlas cedar (Cedrus atlantica 'Glauca Pendula')",
+      "age_claim": "about 150 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public arboretum during posted opening hours; use the surfaced garden paths.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2016/Modry-previsly-cedr",
+          "role": "European Tree of the Year 2016 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/6269355715",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "Historic contest GPS was 361 m away; the live OSM node named for this individual, inside the official arboretum, is the retained coordinate.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 4,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 4,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "memorialdugenocidearmeni",
+          "n": "Mémorial du génocide arménien d'Issy-les-Moulineaux",
+          "city": "paris",
+          "distance_m": 5388
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "The Peace Tree",
+      "a": "Woodvale Park, Woodvale Road, Belfast",
+      "pc": "BT13 3BN",
+      "lat": 54.61,
+      "lng": -5.9734,
+      "c": "landmarktrees",
+      "s": "a forgotten First World War memorial found again",
+      "q": "The Peace Tree Peace Tree, Woodvale Park Woodvale Park, Woodvale Road, Belfast Northern Ireland",
+      "w": "Suffrage-era veterans planted this oak in 1919 for those who did not return from the First World War. Forgotten for decades, it was rediscovered in 2006 and restored as a civic memorial. Belfast City Council now explicitly lists the Peace Tree among the free park's walking attractions.",
+      "city": "belfast",
+      "local_aliases": [
+        "Peace Tree, Woodvale Park"
+      ],
+      "country": "Northern Ireland",
+      "species": "Pedunculate oak (Quercus robur)",
+      "age_claim": "planted in 1919",
+      "access": {
+        "classification": "public",
+        "evidence": "Free municipal park with several walking routes and published daily opening times.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2016/Strom-miru",
+          "role": "European Tree of the Year 2016 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/way/408323046",
+          "role": "Live OSM on-site feature used for exact site, address and public-approach corroboration."
+        },
+        {
+          "url": "https://www.belfastcity.gov.uk/Things-to-Do/Parks-and-Open-Spaces/A-Z-Parks/Woodvale-Park",
+          "role": "Belfast City Council currently identifies the park as home to the Peace Tree and publishes access hours."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM way 408323046; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "Belfast City Council currently identifies the park as home to the Peace Tree and publishes access hours. No removal/death notice was found in the 2026 status pass."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 4,
+        "geographic_balance": 4,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "glencairnpark",
+          "n": "Glencairn Park",
+          "city": "belfast",
+          "distance_m": 542
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "The Village Lime Tree of Massemen",
+      "a": "Dorpsplein, Massemen, Wetteren",
+      "pc": "9230",
+      "lat": 50.9808634,
+      "lng": 3.8732497,
+      "c": "landmarktrees",
+      "s": "four centuries of village life under one canopy",
+      "q": "The Village Lime Tree of Massemen Dorpslinde van Massemen Dorpsplein, Massemen, Wetteren Belgium",
+      "w": "The hollow lime has watched Massemen's church burn, a princedom rise and French forces retreat, while generations continued to meet and court beneath it. It stands in the public village square rather than behind a gate, so its long civic biography is encountered in the course of an ordinary stroll.",
+      "city": "massemen",
+      "local_aliases": [
+        "Dorpslinde van Massemen"
+      ],
+      "country": "Belgium",
+      "species": "Large-leaved lime (Tilia platyphyllos)",
+      "age_claim": "roughly 380–440 years",
+      "access": {
+        "classification": "public",
+        "evidence": "Unrestricted public square; admire from paving and avoid the hollow trunk.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2017/Obecni-lipa-v-Massemenu",
+          "role": "European Tree of the Year 2017 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/4453713478",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "The live named OSM tree node, 22 m from the historic contest GPS, is the retained coordinate.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 4,
+        "geographic_balance": 4,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "julesottenstadion",
+          "n": "Jules Ottenstadion",
+          "city": "ghent",
+          "distance_m": 9368
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_full_city_page_semantics_audit",
+        "prior_city": "ghent",
+        "corrected_city": "massemen",
+        "plan": "research/balanced-280-geography-final-remediation-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "Apple Tree from Bošáca",
+      "a": "1227, Zabudišová, Bošáca",
+      "pc": "913 07",
+      "lat": 48.8688056,
+      "lng": 17.8346667,
+      "c": "landmarktrees",
+      "s": "a surviving standard from Bošáca's orchard culture",
+      "q": "Apple Tree from Bošáca Jabloň z Bošáce 1227, Zabudišová, Bošáca Slovakia",
+      "w": "This named apple is a remnant of the White Carpathians' once-dense high-stem orchards, where fruit and distilling shaped village life. It is mapped as an individual tree beside the public rural road, making it a small but exact target on a longer ridge-and-orchard walk.",
+      "city": "bosacavalley",
+      "local_aliases": [
+        "Jabloň z Bošáce"
+      ],
+      "country": "Slovakia",
+      "species": "Domestic apple (Malus domestica)",
+      "age_claim": "veteran local fruit tree",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Safe public-road visibility in Zabudišová; do not cross fences or pick fruit.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2018/Jablon-z-Bosaci",
+          "role": "European Tree of the Year 2018 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/9323648746",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 9323648746; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 4,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 4,
+        "geographic_balance": 4,
+        "total": 22
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "cachticecastle",
+          "n": "Cachtice Castle",
+          "city": "cachtice",
+          "distance_m": 15109
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_full_city_page_semantics_audit",
+        "prior_city": "cachtice",
+        "corrected_city": "bosacavalley",
+        "plan": "research/balanced-280-geography-final-remediation-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "Pear from Bošáca–Zabudišová",
+      "a": "1227, Zabudišová, Bošáca",
+      "pc": "913 07",
+      "lat": 48.8681944,
+      "lng": 17.8396389,
+      "c": "landmarktrees",
+      "s": "the rare pink pear once exported to Vienna",
+      "q": "Pear from Bošáca–Zabudišová Hruška Ružovka 1227, Zabudišová, Bošáca Slovakia",
+      "w": "The local pink pear variety is tied to a fruit economy that sent dried fruit and spirits from Bošáca by boat and rail to Vienna and Budapest. The live-mapped individual stands about 380 metres from the separate champion apple, turning the pair into a compact orchard-history walk rather than a duplicate.",
+      "city": "bosacavalley",
+      "local_aliases": [
+        "Hruška Ružovka"
+      ],
+      "country": "Slovakia",
+      "species": "Heritage pear (Pyrus communis)",
+      "age_claim": "about 200 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public roadside visibility; remain on road or signed local paths.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2016/Hrusen-z-Bosaci-Zabudisove",
+          "role": "European Tree of the Year 2016 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/7891122023",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 7891122023; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 4,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 3,
+        "total": 22
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "cachticecastle",
+          "n": "Cachtice Castle",
+          "city": "cachtice",
+          "distance_m": 15019
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_full_city_page_semantics_audit",
+        "prior_city": "cachtice",
+        "corrected_city": "bosacavalley",
+        "plan": "research/balanced-280-geography-final-remediation-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "The Plane Tree of Trsteno",
+      "a": "Potok, Trsteno",
+      "pc": "20234",
+      "lat": 42.7138817,
+      "lng": 17.978932,
+      "c": "landmarktrees",
+      "s": "a giant plane that outlived war and wildfire",
+      "q": "The Plane Tree of Trsteno Platana u Trstenom Potok, Trsteno Croatia",
+      "w": "One of Trsteno's two ancient planes survived the 1991 attack on the arboretum and the devastating fire of 2000. The chosen individual stands by the entrance, where its trunk is a prelude to the formal gardens rather than an arboretum-wide substitute.",
+      "city": "dubrovnik",
+      "local_aliases": [
+        "Platana u Trstenom"
+      ],
+      "country": "Croatia",
+      "species": "Oriental plane (Platanus orientalis)",
+      "age_claim": "more than 500 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public visibility at the arboretum entrance; garden access is ticketed during opening hours.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2018/Mohutny-platan-symbol-Trstena",
+          "role": "European Tree of the Year 2018 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/2394018827",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "The retained OSM tree node is 21 m from the contest GPS and carries the note 'one of two Plane trees planted in 1492', fixing the individual.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 4,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "dubrovniksynagogue",
+          "n": "Dubrovnik Synagogue",
+          "city": "dubrovnik",
+          "distance_m": 11579
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "Gubec Linden",
+      "a": "Zagrebačka ulica, Gornja Stubica",
+      "pc": "49245",
+      "lat": 45.973374,
+      "lng": 16.013474,
+      "c": "landmarktrees",
+      "s": "the tree of Croatia's peasant king",
+      "q": "Gubec Linden Gupčeva lipa Zagrebačka ulica, Gornja Stubica Croatia",
+      "w": "Tradition places Matija Gubec beneath this lime before the 1573 peasant revolt made him a folk hero and doomed leader. The tree anchors the public memorial landscape at Gornja Stubica, so the story unfolds across a short walk between living tree, monument and castle grounds.",
+      "city": "gornjastubica",
+      "local_aliases": [
+        "Gupčeva lipa"
+      ],
+      "country": "Croatia",
+      "species": "Small-leaved lime (Tilia cordata)",
+      "age_claim": "veteran historic tree",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public memorial grounds and street approach.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2019/Gubcova-lipa",
+          "role": "European Tree of the Year 2019 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/2295137953",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 2295137953; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 4,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "antestarcevic",
+          "n": "Ante Starčević",
+          "city": "zagreb",
+          "distance_m": 14256
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_full_city_page_semantics_audit",
+        "prior_city": "zagreb",
+        "corrected_city": "gornjastubica",
+        "plan": "research/balanced-280-geography-final-remediation-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "Elm of Navajas",
+      "a": "Calle Luis Jordana, Navajas",
+      "pc": "12470",
+      "lat": 39.8777189,
+      "lng": -0.507046,
+      "c": "landmarktrees",
+      "s": "the elm that became the village council chamber",
+      "q": "Elm of Navajas Olmo de Navajas Calle Luis Jordana, Navajas Spain",
+      "w": "Navajas planted this elm in 1636, and its shade became a place for councils, celebrations and collective decisions. The tree is now actively propped after a 2025 collapse-risk intervention; view this living civic monument only from outside its supports or any cordon.",
+      "city": "navajas",
+      "local_aliases": [
+        "Olmo de Navajas"
+      ],
+      "country": "Spain",
+      "species": "Field elm (Ulmus minor)",
+      "age_claim": "planted in 1636",
+      "access": {
+        "classification": "safe_visibility_only",
+        "evidence": "The tree remains standing in its central public square but is actively supported after a 2025 collapse-risk intervention; view from outside all supports, barriers and any live cordon.",
+        "safety_filter": "Do not enter a cordon or support zone, stand beneath the crown, climb, touch supports or shortcut through the root area; follow municipal closures.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://castellonaldia.elmundo.es/comarcas/palancia-millars/navajas-apuntala-el-mitico-olmo-de-la-plaza-ante-el-riesgo-de-derrumbe-EM23859490",
+          "role": "May 2025 current-condition report quoting the mayor and municipal annual monitoring: propping, hollow trunk and collapse-risk intervention."
+        },
+        {
+          "url": "https://castellon.elperiodicodeaqui.com/epda-noticias/navajas-recibe-la-visita-de-tecnicos-del-centro-para-la-investigacion-y-experimentacion-forestal-para-evaluar-el-patrimonio-arboreo-municipal/100004787",
+          "role": "February 2026 expert-inspection report: standing condition and positive evolution after the intervention."
+        },
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2019/Jilm-z-Navajas",
+          "role": "European Tree of the Year 2019 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/343381244",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "The live OSM node named Olmo de Navajas, 14 m from the contest GPS, is the retained coordinate.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "condition": "actively supported after 2025 collapse-risk work; closest approach may be cordoned",
+        "checked_at": "2026-08-09",
+        "basis": "The 2025 intervention report documents propping and a hollow trunk after the municipality was advised of collapse risk. A February 2026 forestry-centre inspection reported positive evolution; the tree remains standing but must be viewed outside supports and any cordon."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 4,
+        "geographic_balance": 5,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "miaumuseoinacabadodearte",
+          "n": "MIAU - Museo Inacabado de Arte Urbano",
+          "city": "fanzara",
+          "distance_m": 22510
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_full_city_page_semantics_audit",
+        "prior_city": "fanzara",
+        "corrected_city": "navajas",
+        "plan": "research/balanced-280-geography-final-remediation-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "The Allerton Oak",
+      "a": "Calderstones Park, Calderstones Road, Liverpool",
+      "pc": "L18 3HZ",
+      "lat": 53.3825833,
+      "lng": -2.8928333,
+      "c": "landmarktrees",
+      "s": "Liverpool's ancient open-air court",
+      "q": "The Allerton Oak Allerton Oak Calderstones Park, Calderstones Road, Liverpool England",
+      "w": "Local tradition says this oak marked the meeting place of the medieval Hundred Court of Allerton. Its acorns were later carried overseas by soldiers as living souvenirs of Liverpool. Today the named tree stands in free Calderstones Park, close enough to city streets for a spontaneous detour.",
+      "city": "liverpool",
+      "local_aliases": [
+        "Allerton Oak"
+      ],
+      "country": "England",
+      "species": "Sessile oak (Quercus petraea)",
+      "age_claim": "ancient oak, traditionally dated to medieval times",
+      "access": {
+        "classification": "public",
+        "evidence": "Free municipal park; view from the path and outside any protective root barrier.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2020/Allertonsky-dub",
+          "role": "European Tree of the Year 2020 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/9935713986",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 9935713986; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 4,
+        "geographic_balance": 4,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "rathbonestatue",
+          "n": "Rathbone Statue",
+          "city": "liverpool",
+          "distance_m": 2938
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "Witch’s Yew Tree",
+      "a": "The Wishing Steps, Blarney Castle",
+      "pc": "T23 Y598",
+      "lat": 51.9290579,
+      "lng": -8.5679674,
+      "c": "landmarktrees",
+      "s": "a contorted yew at Blarney's wishing steps",
+      "q": "Witch’s Yew Tree Witch's Yew Tree The Wishing Steps, Blarney Castle Ireland",
+      "w": "The tree's roots and hollow form are woven into the witch legend surrounding Blarney's Wishing Steps. It is a specific, live-mapped specimen within the castle walk, not a stand-in for the gardens as a whole; the path supplies the ritual setting that makes the encounter memorable.",
+      "city": "cork",
+      "local_aliases": [
+        "Witch's Yew Tree"
+      ],
+      "country": "Ireland",
+      "species": "Yew (Taxus baccata)",
+      "age_claim": "ancient yew",
+      "access": {
+        "classification": "ticketed-public",
+        "evidence": "Ticketed public castle gardens; use the signed steps carefully and do not enter the tree.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2020/Carodejny-tis",
+          "role": "European Tree of the Year 2020 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/8440951688",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "The live named OSM tree node, 14 m from the contest GPS, is the retained coordinate.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 4,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 4,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "franciscanwellbrewery",
+          "n": "Franciscan Well Brewery",
+          "city": "cork",
+          "distance_m": 6685
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "Oak Vallonea of Tricase",
+      "a": "SP Variante alla Quercia Vallonea, Tricase",
+      "pc": "73039",
+      "lat": 39.9279,
+      "lng": 18.3786667,
+      "c": "landmarktrees",
+      "s": "the oak said to have sheltered a hundred knights",
+      "q": "Oak Vallonea of Tricase Quercia Vallonea dei 100 Cavalieri SP Variante alla Quercia Vallonea, Tricase Italy",
+      "w": "Legend says Frederick II and a company of one hundred knights found shelter beneath this Salento oak, giving it the name 'of the Hundred Knights'. Its broad crown is visible from the public roadside monument area, where a short walk connects medieval legend with the living tree.",
+      "city": "tricase",
+      "local_aliases": [
+        "Quercia Vallonea dei 100 Cavalieri"
+      ],
+      "country": "Italy",
+      "species": "Valonia oak (Quercus ithaburensis subsp. macrolepis)",
+      "age_claim": "several centuries",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public roadside monument with safe visibility; use the designated pull-off and path.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2020/Dub-Vallonea-z-Tricasu",
+          "role": "European Tree of the Year 2020 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/2139945966",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 2139945966; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 4,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 4,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "piscinanaturaledimarinas",
+          "n": "Piscina Naturale di Marina Serra",
+          "city": "tricase",
+          "distance_m": 2186
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "The Thousand-Year-Old Plane Tree of Curinga",
+      "a": "Via Alcide De Gasperi, Curinga",
+      "pc": "88022",
+      "lat": 38.82351,
+      "lng": 16.3327,
+      "c": "landmarktrees",
+      "s": "a hollow wooden chamber above a Basilian hermitage",
+      "q": "The Thousand-Year-Old Plane Tree of Curinga Platano di Curinga Via Alcide De Gasperi, Curinga Italy",
+      "w": "Tradition links this plane to Basilian monks who settled above the Tyrrhenian coast; its trunk has opened into a room-sized hollow. A forest approach and the nearby Sant'Elia remains turn the individual tree into the destination of a short historical walk.",
+      "city": "curinga",
+      "local_aliases": [
+        "Platano di Curinga"
+      ],
+      "country": "Italy",
+      "species": "Oriental plane (Platanus orientalis)",
+      "age_claim": "about 1,000 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public forest approach to a mapped attraction; avoid entering the hollow or scrambling on roots.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2021/Curinga-Plane-Tree",
+          "role": "European Tree of the Year 2021 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/9685157217",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 9685157217; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 4,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 5,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "pentedattilo",
+          "n": "Pentedattilo",
+          "city": "melitodiportosalvo",
+          "distance_m": 108741
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_independent_city-page_semantics_audit",
+        "prior_city": "melitodiportosalvo",
+        "corrected_city": "curinga",
+        "plan": "research/balanced-280-geography-corrections-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "Plane Tree of Rossio",
+      "a": "Avenida da Liberdade, Portalegre",
+      "pc": "7300-263",
+      "lat": 39.296058,
+      "lng": -7.430264,
+      "c": "landmarktrees",
+      "s": "Portalegre's leafy public living room",
+      "q": "Plane Tree of Rossio Plátano do Rossio Avenida da Liberdade, Portalegre Portugal",
+      "w": "Planted in 1838, the Rossio plane became the birthplace and meeting point of clubs, associations and brass bands. Its immense crown still shapes Avenida da Liberdade, making a piece of civic history available without tickets or advance planning.",
+      "city": "portalegre",
+      "local_aliases": [
+        "Plátano do Rossio"
+      ],
+      "country": "Portugal",
+      "species": "London plane (Platanus × hispanica)",
+      "age_claim": "planted in 1838",
+      "access": {
+        "classification": "public",
+        "evidence": "Unrestricted public avenue and square; seating is available under the managed canopy.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2021/Plane-Tree-of-Rossio",
+          "role": "European Tree of the Year 2021 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/4505307900",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 4505307900; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 4,
+        "geographic_balance": 5,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "fortressofjuromenha",
+          "n": "Fortress of Juromenha",
+          "city": "alandroal",
+          "distance_m": 64189
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_independent_city-page_semantics_audit",
+        "prior_city": "alandroal",
+        "corrected_city": "portalegre",
+        "plan": "research/balanced-280-geography-corrections-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "Saint Jan Nepomucen’s Linden",
+      "a": "Świętego Jana, Dulcza Wielka",
+      "pc": "39-312",
+      "lat": 50.185916,
+      "lng": 21.229,
+      "c": "landmarktrees",
+      "s": "a roadside lime grown into a saint's shrine",
+      "q": "Saint Jan Nepomucen’s Linden Lipa Świętego Jana Nepomucena Świętego Jana, Dulcza Wielka Poland",
+      "w": "The lime and its figure of Saint John of Nepomuk have become one composite village landmark, binding a protected tree to the old road-and-water cult of the bridge saint. It is directly mapped beside a public lane, ideal as a quiet waypoint on a rural walk.",
+      "city": "podkarpackie",
+      "local_aliases": [
+        "Lipa Świętego Jana Nepomucena"
+      ],
+      "country": "Poland",
+      "species": "Small-leaved lime (Tilia cordata)",
+      "age_claim": "veteran protected lime",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public roadside visibility at the shrine; do not climb or attach objects.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2021/Saint-Jan-Nepomucens-Linden",
+          "role": "European Tree of the Year 2021 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/7687140402",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 7687140402; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 4,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 4,
+        "geographic_balance": 3,
+        "total": 21
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "zalipiepaintedhomestead",
+          "n": "Zalipie Painted Homestead",
+          "city": "malopolska",
+          "distance_m": 8822
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_independent_city-page_semantics_audit",
+        "prior_city": "malopolska",
+        "corrected_city": "podkarpackie",
+        "plan": "research/balanced-280-geography-corrections-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "The Old Hackberry of Medulin",
+      "a": "Centar 57, Medulin",
+      "pc": "52203",
+      "lat": 44.821877,
+      "lng": 13.9365176,
+      "c": "landmarktrees",
+      "s": "Medulin's oldest resident at the centre of town",
+      "q": "The Old Hackberry of Medulin Medulinska košćela Centar 57, Medulin Croatia",
+      "w": "Generations remember meeting, trading and cooling off beneath this hackberry, whose local nickname casts it as a keeper of shared memories. The live tree node lies four metres from the contest GPS in the public centre, so it works as a precise street-level discovery.",
+      "city": "pula",
+      "local_aliases": [
+        "Medulinska košćela"
+      ],
+      "country": "Croatia",
+      "species": "European hackberry (Celtis australis)",
+      "age_claim": "the town's oldest-known resident tree",
+      "access": {
+        "classification": "public",
+        "evidence": "Unrestricted town-centre square and street approach.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2021/The-Eldest-Resident-of-Medulin-Chocolate-Tree-of-o",
+          "role": "European Tree of the Year 2021 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/5765293993",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "A live OSM individual-tree node lies 4 m from the contest GPS and is the retained coordinate.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 4,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 4,
+        "geographic_balance": 5,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "galebijanacave",
+          "n": "Galebijana Cave",
+          "city": "pula",
+          "distance_m": 8881
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "Oak Dunin",
+      "a": "685, Pod Rzepiskami, Łosinka",
+      "pc": "17-050",
+      "lat": 52.86075,
+      "lng": 23.591033,
+      "c": "landmarktrees",
+      "s": "the guardian oak at Białowieża's edge",
+      "q": "Oak Dunin Dąb Dunin 685, Pod Rzepiskami, Łosinka Poland",
+      "w": "Dunin became a community emblem for the old oaks outside the primeval forest's strict core, and won European Tree of the Year in 2022. Its mapped position on a village-edge lane offers the scale and character of Białowieża's veteran trees without entering a protected reserve.",
+      "city": "bialowieza",
+      "local_aliases": [
+        "Dąb Dunin"
+      ],
+      "country": "Poland",
+      "species": "Pedunculate oak (Quercus robur)",
+      "age_claim": "about 400 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public village-edge lane; stay outside the fenced/root protection area.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2022/Oak-Dunin",
+          "role": "European Tree of the Year 2022 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/6763734795",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 6763734795; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 3,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "orthodoxchurchoftheexalt",
+          "n": "Orthodox church of the Exaltation of the Holy Cross in Narew",
+          "city": "bialowieza",
+          "distance_m": 7558
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "Chestnut of the Hundred Horses",
+      "a": "Via Castagno dei Cento Cavalli, Sant'Alfio",
+      "pc": "95010",
+      "lat": 37.74932,
+      "lng": 15.13151,
+      "c": "landmarktrees",
+      "s": "the chestnut that sheltered a queen and a hundred riders",
+      "q": "Chestnut of the Hundred Horses Castagno dei Cento Cavalli Via Castagno dei Cento Cavalli, Sant'Alfio Italy",
+      "w": "A Sicilian legend says a queen and one hundred mounted companions escaped a storm beneath this enormous chestnut on Etna's slope. The named visitor site, interpretation and public approach make the legend walkable while keeping pressure off the ancient stems.",
+      "city": "santalfio",
+      "local_aliases": [
+        "Castagno dei Cento Cavalli"
+      ],
+      "country": "Italy",
+      "species": "Sweet chestnut (Castanea sativa)",
+      "age_claim": "multi-millennial age claim",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public visitor site and signed approach; remain behind protective barriers.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2022/Chestnut-of-the-hundred-horses",
+          "role": "European Tree of the Year 2022 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/5321742743",
+          "role": "Live OSM on-site feature used for exact site, address and public-approach corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 5321742743; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live on-site mapped feature was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 5,
+        "total": 25
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "naxos",
+          "n": "Naxos",
+          "city": "taormina",
+          "distance_m": 15023
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_full_city_page_semantics_audit",
+        "prior_city": "randazzo",
+        "corrected_city": "santalfio",
+        "plan": "research/balanced-280-geography-final-remediation-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "The Sweet Chestnut of Audran Square",
+      "a": "Square Audran, Avenue des Gressets, La Celle-Saint-Cloud",
+      "pc": "78170",
+      "lat": 48.8393285,
+      "lng": 2.1373722,
+      "c": "landmarktrees",
+      "s": "a veteran chestnut that became a neighbourhood square",
+      "q": "The Sweet Chestnut of Audran Square Châtaignier du square Audran Square Audran, Avenue des Gressets, La Celle-Saint-Cloud France",
+      "w": "The town arranged a public square around this old chestnut, reversing the usual order in which landscaping supplies disposable trees. The individual is mapped to the metre inside a walkable suburban green, a satisfying destination for an unplanned west-Paris wander.",
+      "city": "paris",
+      "local_aliases": [
+        "Châtaignier du square Audran"
+      ],
+      "country": "France",
+      "species": "Sweet chestnut (Castanea sativa)",
+      "age_claim": "multi-century veteran",
+      "access": {
+        "classification": "public",
+        "evidence": "Free public square; use surfaced paths around the protected root area.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2022/The-Multisecular-Sweet-Chestnut-of-Audran-Square",
+          "role": "European Tree of the Year 2022 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/9823666705",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "A live individual-tree node lies 1 m from the contest GPS and is the retained coordinate.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 4,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 4,
+        "geographic_balance": 4,
+        "total": 22
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "sentedelaborde",
+          "n": "sente Delaborde",
+          "city": "paris",
+          "distance_m": 6747
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "The Singing Lime",
+      "a": "357, Telecí",
+      "pc": "569 94",
+      "lat": 49.7025321,
+      "lng": 16.1753984,
+      "c": "landmarktrees",
+      "s": "the hollow lime where forbidden psalms were copied",
+      "q": "The Singing Lime Lukásova „Zpívající“ lípa 357, Telecí Czech Republic",
+      "w": "Local tradition says a scribe hid inside the hollow to copy banned Czech Brethren texts; the sound of recited psalms made villagers call it the Singing Lime. A named interpretation board on the village lane lets walkers locate the exact survivor without touching its fragile cavity.",
+      "city": "teleci",
+      "local_aliases": [
+        "Lukásova „Zpívající“ lípa"
+      ],
+      "country": "Czech Republic",
+      "species": "Large-leaved lime (Tilia platyphyllos)",
+      "age_claim": "about 700 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public village road and interpretation point; do not enter the hollow.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2022/The-Singing-Lime",
+          "role": "European Tree of the Year 2022 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/11499585040",
+          "role": "Live OSM on-site feature used for exact site, address and public-approach corroboration."
+        }
+      ],
+      "coordinate_basis": "The named OSM interpretation board is 12 m from the contest GPS and fixes the protected individual beside the public lane.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live on-site mapped feature was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 3,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "vypustekcave",
+          "n": "Výpustek Cave",
+          "city": "brno",
+          "distance_m": 60530
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_independent_city-page_semantics_audit",
+        "prior_city": "sudetes",
+        "corrected_city": "teleci",
+        "plan": "research/balanced-280-geography-corrections-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "Oak Fabrykant",
+      "a": "Park im. ks. bp. Michała Klepacza, Łódź",
+      "pc": "90-531",
+      "lat": 51.748561,
+      "lng": 19.454366,
+      "c": "landmarktrees",
+      "s": "Łódź's lyre-branched factory-era oak",
+      "q": "Oak Fabrykant Dąb Fabrykant Park im. ks. bp. Michała Klepacza, Łódź Poland",
+      "w": "Fabrykant's huge low limb bends into the shape of a musical lyre, while its name recalls the industrialists who remade Łódź. The 2023 European winner stands in a public park amid the city's textile history, strong enough to anchor a walk on its own.",
+      "city": "lodz",
+      "local_aliases": [
+        "Dąb Fabrykant"
+      ],
+      "country": "Poland",
+      "species": "Pedunculate oak (Quercus robur)",
+      "age_claim": "about 180 years",
+      "access": {
+        "classification": "public",
+        "evidence": "Free public park; follow paths and barriers beneath managed limbs.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2023/oak-fabrykant",
+          "role": "European Tree of the Year 2023 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/3743497851",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 3743497851; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 3,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "archcathedralbasilicaofs",
+          "n": "Archcathedral Basilica of St. Stanislaus Kostka",
+          "city": "lodz",
+          "distance_m": 362
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "Dragon Oak",
+      "a": "Trail Skala, Lozorno",
+      "pc": "900 32",
+      "lat": 48.32332,
+      "lng": 17.101987,
+      "c": "landmarktrees",
+      "s": "a forest oak shaped like a resting dragon",
+      "q": "Dragon Oak Dračí dub Trail Skala, Lozorno Slovakia",
+      "w": "Low twisting limbs and exposed roots gave this oak its dragon name, and local stories turn its silhouette into a creature guarding the Little Carpathians. It is a named node on a public forest trail, exactly the kind of accidental landmark that rewards choosing the longer path.",
+      "city": "lozorno",
+      "local_aliases": [
+        "Dračí dub"
+      ],
+      "country": "Slovakia",
+      "species": "Pedunculate oak (Quercus robur)",
+      "age_claim": "veteran forest oak",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public forest trail; normal woodland conditions, no climbing on limbs or roots.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2023/common-oak-dragon-oak",
+          "role": "European Tree of the Year 2023 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/9878583348",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 9878583348; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 4,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "chapelofsaintrozalia",
+          "n": "Chapel of Saint Rozalia",
+          "city": "bratislava",
+          "distance_m": 15441
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_full_city_page_semantics_audit",
+        "prior_city": "bratislava",
+        "corrected_city": "lozorno",
+        "plan": "research/balanced-280-geography-final-remediation-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "The Big Cork Oak",
+      "a": "CM 1013, Vale do Pereiro, Arraiolos",
+      "pc": "7040",
+      "lat": 38.76248,
+      "lng": -7.82752,
+      "c": "landmarktrees",
+      "s": "the field-workers' lunch shelter",
+      "q": "The Big Cork Oak Sobreira Grande de Vale do Pereiro CM 1013, Vale do Pereiro, Arraiolos Portugal",
+      "w": "For generations this cork oak's crown has sheltered field lunches, herds and summer conversations on the Alentejo paths. That continuing social use—not age alone—is the story: a rural public room grown from one tree, now mapped as Sobreira Grande.",
+      "city": "arraiolos",
+      "local_aliases": [
+        "Sobreira Grande de Vale do Pereiro"
+      ],
+      "country": "Portugal",
+      "species": "Cork oak (Quercus suber)",
+      "age_claim": "about 250 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public rural road/path visibility; avoid active farm land and stay beyond the root zone.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2022/The-Big-Cork-Oak",
+          "role": "European Tree of the Year 2022 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/9447093186",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 9447093186; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 4,
+        "walkability": 4,
+        "evidence": 5,
+        "distinctiveness": 4,
+        "geographic_balance": 5,
+        "total": 22
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "capeladosossos",
+          "n": "Capela dos Ossos",
+          "city": "evora",
+          "distance_m": 22432
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_full_city_page_semantics_audit",
+        "prior_city": "evora",
+        "corrected_city": "arraiolos",
+        "plan": "research/balanced-280-geography-final-remediation-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "Eucalyptus of Contige",
+      "a": "EM 229, Contige, Sátão",
+      "pc": "3560",
+      "lat": 40.7366323,
+      "lng": -7.7522386,
+      "c": "landmarktrees",
+      "s": "the classified tree that bent a road around itself",
+      "q": "Eucalyptus of Contige Eucalipto de Contige EM 229, Contige, Sátão Portugal",
+      "w": "When the old national road was laid out, this eucalyptus became so commanding that the carriageway profile yielded to it rather than the other way round. The live named node sits beside the village road, a compact encounter with infrastructure designed around a tree.",
+      "city": "satao",
+      "local_aliases": [
+        "Eucalipto de Contige"
+      ],
+      "country": "Portugal",
+      "species": "Tasmanian blue gum (Eucalyptus globulus)",
+      "age_claim": "planted in 1878",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Safe public visibility from the local-road verge; do not stand in the carriageway.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2023/eucalyptus-of-contige",
+          "role": "European Tree of the Year 2023 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/10540236227",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "The live named OSM tree node, 82 m from the historic contest GPS, is the retained coordinate.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 4,
+        "walkability": 4,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 5,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "cascatadafervenca",
+          "n": "Cascata da Fervenca",
+          "city": "sabugueiro",
+          "distance_m": 44420
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_independent_city-page_semantics_audit",
+        "prior_city": "sabugueiro",
+        "corrected_city": "satao",
+        "plan": "research/balanced-280-geography-corrections-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "Palermo Botanical Garden’s Giant Ficus",
+      "a": "Orto Botanico di Palermo, Viale Luigi Montemartini",
+      "pc": "90123",
+      "lat": 38.111336,
+      "lng": 13.37486,
+      "c": "landmarktrees",
+      "s": "a single fig that built itself forty-four trunks",
+      "q": "Palermo Botanical Garden’s Giant Ficus Ficus magnolioide dell’Orto Botanico Orto Botanico di Palermo, Viale Luigi Montemartini Italy",
+      "w": "Aerial roots from Palermo's 1845 fig have fused into dozens of supporting columns, creating something between one tree and a small building. It is a specific named specimen inside the ticketed garden, not the garden itself, and its walk-through scale makes the stop worthwhile.",
+      "city": "palermo",
+      "local_aliases": [
+        "Ficus magnolioide dell’Orto Botanico"
+      ],
+      "country": "Italy",
+      "species": "Moreton Bay fig (Ficus macrophylla f. columnaris)",
+      "age_claim": "introduced in 1845",
+      "access": {
+        "classification": "ticketed-public",
+        "evidence": "Ticketed public botanical garden during opening hours; keep to visitor routes.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2023/palermo-botanical-garden's-giant-ficus",
+          "role": "European Tree of the Year 2023 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/11540258791",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 11540258791; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 4,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 4,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "ortobotanicodipalermo",
+          "n": "Orto Botanico di Palermo",
+          "city": "palermo",
+          "distance_m": 244
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "The Marquis’ Oak",
+      "a": "Amelisweerd, Utrecht",
+      "pc": "3585 LJ",
+      "lat": 52.0711,
+      "lng": 5.1512,
+      "c": "landmarktrees",
+      "s": "the oak at the centre of an anti-motorway fight",
+      "q": "The Marquis’ Oak Markiezeneik Amelisweerd, Utrecht Netherlands",
+      "w": "Planted for the Marquis of Amelisweerd around 1800, this oak became the emblem of campaigns against widening the A27 through the estate forest. The highway is audible, which sharpens rather than weakens the story on the public woodland path.",
+      "city": "utrecht",
+      "local_aliases": [
+        "Markiezeneik"
+      ],
+      "country": "Netherlands",
+      "species": "Pedunculate oak (Quercus robur)",
+      "age_claim": "about 220 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public estate-forest paths; stay clear of the motorway boundary and root protection.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2023/the-marquis'-oak",
+          "role": "European Tree of the Year 2023 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/11064762068",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 11064762068; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 4,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "stadiongalgenwaard",
+          "n": "Stadion Galgenwaard",
+          "city": "utrecht",
+          "distance_m": 884
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "Waverley Abbey Yew",
+      "a": "Waverley Abbey, Waverley Lane, Farnham",
+      "pc": "GU10 1QX",
+      "lat": 51.2002517,
+      "lng": -0.758565,
+      "c": "landmarktrees",
+      "s": "a yew growing through a dissolved abbey",
+      "q": "Waverley Abbey Yew Waverley Abbey Yew Waverley Abbey, Waverley Lane, Farnham England",
+      "w": "After Waverley Abbey was dismantled in the Dissolution, this yew rooted among the ruins and spread its stems and roots across the masonry. The named individual makes the free-to-roam ruin landscape feel alive rather than archaeological.",
+      "city": "england",
+      "local_aliases": [
+        "Waverley Abbey Yew"
+      ],
+      "country": "England",
+      "species": "Yew (Taxus baccata)",
+      "age_claim": "about 500 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public heritage-site paths during posted access; uneven ruins require care.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2023/waverley-abbey-yew",
+          "role": "European Tree of the Year 2023 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/4827811734",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "The live named OSM tree node, 79 m from the contest GPS, is the retained coordinate.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 3,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "stmarthashill",
+          "n": "St Martha's Hill",
+          "city": "england",
+          "distance_m": 16216
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "The Heart of the Garden",
+      "a": "Arboretum Wojsławice, Aleja Wiśni",
+      "pc": "58-230",
+      "lat": 50.7099839,
+      "lng": 16.8599584,
+      "c": "landmarktrees",
+      "s": "the purple beech at the centre of an old park",
+      "q": "The Heart of the Garden Serce Ogrodu Arboretum Wojsławice, Aleja Wiśni Poland",
+      "w": "This monumental copper beech survived the park's upheavals and became the literal meeting point of Wojsławice. Its trunk and purple crown, rather than the arboretum as a whole, won Europe-wide recognition in 2024; a mapped individual node fixes the exact destination.",
+      "city": "sudetes",
+      "local_aliases": [
+        "Serce Ogrodu"
+      ],
+      "country": "Poland",
+      "species": "Copper beech (Fagus sylvatica 'Atropunicea')",
+      "age_claim": "about 200 years",
+      "access": {
+        "classification": "ticketed-public",
+        "evidence": "Ticketed public arboretum during seasonal opening; use garden paths.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2024/the-heart-of-the-garden",
+          "role": "European Tree of the Year 2024 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/6248028389",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        },
+        {
+          "url": "https://arboretumwojslawice.pl/zachecamy-do-glosowania-na-wojslawicki-buk/",
+          "role": "The official arboretum identifies this individual and its contest status; its live OSM tree node is 3 m from the published GPS."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 6248028389; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "The official arboretum identifies this individual and its contest status; its live OSM tree node is 3 m from the published GPS. No removal/death notice was found in the 2026 status pass."
+      },
+      "score": {
+        "story": 4,
+        "walkability": 4,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 3,
+        "total": 21
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "sleza",
+          "n": "Ślęża",
+          "city": "sudetes",
+          "distance_m": 20250
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "The Weeping Beech of Bayeux",
+      "a": "Square Balzac, Bayeux",
+      "pc": "14400",
+      "lat": 49.285691,
+      "lng": -0.718096,
+      "c": "landmarktrees",
+      "s": "a forty-metre canopy held up like architecture",
+      "q": "The Weeping Beech of Bayeux Hêtre pleureur de Bayeux Square Balzac, Bayeux France",
+      "w": "For a century Bayeux has refined a support structure beneath this beech's immense twisted canopy, treating the tree almost as a civic building. It stands in a free public square and is mapped by its local name, an unusually theatrical green room beside the old city.",
+      "city": "bayeux",
+      "local_aliases": [
+        "Hêtre pleureur de Bayeux"
+      ],
+      "country": "France",
+      "species": "Weeping beech (Fagus sylvatica f. pendula)",
+      "age_claim": "about 160 years",
+      "access": {
+        "classification": "public",
+        "evidence": "Free public square; remain outside supports and any temporary care cordon.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.bayeux.fr/fr/actualite/tempete-goretti-premiers-constats-bayeux",
+          "role": "Bayeux municipal status notice dated 9 January 2026: Storm Goretti drove a chestnut onto the beech and damaged two structural branches, confirming a managed but storm-damaged condition."
+        },
+        {
+          "url": "https://www.bayeux.fr/fr/agenda/hetreinlove-rendez-vous-pour-la-saint-valentin",
+          "role": "Bayeux municipal event page for 14 February 2026: a public event beneath the standing beech corroborates post-storm survival and visitor visibility."
+        },
+        {
+          "url": "https://www.bayeux.fr/fr/decouvrir-bayeux/parcs-jardins-et-balades",
+          "role": "Current Bayeux municipal parks-and-gardens page continues to profile the named beech and its public-square setting."
+        },
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2024/the-weeping-beech-of-bayeux",
+          "role": "European Tree of the Year 2024 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/2570232217",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 2570232217; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "condition": "standing, living and visitor-visible, under management after January 2026 storm damage",
+        "checked_at": "2026-08-09",
+        "basis": "Bayeux's 9 January 2026 storm notice records two damaged structural branches after a chestnut fell onto the beech. A 14 February 2026 city event used the standing tree as its backdrop, and the current municipal garden page still profiles it; status is living and standing but managed and storm-damaged."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 5,
+        "total": 25
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "lesplanches",
+          "n": "Les Planches",
+          "city": "deauville",
+          "distance_m": 57906
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_independent_city-page_semantics_audit",
+        "prior_city": "deauville",
+        "corrected_city": "bayeux",
+        "plan": "research/balanced-280-geography-corrections-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "The Jászai Mari Square Plane",
+      "a": "Jászai Mari tér, Budapest XIII",
+      "pc": "1137",
+      "lat": 47.5140921,
+      "lng": 19.0486434,
+      "c": "landmarktrees",
+      "s": "the plane watched by poet Miklós Radnóti and Fanni",
+      "q": "The Jászai Mari Square Plane Jászai Mari téri platán Jászai Mari tér, Budapest XIII Hungary",
+      "w": "Miklós Radnóti and his wife Fanni lived nearby and are remembered walking and picnicking under this plane before war transformed Budapest. The city now lists it among its notable trees; it still shades a paved public square crossed daily by walkers.",
+      "city": "budapest",
+      "local_aliases": [
+        "Jászai Mari téri platán"
+      ],
+      "country": "Hungary",
+      "species": "London plane (Platanus × acerifolia)",
+      "age_claim": "planted around 1936–1938",
+      "access": {
+        "classification": "public",
+        "evidence": "Unrestricted city square with paved paths and seating.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2017/Nejkrasnejsi-platan-na-namesti-Jaszai-Mari",
+          "role": "European Tree of the Year 2017 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/5578113747",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        },
+        {
+          "url": "https://fokert.budapestikozmuvek.hu/jaszai-mari-teri-platan-xiii-keruletnevezetes-fak",
+          "role": "Budapest's municipal green-space operator currently profiles the individual as a notable living tree and describes the public paths."
+        }
+      ],
+      "coordinate_basis": "The contest GPS was rounded to three decimals. The retained live OSM tree node is the closest mapped individual inside the exact municipal square described by the current city tree profile.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "Budapest's municipal green-space operator currently profiles the individual as a notable living tree and describes the public paths. No removal/death notice was found in the 2026 status pass."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 4,
+        "geographic_balance": 4,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "margaretbridge",
+          "n": "Margaret Bridge",
+          "city": "budapest",
+          "distance_m": 384
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "The Spanish Oak of La Vega",
+      "a": "A-8126, La Muela, Coripe",
+      "pc": "11689",
+      "lat": 36.957739,
+      "lng": -5.426703,
+      "c": "landmarktrees",
+      "s": "the oak that hosts an entire pilgrimage",
+      "q": "The Spanish Oak of La Vega Chaparro de la Vega A-8126, La Muela, Coripe Spain",
+      "w": "Every May Coripe's romería gathers beneath this holm oak; its crown has sheltered crowds numbering in the thousands. The named natural monument sits in open public pilgrimage grounds, giving a rural walk a powerful social centre even on quiet days.",
+      "city": "coripe",
+      "local_aliases": [
+        "Chaparro de la Vega"
+      ],
+      "country": "Spain",
+      "species": "Holm oak (Quercus ilex subsp. rotundifolia)",
+      "age_claim": "about 400 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public pilgrimage grounds and approach; avoid roots during events and heat.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2024/the-spanish-oak-of-la-vega",
+          "role": "European Tree of the Year 2024 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/2029478729",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 2029478729; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 5,
+        "total": 25
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "estatua",
+          "n": "Estatua",
+          "city": "seville",
+          "distance_m": 61884
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_independent_city-page_semantics_audit",
+        "prior_city": "jerezdelafrontera",
+        "corrected_city": "coripe",
+        "plan": "research/balanced-280-geography-corrections-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "Wrexham’s Acton Park Sweet Chestnut",
+      "a": "Acton Park, Jeffreys Road, Wrexham",
+      "pc": "LL12 7SB",
+      "lat": 53.0619,
+      "lng": -2.9769,
+      "c": "landmarktrees",
+      "s": "a park veteran that survived firewood raids and storms",
+      "q": "Wrexham’s Acton Park Sweet Chestnut Castanwydden Parc Acton Acton Park, Jeffreys Road, Wrexham Wales",
+      "w": "This chestnut endured wartime stripping of Acton Park for firewood and repeated storms, then became the centre of picnics and community tree parties. It is an exact named node in a free city park, not a generic park recommendation.",
+      "city": "wrexham",
+      "local_aliases": [
+        "Castanwydden Parc Acton"
+      ],
+      "country": "Wales",
+      "species": "Sweet chestnut (Castanea sativa)",
+      "age_claim": "more than 500 years",
+      "access": {
+        "classification": "public",
+        "evidence": "Free public park; use paths and respect any managed canopy exclusion.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2024/wrexham's-acton-park-sweet-chestnut",
+          "role": "European Tree of the Year 2024 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/11274640621",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 11274640621; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 4,
+        "geographic_balance": 5,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "racecourseground",
+          "n": "Racecourse Ground",
+          "city": "chester",
+          "distance_m": 2101
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_full_city_page_semantics_audit",
+        "prior_city": "chester",
+        "corrected_city": "wrexham",
+        "plan": "research/balanced-280-geography-final-remediation-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "The Green Lady of Krka National Park",
+      "a": "Skradinski buk, Krka National Park",
+      "pc": "22221",
+      "lat": 43.807028,
+      "lng": 15.964694,
+      "c": "landmarktrees",
+      "s": "a mulberry surviving Krka's silk-making past",
+      "q": "The Green Lady of Krka National Park Zelena dama NP Krka Skradinski buk, Krka National Park Croatia",
+      "w": "The old white mulberry beside the former Budim mill is a living trace of the region's silkworm and textile economy. A named interpretation point on the national-park visitor route makes the individual easy to find without leaving the managed river walk.",
+      "city": "krka",
+      "local_aliases": [
+        "Zelena dama NP Krka"
+      ],
+      "country": "Croatia",
+      "species": "White mulberry (Morus alba)",
+      "age_claim": "about 400 years",
+      "access": {
+        "classification": "ticketed-public",
+        "evidence": "Ticketed national-park route and pier; obey seasonal path controls.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2024/the-green-lady-of-the-krka-national-park",
+          "role": "European Tree of the Year 2024 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/11007102620",
+          "role": "Live OSM on-site feature used for exact site, address and public-approach corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 11007102620; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live on-site mapped feature was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 5,
+        "total": 25
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "stadionpoljud",
+          "n": "Stadion Poljud",
+          "city": "split",
+          "distance_m": 49332
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_independent_city-page_semantics_audit",
+        "prior_city": "plitvice",
+        "corrected_city": "krka",
+        "plan": "research/balanced-280-geography-corrections-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "The Pálffy Oak of Memories",
+      "a": "Castle Park, Rakárenská, Malacky",
+      "pc": "901 01",
+      "lat": 48.439075,
+      "lng": 17.036209,
+      "c": "landmarktrees",
+      "s": "the survivor older than Malacky's castle dynasty",
+      "q": "The Pálffy Oak of Memories Pálffyovský dub spomienok Castle Park, Rakárenská, Malacky Slovakia",
+      "w": "This oak was already old when the Pálffy family arrived, and the castle park's later wars, markets, fires and epidemics accumulated around it. A municipal eco-barrier now keeps visitors out of its immediate crown zone because branches may fall; view the deep-time witness from the surrounding public park paths.",
+      "city": "malacky",
+      "local_aliases": [
+        "Pálffyovský dub spomienok"
+      ],
+      "country": "Slovakia",
+      "species": "Pedunculate oak (Quercus robur)",
+      "age_claim": "more than 500 years",
+      "access": {
+        "classification": "safe_visibility_only",
+        "evidence": "The surrounding castle park remains public, but a February 2026 municipal eco-barrier excludes the immediate tree and crown zone because branches may fall.",
+        "safety_filter": "View only from outside the eco-barrier; do not cross it, stand beneath the crown, climb, touch branches or enter the root zone.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://malacky.sk/ekobariera-v-zamockom-parku/",
+          "role": "Current Malacky municipal condition and access notice dated 11 February 2026: eco-barrier protects the tree and visitors from possible falling branches."
+        },
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2024/an-oak-that-remembers-the-palffy-family",
+          "role": "European Tree of the Year 2024 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/11741786857",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 11741786857; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "condition": "standing in public castle park with an eco-barrier and possible falling-branch risk",
+        "checked_at": "2026-08-09",
+        "basis": "Malacky municipality documents the named 2023 Tree of the Year standing in the park in February 2026 and explains the eco-barrier around it; visitors must remain outside the barrier because branches may fall."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 4,
+        "geographic_balance": 4,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "chapelofsaintrozalia",
+          "n": "Chapel of Saint Rozalia",
+          "city": "bratislava",
+          "distance_m": 27837
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_independent_city-page_semantics_audit",
+        "prior_city": "cachtice",
+        "corrected_city": "malacky",
+        "plan": "research/balanced-280-geography-corrections-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "Heart of the Dalkowskie Hills",
+      "a": "Historic park, Dalków",
+      "pc": "59-180",
+      "lat": 51.66248,
+      "lng": 15.88624,
+      "c": "landmarktrees",
+      "s": "the wish tree where a village gathers",
+      "q": "Heart of the Dalkowskie Hills Serce Wzgórz Dalkowskich Historic park, Dalków Poland",
+      "w": "Concerts, reading circles, workshops and even Mass have taken place beneath this copper beech. Visitors tuck peanuts into a hollow while making wishes, giving the 2025 European winner a current ritual rather than an age-only claim.",
+      "city": "dalkowskiehills",
+      "local_aliases": [
+        "Serce Wzgórz Dalkowskich"
+      ],
+      "country": "Poland",
+      "species": "Copper beech (Fagus sylvatica 'Atropunicea')",
+      "age_claim": "about 300 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public historic-park paths during site opening; do not place objects deep in cavities.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2025/heart-of-the-dalkowski-hills",
+          "role": "European Tree of the Year 2025 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/12596186781",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 12596186781; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 3,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "grossrosenconcentrationc",
+          "n": "Gross-Rosen concentration camp",
+          "city": "sudetes",
+          "distance_m": 78712
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_independent_city-page_semantics_audit",
+        "prior_city": "sudetes",
+        "corrected_city": "dalkowskiehills",
+        "plan": "research/balanced-280-geography-corrections-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "The Lovers Banyan Tree",
+      "a": "Quinta das Lágrimas, Rua António Augusto Gonçalves, Coimbra",
+      "pc": "3041-901",
+      "lat": 40.197306,
+      "lng": -8.435222,
+      "c": "landmarktrees",
+      "s": "a banyan beside Portugal's tragic lovers' fountain",
+      "q": "The Lovers Banyan Tree Figueira dos Amores Quinta das Lágrimas, Rua António Augusto Gonçalves, Coimbra Portugal",
+      "w": "The fig stands beside the fountain associated with Pedro and Inês de Castro, Portugal's enduring story of royal love and murder. Its buttress roots and imported Australian origin add a second story layer inside the ticketed historic gardens.",
+      "city": "coimbra",
+      "local_aliases": [
+        "Figueira dos Amores"
+      ],
+      "country": "Portugal",
+      "species": "Moreton Bay fig (Ficus macrophylla)",
+      "age_claim": "about 150 years",
+      "access": {
+        "classification": "ticketed-public",
+        "evidence": "Ticketed public garden during opening hours; use designated routes around roots.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2025/the-lovers-banyan-tree",
+          "role": "European Tree of the Year 2025 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/2829461391",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 2829461391; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 4,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 5,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "bucacoforestmatanacional",
+          "n": "Bucaco Forest (Mata Nacional do Bucaco)",
+          "city": "luso",
+          "distance_m": 20120
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_full_city_page_semantics_audit",
+        "prior_city": "luso",
+        "corrected_city": "coimbra",
+        "plan": "research/balanced-280-geography-final-remediation-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "Lukavice Oak",
+      "a": "35817, Lukavička, Lukavice",
+      "pc": "538 24",
+      "lat": 49.88934,
+      "lng": 15.835037,
+      "c": "landmarktrees",
+      "s": "the oak an estate tried to kill by stealing its soil",
+      "q": "Lukavice Oak Lukavický dub 35817, Lukavička, Lukavice Czech Republic",
+      "w": "Before the First World War, estate managers repeatedly carted soil away from the roots despite official prohibitions. The oak survived that deliberate assault and is now a named roadside veteran claimed proudly by the village.",
+      "city": "lukavice",
+      "local_aliases": [
+        "Lukavický dub"
+      ],
+      "country": "Czech Republic",
+      "species": "Pedunculate oak (Quercus robur)",
+      "age_claim": "roughly 700–800 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public village-road visibility; stay outside root protection and adjacent property.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2025/lukavice-oak",
+          "role": "European Tree of the Year 2025 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/12117490304",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 12117490304; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 3,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "dacicky",
+          "n": "Dačický",
+          "city": "kutnahora",
+          "distance_m": 41356
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_independent_city-page_semantics_audit",
+        "prior_city": "sudetes",
+        "corrected_city": "lukavice",
+        "plan": "research/balanced-280-geography-corrections-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "Wild Pear from Bošáca",
+      "a": "1223, Lysica Hill, Zemianske Podhradie",
+      "pc": "913 07",
+      "lat": 48.834889640064276,
+      "lng": 17.81724932607273,
+      "c": "landmarktrees",
+      "s": "a hilltop pear shared by paragliders and model aircraft",
+      "q": "Wild Pear from Bošáca Hruška planá z Bošáce 1223, Lysica Hill, Zemianske Podhradie Slovakia",
+      "w": "A wind-carried seed became a landmark on Lysica Hill, where paragliders and historic model-aircraft flyers use the same open air. The named tree gives the climb a precise living summit marker and a story tied to the hill's weather.",
+      "city": "bosacavalley",
+      "local_aliases": [
+        "Hruška planá z Bošáce"
+      ],
+      "country": "Slovakia",
+      "species": "Wild pear (Pyrus pyraster)",
+      "age_claim": "about 150 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public hill paths and open visibility; avoid launch areas when flying is active.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2025/wild-pear-from-bosaca",
+          "role": "European Tree of the Year 2025 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/12281762892",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 12281762892; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 4,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 4,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "cachticecastle",
+          "n": "Cachtice Castle",
+          "city": "cachtice",
+          "distance_m": 11548
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_full_city_page_semantics_audit",
+        "prior_city": "cachtice",
+        "corrected_city": "bosacavalley",
+        "plan": "research/balanced-280-geography-final-remediation-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "Tree of Freedom in Rab",
+      "a": "Trg Slobode, Rab",
+      "pc": "51280",
+      "lat": 44.755461,
+      "lng": 14.760471,
+      "c": "landmarktrees",
+      "s": "Rab's century-old civic freedom tree",
+      "q": "Tree of Freedom in Rab Stablo slobode na Rabu Trg Slobode, Rab Croatia",
+      "w": "Families preserve stories of ancestors who helped plant this holm oak, and the city marked its centenary as a piece of collective identity. It fills a public old-town square with shade, making the tree part of everyday pedestrian life rather than a remote monument.",
+      "city": "rab",
+      "local_aliases": [
+        "Stablo slobode na Rabu"
+      ],
+      "country": "Croatia",
+      "species": "Holm oak (Quercus ilex)",
+      "age_claim": "planted around 1921",
+      "access": {
+        "classification": "public",
+        "evidence": "Unrestricted public square in Rab old town.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2025/tree-of-freedom-in-rab-square",
+          "role": "European Tree of the Year 2025 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/10042648877",
+          "role": "Live OSM on-site feature used for exact site, address and public-approach corroboration."
+        },
+        {
+          "url": "https://www.rab.hr/uncategorized/ja-sam-hrast-crnika-i-pripadam-svojim-ljudima/",
+          "role": "The City of Rab's 2025 page identifies the living oak, its public square and civic story."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 10042648877; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "The City of Rab's 2025 page identifies the living oak, its public square and civic story. No removal/death notice was found in the 2026 status pass."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 4,
+        "geographic_balance": 5,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "plitvicelakesnationalpar",
+          "n": "Plitvice Lakes National Park",
+          "city": "plitvice",
+          "distance_m": 68900
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_independent_city-page_semantics_audit",
+        "prior_city": "plitvice",
+        "corrected_city": "rab",
+        "plan": "research/balanced-280-geography-corrections-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "The Big Oak of Liernu",
+      "a": "Place de Liernu, Liernu",
+      "pc": "5310",
+      "lat": 50.5841129,
+      "lng": 4.8276715,
+      "c": "landmarktrees",
+      "s": "a hollow oak converted into a chapel",
+      "q": "The Big Oak of Liernu Gros Chêne de Liernu Place de Liernu, Liernu Belgium",
+      "w": "The tree's hollow became a chapel to Saint Anthony, while local legend has Charlemagne planting its acorn. Whatever the age claim, the named living oak and tiny sacred interior make a striking encounter in the public village square.",
+      "city": "liernu",
+      "local_aliases": [
+        "Gros Chêne de Liernu"
+      ],
+      "country": "Belgium",
+      "species": "Pedunculate oak (Quercus robur)",
+      "age_claim": "traditional claim of more than 1,000 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public square; view the chapel opening without entering or touching the hollow.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2016/Velky-dub-v-Liernu",
+          "role": "European Tree of the Year 2016 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/1059057756",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "The live named OSM tree node, 18 m from the contest GPS, is the retained coordinate.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 4,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "bornedecharlesquint",
+          "n": "Borne de Charles Quint",
+          "city": "brussels",
+          "distance_m": 38529
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_independent_city-page_semantics_audit",
+        "prior_city": "lier",
+        "corrected_city": "liernu",
+        "plan": "research/balanced-280-geography-corrections-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "Niel Gow’s Oak",
+      "a": "River Braan path near Inver",
+      "pc": "PH8 0HX",
+      "lat": 56.5630207,
+      "lng": -3.6065219,
+      "c": "landmarktrees",
+      "s": "the fiddle tree of Scotland's great strathspey composer",
+      "q": "Niel Gow’s Oak Niel Gow's Oak River Braan path near Inver Scotland",
+      "w": "Legend says eighteenth-century fiddler Niel Gow composed beneath this oak by the River Tay, and a nearby seat quotes a modern song addressed to his ghost. The named tree turns a riverside walk into an encounter with Scotland's continuing traditional-music lineage.",
+      "city": "highlands",
+      "local_aliases": [
+        "Niel Gow's Oak"
+      ],
+      "country": "Scotland",
+      "species": "Sessile oak (Quercus petraea)",
+      "age_claim": "about 300 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public riverside/woodland walking approach; use the signed route and do not approach from the A9 carriageway.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2014/Dub-Niela-Gowse",
+          "role": "European Tree of the Year 2014 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/3639909807",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        }
+      ],
+      "coordinate_basis": "Historic contest GPS was 572 m away; the live OSM node named for the individual beside Inver is the retained coordinate.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 4,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "mcdiarmidpark",
+          "n": "McDiarmid Park",
+          "city": "highlands",
+          "distance_m": 18815
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      }
+    },
+    {
+      "n": "Oak Józef",
+      "a": "Aleja Grabowa, Stawiska, Wiśniowa",
+      "pc": "38-124",
+      "lat": 49.8686961,
+      "lng": 21.6441391,
+      "c": "landmarktrees",
+      "s": "the banknote oak that hid a Jewish family",
+      "q": "Oak Józef Dąb Józef Aleja Grabowa, Stawiska, Wiśniowa Poland",
+      "w": "The oak's image had already appeared on Poland's 1934 100-złoty note when, during the Second World War, a Jewish family reportedly used its hollow as shelter. The same tree thus carries both national iconography and a story of private survival, and it still stands in the publicly visited manor landscape.",
+      "city": "podkarpackie",
+      "local_aliases": [
+        "Dąb Józef"
+      ],
+      "country": "Poland",
+      "species": "Pedunculate oak (Quercus robur)",
+      "age_claim": "The champion nomination said more than 650 years; a 2024 profile citing Cezary Pacyniak's research estimates about 456 years. The disputed age is not used in production copy.",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Publicly visited manor-park route; respect any hollow and root barriers.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2017/Dub-Josef",
+          "role": "European Tree of the Year 2017 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/5002913005",
+          "role": "Live OSM individual-tree/attraction object used for coordinate and present-map corroboration."
+        },
+        {
+          "url": "https://www.internationaloaksociety.org/content/d%C4%85b-j%C3%B3zef-j%C3%B3zef-oak",
+          "role": "International Oak Society profile used to cross-check the banknote and wartime-shelter chronology."
+        },
+        {
+          "url": "https://lenartpawel.pl/pomnikowy-dab-szypulkowy-jozef-z-wisniowej-drzewo-roku-2016-i-europejskie-drzewo-roku-2017.html",
+          "role": "Dated 2024 field profile supporting the 1930s banknote chronology, wartime local account, current condition and disputed age range."
+        }
+      ],
+      "coordinate_basis": "The contest GPS was rounded to two decimals and lands about 1 km away. The live OSM node named Dąb Józef at the documented Stawiska estate is the retained coordinate.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "A live individual named/tree object was retrieved on 2026-08-09 and the named champion page still resolves; the 2026 death/removal search found no adverse status notice."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 3,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "rzeszowcastle",
+          "n": "Rzeszów Castle",
+          "city": "rzeszow",
+          "distance_m": 31320
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_independent_city-page_semantics_audit",
+        "prior_city": "malopolska",
+        "corrected_city": "podkarpackie",
+        "plan": "research/balanced-280-geography-corrections-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "Plane Tree from Budatin",
+      "a": "Budatín Castle Park, Topoľová 1, Žilina",
+      "pc": "010 03",
+      "lat": 49.2361667,
+      "lng": 18.7336944,
+      "c": "landmarktrees",
+      "s": "the stronger of two root-bound plane-tree brothers",
+      "q": "Plane Tree from Budatin Budatínsky platan Budatín Castle Park, Topoľová 1, Žilina Slovakia",
+      "w": "Two same-aged planes grew together in Budatín park like brothers: one massive and healthy, the other smaller and hollow, their roots intertwined. The larger named individual won Slovakia's contest, and the current museum keeps the park open daily from early morning to late evening.",
+      "city": "zilina",
+      "local_aliases": [
+        "Budatínsky platan"
+      ],
+      "country": "Slovakia",
+      "species": "London plane (Platanus × hispanica)",
+      "age_claim": "about 270 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public castle park, currently posted as open daily 06:00–22:00.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2017/Budatinsky-platan",
+          "role": "European Tree of the Year 2017 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/way/1359397815",
+          "role": "Live OSM on-site feature used for exact site, address and public-approach corroboration."
+        },
+        {
+          "url": "https://pmza.sk/expozicie/budatinsky-hrad/",
+          "role": "The current Považské Museum page lists daily park hours and the park's mature plane trees."
+        },
+        {
+          "url": "https://pmza.sk/2017/aktuality/platan-z-budatina-aspiruje-na-titul-europsky-strom-roka/",
+          "role": "The castle's managing museum identifies the exact champion tree and its twin-tree story."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM way 1359397815; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "The current Považské Museum page lists daily park hours and the park's mature plane trees. No removal/death notice was found in the 2026 status pass."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 5,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 4,
+        "total": 24
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "jozefswiderstatemusicsch",
+          "n": "Józef Świder State Music School Concert Hall",
+          "city": "jastrzebiezdroj",
+          "distance_m": 79857
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_independent_city-page_semantics_audit",
+        "prior_city": "cachtice",
+        "corrected_city": "zilina",
+        "plan": "research/balanced-280-geography-corrections-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    },
+    {
+      "n": "The Giant Wild Pear of Gödöllő",
+      "a": "MATE Botanical Garden, Páter Károly utca 1, Gödöllő",
+      "pc": "2100",
+      "lat": 47.595114,
+      "lng": 19.367296,
+      "c": "landmarktrees",
+      "s": "the lovers' pear linked to Kossuth and Empress Sisi",
+      "q": "The Giant Wild Pear of Gödöllő Gödöllői Vén Vackor MATE Botanical Garden, Páter Károly utca 1, Gödöllő Hungary",
+      "w": "Tradition places both Kossuth's independence work and the romance of Count Andrássy and Empress Elisabeth beneath this wild pear. MATE's current botanical-garden pages still identify the individual as Vén Vackor and publish a walkable route and visitor hours.",
+      "city": "godollo",
+      "local_aliases": [
+        "Gödöllői Vén Vackor"
+      ],
+      "country": "Hungary",
+      "species": "Wild pear (Pyrus pyraster)",
+      "age_claim": "about 289 years",
+      "access": {
+        "classification": "public-path-or-safe-visibility",
+        "evidence": "Public university botanical garden during posted weekday hours; Saturday groups require prior arrangement.",
+        "safety_filter": "No climbing, hollow entry, fence crossing or root-zone shortcuts; follow any local closure or land-manager instruction.",
+        "checked_at": "2026-08-09"
+      },
+      "sources": [
+        {
+          "url": "https://www.treeoftheyear.org/previous-years/2014/Obri-plana-hrusen-v-Godollo",
+          "role": "European Tree of the Year 2014 finalist/champion evidence: named individual, species, age claim, story and published GPS."
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/2796293822",
+          "role": "Live OSM on-site feature used for exact site, address and public-approach corroboration."
+        },
+        {
+          "url": "https://godolloibotanikuskert.uni-mate.hu/v%C3%A9n-k%C3%B6rtefa",
+          "role": "MATE's botanical garden profiles the individual, its measurements and champion status."
+        },
+        {
+          "url": "https://uni-mate.hu/web/g%C3%B6d%C3%B6ll%C5%91i-botanikus-kert/el%C3%A9rhet%C5%91s%C3%A9g",
+          "role": "MATE's 2026 visitor page publishes current garden hours and a ten-minute walking approach from the station."
+        }
+      ],
+      "coordinate_basis": "European Tree of the Year published GPS cross-checked against live OSM node 2796293822; the retained point identifies the individual or its on-site marker.",
+      "current_status": {
+        "standing": true,
+        "living": true,
+        "checked_at": "2026-08-09",
+        "basis": "MATE's botanical garden profiles the individual, its measurements and champion status. No removal/death notice was found in the 2026 status pass."
+      },
+      "score": {
+        "story": 5,
+        "walkability": 4,
+        "evidence": 5,
+        "distinctiveness": 5,
+        "geographic_balance": 4,
+        "total": 23
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "status": "high",
+        "story": "high"
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "nagytarcsaimuzeumikialli",
+          "n": "Nagytarcsai Múzeumi kiállítóhely",
+          "city": "budapest",
+          "distance_m": 10165
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "result": "net-new"
+      },
+      "geography_assignment": {
+        "status": "corrected_after_full_city_page_semantics_audit",
+        "prior_city": "budapest",
+        "corrected_city": "godollo",
+        "plan": "research/balanced-280-geography-final-remediation-2026-08-09.json",
+        "checked_at": "2026-08-09"
+      }
+    }
+  ],
+  "deferred": [
+    {
+      "n": "Major Oak",
+      "country": "England",
+      "reason": "Rejected: RSPB confirmed in June 2026 that the tree is dead. It remains upright as deadwood but fails the living-individual contract.",
+      "source": "https://www.theguardian.com/environment/2026/jun/18/most-famous-tree-world-sherwood-forest-ancient-major-oak-dies"
+    },
+    {
+      "n": "The Thousand-Year-Old Olive Tree of Luras",
+      "country": "Italy",
+      "reason": "Rejected: evidence is strong and access is public, but the sourced case is primarily great age/size and does not clear the memorable-story rule.",
+      "source": "https://www.treeoftheyear.org/previous-years/2024/the-thousand-year-old-olive-tree-of-luras"
+    },
+    {
+      "n": "Secular Holm Oak of Monte Barbeiro",
+      "country": "Portugal",
+      "reason": "Rejected: live-mapped and accessible, but the story is essentially age, shade and landscape scale; story score would be below 4.",
+      "source": "https://www.treeoftheyear.org/previous-years/2019/Svetly-dub-cesminovity-z-Monte-do-Barbeiro"
+    },
+    {
+      "n": "Guardian of the Flooded Village",
+      "country": "Czech Republic",
+      "reason": "Deferred: the organiser explicitly says not to approach or enter the reservoir protection zone; a verified legal viewing route is still needed.",
+      "source": "https://www.treeoftheyear.org/previous-years/2020/Chudobinska-borovice"
+    },
+    {
+      "n": "Camellia at Villa Margaridi",
+      "country": "Portugal",
+      "reason": "Deferred: the tree is in a private villa garden with access evidenced only for occasional open days.",
+      "source": "https://www.treeoftheyear.org/previous-years/2024/camellia"
+    },
+    {
+      "n": "The Skipinnish Oak",
+      "country": "Scotland",
+      "reason": "Deferred: location is on an estate and ordinary public-path access to the individual was not established.",
+      "source": "https://www.treeoftheyear.org/previous-years/2025/the-skipinnish-oak"
+    },
+    {
+      "n": "Tasso di Matari",
+      "country": "Italy",
+      "reason": "Deferred: current standing status is strong, but the remote impervious approach does not reach walkability 4/5.",
+      "source": "https://www.treeoftheyear.org/previous-years/2025/tasso-di-matari-urzulei"
+    },
+    {
+      "n": "The Ding Dong Tree",
+      "country": "Scotland",
+      "reason": "Rejected: located inside active primary-school grounds; not suitable for casual public discovery.",
+      "source": "https://www.treeoftheyear.org/previous-years/2017/Strom-Ding-dong"
+    },
+    {
+      "n": "The Cedar of Sainte-Marie College",
+      "country": "Belgium",
+      "reason": "Rejected: school-campus access does not meet the public-path or safe public-visibility rule.",
+      "source": "https://www.treeoftheyear.org/previous-years/2024/the-cedar-of-the-sainte-marie-college"
+    },
+    {
+      "n": "The Old Chestnut of Sint-Rafaël",
+      "country": "Belgium",
+      "reason": "Deferred: current campus access to the individual remains ambiguous.",
+      "source": "https://www.treeoftheyear.org/previous-years/2025/the-old-chestnut-of-sint-rafael"
+    },
+    {
+      "n": "Nellie’s Tree",
+      "country": "England",
+      "reason": "Deferred: the organiser GPS and current named OSM node disagree by about 1.37 km; coordinate confidence is not high.",
+      "source": "https://www.treeoftheyear.org/previous-years/2019/Nelliin-strom"
+    },
+    {
+      "n": "Pear Tree in the Middle of a Field",
+      "country": "Czech Republic",
+      "reason": "Deferred: 2024 standing evidence is good, but no verified public path to the precise field tree was found.",
+      "source": "https://www.treeoftheyear.org/previous-years/2024/pear-tree-in-the-middle-of-a-field"
+    },
+    {
+      "n": "Russalka Oak",
+      "country": "Estonia",
+      "reason": "Deferred: excellent public setting and story, but the current map has many nearby young avenue trees and no unambiguous exact node for this individual.",
+      "source": "https://www.treeoftheyear.org/previous-years/2017/Rusalcin-dub"
+    },
+    {
+      "n": "The Nail Tree",
+      "country": "Belgium",
+      "reason": "Deferred: the medieval cure story is excellent, but a current individual-tree map/status signal was not strong enough.",
+      "source": "https://www.treeoftheyear.org/previous-years/2015/Strom-hrebiku"
+    },
+    {
+      "n": "Wybicki Oak at Będomin",
+      "country": "Poland",
+      "reason": "Deferred: museum access and historic protection are clear, but the living individual lacks a sufficiently current exact-tree status record.",
+      "source": "https://www.treeoftheyear.org/previous-years/2014/Wybickeho-dub-v-Bedominu"
+    },
+    {
+      "n": "Suffragette Oak",
+      "country": "Scotland",
+      "reason": "Rejected: storm loss/damage means it does not satisfy the current living-individual requirement.",
+      "source": "https://www.treeoftheyear.org/previous-years/2016/Dub-sufrazetek"
+    },
+    {
+      "n": "Sycamore Gap Tree",
+      "country": "England",
+      "reason": "Rejected: felled in 2023.",
+      "source": "https://www.treeoftheyear.org/previous-years/2017/Javor-v-prikrem-udoli"
+    },
+    {
+      "n": "Cubbington Pear",
+      "country": "England",
+      "reason": "Rejected: felled for HS2.",
+      "source": "https://www.treeoftheyear.org/previous-years/2016/Hrusen-z-Cubbingtonu"
+    }
+  ]
+}

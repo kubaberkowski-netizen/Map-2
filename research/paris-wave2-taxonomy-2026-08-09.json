@@ -1,0 +1,547 @@
+{
+  "schema_version": "1.0",
+  "dossier_id": "paris-wave2-taxonomy-2026-08-09",
+  "created_at": "2026-08-09",
+  "status": "decision_record_only_no_separate_import",
+  "artifact_role": {
+    "separate_import_row_count": 0,
+    "import_from_this_file": false,
+    "supersedes_candidate_dossiers": false,
+    "relationship": "This file records category contracts, retag decisions and audit reasoning. Its compact exact_shortlists restate candidates only to justify taxonomy; they are not a second import bundle. Candidate facts, access, scores and import authority remain in the named arcades/trades/faith, street-furniture and dedicated Art Nouveau dossiers."
+  },
+  "application": {
+    "status": "applied_to_live_draft_catalogue",
+    "applied_at": "2026-08-09",
+    "categories_registered": ["arcades", "streetfurniture", "historicshopfronts", "artnouveau"],
+    "new_draft_rows": 41,
+    "quality_flag": "d",
+    "existing_rows_retagged": 8,
+    "separate_rows_imported_from_this_file": 0,
+    "do_not_import_exact_shortlists": true
+  },
+  "snapshot": {
+    "catalogue_rows": 17328,
+    "paris_rows": 231,
+    "live_category_count_before_wave2": 64,
+    "paris_categories_used_before_wave2": 51,
+    "audit_basis": [
+      "src/app.template.html live category registry",
+      "data/spots.json full catalogue",
+      "all 231 live Paris rows",
+      "research/paris-arcades-trades-faith-wave2-2026-08-09.json",
+      "research/paris-street-furniture-deep-2026-08-09.json",
+      "research/paris-art-nouveau-wave2-2026-08-09.json"
+    ],
+    "import_authorized": false,
+    "rule": "No famousness padding, no generic series members, no private-interior promises, and no production import before the parent run's final collision and source review."
+  },
+  "decision": {
+    "ship_now": [
+      "arcades",
+      "streetfurniture",
+      "historicshopfronts",
+      "artnouveau"
+    ],
+    "ship_rationale": "These are four visually and behaviourally distinct accidental-discovery lenses. The first three emerged from this taxonomy audit; artnouveau was subsequently promoted only after a dedicated 33-lead follow-up produced 11 all-high whole-facade candidates. Each has a strict Paris launch set, a clean boundary from the live registry, and immediate reuse in multiple world cities.",
+    "do_not_ship_now": [
+      "stations",
+      "fountains",
+      "cabaret",
+      "bookstalls",
+      "artisanworkshops"
+    ]
+  },
+  "category_contracts": {
+    "arcades": {
+      "label": "Covered arcades",
+      "emoji": "🏛️",
+      "tint": "#E8E3DA",
+      "icon_svg_path": "<path d=\"M3 21h18\"/><path d=\"M5 21V10a7 7 0 0 1 14 0v11\"/><path d=\"M9 21v-9a3 3 0 0 1 6 0v9\"/>",
+      "definition": "A named, publicly traversable roofed or colonnaded pedestrian commercial passage whose surviving route and architecture are the objective.",
+      "include": [
+        "Historic glazed commercial passages and gallerias designed as pedestrian through-routes.",
+        "A route with current ordinary public passage during stated hours and an exact named-way or entrance coordinate.",
+        "A passage whose roof, paving, shop rhythm or trading history remains legible while walking through it."
+      ],
+      "exclude": [
+        "Open-air alleys and lanes, including Cour du Commerce Saint-André.",
+        "Modern shopping-mall corridors, station concourses, cloisters and porticoes that are not public commercial through-routes.",
+        "An individual business inside the passage; retain its narrower business category when independently strong.",
+        "Private, event-only or access-unverified galleries."
+      ],
+      "why_existing_categories_fail": {
+        "alley": "Alley describes an open-air lane morphology, not a roofed public interior-street.",
+        "history": "History is too broad to expose the repeatable walk-through form.",
+        "market": "Market is about recurring trade, while an arcade remains the objective even when its tenant mix changes."
+      },
+      "strict_paris_pool_estimate": "14–20",
+      "global_reuse": [
+        "Milan, Turin, Naples and Genoa gallerias",
+        "Brussels royal galleries",
+        "London and Leeds arcades",
+        "Istanbul passages",
+        "Melbourne arcades",
+        "Buenos Aires galleries"
+      ]
+    },
+    "streetfurniture": {
+      "label": "Street furniture",
+      "emoji": "🕰️",
+      "tint": "#E3E8E6",
+      "icon_svg_path": "<circle cx=\"12\" cy=\"7\" r=\"4\"/><path d=\"M12 11v10\"/><path d=\"M8 21h8\"/><path d=\"M12 5v2l1.5 1\"/>",
+      "definition": "An individually distinctive human-scale object installed in public space to provide recurring civic service, information, measurement, comfort or access.",
+      "include": [
+        "A last, first, protected, one-off, custom-designed or rare surviving public-realm object with its own provenance.",
+        "Exceptional transit entrances, public clocks, drinking-water points, sanitary structures and civic measurement, datum or boundary instruments.",
+        "An exact object or access pin and current pavement, public-garden or operating-transit visibility."
+      ],
+      "exclude": [
+        "Generic benches, lamps, bollards, news kiosks, sanisettes, Morris columns and standard Metro surrounds.",
+        "Serial membership alone: retain at most one representative for a genuinely distinct surviving model or provenance.",
+        "Sculptural or commemorative fountains whose primary identity is monumental; use monument.",
+        "Ordinary plaques, painted advertisements, façades, full station interiors and isolated artworks better classed as plaque, ghostsign, historicshopfronts, stations or streetart.",
+        "Objects behind private or access-unverified gates."
+      ],
+      "why_existing_categories_fail": {
+        "oddity": "Oddity explains strangeness but not the designed civic function.",
+        "monument": "Monument is commemorative or sculptural; these objects were made to perform a recurring urban service.",
+        "history": "History cannot expose this globally repeatable public-interface lens.",
+        "industrial": "Industrial covers system-scale infrastructure rather than the small object a pedestrian directly uses or reads."
+      },
+      "strict_paris_pool_estimate": "10–16 after the one-per-model serial rule",
+      "global_reuse": [
+        "London cabmen's shelters, historic urinals and drinking fountains",
+        "Vienna Stadtbahn entrances and public clocks",
+        "Lisbon kiosks and fountains",
+        "Berlin pumps and advertising columns",
+        "New York subway entrances and street clocks"
+      ],
+      "metro_boundary": "An architect-designed entrance object may be streetfurniture. A remarkable station interior or engineering ensemble must never be nested here; that is a future separate stations category."
+    },
+    "historicshopfronts": {
+      "label": "Historic shopfronts",
+      "emoji": "🪟",
+      "tint": "#E8DDD4",
+      "icon_svg_path": "<path d=\"M3 9h18\"/><path d=\"M5 9V5h14v4\"/><path d=\"M5 9v12h14V9\"/><path d=\"M8 21v-7h8v7\"/>",
+      "definition": "A named or individually documented historic retail or trade frontage whose surviving purpose-built exterior fabric is itself the pavement-visible objective.",
+      "include": [
+        "A surviving historic frame, glazing, mosaic, relief, trade image, lettering integrated into the frontage, or fitted exterior detail.",
+        "The former trade is materially legible and the facade can be inspected from public pavement without entering the present premises.",
+        "A protected frontage or an equivalently well-sourced individually distinctive survivor."
+      ],
+      "exclude": [
+        "An active specialist shop, bakery, café or other business where its current offer and walk-in experience are the objective; keep the active-business category.",
+        "An isolated faded, painted or applied wall advertisement; use ghostsign.",
+        "Generic old-looking storefronts, recreated fronts, private interiors and courtyard-only details.",
+        "A whole architecturally notable building where the shopfront is not the atomic objective."
+      ],
+      "why_existing_categories_fail": {
+        "ghostsign": "Ghost signs are obsolete painted or applied advertising and lettering. A substantially intact three-dimensional fitted commercial facade is a different object class.",
+        "specialistshops": "Specialist shops are selected for their active narrow inventory, expertise and usable retail experience, not inherited exterior fabric.",
+        "history": "History would hide a coherent and highly walkable form among unrelated historic sites."
+      },
+      "strict_paris_pool_estimate": "10–18; eight all-high protected former-trade fronts are ready as the launch nucleus",
+      "global_reuse": [
+        "London, York and Edinburgh tiled butchers, pharmacies and tobacconists",
+        "Brussels, Porto and Lisbon historic grocers and pharmacies",
+        "Turin, Milan and Barcelona fitted commercial fronts",
+        "Melbourne and Buenos Aires heritage shopfronts",
+        "Istanbul historic trade façades"
+      ],
+      "same_premises_rule": "A current venue and inherited facade may coexist only when both are independently strong and their stories and interactions are explicitly different; otherwise keep one atomic row."
+    }
+  },
+  "live_paris_retags": [
+    {
+      "id": "galerievivienne",
+      "name": "Galerie Vivienne",
+      "from": "history",
+      "to": "arcades",
+      "decision": "retag",
+      "reason": "Canonical publicly walkable glass-roofed commercial passage.",
+      "collision_note": "Librairie Jousseaume is a distinct active bookshop nested inside; keep both."
+    },
+    {
+      "id": "passagedespanoramas",
+      "name": "Passage des Panoramas",
+      "from": "history",
+      "to": "arcades",
+      "decision": "retag",
+      "reason": "The route and surviving covered-passage form are the primary experience."
+    },
+    {
+      "id": "passagedugrandcerf",
+      "name": "Passage du Grand-Cerf",
+      "from": "history",
+      "to": "arcades",
+      "decision": "retag",
+      "reason": "The tall iron-and-glass public passage is more specific than generic history."
+    },
+    {
+      "id": "passagebrady",
+      "name": "Passage Brady",
+      "from": "alley",
+      "to": "arcades",
+      "decision": "retag",
+      "reason": "Its covered iron-and-glass section and through-route fit the new contract; alley is open-air."
+    },
+    {
+      "id": "canonmeridiendupalaisroy",
+      "name": "Canon méridien du Palais-Royal",
+      "from": "oddity",
+      "to": "streetfurniture",
+      "decision": "retag",
+      "reason": "A public timekeeping instrument whose civic function is the story."
+    },
+    {
+      "id": "metreetalondelaruedevaug",
+      "name": "Mètre étalon de la rue de Vaugirard",
+      "from": "plaque",
+      "to": "streetfurniture",
+      "decision": "retag",
+      "reason": "A usable revolutionary public measurement standard, not a commemorative plaque."
+    },
+    {
+      "id": "miredusud",
+      "name": "Mire du Sud",
+      "from": "history",
+      "to": "streetfurniture",
+      "decision": "retag",
+      "reason": "A surviving public astronomical sighting instrument aligned to the Paris meridian."
+    },
+    {
+      "id": "pointzerodesroutesdefran",
+      "name": "Point zéro des Routes de France",
+      "from": "history",
+      "to": "streetfurniture",
+      "decision": "retag",
+      "reason": "A still-legible civic datum embedded in the public realm."
+    },
+    {
+      "id": "fontainewallace2",
+      "name": "Fontaine Wallace",
+      "from": "history",
+      "to": null,
+      "decision": "quarantine_and_research",
+      "reason": "The generic row at 48.83747,2.29644 does not match a Wallace fountain in the official live water inventory; the coordinate instead resolves to other water objects. Do not retag or use as a dedupe blocker until identity is repaired."
+    },
+    {
+      "id": "courducommercesaintandre",
+      "name": "Cour du Commerce Saint-André",
+      "from": "history",
+      "to": null,
+      "decision": "keep",
+      "reason": "It is an open-air historic lane, not a covered arcade."
+    }
+  ],
+  "draft_row_retags_before_import": [
+    {
+      "source_dossier": "research/paris-arcades-trades-faith-wave2-2026-08-09.json",
+      "from": "ghostsign",
+      "to": "historicshopfronts",
+      "ids": [
+        "anciennelibrairieroger",
+        "bacchusmichellecomte",
+        "ruchepierrelescot",
+        "ancienneboulangeriechezjulien",
+        "anciennecharcuterieparrot",
+        "anciennepoissonneriesalina",
+        "auxtortuesfacade",
+        "ancienneepicerieleflaubert"
+      ],
+      "reason": "All eight target substantially surviving fitted former-trade fronts, not isolated painted advertisements."
+    }
+  ],
+  "exact_shortlists": {
+    "arcades": [
+      {
+        "id": "galerieverododat",
+        "name": "Galerie Véro-Dodat",
+        "aliases": ["Galerie Vero-Dodat", "Passage Véro-Dodat"],
+        "lat": 48.8628159,
+        "lng": 2.3402173,
+        "sources": ["https://www.paris.fr/pages/decouvrez-la-magie-des-galeries-et-des-passages-18889", "https://pop.culture.gouv.fr/notice/merimee/PA00085995", "https://www.openstreetmap.org/way/1378010583"]
+      },
+      {
+        "id": "passagechoiseul",
+        "name": "Passage Choiseul",
+        "aliases": ["Passage Choiseul et passage Sainte-Anne"],
+        "lat": 48.8680286,
+        "lng": 2.3355409,
+        "sources": ["https://pop.culture.gouv.fr/notice/merimee/PA00086088", "https://www.paris.fr/pages/decouvrez-la-magie-des-galeries-et-des-passages-18889", "https://www.openstreetmap.org/way/135808077"]
+      },
+      {
+        "id": "passagebourglabbe",
+        "name": "Passage du Bourg-l'Abbé",
+        "aliases": ["Passage Bourg-l'Abbé", "Passage du Bourg l'Abbé"],
+        "lat": 48.8645665,
+        "lng": 2.3506123,
+        "sources": ["https://pop.culture.gouv.fr/notice/merimee/PA00086097", "https://parisjetaime.com/article/paris-insolite-les-passages-couverts-a1801", "https://www.openstreetmap.org/way/1224620082"]
+      },
+      {
+        "id": "passageducaire",
+        "name": "Passage du Caire",
+        "aliases": ["Passage du Caire et place du Caire"],
+        "lat": 48.8675011,
+        "lng": 2.3512351,
+        "sources": ["https://parisjetaime.com/culture/passage-du-caire-p1587", "https://www.paris.fr/pages/decouvrez-la-magie-des-galeries-et-des-passages-18889", "https://www.openstreetmap.org/way/1381330701"]
+      },
+      {
+        "id": "passageverdeau",
+        "name": "Passage Verdeau",
+        "aliases": ["Passage Verdeau Grange-Batelière"],
+        "lat": 48.873814,
+        "lng": 2.3425265,
+        "sources": ["https://parisjetaime.com/culture/passage-verdeau-p1578", "https://parisjetaime.com/article/paris-opera-grands-boulevards-a898", "https://www.openstreetmap.org/way/23272393"]
+      },
+      {
+        "id": "passageduprado",
+        "name": "Passage du Prado",
+        "aliases": ["Passage Prado"],
+        "lat": 48.8695504,
+        "lng": 2.3535835,
+        "sources": ["https://www.paris.fr/pages/decouvrez-la-magie-des-galeries-et-des-passages-18889", "https://parisjetaime.com/article/paris-insolite-les-passages-couverts-a1801", "https://www.openstreetmap.org/way/29974870"]
+      },
+      {
+        "id": "galeriedelamadeleine",
+        "name": "Galerie de la Madeleine",
+        "aliases": ["Passage couvert de la Madeleine"],
+        "lat": 48.869701,
+        "lng": 2.3228209,
+        "sources": ["https://parisjetaime.com/culture/galerie-de-la-madeleine-p1589", "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/30-rue-boissy-d-anglas-8eme-arrondissement-paris", "https://www.openstreetmap.org/way/32876070"]
+      }
+    ],
+    "streetfurniture": [
+      {
+        "id": "guimardportedauphine",
+        "name": "Édicule Guimard de Porte Dauphine",
+        "aliases": ["Édicule Libellule de Porte Dauphine", "Métro Porte Dauphine entrée Guimard avenue Foch"],
+        "lat": 48.8721466,
+        "lng": 2.2769998,
+        "sources": ["https://www.ratp.fr/decouvrir/patrimoine/hector-guimard", "https://pop.culture.gouv.fr/notice/merimee/PA00086697", "https://www.openstreetmap.org/node/5313588566"],
+        "coordinate_note": "Use named OSM object 5313588566 for the covered Libellule opposite 90 avenue Foch. Reject nearby node 5313588567, which is the separate simple Guimard surround, and reject station-centroid pins."
+      },
+      {
+        "id": "kiosquedesnoctambules",
+        "name": "Kiosque des Noctambules",
+        "aliases": ["Le Kiosque des Noctambules", "Othoniel Métro Palais Royal"],
+        "lat": 48.8631316,
+        "lng": 2.3360575,
+        "sources": ["https://www.ratp.fr/decouvrir/patrimoine/histoire-metro-ligne-1", "https://www.othoniel.fr/fr/othoniel/biographie", "https://www.openstreetmap.org/way/1279485597"],
+        "coordinate_note": "Place Colette entrance object; reject stale pins near the Île de la Cité."
+      },
+      {
+        "id": "lavatoriestrocadero",
+        "name": "Lavatories Art nouveau du Trocadéro",
+        "aliases": ["Toilettes Art nouveau du Trocadéro", "Lavatories historiques station Trocadéro"],
+        "lat": 48.8630389,
+        "lng": 2.2884522,
+        "sources": ["https://www.ratp.fr/decouvrir/patrimoine/lavatories-trocadero", "https://www.openstreetmap.org/node/272269845"]
+      },
+      {
+        "id": "wallaceappliquegeoffroy",
+        "name": "Fontaine Wallace en applique de la rue Geoffroy-Saint-Hilaire",
+        "aliases": ["Dernière Wallace murale de Paris", "Fontaine Wallace murale Geoffroy-Saint-Hilaire"],
+        "lat": 48.8437212,
+        "lng": 2.3551124,
+        "sources": ["https://www.eaudeparis.fr/lhistoire-des-fontaines-paris", "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/", "https://www.openstreetmap.org/node/977195075"]
+      },
+      {
+        "id": "petillantejardinreuilly",
+        "name": "Fontaine pétillante du Jardin de Reuilly",
+        "aliases": ["Première fontaine d'eau pétillante de Paris", "Fontaine pétillante Reuilly"],
+        "lat": 48.841641598,
+        "lng": 2.387733982,
+        "sources": ["https://www.paris.fr/pages/ou-trouver-les-fontaines-d-eau-petillante-a-paris-34402", "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/", "https://www.paris.fr/lieux/jardin-de-reuilly-paul-pernin-2575"]
+      },
+      {
+        "id": "albienplacepaulverlaine",
+        "name": "Fontaine à l'Albien de la place Paul-Verlaine",
+        "aliases": ["Fontaine de la Butte-aux-Cailles", "Puits artésien place Paul-Verlaine"],
+        "lat": 48.827673719,
+        "lng": 2.352710453,
+        "sources": ["https://www.eaudeparis.fr/actualit%C3%A9s/la-fontaine-lalbien-de-la-butte-aux-cailles-leau-coule-nouveau", "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/", "https://www.eaudeparis.fr/lhistoire-des-fontaines-paris"]
+      },
+      {
+        "id": "horlogecharlesv",
+        "name": "Horloge de Charles V du Palais de la Cité",
+        "aliases": ["Horloge du Palais de la Cité", "Horloge de la Conciergerie"],
+        "lat": 48.856193,
+        "lng": 2.3462327,
+        "sources": ["https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/la-tour-de-l-horloge-et-le-palais-de-justice-1er-arrondissement-paris", "https://www.paris.fr/pages/a-la-decouverte-des-lieux-les-plus-etonnants-de-la-capitale-18810", "https://www.openstreetmap.org/node/2183872370"]
+      },
+      {
+        "id": "vespasiennearago",
+        "name": "Vespasienne du boulevard Arago",
+        "aliases": ["Dernière vespasienne de Paris", "Pissotière du boulevard Arago"],
+        "lat": 48.8347075,
+        "lng": 2.3410587,
+        "sources": ["https://www.espacestemps.net/articles/la-derniere-tasse/", "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/boulevard-arago-avec-une-vespasienne-sur-la-gauche-13e-ou-14e", "https://commons.wikimedia.org/wiki/File:F6180_Paris_13e_boulevard_Arago_vespasienne_rwk.jpg", "https://www.openstreetmap.org/node/1369995429"]
+      }
+    ],
+    "historicshopfronts": [
+      {
+        "id": "anciennelibrairieroger",
+        "name": "Ancienne librairie du 10 bis rue Roger",
+        "aliases": ["Devanture de l'ancienne librairie rue Roger", "Livres manuscrits rue Roger"],
+        "lat": 48.8356101,
+        "lng": 2.3267061,
+        "sources": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568", "https://www.pop.culture.gouv.fr/notice/merimee/PA00086626", "https://www.openstreetmap.org/node/929242228"]
+      },
+      {
+        "id": "bacchusmichellecomte",
+        "name": "Têtes de Bacchus du 13 rue Michel-le-Comte",
+        "aliases": ["Ancien débit de boisson rue Michel-le-Comte", "Devanture Bacchus Michel-le-Comte"],
+        "lat": 48.8621784,
+        "lng": 2.3561031,
+        "sources": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568", "https://pop.culture.gouv.fr/notice/merimee/PA00086102", "https://www.openstreetmap.org/node/708981198"]
+      },
+      {
+        "id": "ruchepierrelescot",
+        "name": "Ruche de l'ancienne épicerie Pierre-Lescot",
+        "aliases": ["Enseigne à la ruche rue Pierre-Lescot", "Ancienne épicerie 9 rue Pierre Lescot"],
+        "lat": 48.8625821,
+        "lng": 2.3483927,
+        "sources": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568", "https://www.pop.culture.gouv.fr/notice/merimee/PA00085803", "https://www.openstreetmap.org/node/9560982779"]
+      },
+      {
+        "id": "ancienneboulangeriechezjulien",
+        "name": "Ancienne boulangerie Chez Julien",
+        "aliases": ["Boulangerie 62 rue de l'Hôtel-de-Ville", "Chez Julien ancienne boulangerie"],
+        "lat": 48.8547153,
+        "lng": 2.3551016,
+        "sources": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568", "https://www.pop.culture.gouv.fr/notice/merimee/PA00086243", "https://www.openstreetmap.org/node/698083717"]
+      },
+      {
+        "id": "anciennecharcuterieparrot",
+        "name": "Ancienne charcuterie du 4 bis rue Parrot",
+        "aliases": ["Charcuterie rue Parrot", "Devanture Benoist et Fils rue Parrot"],
+        "lat": 48.846715,
+        "lng": 2.37304,
+        "sources": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-7568", "https://pop.culture.gouv.fr/notice/merimee/PA00086566", "https://commons.wikimedia.org/wiki/File:Shop,_4bis_rue_Parrot,_Paris.jpg"]
+      },
+      {
+        "id": "anciennepoissonneriesalina",
+        "name": "Ancienne poissonnerie Bernheim–Salina",
+        "aliases": ["Poissonnerie Bernheim", "Restaurant Salina ancienne poissonnerie"],
+        "lat": 48.8734806,
+        "lng": 2.3430215,
+        "sources": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-2-2-8048", "https://www.pop.culture.gouv.fr/notice/merimee/PA00088998", "https://www.openstreetmap.org/node/2961160024"]
+      },
+      {
+        "id": "auxtortuesfacade",
+        "name": "Façade Aux Tortues",
+        "aliases": ["Magasin Aux Tortues", "Ancien magasin Aux Tortues"],
+        "lat": 48.8737004,
+        "lng": 2.3265785,
+        "sources": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-2-2-8048", "https://www.pop.culture.gouv.fr/notice/merimee/PA00088869", "https://www.openstreetmap.org/node/841989890"]
+      },
+      {
+        "id": "ancienneepicerieleflaubert",
+        "name": "Ancienne épicerie fine Le Flaubert",
+        "aliases": ["Bistrot Le Flaubert ancienne épicerie", "Ancienne épicerie 10 rue Gustave-Flaubert"],
+        "lat": 48.881423,
+        "lng": 2.2986819,
+        "sources": ["https://www.paris.fr/pages/cinq-boutiques-d-autrefois-inscrites-aux-monuments-historiques-2-2-8048", "https://www.pop.culture.gouv.fr/notice/merimee/PA00086720", "https://www.openstreetmap.org/node/1549563611"]
+      }
+    ]
+  },
+  "deferred_category_hypotheses": [
+    {
+      "rank": 2,
+      "slug": "stations",
+      "label": "Remarkable stations",
+      "verdict": "defer but keep separate from streetfurniture",
+      "strict_paris_pool_estimate": "10–16",
+      "reason": "A station interior and engineering ensemble is a place-scale experience. Only a discrete exceptional entrance object belongs in streetfurniture.",
+      "strong_paris_leads": ["Arts et Métiers", "Cluny–La Sorbonne", "Cité", "Concorde", "Louvre–Rivoli", "Pont Neuf", "Bastille", "Mirabeau", "Tuileries", "La Fourche"]
+    },
+    {
+      "rank": 3,
+      "slug": "fountains",
+      "verdict": "do not add",
+      "reason": "The live monument label explicitly covers monuments and fountains. Use monument for sculptural fountains and streetfurniture only for exceptional working civic water objects."
+    },
+    {
+      "rank": 4,
+      "slug": "cabaret",
+      "verdict": "do not add yet",
+      "reason": "The strict current public-experience pool is small and already fits music; Au Lapin Agile is correctly music. Revisit only after a cross-city pool proves consistent."
+    },
+    {
+      "rank": 5,
+      "slug": "artisanworkshops",
+      "verdict": "do not add yet",
+      "reason": "Use specialistshops for public-facing living trades unless making is directly observable and documented; appointment-only ateliers fail accidental discovery."
+    },
+    {
+      "rank": 6,
+      "slug": "bookstalls",
+      "verdict": "reject as a spot category",
+      "reason": "Individual bouquiniste boxes are serial, weather-dependent and weakly named. Keep one well-pinned quay ensemble under market rather than padding dozens of boxes."
+    }
+  ],
+  "underused_existing_categories_to_fill": [
+    {
+      "slug": "view",
+      "live_paris_count": 1,
+      "priority": "high",
+      "leads": ["Belvédère de Belleville", "Sacré-Cœur forecourt", "a currently verified free department-store roof terrace"]
+    },
+    {
+      "slug": "monument",
+      "live_paris_count": 4,
+      "priority": "high",
+      "leads": ["Fontaine des Innocents", "Fontaine Saint-Sulpice", "Fontaine des Quatre-Parties-du-Monde", "Fontaine du Palmier", "Fontaine des Quatre-Saisons", "Fontaine Molière"]
+    },
+    {
+      "slug": "artdeco",
+      "live_paris_count": 2,
+      "priority": "high",
+      "leads": ["Grand Rex facade", "Théâtre des Champs-Élysées", "Palais de Chaillot", "Piscine Molitor exterior", "Palais de la Porte Dorée architecture if separated cleanly from the live museum row"]
+    },
+    {
+      "slug": "castle",
+      "live_paris_count": 0,
+      "priority": "high",
+      "leads": ["Château de Vincennes, subject to the city-boundary and current-public-access rule"]
+    },
+    {
+      "slug": "synagogue",
+      "live_paris_count": 0,
+      "priority": "high",
+      "leads": ["Grande Synagogue de la Victoire", "Synagogue Agoudas Hakehilos, with current security and visitor rules explicit"]
+    },
+    {
+      "slug": "faith",
+      "live_paris_count": 0,
+      "priority": "medium",
+      "leads": ["Chapelle Notre-Dame de la Médaille Miraculeuse", "Notre-Dame-des-Victoires as a devotional rather than generic church objective"]
+    },
+    {
+      "slug": "roman",
+      "live_paris_count": 1,
+      "priority": "medium",
+      "leads": ["Thermes de Cluny", "Crypte archéologique de l'Île de la Cité"]
+    },
+    {
+      "slug": "square",
+      "live_paris_count": 1,
+      "priority": "medium",
+      "leads": ["Place Furstenberg", "Place Dauphine, only with an atomic design or social-history story"]
+    }
+  ],
+  "collision_and_quality_risks": [
+    "Do not retag or duplicate Cour du Commerce Saint-André as arcades; it is open-air.",
+    "Galerie Vivienne and Librairie Jousseaume are a route and a business, respectively; their nested relationship is explicit and both can survive.",
+    "Passage du Bourg-l'Abbé is about 103 m from Passage du Grand-Cerf but has separate entrances, geometry and a distinct sculpted Commerce/Industry story.",
+    "A future Passage Jouffroy row must explicitly distinguish the full route from live Galerie Fayet inside it.",
+    "Abbesses's Guimard entrance is a genuinely separate object from Le Mur des Je t'aime, but it remains deferred because the roughly 24 m separation breaches this run's non-overridable under-30 m density rule.",
+    "The wall-mounted Wallace fountain is close to Fontaine Cuvier and a Jardin des Plantes cedar; public water utility, monumental fountain and living tree are distinct.",
+    "Never multiply standard Guimard entrances, Wallace fountains or other serial objects merely to raise count.",
+    "Reject stale coordinate sources when they contradict the named object and address; Porte Dauphine and Kiosque des Noctambules both produced such false pins during research.",
+    "Do not import the generic live fontainewallace2 row as a category seed until its identity and coordinate are repaired.",
+    "Chez Julien's inherited bakery front and La Caféothèque 62 m away are separate; the former is exterior fabric and the latter is an active coffee destination.",
+    "A protected historic shopfront is not a ghost sign unless the atomic objective is specifically obsolete painted or applied advertising rather than the fitted frontage."
+  ]
+}

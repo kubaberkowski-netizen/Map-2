@@ -1,0 +1,3181 @@
+{
+  "schema_version": 2,
+  "created_at": "2026-08-09",
+  "title": "World footbridges — wave two strict-gate research dossiers",
+  "status": "imported_as_draft_pending_human_editorial_promotion",
+  "target_ceiling": 40,
+  "import_metadata": {
+    "status": "imported_as_draft",
+    "imported_at": "2026-08-09",
+    "imported_count": 33,
+    "quality_flag": "d",
+    "do_not_reimport": true,
+    "promotion": "pending_human_editorial_review",
+    "city_registry_plan": "research/discovery-wave-2-city-registry-qa-2026-08-09.json"
+  },
+  "included_count": 33,
+  "country_count": 21,
+  "regional_balance": {
+    "Europe": 9,
+    "Asia": 8,
+    "Oceania": 6,
+    "Africa": 3,
+    "Americas": 7
+  },
+  "category_proposal": {
+    "registration_status": "live",
+    "slug": "footbridges",
+    "label": "Footbridges",
+    "emoji": "🌉",
+    "tint": "#DDE7E2",
+    "editorial_contract": "A named, publicly walkable, motor-vehicle-free bridge, suspension bridge, footbridge, canopy walkway or boardwalk where crossing the structure itself is the memorable walking experience.",
+    "positive_tests": [
+      "The structure is visually legible, surprising or story-rich from the public walking route.",
+      "The crossing itself, rather than an attraction reached by it, is the objective.",
+      "Shared pedestrian-and-cycle use is acceptable when motor vehicles are excluded and the walking experience remains primary."
+    ],
+    "hard_rejects": [
+      "ordinary utilitarian crossing",
+      "vehicular bridge with only a pavement",
+      "private or appointment-only access",
+      "bridge incidental to another attraction",
+      "technical or unsafe route",
+      "seasonal river crossing requiring hazard judgement",
+      "damaged or currently closed structure",
+      "duplicate better represented by architecture, industrial, view or oddity"
+    ],
+    "category_map_additions": {
+      "accepted_raw_values": [
+        "footbridge",
+        "pedestrian bridge",
+        "suspension bridge",
+        "canopy walkway",
+        "boardwalk",
+        "treetop walk",
+        "swing bridge"
+      ],
+      "required_signals": [
+        "named",
+        "public pedestrian access",
+        "motor vehicles excluded",
+        "crossing is experiential objective"
+      ],
+      "rejected_signals": [
+        "unnamed",
+        "access=private",
+        "access=no",
+        "motor_vehicle=yes",
+        "construction",
+        "disused",
+        "collapsed"
+      ]
+    },
+    "source_profile_additions": {
+      "overpass_intent": [
+        "named bridge=yes with highway=footway|path|pedestrian and foot=yes|designated",
+        "named bridge=suspension or bridge:structure=suspension on a public walking route",
+        "named canopy_walk or boardwalk whose full structure is the destination"
+      ],
+      "mandatory_review_flags": [
+        "current official operator status",
+        "public access and hours or fees",
+        "surface, steps, width and exposure where officially supported",
+        "whether bridge story wins over an existing category",
+        "alias and translated-name collisions"
+      ]
+    }
+  },
+  "validation_contract": {
+    "hard_gates": {
+      "current_access": "A current official, municipal or land-manager source must establish public pedestrian access and structural status.",
+      "identity_story": "An authoritative source must establish the exact named structure and its specific story.",
+      "coordinates": "Coordinates must lie on a named bridge route, mapped outline or exact official route point, not a parking area or generic attraction pin.",
+      "safety": "No current damage closure, technical route, uncontrolled seasonal ford or crossing requiring individual river-hazard judgement.",
+      "category_coherence": "Crossing the bridge must be the memorable experience; stronger existing category narratives take precedence."
+    },
+    "editorial_score": {
+      "dimensions": [
+        "story",
+        "walkability",
+        "distinctiveness",
+        "source_quality",
+        "geographic_value"
+      ],
+      "minimum_total": 19,
+      "minimum_story": 4,
+      "minimum_walkability": 4
+    },
+    "confidence": {
+      "required_value": "high",
+      "dimensions": [
+        "identity",
+        "coordinates",
+        "facts",
+        "access",
+        "current_status",
+        "novelty",
+        "dedupe",
+        "overall"
+      ]
+    },
+    "dedupe": {
+      "catalogue_size": 17131,
+      "exact_scope": "IDs, normalized names, aliases, translated names and external IDs against the global catalogue and every retained internal candidate.",
+      "under_30_m": "presumed duplicate",
+      "between_30_and_120_m": "manual identity review required",
+      "alias_within_3_km": "manual identity review required",
+      "result": "No retained candidate is within 120 metres of another retained candidate or an existing catalogue row. Alexandra Bridge is 260 metres from the broad existing Cataract Gorge entry and is a distinct structure."
+    },
+    "production": "The 33 retained rows were imported after reviewed city additions, live-model validation, a fresh current-status check and global dedupe. They remain quality d pending human editorial promotion and must not be re-imported."
+  },
+  "validation_summary": {
+    "checked_at": "2026-08-09",
+    "catalogue_spots_checked": 17131,
+    "json_valid": true,
+    "category_slug_live": true,
+    "included_rows": 33,
+    "unique_countries": 21,
+    "all_extended_model_rows_valid": true,
+    "all_editorial_totals_at_least_19": true,
+    "all_story_at_least_4": true,
+    "all_walkability_at_least_4": true,
+    "all_confidence_dimensions_high": true,
+    "exact_internal_normalized_name_or_alias_collisions": 0,
+    "exact_catalogue_id_collisions": 0,
+    "exact_catalogue_normalized_name_or_alias_matches": 2,
+    "manually_cleared_exact_generic_name_matches": 2,
+    "internal_pairs_under_120_m": 0,
+    "internal_min_distance_m": 16743,
+    "global_catalogue_rows_under_120_m": 0,
+    "proposed_city_bbox_overlaps": 0,
+    "live_model_rows": 33,
+    "applied_city_registry_entries": 19,
+    "rows_requiring_city_registry_entry": 0,
+    "notes": [
+      "Two exact generic catalogue-name collisions were manually cleared: Liberty Bridge (Budapest versus Greenville) and Peace Bridge (Buffalo–Fort Erie versus Calgary).",
+      "The existing Cataract Gorge entry is 260 metres from Alexandra Suspension Bridge; the retained row is the newly restored named crossing, not a duplicate of the broad gorge.",
+      "The applied Holzgau and Bellinzona entries now route Holzgau and Carasc to their reviewed live city boxes instead of neighbouring margin matches.",
+      "Arapuni Suspension Bridge was deferred after Mercury's live enhancement-project page established that swing-bridge access will close as main works begin from August 2026.",
+      "Pedro e Inês Bridge was deferred because contemporaneous reports reproducing Coimbra's 1 February municipal notice said it remained closed until a new safety evaluation, and no later municipal reopening notice surfaced through 9 August.",
+      "SANParks' 16 July notice states that full public access to Storms River Mouth would resume from 1 August 2026; no later extension or closure surfaced through 9 August. This is an official effective-date statement, not a post-reopening observation, so same-day alerts remain mandatory."
+    ]
+  },
+  "missing_city_requirements": {
+    "count": 0,
+    "applied_count": 19,
+    "status": "applied_and_live_validated; retained objects below are historical proposal provenance",
+    "city_registry_additions": [
+      {
+        "id": "arouca",
+        "name": "Arouca",
+        "label": "Arouca",
+        "e": "🇵🇹",
+        "lat": 40.93,
+        "lng": -8.22,
+        "bbox": [
+          -8.28,
+          40.9,
+          -8.1,
+          41.02
+        ],
+        "region": 1,
+        "blurb": "A Paiva-valley municipality of granite villages, gorge paths and high suspension crossings.",
+        "country": "Portugal"
+      },
+      {
+        "id": "geierlay",
+        "name": "Geierlay / Hunsrück",
+        "label": "Geierlay / Hunsrück",
+        "e": "🇩🇪",
+        "lat": 50.09,
+        "lng": 7.341,
+        "bbox": [
+          7.26,
+          50.02,
+          7.43,
+          50.16
+        ],
+        "region": 1,
+        "blurb": "A slate-and-forest Hunsrück landscape linked by village paths and the Geierlay bridge.",
+        "country": "Germany"
+      },
+      {
+        "id": "eidfjord",
+        "name": "Eidfjord",
+        "label": "Eidfjord",
+        "e": "🇳🇴",
+        "lat": 60.42,
+        "lng": 7.1,
+        "bbox": [
+          6.98,
+          60.35,
+          7.36,
+          60.52
+        ],
+        "region": 1,
+        "blurb": "A Hardangervidda gateway of deep valleys, waterfalls and secured scenic paths.",
+        "country": "Norway"
+      },
+      {
+        "id": "mazamet",
+        "name": "Mazamet",
+        "label": "Mazamet",
+        "e": "🇫🇷",
+        "lat": 43.49,
+        "lng": 2.373,
+        "bbox": [
+          2.27,
+          43.43,
+          2.44,
+          43.56
+        ],
+        "blurb": "A Montagne Noire town climbing from industrial valleys to the hill village of Hautpoul.",
+        "country": "France"
+      },
+      {
+        "id": "solvesborg",
+        "name": "Sölvesborg",
+        "label": "Sölvesborg",
+        "e": "🇸🇪",
+        "lat": 56.052,
+        "lng": 14.575,
+        "bbox": [
+          14.5,
+          55.99,
+          14.69,
+          56.11
+        ],
+        "blurb": "A compact Baltic town of harbour paths, luminous bridges and low coastal landscapes.",
+        "country": "Sweden"
+      },
+      {
+        "id": "sanmarcellopiteglio",
+        "name": "San Marcello Piteglio",
+        "label": "San Marcello Piteglio",
+        "e": "🇮🇹",
+        "lat": 44.05,
+        "lng": 10.77,
+        "bbox": [
+          10.68,
+          43.99,
+          10.87,
+          44.13
+        ],
+        "region": 1,
+        "blurb": "A Tuscan Apennine municipality of workers' routes, river valleys and mountain villages.",
+        "country": "Italy"
+      },
+      {
+        "id": "holzgau",
+        "name": "Holzgau",
+        "label": "Holzgau",
+        "e": "🇦🇹",
+        "lat": 47.26,
+        "lng": 10.344,
+        "bbox": [
+          10.3,
+          47.249,
+          10.38,
+          47.29
+        ],
+        "blurb": "A Lech Valley village of painted houses, gorge paths and a high suspension crossing.",
+        "country": "Austria"
+      },
+      {
+        "id": "bellinzona",
+        "name": "Bellinzona",
+        "label": "Bellinzona",
+        "e": "🇨🇭",
+        "lat": 46.195,
+        "lng": 9.023,
+        "bbox": [
+          8.93,
+          46.18,
+          9.09,
+          46.25
+        ],
+        "blurb": "A Ticino castle city opening into vineyard paths and mountain-side villages.",
+        "country": "Switzerland"
+      },
+      {
+        "id": "iya-valley",
+        "name": "Iya Valley",
+        "label": "Iya Valley",
+        "e": "🇯🇵",
+        "lat": 33.9,
+        "lng": 133.82,
+        "bbox": [
+          133.7,
+          33.78,
+          134.08,
+          34.05
+        ],
+        "region": 1,
+        "blurb": "A remote Shikoku gorge landscape of mountain hamlets, vine bridges and Heike legends.",
+        "country": "Japan"
+      },
+      {
+        "id": "iwakuni",
+        "name": "Iwakuni",
+        "label": "Iwakuni",
+        "e": "🇯🇵",
+        "lat": 34.167,
+        "lng": 132.178,
+        "bbox": [
+          132.1,
+          34.09,
+          132.28,
+          34.23
+        ],
+        "blurb": "A Nishiki River city centred on five wooden arches and the old Iwakuni domain.",
+        "country": "Japan"
+      },
+      {
+        "id": "kokonoe",
+        "name": "Kokonoe",
+        "label": "Kokonoe",
+        "e": "🇯🇵",
+        "lat": 33.17,
+        "lng": 131.23,
+        "bbox": [
+          131.106,
+          33.08,
+          131.36,
+          33.3
+        ],
+        "region": 1,
+        "blurb": "An Ōita mountain district of waterfalls, hot springs and a high valley crossing.",
+        "country": "Japan"
+      },
+      {
+        "id": "yesan",
+        "name": "Yesan",
+        "label": "Yesan",
+        "e": "🇰🇷",
+        "lat": 36.68,
+        "lng": 126.84,
+        "bbox": [
+          126.7,
+          36.55,
+          126.95,
+          36.82
+        ],
+        "region": 1,
+        "blurb": "A Chungcheong county of reservoir promenades, farms and long water crossings.",
+        "country": "South Korea"
+      },
+      {
+        "id": "andong",
+        "name": "Andong",
+        "label": "Andong",
+        "e": "🇰🇷",
+        "lat": 36.57,
+        "lng": 128.73,
+        "bbox": [
+          128.65,
+          36.5,
+          128.86,
+          36.68
+        ],
+        "blurb": "A Nakdong River city of wooden architecture, Confucian memory and night-lit walks.",
+        "country": "South Korea"
+      },
+      {
+        "id": "newplymouth",
+        "name": "New Plymouth",
+        "label": "New Plymouth",
+        "e": "🇳🇿",
+        "lat": -39.055,
+        "lng": 174.075,
+        "bbox": [
+          173.98,
+          -39.15,
+          174.2,
+          -38.97
+        ],
+        "blurb": "A Taranaki coastal city of shared waterfront paths, public art and mountain alignments.",
+        "country": "New Zealand"
+      },
+      {
+        "id": "hokitika",
+        "name": "Hokitika and Gorge",
+        "label": "Hokitika and Gorge",
+        "e": "🇳🇿",
+        "lat": -42.8,
+        "lng": 170.98,
+        "bbox": [
+          170.88,
+          -43.04,
+          171.1,
+          -42.66
+        ],
+        "region": 1,
+        "blurb": "A West Coast town and river landscape of rainforest paths, glacial water and suspended views.",
+        "country": "New Zealand"
+      },
+      {
+        "id": "gisborne",
+        "name": "Gisborne / Tūranga",
+        "label": "Gisborne / Tūranga",
+        "e": "🇳🇿",
+        "lat": -38.66,
+        "lng": 178.02,
+        "bbox": [
+          177.94,
+          -38.73,
+          178.1,
+          -38.58
+        ],
+        "blurb": "An East Coast city of beaches, maunga paths and layered navigational stories.",
+        "country": "New Zealand"
+      },
+      {
+        "id": "tsitsikamma",
+        "name": "Tsitsikamma",
+        "label": "Tsitsikamma",
+        "e": "🇿🇦",
+        "lat": -34.02,
+        "lng": 23.9,
+        "bbox": [
+          23.78,
+          -34.1,
+          24.05,
+          -33.87
+        ],
+        "region": 1,
+        "blurb": "A forest-and-ocean national-park landscape of cliff paths and river-mouth crossings.",
+        "country": "South Africa"
+      },
+      {
+        "id": "nyungwe",
+        "name": "Nyungwe",
+        "label": "Nyungwe",
+        "e": "🇷🇼",
+        "lat": -2.48,
+        "lng": 29.2,
+        "bbox": [
+          28.95,
+          -2.85,
+          29.35,
+          -2.3
+        ],
+        "region": 1,
+        "blurb": "A montane rainforest of guided trails, primate habitat and canopy-level crossings.",
+        "country": "Rwanda"
+      },
+      {
+        "id": "kakum",
+        "name": "Kakum",
+        "label": "Kakum",
+        "e": "🇬🇭",
+        "lat": 5.35,
+        "lng": -1.383,
+        "bbox": [
+          -1.48,
+          5.25,
+          -1.25,
+          5.47
+        ],
+        "region": 1,
+        "blurb": "A protected Ghanaian rainforest explored from forest-floor trails and canopy bridges.",
+        "country": "Ghana"
+      }
+    ],
+    "flCO_additions": {
+      "arouca": "Portugal",
+      "geierlay": "Germany",
+      "eidfjord": "Norway",
+      "mazamet": "France",
+      "solvesborg": "Sweden",
+      "sanmarcellopiteglio": "Italy",
+      "holzgau": "Austria",
+      "bellinzona": "Switzerland",
+      "iya-valley": "Japan",
+      "iwakuni": "Japan",
+      "kokonoe": "Japan",
+      "yesan": "South Korea",
+      "andong": "South Korea",
+      "newplymouth": "New Zealand",
+      "hokitika": "New Zealand",
+      "gisborne": "New Zealand",
+      "tsitsikamma": "South Africa",
+      "nyungwe": "Rwanda",
+      "kakum": "Ghana"
+    },
+    "bbox_policy": "These tight destination or honest regional boxes were applied through the reviewed discovery-wave-2 city plan; all retained route points pass raw containment and cityForPoint checks."
+  },
+  "included": [
+    {
+      "id": "ponte516arouca",
+      "n": "516 Arouca",
+      "a": "Paiva Walkways, Alvarenga entrance",
+      "pc": "4540",
+      "lat": 40.9643992,
+      "lng": -8.1746438,
+      "city": "arouca",
+      "country": "Portugal",
+      "s": "A 516-metre mesh crossing hung above the Paiva gorge",
+      "q": "516 Arouca Alvarenga Portugal",
+      "w": "The see-through metal deck makes the 175-metre drop part of every step across this long suspension bridge. Its two official approaches turn the crossing into either a short outing or a steep Paiva gorge walk.",
+      "aliases": [
+        "Ponte 516 Arouca",
+        "Arouca 516"
+      ],
+      "external_ids": {
+        "osm": "way/813680468"
+      },
+      "facts": [
+        "The suspended span is 516 metres long.",
+        "The deck is metal grating and reaches 175 metres above the river.",
+        "The Areinho approach includes roughly 500 steps."
+      ],
+      "sources": [
+        {
+          "url": "https://516arouca.pt/en/faqs/",
+          "role": "current booking, age, approach, surface and weather rules",
+          "official": true
+        },
+        {
+          "url": "https://516arouca.pt/en/about/",
+          "role": "official bridge identity and construction story",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open_with_booking",
+        "note": "Paid, timed and normally guided; minimum age six. The Alvarenga approach is about 20 minutes, while the Areinho approach is about 60 minutes and much steeper. Weather can close the bridge.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the named pedestrian bridge geometry, OpenStreetMap way 813680468.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "escadoriodenossasenhorad",
+        "nearest_name": "Escadório de Nossa Senhora dos Remédios",
+        "distance_m": 33525,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "geierlay",
+      "n": "Geierlay Suspension Bridge",
+      "a": "Geierlayweg, Mörsdorf",
+      "pc": "56290",
+      "lat": 50.0899713,
+      "lng": 7.3411524,
+      "city": "geierlay",
+      "country": "Germany",
+      "s": "Douglas-fir boards floating 100 metres above a Hunsrück valley",
+      "q": "Geierlay Suspension Bridge Mörsdorf Germany",
+      "w": "A narrow line of Douglas-fir boards runs 360 metres between two wooded ridges. The name joins the local field-name Geier with Lay, the Hunsrück word for slate, rooting the Nepal-inspired crossing in its landscape.",
+      "aliases": [
+        "Hängeseilbrücke Geierlay",
+        "Geierlay Hängeseilbrücke"
+      ],
+      "external_ids": {
+        "osm": "way/418733823"
+      },
+      "facts": [
+        "The bridge is 360 metres long and about 100 metres above the valley.",
+        "Its rough-sawn Douglas-fir deck is suspended in a non-rigid system inspired by Nepalese bridges."
+      ],
+      "sources": [
+        {
+          "url": "https://www.geierlay.de/en/faq",
+          "role": "current 24-hour access, approach and accessibility",
+          "official": true
+        },
+        {
+          "url": "https://www.geierlay.de/en/geierlay-history",
+          "role": "official construction, materials and safety story",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free and open 24/7 year-round. The direct 1.8–2 kilometre approach from Mörsdorf is paved; forest alternatives are steep, gravelly and not accessible. Cycles must be pushed.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the named bridge route, OpenStreetMap way 418733823.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 22
+      },
+      "dedupe": {
+        "nearest_id": "waldstadion",
+        "nearest_name": "Waldstadion",
+        "distance_m": 93087,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "voringsfossenstepbridge",
+      "n": "Vøringsfossen Step Bridge",
+      "a": "Fossli, Norwegian Scenic Route Hardangervidda",
+      "pc": "5785",
+      "lat": 60.4261897,
+      "lng": 7.2514409,
+      "city": "eidfjord",
+      "country": "Norway",
+      "s": "Ninety-nine steps stitched across the Vøringsfossen ravine",
+      "q": "Vøringsfossen Step Bridge Eidfjord Norway",
+      "w": "The bridge climbs across the gorge as a folded run of 99 steps rather than one level deck. It is the hinge in Carl-Viggo Hølmebakk's long sequence of paths and platforms around Norway's best-known waterfall.",
+      "aliases": [
+        "Vøringsfossen bridge",
+        "Vøringsfossen stair bridge"
+      ],
+      "external_ids": {
+        "osm": [
+          "way/304974696",
+          "way/304974699",
+          "way/839335958",
+          "way/839335959",
+          "way/839335960"
+        ]
+      },
+      "facts": [
+        "The bridge links the Fossli and Fossatromma sides of the waterfall area.",
+        "The crossing contains 99 steps.",
+        "It opened in 2020 as one stage of the national scenic-route project."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nasjonaleturistveger.no/en/routes/hardangervidda/voringsfossen/",
+          "role": "current official route, seasonal access and step-bridge identity",
+          "official": true
+        },
+        {
+          "url": "https://www.nasjonaleturistveger.no/en/press/news/2024/opening-voringsfossen/",
+          "role": "official design and staged construction history",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open_seasonally",
+        "note": "Public and free when the secured waterfall paths are open. Snow and ice close parts of the installation in winter; the bridge itself has 99 steps and is not the accessible segment.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Central junction of the five mapped bridge/stair route segments, rather than the nearby viewpoint pin.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "stegasteinviewpoint",
+        "nearest_name": "Stegastein Viewpoint",
+        "distance_m": 53670,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "passerellemazamet",
+      "n": "Passerelle de Mazamet",
+      "a": "Hautpoul trail above Rue de la Resse",
+      "pc": "81200",
+      "lat": 43.4780052,
+      "lng": 2.3777455,
+      "city": "mazamet",
+      "country": "France",
+      "s": "A 140-metre suspension line into the hill village of Hautpoul",
+      "q": "Passerelle de Mazamet Hautpoul France",
+      "w": "This 140-metre footbridge hangs 70 metres above the Arnette valley and turns the approach to medieval Hautpoul into the event. The town treats it as a civic landmark, lighting it for local causes and routing a 2026 trail race across it.",
+      "aliases": [
+        "Passerelle d'Hautpoul",
+        "Mazamet footbridge"
+      ],
+      "external_ids": {
+        "osm": "way/631316569"
+      },
+      "facts": [
+        "The bridge is 140 metres long.",
+        "The deck is about 70 metres above the valley.",
+        "The crossing opened to the public in December 2018."
+      ],
+      "sources": [
+        {
+          "url": "https://www.ville-mazamet.com/vie-quotidienne/culture-et-loisirs/sorties-et-activites/la-passerelle-de-mazamet/",
+          "role": "municipal approaches and current visitor access",
+          "official": true
+        },
+        {
+          "url": "https://www.ville-mazamet.com/le-trail-de-la-passerelle-revient-le-4-octobre-2026/",
+          "role": "current municipal status and bridge dimensions",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free public crossing. The garden approach is about 1.5 kilometres and 30 minutes; the shorter Jamarié approach is steep, with a reported 19% gradient.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the named bridge route, OpenStreetMap way 631316569.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 22
+      },
+      "dedupe": {
+        "nearest_id": "carcassonnecathedral",
+        "nearest_name": "Carcassonne Cathedral",
+        "distance_m": 29769,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "solvesborgsbron",
+      "n": "Sölvesborgsbron",
+      "a": "Sölvesborg centre to Ljungaviken",
+      "pc": "29480",
+      "lat": 56.0506189,
+      "lng": 14.594257,
+      "city": "solvesborg",
+      "country": "Sweden",
+      "s": "Three luminous steel arches leading 760 metres across the bay",
+      "q": "Sölvesborgsbron Sölvesborg Sweden",
+      "w": "Three 17-metre steel arches launch the crossing from town before the bridge settles into the bay landscape. Four lookout bays and a long LED-lit deck make the shared walking-and-cycling link a place to linger, not just commute.",
+      "aliases": [
+        "Sölvesborg Bridge",
+        "Sölvesborg foot and cycle bridge"
+      ],
+      "external_ids": {
+        "osm": [
+          "way/192254002",
+          "way/265572488"
+        ]
+      },
+      "facts": [
+        "The bridge is 760 metres long and 3.5 metres wide.",
+        "It has four lookout places.",
+        "The bridge opened in December 2012."
+      ],
+      "sources": [
+        {
+          "url": "https://solvesborg.se/solvesborgsbron",
+          "role": "municipal identity, design, dimensions and use",
+          "official": true
+        },
+        {
+          "url": "https://solvesborg.se/ovrigt/flytta-hit/leva-och-bo/bostadsomraden/ljungaviken-och-solve.html",
+          "role": "2025 municipal confirmation of the active public connection",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Public shared pedestrian-and-cycle bridge; walkers should expect bicycles. The deck is broad and lit.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Centroid supplied by the named mapped bridge geometry; the bridge is split into two route ways.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 4,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 22
+      },
+      "dedupe": {
+        "nearest_id": "vyn",
+        "nearest_name": "Vyn",
+        "distance_m": 64126,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "ferrieresuspension",
+      "n": "Ferriere Suspension Bridge",
+      "a": "Via Anghiari 195, Mammiano Basso",
+      "pc": "51028",
+      "lat": 44.0532239,
+      "lng": 10.7663782,
+      "city": "sanmarcellopiteglio",
+      "country": "Italy",
+      "s": "An 80-centimetre-wide workers' shortcut high over the Lima",
+      "q": "Ferriere Suspension Bridge Mammiano Basso Italy",
+      "w": "The 227-metre steel-cable walkway was built in 1923 so Popiglio workers could avoid six kilometres on their way to the metallurgical works. At only 80 centimetres wide, the old shortcut still feels startlingly direct.",
+      "aliases": [
+        "Ponte Sospeso delle Ferriere",
+        "Ponte Sospeso di Mammiano"
+      ],
+      "external_ids": {
+        "osm": "way/140051103"
+      },
+      "facts": [
+        "The bridge is 227 metres long and 80 centimetres wide.",
+        "Its maximum height above the Lima riverbed is 36 metres.",
+        "It opened in 1923 as a workers' route to the SMI factories."
+      ],
+      "sources": [
+        {
+          "url": "https://www.comune.sanmarcellopiteglio.pt.it/it-it/vivere-il-comune/cosa-vedere/ponte-sospeso-46995-1-1aac3a4630ebc535787c6c01385229fa",
+          "role": "municipal identity, dimensions and public access",
+          "official": true
+        },
+        {
+          "url": "https://www.visitpistoia.eu/en/discover/natura/ponte-sospeso-delle-ferriere/",
+          "role": "regional tourism history and approaches",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free public crossing from Mammiano Basso or the Popiglio side. The municipality says visitors with disabilities can reach the beginning, not traverse the narrow suspended deck.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the mapped pedestrian bridge, OpenStreetMap way 140051103.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "villalapetraia",
+        "nearest_name": "Villa La Petraia",
+        "distance_m": 45698,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "holzgauhangbrucke",
+      "n": "Holzgau Suspension Bridge",
+      "a": "Höhenbachschlucht, Holzgau",
+      "pc": "6654",
+      "lat": 47.2650499,
+      "lng": 10.3398889,
+      "city": "holzgau",
+      "country": "Austria",
+      "s": "A slim 200-metre line above the Höhenbach gorge",
+      "q": "Holzgau Suspension Bridge Tyrol Austria",
+      "w": "The bridge links the Gföllberg and Schiggenberg on a narrow deck more than 100 metres above the gorge. A signed village loop makes the crossing a manageable walking objective rather than an alpine technical route.",
+      "aliases": [
+        "Hängebrücke Holzgau",
+        "Holzgauer Hängebrücke"
+      ],
+      "external_ids": {
+        "osm": "way/168936308"
+      },
+      "facts": [
+        "The crossing is about 200 metres long.",
+        "The deck is more than 100 metres above the Höhenbach gorge.",
+        "The bridge joins the Gföllberg and Schiggenberg."
+      ],
+      "sources": [
+        {
+          "url": "https://www.tirol.at/aktivitaeten/sport/wandern/wandertouren/holzgau-haengebrueckenrunde",
+          "role": "official regional route, surface, difficulty and year-round listing",
+          "official": true
+        },
+        {
+          "url": "https://www.lechtal.at/de/service/webcams/holzgau.html",
+          "role": "current destination identity and live view of the bridge",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Public crossing on an easy 4.9-kilometre village loop with asphalt, path and gravel surfaces. Exposure is substantial; the official route records an honesty-box contribution.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the named bridge route, OpenStreetMap way 168936308.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 4,
+        "distinctiveness": 4,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 21
+      },
+      "dedupe": {
+        "nearest_id": "vorderseespitze",
+        "nearest_name": "Vorderseespitze",
+        "distance_m": 9146,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "pythonbrug",
+      "n": "Pythonbrug",
+      "a": "Borneo-eiland to Sporenburg",
+      "pc": "1019 WT",
+      "lat": 52.3732978,
+      "lng": 4.9488069,
+      "city": "amsterdam",
+      "country": "Netherlands",
+      "s": "A red steel snake writhing between Amsterdam's harbour islands",
+      "q": "Pythonbrug Amsterdam Netherlands",
+      "w": "The bright-red truss arches and dips so sharply that the bridge reads like a creature from both bank and deck. Built in 2001 between Borneo Island and Sporenburg, it won the 2002 International Footbridge Award.",
+      "aliases": [
+        "Python Bridge",
+        "Hoge Brug"
+      ],
+      "external_ids": {
+        "osm": [
+          "way/854068398",
+          "way/455467181"
+        ]
+      },
+      "facts": [
+        "The bridge connects Borneo Island and Sporenburg.",
+        "It was built in 2001.",
+        "It received the International Footbridge Award in 2002."
+      ],
+      "sources": [
+        {
+          "url": "https://www.iamsterdam.com/en/see-and-do/attractions-and-sights/bridges-of-amsterdam",
+          "role": "current official destination identity and bridge story",
+          "official": true
+        },
+        {
+          "url": "https://www.iamsterdam.com/en/explore/neighbourhoods/oostelijke-eilanden/things-to-do",
+          "role": "current neighbourhood walking context",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Public pedestrian bridge with pronounced stairs and level changes; use the adjacent lower crossing if steps are unsuitable.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the iconic high bridge route, OpenStreetMap way 854068398; the adjacent approach/stair is way 455467181.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "kraan2868",
+        "nearest_name": "Kraan 2868",
+        "distance_m": 799,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "pontecarasc",
+      "n": "Carasc Tibetan Bridge",
+      "a": "Via delle Vigne, Monte Carasso",
+      "pc": "6513",
+      "lat": 46.1947797,
+      "lng": 8.9746084,
+      "city": "bellinzona",
+      "country": "Switzerland",
+      "s": "A one-metre larch ribbon 130 metres above the Sementina valley",
+      "q": "Carasc Tibetan Bridge Bellinzona Switzerland",
+      "w": "A 270-metre larch deck connects Curzútt with the Via delle Vigne across a rugged side valley. Its one-metre width and 130-metre exposure make the crossing the unquestioned climax of the public hike.",
+      "aliases": [
+        "Ponte Tibetano Carasc",
+        "Tibetan bridge Carasc"
+      ],
+      "external_ids": {
+        "osm": "way/352164083",
+        "wikidata": "Q20617346"
+      },
+      "facts": [
+        "The bridge is 270 metres long.",
+        "Its one-metre-wide larch deck rises 130 metres above the ground.",
+        "The crossing links Curzútt with the Via delle Vigne."
+      ],
+      "sources": [
+        {
+          "url": "https://carasc.ch/",
+          "role": "operator confirmation of daily year-round bridge access",
+          "official": true
+        },
+        {
+          "url": "https://www.bellinzonaevalli.ch/en/commons/details/Tibetan-bridge-Carasc-/137557.html",
+          "role": "official regional identity, dimensions and approach",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "The operator states that the bridge is open daily all year. The approach is a mountain walk; the cableway shortens it but requires its own timetable or booking.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the named bridge, OpenStreetMap way 352164083.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "cornaredostadium",
+        "nearest_name": "Cornaredo Stadium",
+        "distance_m": 19059,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "iyanokazurabashi",
+      "n": "Iya-no-Kazurabashi",
+      "a": "162-2 Zentoku, Nishiiyayamamura",
+      "pc": "778-8501",
+      "lat": 33.8750942,
+      "lng": 133.8354225,
+      "city": "iya-valley",
+      "country": "Japan",
+      "s": "A hand-woven vine bridge with the river visible between every tread",
+      "q": "Iya-no-Kazurabashi Miyoshi Japan",
+      "w": "Six tonnes of mountain vine wrap a 45-metre crossing whose widely spaced planks reveal the Iya River 14 metres below. Rebuilt every three years, it preserves both a former lifeline and legends of fleeing Heike warriors.",
+      "aliases": [
+        "Iya Kazurabashi",
+        "祖谷のかずら橋",
+        "Kazurabashi Bridge"
+      ],
+      "external_ids": {
+        "osm": "way/258405234"
+      },
+      "facts": [
+        "The bridge is 45 metres long, two metres wide and 14 metres above the river.",
+        "About six tonnes of shirokuchi-kazura vine are used.",
+        "The structure is rebuilt every three years."
+      ],
+      "sources": [
+        {
+          "url": "https://miyoshi-tourism.jp/en/spot/46/",
+          "role": "city tourism identity, current hours, fees, dimensions and weather closures",
+          "official": true
+        },
+        {
+          "url": "https://www.japan.travel/en/spot/851/",
+          "role": "national tourism history, material and walking character",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open_with_hours",
+        "note": "Paid, one-way public crossing during posted seasonal hours. Wide gaps, sway and exposure are intrinsic; severe weather warnings can close it. The municipal car park is about five minutes away on foot.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the named bridge route, OpenStreetMap way 258405234.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "naoshimanewmuseumofart",
+        "nearest_name": "Naoshima New Museum of Art",
+        "distance_m": 66558,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "kintaikyo",
+      "n": "Kintaikyō Bridge",
+      "a": "1-chome Iwakuni",
+      "pc": "741-0062",
+      "lat": 34.1676435,
+      "lng": 132.1783208,
+      "city": "iwakuni",
+      "country": "Japan",
+      "s": "Five steep wooden arches rising rhythmically over the Nishiki",
+      "q": "Kintaikyo Bridge Iwakuni Japan",
+      "w": "Five timber arches climb and fall across stone piers in a sequence experienced through the feet as much as the eye. The present bridge follows the 1673 prototype and the original design rebuilt after the 1950 typhoon.",
+      "aliases": [
+        "Kintai Bridge",
+        "Kintai-kyo",
+        "錦帯橋"
+      ],
+      "external_ids": {
+        "osm": "way/34582350"
+      },
+      "facts": [
+        "The bridge has five wooden arches on masonry piers.",
+        "The first bridge of this design was built in 1673.",
+        "The present structure follows the original design rebuilt after the 1950 typhoon."
+      ],
+      "sources": [
+        {
+          "url": "https://kintaikyo.iwakuni-city.net/en/summary.html",
+          "role": "municipal identity and history",
+          "official": true
+        },
+        {
+          "url": "https://www.japan.travel/en/spot/2191/",
+          "role": "national tourism walking context, materials and current visitor access",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open_with_fee",
+        "note": "Paid public pedestrian crossing. The arched deck includes steep step-like sections and can be slippery when wet; official arrangements may change during high water or strong wind.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the named route over the Nishiki, OpenStreetMap way 34582350.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "asahicoffeesalon",
+        "nearest_name": "Asahi Coffee Salon",
+        "distance_m": 36006,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "kokonoeyumeotsurihashi",
+      "n": "Kokonoe Yume Grand Suspension Bridge",
+      "a": "1208 Tano, Kokonoe",
+      "pc": "879-4911",
+      "lat": 33.1737685,
+      "lng": 131.2266242,
+      "city": "kokonoe",
+      "country": "Japan",
+      "s": "A long suspended promenade above two waterfall valleys",
+      "q": "Kokonoe Yume Suspension Bridge Oita Japan",
+      "w": "The 390-metre deck hangs 173 metres above the Naruko valley, making the crossing itself a long aerial viewpoint. Mountains and two waterfalls unfold through the railing while the bridge sways lightly underfoot.",
+      "aliases": [
+        "Kokonoe Yume Otsurihashi",
+        "九重夢大吊橋",
+        "Kokonoe Dream Suspension Bridge"
+      ],
+      "external_ids": {
+        "osm": "way/24804905"
+      },
+      "facts": [
+        "The bridge is 390 metres long and 1.5 metres wide.",
+        "The deck is 173 metres above the valley.",
+        "The bridge opened in 2006."
+      ],
+      "sources": [
+        {
+          "url": "https://www.yumeooturihashi.com/eng/",
+          "role": "official identity, dimensions and views",
+          "official": true
+        },
+        {
+          "url": "https://www.yumeooturihashi.com/eng/info.html",
+          "role": "current hours, fee, wheelchair and weather rules",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open_with_hours",
+        "note": "Paid public crossing during posted hours. Wheelchairs are permitted, but weather can suspend access and the exposed deck may move underfoot.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the named bridge route, OpenStreetMap way 24804905.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 22
+      },
+      "dedupe": {
+        "nearest_id": "beppujigokuhells",
+        "nearest_name": "Beppu Jigoku (Hells)",
+        "distance_m": 27543,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "baishihususpension",
+      "n": "Baishihu Suspension Bridge",
+      "a": "No. 24 Bishan Road, Neihu",
+      "pc": "11455",
+      "lat": 25.0995889,
+      "lng": 121.5873429,
+      "city": "taipei",
+      "country": "Taiwan",
+      "s": "An almost level dragon-spine bridge floating above Neihu orchards",
+      "q": "Baishihu Suspension Bridge Taipei Taiwan",
+      "w": "The 116-metre crossing was shaped as a hidden dragon, with the ridge-like deck linking farms and temple paths without tall suspension towers. Taipei lists it as a 24-hour, year-round public walking objective after its recent renewal.",
+      "aliases": [
+        "Bishan Suspension Bridge",
+        "白石湖吊橋"
+      ],
+      "external_ids": {
+        "osm": [
+          "way/205669598",
+          "way/1274570684"
+        ]
+      },
+      "facts": [
+        "The bridge is 116 metres long.",
+        "Its cable profile was designed to evoke a hidden dragon.",
+        "One mapped approach segment contains 53 steps."
+      ],
+      "sources": [
+        {
+          "url": "https://www.travel.taipei/en/attraction/details/588",
+          "role": "municipal tourism identity, current 24-hour access and design",
+          "official": true
+        },
+        {
+          "url": "https://www.travel.taipei/en/pictorial/article/66964",
+          "role": "municipal renewal and reopening context",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free and listed for 24-hour year-round access. The bridge deck is gentle, but the mapped south approach includes 53 steps and orchard paths vary.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint between the two mapped bridge/footway route segments, including OpenStreetMap ways 205669598 and 1274570684.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 4,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 22
+      },
+      "dedupe": {
+        "nearest_id": "shungyemuseumofformosana",
+        "nearest_name": "Shung Ye Museum of Formosan Aborigines",
+        "distance_m": 3562,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "bitansuspensionbridge",
+      "n": "Bitan Suspension Bridge",
+      "a": "Xindian riverfront",
+      "pc": "23152",
+      "lat": 24.9563744,
+      "lng": 121.5360166,
+      "city": "taipei",
+      "country": "Taiwan",
+      "s": "A 1930s suspension promenade glowing above the Xindian River",
+      "q": "Bitan Suspension Bridge New Taipei Taiwan",
+      "w": "The 186.6-metre bridge has carried pedestrians across the broad Xindian River since 1937. Its slender suspended deck and modern light scheme turn a working link beside the metro into the centrepiece of the riverfront walk.",
+      "aliases": [
+        "Bitan Bridge",
+        "碧潭吊橋"
+      ],
+      "external_ids": {
+        "osm": "way/41612547"
+      },
+      "facts": [
+        "The bridge is 186.6 metres long and 3.5 metres wide.",
+        "It was completed in 1937.",
+        "The deck is about 30 metres above the river."
+      ],
+      "sources": [
+        {
+          "url": "https://newtaipei.travel/en/attractions/detail/403608",
+          "role": "municipal tourism identity, dimensions, history and 24-hour access",
+          "official": true
+        },
+        {
+          "url": "https://newtaipei.travel/en/news/detail/2652",
+          "role": "2026 municipal event and current operational status",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free public pedestrian crossing listed for 24-hour access. Short event closures may occur during riverfront fireworks.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the named bridge route, OpenStreetMap way 41612547.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 4,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "treasurehillartistvillag",
+        "nearest_name": "Treasure Hill Artist Village",
+        "distance_m": 6029,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "yedanghosuspension",
+      "n": "Yedangho Suspension Bridge",
+      "a": "161 Yedanggwangwang-ro, Eungbong-myeon",
+      "pc": "32447",
+      "lat": 36.6388019,
+      "lng": 126.8020231,
+      "city": "yesan",
+      "country": "South Korea",
+      "s": "A 402-metre lake crossing centred on a soaring pylon",
+      "q": "Yedangho Suspension Bridge Yesan South Korea",
+      "w": "A broad suspended deck runs 402 metres over Yedang Reservoir toward a needle-like central tower. Night lighting and a musical fountain amplify the engineered rhythm, but the long exposed crossing remains the main event.",
+      "aliases": [
+        "Yedang Lake Suspension Bridge",
+        "예당호 출렁다리"
+      ],
+      "external_ids": {
+        "osm": "way/916060567"
+      },
+      "facts": [
+        "The bridge is 402 metres long.",
+        "The central pylon rises 64 metres.",
+        "The county reopened the crossing on 6 March 2026 after a temporary restriction."
+      ],
+      "sources": [
+        {
+          "url": "https://www.yesan.go.kr/bridge.do",
+          "role": "county identity, current hours, closures and dimensions",
+          "official": true
+        },
+        {
+          "url": "https://www.yesan.go.kr/bbs/BBSMSTR_000000000122/view.do?nttId=B000000172889Tb9cX5",
+          "role": "county 2026 reopening notice",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open_with_hours",
+        "note": "Free public crossing, currently posted 09:00–22:00 and closed on the first Monday of the month; verify seasonal notices before travel.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the named bridge route, OpenStreetMap way 916060567.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "sinheungdongjapanesehous",
+        "nearest_name": "Sinheung-dong Japanese House (Hirotsu House)",
+        "distance_m": 73859,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "wolyeonggyo",
+      "n": "Wolyeonggyo Bridge",
+      "a": "202 Seokju-ro, Andong",
+      "pc": "36611",
+      "lat": 36.5766329,
+      "lng": 128.7608879,
+      "city": "andong",
+      "country": "South Korea",
+      "s": "A moonlit wooden footbridge carrying a centuries-old love story",
+      "q": "Wolyeonggyo Bridge Andong South Korea",
+      "w": "The 387-metre wooden crossing reaches a pavilion over the Nakdong River and glows after sunset. Its design memorialises a wife whose 16th-century letter and woven shoes expressed grief for her husband, giving the romantic promenade unusual emotional weight.",
+      "aliases": [
+        "Wolyeong Bridge",
+        "Moonlight Bridge",
+        "월영교"
+      ],
+      "external_ids": {
+        "osm": "way/76992426"
+      },
+      "facts": [
+        "The wooden pedestrian bridge is 387 metres long and 3.6 metres wide.",
+        "Its story draws on a 16th-century wife's letter and woven shoes found in an Andong tomb.",
+        "The bridge is illuminated from sunset."
+      ],
+      "sources": [
+        {
+          "url": "https://new.tourandong.com/eng/sub1/sub9.cshtml",
+          "role": "municipal tourism identity, current access, dimensions and love story",
+          "official": true
+        },
+        {
+          "url": "https://new.tourandong.com/eng/sub2/sub2.cshtml",
+          "role": "current municipal festival and walking context",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free, level public pedestrian crossing with night lighting. Festival periods can be busy.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the named bridge route, OpenStreetMap way 76992426.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "cheomseongdae",
+        "nearest_name": "Cheomseongdae",
+        "distance_m": 92171,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "treetopwalksingapore",
+      "n": "TreeTop Walk",
+      "a": "Central Catchment Nature Reserve, Venus Drive approach",
+      "pc": "578774",
+      "lat": 1.3609912,
+      "lng": 103.8115908,
+      "city": "singapore",
+      "country": "Singapore",
+      "s": "A one-way suspension bridge at the forest canopy",
+      "q": "TreeTop Walk Singapore Central Catchment",
+      "w": "The 250-metre free-standing suspension bridge enters the canopy rather than merely viewing it from below. Reached only after a substantial reserve hike, the crossing gives a shifting eye-level encounter with forest crowns and wildlife.",
+      "aliases": [
+        "HSBC TreeTop Walk",
+        "MacRitchie TreeTop Walk"
+      ],
+      "external_ids": {
+        "osm": "way/71211354"
+      },
+      "facts": [
+        "The suspension bridge is 250 metres long.",
+        "It is operated as a one-way crossing.",
+        "The official walking route is about seven kilometres and takes three to four hours."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nparks.gov.sg/visit/parks/central-catchment-nature-reserve/activities/hiking-nature-walk",
+          "role": "current NParks hours, route, restrictions and bridge identity",
+          "official": true
+        },
+        {
+          "url": "https://www.nparks.gov.sg/visit/parks/central-catchment-nature-reserve",
+          "role": "reserve status, alerts and visitor rules",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open_with_hours",
+        "note": "Free but reached by a moderate-to-difficult 7-kilometre hike. Closed Mondays; posted weekday and weekend hours apply. NParks advises against the crossing for people with mobility, heart or height-related concerns.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the mapped one-way canopy bridge, OpenStreetMap way 71211354.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "jelutongtower",
+        "nearest_name": "Jelutong Tower",
+        "distance_m": 1217,
+        "manual_review": false,
+        "outcome": "clear_distinct_crossing"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "terewarewabridge",
+      "n": "Te Rewa Rewa Bridge",
+      "a": "Coastal Walkway, Fitzroy",
+      "pc": "4312",
+      "lat": -39.0377787,
+      "lng": 174.1122796,
+      "city": "newplymouth",
+      "country": "New Zealand",
+      "s": "A white wave-and-whalebone frame aimed at Taranaki Maunga",
+      "q": "Te Rewa Rewa Bridge New Plymouth New Zealand",
+      "w": "White ribs sweep over the Waiwhakaiho River and align the walking deck with Taranaki Maunga. The form is read as a breaking wave or whale skeleton, joining hapū narrative, coastal movement and one deliberately framed mountain view.",
+      "aliases": [
+        "Te Rewa Rewa"
+      ],
+      "external_ids": {
+        "osm": [
+          "way/968641811",
+          "way/242982380"
+        ]
+      },
+      "facts": [
+        "The bridge is 83 metres long.",
+        "Its form evokes both a breaking wave and a whale skeleton.",
+        "It opened in 2010 and was refurbished in 2023."
+      ],
+      "sources": [
+        {
+          "url": "https://www.npdc.govt.nz/leisure-and-culture/coastal-walkway/",
+          "role": "current council walkway access, bridge identity and design",
+          "official": true
+        },
+        {
+          "url": "https://www.npdc.govt.nz/council/news/2023/october/npdc-s-coastal-queen-face-lift-complete/",
+          "role": "council refurbishment completion and open status",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free, paved public shared path on the Coastal Walkway. Expect cycles and scooters; the council grades the wider walkway as easy.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Centre of the mapped bridge outline and path, OpenStreetMap ways 968641811 and 242982380.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "hamiltongardens",
+        "nearest_name": "Hamilton Gardens",
+        "distance_m": 171794,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "upperhokitikabridge",
+      "n": "Upper Hokitika Gorge Suspension Bridge",
+      "a": "Hokitika Gorge Walk, Whitcombe Valley Road",
+      "pc": "7881",
+      "lat": -42.9574288,
+      "lng": 171.0133546,
+      "city": "hokitika",
+      "country": "New Zealand",
+      "s": "A 90-metre suspended pause above glacier-blue water",
+      "q": "Upper Hokitika Gorge Suspension Bridge New Zealand",
+      "w": "The 90-metre upper bridge carries the loop directly over the Hokitika's blue-green main channel. Its long open deck places river, mature forest and Southern Alps foothills into one moving view without requiring a technical trail.",
+      "aliases": [
+        "Hokitika Gorge upper swing bridge",
+        "Upper Gorge suspension bridge"
+      ],
+      "external_ids": {
+        "osm": "way/767437888"
+      },
+      "facts": [
+        "The upper bridge is 90 metres long.",
+        "It is about 900 metres and 30 minutes from the car park.",
+        "The bridge carries the public loop over the main gorge channel."
+      ],
+      "sources": [
+        {
+          "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/west-coast/places/hokitika-gorge-scenic-reserve/things-to-do/tracks/hokitika-gorge-walk",
+          "role": "land-manager current track, bridge and hazard status",
+          "official": true
+        },
+        {
+          "url": "https://westcoast.co.nz/tourism-trade/newsletters/trade-e-newsletter-june-2025/new-bridge-same-stunning-views/",
+          "role": "official regional route and upper-bridge dimensions",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free public bridge on an easy undulating loop. The first viewpoint is accessible, but the full route and upper bridge are not presented as wheelchair-accessible. Swimming in the gorge is dangerous.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the upper 90-metre bridge, OpenStreetMap way 767437888; lower bridge geometries were explicitly excluded.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "waiuta",
+        "nearest_name": "Waiuta",
+        "distance_m": 98992,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "alexandrasuspensiontas",
+      "n": "Alexandra Suspension Bridge",
+      "a": "First Basin Track, Cataract Gorge",
+      "pc": "7250",
+      "lat": -41.446979,
+      "lng": 147.1182486,
+      "city": "launceston",
+      "country": "Australia",
+      "s": "A restored 1904 suspension crossing inside Cataract Gorge",
+      "q": "Alexandra Suspension Bridge Launceston Tasmania",
+      "w": "A 1904 suspension bridge crosses First Basin with a delicate profile against the gorge cliffs. Destroyed in the 1929 flood and rebuilt, it reopened in May 2025 after a careful structural restoration.",
+      "aliases": [
+        "Alexandra Bridge Cataract Gorge"
+      ],
+      "external_ids": {
+        "osm": "way/28601304"
+      },
+      "facts": [
+        "The bridge dates from 1904.",
+        "It was destroyed in the 1929 flood and rebuilt.",
+        "The City of Launceston reopened it after restoration on 12 May 2025."
+      ],
+      "sources": [
+        {
+          "url": "https://www.launceston.tas.gov.au/News-Media/Alexandra-Suspension-Bridge-restoration-complete",
+          "role": "municipal 2025 reopening and current status",
+          "official": true
+        },
+        {
+          "url": "https://www.launceston.tas.gov.au/Business-and-Development/Major-Projects/Alexandra-Suspension-Bridge-Restoration",
+          "role": "municipal history and restoration scope",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free public pedestrian bridge on Cataract Gorge walking tracks. Gorge paths include gradients and uneven sections.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the named bridge route, OpenStreetMap way 28601304.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 4,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "cataractgorge",
+        "nearest_name": "Cataract Gorge",
+        "distance_m": 260,
+        "manual_review": true,
+        "outcome": "clear_distinct_crossing_within_existing_gorge"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "matagarupbridge",
+      "n": "Matagarup Bridge",
+      "a": "Camfield Drive, Burswood",
+      "pc": "6100",
+      "lat": -31.9545392,
+      "lng": 115.8852924,
+      "city": "perth",
+      "country": "Australia",
+      "s": "Black-and-white arches shaped by Whadjuk and river narratives",
+      "q": "Matagarup Bridge Perth Australia",
+      "w": "Two 72-metre arches rise and fold above a 370-metre shared deck across the Swan River. Its form has been read as clasped hands, flying birds or a winding river, while the Whadjuk name describes the place as leg-deep water.",
+      "aliases": [
+        "Matagarup Pedestrian Bridge"
+      ],
+      "external_ids": {
+        "osm": [
+          "way/758076375",
+          "way/404705281"
+        ],
+        "wikidata": "Q20861555"
+      },
+      "facts": [
+        "The bridge is 370 metres long.",
+        "Its central cable-stayed span is 160 metres.",
+        "The steel arches reach 72 metres."
+      ],
+      "sources": [
+        {
+          "url": "https://burswoodpark.wa.gov.au/attractions/near-burswood-park/matagarup-bridge/",
+          "role": "current public walking access and local identity",
+          "official": true
+        },
+        {
+          "url": "https://annualreports.mainroads.wa.gov.au/AR-2018/welcome/our-stories/matagarup-bridge.html",
+          "role": "state transport dimensions, design and naming story",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free public shared pedestrian-and-cycle crossing; walkers should expect bicycles. Commercial climbing operates separately and is not required to cross.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Centre of the mapped bridge outline and walkable route, OpenStreetMap ways 758076375 and 404705281.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_id": "stmaryscathedralperth",
+        "nearest_name": "St Mary's Cathedral",
+        "distance_m": 1781,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "kangaroopointbridge",
+      "n": "Kangaroo Point Bridge",
+      "a": "Scott Street, Kangaroo Point",
+      "pc": "4169",
+      "lat": -27.4714328,
+      "lng": 153.0329641,
+      "city": "brisbane",
+      "country": "Australia",
+      "s": "A new 460-metre river walk with belvederes built into the crossing",
+      "q": "Kangaroo Point Bridge Brisbane Australia",
+      "w": "This 2024 bridge folds multiple viewing bays into a 460-metre walking-and-cycling connection across the Brisbane River. The wide deck, gentle grades and lift make the river crossing itself a new central-city promenade.",
+      "aliases": [
+        "Kangaroo Point Green Bridge"
+      ],
+      "external_ids": {
+        "osm": [
+          "way/1358506441",
+          "way/1358506442"
+        ]
+      },
+      "facts": [
+        "The bridge is 460 metres long.",
+        "It opened in December 2024.",
+        "The maximum main-path gradient is 1:20."
+      ],
+      "sources": [
+        {
+          "url": "https://www.brisbane.qld.gov.au/transport-and-parking/transport-projects/bridges-for-brisbane/kangaroo-point-bridge",
+          "role": "municipal current access, dimensions and accessible design",
+          "official": true
+        },
+        {
+          "url": "https://www.brisbane.qld.gov.au/transport-and-parking/transport-projects/bridges-for-brisbane",
+          "role": "municipal completed-project and public-use status",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free public shared walking-and-cycling bridge with a minimum 6.8-metre path, rest areas and lift access. Expect cycles.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Centre of the mapped bridge path and outline, OpenStreetMap ways 1358506441 and 1358506442.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "macarthurmuseumbrisbane",
+        "nearest_name": "MacArthur Museum Brisbane",
+        "distance_m": 653,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "teikaroaarauru",
+      "n": "Te Ikaroa a Rauru",
+      "a": "Kaiti Beach Road",
+      "pc": "4010",
+      "lat": -38.6754227,
+      "lng": 178.0256896,
+      "city": "gisborne",
+      "country": "New Zealand",
+      "s": "A waka-shaped pedestrian bridge carrying a navigational story",
+      "q": "Te Ikaroa a Rauru Gisborne New Zealand",
+      "w": "The new bridge crosses Kaiti Beach Road in the form of the ancestral waka Te Ikaroa a Rauru. Nick Tupara's puhoro and rauawa details turn a practical link between learning place and maunga into a public story of Maia Poroaki and Ngāti Oneone.",
+      "aliases": [
+        "1000 Year Walkway Bridge",
+        "Te Ikaroa a Rauru Walkway Bridge"
+      ],
+      "external_ids": {
+        "osm": [
+          "way/1418217764",
+          "way/1418217765"
+        ]
+      },
+      "facts": [
+        "The bridge opened to the public on 23 October 2025.",
+        "Its form and artwork evoke the ancestral waka Te Ikaroa a Rauru.",
+        "It links Te Whare Wānanga o Puhi Kai Iti with Titirangi Maunga."
+      ],
+      "sources": [
+        {
+          "url": "https://www.gdc.govt.nz/council/news/2025-news/official-opening-of-te-ikaroa-a-rauru",
+          "role": "council public opening, name, artwork and mana-whenua story",
+          "official": true
+        },
+        {
+          "url": "https://www.gdc.govt.nz/council/major-projects/navigate-tairawhiti",
+          "role": "current council project and route context",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free public pedestrian bridge above Kaiti Beach Road. It is a local walking connection rather than a technical route.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Centre of the mapped bridge area and adjoining bridge footway, OpenStreetMap ways 1418217764 and 1418217765.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "napierprison",
+        "nearest_name": "Napier Prison",
+        "distance_m": 131247,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "stormsriverbridge",
+      "n": "Storms River Mouth Suspension Bridge",
+      "a": "Storms River Mouth Rest Camp",
+      "pc": "6308",
+      "lat": -34.0195425,
+      "lng": 23.9035708,
+      "city": "tsitsikamma",
+      "country": "South Africa",
+      "s": "Three linked suspension spans at the mouth of Storms River",
+      "q": "Storms River Mouth Suspension Bridge Tsitsikamma South Africa",
+      "w": "A sequence of three suspension bridges crosses the churning river mouth between forested cliffs and the Indian Ocean. The main 77-metre span has been a Tsitsikamma walking landmark since the first crossing was built here in 1969.",
+      "aliases": [
+        "Storms River Suspension Bridge",
+        "Tsitsikamma Suspension Bridge"
+      ],
+      "external_ids": {
+        "osm": "way/107102422"
+      },
+      "facts": [
+        "The crossing system contains three suspension bridges.",
+        "The main span is 77 metres long.",
+        "The first suspension bridge at the river mouth was built in 1969."
+      ],
+      "sources": [
+        {
+          "url": "https://www.sanparks.org/news/temporary-full-closure-of-the-storms-river-mouth-suspension-bridge-from-20-to-31-july-2026",
+          "role": "land-manager closure notice and official 1 August reopening effective date",
+          "official": true
+        },
+        {
+          "url": "https://www.sanparks.org/news/suspension-bridge-in-the-tsitsikamma-section-of-the-garden-route-national-park-under-phased-reconstruction",
+          "role": "land-manager bridge identity, dimensions and trail context",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "official_reopening_effective_2026-08-01",
+        "note": "Public park trail; conservation entry fees and park hours apply. SANParks stated that full public access would resume from 1 August 2026, and no later extension or closure surfaced through this 9 August audit; this is not a post-reopening observation, so check same-day park alerts. The roughly 2-kilometre route includes stairs and timber paths.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the named main bridge route, OpenStreetMap way 107102422.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "owlhouse",
+        "nearest_name": "Owl House",
+        "distance_m": 249178,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "nyungwecanopywalk",
+      "n": "Nyungwe Canopy Walkway",
+      "a": "Igishigishigi Trail, Uwinka",
+      "pc": "",
+      "lat": -2.4755381,
+      "lng": 29.1956332,
+      "city": "nyungwe",
+      "country": "Rwanda",
+      "s": "A suspended canopy crossing 70 metres above Nyungwe rainforest",
+      "q": "Nyungwe Canopy Walkway Rwanda",
+      "w": "The 160-metre suspended walkway leaves the forest floor and passes as high as 70 metres above the ravine. Reached with a park guide from Uwinka, the bridge makes the living canopy—not a distant panorama—the walking experience.",
+      "aliases": [
+        "Nyungwe Canopy Walk",
+        "Uwinka Canopy Walkway"
+      ],
+      "external_ids": {
+        "osm": "way/220917835",
+        "wikidata": "Q139250209"
+      },
+      "facts": [
+        "The walkway is 160 metres long.",
+        "Its highest point is about 70 metres above the forest floor.",
+        "The crossing is reached on a guided hike from Uwinka."
+      ],
+      "sources": [
+        {
+          "url": "https://visitrwanda.com/interests/canopy-walkway/",
+          "role": "national tourism dimensions, access and route character",
+          "official": true
+        },
+        {
+          "url": "https://www.nyungwepark.com/things-to-do/canopy-walk/",
+          "role": "park-manager current guided experience and booking context",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open_with_guide",
+        "note": "Paid public park activity with a guide. The approach can be steep, muddy and slippery; this is unsuitable for visitors who cannot manage the forest trail or exposure.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the named canopy bridge route, OpenStreetMap way 220917835.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "mountkigali",
+        "nearest_name": "Mount Kigali",
+        "distance_m": 113056,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "kakumcanopywalkway",
+      "n": "Kakum Canopy Walkway",
+      "a": "Cape Coast–Twifo Praso Road",
+      "pc": "",
+      "lat": 5.353622,
+      "lng": -1.3834398,
+      "city": "kakum",
+      "country": "Ghana",
+      "s": "Seven rope-and-plank spans threaded through the rainforest crown",
+      "q": "Kakum Canopy Walkway Ghana",
+      "w": "Seven narrow suspended bridges run for 333 metres through Kakum's upper forest. Up to 27 metres above the ground, the hand-on-rope progression turns a short forest visit into a sustained, bodily encounter with the canopy.",
+      "aliases": [
+        "Kakum National Park Canopy Walkway",
+        "Kakum Canopy Walk"
+      ],
+      "external_ids": {
+        "osm": "node/558549732"
+      },
+      "facts": [
+        "The walkway comprises seven bridges.",
+        "The total suspended route is about 333 metres.",
+        "The bridges reach about 27 metres above the forest floor."
+      ],
+      "sources": [
+        {
+          "url": "https://visitghana.com/kakum-national-park/",
+          "role": "national tourism current hours, fees, dimensions and visitor route",
+          "official": true
+        },
+        {
+          "url": "https://www.motac.gov.gh/tourist-sites/",
+          "role": "tourism ministry identity and national significance",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open_with_hours",
+        "note": "Paid public park access at posted hours after a short forest hike and safety briefing. Narrow planks, rope handrails and exposure are intrinsic.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named mapped canopy-walkway point checked against the official park description, OpenStreetMap node 558549732.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "hindumonasteryofafrica",
+        "nearest_name": "Hindu Monastery of Africa",
+        "distance_m": 126315,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "walkwayoverhudson",
+      "n": "Walkway Over the Hudson",
+      "a": "61 Parker Avenue, Poughkeepsie",
+      "pc": "12601",
+      "lat": 41.7106438,
+      "lng": -73.949931,
+      "city": "us-ny",
+      "country": "United States",
+      "s": "A 1.28-mile railroad viaduct reborn as a river-high promenade",
+      "q": "Walkway Over the Hudson Poughkeepsie New York",
+      "w": "The former Poughkeepsie–Highland railroad bridge carries walkers for 6,768 feet, 212 feet above the Hudson. Abandoned after a 1974 fire, it reopened in 2009 as a state historic park and one of the world's great long crossings.",
+      "aliases": [
+        "Poughkeepsie Railroad Bridge",
+        "Poughkeepsie–Highland Railroad Bridge"
+      ],
+      "external_ids": {
+        "osm": "way/321755204"
+      },
+      "facts": [
+        "The deck is 6,768 feet, or 1.28 miles, long.",
+        "The bridge stands 212 feet above the river.",
+        "The railroad bridge reopened as a public park in October 2009."
+      ],
+      "sources": [
+        {
+          "url": "https://parks.ny.gov/visit/state-parks/walkway-over-hudson-state-historic-park",
+          "role": "state park current hours, access, dimensions and history",
+          "official": true
+        },
+        {
+          "url": "https://walkway.org/visit/",
+          "role": "current operator visitor and crossing context",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open_with_hours",
+        "note": "Free public shared pedestrian-and-cycle deck, normally 07:00 to sunset and weather permitting. Level entrances exist at each bank; the seasonal elevator can close in bad weather.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Named bridge geometry point near the centre of the long deck, OpenStreetMap way 321755204.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "usnyq954276",
+        "nearest_name": "Franklin D. Roosevelt National Historic Site",
+        "distance_m": 6403,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "bobkerreybridge",
+      "n": "Bob Kerrey Pedestrian Bridge",
+      "a": "Tom Hanafan River's Edge Park, Council Bluffs–Omaha",
+      "pc": "51501",
+      "lat": 41.2648494,
+      "lng": -95.9201408,
+      "city": "us-ia",
+      "country": "United States",
+      "s": "An S-curved cable-stayed walk between two states",
+      "q": "Bob Kerrey Pedestrian Bridge Omaha Council Bluffs",
+      "w": "The 2,224-foot cable-stayed deck bends in an S over the Missouri and crosses the Nebraska–Iowa line. Its 15-foot width and 4.9% maximum grade turn a state-border novelty into a generous everyday river promenade.",
+      "aliases": [
+        "Bob the Bridge",
+        "Omaha Pedestrian Bridge"
+      ],
+      "external_ids": {
+        "osm": "way/454976793",
+        "wikidata": "Q4933016"
+      },
+      "facts": [
+        "The bridge is 2,224 feet long.",
+        "Its deck is 15 feet wide.",
+        "The maximum grade is 4.9%."
+      ],
+      "sources": [
+        {
+          "url": "https://www.councilbluffs-ia.gov/2178/Bob-Kerrey-Pedestrian-Bridge",
+          "role": "municipal current status, dimensions and weather closures",
+          "official": true
+        },
+        {
+          "url": "https://www.unleashcb.com/play/bob_kerrey_pedestrian_bridge/",
+          "role": "official destination interstate walking story",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free public shared pedestrian-and-cycle crossing. The cities may close it for ice or high winds; the deck is ADA-graded.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the named bridge route at the interstate river crossing, OpenStreetMap way 454976793.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "usneq4860943",
+        "nearest_name": "Barker Building",
+        "distance_m": 1576,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "libertybridgegreenville",
+      "n": "Liberty Bridge",
+      "a": "206 South Main Street, Falls Park",
+      "pc": "29601",
+      "lat": 34.8445304,
+      "lng": -82.4012136,
+      "city": "us-sc",
+      "country": "United States",
+      "s": "A curved footbridge held from one side above Reedy River Falls",
+      "q": "Liberty Bridge Greenville South Carolina",
+      "w": "The curved deck arcs over Reedy River Falls while its single inclined mast and cables hold the view open from one side. Removing the old highway bridge made this deliberately light crossing the civic centre of Falls Park.",
+      "aliases": [
+        "Liberty Bridge at Falls Park",
+        "Falls Park Liberty Bridge"
+      ],
+      "external_ids": {
+        "osm": "way/41373262"
+      },
+      "facts": [
+        "The pedestrian deck curves across Reedy River Falls.",
+        "The bridge is supported by one inclined mast and cables on one side.",
+        "It opened with the renewed Falls Park in 2004."
+      ],
+      "sources": [
+        {
+          "url": "https://www.greenvillesc.gov/liberty-bridge",
+          "role": "municipal identity, construction and support system",
+          "official": true
+        },
+        {
+          "url": "https://www.greenvillesc.gov/167/Falls-Park",
+          "role": "municipal current park access and renewal context",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free public pedestrian bridge within Falls Park. Approaches are paved, but park gradients vary.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the named bridge route, OpenStreetMap way 41373262.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "usscq16800975",
+        "nearest_name": "Poinsett Hotel",
+        "distance_m": 497,
+        "manual_review": false,
+        "outcome": "clear",
+        "alias_review": "Exact catalogue alias/name Liberty Bridge belongs to the vehicular bridge in Budapest, more than 7,000 kilometres away."
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "peacebridgecalgary",
+      "n": "Peace Bridge",
+      "a": "Bow River Pathway, Sunnyside",
+      "pc": "T2N 0A1",
+      "lat": 51.0539136,
+      "lng": -114.0789104,
+      "city": "calgary",
+      "country": "Canada",
+      "s": "A red helical tube carrying walkers beneath a glass roof",
+      "q": "Peace Bridge Calgary Alberta",
+      "w": "Santiago Calatrava's red tubular truss crosses the Bow without piers, enclosing walkers in a repeating helix beneath glass. The structure is both a weather-sheltered promenade and a highly legible piece of the river-path network.",
+      "aliases": [
+        "Calgary Peace Bridge"
+      ],
+      "external_ids": {
+        "osm": [
+          "way/1313657677",
+          "way/158753074"
+        ]
+      },
+      "facts": [
+        "The bridge uses a tubular truss without piers in the river.",
+        "Its pedestrian-and-cycle deck is covered by glass.",
+        "The damaged railings were fully repaired in 2023."
+      ],
+      "sources": [
+        {
+          "url": "https://www-prd.calgary.ca/planning/water/sunnyside-flood-barrier.html",
+          "role": "2026 municipal confirmation that the bridge remains open during nearby works",
+          "official": true
+        },
+        {
+          "url": "https://newsroom.calgary.ca/the-peace-bridge-railings-have-been-repaired/",
+          "role": "municipal repair completion, designer and public use",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free public shared pedestrian-and-cycle crossing. A temporary pathway detour operates around nearby 2026 flood-barrier works, but the city states the bridge remains open.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Centre of the mapped bridge outline and route, OpenStreetMap ways 1313657677 and 158753074.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "monogramcoffee",
+        "nearest_name": "Monogram Coffee",
+        "distance_m": 4905,
+        "manual_review": false,
+        "outcome": "clear",
+        "alias_review": "Exact catalogue name Peace Bridge belongs to the Buffalo–Fort Erie road bridge, more than 2,700 kilometres away."
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "puentedelamujer",
+      "n": "Puente de la Mujer",
+      "a": "Dock 3, Puerto Madero",
+      "pc": "C1107",
+      "lat": -34.6080163,
+      "lng": -58.365129,
+      "city": "buenosaires",
+      "country": "Argentina",
+      "s": "A rotating white footbridge posed like a couple dancing tango",
+      "q": "Puente de la Mujer Buenos Aires Argentina",
+      "w": "A 39-metre white mast leans over the rotating pedestrian deck in Puerto Madero. Santiago Calatrava conceived the asymmetrical silhouette as a tango couple, and the entire central span turns to admit ships.",
+      "aliases": [
+        "Women's Bridge",
+        "Puente de la Mujer Puerto Madero"
+      ],
+      "external_ids": {
+        "osm": [
+          "way/307155462",
+          "way/23648273"
+        ]
+      },
+      "facts": [
+        "The bridge is 160 metres long.",
+        "Its central pedestrian span rotates to permit water traffic.",
+        "The city reopened the renewed bridge in March 2023."
+      ],
+      "sources": [
+        {
+          "url": "https://turismo.buenosaires.gob.ar/es/otros-establecimientos/puente-de-la-mujer",
+          "role": "city tourism identity, dimensions, designer and tango story",
+          "official": true
+        },
+        {
+          "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/se-reinauguro-el-puente-de-la-mujer",
+          "role": "city 2023 restoration and reopening",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free, level public pedestrian crossing. Short operational closures are possible when the rotating span opens.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Centre of the mapped rotating footway and bridge outline, OpenStreetMap ways 307155462 and 23648273.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_id": "antiguasededelcongresona",
+        "nearest_name": "Antigua Sede del Congreso Nacional",
+        "distance_m": 566,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "hightrestletrailbridge",
+      "n": "High Trestle Trail Bridge",
+      "a": "2335 QF Lane, Madrid",
+      "pc": "50156",
+      "lat": 41.8670111,
+      "lng": -93.868028,
+      "city": "us-ia",
+      "country": "United States",
+      "s": "Forty-one steel frames twist a rail-trail crossing into a mine shaft",
+      "q": "High Trestle Trail Bridge Madrid Iowa",
+      "w": "Forty-one steel frames rotate around the deck as walkers cross the Des Moines River, evoking the timber cribbing of a coal-mine shaft. Blue lights after dark turn the half-mile former rail bridge into an immersive tunnel.",
+      "aliases": [
+        "High Trestle Bridge"
+      ],
+      "external_ids": {
+        "osm": "way/854784515"
+      },
+      "facts": [
+        "The bridge installation uses 41 steel frames.",
+        "The frames evoke supports inside a coal-mine shaft.",
+        "The bridge deck is about thirteen storeys above the river."
+      ],
+      "sources": [
+        {
+          "url": "https://www.boonecounty.iowa.gov/conservation/recreational_areas/high_trestle_trail/",
+          "role": "county current trail and public bridge status",
+          "official": true
+        },
+        {
+          "url": "https://www.traveliowa.com/trails/high-trestle-trail/",
+          "role": "state tourism dimensions, lighting, surface and design story",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free public shared walking-and-cycling trail on a flat paved deck. Decorative lights follow posted seasonal schedules; bicycles share the route.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Midpoint of the named trail bridge route, OpenStreetMap way 854784515.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "usiaq5263501",
+        "nearest_name": "Des Moines Art Center",
+        "distance_m": 35075,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    },
+    {
+      "id": "esplanaderiel",
+      "n": "Esplanade Riel",
+      "a": "Provencher Boulevard",
+      "pc": "R2H 0G2",
+      "lat": 49.8907589,
+      "lng": -97.1268474,
+      "city": "winnipeg",
+      "country": "Canada",
+      "s": "A cable-stayed footbridge with a public room suspended beside it",
+      "q": "Esplanade Riel Winnipeg Canada",
+      "w": "A single white mast fans cables across the Red River while a separate pavilion hangs beside the walking deck. Named for Louis Riel, the bridge joins downtown with Saint-Boniface and becomes a changing colour line after dark.",
+      "aliases": [
+        "Provencher Pedestrian Bridge",
+        "Esplanade Riel Footbridge"
+      ],
+      "external_ids": {
+        "osm": [
+          "way/306150488",
+          "way/33066632"
+        ],
+        "wikidata": "Q3058447"
+      },
+      "facts": [
+        "The bridge was completed in 2003.",
+        "It connects downtown Winnipeg with Saint-Boniface.",
+        "A 55-fixture LED system illuminates the structure in changing colours."
+      ],
+      "sources": [
+        {
+          "url": "https://www.winnipeg.ca/people-culture/our-city-our-stories/esplanade-riel-illuminated-colour-thanks-new-lighting-system",
+          "role": "municipal bridge identity and lighting system",
+          "official": true
+        },
+        {
+          "url": "https://engage.winnipeg.ca/stboniface-walk-bike",
+          "role": "2025–2026 municipal confirmation of the active walking-and-cycling connection",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_open",
+        "note": "Free public shared pedestrian-and-cycle crossing. The adjacent pavilion is not required for the crossing and may have separate occupancy.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Centre of the mapped bridge outline and walkable route, OpenStreetMap ways 306150488 and 33066632.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_id": "backalleyarctic",
+        "nearest_name": "Back Alley Arctic",
+        "distance_m": 3088,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "validation_status": "validated_live_model",
+      "c": "footbridges",
+      "draft_only": true,
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "facts": "high",
+        "access": "high",
+        "current_status": "high",
+        "novelty": "high",
+        "dedupe": "high",
+        "overall": "high"
+      }
+    }
+  ],
+  "deferred": [
+    {
+      "n": "Umshiang Double-Decker Living Root Bridge",
+      "country": "India",
+      "reason": "Identity and public access are authoritative, but the official 3,000-to-3,500-step, full-day approach fails the shared ordinary-walk gate and cannot honestly earn walkability 4.",
+      "needed_to_promote": "Reconsider only under a future strenuous-destination contract; do not promote under the ordinary-walk footbridges contract.",
+      "sources": [
+        {
+          "url": "https://www.meghalayatourism.in/explore/destinations/by-interest/living-root-bridges/nongriat/",
+          "role": "state tourism route, steps, season and local guidance",
+          "official": true
+        },
+        {
+          "url": "https://www.incredibleindia.gov.in/en/meghalaya/cherrapunjee/double-decker-living-root-bridge",
+          "role": "national tourism identity, age and cultural story",
+          "official": true
+        }
+      ]
+    },
+    {
+      "n": "Arapuni Suspension Bridge",
+      "country": "New Zealand",
+      "reason": "Mercury's live Arapuni Dam Enhancement Project page says main works start from August 2026, are expected to take 24 to 36 months, and explicitly states that access to the swing bridge will not remain open; the western end and adjacent trails close for safety.",
+      "status_checked_at": "2026-08-09",
+      "needed_to_promote": "A dated Mercury or South Waikato District Council notice confirming that the suspension bridge and its connecting public trails have reopened after the enhancement works.",
+      "sources": [
+        {
+          "url": "https://www.mercury.co.nz/about-us/renewable-energy/hydro-generation/arapuni-dam-enhancement-project",
+          "role": "live official operator project timing, bridge closure and adjacent-trail closure",
+          "official": true
+        },
+        {
+          "url": "https://www.southwaikato.govt.nz/our-district/about-district/arapuni",
+          "role": "council bridge identity, history and pedestrian approach",
+          "official": true
+        }
+      ]
+    },
+    {
+      "n": "Pedro e Inês Bridge",
+      "country": "Portugal",
+      "reason": "Contemporaneous reports reproducing Coimbra's 1 February 2026 municipal notice said the bridge remained closed until a new safety evaluation. No later municipal reopening notice surfaced through 9 August, so undated current tourism listings cannot establish all-high access confidence.",
+      "status_checked_at": "2026-08-09",
+      "needed_to_promote": "An explicit, dated Coimbra municipal notice confirming that the bridge reopened after the safety evaluation.",
+      "sources": [
+        {
+          "url": "https://centrotv.sapo.pt/tabuleiro-inferior-da-ponte-acude-encerrado-ao-transito-em-coimbra/",
+          "role": "contemporaneous 1 February report reproducing the municipal closure-until-new-evaluation notice",
+          "official": false
+        },
+        {
+          "url": "https://beiradigitaltv.pt/aumento-do-caudal-do-mondego-obriga-ao-encerramento-do-tabuleiro-inferior-da-ponte-acude/",
+          "role": "independent contemporaneous reproduction of the municipal closure notice",
+          "official": false
+        },
+        {
+          "url": "https://www.coimbra.pt/2021/10/ponte-pedro-e-ines-vandalizada/",
+          "role": "official municipal bridge identity, designers, dimensions and pedestrian use",
+          "official": true
+        }
+      ]
+    },
+    {
+      "n": "Baglung–Parbat Suspension Bridge",
+      "country": "Nepal",
+      "reason": "Identity and record dimensions are authoritative, but no current operator or municipal page explicitly established open public access and structural status on the audit date.",
+      "needed_to_promote": "A current Baglung or Kusma municipal, tourism-board or land-manager access/status notice tied to the exact bridge.",
+      "sources": [
+        {
+          "url": "https://ntb.gov.np/en/baglung-kusma-suspension-bridge",
+          "role": "national tourism identity lead",
+          "official": true
+        }
+      ]
+    },
+    {
+      "n": "Ojuela Bridge",
+      "country": "Mexico",
+      "reason": "Official tourism material establishes identity and paid visitor use, but current operator hours, deck status and safety rules were not independently explicit enough for all-high current-status confidence.",
+      "needed_to_promote": "A dated operator or municipal notice confirming the bridge is currently open for ordinary public crossing.",
+      "sources": [
+        {
+          "url": "https://www.mexicoescultura.com/recinto/67144/puente-de-ojuela.html",
+          "role": "official cultural identity lead",
+          "official": true
+        }
+      ]
+    },
+    {
+      "n": "Chief William Commanda Bridge",
+      "country": "Canada",
+      "reason": "A strong public adaptive-reuse crossing, but seasonal and weather closures require a live city status source immediately before import.",
+      "needed_to_promote": "A current City of Ottawa open-status page for the exact audit/import date.",
+      "sources": [
+        {
+          "url": "https://ottawa.ca/en/parking-roads-and-travel/active-transportation/active-transportation-projects/chief-william-commanda-bridge",
+          "role": "municipal project and seasonal-access lead",
+          "official": true
+        }
+      ]
+    },
+    {
+      "n": "Scale Lane Bridge",
+      "country": "United Kingdom",
+      "reason": "The moving footbridge fits editorially, but official fatigue and intermittent-closure notices prevented all-high current access confidence.",
+      "needed_to_promote": "A Hull City Council notice confirming unrestricted pedestrian operation after the latest inspection or repair.",
+      "sources": [
+        {
+          "url": "https://www.hull.gov.uk/roads-pavements/scale-lane-bridge",
+          "role": "municipal status lead",
+          "official": true
+        }
+      ]
+    },
+    {
+      "n": "Melkwegbrug",
+      "country": "Netherlands",
+      "reason": "Distinctive stepped and cycle arcs fit the category, but 2026 damage/safety ambiguity was unresolved.",
+      "needed_to_promote": "A current Purmerend municipal reopening or inspection notice covering both pedestrian and cycle arcs.",
+      "sources": []
+    },
+    {
+      "n": "BP Pedestrian Bridge",
+      "country": "United States",
+      "reason": "Strong serpentine crossing, but official seasonal access/status evidence was not specific enough for this audit.",
+      "needed_to_promote": "A current Millennium Park page explicitly confirming bridge opening dates and any surface closures.",
+      "sources": [
+        {
+          "url": "https://www.chicago.gov/city/en/depts/dca/supp_info/millennium_park.html",
+          "role": "municipal park lead",
+          "official": true
+        }
+      ]
+    },
+    {
+      "n": "Spruce Street Suspension Bridge",
+      "country": "United States",
+      "reason": "Memorable neighbourhood crossing, but no current municipal structural-status source was located.",
+      "needed_to_promote": "A current City of San Diego inspection, park or public-works page confirming the bridge is open.",
+      "sources": []
+    },
+    {
+      "n": "Boorloo Bridge",
+      "country": "Australia",
+      "reason": "Current and walkable, but deferred to avoid Perth over-concentration and internal thematic proximity to the stronger Matagarup Bridge.",
+      "needed_to_promote": "Reconsider only in a Perth-specific gap review after Matagarup is live.",
+      "sources": [
+        {
+          "url": "https://www.mainroads.wa.gov.au/projects-initiatives/all-projects/metropolitan/boorloo-bridge/",
+          "role": "state transport current project lead",
+          "official": true
+        }
+      ]
+    },
+    {
+      "n": "Humber Bay Arch Bridge",
+      "country": "Canada",
+      "reason": "Public and distinctive, but did not clear the story/distinctiveness bar after comparison with stronger Americas candidates.",
+      "needed_to_promote": "A stronger place-specific story source and an editorial re-score above the strict cut.",
+      "sources": []
+    }
+  ],
+  "excluded": [
+    {
+      "n": "Waco Suspension Bridge",
+      "country": "United States",
+      "reason": "Already represented in the 17,131-spot catalogue."
+    },
+    {
+      "n": "John Seigenthaler Pedestrian Bridge",
+      "country": "United States",
+      "reason": "Already represented in the catalogue."
+    },
+    {
+      "n": "High Bridge",
+      "country": "United States",
+      "reason": "Already represented in the catalogue."
+    },
+    {
+      "n": "Kinzua Sky Walk",
+      "country": "United States",
+      "reason": "Already represented and better retained as industrial heritage/view rather than a new footbridge row."
+    },
+    {
+      "n": "Gateshead Millennium Bridge",
+      "country": "United Kingdom",
+      "reason": "Already represented in the catalogue, including a pre-existing internal duplicate risk."
+    },
+    {
+      "n": "Q'eswachaka Rope Bridge",
+      "country": "Peru",
+      "reason": "Already represented in the catalogue."
+    },
+    {
+      "n": "Hussaini Suspension Bridge",
+      "country": "Pakistan",
+      "reason": "Already represented in the catalogue and fails the ordinary-walk safety/access gate."
+    },
+    {
+      "n": "Bridge of Peace",
+      "country": "Georgia",
+      "reason": "Already represented and its architecture narrative is stronger than a new footbridge categorisation."
+    },
+    {
+      "n": "Luchtsingel",
+      "country": "Netherlands",
+      "reason": "Already represented in the catalogue."
+    },
+    {
+      "n": "Henderson Waves",
+      "country": "Singapore",
+      "reason": "Already represented through Southern Ridges; a second bridge row would duplicate the established objective."
+    },
+    {
+      "n": "Canopy Walkway at Lekki Conservation Centre",
+      "country": "Nigeria",
+      "reason": "The existing conservation-centre/park objective is the stronger catalogue unit and the bridge would duplicate attraction access."
+    },
+    {
+      "n": "Boomslang Canopy Walkway",
+      "country": "South Africa",
+      "reason": "The existing Kirstenbosch garden objective is stronger; the walkway is incidental within that attraction."
+    },
+    {
+      "n": "Capilano Suspension Bridge",
+      "country": "Canada",
+      "reason": "Private ticketed attraction whose broader commercial site, not an independently public walking link, controls access."
+    },
+    {
+      "n": "Mishima Skywalk",
+      "country": "Japan",
+      "reason": "Private ticketed attraction rather than public-realm footbridge."
+    },
+    {
+      "n": "Kawarau Suspension Bridge",
+      "country": "New Zealand",
+      "reason": "Commercial bungy operation and the historic bridge's stronger transport/industrial story make the category fit weaker than retained public crossings."
+    },
+    {
+      "n": "Ordinary unnamed footway bridges from Overpass discovery",
+      "country": "Multiple",
+      "reason": "Failed named identity, authoritative story and experiential-crossing hard gates."
+    },
+    {
+      "n": "Vehicular bridges with pavements",
+      "country": "Multiple",
+      "reason": "Motor traffic and incidental sidewalks fail the category contract even when the architecture is notable."
+    }
+  ],
+  "overlap_risks": [
+    {
+      "candidate": "Alexandra Suspension Bridge",
+      "risk": "260 metres from the existing broad Cataract Gorge spot.",
+      "resolution": "Retain as a separately named, newly restored crossing; do not copy the gorge description."
+    },
+    {
+      "candidate": "Liberty Bridge",
+      "risk": "Exact generic-name collision with the Budapest bridge.",
+      "resolution": "Aliases, city, country, coordinates and OSM ID establish a different structure."
+    },
+    {
+      "candidate": "Peace Bridge",
+      "risk": "Exact generic-name collision with the Buffalo–Fort Erie road bridge.",
+      "resolution": "Calgary's motor-vehicle-free Calatrava crossing has distinct city, coordinates, form and OSM IDs."
+    },
+    {
+      "candidate": "Pythonbrug",
+      "risk": "Architecture category could plausibly claim the bridge.",
+      "resolution": "The bodily stair-and-curve crossing is the primary experience; keep the dossier narrative about movement rather than general architecture."
+    },
+    {
+      "candidate": "Puente de la Mujer",
+      "risk": "Architecture category could plausibly claim the Calatrava work.",
+      "resolution": "The rotating pedestrian span and tango-like act of crossing justify footbridges; avoid a generic architect-only treatment."
+    },
+    {
+      "candidate": "Canopy walks",
+      "risk": "Potential duplication of host park attractions.",
+      "resolution": "Only TreeTop Walk, Nyungwe and Kakum were retained where the bridge sequence is named and is itself the principal booked or walked experience."
+    }
+  ],
+  "strongest_candidates": [
+    "Te Ikaroa a Rauru",
+    "Te Rewa Rewa Bridge",
+    "Walkway Over the Hudson",
+    "Puente de la Mujer",
+    "Iya-no-Kazurabashi",
+    "Vøringsfossen Step Bridge"
+  ]
+}

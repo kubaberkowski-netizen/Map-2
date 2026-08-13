@@ -2,8 +2,8 @@
 
 Helpers for **finding new candidate spots** (Reddit / web / OpenStreetMap /
 Wikidata / TikTok / Google Places) and turning them into rows that drop straight
-into `data/spots.json`. Nothing here touches the live app or the catalogue
-automatically — it produces a **review pile** you curate by hand.
+into `data/spots.json`. Discovery commands produce a **review pile**; the explicit
+apply tools (`add-spots.js` and `add-cities.js`) write only after a dry-run/review.
 
 > **New here? Read [`WORKFLOW.md`](./WORKFLOW.md) first.** It is the end-to-end
 > operating manual for the two tracks — **(A)** cleaning up junk and **(B)**
@@ -19,11 +19,15 @@ automatically — it produces a **review pile** you curate by hand.
 > - **`write-up.js`** — the house-voice writer (few-shot on authored London).
 > - **`add-spots.js`** — bring in NEW write-up-worthy spots a discovery pass found
 >   (not yet in the app), through the same validate/dedupe gates as the build.
+> - **`audit-research-bundle.js`** — audit several cross-city dossiers together
+>   for editorial gates, sources, confidence, city fit and global deduplication.
+> - **`add-cities.js`** — append audited `Ci`/`flCO` registry entries from a city-plan
+>   dossier before importing rows whose city slugs do not yet exist.
 
-> **The writeup rule still holds.** These tools **never** write the `w` field.
-> Every candidate comes out with `w:""`. The writeups are the product and stay
-> in your voice — see `CLAUDE.md`. The tools also leave the short hook `s` as a
-> rough placeholder; rewrite it.
+> **The writeup rule still holds.** Discovery tools never invent the `w` field and
+> emit candidates with `w:""`. `add-spots.js` may copy a reviewed dossier's supplied
+> `w` verbatim, but marks every added row `d` (machine draft pending human review).
+> The writeups are the product — see `CLAUDE.md`.
 
 Zero new dependencies — pure Node (uses the `acorn` already in `devDependencies`
 and the built-in `fetch`). Run `npm install` once in a fresh checkout.
@@ -39,14 +43,14 @@ validate (build.js rules) → dedupe (vs data/spots.json) → candidates/<city>.
 
 Each emitted row is in the **exact `spots.json` schema** plus a `_meta` block
 (provenance + what's still missing). A row is only ever kept if it:
-- lands inside one of the 6 city bboxes (`Ci`), assigned automatically;
+- lands inside a city or region bbox from the live `Ci` registry, assigned automatically;
 - passes the **same validation `build.js` enforces** (keys, finite/non-zero
   coords, in-bbox) — so anything that survives won't be rejected at build time;
 - is **not a duplicate** of an existing spot (id collision, same name in the
   same city, or within ~120 m of an existing spot).
 
 `c` (category) is auto-filled only when confidently guessed from OSM tags;
-otherwise it's `""` with `_meta.needs:["c"]` for you to pick from the 44 slugs.
+otherwise it's `""` with `_meta.needs:["c"]` for you to pick from the live slugs.
 
 ---
 
@@ -58,6 +62,17 @@ otherwise it's `""` with `_meta.needs:["c"]` for you to pick from the 44 slugs.
 | `sources.js` | Fetch adapters. **Ready (no key):** `overpass`, `wikidata`, `reddit`, `pullpush`, `geocode`. **Ready (needs `ANTHROPIC_API_KEY` + SDK):** `claudeExtract`. **Stubs (need a key):** `tiktok`, `firecrawl`, `apify`, `googlePlaces`. |
 | `category-map.js` | Best-effort OSM-tag → category-slug guesser. Returns `null` rather than guess wrong. |
 | `find-spots.js` | The CLI that wires it all together. |
+| `audit-research-bundle.js` | Audits one or more top-level `included` arrays together: production schema, 19/25 score gate, source roles, all-high confidence, live cities/categories, aliases, external IDs and global/candidate proximity. Reports missing city slugs without writing. Dense-city pairs under 30 m are presumed duplicates; pairs from 30–119 m need a named `dedupe.internal_neighbours` review. |
+
+New category slugs need an include/exclude contract in their research dossier before
+they are added to the live template. Automatic mapping stays deliberately narrow:
+for example, `arcades` only maps from a named pedestrian/footway feature tagged as a
+covered or building passage. `streetfurniture` and `historicshopfronts` remain
+editorial categories because a generic civic fixture or merely old storefront is not
+a destination. `artnouveau` also remains editorial: the whole exterior composition,
+not one floral door or interior detail, must clear the style contract.
+| `add-spots.js` | Validates, dedupes and appends new rows; supports array selection with `--key`, `--offset` and `--limit`; bumps the baseline and flags additions `d`. |
+| `add-cities.js` | Adds audited city metadata to `Ci` and `flCO` (plus optional country-flag additions) from a registry-plan JSON. Always dry-run first. |
 | `candidates/` | Generated output (git-ignored). One JSON file per city. |
 
 ---
@@ -67,6 +82,11 @@ otherwise it's `""` with `_meta.needs:["c"]` for you to pick from the 44 slugs.
 ```bash
 # OpenStreetMap features (museums, historic sites, follies, viewpoints…) in a city
 node tools/find-spots.js --city london   --source overpass --limit 150
+node tools/find-spots.js --city london   --source overpass --profile hills --limit 150
+node tools/find-spots.js --city paris    --source overpass --profile landmarktrees --limit 150
+node tools/find-spots.js --city lisbon   --source overpass --profile steps --limit 150
+node tools/find-spots.js --city sydney   --source overpass --profile footbridges --limit 150
+node tools/find-spots.js --city tokyo    --source overpass --profile specialistshops --limit 150
 node tools/find-spots.js --city paris    --source wikidata
 
 # Reddit/Pullpush: become rows automatically when ANTHROPIC_API_KEY is set
@@ -78,13 +98,42 @@ node tools/find-spots.js --city glasgow --source pullpush --sub glasgow --query 
 
 # When you've filled in the categories (and left writeups blank), print paste-ready rows:
 node tools/find-spots.js --emit london          # → stdout, schema-clean, _meta stripped
+
+# Audit cross-city dossiers together before changing either registry or catalogue:
+node tools/audit-research-bundle.js research/run-hills.json research/run-steps.json
+
+# Register city slugs required by an audited cross-city dossier (template only):
+node tools/add-cities.js research/city-registry-plan.json --dry
+node tools/add-cities.js research/city-registry-plan.json
+
+# Import one bounded wave from a top-level dossier array:
+node tools/add-spots.js london --file research/run.json --key included --offset 0 --limit 25 --dry
+node tools/add-spots.js london --file research/run.json --key included --offset 0 --limit 25
+# Continue with --offset 25, 50, ...; --limit is the number selected in that wave.
 ```
 
+When a point lies inside its explicitly declared city bbox but `cityForPoint()`
+prefers an overlapping `region:true` catchment, the bundle audit keeps the more
+specific city assignment and prints a warning. It still rejects out-of-bbox rows
+and conflicts between two ordinary city/town entries.
+
+`--key <name>` selects an array such as `included` or `candidates` from an object
+dossier (omit it for a top-level array). `--offset` is a zero-based starting index;
+`--limit` must be a positive integer. The positional city must already exist and is
+the fallback for rows without `city`; an explicit per-row city is preserved and
+validated against live `Ci`. `add-cities.js` expects
+`recommendation.preserving_dossier_city_semantics.proposed_entries`, refuses existing
+ids, updates `Ci`/`flCO`, and syntax-checks the edited main script. The same section may
+also carry guarded `bbox_updates:[{id,bbox}]` for an existing city or metro whose honest
+catchment is too tight; unknown ids and invalid/non-increasing bboxes are rejected. Run
+`npm run build` after either apply command.
+
 ### Then, by hand
-1. Open `tools/candidates/<city>.json`. For each row: pick a `c` from the 44
+1. Open `tools/candidates/<city>.json`. For each row: pick a `c` from the live
    slugs, tighten `s`. **Leave `w` blank.**
 2. Write the `w` writeups yourself.
-3. `node tools/find-spots.js --emit <city>` → paste the rows into `data/spots.json`.
+3. `node tools/find-spots.js --emit <city>` → paste the rows into `data/spots.json`,
+   or use `add-spots.js` after reviewing its `--dry` report.
 4. `npm run build` (re-validates everything and regenerates `index.html`).
 
 ---
@@ -105,7 +154,7 @@ export ANTHROPIC_API_KEY=sk-ant-...
 How it stays safe:
 - The structured-output **schema has no `w` field**, so the model *cannot* draft
   a writeup — every `w` is still yours to write.
-- `c` is constrained to the **live 44-slug enum**, so it can only emit a real
+- `c` is constrained to the **live category enum**, so it can only emit a real
   category (no white-screen risk, nothing to hand-fix).
 - It returns `{n, a, c, s, confidence, reason, source_url}`; rows still pass
   through geocode → bbox-validate → dedupe before landing in `candidates/`.

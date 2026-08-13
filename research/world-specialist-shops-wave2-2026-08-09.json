@@ -1,0 +1,1554 @@
+{
+  "schema_version": 2,
+  "created_at": "2026-08-09",
+  "title": "Worldwide specialist shops — wave two strict-gate research",
+  "status": "15 high-confidence rows imported as drafts pending human editorial promotion.",
+  "target_included": 40,
+  "included_count": 15,
+  "import": {
+    "state": "imported_as_draft",
+    "quality_flag": "d",
+    "imported_count": 15,
+    "do_not_reimport": true,
+    "editorial_status": "pending_human_review_and_promotion",
+    "warning": "Draft import is not human editorial approval. Recheck current trading hours before travel; do not re-import these rows."
+  },
+  "import_metadata": {
+    "status": "imported_as_draft",
+    "imported_at": "2026-08-09",
+    "imported_count": 15,
+    "quality_flag": "d",
+    "do_not_reimport": true,
+    "promotion": "pending_human_editorial_review",
+    "city_registry_plan": "research/discovery-wave-2-city-registry-qa-2026-08-09.json"
+  },
+  "method": {
+    "editorial_contract": "A currently trading, independently visitable physical storefront whose deep narrow inventory or living trade is itself worth a walking detour.",
+    "category_rule": "Existing categories win for books, records, food, bakeries and wine; specialistshops is reserved for otherwise-unrepresented trades and collections.",
+    "exclusions": "Chains, malls, department stores, ordinary antiques, appointment-only dealers, museum shops, concept stores, multi-location businesses and storefronts without first-party current evidence.",
+    "source_policy": "At least two useful sources per include: a current first-party shop/contact page plus dated recent status corroboration and, where separate, a history/inventory source.",
+    "coordinate_policy": "Named map object, government exact-address point or first-party map coordinate tied to the current physical address.",
+    "dedupe_policy": "Normalised names and every listed alias checked globally against 17,131 live rows and earlier dossier candidates. Global proximity at 120 m triggers manual identity/address review.",
+    "editorial_gate": "At least 19/25 overall, with story and walkability each at least 4/5; all confidence dimensions high; stop below target rather than pad.",
+    "import_policy": "All rows remain draft-only and require quality flag d if later imported."
+  },
+  "validation": {
+    "catalogue_spots_checked": 17131,
+    "all_categories_live": true,
+    "all_rows_have_two_or_more_sources": true,
+    "all_rows_have_current_first_party_source": true,
+    "all_rows_have_dated_recent_status": true,
+    "all_scores_at_least_19": true,
+    "all_story_and_walkability_at_least_4": true,
+    "all_confidence_dimensions_high": true,
+    "exact_catalogue_name_or_alias_matches": 0,
+    "manual_sub_120m_reviews": 4,
+    "internal_minimum_distance_m": 1508,
+    "internal_minimum_pair": [
+      "International Magic",
+      "Stanley Gibbons"
+    ],
+    "current_live_city_rows": 15,
+    "applied_city_registry_additions": 2,
+    "rows_requiring_city_registry_additions": 0,
+    "checked_at": "2026-08-09",
+    "geography": {
+      "countries": {
+        "United Kingdom": 3,
+        "France": 1,
+        "Spain": 1,
+        "Germany": 2,
+        "Poland": 1,
+        "Canada": 1,
+        "Taiwan": 1,
+        "Japan": 3,
+        "Argentina": 1,
+        "Australia": 1
+      },
+      "continents": {
+        "Europe": 8,
+        "North America": 1,
+        "Asia": 4,
+        "South America": 1,
+        "Oceania": 1
+      },
+      "included_countries": 10
+    },
+    "missing_city_requirements": {
+      "rule": "Historical proposal provenance. Regensburg and Montville were added through the reviewed discovery-wave-2 city plan before draft import.",
+      "proposed_city_or_region_objects": [
+        {
+          "id": "regensburg",
+          "name": "Regensburg",
+          "label": "Regensburg",
+          "e": "🇩🇪",
+          "lat": 49.019,
+          "lng": 12.0914,
+          "bbox": [
+            12.02,
+            48.97,
+            12.17,
+            49.07
+          ],
+          "blurb": "A compact Danube old town where long-lived trades survive behind medieval fronts.",
+          "country": "Germany"
+        },
+        {
+          "id": "montville",
+          "name": "Montville",
+          "label": "Montville",
+          "e": "🇦🇺",
+          "lat": -26.6882,
+          "lng": 152.8897,
+          "bbox": [
+            152.86,
+            -26.72,
+            152.92,
+            -26.65
+          ],
+          "blurb": "A walkable Sunshine Coast hinterland village of steep Main Street curiosities.",
+          "country": "Australia"
+        }
+      ],
+      "flCO_mapping": {
+        "regensburg": "Germany",
+        "montville": "Australia"
+      }
+    }
+  },
+  "included": [
+    {
+      "id": "shepherdsarts",
+      "n": "Shepherds Arts",
+      "a": "30 Gillingham Street, Pimlico, London",
+      "pc": "SW1V 1HU",
+      "lat": 51.4936967,
+      "lng": -0.14452298,
+      "c": "specialistshops",
+      "city": "london",
+      "country": "United Kingdom",
+      "s": "seven hundred shelves of paper and the tools to bind it",
+      "q": "Shepherds Arts Pimlico London",
+      "w": "What began as a bookbinders' supply shop in 1988 now fills 700 shelves with fine papers from around the world, backed by walls of bookcloth, leather and hand tools. This is the public retail shop—not the appointment-only bindery—and it rewards slow material browsing.",
+      "aliases": [
+        "Shepherds Bookbinders",
+        "Shepherds London",
+        "Shepherds Fine Papers"
+      ],
+      "facts": [
+        "The public paper and bookbinding shop began in 1988.",
+        "Its Gillingham Street shop contains 700 shelves of paper plus bookcloth, leather and specialist tools.",
+        "The first-party contact page posts walk-in hours Monday to Saturday."
+      ],
+      "sources": [
+        {
+          "url": "https://shepherds-arts.co.uk/pages/contact",
+          "role": "Current first-party retail address, walk-in hours and distinction from the appointment-only bindery.",
+          "official": true
+        },
+        {
+          "url": "https://shepherds-arts.co.uk/pages/about-us",
+          "role": "First-party history, 700-shelf inventory and specialist material range.",
+          "official": true
+        },
+        {
+          "url": "https://www.interiors10.com/GB/London/162911837057485/Shepherds-Bookbinders",
+          "role": "Dated April 2026 retail activity at the same shop.",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Independent public retail shop, Monday to Saturday at posted hours; the separate restoration bindery is appointment-only and is not the candidate.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "First-party Google map embed on the contact page, fixed to the shop entrance at 30 Gillingham Street.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 2,
+        "total": 21
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "conrad",
+          "n": "Joseph Conrad plaque, Pimlico",
+          "city": "london",
+          "distance_m": 104
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": true,
+        "outcome": "clear-after-manual-review",
+        "review_note": "The 104 m catalogue neighbour is an unrelated plaque; name, address and category were manually checked."
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "internationalmagicshop",
+      "n": "International Magic",
+      "a": "89 Clerkenwell Road, London",
+      "pc": "EC1R 5BX",
+      "lat": 51.5218638,
+      "lng": -0.1105609,
+      "c": "specialistshops",
+      "city": "london",
+      "country": "United Kingdom",
+      "s": "sixty years of tricks demonstrated across a Clerkenwell counter",
+      "q": "International Magic Clerkenwell London",
+      "w": "A family magic shop has worked from this Clerkenwell address for more than sixty years, carrying a dense stock of cards, coins, stage apparatus and teaching material for beginners and professionals. The real pleasure is the living counter culture: ask, watch and learn how a trick is sold.",
+      "aliases": [
+        "International Magic Shop",
+        "International Magic Studio"
+      ],
+      "facts": [
+        "The family business has operated from 89 Clerkenwell Road for more than 60 years.",
+        "The shop carries a large stock spanning close-up, mentalism, stage and beginner magic.",
+        "Its current site posts public opening hours Tuesday to Saturday."
+      ],
+      "sources": [
+        {
+          "url": "https://internationalmagic.com/",
+          "role": "Current first-party address, public hours, longevity and live product inventory.",
+          "official": true
+        },
+        {
+          "url": "https://internationalmagic.com/i/about-us",
+          "role": "First-party family history and the Ron MacMillan magic-convention legacy.",
+          "official": true
+        },
+        {
+          "url": "https://wanderlog.com/place/details/1564992/international-magic-shop",
+          "role": "Recent 2026 visit/status corroboration.",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Walk-in physical shop Tuesday to Saturday at the first-party posted hours; demonstrations depend on staff availability.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Live OSM shop way 571479618, cross-checked against the first-party exact address.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 2,
+        "total": 22
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "qualitychop",
+          "n": "Quality Chop House",
+          "city": "london",
+          "distance_m": 176
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "stanleygibbons",
+      "n": "Stanley Gibbons",
+      "a": "399 Strand, London",
+      "pc": "WC2R 0LP",
+      "lat": 51.5103654,
+      "lng": -0.1221033,
+      "c": "specialistshops",
+      "city": "london",
+      "country": "United Kingdom",
+      "s": "a million stamps in the Strand's century-old philatelic pilgrimage",
+      "q": "Stanley Gibbons 399 Strand London",
+      "w": "Collectors have come to Stanley Gibbons on the Strand for well over a century. The ground-floor emporium says more than a million stamps can be browsed and bought, with albums, mounts and catalogues turning a famous name into a genuinely physical specialist shop.",
+      "aliases": [
+        "Stanley Gibbons Stamp Emporium",
+        "The Stanley Gibbons Store",
+        "Stanley Gibbons 399 Strand"
+      ],
+      "facts": [
+        "The Strand has housed a Stanley Gibbons shop for well over a century.",
+        "The current store says it offers more than one million stamps to browse and purchase.",
+        "New Monday-to-Saturday hours took effect on 1 October 2025."
+      ],
+      "sources": [
+        {
+          "url": "https://legacy.stanleygibbons.com/visit-us/399-strand",
+          "role": "First-party storefront, century-on-the-Strand story, million-stamp stock, address and dated hours.",
+          "official": true
+        },
+        {
+          "url": "https://shop.stanleygibbons.com/pages/faq",
+          "role": "Current first-party trading and customer-service status.",
+          "official": true
+        },
+        {
+          "url": "https://firmania.co.uk/london/stanley-gibbons-ltd-3120654",
+          "role": "Independent listing updated 22 June 2026.",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public ground-floor retail emporium Monday to Saturday at current first-party hours; auctions and valuations are additional services, not the basis of inclusion.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Live OSM shop node 968689937 at 399 Strand, cross-checked against the first-party storefront page.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 2,
+        "total": 22
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "rules",
+          "n": "Rules",
+          "city": "london",
+          "distance_m": 57
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": true,
+        "outcome": "clear-after-manual-review",
+        "review_note": "The 57 m catalogue neighbour is an unrelated restaurant; dense-Strand proximity was manually reviewed."
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "couteauxcourty",
+      "n": "Couteaux Courty",
+      "a": "44 Rue des Petits Champs, Paris",
+      "pc": "75002",
+      "lat": 48.867315,
+      "lng": 2.334788,
+      "c": "specialistshops",
+      "city": "paris",
+      "country": "France",
+      "s": "Parisian blades, sharpened into a shop since 1875",
+      "q": "Couteaux Courty Paris France",
+      "w": "Courty has specialised in blades since 1875: kitchen knives, hunting and military pieces, vintage examples and one-offs by French makers. The single compact shop gives a walk through the Palais-Royal quarter an unusually precise material focus—steel, edge and hand.",
+      "aliases": [
+        "Courty & Fils",
+        "Courty Coutellerie",
+        "Coutellerie Courty"
+      ],
+      "facts": [
+        "Courty & Fils was founded in 1875.",
+        "Its narrow trade covers kitchen, military, hunting, collectible and vintage knives.",
+        "The shop highlights unique pieces made by French knifemakers."
+      ],
+      "sources": [
+        {
+          "url": "https://couteaux-courty.com/fr/nous-contacter",
+          "role": "Current first-party address, founding date and specialist inventory.",
+          "official": true
+        },
+        {
+          "url": "https://couteaux-courty.com/fr/content/12-l-histoire",
+          "role": "First-party house history.",
+          "official": true
+        },
+        {
+          "url": "https://www.cylex-locale.fr/entreprises/courty---fils-11006717.html",
+          "role": "Independent current storefront and hours corroboration.",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public single-location knife shop during posted hours; ordinary retail visit, no appointment requirement.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "French national BAN exact-housenumber point for 44 Rue des Petits Champs, cross-checked against the first-party address.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 3,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "galerievivienne",
+          "n": "Galerie Vivienne",
+          "city": "paris",
+          "distance_m": 366
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": true,
+        "reviewed_neighbours": [
+          {
+            "id": "passagechoiseul",
+            "name": "Passage Choiseul",
+            "distance_m": 97,
+            "status": "distinct",
+            "rationale": "Couteaux Courty is a destination knife shop with a separately addressed retail interior; Passage Choiseul is a named covered pedestrian route whose architecture and through-walk are the objective."
+          }
+        ],
+        "rationale": "The later Paris signature wave added Passage Choiseul about 97 metres away; the specialist knife shop and the covered public arcade remain separate physical and behavioural experiences.",
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "casayustas",
+      "n": "Casa Yustas",
+      "a": "Plaza Mayor 30, Madrid",
+      "pc": "28012",
+      "lat": 40.4158435,
+      "lng": -3.7067834,
+      "c": "specialistshops",
+      "city": "madrid",
+      "country": "Spain",
+      "s": "three floors of hats above an untouched 1886 counter",
+      "q": "Casa Yustas Plaza Mayor Madrid Spain",
+      "w": "Casa Yustas has sold hats on Plaza Mayor since 1886, retaining a protected chestnut interior while an upstairs workshop shapes caps, ceremonial headwear and bespoke pieces. It is both a working trade and one of the square's rare reasons to go indoors.",
+      "aliases": [
+        "Sombrerería Casa Yustas",
+        "Casa Yustas Sombreros"
+      ],
+      "facts": [
+        "The business has traded on Plaza Mayor since 1886.",
+        "Its protected original interior is fitted in chestnut wood.",
+        "The shop spans three floors and maintains an in-house workshop for hats, caps and custom work."
+      ],
+      "sources": [
+        {
+          "url": "https://www.instagram.com/casayustas/",
+          "role": "Current first-party storefront account and dated 2026 trading posts.",
+          "official": true
+        },
+        {
+          "url": "https://www.findglocal.com/ES/Madrid/284699245434/Casa-Yustas",
+          "role": "Mirror of first-party April 2026 shop posts plus exact address and workshop activity.",
+          "official": false
+        },
+        {
+          "url": "https://www.esmadrid.com/en/shopping/casa-yustas",
+          "role": "Madrid municipal tourism listing updated 19 May 2026, with history, interior, inventory and hours.",
+          "official": true
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/5383874579",
+          "role": "Live named shop object and exact coordinate.",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public walk-in hat shop on Plaza Mayor during posted retail hours; bespoke work is offered but not required to visit.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Live OSM named shop node 5383874579 cross-checked against the municipal listing and active first-party account.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 3,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "restaurantebotin",
+          "n": "Restaurante Botín",
+          "city": "madrid",
+          "distance_m": 119
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": true,
+        "outcome": "clear-after-manual-review",
+        "review_note": "The 119 m catalogue neighbour is Restaurante Botín; the storefront and category are clearly distinct."
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "buerstenhausfrankfurt",
+      "n": "Bürstenhaus Frankfurt",
+      "a": "Töngesgasse 27, Frankfurt am Main",
+      "pc": "60311",
+      "lat": 50.113226,
+      "lng": 8.683041,
+      "c": "specialistshops",
+      "city": "frankfurt",
+      "country": "Germany",
+      "s": "more than a thousand brushes, from pastry to chimney",
+      "q": "Bürstenhaus Frankfurt Töngesgasse Germany",
+      "w": "A century-old brush house packs more than a thousand kinds of brushes, brooms and combs into one city-centre shop—some handmade, some so specific their purpose is half the discovery. Natural fibres and practical advice keep it a living trade rather than nostalgia décor.",
+      "aliases": [
+        "Frankfurter Bürstenhaus",
+        "Bürstenhaus"
+      ],
+      "facts": [
+        "The first-party shop describes a range of more than 1,000 brushes, brooms and combs.",
+        "Handmade and natural-material products remain central to the inventory.",
+        "A public centenary-history visit was scheduled for 1 April 2026."
+      ],
+      "sources": [
+        {
+          "url": "https://buerstenhaus.de/unser-geschaft-en/",
+          "role": "First-party physical-shop description, specialist inventory, address and hours.",
+          "official": true
+        },
+        {
+          "url": "https://buerstenhaus.de/geschichte-en/",
+          "role": "First-party ownership and trading history.",
+          "official": true
+        },
+        {
+          "url": "https://frankfurter-stadtevents.de/Datum/01-April-2026/100-Jahre-Frankfurter-Brstenhaus-Eine-Zeitreise-durch-die-Tngesgasse-Stiftstrae_20020761/",
+          "role": "Dated April 2026 public event confirming current shop activity.",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public city-centre retail shop at posted hours; the 2026 history event is extra corroboration, not an access prerequisite.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "First-party embedded map pin at Töngesgasse 27, cross-checked against the exact storefront address.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 3,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "kleinmarkthalle",
+          "n": "Kleinmarkthalle",
+          "city": "frankfurt",
+          "distance_m": 59
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": true,
+        "outcome": "clear-after-manual-review",
+        "review_note": "The 59 m catalogue neighbour is the unrelated Kleinmarkthalle; dense-centre proximity was manually reviewed."
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "buerstenernst",
+      "n": "Bürsten Ernst",
+      "a": "Glockengasse 10, Regensburg",
+      "pc": "93047",
+      "lat": 49.0190262,
+      "lng": 12.091408,
+      "c": "specialistshops",
+      "city": "regensburg",
+      "country": "Germany",
+      "s": "a fourth-generation brush workshop hidden in the old town",
+      "q": "Bürsten Ernst Regensburg Germany",
+      "w": "Bürsten Ernst has worked in Regensburg since 1894, selling brushes, brooms, doormats and cleaning tools with the specificity of a genuine working supplier. Its old-town storefront preserves the pleasure of finding one tool made for one oddly exact task.",
+      "aliases": [
+        "Bürsten Ernst Regensburg",
+        "Bürsten-Manufaktur Ernst"
+      ],
+      "facts": [
+        "The business dates its Regensburg trade to 1894.",
+        "Its range centres on brushes, brooms, doormats and specialist cleaning tools.",
+        "Regensburg's retail portal lists the shop as a current old-town business."
+      ],
+      "sources": [
+        {
+          "url": "https://xn--brsten-regensburg-22b.de/impressum-kontakt/",
+          "role": "Current first-party legal identity, exact address and contact.",
+          "official": true
+        },
+        {
+          "url": "https://www.einkaufen-regensburg.de/news/aktuelles/buersten-ernst-1",
+          "role": "Regensburg city retail portal with current inventory and public hours.",
+          "official": true
+        },
+        {
+          "url": "https://web2.cylex.de/firma-home/buersten-ernst---manufaktur-buersten--besen--fussabstreifer-u--reinigungsmittel-3791070.html",
+          "role": "Independent listing updated 17 April 2026.",
+          "official": false
+        },
+        {
+          "url": "https://www.regensburg.de/veranstaltungen/detail/604960",
+          "role": "Dated January 2026 city event connected to the operating shop.",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public independent retail storefront during posted hours; no appointment requirement.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Exact-address building entrance at Glockengasse 10, cross-checked against first-party and Regensburg municipal listings.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 3,
+        "total": 22
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "klosterweltenburg",
+          "n": "Kloster Weltenburg",
+          "city": "kelheim",
+          "distance_m": 23891
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "pioroteka",
+      "n": "Pióroteka",
+      "a": "ul. Złota 69, Warsaw",
+      "pc": "00-819",
+      "lat": 52.2296098,
+      "lng": 20.9973738,
+      "c": "specialistshops",
+      "city": "warsaw",
+      "country": "Poland",
+      "s": "fountain pens treated as instruments, not stationery",
+      "q": "Pióroteka Warsaw Poland",
+      "w": "Pióroteka is a physical fountain-pen specialist where nibs, inks and filling systems are discussed with the seriousness of musical instruments. Recent in-shop maker events show why it earns a detour: the counter is a place for testing, assembly and shared technique.",
+      "aliases": [
+        "Pioroteka",
+        "Pióroteka - bo pióra mają dusze"
+      ],
+      "facts": [
+        "The store specialises in fountain pens, nibs, inks and related care rather than general stationery.",
+        "Its first-party site identifies a physical Warsaw shop and specialist team.",
+        "A June 2026 in-store event included assembling a fountain pen."
+      ],
+      "sources": [
+        {
+          "url": "https://www.pioroteka.com.pl/",
+          "role": "Current first-party store, physical address, specialist inventory and team.",
+          "official": true
+        },
+        {
+          "url": "https://www.globuya.com/PL/Warsaw/324776850902221/Pi%C3%B3roteka---bo-pi%C3%B3ra-maj%C4%85-dusze",
+          "role": "Dated 16 June 2026 in-store fountain-pen event and trading-status corroboration.",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public specialist storefront during first-party posted hours; event participation is not required for ordinary retail access.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Exact-address building point for Złota 69, checked against the first-party address and storefront mapping.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 4,
+        "source_quality": 4,
+        "geographic_value": 4,
+        "total": 21
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "fragmentmurugettasienna5",
+          "n": "Fragment muru getta (Sienna 55 / Złota 62)",
+          "city": "warsaw",
+          "distance_m": 172
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "thepaperplace",
+      "n": "The Paper Place",
+      "a": "887 Queen Street West, Toronto, ON",
+      "pc": "M6J 1G5",
+      "lat": 43.6455403,
+      "lng": -79.4116136,
+      "c": "specialistshops",
+      "city": "toronto",
+      "country": "Canada",
+      "s": "two thousand papers gathered on Queen Street West",
+      "q": "The Paper Place Toronto Canada",
+      "w": "For more than thirty years, The Paper Place has gathered roughly 2,000 papers—from Japanese washi to decorative sheets and book arts materials—into a single Queen Street West shop. Colour, fibre and translucency make browsing here feel closer to a tiny material archive.",
+      "aliases": [
+        "Paper Place Toronto"
+      ],
+      "facts": [
+        "The shop has specialised in paper for more than 30 years.",
+        "Its first-party history describes an inventory of about 2,000 papers.",
+        "The current location page posts walk-in hours at 887 Queen Street West."
+      ],
+      "sources": [
+        {
+          "url": "https://shop.thepaperplace.ca/pages/about-us",
+          "role": "First-party history, ownership and 2,000-paper inventory.",
+          "official": true
+        },
+        {
+          "url": "https://shop.thepaperplace.ca/pages/location-hours",
+          "role": "Current first-party physical address and public hours.",
+          "official": true
+        },
+        {
+          "url": "https://www.loc8nearme.com/ontario/toronto/the-paper-place/7221337/",
+          "role": "Independent recent 2026 visit and operating-hours corroboration.",
+          "official": false
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/4599097650",
+          "role": "Live named shop object and exact coordinate.",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public single-storefront retail shop during posted hours; no appointment requirement.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Live OSM shop node 4599097650 cross-checked to the first-party exact address.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "cosmosrecords",
+          "n": "Cosmos Records",
+          "city": "toronto",
+          "distance_m": 776
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "rixingtypefoundry",
+      "n": "Ri Xing Type Foundry",
+      "a": "No. 13, Lane 97, Taiyuan Road, Datong District, Taipei",
+      "pc": "10356",
+      "lat": 25.05217,
+      "lng": 121.5164,
+      "c": "specialistshops",
+      "city": "taipei",
+      "country": "Taiwan",
+      "s": "Taiwan's last working foundry for traditional Chinese metal type",
+      "q": "Ri Xing Type Foundry Taipei Taiwan",
+      "w": "Ri Xing still casts and sells Traditional Chinese movable type in a workshop lined with thousands of tiny characters. Founded in 1969, it is both a physical type shop and a working survival mechanism for letterpress knowledge that has vanished from most cities.",
+      "aliases": [
+        "Ri Xing Foundry",
+        "Rixing Type Foundry",
+        "日星鑄字行"
+      ],
+      "facts": [
+        "Ri Xing was founded in 1969.",
+        "The organisation describes it as Taiwan's last operating foundry producing Traditional Chinese movable type.",
+        "Visitors can buy type on site during three posted weekly opening days."
+      ],
+      "sources": [
+        {
+          "url": "https://www.letterpress.org.tw/",
+          "role": "First-party history, last-foundry claim and active cultural mission.",
+          "official": true
+        },
+        {
+          "url": "https://www.letterpress.org.tw/information",
+          "role": "Current first-party address, visitor rules and weekly public opening days.",
+          "official": true
+        },
+        {
+          "url": "https://www.letterpress.org.tw/shop",
+          "role": "First-party on-site type sales and product range.",
+          "official": true
+        },
+        {
+          "url": "https://www.corner.inc/place/pRbMu3YYSK28",
+          "role": "Independent listing updated 28 July 2026.",
+          "official": false
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/3663322172",
+          "role": "Live named foundry/shop object and exact coordinate.",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public on three posted weekly opening days; check the live visitor page because its day table and homepage wording can change.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Live OSM named node 3663322172 cross-checked against the first-party exact address and visitor map.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 25
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "taipeinorthgate",
+          "n": "Taipei North Gate",
+          "city": "taipei",
+          "distance_m": 722
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "nakamurarosoku",
+      "n": "Nakamura Rosoku",
+      "a": "57-8 Takeda Mitsukui-cho, Fushimi-ku, Kyoto",
+      "pc": "612-8413",
+      "lat": 34.956036,
+      "lng": 135.75856,
+      "c": "specialistshops",
+      "city": "kyoto",
+      "country": "Japan",
+      "s": "plant-wax Kyoto candles made and sold under one roof",
+      "q": "Nakamura Rosoku Fushimi Kyoto Japan",
+      "w": "Founded in 1887, Nakamura still hand-makes Kyo-rōsoku from plant materials and sells them from the Fushimi workshop. Visitors can see the production logic and, when scheduled, try decorating a candle—making the living craft itself the reason to come.",
+      "aliases": [
+        "Nakamura Rousoku",
+        "Kyoto Nakamura Rosoku",
+        "中村ローソク"
+      ],
+      "facts": [
+        "The company was established in 1887.",
+        "Its Japanese candles use plant materials including scarce haze-tree wax.",
+        "The same Fushimi site manufactures and sells candles and offers observation or hands-on experiences."
+      ],
+      "sources": [
+        {
+          "url": "https://www.kyorousoku.jp/english/",
+          "role": "Current first-party history, materials, manufacturing, retail address, hours and visitor experience.",
+          "official": true
+        },
+        {
+          "url": "https://www.kyorousoku.jp/shop/",
+          "role": "Current first-party retail and product availability.",
+          "official": true
+        },
+        {
+          "url": "https://www.gltjp.com/zh-hans/article/item/20727/",
+          "role": "Recent independent 2026 visitor feature and operating-status corroboration.",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public shop during posted hours; workshops/production observation may require advance booking, but ordinary retail access does not.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Japan GSI official address-geocoder point for 57-8 Takeda Mitsukui-cho, cross-checked against the first-party shop address.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 4,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 4,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "jonangu",
+          "n": "Jonan-gu",
+          "city": "kyoto",
+          "distance_m": 1215
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "bungubox",
+      "n": "BUNGUBOX",
+      "a": "Kinkado Building 1F, 1-2-3 Kanda Sarugakucho, Chiyoda, Tokyo",
+      "pc": "101-0064",
+      "lat": 35.697346,
+      "lng": 139.75972,
+      "c": "specialistshops",
+      "city": "tokyo",
+      "country": "Japan",
+      "s": "Tokyo fountain pens tuned with a house vocabulary of nibs and ink",
+      "q": "BUNGUBOX Kanda Tokyo Japan",
+      "w": "BUNGUBOX turns fountain pens into a local language through proprietary inks, special editions and nib customisation at its Kanda counter. The inventory is narrow but deep enough that testing a line or discussing a nib becomes the whole visit.",
+      "aliases": [
+        "Bung Box",
+        "Bungubox Tokyo",
+        "ブングボックス"
+      ],
+      "facts": [
+        "The current single physical shop is in Kanda Sarugakucho.",
+        "Its range centres on fountain pens, proprietary inks and nib customisation.",
+        "A live 2026 business calendar and dated 2026 manufacturer event corroborate current trading."
+      ],
+      "sources": [
+        {
+          "url": "https://bungubox.shop/pages/shop_info",
+          "role": "Current first-party address, public shop hours, specialist services and temporary closures.",
+          "official": true
+        },
+        {
+          "url": "https://bungubox.shop/ja/pages/business-calendar",
+          "role": "Live first-party 2026 business calendar.",
+          "official": true
+        },
+        {
+          "url": "https://sailor.co.jp/event/bungubox_20260207/",
+          "role": "Sailor's dated February 2026 in-store event at BUNGUBOX.",
+          "official": true
+        },
+        {
+          "url": "https://www.corner.inc/place/pt8ujiryYZXg",
+          "role": "Independent listing updated 19 April 2026.",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public ground-floor retail shop at posted hours; check the live calendar for irregular closures.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Japan GSI official exact-address point, cross-checked against the first-party Kinkado Building address.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 3,
+        "total": 22
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "isseidobooksellers",
+          "n": "Isseido Booksellers",
+          "city": "tokyo",
+          "distance_m": 271
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "yonoya",
+      "n": "Yonoya",
+      "a": "1-37-10 Asakusa, Taito, Tokyo",
+      "pc": "111-0032",
+      "lat": 35.7127747,
+      "lng": 139.7960751,
+      "c": "specialistshops",
+      "city": "tokyo",
+      "country": "Japan",
+      "s": "boxwood combs shaped by a family trade dating to 1717",
+      "q": "Yonoya boxwood combs Asakusa Tokyo Japan",
+      "w": "Yonoya has specialised in handmade boxwood combs since 1717. The narrow Asakusa shop is a living chain of material knowledge—seasoned wood, fine teeth, camellia oil and repairs—compressed into an object small enough to fit in a pocket.",
+      "aliases": [
+        "Yonoya Kushiho",
+        "Yonoya Comb Shop",
+        "よのや櫛舗"
+      ],
+      "facts": [
+        "Yonoya traces its comb-making business to 1717.",
+        "The current owner continues the traditional handmade boxwood-comb trade.",
+        "The first-party site posts a public Asakusa shop address and opening hours."
+      ],
+      "sources": [
+        {
+          "url": "https://yonoya.com/en",
+          "role": "Current first-party physical shop, public hours and specialist products.",
+          "official": true
+        },
+        {
+          "url": "https://yonoya.com/en/about-us",
+          "role": "First-party 1717 history and living craft lineage.",
+          "official": true
+        },
+        {
+          "url": "https://www.tokyoupdates.metro.tokyo.lg.jp/en/post-1633/",
+          "role": "Tokyo Metropolitan Government feature dated 26 November 2025 on the current workshop and craft.",
+          "official": true
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/1148542978",
+          "role": "Live named shop object and exact coordinate.",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public independent storefront during posted hours; repairs and specialist advice are part of normal retail activity.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Live OSM shop node 1148542978, within metres of the Japan GSI exact-address point and cross-checked against first-party mapping.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 3,
+        "total": 23
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "asakusatwelvestoriesmura",
+          "n": "Asakusa Twelve Stories Mural",
+          "city": "tokyo",
+          "distance_m": 320
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "bazardemagia",
+      "n": "Bazar de Magia",
+      "a": "Hipólito Yrigoyen 969, Buenos Aires",
+      "pc": "C1086AAO",
+      "lat": -34.6095126,
+      "lng": -58.3800862,
+      "c": "specialistshops",
+      "city": "buenosaires",
+      "country": "Argentina",
+      "s": "a working magic shop that builds the tricks it sells",
+      "q": "Bazar de Magia Buenos Aires Argentina",
+      "w": "Founded in 1994, Bazar de Magia sells and manufactures apparatus, cards and stage effects while its linked school keeps the techniques in circulation. A collection connected to Argentine magician Fu Manchú adds depth, but the core remains a genuine walk-in trade—not a museum shop.",
+      "aliases": [
+        "Bazar de Magia Buenos Aires",
+        "Bazar de Magia y Escuela"
+      ],
+      "facts": [
+        "The business was founded in 1994.",
+        "It manufactures as well as retails magic apparatus and operates a magic school at the same address.",
+        "Its Fu Manchú-related collection is additional to an independently functioning public shop."
+      ],
+      "sources": [
+        {
+          "url": "https://bazardemagia.com/Contacto/info",
+          "role": "Current first-party exact address, public hours, contact and product categories.",
+          "official": true
+        },
+        {
+          "url": "https://bazardemagia.com/",
+          "role": "Live first-party magic inventory and retail operation.",
+          "official": true
+        },
+        {
+          "url": "https://www.escuelademagia.com.ar/",
+          "role": "Current linked first-party school and dated 2026 course activity at the same address.",
+          "official": true
+        },
+        {
+          "url": "https://www.lanacion.com.ar/conversaciones-de-domingo/fu-manchu-el-padre-de-la-magia-argentina-nid27042025/",
+          "role": "Dated April 2025 independent history of the shop and Fu Manchú collection.",
+          "official": false
+        },
+        {
+          "url": "https://www.openstreetmap.org/way/208805225",
+          "role": "Exact-address mapped building cross-check.",
+          "official": false
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public physical magic shop Monday to Saturday at posted hours, with a seasonal Saturday caveat in January and February.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Exact building point for Hipólito Yrigoyen 969, cross-checked against the first-party Google map link and OSM way 208805225.",
+      "editorial_score": {
+        "story": 5,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 4,
+        "geographic_value": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "elquijote",
+          "n": "El Quijote",
+          "city": "buenosaires",
+          "distance_m": 153
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    },
+    {
+      "id": "clockshopmontville",
+      "n": "Clock Shop",
+      "a": "194 Main Street, Montville, QLD",
+      "pc": "4560",
+      "lat": -26.688211,
+      "lng": 152.889735,
+      "c": "specialistshops",
+      "city": "montville",
+      "country": "Australia",
+      "s": "hundreds of clocks ticking inside a Black Forest chalet",
+      "q": "Clock Shop Montville Queensland Australia",
+      "w": "A German-chalet storefront on Montville's Main Street surrounds visitors with hundreds of ticking and chiming clocks. Family-run since 1993, it carries more than 4,000 products and keeps an onsite clockmaker, making repair knowledge as tangible as the cuckoo-clock spectacle.",
+      "aliases": [
+        "Clock Shop Australia",
+        "The Clock Shop Montville",
+        "Montville Clock Shop"
+      ],
+      "facts": [
+        "The family business opened in Montville in 1993.",
+        "Its first-party site says more than 4,000 products are available in store and online.",
+        "It is an authorised Black Forest clock service and repair shop with an onsite clockmaker."
+      ],
+      "sources": [
+        {
+          "url": "https://www.clockshop.com.au/contact-us",
+          "role": "Current first-party physical address, public hours and exact map coordinates.",
+          "official": true
+        },
+        {
+          "url": "https://www.clockshop.com.au/about_us",
+          "role": "First-party history, inventory size, family ownership and onsite clockmaker.",
+          "official": true
+        },
+        {
+          "url": "https://visitsunshinecoasthinterland.com.au/retail/clock-shop/",
+          "role": "Current regional tourism listing corroborating the physical shop, hundreds of clocks and wheelchair access.",
+          "official": true
+        }
+      ],
+      "access": {
+        "status": "verified_current_retail",
+        "note": "Public Main Street showroom during posted hours; the tourism listing reports wheelchair access.",
+        "checked_at": "2026-08-09"
+      },
+      "coordinate_basis": "Exact first-party contact-page coordinates for the 194 Main Street showroom.",
+      "editorial_score": {
+        "story": 4,
+        "walkability": 5,
+        "distinctiveness": 5,
+        "source_quality": 5,
+        "geographic_value": 5,
+        "total": 24
+      },
+      "dedupe": {
+        "nearest_existing": {
+          "id": "mountninderrylookout",
+          "n": "Mount Ninderry Lookout",
+          "city": "yandina",
+          "distance_m": 15864
+        },
+        "global_alias_match": false,
+        "threshold_m": 120,
+        "manual_review": false,
+        "outcome": "clear"
+      },
+      "confidence": {
+        "identity": "high",
+        "coordinates": "high",
+        "access": "high",
+        "trading": "high",
+        "public_visit": "high",
+        "story": "high",
+        "dedupe": "high",
+        "overall": "high"
+      },
+      "draft_only": true
+    }
+  ],
+  "deferred_or_excluded": [
+    {
+      "name": "L. Cornelissen & Son",
+      "country": "United Kingdom",
+      "reason": "Rejected: exact current catalogue row lcornelissenandson; category history rather than net-new discovery.",
+      "sources": []
+    },
+    {
+      "name": "The Evolution Store",
+      "country": "United States",
+      "reason": "Rejected: a dated 13 July 2026 listing marks the physical shop permanently closed.",
+      "sources": [
+        {
+          "url": "https://www.corner.inc/place/p1G1VHcTudN1",
+          "role": "Dated closure status.",
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Gulab Singh Johrimal",
+      "country": "India",
+      "reason": "Rejected: the current first-party contact page lists two Delhi retail outlets, failing the no-chain/multi-location gate.",
+      "sources": [
+        {
+          "url": "https://gulabsinghjohrimal.com/contact-us",
+          "role": "Current first-party multi-outlet evidence.",
+          "official": true
+        }
+      ]
+    },
+    {
+      "name": "Maison Sajou",
+      "country": "France",
+      "reason": "Rejected: public access remains appointment-led rather than an independently walk-in specialist shop.",
+      "sources": []
+    },
+    {
+      "name": "Raima",
+      "country": "Spain",
+      "reason": "Rejected: multi-location chain.",
+      "sources": []
+    },
+    {
+      "name": "Ditta G. Poggi",
+      "country": "Italy",
+      "reason": "Rejected: four retail locations fail the no-chain rule.",
+      "sources": []
+    },
+    {
+      "name": "Melbourne Etching Supplies",
+      "country": "Australia",
+      "reason": "Rejected: two physical locations fail the single-storefront rule.",
+      "sources": []
+    },
+    {
+      "name": "Woodheads",
+      "country": "United Kingdom",
+      "reason": "Rejected: two retail locations fail the single-storefront rule.",
+      "sources": []
+    },
+    {
+      "name": "Fook Hing Trading",
+      "country": "Singapore",
+      "reason": "Rejected: shopping-mall setting fails the no-malls rule.",
+      "sources": []
+    },
+    {
+      "name": "Pencraft",
+      "country": "Singapore",
+      "reason": "Rejected: arcade/mall-style setting fails the no-malls rule.",
+      "sources": []
+    },
+    {
+      "name": "The Japanese Paper Place",
+      "country": "Canada",
+      "reason": "Rejected: studio visits are appointment-only.",
+      "sources": []
+    },
+    {
+      "name": "The Ink Pad",
+      "country": "United States",
+      "reason": "Rejected: the former first-party domain is no longer trustworthy/current.",
+      "sources": []
+    },
+    {
+      "name": "La Casa de las Botas",
+      "country": "Argentina",
+      "reason": "Rejected: no live first-party storefront evidence.",
+      "sources": []
+    },
+    {
+      "name": "Talabartería Crespo",
+      "country": "Argentina",
+      "reason": "Rejected: current physical retail and public hours could not be verified to all-high confidence.",
+      "sources": []
+    },
+    {
+      "name": "Schirm Oertel",
+      "country": "Germany",
+      "reason": "Rejected: current evidence indicates online-only trading.",
+      "sources": []
+    },
+    {
+      "name": "Bottega del Marmoraro",
+      "country": "Italy",
+      "reason": "Rejected: no live first-party retail evidence.",
+      "sources": []
+    },
+    {
+      "name": "Saiun-do",
+      "country": "Japan",
+      "reason": "Rejected: no sufficiently current first-party storefront evidence.",
+      "sources": []
+    },
+    {
+      "name": "Panoramagic",
+      "country": "Japan",
+      "reason": "Deferred: credible current physical magic shop, held to avoid over-clustering Tokyo/Japan and the magic-shop subcategory.",
+      "sources": [
+        {
+          "url": "https://panoramagic.com/",
+          "role": "Current first-party address, hours, demonstrations and 2026 updates.",
+          "official": true
+        }
+      ]
+    },
+    {
+      "name": "Map Shop Buyodo",
+      "country": "Japan",
+      "reason": "Deferred: strong current physical map shop, held for geographic/category balance after three Japanese inclusions.",
+      "sources": [
+        {
+          "url": "https://www.mapshop.co.jp/",
+          "role": "Current first-party basement shop and live July/August 2026 calendar.",
+          "official": true
+        }
+      ]
+    },
+    {
+      "name": "Magic Lab Yokohama",
+      "country": "Japan",
+      "reason": "Deferred: current physical shop but held to avoid a Japan/magic cluster.",
+      "sources": [
+        {
+          "url": "https://magiclab.shop/",
+          "role": "Current first-party address, hours and lessons.",
+          "official": true
+        }
+      ]
+    },
+    {
+      "name": "UGM",
+      "country": "Japan",
+      "reason": "Deferred: credible 42-year physical magic shop, held to avoid a Japan/magic cluster.",
+      "sources": [
+        {
+          "url": "https://ugm-magic.com/",
+          "role": "Current first-party shop history, address and hours.",
+          "official": true
+        }
+      ]
+    },
+    {
+      "name": "P.W. Akkerman Den Haag",
+      "country": "Netherlands",
+      "reason": "Deferred: strong single-store fountain-pen specialist, but an additional pen-shop row would reduce category breadth in this wave.",
+      "sources": [
+        {
+          "url": "https://akkermandenhaag.nl/en/pages/about-us",
+          "role": "First-party 1910 history and specialist trade.",
+          "official": true
+        },
+        {
+          "url": "https://akkermandenhaag.nl/en/pages/contact",
+          "role": "Current first-party exact address and walk-in hours.",
+          "official": true
+        }
+      ]
+    },
+    {
+      "name": "Berliner Zinnfiguren",
+      "country": "Germany",
+      "reason": "Deferred: credible specialist, but lower geographic value than retained non-European candidates in a Europe-heavy shortlist.",
+      "sources": [
+        {
+          "url": "https://www.zinnfigur.com/en/Oeffnungszeiten-zum-Jahreswechsel-2025-26/",
+          "role": "Dated first-party 2025/26 hours and trading-status evidence.",
+          "official": true
+        }
+      ]
+    },
+    {
+      "name": "Vlieger",
+      "country": "Netherlands",
+      "reason": "Deferred: strong paper shop, held because the retained set already contains two deeper paper/bookbinding material specialists.",
+      "sources": [
+        {
+          "url": "https://www.vliegerpapier.nl/",
+          "role": "Current first-party physical paper shop and 2026 stock activity.",
+          "official": true
+        }
+      ]
+    },
+    {
+      "name": "Au Ver à Soie",
+      "country": "France",
+      "reason": "Rejected: trade/professional access rather than reliable walk-in public retail.",
+      "sources": []
+    },
+    {
+      "name": "Casa das Bandeiras",
+      "country": "Brazil",
+      "reason": "Rejected: multi-location operation.",
+      "sources": []
+    }
+  ]
+}

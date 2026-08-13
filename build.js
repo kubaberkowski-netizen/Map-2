@@ -11,7 +11,7 @@
  *   - every entry's `c` is one of the category slugs DEFINED IN THE TEMPLATE's `ne`
  *     object (parsed, never hand-typed);
  *   - after injection the generated HTML still passes the CLAUDE.md recipe:
- *     inline <script> parses (node --check), and counts are 788 / 45 / 44.
+ *     inline <script> parses (node --check), and counts match the baselines below.
  *
  * ne={slug:{l,e,t}} and Xr=[{...,match:e=>…}] stay inline in the template,
  * untouched. Only `Z` is data-driven.
@@ -27,7 +27,7 @@ const SPOTS = path.join(ROOT, "data", "spots.json");
 const OUTPUT = path.join(ROOT, "index.html");
 const PLACEHOLDER = "[]/*__FLANEUR_SPOTS__*/";
 const REQUIRED = ["id", "n", "a", "pc", "lat", "lng", "c", "s", "q", "w", "city"];
-const BASELINE = { entries: 16902, worlds: 80, categories: 59 };
+const BASELINE = { entries: 17369, worlds: 80, categories: 68 };
 
 function die(msg) {
   console.error("✗ build aborted (nothing written): " + msg);

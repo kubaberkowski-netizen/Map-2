@@ -1,0 +1,2965 @@
+{
+  "schema_version": 1,
+  "report_id": "discovery-wave-2-city-registry-qa-2026-08-09",
+  "created_at": "2026-08-09",
+  "status": "audited_registry_plan_applied_and_live_validated",
+  "purpose": "One add-cities-compatible plan that preserves the final wave-two destination slugs while enforcing honest city/region grouping, raw bbox containment and deterministic nearest-centre inference.",
+  "inputs": {
+    "repository": ".",
+    "git_head": "8dcb2b20fb252fb252cbf71ca66e9caa28c620e0",
+    "live_category_count": 64,
+    "live_city_registry_rows": 1075,
+    "live_unique_city_slugs": 1074,
+    "live_flCO_mappings": 167,
+    "live_country_flags": 46,
+    "known_pre_existing_duplicate_city_slug": "charleston",
+    "dossiers": [
+      {
+        "theme": "hills",
+        "file": "research/world-hills-wave2-2026-08-09.json",
+        "retained_rows": 20,
+        "proposed_city_or_region_rows": 7
+      },
+      {
+        "theme": "steps",
+        "file": "research/world-steps-wave2-2026-08-09.json",
+        "retained_rows": 14,
+        "proposed_city_or_region_rows": 4
+      },
+      {
+        "theme": "landmarktrees",
+        "file": "research/world-landmark-trees-wave2-2026-08-09.json",
+        "retained_rows": 24,
+        "proposed_city_or_region_rows": 17
+      },
+      {
+        "theme": "footbridges",
+        "file": "research/world-footbridges-wave2-2026-08-09.json",
+        "retained_rows": 33,
+        "proposed_city_or_region_rows": 19
+      },
+      {
+        "theme": "specialistshops",
+        "file": "research/world-specialist-shops-wave2-2026-08-09.json",
+        "retained_rows": 15,
+        "proposed_city_or_region_rows": 2
+      }
+    ],
+    "final_retained_rows": 106
+  },
+  "policy": {
+    "raw_bbox_gate": "Every retained coordinate must be inside the declared raw bbox, without relying on the build's typo-tolerance margin.",
+    "inference_gate": "After all proposed entries are added, tools/model.cityForPoint must return the row's explicit city slug; overlapping expanded bboxes are resolved by the nearest bbox centre.",
+    "semantic_gate": "Use an existing city/metro or intentionally broad existing region when its page label honestly describes the destination; otherwise add a tight named city/town or a genuinely geographic region.",
+    "region_flag_gate": "region:1 is reserved for wide islands, counties, forests, valleys, parks and dispersed rural municipalities; a compact named city, town or village remains a normal registry row.",
+    "bbox_update_gate": "Widen an existing bbox only when its page remains the honest destination label. No such update is necessary in this run."
+  },
+  "audit_before_plan": {
+    "retained_rows": 106,
+    "rows_already_using_honest_live_city_or_region": 57,
+    "rows_requiring_new_registry_entry": 49,
+    "distinct_missing_city_or_region_slugs": 49,
+    "corrections_already_reflected_in_final_dossiers": [
+      {
+        "candidate_id": "jacksonvilletreatyoak",
+        "final_city": "jacksonville",
+        "reason": "A Jacksonville city page is more exact than the prior Florida state-region assignment and avoids the Georgia overlap at the state boundary."
+      },
+      {
+        "candidate_id": "angeloak",
+        "final_city": "johnsisland",
+        "reason": "Johns Island is the objective's actual island landscape; the existing Charleston raw bbox does not contain the tree."
+      },
+      {
+        "candidate_id": "arboldeltule",
+        "final_city": "santamariadeltule",
+        "reason": "The tree stands in Santa María del Tule, not Oaxaca city's raw bbox."
+      },
+      {
+        "candidate_id": "emancipationoak",
+        "final_city": "hampton",
+        "reason": "Adding Virginia Beach made the broad Virginia assignment infer to Virginia Beach; a tight Hampton entry restores both geographic meaning and deterministic inference."
+      }
+    ]
+  },
+  "recommendation": {
+    "preserving_dossier_city_semantics": {
+      "ci_entries_required": 49,
+      "candidates_unblocked": 49,
+      "proposed_entries": [
+        {
+          "id": "virginiabeach",
+          "name": "Virginia Beach",
+          "label": "Virginia Beach",
+          "e": "🇺🇸",
+          "lat": 36.8529,
+          "lng": -75.978,
+          "bbox": [
+            -76.25,
+            36.7,
+            -75.85,
+            36.95
+          ],
+          "country": "United States",
+          "region": false,
+          "blurb": "An Atlantic city of boardwalks, coastal parks and an unlikely mountain made from landfill."
+        },
+        {
+          "id": "riverside",
+          "name": "Riverside",
+          "label": "Riverside",
+          "e": "🇺🇸",
+          "lat": 33.9806,
+          "lng": -117.3755,
+          "bbox": [
+            -117.55,
+            33.85,
+            -117.25,
+            34.1
+          ],
+          "country": "United States",
+          "region": false,
+          "blurb": "An Inland Empire city of citrus-era landmarks, foothill trails and civic summits."
+        },
+        {
+          "id": "tempe",
+          "name": "Tempe",
+          "label": "Tempe",
+          "e": "🇺🇸",
+          "lat": 33.4255,
+          "lng": -111.94,
+          "bbox": [
+            -112,
+            33.3,
+            -111.84,
+            33.48
+          ],
+          "country": "United States",
+          "region": false,
+          "blurb": "A Sonoran Desert university city gathered around a petroglyph-covered butte."
+        },
+        {
+          "id": "bend",
+          "name": "Bend",
+          "label": "Bend",
+          "e": "🇺🇸",
+          "lat": 44.0582,
+          "lng": -121.3153,
+          "bbox": [
+            -121.42,
+            43.98,
+            -121.2,
+            44.15
+          ],
+          "country": "United States",
+          "region": false,
+          "blurb": "A high-desert Oregon city of lava, pines and a cinder cone in the street grid."
+        },
+        {
+          "id": "sapporo",
+          "name": "Sapporo",
+          "label": "Sapporo",
+          "e": "🇯🇵",
+          "lat": 43.0618,
+          "lng": 141.3545,
+          "bbox": [
+            140.98,
+            42.78,
+            141.52,
+            43.2
+          ],
+          "country": "Japan",
+          "region": false,
+          "blurb": "A northern Japanese city of snow, broad avenues and sculpted park landscapes."
+        },
+        {
+          "id": "bloemfontein",
+          "name": "Bloemfontein",
+          "label": "Bloemfontein",
+          "e": "🇿🇦",
+          "lat": -29.0852,
+          "lng": 26.1596,
+          "bbox": [
+            26.08,
+            -29.23,
+            26.38,
+            -28.96
+          ],
+          "country": "South Africa",
+          "region": false,
+          "blurb": "A Free State city whose centre rises into a wildlife reserve and wartime landmark."
+        },
+        {
+          "id": "iztapalapa",
+          "name": "Iztapalapa",
+          "label": "Iztapalapa",
+          "e": "🇲🇽",
+          "lat": 19.357,
+          "lng": -99.093,
+          "bbox": [
+            -99.14,
+            19.3,
+            -99.04,
+            19.4
+          ],
+          "country": "Mexico",
+          "region": false,
+          "blurb": "An eastern Mexico City borough of ancient ceremonial hills, dense neighbourhoods and living festival traditions."
+        },
+        {
+          "id": "quebeccity",
+          "name": "Québec City",
+          "label": "Québec City",
+          "e": "🇨🇦",
+          "lat": 46.8139,
+          "lng": -71.208,
+          "bbox": [
+            -71.55,
+            46.7,
+            -71.1,
+            46.98
+          ],
+          "country": "Canada",
+          "region": false,
+          "blurb": "A fortified St Lawrence city of steep old lanes, stone walls and river-facing stairways."
+        },
+        {
+          "id": "nassau",
+          "name": "Nassau",
+          "label": "Nassau",
+          "e": "🇧🇸",
+          "lat": 25.0443,
+          "lng": -77.3504,
+          "bbox": [
+            -77.45,
+            24.98,
+            -77.2,
+            25.16
+          ],
+          "country": "Bahamas",
+          "region": false,
+          "blurb": "A Bahamian harbour capital of limestone forts, pastel streets and shaded historic passages."
+        },
+        {
+          "id": "charlotteamalie",
+          "name": "Charlotte Amalie",
+          "label": "Charlotte Amalie",
+          "e": "🇻🇮",
+          "lat": 18.3419,
+          "lng": -64.9307,
+          "bbox": [
+            -64.98,
+            18.3,
+            -64.88,
+            18.38
+          ],
+          "country": "U.S. Virgin Islands",
+          "region": false,
+          "blurb": "A steep Caribbean port of Danish brick step-streets and hillside quarters."
+        },
+        {
+          "id": "guayaquil",
+          "name": "Guayaquil",
+          "label": "Guayaquil",
+          "e": "🇪🇨",
+          "lat": -2.171,
+          "lng": -79.9224,
+          "bbox": [
+            -80.05,
+            -2.32,
+            -79.8,
+            -2.03
+          ],
+          "country": "Ecuador",
+          "region": false,
+          "blurb": "Ecuador's great river port, climbing from the Malecón into colourful historic hills."
+        },
+        {
+          "id": "jacksonville",
+          "name": "Jacksonville",
+          "label": "Jacksonville",
+          "e": "🇺🇸",
+          "lat": 30.317,
+          "lng": -81.6581,
+          "bbox": [
+            -81.8,
+            30.2,
+            -81.52,
+            30.42
+          ],
+          "country": "United States",
+          "region": false,
+          "blurb": "A river city of walkable historic districts, parks and immense live oaks."
+        },
+        {
+          "id": "johnsisland",
+          "name": "Johns Island",
+          "label": "Johns Island",
+          "e": "🇺🇸",
+          "lat": 32.717,
+          "lng": -80.0804,
+          "bbox": [
+            -80.14,
+            32.67,
+            -80.02,
+            32.76
+          ],
+          "country": "United States",
+          "region": true,
+          "blurb": "Lowcountry roads and shaded lanes gathered around one monumental live oak."
+        },
+        {
+          "id": "santamariadeltule",
+          "name": "Santa María del Tule",
+          "label": "Santa María del Tule",
+          "e": "🇲🇽",
+          "lat": 17.0465,
+          "lng": -96.6362,
+          "bbox": [
+            -96.68,
+            17.02,
+            -96.6,
+            17.08
+          ],
+          "country": "Mexico",
+          "region": false,
+          "blurb": "An Oaxacan town whose central churchyard is shaped around a vast ahuehuete."
+        },
+        {
+          "id": "hampton",
+          "name": "Hampton",
+          "label": "Hampton",
+          "e": "🇺🇸",
+          "lat": 37.03,
+          "lng": -76.345,
+          "bbox": [
+            -76.45,
+            36.95,
+            -76.25,
+            37.1
+          ],
+          "country": "United States",
+          "region": false,
+          "blurb": "A Chesapeake Bay city of historic campuses, waterfront paths and emancipation memory."
+        },
+        {
+          "id": "mosselbay",
+          "name": "Mossel Bay",
+          "label": "Mossel Bay",
+          "e": "🇿🇦",
+          "lat": -34.1805,
+          "lng": 22.1415,
+          "bbox": [
+            22,
+            -34.25,
+            22.22,
+            -34.1
+          ],
+          "country": "South Africa",
+          "region": false,
+          "blurb": "A walkable Garden Route harbour layered with maritime history."
+        },
+        {
+          "id": "anuradhapura",
+          "name": "Anuradhapura",
+          "label": "Anuradhapura",
+          "e": "🇱🇰",
+          "lat": 8.3447,
+          "lng": 80.3972,
+          "bbox": [
+            80.33,
+            8.27,
+            80.48,
+            8.42
+          ],
+          "country": "Sri Lanka",
+          "region": false,
+          "blurb": "Sri Lanka's sacred ancient capital, threaded by pilgrimage paths."
+        },
+        {
+          "id": "bodhgaya",
+          "name": "Bodh Gaya",
+          "label": "Bodh Gaya",
+          "e": "🇮🇳",
+          "lat": 24.6959,
+          "lng": 84.9915,
+          "bbox": [
+            84.95,
+            24.65,
+            85.03,
+            24.73
+          ],
+          "country": "India",
+          "region": false,
+          "blurb": "The pilgrimage town centred on the place of the Buddha's awakening."
+        },
+        {
+          "id": "jembrana",
+          "name": "Jembrana",
+          "label": "Jembrana",
+          "e": "🇮🇩",
+          "lat": -8.3868,
+          "lng": 114.8735,
+          "bbox": [
+            114.8,
+            -8.46,
+            114.94,
+            -8.31
+          ],
+          "country": "Indonesia",
+          "region": true,
+          "blurb": "Western Bali's quieter regency of sacred groves, villages and coastal roads."
+        },
+        {
+          "id": "hokuto",
+          "name": "Hokuto",
+          "label": "Hokuto",
+          "e": "🇯🇵",
+          "lat": 35.7803,
+          "lng": 138.3677,
+          "bbox": [
+            138.25,
+            35.7,
+            138.5,
+            35.9
+          ],
+          "country": "Japan",
+          "region": false,
+          "blurb": "Temple lanes and mountain country beneath the Southern Alps of Yamanashi."
+        },
+        {
+          "id": "miharu",
+          "name": "Miharu",
+          "label": "Miharu",
+          "e": "🇯🇵",
+          "lat": 37.4077,
+          "lng": 140.5001,
+          "bbox": [
+            140.42,
+            37.34,
+            140.58,
+            37.47
+          ],
+          "country": "Japan",
+          "region": false,
+          "blurb": "A Fukushima castle town whose lanes converge on an ancient weeping cherry."
+        },
+        {
+          "id": "morioka",
+          "name": "Morioka",
+          "label": "Morioka",
+          "e": "🇯🇵",
+          "lat": 39.7038,
+          "lng": 141.1512,
+          "bbox": [
+            141.08,
+            39.64,
+            141.24,
+            39.78
+          ],
+          "country": "Japan",
+          "region": false,
+          "blurb": "A northern castle city where granite, waterways and old streets meet."
+        },
+        {
+          "id": "motosu",
+          "name": "Motosu",
+          "label": "Motosu",
+          "e": "🇯🇵",
+          "lat": 35.6322,
+          "lng": 136.6088,
+          "bbox": [
+            136.52,
+            35.55,
+            136.68,
+            35.7
+          ],
+          "country": "Japan",
+          "region": false,
+          "blurb": "Rural Gifu paths gathered around one of Japan's great old cherries."
+        },
+        {
+          "id": "yangpyeong",
+          "name": "Yangpyeong",
+          "label": "Yangpyeong",
+          "e": "🇰🇷",
+          "lat": 37.5499,
+          "lng": 127.5713,
+          "bbox": [
+            127.47,
+            37.47,
+            127.66,
+            37.62
+          ],
+          "country": "South Korea",
+          "region": true,
+          "blurb": "Mountain-temple country east of Seoul, crossed by forest paths."
+        },
+        {
+          "id": "waipoua",
+          "name": "Waipoua Forest",
+          "label": "Waipoua Forest",
+          "e": "🇳🇿",
+          "lat": -35.601,
+          "lng": 173.5274,
+          "bbox": [
+            173.45,
+            -35.68,
+            173.59,
+            -35.53
+          ],
+          "country": "New Zealand",
+          "region": true,
+          "blurb": "Northland kauri forest approached on carefully protected walking tracks."
+        },
+        {
+          "id": "pemberton",
+          "name": "Pemberton",
+          "label": "Pemberton",
+          "e": "🇦🇺",
+          "lat": -34.4477,
+          "lng": 116.0559,
+          "bbox": [
+            115.95,
+            -34.52,
+            116.13,
+            -34.36
+          ],
+          "country": "Australia",
+          "region": false,
+          "blurb": "Karri-forest trails and former fire-lookout trees in southwest Australia."
+        },
+        {
+          "id": "walpole",
+          "name": "Walpole",
+          "label": "Walpole",
+          "e": "🇦🇺",
+          "lat": -34.9843,
+          "lng": 116.7895,
+          "bbox": [
+            116.7,
+            -35.08,
+            116.9,
+            -34.92
+          ],
+          "country": "Australia",
+          "region": false,
+          "blurb": "Red-tingle forest walks on Western Australia's wild south coast."
+        },
+        {
+          "id": "flindersranges",
+          "name": "Ikara–Flinders Ranges",
+          "label": "Flinders Ranges",
+          "e": "🇦🇺",
+          "lat": -31.5182,
+          "lng": 138.6386,
+          "bbox": [
+            138.52,
+            -31.66,
+            138.72,
+            -31.38
+          ],
+          "country": "Australia",
+          "region": true,
+          "blurb": "Arid ranges where walking trails meet Adnyamathanha country and photographic history."
+        },
+        {
+          "id": "arouca",
+          "name": "Arouca",
+          "label": "Arouca",
+          "e": "🇵🇹",
+          "lat": 40.93,
+          "lng": -8.22,
+          "bbox": [
+            -8.28,
+            40.9,
+            -8.1,
+            41.02
+          ],
+          "country": "Portugal",
+          "region": true,
+          "blurb": "A Paiva-valley municipality of granite villages, gorge paths and high suspension crossings."
+        },
+        {
+          "id": "geierlay",
+          "name": "Geierlay / Hunsrück",
+          "label": "Geierlay / Hunsrück",
+          "e": "🇩🇪",
+          "lat": 50.09,
+          "lng": 7.341,
+          "bbox": [
+            7.26,
+            50.02,
+            7.43,
+            50.16
+          ],
+          "country": "Germany",
+          "region": true,
+          "blurb": "A slate-and-forest Hunsrück landscape linked by village paths and the Geierlay bridge."
+        },
+        {
+          "id": "eidfjord",
+          "name": "Eidfjord",
+          "label": "Eidfjord",
+          "e": "🇳🇴",
+          "lat": 60.42,
+          "lng": 7.1,
+          "bbox": [
+            6.98,
+            60.35,
+            7.36,
+            60.52
+          ],
+          "country": "Norway",
+          "region": true,
+          "blurb": "A Hardangervidda gateway of deep valleys, waterfalls and secured scenic paths."
+        },
+        {
+          "id": "mazamet",
+          "name": "Mazamet",
+          "label": "Mazamet",
+          "e": "🇫🇷",
+          "lat": 43.49,
+          "lng": 2.373,
+          "bbox": [
+            2.27,
+            43.43,
+            2.44,
+            43.56
+          ],
+          "country": "France",
+          "region": false,
+          "blurb": "A Montagne Noire town climbing from industrial valleys to the hill village of Hautpoul."
+        },
+        {
+          "id": "solvesborg",
+          "name": "Sölvesborg",
+          "label": "Sölvesborg",
+          "e": "🇸🇪",
+          "lat": 56.052,
+          "lng": 14.575,
+          "bbox": [
+            14.5,
+            55.99,
+            14.69,
+            56.11
+          ],
+          "country": "Sweden",
+          "region": false,
+          "blurb": "A compact Baltic town of harbour paths, luminous bridges and low coastal landscapes."
+        },
+        {
+          "id": "sanmarcellopiteglio",
+          "name": "San Marcello Piteglio",
+          "label": "San Marcello Piteglio",
+          "e": "🇮🇹",
+          "lat": 44.05,
+          "lng": 10.77,
+          "bbox": [
+            10.68,
+            43.99,
+            10.87,
+            44.13
+          ],
+          "country": "Italy",
+          "region": true,
+          "blurb": "A Tuscan Apennine municipality of workers' routes, river valleys and mountain villages."
+        },
+        {
+          "id": "holzgau",
+          "name": "Holzgau",
+          "label": "Holzgau",
+          "e": "🇦🇹",
+          "lat": 47.26,
+          "lng": 10.344,
+          "bbox": [
+            10.3,
+            47.249,
+            10.38,
+            47.29
+          ],
+          "country": "Austria",
+          "region": false,
+          "blurb": "A Lech Valley village of painted houses, gorge paths and a high suspension crossing."
+        },
+        {
+          "id": "bellinzona",
+          "name": "Bellinzona",
+          "label": "Bellinzona",
+          "e": "🇨🇭",
+          "lat": 46.195,
+          "lng": 9.023,
+          "bbox": [
+            8.93,
+            46.18,
+            9.09,
+            46.25
+          ],
+          "country": "Switzerland",
+          "region": false,
+          "blurb": "A Ticino castle city opening into vineyard paths and mountain-side villages."
+        },
+        {
+          "id": "iya-valley",
+          "name": "Iya Valley",
+          "label": "Iya Valley",
+          "e": "🇯🇵",
+          "lat": 33.9,
+          "lng": 133.82,
+          "bbox": [
+            133.7,
+            33.78,
+            134.08,
+            34.05
+          ],
+          "country": "Japan",
+          "region": true,
+          "blurb": "A remote Shikoku gorge landscape of mountain hamlets, vine bridges and Heike legends."
+        },
+        {
+          "id": "iwakuni",
+          "name": "Iwakuni",
+          "label": "Iwakuni",
+          "e": "🇯🇵",
+          "lat": 34.167,
+          "lng": 132.178,
+          "bbox": [
+            132.1,
+            34.09,
+            132.28,
+            34.23
+          ],
+          "country": "Japan",
+          "region": false,
+          "blurb": "A Nishiki River city centred on five wooden arches and the old Iwakuni domain."
+        },
+        {
+          "id": "kokonoe",
+          "name": "Kokonoe",
+          "label": "Kokonoe",
+          "e": "🇯🇵",
+          "lat": 33.17,
+          "lng": 131.23,
+          "bbox": [
+            131.106,
+            33.08,
+            131.36,
+            33.3
+          ],
+          "country": "Japan",
+          "region": true,
+          "blurb": "An Ōita mountain district of waterfalls, hot springs and a high valley crossing."
+        },
+        {
+          "id": "yesan",
+          "name": "Yesan",
+          "label": "Yesan",
+          "e": "🇰🇷",
+          "lat": 36.68,
+          "lng": 126.84,
+          "bbox": [
+            126.7,
+            36.55,
+            126.95,
+            36.82
+          ],
+          "country": "South Korea",
+          "region": true,
+          "blurb": "A Chungcheong county of reservoir promenades, farms and long water crossings."
+        },
+        {
+          "id": "andong",
+          "name": "Andong",
+          "label": "Andong",
+          "e": "🇰🇷",
+          "lat": 36.57,
+          "lng": 128.73,
+          "bbox": [
+            128.65,
+            36.5,
+            128.86,
+            36.68
+          ],
+          "country": "South Korea",
+          "region": false,
+          "blurb": "A Nakdong River city of wooden architecture, Confucian memory and night-lit walks."
+        },
+        {
+          "id": "newplymouth",
+          "name": "New Plymouth",
+          "label": "New Plymouth",
+          "e": "🇳🇿",
+          "lat": -39.055,
+          "lng": 174.075,
+          "bbox": [
+            173.98,
+            -39.15,
+            174.2,
+            -38.97
+          ],
+          "country": "New Zealand",
+          "region": false,
+          "blurb": "A Taranaki coastal city of shared waterfront paths, public art and mountain alignments."
+        },
+        {
+          "id": "hokitika",
+          "name": "Hokitika and Gorge",
+          "label": "Hokitika and Gorge",
+          "e": "🇳🇿",
+          "lat": -42.8,
+          "lng": 170.98,
+          "bbox": [
+            170.88,
+            -43.04,
+            171.1,
+            -42.66
+          ],
+          "country": "New Zealand",
+          "region": true,
+          "blurb": "A West Coast town and river landscape of rainforest paths, glacial water and suspended views."
+        },
+        {
+          "id": "gisborne",
+          "name": "Gisborne / Tūranga",
+          "label": "Gisborne / Tūranga",
+          "e": "🇳🇿",
+          "lat": -38.66,
+          "lng": 178.02,
+          "bbox": [
+            177.94,
+            -38.73,
+            178.1,
+            -38.58
+          ],
+          "country": "New Zealand",
+          "region": false,
+          "blurb": "An East Coast city of beaches, maunga paths and layered navigational stories."
+        },
+        {
+          "id": "tsitsikamma",
+          "name": "Tsitsikamma",
+          "label": "Tsitsikamma",
+          "e": "🇿🇦",
+          "lat": -34.02,
+          "lng": 23.9,
+          "bbox": [
+            23.78,
+            -34.1,
+            24.05,
+            -33.87
+          ],
+          "country": "South Africa",
+          "region": true,
+          "blurb": "A forest-and-ocean national-park landscape of cliff paths and river-mouth crossings."
+        },
+        {
+          "id": "nyungwe",
+          "name": "Nyungwe",
+          "label": "Nyungwe",
+          "e": "🇷🇼",
+          "lat": -2.48,
+          "lng": 29.2,
+          "bbox": [
+            28.95,
+            -2.85,
+            29.35,
+            -2.3
+          ],
+          "country": "Rwanda",
+          "region": true,
+          "blurb": "A montane rainforest of guided trails, primate habitat and canopy-level crossings."
+        },
+        {
+          "id": "kakum",
+          "name": "Kakum",
+          "label": "Kakum",
+          "e": "🇬🇭",
+          "lat": 5.35,
+          "lng": -1.383,
+          "bbox": [
+            -1.48,
+            5.25,
+            -1.25,
+            5.47
+          ],
+          "country": "Ghana",
+          "region": true,
+          "blurb": "A protected Ghanaian rainforest explored from forest-floor trails and canopy bridges."
+        },
+        {
+          "id": "regensburg",
+          "name": "Regensburg",
+          "label": "Regensburg",
+          "e": "🇩🇪",
+          "lat": 49.019,
+          "lng": 12.0914,
+          "bbox": [
+            12.02,
+            48.97,
+            12.17,
+            49.07
+          ],
+          "country": "Germany",
+          "region": false,
+          "blurb": "A compact Danube old town where long-lived trades survive behind medieval fronts."
+        },
+        {
+          "id": "montville",
+          "name": "Montville",
+          "label": "Montville",
+          "e": "🇦🇺",
+          "lat": -26.6882,
+          "lng": 152.8897,
+          "bbox": [
+            152.86,
+            -26.72,
+            152.92,
+            -26.65
+          ],
+          "country": "Australia",
+          "region": false,
+          "blurb": "A walkable Sunshine Coast hinterland village of steep Main Street curiosities."
+        }
+      ],
+      "proposed_flCO_mappings": {
+        "virginiabeach": "United States",
+        "riverside": "United States",
+        "tempe": "United States",
+        "bend": "United States",
+        "sapporo": "Japan",
+        "bloemfontein": "South Africa",
+        "iztapalapa": "Mexico",
+        "quebeccity": "Canada",
+        "nassau": "Bahamas",
+        "charlotteamalie": "U.S. Virgin Islands",
+        "guayaquil": "Ecuador",
+        "jacksonville": "United States",
+        "johnsisland": "United States",
+        "santamariadeltule": "Mexico",
+        "hampton": "United States",
+        "mosselbay": "South Africa",
+        "anuradhapura": "Sri Lanka",
+        "bodhgaya": "India",
+        "jembrana": "Indonesia",
+        "hokuto": "Japan",
+        "miharu": "Japan",
+        "morioka": "Japan",
+        "motosu": "Japan",
+        "yangpyeong": "South Korea",
+        "waipoua": "New Zealand",
+        "pemberton": "Australia",
+        "walpole": "Australia",
+        "flindersranges": "Australia",
+        "arouca": "Portugal",
+        "geierlay": "Germany",
+        "eidfjord": "Norway",
+        "mazamet": "France",
+        "solvesborg": "Sweden",
+        "sanmarcellopiteglio": "Italy",
+        "holzgau": "Austria",
+        "bellinzona": "Switzerland",
+        "iya-valley": "Japan",
+        "iwakuni": "Japan",
+        "kokonoe": "Japan",
+        "yesan": "South Korea",
+        "andong": "South Korea",
+        "newplymouth": "New Zealand",
+        "hokitika": "New Zealand",
+        "gisborne": "New Zealand",
+        "tsitsikamma": "South Africa",
+        "nyungwe": "Rwanda",
+        "kakum": "Ghana",
+        "regensburg": "Germany",
+        "montville": "Australia"
+      },
+      "bbox_updates": []
+    }
+  },
+  "grouping_conventions": {
+    "region_flag_policy": "Only the following 16 proposed rows describe a wider geographic walking area rather than a compact city/town catchment.",
+    "proposed_region_ids": [
+      "arouca",
+      "eidfjord",
+      "flindersranges",
+      "geierlay",
+      "hokitika",
+      "iya-valley",
+      "jembrana",
+      "johnsisland",
+      "kakum",
+      "kokonoe",
+      "nyungwe",
+      "sanmarcellopiteglio",
+      "tsitsikamma",
+      "waipoua",
+      "yangpyeong",
+      "yesan"
+    ],
+    "proposed_city_or_town_ids": [
+      "andong",
+      "anuradhapura",
+      "bellinzona",
+      "bend",
+      "bloemfontein",
+      "bodhgaya",
+      "charlotteamalie",
+      "gisborne",
+      "guayaquil",
+      "hampton",
+      "hokuto",
+      "holzgau",
+      "iwakuni",
+      "iztapalapa",
+      "jacksonville",
+      "mazamet",
+      "miharu",
+      "montville",
+      "morioka",
+      "mosselbay",
+      "motosu",
+      "nassau",
+      "newplymouth",
+      "pemberton",
+      "quebeccity",
+      "regensburg",
+      "riverside",
+      "santamariadeltule",
+      "sapporo",
+      "solvesborg",
+      "tempe",
+      "virginiabeach",
+      "walpole"
+    ],
+    "source_region_flags_normalised_to_city_or_town": [
+      "anuradhapura",
+      "bodhgaya",
+      "hokuto",
+      "miharu",
+      "montville",
+      "morioka",
+      "mosselbay",
+      "motosu",
+      "pemberton",
+      "walpole"
+    ],
+    "source_city_flags_promoted_to_region": [],
+    "flag_map_addition": {
+      "Bahamas": "🇧🇸",
+      "Brazil": "🇧🇷",
+      "Colombia": "🇨🇴",
+      "Ecuador": "🇪🇨",
+      "Ghana": "🇬🇭",
+      "Indonesia": "🇮🇩",
+      "Rwanda": "🇷🇼",
+      "Sri Lanka": "🇱🇰",
+      "Taiwan": "🇹🇼",
+      "U.S. Virgin Islands": "🇻🇮"
+    }
+  },
+  "candidate_city_mapping": [
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "tumamochilloverlook",
+      "name": "Tumamoc Hill Summit Overlook",
+      "category": "hills",
+      "country": "United States",
+      "final_city": "tucson",
+      "final_city_name": "Tucson",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "tucson",
+      "assigned_bbox_centre_distance_km": 3.1,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-az",
+          "bbox_centre_distance_km": 233.84
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "mounttrashmore",
+      "name": "Mount Trashmore",
+      "category": "hills",
+      "country": "United States",
+      "final_city": "virginiabeach",
+      "final_city_name": "Virginia Beach",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "virginiabeach",
+      "assigned_bbox_centre_distance_km": 6.64,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-va",
+          "bbox_centre_distance_km": 321.99
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "mountrubidoux",
+      "name": "Mount Rubidoux",
+      "category": "hills",
+      "country": "United States",
+      "final_city": "riverside",
+      "final_city_name": "Riverside",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "riverside",
+      "assigned_bbox_centre_distance_km": 1.18,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-ca",
+          "bbox_centre_distance_km": 403.38
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "haydenbutte",
+      "name": "Hayden Butte",
+      "category": "hills",
+      "country": "United States",
+      "final_city": "tempe",
+      "final_city_name": "Tempe",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "tempe",
+      "assigned_bbox_centre_distance_km": 4.51,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-az",
+          "bbox_centre_distance_km": 82.34
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "pilotbutte",
+      "name": "Pilot Butte",
+      "category": "hills",
+      "country": "United States",
+      "final_city": "bend",
+      "final_city_name": "Bend",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "bend",
+      "assigned_bbox_centre_distance_km": 2.18,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-or",
+          "bbox_centre_distance_km": 62.31
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "dorchesterheights",
+      "name": "Dorchester Heights",
+      "category": "hills",
+      "country": "United States",
+      "final_city": "boston",
+      "final_city_name": "Boston",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "boston",
+      "assigned_bbox_centre_distance_km": 4.56,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-ma",
+          "bbox_centre_distance_km": 57.85
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "mounttolmie",
+      "name": "Mount Tolmie",
+      "category": "hills",
+      "country": "Canada",
+      "final_city": "victoria",
+      "final_city_name": "Victoria",
+      "assignment_classification": "existing_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "victoria",
+      "assigned_bbox_centre_distance_km": 4.4,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-wa",
+          "bbox_centre_distance_km": 228.92
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "mountmoere",
+      "name": "Mount Moere",
+      "category": "hills",
+      "country": "Japan",
+      "final_city": "sapporo",
+      "final_city_name": "Sapporo",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "sapporo",
+      "assigned_bbox_centre_distance_km": 20.5,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "eungbongsan",
+      "name": "Eungbongsan",
+      "category": "hills",
+      "country": "South Korea",
+      "final_city": "seoul",
+      "final_city_name": "Seoul",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "seoul",
+      "assigned_bbox_centre_distance_km": 4.01,
+      "competing_expanded_bboxes": [
+        {
+          "id": "suwon",
+          "bbox_centre_distance_km": 25.83
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "haneulpark",
+      "name": "Haneul Park",
+      "category": "hills",
+      "country": "South Korea",
+      "final_city": "seoul",
+      "final_city_name": "Seoul",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "seoul",
+      "assigned_bbox_centre_distance_km": 9.22,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "bukittimahhill",
+      "name": "Bukit Timah Hill",
+      "category": "hills",
+      "country": "Singapore",
+      "final_city": "singapore",
+      "final_city_name": "Singapore",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "singapore",
+      "assigned_bbox_centre_distance_km": 9.36,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "pearlshill",
+      "name": "Pearl's Hill",
+      "category": "hills",
+      "country": "Singapore",
+      "final_city": "singapore",
+      "final_city_name": "Singapore",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "singapore",
+      "assigned_bbox_centre_distance_km": 7.08,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "cerrodelaestrella",
+      "name": "Cerro de la Estrella",
+      "category": "hills",
+      "country": "Mexico",
+      "final_city": "iztapalapa",
+      "final_city_name": "Iztapalapa",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "iztapalapa",
+      "assigned_bbox_centre_distance_km": 0.69,
+      "competing_expanded_bboxes": [
+        {
+          "id": "xochimilco",
+          "bbox_centre_distance_km": 7.99
+        },
+        {
+          "id": "mexicocity",
+          "bbox_centre_distance_km": 10.97
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "cerroelvolador",
+      "name": "Cerro El Volador",
+      "category": "hills",
+      "country": "Colombia",
+      "final_city": "medellin",
+      "final_city_name": "Medellín",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "medellin",
+      "assigned_bbox_centre_distance_km": 1.72,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "navalhill",
+      "name": "Naval Hill",
+      "category": "hills",
+      "country": "South Africa",
+      "final_city": "bloemfontein",
+      "final_city_name": "Bloemfontein",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "bloemfontein",
+      "assigned_bbox_centre_distance_km": 0.64,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "mountainslie",
+      "name": "Mount Ainslie",
+      "category": "hills",
+      "country": "Australia",
+      "final_city": "canberra",
+      "final_city_name": "Canberra",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "canberra",
+      "assigned_bbox_centre_distance_km": 6.1,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "knockloftysummit",
+      "name": "Knocklofty Summit",
+      "category": "hills",
+      "country": "Australia",
+      "final_city": "hobart",
+      "final_city_name": "Hobart",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "hobart",
+      "assigned_bbox_centre_distance_km": 6.12,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "anzachillalice",
+      "name": "Untyeyetwelye / ANZAC Hill",
+      "category": "hills",
+      "country": "Australia",
+      "final_city": "alicesprings",
+      "final_city_name": "Alice Springs",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "alicesprings",
+      "assigned_bbox_centre_distance_km": 0.93,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "mountcoothasummit",
+      "name": "Mount Coot-tha Summit Track",
+      "category": "hills",
+      "country": "Australia",
+      "final_city": "brisbane",
+      "final_city_name": "Brisbane",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "brisbane",
+      "assigned_bbox_centre_distance_km": 9.06,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-hills-wave2-2026-08-09.json",
+      "candidate_id": "bigking",
+      "name": "Te Tātua a Riukiuta / Big King",
+      "category": "hills",
+      "country": "New Zealand",
+      "final_city": "auckland",
+      "final_city_name": "Auckland",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "auckland",
+      "assigned_bbox_centre_distance_km": 19.64,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-steps-wave2-2026-08-09.json",
+      "candidate_id": "shendersonstairway",
+      "name": "S Henderson Stairway",
+      "category": "steps",
+      "country": "United States",
+      "final_city": "seattle",
+      "final_city_name": "Seattle",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "seattle",
+      "assigned_bbox_centre_distance_km": 10.39,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-wa",
+          "bbox_centre_distance_km": 114.05
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-steps-wave2-2026-08-09.json",
+      "candidate_id": "culvercitystairs",
+      "name": "Culver City Stairs",
+      "category": "steps",
+      "country": "United States",
+      "final_city": "losangeles",
+      "final_city_name": "Los Angeles",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "losangeles",
+      "assigned_bbox_centre_distance_km": 8.14,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-ca",
+          "bbox_centre_distance_km": 370.82
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-steps-wave2-2026-08-09.json",
+      "candidate_id": "breaknecksteps",
+      "name": "Breakneck Steps",
+      "category": "steps",
+      "country": "Canada",
+      "final_city": "quebeccity",
+      "final_city_name": "Québec City",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "quebeccity",
+      "assigned_bbox_centre_distance_km": 9.72,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-steps-wave2-2026-08-09.json",
+      "candidate_id": "baldwinsteps",
+      "name": "Baldwin Steps",
+      "category": "steps",
+      "country": "Canada",
+      "final_city": "toronto",
+      "final_city_name": "Toronto",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "toronto",
+      "assigned_bbox_centre_distance_km": 2.69,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-ny",
+          "bbox_centre_distance_km": 298.76
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-steps-wave2-2026-08-09.json",
+      "candidate_id": "mcelhonestairs",
+      "name": "McElhone Stairs",
+      "category": "steps",
+      "country": "Australia",
+      "final_city": "sydney",
+      "final_city_name": "Sydney",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "sydney",
+      "assigned_bbox_centre_distance_km": 13.53,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-steps-wave2-2026-08-09.json",
+      "candidate_id": "jacobsladderbrisbane",
+      "name": "Jacob's Ladder",
+      "category": "steps",
+      "country": "Australia",
+      "final_city": "brisbane",
+      "final_city_name": "Brisbane",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "brisbane",
+      "assigned_bbox_centre_distance_km": 2.77,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-steps-wave2-2026-08-09.json",
+      "candidate_id": "kokoda1000steps",
+      "name": "Kokoda Track Memorial Walk / 1000 Steps",
+      "category": "steps",
+      "country": "Australia",
+      "final_city": "mountdandenong",
+      "final_city_name": "Mount Dandenong",
+      "assignment_classification": "existing_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "mountdandenong",
+      "assigned_bbox_centre_distance_km": 5.57,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-steps-wave2-2026-08-09.json",
+      "candidate_id": "jacobsladderperth",
+      "name": "Jacob's Ladder",
+      "category": "steps",
+      "country": "Australia",
+      "final_city": "perth",
+      "final_city_name": "Perth",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "perth",
+      "assigned_bbox_centre_distance_km": 8.25,
+      "competing_expanded_bboxes": [
+        {
+          "id": "fremantle",
+          "bbox_centre_distance_km": 13.55
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-steps-wave2-2026-08-09.json",
+      "candidate_id": "duddellstreetsteps",
+      "name": "Duddell Street Steps and Gas Lamps",
+      "category": "steps",
+      "country": "Hong Kong",
+      "final_city": "hongkong",
+      "final_city_name": "Hong Kong",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "hongkong",
+      "assigned_bbox_centre_distance_km": 4.59,
+      "competing_expanded_bboxes": [
+        {
+          "id": "shenzhen",
+          "bbox_centre_distance_km": 31.3
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-steps-wave2-2026-08-09.json",
+      "candidate_id": "choryang168stairs",
+      "name": "Choryang 168 Stairs",
+      "category": "steps",
+      "country": "South Korea",
+      "final_city": "busan",
+      "final_city_name": "Busan",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "busan",
+      "assigned_bbox_centre_distance_km": 10.23,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-steps-wave2-2026-08-09.json",
+      "candidate_id": "fortystepsbusan",
+      "name": "40-step Culture Street",
+      "category": "steps",
+      "country": "South Korea",
+      "final_city": "busan",
+      "final_city_name": "Busan",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "busan",
+      "assigned_bbox_centre_distance_km": 9.42,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-steps-wave2-2026-08-09.json",
+      "candidate_id": "queensstaircase",
+      "name": "Queen's Staircase",
+      "category": "steps",
+      "country": "Bahamas",
+      "final_city": "nassau",
+      "final_city_name": "Nassau",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "nassau",
+      "assigned_bbox_centre_distance_km": 1.34,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-steps-wave2-2026-08-09.json",
+      "candidate_id": "99steps",
+      "name": "99 Steps",
+      "category": "steps",
+      "country": "U.S. Virgin Islands",
+      "final_city": "charlotteamalie",
+      "final_city_name": "Charlotte Amalie",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "charlotteamalie",
+      "assigned_bbox_centre_distance_km": 0.31,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-steps-wave2-2026-08-09.json",
+      "candidate_id": "santaana444steps",
+      "name": "Escalinata Diego Noboa y Arteta",
+      "category": "steps",
+      "country": "Ecuador",
+      "final_city": "guayaquil",
+      "final_city_name": "Guayaquil",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "guayaquil",
+      "assigned_bbox_centre_distance_km": 5.56,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "survivortree911",
+      "name": "9/11 Survivor Tree",
+      "category": "landmarktrees",
+      "country": "United States",
+      "final_city": "nyc",
+      "final_city_name": "New York",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "nyc",
+      "assigned_bbox_centre_distance_km": 9.69,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-nj",
+          "bbox_centre_distance_km": 85.02
+        },
+        {
+          "id": "us-ny",
+          "bbox_centre_distance_km": 279.81
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "oklahomacitysurvivortree",
+      "name": "Oklahoma City Survivor Tree",
+      "category": "landmarktrees",
+      "country": "United States",
+      "final_city": "oklahomacity",
+      "final_city_name": "Oklahoma City",
+      "assignment_classification": "existing_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "oklahomacity",
+      "assigned_bbox_centre_distance_km": 0.92,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-ok",
+          "bbox_centre_distance_km": 110.03
+        },
+        {
+          "id": "us-tx",
+          "bbox_centre_distance_km": 532.17
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "austintreatyoak",
+      "name": "Austin Treaty Oak",
+      "category": "landmarktrees",
+      "country": "United States",
+      "final_city": "austin",
+      "final_city_name": "Austin",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "austin",
+      "assigned_bbox_centre_distance_km": 4.11,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-tx",
+          "bbox_centre_distance_km": 245.17
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "jacksonvilletreatyoak",
+      "name": "Jacksonville Treaty Oak",
+      "category": "landmarktrees",
+      "country": "United States",
+      "final_city": "jacksonville",
+      "final_city_name": "Jacksonville",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "jacksonville",
+      "assigned_bbox_centre_distance_km": 0.8,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-ga",
+          "bbox_centre_distance_km": 302.72
+        },
+        {
+          "id": "us-fl",
+          "bbox_centre_distance_km": 327.72
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "angeloak",
+      "name": "Angel Oak",
+      "category": "landmarktrees",
+      "country": "United States",
+      "final_city": "johnsisland",
+      "final_city_name": "Johns Island",
+      "assignment_classification": "new_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "johnsisland",
+      "assigned_bbox_centre_distance_km": 0.23,
+      "competing_expanded_bboxes": [
+        {
+          "id": "charleston",
+          "bbox_centre_distance_km": 13.66
+        },
+        {
+          "id": "us-sc",
+          "bbox_centre_distance_km": 128.01
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "emancipationoak",
+      "name": "Emancipation Oak",
+      "category": "landmarktrees",
+      "country": "United States",
+      "final_city": "hampton",
+      "final_city_name": "Hampton",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "hampton",
+      "assigned_bbox_centre_distance_km": 1.75,
+      "competing_expanded_bboxes": [
+        {
+          "id": "virginiabeach",
+          "bbox_centre_distance_km": 33.27
+        },
+        {
+          "id": "us-va",
+          "bbox_centre_distance_km": 296.62
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "treethatownsitself",
+      "name": "Tree That Owns Itself",
+      "category": "landmarktrees",
+      "country": "United States",
+      "final_city": "us-ga",
+      "final_city_name": "Georgia",
+      "assignment_classification": "existing_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "us-ga",
+      "assigned_bbox_centre_distance_km": 142.46,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-sc",
+          "bbox_centre_distance_km": 228.82
+        },
+        {
+          "id": "us-nc",
+          "bbox_centre_distance_km": 338.49
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "generalgranttree",
+      "name": "General Grant Tree",
+      "category": "landmarktrees",
+      "country": "United States",
+      "final_city": "us-ca",
+      "final_city_name": "California",
+      "assignment_classification": "existing_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "us-ca",
+      "assigned_bbox_centre_distance_km": 64.36,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-nv",
+          "bbox_centre_distance_km": 259.68
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "arboldeltule",
+      "name": "Árbol del Tule",
+      "category": "landmarktrees",
+      "country": "Mexico",
+      "final_city": "santamariadeltule",
+      "final_city_name": "Santa María del Tule",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "santamariadeltule",
+      "assigned_bbox_centre_distance_km": 0.57,
+      "competing_expanded_bboxes": [
+        {
+          "id": "oaxaca",
+          "bbox_centre_distance_km": 10.6
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "figueiradaslagrimas",
+      "name": "Figueira das Lágrimas",
+      "category": "landmarktrees",
+      "country": "Brazil",
+      "final_city": "saopaulo",
+      "final_city_name": "São Paulo",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "saopaulo",
+      "assigned_bbox_centre_distance_km": 8.18,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "postofficetree",
+      "name": "Post Office Tree",
+      "category": "landmarktrees",
+      "country": "South Africa",
+      "final_city": "mosselbay",
+      "final_city_name": "Mossel Bay",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "mosselbay",
+      "assigned_bbox_centre_distance_km": 2.96,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "jayasrimahabodhi",
+      "name": "Jaya Sri Maha Bodhi",
+      "category": "landmarktrees",
+      "country": "Sri Lanka",
+      "final_city": "anuradhapura",
+      "final_city_name": "Anuradhapura",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "anuradhapura",
+      "assigned_bbox_centre_distance_km": 0.86,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "bodhitreebodhgaya",
+      "name": "Bodhi Tree at Bodh Gaya",
+      "category": "landmarktrees",
+      "country": "India",
+      "final_city": "bodhgaya",
+      "final_city_name": "Bodh Gaya",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "bodhgaya",
+      "assigned_bbox_centre_distance_km": 0.67,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "greatbanyan",
+      "name": "Great Banyan",
+      "category": "landmarktrees",
+      "country": "India",
+      "final_city": "kolkata",
+      "final_city_name": "Kolkata",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "kolkata",
+      "assigned_bbox_centre_distance_km": 6.85,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "bunutbolong",
+      "name": "Bunut Bolong",
+      "category": "landmarktrees",
+      "country": "Indonesia",
+      "final_city": "jembrana",
+      "final_city_name": "Jembrana",
+      "assignment_classification": "new_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "jembrana",
+      "assigned_bbox_centre_distance_km": 0.44,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "yamatakajindaizakura",
+      "name": "Yamataka Jindai Zakura",
+      "category": "landmarktrees",
+      "country": "Japan",
+      "final_city": "hokuto",
+      "final_city_name": "Hokuto",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "hokuto",
+      "assigned_bbox_centre_distance_km": 2.29,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "miharutakizakura",
+      "name": "Miharu Takizakura",
+      "category": "landmarktrees",
+      "country": "Japan",
+      "final_city": "miharu",
+      "final_city_name": "Miharu",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "miharu",
+      "assigned_bbox_centre_distance_km": 0.3,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "ishiwarizakura",
+      "name": "Ishiwarizakura",
+      "category": "landmarktrees",
+      "country": "Japan",
+      "final_city": "morioka",
+      "final_city_name": "Morioka",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "morioka",
+      "assigned_bbox_centre_distance_km": 1.02,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "neodaniusuzumizakura",
+      "name": "Neodani Usuzumi Zakura",
+      "category": "landmarktrees",
+      "country": "Japan",
+      "final_city": "motosu",
+      "final_city_name": "Motosu",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "motosu",
+      "assigned_bbox_centre_distance_km": 1.13,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "yongmunsaginkgo",
+      "name": "Yongmunsa Ginkgo",
+      "category": "landmarktrees",
+      "country": "South Korea",
+      "final_city": "yangpyeong",
+      "final_city_name": "Yangpyeong",
+      "assignment_classification": "new_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "yangpyeong",
+      "assigned_bbox_centre_distance_km": 0.78,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "tanemahuta",
+      "name": "Tāne Mahuta",
+      "category": "landmarktrees",
+      "country": "New Zealand",
+      "final_city": "waipoua",
+      "final_city_name": "Waipoua Forest",
+      "assignment_classification": "new_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "waipoua",
+      "assigned_bbox_centre_distance_km": 0.81,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "gloucestertree",
+      "name": "Gloucester Tree",
+      "category": "landmarktrees",
+      "country": "Australia",
+      "final_city": "pemberton",
+      "final_city_name": "Pemberton",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "pemberton",
+      "assigned_bbox_centre_distance_km": 1.68,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "gianttingletree",
+      "name": "Giant Tingle Tree",
+      "category": "landmarktrees",
+      "country": "Australia",
+      "final_city": "walpole",
+      "final_city_name": "Walpole",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "walpole",
+      "assigned_bbox_centre_distance_km": 2,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-landmark-trees-wave2-2026-08-09.json",
+      "candidate_id": "cazneauxtree",
+      "name": "Cazneaux Tree",
+      "category": "landmarktrees",
+      "country": "Australia",
+      "final_city": "flindersranges",
+      "final_city_name": "Ikara–Flinders Ranges",
+      "assignment_classification": "new_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "flindersranges",
+      "assigned_bbox_centre_distance_km": 1.77,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "ponte516arouca",
+      "name": "516 Arouca",
+      "category": "footbridges",
+      "country": "Portugal",
+      "final_city": "arouca",
+      "final_city_name": "Arouca",
+      "assignment_classification": "new_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "arouca",
+      "assigned_bbox_centre_distance_km": 1.38,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "geierlay",
+      "name": "Geierlay Suspension Bridge",
+      "category": "footbridges",
+      "country": "Germany",
+      "final_city": "geierlay",
+      "final_city_name": "Geierlay / Hunsrück",
+      "assignment_classification": "new_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "geierlay",
+      "assigned_bbox_centre_distance_km": 0.27,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "voringsfossenstepbridge",
+      "name": "Vøringsfossen Step Bridge",
+      "category": "footbridges",
+      "country": "Norway",
+      "final_city": "eidfjord",
+      "final_city_name": "Eidfjord",
+      "assignment_classification": "new_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "eidfjord",
+      "assigned_bbox_centre_distance_km": 4.57,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "passerellemazamet",
+      "name": "Passerelle de Mazamet",
+      "category": "footbridges",
+      "country": "France",
+      "final_city": "mazamet",
+      "final_city_name": "Mazamet",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "mazamet",
+      "assigned_bbox_centre_distance_km": 2.63,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "solvesborgsbron",
+      "name": "Sölvesborgsbron",
+      "category": "footbridges",
+      "country": "Sweden",
+      "final_city": "solvesborg",
+      "final_city_name": "Sölvesborg",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "solvesborg",
+      "assigned_bbox_centre_distance_km": 0.08,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "ferrieresuspension",
+      "name": "Ferriere Suspension Bridge",
+      "category": "footbridges",
+      "country": "Italy",
+      "final_city": "sanmarcellopiteglio",
+      "final_city_name": "San Marcello Piteglio",
+      "assignment_classification": "new_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "sanmarcellopiteglio",
+      "assigned_bbox_centre_distance_km": 1.02,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "holzgauhangbrucke",
+      "name": "Holzgau Suspension Bridge",
+      "category": "footbridges",
+      "country": "Austria",
+      "final_city": "holzgau",
+      "final_city_name": "Holzgau",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "holzgau",
+      "assigned_bbox_centre_distance_km": 0.49,
+      "competing_expanded_bboxes": [
+        {
+          "id": "stanton",
+          "bbox_centre_distance_km": 16.13
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "pythonbrug",
+      "name": "Pythonbrug",
+      "category": "footbridges",
+      "country": "Netherlands",
+      "final_city": "amsterdam",
+      "final_city_name": "Amsterdam",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "amsterdam",
+      "assigned_bbox_centre_distance_km": 3.89,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "pontecarasc",
+      "name": "Carasc Tibetan Bridge",
+      "category": "footbridges",
+      "country": "Switzerland",
+      "final_city": "bellinzona",
+      "final_city_name": "Bellinzona",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "bellinzona",
+      "assigned_bbox_centre_distance_km": 3.53,
+      "competing_expanded_bboxes": [
+        {
+          "id": "como",
+          "bbox_centre_distance_km": 32.27
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "iyanokazurabashi",
+      "name": "Iya-no-Kazurabashi",
+      "category": "footbridges",
+      "country": "Japan",
+      "final_city": "iya-valley",
+      "final_city_name": "Iya Valley",
+      "assignment_classification": "new_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "iya-valley",
+      "assigned_bbox_centre_distance_km": 6.71,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "kintaikyo",
+      "name": "Kintaikyō Bridge",
+      "category": "footbridges",
+      "country": "Japan",
+      "final_city": "iwakuni",
+      "final_city_name": "Iwakuni",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "iwakuni",
+      "assigned_bbox_centre_distance_km": 1.37,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "kokonoeyumeotsurihashi",
+      "name": "Kokonoe Yume Grand Suspension Bridge",
+      "category": "footbridges",
+      "country": "Japan",
+      "final_city": "kokonoe",
+      "final_city_name": "Kokonoe",
+      "assignment_classification": "new_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "kokonoe",
+      "assigned_bbox_centre_distance_km": 1.9,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "baishihususpension",
+      "name": "Baishihu Suspension Bridge",
+      "category": "footbridges",
+      "country": "Taiwan",
+      "final_city": "taipei",
+      "final_city_name": "Taipei",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "taipei",
+      "assigned_bbox_centre_distance_km": 6.85,
+      "competing_expanded_bboxes": [
+        {
+          "id": "wanli",
+          "bbox_centre_distance_km": 14.64
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "bitansuspensionbridge",
+      "name": "Bitan Suspension Bridge",
+      "category": "footbridges",
+      "country": "Taiwan",
+      "final_city": "taipei",
+      "final_city_name": "Taipei",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "taipei",
+      "assigned_bbox_centre_distance_km": 13.24,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "yedanghosuspension",
+      "name": "Yedangho Suspension Bridge",
+      "category": "footbridges",
+      "country": "South Korea",
+      "final_city": "yesan",
+      "final_city_name": "Yesan",
+      "assignment_classification": "new_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "yesan",
+      "assigned_bbox_centre_distance_km": 5.53,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "wolyeonggyo",
+      "name": "Wolyeonggyo Bridge",
+      "category": "footbridges",
+      "country": "South Korea",
+      "final_city": "andong",
+      "final_city_name": "Andong",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "andong",
+      "assigned_bbox_centre_distance_km": 1.58,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "treetopwalksingapore",
+      "name": "TreeTop Walk",
+      "category": "footbridges",
+      "country": "Singapore",
+      "final_city": "singapore",
+      "final_city_name": "Singapore",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "singapore",
+      "assigned_bbox_centre_distance_km": 5.67,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "terewarewabridge",
+      "name": "Te Rewa Rewa Bridge",
+      "category": "footbridges",
+      "country": "New Zealand",
+      "final_city": "newplymouth",
+      "final_city_name": "New Plymouth",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "newplymouth",
+      "assigned_bbox_centre_distance_km": 3.13,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "upperhokitikabridge",
+      "name": "Upper Hokitika Gorge Suspension Bridge",
+      "category": "footbridges",
+      "country": "New Zealand",
+      "final_city": "hokitika",
+      "final_city_name": "Hokitika and Gorge",
+      "assignment_classification": "new_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "hokitika",
+      "assigned_bbox_centre_distance_km": 12.1,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "alexandrasuspensiontas",
+      "name": "Alexandra Suspension Bridge",
+      "category": "footbridges",
+      "country": "Australia",
+      "final_city": "launceston",
+      "final_city_name": "Launceston",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "launceston",
+      "assigned_bbox_centre_distance_km": 2.16,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "matagarupbridge",
+      "name": "Matagarup Bridge",
+      "category": "footbridges",
+      "country": "Australia",
+      "final_city": "perth",
+      "final_city_name": "Perth",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "perth",
+      "assigned_bbox_centre_distance_km": 4.55,
+      "competing_expanded_bboxes": [
+        {
+          "id": "fremantle",
+          "bbox_centre_distance_km": 16.18
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "kangaroopointbridge",
+      "name": "Kangaroo Point Bridge",
+      "category": "footbridges",
+      "country": "Australia",
+      "final_city": "brisbane",
+      "final_city_name": "Brisbane",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "brisbane",
+      "assigned_bbox_centre_distance_km": 1.73,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "teikaroaarauru",
+      "name": "Te Ikaroa a Rauru",
+      "category": "footbridges",
+      "country": "New Zealand",
+      "final_city": "gisborne",
+      "final_city_name": "Gisborne / Tūranga",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "gisborne",
+      "assigned_bbox_centre_distance_km": 2.32,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "stormsriverbridge",
+      "name": "Storms River Mouth Suspension Bridge",
+      "category": "footbridges",
+      "country": "South Africa",
+      "final_city": "tsitsikamma",
+      "final_city_name": "Tsitsikamma",
+      "assignment_classification": "new_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "tsitsikamma",
+      "assigned_bbox_centre_distance_km": 3.98,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "nyungwecanopywalk",
+      "name": "Nyungwe Canopy Walkway",
+      "category": "footbridges",
+      "country": "Rwanda",
+      "final_city": "nyungwe",
+      "final_city_name": "Nyungwe",
+      "assignment_classification": "new_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "nyungwe",
+      "assigned_bbox_centre_distance_km": 12.17,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "kakumcanopywalkway",
+      "name": "Kakum Canopy Walkway",
+      "category": "footbridges",
+      "country": "Ghana",
+      "final_city": "kakum",
+      "final_city_name": "Kakum",
+      "assignment_classification": "new_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "kakum",
+      "assigned_bbox_centre_distance_km": 2.16,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "walkwayoverhudson",
+      "name": "Walkway Over the Hudson",
+      "category": "footbridges",
+      "country": "United States",
+      "final_city": "us-ny",
+      "final_city_name": "New York",
+      "assignment_classification": "existing_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "us-ny",
+      "assigned_bbox_centre_distance_km": 201.93,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "bobkerreybridge",
+      "name": "Bob Kerrey Pedestrian Bridge",
+      "category": "footbridges",
+      "country": "United States",
+      "final_city": "us-ia",
+      "final_city_name": "Iowa",
+      "assignment_classification": "existing_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "us-ia",
+      "assigned_bbox_centre_distance_km": 223.63,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-ne",
+          "bbox_centre_distance_km": 314.74
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "libertybridgegreenville",
+      "name": "Liberty Bridge",
+      "category": "footbridges",
+      "country": "United States",
+      "final_city": "us-sc",
+      "final_city_name": "South Carolina",
+      "assignment_classification": "existing_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "us-sc",
+      "assigned_bbox_centre_distance_km": 191.61,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-nc",
+          "bbox_centre_distance_km": 220.96
+        },
+        {
+          "id": "us-ga",
+          "bbox_centre_distance_km": 253.15
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "peacebridgecalgary",
+      "name": "Peace Bridge",
+      "category": "footbridges",
+      "country": "Canada",
+      "final_city": "calgary",
+      "final_city_name": "Calgary",
+      "assignment_classification": "existing_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "calgary",
+      "assigned_bbox_centre_distance_km": 4.58,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "puentedelamujer",
+      "name": "Puente de la Mujer",
+      "category": "footbridges",
+      "country": "Argentina",
+      "final_city": "buenosaires",
+      "final_city_name": "Buenos Aires",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "buenosaires",
+      "assigned_bbox_centre_distance_km": 6.9,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "hightrestletrailbridge",
+      "name": "High Trestle Trail Bridge",
+      "category": "footbridges",
+      "country": "United States",
+      "final_city": "us-ia",
+      "final_city_name": "Iowa",
+      "assignment_classification": "existing_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "us-ia",
+      "assigned_bbox_centre_distance_km": 40.66,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-footbridges-wave2-2026-08-09.json",
+      "candidate_id": "esplanaderiel",
+      "name": "Esplanade Riel",
+      "category": "footbridges",
+      "country": "Canada",
+      "final_city": "winnipeg",
+      "final_city_name": "Winnipeg",
+      "assignment_classification": "existing_region",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "winnipeg",
+      "assigned_bbox_centre_distance_km": 3.12,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-specialist-shops-wave2-2026-08-09.json",
+      "candidate_id": "shepherdsarts",
+      "name": "Shepherds Arts",
+      "category": "specialistshops",
+      "country": "United Kingdom",
+      "final_city": "london",
+      "final_city_name": "London",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "london",
+      "assigned_bbox_centre_distance_km": 2.08,
+      "competing_expanded_bboxes": [
+        {
+          "id": "dulwich",
+          "bbox_centre_distance_km": 7.11
+        },
+        {
+          "id": "wimbledon",
+          "bbox_centre_distance_km": 9.04
+        },
+        {
+          "id": "walthamstow",
+          "bbox_centre_distance_km": 13.32
+        },
+        {
+          "id": "croydon",
+          "bbox_centre_distance_km": 13.96
+        },
+        {
+          "id": "bromley",
+          "bbox_centre_distance_km": 14.96
+        },
+        {
+          "id": "england",
+          "bbox_centre_distance_km": 205.88
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-specialist-shops-wave2-2026-08-09.json",
+      "candidate_id": "internationalmagicshop",
+      "name": "International Magic",
+      "category": "specialistshops",
+      "country": "United Kingdom",
+      "final_city": "london",
+      "final_city_name": "London",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "london",
+      "assigned_bbox_centre_distance_km": 3.56,
+      "competing_expanded_bboxes": [
+        {
+          "id": "dulwich",
+          "bbox_centre_distance_km": 9.07
+        },
+        {
+          "id": "walthamstow",
+          "bbox_centre_distance_km": 9.41
+        },
+        {
+          "id": "wimbledon",
+          "bbox_centre_distance_km": 12.92
+        },
+        {
+          "id": "enfield",
+          "bbox_centre_distance_km": 14.63
+        },
+        {
+          "id": "bromley",
+          "bbox_centre_distance_km": 15.82
+        },
+        {
+          "id": "barnet",
+          "bbox_centre_distance_km": 15.84
+        },
+        {
+          "id": "england",
+          "bbox_centre_distance_km": 205.17
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-specialist-shops-wave2-2026-08-09.json",
+      "candidate_id": "stanleygibbons",
+      "name": "Stanley Gibbons",
+      "category": "specialistshops",
+      "country": "United Kingdom",
+      "final_city": "london",
+      "final_city_name": "London",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "london",
+      "assigned_bbox_centre_distance_km": 2.32,
+      "competing_expanded_bboxes": [
+        {
+          "id": "dulwich",
+          "bbox_centre_distance_km": 8.05
+        },
+        {
+          "id": "walthamstow",
+          "bbox_centre_distance_km": 10.9
+        },
+        {
+          "id": "wimbledon",
+          "bbox_centre_distance_km": 11.42
+        },
+        {
+          "id": "bromley",
+          "bbox_centre_distance_km": 15.26
+        },
+        {
+          "id": "croydon",
+          "bbox_centre_distance_km": 15.56
+        },
+        {
+          "id": "enfield",
+          "bbox_centre_distance_km": 16.03
+        },
+        {
+          "id": "barnet",
+          "bbox_centre_distance_km": 16.75
+        },
+        {
+          "id": "england",
+          "bbox_centre_distance_km": 205.56
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-specialist-shops-wave2-2026-08-09.json",
+      "candidate_id": "couteauxcourty",
+      "name": "Couteaux Courty",
+      "category": "specialistshops",
+      "country": "France",
+      "final_city": "paris",
+      "final_city_name": "Paris",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "paris",
+      "assigned_bbox_centre_distance_km": 4.98,
+      "competing_expanded_bboxes": [
+        {
+          "id": "maisonsalfort",
+          "bbox_centre_distance_km": 8.84
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-specialist-shops-wave2-2026-08-09.json",
+      "candidate_id": "casayustas",
+      "name": "Casa Yustas",
+      "category": "specialistshops",
+      "country": "Spain",
+      "final_city": "madrid",
+      "final_city_name": "Madrid",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "madrid",
+      "assigned_bbox_centre_distance_km": 1.12,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-specialist-shops-wave2-2026-08-09.json",
+      "candidate_id": "buerstenhausfrankfurt",
+      "name": "Bürstenhaus Frankfurt",
+      "category": "specialistshops",
+      "country": "Germany",
+      "final_city": "frankfurt",
+      "final_city_name": "Frankfurt",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "frankfurt",
+      "assigned_bbox_centre_distance_km": 0.61,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-specialist-shops-wave2-2026-08-09.json",
+      "candidate_id": "buerstenernst",
+      "name": "Bürsten Ernst",
+      "category": "specialistshops",
+      "country": "Germany",
+      "final_city": "regensburg",
+      "final_city_name": "Regensburg",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "regensburg",
+      "assigned_bbox_centre_distance_km": 0.28,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-specialist-shops-wave2-2026-08-09.json",
+      "candidate_id": "pioroteka",
+      "name": "Pióroteka",
+      "category": "specialistshops",
+      "country": "Poland",
+      "final_city": "warsaw",
+      "final_city_name": "Warsaw",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "warsaw",
+      "assigned_bbox_centre_distance_km": 4.31,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-specialist-shops-wave2-2026-08-09.json",
+      "candidate_id": "thepaperplace",
+      "name": "The Paper Place",
+      "category": "specialistshops",
+      "country": "Canada",
+      "final_city": "toronto",
+      "final_city_name": "Toronto",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "toronto",
+      "assigned_bbox_centre_distance_km": 4.83,
+      "competing_expanded_bboxes": [
+        {
+          "id": "us-ny",
+          "bbox_centre_distance_km": 297.92
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-specialist-shops-wave2-2026-08-09.json",
+      "candidate_id": "rixingtypefoundry",
+      "name": "Ri Xing Type Foundry",
+      "category": "specialistshops",
+      "country": "Taiwan",
+      "final_city": "taipei",
+      "final_city_name": "Taipei",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "taipei",
+      "assigned_bbox_centre_distance_km": 2.68,
+      "competing_expanded_bboxes": [
+        {
+          "id": "wanli",
+          "bbox_centre_distance_km": 23.31
+        }
+      ]
+    },
+    {
+      "source_dossier": "research/world-specialist-shops-wave2-2026-08-09.json",
+      "candidate_id": "nakamurarosoku",
+      "name": "Nakamura Rosoku",
+      "category": "specialistshops",
+      "country": "Japan",
+      "final_city": "kyoto",
+      "final_city_name": "Kyoto",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "kyoto",
+      "assigned_bbox_centre_distance_km": 2.19,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-specialist-shops-wave2-2026-08-09.json",
+      "candidate_id": "bungubox",
+      "name": "BUNGUBOX",
+      "category": "specialistshops",
+      "country": "Japan",
+      "final_city": "tokyo",
+      "final_city_name": "Tokyo",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "tokyo",
+      "assigned_bbox_centre_distance_km": 4.35,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-specialist-shops-wave2-2026-08-09.json",
+      "candidate_id": "yonoya",
+      "name": "Yonoya",
+      "category": "specialistshops",
+      "country": "Japan",
+      "final_city": "tokyo",
+      "final_city_name": "Tokyo",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "tokyo",
+      "assigned_bbox_centre_distance_km": 8.03,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-specialist-shops-wave2-2026-08-09.json",
+      "candidate_id": "bazardemagia",
+      "name": "Bazar de Magia",
+      "category": "specialistshops",
+      "country": "Argentina",
+      "final_city": "buenosaires",
+      "final_city_name": "Buenos Aires",
+      "assignment_classification": "existing_city_or_metro",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "buenosaires",
+      "assigned_bbox_centre_distance_km": 5.52,
+      "competing_expanded_bboxes": []
+    },
+    {
+      "source_dossier": "research/world-specialist-shops-wave2-2026-08-09.json",
+      "candidate_id": "clockshopmontville",
+      "name": "Clock Shop",
+      "category": "specialistshops",
+      "country": "Australia",
+      "final_city": "montville",
+      "final_city_name": "Montville",
+      "assignment_classification": "new_city_or_town",
+      "raw_bbox_contains_coordinate": true,
+      "city_for_point_after_plan": "montville",
+      "assigned_bbox_centre_distance_km": 0.36,
+      "competing_expanded_bboxes": [
+        {
+          "id": "yandina",
+          "bbox_centre_distance_km": 15.82
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "result": "pass",
+    "retained_rows_checked": 106,
+    "classification_counts": {
+      "existing_city_or_metro": 46,
+      "existing_region": 11,
+      "new_city_or_town": 33,
+      "new_region": 16
+    },
+    "proposed_entries": 49,
+    "proposed_cities_or_towns": 33,
+    "proposed_regions": 16,
+    "proposed_entry_centres_inside_own_raw_bbox": true,
+    "all_retained_rows_inside_declared_raw_bbox": true,
+    "all_retained_rows_infer_to_explicit_city_after_plan": true,
+    "rows_with_multiple_expanded_bbox_claims_reviewed": 36,
+    "nearest_centre_resolution_failures": 0,
+    "maximum_assigned_bbox_centre_distance_km": 223.63,
+    "maximum_new_assignment_bbox_centre_distance_km": 20.5,
+    "broad_existing_state_regions_reviewed": [
+      {
+        "candidate_id": "bobkerreybridge",
+        "final_city": "us-ia",
+        "assigned_bbox_centre_distance_km": 223.63,
+        "decision": "retain the intentional Iowa region; it honestly contains the Council Bluffs end of the cross-state bridge"
+      },
+      {
+        "candidate_id": "walkwayoverhudson",
+        "final_city": "us-ny",
+        "assigned_bbox_centre_distance_km": 201.93,
+        "decision": "retain the intentional New York state region rather than invent a nearby-city assignment"
+      },
+      {
+        "candidate_id": "libertybridgegreenville",
+        "final_city": "us-sc",
+        "assigned_bbox_centre_distance_km": 191.61,
+        "decision": "retain the intentional South Carolina region; Greenville has no live city row"
+      },
+      {
+        "candidate_id": "treethatownsitself",
+        "final_city": "us-ga",
+        "assigned_bbox_centre_distance_km": 142.46,
+        "decision": "retain the intentional Georgia region; Athens has no live city row and the state label is geographically honest"
+      },
+      {
+        "candidate_id": "generalgranttree",
+        "final_city": "us-ca",
+        "assigned_bbox_centre_distance_km": 64.36,
+        "decision": "retain the intentional California region for the rural national-park objective"
+      },
+      {
+        "candidate_id": "hightrestletrailbridge",
+        "final_city": "us-ia",
+        "assigned_bbox_centre_distance_km": 40.66,
+        "decision": "retain the intentional Iowa region; the trail bridge is rural and the existing Madrid slug belongs to Madrid, Spain"
+      }
+    ],
+    "proposed_pairwise_positive_area_bbox_overlaps": [],
+    "proposed_pairwise_boundary_touches": [
+      {
+        "ids": [
+          "virginiabeach",
+          "hampton"
+        ],
+        "geometry": "single shared boundary point",
+        "candidate_routing": {
+          "mounttrashmore": {
+            "assigned": "virginiabeach",
+            "assigned_centre_km": 6.64,
+            "other_centre_km": 29.47
+          },
+          "emancipationoak": {
+            "assigned": "hampton",
+            "assigned_centre_km": 1.75,
+            "other_centre_km": 33.27
+          }
+        },
+        "result": "unambiguous under nearest-bbox-centre routing"
+      }
+    ],
+    "collisions": {
+      "proposed_internal_duplicate_ids": [],
+      "proposed_internal_duplicate_normalised_names": [],
+      "existing_Ci_id_collisions": [],
+      "existing_flCO_key_collisions": [],
+      "existing_Ci_normalised_name_collisions": []
+    },
+    "country_mapping_checks": {
+      "every_proposed_entry_has_country": true,
+      "proposed_flCO_mapping_count": 49,
+      "missing_country_flags_before_plan": [
+        "Bahamas",
+        "Brazil",
+        "Colombia",
+        "Ecuador",
+        "Ghana",
+        "Indonesia",
+        "Rwanda",
+        "Sri Lanka",
+        "Taiwan",
+        "U.S. Virgin Islands"
+      ],
+      "country_flag_additions": 10,
+      "countries_without_a_flag_after_plan": []
+    },
+    "bbox_updates_required": 0,
+    "expected_registry_after_application": {
+      "city_registry_rows": 1124,
+      "unique_city_slugs": 1123,
+      "flCO_mappings": 216,
+      "country_flags": 56,
+      "known_duplicate_city_slug_unchanged": "charleston"
+    }
+  },
+  "application": {
+    "applied": true,
+    "applied_at": "2026-08-09",
+    "pre_application_dry_run": "pass: 49 city entries, 49 flCO mappings, 0 bbox updates and 10 country flags; template syntax checked without writing",
+    "city_or_region_entries_added": 49,
+    "flCO_mappings_added": 49,
+    "bbox_updates_applied": 0,
+    "country_flags_added": 10,
+    "live_city_registry_rows": 1124,
+    "live_unique_city_slugs": 1123,
+    "live_flCO_mappings": 216,
+    "live_country_flags": 56,
+    "live_retained_rows_checked": 106,
+    "live_raw_bbox_failures": 0,
+    "live_city_for_point_failures": 0,
+    "live_proposed_entry_field_parity_failures": 0,
+    "live_flCO_parity_failures": 0,
+    "live_region_flag_parity_failures": 0,
+    "live_country_flag_parity_failures": 0,
+    "known_pre_existing_duplicate_city_slug": "charleston",
+    "reapplication_guard": "Do not run add-cities on this applied template again; the tool correctly refuses all 49 now-existing ids."
+  }
+}

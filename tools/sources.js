@@ -50,11 +50,12 @@ const fetchJSON = async (url, opts) => JSON.parse(await fetchText(url, opts));
 
 // --- OpenStreetMap / Overpass ------------------------------------------------
 // bbox is the Ci form [minLng,minLat,maxLng,maxLat]; Overpass wants S,W,N,E.
-async function overpass(bbox, { limit = 200, broad = false } = {}) {
+async function overpass(bbox, { limit = 200, broad = false, profile = "" } = {}) {
   const [w, s, e, n] = bbox;
   const base = [
     'node["historic"]', 'way["historic"]',
     'node["tourism"~"museum|artwork|viewpoint|gallery"]', 'way["tourism"~"museum|gallery"]',
+    'node["natural"~"^(hill|peak)$"]["name"]',
     'node["amenity"~"place_of_worship|archive|cinema"]',
     'node["building"~"folly|almshouse"]', 'way["building"~"folly|almshouse"]',
     'node["memorial"]', 'node["historic"="blue_plaque"]',
@@ -72,7 +73,31 @@ async function overpass(bbox, { limit = 200, broad = false } = {}) {
     'way["waterway"="canal"]',
     'node["man_made"="lighthouse"]',
   ];
-  const sel = (broad ? broadSel : base).map((q) => `${q}(${s},${w},${n},${e});`).join("");
+  const profileSelectors = {
+    hills: [
+      'node["natural"~"^(hill|peak)$"]["name"]',
+      'node["tourism"="viewpoint"]["name"]',
+    ],
+    landmarktrees: [
+      'node["natural"="tree"]["name"]["denotation"~"^(natural_monument|landmark)$"]',
+    ],
+    steps: [
+      'way["highway"="steps"]["name"]',
+    ],
+    footbridges: [
+      'way["bridge"]["name"]["highway"~"^(footway|pedestrian|path)$"]',
+    ],
+    specialistshops: [
+      'node["shop"~"^(collector|maps|magic|model|musical_instrument|camera|fabric|sewing|stationery|art|craft|typewriter)$"]["name"]',
+      'way["shop"~"^(collector|maps|magic|model|musical_instrument|camera|fabric|sewing|stationery|art|craft|typewriter)$"]["name"]',
+    ],
+  };
+  if (profile && !profileSelectors[profile])
+    throw new Error(
+      `unknown Overpass profile "${profile}" (known: ${Object.keys(profileSelectors).join(", ")})`
+    );
+  const selectors = profile ? profileSelectors[profile] : broad ? broadSel : base;
+  const sel = selectors.map((q) => `${q}(${s},${w},${n},${e});`).join("");
   const ql = `[out:json][timeout:60];(${sel});out center ${limit};`;
   // try the main endpoint then mirrors (overpass-api.de overloads often → 503)
   const endpoints = [
@@ -100,7 +125,12 @@ async function overpass(bbox, { limit = 200, broad = false } = {}) {
       if (!t.name || lat == null || lng == null) return null;
       return {
         n: t.name, lat, lng, tags: t,
-        _meta: { source: "overpass", url: `https://www.openstreetmap.org/${el.type}/${el.id}`, raw: t },
+        _meta: {
+          source: "overpass",
+          url: `https://www.openstreetmap.org/${el.type}/${el.id}`,
+          raw: t,
+          ...(profile ? { profile } : {}),
+        },
       };
     })
     .filter(Boolean);

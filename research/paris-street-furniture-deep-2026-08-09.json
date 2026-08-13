@@ -1,0 +1,648 @@
+{
+  "schema_version": "1.0",
+  "dossier_id": "paris-street-furniture-deep-2026-08-09",
+  "created_at": "2026-08-09",
+  "status": "imported_as_draft_pending_field_test",
+  "meta": {
+    "catalogue_snapshot_rows": 17328,
+    "existing_paris_rows": 231,
+    "screened_count": 84,
+    "included_count": 12,
+    "deferred_count": 8,
+    "excluded_count": 64,
+    "scope": "Characteristic Paris public-realm signatures: exceptional transit entrances, drinking-water objects, public clocks, sanitary heritage, civic datum stones and individually storied street furniture",
+    "import_authorized": true,
+    "method": "A second-wave Paris lane screened serial public objects broadly but retained only named or individually defensible walking objectives. Every retained row has an exact feature or access pin, current public visibility or published access, at least two useful sources including an operator, municipal, public-institution or heritage-register source, a score of at least 19 with story and walkability at least 4, all-high confidence and a global 120 m catalogue review.",
+    "serial_object_rule": "Membership in a Paris-wide series is not sufficient. A retained series member must have a unique surviving type, documented relocation, first-of-kind status, exceptional restoration or a location-specific story that makes the individual object the objective.",
+    "note": "The parent run completed cross-lane review and imported the 12 retained rows as draft-quality candidates. Do not reimport; field-test and editorial promotion remain pending."
+  },
+  "category_contract": {
+    "slug": "streetfurniture",
+    "label": "Street furniture",
+    "emoji": "🕰️",
+    "tint": "#E3E8E6",
+    "icon_svg_path": "<circle cx=\"12\" cy=\"7\" r=\"4\"/><path d=\"M12 11v10\"/><path d=\"M8 21h8\"/><path d=\"M12 5v2l1.5 1\"/>",
+    "definition": "Individually distinctive, designed objects installed to make public space work: transit entrances, public water points, public clocks, kiosks, sanitary structures, civic measurement or boundary markers, lighting and comparable small-scale civic infrastructure.",
+    "include_when": [
+      "The object is a discrete walking objective with an exact feature or access pin.",
+      "It has an individual design, survival, first-of-kind, relocation, restoration or civic-use story rather than only membership in a serial inventory.",
+      "It is currently visible from public space or has current, practical public access stated by its operator.",
+      "Its main identity is a designed civic utility or public-realm fitting rather than a building, museum collection or free-standing commemorative monument."
+    ],
+    "exclude_when": [
+      "Generic benches, ordinary lamp posts, current news kiosks, standard sanisettes, normal Metro surrounds and modern Morris columns without an individual story.",
+      "A decorative fountain whose primary identity is monumental sculpture; use monument or streetart instead.",
+      "A marker whose only value is a generic serial survey or commemorative plaque; use plaque or history unless the object function itself is the story.",
+      "Objects inside private courtyards, behind unconfirmed gates or with only a venue-centroid coordinate."
+    ],
+    "global_reuse_examples": [
+      "London cabmen's shelters and surviving Victorian urinals",
+      "Vienna Stadtbahn entrances and historic public clocks",
+      "Lisbon quiosques and distinctive drinking fountains",
+      "Berlin historic advertising columns and public pumps"
+    ],
+    "live_registry_observed": true,
+    "registry_observed_at": "2026-08-09"
+  },
+  "included_count": 12,
+  "included": [
+    {
+      "id": "guimardportedauphine",
+      "n": "Édicule Guimard de Porte Dauphine",
+      "a": "Avenue Foch, face au 90",
+      "pc": "75016",
+      "lat": 48.8721466,
+      "lng": 2.2769998,
+      "c": "streetfurniture",
+      "s": "Paris's only original surviving covered Guimard 'Libellule' turns a Metro stair into a glass-winged Art Nouveau pavilion.",
+      "q": "Édicule Guimard Porte Dauphine avenue Foch Paris",
+      "w": "Approach from avenue Foch and look at the orange enamel panels and splayed glass canopy. This is not merely one of 88 surviving Guimard accesses: RATP identifies it as the sole original covered Libellule left in place.",
+      "city": "paris",
+      "aliases": ["Édicule Libellule de Porte Dauphine", "Métro Porte Dauphine entrée Guimard avenue Foch"],
+      "external_ids": {"merimee": "PA00086697", "wikidata": "Q2605679", "osm_node": "5313588566", "commons_depicted_place": "48.872137,2.277002"},
+      "facts": [
+        {"claim": "RATP identifies Porte Dauphine as the only original surviving example of Guimard's covered Libellule type.", "source_urls": ["https://www.ratp.fr/decouvrir/patrimoine/hector-guimard"]},
+        {"claim": "The protected entrance retains orange enamelled-lava panels and is owned by RATP.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00086697"]},
+        {"claim": "The depicted-place coordinate and named mapped object node 5313588566 independently fix the pin on the avenue Foch édicule rather than the station centroid.", "source_urls": ["https://commons.wikimedia.org/wiki/File:M%C3%A9tro_Porte_Dauphine_02.jpg", "https://www.openstreetmap.org/node/5313588566"]}
+      ],
+      "sources": [
+        {"url": "https://www.ratp.fr/decouvrir/patrimoine/hector-guimard", "title": "Connaissez-vous... Hector Guimard ?", "publisher": "RATP", "role": "current operator heritage, survival and public-transit access evidence, updated July 2026", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00086697", "title": "Métropolitain, station Dauphine", "publisher": "Ministère de la Culture — POP", "role": "official heritage-register identity, ownership and feature-address evidence, updated March 2026", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:M%C3%A9tro_Porte_Dauphine_02.jpg", "title": "Métro Porte Dauphine 02.jpg", "publisher": "Wikimedia Commons", "role": "object-specific depicted-place coordinate and exterior visibility corroboration", "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/5313588566", "title": "Édicule Guimard — Porte Dauphine", "publisher": "OpenStreetMap", "role": "named object node and sub-metre coordinate corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_transit_entrance_exterior", "evidence": "The édicule is the operating avenue Foch Metro entrance and is continuously visible from the public pavement; service disruptions do not prevent an exterior look.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/hector-guimard", "checked_at": "2026-08-09", "user_window": "continuous exterior view"},
+      "coordinate_basis": {"type": "named protected object node for the model-B édicule opposite 90 avenue Foch, corroborated by the full-canopy photograph's depicted-place coordinate", "source_url": "https://www.openstreetmap.org/node/5313588566", "precision": "object", "coordinate_text": "48.8721466, 2.2769998", "osm_node": "5313588566", "feature_disambiguation": "POP PA00086697 separately lists the simple surround at avenue Foch/avenue Bugeaud; that is OSM 5313588567 and is not this retained Libellule."},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"id": "museedelacontrefacon", "name": "Musée de la Contrefaçon", "distance_m": 190}, "rationale": "No existing catalogue row lies within 120 metres; exact names, aliases and stable heritage identifier are new.", "checked_against": "all 17,328 catalogue rows, Paris names and aliases, stable identifiers and 120 m proximity"},
+      "draft_only": true
+    },
+    {
+      "id": "kiosquedesnoctambules",
+      "n": "Kiosque des Noctambules",
+      "a": "Place Colette, accès Palais Royal–Musée du Louvre",
+      "pc": "75001",
+      "lat": 48.8631316,
+      "lng": 2.3360575,
+      "c": "streetfurniture",
+      "s": "Two crowns of coloured glass beads turn a working Metro stair into Jean-Michel Othoniel's year-2000 public sculpture.",
+      "q": "Kiosque des Noctambules Place Colette Palais Royal Paris",
+      "w": "Circle the two glass-and-aluminium crowns rather than treating them as a station sign. A concealed bench and the day-and-night pairing make this a civic entrance designed for chance encounters.",
+      "city": "paris",
+      "aliases": ["Le Kiosque des Noctambules", "Othoniel Métro Palais Royal"],
+      "external_ids": {"osm_way": "1279485597", "wikidata": "Q3223836", "commons_file": "Plaque Kiosque Noctambules Accès Station Palais Royal Musée Louvre Métro Paris Place Colette - Paris I (FR75) - 2026-01-12 - 1.jpg"},
+      "facts": [
+        {"claim": "RATP identifies the Kiosque des Noctambules as the distinctive access of Palais Royal–Musée du Louvre station.", "source_urls": ["https://www.ratp.fr/decouvrir/patrimoine/histoire-metro-ligne-1"]},
+        {"claim": "Fondation Cartier describes Othoniel's 2000 first public commission as two glass-and-aluminium crowns concealing a bench intended for chance encounters.", "source_urls": ["https://www.fondationcartier.com/collection/artists/jean-michel-othoniel"]},
+        {"claim": "A geotagged January 2026 image documents the object and its plaque still visible at Place Colette.", "source_urls": ["https://commons.wikimedia.org/wiki/File:Plaque_Kiosque_Noctambules_Acc%C3%A8s_Station_Palais_Royal_Mus%C3%A9e_Louvre_M%C3%A9tro_Paris_Place_Colette_-_Paris_I_(FR75)_-_2026-01-12_-_1.jpg"]}
+      ],
+      "sources": [
+        {"url": "https://www.ratp.fr/decouvrir/patrimoine/histoire-metro-ligne-1", "title": "Une ligne, une histoire : la ligne 1 du métro", "publisher": "RATP", "role": "current operator identity and operating public-transit access evidence, updated August 2026", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.fondationcartier.com/collection/artists/jean-michel-othoniel", "title": "Jean-Michel Othoniel — collection", "publisher": "Fondation Cartier pour l'art contemporain", "role": "institutional artist record for the first public commission, material and design-intent evidence", "official_or_land_manager": false, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:Plaque_Kiosque_Noctambules_Acc%C3%A8s_Station_Palais_Royal_Mus%C3%A9e_Louvre_M%C3%A9tro_Paris_Place_Colette_-_Paris_I_(FR75)_-_2026-01-12_-_1.jpg", "title": "Plaque Kiosque Noctambules — 2026-01-12", "publisher": "Wikimedia Commons", "role": "January 2026 current visibility and identity-plaque evidence", "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/way/1279485597", "title": "Le Kiosque des Noctambules — way 1279485597", "publisher": "OpenStreetMap", "role": "named object geometry, Wikidata identity and exact footprint-centroid pin", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_transit_entrance_exterior", "evidence": "The sculpture is the operating station access in public Place Colette and can be inspected from the pavement without a fare.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/histoire-metro-ligne-1", "checked_at": "2026-08-09", "user_window": "continuous exterior view"},
+      "coordinate_basis": {"type": "centroid of the four-node named sculpture footprint, corroborated by January 2026 object-and-plaque imagery", "source_url": "https://www.openstreetmap.org/way/1279485597", "precision": "object", "coordinate_text": "48.8631316, 2.3360575", "osm_way": "1279485597"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"id": "canonmeridiendupalaisroy", "name": "Canon méridien du Palais-Royal", "distance_m": 170}, "rationale": "No existing catalogue row lies within 120 metres; the nearest is a different historic timekeeping instrument inside a gated garden.", "checked_against": "all 17,328 catalogue rows, Paris names and aliases, stable identifiers and 120 m proximity"},
+      "draft_only": true
+    },
+    {
+      "id": "lavatoriestrocadero",
+      "n": "Lavatories Art nouveau du Trocadéro",
+      "a": "Station Trocadéro, sortie 1 avenue du Président-Wilson",
+      "pc": "75016",
+      "lat": 48.8630389,
+      "lng": 2.2884522,
+      "c": "streetfurniture",
+      "s": "Restored historic Metro lavatories preserve mahogany, stained glass and a shoe-shine seat inside a working public convenience.",
+      "q": "Lavatories Art nouveau Trocadéro sortie 1 Paris",
+      "w": "This is a usable room, not a museum reconstruction. Pay the published euro and look for the old stained glass, mahogany joinery, brass fittings and the preserved shoe-shine chair—a trace of a vanished service—after the three-year restoration.",
+      "city": "paris",
+      "aliases": ["Toilettes Art nouveau du Trocadéro", "Lavatories historiques station Trocadéro"],
+      "external_ids": {"osm_node_access": "272269845"},
+      "facts": [
+        {"claim": "The historic lavatories reopened at the end of 2025 after a restoration carried out from December 2022 to December 2025.", "source_urls": ["https://www.ratp.fr/decouvrir/patrimoine/lavatories-trocadero"]},
+        {"claim": "RATP documents preserved mahogany, old stained glass, brass hardware and a surviving shoe-shine seat.", "source_urls": ["https://www.ratp.fr/decouvrir/patrimoine/lavatories-trocadero"]},
+        {"claim": "The operator publishes daily 08:00–20:00 access for €1 at exit 1, avenue du Président-Wilson.", "source_urls": ["https://www.ratp.fr/decouvrir/patrimoine/lavatories-trocadero"]}
+      ],
+      "sources": [
+        {"url": "https://www.ratp.fr/decouvrir/patrimoine/lavatories-trocadero", "title": "Trocadéro : des toilettes Art nouveau rénovées entre patrimoine et modernité", "publisher": "RATP", "role": "current operator identity, restoration, price, daily hours and access evidence, updated July 2026", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/272269845", "title": "Trocadéro — Avenue du Président Wilson, exit 1", "publisher": "OpenStreetMap", "role": "mapped named exit-1 access point and exact practical pin", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_paid_convenience", "evidence": "RATP states that the lavatories at exit 1 are open every day 08:00–20:00 for €1. This is a public amenity, not unrestricted exterior-only viewing.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/lavatories-trocadero", "checked_at": "2026-08-09", "user_window": "daily 08:00–20:00; €1; recheck disruption notices"},
+      "coordinate_basis": {"type": "mapped subway exit 1 explicitly named by RATP as the lavatories location", "source_url": "https://www.openstreetmap.org/node/272269845", "precision": "access", "osm_node": "272269845"},
+      "editorial_score": {"story": 5, "walkability": 4, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "distinct", "nearest_existing": {"id": "carette", "name": "Carette", "distance_m": 112}, "rationale": "The candidate is a restored public-convenience interior attached to Metro exit 1; Carette is a separately addressed historic café across the Trocadéro public realm.", "nearby_existing_reviews": [{"id": "carette", "distance_m": 112, "status": "distinct", "rationale": "Public sanitary interior versus café."}], "checked_against": "all 17,328 catalogue rows, Paris names and aliases, stable identifiers and 120 m proximity"},
+      "draft_only": true
+    },
+    {
+      "id": "wallaceappliquegeoffroy",
+      "n": "Fontaine Wallace en applique de la rue Geoffroy-Saint-Hilaire",
+      "a": "Rue Geoffroy-Saint-Hilaire, face au 59",
+      "pc": "75005",
+      "lat": 48.8437212,
+      "lng": 2.3551124,
+      "c": "streetfurniture",
+      "s": "The last wall-mounted Wallace fountain in Paris hides a naiad's water spout in a public-facing garden wall.",
+      "q": "Fontaine Wallace en applique rue Geoffroy Saint Hilaire Paris",
+      "w": "Ignore the familiar four-caryatid silhouette and look into the wall. A naiad head, basin and pilasters compress Wallace's useful-and-beautiful brief into the last surviving Paris example of this model.",
+      "city": "paris",
+      "aliases": ["Dernière Wallace murale de Paris", "Fontaine Wallace murale Geoffroy-Saint-Hilaire"],
+      "external_ids": {"eau_de_paris_gid": "450024974", "osm_node": "977195075", "wikidata": "Q128944526", "commons_depicted_place": "48.8437212,2.3551124"},
+      "facts": [
+        {"claim": "Eau de Paris identifies the rue Geoffroy-Saint-Hilaire fountain as the last surviving Paris example of Wallace's wall-mounted model.", "source_urls": ["https://www.eaudeparis.fr/lhistoire-des-fontaines-paris"]},
+        {"claim": "The official drinking-fountain dataset currently records the wall fountain as available and provides the feature coordinate under record 450024974.", "source_urls": ["https://opendata.paris.fr/explore/dataset/fontaines-a-boire/"]},
+        {"claim": "Dated June 2025 photography confirms the wall-mounted object remains visible from the street.", "source_urls": ["https://commons.wikimedia.org/wiki/File:Fontaine_Wallace_Rue_Geoffroy_Saint_Hilaire_-_Paris_V_(FR75)_-_2025-06-18_-_3.jpg"]}
+      ],
+      "sources": [
+        {"url": "https://www.eaudeparis.fr/lhistoire-des-fontaines-paris", "title": "L'histoire des fontaines à Paris", "publisher": "Eau de Paris", "role": "official public-water operator model history and unique-survivor evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/", "title": "Fontaines à boire", "publisher": "Ville de Paris Open Data / Eau de Paris", "role": "official current availability status and exact point record 450024974", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:Fontaine_Wallace_Rue_Geoffroy_Saint_Hilaire_-_Paris_V_(FR75)_-_2025-06-18_-_3.jpg", "title": "Fontaine Wallace rue Geoffroy Saint-Hilaire — 2025-06-18", "publisher": "Wikimedia Commons", "role": "dated 2025 exterior visibility and coordinate corroboration", "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:Fontaine_Wallace_applique.jpg", "title": "Fontaine Wallace applique.jpg", "publisher": "Wikimedia Commons", "role": "object-specific depicted-place coordinate and mapped object identifier", "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/977195075", "title": "Fontaine Wallace Applique — node 977195075", "publisher": "OpenStreetMap", "role": "named current object, operator, Wikidata identity and exact feature pin", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_drinking_fountain", "evidence": "Mounted on a wall facing the public street. The official dataset marks it OUI at the research snapshot; maintenance status can change and should be checked if drinking is important.", "source_url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/", "checked_at": "2026-08-09", "user_window": "continuous exterior view; water subject to live maintenance"},
+      "coordinate_basis": {"type": "named object node, matched to official drinking-fountain record 450024974", "source_url": "https://www.openstreetmap.org/node/977195075", "precision": "object", "coordinate_text": "48.8437212, 2.3551124", "record_gid": "450024974", "osm_node": "977195075"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "distinct", "nearest_existing": {"id": "fontainecuvier", "name": "Fontaine Cuvier", "distance_m": 32}, "rationale": "This is a potable, wall-mounted Wallace utility and the last of its type; Fontaine Cuvier is a separate monumental natural-history fountain on another junction. The remarkable cedar is also a separate living specimen inside Jardin des Plantes 106.9 m away.", "nearby_existing_reviews": [{"id": "fontainecuvier", "distance_m": 32, "status": "distinct", "rationale": "Last wall-mounted drinking fountain versus monumental sculptural fountain."}, {"id": "cedredulibandujardindesp", "distance_m": 107, "status": "distinct", "rationale": "Street-facing civic water object versus individual tree inside the garden."}], "checked_against": "all 17,328 catalogue rows, Paris names and aliases, stable identifiers and 120 m proximity"},
+      "draft_only": true
+    },
+    {
+      "id": "petillantejardinreuilly",
+      "n": "Fontaine pétillante du Jardin de Reuilly",
+      "a": "Au niveau du 153 avenue Daumesnil, Jardin de Reuilly–Paul-Pernin (site : 15 rue Albinoni)",
+      "pc": "75012",
+      "lat": 48.841641598,
+      "lng": 2.387733982,
+      "c": "streetfurniture",
+      "s": "France's first public sparkling-water fountain dispenses chilled still and carbonated Paris water from a garden kiosk.",
+      "q": "Fontaine eau pétillante Jardin de Reuilly Paul Pernin Paris",
+      "w": "Bring a bottle and press the sparkling tap. The modest kiosk is a first-of-kind piece of public infrastructure: Paris used this 2010 installation to make free carbonated municipal water part of an ordinary park walk.",
+      "city": "paris",
+      "aliases": ["Première fontaine d'eau pétillante de Paris", "Fontaine pétillante Reuilly"],
+      "external_ids": {"eau_de_paris_gid": "450071496"},
+      "facts": [
+        {"claim": "Ville de Paris identifies the Jardin de Reuilly installation as France's first public sparkling-water fountain and dates it to 2010.", "source_urls": ["https://www.paris.fr/pages/ou-trouver-les-fontaines-d-eau-petillante-a-paris-34402"]},
+        {"claim": "The official drinking-fountain dataset records feature 450071496 at this point and marks it currently available.", "source_urls": ["https://opendata.paris.fr/explore/dataset/fontaines-a-boire/"]},
+        {"claim": "The city publishes the garden as a public green space with live seasonal hours and places the sparkling fountain beside the avenue Daumesnil entrance.", "source_urls": ["https://www.paris.fr/lieux/jardin-de-reuilly-paul-pernin-2573"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/ou-trouver-les-fontaines-d-eau-petillante-a-paris-34402", "title": "Où trouver les fontaines d'eau pétillante à Paris ?", "publisher": "Ville de Paris", "role": "official first-of-kind, installation-date and public-use evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/", "title": "Fontaines à boire", "publisher": "Ville de Paris Open Data / Eau de Paris", "role": "official current availability and exact point record 450071496", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/lieux/jardin-de-reuilly-paul-pernin-2573", "title": "Jardin de Reuilly–Paul-Pernin", "publisher": "Ville de Paris", "role": "official live garden entrances, sparkling-fountain location, hours and temporary-closure notices", "official_or_land_manager": true, "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_garden_drinking_fountain", "evidence": "The fountain is free inside a municipal garden beside the avenue Daumesnil entrance. Use the live garden page for seasonal hours or weather closures; the water dataset marked the fountain available at the snapshot.", "source_url": "https://www.paris.fr/lieux/jardin-de-reuilly-paul-pernin-2573", "checked_at": "2026-08-09", "user_window": "municipal garden hours; water subject to maintenance or winterisation"},
+      "coordinate_basis": {"type": "official drinking-fountain point record", "source_url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/", "precision": "object", "record_gid": "450071496"},
+      "editorial_score": {"story": 5, "walkability": 4, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"id": "parcdebercy", "name": "Parc de Bercy", "distance_m": 660}, "rationale": "No catalogue row lies within 120 metres and no name, alias or stable-ID collision was found.", "checked_against": "all 17,328 catalogue rows, Paris names and aliases, stable identifiers and 120 m proximity"},
+      "draft_only": true
+    },
+    {
+      "id": "albienplacepaulverlaine",
+      "n": "Fontaine à l'Albien de la place Paul-Verlaine",
+      "a": "Place Paul-Verlaine, rue du Moulin-des-Prés",
+      "pc": "75013",
+      "lat": 48.827673719,
+      "lng": 2.352710453,
+      "c": "streetfurniture",
+      "s": "One of Paris's three artesian fountains lifts mineral-rich water from an aquifer more than 600 metres below the Butte-aux-Cailles.",
+      "q": "Fontaine Albien place Paul Verlaine Butte aux Cailles Paris",
+      "w": "Taste only if the live status still says available. The unusual encounter is geological and mechanical: deep warm water is pumped, stripped of excess iron and cooled before it reaches this small neighbourhood tap.",
+      "city": "paris",
+      "aliases": ["Fontaine de la Butte-aux-Cailles", "Puits artésien place Paul-Verlaine"],
+      "external_ids": {"eau_de_paris_gid": "450071492"},
+      "facts": [
+        {"claim": "Eau de Paris describes this as one of the capital's three artesian fountains, drawing Albien water from more than 600 metres underground.", "source_urls": ["https://www.eaudeparis.fr/actualit%C3%A9s/la-fontaine-lalbien-de-la-butte-aux-cailles-leau-coule-nouveau"]},
+        {"claim": "The current fountain was inaugurated in 1999; its water is pumped, de-ironed and cooled before distribution.", "source_urls": ["https://www.eaudeparis.fr/actualit%C3%A9s/la-fontaine-lalbien-de-la-butte-aux-cailles-leau-coule-nouveau"]},
+        {"claim": "Eau de Paris reported the fountain back in service on 29 January 2026, and the official drinking-fountain record 450071492 is currently marked available.", "source_urls": ["https://www.eaudeparis.fr/actualit%C3%A9s/la-fontaine-lalbien-de-la-butte-aux-cailles-leau-coule-nouveau", "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/"]}
+      ],
+      "sources": [
+        {"url": "https://www.eaudeparis.fr/actualit%C3%A9s/la-fontaine-lalbien-de-la-butte-aux-cailles-leau-coule-nouveau", "title": "La fontaine à l'Albien de la Butte-aux-Cailles : l'eau coule à nouveau", "publisher": "Eau de Paris", "role": "official operator geology, treatment, 1999 fountain and January 2026 return-to-service evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/", "title": "Fontaines à boire", "publisher": "Ville de Paris Open Data / Eau de Paris", "role": "official current availability and exact point record 450071492", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.eaudeparis.fr/lhistoire-des-fontaines-paris", "title": "L'histoire des fontaines à Paris", "publisher": "Eau de Paris", "role": "official operator context for the three Paris Albien fountains", "official_or_land_manager": true, "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_square_drinking_fountain", "evidence": "This is a free drinking-water point on place Paul-Verlaine. The official operator reported service restored in January 2026 and the live dataset marked it available; maintenance can still change.", "source_url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/", "checked_at": "2026-08-09", "user_window": "continuous exterior view; water subject to live maintenance"},
+      "coordinate_basis": {"type": "official drinking-fountain point record", "source_url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/", "precision": "object", "record_gid": "450071492"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"id": "piscinedelabutteauxcaill", "name": "Piscine de la Butte-aux-Cailles", "distance_m": 201}, "rationale": "No catalogue row lies within 120 metres and no name, alias or stable-ID collision was found.", "checked_against": "all 17,328 catalogue rows, Paris names and aliases, stable identifiers and 120 m proximity"},
+      "draft_only": true
+    },
+    {
+      "id": "horlogecharlesv",
+      "n": "Horloge de Charles V du Palais de la Cité",
+      "a": "Tour de l'Horloge, 2 boulevard du Palais",
+      "pc": "75001",
+      "lat": 48.856193,
+      "lng": 2.3462327,
+      "c": "streetfurniture",
+      "s": "Paris's first public clock still faces the street from the medieval palace tower where Charles V commissioned it in 1370.",
+      "q": "Horloge Charles V Tour de l Horloge boulevard du Palais Paris",
+      "w": "Stand across boulevard du Palais and read the dial as civic infrastructure rather than façade ornament. For the first time, Parisians could take the city's time from a public clock instead of a private or church signal.",
+      "city": "paris",
+      "aliases": ["Horloge du Palais de la Cité", "Horloge de la Conciergerie"],
+      "external_ids": {"wikidata": "Q96745562", "osm_node": "2183872370"},
+      "facts": [
+        {"claim": "Paris Musées identifies the tower clock as the first public clock in Paris.", "source_urls": ["https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/la-tour-de-l-horloge-et-le-palais-de-justice-1er-arrondissement-paris"]},
+        {"claim": "Ville de Paris says Charles V commissioned the clock in 1370, that it entered service in 1371, and that the dial was restored in 2012 using archival material from the Bibliothèque nationale de France.", "source_urls": ["https://www.paris.fr/pages/a-la-decouverte-des-lieux-les-plus-etonnants-de-la-capitale-18810"]},
+        {"claim": "A named feature record fixes the pin on the exterior dial rather than at the Conciergerie or courthouse centroid.", "source_urls": ["https://www.wikidata.org/wiki/Q96745562", "https://www.openstreetmap.org/node/2183872370"]}
+      ],
+      "sources": [
+        {"url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/la-tour-de-l-horloge-et-le-palais-de-justice-1er-arrondissement-paris", "title": "La tour de l'Horloge et le Palais de Justice", "publisher": "Paris Musées / Musée Carnavalet", "role": "official municipal museum first-public-clock identity evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/pages/a-la-decouverte-des-lieux-les-plus-etonnants-de-la-capitale-18810", "title": "À la découverte des lieux les plus étonnants de la capitale", "publisher": "Ville de Paris", "role": "official municipal installation-date, restoration and current public exterior-access/view context", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.wikidata.org/wiki/Q96745562", "title": "Horloge du palais de la Cité", "publisher": "Wikidata", "role": "named object coordinate and identity cross-check", "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/2183872370", "title": "Horloge du palais de la Cité", "publisher": "OpenStreetMap", "role": "exact exterior-dial point corroboration", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_view", "evidence": "The dial is mounted on the tower's boulevard-du-Palais exterior and is visible without entering either the Conciergerie or courthouse.", "source_url": "https://www.paris.fr/pages/a-la-decouverte-des-lieux-les-plus-etonnants-de-la-capitale-18810", "checked_at": "2026-08-09", "user_window": "continuous exterior view"},
+      "coordinate_basis": {"type": "named wall-mounted clock object point on the tower's street-facing dial", "source_url": "https://www.openstreetmap.org/node/2183872370", "precision": "object", "coordinate_text": "48.8561930, 2.3462327", "osm_node": "2183872370", "wikidata": "Q96745562"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 4, "total": 24},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"id": "cinquanteneufrivoli", "name": "59 Rivoli", "distance_m": 295}, "rationale": "No existing catalogue row lies within 120 metres; the clock has a named feature point and no alias or external-ID collision.", "checked_against": "all 17,328 catalogue rows, Paris names and aliases, stable identifiers and 120 m proximity"},
+      "draft_only": true
+    },
+    {
+      "id": "vespasiennearago",
+      "n": "Vespasienne du boulevard Arago",
+      "a": "Boulevard Arago, face au 86, contre le mur de la prison de la Santé",
+      "pc": "75014",
+      "lat": 48.8347075,
+      "lng": 2.3410587,
+      "c": "streetfurniture",
+      "s": "Paris's last surviving traditional vespasienne is an open-sided cast-iron remnant of the city's once-vast public-urinal network.",
+      "q": "dernière vespasienne boulevard Arago Paris prison Santé",
+      "w": "Inspect it as a survivor, not a promised toilet stop. The privacy screen and open crown show how nineteenth-century sanitation, policing, gender and street design were compressed into one small object.",
+      "city": "paris",
+      "aliases": ["Dernière vespasienne de Paris", "Pissotière du boulevard Arago"],
+      "external_ids": {"osm_node": "1369995429", "wikidata": "Q140561759", "commons_depicted_place": "48.834766,2.340893"},
+      "facts": [
+        {"claim": "Geographer Marianne Blidon identifies the boulevard Arago installation opposite the prison de la Santé as Paris's last vespasienne and traces its social and spatial history.", "source_urls": ["https://www.espacestemps.net/articles/la-derniere-tasse/"]},
+        {"claim": "Paris Musées documents a vespasienne on boulevard Arago in the historic municipal collection.", "source_urls": ["https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/boulevard-arago-avec-une-vespasienne-sur-la-gauche-13e-ou-14e"]},
+        {"claim": "Object-specific 2023 imagery and an explanatory plaque photographed in August 2024 document the survivor at the same public-street location.", "source_urls": ["https://commons.wikimedia.org/wiki/File:F6180_Paris_13e_boulevard_Arago_vespasienne_rwk.jpg", "https://commons.wikimedia.org/wiki/File:Cartel_install%C3%A9_en_aout_2024,_vespasienne_boulevard_ARAGO.jpg"]}
+      ],
+      "sources": [
+        {"url": "https://www.espacestemps.net/articles/la-derniere-tasse/", "title": "La dernière tasse", "publisher": "EspacesTemps.net", "role": "peer-reviewed academic identity, unique-survivor and social-history evidence", "checked_at": "2026-08-09"},
+        {"url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/boulevard-arago-avec-une-vespasienne-sur-la-gauche-13e-ou-14e", "title": "Boulevard Arago avec une vespasienne", "publisher": "Paris Musées / Musée Carnavalet", "role": "official municipal museum historical-location evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:F6180_Paris_13e_boulevard_Arago_vespasienne_rwk.jpg", "title": "Boulevard Arago vespasienne — 2023", "publisher": "Wikimedia Commons", "role": "dated current object visibility and exact depicted-place coordinate", "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:Cartel_install%C3%A9_en_aout_2024,_vespasienne_boulevard_ARAGO.jpg", "title": "Cartel installé en août 2024, vespasienne boulevard Arago", "publisher": "Wikimedia Commons", "role": "August 2024 plaque and continued-location corroboration", "checked_at": "2026-08-09"},
+        {"url": "https://opendata.paris.fr/explore/dataset/voie/", "title": "Linéaires des Voies", "publisher": "Ville de Paris Open Data", "role": "official municipal public-street context", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/1369995429", "title": "Vespasienne du boulevard Arago — node 1369995429", "publisher": "OpenStreetMap", "role": "current mapped urinal feature, Wikidata identity and exact object pin, updated July 2026", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_view", "evidence": "The cast-iron structure stands on the public boulevard and is visible from the pavement. The dossier does not assert that it remains operational or suitable for use.", "source_url": "https://commons.wikimedia.org/wiki/File:F6180_Paris_13e_boulevard_Arago_vespasienne_rwk.jpg", "checked_at": "2026-08-09", "user_window": "continuous exterior view; treat as heritage, not a guaranteed facility"},
+      "coordinate_basis": {"type": "mapped Wikidata-linked object node, corroborated by 2023 object imagery and a 2024 plaque", "source_url": "https://www.openstreetmap.org/node/1369995429", "precision": "object", "coordinate_text": "48.8347075, 2.3410587", "osm_node": "1369995429", "wikidata": "Q140561759"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 3, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"id": "catacombesparis", "name": "Catacombes de Paris", "distance_m": 642}, "rationale": "No catalogue row lies within 120 metres and no name, alias or object-identifier collision was found.", "checked_against": "all 17,328 catalogue rows, Paris names and aliases, stable identifiers and 120 m proximity"},
+      "draft_only": true
+    },
+    {
+      "id": "bornemilliairevaugirard",
+      "n": "Borne milliaire du 85 rue de Vaugirard",
+      "a": "85 rue de Vaugirard, angle rue Littré",
+      "pc": "75006",
+      "lat": 48.8459598,
+      "lng": 2.3233776,
+      "c": "streetfurniture",
+      "s": "Paris's last royal road milestone marks one thousand toises from Notre-Dame with a single cut in its granite crown.",
+      "q": "dernière borne milliaire 85 rue de Vaugirard Paris",
+      "w": "Look for a granite block partly swallowed by the school wall. The vertical notch is the route number one: one thousand toises from the old measuring origin at Notre-Dame; the smoothed oval below likely once held a royal lily.",
+      "city": "paris",
+      "aliases": ["Dernière borne milliaire de Paris", "Borne des mille toises rue de Vaugirard"],
+      "external_ids": {"osm_address_node": "804245783", "commons_category": "85 rue de Vaugirard, Paris"},
+      "facts": [
+        {"claim": "The Société historique du 6e identifies the granite object as Paris's last surviving royal road milestone and locates it at 85 rue de Vaugirard at rue Littré.", "source_urls": ["https://www.sh6e.com/mises-a-jour-recentes/16-contenus-du-6eme/monuments/358-la-derniere-borne-militaire-de-paris"]},
+        {"claim": "Its single vertical notch denotes the first thousand-toise interval measured from the centre of Notre-Dame's façade; the smooth oval probably held a fleur-de-lys erased during the Revolution.", "source_urls": ["https://www.sh6e.com/mises-a-jour-recentes/16-contenus-du-6eme/monuments/358-la-derniere-borne-militaire-de-paris"]},
+        {"claim": "Object-focused photography documents the milestone embedded at the public-street edge of 85 rue de Vaugirard and supplies the feature coordinate.", "source_urls": ["https://commons.wikimedia.org/wiki/File:Borne_85_rue_de_Vaugirard.jpg"]}
+      ],
+      "sources": [
+        {"url": "https://www.sh6e.com/mises-a-jour-recentes/16-contenus-du-6eme/monuments/358-la-derniere-borne-militaire-de-paris", "title": "La dernière borne milliaire de Paris", "publisher": "Société historique du VIe arrondissement", "role": "specialist local historical society identity, measuring-system, mark and survival evidence", "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/Category:85_rue_de_Vaugirard,_Paris", "title": "85 rue de Vaugirard, Paris", "publisher": "Wikimedia Commons", "role": "object location, exterior setting and coordinate corroboration", "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:Borne_85_rue_de_Vaugirard.jpg", "title": "Borne 85 rue de Vaugirard", "publisher": "Wikimedia Commons", "role": "object-focused current-condition and exact-position evidence", "checked_at": "2026-08-09"},
+        {"url": "https://opendata.paris.fr/explore/dataset/voie/", "title": "Linéaires des Voies", "publisher": "Ville de Paris Open Data", "role": "official municipal public-street context", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/804245783", "title": "85 rue de Vaugirard — address node 804245783", "publisher": "OpenStreetMap", "role": "cadastre-sourced exact frontage/address point for the embedded wall object", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_view", "evidence": "The milestone is partly embedded in the boundary wall and directly visible from the rue de Vaugirard pavement; no school entry is needed.", "source_url": "https://commons.wikimedia.org/wiki/File:Borne_85_rue_de_Vaugirard.jpg", "checked_at": "2026-08-09", "user_window": "continuous exterior view"},
+      "coordinate_basis": {"type": "cadastre-sourced 85 rue de Vaugirard frontage point, checked against object imagery and the historical society's wall-at-rue-Littré cue", "source_url": "https://www.openstreetmap.org/node/804245783", "precision": "facade_level_approx_5m", "coordinate_text": "48.8459598, 2.3233776", "osm_address_node": "804245783", "pin_caveat": "The milestone is embedded in the wall within a few metres of this frontage point; no misleading building-centroid pin is used."},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 4, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"id": "chapellesaintvincentdepa", "name": "Chapelle Saint-Vincent-de-Paul", "distance_m": 341}, "rationale": "No existing catalogue row lies within 120 metres; no name, alias or object-identifier collision was found.", "checked_against": "all 17,328 catalogue rows, Paris names and aliases, stable identifiers and 120 m proximity"},
+      "draft_only": true
+    },
+    {
+      "id": "bornelimiteruecharenton",
+      "n": "Borne-limite de Louis XV de la rue de Charenton",
+      "a": "304–306 rue de Charenton (adresse patrimoniale : 304)",
+      "pc": "75012",
+      "lat": 48.835203,
+      "lng": 2.393167,
+      "c": "streetfurniture",
+      "s": "Half original and half reconstruction, a 1726–27 royal building-limit plaque survives where Paris once stopped and fields began.",
+      "q": "borne limite Louis XV 304 rue de Charenton Paris",
+      "w": "Look up between the windows and find the seam between survival and reconstruction. One half was rediscovered in 1910 serving as a back-shop floor tile; the completed inscription returned to the street as evidence of an earlier Paris edge.",
+      "city": "paris",
+      "aliases": ["Borne de 1726 rue de Charenton", "Plaque des anciennes limites de Paris rue de Charenton"],
+      "external_ids": {"commons_file": "Plaque Anciennes Limites Paris Rue Charenton - Paris XII (FR75) - 2024-08-28 - 1.jpg"},
+      "facts": [
+        {"claim": "A detailed heritage account identifies the façade plaque as one of two surviving examples from 294 Louis-XV building-limit markers and records its public address at 304 rue de Charenton.", "source_urls": ["https://breves-histoire.fr/vestiges/borne-limite-paris/"]},
+        {"claim": "The plaque was installed at the old urban edge on 29 December 1727; Lucien Lambeau found half of it in a back-shop floor in 1910, after which the missing part was reconstructed.", "source_urls": ["https://user-knp0wia.cld.bz/Paris-vous-aime-magazine-oct-dec-2023/62-63/"]},
+        {"claim": "Object-specific photography dated 28 August 2024 documents the plaque on the same publicly visible façade and supplies the practical pin.", "source_urls": ["https://commons.wikimedia.org/wiki/File:Plaque_Anciennes_Limites_Paris_Rue_Charenton_-_Paris_XII_(FR75)_-_2024-08-28_-_1.jpg"]}
+      ],
+      "sources": [
+        {"url": "https://breves-histoire.fr/vestiges/borne-limite-paris/", "title": "Borne-limite rue de Charenton : ici finit Paris !", "publisher": "Brèves d'Histoire", "role": "object-specific inscription, 294-marker series, survival, reconstruction and unrestricted street-view evidence", "checked_at": "2026-08-09"},
+        {"url": "https://user-knp0wia.cld.bz/Paris-vous-aime-magazine-oct-dec-2023/62-63/", "title": "La borne-limite — 304 rue de Charenton", "publisher": "Paris vous aime magazine / Groupe ADP", "role": "edited bilingual account of the 1727 installation, 1910 rediscovery and reconstructed half", "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:Plaque_Anciennes_Limites_Paris_Rue_Charenton_-_Paris_XII_(FR75)_-_2024-08-28_-_1.jpg", "title": "Plaque anciennes limites Paris rue de Charenton — 2024-08-28", "publisher": "Wikimedia Commons", "role": "dated current visibility and object-level coordinate evidence", "checked_at": "2026-08-09"},
+        {"url": "https://opendata.paris.fr/explore/dataset/voie/", "title": "Linéaires des Voies", "publisher": "Ville de Paris Open Data", "role": "official municipal public-street context", "official_or_land_manager": true, "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_view", "evidence": "The plaque is fixed to a street façade and can be read from the public pavement at any time; no building entry is implied.", "source_url": "https://commons.wikimedia.org/wiki/File:Plaque_Anciennes_Limites_Paris_Rue_Charenton_-_Paris_XII_(FR75)_-_2024-08-28_-_1.jpg", "checked_at": "2026-08-09", "user_window": "continuous exterior view"},
+      "coordinate_basis": {"type": "2024 object-focused façade photograph geotag", "source_url": "https://commons.wikimedia.org/wiki/File:Plaque_Anciennes_Limites_Paris_Rue_Charenton_-_Paris_XII_(FR75)_-_2024-08-28_-_1.jpg", "precision": "facade_level_approx_10m", "coordinate_text": "48.835203, 2.393167", "pin_caveat": "Camera-derived façade approach, not a surveyed plaque centroid; the plaque is visible at the stated 304–306 frontage."},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 4, "geographic_value": 3, "total": 22},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"id": "parcdebercy", "name": "Parc de Bercy", "distance_m": 872}, "rationale": "No catalogue row lies within 120 metres and no name, alias or feature collision was found.", "checked_against": "all 17,328 catalogue rows, Paris names and aliases, stable identifiers and 120 m proximity"},
+      "draft_only": true
+    },
+    {
+      "id": "fontainedufellah",
+      "n": "Fontaine du Fellah",
+      "a": "42 rue de Sèvres",
+      "pc": "75007",
+      "lat": 48.84879,
+      "lng": 2.3210687,
+      "c": "streetfurniture",
+      "s": "A tiny 1806 street fountain translates an Egyptian temple façade into Napoleonic water infrastructure.",
+      "q": "Fontaine du Fellah 42 rue de Sèvres Paris",
+      "w": "Read the niche from pediment to basin. The so-called fellah may draw on an ancient statue of Antinous, while the whole miniature temple belongs to Napoleon's campaign to bring free water into the street.",
+      "city": "paris",
+      "aliases": ["Fontaine égyptienne rue de Sèvres", "Fontaine de Sèvres"],
+      "external_ids": {"paris_musees_inventory": "PH7893", "osm_node": "4376593595", "wikidata": "Q3076272"},
+      "facts": [
+        {"claim": "Ville de Paris dates the neo-Egyptian fountain to 1806 and attributes it to engineer François-Jean Bralle and sculptor Pierre-Nicolas Beauvallet.", "source_urls": ["https://www.paris.fr/pages/une-balade-historique-sur-les-pas-de-napoleon-a-paris-25453"]},
+        {"claim": "Paris Musées identifies the address as 42 rue de Sèvres and explains that the figure called a fellah more closely evokes Antinous, favourite of Hadrian.", "source_urls": ["https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/fontaine-du-fellah-rue-de-sevres-paris"]},
+        {"claim": "The municipal 2024 walking article illustrates the fountain in place, while named mapped object node 4376593595 supplies the exact façade pin.", "source_urls": ["https://www.paris.fr/pages/une-balade-historique-sur-les-pas-de-napoleon-a-paris-25453", "https://www.openstreetmap.org/node/4376593595"]}
+      ],
+      "sources": [
+        {"url": "https://www.paris.fr/pages/une-balade-historique-sur-les-pas-de-napoleon-a-paris-25453", "title": "Une balade historique sur les pas de Napoléon à Paris", "publisher": "Ville de Paris", "role": "official municipal current walking-object, address, authorship, date and design evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/fontaine-du-fellah-rue-de-sevres-paris", "title": "Fontaine du Fellah, rue de Sèvres, Paris", "publisher": "Paris Musées / Musée Carnavalet", "role": "official municipal museum exact address, neo-Egyptian identity and Antinous-model evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/4376593595", "title": "Fontaine du Fellah — node 4376593595", "publisher": "OpenStreetMap", "role": "named object node and exact façade pin", "checked_at": "2026-08-09"},
+        {"url": "https://www.wikidata.org/wiki/Q3076272", "title": "Fontaine du Fellah", "publisher": "Wikidata", "role": "named object, OSM-node and heritage-ID cross-check", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_view", "evidence": "The fountain is built into the 42 rue de Sèvres façade and can be inspected from the pavement. The dossier does not promise that water is flowing or potable.", "source_url": "https://www.paris.fr/pages/une-balade-historique-sur-les-pas-de-napoleon-a-paris-25453", "checked_at": "2026-08-09", "user_window": "continuous exterior view; no claim of working water"},
+      "coordinate_basis": {"type": "named mapped object node", "source_url": "https://www.openstreetmap.org/node/4376593595", "precision": "object", "coordinate_text": "48.8487900, 2.3210687", "osm_node": "4376593595"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 5, "source_quality": 5, "geographic_value": 3, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "distinct", "outcome": "distinct", "nearest_existing": {"id": "chapellesaintvincentdepa", "name": "Chapelle Saint-Vincent-de-Paul", "distance_m": 57}, "rationale": "The candidate is a named 1806 public-water façade on rue de Sèvres; the existing row is a separately addressed religious interior and pilgrimage site on rue de Babylone.", "nearby_existing_reviews": [{"id": "chapellesaintvincentdepa", "distance_m": 57, "status": "distinct", "rationale": "Street fountain versus chapel and reliquary interior."}], "checked_against": "all 17,328 catalogue rows, Paris names and aliases, stable identifiers and 120 m proximity"},
+      "draft_only": true
+    },
+    {
+      "id": "fontainemaubuee",
+      "n": "Fontaine Maubuée",
+      "a": "129 rue Saint-Martin, angle rue de Venise",
+      "pc": "75004",
+      "lat": 48.8610291,
+      "lng": 2.3512956,
+      "c": "streetfurniture",
+      "s": "A compact 1733 utility fountain carries the name of a medieval water source and survives relocation around the remaking of Beaubourg.",
+      "q": "Fontaine Maubuée 129 rue Saint Martin rue de Venise Paris",
+      "w": "Notice how little street space it claims: early public fountains were practical taps before they became urban spectacles. Then compare its present corner with the old records—the entire stone face moved here when Beaubourg was remade.",
+      "city": "paris",
+      "aliases": ["Fontaine Maubuée rue Saint-Martin", "Fontaine de la rue de Venise"],
+      "external_ids": {"merimee": "PA00088428", "osm_node": "7616246086", "wikidata": "Q2420041"},
+      "facts": [
+        {"claim": "The Ministry of Culture register identifies Fontaine Maubuée as protected historic architecture; its register location field is historical and is not used for the present pin.", "source_urls": ["https://pop.culture.gouv.fr/notice/merimee/PA00088428"]},
+        {"claim": "Ville de Paris presents the 1733 Maubuée as an example of the small, lightly decorated utility fountains that supplied neighbourhood water.", "source_urls": ["https://www.paris.fr/pages/fontaine-raconte-moi-des-histoires-16377"]},
+        {"claim": "Paris Musées records that the fountain was once fed by the Belleville aqueduct and was relocated from its former Simon-le-Franc corner to 129 rue Saint-Martin at rue de Venise during the Beaubourg area's redevelopment.", "source_urls": ["https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/la-fontaine-maubuee-a-l-angle-de-la-rue-saint-martin-et-de-la-rue-simon-le"]},
+        {"claim": "Eau de Paris identifies the object visible today as the 1733 fountain by Jean and Jean-Baptiste Augustin Beausire and states that water no longer flows from it.", "source_urls": ["https://www.eaudeparis.fr/lhistoire-des-fontaines-paris"]},
+        {"claim": "Object-specific September 2024 and 2025 images document the fountain at its present public façade location; named mapped node 7616246086 supplies the object pin.", "source_urls": ["https://commons.wikimedia.org/wiki/File:Fontaine_Maubu%C3%A9e,_Paris,_France_Sep_07,_2024_07-38-03_PM.jpeg", "https://commons.wikimedia.org/wiki/File:Paris_4e_Rue_Saint-Martin_Fontaine_Maubu%C3%A9e_840.jpg", "https://www.openstreetmap.org/node/7616246086"]}
+      ],
+      "sources": [
+        {"url": "https://pop.culture.gouv.fr/notice/merimee/PA00088428", "title": "Fontaine Maubuée — notice PA00088428", "publisher": "Ministère de la Culture — POP", "role": "official heritage-register identity and protection evidence, updated March 2026; not used for the current pin because its location field is historical", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.paris.fr/pages/fontaine-raconte-moi-des-histoires-16377", "title": "Fontaine, raconte-moi des histoires", "publisher": "Ville de Paris", "role": "official municipal 1733 date and early utility-fountain context", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/la-fontaine-maubuee-a-l-angle-de-la-rue-saint-martin-et-de-la-rue-simon-le", "title": "La Fontaine Maubuée à l'angle de la rue Saint-Martin et de la rue Simon-le-Franc", "publisher": "Paris Musées / Musée Carnavalet", "role": "official municipal museum aqueduct, former position and relocation-to-present-corner evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://www.eaudeparis.fr/lhistoire-des-fontaines-paris", "title": "L'histoire des fontaines à Paris", "publisher": "Eau de Paris", "role": "official public-water operator 1733 authorship, present-object continuity and non-operating-water evidence", "official_or_land_manager": true, "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:Fontaine_Maubu%C3%A9e,_Paris,_France_Sep_07,_2024_07-38-03_PM.jpeg", "title": "Fontaine Maubuée — 2024-09-07", "publisher": "Wikimedia Commons", "role": "dated current object visibility and practical coordinate evidence", "checked_at": "2026-08-09"},
+        {"url": "https://commons.wikimedia.org/wiki/File:Paris_4e_Rue_Saint-Martin_Fontaine_Maubu%C3%A9e_840.jpg", "title": "Paris 4e rue Saint-Martin — Fontaine Maubuée", "publisher": "Wikimedia Commons", "role": "2025 current-condition corroboration", "checked_at": "2026-08-09"},
+        {"url": "https://www.openstreetmap.org/node/7616246086", "title": "Fontaine Maubuée — node 7616246086", "publisher": "OpenStreetMap", "role": "named present-day object node and exact feature pin", "checked_at": "2026-08-09"}
+      ],
+      "access": {"status": "public_pavement_view", "evidence": "The protected fountain is fixed to the street façade at rue Saint-Martin and rue de Venise and current 2024–2025 images show it publicly visible. Eau de Paris explicitly says water no longer flows.", "source_url": "https://commons.wikimedia.org/wiki/File:Fontaine_Maubu%C3%A9e,_Paris,_France_Sep_07,_2024_07-38-03_PM.jpeg", "checked_at": "2026-08-09", "user_window": "continuous exterior view; water does not flow"},
+      "coordinate_basis": {"type": "named mapped object node at the present relocated position", "source_url": "https://www.openstreetmap.org/node/7616246086", "precision": "object", "coordinate_text": "48.8610291, 2.3512956", "osm_node": "7616246086"},
+      "editorial_score": {"story": 5, "walkability": 5, "distinctiveness": 4, "source_quality": 5, "geographic_value": 4, "total": 23},
+      "confidence": {"identity": "high", "coordinates": "high", "facts": "high", "access": "high", "novelty": "high", "overall": "high"},
+      "dedupe": {"status": "clear", "outcome": "clear", "nearest_existing": {"id": "fontainestravinsky", "name": "Fontaine Stravinsky", "distance_m": 177}, "rationale": "No existing catalogue row lies within 120 metres; the nearest fountain is a separate 1983 kinetic-art basin with different identity and geometry.", "checked_against": "all 17,328 catalogue rows, Paris names and aliases, stable identifiers and 120 m proximity"},
+      "draft_only": true
+    }
+  ],
+  "deferred": [
+    {
+      "n": "Édicule Guimard d'Abbesses",
+      "c": "streetfurniture",
+      "reason": "The canopy is a genuinely distinct object, but its production-rounded pin is only about 24 metres from the existing Mur des Je t'aime row and therefore breaches the run's non-overridable under-30-metre presumption rule.",
+      "source_url": "https://www.ratp.fr/decouvrir/patrimoine/histoire-station-abbesses",
+      "promotion_requirement": "Reconsider only if product policy explicitly supports multiple independent objectives inside one under-30-metre setting; do not bypass the current dense-city gate."
+    },
+    {
+      "n": "Borne-limite d'Auteuil et de Passy",
+      "c": "streetfurniture",
+      "reason": "The source pin is 30.1 metres from Maison de Balzac before rounding, but the five-decimal production coordinate becomes 29.8 metres away. The strict import path therefore treats the pair as an under-30-metre setting collision.",
+      "source_url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/entree-de-la-maison-de-balzac-borne-limitative-des-seigneuries-d-auteuil-et",
+      "promotion_requirement": "Require a product-level nested-object decision; do not move the pin merely to cross the threshold."
+    },
+    {
+      "n": "Entrée Nord-Sud reconstituée de La Fourche",
+      "c": "streetfurniture",
+      "reason": "The 2026 municipal reconstruction is promising, but the exact retained ironwork/access feature and its individual distinction from the broader station project need a post-works object pin and current operating-station check.",
+      "source_url": "https://www.paris.fr/pages/la-station-la-fourche-retrouve-ses-ferronneries-grace-au-budget-participatif-34233",
+      "promotion_requirement": "Require a named finished entrance, object-level pin and dated RATP or Ville evidence after completion."
+    },
+    {
+      "n": "Chalet de nécessité du Pré-Catelan",
+      "c": "streetfurniture",
+      "reason": "The historic sanitary chalet/laiterie is individually interesting, but its exact present identity, interior use and drop-in access could not be separated confidently from the wider Pré-Catelan site.",
+      "source_url": "https://www.paris.fr/lieux/pre-catelan-et-jardin-shakespeare-2780",
+      "promotion_requirement": "Require first-party confirmation of the surviving structure, exact pin and visitor-visible portion."
+    },
+    {
+      "n": "Borne-limite de Louis XV du 4 rue Laborde",
+      "c": "streetfurniture",
+      "reason": "The second surviving Louis-XV building-limit plaque is in a courtyard; ordinary public access and sightline from the street were not established to all-high confidence.",
+      "source_url": "https://user-knp0wia.cld.bz/Paris-vous-aime-magazine-oct-dec-2023/62-63/",
+      "promotion_requirement": "Require current owner or municipal access evidence and an object-level pin; do not direct visitors through a private entrance."
+    },
+    {
+      "n": "Fontaine Wallace du quai des Grands-Augustins",
+      "c": "streetfurniture",
+      "reason": "Frequently described as an early/original Wallace exemplar, but the exact current feature record, foundry marks and individual first-status were not resolved tightly enough for this serial-object rule.",
+      "source_url": "https://www.eaudeparis.fr/lhistoire-des-fontaines-paris",
+      "promotion_requirement": "Require a matching official drinking-water feature ID, exact object pin and authoritative object-specific provenance."
+    },
+    {
+      "n": "Premier emplacement Wallace du boulevard de la Villette",
+      "c": "streetfurniture",
+      "reason": "The first installation site is historically documented, but the identity of any present fountain at the exact site was not proved; a place in a serial history is not enough.",
+      "source_url": "https://www.eaudeparis.fr/lhistoire-des-fontaines-paris",
+      "promotion_requirement": "Require evidence that a specific surviving object at the pin inherits the first-site story."
+    },
+    {
+      "n": "Colonne Morris historique individuellement documentée",
+      "c": "streetfurniture",
+      "reason": "Morris columns are characteristic Paris furniture, but no publicly accessible survivor in the screened set had an individually authoritative shell, mechanism, relocation or cultural story strong enough to escape serial duplication.",
+      "source_url": "https://www.paris.fr/pages/les-kiosques-et-colonnes-morris-une-histoire-parisienne-19117",
+      "promotion_requirement": "Require a named heritage inventory entry, exact object pin and current photo proving the historically distinctive fabric survives."
+    }
+  ],
+  "excluded": [
+    {"screen_id": 1, "n": "Édicule Guimard reconstitué de Châtelet", "c": "streetfurniture", "reason": "Reconstruction without the unique original-survivor or relocation paradox of the two retained Guimard objectives.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/hector-guimard"},
+    {"screen_id": 2, "n": "Entourage Guimard de Saint-Michel", "c": "streetfurniture", "reason": "Protected serial surround but no individually documented story beyond the standard model.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/hector-guimard"},
+    {"screen_id": 3, "n": "Entourage Guimard de Cité", "c": "streetfurniture", "reason": "Protected serial surround; the station setting does not create an atomic object story comparable to Porte Dauphine or Abbesses.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/hector-guimard"},
+    {"screen_id": 4, "n": "Entourage Guimard de Tuileries", "c": "streetfurniture", "reason": "Serial entrance lacking an individually authoritative survival, transfer or design-variant story.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/hector-guimard"},
+    {"screen_id": 5, "n": "Entourage Guimard de Porte de Versailles", "c": "streetfurniture", "reason": "Serial entrance; no individual story cleared the strict screen.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/hector-guimard"},
+    {"screen_id": 6, "n": "Entourage Guimard de Falguière", "c": "streetfurniture", "reason": "Serial entrance; membership in the protected Guimard corpus is insufficient.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/hector-guimard"},
+    {"screen_id": 7, "n": "Entourage Guimard de Notre-Dame-des-Champs", "c": "streetfurniture", "reason": "Serial entrance without object-specific distinction.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/hector-guimard"},
+    {"screen_id": 8, "n": "Entourage Guimard de Bolivar", "c": "streetfurniture", "reason": "Transferred surround, but the object story and exact current feature did not outperform the coherent retained pair.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/histoire-station-barbes-rochechouart"},
+    {"screen_id": 9, "n": "Entourage Guimard de Victor Hugo", "c": "streetfurniture", "reason": "Serial entrance without a sufficiently unique object story.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/hector-guimard"},
+    {"screen_id": 10, "n": "Entourage Guimard de Sentier", "c": "streetfurniture", "reason": "Serial entrance; no individual first, last, move or unusual mechanism.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/hector-guimard"},
+    {"screen_id": 11, "n": "Entourage Guimard de Philippe-Auguste", "c": "streetfurniture", "reason": "Serial entrance below the individual-distinction threshold.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/hector-guimard"},
+    {"screen_id": 12, "n": "Entourage Guimard de Rome", "c": "streetfurniture", "reason": "Serial entrance below the individual-distinction threshold.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/hector-guimard"},
+    {"screen_id": 13, "n": "Entourage Guimard de Monceau", "c": "streetfurniture", "reason": "Serial entrance; picturesque context does not create a separate object history.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/hector-guimard"},
+    {"screen_id": 14, "n": "Entourage Guimard de Courcelles", "c": "streetfurniture", "reason": "Serial entrance below the individual-distinction threshold.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/hector-guimard"},
+    {"screen_id": 15, "n": "Entourage Guimard de Père-Lachaise", "c": "streetfurniture", "reason": "Serial entrance; station setting does not supply an individual object story.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/hector-guimard"},
+    {"screen_id": 16, "n": "Entourage Guimard de Nation", "c": "streetfurniture", "reason": "Serial entrance below the individual-distinction threshold.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/hector-guimard"},
+    {"screen_id": 17, "n": "Entourage Guimard de l'Hôtel de Ville", "c": "streetfurniture", "reason": "Ordinary surround; the relocated covered object now at Abbesses owns the stronger, atomic story.", "source_url": "https://www.ratp.fr/decouvrir/patrimoine/histoire-station-abbesses"},
+
+    {"screen_id": 18, "n": "Fontaine à l'Albien du square Lamartine", "c": "streetfurniture", "reason": "One of three deep-aquifer fountains, but no location-specific restoration or design story stronger than the current Paul-Verlaine exemplar.", "source_url": "https://www.eaudeparis.fr/lhistoire-des-fontaines-paris"},
+    {"screen_id": 19, "n": "Fontaine à l'Albien du square de la Madone", "c": "streetfurniture", "reason": "One of three deep-aquifer fountains; excluded to avoid turning a geological type into serial pins.", "source_url": "https://www.eaudeparis.fr/lhistoire-des-fontaines-paris"},
+    {"screen_id": 20, "n": "Fontaine Wallace de la rue Jean-Anouilh", "c": "streetfurniture", "reason": "Current serial caryatid model without an individual story.", "source_url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/"},
+    {"screen_id": 21, "n": "Fontaine Wallace de l'esplanade Pierre-Vidal-Naquet", "c": "streetfurniture", "reason": "Current serial caryatid model without an individual story.", "source_url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/"},
+    {"screen_id": 22, "n": "Fontaine Wallace de la rue Jeanne-d'Arc", "c": "streetfurniture", "reason": "Current serial model; individually thin.", "source_url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/"},
+    {"screen_id": 23, "n": "Fontaine Wallace de l'avenue d'Ivry", "c": "streetfurniture", "reason": "Current serial model; individually thin.", "source_url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/"},
+    {"screen_id": 24, "n": "Fontaine Wallace de la place Moussa-et-Odette-Abadi", "c": "streetfurniture", "reason": "Current serial model; square naming is not an object-specific fountain story.", "source_url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/"},
+    {"screen_id": 25, "n": "Fontaine Wallace de la rue de Rivoli", "c": "streetfurniture", "reason": "Current serial model in a canonical setting, with no individual provenance packet.", "source_url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/"},
+    {"screen_id": 26, "n": "Fontaine Wallace des Champs-Élysées", "c": "streetfurniture", "reason": "Serial object and canonical setting; low surprise value.", "source_url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/"},
+    {"screen_id": 27, "n": "Fontaine Wallace de la place Gustave-Toudouze", "c": "streetfurniture", "reason": "Serial caryatid model without a strong object-specific story.", "source_url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/"},
+    {"screen_id": 28, "n": "Fontaine Wallace à colonnettes de la place Tristan-Bernard", "c": "streetfurniture", "reason": "Less common model but still lacked a documented individual survival, move or commission story.", "source_url": "https://www.eaudeparis.fr/lhistoire-des-fontaines-paris"},
+    {"screen_id": 29, "n": "Fontaine Wallace à colonnettes de la place de Barcelone", "c": "streetfurniture", "reason": "Model variation alone did not make this instance an atomic objective.", "source_url": "https://www.eaudeparis.fr/lhistoire-des-fontaines-paris"},
+    {"screen_id": 30, "n": "Fontaine Wallace de la place Émile-Goudeau", "c": "streetfurniture", "reason": "Current serial fountain in a famous square; no individually authoritative provenance.", "source_url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/"},
+    {"screen_id": 31, "n": "Fontaine Wallace du jardin du musée Carnavalet", "c": "streetfurniture", "reason": "Moved museum-garden object with venue hours and no random public-pavement access; the wall-mounted survivor is stronger.", "source_url": "https://www.carnavalet.paris.fr/collections/fontaine-wallace"},
+    {"screen_id": 32, "n": "Fontaine Millénaire de la place Saint-Michel", "c": "streetfurniture", "reason": "One of a citywide 2000 series; no individual first, survival or site story.", "source_url": "https://www.eaudeparis.fr/les-fontaines-paris"},
+    {"screen_id": 33, "n": "Fontaine Millénaire du quai François-Mauriac", "c": "streetfurniture", "reason": "Serial model and seasonal/winter availability complication without a unique object story.", "source_url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/"},
+    {"screen_id": 34, "n": "Fontaine Millénaire de la rue Sainte-Léonie", "c": "streetfurniture", "reason": "Official dataset showed maintenance/repair instability and the object is serial.", "source_url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/"},
+    {"screen_id": 35, "n": "Fontaine des Innocents", "c": "monument", "reason": "Canonical monumental fountain; category and surprise fit are weaker than the retained public-water utilities.", "source_url": "https://www.paris.fr/pages/fontaine-raconte-moi-des-histoires-16377"},
+    {"screen_id": 36, "n": "Fontaine du Palmier", "c": "monument", "reason": "Canonical monumental sculpture and meeting point rather than under-discovered street furniture.", "source_url": "https://www.paris.fr/pages/une-balade-historique-sur-les-pas-de-napoleon-a-paris-25453"},
+    {"screen_id": 37, "n": "Fontaine Saint-Michel", "c": "monument", "reason": "Canonical monumental fountain; not a new strict discovery objective.", "source_url": "https://www.paris.fr/pages/fontaine-raconte-moi-des-histoires-16377"},
+    {"screen_id": 38, "n": "Fontaine des Haudriettes", "c": "monument", "reason": "Historic but weaker individual utility story and category fit than the retained Maubuée/Fellah pair.", "source_url": "https://www.paris.fr/pages/fontaine-raconte-moi-des-histoires-16377"},
+    {"screen_id": 39, "n": "Fontaine Boucherat", "c": "monument", "reason": "Primarily decorative historic fountain; no need to stretch streetfurniture or duplicate the monument lane.", "source_url": "https://www.paris.fr/pages/fontaine-raconte-moi-des-histoires-16377"},
+    {"screen_id": 40, "n": "Fontaine de Jarente", "c": "monument", "reason": "Pleasant historic fountain but weaker atomic story and public-utility legibility than retained examples.", "source_url": "https://www.paris.fr/pages/fontaine-raconte-moi-des-histoires-16377"},
+
+    {"screen_id": 41, "n": "Horloge de la Samaritaine", "c": "streetfurniture", "reason": "Integrated architectural façade feature in a canonical retail complex; weaker as a separate public-realm object.", "source_url": "https://www.paris.fr/pages/a-la-decouverte-des-lieux-les-plus-etonnants-de-la-capitale-18810"},
+    {"screen_id": 42, "n": "Horloge de la tour de la Gare de Lyon", "c": "streetfurniture", "reason": "Building-scale railway architecture and canonical landmark rather than small civic furniture.", "source_url": "https://www.garesetconnexions.sncf/fr/gares-services/paris-gare-lyon"},
+    {"screen_id": 43, "n": "Horloges extérieures du musée d'Orsay", "c": "streetfurniture", "reason": "Integrated station/museum architecture with canonical venue overlap.", "source_url": "https://www.musee-orsay.fr/fr"},
+    {"screen_id": 44, "n": "Horloge de l'Hôtel de Ville", "c": "streetfurniture", "reason": "Integrated civic-building façade and no separate object-level story strong enough for a new pin.", "source_url": "https://www.paris.fr/lieux/hotel-de-ville-1561"},
+    {"screen_id": 45, "n": "Horloge de l'Institut de France", "c": "streetfurniture", "reason": "Architectural façade clock without an independently documented civic-timekeeping story.", "source_url": "https://www.institutdefrance.fr/"},
+    {"screen_id": 46, "n": "Horloge du théâtre de l'Odéon", "c": "streetfurniture", "reason": "Integrated venue façade feature; object story below threshold.", "source_url": "https://www.theatre-odeon.eu/"},
+    {"screen_id": 47, "n": "Horloge de la Poste du Louvre", "c": "streetfurniture", "reason": "Integrated building feature amid a recently redesigned commercial/postal complex.", "source_url": "https://www.lapostedulouvre.fr/"},
+    {"screen_id": 48, "n": "Horloge du passage du Havre", "c": "streetfurniture", "reason": "Current retail-centre design and weak historic-object continuity.", "source_url": "https://www.passageduhavre.com/"},
+    {"screen_id": 49, "n": "Horloges des mairies d'arrondissement", "c": "streetfurniture", "reason": "Serial building features without a singled-out first, mechanism or survival story.", "source_url": "https://www.paris.fr/equipements/mairies-d-arrondissement"},
+    {"screen_id": 50, "n": "Le Défenseur du Temps", "c": "streetfurniture", "reason": "Already present in the catalogue as an authored kinetic clock/sculpture; exact duplicate avoided.", "source_url": "https://www.paris.fr/pages/le-defenseur-du-temps-a-retrouve-son-eclat-23831"},
+
+    {"screen_id": 51, "n": "Colonne Morris de la place Saint-Sulpice", "c": "streetfurniture", "reason": "Characteristic but serial advertising column without individual heritage evidence.", "source_url": "https://www.paris.fr/pages/les-kiosques-et-colonnes-morris-une-histoire-parisienne-19117"},
+    {"screen_id": 52, "n": "Colonne Morris de la place de l'Opéra", "c": "streetfurniture", "reason": "Serial current advertising object in a canonical setting.", "source_url": "https://www.paris.fr/pages/les-kiosques-et-colonnes-morris-une-histoire-parisienne-19117"},
+    {"screen_id": 53, "n": "Colonne Morris des Champs-Élysées", "c": "streetfurniture", "reason": "Serial current object; setting alone does not establish individuality.", "source_url": "https://www.paris.fr/pages/les-kiosques-et-colonnes-morris-une-histoire-parisienne-19117"},
+    {"screen_id": 54, "n": "Colonne Morris de la place de la Bastille", "c": "streetfurniture", "reason": "Serial current object without a surviving historic shell or mechanism dossier.", "source_url": "https://www.paris.fr/pages/les-kiosques-et-colonnes-morris-une-histoire-parisienne-19117"},
+    {"screen_id": 55, "n": "Colonne Morris du boulevard Saint-Germain", "c": "streetfurniture", "reason": "Serial current object without individual provenance.", "source_url": "https://www.paris.fr/pages/les-kiosques-et-colonnes-morris-une-histoire-parisienne-19117"},
+    {"screen_id": 56, "n": "Colonne Morris de la place de Clichy", "c": "streetfurniture", "reason": "Serial current object below the atomic-story threshold.", "source_url": "https://www.paris.fr/pages/les-kiosques-et-colonnes-morris-une-histoire-parisienne-19117"},
+    {"screen_id": 57, "n": "Colonne Morris de Montmartre", "c": "streetfurniture", "reason": "Picturesque district context but no unique object identity or story.", "source_url": "https://www.paris.fr/pages/les-kiosques-et-colonnes-morris-une-histoire-parisienne-19117"},
+    {"screen_id": 58, "n": "Colonne Morris de Denfert-Rochereau", "c": "streetfurniture", "reason": "Serial current object without individual heritage evidence.", "source_url": "https://www.paris.fr/pages/les-kiosques-et-colonnes-morris-une-histoire-parisienne-19117"},
+    {"screen_id": 59, "n": "Colonne Morris de la République", "c": "streetfurniture", "reason": "Serial current object in a canonical square; no individual story.", "source_url": "https://www.paris.fr/pages/les-kiosques-et-colonnes-morris-une-histoire-parisienne-19117"},
+    {"screen_id": 60, "n": "Colonne Morris de Nation", "c": "streetfurniture", "reason": "Serial current object below the individual-distinction threshold.", "source_url": "https://www.paris.fr/pages/les-kiosques-et-colonnes-morris-une-histoire-parisienne-19117"},
+
+    {"screen_id": 61, "n": "Sanisettes JCDecaux standard", "c": "streetfurniture", "reason": "Generic citywide automated conveniences are useful but not individually distinctive walking objectives.", "source_url": "https://www.paris.fr/pages/les-sanisettes-2396"},
+    {"screen_id": 62, "n": "Médaillons Arago du méridien de Paris", "c": "streetfurniture", "reason": "A distributed serial trail rather than one atomic object; it needs route support or a separately storied anchor.", "source_url": "https://www.paris.fr/pages/a-la-decouverte-des-lieux-les-plus-etonnants-de-la-capitale-18810"},
+    {"screen_id": 63, "n": "Repère de crue de 1740 rue de Charenton", "c": "streetfurniture", "reason": "Serial flood-level inscription/plaque and better suited to plaque/history if independently retained.", "source_url": "https://www.paris.fr/pages/les-crues-historiques-a-paris-7797"},
+    {"screen_id": 64, "n": "Repère de crue de 1910 rue de Charenton", "c": "streetfurniture", "reason": "Serial flood-level marker without an individual object story; plaque/history is the honest category if later researched.", "source_url": "https://www.paris.fr/pages/les-crues-historiques-a-paris-7797"}
+  ],
+  "screened_breakdown": {
+    "exceptional_transit_entrances": {"included": 2, "deferred": 2, "excluded": 17, "screened": 21},
+    "drinking_and_public_fountains": {"included": 5, "deferred": 2, "excluded": 23, "screened": 30},
+    "sanitary_heritage": {"included": 2, "deferred": 1, "excluded": 1, "screened": 4},
+    "boundary_and_measurement_markers": {"included": 2, "deferred": 2, "excluded": 3, "screened": 7},
+    "public_clocks": {"included": 1, "deferred": 0, "excluded": 10, "screened": 11},
+    "morris_columns": {"included": 0, "deferred": 1, "excluded": 10, "screened": 11},
+    "total": {"included": 12, "deferred": 8, "excluded": 64, "screened": 84}
+  },
+  "catalogue_retag_audit": {
+    "recommended": [
+      {"id": "canonmeridiendupalaisroy", "n": "Canon méridien du Palais-Royal", "from": "oddity", "to": "streetfurniture", "reason": "A designed public timekeeping instrument in a garden, squarely inside the clock/measurement contract; retain its garden-hours caveat."},
+      {"id": "metreetalondelaruedevaug", "n": "Mètre étalon de la rue de Vaugirard", "from": "plaque", "to": "streetfurniture", "reason": "A surviving public measurement standard whose civic function, not commemoration, is the object story."},
+      {"id": "miredusud", "n": "Mire du Sud", "from": "history", "to": "streetfurniture", "reason": "A purpose-built geodetic/astronomical alignment marker; confirm current park access remains in the row."},
+      {"id": "pointzerodesroutesdefran", "n": "Point zéro des Routes de France", "from": "history", "to": "streetfurniture", "reason": "A civic distance datum embedded in the public realm; measurement function is more precise than generic history."}
+    ],
+    "quarantine_or_reresearch": [
+      {"id": "fontainewallace2", "n": "Fontaine Wallace", "current_category": "history", "lat": 48.83747, "lng": 2.29644, "action": "Do not simply retag; withdraw or re-research the identity and pin.", "reason": "The official drinking-fountain inventory around this coordinate returns a Bayard fountain (record 450024923) and a brumisateur (450070997), not a Wallace fountain. The existing generic name therefore fails exact-feature identity.", "source_url": "https://opendata.paris.fr/explore/dataset/fontaines-a-boire/"}
+    ],
+    "keep_existing_category": [
+      {"id": "fontainecuvier", "n": "Fontaine Cuvier", "category": "monument", "reason": "Primarily a sculptural monumental fountain despite its water infrastructure."},
+      {"id": "fontainemedicis", "n": "Fontaine Médicis", "category": "history", "reason": "Garden grotto/monument rather than a small designed utility; do not batch-retag with Wallace fountains."},
+      {"id": "fontainestravinsky", "n": "Fontaine Stravinsky", "category": "streetart", "reason": "Authored kinetic public art is its primary identity."},
+      {"id": "dansedelafontaineemergen", "n": "Danse de la Fontaine Émergente", "category": "streetart", "reason": "Authored contemporary artwork, not utilitarian street furniture."}
+    ]
+  },
+  "category_coverage_audit": {
+    "retained_by_subtype": {"transit_entrance": 2, "public_water": 5, "sanitary_heritage": 2, "public_clock": 1, "boundary_or_measurement_marker": 2},
+    "serial_discipline": "No ordinary Guimard surround, conventional Wallace caryatid or Morris column was retained merely because the type is characteristic of Paris.",
+    "global_category_recommendation": "Use the already registered globally reusable streetfurniture category. No Paris-only subcategory is warranted; subtype metadata can carry entrance, water, clock, sanitation and datum distinctions."
+  },
+  "pin_audit": {
+    "independently_reviewed": true,
+    "review_result": "All 12 retained pins were independently rechecked. Nine use an official feature point, named object/access node or named object-footprint centroid; Trocadéro uses the operator-specified exit-1 access node; two embedded façade markers use bounded frontage/photo pins. Corrections replaced photo or generic coordinates for the Kiosque, the Wallace applique, Charles V's clock, the Arago vespasienne, the Fellah and Maubuée. Porte Dauphine was disambiguated from the separate simple Foch/Bugeaud surround and fixed to covered-model node 5313588566.",
+    "precision_classes": {"official_or_named_object_point": 9, "mapped_named_access_point": 1, "facade_level_photo_or_address_derived": 2},
+    "facade_level_caveats": [
+      "Borne milliaire rue de Vaugirard: cadastre-sourced 85 frontage point checked against the embedded-wall image and rue Littré cue, within about 5 m.",
+      "Borne-limite rue de Charenton: current object-focused façade photograph, approach within about 10 m; use the 304–306 frontage cue."
+    ],
+    "unresolved_pin_blocker": null
+  },
+  "proximity_audit": {
+    "catalogue_scope": "all 17,328 catalogue rows, with normalized Paris names and aliases, available stable identifiers and haversine review at 120 m",
+    "dense_city_rule": "Under 30 m is presumed duplicate; 30–119 m requires an explicit named distinct-place review. Distances are rounded in row summaries; raw checks were used for the threshold.",
+    "named_dense_reviews": [
+      "Wallace applique versus Fontaine Cuvier (31.6 m) and Jardin des Plantes cedar (106.9 m): potable wall utility versus monumental fountain and living tree.",
+      "Trocadéro lavatories versus Carette (112 m): working sanitary interior versus café.",
+      "Fontaine du Fellah versus Chapelle Saint-Vincent-de-Paul (56.8 m after object-pin correction): exterior Napoleonic water object versus religious interior."
+    ],
+    "internal_candidate_rule": "Every retained pair from 30–119 m would require a named review; none exists. The closest retained pair is the Vaugirard milestone and Fontaine du Fellah at 357.2 m.",
+    "internal_sub_30_pair": false
+  },
+  "access_caveats": [
+    "Jardin de Reuilly has municipal opening hours and can close for weather; fountain availability is also subject to maintenance or winterisation.",
+    "Trocadéro lavatories are a paid working amenity with the operator's published daily hours; recheck service notices before relying on access.",
+    "Historic exterior fountains and the boulevard Arago vespasienne are retained for viewing; this dossier does not promise that they flow, are potable or remain usable.",
+    "The drinking-water dataset is a dated snapshot. Same-day Eau de Paris maintenance status supersedes the dossier if drinking is the aim.",
+    "The Palais-Royal cannon, southern meridian marker and other proposed retags retain their existing park or garden access caveats; retagging does not erase them."
+  ],
+  "source_consistency_audit": [
+    "Official accounts disagree on the year Fontaine Maubuée was dismantled or moved (Eau de Paris gives 1937; Paris Musées gives a 1970 move during Beaubourg redevelopment). The retained copy asserts only the well-supported relocation and present corner, not a year.",
+    "The Vaugirard milestone's erased fleur-de-lys and the Fellah figure's Antinous identification remain explicitly probable or conditional, matching their sources.",
+    "The Trocadéro page evokes the Paris of the 1920s but dates preserved stylistic elements tentatively to 1900–1910; retained copy calls the facility historic Art Nouveau and makes no unsupported construction-year claim."
+  ],
+  "verification": {
+    "expected_checks": ["JSON parse", "count reconciliation", "live category and city model validation", "editorial/source/confidence audit", "global catalogue proximity audit", "internal-candidate proximity audit", "all production IDs and names collision scan"],
+    "quality_gate": "Every included row is score 22–24, has story and walkability at least 4, at least two useful sources including an official operator/municipal/heritage source, current visibility or access evidence, exact or explicitly bounded feature-level pin evidence, and all confidence fields high.",
+    "import_warning": "The 12 included rows were imported once as draft quality after cross-lane review. Do not reimport or promote them before field testing; the bad Wallace row remains unretagged."
+  },
+  "import_metadata": {
+    "status": "imported_as_draft",
+    "imported_count": 12,
+    "quality_flag": "d",
+    "imported_at": "2026-08-09",
+    "import_method": "tools/add-spots.js paris --key included --proximity 30",
+    "do_not_reimport": true,
+    "promotion": "pending human field test and editorial review",
+    "production_mutations": 12,
+    "draft_category": "streetfurniture",
+    "authorization_required": false
+  }
+}
