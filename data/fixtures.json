@@ -1,370 +1,7 @@
 {
- "_generated": "2026-09-21T10:21:03.766Z",
+ "_generated": "2026-09-28T11:23:16.101Z",
  "_source": "fixturedownload.com season feeds",
  "byId": {
-  "leeds-stadium-ellandroad": [
-   {
-    "id": "fxd:epl-2026:46",
-    "n": "Leeds v Crystal Palace",
-    "t": "2026-09-20T13:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:66",
-    "n": "Leeds v Man Utd",
-    "t": "2026-10-18T13:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:97",
-    "n": "Leeds v Spurs",
-    "t": "2026-11-07T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:117",
-    "n": "Leeds v Coventry",
-    "t": "2026-11-28T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:136",
-    "n": "Leeds v Ipswich",
-    "t": "2026-12-05T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:156",
-    "n": "Leeds v Fulham",
-    "t": "2026-12-19T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:186",
-    "n": "Leeds v Everton",
-    "t": "2027-01-01T20:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:197",
-    "n": "Leeds v Man City",
-    "t": "2027-01-06T20:15:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:217",
-    "n": "Leeds v Chelsea",
-    "t": "2027-01-23T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:237",
-    "n": "Leeds v Bournemouth",
-    "t": "2027-02-06T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:256",
-    "n": "Leeds v Aston Villa",
-    "t": "2027-02-20T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:276",
-    "n": "Leeds v Hull",
-    "t": "2027-03-03T20:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:286",
-    "n": "Leeds v Brighton",
-    "t": "2027-03-13T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:306",
-    "n": "Leeds v Nott'm Forest",
-    "t": "2027-04-10T14:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:326",
-    "n": "Leeds v Liverpool",
-    "t": "2027-04-24T14:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:346",
-    "n": "Leeds v Arsenal",
-    "t": "2027-05-08T14:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:366",
-    "n": "Leeds v Sunderland",
-    "t": "2027-05-23T14:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   }
-  ],
-  "manchester-stadium-etihadstadium": [
-   {
-    "id": "fxd:epl-2026:47",
-    "n": "Man City v Sunderland",
-    "t": "2026-09-20T13:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:67",
-    "n": "Man City v Ipswich",
-    "t": "2026-10-17T14:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:88",
-    "n": "Man City v Brighton",
-    "t": "2026-10-31T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:108",
-    "n": "Man City v Fulham",
-    "t": "2026-11-21T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:128",
-    "n": "Man City v Leeds",
-    "t": "2026-12-02T20:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:149",
-    "n": "Man City v Chelsea",
-    "t": "2026-12-12T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:158",
-    "n": "Man City v Hull",
-    "t": "2026-12-19T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:188",
-    "n": "Man City v Spurs",
-    "t": "2027-01-03T16:30:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:208",
-    "n": "Man City v Nott'm Forest",
-    "t": "2027-01-16T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:228",
-    "n": "Man City v Arsenal",
-    "t": "2027-01-30T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:258",
-    "n": "Man City v Newcastle",
-    "t": "2027-02-20T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:278",
-    "n": "Man City v Everton",
-    "t": "2027-03-03T20:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:298",
-    "n": "Man City v Man Utd",
-    "t": "2027-03-20T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:318",
-    "n": "Man City v Crystal Palace",
-    "t": "2027-04-17T14:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:339",
-    "n": "Man City v Brentford",
-    "t": "2027-05-01T14:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:347",
-    "n": "Man City v Liverpool",
-    "t": "2027-05-08T14:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:367",
-    "n": "Man City v Aston Villa",
-    "t": "2027-05-23T14:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   }
-  ],
-  "craven-cottage": [
-   {
-    "id": "fxd:epl-2026:45",
-    "n": "Fulham v Man Utd",
-    "t": "2026-09-20T15:30:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:65",
-    "n": "Fulham v Hull",
-    "t": "2026-10-17T14:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:95",
-    "n": "Fulham v Newcastle",
-    "t": "2026-11-07T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:115",
-    "n": "Fulham v Bournemouth",
-    "t": "2026-11-28T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:145",
-    "n": "Fulham v Brentford",
-    "t": "2026-12-12T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:165",
-    "n": "Fulham v Brighton",
-    "t": "2026-12-26T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:175",
-    "n": "Fulham v Arsenal",
-    "t": "2026-12-30T19:30:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:195",
-    "n": "Fulham v Spurs",
-    "t": "2027-01-06T19:30:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:215",
-    "n": "Fulham v Aston Villa",
-    "t": "2027-01-23T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:235",
-    "n": "Fulham v Man City",
-    "t": "2027-02-06T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:245",
-    "n": "Fulham v Nott'm Forest",
-    "t": "2027-02-10T20:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:265",
-    "n": "Fulham v Leeds",
-    "t": "2027-02-27T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:295",
-    "n": "Fulham v Liverpool",
-    "t": "2027-03-20T15:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:315",
-    "n": "Fulham v Sunderland",
-    "t": "2027-04-17T14:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:335",
-    "n": "Fulham v Everton",
-    "t": "2027-05-01T14:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:345",
-    "n": "Fulham v Ipswich",
-    "t": "2027-05-08T14:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:epl-2026:365",
-    "n": "Fulham v Coventry",
-    "t": "2027-05-23T14:00:00Z",
-    "lg": "Premier League",
-    "sp": "Football"
-   }
-  ],
   "emirates-stadium": [
    {
     "id": "fxd:epl-2026:51",
@@ -390,7 +27,7 @@
    {
     "id": "fxd:epl-2026:111",
     "n": "Arsenal v Man City",
-    "t": "2026-11-28T15:00:00Z",
+    "t": "2026-11-29T16:30:00Z",
     "lg": "Premier League",
     "sp": "Football"
    },
@@ -746,14 +383,14 @@
    {
     "id": "fxd:epl-2026:96",
     "n": "Ipswich v Bournemouth",
-    "t": "2026-11-07T15:00:00Z",
+    "t": "2026-11-08T14:00:00Z",
     "lg": "Premier League",
     "sp": "Football"
    },
    {
     "id": "fxd:epl-2026:116",
     "n": "Ipswich v Aston Villa",
-    "t": "2026-11-28T15:00:00Z",
+    "t": "2026-11-28T17:30:00Z",
     "lg": "Premier League",
     "sp": "Football"
    },
@@ -867,14 +504,14 @@
    {
     "id": "fxd:epl-2026:100",
     "n": "Sunderland v Chelsea",
-    "t": "2026-11-07T15:00:00Z",
+    "t": "2026-11-08T14:00:00Z",
     "lg": "Premier League",
     "sp": "Football"
    },
    {
     "id": "fxd:epl-2026:120",
     "n": "Sunderland v Spurs",
-    "t": "2026-11-28T15:00:00Z",
+    "t": "2026-11-29T14:05:00Z",
     "lg": "Premier League",
     "sp": "Football"
    },
@@ -988,7 +625,7 @@
    {
     "id": "fxd:epl-2026:98",
     "n": "Man Utd v Aston Villa",
-    "t": "2026-11-07T15:00:00Z",
+    "t": "2026-11-08T16:30:00Z",
     "lg": "Premier League",
     "sp": "Football"
    },
@@ -1109,14 +746,14 @@
    {
     "id": "fxd:epl-2026:93",
     "n": "Crystal Palace v Liverpool",
-    "t": "2026-11-07T15:00:00Z",
+    "t": "2026-11-08T14:00:00Z",
     "lg": "Premier League",
     "sp": "Football"
    },
    {
     "id": "fxd:epl-2026:113",
     "n": "Crystal Palace v Hull",
-    "t": "2026-11-28T15:00:00Z",
+    "t": "2026-11-29T14:05:00Z",
     "lg": "Premier League",
     "sp": "Football"
    },
@@ -1237,7 +874,7 @@
    {
     "id": "fxd:epl-2026:106",
     "n": "Hull v Brighton",
-    "t": "2026-11-21T15:00:00Z",
+    "t": "2026-11-22T14:00:00Z",
     "lg": "Premier League",
     "sp": "Football"
    },
@@ -1358,7 +995,7 @@
    {
     "id": "fxd:epl-2026:107",
     "n": "Liverpool v Man Utd",
-    "t": "2026-11-21T15:00:00Z",
+    "t": "2026-11-22T16:30:00Z",
     "lg": "Premier League",
     "sp": "Football"
    },
@@ -1586,14 +1223,14 @@
    {
     "id": "fxd:epl-2026:94",
     "n": "Everton v Coventry",
-    "t": "2026-11-07T15:00:00Z",
+    "t": "2026-11-06T20:00:00Z",
     "lg": "Premier League",
     "sp": "Football"
    },
    {
     "id": "fxd:epl-2026:114",
     "n": "Everton v Liverpool",
-    "t": "2026-11-28T15:00:00Z",
+    "t": "2026-11-29T12:00:00Z",
     "lg": "Premier League",
     "sp": "Football"
    },
@@ -1707,7 +1344,7 @@
    {
     "id": "fxd:epl-2026:103",
     "n": "Brentford v Everton",
-    "t": "2026-11-21T15:00:00Z",
+    "t": "2026-11-23T20:00:00Z",
     "lg": "Premier League",
     "sp": "Football"
    },
@@ -1803,6 +1440,234 @@
     "sp": "Football"
    }
   ],
+  "craven-cottage": [
+   {
+    "id": "fxd:epl-2026:65",
+    "n": "Fulham v Hull",
+    "t": "2026-10-17T14:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:95",
+    "n": "Fulham v Newcastle",
+    "t": "2026-11-07T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:115",
+    "n": "Fulham v Bournemouth",
+    "t": "2026-11-29T14:05:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:145",
+    "n": "Fulham v Brentford",
+    "t": "2026-12-12T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:165",
+    "n": "Fulham v Brighton",
+    "t": "2026-12-26T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:175",
+    "n": "Fulham v Arsenal",
+    "t": "2026-12-30T19:30:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:195",
+    "n": "Fulham v Spurs",
+    "t": "2027-01-06T19:30:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:215",
+    "n": "Fulham v Aston Villa",
+    "t": "2027-01-23T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:235",
+    "n": "Fulham v Man City",
+    "t": "2027-02-06T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:245",
+    "n": "Fulham v Nott'm Forest",
+    "t": "2027-02-10T20:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:265",
+    "n": "Fulham v Leeds",
+    "t": "2027-02-27T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:295",
+    "n": "Fulham v Liverpool",
+    "t": "2027-03-20T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:315",
+    "n": "Fulham v Sunderland",
+    "t": "2027-04-17T14:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:335",
+    "n": "Fulham v Everton",
+    "t": "2027-05-01T14:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:345",
+    "n": "Fulham v Ipswich",
+    "t": "2027-05-08T14:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:365",
+    "n": "Fulham v Coventry",
+    "t": "2027-05-23T14:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   }
+  ],
+  "manchester-stadium-etihadstadium": [
+   {
+    "id": "fxd:epl-2026:67",
+    "n": "Man City v Ipswich",
+    "t": "2026-10-17T14:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:88",
+    "n": "Man City v Brighton",
+    "t": "2026-10-31T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:108",
+    "n": "Man City v Fulham",
+    "t": "2026-11-21T12:30:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:128",
+    "n": "Man City v Leeds",
+    "t": "2026-12-02T20:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:149",
+    "n": "Man City v Chelsea",
+    "t": "2026-12-12T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:158",
+    "n": "Man City v Hull",
+    "t": "2026-12-19T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:188",
+    "n": "Man City v Spurs",
+    "t": "2027-01-03T16:30:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:208",
+    "n": "Man City v Nott'm Forest",
+    "t": "2027-01-16T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:228",
+    "n": "Man City v Arsenal",
+    "t": "2027-01-30T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:258",
+    "n": "Man City v Newcastle",
+    "t": "2027-02-20T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:278",
+    "n": "Man City v Everton",
+    "t": "2027-03-03T20:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:298",
+    "n": "Man City v Man Utd",
+    "t": "2027-03-20T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:318",
+    "n": "Man City v Crystal Palace",
+    "t": "2027-04-17T14:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:339",
+    "n": "Man City v Brentford",
+    "t": "2027-05-01T14:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:347",
+    "n": "Man City v Liverpool",
+    "t": "2027-05-08T14:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:367",
+    "n": "Man City v Aston Villa",
+    "t": "2027-05-23T14:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   }
+  ],
   "newcastle-stadium-stjamespark": [
    {
     "id": "fxd:epl-2026:68",
@@ -1821,7 +1686,7 @@
    {
     "id": "fxd:epl-2026:109",
     "n": "Newcastle v Arsenal",
-    "t": "2026-11-21T15:00:00Z",
+    "t": "2026-11-21T17:30:00Z",
     "lg": "Premier League",
     "sp": "Football"
    },
@@ -1917,6 +1782,120 @@
     "sp": "Football"
    }
   ],
+  "leeds-stadium-ellandroad": [
+   {
+    "id": "fxd:epl-2026:66",
+    "n": "Leeds v Man Utd",
+    "t": "2026-10-18T13:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:97",
+    "n": "Leeds v Spurs",
+    "t": "2026-11-07T12:30:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:117",
+    "n": "Leeds v Coventry",
+    "t": "2026-11-28T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:136",
+    "n": "Leeds v Ipswich",
+    "t": "2026-12-05T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:156",
+    "n": "Leeds v Fulham",
+    "t": "2026-12-19T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:186",
+    "n": "Leeds v Everton",
+    "t": "2027-01-01T20:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:197",
+    "n": "Leeds v Man City",
+    "t": "2027-01-06T20:15:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:217",
+    "n": "Leeds v Chelsea",
+    "t": "2027-01-23T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:237",
+    "n": "Leeds v Bournemouth",
+    "t": "2027-02-06T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:256",
+    "n": "Leeds v Aston Villa",
+    "t": "2027-02-20T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:276",
+    "n": "Leeds v Hull",
+    "t": "2027-03-03T20:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:286",
+    "n": "Leeds v Brighton",
+    "t": "2027-03-13T15:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:306",
+    "n": "Leeds v Nott'm Forest",
+    "t": "2027-04-10T14:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:326",
+    "n": "Leeds v Liverpool",
+    "t": "2027-04-24T14:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:346",
+    "n": "Leeds v Arsenal",
+    "t": "2027-05-08T14:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:epl-2026:366",
+    "n": "Leeds v Sunderland",
+    "t": "2027-05-23T14:00:00Z",
+    "lg": "Premier League",
+    "sp": "Football"
+   }
+  ],
   "cityground": [
    {
     "id": "fxd:epl-2026:69",
@@ -1928,14 +1907,14 @@
    {
     "id": "fxd:epl-2026:99",
     "n": "Nott'm Forest v Man City",
-    "t": "2026-11-07T15:00:00Z",
+    "t": "2026-11-07T17:30:00Z",
     "lg": "Premier League",
     "sp": "Football"
    },
    {
     "id": "fxd:epl-2026:119",
     "n": "Nott'm Forest v Chelsea",
-    "t": "2026-11-28T15:00:00Z",
+    "t": "2026-11-27T20:00:00Z",
     "lg": "Premier League",
     "sp": "Football"
    },
@@ -2161,13 +2140,6 @@
   ],
   "molineux-stadium": [
    {
-    "id": "fxd:championship-2026:95",
-    "n": "Wolverhampton Wanderers v West Bromwich Albion",
-    "t": "2026-09-20T11:00:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
     "id": "fxd:championship-2026:115",
     "n": "Wolverhampton Wanderers v Bolton Wanderers",
     "t": "2026-10-13T18:45:00Z",
@@ -2303,148 +2275,6 @@
    {
     "id": "fxd:championship-2026:540",
     "n": "Wolverhampton Wanderers v Queens Park Rangers",
-    "t": "2027-04-24T14:00:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   }
-  ],
-  "carrowroad": [
-   {
-    "id": "fxd:championship-2026:91",
-    "n": "Norwich City v Bolton Wanderers",
-    "t": "2026-09-20T12:30:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:118",
-    "n": "Norwich City v Southampton",
-    "t": "2026-10-14T18:45:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:127",
-    "n": "Norwich City v Portsmouth",
-    "t": "2026-10-17T14:00:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:150",
-    "n": "Norwich City v Watford",
-    "t": "2026-10-31T12:30:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:186",
-    "n": "Norwich City v Cardiff City",
-    "t": "2026-11-21T12:30:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:197",
-    "n": "Norwich City v Queens Park Rangers",
-    "t": "2026-11-24T19:45:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:223",
-    "n": "Norwich City v Wrexham",
-    "t": "2026-12-05T15:00:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:259",
-    "n": "Norwich City v Wolverhampton Wanderers",
-    "t": "2026-12-19T15:00:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:283",
-    "n": "Norwich City v Charlton Athletic",
-    "t": "2026-12-29T19:45:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:295",
-    "n": "Norwich City v Lincoln City",
-    "t": "2027-01-01T15:00:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:329",
-    "n": "Norwich City v Derby County",
-    "t": "2027-01-26T19:45:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:342",
-    "n": "Norwich City v Bristol City",
-    "t": "2027-01-30T15:00:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:367",
-    "n": "Norwich City v Middlesbrough",
-    "t": "2027-02-13T15:00:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:403",
-    "n": "Norwich City v Swansea City",
-    "t": "2027-02-27T15:00:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:415",
-    "n": "Norwich City v Millwall",
-    "t": "2027-03-02T19:45:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:439",
-    "n": "Norwich City v Preston North End",
-    "t": "2027-03-13T15:00:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:463",
-    "n": "Norwich City v West Ham United",
-    "t": "2027-03-20T15:00:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:500",
-    "n": "Norwich City v Sheffield United",
-    "t": "2027-04-10T14:00:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:521",
-    "n": "Norwich City v Stoke City",
-    "t": "2027-04-20T18:45:00Z",
-    "lg": "EFL Championship",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:championship-2026:535",
-    "n": "Norwich City v Blackburn Rovers",
     "t": "2027-04-24T14:00:00Z",
     "lg": "EFL Championship",
     "sp": "Football"
@@ -4745,6 +4575,141 @@
     "sp": "Football"
    }
   ],
+  "carrowroad": [
+   {
+    "id": "fxd:championship-2026:118",
+    "n": "Norwich City v Southampton",
+    "t": "2026-10-14T18:45:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:127",
+    "n": "Norwich City v Portsmouth",
+    "t": "2026-10-17T14:00:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:150",
+    "n": "Norwich City v Watford",
+    "t": "2026-10-31T12:30:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:186",
+    "n": "Norwich City v Cardiff City",
+    "t": "2026-11-21T12:30:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:197",
+    "n": "Norwich City v Queens Park Rangers",
+    "t": "2026-11-24T19:45:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:223",
+    "n": "Norwich City v Wrexham",
+    "t": "2026-12-05T15:00:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:259",
+    "n": "Norwich City v Wolverhampton Wanderers",
+    "t": "2026-12-19T15:00:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:283",
+    "n": "Norwich City v Charlton Athletic",
+    "t": "2026-12-29T19:45:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:295",
+    "n": "Norwich City v Lincoln City",
+    "t": "2027-01-01T15:00:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:329",
+    "n": "Norwich City v Derby County",
+    "t": "2027-01-26T19:45:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:342",
+    "n": "Norwich City v Bristol City",
+    "t": "2027-01-30T15:00:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:367",
+    "n": "Norwich City v Middlesbrough",
+    "t": "2027-02-13T15:00:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:403",
+    "n": "Norwich City v Swansea City",
+    "t": "2027-02-27T15:00:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:415",
+    "n": "Norwich City v Millwall",
+    "t": "2027-03-02T19:45:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:439",
+    "n": "Norwich City v Preston North End",
+    "t": "2027-03-13T15:00:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:463",
+    "n": "Norwich City v West Ham United",
+    "t": "2027-03-20T15:00:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:500",
+    "n": "Norwich City v Sheffield United",
+    "t": "2027-04-10T14:00:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:521",
+    "n": "Norwich City v Stoke City",
+    "t": "2027-04-20T18:45:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:championship-2026:535",
+    "n": "Norwich City v Blackburn Rovers",
+    "t": "2027-04-24T14:00:00Z",
+    "lg": "EFL Championship",
+    "sp": "Football"
+   }
+  ],
   "frattonpark": [
    {
     "id": "fxd:championship-2026:119",
@@ -5136,348 +5101,6 @@
     "sp": "Football"
    }
   ],
-  "madrid-stadium-coliseum": [
-   {
-    "id": "fxd:la-liga-2026:66",
-    "n": "Getafe CF v Málaga CF",
-    "t": "2026-09-20T12:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:85",
-    "n": "Getafe CF v Rayo Vallecano",
-    "t": "2026-10-19T19:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:106",
-    "n": "Getafe CF v Sevilla FC",
-    "t": "2026-11-01T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:124",
-    "n": "Getafe CF v Atlético de Madrid",
-    "t": "2026-11-22T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:145",
-    "n": "Getafe CF v Valencia CF",
-    "t": "2026-12-06T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:166",
-    "n": "Getafe CF v Levante UD",
-    "t": "2026-12-20T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:195",
-    "n": "Getafe CF v Athletic Club",
-    "t": "2027-01-17T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:206",
-    "n": "Getafe CF v CA Osasuna",
-    "t": "2027-01-24T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:228",
-    "n": "Getafe CF v Villarreal CF",
-    "t": "2027-02-07T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:254",
-    "n": "Getafe CF v Deportivo Alavés",
-    "t": "2027-02-28T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:276",
-    "n": "Getafe CF v Real Sociedad",
-    "t": "2027-03-14T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:296",
-    "n": "Getafe CF v RCD Espanyol de Barcelona",
-    "t": "2027-04-04T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:317",
-    "n": "Getafe CF v Real Madrid",
-    "t": "2027-04-18T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:324",
-    "n": "Getafe CF v Real Betis",
-    "t": "2027-04-21T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:344",
-    "n": "Getafe CF v Elche CF",
-    "t": "2027-05-09T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:375",
-    "n": "Getafe CF v FC Barcelona",
-    "t": "2027-05-30T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   }
-  ],
-  "madrid-stadium-riyadhairmetropolitano": [
-   {
-    "id": "fxd:la-liga-2026:62",
-    "n": "Atlético de Madrid v Real Madrid",
-    "t": "2026-09-20T14:15:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:93",
-    "n": "Atlético de Madrid v RC Deportivo",
-    "t": "2026-10-25T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:111",
-    "n": "Atlético de Madrid v FC Barcelona",
-    "t": "2026-11-08T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:143",
-    "n": "Atlético de Madrid v Real Betis",
-    "t": "2026-12-06T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:151",
-    "n": "Atlético de Madrid v Valencia CF",
-    "t": "2026-12-13T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:183",
-    "n": "Atlético de Madrid v R. Racing Club",
-    "t": "2027-01-10T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:191",
-    "n": "Atlético de Madrid v Real Sociedad",
-    "t": "2027-01-17T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:211",
-    "n": "Atlético de Madrid v RCD Espanyol de Barcelona",
-    "t": "2027-01-31T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:243",
-    "n": "Atlético de Madrid v Elche CF",
-    "t": "2027-02-21T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:262",
-    "n": "Atlético de Madrid v Celta",
-    "t": "2027-03-07T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:281",
-    "n": "Atlético de Madrid v Getafe CF",
-    "t": "2027-03-21T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:302",
-    "n": "Atlético de Madrid v Levante UD",
-    "t": "2027-04-11T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:312",
-    "n": "Atlético de Madrid v Sevilla FC",
-    "t": "2027-04-18T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:331",
-    "n": "Atlético de Madrid v Deportivo Alavés",
-    "t": "2027-05-02T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:351",
-    "n": "Atlético de Madrid v Rayo Vallecano",
-    "t": "2027-05-16T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:362",
-    "n": "Atlético de Madrid v Athletic Club",
-    "t": "2027-05-23T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   }
-  ],
-  "valencia-stadium-mestalla": [
-   {
-    "id": "fxd:la-liga-2026:69",
-    "n": "Valencia CF v Real Sociedad",
-    "t": "2026-09-20T19:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:89",
-    "n": "Valencia CF v Athletic Club",
-    "t": "2026-10-17T19:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:100",
-    "n": "Valencia CF v Villarreal CF",
-    "t": "2026-10-25T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:119",
-    "n": "Valencia CF v Real Madrid",
-    "t": "2026-11-08T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:140",
-    "n": "Valencia CF v CA Osasuna",
-    "t": "2026-11-29T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:170",
-    "n": "Valencia CF v RCD Espanyol de Barcelona",
-    "t": "2026-12-20T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:190",
-    "n": "Valencia CF v Málaga CF",
-    "t": "2027-01-10T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:210",
-    "n": "Valencia CF v Sevilla FC",
-    "t": "2027-01-24T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:230",
-    "n": "Valencia CF v R. Racing Club",
-    "t": "2027-02-07T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:239",
-    "n": "Valencia CF v Deportivo Alavés",
-    "t": "2027-02-14T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:269",
-    "n": "Valencia CF v Levante UD",
-    "t": "2027-03-07T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:289",
-    "n": "Valencia CF v RC Deportivo",
-    "t": "2027-03-21T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:309",
-    "n": "Valencia CF v Getafe CF",
-    "t": "2027-04-11T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:329",
-    "n": "Valencia CF v Rayo Vallecano",
-    "t": "2027-04-21T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:349",
-    "n": "Valencia CF v Atlético de Madrid",
-    "t": "2027-05-09T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:la-liga-2026:369",
-    "n": "Valencia CF v Elche CF",
-    "t": "2027-05-23T00:00:00Z",
-    "lg": "La Liga",
-    "sp": "Football"
-   }
-  ],
   "madrid-stadium-estadiodevallecas": [
    {
     "id": "fxd:la-liga-2026:78",
@@ -5489,7 +5112,7 @@
    {
     "id": "fxd:la-liga-2026:97",
     "n": "Rayo Vallecano v Elche CF",
-    "t": "2026-10-25T00:00:00Z",
+    "t": "2026-10-24T12:00:00Z",
     "lg": "La Liga",
     "sp": "Football"
    },
@@ -5838,7 +5461,7 @@
    {
     "id": "fxd:la-liga-2026:98",
     "n": "Real Sociedad v Levante UD",
-    "t": "2026-10-25T00:00:00Z",
+    "t": "2026-10-25T17:30:00Z",
     "lg": "La Liga",
     "sp": "Football"
    },
@@ -6162,11 +5785,332 @@
     "sp": "Football"
    }
   ],
+  "valencia-stadium-mestalla": [
+   {
+    "id": "fxd:la-liga-2026:89",
+    "n": "Valencia CF v Athletic Club",
+    "t": "2026-10-17T19:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:100",
+    "n": "Valencia CF v Villarreal CF",
+    "t": "2026-10-24T16:30:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:119",
+    "n": "Valencia CF v Real Madrid",
+    "t": "2026-11-08T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:140",
+    "n": "Valencia CF v CA Osasuna",
+    "t": "2026-11-29T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:170",
+    "n": "Valencia CF v RCD Espanyol de Barcelona",
+    "t": "2026-12-20T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:190",
+    "n": "Valencia CF v Málaga CF",
+    "t": "2027-01-10T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:210",
+    "n": "Valencia CF v Sevilla FC",
+    "t": "2027-01-24T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:230",
+    "n": "Valencia CF v R. Racing Club",
+    "t": "2027-02-07T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:239",
+    "n": "Valencia CF v Deportivo Alavés",
+    "t": "2027-02-14T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:269",
+    "n": "Valencia CF v Levante UD",
+    "t": "2027-03-07T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:289",
+    "n": "Valencia CF v RC Deportivo",
+    "t": "2027-03-21T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:309",
+    "n": "Valencia CF v Getafe CF",
+    "t": "2027-04-11T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:329",
+    "n": "Valencia CF v Rayo Vallecano",
+    "t": "2027-04-21T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:349",
+    "n": "Valencia CF v Atlético de Madrid",
+    "t": "2027-05-09T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:369",
+    "n": "Valencia CF v Elche CF",
+    "t": "2027-05-23T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   }
+  ],
+  "madrid-stadium-coliseum": [
+   {
+    "id": "fxd:la-liga-2026:85",
+    "n": "Getafe CF v Rayo Vallecano",
+    "t": "2026-10-19T19:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:106",
+    "n": "Getafe CF v Sevilla FC",
+    "t": "2026-11-01T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:124",
+    "n": "Getafe CF v Atlético de Madrid",
+    "t": "2026-11-22T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:145",
+    "n": "Getafe CF v Valencia CF",
+    "t": "2026-12-06T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:166",
+    "n": "Getafe CF v Levante UD",
+    "t": "2026-12-20T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:195",
+    "n": "Getafe CF v Athletic Club",
+    "t": "2027-01-17T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:206",
+    "n": "Getafe CF v CA Osasuna",
+    "t": "2027-01-24T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:228",
+    "n": "Getafe CF v Villarreal CF",
+    "t": "2027-02-07T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:254",
+    "n": "Getafe CF v Deportivo Alavés",
+    "t": "2027-02-28T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:276",
+    "n": "Getafe CF v Real Sociedad",
+    "t": "2027-03-14T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:296",
+    "n": "Getafe CF v RCD Espanyol de Barcelona",
+    "t": "2027-04-04T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:317",
+    "n": "Getafe CF v Real Madrid",
+    "t": "2027-04-18T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:324",
+    "n": "Getafe CF v Real Betis",
+    "t": "2027-04-21T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:344",
+    "n": "Getafe CF v Elche CF",
+    "t": "2027-05-09T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:375",
+    "n": "Getafe CF v FC Barcelona",
+    "t": "2027-05-30T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   }
+  ],
+  "madrid-stadium-riyadhairmetropolitano": [
+   {
+    "id": "fxd:la-liga-2026:93",
+    "n": "Atlético de Madrid v RC Deportivo",
+    "t": "2026-10-24T19:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:111",
+    "n": "Atlético de Madrid v FC Barcelona",
+    "t": "2026-11-08T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:143",
+    "n": "Atlético de Madrid v Real Betis",
+    "t": "2026-12-06T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:151",
+    "n": "Atlético de Madrid v Valencia CF",
+    "t": "2026-12-13T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:183",
+    "n": "Atlético de Madrid v R. Racing Club",
+    "t": "2027-01-10T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:191",
+    "n": "Atlético de Madrid v Real Sociedad",
+    "t": "2027-01-17T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:211",
+    "n": "Atlético de Madrid v RCD Espanyol de Barcelona",
+    "t": "2027-01-31T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:243",
+    "n": "Atlético de Madrid v Elche CF",
+    "t": "2027-02-21T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:262",
+    "n": "Atlético de Madrid v Celta",
+    "t": "2027-03-07T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:281",
+    "n": "Atlético de Madrid v Getafe CF",
+    "t": "2027-03-21T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:302",
+    "n": "Atlético de Madrid v Levante UD",
+    "t": "2027-04-11T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:312",
+    "n": "Atlético de Madrid v Sevilla FC",
+    "t": "2027-04-18T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:331",
+    "n": "Atlético de Madrid v Deportivo Alavés",
+    "t": "2027-05-02T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:351",
+    "n": "Atlético de Madrid v Rayo Vallecano",
+    "t": "2027-05-16T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:la-liga-2026:362",
+    "n": "Atlético de Madrid v Athletic Club",
+    "t": "2027-05-23T00:00:00Z",
+    "lg": "La Liga",
+    "sp": "Football"
+   }
+  ],
   "sanmamesstadium": [
    {
     "id": "fxd:la-liga-2026:92",
     "n": "Athletic Club v Getafe CF",
-    "t": "2026-10-25T00:00:00Z",
+    "t": "2026-10-25T13:00:00Z",
     "lg": "La Liga",
     "sp": "Football"
    },
@@ -6273,7 +6217,7 @@
    {
     "id": "fxd:la-liga-2026:99",
     "n": "Sevilla FC v CA Osasuna",
-    "t": "2026-10-25T00:00:00Z",
+    "t": "2026-10-26T20:00:00Z",
     "lg": "La Liga",
     "sp": "Football"
    },
@@ -6373,120 +6317,6 @@
     "n": "Sevilla FC v Getafe CF",
     "t": "2027-05-23T00:00:00Z",
     "lg": "La Liga",
-    "sp": "Football"
-   }
-  ],
-  "bayarena": [
-   {
-    "id": "fxd:bundesliga-2026:34",
-    "n": "Bayer 04 Leverkusen v RB Leipzig",
-    "t": "2026-09-20T13:30:00Z",
-    "lg": "Bundesliga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:bundesliga-2026:53",
-    "n": "Bayer 04 Leverkusen v Sport-Club Freiburg",
-    "t": "2026-10-16T00:00:00Z",
-    "lg": "Bundesliga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:bundesliga-2026:71",
-    "n": "Bayer 04 Leverkusen v VfB Stuttgart",
-    "t": "2026-10-30T00:00:00Z",
-    "lg": "Bundesliga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:bundesliga-2026:89",
-    "n": "Bayer 04 Leverkusen v SC Paderborn 07",
-    "t": "2026-11-20T00:00:00Z",
-    "lg": "Bundesliga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:bundesliga-2026:106",
-    "n": "Bayer 04 Leverkusen v Borussia Mönchengladbach",
-    "t": "2026-12-04T00:00:00Z",
-    "lg": "Bundesliga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:bundesliga-2026:124",
-    "n": "Bayer 04 Leverkusen v Eintracht Frankfurt",
-    "t": "2026-12-18T00:00:00Z",
-    "lg": "Bundesliga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:bundesliga-2026:150",
-    "n": "Bayer 04 Leverkusen v FC Schalke 04",
-    "t": "2027-01-15T00:00:00Z",
-    "lg": "Bundesliga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:bundesliga-2026:160",
-    "n": "Bayer 04 Leverkusen v SV Elversberg",
-    "t": "2027-01-22T00:00:00Z",
-    "lg": "Bundesliga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:bundesliga-2026:178",
-    "n": "Bayer 04 Leverkusen v FC Augsburg",
-    "t": "2027-02-05T00:00:00Z",
-    "lg": "Bundesliga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:bundesliga-2026:196",
-    "n": "Bayer 04 Leverkusen v 1. FSV Mainz 05",
-    "t": "2027-02-19T00:00:00Z",
-    "lg": "Bundesliga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:bundesliga-2026:215",
-    "n": "Bayer 04 Leverkusen v TSG Hoffenheim",
-    "t": "2027-03-02T00:00:00Z",
-    "lg": "Bundesliga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:bundesliga-2026:233",
-    "n": "Bayer 04 Leverkusen v 1. FC Köln",
-    "t": "2027-03-12T00:00:00Z",
-    "lg": "Bundesliga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:bundesliga-2026:250",
-    "n": "Bayer 04 Leverkusen v Borussia Dortmund",
-    "t": "2027-04-02T00:00:00Z",
-    "lg": "Bundesliga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:bundesliga-2026:268",
-    "n": "Bayer 04 Leverkusen v SV Werder Bremen",
-    "t": "2027-04-16T00:00:00Z",
-    "lg": "Bundesliga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:bundesliga-2026:286",
-    "n": "Bayer 04 Leverkusen v Hamburger SV",
-    "t": "2027-05-07T00:00:00Z",
-    "lg": "Bundesliga",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:bundesliga-2026:294",
-    "n": "Bayer 04 Leverkusen v FC Bayern München",
-    "t": "2027-05-14T00:00:00Z",
-    "lg": "Bundesliga",
     "sp": "Football"
    }
   ],
@@ -7025,14 +6855,114 @@
     "sp": "Football"
    }
   ],
-  "turin-stadium-allianzstadium": [
+  "bayarena": [
    {
-    "id": "fxd:serie-a-2026:44",
-    "n": "Juventus v Atalanta",
-    "t": "2026-09-20T16:00:00Z",
-    "lg": "Serie A",
+    "id": "fxd:bundesliga-2026:53",
+    "n": "Bayer 04 Leverkusen v Sport-Club Freiburg",
+    "t": "2026-10-16T00:00:00Z",
+    "lg": "Bundesliga",
     "sp": "Football"
    },
+   {
+    "id": "fxd:bundesliga-2026:71",
+    "n": "Bayer 04 Leverkusen v VfB Stuttgart",
+    "t": "2026-10-30T00:00:00Z",
+    "lg": "Bundesliga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:bundesliga-2026:89",
+    "n": "Bayer 04 Leverkusen v SC Paderborn 07",
+    "t": "2026-11-20T00:00:00Z",
+    "lg": "Bundesliga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:bundesliga-2026:106",
+    "n": "Bayer 04 Leverkusen v Borussia Mönchengladbach",
+    "t": "2026-12-04T00:00:00Z",
+    "lg": "Bundesliga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:bundesliga-2026:124",
+    "n": "Bayer 04 Leverkusen v Eintracht Frankfurt",
+    "t": "2026-12-18T00:00:00Z",
+    "lg": "Bundesliga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:bundesliga-2026:150",
+    "n": "Bayer 04 Leverkusen v FC Schalke 04",
+    "t": "2027-01-15T00:00:00Z",
+    "lg": "Bundesliga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:bundesliga-2026:160",
+    "n": "Bayer 04 Leverkusen v SV Elversberg",
+    "t": "2027-01-22T00:00:00Z",
+    "lg": "Bundesliga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:bundesliga-2026:178",
+    "n": "Bayer 04 Leverkusen v FC Augsburg",
+    "t": "2027-02-05T00:00:00Z",
+    "lg": "Bundesliga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:bundesliga-2026:196",
+    "n": "Bayer 04 Leverkusen v 1. FSV Mainz 05",
+    "t": "2027-02-19T00:00:00Z",
+    "lg": "Bundesliga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:bundesliga-2026:215",
+    "n": "Bayer 04 Leverkusen v TSG Hoffenheim",
+    "t": "2027-03-02T00:00:00Z",
+    "lg": "Bundesliga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:bundesliga-2026:233",
+    "n": "Bayer 04 Leverkusen v 1. FC Köln",
+    "t": "2027-03-12T00:00:00Z",
+    "lg": "Bundesliga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:bundesliga-2026:250",
+    "n": "Bayer 04 Leverkusen v Borussia Dortmund",
+    "t": "2027-04-02T00:00:00Z",
+    "lg": "Bundesliga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:bundesliga-2026:268",
+    "n": "Bayer 04 Leverkusen v SV Werder Bremen",
+    "t": "2027-04-16T00:00:00Z",
+    "lg": "Bundesliga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:bundesliga-2026:286",
+    "n": "Bayer 04 Leverkusen v Hamburger SV",
+    "t": "2027-05-07T00:00:00Z",
+    "lg": "Bundesliga",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:bundesliga-2026:294",
+    "n": "Bayer 04 Leverkusen v FC Bayern München",
+    "t": "2027-05-14T00:00:00Z",
+    "lg": "Bundesliga",
+    "sp": "Football"
+   }
+  ],
+  "turin-stadium-allianzstadium": [
    {
     "id": "fxd:mls-2026:420",
     "n": "Minnesota United FC v Houston Dynamo FC",
@@ -7099,7 +7029,7 @@
    {
     "id": "fxd:serie-a-2026:114",
     "n": "Juventus v Venezia",
-    "t": "2026-11-23T19:45:00Z",
+    "t": "2026-11-22T11:30:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
@@ -7113,14 +7043,14 @@
    {
     "id": "fxd:serie-a-2026:135",
     "n": "Juventus v Udinese",
-    "t": "2026-12-05T00:00:00Z",
+    "t": "2026-12-06T17:00:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:145",
     "n": "Juventus v Monza",
-    "t": "2026-12-12T00:00:00Z",
+    "t": "2026-12-14T19:45:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
@@ -7134,7 +7064,7 @@
    {
     "id": "fxd:serie-a-2026:174",
     "n": "Juventus v Torino",
-    "t": "2027-01-05T00:00:00Z",
+    "t": "2027-01-06T11:30:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
@@ -7279,127 +7209,6 @@
     "sp": "Football"
    }
   ],
-  "florence-stadium-stadioartemiofranchi": [
-   {
-    "id": "fxd:serie-a-2026:42",
-    "n": "Fiorentina v Napoli",
-    "t": "2026-09-20T10:30:00Z",
-    "lg": "Serie A",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:serie-a-2026:62",
-    "n": "Fiorentina v Como",
-    "t": "2026-10-18T13:00:00Z",
-    "lg": "Serie A",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:serie-a-2026:81",
-    "n": "Fiorentina v Atalanta",
-    "t": "2026-10-29T19:45:00Z",
-    "lg": "Serie A",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:serie-a-2026:102",
-    "n": "Fiorentina v Juventus",
-    "t": "2026-11-08T19:45:00Z",
-    "lg": "Serie A",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:serie-a-2026:132",
-    "n": "Fiorentina v Cagliari",
-    "t": "2026-12-05T00:00:00Z",
-    "lg": "Serie A",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:serie-a-2026:152",
-    "n": "Fiorentina v Bologna",
-    "t": "2026-12-19T00:00:00Z",
-    "lg": "Serie A",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:serie-a-2026:164",
-    "n": "Fiorentina v Lazio",
-    "t": "2027-01-02T00:00:00Z",
-    "lg": "Serie A",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:serie-a-2026:184",
-    "n": "Fiorentina v Lecce",
-    "t": "2027-01-09T00:00:00Z",
-    "lg": "Serie A",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:serie-a-2026:203",
-    "n": "Fiorentina v Sassuolo",
-    "t": "2027-01-23T00:00:00Z",
-    "lg": "Serie A",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:serie-a-2026:224",
-    "n": "Fiorentina v Udinese",
-    "t": "2027-02-06T00:00:00Z",
-    "lg": "Serie A",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:serie-a-2026:243",
-    "n": "Fiorentina v Internazionale",
-    "t": "2027-02-20T00:00:00Z",
-    "lg": "Serie A",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:serie-a-2026:262",
-    "n": "Fiorentina v Venezia",
-    "t": "2027-03-06T00:00:00Z",
-    "lg": "Serie A",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:serie-a-2026:282",
-    "n": "Fiorentina v Genoa",
-    "t": "2027-03-20T00:00:00Z",
-    "lg": "Serie A",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:serie-a-2026:303",
-    "n": "Fiorentina v Milan",
-    "t": "2027-04-10T00:00:00Z",
-    "lg": "Serie A",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:serie-a-2026:314",
-    "n": "Fiorentina v Parma",
-    "t": "2027-04-17T00:00:00Z",
-    "lg": "Serie A",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:serie-a-2026:341",
-    "n": "Fiorentina v Roma",
-    "t": "2027-05-08T00:00:00Z",
-    "lg": "Serie A",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:serie-a-2026:362",
-    "n": "Fiorentina v Monza",
-    "t": "2027-05-22T00:00:00Z",
-    "lg": "Serie A",
-    "sp": "Football"
-   }
-  ],
   "stadioluigiferraris": [
    {
     "id": "fxd:serie-a-2026:54",
@@ -7432,21 +7241,21 @@
    {
     "id": "fxd:serie-a-2026:134",
     "n": "Genoa v Torino",
-    "t": "2026-12-05T00:00:00Z",
+    "t": "2026-12-06T11:30:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:154",
     "n": "Genoa v Udinese",
-    "t": "2026-12-19T00:00:00Z",
+    "t": "2026-12-20T17:00:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:173",
     "n": "Genoa v Monza",
-    "t": "2027-01-05T00:00:00Z",
+    "t": "2027-01-05T17:30:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
@@ -7546,21 +7355,21 @@
    {
     "id": "fxd:serie-a-2026:139",
     "n": "Napoli v Lecce",
-    "t": "2026-12-05T00:00:00Z",
+    "t": "2026-12-05T19:45:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:148",
     "n": "Napoli v Milan",
-    "t": "2026-12-12T00:00:00Z",
+    "t": "2026-12-13T19:45:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:178",
     "n": "Napoli v Cagliari",
-    "t": "2027-01-05T00:00:00Z",
+    "t": "2027-01-07T19:45:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
@@ -7667,28 +7476,28 @@
    {
     "id": "fxd:serie-a-2026:122",
     "n": "Como v Juventus",
-    "t": "2026-11-28T00:00:00Z",
+    "t": "2026-11-29T19:45:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:143",
     "n": "Como v Bologna",
-    "t": "2026-12-12T00:00:00Z",
+    "t": "2026-12-12T19:45:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:163",
     "n": "Como v Lecce",
-    "t": "2027-01-02T00:00:00Z",
+    "t": "2027-01-03T14:00:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:183",
     "n": "Como v Lazio",
-    "t": "2027-01-09T00:00:00Z",
+    "t": "2027-01-10T11:30:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
@@ -7816,49 +7625,49 @@
    {
     "id": "fxd:serie-a-2026:126",
     "n": "Roma v Monza",
-    "t": "2026-11-28T00:00:00Z",
+    "t": "2026-11-29T17:00:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:136",
     "n": "Lazio v Atalanta",
-    "t": "2026-12-05T00:00:00Z",
+    "t": "2026-12-06T14:00:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:146",
     "n": "Lazio v Roma",
-    "t": "2026-12-12T00:00:00Z",
+    "t": "2026-12-13T11:30:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:157",
     "n": "Roma v Juventus",
-    "t": "2026-12-19T00:00:00Z",
+    "t": "2026-12-19T19:45:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:168",
     "n": "Roma v Frosinone",
-    "t": "2027-01-02T00:00:00Z",
+    "t": "2027-01-02T17:00:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:175",
     "n": "Lazio v Internazionale",
-    "t": "2027-01-05T00:00:00Z",
+    "t": "2027-01-06T19:45:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:188",
     "n": "Roma v Milan",
-    "t": "2027-01-09T00:00:00Z",
+    "t": "2027-01-09T17:00:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
@@ -8021,28 +7830,28 @@
    {
     "id": "fxd:serie-a-2026:121",
     "n": "Cagliari v Milan",
-    "t": "2026-11-28T00:00:00Z",
+    "t": "2026-11-30T19:45:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:142",
     "n": "Cagliari v Venezia",
-    "t": "2026-12-12T00:00:00Z",
+    "t": "2026-12-12T14:00:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:162",
     "n": "Cagliari v Genoa",
-    "t": "2027-01-02T00:00:00Z",
+    "t": "2027-01-02T11:30:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:182",
     "n": "Cagliari v Sassuolo",
-    "t": "2027-01-09T00:00:00Z",
+    "t": "2027-01-11T17:30:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
@@ -8149,28 +7958,28 @@
    {
     "id": "fxd:serie-a-2026:128",
     "n": "Torino v Lazio",
-    "t": "2026-11-28T00:00:00Z",
+    "t": "2026-11-28T17:00:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:159",
     "n": "Torino v Cagliari",
-    "t": "2026-12-19T00:00:00Z",
+    "t": "2026-12-20T14:00:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:169",
     "n": "Torino v Venezia",
-    "t": "2027-01-02T00:00:00Z",
+    "t": "2027-01-02T14:00:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:189",
     "n": "Torino v Atalanta",
-    "t": "2027-01-09T00:00:00Z",
+    "t": "2027-01-10T17:00:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
@@ -8256,28 +8065,28 @@
    {
     "id": "fxd:serie-a-2026:112",
     "n": "Bologna v Udinese",
-    "t": "2026-11-22T17:00:00Z",
+    "t": "2026-11-22T14:00:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:131",
     "n": "Bologna v Roma",
-    "t": "2026-12-05T00:00:00Z",
+    "t": "2026-12-04T19:45:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:161",
     "n": "Bologna v Juventus",
-    "t": "2027-01-02T00:00:00Z",
+    "t": "2027-01-03T19:45:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
    {
     "id": "fxd:serie-a-2026:181",
     "n": "Bologna v Genoa",
-    "t": "2027-01-09T00:00:00Z",
+    "t": "2027-01-09T19:45:00Z",
     "lg": "Serie A",
     "sp": "Football"
    },
@@ -8352,217 +8161,117 @@
     "sp": "Football"
    }
   ],
-  "nice-stadium-allianzriviera": [
+  "florence-stadium-stadioartemiofranchi": [
    {
-    "id": "fxd:ligue-1-2026:43",
-    "n": "OGC Nice v LOSC Lille",
-    "t": "2026-09-20T15:15:00Z",
-    "lg": "Ligue 1",
+    "id": "fxd:serie-a-2026:62",
+    "n": "Fiorentina v Como",
+    "t": "2026-10-18T13:00:00Z",
+    "lg": "Serie A",
     "sp": "Football"
    },
    {
-    "id": "fxd:ligue-1-2026:51",
-    "n": "OGC Nice v RC Strasbourg Alsace",
-    "t": "2026-10-11T13:00:00Z",
-    "lg": "Ligue 1",
+    "id": "fxd:serie-a-2026:81",
+    "n": "Fiorentina v Atalanta",
+    "t": "2026-10-29T19:45:00Z",
+    "lg": "Serie A",
     "sp": "Football"
    },
    {
-    "id": "fxd:ligue-1-2026:78",
-    "n": "OGC Nice v Stade Rennais FC",
-    "t": "2026-10-31T16:15:00Z",
-    "lg": "Ligue 1",
+    "id": "fxd:serie-a-2026:102",
+    "n": "Fiorentina v Juventus",
+    "t": "2026-11-08T19:45:00Z",
+    "lg": "Serie A",
     "sp": "Football"
    },
    {
-    "id": "fxd:ligue-1-2026:96",
-    "n": "OGC Nice v Paris Saint-Germain",
-    "t": "2026-11-21T16:15:00Z",
-    "lg": "Ligue 1",
+    "id": "fxd:serie-a-2026:132",
+    "n": "Fiorentina v Cagliari",
+    "t": "2026-12-07T19:45:00Z",
+    "lg": "Serie A",
     "sp": "Football"
    },
    {
-    "id": "fxd:ligue-1-2026:106",
-    "n": "OGC Nice v Estac Troyes",
-    "t": "2026-11-28T19:45:00Z",
-    "lg": "Ligue 1",
+    "id": "fxd:serie-a-2026:152",
+    "n": "Fiorentina v Bologna",
+    "t": "2026-12-20T11:30:00Z",
+    "lg": "Serie A",
     "sp": "Football"
    },
    {
-    "id": "fxd:ligue-1-2026:124",
-    "n": "OGC Nice v RC Lens",
-    "t": "2026-12-11T23:00:00Z",
-    "lg": "Ligue 1",
+    "id": "fxd:serie-a-2026:164",
+    "n": "Fiorentina v Lazio",
+    "t": "2027-01-02T14:00:00Z",
+    "lg": "Serie A",
     "sp": "Football"
    },
    {
-    "id": "fxd:ligue-1-2026:141",
-    "n": "OGC Nice v Havre Athletic Club",
-    "t": "2027-01-15T23:00:00Z",
-    "lg": "Ligue 1",
+    "id": "fxd:serie-a-2026:184",
+    "n": "Fiorentina v Lecce",
+    "t": "2027-01-10T14:00:00Z",
+    "lg": "Serie A",
     "sp": "Football"
    },
    {
-    "id": "fxd:ligue-1-2026:167",
-    "n": "OGC Nice v Stade Brestois 29",
-    "t": "2027-02-05T23:00:00Z",
-    "lg": "Ligue 1",
+    "id": "fxd:serie-a-2026:203",
+    "n": "Fiorentina v Sassuolo",
+    "t": "2027-01-23T00:00:00Z",
+    "lg": "Serie A",
     "sp": "Football"
    },
    {
-    "id": "fxd:ligue-1-2026:185",
-    "n": "OGC Nice v AJ Auxerre",
-    "t": "2027-02-19T23:00:00Z",
-    "lg": "Ligue 1",
+    "id": "fxd:serie-a-2026:224",
+    "n": "Fiorentina v Udinese",
+    "t": "2027-02-06T00:00:00Z",
+    "lg": "Serie A",
     "sp": "Football"
    },
    {
-    "id": "fxd:ligue-1-2026:214",
-    "n": "OGC Nice v Toulouse FC",
-    "t": "2027-03-12T23:00:00Z",
-    "lg": "Ligue 1",
+    "id": "fxd:serie-a-2026:243",
+    "n": "Fiorentina v Internazionale",
+    "t": "2027-02-20T00:00:00Z",
+    "lg": "Serie A",
     "sp": "Football"
    },
    {
-    "id": "fxd:ligue-1-2026:232",
-    "n": "OGC Nice v Olympique Lyonnais",
-    "t": "2027-04-02T22:00:00Z",
-    "lg": "Ligue 1",
+    "id": "fxd:serie-a-2026:262",
+    "n": "Fiorentina v Venezia",
+    "t": "2027-03-06T00:00:00Z",
+    "lg": "Serie A",
     "sp": "Football"
    },
    {
-    "id": "fxd:ligue-1-2026:241",
-    "n": "OGC Nice v Paris FC",
-    "t": "2027-04-09T22:00:00Z",
-    "lg": "Ligue 1",
+    "id": "fxd:serie-a-2026:282",
+    "n": "Fiorentina v Genoa",
+    "t": "2027-03-20T00:00:00Z",
+    "lg": "Serie A",
     "sp": "Football"
    },
    {
-    "id": "fxd:ligue-1-2026:258",
-    "n": "OGC Nice v Angers SCO",
-    "t": "2027-04-23T22:00:00Z",
-    "lg": "Ligue 1",
+    "id": "fxd:serie-a-2026:303",
+    "n": "Fiorentina v Milan",
+    "t": "2027-04-10T00:00:00Z",
+    "lg": "Serie A",
     "sp": "Football"
    },
    {
-    "id": "fxd:ligue-1-2026:277",
-    "n": "OGC Nice v Olympique de Marseille",
-    "t": "2027-05-07T22:00:00Z",
-    "lg": "Ligue 1",
+    "id": "fxd:serie-a-2026:314",
+    "n": "Fiorentina v Parma",
+    "t": "2027-04-17T00:00:00Z",
+    "lg": "Serie A",
     "sp": "Football"
    },
    {
-    "id": "fxd:ligue-1-2026:294",
-    "n": "OGC Nice v AS Monaco",
-    "t": "2027-05-21T22:00:00Z",
-    "lg": "Ligue 1",
-    "sp": "Football"
-   }
-  ],
-  "marseille-stadium-stadevelodrome": [
-   {
-    "id": "fxd:ligue-1-2026:41",
-    "n": "Olympique de Marseille v Paris Saint-Germain",
-    "t": "2026-09-20T18:45:00Z",
-    "lg": "Ligue 1",
+    "id": "fxd:serie-a-2026:341",
+    "n": "Fiorentina v Roma",
+    "t": "2027-05-08T00:00:00Z",
+    "lg": "Serie A",
     "sp": "Football"
    },
    {
-    "id": "fxd:ligue-1-2026:68",
-    "n": "Olympique de Marseille v Havre Athletic Club",
-    "t": "2026-10-25T16:15:00Z",
-    "lg": "Ligue 1",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:ligue-1-2026:77",
-    "n": "Olympique de Marseille v Toulouse FC",
-    "t": "2026-11-01T19:45:00Z",
-    "lg": "Ligue 1",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:ligue-1-2026:94",
-    "n": "Olympique de Marseille v Le Mans FC",
-    "t": "2026-11-22T19:45:00Z",
-    "lg": "Ligue 1",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:ligue-1-2026:111",
-    "n": "Olympique de Marseille v OGC Nice",
-    "t": "2026-12-04T23:00:00Z",
-    "lg": "Ligue 1",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:ligue-1-2026:139",
-    "n": "Olympique de Marseille v LOSC Lille",
-    "t": "2027-01-15T23:00:00Z",
-    "lg": "Ligue 1",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:ligue-1-2026:158",
-    "n": "Olympique de Marseille v Estac Troyes",
-    "t": "2027-01-29T23:00:00Z",
-    "lg": "Ligue 1",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:ligue-1-2026:178",
-    "n": "Olympique de Marseille v Angers SCO",
-    "t": "2027-02-12T23:00:00Z",
-    "lg": "Ligue 1",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:ligue-1-2026:195",
-    "n": "Olympique de Marseille v Stade Rennais FC",
-    "t": "2027-02-26T23:00:00Z",
-    "lg": "Ligue 1",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:ligue-1-2026:213",
-    "n": "Olympique de Marseille v AS Monaco",
-    "t": "2027-03-12T23:00:00Z",
-    "lg": "Ligue 1",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:ligue-1-2026:220",
-    "n": "Olympique de Marseille v Olympique Lyonnais",
-    "t": "2027-03-19T23:00:00Z",
-    "lg": "Ligue 1",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:ligue-1-2026:239",
-    "n": "Olympique de Marseille v Stade Brestois 29",
-    "t": "2027-04-09T22:00:00Z",
-    "lg": "Ligue 1",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:ligue-1-2026:257",
-    "n": "Olympique de Marseille v AJ Auxerre",
-    "t": "2027-04-23T22:00:00Z",
-    "lg": "Ligue 1",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:ligue-1-2026:284",
-    "n": "Olympique de Marseille v RC Lens",
-    "t": "2027-05-15T22:00:00Z",
-    "lg": "Ligue 1",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:ligue-1-2026:302",
-    "n": "Olympique de Marseille v FC Lorient",
-    "t": "2027-05-28T22:00:00Z",
-    "lg": "Ligue 1",
+    "id": "fxd:serie-a-2026:362",
+    "n": "Fiorentina v Monza",
+    "t": "2027-05-22T00:00:00Z",
+    "lg": "Serie A",
     "sp": "Football"
    }
   ],
@@ -8883,6 +8592,106 @@
     "id": "fxd:ligue-1-2026:304",
     "n": "Paris Saint-Germain v Toulouse FC",
     "t": "2027-05-28T22:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   }
+  ],
+  "nice-stadium-allianzriviera": [
+   {
+    "id": "fxd:ligue-1-2026:51",
+    "n": "OGC Nice v RC Strasbourg Alsace",
+    "t": "2026-10-11T13:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:78",
+    "n": "OGC Nice v Stade Rennais FC",
+    "t": "2026-10-31T16:15:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:96",
+    "n": "OGC Nice v Paris Saint-Germain",
+    "t": "2026-11-21T16:15:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:106",
+    "n": "OGC Nice v Estac Troyes",
+    "t": "2026-11-28T19:45:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:124",
+    "n": "OGC Nice v RC Lens",
+    "t": "2026-12-11T23:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:141",
+    "n": "OGC Nice v Havre Athletic Club",
+    "t": "2027-01-15T23:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:167",
+    "n": "OGC Nice v Stade Brestois 29",
+    "t": "2027-02-05T23:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:185",
+    "n": "OGC Nice v AJ Auxerre",
+    "t": "2027-02-19T23:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:214",
+    "n": "OGC Nice v Toulouse FC",
+    "t": "2027-03-12T23:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:232",
+    "n": "OGC Nice v Olympique Lyonnais",
+    "t": "2027-04-02T22:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:241",
+    "n": "OGC Nice v Paris FC",
+    "t": "2027-04-09T22:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:258",
+    "n": "OGC Nice v Angers SCO",
+    "t": "2027-04-23T22:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:277",
+    "n": "OGC Nice v Olympique de Marseille",
+    "t": "2027-05-07T22:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:294",
+    "n": "OGC Nice v AS Monaco",
+    "t": "2027-05-21T22:00:00Z",
     "lg": "Ligue 1",
     "sp": "Football"
    }
@@ -9217,6 +9026,106 @@
     "sp": "Football"
    }
   ],
+  "marseille-stadium-stadevelodrome": [
+   {
+    "id": "fxd:ligue-1-2026:68",
+    "n": "Olympique de Marseille v Havre Athletic Club",
+    "t": "2026-10-25T16:15:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:77",
+    "n": "Olympique de Marseille v Toulouse FC",
+    "t": "2026-11-01T19:45:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:94",
+    "n": "Olympique de Marseille v Le Mans FC",
+    "t": "2026-11-22T19:45:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:111",
+    "n": "Olympique de Marseille v OGC Nice",
+    "t": "2026-12-04T23:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:139",
+    "n": "Olympique de Marseille v LOSC Lille",
+    "t": "2027-01-15T23:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:158",
+    "n": "Olympique de Marseille v Estac Troyes",
+    "t": "2027-01-29T23:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:178",
+    "n": "Olympique de Marseille v Angers SCO",
+    "t": "2027-02-12T23:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:195",
+    "n": "Olympique de Marseille v Stade Rennais FC",
+    "t": "2027-02-26T23:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:213",
+    "n": "Olympique de Marseille v AS Monaco",
+    "t": "2027-03-12T23:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:220",
+    "n": "Olympique de Marseille v Olympique Lyonnais",
+    "t": "2027-03-19T23:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:239",
+    "n": "Olympique de Marseille v Stade Brestois 29",
+    "t": "2027-04-09T22:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:257",
+    "n": "Olympique de Marseille v AJ Auxerre",
+    "t": "2027-04-23T22:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:284",
+    "n": "Olympique de Marseille v RC Lens",
+    "t": "2027-05-15T22:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:ligue-1-2026:302",
+    "n": "Olympique de Marseille v FC Lorient",
+    "t": "2027-05-28T22:00:00Z",
+    "lg": "Ligue 1",
+    "sp": "Football"
+   }
+  ],
   "stadecharlety": [
    {
     "id": "fxd:ligue-1-2026:97",
@@ -9303,21 +9212,181 @@
     "sp": "Football"
    }
   ],
-  "usgaq7007552": [
+  "nyc-stadium-sportsillustratedstadium": [
    {
-    "id": "fxd:nfl-2026:18",
-    "n": "Atlanta Falcons v Carolina Panthers",
-    "t": "2026-09-20T17:00:00Z",
+    "id": "fxd:mls-2026:395",
+    "n": "Red Bull New York v St. Louis CITY SC",
+    "t": "2026-09-30T23:30:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:mls-2026:412",
+    "n": "Red Bull New York v San Diego FC",
+    "t": "2026-10-10T23:30:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:mls-2026:441",
+    "n": "Red Bull New York v Toronto FC",
+    "t": "2026-10-17T23:30:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:mls-2026:456",
+    "n": "Red Bull New York v Inter Miami CF",
+    "t": "2026-10-24T21:30:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:mls-2026:501",
+    "n": "Red Bull New York v Atlanta United",
+    "t": "2026-11-07T21:00:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   }
+  ],
+  "chicago-stadium-soldierfield": [
+   {
+    "id": "fxd:nfl-2026:48",
+    "n": "Chicago Bears v Philadelphia Eagles",
+    "t": "2026-09-29T00:15:00Z",
     "lg": "NFL",
     "sp": "Am. Football"
    },
    {
-    "id": "fxd:mls-2026:392",
-    "n": "Atlanta United v New York City Football Club",
-    "t": "2026-09-26T23:30:00Z",
+    "id": "fxd:nfl-2026:53",
+    "n": "Chicago Bears v New York Jets",
+    "t": "2026-10-04T17:00:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:mls-2026:222",
+    "n": "Chicago Fire FC v Vancouver Whitecaps FC",
+    "t": "2026-10-07T00:30:00Z",
     "lg": "MLS",
     "sp": "Football"
    },
+   {
+    "id": "fxd:mls-2026:409",
+    "n": "Chicago Fire FC v New York City Football Club",
+    "t": "2026-10-10T18:30:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:mls-2026:428",
+    "n": "Chicago Fire FC v Philadelphia Union",
+    "t": "2026-10-15T00:30:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:nfl-2026:94",
+    "n": "Chicago Bears v New England Patriots",
+    "t": "2026-10-23T00:15:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:mls-2026:473",
+    "n": "Chicago Fire FC v Orlando City",
+    "t": "2026-10-29T00:30:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:nfl-2026:135",
+    "n": "Chicago Bears v Tampa Bay Buccaneers",
+    "t": "2026-11-09T01:20:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:154",
+    "n": "Chicago Bears v New Orleans Saints",
+    "t": "2026-11-22T18:00:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:182",
+    "n": "Chicago Bears v Jacksonville Jaguars",
+    "t": "2026-12-06T18:00:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:226",
+    "n": "Chicago Bears v Green Bay Packers",
+    "t": "2026-12-25T18:00:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:250",
+    "n": "Chicago Bears v Detroit Lions",
+    "t": "2027-01-03T21:25:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   }
+  ],
+  "losangeles-stadium-bmostadium": [
+   {
+    "id": "fxd:mls-2026:415",
+    "n": "Toronto FC v CF Montréal",
+    "t": "2026-10-10T17:00:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:mls-2026:419",
+    "n": "Los Angeles Football Club v Vancouver Whitecaps FC",
+    "t": "2026-10-11T02:30:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:mls-2026:427",
+    "n": "Toronto FC v Orlando City",
+    "t": "2026-10-14T23:30:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:mls-2026:432",
+    "n": "Los Angeles Football Club v Austin FC",
+    "t": "2026-10-15T02:30:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:mls-2026:466",
+    "n": "Los Angeles Football Club v LA Galaxy",
+    "t": "2026-10-26T01:00:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:mls-2026:471",
+    "n": "Toronto FC v D.C. United",
+    "t": "2026-10-28T23:30:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:mls-2026:493",
+    "n": "Los Angeles Football Club v Minnesota United FC",
+    "t": "2026-11-02T01:30:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   }
+  ],
+  "usgaq7007552": [
    {
     "id": "fxd:mls-2026:407",
     "n": "Atlanta United v FC Cincinnati",
@@ -9396,14 +9465,37 @@
     "sp": "Am. Football"
    }
   ],
-  "montreal-stadium-stadesaputo": [
+  "usflq16846942": [
    {
-    "id": "fxd:mls-2026:394",
-    "n": "CF Montréal v FC Cincinnati",
-    "t": "2026-09-26T23:30:00Z",
+    "id": "fxd:mls-2026:413",
+    "n": "Orlando City v Columbus Crew",
+    "t": "2026-10-10T23:30:00Z",
     "lg": "MLS",
     "sp": "Football"
    },
+   {
+    "id": "fxd:mls-2026:442",
+    "n": "Orlando City v D.C. United",
+    "t": "2026-10-17T23:30:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:mls-2026:457",
+    "n": "Orlando City v New York City Football Club",
+    "t": "2026-10-24T23:30:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:mls-2026:502",
+    "n": "Orlando City v New England Revolution",
+    "t": "2026-11-07T21:00:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   }
+  ],
+  "montreal-stadium-stadesaputo": [
    {
     "id": "fxd:mls-2026:426",
     "n": "CF Montréal v Atlanta United",
@@ -9426,51 +9518,7 @@
     "sp": "Football"
    }
   ],
-  "nyc-stadium-sportsillustratedstadium": [
-   {
-    "id": "fxd:mls-2026:395",
-    "n": "Red Bull New York v St. Louis CITY SC",
-    "t": "2026-09-26T23:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:mls-2026:412",
-    "n": "Red Bull New York v San Diego FC",
-    "t": "2026-10-10T23:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:mls-2026:441",
-    "n": "Red Bull New York v Toronto FC",
-    "t": "2026-10-17T23:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:mls-2026:456",
-    "n": "Red Bull New York v Inter Miami CF",
-    "t": "2026-10-24T21:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:mls-2026:501",
-    "n": "Red Bull New York v Atlanta United",
-    "t": "2026-11-07T21:00:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   }
-  ],
   "houston-stadium-toyotacenter": [
-   {
-    "id": "fxd:mls-2026:399",
-    "n": "FC Dallas v Los Angeles Football Club",
-    "t": "2026-09-27T00:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
    {
     "id": "fxd:mls-2026:430",
     "n": "FC Dallas v Seattle Sounders FC",
@@ -9743,46 +9791,16 @@
     "t": "2027-03-18T00:30:00Z",
     "lg": "NBA",
     "sp": "Basketball"
-   }
-  ],
-  "houston-stadium-shellenergystadium": [
-   {
-    "id": "fxd:mls-2026:400",
-    "n": "Houston Dynamo FC v Sporting Kansas City",
-    "t": "2026-09-27T00:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
    },
    {
-    "id": "fxd:mls-2026:445",
-    "n": "Houston Dynamo FC v FC Dallas",
-    "t": "2026-10-18T00:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:mls-2026:461",
-    "n": "Houston Dynamo FC v Minnesota United FC",
-    "t": "2026-10-25T00:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:mls-2026:506",
-    "n": "Houston Dynamo FC v St. Louis CITY SC",
-    "t": "2026-11-08T00:00:00Z",
-    "lg": "MLS",
-    "sp": "Football"
+    "id": "fxd:nba-2026:1089",
+    "n": "Houston Rockets v Los Angeles Lakers",
+    "t": "2027-03-28T19:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
    }
   ],
   "nashville-stadium-geodispark": [
-   {
-    "id": "fxd:mls-2026:402",
-    "n": "Nashville SC v Toronto FC",
-    "t": "2026-09-27T00:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
    {
     "id": "fxd:mls-2026:433",
     "n": "Nashville SC v Sporting Kansas City",
@@ -9807,13 +9825,6 @@
   ],
   "losangeles-stadium-dignityhealthsportspark": [
    {
-    "id": "fxd:mls-2026:401",
-    "n": "LA Galaxy v Colorado Rapids",
-    "t": "2026-09-27T02:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
     "id": "fxd:mls-2026:431",
     "n": "LA Galaxy v Portland Timbers",
     "t": "2026-10-15T02:30:00Z",
@@ -9835,192 +9846,48 @@
     "sp": "Football"
    }
   ],
-  "chicago-stadium-soldierfield": [
+  "nyc-stadium-citifield": [
    {
-    "id": "fxd:nfl-2026:20",
-    "n": "Chicago Bears v Minnesota Vikings",
-    "t": "2026-09-20T17:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:48",
-    "n": "Chicago Bears v Philadelphia Eagles",
-    "t": "2026-09-29T00:15:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:53",
-    "n": "Chicago Bears v New York Jets",
-    "t": "2026-10-04T17:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:mls-2026:222",
-    "n": "Chicago Fire FC v Vancouver Whitecaps FC",
-    "t": "2026-10-07T00:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:mls-2026:409",
-    "n": "Chicago Fire FC v New York City Football Club",
-    "t": "2026-10-10T18:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:mls-2026:428",
-    "n": "Chicago Fire FC v Philadelphia Union",
-    "t": "2026-10-15T00:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:nfl-2026:94",
-    "n": "Chicago Bears v New England Patriots",
-    "t": "2026-10-23T00:15:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:mls-2026:473",
-    "n": "Chicago Fire FC v Orlando City",
-    "t": "2026-10-29T00:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:nfl-2026:135",
-    "n": "Chicago Bears v Tampa Bay Buccaneers",
-    "t": "2026-11-09T01:20:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:154",
-    "n": "Chicago Bears v New Orleans Saints",
-    "t": "2026-11-22T18:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:182",
-    "n": "Chicago Bears v Jacksonville Jaguars",
-    "t": "2026-12-06T18:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:226",
-    "n": "Chicago Bears v Green Bay Packers",
-    "t": "2026-12-25T18:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:250",
-    "n": "Chicago Bears v Detroit Lions",
-    "t": "2027-01-03T21:25:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   }
-  ],
-  "losangeles-stadium-bmostadium": [
-   {
-    "id": "fxd:mls-2026:415",
-    "n": "Toronto FC v CF Montréal",
-    "t": "2026-10-10T17:00:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:mls-2026:419",
-    "n": "Los Angeles Football Club v Vancouver Whitecaps FC",
-    "t": "2026-10-11T02:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:mls-2026:427",
-    "n": "Toronto FC v Orlando City",
-    "t": "2026-10-14T23:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:mls-2026:432",
-    "n": "Los Angeles Football Club v Austin FC",
-    "t": "2026-10-15T02:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:mls-2026:466",
-    "n": "Los Angeles Football Club v LA Galaxy",
-    "t": "2026-10-26T01:00:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:mls-2026:471",
-    "n": "Toronto FC v D.C. United",
-    "t": "2026-10-28T23:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:mls-2026:493",
-    "n": "Los Angeles Football Club v Minnesota United FC",
-    "t": "2026-11-02T01:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   }
-  ],
-  "usflq16846942": [
-   {
-    "id": "fxd:mls-2026:413",
-    "n": "Orlando City v Columbus Crew",
-    "t": "2026-10-10T23:30:00Z",
-    "lg": "MLS",
-    "sp": "Football"
-   },
-   {
-    "id": "fxd:mls-2026:442",
-    "n": "Orlando City v D.C. United",
+    "id": "fxd:mls-2026:440",
+    "n": "New York City Football Club v Los Angeles Football Club",
     "t": "2026-10-17T23:30:00Z",
     "lg": "MLS",
     "sp": "Football"
    },
    {
-    "id": "fxd:mls-2026:457",
-    "n": "Orlando City v New York City Football Club",
-    "t": "2026-10-24T23:30:00Z",
+    "id": "fxd:mls-2026:470",
+    "n": "New York City Football Club v Atlanta United",
+    "t": "2026-10-28T23:30:00Z",
     "lg": "MLS",
     "sp": "Football"
    },
    {
-    "id": "fxd:mls-2026:502",
-    "n": "Orlando City v New England Revolution",
-    "t": "2026-11-07T21:00:00Z",
+    "id": "fxd:mls-2026:487",
+    "n": "New York City Football Club v CF Montréal",
+    "t": "2026-10-31T18:00:00Z",
     "lg": "MLS",
     "sp": "Football"
    }
   ],
-  "nyc-stadium-citifield": [
+  "houston-stadium-shellenergystadium": [
    {
-    "id": "fxd:mlb-2026:2330",
-    "n": "New York Mets v Philadelphia Phillies",
-    "t": "2026-09-20T17:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
+    "id": "fxd:mls-2026:445",
+    "n": "Houston Dynamo FC v FC Dallas",
+    "t": "2026-10-18T00:30:00Z",
+    "lg": "MLS",
+    "sp": "Football"
    },
    {
-    "id": "fxd:mls-2026:440",
-    "n": "New York City Football Club v Los Angeles Football Club",
-    "t": "2026-11-05T00:30:00Z",
+    "id": "fxd:mls-2026:461",
+    "n": "Houston Dynamo FC v Minnesota United FC",
+    "t": "2026-10-25T00:30:00Z",
+    "lg": "MLS",
+    "sp": "Football"
+   },
+   {
+    "id": "fxd:mls-2026:506",
+    "n": "Houston Dynamo FC v St. Louis CITY SC",
+    "t": "2026-11-08T00:00:00Z",
     "lg": "MLS",
     "sp": "Football"
    }
@@ -10035,13 +9902,6 @@
    }
   ],
   "nyc-stadium-metlifestadium": [
-   {
-    "id": "fxd:nfl-2026:23",
-    "n": "New York Jets v Green Bay Packers",
-    "t": "2026-09-20T17:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
    {
     "id": "fxd:nfl-2026:40",
     "n": "New York Giants v Tennessee Titans",
@@ -10148,14 +10008,174 @@
     "sp": "Am. Football"
    }
   ],
-  "nashville-stadium-nissanstadium": [
+  "usmdq583085": [
    {
-    "id": "fxd:nfl-2026:25",
-    "n": "Tennessee Titans v Philadelphia Eagles",
-    "t": "2026-09-20T17:00:00Z",
+    "id": "fxd:nfl-2026:42",
+    "n": "Washington Commanders v Seattle Seahawks",
+    "t": "2026-09-27T17:00:00Z",
     "lg": "NFL",
     "sp": "Am. Football"
    },
+   {
+    "id": "fxd:nfl-2026:73",
+    "n": "Washington Commanders v New York Giants",
+    "t": "2026-10-11T17:00:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:120",
+    "n": "Washington Commanders v Philadelphia Eagles",
+    "t": "2026-11-02T01:20:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:130",
+    "n": "Washington Commanders v Los Angeles Rams",
+    "t": "2026-11-08T18:00:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:163",
+    "n": "Washington Commanders v Cincinnati Bengals",
+    "t": "2026-11-24T01:15:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:202",
+    "n": "Washington Commanders v Houston Texans",
+    "t": "2026-12-13T18:00:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:219",
+    "n": "Washington Commanders v Atlanta Falcons",
+    "t": "2026-12-20T18:00:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:272",
+    "n": "Washington Commanders v Dallas Cowboys",
+    "t": "2027-01-10T00:00:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   }
+  ],
+  "uscaq7419343": [
+   {
+    "id": "fxd:nfl-2026:43",
+    "n": "San Francisco 49ers v Arizona Cardinals",
+    "t": "2026-09-27T20:05:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:62",
+    "n": "San Francisco 49ers v Denver Broncos",
+    "t": "2026-10-04T20:25:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:93",
+    "n": "San Francisco 49ers v Washington Commanders",
+    "t": "2026-10-20T00:15:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:132",
+    "n": "San Francisco 49ers v Las Vegas Raiders",
+    "t": "2026-11-08T21:05:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:177",
+    "n": "San Francisco 49ers v Seattle Seahawks",
+    "t": "2026-11-29T21:25:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:206",
+    "n": "San Francisco 49ers v Los Angeles Rams",
+    "t": "2026-12-13T21:25:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:251",
+    "n": "San Francisco 49ers v Philadelphia Eagles",
+    "t": "2027-01-04T01:20:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   }
+  ],
+  "uslaq756452": [
+   {
+    "id": "fxd:nfl-2026:46",
+    "n": "New Orleans Saints v Las Vegas Raiders",
+    "t": "2026-09-27T20:25:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:64",
+    "n": "New Orleans Saints v Atlanta Falcons",
+    "t": "2026-10-06T00:15:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:69",
+    "n": "New Orleans Saints v Minnesota Vikings",
+    "t": "2026-10-11T17:00:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:128",
+    "n": "New Orleans Saints v Cleveland Browns",
+    "t": "2026-11-08T18:00:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:143",
+    "n": "New Orleans Saints v Carolina Panthers",
+    "t": "2026-11-15T18:00:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:184",
+    "n": "New Orleans Saints v Green Bay Packers",
+    "t": "2026-12-06T18:00:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:231",
+    "n": "New Orleans Saints v Arizona Cardinals",
+    "t": "2026-12-27T18:00:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   },
+   {
+    "id": "fxd:nfl-2026:270",
+    "n": "New Orleans Saints v Tampa Bay Buccaneers",
+    "t": "2027-01-10T00:00:00Z",
+    "lg": "NFL",
+    "sp": "Am. Football"
+   }
+  ],
+  "nashville-stadium-nissanstadium": [
    {
     "id": "fxd:nfl-2026:72",
     "n": "Tennessee Titans v Houston Texans",
@@ -10200,20 +10220,6 @@
    }
   ],
   "losangeles-stadium-sofistadium": [
-   {
-    "id": "fxd:nfl-2026:27",
-    "n": "Los Angeles Chargers v Las Vegas Raiders",
-    "t": "2026-09-20T20:05:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:32",
-    "n": "Los Angeles Rams v New York Giants",
-    "t": "2026-09-22T00:15:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
    {
     "id": "fxd:nfl-2026:74",
     "n": "Los Angeles Chargers v Denver Broncos",
@@ -10306,180 +10312,6 @@
     "sp": "Am. Football"
    }
   ],
-  "uscaq7419343": [
-   {
-    "id": "fxd:nfl-2026:30",
-    "n": "San Francisco 49ers v Miami Dolphins",
-    "t": "2026-09-20T20:25:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:43",
-    "n": "San Francisco 49ers v Arizona Cardinals",
-    "t": "2026-09-27T20:05:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:62",
-    "n": "San Francisco 49ers v Denver Broncos",
-    "t": "2026-10-04T20:25:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:93",
-    "n": "San Francisco 49ers v Washington Commanders",
-    "t": "2026-10-20T00:15:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:132",
-    "n": "San Francisco 49ers v Las Vegas Raiders",
-    "t": "2026-11-08T21:05:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:177",
-    "n": "San Francisco 49ers v Seattle Seahawks",
-    "t": "2026-11-29T21:25:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:206",
-    "n": "San Francisco 49ers v Los Angeles Rams",
-    "t": "2026-12-13T21:25:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:251",
-    "n": "San Francisco 49ers v Philadelphia Eagles",
-    "t": "2027-01-04T01:20:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   }
-  ],
-  "usmdq583085": [
-   {
-    "id": "fxd:nfl-2026:42",
-    "n": "Washington Commanders v Seattle Seahawks",
-    "t": "2026-09-27T17:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:73",
-    "n": "Washington Commanders v New York Giants",
-    "t": "2026-10-11T17:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:120",
-    "n": "Washington Commanders v Philadelphia Eagles",
-    "t": "2026-11-02T01:20:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:130",
-    "n": "Washington Commanders v Los Angeles Rams",
-    "t": "2026-11-08T18:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:163",
-    "n": "Washington Commanders v Cincinnati Bengals",
-    "t": "2026-11-24T01:15:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:202",
-    "n": "Washington Commanders v Houston Texans",
-    "t": "2026-12-13T18:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:219",
-    "n": "Washington Commanders v Atlanta Falcons",
-    "t": "2026-12-20T18:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:272",
-    "n": "Washington Commanders v Dallas Cowboys",
-    "t": "2027-01-10T00:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   }
-  ],
-  "uslaq756452": [
-   {
-    "id": "fxd:nfl-2026:46",
-    "n": "New Orleans Saints v Las Vegas Raiders",
-    "t": "2026-09-27T20:25:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:64",
-    "n": "New Orleans Saints v Atlanta Falcons",
-    "t": "2026-10-06T00:15:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:69",
-    "n": "New Orleans Saints v Minnesota Vikings",
-    "t": "2026-10-11T17:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:128",
-    "n": "New Orleans Saints v Cleveland Browns",
-    "t": "2026-11-08T18:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:143",
-    "n": "New Orleans Saints v Carolina Panthers",
-    "t": "2026-11-15T18:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:184",
-    "n": "New Orleans Saints v Green Bay Packers",
-    "t": "2026-12-06T18:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:231",
-    "n": "New Orleans Saints v Arizona Cardinals",
-    "t": "2026-12-27T18:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   },
-   {
-    "id": "fxd:nfl-2026:270",
-    "n": "New Orleans Saints v Tampa Bay Buccaneers",
-    "t": "2027-01-10T00:00:00Z",
-    "lg": "NFL",
-    "sp": "Am. Football"
-   }
-  ],
   "wembley-stadium": [
    {
     "id": "fxd:nfl-2026:81",
@@ -10489,836 +10321,11 @@
     "sp": "Am. Football"
    }
   ],
-  "uspaq1151177": [
-   {
-    "id": "fxd:mlb-2026:2326",
-    "n": "Pittsburgh Pirates v Kansas City Royals",
-    "t": "2026-09-20T17:35:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2346",
-    "n": "Pittsburgh Pirates v St. Louis Cardinals",
-    "t": "2026-09-22T22:40:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2362",
-    "n": "Pittsburgh Pirates v St. Louis Cardinals",
-    "t": "2026-09-23T22:40:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2374",
-    "n": "Pittsburgh Pirates v St. Louis Cardinals",
-    "t": "2026-09-24T16:35:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   }
-  ],
-  "chicago-stadium-ratefield": [
-   {
-    "id": "fxd:mlb-2026:2331",
-    "n": "Chicago White Sox v Detroit Tigers",
-    "t": "2026-09-20T18:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2394",
-    "n": "Chicago White Sox v Colorado Rockies",
-    "t": "2026-09-25T23:40:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2408",
-    "n": "Chicago White Sox v Colorado Rockies",
-    "t": "2026-09-26T23:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2427",
-    "n": "Chicago White Sox v Colorado Rockies",
-    "t": "2026-09-27T19:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   }
-  ],
-  "uscoq1129916": [
-   {
-    "id": "fxd:mlb-2026:2334",
-    "n": "Colorado Rockies v Seattle Mariners",
-    "t": "2026-09-20T19:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2353",
-    "n": "Colorado Rockies v Arizona Diamondbacks",
-    "t": "2026-09-23T00:40:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2369",
-    "n": "Colorado Rockies v Arizona Diamondbacks",
-    "t": "2026-09-24T00:40:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2377",
-    "n": "Colorado Rockies v Arizona Diamondbacks",
-    "t": "2026-09-24T19:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   }
-  ],
-  "stadioangelomassimino": [
-   {
-    "id": "fxd:mlb-2026:2335",
-    "n": "Los Angeles Angels v Minnesota Twins",
-    "t": "2026-09-20T20:07:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   }
-  ],
-  "losangeles-stadium-dodgerstadium": [
-   {
-    "id": "fxd:mlb-2026:2336",
-    "n": "Los Angeles Dodgers v San Francisco Giants",
-    "t": "2026-09-20T20:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2357",
-    "n": "Los Angeles Dodgers v San Diego Padres",
-    "t": "2026-09-23T02:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2372",
-    "n": "Los Angeles Dodgers v San Diego Padres",
-    "t": "2026-09-24T02:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2384",
-    "n": "Los Angeles Dodgers v San Diego Padres",
-    "t": "2026-09-25T02:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   }
-  ],
-  "sanfrancisco-stadium-chasecenter": [
-   {
-    "id": "fxd:mlb-2026:2338",
-    "n": "Arizona Diamondbacks v New York Yankees",
-    "t": "2026-09-20T20:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:nba-2026:26",
-    "n": "Golden State Warriors v Memphis Grizzlies",
-    "t": "2026-10-24T02:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:80",
-    "n": "Golden State Warriors v Los Angeles Lakers",
-    "t": "2026-10-31T02:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:91",
-    "n": "Golden State Warriors v LA Clippers",
-    "t": "2026-11-02T01:30:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:105",
-    "n": "Golden State Warriors v Phoenix Suns",
-    "t": "2026-11-03T03:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:123",
-    "n": "Golden State Warriors v Miami Heat",
-    "t": "2026-11-06T03:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:137",
-    "n": "Golden State Warriors v Orlando Magic",
-    "t": "2026-11-08T01:30:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:154",
-    "n": "Golden State Warriors v New Orleans Pelicans",
-    "t": "2026-11-10T03:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:248",
-    "n": "Golden State Warriors v Boston Celtics",
-    "t": "2026-11-23T01:30:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:269",
-    "n": "Golden State Warriors v Sacramento Kings",
-    "t": "2026-11-26T03:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:295",
-    "n": "Golden State Warriors v LA Clippers",
-    "t": "2026-11-30T01:30:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:311",
-    "n": "Golden State Warriors v Utah Jazz",
-    "t": "2026-12-02T04:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:414",
-    "n": "Golden State Warriors v Dallas Mavericks",
-    "t": "2026-12-23T03:30:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:434",
-    "n": "Golden State Warriors v Denver Nuggets",
-    "t": "2026-12-26T03:30:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:452",
-    "n": "Golden State Warriors v Minnesota Timberwolves",
-    "t": "2026-12-28T01:30:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:473",
-    "n": "Golden State Warriors v Houston Rockets",
-    "t": "2026-12-31T03:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:496",
-    "n": "Golden State Warriors v Brooklyn Nets",
-    "t": "2027-01-03T01:30:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:526",
-    "n": "Golden State Warriors v New York Knicks",
-    "t": "2027-01-07T03:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:536",
-    "n": "Golden State Warriors v Detroit Pistons",
-    "t": "2027-01-08T03:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:550",
-    "n": "Golden State Warriors v Chicago Bulls",
-    "t": "2027-01-10T01:30:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:574",
-    "n": "Golden State Warriors v Sacramento Kings",
-    "t": "2027-01-13T04:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:580",
-    "n": "Golden State Warriors v Charlotte Hornets",
-    "t": "2027-01-14T03:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:640",
-    "n": "Golden State Warriors v Los Angeles Lakers",
-    "t": "2027-01-22T03:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:649",
-    "n": "Golden State Warriors v Milwaukee Bucks",
-    "t": "2027-01-23T03:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:664",
-    "n": "Golden State Warriors v Oklahoma City Thunder",
-    "t": "2027-01-25T01:30:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:705",
-    "n": "Golden State Warriors v San Antonio Spurs",
-    "t": "2027-01-30T22:30:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:725",
-    "n": "Golden State Warriors v San Antonio Spurs",
-    "t": "2027-02-02T03:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:829",
-    "n": "Golden State Warriors v Indiana Pacers",
-    "t": "2027-02-16T00:30:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:849",
-    "n": "Golden State Warriors v New Orleans Pelicans",
-    "t": "2027-02-18T03:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:864",
-    "n": "Golden State Warriors v Dallas Mavericks",
-    "t": "2027-02-26T03:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:915",
-    "n": "Golden State Warriors v Washington Wizards",
-    "t": "2027-03-05T03:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:935",
-    "n": "Golden State Warriors v Houston Rockets",
-    "t": "2027-03-08T03:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:951",
-    "n": "Golden State Warriors v Portland Trail Blazers",
-    "t": "2027-03-10T04:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:1002",
-    "n": "Golden State Warriors v Cleveland Cavaliers",
-    "t": "2027-03-17T02:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:1010",
-    "n": "Golden State Warriors v Memphis Grizzlies",
-    "t": "2027-03-18T02:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:1025",
-    "n": "Golden State Warriors v Portland Trail Blazers",
-    "t": "2027-03-20T02:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:1048",
-    "n": "Golden State Warriors v Atlanta Hawks",
-    "t": "2027-03-23T02:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:1063",
-    "n": "Golden State Warriors v Philadelphia 76ers",
-    "t": "2027-03-25T02:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:1073",
-    "n": "Golden State Warriors v Toronto Raptors",
-    "t": "2027-03-26T02:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   },
-   {
-    "id": "fxd:nba-2026:1164",
-    "n": "Golden State Warriors v Phoenix Suns",
-    "t": "2027-04-07T03:00:00Z",
-    "lg": "NBA",
-    "sp": "Basketball"
-   }
-  ],
-  "nyc-stadium-yankeestadium": [
-   {
-    "id": "fxd:mlb-2026:768",
-    "n": "New York Yankees v Tampa Bay Rays",
-    "t": "2026-09-22T17:05:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2349",
-    "n": "New York Yankees v Tampa Bay Rays",
-    "t": "2026-09-22T23:05:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2365",
-    "n": "New York Yankees v Tampa Bay Rays",
-    "t": "2026-09-23T23:05:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2380",
-    "n": "New York Yankees v Tampa Bay Rays",
-    "t": "2026-09-24T23:05:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2389",
-    "n": "New York Yankees v Baltimore Orioles",
-    "t": "2026-09-25T23:05:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2414",
-    "n": "New York Yankees v Baltimore Orioles",
-    "t": "2026-09-26T23:15:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2430",
-    "n": "New York Yankees v Baltimore Orioles",
-    "t": "2026-09-27T19:20:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   }
-  ],
-  "fenwaypark": [
-   {
-    "id": "fxd:mlb-2026:2348",
-    "n": "Boston Red Sox v Cleveland Guardians",
-    "t": "2026-09-22T22:45:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2364",
-    "n": "Boston Red Sox v Cleveland Guardians",
-    "t": "2026-09-23T23:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2379",
-    "n": "Boston Red Sox v Cleveland Guardians",
-    "t": "2026-09-24T22:45:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2391",
-    "n": "Boston Red Sox v Chicago Cubs",
-    "t": "2026-09-25T23:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2410",
-    "n": "Boston Red Sox v Chicago Cubs",
-    "t": "2026-09-26T23:15:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2416",
-    "n": "Boston Red Sox v Chicago Cubs",
-    "t": "2026-09-27T19:05:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   }
-  ],
-  "chicago-stadium-wrigleyfield": [
-   {
-    "id": "fxd:mlb-2026:2358",
-    "n": "Chicago Cubs v Miami Marlins",
-    "t": "2026-09-22T23:40:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2373",
-    "n": "Chicago Cubs v Miami Marlins",
-    "t": "2026-09-23T23:40:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2385",
-    "n": "Chicago Cubs v Miami Marlins",
-    "t": "2026-09-24T18:20:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   }
-  ],
-  "uswaq1193117": [
-   {
-    "id": "fxd:mlb-2026:2355",
-    "n": "Seattle Mariners v Houston Astros",
-    "t": "2026-09-23T01:40:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2371",
-    "n": "Seattle Mariners v Houston Astros",
-    "t": "2026-09-24T02:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2383",
-    "n": "Seattle Mariners v Los Angeles Angels",
-    "t": "2026-09-25T01:40:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2399",
-    "n": "Seattle Mariners v Los Angeles Angels",
-    "t": "2026-09-26T02:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2413",
-    "n": "Seattle Mariners v Los Angeles Angels",
-    "t": "2026-09-27T01:40:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2425",
-    "n": "Seattle Mariners v Los Angeles Angels",
-    "t": "2026-09-27T19:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:nhl-2026:5",
-    "n": "Vegas Golden Knights v Chicago Blackhawks",
-    "t": "2026-09-30T02:30:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:21",
-    "n": "Vegas Golden Knights v Anaheim Ducks",
-    "t": "2026-10-03T02:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:65",
-    "n": "Vegas Golden Knights v Toronto Maple Leafs",
-    "t": "2026-10-09T02:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:83",
-    "n": "Vegas Golden Knights v Los Angeles Kings",
-    "t": "2026-10-11T02:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:118",
-    "n": "Vegas Golden Knights v Calgary Flames",
-    "t": "2026-10-16T02:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:134",
-    "n": "Vegas Golden Knights v Pittsburgh Penguins",
-    "t": "2026-10-18T02:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:151",
-    "n": "Vegas Golden Knights v Tampa Bay Lightning",
-    "t": "2026-10-21T02:30:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:196",
-    "n": "Vegas Golden Knights v Ottawa Senators",
-    "t": "2026-10-28T02:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:214",
-    "n": "Vegas Golden Knights v New Jersey Devils",
-    "t": "2026-10-30T22:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:296",
-    "n": "Vegas Golden Knights v Utah Mammoth",
-    "t": "2026-11-12T02:30:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:311",
-    "n": "Vegas Golden Knights v Nashville Predators",
-    "t": "2026-11-14T03:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:329",
-    "n": "Vegas Golden Knights v Vancouver Canucks",
-    "t": "2026-11-16T02:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:342",
-    "n": "Vegas Golden Knights v Dallas Stars",
-    "t": "2026-11-18T03:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:358",
-    "n": "Vegas Golden Knights v Dallas Stars",
-    "t": "2026-11-20T03:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:415",
-    "n": "Vegas Golden Knights v Montréal Canadiens",
-    "t": "2026-11-28T21:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:458",
-    "n": "Vegas Golden Knights v Utah Mammoth",
-    "t": "2026-12-04T03:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:472",
-    "n": "Vegas Golden Knights v Winnipeg Jets",
-    "t": "2026-12-06T00:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:550",
-    "n": "Vegas Golden Knights v San Jose Sharks",
-    "t": "2026-12-17T03:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:566",
-    "n": "Vegas Golden Knights v New York Islanders",
-    "t": "2026-12-19T03:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:589",
-    "n": "Vegas Golden Knights v Carolina Hurricanes",
-    "t": "2026-12-22T03:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:646",
-    "n": "Vegas Golden Knights v St. Louis Blues",
-    "t": "2026-12-31T20:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:667",
-    "n": "Vegas Golden Knights v Colorado Avalanche",
-    "t": "2027-01-03T03:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:703",
-    "n": "Vegas Golden Knights v Minnesota Wild",
-    "t": "2027-01-08T02:30:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:720",
-    "n": "Vegas Golden Knights v Seattle Kraken",
-    "t": "2027-01-10T03:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:797",
-    "n": "Vegas Golden Knights v Edmonton Oilers",
-    "t": "2027-01-21T03:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:811",
-    "n": "Vegas Golden Knights v Boston Bruins",
-    "t": "2027-01-23T03:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:858",
-    "n": "Vegas Golden Knights v Buffalo Sabres",
-    "t": "2027-01-29T03:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:876",
-    "n": "Vegas Golden Knights v Washington Capitals",
-    "t": "2027-01-31T03:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:925",
-    "n": "Vegas Golden Knights v Calgary Flames",
-    "t": "2027-02-14T03:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:937",
-    "n": "Vegas Golden Knights v Detroit Red Wings",
-    "t": "2027-02-16T03:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:960",
-    "n": "Vegas Golden Knights v Columbus Blue Jackets",
-    "t": "2027-02-19T03:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:1001",
-    "n": "Vegas Golden Knights v Florida Panthers",
-    "t": "2027-02-25T02:30:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:1018",
-    "n": "Vegas Golden Knights v Anaheim Ducks",
-    "t": "2027-02-27T02:00:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   },
-   {
-    "id": "fxd:nhl-2026:1103",
-    "n": "Vegas Golden Knights v San Jose Sharks",
-    "t": "2027-03-10T03:30:00Z",
-    "lg": "NHL",
-    "sp": "Hockey"
-   }
-  ],
   "nationalarena": [
-   {
-    "id": "fxd:mlb-2026:2388",
-    "n": "Washington Nationals v New York Mets",
-    "t": "2026-09-25T22:45:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2403",
-    "n": "Washington Nationals v New York Mets",
-    "t": "2026-09-26T20:05:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
    {
     "id": "fxd:mlb-2026:2417",
     "n": "Washington Nationals v New York Mets",
-    "t": "2026-09-27T19:05:00Z",
+    "t": "2026-09-27T17:05:00Z",
     "lg": "MLB",
     "sp": "Baseball"
    },
@@ -11580,23 +10587,32 @@
     "t": "2027-03-25T22:30:00Z",
     "lg": "NHL",
     "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:1233",
+    "n": "Tampa Bay Lightning v New York Rangers",
+    "t": "2027-03-27T23:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:1250",
+    "n": "Tampa Bay Lightning v Toronto Maple Leafs",
+    "t": "2027-03-30T23:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   }
+  ],
+  "nyc-stadium-yankeestadium": [
+   {
+    "id": "fxd:mlb-2026:2430",
+    "n": "New York Yankees v Baltimore Orioles",
+    "t": "2026-09-27T17:05:00Z",
+    "lg": "MLB",
+    "sp": "Baseball"
    }
   ],
   "toronto-stadium-rogerscentre": [
-   {
-    "id": "fxd:mlb-2026:2390",
-    "n": "Toronto Blue Jays v Cincinnati Reds",
-    "t": "2026-09-25T23:07:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2402",
-    "n": "Toronto Blue Jays v Cincinnati Reds",
-    "t": "2026-09-26T19:07:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
    {
     "id": "fxd:mlb-2026:2421",
     "n": "Toronto Blue Jays v Cincinnati Reds",
@@ -11862,23 +10878,305 @@
     "t": "2027-03-22T01:00:00Z",
     "lg": "NHL",
     "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:1207",
+    "n": "Vancouver Canucks v Los Angeles Kings",
+    "t": "2027-03-24T02:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:1223",
+    "n": "Vancouver Canucks v Vegas Golden Knights",
+    "t": "2027-03-26T02:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   }
+  ],
+  "uswaq1193117": [
+   {
+    "id": "fxd:mlb-2026:2425",
+    "n": "Seattle Mariners v Los Angeles Angels",
+    "t": "2026-09-27T19:10:00Z",
+    "lg": "MLB",
+    "sp": "Baseball"
+   },
+   {
+    "id": "fxd:nhl-2026:5",
+    "n": "Vegas Golden Knights v Chicago Blackhawks",
+    "t": "2026-09-30T02:30:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:21",
+    "n": "Vegas Golden Knights v Anaheim Ducks",
+    "t": "2026-10-03T02:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:65",
+    "n": "Vegas Golden Knights v Toronto Maple Leafs",
+    "t": "2026-10-09T02:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:83",
+    "n": "Vegas Golden Knights v Los Angeles Kings",
+    "t": "2026-10-11T02:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:118",
+    "n": "Vegas Golden Knights v Calgary Flames",
+    "t": "2026-10-16T02:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:134",
+    "n": "Vegas Golden Knights v Pittsburgh Penguins",
+    "t": "2026-10-18T02:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:151",
+    "n": "Vegas Golden Knights v Tampa Bay Lightning",
+    "t": "2026-10-21T02:30:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:196",
+    "n": "Vegas Golden Knights v Ottawa Senators",
+    "t": "2026-10-28T02:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:214",
+    "n": "Vegas Golden Knights v New Jersey Devils",
+    "t": "2026-10-30T22:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:296",
+    "n": "Vegas Golden Knights v Utah Mammoth",
+    "t": "2026-11-12T02:30:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:311",
+    "n": "Vegas Golden Knights v Nashville Predators",
+    "t": "2026-11-14T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:329",
+    "n": "Vegas Golden Knights v Vancouver Canucks",
+    "t": "2026-11-16T02:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:342",
+    "n": "Vegas Golden Knights v Dallas Stars",
+    "t": "2026-11-18T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:358",
+    "n": "Vegas Golden Knights v Dallas Stars",
+    "t": "2026-11-20T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:415",
+    "n": "Vegas Golden Knights v Montréal Canadiens",
+    "t": "2026-11-28T21:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:458",
+    "n": "Vegas Golden Knights v Utah Mammoth",
+    "t": "2026-12-04T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:472",
+    "n": "Vegas Golden Knights v Winnipeg Jets",
+    "t": "2026-12-06T00:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:550",
+    "n": "Vegas Golden Knights v San Jose Sharks",
+    "t": "2026-12-17T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:566",
+    "n": "Vegas Golden Knights v New York Islanders",
+    "t": "2026-12-19T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:589",
+    "n": "Vegas Golden Knights v Carolina Hurricanes",
+    "t": "2026-12-22T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:646",
+    "n": "Vegas Golden Knights v St. Louis Blues",
+    "t": "2026-12-31T20:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:667",
+    "n": "Vegas Golden Knights v Colorado Avalanche",
+    "t": "2027-01-03T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:703",
+    "n": "Vegas Golden Knights v Minnesota Wild",
+    "t": "2027-01-08T02:30:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:720",
+    "n": "Vegas Golden Knights v Seattle Kraken",
+    "t": "2027-01-10T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:797",
+    "n": "Vegas Golden Knights v Edmonton Oilers",
+    "t": "2027-01-21T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:811",
+    "n": "Vegas Golden Knights v Boston Bruins",
+    "t": "2027-01-23T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:858",
+    "n": "Vegas Golden Knights v Buffalo Sabres",
+    "t": "2027-01-29T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:876",
+    "n": "Vegas Golden Knights v Washington Capitals",
+    "t": "2027-01-31T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:925",
+    "n": "Vegas Golden Knights v Calgary Flames",
+    "t": "2027-02-14T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:937",
+    "n": "Vegas Golden Knights v Detroit Red Wings",
+    "t": "2027-02-16T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:960",
+    "n": "Vegas Golden Knights v Columbus Blue Jackets",
+    "t": "2027-02-19T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:1001",
+    "n": "Vegas Golden Knights v Florida Panthers",
+    "t": "2027-02-25T02:30:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:1018",
+    "n": "Vegas Golden Knights v Anaheim Ducks",
+    "t": "2027-02-27T02:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:1103",
+    "n": "Vegas Golden Knights v San Jose Sharks",
+    "t": "2027-03-10T03:30:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:1116",
+    "n": "Vegas Golden Knights v Philadelphia Flyers",
+    "t": "2027-03-12T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:1132",
+    "n": "Vegas Golden Knights v New York Rangers",
+    "t": "2027-03-14T03:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:1146",
+    "n": "Vegas Golden Knights v Winnipeg Jets",
+    "t": "2027-03-16T02:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:1159",
+    "n": "Vegas Golden Knights v Seattle Kraken",
+    "t": "2027-03-18T02:00:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
+   },
+   {
+    "id": "fxd:nhl-2026:1262",
+    "n": "Vegas Golden Knights v Vancouver Canucks",
+    "t": "2027-04-01T02:30:00Z",
+    "lg": "NHL",
+    "sp": "Hockey"
    }
   ],
   "usmnq1156635": [
-   {
-    "id": "fxd:mlb-2026:2396",
-    "n": "Minnesota Twins v Texas Rangers",
-    "t": "2026-09-26T00:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
-   {
-    "id": "fxd:mlb-2026:2404",
-    "n": "Minnesota Twins v Texas Rangers",
-    "t": "2026-09-26T20:10:00Z",
-    "lg": "MLB",
-    "sp": "Baseball"
-   },
    {
     "id": "fxd:mlb-2026:2426",
     "n": "Minnesota Twins v Texas Rangers",
@@ -12144,6 +11442,29 @@
     "t": "2027-03-28T23:30:00Z",
     "lg": "NBA",
     "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:1116",
+    "n": "Minnesota Timberwolves v Sacramento Kings",
+    "t": "2027-04-01T00:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:1127",
+    "n": "Minnesota Timberwolves v Golden State Warriors",
+    "t": "2027-04-02T23:30:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   }
+  ],
+  "chicago-stadium-ratefield": [
+   {
+    "id": "fxd:mlb-2026:2427",
+    "n": "Chicago White Sox v Colorado Rockies",
+    "t": "2026-09-27T19:10:00Z",
+    "lg": "MLB",
+    "sp": "Baseball"
    }
   ],
   "nyc-stadium-madisonsquaregarden": [
@@ -14374,6 +13695,288 @@
     "sp": "Basketball"
    }
   ],
+  "sanfrancisco-stadium-chasecenter": [
+   {
+    "id": "fxd:nba-2026:26",
+    "n": "Golden State Warriors v Memphis Grizzlies",
+    "t": "2026-10-24T02:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:80",
+    "n": "Golden State Warriors v Los Angeles Lakers",
+    "t": "2026-10-31T02:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:91",
+    "n": "Golden State Warriors v LA Clippers",
+    "t": "2026-11-02T01:30:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:105",
+    "n": "Golden State Warriors v Phoenix Suns",
+    "t": "2026-11-03T03:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:123",
+    "n": "Golden State Warriors v Miami Heat",
+    "t": "2026-11-06T03:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:137",
+    "n": "Golden State Warriors v Orlando Magic",
+    "t": "2026-11-08T01:30:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:154",
+    "n": "Golden State Warriors v New Orleans Pelicans",
+    "t": "2026-11-10T03:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:248",
+    "n": "Golden State Warriors v Boston Celtics",
+    "t": "2026-11-23T01:30:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:269",
+    "n": "Golden State Warriors v Sacramento Kings",
+    "t": "2026-11-26T03:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:295",
+    "n": "Golden State Warriors v LA Clippers",
+    "t": "2026-11-30T01:30:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:311",
+    "n": "Golden State Warriors v Utah Jazz",
+    "t": "2026-12-02T04:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:414",
+    "n": "Golden State Warriors v Dallas Mavericks",
+    "t": "2026-12-23T03:30:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:434",
+    "n": "Golden State Warriors v Denver Nuggets",
+    "t": "2026-12-26T03:30:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:452",
+    "n": "Golden State Warriors v Minnesota Timberwolves",
+    "t": "2026-12-28T01:30:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:473",
+    "n": "Golden State Warriors v Houston Rockets",
+    "t": "2026-12-31T03:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:496",
+    "n": "Golden State Warriors v Brooklyn Nets",
+    "t": "2027-01-03T01:30:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:526",
+    "n": "Golden State Warriors v New York Knicks",
+    "t": "2027-01-07T03:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:536",
+    "n": "Golden State Warriors v Detroit Pistons",
+    "t": "2027-01-08T03:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:550",
+    "n": "Golden State Warriors v Chicago Bulls",
+    "t": "2027-01-10T01:30:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:574",
+    "n": "Golden State Warriors v Sacramento Kings",
+    "t": "2027-01-13T04:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:580",
+    "n": "Golden State Warriors v Charlotte Hornets",
+    "t": "2027-01-14T03:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:640",
+    "n": "Golden State Warriors v Los Angeles Lakers",
+    "t": "2027-01-22T03:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:649",
+    "n": "Golden State Warriors v Milwaukee Bucks",
+    "t": "2027-01-23T03:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:664",
+    "n": "Golden State Warriors v Oklahoma City Thunder",
+    "t": "2027-01-25T01:30:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:705",
+    "n": "Golden State Warriors v San Antonio Spurs",
+    "t": "2027-01-30T22:30:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:725",
+    "n": "Golden State Warriors v San Antonio Spurs",
+    "t": "2027-02-02T03:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:829",
+    "n": "Golden State Warriors v Indiana Pacers",
+    "t": "2027-02-16T00:30:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:849",
+    "n": "Golden State Warriors v New Orleans Pelicans",
+    "t": "2027-02-18T03:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:864",
+    "n": "Golden State Warriors v Dallas Mavericks",
+    "t": "2027-02-26T03:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:915",
+    "n": "Golden State Warriors v Washington Wizards",
+    "t": "2027-03-05T03:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:935",
+    "n": "Golden State Warriors v Houston Rockets",
+    "t": "2027-03-08T03:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:951",
+    "n": "Golden State Warriors v Portland Trail Blazers",
+    "t": "2027-03-10T04:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:1002",
+    "n": "Golden State Warriors v Cleveland Cavaliers",
+    "t": "2027-03-17T02:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:1010",
+    "n": "Golden State Warriors v Memphis Grizzlies",
+    "t": "2027-03-18T02:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:1025",
+    "n": "Golden State Warriors v Portland Trail Blazers",
+    "t": "2027-03-20T02:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:1048",
+    "n": "Golden State Warriors v Atlanta Hawks",
+    "t": "2027-03-23T02:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:1063",
+    "n": "Golden State Warriors v Philadelphia 76ers",
+    "t": "2027-03-25T02:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:1073",
+    "n": "Golden State Warriors v Toronto Raptors",
+    "t": "2027-03-26T02:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:1164",
+    "n": "Golden State Warriors v Phoenix Suns",
+    "t": "2027-04-07T03:00:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   },
+   {
+    "id": "fxd:nba-2026:1205",
+    "n": "Golden State Warriors v Utah Jazz",
+    "t": "2027-04-12T00:30:00Z",
+    "lg": "NBA",
+    "sp": "Basketball"
+   }
+  ],
   "chicago-stadium-unitedcenter": [
    {
     "id": "fxd:nhl-2026:50",
@@ -15841,6 +15444,10 @@
   "fxd:epl-2026:44": "1-0",
   "fxd:epl-2026:48": "2-1",
   "fxd:epl-2026:49": "0-1",
+  "fxd:epl-2026:41": "0-1",
+  "fxd:epl-2026:46": "0-0",
+  "fxd:epl-2026:47": "5-3",
+  "fxd:epl-2026:45": "1-1",
   "fxd:championship-2026:1": "2-2",
   "fxd:championship-2026:2": "2-1",
   "fxd:championship-2026:3": "0-2",
@@ -15934,6 +15541,8 @@
   "fxd:championship-2026:92": "2-2",
   "fxd:championship-2026:93": "2-2",
   "fxd:championship-2026:96": "2-1",
+  "fxd:championship-2026:95": "1-0",
+  "fxd:championship-2026:91": "3-4",
   "fxd:la-liga-2026:1": "3-0",
   "fxd:la-liga-2026:9": "2-1",
   "fxd:la-liga-2026:7": "2-2",
@@ -15998,6 +15607,11 @@
   "fxd:la-liga-2026:61": "0-0",
   "fxd:la-liga-2026:63": "5-0",
   "fxd:la-liga-2026:68": "1-3",
+  "fxd:la-liga-2026:66": "1-0",
+  "fxd:la-liga-2026:62": "2-1",
+  "fxd:la-liga-2026:64": "1-1",
+  "fxd:la-liga-2026:70": "3-1",
+  "fxd:la-liga-2026:69": "2-3",
   "fxd:bundesliga-2026:1": "5-1",
   "fxd:bundesliga-2026:2": "3-2",
   "fxd:bundesliga-2026:3": "3-2",
@@ -16031,6 +15645,9 @@
   "fxd:bundesliga-2026:32": "3-4",
   "fxd:bundesliga-2026:33": "2-2",
   "fxd:bundesliga-2026:35": "0-1",
+  "fxd:bundesliga-2026:34": "2-0",
+  "fxd:bundesliga-2026:29": "0-0",
+  "fxd:bundesliga-2026:28": "3-1",
   "fxd:serie-a-2026:5": "4-1",
   "fxd:serie-a-2026:9": "1-1",
   "fxd:serie-a-2026:4": "0-2",
@@ -16076,6 +15693,11 @@
   "fxd:serie-a-2026:49": "0-1",
   "fxd:serie-a-2026:48": "2-2",
   "fxd:serie-a-2026:50": "0-2",
+  "fxd:serie-a-2026:42": "1-1",
+  "fxd:serie-a-2026:43": "2-0",
+  "fxd:serie-a-2026:47": "2-1",
+  "fxd:serie-a-2026:44": "2-0",
+  "fxd:serie-a-2026:45": "3-0",
   "fxd:ligue-1-2026:5": "4-0",
   "fxd:ligue-1-2026:4": "5-2",
   "fxd:ligue-1-2026:3": "2-2",
@@ -16118,9 +15740,9 @@
   "fxd:ligue-1-2026:39": "2-1",
   "fxd:ligue-1-2026:40": "4-0",
   "fxd:ligue-1-2026:45": "3-2",
-  "fxd:mls-2026:218": "2-0",
-  "fxd:mls-2026:219": "6-4",
-  "fxd:mls-2026:220": "1-0",
+  "fxd:ligue-1-2026:38": "2-1",
+  "fxd:ligue-1-2026:43": "2-1",
+  "fxd:ligue-1-2026:41": "1-2",
   "fxd:mls-2026:221": "0-0",
   "fxd:mls-2026:224": "3-2",
   "fxd:mls-2026:223": "1-5",
@@ -16171,6 +15793,7 @@
   "fxd:mls-2026:266": "1-0",
   "fxd:mls-2026:268": "0-0",
   "fxd:mls-2026:270": "2-1",
+  "fxd:mls-2026:32": "0-2",
   "fxd:mls-2026:272": "2-1",
   "fxd:mls-2026:273": "3-1",
   "fxd:mls-2026:274": "1-1",
@@ -16288,6 +15911,21 @@
   "fxd:mls-2026:387": "3-0",
   "fxd:mls-2026:389": "0-3",
   "fxd:mls-2026:388": "0-1",
+  "fxd:mls-2026:391": "2-2",
+  "fxd:mls-2026:105": "2-0",
+  "fxd:mls-2026:392": "2-2",
+  "fxd:mls-2026:393": "0-1",
+  "fxd:mls-2026:394": "3-1",
+  "fxd:mls-2026:396": "4-2",
+  "fxd:mls-2026:397": "3-3",
+  "fxd:mls-2026:399": "1-0",
+  "fxd:mls-2026:400": "0-2",
+  "fxd:mls-2026:402": "2-0",
+  "fxd:mls-2026:405": "3-1",
+  "fxd:mls-2026:403": "3-0",
+  "fxd:mls-2026:401": "3-2",
+  "fxd:mls-2026:404": "3-1",
+  "fxd:mls-2026:406": "3-3",
   "fxd:nfl-2026:1": "13-10",
   "fxd:nfl-2026:2": "7-27",
   "fxd:nfl-2026:3": "37-59",
@@ -16305,100 +15943,22 @@
   "fxd:nfl-2026:15": "28-20",
   "fxd:nfl-2026:16": "31-10",
   "fxd:nfl-2026:17": "41-31",
-  "fxd:mlb-2026:787": "1-4",
-  "fxd:mlb-2026:783": "5-3",
-  "fxd:mlb-2026:784": "5-6",
-  "fxd:mlb-2026:785": "1-3",
-  "fxd:mlb-2026:786": "2-0",
-  "fxd:mlb-2026:789": "4-0",
-  "fxd:mlb-2026:790": "8-6",
-  "fxd:mlb-2026:791": "1-5",
-  "fxd:mlb-2026:797": "5-8",
-  "fxd:mlb-2026:792": "8-5",
-  "fxd:mlb-2026:794": "9-1",
-  "fxd:mlb-2026:795": "2-5",
-  "fxd:mlb-2026:796": "1-2",
-  "fxd:mlb-2026:770": "1-4",
-  "fxd:mlb-2026:793": "2-1",
-  "fxd:mlb-2026:798": "9-7",
-  "fxd:mlb-2026:804": "2-1",
-  "fxd:mlb-2026:799": "3-1",
-  "fxd:mlb-2026:800": "5-1",
-  "fxd:mlb-2026:801": "3-4",
-  "fxd:mlb-2026:802": "2-7",
-  "fxd:mlb-2026:803": "2-6",
-  "fxd:mlb-2026:810": "2-10",
-  "fxd:mlb-2026:805": "0-3",
-  "fxd:mlb-2026:806": "0-9",
-  "fxd:mlb-2026:807": "2-8",
-  "fxd:mlb-2026:808": "5-3",
-  "fxd:mlb-2026:809": "2-9",
-  "fxd:mlb-2026:825": "3-6",
-  "fxd:mlb-2026:811": "6-1",
-  "fxd:mlb-2026:812": "6-10",
-  "fxd:mlb-2026:813": "12-1",
-  "fxd:mlb-2026:814": "6-7",
-  "fxd:mlb-2026:815": "8-1",
-  "fxd:mlb-2026:816": "2-7",
-  "fxd:mlb-2026:817": "3-5",
-  "fxd:mlb-2026:818": "1-15",
-  "fxd:mlb-2026:819": "6-0",
-  "fxd:mlb-2026:820": "10-7",
-  "fxd:mlb-2026:821": "1-4",
-  "fxd:mlb-2026:822": "3-4",
-  "fxd:mlb-2026:823": "5-7",
-  "fxd:mlb-2026:824": "15-6",
-  "fxd:mlb-2026:826": "2-1",
-  "fxd:mlb-2026:840": "3-2",
-  "fxd:mlb-2026:827": "2-1",
-  "fxd:mlb-2026:828": "1-9",
-  "fxd:mlb-2026:829": "2-3",
-  "fxd:mlb-2026:830": "0-3",
-  "fxd:mlb-2026:831": "11-2",
-  "fxd:mlb-2026:832": "4-0",
-  "fxd:mlb-2026:833": "4-10",
-  "fxd:mlb-2026:834": "8-0",
-  "fxd:mlb-2026:835": "4-2",
-  "fxd:mlb-2026:836": "15-2",
-  "fxd:mlb-2026:837": "0-7",
-  "fxd:mlb-2026:838": "3-4",
-  "fxd:mlb-2026:839": "4-1",
-  "fxd:mlb-2026:841": "1-7",
-  "fxd:mlb-2026:842": "6-2",
-  "fxd:mlb-2026:843": "2-10",
-  "fxd:mlb-2026:844": "1-2",
-  "fxd:mlb-2026:845": "2-7",
-  "fxd:mlb-2026:846": "1-5",
-  "fxd:mlb-2026:848": "3-8",
-  "fxd:mlb-2026:847": "6-5",
-  "fxd:mlb-2026:849": "5-7",
-  "fxd:mlb-2026:850": "5-6",
-  "fxd:mlb-2026:851": "8-5",
-  "fxd:mlb-2026:852": "9-7",
-  "fxd:mlb-2026:860": "4-3",
-  "fxd:mlb-2026:855": "6-5",
-  "fxd:mlb-2026:853": "4-3",
-  "fxd:mlb-2026:854": "9-1",
-  "fxd:mlb-2026:861": "4-5",
-  "fxd:mlb-2026:856": "8-6",
-  "fxd:mlb-2026:857": "2-8",
-  "fxd:mlb-2026:858": "7-6",
-  "fxd:mlb-2026:859": "4-2",
-  "fxd:mlb-2026:862": "7-1",
-  "fxd:mlb-2026:863": "9-4",
-  "fxd:mlb-2026:864": "7-6",
-  "fxd:mlb-2026:865": "6-5",
-  "fxd:mlb-2026:866": "10-9",
-  "fxd:mlb-2026:867": "3-14",
-  "fxd:mlb-2026:868": "6-1",
-  "fxd:mlb-2026:875": "1-9",
-  "fxd:mlb-2026:876": "9-2",
-  "fxd:mlb-2026:869": "1-6",
-  "fxd:mlb-2026:870": "2-5",
-  "fxd:mlb-2026:871": "8-3",
-  "fxd:mlb-2026:872": "6-4",
-  "fxd:mlb-2026:873": "5-1",
-  "fxd:mlb-2026:874": "3-4",
+  "fxd:nfl-2026:18": "3-34",
+  "fxd:nfl-2026:19": "17-24",
+  "fxd:nfl-2026:20": "3-9",
+  "fxd:nfl-2026:21": "6-20",
+  "fxd:nfl-2026:22": "20-3",
+  "fxd:nfl-2026:23": "17-20",
+  "fxd:nfl-2026:24": "19-23",
+  "fxd:nfl-2026:25": "20-24",
+  "fxd:nfl-2026:26": "20-13",
+  "fxd:nfl-2026:27": "14-26",
+  "fxd:nfl-2026:28": "7-31",
+  "fxd:nfl-2026:29": "37-20",
+  "fxd:nfl-2026:30": "35-13",
+  "fxd:nfl-2026:31": "33-30",
+  "fxd:nfl-2026:32": "28-6",
+  "fxd:nfl-2026:33": "14-35",
   "fxd:mlb-2026:878": "9-5",
   "fxd:mlb-2026:877": "4-2",
   "fxd:mlb-2026:879": "9-3",
@@ -17835,6 +17395,7 @@
   "fxd:mlb-2026:2306": "8-2",
   "fxd:mlb-2026:2307": "2-9",
   "fxd:mlb-2026:2308": "8-2",
+  "fxd:mlb-2026:2317": "3-1",
   "fxd:mlb-2026:2311": "0-1",
   "fxd:mlb-2026:2312": "2-1",
   "fxd:mlb-2026:2313": "10-3",
@@ -17842,13 +17403,103 @@
   "fxd:mlb-2026:2314": "2-5",
   "fxd:mlb-2026:2315": "6-5",
   "fxd:mlb-2026:2316": "6-2",
-  "fxd:mlb-2026:2317": "3-1",
   "fxd:mlb-2026:2325": "3-6",
   "fxd:mlb-2026:2318": "5-8",
   "fxd:mlb-2026:2319": "5-3",
   "fxd:mlb-2026:2320": "5-3",
   "fxd:mlb-2026:2321": "7-6",
   "fxd:mlb-2026:2322": "10-4",
-  "fxd:mlb-2026:2323": "6-5"
+  "fxd:mlb-2026:2323": "6-5",
+  "fxd:mlb-2026:2330": "2-7",
+  "fxd:mlb-2026:2326": "4-3",
+  "fxd:mlb-2026:2328": "1-9",
+  "fxd:mlb-2026:2329": "5-1",
+  "fxd:mlb-2026:2339": "1-0",
+  "fxd:mlb-2026:2331": "8-1",
+  "fxd:mlb-2026:2340": "2-4",
+  "fxd:mlb-2026:2332": "5-3",
+  "fxd:mlb-2026:2333": "2-7",
+  "fxd:mlb-2026:2334": "1-2",
+  "fxd:mlb-2026:2335": "0-8",
+  "fxd:mlb-2026:2336": "3-1",
+  "fxd:mlb-2026:2337": "7-3",
+  "fxd:mlb-2026:2338": "8-4",
+  "fxd:mlb-2026:2327": "0-3",
+  "fxd:mlb-2026:2341": "4-3",
+  "fxd:mlb-2026:2342": "9-2",
+  "fxd:mlb-2026:2343": "5-2",
+  "fxd:mlb-2026:768": "2-0",
+  "fxd:mlb-2026:2345": "1-3",
+  "fxd:mlb-2026:2346": "2-0",
+  "fxd:mlb-2026:2347": "6-4",
+  "fxd:mlb-2026:2348": "2-3",
+  "fxd:mlb-2026:2349": "1-6",
+  "fxd:mlb-2026:2350": "0-4",
+  "fxd:mlb-2026:2351": "11-14",
+  "fxd:mlb-2026:2358": "2-8",
+  "fxd:mlb-2026:2352": "3-6",
+  "fxd:mlb-2026:2353": "2-7",
+  "fxd:mlb-2026:2354": "9-7",
+  "fxd:mlb-2026:2355": "0-7",
+  "fxd:mlb-2026:2356": "2-3",
+  "fxd:mlb-2026:2357": "7-0",
+  "fxd:mlb-2026:2359": "2-4",
+  "fxd:mlb-2026:2344": "4-2",
+  "fxd:mlb-2026:2360": "2-4",
+  "fxd:mlb-2026:2361": "4-2",
+  "fxd:mlb-2026:2362": "1-5",
+  "fxd:mlb-2026:2363": "1-4",
+  "fxd:mlb-2026:2365": "9-2",
+  "fxd:mlb-2026:2364": "1-0",
+  "fxd:mlb-2026:2366": "3-2",
+  "fxd:mlb-2026:2367": "5-4",
+  "fxd:mlb-2026:2373": "2-3",
+  "fxd:mlb-2026:2368": "2-7",
+  "fxd:mlb-2026:2369": "3-5",
+  "fxd:mlb-2026:2370": "7-3",
+  "fxd:mlb-2026:2371": "6-5",
+  "fxd:mlb-2026:2372": "1-5",
+  "fxd:mlb-2026:2374": "2-1",
+  "fxd:mlb-2026:2375": "1-9",
+  "fxd:mlb-2026:2385": "2-1",
+  "fxd:mlb-2026:2376": "3-1",
+  "fxd:mlb-2026:2377": "8-12",
+  "fxd:mlb-2026:2378": "1-5",
+  "fxd:mlb-2026:2379": "0-1",
+  "fxd:mlb-2026:2380": "6-4",
+  "fxd:mlb-2026:2381": "6-7",
+  "fxd:mlb-2026:2382": "5-7",
+  "fxd:mlb-2026:2383": "4-6",
+  "fxd:mlb-2026:2384": "2-4",
+  "fxd:mlb-2026:2416": "4-3",
+  "fxd:mlb-2026:2389": "2-10",
+  "fxd:mlb-2026:2414": "6-3",
+  "fxd:mlb-2026:2391": "2-0",
+  "fxd:mlb-2026:2386": "8-7",
+  "fxd:mlb-2026:2387": "0-2",
+  "fxd:mlb-2026:2388": "7-6",
+  "fxd:mlb-2026:2390": "6-5",
+  "fxd:mlb-2026:2392": "3-0",
+  "fxd:mlb-2026:2393": "9-12",
+  "fxd:mlb-2026:2394": "6-1",
+  "fxd:mlb-2026:2395": "8-4",
+  "fxd:mlb-2026:2396": "10-2",
+  "fxd:mlb-2026:2397": "6-5",
+  "fxd:mlb-2026:2398": "4-11",
+  "fxd:mlb-2026:2399": "5-7",
+  "fxd:mlb-2026:2400": "0-2",
+  "fxd:mlb-2026:2403": "1-7",
+  "fxd:mlb-2026:2401": "4-3",
+  "fxd:mlb-2026:2402": "1-5",
+  "fxd:mlb-2026:2415": "3-4",
+  "fxd:mlb-2026:2404": "2-6",
+  "fxd:mlb-2026:2405": "3-8",
+  "fxd:mlb-2026:2407": "5-11",
+  "fxd:mlb-2026:2408": "6-9",
+  "fxd:mlb-2026:2409": "3-2",
+  "fxd:mlb-2026:2406": "1-12",
+  "fxd:mlb-2026:2411": "10-7",
+  "fxd:mlb-2026:2412": "2-13",
+  "fxd:mlb-2026:2413": "8-4"
  }
 }
