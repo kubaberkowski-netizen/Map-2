@@ -1,0 +1,1832 @@
+{
+  "title": "Germany walk-discovery candidates — direct research pass 1",
+  "created": "2026-07-15",
+  "purpose": "100 Germany candidates selected for the experience of unexpectedly encountering them on foot. This is a reviewable editorial research batch, not a production import.",
+  "selection_rules": [
+    "visible or meaningfully legible from public space",
+    "strong stop-and-look factor",
+    "one concise architectural, industrial, historical or human hook",
+    "works as part of an ordinary walk rather than only as a ticketed destination",
+    "avoids generic headline attractions unless the exterior or surrounding urban fabric independently earns inclusion",
+    "geographically distributed across major and secondary cities"
+  ],
+  "research_method": [
+    "reviewed the repository data model and existing authored-place tone",
+    "used official tourism, monument, industrial-heritage and local-history source families to shape the candidate sweep",
+    "used community recommendations and unusual-place roundups as discovery leads, not final factual authority",
+    "filtered for immediate visual legibility, compact story value, walkability and shareability",
+    "kept all claims and novelty status provisional until production verification"
+  ],
+  "production_gate": [
+    "exact and fuzzy duplicate check against data/spots.json",
+    "verify current survival, access and public visibility",
+    "verify every factual claim against authoritative Germany and local sources",
+    "resolve an existing Ci city or region slug and exact ne category",
+    "add coordinates, area, postcode, unique id and bbox validation",
+    "fact-check and rewrite in final owner voice without overwriting authored live entries",
+    "run npm build and all repository validation checks before any production merge"
+  ],
+  "research_caveat": "The repository connector does not expose a reliable full-text index of the complete 14,902-place catalogue. Candidate novelty is therefore intentionally marked pending rather than overstated.",
+  "candidates": [
+    {
+      "rank": 1,
+      "name": "Schwerbelastungskörper",
+      "location": "Berlin",
+      "draft_hook": "a 12,650-ton concrete test weight for Hitler's unbuilt triumphal arch",
+      "why_it_works_on_a_walk": "A colossal cylinder with a purpose stranger than its appearance, standing beside ordinary housing.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Schwerbelastungskörper Berlin Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 2,
+      "name": "Teufelsberg Listening Station",
+      "location": "Berlin",
+      "draft_hook": "Cold War radar domes built on a hill of wartime rubble",
+      "why_it_works_on_a_walk": "The white geodesic shells emerge above the forest like abandoned spacecraft.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Teufelsberg Listening Station Berlin Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 3,
+      "name": "Humboldthain Flak Tower",
+      "location": "Berlin",
+      "draft_hook": "a wartime gun tower half-buried beneath a public park",
+      "why_it_works_on_a_walk": "A mountain of concrete protruding from greenery turns a casual park walk into military archaeology.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Humboldthain Flak Tower Berlin Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 4,
+      "name": "Bierpinsel",
+      "location": "Berlin",
+      "draft_hook": "a 1970s pop-art tower shaped like a futuristic tree",
+      "why_it_works_on_a_walk": "The bright elevated structure looks like a stranded set from an optimistic science-fiction film.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Bierpinsel Berlin Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 5,
+      "name": "Mäusebunker",
+      "location": "Berlin",
+      "draft_hook": "a brutalist laboratory nicknamed the Mouse Bunker",
+      "why_it_works_on_a_walk": "Ventilation pipes and sloping concrete walls make a medical building resemble a battleship.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Mäusebunker Berlin Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 6,
+      "name": "Corbusierhaus Berlin",
+      "location": "Berlin",
+      "draft_hook": "a giant Unité d'Habitation built beside the Olympic grounds",
+      "why_it_works_on_a_walk": "A vividly gridded residential slab translates Le Corbusier's vertical-city idea into West Berlin.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Corbusierhaus Berlin Berlin Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 7,
+      "name": "Pallasseum and the Pallasstraße Bunker",
+      "location": "Berlin",
+      "draft_hook": "housing built across an indestructible wartime bunker",
+      "why_it_works_on_a_walk": "A post-war apartment block physically bridges a concrete relic that demolition crews could not remove.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Pallasseum and the Pallasstraße Bunker Berlin Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 8,
+      "name": "Siemensstadt Ring Estate",
+      "location": "Berlin",
+      "draft_hook": "modernist workers' housing planned by six leading architects",
+      "why_it_works_on_a_walk": "Curved balconies, coloured doors and generous lawns make social housing read like an open-air design exhibition.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 4,
+        "shareability": 5
+      },
+      "editorial_score": 24,
+      "source_query": "Siemensstadt Ring Estate Berlin Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 9,
+      "name": "Boros Bunker Exterior",
+      "location": "Berlin",
+      "draft_hook": "a Nazi air-raid shelter later used as a fruit store and techno club",
+      "why_it_works_on_a_walk": "The windowless concrete block carries several incompatible Berlin lives in one street presence.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Boros Bunker Exterior Berlin Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 10,
+      "name": "Wasserklops Fountain",
+      "location": "Berlin",
+      "draft_hook": "a granite globe erupting with water at Breitscheidplatz",
+      "why_it_works_on_a_walk": "The deliberately awkward fountain turns a busy shopping junction into a piece of post-war urban theatre.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Wasserklops Fountain Berlin Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 11,
+      "name": "Viktoriapark Artificial Waterfall",
+      "location": "Berlin",
+      "draft_hook": "a mountain waterfall engineered into central Berlin",
+      "why_it_works_on_a_walk": "Water cascades down a fabricated rocky landscape beneath a Prussian monument.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Viktoriapark Artificial Waterfall Berlin Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 12,
+      "name": "Märchenbrunnen",
+      "location": "Berlin",
+      "draft_hook": "a monumental fairy-tale fountain populated by Grimm characters",
+      "why_it_works_on_a_walk": "Frogs, dwarfs and storybook figures create an unexpectedly theatrical edge to a city park.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Märchenbrunnen Berlin Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 13,
+      "name": "Böhmischer Gottesacker",
+      "location": "Berlin",
+      "draft_hook": "a tiny Moravian cemetery hidden behind Neukölln streets",
+      "why_it_works_on_a_walk": "A walled eighteenth-century burial ground survives within one of Berlin's busiest districts.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Böhmischer Gottesacker Berlin Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 14,
+      "name": "Rosa Luxemburg Memorial at Landwehr Canal",
+      "location": "Berlin",
+      "draft_hook": "a small bronze name marking the canal where her body was found",
+      "why_it_works_on_a_walk": "The modest intervention makes a dark political history legible on an everyday waterside walk.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 4,
+        "shareability": 5
+      },
+      "editorial_score": 24,
+      "source_query": "Rosa Luxemburg Memorial at Landwehr Canal Berlin Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 15,
+      "name": "Soviet War Memorial Schönholzer Heide",
+      "location": "Berlin",
+      "draft_hook": "a vast Soviet memorial concealed in a northern park",
+      "why_it_works_on_a_walk": "An austere ceremonial landscape appears abruptly among neighbourhood woodland.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Soviet War Memorial Schönholzer Heide Berlin Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 16,
+      "name": "Green Bunker St. Pauli",
+      "location": "Hamburg",
+      "draft_hook": "a wartime flak tower crowned by a new public green mountain",
+      "why_it_works_on_a_walk": "The old concrete fortress now carries planted terraces and a rooftop path above the entertainment district.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Green Bunker St. Pauli Hamburg Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 17,
+      "name": "Chilehaus",
+      "location": "Hamburg",
+      "draft_hook": "an office block sharpened into the prow of a brick ship",
+      "why_it_works_on_a_walk": "The acute corner turns a normal street intersection into an expressionist maritime illusion.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Chilehaus Hamburg Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 18,
+      "name": "Old Elbe Tunnel Portal",
+      "location": "Hamburg",
+      "draft_hook": "an ornate domed entrance to a road tunnel beneath the river",
+      "why_it_works_on_a_walk": "Copper domes and glazed machinery halls announce infrastructure with the dignity of a civic palace.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Old Elbe Tunnel Portal Hamburg Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 19,
+      "name": "Oberhafen Kantine",
+      "location": "Hamburg",
+      "draft_hook": "a crooked 1920s canteen squeezed beneath railway viaducts",
+      "why_it_works_on_a_walk": "The tiny tilted building looks physically disobedient amid the tracks and warehouses.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Oberhafen Kantine Hamburg Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 20,
+      "name": "Krameramtsstuben",
+      "location": "Hamburg",
+      "draft_hook": "a surviving lane of seventeenth-century widows' houses",
+      "why_it_works_on_a_walk": "A compressed timber-framed alley survives behind the church towers of the modern centre.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Krameramtsstuben Hamburg Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 21,
+      "name": "Köhlbrandtreppe",
+      "location": "Hamburg",
+      "draft_hook": "a monumental workers' staircase climbing above the harbour",
+      "why_it_works_on_a_walk": "Broad brick flights turn a practical route to the docks into civic industrial architecture.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 24,
+      "source_query": "Köhlbrandtreppe Hamburg Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 22,
+      "name": "Wasserkunst Kaltehofe",
+      "location": "Hamburg",
+      "draft_hook": "former water-filtration basins and a fairy-tale laboratory tower",
+      "why_it_works_on_a_walk": "Victorian utility structures sit within reclaimed wetlands on an Elbe island.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 24,
+      "source_query": "Wasserkunst Kaltehofe Hamburg Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 23,
+      "name": "St. Nikolai Memorial Ruin",
+      "location": "Hamburg",
+      "draft_hook": "a church tower preserved above its bombed-out nave",
+      "why_it_works_on_a_walk": "The surviving spire and empty footprint let absence operate as architecture.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 24,
+      "source_query": "St. Nikolai Memorial Ruin Hamburg Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 24,
+      "name": "Wasserschloss Speicherstadt",
+      "location": "Hamburg",
+      "draft_hook": "a small red-brick water castle marooned between canals",
+      "why_it_works_on_a_walk": "The ornate building occupies a wedge of land like a miniature harbour palace.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 24,
+      "source_query": "Wasserschloss Speicherstadt Hamburg Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 25,
+      "name": "Yenidze",
+      "location": "Dresden",
+      "draft_hook": "a cigarette factory disguised as a mosque",
+      "why_it_works_on_a_walk": "A coloured glass dome and minaret-like chimney transform industrial architecture into an orientalist fantasy.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 4,
+        "shareability": 5
+      },
+      "editorial_score": 23,
+      "source_query": "Yenidze Dresden Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 26,
+      "name": "Kunsthofpassage Singing Drainpipes",
+      "location": "Dresden",
+      "draft_hook": "a courtyard façade whose gutters play music in the rain",
+      "why_it_works_on_a_walk": "Bright blue pipes turn stormwater drainage into a public musical instrument.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 24,
+      "source_query": "Kunsthofpassage Singing Drainpipes Dresden Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 27,
+      "name": "UFA Kristallpalast",
+      "location": "Dresden",
+      "draft_hook": "a deconstructivist cinema exploding into glass shards",
+      "why_it_works_on_a_walk": "The fractured façade feels deliberately unstable against the rebuilt city.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 24,
+      "source_query": "UFA Kristallpalast Dresden Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 28,
+      "name": "Trümmerfrau Memorial Dresden",
+      "location": "Dresden",
+      "draft_hook": "a woman cast from rubble-bearing post-war labour",
+      "why_it_works_on_a_walk": "The compact figure gives physical form to reconstruction work usually absorbed into city mythology.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 24,
+      "source_query": "Trümmerfrau Memorial Dresden Dresden Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 29,
+      "name": "Ballwerfer at the Hygiene Museum",
+      "location": "Dresden",
+      "draft_hook": "a golden athlete frozen above a severe modernist museum",
+      "why_it_works_on_a_walk": "The idealised body and rational façade form a striking Weimar-era composition.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 24,
+      "source_query": "Ballwerfer at the Hygiene Museum Dresden Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 30,
+      "name": "Blaues Wunder Bridge",
+      "location": "Dresden",
+      "draft_hook": "a steel bridge whose blue trusses span the Elbe without river piers",
+      "why_it_works_on_a_walk": "The structure's improbable openness and colour reward a riverside approach.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 24,
+      "source_query": "Blaues Wunder Bridge Dresden Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 31,
+      "name": "Krochhochhaus Clock Figures",
+      "location": "Leipzig",
+      "draft_hook": "bell-striking figures crowning Leipzig's first high-rise",
+      "why_it_works_on_a_walk": "The tower performs above the street with oversized bronze keepers of time.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Krochhochhaus Clock Figures Leipzig Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 32,
+      "name": "Bayerischer Bahnhof Portico",
+      "location": "Leipzig",
+      "draft_hook": "a classical railway entrance left standing after the station moved underground",
+      "why_it_works_on_a_walk": "The freestanding arch functions as a ghost façade for vanished tracks.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 4,
+        "shareability": 5
+      },
+      "editorial_score": 23,
+      "source_query": "Bayerischer Bahnhof Portico Leipzig Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 33,
+      "name": "Russian Memorial Church",
+      "location": "Leipzig",
+      "draft_hook": "a tent-roofed Orthodox church built for the dead of 1813",
+      "why_it_works_on_a_walk": "Its colourful vertical silhouette appears unexpectedly beyond residential streets.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Russian Memorial Church Leipzig Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 34,
+      "name": "Mädler Passage Faust Figures",
+      "location": "Leipzig",
+      "draft_hook": "bronze characters from Goethe gathering at a shopping arcade entrance",
+      "why_it_works_on_a_walk": "Literature becomes street furniture at the threshold of an elegant passage.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 24,
+      "source_query": "Mädler Passage Faust Figures Leipzig Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 35,
+      "name": "Karl-Heine Canal Industrial Bridges",
+      "location": "Leipzig",
+      "draft_hook": "brick factories and steel bridges lining a revived urban canal",
+      "why_it_works_on_a_walk": "A waterside walk reveals Leipzig's industrial city through repeated fragments.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 23,
+      "source_query": "Karl-Heine Canal Industrial Bridges Leipzig Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 36,
+      "name": "Leipzig Cotton Mill Gate",
+      "location": "Leipzig",
+      "draft_hook": "the entrance to a factory complex turned artists' city",
+      "why_it_works_on_a_walk": "The monumental industrial gateway introduces a neighbourhood-sized reuse project.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Leipzig Cotton Mill Gate Leipzig Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 37,
+      "name": "City-Hochhaus Profile",
+      "location": "Leipzig",
+      "draft_hook": "a university tower shaped like an open book",
+      "why_it_works_on_a_walk": "Its curved slab gives the skyline a single unmistakable socialist-era gesture.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 4,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "City-Hochhaus Profile Leipzig Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 38,
+      "name": "Monument to the Battle of the Nations Reflection Pool",
+      "location": "Leipzig",
+      "draft_hook": "a gigantic memorial approached across dark water and stone",
+      "why_it_works_on_a_walk": "Even without entering, the axial exterior creates one of Germany's most overwhelming pedestrian reveals.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Monument to the Battle of the Nations Reflection Pool Leipzig Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 39,
+      "name": "Tiger & Turtle Magic Mountain",
+      "location": "Duisburg",
+      "draft_hook": "a walkable sculpture shaped like a roller coaster",
+      "why_it_works_on_a_walk": "The looping staircase crowns a mine spoil heap, combining industrial landscape with impossible amusement ride.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 24,
+      "source_query": "Tiger & Turtle Magic Mountain Duisburg Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 40,
+      "name": "Landschaftspark Duisburg-Nord Blast Furnaces",
+      "location": "Duisburg",
+      "draft_hook": "a steelworks turned into a freely walkable night-lit park",
+      "why_it_works_on_a_walk": "Furnaces, pipes and bunkers remain as an inhabited industrial ruin.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 4,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Landschaftspark Duisburg-Nord Blast Furnaces Duisburg Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 41,
+      "name": "Slinky Springs to Fame",
+      "location": "Oberhausen",
+      "draft_hook": "a bouncing pedestrian bridge wrapped in a coloured spiral",
+      "why_it_works_on_a_walk": "The bridge transforms a canal crossing into an oversized kinetic toy.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Slinky Springs to Fame Oberhausen Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 42,
+      "name": "Gasometer Oberhausen",
+      "location": "Oberhausen",
+      "draft_hook": "a gigantic gas holder reused as an exhibition drum",
+      "why_it_works_on_a_walk": "The cylinder's blank scale makes surrounding buildings feel miniature.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 4,
+        "shareability": 5
+      },
+      "editorial_score": 23,
+      "source_query": "Gasometer Oberhausen Oberhausen Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 43,
+      "name": "Tetrahedron Bottrop",
+      "location": "Bottrop",
+      "draft_hook": "a climbable steel pyramid on a coal spoil heap",
+      "why_it_works_on_a_walk": "The geometric frame hovers above the Ruhr landscape like a mining-age beacon.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Tetrahedron Bottrop Bottrop Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 44,
+      "name": "Geleucht on Halde Rheinpreußen",
+      "location": "Moers",
+      "draft_hook": "a giant red miner's lamp glowing above a spoil heap",
+      "why_it_works_on_a_walk": "Mining equipment is enlarged into a skyline monument visible across the lower Rhine.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Geleucht on Halde Rheinpreußen Moers Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 45,
+      "name": "Himmelstreppe Rheinelbe",
+      "location": "Gelsenkirchen",
+      "draft_hook": "a monumental staircase assembled from mine rubble",
+      "why_it_works_on_a_walk": "Stone steps rise toward an abstract summit marker on an artificial hill.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Himmelstreppe Rheinelbe Gelsenkirchen Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 46,
+      "name": "Schurenbachhalde Bramme",
+      "location": "Essen",
+      "draft_hook": "a single vertical steel slab planted on a coal heap",
+      "why_it_works_on_a_walk": "Richard Serra's dark plate reduces the industrial landscape to one severe gesture.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 4,
+        "shareability": 4
+      },
+      "editorial_score": 20,
+      "source_query": "Schurenbachhalde Bramme Essen Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 47,
+      "name": "Zeche Zollverein Shaft XII Exterior",
+      "location": "Essen",
+      "draft_hook": "a coal mine designed with the clarity of a modernist cathedral",
+      "why_it_works_on_a_walk": "Red steel geometry and brick volumes make heavy industry read as disciplined architecture.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Zeche Zollverein Shaft XII Exterior Essen Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 48,
+      "name": "Margarethenhöhe Gateways",
+      "location": "Essen",
+      "draft_hook": "a garden-city workers' estate entered through picturesque arches",
+      "why_it_works_on_a_walk": "Curving streets and crafted brickwork reveal a philanthropic industrial settlement.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Margarethenhöhe Gateways Essen Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 49,
+      "name": "Zeche Zollern Machine Hall Exterior",
+      "location": "Dortmund",
+      "draft_hook": "an Art Nouveau portal built for a coal mine",
+      "why_it_works_on_a_walk": "A coloured glass and steel façade gives extraction machinery the entrance of a palace.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Zeche Zollern Machine Hall Exterior Dortmund Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 50,
+      "name": "Dortmunder U",
+      "location": "Dortmund",
+      "draft_hook": "a former brewery tower crowned by a giant luminous letter",
+      "why_it_works_on_a_walk": "The moving rooftop screens and monumental U turn industrial branding into a city beacon.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Dortmunder U Dortmund Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 51,
+      "name": "Phoenix West Blast Furnace",
+      "location": "Dortmund",
+      "draft_hook": "a preserved furnace rising beside new offices and lakeside redevelopment",
+      "why_it_works_on_a_walk": "The rusting industrial skeleton remains the district's dominant visual fact.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Phoenix West Blast Furnace Dortmund Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 52,
+      "name": "Hansa Coking Plant",
+      "location": "Dortmund",
+      "draft_hook": "a preserved coking works threaded by conveyors and towers",
+      "why_it_works_on_a_walk": "A dense machine landscape survives almost untouched at neighbourhood scale.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Hansa Coking Plant Dortmund Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 53,
+      "name": "Jahrhunderthalle Bochum",
+      "location": "Bochum",
+      "draft_hook": "a gas-power hall converted into a cathedral-like performance space",
+      "why_it_works_on_a_walk": "The brick and steel exterior anchors a public park built from a former works.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Jahrhunderthalle Bochum Bochum Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 54,
+      "name": "Halde Hoheward Horizon Observatory",
+      "location": "Herten",
+      "draft_hook": "giant arcs marking the sky above a mine spoil heap",
+      "why_it_works_on_a_walk": "Astronomy, land art and industrial topography meet on a vast man-made hill.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Halde Hoheward Horizon Observatory Herten Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 55,
+      "name": "Nordstern Tower Hercules",
+      "location": "Gelsenkirchen",
+      "draft_hook": "a monumental figure standing on a former mine winding tower",
+      "why_it_works_on_a_walk": "The sculpture turns a coal-industry landmark into a contemporary civic colossus.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 23,
+      "source_query": "Nordstern Tower Hercules Gelsenkirchen Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 56,
+      "name": "Glass Elephant Maximilianpark",
+      "location": "Hamm",
+      "draft_hook": "a former coal-washing plant transformed into a glass elephant",
+      "why_it_works_on_a_walk": "Industrial machinery becomes a translucent animal visible across the park.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 24,
+      "source_query": "Glass Elephant Maximilianpark Hamm Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 57,
+      "name": "Henrichenburg Boat Lift",
+      "location": "Waltrop",
+      "draft_hook": "a ship elevator dressed as imperial engineering architecture",
+      "why_it_works_on_a_walk": "Towers, trusses and basins make canal logistics unexpectedly ceremonial.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Henrichenburg Boat Lift Waltrop Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 58,
+      "name": "Umschreibung Staircase",
+      "location": "Munich",
+      "draft_hook": "a double-helix stair that climbs without reaching anywhere",
+      "why_it_works_on_a_walk": "The polished steel loop stands as an architectural sentence with no practical conclusion.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Umschreibung Staircase Munich Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 59,
+      "name": "Alte Utting",
+      "location": "Munich",
+      "draft_hook": "a passenger ship stranded on a railway bridge",
+      "why_it_works_on_a_walk": "A full vessel floating above tracks creates one of the city's most improbable silhouettes.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Alte Utting Munich Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 60,
+      "name": "Endless Staircase KPMG",
+      "location": "Munich",
+      "draft_hook": "a looping staircase installed in an office courtyard",
+      "why_it_works_on_a_walk": "The stair folds into itself, making circulation into a sculptural paradox.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 23,
+      "source_query": "Endless Staircase KPMG Munich Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 61,
+      "name": "Borstei Estate Courtyards",
+      "location": "Munich",
+      "draft_hook": "an interwar housing estate organised like a fortified town",
+      "why_it_works_on_a_walk": "Arches, fountains and landscaped courts make ordinary housing unusually theatrical.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Borstei Estate Courtyards Munich Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 62,
+      "name": "Müllersches Volksbad Exterior",
+      "location": "Munich",
+      "draft_hook": "a public bath built like an Art Nouveau palace",
+      "why_it_works_on_a_walk": "Domes, towers and sculpture elevate municipal hygiene into civic splendour.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Müllersches Volksbad Exterior Munich Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 63,
+      "name": "Hackerbrücke",
+      "location": "Munich",
+      "draft_hook": "an iron railway bridge whose trusses become a sunset grandstand",
+      "why_it_works_on_a_walk": "The nineteenth-century structure is both infrastructure and informal public room.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Hackerbrücke Munich Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 64,
+      "name": "Westpark Thai Sala",
+      "location": "Munich",
+      "draft_hook": "a gilded Buddhist pavilion beside a German park lake",
+      "why_it_works_on_a_walk": "The ornate structure appears as a complete cultural transplant within suburban landscape.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Westpark Thai Sala Munich Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 65,
+      "name": "Dropped Cone",
+      "location": "Cologne",
+      "draft_hook": "a giant ice-cream cone apparently fallen onto a shopping arcade roof",
+      "why_it_works_on_a_walk": "The oversized object turns retail architecture into deadpan pop art.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 23,
+      "source_query": "Dropped Cone Cologne Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 66,
+      "name": "Kranhäuser",
+      "location": "Cologne",
+      "draft_hook": "three office towers shaped like harbour cranes",
+      "why_it_works_on_a_walk": "The buildings translate the machinery of the former port into inhabitable silhouettes.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Kranhäuser Cologne Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 67,
+      "name": "St. Gereon's Decagonal Exterior",
+      "location": "Cologne",
+      "draft_hook": "a church assembled around a massive Roman-era oval core",
+      "why_it_works_on_a_walk": "Its unusual geometry reads differently from every surrounding street.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 24,
+      "source_query": "St. Gereon's Decagonal Exterior Cologne Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 68,
+      "name": "Rheinauhafen Siebengebirge Warehouses",
+      "location": "Cologne",
+      "draft_hook": "saw-toothed warehouses nicknamed after a mountain range",
+      "why_it_works_on_a_walk": "The repeated gables preserve industrial rhythm beneath newer development.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 4,
+        "shareability": 4
+      },
+      "editorial_score": 20,
+      "source_query": "Rheinauhafen Siebengebirge Warehouses Cologne Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 69,
+      "name": "Kiefernstraße Murals",
+      "location": "Düsseldorf",
+      "draft_hook": "an entire street of occupied houses covered in political murals",
+      "why_it_works_on_a_walk": "Domestic façades become a continuous, evolving public artwork.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Kiefernstraße Murals Düsseldorf Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 70,
+      "name": "Flossis at Roggendorf House",
+      "location": "Düsseldorf",
+      "draft_hook": "bright human figures climbing an office façade",
+      "why_it_works_on_a_walk": "The cartoon-like bodies make the building appear under playful invasion.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Flossis at Roggendorf House Düsseldorf Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 71,
+      "name": "Kö-Bogen II Green Façade",
+      "location": "Düsseldorf",
+      "draft_hook": "an office block wrapped in kilometres of hornbeam hedges",
+      "why_it_works_on_a_walk": "A commercial building behaves like a clipped artificial hillside.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Kö-Bogen II Green Façade Düsseldorf Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 72,
+      "name": "St. Lambertus Twisted Spire",
+      "location": "Düsseldorf",
+      "draft_hook": "a church tower whose warped roof became its defining feature",
+      "why_it_works_on_a_walk": "The bent silhouette looks like a structural accident preserved as identity.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 4,
+        "shareability": 5
+      },
+      "editorial_score": 23,
+      "source_query": "St. Lambertus Twisted Spire Düsseldorf Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 73,
+      "name": "Rheinturm Decimal Clock Lights",
+      "location": "Düsseldorf",
+      "draft_hook": "a television tower whose portholes display time in binary-like bands",
+      "why_it_works_on_a_walk": "The building becomes a functioning urban clock after dark.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Rheinturm Decimal Clock Lights Düsseldorf Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 74,
+      "name": "Bockenheimer Warte Subway Entrance",
+      "location": "Frankfurt",
+      "draft_hook": "a tram car apparently crashing into the pavement",
+      "why_it_works_on_a_walk": "The surreal portal makes descending underground feel like entering through an accident.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Bockenheimer Warte Subway Entrance Frankfurt Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 75,
+      "name": "IG Farben Building Exterior",
+      "location": "Frankfurt",
+      "draft_hook": "a vast curved modernist headquarters later occupied by the US military",
+      "why_it_works_on_a_walk": "The elegant façade carries an exceptionally difficult institutional history.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "IG Farben Building Exterior Frankfurt Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 76,
+      "name": "Frankfurt Main Station Atlas Figures",
+      "location": "Frankfurt",
+      "draft_hook": "a clock and allegorical figures crowning the railway façade",
+      "why_it_works_on_a_walk": "Mythic sculpture turns the transport terminus into a nineteenth-century city gate.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Frankfurt Main Station Atlas Figures Frankfurt Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 77,
+      "name": "Waldspirale",
+      "location": "Darmstadt",
+      "draft_hook": "a Hundertwasser housing block curling around a planted courtyard",
+      "why_it_works_on_a_walk": "No two windows match and the roof rises as an inhabited landscape.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Waldspirale Darmstadt Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 78,
+      "name": "Wedding Tower Mathildenhöhe",
+      "location": "Darmstadt",
+      "draft_hook": "a brick tower shaped like a raised hand",
+      "why_it_works_on_a_walk": "The five-fingered crown makes the artists' colony visible across the city.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Wedding Tower Mathildenhöhe Darmstadt Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 79,
+      "name": "Weissenhof Estate",
+      "location": "Stuttgart",
+      "draft_hook": "experimental 1927 housing by Europe's leading modernists",
+      "why_it_works_on_a_walk": "White cubic homes turn a hillside street into a manifesto for modern living.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Weissenhof Estate Stuttgart Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 80,
+      "name": "Birkenkopf Rubble Hill",
+      "location": "Stuttgart",
+      "draft_hook": "a viewpoint built from the ruins of bombed Stuttgart",
+      "why_it_works_on_a_walk": "Broken façades and carved stones remain visible underfoot at the summit.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 25,
+      "source_query": "Birkenkopf Rubble Hill Stuttgart Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 81,
+      "name": "Tagblatt Tower",
+      "location": "Stuttgart",
+      "draft_hook": "one of Germany's earliest reinforced-concrete skyscrapers",
+      "why_it_works_on_a_walk": "The narrow tower introduced a metropolitan verticality to interwar Stuttgart.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Tagblatt Tower Stuttgart Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 82,
+      "name": "Stuttgart City Library",
+      "location": "Stuttgart",
+      "draft_hook": "a luminous cube containing a white geometric interior",
+      "why_it_works_on_a_walk": "The severe outer shell becomes a glowing urban lantern after dark.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Stuttgart City Library Stuttgart Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 83,
+      "name": "Bosch-Areal Turbine Hall",
+      "location": "Stuttgart",
+      "draft_hook": "a surviving industrial hall embedded in a mixed-use district",
+      "why_it_works_on_a_walk": "Old power infrastructure remains legible amid offices, cinemas and housing.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 4,
+        "shareability": 4
+      },
+      "editorial_score": 20,
+      "source_query": "Bosch-Areal Turbine Hall Stuttgart Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 84,
+      "name": "Ehekarussell",
+      "location": "Nuremberg",
+      "draft_hook": "a grotesque fountain depicting marriage from desire to death",
+      "why_it_works_on_a_walk": "The crowded bronze scenes turn a pedestrian square into black comic theatre.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Ehekarussell Nuremberg Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 85,
+      "name": "Way of Human Rights",
+      "location": "Nuremberg",
+      "draft_hook": "a street of columns inscribed with articles of the declaration",
+      "why_it_works_on_a_walk": "A political text becomes a walkable architectural sequence.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 4,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Way of Human Rights Nuremberg Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 86,
+      "name": "Congress Hall Exterior",
+      "location": "Nuremberg",
+      "draft_hook": "an unfinished Nazi assembly hall built on a colossal Roman model",
+      "why_it_works_on_a_walk": "Its curved brick mass remains an unsettling edge to the recreational lake.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Congress Hall Exterior Nuremberg Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 87,
+      "name": "Goliath House Mural",
+      "location": "Regensburg",
+      "draft_hook": "a gigantic medieval David-and-Goliath painting covering a townhouse",
+      "why_it_works_on_a_walk": "The overscale scene confronts walkers at a narrow old-city junction.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Goliath House Mural Regensburg Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 88,
+      "name": "Porta Praetoria",
+      "location": "Regensburg",
+      "draft_hook": "a Roman gate absorbed into later buildings",
+      "why_it_works_on_a_walk": "Ancient military stonework surfaces directly within an inhabited street.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Porta Praetoria Regensburg Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 89,
+      "name": "Green Citadel",
+      "location": "Magdeburg",
+      "draft_hook": "Hundertwasser's pink fortress of uneven windows and golden domes",
+      "why_it_works_on_a_walk": "The organic complex rejects the straight lines of the surrounding centre.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 4,
+        "shareability": 4
+      },
+      "editorial_score": 20,
+      "source_query": "Green Citadel Magdeburg Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 90,
+      "name": "Karl Marx Monument",
+      "location": "Chemnitz",
+      "draft_hook": "a seven-metre bronze head detached from any body",
+      "why_it_works_on_a_walk": "The enormous face floats above a public square with blunt ideological force.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 23,
+      "source_query": "Karl Marx Monument Chemnitz Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 91,
+      "name": "Nanas on the Leine",
+      "location": "Hanover",
+      "draft_hook": "three brightly coloured voluptuous figures beside the river",
+      "why_it_works_on_a_walk": "The cheerful sculptures once scandalised the city and now anchor its riverside identity.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Nanas on the Leine Hanover Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 92,
+      "name": "Gehry Bus Stop",
+      "location": "Hanover",
+      "draft_hook": "a bus shelter folded into a metallic sculptural ribbon",
+      "why_it_works_on_a_walk": "Everyday transit receives the expressive treatment of a signature building.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Gehry Bus Stop Hanover Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 93,
+      "name": "Aegidienkirche Ruin",
+      "location": "Hanover",
+      "draft_hook": "a bombed church left roofless as a peace memorial",
+      "why_it_works_on_a_walk": "Trees, sky and a hanging bell occupy the missing interior.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Aegidienkirche Ruin Hanover Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 94,
+      "name": "Bunker Valentin",
+      "location": "Bremen",
+      "draft_hook": "a vast submarine-factory bunker on the Weser edge",
+      "why_it_works_on_a_walk": "The concrete shell's scale remains overwhelming even from its public perimeter.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Bunker Valentin Bremen Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 95,
+      "name": "Seven Lazy Brothers Façade",
+      "location": "Bremen",
+      "draft_hook": "storybook labourers carved across an Art Deco building",
+      "why_it_works_on_a_walk": "A local legend becomes an animated architectural frieze.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 23,
+      "source_query": "Seven Lazy Brothers Façade Bremen Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 96,
+      "name": "Spitting Stone at Bremen Cathedral",
+      "location": "Bremen",
+      "draft_hook": "a pavement marker where locals traditionally spit in contempt",
+      "why_it_works_on_a_walk": "A tiny street ritual preserves the memory of a notorious execution.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 24,
+      "source_query": "Spitting Stone at Bremen Cathedral Bremen Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 97,
+      "name": "Einstein Tower",
+      "location": "Potsdam",
+      "draft_hook": "an expressionist observatory shaped like fluid concrete",
+      "why_it_works_on_a_walk": "The astrophysical laboratory looks sculpted rather than constructed.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Einstein Tower Potsdam Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 98,
+      "name": "Haus am Horn",
+      "location": "Weimar",
+      "draft_hook": "a compact 1923 house built as the Bauhaus's full-scale prototype",
+      "why_it_works_on_a_walk": "A quiet residential object contains an entire programme for modern life.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 21,
+      "source_query": "Haus am Horn Weimar Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 99,
+      "name": "Holy Grave Görlitz",
+      "location": "Görlitz",
+      "draft_hook": "a late-medieval reconstruction of Jerusalem's sacred landscape",
+      "why_it_works_on_a_walk": "Chapels and paths reproduce a distant pilgrimage site at the city edge.",
+      "scores": {
+        "visual_impact": 5,
+        "surprise": 5,
+        "story": 4,
+        "walkability": 5,
+        "shareability": 5
+      },
+      "editorial_score": 24,
+      "source_query": "Holy Grave Görlitz Görlitz Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    },
+    {
+      "rank": 100,
+      "name": "Invisible Memorial Saarbrücken",
+      "location": "Saarbrücken",
+      "draft_hook": "thousands of Jewish cemetery names carved secretly beneath paving stones",
+      "why_it_works_on_a_walk": "The memorial's text faces the ground, making absence literally invisible to passers-by.",
+      "scores": {
+        "visual_impact": 4,
+        "surprise": 4,
+        "story": 5,
+        "walkability": 5,
+        "shareability": 4
+      },
+      "editorial_score": 22,
+      "source_query": "Invisible Memorial Saarbrücken Saarbrücken Denkmal Geschichte Architektur",
+      "duplicate_check": "pending — full-catalogue exact and fuzzy comparison required before import",
+      "status": "editorial research candidate — current access, exact facts, coordinates, category and catalogue novelty require production verification"
+    }
+  ]
+}
